@@ -1,0 +1,248 @@
+/* app/components/YouTubePlayer.module.css */
+.playerContainer {
+  position: fixed;
+  bottom: 60px;
+  right: 12px;
+  z-index: 9999;
+  width: 600px; /* PCでの表示サイズを600pxに変更 */
+  background-color: #000;
+  border: 1px solid #ccc;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  word-wrap: break-word;
+}
+
+/* スマホ用：画面幅900px以下の場合 */
+@media (max-width: 900px) {
+  .playerContainer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .videoContainer {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+
+  .trackInfo {
+    padding: 8px;
+  }
+
+  .trackThumbnail {
+    width: 40px;
+    height: 40px;
+  }
+
+  .controls {
+    padding: 8px;
+  }
+
+  .volumeSlider {
+    width: 80px;
+  }
+
+  .timeDisplay {
+    font-size: 12px;
+    min-width: 80px;
+  }
+}
+
+/* タブレット用：画面幅600px以下の場合 */
+@media (max-width: 600px) {
+  .playerContainer {
+    bottom: 0;
+  }
+
+  .trackInfo {
+    padding: 6px;
+  }
+
+  .trackThumbnail {
+    width: 32px;
+    height: 32px;
+  }
+
+  .controls {
+    padding: 6px;
+  }
+
+  .volumeSlider {
+    width: 60px;
+  }
+
+  .timeDisplay {
+    font-size: 11px;
+    min-width: 70px;
+  }
+}
+
+/* 楽曲情報（上部） */
+.trackInfo {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 6px;
+}
+
+.trackThumbnailContainer {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+
+.trackThumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.trackText {
+  display: flex;
+  flex-direction: column;
+}
+
+.trackTitle {
+  font-weight: bold;
+}
+
+.trackArtist {
+  /* 追加のスタイルが必要ならここに */
+}
+
+/* 動画表示部分 */
+.videoContainer {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: #000;
+  position: relative;
+}
+
+/* 進捗バー */
+.progressBar {
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.progressFill {
+  height: 15px;
+  background-color: #4caf50;
+}
+
+/* コントロール群 */
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 0 0 8px 8px;
+}
+
+.playbackControls,
+.volumeControls,
+.fullscreenControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 再生コントロール用の大きいボタン */
+.controlButton {
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  padding: 8px;
+  transition: color 0.2s;
+}
+
+.controlButton:hover:not(.controlButtonDisabled) {
+  color: #1a73e8;
+}
+
+.controlButtonDisabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+/* 再生・一時停止ボタンは特に大きく */
+.controlButton svg {
+  width: 20px;  /* アイコンサイズを増加 */
+  height: 20px; /* アイコンサイズを増加 */
+}
+
+/* 音量とフルスクリーンボタンは元のサイズを維持 */
+.volumeControls .controlButton,
+.fullscreenControls .controlButton {
+  width: 32px;
+  height: 32px;
+}
+
+.volumeControls .controlButton svg,
+.fullscreenControls .controlButton svg {
+  width: 16px;
+  height: 16px;
+}
+
+.volumeSlider {
+  width: 100px;
+  height: 4px;
+  -webkit-appearance: none;
+  background: #ddd;
+  border-radius: 2px;
+  outline: none;
+}
+
+.volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #333;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.volumeSlider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: #333;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+.timeDisplay {
+  font-size: 14px;
+  color: #666;
+  min-width: 100px;
+  text-align: center;
+}
+
+/* エラーメッセージ */
+.errorMessage {
+  color: red;
+  background-color: yellow;
+  border: 1px solid black;
+  padding: 10px;
+  position: fixed;
+  top: 100px;
+  left: 110px;
+  z-index: 1000;
+}

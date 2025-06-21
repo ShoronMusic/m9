@@ -1,0 +1,336 @@
+.spotifyPlayerContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.playerWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.spotifyEmbedContainer {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.spotifyIframe {
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.loadingOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.loadingSpinner {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.errorOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.errorMessage {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.errorMessage p {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.errorMessage button {
+  background: #1db954;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.errorMessage button:hover {
+  background: #1ed760;
+}
+
+.customControls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #f8f9fa;
+  border-top: 1px solid #e0e0e0;
+}
+
+.controlButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.controlButton {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+}
+
+.controlButton:hover {
+  background: #e9ecef;
+}
+
+.controlButton:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.controlButton:disabled:hover {
+  background: none;
+}
+
+.volumeControl {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.volumeSlider {
+  width: 80px;
+  height: 4px;
+  border-radius: 2px;
+  background: #ddd;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #1db954;
+  cursor: pointer;
+}
+
+.volumeSlider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #1db954;
+  cursor: pointer;
+  border: none;
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  .spotifyPlayerContainer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+  .playerWrapper {
+    max-width: 100%;
+  }
+
+  .spotifyIframe {
+    height: 200px;
+  }
+
+  .customControls {
+    padding: 8px 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .controlButtons {
+    gap: 6px;
+  }
+
+  .controlButton {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+  }
+
+  .volumeControl {
+    gap: 6px;
+  }
+
+  .volumeSlider {
+    width: 60px;
+  }
+}
+
+/* ミニプレーヤー */
+.miniPlayer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height: 200px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  z-index: 1001;
+  overflow: hidden;
+  cursor: move;
+}
+
+.miniPlayer .spotifyIframe {
+  height: 100%;
+  width: 100%;
+}
+
+/* フルスクリーン時のスタイル */
+.fullscreen .spotifyEmbedContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.fullscreen .spotifyIframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fullscreen .customControls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+.fullscreen .controlButton {
+  color: #fff;
+}
+
+.fullscreen .controlButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* アニメーション */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.spotifyPlayerContainer {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* ダークテーマ対応 */
+@media (prefers-color-scheme: dark) {
+  .spotifyPlayerContainer {
+    background: #1a1a1a;
+    border-top-color: #333;
+  }
+
+  .playerWrapper {
+    background: #1a1a1a;
+  }
+
+  .spotifyEmbedContainer {
+    background: #1a1a1a;
+  }
+
+  .customControls {
+    background: #2a2a2a;
+    border-top-color: #333;
+  }
+
+  .controlButton {
+    color: #fff;
+  }
+
+  .controlButton:hover {
+    background: #333;
+  }
+
+  .volumeSlider {
+    background: #444;
+  }
+
+  .errorMessage {
+    background: #2a2a2a;
+    color: #fff;
+  }
+
+  .errorMessage p {
+    color: #fff;
+  }
+} 

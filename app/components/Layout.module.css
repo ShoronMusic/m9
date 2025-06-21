@@ -1,0 +1,162 @@
+/* src/components/Layout.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logoTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logoLink {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+  }
+  
+  .loginStatus {
+    text-align: right;
+    flex: 1;
+  }
+  
+  .mobileMenu {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  
+  .menuIcon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .mobileNav {
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .searchBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .buttonGroup {
+    text-align: center;
+    margin: 10px 0 30px 0;
+  }
+  
+  .backButton,
+  .lockButton {
+    margin: 0 5px;
+    width: 100px;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .backButton {
+    background-color: #0070f3;
+    color: white;
+  }
+  
+  .lockButton {
+    background-color: green;
+    color: white;
+  }
+  
+  .lockButton.locked {
+    background-color: red;
+  }
+  
+  .locked a {
+    pointer-events: none;
+    color: grey;
+  }
+  
+  .loginStatusContainer {
+    grid-area: login;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  @media (min-width: 769px) {
+    .mobileMenu {
+      display: none;
+    }
+  
+    .logoTitle {
+      flex: 1;
+      text-align: left;
+    }
+  
+    .menu {
+      display: flex;
+      justify-content: center;
+      flex: 2;
+    }
+  
+    .loginStatus {
+      text-align: right;
+      flex: 1;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .logoTitle {
+      text-align: center;
+      flex-grow: 1;
+    }
+  
+    .loginStatus {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      white-space: nowrap;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .mobileMenu {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+  
+    .mobileNav {
+      display: block; /* JavaScript で制御 */
+    }
+  }
+  

@@ -1,0 +1,30 @@
+/* styles/globals.css */
+
+body {
+	font-family: "Meiryo", "Osaka", "MS PGothic", Arial, Helvetica, sans-serif;
+  }
+
+a {
+	text-decoration: none;
+	color: #1e6ebb;
+}
+a:visited {
+	color: #1e6ebb;
+}
+a:hover {
+	color: #cf3c2c;
+}
+
+
+.scroll-to-top-button {
+		position: fixed;
+		bottom: 10px;
+		right: 20px;
+		padding: 10px 15px;
+		background-color: #000;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		z-index: 1000;
+}

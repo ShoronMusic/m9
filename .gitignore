@@ -1,0 +1,67 @@
+# Node.js
+node_modules/
+
+# Next.js
+.next/
+out/
+dist/
+build/
+
+# OS/エディタ固有
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 環境変数
+.env
+.env.*
+
+# ログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+
+# その他
+.cache/
+
+# Node.js/Next.js 基本除外
+node_modules/
+.next/
+.env
+.env.*
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OSごとの不要ファイル
+Thumbs.db
+
+# テストカバレッジ
+coverage/
+
+# VSCode設定
+.vscode/
+
+# Macの不要ファイル
+Icon?
+
+# アップロードや一時ファイル
+*.swp
+*.swo
+
+# 公開しないデータ
+public/data/
+public/data.zip
+public/images/thum/
+public/images/thum_old/
+public/images/thum_large/
+public/images/thumbnails/
+scripts/
+
+# 大きなファイルとディレクトリ
+m8-mirror/
+.vercel

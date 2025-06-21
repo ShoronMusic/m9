@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50;
+    font-family: "Meiryo", "Osaka", "MS PGothic", Arial, Helvetica, sans-serif;
+  }
+} 
+
+/* すべてのリンクにポインターカーソル */
+a, a:visited {
+  cursor: pointer;
+}
+
+/* サムネイル画像がリンクの場合 */
+a img, .thumbnail-link {
+  cursor: pointer;
+}

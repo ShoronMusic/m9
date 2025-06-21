@@ -1,0 +1,133 @@
+.songList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.songItem {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.songItem:hover {
+  transform: translateY(-4px);
+}
+
+.songItem.active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.thumbnailContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.songInfo {
+  padding: 0.5rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artist {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* スケルトン表示用のスタイル */
+.skeletonItem {
+  display: flex;
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+.skeletonThumbnail {
+  width: 60px;
+  height: 60px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  margin-right: 12px;
+  animation: pulse 1.5s infinite;
+}
+
+.skeletonContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skeletonTitle {
+  height: 16px;
+  width: 80%;
+  background-color: #e0e0e0;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  animation: pulse 1.5s infinite;
+}
+
+.skeletonArtist {
+  height: 14px;
+  width: 60%;
+  background-color: #e0e0e0;
+  border-radius: 2px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+.pageTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.styleSection {
+  margin-bottom: 2rem;
+}
+
+.styleTitle {
+  border-bottom: 1px solid #666;
+  padding-bottom: 4px;
+  margin-bottom: 0.75rem;
+  color: #333;
+} 

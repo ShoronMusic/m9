@@ -1,0 +1,96 @@
+/* src/app/genres/GenresPage.module.css */
+
+.anchorMenu {
+  margin-bottom: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background: #0070f3;
+  z-index: 10;
+  padding: 12px 0 8px 0;
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+.anchorLink {
+  margin: 0 10px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.anchorLink:visited {
+  color: #fff;
+}
+
+.anchorLink:hover {
+  color: #e0e0e0;
+}
+
+.letterArea {
+  border-top: solid 1px #777777;
+  padding: 20px;
+  min-height: 180px;
+}
+
+.letterArea ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.genreGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px 16px;
+  padding: 0;
+  margin: 0 0 16px 0;
+  list-style: none;
+}
+
+.genreGrid li {
+  margin-bottom: 4px;
+}
+
+.loadMoreButton {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loadMoreButton:hover {
+  background-color: #005bb5;
+}
+
+.letterBg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6.5rem;
+  font-weight: 900;
+  color: #e0e0e0;
+  opacity: 0.5;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  .letterArea {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .genreGrid {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}

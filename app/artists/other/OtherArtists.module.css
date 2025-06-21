@@ -1,0 +1,50 @@
+/* src/app/artists/other/OtherArtists.module.css */
+
+.artistIndexContainer {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.artistMenu {
+  list-style: none;
+  padding: 0;
+}
+
+.artistItem {
+  margin: 10px 0;
+}
+
+.artistLink {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.artistLink:hover {
+  text-decoration: underline;
+}
+
+.showMoreButtonContainer {
+  margin-top: 20px;
+}
+
+.showMoreButton {
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.showMoreButton:hover {
+  background-color: #005bb5;
+}
+
+.showMoreButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,31 @@
+# 巨大なデータファイル（外部サーバーにすでにアップロード済み）
+public/data/
+public/data.zip
+public/images/thum/
+public/images/thum_old/
+public/images/thum_large/
+public/images/thumbnails/
+scripts/
+
+# ビルド関連の一時ファイル
+.next/
+out/
+dist/
+build/
+
+# Node.js関連
+node_modules/
+
+# 開発環境関連
+.git/
+.github/
+.vscode/
+.idea/
+
+# その他の不要ファイル
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db 

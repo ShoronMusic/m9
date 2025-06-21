@@ -1,0 +1,129 @@
+/* SaveToPlaylistPopup.css */
+
+.save-to-playlist-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* 背景の暗いオーバーレイ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* 他の要素の上に表示 */
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  z-index: 1000;
+  max-height: 80vh; /* ポップアップの最大高さを80%のビューポート高さに設定 */
+  display: flex;
+  flex-direction: column; /* 子要素を縦方向に配置 */
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.sort-container label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.sort-select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.playlist-list-container {
+  flex: 1; /* 残りのスペースを占有 */
+  overflow-y: auto; /* 縦スクロールを有効にする */
+  margin: 10px 0;
+  padding-right: 10px;
+}
+
+.playlist-list {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* マージンをリセット */
+}
+
+.playlist-list li {
+  margin-bottom: 10px;
+}
+
+.playlist-list button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.playlist-list button:hover {
+  background-color: #45a049;
+}
+
+.new-playlist-button,
+.close-button {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background-color: #98bedc;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-playlist-button:hover,
+.close-button:hover {
+  background-color: #0b7dda;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.no-playlists {
+  text-align: center;
+  margin: 10px 0;
+  color: #555;
+}
+
+/* カスタムスクロールバー（WebKitブラウザ向け） */
+.playlist-list-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.playlist-list-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.playlist-list-container::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.playlist-list-container::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}

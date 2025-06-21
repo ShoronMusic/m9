@@ -1,0 +1,29 @@
+.privacyContainer {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 2.5rem 2rem;
+}
+.privacyContainer h1 {
+  font-size: 2rem;
+  color: #1e6ebb;
+  margin-bottom: 1.5rem;
+}
+.privacyContainer h2, .privacyContainer h3 {
+  color: #1976d2;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.privacyContainer p {
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+.privacyContainer section {
+  margin-bottom: 2rem;
+}
+.privacyContainer a {
+  color: #0070f3;
+  text-decoration: underline;
+} 

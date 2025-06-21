@@ -1,0 +1,411 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.artistHeader {
+  margin-bottom: 2rem;
+}
+
+.artistProfile {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.imageContainer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.artistImage {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.infoContainer {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.artistName {
+  font-size: 2em;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.artistJpName {
+  font-size: 1.2em;
+  color: #666;
+  margin: 0 0 20px 0;
+}
+
+.artistInfo {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.artistInfo p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.flag {
+  border-radius: 4px;
+}
+
+.occupation {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #444;
+}
+
+.activeYear,
+.birthInfo {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.artistDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.2s;
+}
+
+/* すべてのソーシャルアイコンを同じサイズに */
+.socialIcon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  display: block;
+}
+
+.socialLink:hover {
+  background-color: #dbeafe; /* Tailwind blue-100相当 */
+  color: #2563eb; /* Tailwind blue-600相当 */
+  transform: translateY(-1px);
+}
+
+.songsSection {
+  margin-top: 0;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.pageButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pageButton:hover:not(:disabled) {
+  background: #f5f5f5;
+}
+
+.pageButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pageInfo {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .artistProfile {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .artistName {
+    font-size: 2rem;
+  }
+
+  .artistJpName {
+    font-size: 1.2rem;
+  }
+
+  .socialLinks {
+    flex-wrap: wrap;
+  }
+}
+
+/* --- スタイル内訳用のスタイル --- */
+.styleBreakdownSection {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.styleBreakdown {
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.styleTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.styleList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+
+.styleItem {
+  font-size: 1rem;
+  color: #555;
+  background-color: #eee;
+  padding: 0.35rem 0.85rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+/* --- ここまで --- */
+
+/* --- ジャンル内訳用のスタイル (スタイル内訳とほぼ同じ) --- */
+.genreBreakdownSection {
+  width: 100%;
+  margin: 2rem 0; 
+}
+
+.genreBreakdown {
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 1200px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.genreTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.genreList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+
+.genreItem {
+  font-size: 1rem;
+  color: #555;
+  background-color: #eee;
+  padding: 0.35rem 0.85rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+/* --- ここまで --- */
+
+/* --- 区切り線のスタイル --- */
+.divider {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 2rem 0;
+}
+
+/* Spotify画像クレジット用スタイル */
+.spotifyImageCredit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  margin-top: 0;
+  padding: 0.5rem 0;
+  border-radius: 0;
+}
+
+.spotifyCreditText {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.spotifyLogo {
+  height: 20px !important;
+  width: auto;
+}
+
+/* --- メンバー表示用のスタイル --- */
+.membersSection {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.membersTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #444;
+}
+
+.membersList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem; /* アイテム間のスペース */
+}
+
+.memberItem {
+  font-size: 0.95rem;
+}
+
+.memberLink {
+  color: #0070f3; /* Next.js デフォルトリンク色 */
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.memberLink:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+/* --- ここまで --- */
+
+.relatedArtistsSection {
+  margin-top: 1.5rem;
+}
+
+.relatedArtistsTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.relatedArtistsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.relatedArtistLink {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.relatedArtistLink:hover {
+  color: #004499;
+  text-decoration: underline;
+}
+
+.relatedArtistsSeparator {
+  color: #666;
+  margin: 0 0.25rem;
+}
+
+.relatedArtistsNote {
+  font-size: 0.85rem;
+  color: #999;
+  margin-top: 1rem;
+  font-style: italic;
+  text-align: left;
+}
+
+.members {
+  margin-top: 20px;
+}
+
+.members h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.members ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.members li {
+  margin: 5px 0;
+}
+
+.members a {
+  color: #1e6ebb;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.members a:hover {
+  text-decoration: underline;
+}

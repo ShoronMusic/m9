@@ -1,0 +1,194 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.songList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.songItem {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  gap: 10px;
+}
+
+.songInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.thumbnailBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 0; /* 余白をゼロに */
+}
+
+/* 画像下の余白を消すために block 表示に */
+.thumbnailBtn img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* アクティブ時のエフェクト（例: ネオン発光など） */
+/* SongListTopPage.module.css の一部 */
+.playing {
+border-radius: 4px;
+animation: neonPulse 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neonPulse {
+0% {
+  box-shadow: 0 0 0px rgba(255, 224, 0, 0.7);
+}
+100% {
+  box-shadow: 0 0 15px 5px rgba(255, 224, 0, 0.8);
+}
+}
+
+.playingBorder {
+border: 2.5px solid #ffd700;
+border-radius: 6px;
+box-sizing: border-box;
+animation: neonPulseStrong 1.2s ease-in-out infinite alternate;
+background: rgba(255, 245, 157, 0.4);
+box-shadow: 0 0 18px 4px rgba(255, 215, 0, 0.7);
+}
+.playIcon {
+display: inline-block;
+vertical-align: middle;
+margin-left: 6px;
+width: 16px;
+height: 16px;
+background: rgba(60,200,60,0.95);
+clip-path: polygon(0 0, 100% 50%, 0 100%);
+border-radius: 3px;
+box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+}
+
+@keyframes neonPulseStrong {
+0% {
+  box-shadow: 0 0 0px 0px rgba(255, 215, 0, 0.4);
+}
+100% {
+  box-shadow: 0 0 18px 8px rgba(255, 215, 0, 0.85);
+}
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px; /* サムネイルとの距離 */
+}
+
+.artist {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.title {
+  font-size: 1rem;
+  color: #333;
+}
+
+.title b {
+  font-weight: normal;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.thumbnailContainer {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.genreContainer {
+  margin-bottom: 20px;
+}
+
+.genreTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+.genreLink {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.genreLink:hover {
+  text-decoration: underline;
+}
+
+.styleLink {
+color: #1976d2;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.2s;
+position: relative;
+display: inline-flex;
+align-items: center;
+}
+.styleLink:hover {
+color: #0d47a1;
+text-decoration: none;
+}
+.arrowAnim {
+display: inline-block;
+margin-left: 4px;
+font-size: 0.95em;
+color: #888;
+transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), color 0.2s;
+vertical-align: middle;
+}
+.styleLink:hover .arrowAnim {
+transform: translateX(8px) scale(1.1);
+color: #1976d2;
+}

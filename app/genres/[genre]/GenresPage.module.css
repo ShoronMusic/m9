@@ -1,0 +1,22 @@
+/* src/app/genres/[genre]/GenresPage.module.css */
+
+.container {
+  /* 必要に応じてスタイルを追加 */
+}
+
+.loadMoreButton {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loadMoreButton:hover {
+  background-color: #005bb5;
+}
+
+/* 他のスタイルも必要に応じて追加 */

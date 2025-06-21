@@ -1,0 +1,64 @@
+/* src/app/styles/StylesPage.module.css */
+
+.styleListContainer {
+  padding: 20px;
+}
+
+.styleListContainer h1 {
+  margin-bottom: 20px;
+}
+
+.styleList {
+  list-style: none;
+  padding: 0;
+}
+
+.styleListItem {
+  margin-bottom: 10px;
+}
+
+.styleLink {
+  text-decoration: none;
+  color: #0070f3;
+}
+
+.styleLink:hover {
+  text-decoration: underline;
+}
+
+.bannerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* レスポンシブなグリッド */
+  gap: 20px; /* グリッド間のスペース */
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .bannerGrid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* 古いリストスタイル（不要であれば削除） */
+/*
+.styleList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.styleListItem {
+  margin-bottom: 10px;
+}
+
+.styleLink {
+  text-decoration: none;
+  color: #0070f3;
+  font-size: 1.1rem;
+}
+
+.styleLink:hover {
+  text-decoration: underline;
+}
+*/
+

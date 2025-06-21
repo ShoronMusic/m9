@@ -1,0 +1,72 @@
+/* src/app/genres/[genre]/GenrePageClient.module.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.totalSongs {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.paginationInfo {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  text-align: left;
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+.footerText {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.spotifyLogo {
+  height: 21px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+.loadMoreButton {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loadMoreButton:hover {
+  background-color: #005bb5;
+}
+
+/* 必要に応じて他のスタイルを追加 */ 
