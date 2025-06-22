@@ -28,7 +28,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(4, 170, 109, 0.1);
+  /* 色変化アニメーションのベースとなるグラデーション背景 */
+  background: linear-gradient(
+    90deg, 
+    rgba(4, 170, 109, 0.1), 
+    rgba(4, 170, 109, 0.3), /* 中間の色をより濃くして変化を明確に */
+    rgba(4, 170, 109, 0.1)
+  );
+  background-size: 200% 100%; /* グラデーションの幅を2倍に */
   border-radius: 8px;
   transform: scaleX(0);
   transform-origin: left;
@@ -38,6 +45,19 @@
 
 .songItem.playing::before {
   transform: scaleX(1);
+  /* .playingになったら、カラーフローアニメーションを開始 */
+  animation: flowColor 4s linear infinite;
+  animation-delay: 0.5s; /* スライドインが終わってから開始 */
+}
+
+/* 色が流れるように見せるためのキーフレームアニメーション */
+@keyframes flowColor {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .songItem.playing {

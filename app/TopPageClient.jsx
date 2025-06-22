@@ -182,7 +182,7 @@ export default function TopPageClient({ topSongsData = [] }) {
 	return (
 		<div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
 			<h1 style={{
-				fontSize: '2.5rem',
+				fontSize: '1.8rem',
 				fontWeight: 800,
 				marginBottom: '2rem',
 				textAlign: 'left'
