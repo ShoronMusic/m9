@@ -13,9 +13,18 @@
   display: flex;
   align-items: center;
   padding: 8px;
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   border-bottom: 1px solid #eee;
   gap: 10px;
+}
+
+.songItem.playing {
+  background-color: rgba(4, 170, 109, 0.1);
+  border-radius: 8px;
+}
+
+.songItem:hover {
+  background-color: #f5f5f5;
 }
 
 .songInfo {
@@ -39,51 +48,6 @@
   width: 50px;
   height: 50px;
   object-fit: cover;
-}
-
-/* アクティブ時のエフェクト（例: ネオン発光など） */
-/* SongListTopPage.module.css の一部 */
-.playing {
-border-radius: 4px;
-animation: neonPulse 1.5s ease-in-out infinite alternate;
-}
-
-@keyframes neonPulse {
-0% {
-  box-shadow: 0 0 0px rgba(255, 224, 0, 0.7);
-}
-100% {
-  box-shadow: 0 0 15px 5px rgba(255, 224, 0, 0.8);
-}
-}
-
-.playingBorder {
-border: 2.5px solid #ffd700;
-border-radius: 6px;
-box-sizing: border-box;
-animation: neonPulseStrong 1.2s ease-in-out infinite alternate;
-background: rgba(255, 245, 157, 0.4);
-box-shadow: 0 0 18px 4px rgba(255, 215, 0, 0.7);
-}
-.playIcon {
-display: inline-block;
-vertical-align: middle;
-margin-left: 6px;
-width: 16px;
-height: 16px;
-background: rgba(60,200,60,0.95);
-clip-path: polygon(0 0, 100% 50%, 0 100%);
-border-radius: 3px;
-box-shadow: 0 1px 4px rgba(0,0,0,0.18);
-}
-
-@keyframes neonPulseStrong {
-0% {
-  box-shadow: 0 0 0px 0px rgba(255, 215, 0, 0.4);
-}
-100% {
-  box-shadow: 0 0 18px 8px rgba(255, 215, 0, 0.85);
-}
 }
 
 .textBlock {
@@ -194,16 +158,7 @@ transform: translateX(8px) scale(1.1);
 color: #1976d2;
 }
 
-.songItem:hover {
-	background-color: #f4f4f4;
-}
-
 /* 再生中の曲のスタイル */
-.playing {
-	background-color: #e6f7ff; /* 薄い水色 */
-	border-radius: 8px;
-}
-
 .playing:hover {
 	background-color: #d9f2ff; /* 再生中にホバーした場合は少し濃い水色に */
 }

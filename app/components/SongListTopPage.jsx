@@ -249,7 +249,7 @@ export default function SongListTopPage({
 	onPrevious,
 	showTitle = true,
 }) {
-	const { currentTrack } = usePlayer();
+	const { currentTrack, isPlaying: isPlayerPlaying } = usePlayer();
 	const [menuVisible, setMenuVisible] = useState(false);
 	const [menuTriggerRect, setMenuTriggerRect] = useState(null);
 	const [selectedSong, setSelectedSong] = useState(null);
@@ -433,18 +433,13 @@ export default function SongListTopPage({
 					const isLiked = likedSongs[songId] || false;
 					const viewCount = viewCounts[songId] || 0;
 					const userViewCount = userViewCounts[songId] || 0;
-					const isPlaying = currentTrack && currentTrack.id === song.id;
-					const itemStyle = {
-						backgroundColor: isPlaying ? '#e6f7ff' : 'transparent',
-						borderRadius: isPlaying ? '8px' : '0'
-					};
+					const isPlaying = currentTrack && currentTrack.id === song.id && isPlayerPlaying;
 
 					return (
-						<li 
-							key={song.id} 
+						<li
+							key={song.id}
 							id={`song-${song.id}`} 
-							className={styles.songItem}
-							style={itemStyle}
+							className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}
 						>
 							<div className="ranking-thumbnail-container"></div>
 							<button
