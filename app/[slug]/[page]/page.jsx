@@ -46,13 +46,13 @@ async function getArtistSongs(slug, page) {
 }
 
 async function getAllArtistSongs(slug) {
-    let allSongs = [];
+  let allSongs = [];
     let pageNum = 1;
     while (true) {
         const songs = await getArtistSongs(slug, pageNum);
         if (songs.length === 0) break;
         allSongs = allSongs.concat(songs);
-        pageNum++;
+      pageNum++;
     }
     return allSongs;
 }
@@ -65,13 +65,13 @@ export default async function ArtistPageWithPagination({ params }) {
   if (!slug || isNaN(page)) {
     notFound();
   }
-  
+
   const artistData = await getArtistDetails(slug);
-  
+
   if (!artistData) {
     notFound();
   }
-  
+
   const songs = await getArtistSongs(slug, page);
   const allSongs = await getAllArtistSongs(slug);
   const totalSongs = allSongs.length;
@@ -79,10 +79,10 @@ export default async function ArtistPageWithPagination({ params }) {
   const totalPages = Math.ceil(totalSongs / songsPerPage);
   const startSongNumber = (page - 1) * songsPerPage + 1;
   const endSongNumber = Math.min(page * songsPerPage, totalSongs);
-  
+
   return (
     <Suspense fallback={<div>Loading Artist...</div>}>
-      <ArtistPageClient
+        <ArtistPageClient
         artistData={artistData}
         songs={songs}
         currentPage={page}
@@ -91,8 +91,8 @@ export default async function ArtistPageWithPagination({ params }) {
         startSongNumber={startSongNumber}
         endSongNumber={endSongNumber}
         allSongs={allSongs}
-      />
-    </Suspense>
+        />
+      </Suspense>
   );
 }
 

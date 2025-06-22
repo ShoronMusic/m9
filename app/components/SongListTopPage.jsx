@@ -22,6 +22,7 @@ import {
 } from "firebase/firestore";
 import SaveToPlaylistPopup from "./SaveToPlaylistPopup";
 import Link from "next/link";
+import { usePlayer } from './PlayerContext';
 
 // 先頭の "The " を取り除く
 function removeLeadingThe(str = "") {
@@ -257,7 +258,7 @@ function groupByStyle(posts) {
 export default function SongListTopPage({
 	songs = [],
 	currentSongIndex = 0,
-	setTrack,
+	onTrackPlay,
 	onNext,
 	onPrevious,
 }) {
@@ -406,7 +407,7 @@ export default function SongListTopPage({
 						</Link>
 					</h2>
 					<ul className={styles.songList}>
-						{styleGroup.songs.map((song) => {
+						{styleGroup.songs.map((song, index) => {
 							// categoriesを必ず定義
 							const categories = song.custom_fields?.categories || song.categories || [];
 							// artists配列があればそれを優先して表示
@@ -515,7 +516,7 @@ export default function SongListTopPage({
 											styles.thumbnailContainer +
 											((currentSongIndex !== null && currentSongIndex !== undefined && song.originalIndex === currentSongIndex) ? ' ' + styles.playingBorder : '')
 										}
-										onClick={() => setTrack(song.originalIndex)}
+										onClick={() => onTrackPlay(song, index)}
 										aria-label={`再生 ${decodeHtmlEntities(title)}`}
 										style={{ marginRight: 16 }}
 									>
@@ -619,7 +620,7 @@ export default function SongListTopPage({
 SongListTopPage.propTypes = {
 	songs: PropTypes.array,
 	currentSongIndex: PropTypes.number,
-	setTrack: PropTypes.func,
+	onTrackPlay: PropTypes.func,
 	onNext: PropTypes.func,
 	onPrevious: PropTypes.func,
 };

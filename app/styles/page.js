@@ -61,15 +61,15 @@ async function StylesPage() {
 	const stylesData = await getStylesSummaryData();
 
 	return (
-		<div className={styles.styleListContainer}>
-			<h1>Styles List</h1>
-			<div className={styles.bannerGrid}>
-				{stylesData.map((styleData) => (
+            <div className={styles.styleListContainer}>
+				<h1>Styles List</h1>
+				<div className={styles.bannerGrid}>
+					{stylesData.map((styleData) => (
 					<StyleBanner key={styleData.slug} style={styleData} updateDate={styleData.updateDate} />
-				))}
+					))}
+				</div>
 			</div>
-		</div>
-	);
+    );
 }
 
 // The old function getStylesWithSongCountsAndDate is no longer needed and removed.
