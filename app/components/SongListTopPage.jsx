@@ -261,6 +261,9 @@ export default function SongListTopPage({
 	const [selectedSongId, setSelectedSongId] = useState(null);
 	const [menuHeight, setMenuHeight] = useState(0);
 	const menuRef = useRef(null);
+	const [isPopupVisible, setIsPopupVisible] = useState(false);
+	const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
+	const [popupSong, setPopupSong] = useState(null);
 
 	useEffect(() => {
 		const unsubscribe = auth.onAuthStateChanged(async (user) => {
@@ -347,22 +350,56 @@ export default function SongListTopPage({
 	};
 
 	const handleThreeDotsClick = (e, song, categories) => {
+		console.log("Three dots clicked!", song);
 		e.stopPropagation();
 		const iconRect = e.currentTarget.getBoundingClientRect();
-		const menuWidth = 200; // ポップアップの想定幅(px)
-		const windowWidth = window.innerWidth;
-		let left = iconRect.right + window.scrollX;
-		if (left + menuWidth > windowWidth) {
-			left = windowWidth - menuWidth - 8; // 8pxは余白
-			if (left < 0) left = 0;
+		const menuWidth = 220;
+		const menuHeightPx = 240; // 仮の高さ
+
+		// メニューをアイコンの右上に表示するための計算
+		let top = iconRect.top - menuHeightPx;
+		let left = iconRect.right - menuWidth;
+
+		// 画面からはみ出さないように調整
+		if (left < 8) {
+			left = 8;
 		}
-		setMenuTriggerRect({
-			top: iconRect.bottom + window.scrollY - menuHeight,
-			left
-		});
-		setSelectedSong({ ...song, genre: song.genre_data, categories });
-		setMenuVisible(true);
+		if (top < 8) {
+			top = 8;
+		}
+		setPopupPosition({ top, left });
+		setPopupSong(song);
+		setIsPopupVisible(true);
 	};
+
+	const handleAddToPlaylistClick = (songId) => {
+		const numericId = typeof songId === 'string' ? parseInt(songId, 10) : songId;
+		if (isNaN(numericId)) {
+			console.error('Invalid song ID:', songId);
+			return;
+		}
+		setSelectedSongId(numericId);
+		setShowSavePopup(true);
+		setIsPopupVisible(false);
+	};
+
+	const closeSavePopup = () => {
+		setShowSavePopup(false);
+		setSelectedSongId(null);
+	};
+
+	// ポップアップの外側をクリックしたら閉じる
+	useEffect(() => {
+		const handleDocumentClick = (e) => {
+			if (isPopupVisible) {
+				setIsPopupVisible(false);
+			}
+		};
+		document.addEventListener("click", handleDocumentClick);
+		return () => {
+			document.removeEventListener("click", handleDocumentClick);
+		};
+	}, [isPopupVisible]);
 
 	return (
         <div className={styles.songlistWrapper}>
@@ -441,76 +478,68 @@ export default function SongListTopPage({
 							id={`song-${song.id}`} 
 							className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}
 						>
-							<div className="ranking-thumbnail-container"></div>
-							<button
-								className={
-									styles.thumbnailContainer +
-									((currentSongIndex !== null && currentSongIndex !== undefined && song.originalIndex === currentSongIndex) ? ' ' + styles.playingBorder : '')
-								}
-								onClick={() => onTrackPlay(song, index)}
-								aria-label={`再生 ${decodeHtmlEntities(title)}`}
-								style={{ marginRight: 16 }}
-							>
-								<img
-									src={thumbnailUrl}
-									alt={`${decodeHtmlEntities(title)} のサムネイル`}
-									onError={(e) => {
-										const wpWebp = (src) => src ? src.replace(/\.[a-zA-Z0-9]+$/, ".webp") : "";
-										if (!e.currentTarget.dataset.triedWp) {
-											e.currentTarget.dataset.triedWp = "1";
-											e.currentTarget.src = wpWebp(song.thumbnail || song.featured_media_url || "");
-										} else {
-											if (e.currentTarget.src !== "/placeholder.jpg") {
-												e.currentTarget.src = "/placeholder.jpg";
+							<div className={styles.songLeftContainer}>
+								<button
+									className={
+										styles.thumbnailContainer +
+										((currentSongIndex !== null && currentSongIndex !== undefined && song.originalIndex === currentSongIndex) ? ' ' + styles.playingBorder : '')
+									}
+									onClick={() => onTrackPlay(song, index)}
+									aria-label={`再生 ${decodeHtmlEntities(title)}`}
+									style={{ marginRight: 16 }}
+								>
+									<img
+										src={thumbnailUrl}
+										alt={`${decodeHtmlEntities(title)} のサムネイル`}
+										onError={(e) => {
+											const wpWebp = (src) => src ? src.replace(/\.[a-zA-Z0-9]+$/, ".webp") : "";
+											if (!e.currentTarget.dataset.triedWp) {
+												e.currentTarget.dataset.triedWp = "1";
+												e.currentTarget.src = wpWebp(song.thumbnail || song.featured_media_url || "");
+											} else {
+												if (e.currentTarget.src !== "/placeholder.jpg") {
+													e.currentTarget.src = "/placeholder.jpg";
+												}
 											}
-										}
-									}}
-								/>
-							</button>
-							<div className={styles.songDetails}>
-								<div className={styles.songInfo}>
-									<div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-										<div className={styles.title} style={{ flexGrow: 1 }}>
-											<div style={{ marginRight: "auto", display: "block" }}>
-												{artistElements}
-												<br />
-												<span>{decodeHtmlEntities(title)}</span>
-											</div>
+										}}
+									/>
+								</button>
+								<div className={styles.songDetails}>
+									<div>
+										<div className={styles.title}>
+											{artistElements}
+											<br />
+											<span>{decodeHtmlEntities(title)}</span>
 										</div>
-										<div className={styles.icons} style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0, marginLeft: '16px' }}>
-											<span
-												className={styles.likeIcon}
-												onClick={(e) => {
-													e.stopPropagation();
-													toggleLike(String(song.id));
-												}}
-											>
-												<img
-													src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
-													alt="Like"
-													style={{ width: "14px", height: "14px" }}
-												/>
-												{likeCount > 0 && (
-													<span className={styles.likeCount} style={{ fontSize: "10px", marginLeft: "2px" }}>
-														{likeCount}
-													</span>
-												)}
-											</span>
-											{viewCount > 0 && (
-												<span className={styles.viewCount} style={{ fontSize: "10px", color: "#666" }}>
-													({viewCount}{userViewCount > 0 ? ` / ${userViewCount}` : ""})
+										<div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+											<span style={{ fontSize: "0.85em" }}>{releaseDate}</span>
+											{genreText !== "Unknown Genre" && (
+												<span style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "0.85em" }}>
+													({genreText})
 												</span>
 											)}
+											{vocalIcons && <span style={{ display: "inline-flex", alignItems: "center" }}>{vocalIcons}</span>}
 										</div>
 									</div>
-									<div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
-										<span style={{ fontSize: "0.85em" }}>{releaseDate}</span>
-										{genreText !== "Unknown Genre" && (
-											<span style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "0.85em" }}>
-												({genreText})
-											</span>
-										)}
-										{vocalIcons && <span style={{ display: "inline-flex", alignItems: "center" }}>{vocalIcons}</span>}
+									<div className={styles.icons}>
+										<button
+											onClick={(e) => { e.stopPropagation(); toggleLike(songId); }}
+											className={styles.likeButton}
+										>
+											<img
+												src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
+												alt="Like"
+												style={{ width: "14px", height: "14px" }}
+											/>
+										</button>
+										<span className={styles.count}>{likeCount}</span>
+										<span className={styles.count}>({viewCount})</span>
+										<button
+											className={styles.threeDotsButton}
+											onClick={(e) => handleThreeDotsClick(e, song, categories)}
+										>
+											<img src="/svg/three-dots-line.svg" alt="メニュー" width="16" />
+										</button>
 									</div>
 								</div>
 							</div>
@@ -519,26 +548,86 @@ export default function SongListTopPage({
 				})}
 			</ul>
             
-			{menuVisible && selectedSong &&
-				ReactDOM.createPortal(
-					<ThreeDotsMenu
-						ref={menuRef}
-						song={selectedSong}
-						triggerRect={menuTriggerRect}
-						onClose={() => setMenuVisible(false)}
-						onAddToPlaylist={() => {
-							setSelectedSongId(selectedSong.id);
-							setShowSavePopup(true);
-							setMenuVisible(false);
-						}}
-					/>,
-					document.body
-				)
-			}
+			{isPopupVisible && popupSong && (
+				<ThreeDotsMenu
+					song={popupSong}
+					position={popupPosition}
+					onClose={() => setIsPopupVisible(false)}
+					onAddToPlaylist={() => handleAddToPlaylistClick(popupSong.id)}
+					onCopyUrl={() => {
+						navigator.clipboard.writeText(`${window.location.origin}/${popupSong.artists[0]?.slug}/songs/${popupSong.titleSlug}`);
+						setIsPopupVisible(false);
+					}}
+					renderMenuContent={({ song, onAddToPlaylist, onCopyUrl }) => {
+						const menuButtonStlye = { display: 'flex', alignItems: 'center', width: '100%', background: 'none', border: 'none', padding: '8px 12px', textAlign: 'left', cursor: 'pointer' };
+						const menuItemStyle = { ...menuButtonStlye, textDecoration: 'none', color: 'inherit' };
+						const separatorStyle = { borderBottom: '1px solid #eee' };
+						const linkColorStyle = { color: '#007bff' };
+
+						return (
+							<>
+								<div style={separatorStyle}>
+									{song.artists?.map(artist => (
+										<Link href={`/${artist.slug}`} key={artist.id} legacyBehavior>
+											<a style={{ ...menuItemStyle, ...linkColorStyle, fontWeight: 'bold' }}>
+												<img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+												{artist.name}
+											</a>
+										</Link>
+									))}
+								</div>
+
+								<div style={separatorStyle}>
+									<Link href={`/${song.artists[0]?.slug}/songs/${song.titleSlug}`} legacyBehavior>
+										<a style={{...menuItemStyle, ...linkColorStyle}}>
+											<img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+											{song.title?.rendered || "No Title"}
+										</a>
+									</Link>
+								</div>
+
+								{song.genres?.map(genre => (
+									<div key={genre.term_id} style={separatorStyle}>
+										<Link href={`/genres/${genre.slug}/1`} legacyBehavior>
+											<a style={{...menuItemStyle, ...linkColorStyle}}>
+												<img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+												{genre.name}
+											</a>
+										</Link>
+									</div>
+								))}
+
+								<div style={separatorStyle}>
+									<button onClick={onAddToPlaylist} style={menuButtonStlye}>
+										<img src="/svg/add.svg" alt="" style={{ width: 16, marginRight: 8 }} />
+										プレイリストに追加
+									</button>
+								</div>
+
+								{song.spotifyTrackId && (
+									<div style={separatorStyle}>
+										<a href={`https://open.spotify.com/track/${song.spotifyTrackId}`} target="_blank" rel="noopener noreferrer" style={{...menuItemStyle, ...linkColorStyle}}>
+											<img src="/svg/spotify.svg" alt="" style={{ width: 16, marginRight: 8 }} />
+											Spotifyで開く
+										</a>
+									</div>
+								)}
+
+								<div>
+									<button onClick={onCopyUrl} style={menuButtonStlye}>
+										<img src="/svg/copy.svg" alt="" style={{ width: 16, marginRight: 8 }} />
+										曲のURLをコピー
+									</button>
+								</div>
+							</>
+						)
+					}}
+				/>
+			)}
 			{showSavePopup && (
 				<SaveToPlaylistPopup
 					songId={selectedSongId}
-					onClose={() => setShowSavePopup(false)}
+					onClose={closeSavePopup}
 				/>
 			)}
 		</div>
