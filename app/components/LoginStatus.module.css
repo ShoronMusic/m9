@@ -1,3 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.spotifyIcon {
+  height: 24px;
+  width: 24px;
+  filter: brightness(0) invert(1);
+}
+
 .loginButton {
   background-color: #1db954; /* Spotify Green */
   color: white;

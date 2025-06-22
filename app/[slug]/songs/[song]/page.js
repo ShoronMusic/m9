@@ -1,35 +1,23 @@
 import SongDetailClient from "./SongDetailClient";
 import { notFound } from 'next/navigation';
-
-const API_BASE_URL = 'https://xs867261.xsrv.jp/data/data';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/authOptions';
+import fs from 'fs/promises';
+import path from 'path';
 
 async function getSongData(slug, song) {
   try {
-    const filePath = `${API_BASE_URL}/songs/${slug}_${song}.json`;
-    const res = await fetch(filePath, {
-      next: { revalidate: 0 },
-      headers: {
-        'Accept': 'application/json',
-        'Cache-Control': 'no-cache'
-      }
-    });
+    const filePath = path.join(process.cwd(), 'public', 'data', 'songs', `${slug}_${song}.json`);
+    const fileContents = await fs.readFile(filePath, 'utf8');
+    const data = JSON.parse(fileContents);
 
-    if (!res.ok) {
-      return null;
-    }
-
-    const data = await res.json();
-
-    if (!data || typeof data !== 'object') {
-      return null;
-    }
-
-    if (!data.title || !data.artists) {
+    if (!data || typeof data !== 'object' || !data.title || !data.artists) {
       return null;
     }
 
     return data;
   } catch (error) {
+    console.error(`Error reading song data for ${slug}_${song}.json:`, error);
     return null;
   }
 }
@@ -60,11 +48,19 @@ export default async function SongDetailPage({ params }) {
     notFound();
   }
 
+  // セッションからアクセストークンを取得
+  const session = await getServerSession(authOptions);
+  const accessToken = session?.accessToken || null;
+
   const artistNames = songData.artists?.map(a => a.name).join(", ") || "Unknown Artist";
   const description = `Artist: ${artistNames} | Title: ${songData.title} | Release: ${songData.releaseDate}`;
 
   return (
-    <SongDetailClient songData={songData} description={description} />
+    <SongDetailClient 
+      songData={songData} 
+      description={description} 
+      accessToken={accessToken}
+    />
   );
 }
 
