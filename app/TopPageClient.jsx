@@ -256,41 +256,32 @@ export default function TopPageClient({ topSongsData = [] }) {
 		setTrack(idx);
 	};
 
-	// The return statement is modified to remove the Layout wrapper
 	return (
-		<div>
-			{currentVideoId && (
+		<div className="topPageContainer">
+			<h2 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>
+				New Songs Across 8 Styles
+			</h2>
+			<SongListTopPage
+				songs={allSongs}
+				currentSongIndex={currentSongIndex}
+				setTrack={setTrack}
+				onNext={handleNextSong}
+				onPrevious={handlePreviousSong}
+			/>
+			{currentVideoId && currentTrack && (
 				<YouTubePlayer
+					ref={playerRef}
 					videoId={currentVideoId}
-					onEnded={handleNextSong}
-					playerRef={playerRef}
+					currentTrack={currentTrack}
+					onEnd={handleNextSong}
+					handlePreviousSong={handlePreviousSong}
+					autoPlay={userInteractedRef.current}
+					pageType="Home"
+					posts={allSongs}
+					styleSlug={currentTrack?.styleSlug || "unknown"}
+					styleName={currentTrack?.styleName || "Unknown Style"}
 				/>
 			)}
-			{styleSlugs.map((slug) => {
-				const styleName = styleDisplayMap[slug] || "Unknown Style";
-				const songsForStyle = songsByStyle[slug] || [];
-				return (
-					<div key={slug}>
-						<h2
-							style={{
-								fontSize: "24px",
-								fontWeight: "bold",
-								marginTop: "40px",
-								marginBottom: "20px",
-							}}
-						>
-							{styleName}
-						</h2>
-						<SongListTopPage
-							songs={songsForStyle}
-							onThumbnailClick={(songId) => {
-								const songIndex = allSongs.findIndex(s => s.id === songId);
-								if (songIndex !== -1) handleThumbnailClick(songIndex);
-							}}
-						/>
-					</div>
-				);
-			})}
 		</div>
 	);
 }

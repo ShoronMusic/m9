@@ -18,3 +18,18 @@ a, a:visited {
 a img, .thumbnail-link {
   cursor: pointer;
 }
+
+.topPageContainer {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  color: #333;
+  background-color: #fff;
+}

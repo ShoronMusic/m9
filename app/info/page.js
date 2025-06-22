@@ -1,6 +1,5 @@
 // app/info/page.js
 import React from "react";
-import Layout from '../components/Layout';
 import Link from 'next/link';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 import styles from './InfoPage.module.css';
@@ -58,7 +57,7 @@ export default function Info() {
 	const genreCount = '500';
 
 	return (
-		<Layout pageTitle="About Music8">
+		<div className={styles.infoContainer}>
 			<main>
 				<h1>About Music8</h1>
 				<hr />
@@ -98,7 +97,7 @@ export default function Info() {
 								各一覧ページでは公開年ごとにグループ分け！年代を追って曲の移り変わりを比較
 							</li>
 							<li><i className="fas fa-search"></i> <b>インデックス検索:</b> アーティスト名の頭文字で検索</li>
-							<li><i className="fab fa-youtube"></i> <b>YouTubeプレイヤー:</b> サムネイルクリックで直接再生</li>
+							<li><i className="fab fa-spotify" style={{color:'#1db954'}}></i> <b>Spotifyプレイヤー:</b> サムネイルクリックで直接再生</li>
 							<li>
 								<i className="fas fa-play-circle"></i>
 								各一覧ページのソングリストでは上からページをまたいで連続再生！<br />
@@ -108,8 +107,8 @@ export default function Info() {
 							<li>
 								<i className="fas fa-external-link-alt"></i>
 								<b>ワンクリック外部リンク:</b>
-								掲載曲ごとに <i className="fab fa-youtube" style={{color:'#ff0000'}}></i> YouTube や
-								<i className="fab fa-spotify" style={{color:'#1db954', marginLeft: '8px'}}></i> Spotify へも一発アクセス
+								掲載曲ごとに
+								<i className="fab fa-spotify" style={{color:'#1db954', marginLeft: '8px'}}></i> Spotify ページへも一発アクセス
 							</li>
 						</ul>
 					</section>
@@ -130,6 +129,6 @@ export default function Info() {
 			</main>
 			<hr />
 			<ScrollToTopButton />
-		</Layout>
+		</div>
 	);
 }
