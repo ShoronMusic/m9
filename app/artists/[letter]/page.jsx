@@ -1,7 +1,6 @@
 import { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import ArtistLetterPageClient from './ArtistLetterPageClient';
-import Layout from '@/components/Layout';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -83,16 +82,14 @@ export default async function ArtistLetterPage({ params, searchParams }) {
   }
 
   return (
-    <Layout>
-      <Suspense fallback={<div>{letter.toUpperCase()}から始まるアーティストを読み込み中...</div>}>
-        <ArtistLetterPageClient 
-          letter={letter.toUpperCase()} 
-          artists={artists}
-          page={page}
-          total={total}
-          perPage={perPage}
-        />
-      </Suspense>
-    </Layout>
+    <Suspense fallback={<div>{letter.toUpperCase()}から始まるアーティストを読み込み中...</div>}>
+      <ArtistLetterPageClient 
+        letter={letter.toUpperCase()} 
+        artists={artists}
+        page={page}
+        total={total}
+        perPage={perPage}
+      />
+    </Suspense>
   );
 } 

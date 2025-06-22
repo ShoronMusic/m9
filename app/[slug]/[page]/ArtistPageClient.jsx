@@ -117,19 +117,45 @@ export default function ArtistPageClient({ artistData, songs, currentPage, total
   }
   // --- ここまで ---
 
-  // --- SongListに渡す前にcategories/genre/styleをobject配列に整形 ---
-  const normalizedSongs = (safeSongs || []).map(song => ({
-    ...song,
-    categories: Array.isArray(song.categories)
-      ? song.categories.filter(cat => typeof cat === 'object' && cat !== null)
-      : [],
-    genre: Array.isArray(song.genre)
-      ? song.genre.filter(g => typeof g === 'object' && g !== null)
-      : [],
-    style: Array.isArray(song.style)
-      ? song.style.filter(s => typeof s === 'object' && s !== null)
-      : []
-  }));
+  // --- SongListに渡す前に、StylePageClientのロジックを参考にデータを整形 ---
+  const normalizedSongs = (safeSongs || []).map(song => {
+    // アーティスト情報の正規化（StylePageClientから流用）
+    // アーティストページでは、曲の `custom_fields.categories` にアーティスト情報が入っている
+    let artists = [];
+    if (Array.isArray(song.custom_fields?.categories) && song.custom_fields.categories.length > 0) {
+      artists = song.custom_fields.categories.map(cat => ({
+        ...cat,
+        acf: cat.acf || {},
+      }));
+    }
+
+    // YouTube IDの正規化（StylePageClientから流用）
+    const ytvideoid = song.acf?.ytvideoid || '';
+    
+    // Spotify Track IDの正規化（StylePageClientから流用）
+    const spotify_track_id = song.acf?.spotify_track_id || '';
+
+    return {
+      ...song,
+      title: song.title, // artist pageでは `song.title` がオブジェクトなのでそのまま渡す
+      artists,
+      acf: {
+        ...song.acf,
+        spotify_track_id,
+        ytvideoid,
+      },
+      date: song.date || '',
+      // スタイルページと異なり、アーティストページでは `featured_media_url` をサムネイルの元情報として使う
+      thumbnail: song.featured_media_url, 
+      youtubeId: ytvideoid,
+      spotifyTrackId: spotify_track_id,
+      genre_data: song.genre_data,
+      vocal_data: song.vocal_data,
+      style: song.style_data,
+      slug: song.slug,
+      content: song.content,
+    };
+  });
 
   return (
     <div className={styles.artistPageContainer}>
@@ -465,6 +491,7 @@ export default function ArtistPageClient({ artistData, songs, currentPage, total
         <h2 className={styles.sectionTitle}>Songs ({startSongNumber} - {endSongNumber} / {totalSongs})</h2>
         <SongList
           songs={normalizedSongs}
+          source={`artist/${safeArtistData.slug}`}
           currentPage={safeCurrentPage}
           songsPerPage={20}
           onPageEnd={handlePageEnd}

@@ -16,7 +16,15 @@ export const getThumbnailPath = (originalUrl) => {
   
   // URLから最後のファイル名部分を抽出
   const filename = originalUrl.split('/').pop();
+
+  // ファイル名がなければnullを返す
+  if (!filename) {
+    return null;
+  }
   
-  // ローカルパスを構築
-  return `/images/thum/${filename}`;
+  // ファイル名から拡張子を除去
+  const basename = filename.split('.').slice(0, -1).join('.');
+  
+  // .webp形式のローカルパスを構築
+  return `/images/thum/${basename}.webp`;
 }; 

@@ -3,7 +3,6 @@
 import { Suspense } from 'react';
 import { getAllArtists } from '@/lib/getArtistDetail';
 import ArtistsPageClient from './ArtistsPageClient';
-import Layout from '@/components/Layout';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -48,10 +47,8 @@ export default async function ArtistsPage() {
   }
 
   return (
-    <Layout>
-      <Suspense fallback={<div>アーティスト一覧を読み込み中...</div>}>
-        <ArtistsPageClient artistsByLetter={artistsByLetter} />
-      </Suspense>
-    </Layout>
+    <Suspense fallback={<div>アーティスト一覧を読み込み中...</div>}>
+      <ArtistsPageClient artistsByLetter={artistsByLetter} />
+    </Suspense>
   );
 }
