@@ -16,11 +16,32 @@
   transition: background-color 0.3s ease-in-out;
   border-bottom: 1px solid #eee;
   gap: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+/* スライドアニメーション用の背景擬似要素 */
+.songItem::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(4, 170, 109, 0.1);
+  border-radius: 8px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.songItem.playing::before {
+  transform: scaleX(1);
 }
 
 .songItem.playing {
-  background-color: rgba(4, 170, 109, 0.1);
-  border-radius: 8px;
+  background-color: transparent;
 }
 
 .songItem:hover {
