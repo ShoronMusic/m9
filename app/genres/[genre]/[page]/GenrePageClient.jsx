@@ -27,6 +27,7 @@ export default function GenrePageClient({ genreSlug, pageNumber, genreSonglist, 
     // 動画ID/Spotify IDを一元化
     const ytvideoid = song.ytvideoid || song.youtube_id || song.acf?.ytvideoid || song.acf?.youtube_id || song.videoId || '';
     const spotify_track_id = song.spotify_track_id || song.spotifyTrackId || song.acf?.spotify_track_id || song.acf?.spotifyTrackId || '';
+    const spotify_url = song.spotify_url || song.acf?.spotify_url || '';
     return {
       ...song,
       title: { rendered: song.title },
@@ -37,6 +38,7 @@ export default function GenrePageClient({ genreSlug, pageNumber, genreSonglist, 
         ytvideoid,
         youtube_id: ytvideoid,
         spotify_track_id,
+        spotify_url,
       },
       date: song.releaseDate || song.date || song.post_date || '',
       featured_media_url: song.thumbnail,

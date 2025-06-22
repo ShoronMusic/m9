@@ -1,0 +1,21 @@
+.globalMenu {
+  margin-bottom: 20px;
+}
+.gmenu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+/* This targets the anchor tags directly within the list items */
+.gmenu li a, .gmenu li a:visited {
+  color: #0070f3; /* Default blue color */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+.gmenu li a:hover {
+  color: #338dff; /* Lighter blue on hover */
+} 

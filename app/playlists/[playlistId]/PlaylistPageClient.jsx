@@ -7,7 +7,6 @@ import { doc, getDoc, updateDoc, serverTimestamp } from "firebase/firestore";
 import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 import axios from "axios";
-import Layout from "../../components/Layout";
 import ScrollToTopButton from "../../components/ScrollToTopButton";
 import PlaylistSongList from "../../components/PlaylistSongList";
 import { ThemeProvider } from "@mui/material/styles";
@@ -236,10 +235,47 @@ export default function PlaylistPageClient({ playlistId }) {
     return <div>Redirecting...</div>;
   }
 
- 
-
   return (
     <ThemeProvider theme={theme}>
+      <div style={{ maxWidth: '900px', margin: '0 auto', padding: '0 0 24px 0', textAlign: 'left', background: '#fff', borderRadius: '16px', boxShadow: '0 4px 24px 0 rgba(0,0,0,0.08)' }}>
+        {playlist && (
+          <div style={{ marginBottom: '24px', width: '100%', display: 'flex', alignItems: 'flex-start', background: '#e3f2fd', borderRadius: '12px 12px 0 0', padding: '24px 24px 12px 24px' }}>
+            {/* サムネイル4枚 */}
+            <div style={{ width: '100px', height: '100px', display: 'grid', gridTemplateColumns: 'repeat(2, 50px)', gridTemplateRows: 'repeat(2, 50px)', gap: '0px', marginRight: '20px', flexShrink: 0 }}>
+              {songs.slice(0, 4).map((song) => {
+                // サムネイル画像のローカルwebp変換（外部URLでも必ずローカル参照）
+                let thumb = '/placeholder.jpg';
+                if (song.featured_media_url) {
+                  const fileName = song.featured_media_url.split("/").pop().replace(/\.[a-zA-Z0-9]+$/, ".webp");
+                  thumb = `/images/thum/${fileName}`;
+                }
+                return (
+                  <img
+                    key={song.id}
+                    src={thumb}
+                    alt={song.title?.rendered || 'No Title'}
+                    style={{ width: '50px', height: '50px', objectFit: 'cover' }}
+                    onError={e => {
+                      e.currentTarget.src = '/placeholder.jpg';
+                      e.currentTarget.onerror = null;
+                    }}
+                  />
+                );
+              })}
+            </div>
+            {/* タイトル・日付・ハンドルネーム・編集ボタン */}
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div style={{ width: '100%', borderBottom: '2px solid #007bff', marginBottom: '0', paddingBottom: '4px' }}>
+                <h1 style={{
+                  fontSize: '2rem',
+                  fontWeight: 'bold',
+                  margin: 0,
+                  padding: 0,
+                  textAlign: 'left',
+                  width: '100%',
+                }}>
+                  {playlist.title}
+                </h1>
       <Layout>
         <div style={{ maxWidth: '900px', margin: '0 auto', padding: '0 0 24px 0', textAlign: 'left', background: '#fff', borderRadius: '16px', boxShadow: '0 4px 24px 0 rgba(0,0,0,0.08)' }}>
           {playlist && (

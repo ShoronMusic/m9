@@ -1,10 +1,11 @@
 'use client';
 
-import React, { useEffect, useRef } from 'react';
-import { usePlayer } from './PlayerContext';
+import React, { useEffect, useRef, useState, useContext } from 'react';
+import { PlayerContext } from './PlayerContext'; // Import context directly
 import { useSession } from 'next-auth/react';
 import SpotifyPlayer from './SpotifyPlayer'; // The non-visual player engine
 import styles from './FooterPlayer.module.css';
+import Image from "next/image";
 
 // Helper function to get a valid image URL
 const getImageUrl = (track) => {
@@ -29,25 +30,14 @@ const formatTime = (milliseconds) => {
     return `${minutes}:${seconds.toString().padStart(2, '0')}`;
 };
 
-// Progress Bar Component
+// Progress Bar Component - Now without time display
 const ProgressBar = ({ position, duration, onSeek }) => {
     const progressPercentage = duration > 0 ? (position / duration) * 100 : 0;
     const seekTimeoutRef = useRef(null);
     
     const handleClick = (e) => {
-        console.log('ProgressBar handleClick called:', {
-            onSeek: !!onSeek,
-            duration,
-            clientX: e.clientX,
-            target: e.currentTarget
-        });
+        if (!onSeek || duration === 0) return;
         
-        if (!onSeek || duration === 0) {
-            console.log('ProgressBar click ignored:', { onSeek: !!onSeek, duration });
-            return;
-        }
-        
-        // 既存のタイマーをクリア
         if (seekTimeoutRef.current) {
             clearTimeout(seekTimeoutRef.current);
         }
@@ -56,41 +46,61 @@ const ProgressBar = ({ position, duration, onSeek }) => {
         const clickPosition = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
         const newPosition = clickPosition * duration;
         
-        console.log('Progress bar clicked:', {
-            clickX: e.clientX,
-            rectLeft: rect.left,
-            rectWidth: rect.width,
-            clickPosition,
-            newPosition,
-            duration
-        });
-        
-        // デバウンス処理（100ms後に実行）
         seekTimeoutRef.current = setTimeout(() => {
-            console.log('ProgressBar calling onSeek with position:', newPosition);
             onSeek(newPosition);
         }, 100);
     };
 
     return (
-        <div className={styles.progressContainer}>
-            <div className={styles.progressBar} onClick={handleClick}>
+        <div className={styles.progressBarContainer} onClick={handleClick}>
+            <div className={styles.progressBar}>
                 <div 
                     className={styles.progressFill} 
                     style={{ width: `${progressPercentage}%` }}
                 />
             </div>
-            <div className={styles.timeDisplay}>
-                <span>{formatTime(position)}</span>
-                <span>{formatTime(duration)}</span>
-            </div>
+        </div>
+    );
+};
+
+// Volume Control Component
+const VolumeControl = ({ volume, onVolumeChange, isMuted, onMuteToggle, isVolumeVisible, onVolumeIconClick }) => {
+    
+    // In mobile view, the volume icon toggles visibility of the slider
+    const handleVolumeIconClick = () => {
+        // The check for mobile is handled by CSS, so we just toggle state
+        onVolumeIconClick();
+    };
+    
+    return (
+        <div className={`${styles.volumeControlContainer} ${isVolumeVisible ? styles['mobile-volume-visible'] : ''}`}>
+            {/* When muted, unmutes. Otherwise, it toggles volume slider visibility. */}
+            <button onClick={isMuted ? onMuteToggle : handleVolumeIconClick} className={styles.muteButton}>
+                <img 
+                    src={isMuted ? "/svg/volume-off-solid.svg" : "/svg/volume-high-solid.svg"} 
+                    alt={isMuted ? "Unmute" : "Mute"}
+                />
+            </button>
+            <input
+                type="range"
+                min="0"
+                max="1"
+                step="0.01"
+                value={isMuted ? 0 : volume}
+                onChange={onVolumeChange}
+                className={styles.volumeSlider}
+                // The problematic inline style is removed. CSS will handle visibility.
+            />
         </div>
     );
 };
 
 export default function FooterPlayer() {
-    console.log('FooterPlayer: Component function called');
-    
+    const playerContext = useContext(PlayerContext); // Use context directly
+    const [isVolumeVisible, setIsVolumeVisible] = useState(false); // ボリューム表示状態を管理
+
+    if (!playerContext) return null; // Early return if context is not available
+
     const { 
         currentTrack, 
         isPlaying, 
@@ -104,46 +114,16 @@ export default function FooterPlayer() {
         playNext,
         playPrevious,
         seekTo,
-        spotifyPlayerRef
-    } = usePlayer();
+        spotifyPlayerRef,
+        progress,
+        isShuffling,
+        toggleShuffle
+    } = playerContext; // Destructure from the context value
+    
     const { data: session } = useSession();
 
-    // 認証状態を確認
-    useEffect(() => {
-        console.log('FooterPlayer: Session check:', {
-            hasSession: !!session,
-            hasAccessToken: !!session?.accessToken
-        });
-    }, [session]);
-
-    // 認証状態とSpotifyPlayerのpropsを確認
-    useEffect(() => {
-        console.log('FooterPlayer: Authentication and props check:', {
-            session: !!session,
-            accessToken: !!session?.accessToken,
-            currentTrack: !!currentTrack,
-            trackId: currentTrack?.spotifyTrackId || currentTrack?.id,
-            isPlaying,
-            spotifyPlayerRef: !!spotifyPlayerRef
-        });
-    }, [session, currentTrack, isPlaying, spotifyPlayerRef]);
-
-    // SpotifyPlayerのrefをPlayerContextに設定
-    useEffect(() => {
-        console.log('FooterPlayer useEffect - spotifyPlayerRef:', {
-            spotifyPlayerRef: !!spotifyPlayerRef,
-            spotifyPlayerRefCurrent: !!spotifyPlayerRef?.current
-        });
-        
-        if (spotifyPlayerRef) {
-            // refは自動的に設定されるので、ここでは何もしない
-            console.log('spotifyPlayerRef is available');
-        }
-    }, [spotifyPlayerRef]);
-
     if (!currentTrack) {
-        console.log('FooterPlayer: No current track, not rendering');
-        return null; // Don't render anything if no track is selected
+        return null; 
     }
     
     console.log('FooterPlayer: Rendering with current track:', {
@@ -179,81 +159,117 @@ export default function FooterPlayer() {
     };
 
     const handleMuteToggle = () => {
-        setIsMuted(!isMuted);
+        const newMutedState = !isMuted;
+        setIsMuted(newMutedState);
         
-        // SpotifyPlayerのミュート状態を更新
         if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
-            if (!isMuted) {
-                // ミュートする
+            if (newMutedState) {
                 spotifyPlayerRef.current.setVolume(0);
             } else {
-                // ミュートを解除する
-                spotifyPlayerRef.current.setVolume(volume);
+                // Unmute to the last known volume, or a default if volume was 0
+                const newVolume = volume > 0 ? volume : 0.5;
+                if(volume === 0) setVolume(newVolume);
+                spotifyPlayerRef.current.setVolume(newVolume);
             }
         }
+    };
+
+    const handleVolumeIconClick = () => {
+        setIsVolumeVisible(!isVolumeVisible);
     };
 
     return (
         <>
             <div className={styles.playerContainer}>
-                <div className={styles.trackInfo}>
-                    <img src={imageUrl} alt={trackTitle} className={styles.albumArt} />
-                    <div className={styles.trackDetails}>
-                        <div className={styles.trackName}>{trackTitle}</div>
-                        <div className={styles.artistName}>{artistName}</div>
+                {/* Top Section: Progress Bar */}
+                <ProgressBar 
+                    position={position} 
+                    duration={duration} 
+                    onSeek={handleSeek} 
+                />
+
+                {/* Bottom Section: Controls */}
+                <div className={styles.bottomControls}>
+                    {/* Left: Track Info */}
+                    <div className={styles.trackInfo}>
+                        <img src={imageUrl} alt={trackTitle} className={styles.albumArt} />
+                        <div className={styles.trackDetails}>
+                            <p className={styles.trackName}>{trackTitle}</p>
+                            <p className={styles.artistName}>{artistName}</p>
+                        </div>
                     </div>
-                </div>
-                <div className={styles.controls}>
-                    <button onClick={playPrevious} className={styles.controlButton}>
-                        <i className="fas fa-step-backward"></i>
-                    </button>
-                    <button onClick={togglePlay} className={`${styles.controlButton} ${styles.playButton}`}>
-                        <i className={`fas ${isPlaying ? 'fa-pause' : 'fa-play'}`}></i>
-                    </button>
-                    <button onClick={playNext} className={styles.controlButton}>
-                        <i className="fas fa-step-forward"></i>
-                    </button>
-                </div>
-                <div className={styles.progressSection}>
-                    <ProgressBar 
-                        position={position} 
-                        duration={duration} 
-                        onSeek={handleSeek}
-                    />
-                </div>
-                <div className={styles.volumeContainer}>
-                    <button onClick={handleMuteToggle} className={styles.volumeButton}>
-                        <i className={`fas ${isMuted || volume === 0 ? 'fa-volume-mute' : volume < 0.5 ? 'fa-volume-down' : 'fa-volume-up'}`}></i>
-                    </button>
-                    <input
-                        type="range"
-                        min="0"
-                        max="1"
-                        step="0.01"
-                        value={isMuted ? 0 : volume}
-                        onChange={handleVolumeChange}
-                        className={styles.volumeSlider}
-                        title={`Volume: ${Math.round((isMuted ? 0 : volume) * 100)}%`}
-                    />
-                    <a 
-                        href={`https://open.spotify.com/track/${currentTrack?.spotifyTrackId || currentTrack?.id}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={styles.spotifyLink}
-                        title="Open in Spotify"
-                    >
-                        <i className="fab fa-spotify"></i>
-                    </a>
+
+                    {/* Center: Playback Controls */}
+                    <div className={styles.centerControls}>
+                        <button onClick={playPrevious} className={styles.controlButton}>
+                            <img src="/svg/backward-step-solid.svg" alt="Previous" />
+                        </button>
+                        <button onClick={togglePlay} className={`${styles.controlButton} ${styles.playPauseButton}`}>
+                            <img src={isPlaying ? "/svg/pause-solid.svg" : "/svg/play-solid.svg"} alt={isPlaying ? "Pause" : "Play"} />
+                        </button>
+                        <button onClick={playNext} className={styles.controlButton}>
+                            <img src="/svg/forward-step-solid.svg" alt="Next" />
+                        </button>
+                    </div>
+                    
+                    {/* Right: Time and Volume */}
+                    <div className={styles.rightControls}>
+                        <div className={styles.timeDisplay}>
+                           <span>{formatTime(position)}</span>
+                           <span style={{ margin: '0 0.25rem' }}>/</span>
+                           <span>{formatTime(duration)}</span>
+                        </div>
+                        <div className={styles.volumeContainer}>
+                            <button
+                                onClick={() => setIsVolumeVisible(!isVolumeVisible)}
+                                className={styles.volumeButton}
+                            >
+                                <Image
+                                    src={volume > 0 ? "/svg/volume-high-solid.svg" : "/svg/volume-off-solid.svg"}
+                                    alt="Volume"
+                                    width={20}
+                                    height={20}
+                                />
+                            </button>
+                            <input
+                                type="range"
+                                min="0"
+                                max="1"
+                                step="0.01"
+                                value={volume}
+                                onChange={(e) => setVolume(parseFloat(e.target.value))}
+                                className={`${styles.volumeSlider} ${
+                                    isVolumeVisible ? styles.visible : ""
+                                }`}
+                            />
+                            {currentTrack.spotify_url && (
+                                <a
+                                    href={currentTrack.spotify_url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className={styles.spotifyLink}
+                                >
+                                    <Image
+                                        src="/icons/Spotify_logo_without_text.svg"
+                                        alt="Listen on Spotify"
+                                        width={24}
+                                        height={24}
+                                    />
+                                </a>
+                            )}
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            {/* The actual player logic, invisible */}
-            <SpotifyPlayer
-                ref={spotifyPlayerRef}
-                accessToken={session?.accessToken}
-                trackId={currentTrack?.spotifyTrackId || currentTrack?.id}
-                autoPlay={isPlaying}
-            />
+            {session && session.accessToken && (
+                <SpotifyPlayer 
+                    ref={spotifyPlayerRef}
+                    accessToken={session.accessToken} 
+                    trackId={currentTrack?.spotifyTrackId || currentTrack?.id}
+                    autoPlay={isPlaying}
+                />
+            )}
         </>
     );
 } 

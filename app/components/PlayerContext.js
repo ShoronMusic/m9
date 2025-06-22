@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, useCallback, useRef, useEffect } from 'react';
 
-const PlayerContext = createContext(null);
+export const PlayerContext = createContext(null);
 
 export const usePlayer = () => useContext(PlayerContext);
 
@@ -51,7 +51,14 @@ export const PlayerProvider = ({ children }) => {
         setTrackList(songs);
         currentTrackListSource.current = source;
     }
-    setCurrentTrack(track);
+    const newTrack = {
+      ...track,
+      artist: track.artistName,
+      title: track.title.rendered,
+      thumbnail: track.featured_media_url_thumbnail || track.featured_media_url || '/placeholder.jpg',
+      spotify_url: track.acf?.spotify_url,
+    };
+    setCurrentTrack(newTrack);
     setCurrentTrackIndex(index);
     setIsPlaying(true);
     // 新しい曲が開始されたら位置をリセット

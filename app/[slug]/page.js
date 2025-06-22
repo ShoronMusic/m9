@@ -1,5 +1,4 @@
 import { notFound, redirect } from 'next/navigation';
-import Layout from "../components/Layout";
 import ArtistDetailClient from "./ArtistDetailClient";
 
 const API_BASE_URL = 'https://xs867261.xsrv.jp/data/data';
@@ -83,8 +82,6 @@ export default async function ArtistDetailPage({ params }) {
   }
 
   return (
-    <Layout>
       <ArtistDetailClient artistData={artistData} />
-    </Layout>
   );
 } 

@@ -1,61 +1,55 @@
 // src/app/genres/page.jsx
 
 import { notFound } from 'next/navigation';
-import GenresPageClient from './GenresPageClient';
 import { promises as fs } from 'fs';
 import path from 'path';
+import GenresPageClient from "./GenresPageClient";
 
 async function getAllGenresGrouped() {
   const isRemote = process.env.NODE_ENV === "production" || process.env.DATA_BASE_URL?.startsWith("http");
-  const baseUrl = process.env.DATA_BASE_URL || 'https://xs867261.xsrv.jp/data/data/';
-  const filePath = path.join(process.cwd(), 'public', 'data', 'genres.json');
-  
+  const baseUrl = isRemote ? "https://xs867261.xsrv.jp/data/data/" : `file://${path.join(process.cwd(), "public", "data")}`;
+
   try {
-    let genres;
+    let genresData;
     if (isRemote) {
       const res = await fetch(`${baseUrl}genres.json`);
-      if (!res.ok) {
-        console.error(`[getAllGenresGrouped] Failed to fetch genres: ${res.status} ${res.statusText}`);
-        return null;
-      }
-      genres = await res.json();
+      if (!res.ok) throw new Error('Failed to fetch genres from remote URL.');
+      genresData = await res.json();
     } else {
-      const file = await fs.readFile(filePath, 'utf-8');
-      genres = JSON.parse(file);
+      const filePath = path.join(process.cwd(), "public", "data", "genres.json");
+      const fileContent = await fs.readFile(filePath, 'utf-8');
+      genresData = JSON.parse(fileContent);
     }
-
-    if (!Array.isArray(genres)) {
-      console.error('[getAllGenresGrouped] Invalid genres data format');
+    
+    if (!Array.isArray(genresData)) {
+      console.error("Error: genres.json data is not an array.");
       return null;
     }
-
-    // ジャンルをグループ化
-    const grouped = genres.reduce((acc, genre) => {
-      if (!genre?.name) return acc;
-      const firstLetter = genre.name.charAt(0).toUpperCase();
-      const groupKey = /^[0-9]/.test(firstLetter) ? "0-9" : firstLetter;
-      if (!acc[groupKey]) acc[groupKey] = [];
-      acc[groupKey].push({ ...genre, count: genre.count || 0 });
+    
+    // Group genres by the first letter
+    const grouped = genresData.reduce((acc, genre) => {
+      if (typeof genre.name !== 'string' || genre.name.length === 0) {
+        return acc; // Skip entries without a valid name
+      }
+      let firstLetter = genre.name.charAt(0).toUpperCase();
+      if (!/^[A-Z]$/.test(firstLetter)) {
+        firstLetter = '0-9';
+      }
+      if (!acc[firstLetter]) {
+        acc[firstLetter] = [];
+      }
+      acc[firstLetter].push(genre);
       return acc;
     }, {});
 
-    // 各グループ内をアルファベット順にソート
-    Object.keys(grouped).forEach(key => {
-      grouped[key].sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
-    });
-
-    // 空のグループを追加
-    const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-    const alphabetAndNumbers = ['0-9', ...alphabet, 'Other'];
-    alphabetAndNumbers.forEach(letter => {
-      if (!grouped[letter]) {
-        grouped[letter] = [];
-      }
-    });
-
+    // Sort genres within each group alphabetically
+    for (const key in grouped) {
+      grouped[key].sort((a, b) => a.name.localeCompare(b.name));
+    }
     return grouped;
+    
   } catch (error) {
-    console.error('[getAllGenresGrouped] Error:', error);
+    console.error("Error fetching or parsing genres.json:", error);
     return null;
   }
 }
@@ -77,7 +71,7 @@ export default async function GenresPage() {
   if (!genresGrouped) {
     notFound();
   }
-
+  
   return <GenresPageClient genres={genresGrouped} />;
 }
 

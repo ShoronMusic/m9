@@ -1,7 +1,6 @@
 import { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import ArtistPageClient from './ArtistPageClient';
-import Layout from '@/components/Layout';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -309,43 +308,24 @@ export async function generateMetadata({ params }) {
 }
 // --- End of restored generateMetadata ---
 
-
 export default async function ArtistPageWithPagination({ params }) {
-  const resolvedParams = await params;
-  const { slug, page } = resolvedParams;
-  const pageNumber = parseInt(page, 10);
-
-  if (isNaN(pageNumber) || pageNumber < 1) {
+  const page = params.page ? parseInt(params.page, 10) : 1;
+  if (isNaN(page) || page < 1) {
     notFound();
   }
-
-  const pageData = await getArtistDataForPage(slug, pageNumber);
-
-  if (!pageData) {
+  const artistData = await getArtistDataForPage(params.slug, page);
+  if (!artistData) {
     notFound();
   }
-
-  if (pageNumber > pageData.totalPages && pageNumber > 1) {
-    notFound();
-  }
-
+  const { posts, totalPages, ...restOfArtistData } = artistData;
   return (
-    <Layout>
-      <Suspense fallback={<div>Loading {slug} page {pageNumber}...</div>}>
-        <ArtistPageClient
-          artistData={pageData.artistData}
-          songs={pageData.songs}
-          currentPage={pageData.currentPage}
-          totalPages={pageData.totalPages}
-          totalSongs={pageData.totalSongs}
-          stylePercentages={pageData.stylePercentages}
-          topGenres={pageData.topGenres}
-          members={pageData.members}
-          relatedArtists={pageData.relatedArtists}
-          startSongNumber={pageData.startSongNumber}
-          endSongNumber={pageData.endSongNumber}
-        />
-      </Suspense>
-    </Layout>
+    <Suspense fallback={<div>Loading...</div>}>
+      <ArtistPageClient 
+        songs={posts} 
+        artist={restOfArtistData}
+        currentPage={page}
+        totalPages={totalPages}
+      />
+    </Suspense>
   );
 }

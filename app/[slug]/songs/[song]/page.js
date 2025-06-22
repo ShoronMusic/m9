@@ -1,6 +1,5 @@
 import SongDetailClient from "./SongDetailClient";
 import { notFound } from 'next/navigation';
-import Layout from "../../../components/Layout";
 
 const API_BASE_URL = 'https://xs867261.xsrv.jp/data/data';
 
@@ -65,9 +64,7 @@ export default async function SongDetailPage({ params }) {
   const description = `Artist: ${artistNames} | Title: ${songData.title} | Release: ${songData.releaseDate}`;
 
   return (
-    <Layout>
-      <SongDetailClient songData={songData} description={description} />
-    </Layout>
+    <SongDetailClient songData={songData} description={description} />
   );
 }
 

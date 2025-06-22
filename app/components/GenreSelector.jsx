@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from 'react';
 import styles from './GenreSelector.module.css';
 

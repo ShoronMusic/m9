@@ -1,96 +1,121 @@
 /* src/app/genres/GenresPage.module.css */
 
-.anchorMenu {
-  margin-bottom: 20px;
-  text-align: center;
+.container {
+  padding: 0 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.stickyNav {
   position: sticky;
-  top: 0;
-  background: #0070f3;
+  top: 70px;
+  background-color: #007bff;
+  padding: 12px 0;
   z-index: 10;
-  padding: 12px 0 8px 0;
-  border-bottom: 1px solid #e0e0e0;
-  border-radius: 12px;
+  border-radius: 8px;
+  margin: 20px 0;
+  text-align: center;
 }
 
-.anchorLink {
-  margin: 0 10px;
-  cursor: pointer;
-  color: #fff;
-  font-weight: bold;
+.navLink {
+  color: #ffffff;
   text-decoration: none;
-  transition: color 0.3s;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: opacity 0.2s;
 }
 
-.anchorLink:visited {
-  color: #fff;
+.navLink:hover {
+  opacity: 0.8;
 }
 
-.anchorLink:hover {
-  color: #e0e0e0;
+.listContainer h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.letterArea {
-  border-top: solid 1px #777777;
-  padding: 20px;
-  min-height: 180px;
+.genreGroup {
+  position: relative;
+  border-top: 1px solid #dee2e6;
+  padding: 40px 20px;
+  min-height: 200px;
+  overflow: hidden;
+  scroll-margin-top: 90px;
 }
 
-.letterArea ul {
-  list-style-position: inside;
-  padding-left: 0;
+.groupHeader {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.backgroundLetter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12rem;
+  font-weight: 900;
+  color: #e9ecef;
+  z-index: -1;
+  pointer-events: none;
+  user-select: none;
 }
 
 .genreGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 8px 16px;
+  gap: 10px 20px;
+  position: relative;
+  z-index: 1;
+  list-style-type: none;
   padding: 0;
-  margin: 0 0 16px 0;
-  list-style: none;
 }
 
-.genreGrid li {
-  margin-bottom: 4px;
+.genreItem a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.genreItem a:hover {
+  text-decoration: underline;
 }
 
 .loadMoreButton {
-  margin-top: 10px;
-  padding: 5px 10px;
-  background-color: #0070f3;
-  color: white;
+  display: block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .loadMoreButton:hover {
-  background-color: #005bb5;
+  background-color: #0056b3;
 }
 
-.letterBg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 6.5rem;
-  font-weight: 900;
-  color: #e0e0e0;
-  opacity: 0.5;
-  pointer-events: none;
-  user-select: none;
-  z-index: 0;
-  line-height: 1;
-  letter-spacing: 0.05em;
+@media (max-width: 992px) {
+  .genreGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
-  .letterArea {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
   .genreGrid {
-    padding: 0 !important;
-    margin: 0 !important;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .backgroundLetter {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .genreGrid {
+    grid-template-columns: 1fr;
   }
 }

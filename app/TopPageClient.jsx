@@ -3,7 +3,6 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import axios from "axios";
-import Layout from "./components/Layout";
 import YouTubePlayer from "./components/YouTubePlayer";
 import SongListTopPage from "./components/SongListTopPage";
 import { config } from "./config/config";
@@ -257,34 +256,41 @@ export default function TopPageClient({ topSongsData = [] }) {
 		setTrack(idx);
 	};
 
-	// スタイルごとに見出しを挿入しつつリスト表示
-	let lastStyleSlug = null;
+	// The return statement is modified to remove the Layout wrapper
 	return (
-		<Layout>
-			<h2 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>
-				New Songs Across 8 Styles
-			</h2>
-			<SongListTopPage
-				songs={allSongs}
-				currentSongIndex={currentSongIndex}
-				setTrack={setTrack}
-				onNext={handleNextSong}
-				onPrevious={handlePreviousSong}
-			/>
-			{currentVideoId && currentTrack && (
+		<div>
+			{currentVideoId && (
 				<YouTubePlayer
-					ref={playerRef}
 					videoId={currentVideoId}
-					currentTrack={currentTrack}
-					onEnd={handleNextSong}
-					handlePreviousSong={handlePreviousSong}
-					autoPlay={userInteractedRef.current}
-					pageType="Home"
-					posts={allSongs}
-					styleSlug={currentTrack?.styleSlug || "unknown"}
-					styleName={currentTrack?.styleName || "Unknown Style"}
+					onEnded={handleNextSong}
+					playerRef={playerRef}
 				/>
 			)}
-		</Layout>
+			{styleSlugs.map((slug) => {
+				const styleName = styleDisplayMap[slug] || "Unknown Style";
+				const songsForStyle = songsByStyle[slug] || [];
+				return (
+					<div key={slug}>
+						<h2
+							style={{
+								fontSize: "24px",
+								fontWeight: "bold",
+								marginTop: "40px",
+								marginBottom: "20px",
+							}}
+						>
+							{styleName}
+						</h2>
+						<SongListTopPage
+							songs={songsForStyle}
+							onThumbnailClick={(songId) => {
+								const songIndex = allSongs.findIndex(s => s.id === songId);
+								if (songIndex !== -1) handleThumbnailClick(songIndex);
+							}}
+						/>
+					</div>
+				);
+			})}
+		</div>
 	);
 }

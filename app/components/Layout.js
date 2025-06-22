@@ -8,7 +8,6 @@ import GoogleLoginButton from "./GoogleLoginButton";
 import GlobalMenu from "./GlobalMenu";
 import { FaBars } from "react-icons/fa";
 import styles from "./Layout.module.css";
-import "../css/globals.css";
 import ScrollToTopButton from "./ScrollToTopButton";
 import LoginStatus from './LoginStatus';
 

@@ -603,7 +603,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
             console.log('SpotifyPlayer: Providing OAuth token');
             cb(accessToken); 
           },
-          volume: 0.3
+          volume: 0.15
       });
       
       playerRef.current = player;

@@ -1,245 +1,165 @@
+/* Base Styles - Universal */
 .playerContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 20px;
-    background: #181818;
-    color: white;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
     bottom: 0;
     left: 0;
-    right: 0;
+    width: 100%;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
     z-index: 1000;
-    min-height: 80px;
+    border-top: 1px solid #282828;
+    box-sizing: border-box;
 }
 
+.progressBarContainer {
+    width: 100%;
+    padding-bottom: 0.75rem;
+    cursor: pointer;
+}
+.progressBar {
+    width: 100%;
+    height: 4px;
+    background-color: #535353;
+    border-radius: 2px;
+}
+.progressFill {
+    height: 100%;
+    background-color: #1DB954;
+    border-radius: 2px;
+}
+
+/* --- Controls Layout --- */
+.bottomControls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+/* --- Sections --- */
 .trackInfo {
     display: flex;
     align-items: center;
-    gap: 12px;
-    min-width: 200px;
-    max-width: 300px;
+    flex: 1;
+    min-width: 0;
+    gap: 1rem;
+}
+.centerControls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex: 0 1 auto;
+}
+.rightControls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    min-width: 0;
+    gap: 1rem;
 }
 
+/* --- Elements --- */
 .albumArt {
     width: 56px;
     height: 56px;
-    border-radius: 8px;
-    object-fit: cover;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
 }
-
 .trackDetails {
     display: flex;
     flex-direction: column;
     min-width: 0;
 }
-
-.trackName {
-    font-weight: bold;
-    color: #fff;
-    font-size: 14px;
+.trackName, .artistName {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
-.artistName {
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.8);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    min-width: 150px;
-}
-
-.controlButton {
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    padding: 8px;
-    border-radius: 50%;
-    transition: background-color 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.controlButton:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.playButton {
-    background-color: rgba(255, 255, 255, 0.2);
-    width: 40px;
-    height: 40px;
-}
-
-.playButton:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.progressSection {
-    flex: 1;
-    max-width: 400px;
-    margin: 0 20px;
-}
-
-.progressContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-.progressBar {
-    width: 100%;
-    height: 4px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 2px;
-    cursor: pointer;
-    position: relative;
-    transition: height 0.2s;
-}
-
-.progressBar:hover {
-    height: 6px;
-}
-
-.progressFill {
-    height: 100%;
-    background-color: white;
-    border-radius: 2px;
-    transition: width 0.1s ease-out;
-}
+.trackName { font-weight: 500; }
+.artistName { font-size: 0.8em; color: #b3b3b3; }
 
 .timeDisplay {
-    display: flex;
-    justify-content: space-between;
-    font-size: 11px;
-    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8rem;
+    color: #b3b3b3;
 }
 
-.volumeContainer {
+.volumeControlContainer {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    min-width: 180px;
-    gap: 8px;
+    gap: 0.5rem;
 }
-
-.volumeButton {
+.volumeSlider {
+    width: 100px;
+}
+.controlButton, .muteButton {
     background: none;
     border: none;
-    color: white;
     cursor: pointer;
-    padding: 8px;
-    border-radius: 50%;
-    transition: background-color 0.2s;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 32px;
-    height: 32px;
+}
+.controlButton img, .muteButton img {
+    height: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+.controlButton:hover img, .muteButton:hover img {
+    transform: scale(1.1);
+}
+.playPauseButton img {
+    height: 32px; /* Set a larger height for the play/pause icon */
 }
 
-.volumeButton:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+/* ====== Responsive Styles for Mobile ====== */
+@media (max-width: 920px) {
+    .playerContainer {
+        padding: 0.75rem 1rem;
+    }
+    .bottomControls {
+        flex-wrap: wrap;
+        row-gap: 0.5rem;
+        column-gap: 1rem; /* Mobile-specific gap */
+    }
+
+    /* --- Row 1 --- */
+    .trackInfo {
+        order: 1;
+        flex: 1 1 auto; /* Allow this to take up available space */
+    }
+    .centerControls {
+        order: 2;
+        flex: 0 0 auto; /* Size based on content, no growing/shrinking */
+        justify-content: flex-end;
+    }
+    
+    /* --- Row 2 --- */
+    .rightControls {
+        order: 3;
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+    
+    .artistName {
+        display: block; /* Ensure artist name is visible on mobile */
+    }
+
+    .volumeSlider {
+        display: block; /* Ensure volume slider is visible */
+    }
 }
 
-.volumeSlider {
-    width: 80px;
-    height: 4px;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 2px;
-    outline: none;
-    cursor: pointer;
-    -webkit-appearance: none;
-    appearance: none;
-    transition: height 0.2s;
-}
-
-.volumeSlider:hover {
-    height: 6px;
-}
-
-.volumeSlider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 12px;
-    height: 12px;
-    background: white;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-
-.volumeSlider::-webkit-slider-thumb:hover {
-    transform: scale(1.2);
-}
-
-.volumeSlider::-moz-range-thumb {
-    width: 12px;
-    height: 12px;
-    background: white;
-    border-radius: 50%;
-    cursor: pointer;
-    border: none;
-    transition: transform 0.2s;
-}
-
-.volumeSlider::-moz-range-thumb:hover {
-    transform: scale(1.2);
-}
-
-.playerContainer.disabled {
-    background-color: #282828;
-    color: #6a6a6a;
-}
-
-.albumArtPlaceholder {
-    width: 56px;
-    height: 56px;
-    background-color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    color: #6a6a6a;
-    margin-right: 12px;
+.volumeSlider.visible {
+    display: block;
 }
 
 .spotifyLink {
-    background: none;
-    border: none;
-    color: #1DB954;
-    cursor: pointer;
-    padding: 8px;
-    border-radius: 50%;
-    transition: all 0.2s;
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-width: 32px;
-    height: 32px;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.spotifyLink:hover {
-    background-color: rgba(29, 185, 84, 0.1);
-    color: #1ed760;
-    transform: scale(1.1);
-}
-
-.spotifyLink:active {
-    transform: scale(0.95);
+    margin-left: 12px;
 } 

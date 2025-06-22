@@ -23,6 +23,7 @@ import { firestore, auth } from "./firebase";
 import SaveToPlaylistPopup from "./SaveToPlaylistPopup";
 import he from "he";
 import { usePlayer } from './PlayerContext'; // PlayerContext をインポート
+import { useSession } from "next-auth/react"; // useSessionをインポート
 
 // CloudinaryのベースURL
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
@@ -256,6 +257,7 @@ function SongList({
   });
 
   const player = usePlayer();
+  const { data: session } = useSession(); // sessionを取得
   console.log('SongList: usePlayer result:', {
     hasPlayer: !!player,
     playerKeys: player ? Object.keys(player) : [],
@@ -329,31 +331,26 @@ function SongList({
   const handleThumbnailClick = (song, index) => {
     console.log('=== SONG CLICK START ===');
     console.log('SongList: Thumbnail clicked:', {
-      songName: song.name || song.title?.rendered,
-      songId: song.spotifyTrackId || song.id,
-      index,
-      hasSpotifyTrackId: !!song.spotifyTrackId,
-      player: !!player
+      trackName: song?.name || song?.title?.rendered,
+      trackId: song?.spotifyTrackId || song?.id,
+      index
     });
     
-    if (song.spotifyTrackId) {
-      const source = `${pageType}/${styleSlug}/${currentPage}`;
-      console.log('Calling player.playTrack with source:', source);
-      console.log('SongList: About to call playTrack with:', {
-        song,
-        index,
-        safeSongs: safeSongs.length,
-        source
-      });
-      
-      try {
+    try {
+        const safeSongs = Array.isArray(songs) ? songs : [];
+        const source = `${pageType}/${styleSlug}/${currentPage}`;
+        
+        console.log('Calling player.playTrack with source:', source);
+        console.log('SongList: About to call playTrack with:', {
+          trackName: song?.name || song?.title?.rendered,
+          trackId: song?.spotifyTrackId || song?.id,
+          index
+        });
+        
         player.playTrack(song, index, safeSongs, source);
         console.log('=== SONG CLICK END - playTrack called successfully ===');
-      } catch (error) {
+    } catch (error) {
         console.error('Error calling playTrack:', error);
-      }
-    } else {
-      alert('この楽曲にはSpotify音源がありません。');
     }
   };
 

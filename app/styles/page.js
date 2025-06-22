@@ -8,6 +8,7 @@ import styles from './StylesPage.module.css'; // CSS Modules のインポート
 import StyleBanner from '../components/StyleBanner'; // バナーコンポーネントをインポート
 import he from 'he'; // Import the 'he' library for decoding
 import { STYLE_CONFIG } from '../config/config'; // 追加
+import StyleLink from './StyleLink.module.css';
 
 export const metadata = {
 	title: 'Styles List | Music8',
@@ -57,22 +58,18 @@ async function getStylesSummaryData() {
 }
 
 async function StylesPage() {
-	// スタイルサマリーデータを取得
 	const stylesData = await getStylesSummaryData();
 
 	return (
-        <Layout pageTitle="Styles List">
-            <div className={styles.styleListContainer}>
-				<h1>Styles List</h1>
-				<div className={styles.bannerGrid}>
-					{stylesData.map((styleData) => (
-						// Pass decoded data to the banner component
-						(<StyleBanner key={styleData.slug} style={styleData} updateDate={styleData.updateDate} />)
-					))}
-				</div>
+		<div className={styles.styleListContainer}>
+			<h1>Styles List</h1>
+			<div className={styles.bannerGrid}>
+				{stylesData.map((styleData) => (
+					<StyleBanner key={styleData.slug} style={styleData} updateDate={styleData.updateDate} />
+				))}
 			</div>
-        </Layout>
-    );
+		</div>
+	);
 }
 
 // The old function getStylesWithSongCountsAndDate is no longer needed and removed.

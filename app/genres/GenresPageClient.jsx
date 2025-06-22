@@ -4,51 +4,70 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import ScrollToTopButton from '../components/ScrollToTopButton'; // パスを調整
-import styles from './GenresPage.module.css'; // CSS Modules のインポート
+import styles from './GenresPage.module.css';
 
-export default function GenresPageClient({ genres }) {
-  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-  const alphabetAndNumbers = ['0-9', ...alphabet, 'Other'];
-  const [visibleGenres, setVisibleGenres] = useState(10);
+const GenresPageClient = ({ genres: genresGrouped }) => {
+  const [visibleCounts, setVisibleCounts] = useState({});
+  const initialVisibleCount = 20;
 
-  const loadMoreGenres = () => {
-    setVisibleGenres((prev) => prev + 10);
+  const handleLoadMore = (groupKey) => {
+    setVisibleCounts((prevCounts) => ({
+      ...prevCounts,
+      [groupKey]: (prevCounts[groupKey] || initialVisibleCount) + 20,
+    }));
   };
 
+  const sortedGroupKeys = Object.keys(genresGrouped).sort((a, b) => {
+    if (a === '0-9') return -1;
+    if (b === '0-9') return 1;
+    if (a === 'Other') return 1;
+    if (b === 'Other') return -1;
+    return a.localeCompare(b);
+  });
+
   return (
-    <>
-      <div className={styles.anchorMenu}>
-        {alphabetAndNumbers.map(letter => (
-          <Link key={letter} href={`#${letter}`} className={styles.anchorLink}>
-            {letter}
-          </Link>
+    <div className={styles.container}>
+      <div className={styles.stickyNav}>
+        {sortedGroupKeys.map((groupKey) => (
+          <a key={groupKey} href={`#${groupKey}`} className={styles.navLink}>
+            {groupKey}
+          </a>
         ))}
       </div>
-      <div>
+
+      <div className={styles.listContainer}>
         <h1>Genres List</h1>
-        {alphabetAndNumbers.map((letter) => (
-          <div key={letter} id={letter} className={styles.letterArea} style={{ position: 'relative' }}>
-            <h2><span>{letter}</span></h2>
-            <span className={styles.letterBg}>{letter}</span>
-            <ul className={styles.genreGrid}>
-              {genres[letter]?.slice(0, visibleGenres).map((genre) => (
-                <li key={genre.slug}>
-                  <Link href={`/genres/${encodeURIComponent(genre.slug)}/`}>
-                    <span dangerouslySetInnerHTML={{ __html: genre.name }} /> ({genre.count})
-                  </Link>
-                </li>
-              )) || <p>No genres found for this letter.</p>}
-            </ul>
-            {genres[letter]?.length > visibleGenres && (
-              <button onClick={loadMoreGenres} className={styles.loadMoreButton}>
-                Load More
-              </button>
-            )}
-          </div>
-        ))}
+        {sortedGroupKeys.map((groupKey) => {
+          const genres = genresGrouped[groupKey] || [];
+          const visibleCount = visibleCounts[groupKey] || initialVisibleCount;
+          const displayedGenres = genres.slice(0, visibleCount);
+
+          if (genres.length === 0) return null;
+
+          return (
+            <div key={groupKey} id={groupKey} className={styles.genreGroup}>
+              <span className={styles.backgroundLetter}>{groupKey}</span>
+              <h2 className={styles.groupHeader}>{groupKey}</h2>
+              <ul className={styles.genreGrid}>
+                {displayedGenres.map((genre) => (
+                  <li key={genre.id || genre.name} className={styles.genreItem}>
+                    <Link href={`/genres/${genre.slug}/1`} passHref>
+                      {genre.name} ({genre.count})
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              {genres.length > visibleCount && (
+                <button onClick={() => handleLoadMore(groupKey)} className={styles.loadMoreButton}>
+                  Load More
+                </button>
+              )}
+            </div>
+          );
+        })}
       </div>
-      <ScrollToTopButton />
-    </>
+    </div>
   );
-}
+};
+
+export default GenresPageClient;
