@@ -249,6 +249,7 @@ export default function SongListTopPage({
 	onPrevious,
 	showTitle = true,
 }) {
+	const { currentTrack } = usePlayer();
 	const [menuVisible, setMenuVisible] = useState(false);
 	const [menuTriggerRect, setMenuTriggerRect] = useState(null);
 	const [selectedSong, setSelectedSong] = useState(null);
@@ -432,9 +433,19 @@ export default function SongListTopPage({
 					const isLiked = likedSongs[songId] || false;
 					const viewCount = viewCounts[songId] || 0;
 					const userViewCount = userViewCounts[songId] || 0;
+					const isPlaying = currentTrack && currentTrack.id === song.id;
+					const itemStyle = {
+						backgroundColor: isPlaying ? '#e6f7ff' : 'transparent',
+						borderRadius: isPlaying ? '8px' : '0'
+					};
 
 					return (
-						<li key={song.id} id={`song-${song.id}`} className={styles.songItem}>
+						<li 
+							key={song.id} 
+							id={`song-${song.id}`} 
+							className={styles.songItem}
+							style={itemStyle}
+						>
 							<div className="ranking-thumbnail-container"></div>
 							<button
 								className={
@@ -462,48 +473,50 @@ export default function SongListTopPage({
 								/>
 							</button>
 							<div className={styles.songDetails}>
-								<div className={styles.songInfo}>
-									<div className={styles.title}>
-										<div style={{ marginRight: "auto", display: "block" }}>
-											{artistElements}
-											<br />
-											<span>{decodeHtmlEntities(title)}</span>
+								<div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
+									<div className={styles.songInfo}>
+										<div className={styles.title}>
+											<div style={{ marginRight: "auto", display: "block" }}>
+												{artistElements}
+												<br />
+												<span>{decodeHtmlEntities(title)}</span>
+											</div>
 										</div>
-										<div className={styles.icons}>
-											<span
+										<div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+											<span style={{ fontSize: "0.85em" }}>{releaseDate}</span>
+											{genreText !== "Unknown Genre" && (
+												<span style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "0.85em" }}>
+													({genreText})
+												</span>
+											)}
+											{vocalIcons && <span style={{ display: "inline-flex", alignItems: "center" }}>{vocalIcons}</span>}
+										</div>
+									</div>
+									<div className={styles.metaInfo} style={{ display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
+										<span
+											className={styles.likeIcon}
+											onClick={(e) => {
+												e.stopPropagation();
+												toggleLike(String(song.id));
+											}}
+										>
+											<img
+												src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
+												alt="Like"
 												className={styles.likeIcon}
-												onClick={(e) => {
-													e.stopPropagation();
-													toggleLike(String(song.id));
-												}}
-											>
-												<img
-													src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
-													alt="Like"
-													className={styles.likeIcon}
-													style={{ width: "14px", height: "14px" }}
-												/>
-												{likeCount > 0 && (
-													<span className={styles.likeCount} style={{ fontSize: "10px", marginLeft: "2px" }}>
-														{likeCount}
-													</span>
-												)}
-											</span>
-										</div>
+												style={{ width: "14px", height: "14px" }}
+											/>
+											{likeCount > 0 && (
+												<span className={styles.likeCount} style={{ fontSize: "10px", marginLeft: "2px" }}>
+													{likeCount}
+												</span>
+											)}
+										</span>
 										{viewCount > 0 && (
 											<span className={styles.viewCount} style={{ fontSize: "10px", color: "#666", display: "inline-flex", alignItems: "center" }}>
 												({viewCount}{userViewCount > 0 ? ` / ${userViewCount}` : ""})
 											</span>
 										)}
-									</div>
-									<div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
-										<span style={{ fontSize: "0.85em" }}>{releaseDate}</span>
-										{genreText !== "Unknown Genre" && (
-											<span style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "0.85em" }}>
-												({genreText})
-											</span>
-										)}
-										{vocalIcons && <span style={{ display: "inline-flex", alignItems: "center" }}>{vocalIcons}</span>}
 									</div>
 								</div>
 							</div>

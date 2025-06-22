@@ -12,7 +12,8 @@
 .songItem {
   display: flex;
   align-items: center;
-  padding: 8px 0;
+  padding: 8px;
+  transition: background-color 0.2s ease-in-out;
   border-bottom: 1px solid #eee;
   gap: 10px;
 }
@@ -116,8 +117,8 @@ box-shadow: 0 1px 4px rgba(0,0,0,0.18);
 
 .thumbnailContainer {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   flex-shrink: 0;
 }
 
@@ -191,4 +192,18 @@ vertical-align: middle;
 .styleLink:hover .arrowAnim {
 transform: translateX(8px) scale(1.1);
 color: #1976d2;
+}
+
+.songItem:hover {
+	background-color: #f4f4f4;
+}
+
+/* 再生中の曲のスタイル */
+.playing {
+	background-color: #e6f7ff; /* 薄い水色 */
+	border-radius: 8px;
+}
+
+.playing:hover {
+	background-color: #d9f2ff; /* 再生中にホバーした場合は少し濃い水色に */
 }

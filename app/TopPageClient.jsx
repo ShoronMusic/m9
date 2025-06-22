@@ -216,6 +216,15 @@ export default function TopPageClient({ topSongsData = [] }) {
 
 	return (
 		<div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
+			<h1 style={{
+				fontSize: '2.5rem',
+				fontWeight: 800,
+				marginBottom: '2rem',
+				textAlign: 'left'
+			}}>
+				New Songs Across 8 Styles
+			</h1>
+
 			{styleSlugs.map((styleSlug) => {
 				const styleSongs = songsByStyle[styleSlug] || [];
 				const styleName = styleDisplayMap[styleSlug];
@@ -224,25 +233,25 @@ export default function TopPageClient({ topSongsData = [] }) {
 
 				return (
 					<div key={styleSlug} style={{ marginBottom: '40px' }}>
-						<div style={{ textAlign: 'left', marginBottom: '24px' }}>
-							<div style={{ fontSize: '0.85em', color: '#888', marginBottom: '2px', fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
-								STYLE
-							</div>
-							<Link href={`/styles/${styleSlug}/1`} style={{ textDecoration: 'none' }}>
-								<h2 style={{
-									textAlign: 'left',
-									fontSize: '1.8em',
-									fontWeight: 700,
-									margin: 0,
-									color: '#222',
-									letterSpacing: '-0.01em',
-									lineHeight: 1.1
-								}}>
-									{styleName}
-								</h2>
-							</Link>
-							<div style={{ borderBottom: '2px solid #e0e0e0', width: '60px', margin: '12px 0 12px 0' }} />
-						</div>
+						<Link href={`/styles/${styleSlug}/1`} style={{ textDecoration: 'none' }}>
+							<h2 style={{
+								display: 'inline-flex',
+								alignItems: 'center',
+								gap: '0.5rem',
+								textAlign: 'left',
+								fontSize: '1.8em',
+								fontWeight: 700,
+								margin: 0,
+								color: '#007bff',
+								letterSpacing: '-0.01em',
+								lineHeight: 1.1,
+								cursor: 'pointer'
+							}}>
+								{styleName}
+								<span style={{ fontSize: '0.8em' }}>→</span>
+							</h2>
+						</Link>
+						<div style={{ borderBottom: '1px solid #e0e0e0', marginTop: '1rem', marginBottom: '1rem' }} />
 
 						<SongListTopPage
 							songs={styleSongs}
