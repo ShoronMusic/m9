@@ -78,8 +78,11 @@ function determineArtistOrder(song) {
 // HTMLエンティティをデコードする関数
 function decodeHtmlEntities(text) {
 	if (!text) return '';
-	// bタグを削除する処理を追加
-	const cleanText = text.replace(/<b>/g, '').replace(/<\/b>/g, '');
+	const cleanText = text.replace(/<b>/g, '').replace(/<\/b/g, '');
+	if (typeof window === 'undefined') {
+		// サーバーサイドでは単純な置換にとどめる
+		return cleanText;
+	}
 	const textarea = document.createElement('textarea');
 	textarea.innerHTML = cleanText;
 	return textarea.value;
@@ -236,58 +239,48 @@ async function fetchViewCounts(songs) {
 	return { viewCountsData, userViewCountsData };
 }
 
-function groupByStyle(posts) {
-	// styleSlugごとにグループ化
-	const styleGroups = {};
-	posts.forEach((song, index) => {
-		const styleSlug = song.styleSlug || "unknown";
-		let styleName = song.styleName || styleSlug;
-		// ▼ R&amp;B表記をR&Bに修正
-		if (styleName === "R&amp;B" || styleName === "R&amp;amp;B") styleName = "R&B";
-		if (!styleGroups[styleSlug]) styleGroups[styleSlug] = [];
-		styleGroups[styleSlug].push({ ...song, originalIndex: index, styleName });
-	});
-	// スタイル順を維持
-	return Object.entries(styleGroups).map(([styleSlug, songs]) => ({
-		styleSlug,
-		styleName: songs[0]?.styleName || styleSlug,
-		songs
-	}));
-}
-
 export default function SongListTopPage({
 	songs = [],
+	styleSlug,
+	styleName,
 	currentSongIndex = 0,
 	onTrackPlay,
 	onNext,
 	onPrevious,
+	showTitle = true,
 }) {
-	// 三点メニュー用 state
 	const [menuVisible, setMenuVisible] = useState(false);
 	const [menuTriggerRect, setMenuTriggerRect] = useState(null);
 	const [selectedSong, setSelectedSong] = useState(null);
-
-	// いいね機能用 state
 	const [likedSongs, setLikedSongs] = useState({});
 	const [likeCounts, setLikeCounts] = useState({});
-
-	// 視聴回数用 state（総再生数とユーザー個別再生数）
 	const [viewCounts, setViewCounts] = useState({});
 	const [userViewCounts, setUserViewCounts] = useState({});
-
-	// プレイリスト追加用 state
 	const [showSavePopup, setShowSavePopup] = useState(false);
 	const [selectedSongId, setSelectedSongId] = useState(null);
+	const [menuHeight, setMenuHeight] = useState(0);
+	const menuRef = useRef(null);
 
-	let lastStyleSlug = null;
-
-	// Auth の状態変化でいいね情報を取得
 	useEffect(() => {
 		const unsubscribe = auth.onAuthStateChanged(async (user) => {
 			await fetchLikes(user ? user.uid : null);
 		});
 		return () => unsubscribe();
 	}, [songs]);
+
+	useEffect(() => {
+		(async () => {
+			const { viewCountsData, userViewCountsData } = await fetchViewCounts(songs);
+			setViewCounts(viewCountsData);
+			setUserViewCounts(userViewCountsData);
+		})();
+	}, [songs]);
+    
+    useEffect(() => {
+		if (menuVisible && menuRef.current) {
+			setMenuHeight(menuRef.current.offsetHeight);
+		}
+	}, [menuVisible]);
 
 	const fetchLikes = async (userId = null) => {
 		const likeCountsData = {};
@@ -352,18 +345,6 @@ export default function SongListTopPage({
 		}
 	};
 
-	// 再生数取得
-	useEffect(() => {
-		(async () => {
-			const { viewCountsData, userViewCountsData } = await fetchViewCounts(songs);
-			setViewCounts(viewCountsData);
-			setUserViewCounts(userViewCountsData);
-		})();
-	}, [songs]);
-
-	const grouped = groupByStyle(songs);
-
-	// ▼ 三点メニュー用クリックハンドラ（SongList.jsと同じ仕様）
 	const handleThreeDotsClick = (e, song, categories) => {
 		e.stopPropagation();
 		const iconRect = e.currentTarget.getBoundingClientRect();
@@ -382,224 +363,164 @@ export default function SongListTopPage({
 		setMenuVisible(true);
 	};
 
-	const [menuHeight, setMenuHeight] = useState(0);
-	const menuRef = useRef(null);
-
-	useEffect(() => {
-		if (menuVisible && menuRef.current) {
-			setMenuHeight(menuRef.current.offsetHeight);
-		}
-	}, [menuVisible]);
-
 	return (
         <div className={styles.songlistWrapper}>
-            {grouped.map((styleGroup) => (
-				<div key={styleGroup.styleSlug} className={styles.styleGroup} style={{ marginBottom: 32, borderBottom: '1px solid #e0e0e0', paddingBottom: 16 }}>
-					<h2 className={styles.styleTitle} style={{ fontSize: '1.3em', fontWeight: 'bold', marginBottom: 12, borderBottom: '1px solid #e0e0e0', paddingBottom: 4 }}>
-						<Link
-							href={`/styles/${styleGroup.styleSlug}/1`}
-							className={styles.styleLink}
-						>
-							{styleGroup.styleName}
-							<svg className={styles.arrowAnim} width="1em" height="1em" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M6 10h8m0 0l-3-3m3 3l-3 3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-							</svg>
-						</Link>
-					</h2>
-					<ul className={styles.songList}>
-						{styleGroup.songs.map((song, index) => {
-							// categoriesを必ず定義
-							const categories = song.custom_fields?.categories || song.categories || [];
-							// artists配列があればそれを優先して表示
-							let artistElements;
-							if (Array.isArray(song.artists) && song.artists.length > 0) {
-								artistElements = song.artists.map((artist, idx) => {
-									let displayName = decodeHtmlEntities(artist.name || "Unknown Artist");
-									if (artist.prefix === "1" && !/^The\s+/i.test(displayName)) {
-										displayName = "The " + displayName;
-									}
-									const origin = artist.artistorigin || artist.acf?.artistorigin;
-									const originText = origin && origin !== "Unknown" ? ` (${origin})` : "";
-									return (
-										<span key={artist.id || idx}>
-											<span style={{ fontWeight: "bold" }}>{displayName}</span>
-											{originText && (
-												<span style={{ fontWeight: "normal", fontSize: "0.8em" }}>{originText}</span>
-											)}
-											{idx !== song.artists.length - 1 && ", "}
-										</span>
-									);
-								});
-							} else {
-								// 既存のロジック（categories等から推定）
-								const orderedArtists = (() => {
-									function getComparableCatName(cat) {
-										return removeLeadingThe(cat.name || "").toLowerCase();
-									}
-									if (song.acf?.artist_order && typeof song.acf.artist_order === 'string') {
-										const orderNames = song.acf.artist_order.split(",").map((n) => n.trim().toLowerCase());
-										const matched = [];
-										orderNames.forEach((artistNameLower) => {
-											const foundCat = categories.find(
-												(cat) => getComparableCatName(cat) === removeLeadingThe(artistNameLower)
-											);
-											if (foundCat) matched.push(foundCat);
-										});
-										if (matched.length > 0) return matched;
-									}
-									if (song.acf?.spotify_artists && typeof song.acf.spotify_artists === 'string') {
-										const spotifyNames = song.acf.spotify_artists.split(",").map((n) => n.trim().toLowerCase());
-										const matched = [];
-										spotifyNames.forEach((artistNameLower) => {
-											const foundCat = categories.find(
-												(cat) => getComparableCatName(cat) === removeLeadingThe(artistNameLower)
-											);
-											if (foundCat) matched.push(foundCat);
-										});
-										if (matched.length > 0) return matched;
-									}
-									if (song.content?.rendered) {
-										const contentParts = song.content.rendered.split(" - ");
-										if (contentParts.length > 0) {
-											const potentialArtistsStr = contentParts[0];
-											const contentArtists = potentialArtistsStr.split(",").map((n) => n.trim().toLowerCase());
-											const matched = [];
-											contentArtists.forEach((artistNameLower) => {
-												const foundCat = categories.find(
-													(cat) => getComparableCatName(cat) === removeLeadingThe(artistNameLower)
-												);
-												if (foundCat) matched.push(foundCat);
-											});
-											if (matched.length > 0) return matched;
-										}
-									}
-									return categories;
-								})();
-								artistElements = orderedArtists.length
-									? orderedArtists.map((artist, idx) => (
-										<span key={artist.id || idx}>
-											<span style={{ fontWeight: "bold" }}>{artist.name}</span>
-											{artist.artistorigin && artist.artistorigin !== "Unknown" && (
-												<span style={{ fontWeight: "normal", fontSize: "0.8em" }}> ({artist.artistorigin})</span>
-											)}
-											{artist.acf?.artistorigin && artist.acf.artistorigin !== "Unknown" && !artist.artistorigin && (
-												<span style={{ fontWeight: "normal", fontSize: "0.8em" }}> ({artist.acf.artistorigin})</span>
-											)}
-											{idx !== orderedArtists.length - 1 && ", "}
-										</span>
-									))
-									: <span style={{ fontWeight: "bold" }}>Unknown Artist</span>;
+			{showTitle && (
+				<h2 className={styles.styleTitle}>
+					<Link href={`/styles/${styleSlug}/1`} className={styles.styleLink}>
+						{styleName}
+						<svg className={styles.arrowAnim} width="1em" height="1em" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6 10h8m0 0l-3-3m3 3l-3 3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+						</svg>
+					</Link>
+				</h2>
+			)}
+
+			<ul className={styles.songList}>
+				{songs.map((song, index) => {
+					const categories = song.custom_fields?.categories || song.categories || [];
+					let artistElements;
+					if (Array.isArray(song.artists) && song.artists.length > 0) {
+						artistElements = song.artists.map((artist, idx) => {
+							let displayName = decodeHtmlEntities(artist.name || "Unknown Artist");
+							if (artist.prefix === "1" && !/^The\s+/i.test(displayName)) {
+								displayName = "The " + displayName;
 							}
-							const title = song.title?.rendered || song.title || "No Title";
-							// サムネイル画像のロジックをスタイルページと統一
-							let thumbnailUrl = "/placeholder.jpg";
-							const src = song.thumbnail || song.featured_media_url;
-							if (src) {
-								const fileName = src.split("/").pop().replace(/\.[a-zA-Z0-9]+$/, ".webp");
-								thumbnailUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
-							}
-							const releaseDate = formatYearMonth(song.date) !== "Unknown Year"
-								? formatYearMonth(song.date)
-								: "不明な年";
-							const genreText = formatGenres(song.genre_data);
-							const vocalIcons = renderVocalIcons(song.vocal_data);
-							const songId = String(song.id);
-							const likeCount = likeCounts[songId] || 0;
-							const isLiked = likedSongs[songId] || false;
-							const viewCount = viewCounts[songId] || 0;
-							const userViewCount = userViewCounts[songId] || 0;
+							const origin = artist.artistorigin || artist.acf?.artistorigin;
+							const originText = origin && origin !== "Unknown" ? ` (${origin})` : "";
 							return (
-								<li key={song.id} id={`song-${song.id}`} className={styles.songItem}>
-									<div className="ranking-thumbnail-container"></div>
-									<button
-										className={
-											styles.thumbnailContainer +
-											((currentSongIndex !== null && currentSongIndex !== undefined && song.originalIndex === currentSongIndex) ? ' ' + styles.playingBorder : '')
-										}
-										onClick={() => onTrackPlay(song, index)}
-										aria-label={`再生 ${decodeHtmlEntities(title)}`}
-										style={{ marginRight: 16 }}
-									>
-										<img
-											src={thumbnailUrl}
-											alt={`${decodeHtmlEntities(title)} のサムネイル`}
-											onError={(e) => {
-												// 1回目のエラー時はWPのwebpに切り替え
-												const wpWebp = (src) => src ? src.replace(/\.[a-zA-Z0-9]+$/, ".webp") : "";
-												if (!e.currentTarget.dataset.triedWp) {
-													e.currentTarget.dataset.triedWp = "1";
-													e.currentTarget.src = wpWebp(song.thumbnail || song.featured_media_url || "");
-												} else {
-													// 2回目のエラー時はプレースホルダー
-													if (e.currentTarget.src !== "/placeholder.jpg") {
-														e.currentTarget.src = "/placeholder.jpg";
-													}
-												}
-											}}
-										/>
-									</button>
-									<div className={styles.songDetails}>
-										<div className={styles.songInfo}>
-											<div className={styles.title}>
-												<div style={{ marginRight: "auto", display: "block" }}>
-													{artistElements}
-													<br />
-													<span>{decodeHtmlEntities(title)}</span>
-												</div>
-												<div className={styles.icons}>
-													<span
-														className={styles.likeIcon}
-														onClick={(e) => {
-															e.stopPropagation();
-															toggleLike(String(song.id));
-														}}
-													>
-														<img
-															src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
-															alt="Like"
-															className={styles.likeIcon}
-															style={{ width: "14px", height: "14px" }}
-														/>
-														{likeCount > 0 && (
-															<span className={styles.likeCount} style={{ fontSize: "10px", marginLeft: "2px" }}>
-																{likeCount}
-															</span>
-														)}
-													</span>
-												</div>
-												{viewCount > 0 && (
-													<span className={styles.viewCount} style={{ fontSize: "10px", color: "#666", display: "inline-flex", alignItems: "center" }}>
-														({viewCount}{userViewCount > 0 ? ` / ${userViewCount}` : ""})
-													</span>
-												)}
-											</div>
-											<div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
-												<span style={{ fontSize: "0.85em" }}>{releaseDate}</span>
-												{genreText !== "Unknown Genre" && (
-													<span style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "0.85em" }}>
-														({genreText})
-													</span>
-												)}
-												{vocalIcons && <span style={{ display: "inline-flex", alignItems: "center" }}>{vocalIcons}</span>}
-											</div>
-										</div>
-									</div>
-								</li>
+								<span key={artist.id || idx}>
+									<span style={{ fontWeight: "bold" }}>{displayName}</span>
+									{originText && (
+										<span style={{ fontWeight: "normal", fontSize: "0.8em" }}>{originText}</span>
+									)}
+									{idx !== song.artists.length - 1 && ", "}
+								</span>
 							);
-						})}
-					</ul>
-				</div>
-			))}
-            {/* ポップアップメニュー・プレイリスト追加などもSongList.jsと同じ位置に配置 ... */}
-            {menuVisible && selectedSong &&
+						});
+					} else {
+						const orderedArtists = determineArtistOrder(song);
+						artistElements = orderedArtists.length
+							? orderedArtists.map((artist, idx) => (
+								<span key={artist.id || idx}>
+									<span style={{ fontWeight: "bold" }}>{artist.name}</span>
+									{artist.artistorigin && artist.artistorigin !== "Unknown" && (
+										<span style={{ fontWeight: "normal", fontSize: "0.8em" }}> ({artist.artistorigin})</span>
+									)}
+									{artist.acf?.artistorigin && artist.acf.artistorigin !== "Unknown" && !artist.artistorigin && (
+										<span style={{ fontWeight: "normal", fontSize: "0.8em" }}> ({artist.acf.artistorigin})</span>
+									)}
+									{idx !== orderedArtists.length - 1 && ", "}
+								</span>
+							))
+							: <span style={{ fontWeight: "bold" }}>Unknown Artist</span>;
+					}
+					const title = song.title?.rendered || song.title || "No Title";
+					let thumbnailUrl = "/placeholder.jpg";
+					const src = song.thumbnail || song.featured_media_url;
+					if (src) {
+						const fileName = src.split("/").pop().replace(/\.[a-zA-Z0-9]+$/, ".webp");
+						thumbnailUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
+					}
+					const releaseDate = formatYearMonth(song.date) !== "Unknown Year"
+						? formatYearMonth(song.date)
+						: "不明な年";
+					const genreText = formatGenres(song.genre_data);
+					const vocalIcons = renderVocalIcons(song.vocal_data);
+					const songId = String(song.id);
+					const likeCount = likeCounts[songId] || 0;
+					const isLiked = likedSongs[songId] || false;
+					const viewCount = viewCounts[songId] || 0;
+					const userViewCount = userViewCounts[songId] || 0;
+
+					return (
+						<li key={song.id} id={`song-${song.id}`} className={styles.songItem}>
+							<div className="ranking-thumbnail-container"></div>
+							<button
+								className={
+									styles.thumbnailContainer +
+									((currentSongIndex !== null && currentSongIndex !== undefined && song.originalIndex === currentSongIndex) ? ' ' + styles.playingBorder : '')
+								}
+								onClick={() => onTrackPlay(song, index)}
+								aria-label={`再生 ${decodeHtmlEntities(title)}`}
+								style={{ marginRight: 16 }}
+							>
+								<img
+									src={thumbnailUrl}
+									alt={`${decodeHtmlEntities(title)} のサムネイル`}
+									onError={(e) => {
+										const wpWebp = (src) => src ? src.replace(/\.[a-zA-Z0-9]+$/, ".webp") : "";
+										if (!e.currentTarget.dataset.triedWp) {
+											e.currentTarget.dataset.triedWp = "1";
+											e.currentTarget.src = wpWebp(song.thumbnail || song.featured_media_url || "");
+										} else {
+											if (e.currentTarget.src !== "/placeholder.jpg") {
+												e.currentTarget.src = "/placeholder.jpg";
+											}
+										}
+									}}
+								/>
+							</button>
+							<div className={styles.songDetails}>
+								<div className={styles.songInfo}>
+									<div className={styles.title}>
+										<div style={{ marginRight: "auto", display: "block" }}>
+											{artistElements}
+											<br />
+											<span>{decodeHtmlEntities(title)}</span>
+										</div>
+										<div className={styles.icons}>
+											<span
+												className={styles.likeIcon}
+												onClick={(e) => {
+													e.stopPropagation();
+													toggleLike(String(song.id));
+												}}
+											>
+												<img
+													src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
+													alt="Like"
+													className={styles.likeIcon}
+													style={{ width: "14px", height: "14px" }}
+												/>
+												{likeCount > 0 && (
+													<span className={styles.likeCount} style={{ fontSize: "10px", marginLeft: "2px" }}>
+														{likeCount}
+													</span>
+												)}
+											</span>
+										</div>
+										{viewCount > 0 && (
+											<span className={styles.viewCount} style={{ fontSize: "10px", color: "#666", display: "inline-flex", alignItems: "center" }}>
+												({viewCount}{userViewCount > 0 ? ` / ${userViewCount}` : ""})
+											</span>
+										)}
+									</div>
+									<div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+										<span style={{ fontSize: "0.85em" }}>{releaseDate}</span>
+										{genreText !== "Unknown Genre" && (
+											<span style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "0.85em" }}>
+												({genreText})
+											</span>
+										)}
+										{vocalIcons && <span style={{ display: "inline-flex", alignItems: "center" }}>{vocalIcons}</span>}
+									</div>
+								</div>
+							</div>
+						</li>
+					);
+				})}
+			</ul>
+            
+			{menuVisible && selectedSong &&
 				ReactDOM.createPortal(
 					<ThreeDotsMenu
 						ref={menuRef}
 						song={selectedSong}
 						triggerRect={menuTriggerRect}
 						onClose={() => setMenuVisible(false)}
-						onAddToPlaylist={(songId) => {
-							setSelectedSongId(songId);
+						onAddToPlaylist={() => {
+							setSelectedSongId(selectedSong.id);
 							setShowSavePopup(true);
 							setMenuVisible(false);
 						}}
@@ -607,20 +528,23 @@ export default function SongListTopPage({
 					document.body
 				)
 			}
-            {showSavePopup && selectedSongId &&
-				ReactDOM.createPortal(
-					<SaveToPlaylistPopup songId={selectedSongId} onClose={() => setShowSavePopup(false)} />,
-					document.body
-				)
-			}
-        </div>
-    );
+			{showSavePopup && (
+				<SaveToPlaylistPopup
+					songId={selectedSongId}
+					onClose={() => setShowSavePopup(false)}
+				/>
+			)}
+		</div>
+	);
 }
 
 SongListTopPage.propTypes = {
 	songs: PropTypes.array,
+	styleSlug: PropTypes.string,
+	styleName: PropTypes.string,
 	currentSongIndex: PropTypes.number,
 	onTrackPlay: PropTypes.func,
 	onNext: PropTypes.func,
 	onPrevious: PropTypes.func,
+	showTitle: PropTypes.bool,
 };

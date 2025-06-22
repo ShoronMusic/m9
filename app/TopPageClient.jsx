@@ -6,6 +6,7 @@ import axios from "axios";
 import SongListTopPage from "./components/SongListTopPage";
 import { config } from "./config/config";
 import { usePlayer } from './components/PlayerContext';
+import Link from "next/link";
 
 // --- ヘルパー関数群 ---
 // 先頭の "The " を取り除く
@@ -227,17 +228,19 @@ export default function TopPageClient({ topSongsData = [] }) {
 							<div style={{ fontSize: '0.85em', color: '#888', marginBottom: '2px', fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
 								STYLE
 							</div>
-							<h2 style={{
-								textAlign: 'left',
-								fontSize: '1.8em',
-								fontWeight: 700,
-								margin: 0,
-								color: '#222',
-								letterSpacing: '-0.01em',
-								lineHeight: 1.1
-							}}>
-								{styleName}
-							</h2>
+							<Link href={`/styles/${styleSlug}/1`} style={{ textDecoration: 'none' }}>
+								<h2 style={{
+									textAlign: 'left',
+									fontSize: '1.8em',
+									fontWeight: 700,
+									margin: 0,
+									color: '#222',
+									letterSpacing: '-0.01em',
+									lineHeight: 1.1
+								}}>
+									{styleName}
+								</h2>
+							</Link>
 							<div style={{ borderBottom: '2px solid #e0e0e0', width: '60px', margin: '12px 0 12px 0' }} />
 						</div>
 
