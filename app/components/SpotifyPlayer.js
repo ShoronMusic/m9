@@ -279,6 +279,13 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
           setTimeout(() => {
             console.log('Executing playNext from state change...');
             try {
+              // PlayerContextの状態を明示的に更新してからplayNextを呼び出す
+              // これにより、playNextが正しい現在の曲情報を取得できる
+              if (currentTrack && currentTrackIndex >= 0) {
+                console.log('Updating PlayerContext state before playNext...');
+                updateCurrentTrackState(currentTrack, currentTrackIndex);
+              }
+              
               console.log('About to call playNext function...');
               playNext();
               console.log('playNext executed successfully');
@@ -354,6 +361,12 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
             setTimeout(() => {
               console.log('Executing playNext from timer check...');
               try {
+                // PlayerContextの状態を明示的に更新してからplayNextを呼び出す
+                if (currentTrack && currentTrackIndex >= 0) {
+                  console.log('Updating PlayerContext state before playNext (timer check)...');
+                  updateCurrentTrackState(currentTrack, currentTrackIndex);
+                }
+                
                 playNext();
                 console.log('playNext executed successfully from timer check');
               } catch (error) {
@@ -498,6 +511,12 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
               setTimeout(() => {
                 console.log('Executing playNext...');
                 try {
+                  // PlayerContextの状態を明示的に更新してからplayNextを呼び出す
+                  if (currentTrack && currentTrackIndex >= 0) {
+                    console.log('Updating PlayerContext state before playNext (position update)...');
+                    updateCurrentTrackState(currentTrack, currentTrackIndex);
+                  }
+                  
                   playNext();
                   console.log('playNext executed successfully from position update');
                 } catch (error) {
@@ -517,6 +536,12 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
               setTimeout(() => {
                 console.log('Executing playNext (no current track)...');
                 try {
+                  // PlayerContextの状態を明示的に更新してからplayNextを呼び出す
+                  if (currentTrack && currentTrackIndex >= 0) {
+                    console.log('Updating PlayerContext state before playNext (position update no current track)...');
+                    updateCurrentTrackState(currentTrack, currentTrackIndex);
+                  }
+                  
                   playNext();
                   console.log('playNext executed successfully from position update (no current track)');
                 } catch (error) {
@@ -541,6 +566,12 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
                 setTimeout(() => {
                   console.log('Executing playNext (Spotify auto-next)...');
                   try {
+                    // PlayerContextの状態を明示的に更新してからplayNextを呼び出す
+                    if (currentTrack && currentTrackIndex >= 0) {
+                      console.log('Updating PlayerContext state before playNext (Spotify auto-next)...');
+                      updateCurrentTrackState(currentTrack, currentTrackIndex);
+                    }
+                    
                     playNext();
                     console.log('playNext executed successfully from position update (Spotify auto-next)');
                   } catch (error) {

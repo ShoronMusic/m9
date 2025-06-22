@@ -79,29 +79,51 @@ export const PlayerProvider = ({ children }) => {
 
   const playNext = useCallback(() => {
     // refから最新のstateを取得
-    const { trackList, currentTrack } = stateRef.current;
+    const { trackList, currentTrack, currentTrackIndex } = stateRef.current;
 
     console.log('playNext called with state from ref:', {
       trackListLength: trackList.length,
       currentTrack: currentTrack?.name || currentTrack?.title?.rendered,
       currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id,
+      currentIndex: currentTrackIndex
     });
     
     if (trackList.length === 0) {
       console.log('Track list is empty, cannot play next');
       return;
     }
-    
-    const currentTrackId = currentTrack?.spotifyTrackId || currentTrack?.id;
-    // 現在の曲のインデックスをリストから毎回再検索する
-    let currentIndex = trackList.findIndex(track => 
-      (track?.spotifyTrackId || track?.id) === currentTrackId
-    );
 
+    let currentIndex = -1;
+
+    // 1. まずは state の currentTrackIndex を信頼する
+    if (currentTrackIndex !== undefined && currentTrackIndex >= 0 && currentTrackIndex < trackList.length) {
+      const trackAtStateIndex = trackList[currentTrackIndex];
+      // 念のため、インデックスの曲と現在の曲が一致するか確認
+      if (trackAtStateIndex && currentTrack && (trackAtStateIndex.id === currentTrack.id || (trackAtStateIndex.spotifyTrackId && trackAtStateIndex.spotifyTrackId === currentTrack.spotifyTrackId))) {
+        currentIndex = currentTrackIndex;
+        console.log(`Using state index: ${currentIndex}`);
+      }
+    }
+
+    // 2. stateのインデックスが信頼できない場合、IDで再検索する
+    if (currentIndex === -1 && currentTrack) {
+      console.log('State index was invalid or mismatched, searching by ID...');
+      const currentTrackId = currentTrack?.spotifyTrackId || currentTrack?.id;
+      const currentId = currentTrack?.id;
+
+      currentIndex = trackList.findIndex(track => 
+        (track.spotifyTrackId && track.spotifyTrackId === currentTrackId) || 
+        (track.id && track.id === currentId)
+      );
+    }
+    
     if (currentIndex === -1) {
       console.error('Current track not found in tracklist, cannot play next. Defaulting to first track.');
-      // 見つからない場合は、リストの最初の曲を再生するなどのフォールバック処理
-      currentIndex = -1; 
+      setCurrentTrack(trackList[0]);
+      setCurrentTrackIndex(0);
+      setIsPlaying(true);
+      setPosition(0);
+      return;
     }
     
     const nextIndex = (currentIndex + 1) % trackList.length;
@@ -115,7 +137,7 @@ export const PlayerProvider = ({ children }) => {
     });
     
     if (!nextTrack) {
-      console.error('Next track is null or undefined');
+      console.error('Next track is null or undefined at index:', nextIndex);
       return;
     }
     

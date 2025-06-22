@@ -1,26 +1,32 @@
 // app/TopPageClient.jsx
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import SongListTopPage from "./components/SongListTopPage";
 import { config } from "./config/config";
 import { usePlayer } from './components/PlayerContext';
 import Link from "next/link";
 
-// --- ヘルパー関数群 ---
-// 先頭の "The " を取り除く
+// --- ヘルパー関数群 (SongList.jsから移植) ---
 function removeLeadingThe(str = "") {
 	return str.replace(/^The\s+/i, "").trim();
 }
 
-// 複数アーティストの並び順を決める
 function determineArtistOrder(song) {
-	const categories = song.categories || [];
+	// artists配列があればそれを優先
+	if (Array.isArray(song.artists) && song.artists.length > 0) {
+		return song.artists;
+	}
+	// TopPageでは `song.categories` が `song.artist_categories` の中にある
+	const categories = song.artist_categories || [];
+
 	function getComparableCatName(cat) {
 		return removeLeadingThe(cat.name || "").toLowerCase();
 	}
-	if (song.acf?.artist_order && typeof song.acf.artist_order === 'string') {
+
+	// 1. artist_order を優先
+	if (song.acf?.artist_order) {
 		const orderNames = song.acf.artist_order.split(",").map((n) => n.trim().toLowerCase());
 		const matched = [];
 		orderNames.forEach((artistNameLower) => {
@@ -31,19 +37,9 @@ function determineArtistOrder(song) {
 		});
 		if (matched.length > 0) return matched;
 	}
-	if (song.content?.rendered) {
-		const contentStr = song.content.rendered.split("-")[0];
-		const contentArtists = contentStr.split(",").map((n) => n.trim().toLowerCase());
-		const matched = [];
-		contentArtists.forEach((artistNameLower) => {
-			const foundCat = categories.find(
-				(cat) => getComparableCatName(cat) === removeLeadingThe(artistNameLower)
-			);
-			if (foundCat) matched.push(foundCat);
-		});
-		if (matched.length > 0) return matched;
-	}
-	if (song.acf?.spotify_artists && typeof song.acf.spotify_artists === 'string') {
+
+	// 2. spotify_artists を次に優先
+	if (song.acf?.spotify_artists) {
 		const spotifyNames = song.acf.spotify_artists.split(",").map((n) => n.trim().toLowerCase());
 		const matched = [];
 		spotifyNames.forEach((artistNameLower) => {
@@ -54,27 +50,29 @@ function determineArtistOrder(song) {
 		});
 		if (matched.length > 0) return matched;
 	}
+
+	// 3. 本文 (content.rendered) を次に優先
+	if (song.content?.rendered) {
+		const contentParts = song.content.rendered.split(" - ");
+		if (contentParts.length > 0) {
+			const potentialArtistsStr = contentParts[0];
+			const contentArtists = potentialArtistsStr.split(",").map((n) => n.trim().toLowerCase());
+			const matched = [];
+			contentArtists.forEach((artistNameLower) => {
+				const foundCat = categories.find(
+					(cat) => getComparableCatName(cat) === removeLeadingThe(artistNameLower)
+				);
+				if (foundCat) matched.push(foundCat);
+			});
+			if (matched.length > 0) return matched;
+		}
+	}
+
+	// 4. 上記全てない場合は categories の元の順番
 	return categories;
 }
 
-// 実際に表示するアーティスト名を組み立てる
-function formatArtistsWithOrigin(artists = []) {
-	return artists
-		.map((artist) => {
-			let displayName = artist.name || "Unknown Artist";
-			if (artist.the_prefix === "1" && !/^The\s+/i.test(displayName)) {
-				displayName = "The " + displayName;
-			}
-			const origin =
-				artist.artistorigin && artist.artistorigin !== "Unknown"
-					? ` (${artist.artistorigin})`
-					: "";
-			return displayName + origin;
-		})
-		.join(", ");
-}
-
-// スタイル順序はconfig.style.listの順序に従う
+// --- TopPageClient本体 ---
 const styleOrder = config.style.list.map((s) => s.id);
 const styleDisplayMap = Object.fromEntries(config.style.list.map((s) => [s.id, s.name]));
 
@@ -127,92 +125,59 @@ const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/t
 
 export default function TopPageClient({ topSongsData = [] }) {
 	const [songsByStyle, setSongsByStyle] = useState({});
-	const [normalizedSongs, setNormalizedSongs] = useState([]);
 	const { playTrack, setTrackList } = usePlayer();
 
-	const styleSlugs = styleOrder;
-
 	// propsからデータをセットし、正規化
-	useEffect(() => {
-		// topSongsDataをstyleOrder順に並べ替え
-		const sorted = styleOrder
-			.map((slug) => topSongsData.find((entry) => entry.styleSlug === slug))
-			.filter(Boolean);
-		const byStyle = {};
-		const merged = [];
-		for (const entry of sorted) {
-			byStyle[entry.styleSlug] = entry.songs;
-			(entry.songs || []).forEach((song) => {
-				merged.push({ ...song, styleSlug: entry.styleSlug, styleName: styleDisplayMap[entry.styleSlug] });
-			});
-		}
-		setSongsByStyle(byStyle);
-
-		// StylePageClient.jsxと同じデータ正規化ロジックを適用
-		const normalized = merged.map(song => {
-			let artists = [];
-			if (Array.isArray(song.artists) && song.artists.length > 0) {
-				artists = song.artists.map(a => ({
-					...a,
-					acf: {
-						...(a.acf || {}),
-						artistorigin: a.artistorigin || a.acf?.artistorigin || song.acf?.artist_acf?.artistorigin || "",
-					}
-				}));
-			} else if (song.artist) {
-				artists = [{
-					name: song.artist,
-					acf: {
-						...(song.acf?.artist_acf || {}),
-						artistorigin: song.acf?.artist_acf?.artistorigin || "",
-					},
-					id: song.artist_id || undefined,
-					slug: song.artist_slug || undefined,
-				}];
-			}
+	const allSongs = styleOrder
+		.flatMap((slug) => {
+			const entry = topSongsData.find((e) => e.styleSlug === slug);
+			if (!entry || !entry.songs) return [];
+			return entry.songs.map(song => ({
+				...song,
+				styleSlug: entry.styleSlug,
+				styleName: styleDisplayMap[entry.styleSlug]
+			}));
+		})
+		.map(song => {
+			// --- ここで最終的なデータ整形を行う ---
+			const finalArtists = determineArtistOrder(song);
 			
-			// Spotify IDを優先的に使用
-			const spotify_track_id = song.spotify_track_id || song.spotifyTrackId || song.acf?.spotify_track_id || song.acf?.spotifyTrackId || '';
-			
-			// YouTube IDはフォールバックとして保持
-			const ytvideoid = song.ytvideoid || song.youtube_id || song.acf?.ytvideoid || song.acf?.youtube_id || song.videoId || '';
+			const spotify_track_id = song.spotify_track_id || song.spotifyTrackId || song.acf?.spotify_track_id || '';
 			
 			return {
 				...song,
+				// PlayerContextが期待するデータ構造に合わせる
+				artists: finalArtists, // 整形済みのアーティスト配列
 				title: { rendered: song.title },
-				artists,
-				acf: {
-					...song.acf,
-					spotify_track_id,
-					ytvideoid,
-					youtube_id: ytvideoid,
-				},
-				date: song.releaseDate || song.date || song.post_date || '',
-				thumbnail: song.thumbnail,
-				youtubeId: ytvideoid,
 				spotifyTrackId: spotify_track_id,
-				genre_data: song.genres,
-				vocal_data: song.vocals,
-				style: song.styles,
-				slug: song.titleSlug || song.slug || (typeof song.title === 'string' ? song.title.toLowerCase().replace(/ /g, "-") : (song.title?.rendered ? song.title.rendered.toLowerCase().replace(/ /g, "-") : song.id)),
-				content: { rendered: song.content },
+				// 他の必須プロパティもここに追加...
+				thumbnail: song.thumbnail,
 			};
-		}).filter(song => {
-			// Spotify IDがある楽曲のみを表示
-			const hasSpotifyId = song.acf?.spotify_track_id || song.spotifyTrackId;
-			return hasSpotifyId;
-		});
+		}).filter(song => song.spotifyTrackId);
 
-		setNormalizedSongs(normalized);
-		
+	useEffect(() => {
+		// スタイルごとの表示用データを作成
+		const byStyle = {};
+		allSongs.forEach(song => {
+			if (!byStyle[song.styleSlug]) {
+				byStyle[song.styleSlug] = [];
+			}
+			byStyle[song.styleSlug].push(song);
+		});
+		setSongsByStyle(byStyle);
+
 		// PlayerContextに曲リストを設定
-		setTrackList(normalized);
-	}, [topSongsData, setTrackList]);
+		if (allSongs.length > 0) {
+			setTrackList(allSongs);
+		}
+	}, [topSongsData]); // topSongsDataの変更時にのみ実行
 
 	// 曲再生管理（PlayerContextを使用）
 	const handleTrackPlay = useCallback((song, index) => {
-		playTrack(song, index, normalizedSongs, 'top-page');
-	}, [playTrack, normalizedSongs]);
+		// allSongsから正しいインデックスを探す
+		const globalIndex = allSongs.findIndex(s => s.id === song.id);
+		playTrack(song, globalIndex, allSongs, 'top-page');
+	}, [playTrack, allSongs]);
 
 	return (
 		<div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
@@ -225,7 +190,7 @@ export default function TopPageClient({ topSongsData = [] }) {
 				New Songs Across 8 Styles
 			</h1>
 
-			{styleSlugs.map((styleSlug) => {
+			{styleOrder.map((styleSlug) => {
 				const styleSongs = songsByStyle[styleSlug] || [];
 				const styleName = styleDisplayMap[styleSlug];
 				

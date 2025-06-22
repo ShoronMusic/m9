@@ -473,50 +473,49 @@ export default function SongListTopPage({
 								/>
 							</button>
 							<div className={styles.songDetails}>
-								<div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
-									<div className={styles.songInfo}>
-										<div className={styles.title}>
+								<div className={styles.songInfo}>
+									<div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+										<div className={styles.title} style={{ flexGrow: 1 }}>
 											<div style={{ marginRight: "auto", display: "block" }}>
 												{artistElements}
 												<br />
 												<span>{decodeHtmlEntities(title)}</span>
 											</div>
 										</div>
-										<div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
-											<span style={{ fontSize: "0.85em" }}>{releaseDate}</span>
-											{genreText !== "Unknown Genre" && (
-												<span style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "0.85em" }}>
-													({genreText})
+										<div className={styles.icons} style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0, marginLeft: '16px' }}>
+											<span
+												className={styles.likeIcon}
+												onClick={(e) => {
+													e.stopPropagation();
+													toggleLike(String(song.id));
+												}}
+											>
+												<img
+													src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
+													alt="Like"
+													style={{ width: "14px", height: "14px" }}
+												/>
+												{likeCount > 0 && (
+													<span className={styles.likeCount} style={{ fontSize: "10px", marginLeft: "2px" }}>
+														{likeCount}
+													</span>
+												)}
+											</span>
+											{viewCount > 0 && (
+												<span className={styles.viewCount} style={{ fontSize: "10px", color: "#666" }}>
+													({viewCount}{userViewCount > 0 ? ` / ${userViewCount}` : ""})
 												</span>
 											)}
-											{vocalIcons && <span style={{ display: "inline-flex", alignItems: "center" }}>{vocalIcons}</span>}
 										</div>
 									</div>
-									<div className={styles.metaInfo} style={{ display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
-										<span
-											className={styles.likeIcon}
-											onClick={(e) => {
-												e.stopPropagation();
-												toggleLike(String(song.id));
-											}}
-										>
-											<img
-												src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
-												alt="Like"
-												className={styles.likeIcon}
-												style={{ width: "14px", height: "14px" }}
-											/>
-											{likeCount > 0 && (
-												<span className={styles.likeCount} style={{ fontSize: "10px", marginLeft: "2px" }}>
-													{likeCount}
-												</span>
-											)}
-										</span>
-										{viewCount > 0 && (
-											<span className={styles.viewCount} style={{ fontSize: "10px", color: "#666", display: "inline-flex", alignItems: "center" }}>
-												({viewCount}{userViewCount > 0 ? ` / ${userViewCount}` : ""})
+									<div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+										<span style={{ fontSize: "0.85em" }}>{releaseDate}</span>
+										{genreText !== "Unknown Genre" && (
+											<span style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "0.85em" }}>
+												({genreText})
 											</span>
 										)}
+										{vocalIcons && <span style={{ display: "inline-flex", alignItems: "center" }}>{vocalIcons}</span>}
 									</div>
 								</div>
 							</div>
