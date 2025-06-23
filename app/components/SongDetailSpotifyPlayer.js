@@ -17,6 +17,7 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
   const [duration, setDuration] = useState(0);
   const [volume, setVolume] = useState(0.3);
   const [error, setError] = useState(null);
+  const [repeatMode, setRepeatMode] = useState('off'); // 'off', 'track', 'context'
   
   const playerRef = useRef(null);
   const hasPlaybackStartedRef = useRef(false);
@@ -171,6 +172,23 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
     playerRef.current.setVolume(volumeValue).catch(e => console.error("Failed to set volume", e));
   }
 
+  const toggleRepeat = async () => {
+    if (!isReady || !deviceId) return;
+    const newRepeatMode = repeatMode === 'off' ? 'track' : 'off';
+    try {
+      await fetch(`https://api.spotify.com/v1/me/player/repeat?state=${newRepeatMode}&device_id=${deviceId}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${accessToken}`,
+        },
+      });
+      setRepeatMode(newRepeatMode);
+    } catch (e) {
+      console.error('Failed to set repeat mode:', e);
+      setError(`リピート設定の変更に失敗しました: ${e.message}`);
+    }
+  };
+
   const progressPercentage = duration > 0 ? (position / duration) * 100 : 0;
 
   if (error) {
@@ -216,16 +234,39 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
       margin: '20px 0',
       border: '1px solid #333'
     }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '15px' }}>
-        <img 
-            src="/images/Full_Logo_Green_RGB.svg" 
-            alt="Spotify" 
-            style={{ height: '30px', width: 'auto' }} 
-        />
-        <div>
-            <div style={{ color: '#fff', fontWeight: 'bold' }}>{songData?.title || 'Track'}</div>
-            <div style={{ color: '#ccc', fontSize: '0.9em' }}>{songData?.artists?.map(a => a.name).join(', ') || 'Artist'}</div>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '15px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+          <img 
+              src="/images/Full_Logo_Green_RGB.svg" 
+              alt="Spotify" 
+              style={{ height: '30px', width: 'auto' }} 
+          />
+          <div>
+              <div style={{ color: '#fff', fontWeight: 'bold' }}>{songData?.title || 'Track'}</div>
+              <div style={{ color: '#ccc', fontSize: '0.9em' }}>{songData?.artists?.map(a => a.name).join(', ') || 'Artist'}</div>
+          </div>
         </div>
+        <button 
+          onClick={toggleRepeat}
+          style={{
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            padding: '5px'
+          }}
+          title={repeatMode === 'track' ? 'リピート再生中' : 'リピート再生オフ'}
+        >
+          <img
+            src="/icons/repeat-white.svg"
+            alt="Repeat"
+            style={{
+              width: '20px',
+              height: '20px',
+              opacity: repeatMode === 'track' ? 1 : 0.4,
+              transition: 'opacity 0.2s ease-in-out'
+            }}
+          />
+        </button>
       </div>
       
       <div style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '15px' }}>

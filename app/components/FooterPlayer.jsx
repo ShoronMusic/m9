@@ -95,7 +95,7 @@ const VolumeControl = ({ volume, onVolumeChange, isMuted, onMuteToggle, isVolume
     );
 };
 
-export default function FooterPlayer() {
+export default function FooterPlayer({ accessToken }) {
     const playerContext = useContext(PlayerContext); // Use context directly
     const [isVolumeVisible, setIsVolumeVisible] = useState(false); // ボリューム表示状態を管理
 
@@ -126,6 +126,27 @@ export default function FooterPlayer() {
         return null; 
     }
     
+    // accessTokenがなく、曲が選択されている場合にメッセージを表示
+    if (!accessToken) {
+        return (
+            <div className={styles.playerContainer} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', padding: '10px 0' }}>
+                <div style={{ color: '#fff' }}>
+                    <img 
+                      src="/images/Full_Logo_Green_RGB.svg" 
+                      alt="Spotify" 
+                      style={{ height: '24px', width: 'auto', marginBottom: '10px' }} 
+                    />
+                    <p style={{ margin: '0 0 5px 0', fontSize: '0.9em' }}>
+                      曲の再生にはSpotifyアカウントでのログインが必要です。
+                    </p>
+                    <p style={{ fontSize: '0.8em', color: '#ccc', margin: 0 }}>
+                      画面右上のボタンからサインインしてください。
+                    </p>
+                </div>
+            </div>
+        );
+    }
+
     console.log('FooterPlayer: Rendering with current track:', {
         trackName: currentTrack.name || currentTrack.title?.rendered,
         trackId: currentTrack.spotifyTrackId || currentTrack.id

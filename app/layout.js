@@ -4,6 +4,8 @@ import Layout from "./components/Layout";
 import AuthProvider from "./components/AuthProvider";
 import { PlayerProvider } from "./components/PlayerContext";
 import FooterPlayer from "./components/FooterPlayer";
+import { getServerSession } from "next-auth";
+import { authOptions } from "./lib/authOptions";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +15,10 @@ export const metadata = {
   description: 'Discover and enjoy music videos from various artists and genres on Music8.',
 }
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  const session = await getServerSession(authOptions);
+  const accessToken = session?.accessToken || null;
+
   return (
     <html lang="ja">
       <head>
@@ -27,7 +32,7 @@ export default function RootLayout({ children }) {
             <Layout>
               {children}
             </Layout>
-            <FooterPlayer />
+            <FooterPlayer accessToken={accessToken} />
           </PlayerProvider>
         </AuthProvider>
       </body>
