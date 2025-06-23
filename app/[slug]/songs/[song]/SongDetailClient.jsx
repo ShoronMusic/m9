@@ -194,141 +194,162 @@ export default function SongDetailClient({ songData, description, accessToken })
   ) : null;
 
   return (
-    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '2rem' }}>
-      <ThemeProvider theme={theme}>
-        <Head>
-          <title>{pageTitleStr} | Music8</title>
-          <meta name="description" content={description} />
-        </Head>
+    <ThemeProvider theme={theme}>
+      <Head>
+        <title>{pageTitleStr} | Music8</title>
+        <meta name="description" content={description} />
+      </Head>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "flex-start",
+          padding: "20px",
+          flexWrap: "wrap",
+        }}
+      >
+        {/* 左: 曲のサムネイル（アーティストページと同じデザイン） */}
+        <div className={artistStyles.imageContainer}>
+          <Image
+            src={coverImageUrl}
+            alt={`${songData.title}のカバー画像`}
+            width={300}
+            height={300}
+            className={artistStyles.artistImage}
+            priority
+          />
+          {spotifyCredit}
+        </div>
+        {/* 右: 曲の情報 */}
         <div
           style={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "flex-start",
-            padding: "20px",
-            flexWrap: "wrap",
+            flexGrow: 1,
+            marginLeft: "20px",
+            backgroundColor: "#f9f9f9",
+            padding: "15px",
+            borderRadius: "8px",
+            width: "100%",
+            maxWidth: "500px",
           }}
         >
-          {/* 左: 曲のサムネイル（アーティストページと同じデザイン） */}
-          <div className={artistStyles.imageContainer}>
-            <Image
-              src={coverImageUrl}
-              alt={`${songData.title}のカバー画像`}
-              width={300}
-              height={300}
-              className={artistStyles.artistImage}
-              priority
-            />
-            {spotifyCredit}
+          {/* タイトル部分 */}
+          <div style={{ marginBottom: '0.5em' }}>
+            <span style={{ fontSize: '0.9em', color: '#888', letterSpacing: '0.15em', fontWeight: 600 }}>SONG</span>
           </div>
-          {/* 右: 曲の情報 */}
-          <div
-            style={{
-              flexGrow: 1,
-              marginLeft: "20px",
-              backgroundColor: "#f9f9f9",
-              padding: "15px",
-              borderRadius: "8px",
-              width: "100%",
-              maxWidth: "500px",
-            }}
-          >
-            {/* タイトル部分 */}
-            <div style={{ marginBottom: '0.5em' }}>
-              <span style={{ fontSize: '0.9em', color: '#888', letterSpacing: '0.15em', fontWeight: 600 }}>SONG</span>
-            </div>
-            <h1 style={{ fontSize: "2.4em", fontWeight: "bold", marginBottom: "0.7em", lineHeight: 1.1 }}>{songData.title}</h1>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '24px', alignItems: 'flex-start', marginBottom: '1em', marginLeft: '16px' }}>
-              {orderedArtists.length > 0 ? (
-                orderedArtists.map((artist, index) => {
-                  const artistOrigin = artist.acf?.artistorigin || "Unknown";
-                  return (
-                    <div key={index} style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-                      <div style={{ width: '100px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                        <Image
-                          src={artist.acf?.spotify_artist_images || "/placeholder.jpg"}
-                          alt={artist.name}
-                          width={100}
-                          height={100}
-                          style={{ borderRadius: "12px", objectFit: "cover", background: "#aaa" }}
-                        />
-                        <div style={{ width: '100px', textAlign: 'center', marginTop: '6px' }}>
-                          <Link href={`/${artist.slug}/`} style={{ fontSize: "1.08em", color: "#1e6ebb", fontWeight: "bold", textDecoration: "none" }}>
-                            {artist.name}
-                          </Link>
-                          <div style={{ color: "#888", fontSize: "0.95em" }}>({artistOrigin})</div>
-                        </div>
+          <h1 style={{ fontSize: "2.4em", fontWeight: "bold", marginBottom: "0.7em", lineHeight: 1.1 }}>{songData.title}</h1>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '24px', alignItems: 'flex-start', marginBottom: '1em', marginLeft: '16px' }}>
+            {orderedArtists.length > 0 ? (
+              orderedArtists.map((artist, index) => {
+                const artistOrigin = artist.acf?.artistorigin || "Unknown";
+                return (
+                  <div key={index} style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                    <div style={{ width: '100px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                      <Image
+                        src={artist.acf?.spotify_artist_images || "/placeholder.jpg"}
+                        alt={artist.name}
+                        width={100}
+                        height={100}
+                        style={{ borderRadius: "12px", objectFit: "cover", background: "#aaa" }}
+                      />
+                      <div style={{ width: '100px', textAlign: 'center', marginTop: '6px' }}>
+                        <Link href={`/${artist.slug}/`} style={{ fontSize: "1.08em", color: "#1e6ebb", fontWeight: "bold", textDecoration: "none" }}>
+                          {artist.name}
+                        </Link>
+                        <div style={{ color: "#888", fontSize: "0.95em" }}>({artistOrigin})</div>
                       </div>
                     </div>
-                  );
-                })
-              ) : (
-                <p>Unknown Artist</p>
-              )}
-            </div>
-            {/* 曲情報テーブル風デザイン */}
-            <div style={{ width: '100%', margin: '24px 0 12px 0' }}>
-              <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
-                <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>Released:</div>
-                <div style={{ flex: 1, marginLeft: '16px', color: '#222' }}>{formatYearMonth(releaseDate)}</div>
-              </div>
-              <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
-                <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>Style:</div>
-                <div style={{ flex: 1, marginLeft: '16px' }}>{styleElement}</div>
-              </div>
-              <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
-                <div style={{ minWidth: 80, color: '#555', fontWeight: 600, verticalAlign: 'top' }}>Genre:</div>
-                <div style={{ flex: 1, marginLeft: '16px' }}>
-                  {songData.genres?.length > 0 ? (
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                      {songData.genres.map((genre, index) => (
-                        <Link key={index} href={`/genres/${genre.slug}/1`} style={{ fontSize: '1.1em', color: '#1e6ebb', display: 'block' }}>
-                          {genre.name}
-                        </Link>
-                      ))}
-                    </div>
-                  ) : (
-                    <span>Unknown</span>
-                  )}
-                </div>
-              </div>
-              <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
-                <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>Vocal:</div>
-                <div style={{ flex: 1, marginLeft: '16px' }}>{renderVocalIcons(songData.vocals)}</div>
-              </div>
-              <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
-                <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>LINK:</div>
-                <div style={{ flex: 1, marginLeft: '16px' }}>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                    {songData.spotifyTrackId && (
-                      <Link
-                        href={`https://open.spotify.com/track/${songData.spotifyTrackId}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ display: "flex", alignItems: "center", gap: "5px", textDecoration: "none", color: "#1e6ebb", fontSize: "1.08em" }}
-                      >
-                        <img src="/icons/spotify.svg" alt="Spotify" style={{ width: "20px" }} />
-                        Spotify
-                        <img src="/icons/new-window.svg" alt="Open in new window" style={{ width: "20px" }} />
-                      </Link>
-                    )}
                   </div>
+                );
+              })
+            ) : (
+              <p>Unknown Artist</p>
+            )}
+          </div>
+          {/* 曲情報テーブル風デザイン */}
+          <div style={{ width: '100%', margin: '24px 0 12px 0' }}>
+            <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
+              <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>Released:</div>
+              <div style={{ flex: 1, marginLeft: '16px', color: '#222' }}>{formatYearMonth(releaseDate)}</div>
+            </div>
+            <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
+              <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>Style:</div>
+              <div style={{ flex: 1, marginLeft: '16px' }}>{styleElement}</div>
+            </div>
+            <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
+              <div style={{ minWidth: 80, color: '#555', fontWeight: 600, verticalAlign: 'top' }}>Genre:</div>
+              <div style={{ flex: 1, marginLeft: '16px' }}>
+                {songData.genres?.length > 0 ? (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                    {songData.genres.map((genre, index) => (
+                      <Link key={index} href={`/genres/${genre.slug}/1`} style={{ fontSize: '1.1em', color: '#1e6ebb', display: 'block' }}>
+                        {genre.name}
+                      </Link>
+                    ))}
+                  </div>
+                ) : (
+                  <span>Unknown</span>
+                )}
+              </div>
+            </div>
+            <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
+              <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>Vocal:</div>
+              <div style={{ flex: 1, marginLeft: '16px' }}>{renderVocalIcons(songData.vocals)}</div>
+            </div>
+            <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
+              <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>LINK:</div>
+              <div style={{ flex: 1, marginLeft: '16px' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                  {songData.spotifyTrackId && (
+                    <Link
+                      href={`https://open.spotify.com/track/${songData.spotifyTrackId}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ display: "flex", alignItems: "center", gap: "5px", textDecoration: "none", color: "#1e6ebb", fontSize: "1.08em" }}
+                    >
+                      <img src="/svg/spotify.svg" alt="Spotify" style={{ width: "20px" }} />
+                      Spotify
+                      <img src="/svg/new-window.svg" alt="Open in new window" style={{ width: "20px" }} />
+                    </Link>
+                  )}
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
-        {/* Spotifyプレーヤー */}
-        {songData.spotifyTrackId && accessToken && (
+      </div>
+      
+      {/* Spotifyプレーヤーまたはログイン促進メッセージ */}
+      {songData.spotifyTrackId && (
+        accessToken ? (
           <SongDetailSpotifyPlayer 
             accessToken={accessToken} 
             songData={songData} 
           />
-        )}
-        
-        <ScrollToTopButton />
-      </ThemeProvider>
-    </div>
+        ) : (
+          <div style={{
+            padding: '20px',
+            backgroundColor: '#000',
+            borderRadius: '8px',
+            margin: '20px 0',
+            border: '1px solid #333',
+            color: '#fff',
+            textAlign: 'center'
+          }}>
+            <img 
+              src="/images/Full_Logo_Green_RGB.svg" 
+              alt="Spotify" 
+              style={{ height: '30px', width: 'auto', marginBottom: '15px' }} 
+            />
+            <p style={{ margin: '0 0 10px 0' }}>
+              曲の再生にはSpotifyアカウントでのログインが必要です。
+            </p>
+            <p style={{ fontSize: '0.9em', color: '#ccc', margin: 0 }}>
+              画面右上のボタンからサインインしてください。
+            </p>
+          </div>
+        )
+      )}
+      
+    </ThemeProvider>
   );
 } 

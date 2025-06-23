@@ -16,7 +16,7 @@ export default function LoginStatus() {
     return (
       <div className={styles.container}>
         <img 
-            src="/icons/Spotify_logo_without_text.svg" 
+            src="/svg/spotify.svg"
             alt="Spotify"
             className={styles.spotifyIcon}
         />

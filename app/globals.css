@@ -33,3 +33,21 @@ input[type="password"] {
   color: #333;
   background-color: #fff;
 }
+
+/* 他のユーティリティクラス */
+.text-center {
+  text-align: center;
+}
+
+.scroll-to-top-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}

@@ -2,7 +2,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import GoogleLoginButton from "./GoogleLoginButton";
 import GlobalMenu from "./GlobalMenu";
@@ -10,11 +10,14 @@ import { FaBars } from "react-icons/fa";
 import styles from "./Layout.module.css";
 import ScrollToTopButton from "./ScrollToTopButton";
 import LoginStatus from './LoginStatus';
+import { usePlayer } from "./PlayerContext";
 
 export default function Layout({ children }) {
   const router = useRouter();
+  const pathname = usePathname();
   const [isLocked, setIsLocked] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [isMenuOpen, setMenuOpen] = useState(false);
+  const { toggleLock } = usePlayer();
 
   useEffect(() => {
     const savedLockState = localStorage.getItem("isLocked");
@@ -24,32 +27,18 @@ export default function Layout({ children }) {
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = menuOpen ? "hidden" : "auto";
+    document.body.style.overflow = isMenuOpen ? "hidden" : "auto";
     return () => {
       document.body.style.overflow = "auto";
     };
-  }, [menuOpen]);
-
-  const goBack = () => {
-    if (window.history.length > 1) {
-      router.back();
-    } else {
-      router.push("/");
-    }
-  };
-
-  const toggleLock = () => {
-    const newLockState = !isLocked;
-    setIsLocked(newLockState);
-    localStorage.setItem("isLocked", JSON.stringify(newLockState));
-  };
+  }, [isMenuOpen]);
 
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+    setMenuOpen(!isMenuOpen);
   };
 
   return (
-    <>
+    <div className={styles.pageWrapper}>
       <header className={styles.header}>
         <div className={styles.logoTitle}>
           <Link href="/" className={styles.logoLink}>
@@ -67,7 +56,7 @@ export default function Layout({ children }) {
         </div>
       </header>
 
-      {menuOpen && (
+      {isMenuOpen && (
         <nav className={styles.mobileNav}>
           <GlobalMenu />
         </nav>
@@ -81,17 +70,16 @@ export default function Layout({ children }) {
       <div className={styles.container}>
         <div className={styles.content}>
           <main className={isLocked ? styles.locked : ""}>
-            <div className={styles.buttonGroup}>
-              <button onClick={goBack} className={styles.backButton}>
-                <span>&lt; Back</span>
-              </button>
-              <button
-                onClick={toggleLock}
-                className={`${styles.lockButton} ${isLocked ? styles.locked : ""}`}
-              >
-                <span>{isLocked ? "Link Unlock" : "Link Lock"}</span>
-              </button>
-            </div>
+            {pathname !== "/" && (
+              <div className={styles.navigationButtons}>
+                <button onClick={() => router.back()} className={styles.button}>
+                  &lt; Back
+                </button>
+                <button onClick={toggleLock} className={`${styles.button} ${isLocked ? styles.lockedButton : ""}`}>
+                  {isLocked ? "Unlock Link" : "Link Lock"}
+                </button>
+              </div>
+            )}
             {children}
           </main>
           <footer style={{ textAlign: "left", marginTop: "40px", padding: "20px 0", borderTop: "1px solid #ccc" }}>
@@ -113,6 +101,6 @@ export default function Layout({ children }) {
           </footer>
         </div>
       </div>
-    </>
+    </div>
   );
 }
