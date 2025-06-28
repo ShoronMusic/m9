@@ -48,7 +48,17 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         // シーク操作後、2秒間は終了検知を無効にする
         seekProtectionTimerRef.current = setTimeout(() => {
           isSeekingRef.current = false;
-          console.log('Seek protection disabled');
+          // シーク操作完了後、現在の位置をlastPositionRefに設定
+          if (playerRef.current) {
+            playerRef.current.getCurrentState().then(state => {
+              if (state && state.track_window.current_track) {
+                lastPositionRef.current = state.position;
+                console.log('Seek protection disabled, updated lastPositionRef to:', state.position);
+              }
+            });
+          } else {
+            console.log('Seek protection disabled');
+          }
         }, 2000);
       }
     },
@@ -110,7 +120,13 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       // シーク操作中は終了検知を無効にする
       if (isSeekingRef.current) {
         console.log('Skipping track end detection (seeking)');
-        lastPositionRef.current = state.position;
+        // シーク操作中に位置が大きく変わった場合、lastPositionRefを更新
+        if (Math.abs(state.position - lastPositionRef.current) > 1000) {
+          console.log('Large position change detected during seek (position update), updating lastPositionRef');
+          lastPositionRef.current = state.position;
+        } else {
+          lastPositionRef.current = state.position;
+        }
         return;
       }
       
@@ -130,7 +146,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         
         // 期待している曲が前の曲リストにある場合、その曲が終了したとみなす
         const expectedTrackInPrevious = state.track_window.previous_tracks.find(t => t.id === expectedTrackId);
-        if (expectedTrackInPrevious && lastPositionRef.current > 500) {
+        if (expectedTrackInPrevious && lastPositionRef.current > 1000) {
           console.log(`Expected track ${expectedTrackId} found in previous tracks. Treating as ended.`);
           
           // 状態を完全にリセット
@@ -160,7 +176,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         }
         
         // 期待している曲が前の曲リストにない場合、強制的に期待している曲を再生し直す
-        if (!expectedTrackInPrevious && lastPositionRef.current > 500) {
+        if (!expectedTrackInPrevious && lastPositionRef.current > 1000) {
           console.log(`Expected track ${expectedTrackId} not found in previous tracks. Forcing playback of expected track.`);
           
           // 期待している曲を強制的に再生
@@ -192,7 +208,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
                 setTimeout(() => {
                   isNewTrackSelectedRef.current = false;
                   console.log('Track end detection enabled for forced track:', currentTrackIdRef.current);
-                }, 5000);
+                }, 10000); // 保護時間を10秒に延長して前の曲が一瞬鳴る問題を完全に防止
               } else {
                 console.error('Failed to force playback of expected track:', response.status);
               }
@@ -215,52 +231,73 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         !state.track_window.current_track
       );
 
-      // 位置ベースの終了検知（シーク操作後も動作するように改善）
-      const positionBasedEnd = (
-        expectedTrackId &&
-        state.position === 0 &&
-        lastPositionRef.current > 500 && // 閾値を下げてシーク操作後も検知できるようにする
-        currentPlayingTrackId === expectedTrackId
-      );
+      // 位置ベースの終了検知は無効化（誤動作の原因となるため）
+      // const positionBasedEnd = (
+      //   expectedTrackId &&
+      //   state.position === 0 &&
+      //   lastPositionRef.current > 1000 &&
+      //   currentPlayingTrackId === expectedTrackId
+      // );
 
-      // より緩い条件での終了検知
-      const trackEnded = (
-        expectedTrackId &&
-        state.position === 0 &&
-        lastPositionRef.current > 500 && // 閾値を下げる
-        state.track_window.previous_tracks.find(t => t.id === expectedTrackId)
-      );
+      // より緩い条件での終了検知も無効化
+      // const trackEnded = (
+      //   expectedTrackId &&
+      //   state.position === 0 &&
+      //   lastPositionRef.current > 1000 &&
+      //   state.track_window.previous_tracks.find(t => t.id === expectedTrackId)
+      // );
 
-      // 曲が実際に終了したかどうかを判定（より確実な方法）
-      const actualTrackEnded = (
-        expectedTrackId &&
-        state.position === 0 &&
-        state.track_window.previous_tracks.find(t => t.id === expectedTrackId) &&
-        currentPlayingTrackId !== expectedTrackId
-      );
-
-      // 新しい終了検知：位置が0で、前回の位置が大きかった場合（Spotifyが自動的に次の曲に切り替わった場合も含む）
+      // Spotifyが自動的に次の曲に切り替わった場合の検知（actualTrackEndedと統合）
       const spotifyAutoNext = (
         expectedTrackId &&
         state.position === 0 &&
-        lastPositionRef.current > 500 &&
+        lastPositionRef.current > 1000 && // 閾値を上げてイントロ再生を防止
         state.track_window.previous_tracks.find(t => t.id === expectedTrackId) &&
         currentPlayingTrackId !== expectedTrackId
+      );
+
+      // より確実な終了検知：現在の曲が前の曲リストに移動し、新しい曲が再生されている場合
+      const trackFullyEnded = (
+        expectedTrackId &&
+        state.track_window.previous_tracks.find(t => t.id === expectedTrackId) &&
+        currentPlayingTrackId !== expectedTrackId &&
+        currentPlayingTrackId && // 新しい曲が実際に再生されている
+        lastPositionRef.current > 1000 // 十分な再生時間があった
+      );
+
+      // 最も厳密な終了検知：新しい曲が確実に開始され、前の曲が完全に終了した場合
+      const trackCompletelyEnded = (
+        expectedTrackId &&
+        state.track_window.previous_tracks.find(t => t.id === expectedTrackId) &&
+        currentPlayingTrackId !== expectedTrackId &&
+        currentPlayingTrackId && // 新しい曲が実際に再生されている
+        state.position > 0 && // 新しい曲が実際に再生位置を持っている
+        lastPositionRef.current > 2000 // より長い再生時間を要求
+      );
+
+      // 同じ曲のループ再生を可能にする終了検知：位置が0に戻り、十分な再生時間があった場合
+      const trackLoopEnded = (
+        expectedTrackId &&
+        state.position === 0 &&
+        lastPositionRef.current > 2000 && // 十分な再生時間を要求
+        currentPlayingTrackId === expectedTrackId // 同じ曲が再生されている（ループの場合）
       );
 
       console.log('Track end detection:', {
         trackJustEnded,
-        positionBasedEnd,
-        trackEnded,
-        actualTrackEnded,
+        // positionBasedEnd,
+        // trackEnded,
         spotifyAutoNext,
+        trackFullyEnded,
+        trackCompletelyEnded,
+        trackLoopEnded,
         currentTrackId: expectedTrackId,
         lastPosition: lastPositionRef.current,
         hasPreviousTrack: state.track_window.previous_tracks.find(t => t.id === expectedTrackId) ? true : false,
         currentTrackInPrevious: state.track_window.previous_tracks.find(t => t.id === expectedTrackId) ? true : false
       });
 
-      if (trackJustEnded || positionBasedEnd || trackEnded || actualTrackEnded || spotifyAutoNext) {
+      if (trackJustEnded || spotifyAutoNext || trackFullyEnded || trackCompletelyEnded || trackLoopEnded) {
         console.log(`Track ${expectedTrackId} ended. Playing next.`);
         
         // 状態を完全にリセット
@@ -342,7 +379,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         }
         
         // 位置が0で、前回の位置が大きかった場合、曲が終了したとみなす
-        if (state.position === 0 && lastPositionRef.current > 500) {
+        if (state.position === 0 && lastPositionRef.current > 2000) { // 閾値を上げてより確実に
           console.log('Track ended detected by timer check');
           console.log('Current position:', state.position, 'Last position:', lastPositionRef.current);
           
@@ -447,7 +484,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         setTimeout(() => {
           isNewTrackSelectedRef.current = false;
           console.log('New track selection protection disabled for:', newTrackId);
-        }, 5000);
+        }, 10000); // 保護時間を10秒に延長して前の曲が一瞬鳴る問題を完全に防止
 
       } else {
         const errorBody = await playResponse.json().catch(() => ({}));
@@ -497,94 +534,101 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
           // シーク操作中は終了検知を無効にする
           if (isSeekingRef.current) {
             console.log('Skipping track end detection (seeking)');
-            lastPositionRef.current = state.position;
+            // シーク操作中に位置が大きく変わった場合、lastPositionRefを更新
+            if (Math.abs(state.position - lastPositionRef.current) > 1000) {
+              console.log('Large position change detected during seek (position update), updating lastPositionRef');
+              lastPositionRef.current = state.position;
+            } else {
+              lastPositionRef.current = state.position;
+            }
             return;
           }
           
+          // 位置ベースの終了検知は無効化（前の曲が一瞬鳴る問題の原因となるため）
           // 曲の終了を検知（位置が0に戻り、前回の位置が大きかった場合）
-          if (state.position === 0 && lastPositionRef.current > 500) { // 閾値を下げる
-            console.log('Track ended detected by position reset');
-            console.log('Current position:', state.position, 'Last position:', lastPositionRef.current);
-            lastPositionRef.current = 0;
-            if (playNext) {
-              console.log('Calling playNext from position update...');
-              setTimeout(() => {
-                console.log('Executing playNext...');
-                try {
-                  // PlayerContextの状態を明示的に更新してからplayNextを呼び出す
-                  if (currentTrack && currentTrackIndex >= 0) {
-                    console.log('Updating PlayerContext state before playNext (position update)...');
-                    updateCurrentTrackState(currentTrack, currentTrackIndex);
-                  }
-                  
-                  playNext();
-                  console.log('playNext executed successfully from position update');
-                } catch (error) {
-                  console.error('Error executing playNext from position update:', error);
-                }
-              }, 200);
-            } else {
-              console.log('playNext function is not available');
-            }
-          } else if (state && state.position === 0 && lastPositionRef.current > 500) { // 閾値を下げる
-            // 現在の曲が存在しないが、位置が0で前回の位置が大きかった場合
-            console.log('Track ended detected by position reset (no current track)');
-            console.log('Current position:', state.position, 'Last position:', lastPositionRef.current);
-            lastPositionRef.current = 0;
-            if (playNext) {
-              console.log('Calling playNext from position update (no current track)...');
-              setTimeout(() => {
-                console.log('Executing playNext (no current track)...');
-                try {
-                  // PlayerContextの状態を明示的に更新してからplayNextを呼び出す
-                  if (currentTrack && currentTrackIndex >= 0) {
-                    console.log('Updating PlayerContext state before playNext (position update no current track)...');
-                    updateCurrentTrackState(currentTrack, currentTrackIndex);
-                  }
-                  
-                  playNext();
-                  console.log('playNext executed successfully from position update (no current track)');
-                } catch (error) {
-                  console.error('Error executing playNext from position update (no current track):', error);
-                }
-              }, 200);
-            } else {
-              console.log('playNext function is not available (no current track)');
-            }
-          } else if (state && state.position === 0 && lastPositionRef.current > 500 && currentTrackIdRef.current) {
-            // Spotifyが自動的に次の曲に切り替わった場合の検知
-            const expectedTrackId = currentTrackIdRef.current;
-            const currentPlayingTrackId = state.track_window.current_track?.id;
-            
-            if (currentPlayingTrackId !== expectedTrackId && 
-                state.track_window.previous_tracks.find(t => t.id === expectedTrackId)) {
-              console.log('Track ended detected by Spotify auto-next');
-              console.log('Expected track:', expectedTrackId, 'Current track:', currentPlayingTrackId);
-              lastPositionRef.current = 0;
-              if (playNext) {
-                console.log('Calling playNext from position update (Spotify auto-next)...');
-                setTimeout(() => {
-                  console.log('Executing playNext (Spotify auto-next)...');
-                  try {
-                    // PlayerContextの状態を明示的に更新してからplayNextを呼び出す
-                    if (currentTrack && currentTrackIndex >= 0) {
-                      console.log('Updating PlayerContext state before playNext (Spotify auto-next)...');
-                      updateCurrentTrackState(currentTrack, currentTrackIndex);
-                    }
-                    
-                    playNext();
-                    console.log('playNext executed successfully from position update (Spotify auto-next)');
-                  } catch (error) {
-                    console.error('Error executing playNext from position update (Spotify auto-next):', error);
-                  }
-                }, 200);
-              } else {
-                console.log('playNext function is not available (Spotify auto-next)');
-              }
-            }
-          } else {
+          // if (state.position === 0 && lastPositionRef.current > 1000) {
+          //   console.log('Track ended detected by position reset');
+          //   console.log('Current position:', state.position, 'Last position:', lastPositionRef.current);
+          //   lastPositionRef.current = 0;
+          //   if (playNext) {
+          //     console.log('Calling playNext from position update...');
+          //     setTimeout(() => {
+          //       console.log('Executing playNext...');
+          //       try {
+          //         // PlayerContextの状態を明示的に更新してからplayNextを呼び出す
+          //         if (currentTrack && currentTrackIndex >= 0) {
+          //           console.log('Updating PlayerContext state before playNext (position update)...');
+          //           updateCurrentTrackState(currentTrack, currentTrackIndex);
+          //         }
+          //         
+          //         playNext();
+          //         console.log('playNext executed successfully from position update');
+          //       } catch (error) {
+          //         console.error('Error executing playNext from position update:', error);
+          //       }
+          //     }, 200);
+          //   } else {
+          //     console.log('playNext function is not available');
+          //   }
+          // } else if (state && state.position === 0 && lastPositionRef.current > 1000) {
+          //   // 現在の曲が存在しないが、位置が0で前回の位置が大きかった場合
+          //   console.log('Track ended detected by position reset (no current track)');
+          //   console.log('Current position:', state.position, 'Last position:', lastPositionRef.current);
+          //   lastPositionRef.current = 0;
+          //   if (playNext) {
+          //     console.log('Calling playNext from position update (no current track)...');
+          //     setTimeout(() => {
+          //       console.log('Executing playNext (no current track)...');
+          //       try {
+          //         // PlayerContextの状態を明示的に更新してからplayNextを呼び出す
+          //         if (currentTrack && currentTrackIndex >= 0) {
+          //           console.log('Updating PlayerContext state before playNext (position update no current track)...');
+          //           updateCurrentTrackState(currentTrack, currentTrackIndex);
+          //         }
+          //         
+          //         playNext();
+          //         console.log('playNext executed successfully from position update (no current track)');
+          //       } catch (error) {
+          //         console.error('Error executing playNext from position update (no current track):', error);
+          //       }
+          //     }, 200);
+          //   } else {
+          //     console.log('playNext function is not available (no current track)');
+          //   }
+          // } else if (state && state.position === 0 && lastPositionRef.current > 1000 && currentTrackIdRef.current) {
+          //   // Spotifyが自動的に次の曲に切り替わった場合の検知
+          //   const expectedTrackId = currentTrackIdRef.current;
+          //   const currentPlayingTrackId = state.track_window.current_track?.id;
+          //   
+          //   if (currentPlayingTrackId !== expectedTrackId && 
+          //       state.track_window.previous_tracks.find(t => t.id === expectedTrackId)) {
+          //     console.log('Track ended detected by Spotify auto-next');
+          //     console.log('Expected track:', expectedTrackId, 'Current track:', currentPlayingTrackId);
+          //     lastPositionRef.current = 0;
+          //     if (playNext) {
+          //       console.log('Calling playNext from position update (Spotify auto-next)...');
+          //       setTimeout(() => {
+          //         console.log('Executing playNext (Spotify auto-next)...');
+          //         try {
+          //           // PlayerContextの状態を明示的に更新してからplayNextを呼び出す
+          //           if (currentTrack && currentTrackIndex >= 0) {
+          //             console.log('Updating PlayerContext state before playNext (Spotify auto-next)...');
+          //             updateCurrentTrackState(currentTrack, currentTrackIndex);
+          //           }
+          //           
+          //           playNext();
+          //           console.log('playNext executed successfully from position update (Spotify auto-next)');
+          //         } catch (error) {
+          //           console.error('Error executing playNext from position update (Spotify auto-next):', error);
+          //         }
+          //       }, 200);
+          //     } else {
+          //       console.log('playNext function is not available (Spotify auto-next)');
+          //     }
+          //   }
+          // } else {
             lastPositionRef.current = state.position;
-          }
+          // }
         }
       } catch (error) {
         console.error('Error updating position:', error);
