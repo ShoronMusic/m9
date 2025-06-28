@@ -298,7 +298,7 @@ function SongList({
         console.error('Error auto-playing first track:', error);
       }
     }
-  }, [autoPlayFirst, safeSongs, pageType, styleSlug, currentPage, onPageEnd, player]);
+  }, [autoPlayFirst, safeSongs, pageType, styleSlug, currentPage, onPageEnd]);
 
   useEffect(() => { // ポップアップメニュー用 (これは残す)
     const handleDocumentClick = (e) => {

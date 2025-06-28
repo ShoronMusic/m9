@@ -146,11 +146,6 @@ export default function FooterPlayer({ accessToken }) {
             </div>
         );
     }
-
-    console.log('FooterPlayer: Rendering with current track:', {
-        trackName: currentTrack.name || currentTrack.title?.rendered,
-        trackId: currentTrack.spotifyTrackId || currentTrack.id
-    });
     
     // A track is selected, render the full player
     const imageUrl = getImageUrl(currentTrack);
@@ -158,13 +153,6 @@ export default function FooterPlayer({ accessToken }) {
     const artistName = formatArtists(currentTrack.artists);
 
     const handleSeek = (newPosition) => {
-        console.log('FooterPlayer handleSeek called:', {
-            newPosition,
-            spotifyPlayerRef: !!spotifyPlayerRef,
-            spotifyPlayerRefCurrent: !!spotifyPlayerRef?.current,
-            seekToMethod: !!(spotifyPlayerRef?.current?.seekTo)
-        });
-        console.log('Seeking to:', formatTime(newPosition));
         seekTo(newPosition);
     };
 
