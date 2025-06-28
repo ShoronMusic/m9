@@ -37,7 +37,7 @@ export const PlayerProvider = ({ children }) => {
       currentTrackIndex,
       isPlaying
     };
-  });
+  }, [trackList, currentTrack, currentTrackIndex, isPlaying]);
 
   const playTrack = useCallback((track, index, songs, source, onPageEnd = null) => {
     // 新しいソースの場合、状態リセットと新曲セットをバッチ的に行う

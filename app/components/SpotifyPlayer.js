@@ -415,12 +415,12 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         const state = await playerRef.current.getCurrentState();
         if (state && state.track_window.current_track) {
           updatePlaybackState(state.duration, state.position);
-          
+
           if (isNewTrackSelectedRef.current) {
             lastPositionRef.current = state.position;
             return;
           }
-          
+
           if (isSeekingRef.current) {
             if (Math.abs(state.position - lastPositionRef.current) > 1000) {
               lastPositionRef.current = state.position;
@@ -429,11 +429,10 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
             }
             return;
           }
-          
+
           lastPositionRef.current = state.position;
         }
-      } catch (error) {
-      }
+      } catch (error) {}
     };
 
     if (isPlaying) {
@@ -452,7 +451,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         positionUpdateIntervalRef.current = null;
       }
     };
-  }, [isPlaying, isReady, updatePlaybackState, playNext]);
+  }, [isPlaying, updatePlaybackState]);
 
   useEffect(() => {
     if (!accessToken) {

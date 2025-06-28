@@ -288,17 +288,21 @@ function SongList({
 
   // autoPlayFirstがtrueの場合に最初の曲を自動再生する
   useEffect(() => {
-    if (autoPlayFirst && safeSongs.length > 0) {
+    if (
+      autoPlayFirst &&
+      safeSongs.length > 0 &&
+      !(player.currentTrackIndex === 0 && player.currentTrack?.id === safeSongs[0]?.id)
+    ) {
       const firstSong = safeSongs[0];
       const source = `${pageType}/${styleSlug}/${currentPage}`;
-      
       try {
         player.playTrack(firstSong, 0, safeSongs, source, onPageEnd);
       } catch (error) {
         console.error('Error auto-playing first track:', error);
       }
     }
-  }, [autoPlayFirst, safeSongs, pageType, styleSlug, currentPage, onPageEnd, player]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoPlayFirst, safeSongs, pageType, styleSlug, currentPage, onPageEnd]);
 
   useEffect(() => { // ポップアップメニュー用 (これは残す)
     const handleDocumentClick = (e) => {
