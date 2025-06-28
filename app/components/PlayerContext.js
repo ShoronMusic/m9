@@ -25,6 +25,9 @@ export const PlayerProvider = ({ children }) => {
   // This helps prevent re-loading the same list unnecessarily
   const currentTrackListSource = useRef(null);
 
+  // 次ページ遷移用のコールバックを保持
+  const onPageEndRef = useRef(null);
+
   // Stale closureを避けるために最新のステートをrefで保持
   const stateRef = useRef();
   useEffect(() => {
@@ -36,21 +39,39 @@ export const PlayerProvider = ({ children }) => {
     };
   });
 
-  const playTrack = useCallback((track, index, songs, source) => {
+  const playTrack = useCallback((track, index, songs, source, onPageEnd = null) => {
     console.log('=== PLAYTRACK START ===');
     console.log('playTrack called:', {
       trackName: track?.name || track?.title?.rendered,
       trackId: track?.spotifyTrackId || track?.id,
       index,
       source,
-      currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id
+      isNewSource: source !== currentTrackListSource.current
     });
     
+    // 新しいソースの場合、トラックリストを更新
     if (source !== currentTrackListSource.current) {
-        console.log('Updating track list for new source:', source);
+        console.log('=== NEW SOURCE DETECTED - RESETTING PLAYERCONTEXT ===');
+        console.log('Previous source:', currentTrackListSource.current);
+        console.log('New source:', source);
+        
+        // 状態を完全にリセット
+        setCurrentTrack(null);
+        setCurrentTrackIndex(-1);
+        setIsPlaying(false);
+        setPosition(0);
+        setDuration(0);
+        
+        // トラックリストを更新
         setTrackList(songs);
         currentTrackListSource.current = source;
+        
+        console.log('PlayerContext state reset completed');
     }
+    
+    // 次ページ遷移コールバックを保存
+    onPageEndRef.current = onPageEnd;
+    
     const newTrack = {
       ...track,
       artist: track.artistName,
@@ -67,10 +88,11 @@ export const PlayerProvider = ({ children }) => {
     console.log('playTrack completed:', {
       newTrackName: track?.name || track?.title?.rendered,
       newTrackId: track?.spotifyTrackId || track?.id,
-      newIndex: index
+      newIndex: index,
+      source
     });
     console.log('=== PLAYTRACK END ===');
-  }, [currentTrack]);
+  }, [currentTrack, currentTrackIndex, isPlaying, trackList.length]);
 
   const togglePlay = useCallback(() => {
     if (!stateRef.current.currentTrack) return;
@@ -126,7 +148,31 @@ export const PlayerProvider = ({ children }) => {
       return;
     }
     
-    const nextIndex = (currentIndex + 1) % trackList.length;
+    const nextIndex = currentIndex + 1;
+    
+    // 最後の曲に到達した場合の処理
+    if (nextIndex >= trackList.length) {
+      console.log('Reached end of current page tracklist, checking for page end callback');
+      
+      // 次ページ遷移コールバックがある場合は呼び出す
+      if (onPageEndRef.current && typeof onPageEndRef.current === 'function') {
+        console.log('Calling onPageEnd callback for next page transition');
+        try {
+          onPageEndRef.current();
+        } catch (error) {
+          console.error('Error calling onPageEnd callback:', error);
+        }
+      } else {
+        console.log('No onPageEnd callback available, looping back to first track');
+        // コールバックがない場合は最初の曲に戻る
+        setCurrentTrack(trackList[0]);
+        setCurrentTrackIndex(0);
+        setIsPlaying(true);
+        setPosition(0);
+      }
+      return;
+    }
+    
     const nextTrack = trackList[nextIndex];
     
     console.log('Playing next track:', {
@@ -164,15 +210,7 @@ export const PlayerProvider = ({ children }) => {
 
   // シーク機能
   const seekTo = useCallback((newPosition) => {
-    console.log('PlayerContext seekTo called:', {
-      newPosition,
-      spotifyPlayerRef: !!spotifyPlayerRef,
-      spotifyPlayerRefCurrent: !!spotifyPlayerRef?.current,
-      seekToMethod: !!(spotifyPlayerRef?.current?.seekTo)
-    });
-    
     if (spotifyPlayerRef.current && spotifyPlayerRef.current.seekTo) {
-      console.log('Calling spotifyPlayerRef.current.seekTo with position:', newPosition);
       spotifyPlayerRef.current.seekTo(newPosition);
       // 即座に位置を更新
       setPosition(newPosition);

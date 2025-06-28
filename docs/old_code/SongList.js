@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo, useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
+import YouTubePlayer from "./YouTubePlayer";
 import styles from "./SongList.module.css";
 import PropTypes from "prop-types";
 import MicrophoneIcon from "./MicrophoneIcon";
@@ -21,9 +22,7 @@ import {
 } from "firebase/firestore";
 import { firestore, auth } from "./firebase";
 import SaveToPlaylistPopup from "./SaveToPlaylistPopup";
-import he from "he";
-import { usePlayer } from './PlayerContext'; // PlayerContext をインポート
-import { useSession } from "next-auth/react"; // useSessionをインポート
+import he from "he";  // he ライブラリをインポート
 
 // CloudinaryのベースURL
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
@@ -238,10 +237,13 @@ function groupPostsByYear(posts) {
 function SongList({
   songs = [],
   currentPage = 1,
+  songsPerPage = 20,
   styleSlug,
   styleName,
   onPageEnd = () => {},
+  onPreviousPage = () => {},
   autoPlayFirst = false,
+  total = 0,
   pageType = 'default',
   likeCounts: likeCountsProp = {},
   likedSongs: likedSongsProp = {},
@@ -249,10 +251,30 @@ function SongList({
   userViewCounts: userViewCountsProp = {},
   handleLike,
 }) {
-  const player = usePlayer();
-  const { data: session } = useSession(); // sessionを取得
-  
+  // 簡易的な翻訳関数
+  const t = (key) => {
+    const translations = {
+      "unknownYear": "不明な年",
+      "unknownGenre": "不明なジャンル",
+      "unknownVocal": "不明なボーカル",
+      "noTitle": "タイトルなし",
+      "play": "再生",
+      "previous": "前へ",
+      "next": "次へ",
+      "nowPlaying": "再生中",
+      "songsCount": "{{count}} 曲 / {{start}} - {{end}} 表示",
+      "pageInfo": "ページ {{current}} / {{total}}"
+    };
+    return translations[key] || key;
+  };
+
   const router = useRouter();
+
+  // 再生用内部状態
+  const [currentSongIndex, setCurrentSongIndex] = useState(-1);
+  const [currentVideoId, setCurrentVideoId] = useState(null);
+  const [currentTrack, setCurrentTrack] = useState(null);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   // ポップアップ表示用状態（ポップアップメニュー）
   const [isPopupVisible, setIsPopupVisible] = useState(false);
@@ -276,29 +298,37 @@ function SongList({
   // プレイリスト追加用 state
   const [showSavePopup, setShowSavePopup] = useState(false);
   const [selectedSongId, setSelectedSongId] = useState(null);
-  
-  // categoriesの型を保証する
+
+  // YouTubePlayer コンポーネントにアクセスするための ref
+  const playerRef = useRef(null);
+
+  // URLからautoplayパラメータを取得
+  const searchParams = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : new URLSearchParams();
+  const shouldAutoPlay = autoPlayFirst || searchParams.get('autoplay') === '1';
+
+  // categoriesの型を保証する（数値を除外）
   const safeSongs = useMemo(() => songs.map(song => ({
     ...song,
-    spotifyTrackId: song.acf?.spotify_track_id || song.spotifyTrackId || song.acf?.spotifyTrackId,
     categories: Array.isArray(song.categories)
       ? song.categories.filter(cat => typeof cat === 'object' && cat !== null)
       : []
   })), [songs]);
 
-  // autoPlayFirstがtrueの場合に最初の曲を自動再生する
+  // コンポーネントの初期化
   useEffect(() => {
-    if (autoPlayFirst && safeSongs.length > 0) {
-      const firstSong = safeSongs[0];
-      const source = `${pageType}/${styleSlug}/${currentPage}`;
-      
-      try {
-        player.playTrack(firstSong, 0, safeSongs, source, onPageEnd);
-      } catch (error) {
-        console.error('Error auto-playing first track:', error);
+    if (!Array.isArray(songs)) {
+      console.warn('SongList: songs prop is not an array');
+      return;
+    }
+
+    // URLのautoplay=1を検知して自動再生
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('autoplay') === '1' && songs.length > 0) {
+        setTrack(0);
       }
     }
-  }, [autoPlayFirst, safeSongs, pageType, styleSlug, currentPage, onPageEnd, player]);
+  }, [songs]);
 
   useEffect(() => { // ポップアップメニュー用 (これは残す)
     const handleDocumentClick = (e) => {
@@ -315,8 +345,9 @@ function SongList({
 
   useEffect(() => {
     if (songs.length > 0) {
+      // propsが空の場合のみデータを取得
       if (Object.keys(likeCountsProp).length === 0 && Object.keys(likedSongsProp).length === 0) {
-        // fetchLikes(); // 必要であれば有効化
+        fetchLikes();
       }
       if (Object.keys(viewCountsProp).length === 0 && Object.keys(userViewCountsProp).length === 0) {
         fetchViewCounts(songs);
@@ -324,14 +355,59 @@ function SongList({
     }
   }, [songs, auth.currentUser, likeCountsProp, likedSongsProp, viewCountsProp, userViewCountsProp]);
 
-  const handleThumbnailClick = (song, index) => {
-    const source = `${pageType}/${styleSlug}/${currentPage}`;
-    
-    try {
-        player.playTrack(song, index, safeSongs, source, onPageEnd);
-    } catch (error) {
-        console.error('Error calling playTrack:', error);
+  // 楽曲データからスタイル情報を抽出して currentTrack に設定する
+  const setTrack = (index) => {
+    const song = songs[index];
+    if (!song) return;
+    const videoId = song.acf?.ytvideoid || song.acf?.youtube_id || song.videoId || "";
+    const orderedArtists = determineArtistOrder(song);
+    const formattedArtists = formatArtistsWithOrigin(orderedArtists);
+    // サムネイル画像のローカルwebp変換（外部URLでも必ずローカル参照）
+    let thumbnailUrl = "/placeholder.jpg";
+    if (song.featured_media_url) {
+      // どんなURLでもファイル名部分のみ抽出し、ローカルwebpに変換
+      const fileName = song.featured_media_url.split("/").pop().replace(/\.[a-zA-Z0-9]+$/, ".webp");
+      thumbnailUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
     }
+    const extractedStyle = extractStyleInfo(song, styleSlug);
+    setCurrentSongIndex(index);
+    setCurrentVideoId(videoId);
+    setIsPlaying(true); // クリック時のみ再生
+    setCurrentTrack({
+      artist: formattedArtists,
+      title: song.title?.rendered || t("noTitle"),
+      thumbnail: thumbnailUrl,
+      styleSlug: extractedStyle.styleSlug,
+      styleName: extractedStyle.styleName,
+    });
+  };
+
+  const handlePreviousSong = () => {
+    if (!songs.length) return;
+    let prevIndex = currentSongIndex - 1;
+    if (prevIndex < 0) prevIndex = songs.length - 1;
+    setTrack(prevIndex);
+  };
+
+  const handleNextSong = () => {
+    if (!Array.isArray(songs) || songs.length === 0) return;
+
+    let nextIndex = currentSongIndex + 1;
+    if (nextIndex >= songs.length) {
+      try {
+        if (typeof onPageEnd === 'function') {
+          onPageEnd();
+        }
+      } catch (error) {
+        console.error('Error in onPageEnd:', error);
+      }
+      return;
+    }
+    setTrack(nextIndex);
+  };
+
+  const handleThumbnailClick = (index) => {
+    setTrack(index);
   };
 
   const handleThreeDotsClick = (e, song) => {
@@ -361,8 +437,9 @@ function SongList({
   };
 
   const handleExternalLinkClick = () => {
-    // If you need to pause playback when an external link is clicked:
-    // player.togglePlay();
+    if (playerRef.current && typeof playerRef.current.pauseVideo === "function") {
+      playerRef.current.pauseVideo();
+    }
   };
 
   // いいねボタン用の toggleLike 関数
@@ -456,37 +533,20 @@ function SongList({
 
   // いいね情報をFirestoreから取得する関数
   const fetchLikes = async () => {
-    if (!auth.currentUser || !Array.isArray(songs) || songs.length === 0) return;
+    if (!auth.currentUser) return;
     
     try {
       const userId = auth.currentUser.uid;
-      const songIds = songs.map(song => String(song.id)).filter(Boolean);
-      if (songIds.length === 0) return;
-
       const likeCountsData = {};
       const likedSongsData = {};
       
-      const chunkedIds = [];
-      for (let i = 0; i < songIds.length; i += 30) {
-          chunkedIds.push(songIds.slice(i, i + 30));
-      }
-
-      const promises = chunkedIds.map((chunk) => {
-        const q = query(collection(firestore, "likes"), where("__name__", "in", chunk));
-        return getDocs(q);
-      });
-
-      const snapshots = await Promise.all(promises);
-      snapshots.forEach((snapshot) => {
-        snapshot.forEach((docSnap) => {
-          if (docSnap.exists()) {
-            const data = docSnap.data();
-            likeCountsData[docSnap.id] = data.likeCount || 0;
-            if (userId && data.userIds && data.userIds.includes(userId)) {
-              likedSongsData[docSnap.id] = true;
-            }
-          }
-        });
+      const querySnapshot = await getDocs(collection(firestore, "likes"));
+      console.log('Firestore like querySnapshot.size', querySnapshot.size);
+      
+      querySnapshot.forEach((docSnap) => {
+        const data = docSnap.data();
+        likeCountsData[docSnap.id] = data.likeCount || 0;
+        likedSongsData[docSnap.id] = (data.userIds || []).includes(userId);
       });
 
       // propsが空の場合のみstateを更新
@@ -575,9 +635,9 @@ function SongList({
         <div key={group.year || "all"} className={styles.yearGroup}>
           {group.year && <h2 className={styles.yearTitle}>{group.year}</h2>}
           <ul className={styles.songList}>
-            {Array.isArray(group.songs) && group.songs.map((song, index) => {
+            {Array.isArray(group.songs) && group.songs.map((song) => {
               try {
-                const title = decodeHtml(song.title?.rendered || "No Title");
+                const title = decodeHtml(song.title?.rendered || t("noTitle"));
                 const thumbnailUrl = getThumbnailUrl(song);
                 const orderedArtists = determineArtistOrder(song);
                 const artistElements = orderedArtists.length
@@ -586,7 +646,7 @@ function SongList({
                 const releaseDate =
                   formatYearMonth(song.date) !== "Unknown Year"
                     ? formatYearMonth(song.date)
-                    : "Unknown Year";
+                    : t("unknownYear");
                 const genreText = formatGenres(song.genre_data);
 
                 return (
@@ -595,8 +655,8 @@ function SongList({
                       {/* ランキング表示が必要ならここに */}
                     </div>
                     <button
-                      className={`${styles.thumbnailContainer} ${player.currentTrack?.id === song.id && player.isPlaying ? styles.playingBorder : ""}`}
-                      onClick={() => handleThumbnailClick(song, index)}
+                      className={`${styles.thumbnailContainer} ${song.originalIndex === currentSongIndex ? styles.playingBorder : ""}`}
+                      onClick={() => setTrack(song.originalIndex)}
                       aria-label={`再生 ${title}`}
                     >
                       <div className={styles.thumbnailWrapper}>
@@ -744,8 +804,38 @@ function SongList({
             </div>
           </div>
           <hr />
-          {/* Spotifyリンク */}
+          {/* YouTubeリンク */}
           <div style={{ marginBottom: "4px" }}>
+            {popupSong.acf?.ytvideoid && (
+              <a
+                href={`https://www.youtube.com/watch?v=${popupSong.acf.ytvideoid}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "flex",
+                  alignItems: "flex-start",
+                  textDecoration: "none",
+                  color: "#1e6ebb",
+                }}
+                onClick={handleExternalLinkClick}
+              >
+                <div style={{ width: "20px", flexShrink: 0, marginRight: "4px" }}>
+                  <img src="/svg/youtube.svg" alt="YouTube" style={{ width: "20px", height: "20px" }} />
+                </div>
+                <div style={{ flex: 1, display: "flex", alignItems: "center" }}>
+                  <span>YouTube</span>
+                  <img
+                    src="/svg/new-window.svg"
+                    alt="New Window"
+                    style={{ width: "16px", height: "16px", marginLeft: "4px", verticalAlign: "middle" }}
+                  />
+                </div>
+              </a>
+            )}
+          </div>
+          <hr />
+          {/* Spotifyリンク */}
+          <div>
             {popupSong.acf?.spotify_track_id && (
               <a
                 href={`https://open.spotify.com/track/${popupSong.acf.spotify_track_id}`}
@@ -775,13 +865,39 @@ function SongList({
           </div>
         </div>
       )}
+      {currentVideoId && (
+        <YouTubePlayer
+          ref={playerRef}
+          videoId={currentVideoId}
+          currentTrack={currentTrack}
+          posts={songs}
+          currentSongIndex={currentSongIndex}
+          setCurrentSongIndex={setCurrentSongIndex}
+          setCurrentVideoId={setCurrentVideoId}
+          handlePreviousSong={handlePreviousSong}
+          onEnd={handleNextSong}
+          autoPlay={isPlaying}
+          styleSlug={styleSlug}
+          styleName={styleName}
+          pageType={pageType}
+        />
+      )}
+      <style jsx global>{`
+        a {
+          text-decoration: none;
+          color: #1e6ebb;
+        }
+        a:visited {
+          color: #1e6ebb;
+        }
+        a:hover {
+          color: #cf3c2c;
+        }
+      `}</style>
       {/* SaveToPlaylistPopup をポータル経由でレンダリング */}
       {showSavePopup && selectedSongId &&
         ReactDOM.createPortal(
-          <SaveToPlaylistPopup
-            songId={selectedSongId}
-            onClose={closeSavePopup}
-          />,
+          <SaveToPlaylistPopup songId={selectedSongId} onClose={closeSavePopup} />,
           document.body
         )
       }
@@ -804,14 +920,8 @@ SongList.propTypes = {
       acf: PropTypes.shape({
         ytvideoid: PropTypes.string,
         spotify_track_id: PropTypes.string,
-        artist_order: PropTypes.oneOfType([
-          PropTypes.string,
-          PropTypes.array
-        ]),
-        spotify_artists: PropTypes.oneOfType([
-          PropTypes.string,
-          PropTypes.array
-        ]),
+        artist_order: PropTypes.string,
+        spotify_artists: PropTypes.string,
         style_slug: PropTypes.string,
         style_name: PropTypes.string,
       }),
@@ -849,10 +959,13 @@ SongList.propTypes = {
     })
   ).isRequired,
   currentPage: PropTypes.number,
+  songsPerPage: PropTypes.number,
   styleSlug: PropTypes.string,
   styleName: PropTypes.string,
   onPageEnd: PropTypes.func,
+  onPreviousPage: PropTypes.func,
   autoPlayFirst: PropTypes.bool,
+  total: PropTypes.number,
   pageType: PropTypes.string,
   likeCounts: PropTypes.object,
   likedSongs: PropTypes.object,

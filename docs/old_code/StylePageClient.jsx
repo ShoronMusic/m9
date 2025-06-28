@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useSession } from "next-auth/react";
 import Link from 'next/link';
 import Image from 'next/image';
 import { config } from '@/config/config';
@@ -41,7 +40,6 @@ function formatArtistsWithOrigin(artists = []) {
 // --- ここまで追加 ---
 
 export default function StylePageClient({ styleData, initialPage = 1, autoPlayFirst }) {
-  const { data: session } = useSession();
   const router = useRouter();
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [likedSongs, setLikedSongs] = useState({});
@@ -81,37 +79,28 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
         slug: song.artist_slug || undefined,
       }];
     }
-    
-    // Spotify IDを優先的に使用
-    const spotify_track_id = song.spotify_track_id || song.spotifyTrackId || song.acf?.spotify_track_id || song.acf?.spotifyTrackId || '';
-    
-    // YouTube IDはフォールバックとして保持
+    // 動画ID/Spotify IDを一元化
     const ytvideoid = song.ytvideoid || song.youtube_id || song.acf?.ytvideoid || song.acf?.youtube_id || song.videoId || '';
-    
+    const spotify_track_id = song.spotify_track_id || song.spotifyTrackId || song.acf?.spotify_track_id || song.acf?.spotifyTrackId || '';
     return {
       ...song,
       title: { rendered: song.title },
       artists,
       acf: {
         ...song.acf,
-        spotify_track_id,
         ytvideoid,
         youtube_id: ytvideoid,
+        spotify_track_id,
       },
       date: song.releaseDate || song.date || song.post_date || '',
       thumbnail: song.thumbnail,
       youtubeId: ytvideoid,
-      spotifyTrackId: spotify_track_id,
       genre_data: song.genres,
       vocal_data: song.vocals,
       style: song.styles,
       slug: song.titleSlug || song.slug || (typeof song.title === 'string' ? song.title.toLowerCase().replace(/ /g, "-") : (song.title?.rendered ? song.title.rendered.toLowerCase().replace(/ /g, "-") : song.id)),
       content: { rendered: song.content },
     };
-  }).filter(song => {
-    // Spotify IDがある楽曲のみを表示
-    const hasSpotifyId = song.acf?.spotify_track_id || song.spotifyTrackId;
-    return hasSpotifyId;
   });
   // --- ここまで追加 ---
 
@@ -136,13 +125,6 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     }
   };
 
-  // autoPlayFirstがtrueの場合に最初の曲を自動再生する
-  useEffect(() => {
-    if (autoPlayFirst && wpStylePosts.length > 0) {
-      console.log('AutoPlayFirst enabled for page', currentPage);
-    }
-  }, [autoPlayFirst, wpStylePosts.length, currentPage, styleData.slug]);
-
   const decodedGenreName = decodeHtml(styleData?.name);
 
   // 視聴回数を取得する関数
@@ -151,29 +133,18 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
       if (!songs || songs.length === 0) return;
       const songIds = songs.map(song => String(song.id)).filter(Boolean);
       if (songIds.length === 0) return;
-
       const viewCountsData = {};
-      const chunkedIds = [];
-      for (let i = 0; i < songIds.length; i += 30) {
-          chunkedIds.push(songIds.slice(i, i + 30));
+      // Firestoreの10件制限やwhere('__name__', 'in', ...)の問題を回避し、1件ずつ取得
+      for (const id of songIds) {
+        const docRef = doc(firestore, 'songViews', id);
+        const docSnap = await getDoc(docRef);
+        if (docSnap.exists()) {
+          const data = docSnap.data();
+          viewCountsData[id] = data.totalViewCount || 0;
+        }
       }
-
-      const promises = chunkedIds.map((chunk) => {
-        const q = query(collection(firestore, "songViews"), where("__name__", "in", chunk));
-        return getDocs(q);
-      });
-
-      const snapshots = await Promise.all(promises);
-      snapshots.forEach((snapshot) => {
-        snapshot.forEach((docSnap) => {
-          if (docSnap.exists()) {
-            const data = docSnap.data();
-            viewCountsData[docSnap.id] = data.totalViewCount || 0;
-          }
-        });
-      });
-
       setViewCounts(viewCountsData);
+      console.log('fetchViewCounts:', viewCountsData);
     } catch (error) {
       console.error('Error fetching view counts:', error);
       setViewCounts({});
@@ -182,39 +153,20 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
 
   // いいねを取得する関数
   const fetchLikes = async (userId = null) => {
+    const likeCountsData = {};
+    const likedSongsData = {};
     try {
-      if (!songs || songs.length === 0) return;
-      const songIds = songs.map(song => String(song.id)).filter(Boolean);
-      if (songIds.length === 0) return;
-
-      const likeCountsData = {};
-      const likedSongsData = {};
-      
-      const chunkedIds = [];
-      for (let i = 0; i < songIds.length; i += 30) {
-          chunkedIds.push(songIds.slice(i, i + 30));
-      }
-
-      const promises = chunkedIds.map((chunk) => {
-        const q = query(collection(firestore, "likes"), where("__name__", "in", chunk));
-        return getDocs(q);
+      const querySnapshot = await getDocs(collection(firestore, "likes"));
+      querySnapshot.forEach((docSnap) => {
+        const data = docSnap.data();
+        likeCountsData[docSnap.id] = data.likeCount || 0;
+        if (userId && data.userIds && data.userIds.includes(userId)) {
+          likedSongsData[docSnap.id] = true;
+        }
       });
-
-      const snapshots = await Promise.all(promises);
-      snapshots.forEach((snapshot) => {
-        snapshot.forEach((docSnap) => {
-          if (docSnap.exists()) {
-            const data = docSnap.data();
-            likeCountsData[docSnap.id] = data.likeCount || 0;
-            if (userId && data.userIds && data.userIds.includes(userId)) {
-              likedSongsData[docSnap.id] = true;
-            }
-          }
-        });
-      });
-
       setLikeCounts(likeCountsData);
       setLikedSongs(likedSongsData);
+      console.log('fetchLikes:', likedSongsData, userId);
     } catch (error) {
       console.error("Error fetching likes:", error);
       setLikeCounts({});
@@ -234,7 +186,7 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
       if (songs && songs.length > 0) {
         const userId = auth.currentUser?.uid;
         if (isMounted) {
-          // await fetchLikes(userId); // いいね取得を一時的に無効化
+          await fetchLikes(userId);
           await fetchViewCounts();
         }
       }

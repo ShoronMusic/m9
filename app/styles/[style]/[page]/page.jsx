@@ -100,12 +100,15 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function StylePage({ params }) {
+export default async function StylePage({ params, searchParams }) {
   const { style, page } = params;
   const pageNumber = parseInt(page, 10);
   if (isNaN(pageNumber) || pageNumber < 1) {
     notFound();
   }
+
+  // URLパラメータからautoplayを読み取り
+  const autoPlayFirst = searchParams?.autoplay === '1';
 
   let styleData = null;
   const isLocal = process.env.NODE_ENV === 'development' && !process.env.VERCEL;
@@ -144,7 +147,7 @@ export default async function StylePage({ params }) {
       <StylePageClient 
         styleData={styleData}
         initialPage={pageNumber}
-        autoPlayFirst={true}
+        autoPlayFirst={autoPlayFirst}
       />
     </Suspense>
   );
