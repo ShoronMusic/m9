@@ -40,59 +40,40 @@ export const PlayerProvider = ({ children }) => {
   });
 
   const playTrack = useCallback((track, index, songs, source, onPageEnd = null) => {
-    console.log('=== PLAYTRACK START ===');
-    console.log('playTrack called:', {
-      trackName: track?.name || track?.title?.rendered,
-      trackId: track?.spotifyTrackId || track?.id,
-      index,
-      source,
-      isNewSource: source !== currentTrackListSource.current
-    });
-    
-    // 新しいソースの場合、トラックリストを更新
+    // 新しいソースの場合、状態リセットと新曲セットをバッチ的に行う
     if (source !== currentTrackListSource.current) {
-        console.log('=== NEW SOURCE DETECTED - RESETTING PLAYERCONTEXT ===');
-        console.log('Previous source:', currentTrackListSource.current);
-        console.log('New source:', source);
-        
-        // 状態を完全にリセット
-        setCurrentTrack(null);
-        setCurrentTrackIndex(-1);
-        setIsPlaying(false);
+        // 状態を一度にリセットし新曲をセット
+        setTrackList(songs);
+        setCurrentTrackIndex(index);
+        setCurrentTrack({
+          ...track,
+          artist: track.artistName,
+          title: typeof track.title === 'object' && track.title?.rendered ? track.title.rendered : track.title,
+          trackName: typeof track.title === 'object' && track.title?.rendered ? track.title.rendered : track.title,
+          thumbnail: (track.album?.images?.[0]?.url) || track.thumbnail || track.featured_media_url_thumbnail || track.featured_media_url || '/placeholder.jpg',
+          spotify_url: track.acf?.spotify_url,
+        });
+        setIsPlaying(true);
         setPosition(0);
         setDuration(0);
-        
-        // トラックリストを更新
-        setTrackList(songs);
         currentTrackListSource.current = source;
-        
-        console.log('PlayerContext state reset completed');
+    } else {
+        // 通常の曲切り替え
+        setCurrentTrackIndex(index);
+        setCurrentTrack({
+          ...track,
+          artist: track.artistName,
+          title: typeof track.title === 'object' && track.title?.rendered ? track.title.rendered : track.title,
+          trackName: typeof track.title === 'object' && track.title?.rendered ? track.title.rendered : track.title,
+          thumbnail: (track.album?.images?.[0]?.url) || track.thumbnail || track.featured_media_url_thumbnail || track.featured_media_url || '/placeholder.jpg',
+          spotify_url: track.acf?.spotify_url,
+        });
+        setIsPlaying(true);
+        setPosition(0);
     }
-    
     // 次ページ遷移コールバックを保存
     onPageEndRef.current = onPageEnd;
-    
-    const newTrack = {
-      ...track,
-      artist: track.artistName,
-      title: track.title.rendered,
-      thumbnail: track.featured_media_url_thumbnail || track.featured_media_url || '/placeholder.jpg',
-      spotify_url: track.acf?.spotify_url,
-    };
-    setCurrentTrack(newTrack);
-    setCurrentTrackIndex(index);
-    setIsPlaying(true);
-    // 新しい曲が開始されたら位置をリセット
-    setPosition(0);
-    
-    console.log('playTrack completed:', {
-      newTrackName: track?.name || track?.title?.rendered,
-      newTrackId: track?.spotifyTrackId || track?.id,
-      newIndex: index,
-      source
-    });
-    console.log('=== PLAYTRACK END ===');
-  }, [currentTrack, currentTrackIndex, isPlaying, trackList.length]);
+  }, []);
 
   const togglePlay = useCallback(() => {
     if (!stateRef.current.currentTrack) return;
@@ -103,15 +84,7 @@ export const PlayerProvider = ({ children }) => {
     // refから最新のstateを取得
     const { trackList, currentTrack, currentTrackIndex } = stateRef.current;
 
-    console.log('playNext called with state from ref:', {
-      trackListLength: trackList.length,
-      currentTrack: currentTrack?.name || currentTrack?.title?.rendered,
-      currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id,
-      currentIndex: currentTrackIndex
-    });
-    
     if (trackList.length === 0) {
-      console.log('Track list is empty, cannot play next');
       return;
     }
 
@@ -123,13 +96,11 @@ export const PlayerProvider = ({ children }) => {
       // 念のため、インデックスの曲と現在の曲が一致するか確認
       if (trackAtStateIndex && currentTrack && (trackAtStateIndex.id === currentTrack.id || (trackAtStateIndex.spotifyTrackId && trackAtStateIndex.spotifyTrackId === currentTrack.spotifyTrackId))) {
         currentIndex = currentTrackIndex;
-        console.log(`Using state index: ${currentIndex}`);
       }
     }
 
     // 2. stateのインデックスが信頼できない場合、IDで再検索する
     if (currentIndex === -1 && currentTrack) {
-      console.log('State index was invalid or mismatched, searching by ID...');
       const currentTrackId = currentTrack?.spotifyTrackId || currentTrack?.id;
       const currentId = currentTrack?.id;
 
@@ -140,7 +111,6 @@ export const PlayerProvider = ({ children }) => {
     }
     
     if (currentIndex === -1) {
-      console.error('Current track not found in tracklist, cannot play next. Defaulting to first track.');
       setCurrentTrack(trackList[0]);
       setCurrentTrackIndex(0);
       setIsPlaying(true);
@@ -152,19 +122,14 @@ export const PlayerProvider = ({ children }) => {
     
     // 最後の曲に到達した場合の処理
     if (nextIndex >= trackList.length) {
-      console.log('Reached end of current page tracklist, checking for page end callback');
-      
       // 次ページ遷移コールバックがある場合は呼び出す
       if (onPageEndRef.current && typeof onPageEndRef.current === 'function') {
-        console.log('Calling onPageEnd callback for next page transition');
         try {
           onPageEndRef.current();
         } catch (error) {
           console.error('Error calling onPageEnd callback:', error);
         }
       } else {
-        console.log('No onPageEnd callback available, looping back to first track');
-        // コールバックがない場合は最初の曲に戻る
         setCurrentTrack(trackList[0]);
         setCurrentTrackIndex(0);
         setIsPlaying(true);
@@ -174,18 +139,6 @@ export const PlayerProvider = ({ children }) => {
     }
     
     const nextTrack = trackList[nextIndex];
-    
-    console.log('Playing next track:', {
-      currentIndex,
-      nextIndex,
-      nextTrackName: nextTrack?.name || nextTrack?.title?.rendered,
-      nextTrackId: nextTrack?.spotifyTrackId || nextTrack?.id,
-    });
-    
-    if (!nextTrack) {
-      console.error('Next track is null or undefined at index:', nextIndex);
-      return;
-    }
     
     setCurrentTrack(nextTrack);
     setCurrentTrackIndex(nextIndex);
@@ -221,15 +174,6 @@ export const PlayerProvider = ({ children }) => {
 
   // SpotifyPlayerから状態を更新する関数
   const updateCurrentTrackState = useCallback((newTrack, newIndex) => {
-    console.log('Updating current track state:', {
-      newTrackName: newTrack?.name || newTrack?.title?.rendered,
-      newTrackId: newTrack?.spotifyTrackId || newTrack?.id,
-      newIndex,
-      currentTrackName: currentTrack?.name || currentTrack?.title?.rendered,
-      currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id,
-      currentIndex: currentTrackIndex
-    });
-    
     setCurrentTrack(newTrack);
     setCurrentTrackIndex(newIndex);
   }, [currentTrack, currentTrackIndex]);

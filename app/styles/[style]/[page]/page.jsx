@@ -109,6 +109,13 @@ export default async function StylePage({ params, searchParams }) {
 
   // URLパラメータからautoplayを読み取り
   const autoPlayFirst = searchParams?.autoplay === '1';
+  
+  console.log('StylePage: URL parameters processed', {
+    style,
+    page: pageNumber,
+    searchParams,
+    autoPlayFirst
+  });
 
   let styleData = null;
   const isLocal = process.env.NODE_ENV === 'development' && !process.env.VERCEL;
