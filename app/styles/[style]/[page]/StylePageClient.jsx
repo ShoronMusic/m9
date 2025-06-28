@@ -139,6 +139,7 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
   // autoPlayFirstがtrueの場合に最初の曲を自動再生する
   useEffect(() => {
     if (autoPlayFirst && wpStylePosts.length > 0) {
+      console.log('AutoPlayFirst enabled for page', currentPage);
     }
   }, [autoPlayFirst, wpStylePosts.length, currentPage, styleData.slug]);
 
@@ -174,6 +175,7 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
 
       setViewCounts(viewCountsData);
     } catch (error) {
+      console.error('Error fetching view counts:', error);
       setViewCounts({});
     }
   };
@@ -214,6 +216,7 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
       setLikeCounts(likeCountsData);
       setLikedSongs(likedSongsData);
     } catch (error) {
+      console.error("Error fetching likes:", error);
       setLikeCounts({});
       setLikedSongs({});
     }
@@ -231,6 +234,7 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
       if (songs && songs.length > 0) {
         const userId = auth.currentUser?.uid;
         if (isMounted) {
+          // await fetchLikes(userId); // いいね取得を一時的に無効化
           await fetchViewCounts();
         }
       }
