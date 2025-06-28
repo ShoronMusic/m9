@@ -60,8 +60,8 @@ export const PlayerProvider = ({ children }) => {
     const newTrack = {
       ...track,
       artist: track.artistName,
-      title: track.title.rendered,
-      thumbnail: track.featured_media_url_thumbnail || track.featured_media_url || '/placeholder.jpg',
+      title: track.title?.rendered || track.title,
+      thumbnail: track.featured_media_url_thumbnail || track.featured_media_url || (track.album?.images?.[0]?.url) || track.thumbnail || '/placeholder.jpg',
       spotify_url: track.acf?.spotify_url,
     };
     setCurrentTrack(newTrack);

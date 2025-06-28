@@ -86,8 +86,9 @@ function determineArtistOrder(song) {
   }
 
   // 1. artist_order を優先
-  if (song.acf?.artist_order) {
-    const orderNames = song.acf.artist_order.split(",").map((n) => n.trim().toLowerCase());
+  const order = song.acf?.artist_order;
+  if (typeof order === 'string') {
+    const orderNames = order.split(",").map((n) => n.trim().toLowerCase());
     const matched = [];
     orderNames.forEach((artistNameLower) => {
       const foundCat = categories.find(
@@ -96,6 +97,9 @@ function determineArtistOrder(song) {
       if (foundCat) matched.push(foundCat);
     });
     if (matched.length > 0) return matched;
+  }
+  if (Array.isArray(order)) {
+    return order;
   }
 
   // 2. spotify_artists を次に優先
@@ -590,7 +594,7 @@ function SongList({
                 const genreText = formatGenres(song.genre_data);
 
                 return (
-                  <li key={song.id} id={`song-${song.id}`} className={styles.songItem}>
+                  <li key={song.id + '-' + index} id={`song-${song.id}`} className={styles.songItem}>
                     <div className="ranking-thumbnail-container">
                       {/* ランキング表示が必要ならここに */}
                     </div>

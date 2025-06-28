@@ -10,6 +10,8 @@ import Image from "next/image";
 // Helper function to get a valid image URL
 const getImageUrl = (track) => {
     if (!track) return '/placeholder.jpg';
+    if (track.featured_media_url_thumbnail) return track.featured_media_url_thumbnail;
+    if (track.featured_media_url) return track.featured_media_url;
     if (track.album?.images?.[0]?.url) return track.album.images[0].url;
     if (track.thumbnail) return track.thumbnail;
     return '/placeholder.jpg';
@@ -95,6 +97,14 @@ const VolumeControl = ({ volume, onVolumeChange, isMuted, onMuteToggle, isVolume
     );
 };
 
+const getSafeTitle = (track) => {
+  if (!track) return 'Untitled';
+  if (typeof track.title === 'string') return track.title;
+  if (track.title && typeof track.title === 'object' && typeof track.title.rendered === 'string') return track.title.rendered;
+  if (typeof track.name === 'string') return track.name;
+  return 'Untitled';
+};
+
 export default function FooterPlayer({ accessToken }) {
     const playerContext = useContext(PlayerContext); // Use context directly
     const [isVolumeVisible, setIsVolumeVisible] = useState(false); // ボリューム表示状態を管理
@@ -149,7 +159,7 @@ export default function FooterPlayer({ accessToken }) {
     
     // A track is selected, render the full player
     const imageUrl = getImageUrl(currentTrack);
-    const trackTitle = currentTrack.name || currentTrack.title?.rendered || 'Untitled';
+    const trackTitle = getSafeTitle(currentTrack);
     const artistName = formatArtists(currentTrack.artists);
 
     const handleSeek = (newPosition) => {
