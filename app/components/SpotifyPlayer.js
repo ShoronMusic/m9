@@ -5,7 +5,7 @@ import { usePlayer } from './PlayerContext';
 
 const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   const playerRef = useRef(null);
-  const { playNext, isPlaying, updatePlaybackState, currentTrack, currentTrackIndex, trackList, updateCurrentTrackState } = usePlayer();
+  const { playNext, isPlaying, updatePlaybackState, currentTrack, currentTrackIndex, trackList, updateCurrentTrackState, volume } = usePlayer();
   const [isReady, setIsReady] = useState(false);
   const [deviceId, setDeviceId] = useState(null);
   
@@ -539,6 +539,15 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     });
   }, [isPlaying, isReady]);
 
+  // Effect to handle volume changes
+  useEffect(() => {
+    if (!isReady || !playerRef.current) return;
+    
+    playerRef.current.setVolume(volume).catch(error => {
+      console.error("Failed to set volume:", error);
+    });
+  }, [volume, isReady]);
+
   // 再生位置を定期的に更新するエフェクト
   useEffect(() => {
     if (!isReady || !playerRef.current) return;
@@ -607,7 +616,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
           getOAuthToken: cb => { 
             cb(accessToken); 
           },
-          volume: 0.15
+          volume: volume ?? 0.2
       });
       
       playerRef.current = player;

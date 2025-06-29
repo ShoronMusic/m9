@@ -11,7 +11,7 @@ export const PlayerProvider = ({ children }) => {
   const [currentTrack, setCurrentTrack] = useState(null);
   const [currentTrackIndex, setCurrentTrackIndex] = useState(-1);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [volume, setVolume] = useState(0.3);
+  const [volume, setVolume] = useState(0.2);
   const [isMuted, setIsMuted] = useState(false);
   
   // 再生時間の状態を追加
@@ -40,7 +40,6 @@ export const PlayerProvider = ({ children }) => {
   });
 
   const playTrack = useCallback((track, index, songs, source, onPageEnd = null) => {
-    // 新しいソースの場合、トラックリストを更新
     if (source !== currentTrackListSource.current) {
         // 状態を完全にリセット
         setCurrentTrack(null);
@@ -48,15 +47,14 @@ export const PlayerProvider = ({ children }) => {
         setIsPlaying(false);
         setPosition(0);
         setDuration(0);
-        
-        // トラックリストを更新
         setTrackList(songs);
         currentTrackListSource.current = source;
+    } else {
+        // すでに同じsourceで同じ曲なら何もしない
+        if (currentTrack && currentTrack.id === track.id) return;
     }
-    
     // 次ページ遷移コールバックを保存
     onPageEndRef.current = onPageEnd;
-    
     const newTrack = {
       ...track,
       artist: track.artistName,
@@ -67,8 +65,13 @@ export const PlayerProvider = ({ children }) => {
     setCurrentTrack(newTrack);
     setCurrentTrackIndex(index);
     setIsPlaying(true);
-    // 新しい曲が開始されたら位置をリセット
     setPosition(0);
+    console.log('playTrack set:', {
+      newTrack,
+      index,
+      songsLength: songs.length,
+      source
+    });
   }, []);
 
   const togglePlay = useCallback(() => {
@@ -77,70 +80,40 @@ export const PlayerProvider = ({ children }) => {
   }, []);
 
   const playNext = useCallback(() => {
-    // refから最新のstateを取得
-    const { trackList, currentTrack, currentTrackIndex } = stateRef.current;
-    
-    if (trackList.length === 0) {
-      return;
-    }
+    const { trackList, currentTrack } = stateRef.current;
+    console.log('playNext called', { trackListLength: trackList.length, currentTrack });
+    if (trackList.length === 0) return;
 
-    let currentIndex = -1;
+    // 現在の曲のインデックスを再計算
+    let currentIndex = trackList.findIndex(
+      track => (track.spotifyTrackId && track.spotifyTrackId === (currentTrack?.spotifyTrackId || currentTrack?.id)) ||
+               (track.id && track.id === currentTrack?.id)
+    );
 
-    // 1. まずは state の currentTrackIndex を信頼する
-    if (currentTrackIndex !== undefined && currentTrackIndex >= 0 && currentTrackIndex < trackList.length) {
-      const trackAtStateIndex = trackList[currentTrackIndex];
-      // 念のため、インデックスの曲と現在の曲が一致するか確認
-      if (trackAtStateIndex && currentTrack && (trackAtStateIndex.id === currentTrack.id || (trackAtStateIndex.spotifyTrackId && trackAtStateIndex.spotifyTrackId === currentTrack.spotifyTrackId))) {
-        currentIndex = currentTrackIndex;
-      }
-    }
-
-    // 2. stateのインデックスが信頼できない場合、IDで再検索する
-    if (currentIndex === -1 && currentTrack) {
-      const currentTrackId = currentTrack?.spotifyTrackId || currentTrack?.id;
-      const currentId = currentTrack?.id;
-
-      currentIndex = trackList.findIndex(track => 
-        (track.spotifyTrackId && track.spotifyTrackId === currentTrackId) || 
-        (track.id && track.id === currentId)
-      );
-    }
-    
     if (currentIndex === -1) {
+      // 見つからなければ最初の曲
       setCurrentTrack(trackList[0]);
       setCurrentTrackIndex(0);
       setIsPlaying(true);
       setPosition(0);
       return;
     }
-    
+
     const nextIndex = currentIndex + 1;
-    
-    // 最後の曲に到達した場合の処理
+
     if (nextIndex >= trackList.length) {
-      // 次ページ遷移コールバックがある場合は呼び出す
+      // 最後の曲ならonPageEnd
       if (onPageEndRef.current && typeof onPageEndRef.current === 'function') {
         try {
           onPageEndRef.current();
         } catch (error) {
           // エラーハンドリング
         }
-      } else {
-        // コールバックがない場合は最初の曲に戻る
-        setCurrentTrack(trackList[0]);
-        setCurrentTrackIndex(0);
-        setIsPlaying(true);
-        setPosition(0);
       }
       return;
     }
-    
+
     const nextTrack = trackList[nextIndex];
-    
-    if (!nextTrack) {
-      return;
-    }
-    
     setCurrentTrack(nextTrack);
     setCurrentTrackIndex(nextIndex);
     setIsPlaying(true);

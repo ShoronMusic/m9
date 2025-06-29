@@ -116,6 +116,12 @@
     height: 32px; /* Set a larger height for the play/pause icon */
 }
 
+.controlButton[disabled] {
+    opacity: 0.4;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
 /* ====== Responsive Styles for Mobile ====== */
 @media (max-width: 920px) {
     .playerContainer {

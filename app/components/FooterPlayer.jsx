@@ -127,7 +127,8 @@ export default function FooterPlayer({ accessToken }) {
         spotifyPlayerRef,
         progress,
         isShuffling,
-        toggleShuffle
+        toggleShuffle,
+        currentTrackIndex
     } = playerContext; // Destructure from the context value
     
     const { data: session } = useSession();
@@ -197,6 +198,9 @@ export default function FooterPlayer({ accessToken }) {
         setIsVolumeVisible(!isVolumeVisible);
     };
 
+    // trackListの先頭（index 0）のみ無効
+    const isFirstOfPage = currentTrackIndex === 0;
+
     return (
         <>
             <div className={styles.playerContainer}>
@@ -220,7 +224,7 @@ export default function FooterPlayer({ accessToken }) {
 
                     {/* Center: Playback Controls */}
                     <div className={styles.centerControls}>
-                        <button onClick={playPrevious} className={styles.controlButton}>
+                        <button onClick={playPrevious} className={styles.controlButton} disabled={isFirstOfPage}>
                             <img src="/svg/backward-step-solid.svg" alt="Previous" />
                         </button>
                         <button onClick={togglePlay} className={`${styles.controlButton} ${styles.playPauseButton}`}>
@@ -240,11 +244,25 @@ export default function FooterPlayer({ accessToken }) {
                         </div>
                         <div className={styles.volumeContainer}>
                             <button
-                                onClick={() => setIsVolumeVisible(!isVolumeVisible)}
+                                onClick={() => {
+                                    const newMutedState = !isMuted;
+                                    setIsMuted(newMutedState);
+                                    
+                                    if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
+                                        if (newMutedState) {
+                                            spotifyPlayerRef.current.setVolume(0);
+                                        } else {
+                                            // Unmute to the last known volume, or a default if volume was 0
+                                            const newVolume = volume > 0 ? volume : 0.5;
+                                            if(volume === 0) setVolume(newVolume);
+                                            spotifyPlayerRef.current.setVolume(newVolume);
+                                        }
+                                    }
+                                }}
                                 className={styles.volumeButton}
                             >
                                 <Image
-                                    src={volume > 0 ? "/svg/volume-high-solid.svg" : "/svg/volume-off-solid.svg"}
+                                    src={isMuted || volume === 0 ? "/svg/volume-off-solid.svg" : "/svg/volume-high-solid.svg"}
                                     alt="Volume"
                                     width={20}
                                     height={20}
@@ -256,7 +274,14 @@ export default function FooterPlayer({ accessToken }) {
                                 max="1"
                                 step="0.01"
                                 value={volume}
-                                onChange={(e) => setVolume(parseFloat(e.target.value))}
+                                onChange={(e) => {
+                                    const newVolume = parseFloat(e.target.value);
+                                    setVolume(newVolume);
+                                    // SpotifyPlayerの音量を直接更新
+                                    if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
+                                        spotifyPlayerRef.current.setVolume(newVolume);
+                                    }
+                                }}
                                 className={`${styles.volumeSlider} ${
                                     isVolumeVisible ? styles.visible : ""
                                 }`}

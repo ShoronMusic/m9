@@ -290,12 +290,13 @@ function SongList({
       : []
   })), [songs]);
 
-  // autoPlayFirstがtrueの場合に最初の曲を自動再生する
+  const prevSourceRef = useRef();
+
   useEffect(() => {
-    if (autoPlayFirst && safeSongs.length > 0) {
+    const source = `${pageType}/${styleSlug}/${currentPage}`;
+    if (autoPlayFirst && safeSongs.length > 0 && prevSourceRef.current !== source) {
+      prevSourceRef.current = source;
       const firstSong = safeSongs[0];
-      const source = `${pageType}/${styleSlug}/${currentPage}`;
-      
       try {
         player.playTrack(firstSong, 0, safeSongs, source, onPageEnd);
       } catch (error) {
