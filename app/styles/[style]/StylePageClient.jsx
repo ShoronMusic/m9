@@ -9,7 +9,7 @@ import SongList from '@/components/SongList';
 import he from 'he'; // he パッケージをインポート
 import { useRouter } from 'next/navigation';
 import { firestore, auth } from '@/components/firebase';
-import { collection, getDocs, query, where, doc, getDoc } from 'firebase/firestore';
+import { collection, getDocs, query, where, documentId } from 'firebase/firestore';
 
 // HTML エンティティをデコードするヘルパー関数
 function decodeHtml(html = "") {
@@ -22,7 +22,6 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
   const [likedSongs, setLikedSongs] = useState({});
   const [likeCounts, setLikeCounts] = useState({});
   const [viewCounts, setViewCounts] = useState({});
-  const [userViewCounts, setUserViewCounts] = useState({});
   const [likeRefreshKey, setLikeRefreshKey] = useState(0);
   const songsPerPage = config.pagination.itemsPerPage;
 
@@ -57,46 +56,51 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
 
   const decodedGenreName = decodeHtml(styleData?.name);
 
-  // 視聴回数を取得する関数
-  const fetchViewCounts = async () => {
+  // 視聴回数を効率的に取得する関数
+  const fetchViewCounts = async (songIds) => {
+    if (!songIds || songIds.length === 0) return;
     try {
-      if (!songs || songs.length === 0) return;
-      const songIds = songs.map(song => String(song.id)).filter(Boolean);
-      if (songIds.length === 0) return;
       const viewCountsData = {};
-      // Firestoreの10件制限やwhere('__name__', 'in', ...)の問題を回避し、1件ずつ取得
-      for (const id of songIds) {
-        const docRef = doc(firestore, 'songViews', id);
-        const docSnap = await getDoc(docRef);
-        if (docSnap.exists()) {
-          const data = docSnap.data();
-          viewCountsData[id] = data.totalViewCount || 0;
-        }
-      }
+      // 表示中の曲のIDのみを対象に、一度のクエリで視聴回数を取得
+      const q = query(collection(firestore, 'songViews'), where(documentId(), 'in', songIds));
+      const querySnapshot = await getDocs(q);
+      querySnapshot.forEach(docSnap => {
+        viewCountsData[docSnap.id] = docSnap.data().totalViewCount || 0;
+      });
+      // データがない曲は0で初期化
+      songIds.forEach(id => {
+        if (!viewCountsData[id]) viewCountsData[id] = 0;
+      });
       setViewCounts(viewCountsData);
-      console.log('fetchViewCounts:', viewCountsData);
     } catch (error) {
       console.error('Error fetching view counts:', error);
       setViewCounts({});
     }
   };
 
-  // いいねを取得する関数
-  const fetchLikes = async (userId = null) => {
+  // いいね情報を効率的に取得する関数
+  const fetchLikes = async (songIds, userId = null) => {
+    if (!songIds || songIds.length === 0) return;
     const likeCountsData = {};
     const likedSongsData = {};
     try {
-      const querySnapshot = await getDocs(collection(firestore, "likes"));
-      querySnapshot.forEach((docSnap) => {
+      // 表示中の曲のIDのみを対象に、一度のクエリでいいね情報を取得
+      const q = query(collection(firestore, "likes"), where(documentId(), 'in', songIds));
+      const querySnapshot = await getDocs(q);
+      querySnapshot.forEach(docSnap => {
         const data = docSnap.data();
-        likeCountsData[docSnap.id] = data.likeCount || 0;
-        if (userId && data.userIds && data.userIds.includes(userId)) {
-          likedSongsData[docSnap.id] = true;
+        const songId = docSnap.id;
+        likeCountsData[songId] = data.likeCount || 0;
+        if (userId && data.userIds?.includes(userId)) {
+          likedSongsData[songId] = true;
         }
+      });
+      // データがない曲は0で初期化
+      songIds.forEach(id => {
+        if (!likeCountsData[id]) likeCountsData[id] = 0;
       });
       setLikeCounts(likeCountsData);
       setLikedSongs(likedSongsData);
-      console.log('fetchLikes:', likedSongsData, userId);
     } catch (error) {
       console.error("Error fetching likes:", error);
       setLikeCounts({});
@@ -114,10 +118,13 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     let isMounted = true;
     const fetchData = async () => {
       if (songs && songs.length > 0) {
+        const songIds = songs.map(song => String(song.id)).filter(Boolean);
+        if (songIds.length === 0) return;
+
         const userId = auth.currentUser?.uid;
         if (isMounted) {
-          await fetchLikes(userId);
-          await fetchViewCounts();
+          // 2つのデータ取得を並列で実行して高速化
+          await Promise.all([fetchLikes(songIds, userId), fetchViewCounts(songIds)]);
         }
       }
     };
@@ -154,7 +161,6 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
         likedSongs={likedSongs}
         likeCounts={likeCounts}
         viewCounts={viewCounts}
-        userViewCounts={userViewCounts}
         handleLike={handleLike}
       />
 

@@ -3,27 +3,20 @@
 import React, { useState, useMemo, useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
 import styles from "./SongList.module.css";
-import PropTypes from "prop-types";
 import MicrophoneIcon from "./MicrophoneIcon";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import {
-  collection,
-  query,
-  getDocs,
   getDoc,
   doc,
   updateDoc,
   setDoc,
   arrayUnion,
   arrayRemove,
-  where,
 } from "firebase/firestore";
 import { firestore, auth } from "./firebase";
 import SaveToPlaylistPopup from "./SaveToPlaylistPopup";
 import he from "he";
 import { usePlayer } from './PlayerContext'; // PlayerContext をインポート
-import { useSession } from "next-auth/react"; // useSessionをインポート
 
 // CloudinaryのベースURL
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
@@ -247,35 +240,16 @@ function SongList({
   onPageEnd = () => {},
   autoPlayFirst = false,
   pageType = 'default',
-  likeCounts: likeCountsProp = {},
-  likedSongs: likedSongsProp = {},
-  viewCounts: viewCountsProp = {},
-  userViewCounts: userViewCountsProp = {},
+  likeCounts = {},
+  likedSongs = {},
   handleLike,
 }) {
   const player = usePlayer();
-  const { data: session } = useSession(); // sessionを取得
-  
-  const router = useRouter();
 
   // ポップアップ表示用状態（ポップアップメニュー）
   const [isPopupVisible, setIsPopupVisible] = useState(false);
   const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
   const [popupSong, setPopupSong] = useState(null);
-
-  // いいね機能用 state
-  const [likedSongsState, setLikedSongs] = useState({});
-  const [likeCountsState, setLikeCounts] = useState({});
-
-  // 再生数用 state
-  const [viewCountsState, setViewCounts] = useState({});
-  const [userViewCountsState, setUserViewCounts] = useState({});
-
-  // propsがあればpropsを優先、なければ内部state
-  const likeCounts = Object.keys(likeCountsProp).length > 0 ? likeCountsProp : likeCountsState;
-  const likedSongs = Object.keys(likedSongsProp).length > 0 ? likedSongsProp : likedSongsState;
-  const viewCounts = Object.keys(viewCountsProp).length > 0 ? viewCountsProp : viewCountsState;
-  const userViewCounts = Object.keys(userViewCountsProp).length > 0 ? userViewCountsProp : userViewCountsState;
 
   // プレイリスト追加用 state
   const [showSavePopup, setShowSavePopup] = useState(false);
@@ -316,18 +290,7 @@ function SongList({
     };
     document.addEventListener("click", handleDocumentClick);
     return () => document.removeEventListener("click", handleDocumentClick);
-  }, []);
-
-  useEffect(() => {
-    if (songs.length > 0) {
-      if (Object.keys(likeCountsProp).length === 0 && Object.keys(likedSongsProp).length === 0) {
-        // fetchLikes(); // 必要であれば有効化
-      }
-      if (Object.keys(viewCountsProp).length === 0 && Object.keys(userViewCountsProp).length === 0) {
-        fetchViewCounts(songs);
-      }
-    }
-  }, [songs, auth.currentUser, likeCountsProp, likedSongsProp, viewCountsProp, userViewCountsProp]);
+  }, []); 
 
   const handleThumbnailClick = (song, index) => {
     const source = `${pageType}/${styleSlug}/${currentPage}`;
@@ -379,33 +342,23 @@ function SongList({
     const userId = auth.currentUser.uid;
     const likeRef = doc(firestore, "likes", songId);
     try {
-      if (likedSongs[songId]) {
+      const isCurrentlyLiked = likedSongs[songId];
+      if (isCurrentlyLiked) {
         // いいね解除
         await updateDoc(likeRef, {
           userIds: arrayRemove(userId),
           likeCount: Math.max((likeCounts[songId] || 0) - 1, 0),
         });
-        setLikedSongs((prev) => ({ ...prev, [songId]: false }));
-        setLikeCounts((prev) => ({
-          ...prev,
-          [songId]: Math.max((prev[songId] || 0) - 1, 0),
-        }));
       } else {
-        // 初回の場合、ドキュメントがなければ作成
+        // いいね追加
         const docSnapshot = await getDoc(likeRef);
         if (!docSnapshot.exists()) {
           await setDoc(likeRef, { userIds: [], likeCount: 0 });
         }
-        // いいね追加
         await updateDoc(likeRef, {
           userIds: arrayUnion(userId),
           likeCount: (likeCounts[songId] || 0) + 1,
         });
-        setLikedSongs((prev) => ({ ...prev, [songId]: true }));
-        setLikeCounts((prev) => ({
-          ...prev,
-          [songId]: (prev[songId] || 0) + 1,
-        }));
       }
       if (typeof handleLike === 'function') {
         handleLike();
@@ -458,121 +411,6 @@ function SongList({
       return { year, songs: sortedSongs };
     });
   }, [safeSongs]);
-
-  // いいね情報をFirestoreから取得する関数
-  const fetchLikes = async () => {
-    if (!auth.currentUser || !Array.isArray(songs) || songs.length === 0) return;
-    
-    try {
-      const userId = auth.currentUser.uid;
-      const songIds = songs.map(song => String(song.id)).filter(Boolean);
-      if (songIds.length === 0) return;
-
-      const likeCountsData = {};
-      const likedSongsData = {};
-      
-      const chunkedIds = [];
-      for (let i = 0; i < songIds.length; i += 30) {
-          chunkedIds.push(songIds.slice(i, i + 30));
-      }
-
-      const promises = chunkedIds.map((chunk) => {
-        const q = query(collection(firestore, "likes"), where("__name__", "in", chunk));
-        return getDocs(q);
-      });
-
-      const snapshots = await Promise.all(promises);
-      snapshots.forEach((snapshot) => {
-        snapshot.forEach((docSnap) => {
-          if (docSnap.exists()) {
-            const data = docSnap.data();
-            likeCountsData[docSnap.id] = data.likeCount || 0;
-            if (userId && data.userIds && data.userIds.includes(userId)) {
-              likedSongsData[docSnap.id] = true;
-            }
-          }
-        });
-      });
-
-      // propsが空の場合のみstateを更新
-      if (Object.keys(likeCountsProp).length === 0) {
-        setLikeCounts(likeCountsData);
-        setLikedSongs(likedSongsData);
-      }
-    } catch (error) {
-      console.error("Error fetching likes:", error);
-    }
-  };
-
-  // Firestore から再生数を取得する関数
-  const fetchViewCounts = async (songs) => {
-    try {
-      const cachedViewCounts = typeof window !== "undefined" ? localStorage.getItem("viewCounts") : null;
-      const cachedUserViewCounts = typeof window !== "undefined" ? localStorage.getItem("userViewCounts") : null;
-      const viewCountsData = {};
-      const userViewCountsData = {};
-
-      if (cachedViewCounts) {
-        Object.assign(viewCountsData, JSON.parse(cachedViewCounts));
-      }
-      if (cachedUserViewCounts) {
-        Object.assign(userViewCountsData, JSON.parse(cachedUserViewCounts));
-      }
-
-      const songIds = songs.map((song) => String(song.id)).filter(Boolean);
-      
-      if (songIds.length > 0) {
-        const chunkedIds = [];
-        for (let i = 0; i < songIds.length; i += 30) {
-          chunkedIds.push(songIds.slice(i, i + 30));
-        }
-
-        const promises = chunkedIds.map((chunk) => {
-          const songViewsQuery = query(
-            collection(firestore, "songViews"),
-            where("__name__", "in", chunk)
-          );
-          return getDocs(songViewsQuery);
-        });
-
-        const snapshots = await Promise.all(promises);
-        snapshots.forEach((snapshot) => {
-          snapshot.forEach((docSnap) => {
-            const data = docSnap.data();
-            viewCountsData[docSnap.id] = data.totalViewCount || 0;
-          });
-        });
-
-        if (auth.currentUser) {
-          const userId = auth.currentUser.uid;
-          const userViewPromises = songIds.map(async (songId) => {
-            const userViewsRef = doc(firestore, `usersongViews/${songId}/userViews/${userId}`);
-            const userViewDoc = await getDoc(userViewsRef);
-            if (userViewDoc.exists()) {
-              const userData = userViewDoc.data();
-              userViewCountsData[songId] = userData.viewCount2 || 0;
-            } else {
-              userViewCountsData[songId] = 0;
-            }
-          });
-          await Promise.all(userViewPromises);
-        }
-
-        if (typeof window !== "undefined") {
-          localStorage.setItem("viewCounts", JSON.stringify(viewCountsData));
-          localStorage.setItem("userViewCounts", JSON.stringify(userViewCountsData));
-        }
-
-        // propsが空の場合のみstateを更新
-        if (Object.keys(viewCountsProp).length === 0) {
-          setViewCounts(viewCountsData);
-          setUserViewCounts(userViewCountsData);
-        }
-      }
-    } catch (error) {
-      console.error("Error fetching view counts:", error);
-    }
-  };
 
   return (
     <div className={styles.songlistWrapper}>
@@ -794,7 +632,7 @@ function SongList({
   );
 }
 
-SongList.propTypes = {
+/*
   songs: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
@@ -861,9 +699,7 @@ SongList.propTypes = {
   pageType: PropTypes.string,
   likeCounts: PropTypes.object,
   likedSongs: PropTypes.object,
-  viewCounts: PropTypes.object,
-  userViewCounts: PropTypes.object,
   handleLike: PropTypes.func,
-};
+};*/
 
 export default SongList;
