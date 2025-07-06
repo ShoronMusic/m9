@@ -259,6 +259,7 @@ function SongList({
   const safeSongs = useMemo(() => songs.map(song => ({
     ...song,
     spotifyTrackId: song.acf?.spotify_track_id || song.spotifyTrackId || song.acf?.spotifyTrackId,
+    id: song.id || song.spotifyTrackId || song.acf?.spotify_track_id,
     categories: Array.isArray(song.categories)
       ? song.categories.filter(cat => typeof cat === 'object' && cat !== null)
       : []

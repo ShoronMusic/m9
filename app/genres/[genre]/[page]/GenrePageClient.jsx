@@ -7,7 +7,7 @@ import Pagination from '@/components/Pagination';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 import styles from './GenrePageClient.module.css';
 
-export default function GenrePageClient({ genreSlug, pageNumber, genreSonglist, genreName, genreDescription }) {
+export default function GenrePageClient({ genreSlug, pageNumber, genreSonglist, genreName, genreDescription, autoPlayFirst }) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const autoplay = searchParams.get('autoplay') === '1';
@@ -56,15 +56,19 @@ export default function GenrePageClient({ genreSlug, pageNumber, genreSonglist, 
     router.push(`/genres/${genreSlug}/${newPage}`);
   };
 
-  // 曲が終了したときの処理
-  const handleVideoEnd = useCallback(() => {
-    if (currentSongIndex < wpStylePosts.length - 1) {
-      setCurrentSongIndex(prev => prev + 1);
-    } else if (pageNumber < totalPages) {
-      const nextPage = pageNumber + 1;
-      router.push(`/genres/${genreSlug}/${nextPage}?autoplay=1`);
+  // ページ末尾到達時の処理
+  const handlePageEnd = () => {
+    if (pageNumber < totalPages) {
+      router.push(`/genres/${genreSlug}/${pageNumber + 1}?autoplay=1`);
     }
-  }, [currentSongIndex, wpStylePosts.length, pageNumber, totalPages, genreSlug, router]);
+  };
+
+  // autoPlayFirstがtrueの場合に最初の曲を自動再生する
+  useEffect(() => {
+    if (autoPlayFirst && wpStylePosts.length > 0) {
+      console.log('AutoPlayFirst enabled for page', pageNumber);
+    }
+  }, [autoPlayFirst, wpStylePosts.length, pageNumber, genreSlug]);
 
   useEffect(() => {
     setCurrentSongIndex(0);
@@ -105,19 +109,15 @@ export default function GenrePageClient({ genreSlug, pageNumber, genreSonglist, 
         songs={wpStylePosts}
         currentPage={pageNumber}
         songsPerPage={20}
-        styleSlug={genreSlug}
+        styleSlug={String(genreSlug)}
         styleName={genreName}
-        onPageEnd={() => {
-          if (pageNumber < totalPages) {
-            router.push(`/genres/${genreSlug}/${pageNumber + 1}?autoplay=1`);
-          }
-        }}
+        onPageEnd={handlePageEnd}
         onPreviousPage={() => {
           if (pageNumber > 1) {
             router.push(`/genres/${genreSlug}/${pageNumber - 1}?autoplay=last`);
           }
         }}
-        autoPlayFirst={autoplay}
+        autoPlayFirst={autoPlayFirst}
         total={total}
         pageType="genre"
       />

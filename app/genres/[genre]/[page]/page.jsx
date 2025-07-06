@@ -77,13 +77,16 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function Page({ params }) {
+export default async function Page({ params, searchParams }) {
   const { genre, page } = params;
   const pageNum = parseInt(page, 10);
 
   if (isNaN(pageNum) || pageNum < 1) {
     notFound();
   }
+
+  // URLパラメータからautoplayを読み取り
+  const autoPlayFirst = searchParams?.autoplay === '1';
 
   const genreData = await getGenreData(genre);
   console.log('page.jsx genreData:', genreData);
@@ -120,6 +123,7 @@ export default async function Page({ params }) {
         }}
         genreName={genreData.name}
         genreDescription={genreData.description}
+        autoPlayFirst={autoPlayFirst}
       />
     </Suspense>
   );
