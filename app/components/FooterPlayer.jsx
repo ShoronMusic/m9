@@ -169,29 +169,39 @@ export default function FooterPlayer({ accessToken }) {
 
     const handleVolumeChange = (e) => {
         const newVolume = parseFloat(e.target.value);
+        
+        // まずSpotifyPlayerの音量を更新
+        if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
+            try {
+                spotifyPlayerRef.current.setVolume(newVolume);
+            } catch (error) {
+                console.error('Volume change error:', error);
+            }
+        }
+        
+        // その後で状態を更新
         setVolume(newVolume);
         setIsMuted(newVolume === 0);
-        
-        // SpotifyPlayerの音量を更新
-        if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
-            spotifyPlayerRef.current.setVolume(newVolume);
-        }
     };
 
     const handleMuteToggle = () => {
         const newMutedState = !isMuted;
-        setIsMuted(newMutedState);
         
         if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
-            if (newMutedState) {
-                spotifyPlayerRef.current.setVolume(0);
-            } else {
-                // Unmute to the last known volume, or a default if volume was 0
-                const newVolume = volume > 0 ? volume : 0.5;
-                if(volume === 0) setVolume(newVolume);
-                spotifyPlayerRef.current.setVolume(newVolume);
+            try {
+                if (newMutedState) {
+                    spotifyPlayerRef.current.setVolume(0);
+                } else {
+                    const newVolume = volume > 0 ? volume : 0.5;
+                    if(volume === 0) setVolume(newVolume);
+                    spotifyPlayerRef.current.setVolume(newVolume);
+                }
+            } catch (error) {
+                console.error('Mute toggle error:', error);
             }
         }
+        
+        setIsMuted(newMutedState);
     };
 
     const handleVolumeIconClick = () => {
@@ -246,18 +256,22 @@ export default function FooterPlayer({ accessToken }) {
                             <button
                                 onClick={() => {
                                     const newMutedState = !isMuted;
-                                    setIsMuted(newMutedState);
                                     
                                     if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
-                                        if (newMutedState) {
-                                            spotifyPlayerRef.current.setVolume(0);
-                                        } else {
-                                            // Unmute to the last known volume, or a default if volume was 0
-                                            const newVolume = volume > 0 ? volume : 0.5;
-                                            if(volume === 0) setVolume(newVolume);
-                                            spotifyPlayerRef.current.setVolume(newVolume);
+                                        try {
+                                            if (newMutedState) {
+                                                spotifyPlayerRef.current.setVolume(0);
+                                            } else {
+                                                const newVolume = volume > 0 ? volume : 0.5;
+                                                if(volume === 0) setVolume(newVolume);
+                                                spotifyPlayerRef.current.setVolume(newVolume);
+                                            }
+                                        } catch (error) {
+                                            console.error('Mute toggle error:', error);
                                         }
                                     }
+                                    
+                                    setIsMuted(newMutedState);
                                 }}
                                 className={styles.volumeButton}
                             >
@@ -276,11 +290,18 @@ export default function FooterPlayer({ accessToken }) {
                                 value={volume}
                                 onChange={(e) => {
                                     const newVolume = parseFloat(e.target.value);
-                                    setVolume(newVolume);
-                                    // SpotifyPlayerの音量を直接更新
+                                    
+                                    // まずSpotifyPlayerの音量を更新
                                     if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
-                                        spotifyPlayerRef.current.setVolume(newVolume);
+                                        try {
+                                            spotifyPlayerRef.current.setVolume(newVolume);
+                                        } catch (error) {
+                                            console.error('Volume change error:', error);
+                                        }
                                     }
+                                    
+                                    // その後で状態を更新
+                                    setVolume(newVolume);
                                 }}
                                 className={`${styles.volumeSlider} ${
                                     isVolumeVisible ? styles.visible : ""
