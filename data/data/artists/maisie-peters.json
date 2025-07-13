@@ -1,0 +1,61 @@
+{
+  "id": 2548,
+  "count": 7,
+  "description": "Maisie Peters is an English singer-songwriter.",
+  "link": "https://sub.music8.jp/category/maisie-peters/",
+  "name": "Maisie Peters",
+  "slug": "maisie-peters",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2015",
+    "artistborn": "20000528",
+    "artistdied": "",
+    "artistjpname": "メイジー・ピーターズ"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2548",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2548"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2548"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "メイジー・ピーターズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2015",
+  "occupation": ""
+}

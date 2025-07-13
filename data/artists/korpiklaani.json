@@ -1,0 +1,69 @@
+{
+  "id": 2257,
+  "count": 4,
+  "description": "Korpiklaani is a Finnish folk metal band.",
+  "link": "https://sub.music8.jp/category/korpiklaani/",
+  "name": "Korpiklaani",
+  "slug": "korpiklaani",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FIN",
+    "artistactiveyearstart": "1993",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "コルピクラーニ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2257",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2257"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2257"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "コルピクラーニ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1993",
+  "occupation": "band"
+}

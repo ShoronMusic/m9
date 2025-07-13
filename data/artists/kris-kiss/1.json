@@ -1,0 +1,216 @@
+{
+  "artist": {
+    "id": 1747,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/kris-kiss/",
+    "name": "Kris Kiss",
+    "slug": "kris-kiss",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1747",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1747"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1747"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 42736,
+      "date": "2018-04-12T22:37:00",
+      "date_gmt": "2018-04-12T13:37:00",
+      "title": {
+        "rendered": "Anthem"
+      },
+      "content": {
+        "rendered": "\n<p>Hardwell&amp;SteveAokifeat.KrisKiss-Anthem</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1746,
+        1747,
+        1026
+      ],
+      "tags": [],
+      "genre": [
+        429
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "62XYoTuDJLMCzXOZABDC6P",
+        "spotify_release_date": "2017/7/21",
+        "spotify_name": "Kolony Anthem (feat. ILoveMakonnen & Bok Nero)",
+        "spotify_artists": "Steve Aoki, ILOVEMAKONNEN, Bok Nero",
+        "spotify_album": "Steve Aoki Presents Kolony",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734868d30599b7c24e2879140d",
+        "spotify_duration_ms": "177051",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.772",
+        "spotify_energy": "0.823",
+        "spotify_key": "11",
+        "spotify_loudness": "-2.578",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.146",
+        "spotify_tempo": "159.99",
+        "spotify_valence": "0.583",
+        "spotify_acousticness": "0.0613",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0779",
+        "spotify_artists01": "Steve Aoki",
+        "spotify_artists01_id": "77AiFEVeAVj2ORpC85QVJs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5fb007a707c0ec3a7c1726af",
+        "spotify_artists01_genres": "edm, electro house, pop dance",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "ILOVEMAKONNEN",
+        "spotify_artists02_id": "3aGFCoR8xGN6DKwvdzeSja",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebd89dc215c1dbf1d5cc8d6f02",
+        "spotify_artists02_genres": "atl hip hop, lgbtq+ hip hop, trap",
+        "spotify_artists02_popularity": "53",
+        "spotify_artists03": "Bok Nero",
+        "spotify_artists03_id": "7rnzdGq1qPizursGNI1P0V",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebb6a924c0848a5c74588e0f0f",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "38",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "VGrv_pmcKtU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Hardwell-Steve-Aoki-feat.-Kris-Kiss-Anthem.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1746,
+            "name": "Hardwell",
+            "slug": "hardwell",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "2002",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ハードウェル",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1747,
+            "name": "Kris Kiss",
+            "slug": "kris-kiss",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1026,
+            "name": "Steve Aoki",
+            "slug": "steve-aoki",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "19771130",
+              "artistdied": "",
+              "artistjpname": "スティーブ・アオキ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "77AiFEVeAVj2ORpC85QVJs",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174cf85b39d94c486218a687248",
+              "youtube_channel": "UCALvGYb5h_MZCzW_vG8d8eQ",
+              "wikipedia_page": "Steve_Aoki"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Steve Aoki, ILOVEMAKONNEN, Bok Nero",
+        "ytvideoid": "VGrv_pmcKtU",
+        "spotify_track_id": "62XYoTuDJLMCzXOZABDC6P"
+      },
+      "genre_data": [
+        {
+          "name": "Big room house",
+          "slug": "big-room-house",
+          "term_id": 429,
+          "post_count": 19
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "anthem"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

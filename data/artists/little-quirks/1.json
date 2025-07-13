@@ -1,0 +1,193 @@
+{
+  "artist": {
+    "id": 3494,
+    "count": 1,
+    "description": "Little Quirks are an Australian indie folk band",
+    "link": "https://sub.music8.jp/category/little-quirks/",
+    "name": "Little Quirks",
+    "slug": "little-quirks",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "2015",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3494",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3494"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3494"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 54704,
+      "date": "2023-10-12T13:21:55",
+      "date_gmt": "2023-10-12T04:21:55",
+      "title": {
+        "rendered": "Storm Like Me"
+      },
+      "content": {
+        "rendered": "<p>Little Quirks - Storm Like Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3494
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "4J0pD7W0M8cGnJ9JzLFfqW",
+        "spotify_release_date": "2023-10-12",
+        "spotify_name": "Storm Like Me",
+        "spotify_artists": "Little Quirks",
+        "spotify_album": "Storm Like Me",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273deeb94a68a2fdd4b55a85c5d",
+        "spotify_duration_ms": "160011",
+        "spotify_popularity": "20",
+        "spotify_danceability": "0.39",
+        "spotify_energy": "0.587",
+        "spotify_key": "6",
+        "spotify_loudness": "-5.612",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0415",
+        "spotify_tempo": "127.959",
+        "spotify_valence": "0.36",
+        "spotify_acousticness": "0.0922",
+        "spotify_instrumentalness": "0.0000127",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.118",
+        "spotify_artists01": "Little Quirks",
+        "spotify_artists01_id": "6l6nwL0mxcwiSwa8WOebCx",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1b4569bae441cc1e190aaee4",
+        "spotify_artists01_genres": "folk-pop",
+        "spotify_artists01_popularity": "27",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "KDZ1LwibVfY",
+        "ytreleasedate": "2023/10/12"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Little-Quirks-Storm-Like-Me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3494,
+            "name": "Little Quirks",
+            "slug": "little-quirks",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Little Quirks",
+        "ytvideoid": "KDZ1LwibVfY",
+        "spotify_track_id": "4J0pD7W0M8cGnJ9JzLFfqW"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "storm-like-me"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

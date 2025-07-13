@@ -1,0 +1,197 @@
+{
+  "artist": {
+    "id": 1414,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/alex-gaskarth/",
+    "name": "Alex Gaskarth",
+    "slug": "alex-gaskarth",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1414",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1414"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1414"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 44121,
+      "date": "2012-03-13T09:26:00",
+      "date_gmt": "2012-03-13T00:26:00",
+      "title": {
+        "rendered": "Kiss Me Again"
+      },
+      "content": {
+        "rendered": "\n<p>WeAreTheInCrowd-KissMeAgain(Feat.AlexGaskarth)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1414,
+        1312
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6p3j39vBRD8YC2zpquOSkU",
+        "spotify_release_date": "2012/3/13",
+        "spotify_name": "Kiss Me Again (feat. Alex Gaskarth)",
+        "spotify_artists": "We Are The In Crowd",
+        "spotify_album": "Best Intentions (Re-issue)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732086f2db242e60fa15701838",
+        "spotify_duration_ms": "200951",
+        "spotify_popularity": "45",
+        "spotify_danceability": "0.639",
+        "spotify_energy": "0.892",
+        "spotify_key": "5",
+        "spotify_loudness": "-3.74",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0339",
+        "spotify_tempo": "123.996",
+        "spotify_valence": "0.76",
+        "spotify_acousticness": "0.000747",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.113",
+        "spotify_artists01": "We Are The In Crowd",
+        "spotify_artists01_id": "1BSXtdFlVDUOS6g1T3tmME",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb72c6cb973d0f5553458a9084",
+        "spotify_artists01_genres": "candy pop, neon pop punk, pixie, pop emo, pop punk",
+        "spotify_artists01_popularity": "41",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "BM3Rv2RO1Do",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/We-Are-The-In-Crowd-Kiss-Me-Again-Feat.-Alex-Gaskarth.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1414,
+            "name": "Alex Gaskarth",
+            "slug": "alex-gaskarth",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1312,
+            "name": "We Are The In Crowd",
+            "slug": "we-are-the-in-crowd",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウィ・アー・ジ・イン・クラウド",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "We Are The In Crowd",
+        "ytvideoid": "BM3Rv2RO1Do",
+        "spotify_track_id": "6p3j39vBRD8YC2zpquOSkU"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "kiss-me-again"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

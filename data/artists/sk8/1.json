@@ -1,0 +1,376 @@
+{
+  "artist": {
+    "id": 1839,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/sk8/",
+    "name": "SK8",
+    "slug": "sk8",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2013",
+      "artistborn": "19950117",
+      "artistdied": "",
+      "artistjpname": "スケート",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "rapper",
+          "label": "Rapper"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1839",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1839"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1839"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39656,
+      "date": "2022-05-04T12:16:00",
+      "date_gmt": "2022-05-04T03:16:00",
+      "title": {
+        "rendered": "Shooting Star"
+      },
+      "content": {
+        "rendered": "\n<p>SK8-ShootingStar(feat.Sum41)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1839,
+        1917
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "65o2S5n0p31DTFtUzA1i1X",
+        "spotify_release_date": "2022/4/8",
+        "spotify_name": "ShootingStar(feat.Sum41)",
+        "spotify_artists": "SK8,Sum41",
+        "spotify_album": "LastDayOnEarth",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a15b69300982cb9418eaecbd",
+        "spotify_duration_ms": "138086",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.553",
+        "spotify_energy": "0.792",
+        "spotify_key": "11",
+        "spotify_loudness": "-4.741",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0436",
+        "spotify_tempo": "98.003",
+        "spotify_valence": "0.262",
+        "spotify_acousticness": "0.00129",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.6",
+        "spotify_artists01": "SK8",
+        "spotify_artists01_id": "4YqctGfuLnSvjjlFQvNish",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb393397724e86a34a8d2bfd74",
+        "spotify_artists01_genres": "teenpop",
+        "spotify_artists01_popularity": "42",
+        "spotify_artists02": "Sum41",
+        "spotify_artists02_id": "0qT79UgT5tY4yudH9VfsdT",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba79683a6e828e1a86341414c",
+        "spotify_artists02_genres": "alternativemetal,canadianpoppunk,canadianpunk,modernrock,numetal,poppunk,post-grunge,punk,rock",
+        "spotify_artists02_popularity": "71",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "3h-TlAMu5hs",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/SK8-Shooting-Star.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1839,
+            "name": "SK8",
+            "slug": "sk8",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19950117",
+              "artistdied": "",
+              "artistjpname": "スケート",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1917,
+            "name": "Sum 41",
+            "slug": "sum-41",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "サム・フォーティーワン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SK8,Sum41",
+        "ytvideoid": "3h-TlAMu5hs",
+        "spotify_track_id": "65o2S5n0p31DTFtUzA1i1X"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "shooting-star"
+    },
+    {
+      "id": 40446,
+      "date": "2022-01-22T22:02:00",
+      "date_gmt": "2022-01-22T13:02:00",
+      "title": {
+        "rendered": "F*ck Society"
+      },
+      "content": {
+        "rendered": "\n<p>SK8-F*ckSociety(feat.Sueco)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1839,
+        1784
+      ],
+      "tags": [],
+      "genre": [
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3ZAYMiBXD8tume1BVtqPcQ",
+        "spotify_release_date": "2022/1/21",
+        "spotify_name": "F*ckSociety(feat.Sueco)",
+        "spotify_artists": "SK8,Sueco",
+        "spotify_album": "F*ckSociety(feat.Sueco)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735820c44e60d65906ecc75659",
+        "spotify_duration_ms": "109309",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.576",
+        "spotify_energy": "0.809",
+        "spotify_key": "6",
+        "spotify_loudness": "-3.058",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0347",
+        "spotify_tempo": "93.905",
+        "spotify_valence": "0.675",
+        "spotify_acousticness": "0.0113",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.182",
+        "spotify_artists01": "SK8",
+        "spotify_artists01_id": "4YqctGfuLnSvjjlFQvNish",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb393397724e86a34a8d2bfd74",
+        "spotify_artists01_genres": "teenpop",
+        "spotify_artists01_popularity": "42",
+        "spotify_artists02": "Sueco",
+        "spotify_artists02_id": "4iDroUFo89Y7YBsdDTBmTD",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba44f5cb0aba9624cd54994a3",
+        "spotify_artists02_genres": "calirap",
+        "spotify_artists02_popularity": "63",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "g-dW2aw6cDQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/SK8-F_ck-Society.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1839,
+            "name": "SK8",
+            "slug": "sk8",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19950117",
+              "artistdied": "",
+              "artistjpname": "スケート",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1784,
+            "name": "Sueco",
+            "slug": "sueco",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2019",
+              "artistborn": "19970128",
+              "artistdied": "",
+              "artistjpname": "スエコ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SK8,Sueco",
+        "ytvideoid": "g-dW2aw6cDQ",
+        "spotify_track_id": "3ZAYMiBXD8tume1BVtqPcQ"
+      },
+      "genre_data": [
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "fck-society"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,351 @@
+{
+  "artist": {
+    "id": 902,
+    "count": 2,
+    "description": "Kirsty MacColl was a British singer and songwriter.",
+    "link": "https://sub.music8.jp/category/kirsty-maccoll/",
+    "name": "Kirsty MacColl",
+    "slug": "kirsty-maccoll",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1978–2000",
+      "artistborn": "19591010",
+      "artistdied": "2000.12.18",
+      "artistjpname": "カースティー・マッコール",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/902",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=902"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=902"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 88786,
+      "date": "1987-11-23T13:23:28",
+      "date_gmt": "1987-11-23T04:23:28",
+      "title": {
+        "rendered": "Fairytale Of New York"
+      },
+      "content": {
+        "rendered": "<p>The Pogues - Fairytale Of New York</p>\n",
+        "protected": false
+      },
+      "categories": [
+        902,
+        6396
+      ],
+      "tags": [],
+      "genre": [
+        447,
+        455,
+        520
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "j9jbdgZidu8",
+        "ytreleasedate": "2011/12/08",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "4soJpnUFA0SPs7XTi6QIVp",
+        "spotify_release_date": "1988",
+        "spotify_name": "Fairytale of New York (feat. Kirsty MacColl) - Edit",
+        "spotify_artists": "Pogues, Kirsty MacColl",
+        "spotify_album": "Fairytale of New York (feat. Kirsty MacColl) [Edit]",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f3f8a1298a361d28304377c9",
+        "spotify_duration_ms": "275896",
+        "spotify_popularity": "83",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "The Pogues",
+        "spotify_artists01_id": "2wzMOQwNT6ZvVB4amvhFAH",
+        "spotify_artists01_images": "https://i.scdn.co/image/066e909db6281a424881f7eb1fd11248050ed390",
+        "spotify_artists01_genres": "celtic punk, celtic rock, folk punk, punk",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "Kirsty MacColl",
+        "spotify_artists02_id": "6UlNIFEuWlBqb4TvlVCekq",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb90e2c409987c4ff1296a2c90",
+        "spotify_artists02_genres": "new wave pop",
+        "spotify_artists02_popularity": "74",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/the-pogues-fairytale-of-new-york.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 902,
+            "name": "Kirsty MacColl",
+            "slug": "kirsty-maccoll",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978–2000",
+              "artistborn": "19591010",
+              "artistdied": "2000.12.18",
+              "artistjpname": "カースティー・マッコール",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6396,
+            "name": "Pogues",
+            "slug": "pogues",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1982",
+              "artistborn": "",
+              "artistjpname": "ザ・ポーグス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "2wzMOQwNT6ZvVB4amvhFAH",
+              "spotify_artist_images": "https://i.scdn.co/image/21f53e9e8dc7548eed3ee3cfdbbe85e50a26a11c",
+              "youtube_channel": "UCvfcW8XVa2Kj802P4l302Yw",
+              "wikipedia_page": "The_Pogues"
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Pogues, Kirsty MacColl",
+        "ytvideoid": "j9jbdgZidu8",
+        "spotify_track_id": "4soJpnUFA0SPs7XTi6QIVp"
+      },
+      "genre_data": [
+        {
+          "name": "Celtic rock",
+          "slug": "celtic-rock",
+          "term_id": 447,
+          "post_count": 9
+        },
+        {
+          "name": "Christmas",
+          "slug": "christmas",
+          "term_id": 455,
+          "post_count": 111
+        },
+        {
+          "name": "Folk-pop",
+          "slug": "folk-pop",
+          "term_id": 520,
+          "post_count": 191
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "fairytale-of-new-york"
+    },
+    {
+      "id": 48376,
+      "date": "1984-12-01T22:05:00",
+      "date_gmt": "1984-12-01T13:05:00",
+      "title": {
+        "rendered": "A New England"
+      },
+      "content": {
+        "rendered": "<p>Kirsty MacColl - A New England</p>\n",
+        "protected": false
+      },
+      "categories": [
+        902
+      ],
+      "tags": [],
+      "genre": [
+        638
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1XrdmJxGSLjvEuHLdVF5VW",
+        "spotify_release_date": "2006/10/4",
+        "spotify_name": "A New England",
+        "spotify_artists": "Kirsty MacColl",
+        "spotify_album": "The Stiff Singles Collection",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a956ba083e98ce4b223ce339",
+        "spotify_duration_ms": "232853",
+        "spotify_popularity": "51",
+        "spotify_danceability": "-1.6311251821160606",
+        "spotify_energy": "-0.0501384567611793",
+        "spotify_key": "0.47224151734130654",
+        "spotify_loudness": "-0.8343580732292614",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.33388384563660223",
+        "spotify_tempo": "1.8621909081012888",
+        "spotify_valence": "0.8751850830620285",
+        "spotify_acousticness": "0.7185536866073583",
+        "spotify_instrumentalness": "-0.41041294998852856",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "0.9489534334852612",
+        "spotify_artists01": "Kirsty MacColl",
+        "spotify_artists01_id": "6UlNIFEuWlBqb4TvlVCekq",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb90e2c409987c4ff1296a2c90",
+        "spotify_artists01_genres": "new wave pop",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Vnzpg5GgQCo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kirsty-MacColl-A-New-England.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 902,
+            "name": "Kirsty MacColl",
+            "slug": "kirsty-maccoll",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978–2000",
+              "artistborn": "19591010",
+              "artistdied": "2000.12.18",
+              "artistjpname": "カースティー・マッコール",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kirsty MacColl",
+        "ytvideoid": "Vnzpg5GgQCo",
+        "spotify_track_id": "1XrdmJxGSLjvEuHLdVF5VW"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "a-new-england"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2410,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/alter-bridge/",
+    "name": "Alter Bridge",
+    "slug": "alter-bridge",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2410",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2410"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2410"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39052,
+      "date": "2022-08-03T21:26:00",
+      "date_gmt": "2022-08-03T12:26:00",
+      "title": {
+        "rendered": "Silver Tongue"
+      },
+      "content": {
+        "rendered": "\n<p>AlterBridge-SilverTongue</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2410
+      ],
+      "tags": [],
+      "genre": [
+        409
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5uNazTJV7Rpd8zAtWDiSiG",
+        "spotify_release_date": "2022/10/14",
+        "spotify_name": "SilverTongue",
+        "spotify_artists": "AlterBridge",
+        "spotify_album": "Pawns&Kings",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cf1a3d957fec51dd0bdd2b78",
+        "spotify_duration_ms": "258786",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.427",
+        "spotify_energy": "0.93",
+        "spotify_key": "1",
+        "spotify_loudness": "-5.988",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0745",
+        "spotify_tempo": "140.934",
+        "spotify_valence": "0.345",
+        "spotify_acousticness": "1.12E-05",
+        "spotify_instrumentalness": "3.22E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.439",
+        "spotify_artists01": "AlterBridge",
+        "spotify_artists01_id": "4DWX7u8BV0vZIQSpJQQDWU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8650b5577dcbd76607f1340d",
+        "spotify_artists01_genres": "alternativemetal,numetal,post-grunge",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "snl8OANQ948",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Alter-Bridge-Silver-Tongue.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2410,
+            "name": "Alter Bridge",
+            "slug": "alter-bridge",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "AlterBridge",
+        "ytvideoid": "snl8OANQ948",
+        "spotify_track_id": "5uNazTJV7Rpd8zAtWDiSiG"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "silver-tongue"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1916,
+    "count": 1,
+    "description": "IRL",
+    "link": "https://sub.music8.jp/category/kynsy/",
+    "name": "Kynsy",
+    "slug": "kynsy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1916",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1916"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1916"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38749,
+      "date": "2022-09-14T11:27:00",
+      "date_gmt": "2022-09-14T02:27:00",
+      "title": {
+        "rendered": "Simple Life"
+      },
+      "content": {
+        "rendered": "\n<p>Kynsy-SimpleLife</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1916
+      ],
+      "tags": [],
+      "genre": [
+        575,
+        665
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2fi7cZ6yaAkLvLb5RPLEnK",
+        "spotify_release_date": "2022/9/14",
+        "spotify_name": "SimpleLife",
+        "spotify_artists": "Kynsy",
+        "spotify_album": "SomethingToDoWithLove",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737aa7083e4a477236d77ac0e8",
+        "spotify_duration_ms": "251407",
+        "spotify_popularity": "14",
+        "spotify_danceability": "0.552",
+        "spotify_energy": "0.825",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.598",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0342",
+        "spotify_tempo": "122.019",
+        "spotify_valence": "0.469",
+        "spotify_acousticness": "0.0138",
+        "spotify_instrumentalness": "7.85E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.383",
+        "spotify_artists01": "Kynsy",
+        "spotify_artists01_id": "1GUxDXleGCxG9ibsZjASo6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebacc46e102b4aa8f655f8e7d7",
+        "spotify_artists01_genres": "irishindierock",
+        "spotify_artists01_popularity": "19",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "oqFuuulrw_o",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kynsy-Simple-Life.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1916,
+            "name": "Kynsy",
+            "slug": "kynsy",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kynsy",
+        "ytvideoid": "oqFuuulrw_o",
+        "spotify_track_id": "2fi7cZ6yaAkLvLb5RPLEnK"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "simple-life-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

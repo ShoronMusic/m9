@@ -1,0 +1,72 @@
+{
+  "id": 799,
+  "count": 2,
+  "description": "ABC is a British pop band that formed in 1980.",
+  "link": "https://sub.music8.jp/category/abc/",
+  "name": "ABC",
+  "slug": "abc",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1980",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "エービーシー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Heaven 17 (heaven-17) | Haircut 100 (haircut-100) | Howard Jones (howard-jones) | Kajagoogoo (kaiagoogoo) | Blancmange (blancmange) | Scritti Politti (scritti-politti) | Thompson Twins (thompson-twins) | China Crisis (china-crisis) | Ultravox (ultravox) | Human League (human-league) | Thomas Dolby (thomas-dolby) | Go West (go-west) | Fun Boy Three | Visage (visage) | Nik Kershaw (nik-kershaw) | Curiosity Killed The Cat (curiosity-killed-the-cat) | Living In A Box (living-in-a-box) | Blow Monkeys (blow-monkeys) | Adam & The Ants | Altered Images",
+    "spotify_artist_id": "2s79xe5F6eUQkjwjww27Fh",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743d666042f3b1b4356d0fbc68"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/799",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=799"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=799"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エービーシー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051743d666042f3b1b4356d0fbc68",
+  "artistActiveYearStart": "1980",
+  "occupation": "band"
+}

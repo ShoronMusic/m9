@@ -1,0 +1,69 @@
+{
+  "id": 3572,
+  "count": 2,
+  "description": "Home Free is an American country a cappella group.",
+  "link": "https://sub.music8.jp/category/home-free/",
+  "name": "Home Free",
+  "slug": "home-free",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2001",
+    "artistborn": "",
+    "artistjpname": "ホーム・フリー",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "group",
+        "label": "Group"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3572",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3572"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3572"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ホーム・フリー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2001",
+  "occupation": "group"
+}

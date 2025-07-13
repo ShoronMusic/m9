@@ -1,0 +1,341 @@
+{
+  "artist": {
+    "id": 3862,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/mackenzy-mackay/",
+    "name": "Mackenzy Mackay",
+    "slug": "mackenzy-mackay",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3862",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3862"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3862"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58346,
+      "date": "2023-05-26T11:05:00",
+      "date_gmt": "2023-05-26T02:05:00",
+      "title": {
+        "rendered": "Venus"
+      },
+      "content": {
+        "rendered": "<p>Mackenzy Mackay - Venus</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3862
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "59EgnmJVKtYQZDbtNza4PP",
+        "spotify_release_date": "2023-05-12",
+        "spotify_name": "Venus",
+        "spotify_artists": "Mackenzy Mackay",
+        "spotify_album": "Venus",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27302093f5662be4ef666866b57",
+        "spotify_duration_ms": "157048",
+        "spotify_popularity": "67",
+        "spotify_danceability": "0.557",
+        "spotify_energy": "0.467",
+        "spotify_key": "0",
+        "spotify_loudness": "-12.766",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.27",
+        "spotify_tempo": "166.218",
+        "spotify_valence": "0.577",
+        "spotify_acousticness": "0.275",
+        "spotify_instrumentalness": "0.00000281",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.351",
+        "spotify_artists01": "Mackenzy Mackay",
+        "spotify_artists01_id": "28WNtilgFPn1mdz3h0FjHl",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebda6e038374857b6fa3700b41",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "SVMivCZagZM",
+        "ytreleasedate": "2023/05/26"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mackenzy-Mackay-Venus.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3862,
+            "name": "Mackenzy Mackay",
+            "slug": "mackenzy-mackay",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Mackenzy Mackay",
+        "ytvideoid": "SVMivCZagZM",
+        "spotify_track_id": "59EgnmJVKtYQZDbtNza4PP"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "venus-2"
+    },
+    {
+      "id": 58349,
+      "date": "2023-04-11T11:12:16",
+      "date_gmt": "2023-04-11T02:12:16",
+      "title": {
+        "rendered": "London"
+      },
+      "content": {
+        "rendered": "<p>Mackenzy Mackay - London</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3862
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6Mx5HieOgwyF3bRb8ahTDh",
+        "spotify_release_date": "2023-04-07",
+        "spotify_name": "London",
+        "spotify_artists": "Mackenzy Mackay",
+        "spotify_album": "London",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733ed332945ebad50534c92869",
+        "spotify_duration_ms": "154130",
+        "spotify_popularity": "62",
+        "spotify_danceability": "0.739",
+        "spotify_energy": "0.512",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.636",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.133",
+        "spotify_tempo": "138.007",
+        "spotify_valence": "0.434",
+        "spotify_acousticness": "0.249",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.128",
+        "spotify_artists01": "Mackenzy Mackay",
+        "spotify_artists01_id": "28WNtilgFPn1mdz3h0FjHl",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebda6e038374857b6fa3700b41",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "1UIXFXMiKVc",
+        "ytreleasedate": "2023/04/11"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mackenzy-Mackay-London.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3862,
+            "name": "Mackenzy Mackay",
+            "slug": "mackenzy-mackay",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Mackenzy Mackay",
+        "ytvideoid": "1UIXFXMiKVc",
+        "spotify_track_id": "6Mx5HieOgwyF3bRb8ahTDh"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "london"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

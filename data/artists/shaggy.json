@@ -1,0 +1,77 @@
+{
+  "id": 1024,
+  "count": 14,
+  "description": "Shaggy　is a Jamaican reggae rapper, singer, and songwriter.",
+  "link": "https://sub.music8.jp/category/shaggy/",
+  "name": "Shaggy",
+  "slug": "shaggy",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "JAM",
+    "artistactiveyearstart": "1992",
+    "artistborn": "19681022",
+    "artistdied": "",
+    "artistjpname": "シャギー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1024",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1024"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1024"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "シャギー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1992",
+  "occupation": "singer, songwriter, rapper"
+}

@@ -1,0 +1,74 @@
+{
+  "id": 1868,
+  "count": 3,
+  "description": "Arcade Fire is a Canadian indie rock band.",
+  "link": "https://sub.music8.jp/category/arcade-fire/",
+  "name": "Arcade Fire",
+  "slug": "arcade-fire",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "2001",
+    "artistborn": "",
+    "artistdied": "アーケード・ファイア",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3kjuyTCjPG1WMFCiyc5IuB",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a044e15eee771205956dcbf8",
+    "youtube_channel": "UCIIGxQ6BA9MwIJXBu47SyZQ",
+    "wikipedia_page": "Arcade_Fire"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1868",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1868"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1868"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a044e15eee771205956dcbf8",
+  "artistActiveYearStart": "2001",
+  "occupation": "band"
+}

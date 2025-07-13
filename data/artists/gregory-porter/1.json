@@ -1,0 +1,225 @@
+{
+  "artist": {
+    "id": 3933,
+    "count": 1,
+    "description": "Gregory Porter is an American singer, songwriter.",
+    "link": "https://sub.music8.jp/category/gregory-porter/",
+    "name": "Gregory Porter",
+    "slug": "gregory-porter",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1998",
+      "artistborn": "19711104",
+      "artistjpname": "グレゴリー・ポーター",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3933",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3933"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3933"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 59115,
+      "date": "2023-05-12T21:50:31",
+      "date_gmt": "2023-05-12T12:50:31",
+      "title": {
+        "rendered": "In My Heart (Resound NYC Version)"
+      },
+      "content": {
+        "rendered": "<p>moby, Gregory Porter - In My Heart (Resound NYC Version) </p>\n",
+        "protected": false
+      },
+      "categories": [
+        3933,
+        2374
+      ],
+      "tags": [],
+      "genre": [
+        659,
+        751
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0XQ8SESBC2glE6syC5QhG9",
+        "spotify_release_date": "2023-05-12",
+        "spotify_name": "In My Heart - Resound NYC Version",
+        "spotify_artists": "Moby, Gregory Porter",
+        "spotify_album": "Resound NYC",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734820135d6ff571deeb2e3238",
+        "spotify_duration_ms": "296354",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.458",
+        "spotify_energy": "0.843",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.093",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0669",
+        "spotify_tempo": "120.005",
+        "spotify_valence": "0.0458",
+        "spotify_acousticness": "0.0784",
+        "spotify_instrumentalness": "0.0000819",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.176",
+        "spotify_artists01": "Moby",
+        "spotify_artists01_id": "3OsRAKCvk37zwYcnzRf5XF",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb85e8c6cc75e2810460c84564",
+        "spotify_artists01_genres": "downtempo, electronica",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "グレゴリー・ポーター",
+        "spotify_artists02_id": "06nevPmNVfWUXyZkccahL8",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb4bba7af02dea26ca2eedf919",
+        "spotify_artists02_genres": "contemporary vocal jazz, jazz pop, vocal jazz",
+        "spotify_artists02_popularity": "61",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "0d9cr46fhF4",
+        "ytreleasedate": "2023/05/12"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/moby-In-My-Heart-ft.-Gregory-Porter-Resound-NYC-Version.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3933,
+            "name": "Gregory Porter",
+            "slug": "gregory-porter",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1998",
+              "artistborn": "19711104",
+              "artistjpname": "グレゴリー・ポーター",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2374,
+            "name": "Moby",
+            "slug": "moby",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19650911",
+              "artistdied": "",
+              "artistjpname": "モービー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Moby, Gregory Porter",
+        "ytvideoid": "0d9cr46fhF4",
+        "spotify_track_id": "0XQ8SESBC2glE6syC5QhG9"
+      },
+      "genre_data": [
+        {
+          "name": "Pop soul",
+          "slug": "pop-soul",
+          "term_id": 659,
+          "post_count": 187
+        },
+        {
+          "name": "Trip hop",
+          "slug": "trip-hop",
+          "term_id": 751,
+          "post_count": 100
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "in-my-heart-resound-nyc-version"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

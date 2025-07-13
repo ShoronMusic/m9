@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1912,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/circle-the-earth/",
+    "name": "Circle the Earth",
+    "slug": "circle-the-earth",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1912",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1912"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1912"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39265,
+      "date": "2022-06-29T18:57:00",
+      "date_gmt": "2022-06-29T09:57:00",
+      "title": {
+        "rendered": "Sweetest Pain"
+      },
+      "content": {
+        "rendered": "\n<p>CircletheEarth-SweetestPain</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1912
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7pHIrqjeR3uBI7cyKqKdXf",
+        "spotify_release_date": "2022/6/21",
+        "spotify_name": "SweetestPain",
+        "spotify_artists": "CircletheEarth",
+        "spotify_album": "SweetestPain",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a9cfbaf55b6c85ec8eb69baf",
+        "spotify_duration_ms": "208510",
+        "spotify_popularity": "10",
+        "spotify_danceability": "0.399",
+        "spotify_energy": "0.848",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.386",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.112",
+        "spotify_tempo": "152.038",
+        "spotify_valence": "0.292",
+        "spotify_acousticness": "0.00411",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0673",
+        "spotify_artists01": "CircletheEarth",
+        "spotify_artists01_id": "0mPBb6EXuG4aboBcJ5YOpz",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb391714dbb96d6cbc521b19ec",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "27",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "U4LHeT_PReo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Circle-the-Earth-Sweetest-Pain.png",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1912,
+            "name": "Circle the Earth",
+            "slug": "circle-the-earth",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "CircletheEarth",
+        "ytvideoid": "U4LHeT_PReo",
+        "spotify_track_id": "7pHIrqjeR3uBI7cyKqKdXf"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "sweetest-pain"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

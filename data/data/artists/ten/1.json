@@ -1,0 +1,228 @@
+{
+  "artist": {
+    "id": 2438,
+    "count": 1,
+    "description": "TEN  are an English melodic hard rock band.",
+    "link": "https://sub.music8.jp/category/ten/",
+    "name": "TEN",
+    "slug": "ten",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1995",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "テン ",
+      "member": [
+        {
+          "term_id": 906,
+          "name": "Prince",
+          "slug": "prince",
+          "term_group": 0,
+          "term_taxonomy_id": 906,
+          "taxonomy": "category",
+          "description": "Prince was an American singer, songwriter, musician, record producer, and actor.",
+          "parent": 0,
+          "count": 66,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2438",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2438"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2438"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38376,
+      "date": "2022-11-08T20:58:00",
+      "date_gmt": "2022-11-08T11:58:00",
+      "title": {
+        "rendered": "The Tidal Wave"
+      },
+      "content": {
+        "rendered": "\n<p>TEN-TheTidalWave</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2438
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5EYOmP7Ux8ZSVKIxOGstFJ",
+        "spotify_release_date": "2023/1/20",
+        "spotify_name": "TheTidalWave",
+        "spotify_artists": "Ten",
+        "spotify_album": "SomethingWickedThisWayComes",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27389a2b1eba5f09d1da3d2c982",
+        "spotify_duration_ms": "261398",
+        "spotify_popularity": "18",
+        "spotify_danceability": "0.517",
+        "spotify_energy": "0.768",
+        "spotify_key": "4",
+        "spotify_loudness": "-11.56",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0351",
+        "spotify_tempo": "142.955",
+        "spotify_valence": "0.305",
+        "spotify_acousticness": "0.0386",
+        "spotify_instrumentalness": "0.009",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.117",
+        "spotify_artists01": "Ten",
+        "spotify_artists01_id": "0OYeqty0JLKm1IPBnERKBs",
+        "spotify_artists01_images": "https://i.scdn.co/image/4dcffc4e01d4aa802e4a470cfc7c7781d061008c",
+        "spotify_artists01_genres": "melodichardrock",
+        "spotify_artists01_popularity": "18",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "rhgtUhNOCDo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/TEN-The-Tidal-Wave.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2438,
+            "name": "TEN",
+            "slug": "ten",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1995",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "テン ",
+              "member": [
+                {
+                  "term_id": 906,
+                  "name": "Prince",
+                  "slug": "prince",
+                  "term_group": 0,
+                  "term_taxonomy_id": 906,
+                  "taxonomy": "category",
+                  "description": "Prince was an American singer, songwriter, musician, record producer, and actor.",
+                  "parent": 0,
+                  "count": 66,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Ten",
+        "ytvideoid": "rhgtUhNOCDo",
+        "spotify_track_id": "5EYOmP7Ux8ZSVKIxOGstFJ"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-tidal-wave"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

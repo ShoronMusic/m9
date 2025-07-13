@@ -1,0 +1,83 @@
+{
+  "id": 6843,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/luke-steele/",
+  "name": "Luke Steele",
+  "slug": "luke-steele",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NZL",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 3438,
+        "name": "Empire Of The Sun",
+        "slug": "empire-of-the-sun",
+        "term_group": 0,
+        "term_taxonomy_id": 3438,
+        "taxonomy": "category",
+        "description": "Empire Of The Sun is an Australian electronic music duo",
+        "parent": 0,
+        "count": 11,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [],
+    "related_artists": "",
+    "spotify_artist_id": "0CliOhi161ZCRIVw60prp0",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051746548bce218c666cb28ffc609",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "",
+    "wikipedia_page": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6843",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6843"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6843"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051746548bce218c666cb28ffc609",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

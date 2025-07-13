@@ -1,0 +1,63 @@
+{
+  "id": 860,
+  "count": 3,
+  "description": "Go West are an English pop duo.",
+  "link": "https://sub.music8.jp/category/go-west/",
+  "name": "Go West",
+  "slug": "go-west",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1982",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ゴー・ウエスト",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/860",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=860"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=860"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ゴー・ウエスト",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1982",
+  "occupation": ""
+}

@@ -1,0 +1,221 @@
+{
+  "artist": {
+    "id": 3959,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/micah-martin/",
+    "name": "Micah Martin",
+    "slug": "micah-martin",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3959",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3959"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3959"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 59321,
+      "date": "2023-12-12T15:44:11",
+      "date_gmt": "2023-12-12T06:44:11",
+      "title": {
+        "rendered": "Monsters"
+      },
+      "content": {
+        "rendered": "<p>Zomboy, Micah Martin - Monsters</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3959,
+        3958
+      ],
+      "tags": [],
+      "genre": [
+        487,
+        488
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2baHywIRnkbKD7ff5C8Cuz",
+        "spotify_release_date": "2023-09-08",
+        "spotify_name": "Monsters",
+        "spotify_artists": "Zomboy, Micah Martin",
+        "spotify_album": "Monsters",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d1cd32e33a661382a04f3783",
+        "spotify_duration_ms": "284137",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.396",
+        "spotify_energy": "0.97",
+        "spotify_key": "11",
+        "spotify_loudness": "-2.583",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0997",
+        "spotify_tempo": "174.062",
+        "spotify_valence": "0.137",
+        "spotify_acousticness": "0.00247",
+        "spotify_instrumentalness": "0.143",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.112",
+        "spotify_artists01": "Zomboy",
+        "spotify_artists01_id": "0ycHhPwPvoaO4VGzmMnXGq",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5643f477e79c915bc776500a",
+        "spotify_artists01_genres": "brostep, edm, glitch",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "Micah Martin",
+        "spotify_artists02_id": "4i8u1FZVapjZBcCyyrAnU3",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebf3808ae406bf3cde61c73f93",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "46",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "hmrUFPuHlj0",
+        "ytreleasedate": "2023/12/12"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Zomboy-Monsters-feat.-Micah-Martin.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3959,
+            "name": "Micah Martin",
+            "slug": "micah-martin",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3958,
+            "name": "Zomboy",
+            "slug": "zomboy",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2010",
+              "artistborn": "19890601",
+              "artistjpname": "ゾンボーイ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Zomboy, Micah Martin",
+        "ytvideoid": "hmrUFPuHlj0",
+        "spotify_track_id": "2baHywIRnkbKD7ff5C8Cuz"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        },
+        {
+          "name": "Dubstep",
+          "slug": "dubstep",
+          "term_id": 488,
+          "post_count": 21
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "monsters-4"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

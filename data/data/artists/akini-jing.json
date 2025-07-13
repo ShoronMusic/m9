@@ -1,0 +1,77 @@
+{
+  "id": 3919,
+  "count": 1,
+  "description": "Akini Jing is a Chinese singer, songwriter, and music producer.",
+  "link": "https://sub.music8.jp/category/akini-jing/",
+  "name": "Akini Jing",
+  "slug": "akini-jing",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CHN",
+    "artistactiveyearstart": "2004",
+    "artistborn": "19880418",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3919",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3919"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3919"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2004",
+  "occupation": "singer, songwriter, producer"
+}

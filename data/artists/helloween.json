@@ -1,0 +1,76 @@
+{
+  "id": 2399,
+  "count": 2,
+  "description": "Helloween is a German power metal band",
+  "link": "https://sub.music8.jp/category/helloween/",
+  "name": "Helloween",
+  "slug": "helloween",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "1984",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ハロウィン",
+    "member": [
+      {
+        "term_id": 906,
+        "name": "Prince",
+        "slug": "prince",
+        "term_group": 0,
+        "term_taxonomy_id": 906,
+        "taxonomy": "category",
+        "description": "Prince was an American singer, songwriter, musician, record producer, and actor.",
+        "parent": 0,
+        "count": 66,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2399",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2399"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2399"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ハロウィン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1984",
+  "occupation": ""
+}

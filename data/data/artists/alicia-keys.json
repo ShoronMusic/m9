@@ -1,0 +1,80 @@
+{
+  "id": 2771,
+  "count": 8,
+  "description": "Alicia Keys is an American singer-songwriter, pianist, and record producer.",
+  "link": "https://sub.music8.jp/category/alicia-keys/",
+  "name": "Alicia Keys",
+  "slug": "alicia-keys",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1996",
+    "artistborn": "19810125",
+    "artistdied": "",
+    "artistjpname": "アリシア・キーズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3DiDSECUqqY1AuBP8qtaIa",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ebfd16a3bca87c31c1e20576"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2771",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2771"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2771"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アリシア・キーズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ebfd16a3bca87c31c1e20576",
+  "artistActiveYearStart": "1996",
+  "occupation": "singer, songwriter, producer"
+}

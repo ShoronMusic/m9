@@ -1,0 +1,82 @@
+{
+  "id": 1034,
+  "count": 3,
+  "description": "Dave Stewart is an English musician, songwriter, and record producer, known for his work with the Eurythmics.",
+  "link": "https://sub.music8.jp/category/dave-stewart/",
+  "name": "Dave Stewart",
+  "slug": "dave-stewart",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1977",
+    "artistborn": "19520909",
+    "artistdied": "",
+    "artistjpname": "デイヴ・スチュワート",
+    "member": [
+      {
+        "term_id": 801,
+        "name": "Eurythmics",
+        "slug": "eurythmics",
+        "term_group": 0,
+        "term_taxonomy_id": 801,
+        "taxonomy": "category",
+        "description": "Eurythmics were a British pop duo formed in 1980.",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [],
+    "related_artists": "Annie Lennox (annie-lennox) | Kiki Dee (kiki-dee) | Katrina & The Waves | Eurythmics (eurythmics) | Spiritual Cowboys | Range | Jennifer Warnes | Michael Sembello | Irene Cara (irene-cara) | Buggles (buggles) | Kim Carnes (kim-carnes) | Philip Bailey (philip-bailey) | Kevin Rowland | Phil Oakey | Matthew Wilder (matthew-wilder) | Soft Cell (soft-cell) | Fine Young Cannibals (fine-young-cannibals) | Candy Dulfer (candy-dulfer) | Dexys Midnight Runners (dexys-midnight-runners) | Bill Medley",
+    "spotify_artist_id": "7gcCQIlkkfbul5Mt0jBQkg",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517494fdf3ac086d95c63d93772e",
+    "youtube_channel": "",
+    "wikipedia_page": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1034",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1034"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1034"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "デイヴ・スチュワート",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517494fdf3ac086d95c63d93772e",
+  "artistActiveYearStart": "1977",
+  "occupation": ""
+}

@@ -1,0 +1,76 @@
+{
+  "id": 4977,
+  "count": 1,
+  "description": "Sean Kingston  is an American singer and rapper.",
+  "link": "https://sub.music8.jp/category/sean-kingston/",
+  "name": "Sean Kingston",
+  "slug": "sean-kingston",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2007",
+    "artistborn": "19900203",
+    "artistjpname": "ショーン・キングストン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "",
+    "spotify_artist_images": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4977",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4977"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4977"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ショーン・キングストン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2007",
+  "occupation": "singer, rapper"
+}

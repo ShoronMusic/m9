@@ -1,0 +1,63 @@
+{
+  "id": 3146,
+  "count": 3,
+  "description": "Middle Kids are an alternative indie rock band.",
+  "link": "https://sub.music8.jp/category/middle-kids/",
+  "name": "Middle Kids",
+  "slug": "middle-kids",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2016",
+    "artistborn": "",
+    "artistjpname": "ミドル・キッズ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3146",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3146"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3146"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ミドル・キッズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2016",
+  "occupation": ""
+}

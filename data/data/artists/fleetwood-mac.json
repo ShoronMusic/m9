@@ -1,0 +1,72 @@
+{
+  "id": 5254,
+  "count": 0,
+  "description": "Fleetwood Mac are a British-American rock band.",
+  "link": "https://sub.music8.jp/category/fleetwood-mac/",
+  "name": "Fleetwood Mac",
+  "slug": "fleetwood-mac",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1967-2022",
+    "artistborn": "",
+    "artistjpname": "フリートウッド・マック",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "",
+    "spotify_artist_images": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5254",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5254"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5254"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "フリートウッド・マック",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1967-2022",
+  "occupation": "band"
+}

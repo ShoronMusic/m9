@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 1326,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/brett-eldredge/",
+    "name": "Brett Eldredge",
+    "slug": "brett-eldredge",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1326",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1326"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1326"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41307,
+      "date": "2020-10-28T20:28:00",
+      "date_gmt": "2020-10-28T11:28:00",
+      "title": {
+        "rendered": "Under The Mistletoe"
+      },
+      "content": {
+        "rendered": "\n<p>KellyClarksonandBrettEldredge-UnderTheMistletoe</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1326,
+        1322
+      ],
+      "tags": [],
+      "genre": [
+        455,
+        655
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "2K4XbdyLxi9jhqVQeyUKRK",
+        "spotify_release_date": "2020/10/28",
+        "spotify_name": "Under The Mistletoe",
+        "spotify_artists": "Kelly Clarkson, Brett Eldredge, Atlantic Holiday",
+        "spotify_album": "Under The Mistletoe",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b258b7954efb0741bcef97de",
+        "spotify_duration_ms": "225687",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.437",
+        "spotify_energy": "0.802",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.063",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.111",
+        "spotify_tempo": "178.137",
+        "spotify_valence": "0.704",
+        "spotify_acousticness": "0.0168",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.086",
+        "spotify_artists01": "Kelly Clarkson",
+        "spotify_artists01_id": "3BmGtnKgCSGYIUhmivXKWX",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb305a7cc6760b53a67aaae19d",
+        "spotify_artists01_genres": "dance pop, pop, talent show",
+        "spotify_artists01_popularity": "72",
+        "spotify_artists02": "Brett Eldredge",
+        "spotify_artists02_id": "0qSX3s5pJnAlSsgsCne8Cz",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebd79029462578c60eb799225d",
+        "spotify_artists02_genres": "contemporary country, country, country road, modern country rock",
+        "spotify_artists02_popularity": "58",
+        "spotify_artists03": "Atlantic Holiday",
+        "spotify_artists03_id": "5D9NYfOaGxFKCalJIeia1N",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb793b6ba8bb9e42d2b9dd9c23",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "23",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "KnbqzkC3i9k",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kelly-Clarkson-and-Brett-Eldredge-Under-The-Mistletoe.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1326,
+            "name": "Brett Eldredge",
+            "slug": "brett-eldredge",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1322,
+            "name": "Kelly Clarkson",
+            "slug": "kelly-clarkson",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2000",
+              "artistborn": "19820424",
+              "artistdied": "",
+              "artistjpname": "ケリー・クラークソン",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kelly Clarkson, Brett Eldredge, Atlantic Holiday",
+        "ytvideoid": "KnbqzkC3i9k",
+        "spotify_track_id": "2K4XbdyLxi9jhqVQeyUKRK"
+      },
+      "genre_data": [
+        {
+          "name": "Christmas",
+          "slug": "christmas",
+          "term_id": 455,
+          "post_count": 111
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "under-the-mistletoe"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 3288,
+  "count": 5,
+  "description": "Hollow Coves is an independent band.",
+  "link": "https://sub.music8.jp/category/hollow-coves/",
+  "name": "Hollow Coves",
+  "slug": "hollow-coves",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2013",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7IAFAOtc9kTYNTizhLSWM6",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517481c0e43195b10b16081a5fc4"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3288",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3288"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3288"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517481c0e43195b10b16081a5fc4",
+  "artistActiveYearStart": "2013",
+  "occupation": "band"
+}

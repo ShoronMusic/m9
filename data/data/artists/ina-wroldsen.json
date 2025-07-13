@@ -1,0 +1,63 @@
+{
+  "id": 3377,
+  "count": 2,
+  "description": "Ina Wroldsen is a Norwegian singer and songwriter.",
+  "link": "https://sub.music8.jp/category/ina-wroldsen/",
+  "name": "Ina Wroldsen",
+  "slug": "ina-wroldsen",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NOR",
+    "artistactiveyearstart": "2004",
+    "artistborn": "19840529",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3377",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3377"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3377"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2004",
+  "occupation": ""
+}

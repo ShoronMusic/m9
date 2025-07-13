@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 3263,
+    "count": 1,
+    "description": "First to Eleven is an American rock band.",
+    "link": "https://sub.music8.jp/category/first-to-eleven/",
+    "name": "First to Eleven",
+    "slug": "first-to-eleven",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2009",
+      "artistborn": "",
+      "artistjpname": "ファースト・トゥ・イレブン",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3263",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3263"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3263"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 86793,
+      "date": "2017-12-21T00:36:05",
+      "date_gmt": "2017-12-20T15:36:05",
+      "title": {
+        "rendered": "Last Christmas"
+      },
+      "content": {
+        "rendered": "<p>First To Eleven - Last Christmas - Wham!/Taylor Swift</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3263
+      ],
+      "tags": [
+        6250
+      ],
+      "genre": [
+        455,
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6Z7pN3KSIh7xVIrXjVDWxQ",
+        "spotify_release_date": "2018-01-14",
+        "spotify_name": "Last Christmas",
+        "spotify_artists": "First to Eleven",
+        "spotify_album": "Covers, Vol. 1",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cd8db01dae53fd7658560706",
+        "spotify_duration_ms": "268363",
+        "spotify_popularity": "19",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "First to Eleven",
+        "spotify_artists01_id": "3Cpk1xlScqbYhmv5EqoI4Y",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdd495a9d913c564937a5b6fe",
+        "spotify_artists01_genres": "pixie",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "IvAbKoKYTfE",
+        "ytreleasedate": "2017/12/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/first-to-eleven-last-christmas-wham-taylor-swift.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3263,
+            "name": "First to Eleven",
+            "slug": "first-to-eleven",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistjpname": "ファースト・トゥ・イレブン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "First to Eleven",
+        "ytvideoid": "IvAbKoKYTfE",
+        "spotify_track_id": "6Z7pN3KSIh7xVIrXjVDWxQ"
+      },
+      "genre_data": [
+        {
+          "name": "Christmas",
+          "slug": "christmas",
+          "term_id": 455,
+          "post_count": 111
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "last-christmas-10"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

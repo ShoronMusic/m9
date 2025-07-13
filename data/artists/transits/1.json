@@ -1,0 +1,194 @@
+{
+  "artist": {
+    "id": 4323,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/transits/",
+    "name": "Transits",
+    "slug": "transits",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "NZL",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4323",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4323"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4323"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 63350,
+      "date": "2024-02-16T20:23:29",
+      "date_gmt": "2024-02-16T11:23:29",
+      "title": {
+        "rendered": "Heartbreak Queen"
+      },
+      "content": {
+        "rendered": "<p>Transits - Heartbreak Queen</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4323
+      ],
+      "tags": [],
+      "genre": [
+        411
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "o2cKz0WUZmE",
+        "ytreleasedate": "2024/02/16",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0p947wQtzxxCRhhzaYaiDd",
+        "spotify_release_date": "2024-02-16",
+        "spotify_name": "Heartbreak Queen",
+        "spotify_artists": "The Transits",
+        "spotify_album": "The Transits",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736e6a2c6b8a42404a3e76971d",
+        "spotify_duration_ms": "183000",
+        "spotify_popularity": "18",
+        "spotify_danceability": "0.455",
+        "spotify_energy": "0.799",
+        "spotify_key": "0",
+        "spotify_loudness": "-9.87",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0484",
+        "spotify_tempo": "80.042",
+        "spotify_valence": "0.517",
+        "spotify_acousticness": "0.00216",
+        "spotify_instrumentalness": "0.000118",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0727",
+        "spotify_artists01": "The Transits",
+        "spotify_artists01_id": "2BSRzROxZgCOIrJ9HGD6Xd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb63c6b508469cf29f60e4c70f",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "10",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2736e6a2c6b8a42404a3e76971d.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4323,
+            "name": "Transits",
+            "slug": "transits",
+            "acf": {
+              "artistorigin": "NZL",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "The Transits",
+        "ytvideoid": "o2cKz0WUZmE",
+        "spotify_track_id": "0p947wQtzxxCRhhzaYaiDd"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "heartbreak-queen"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

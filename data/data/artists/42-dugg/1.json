@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 1654,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/42-dugg/",
+    "name": "42 Dugg",
+    "slug": "42-dugg",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1654",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1654"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1654"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41811,
+      "date": "2020-01-05T13:42:00",
+      "date_gmt": "2020-01-05T04:42:00",
+      "title": {
+        "rendered": "We Paid"
+      },
+      "content": {
+        "rendered": "\n<p>LilBabyx42Dugg-WePaid</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1654,
+        1556
+      ],
+      "tags": [],
+      "genre": [
+        564,
+        748
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6gxKUmycQX7uyMwJcweFjp",
+        "spotify_release_date": "2020/5/1",
+        "spotify_name": "We Paid (feat. 42 Dugg)",
+        "spotify_artists": "Lil Baby, 42 Dugg",
+        "spotify_album": "My Turn (Deluxe)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27376a4577dd654bf457a4ad1f8",
+        "spotify_duration_ms": "181929",
+        "spotify_popularity": "76",
+        "spotify_danceability": "0.926",
+        "spotify_energy": "0.542",
+        "spotify_key": "1",
+        "spotify_loudness": "-5.064",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.293",
+        "spotify_tempo": "135.14",
+        "spotify_valence": "0.564",
+        "spotify_acousticness": "0.135",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0877",
+        "spotify_artists01": "Lil Baby",
+        "spotify_artists01_id": "5f7VJjfbwm532GiveGC0ZK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6cad3eff5adc29e20f189a6c",
+        "spotify_artists01_genres": "atl hip hop, atl trap, rap, trap",
+        "spotify_artists01_popularity": "85",
+        "spotify_artists02": "42 Dugg",
+        "spotify_artists02_id": "45gHcnDnMC15sgx3VL7ROG",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb40c29d16a1bc236c8c67bb14",
+        "spotify_artists02_genres": "detroit trap, southern hip hop, trap",
+        "spotify_artists02_popularity": "69",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "GErG9femMQk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lil-Baby-x-42-Dugg-We-Paid.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1654,
+            "name": "42 Dugg",
+            "slug": "42-dugg",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1556,
+            "name": "Lil Baby",
+            "slug": "lil-baby",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19941203",
+              "artistdied": "",
+              "artistjpname": "リル・ベイビー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Lil Baby, 42 Dugg",
+        "ytvideoid": "GErG9femMQk",
+        "spotify_track_id": "6gxKUmycQX7uyMwJcweFjp"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "Trap",
+          "slug": "trap",
+          "term_id": 748,
+          "post_count": 282
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "we-paid"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

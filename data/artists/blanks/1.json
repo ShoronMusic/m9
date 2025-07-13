@@ -1,0 +1,177 @@
+{
+  "artist": {
+    "id": 2984,
+    "count": 1,
+    "description": "Blanks is a Dutch musician and YouTuber.",
+    "link": "https://sub.music8.jp/category/blanks/",
+    "name": "Blanks",
+    "slug": "blanks",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "NED",
+      "artistactiveyearstart": "2013",
+      "artistborn": "19970419",
+      "artistdied": "",
+      "artistjpname": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2984",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2984"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2984"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50379,
+      "date": "2023-01-21T13:31:16",
+      "date_gmt": "2023-01-21T04:31:16",
+      "title": {
+        "rendered": "Breathe In Breathe Out"
+      },
+      "content": {
+        "rendered": "<p>Blanks - Breathe In Breathe Out</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2984
+      ],
+      "tags": [],
+      "genre": [
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0r6P9l89NMswHu49S5cuZs",
+        "spotify_release_date": "2023-01-13",
+        "spotify_name": "Breathe In Breathe Out",
+        "spotify_artists": "Blanks",
+        "spotify_album": "Breathe In Breathe Out",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e1816f3d143ac6f42ea03f10",
+        "spotify_duration_ms": "160932",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.601",
+        "spotify_energy": "0.663",
+        "spotify_key": "3",
+        "spotify_loudness": "-11.662",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0319",
+        "spotify_tempo": "155.957",
+        "spotify_valence": "0.883",
+        "spotify_acousticness": "0.0168",
+        "spotify_instrumentalness": "0.00000922",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.147",
+        "spotify_artists01": "Blanks",
+        "spotify_artists01_id": "7geo7fjTQyp13Wf2ALTZCF",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd75783f279e3e43332e2d7ff",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "P0KFJONzzic",
+        "ytreleasedate": "2023/01/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Blanks-Breathe-In-Breathe-Out.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2984,
+            "name": "Blanks",
+            "slug": "blanks",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19970419",
+              "artistdied": "",
+              "artistjpname": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Blanks",
+        "ytvideoid": "P0KFJONzzic",
+        "spotify_track_id": "0r6P9l89NMswHu49S5cuZs"
+      },
+      "genre_data": [
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "breathe-in-breathe-out"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

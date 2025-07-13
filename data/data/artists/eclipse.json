@@ -1,0 +1,72 @@
+{
+  "id": 3298,
+  "count": 6,
+  "description": "Eclipse is a Swedish hard rock band.",
+  "link": "https://sub.music8.jp/category/eclipse/",
+  "name": "Eclipse",
+  "slug": "eclipse",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "1999",
+    "artistborn": "",
+    "artistjpname": "エクリプス",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "10CM | Kim Soo Hyun | HWANG MIN HYUN | Cha Eun-Woo | TWS | RIIZE | Lee Mujin | Park Eunbin | D.O. | BOYNEXTDOOR | ZEROBASEONE | BSS | UMJI | KIMSEJEONG | N.Flying | BANG YEDAM | ASTRO | JAEHYUN | ENHYPEN | IU",
+    "spotify_artist_id": "5Nw7qx3NoHzpw59WYcJTve",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749d119d224027d77c05b0766b"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3298",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3298"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3298"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エクリプス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051749d119d224027d77c05b0766b",
+  "artistActiveYearStart": "1999",
+  "occupation": "band"
+}

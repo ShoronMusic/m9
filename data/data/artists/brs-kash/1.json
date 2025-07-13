@@ -1,0 +1,195 @@
+{
+  "artist": {
+    "id": 1604,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/brs-kash/",
+    "name": "BRS Kash",
+    "slug": "brs-kash",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1604",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1604"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1604"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41468,
+      "date": "2020-07-24T14:03:00",
+      "date_gmt": "2020-07-24T05:03:00",
+      "title": {
+        "rendered": "Throat Baby (Go Baby)"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1604
+      ],
+      "tags": [],
+      "genre": [
+        481,
+        564,
+        685,
+        721,
+        748
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "15C4TnrrVdym7UykxQIOTZ",
+        "spotify_release_date": "2021/1/21",
+        "spotify_name": "Throat Baby (Go Baby) (with DaBaby & City Girls) - Remix",
+        "spotify_artists": "BRS Kash, DaBaby, City Girls",
+        "spotify_album": "Throat Baby (Go Baby) (with DaBaby & City Girls) [Remix]",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e0411706937b154259b9e90d",
+        "spotify_duration_ms": "211609",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.878",
+        "spotify_energy": "0.475",
+        "spotify_key": "1",
+        "spotify_loudness": "-8.42",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.324",
+        "spotify_tempo": "131.988",
+        "spotify_valence": "0.397",
+        "spotify_acousticness": "0.00984",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.167",
+        "spotify_artists01": "BRS Kash",
+        "spotify_artists01_id": "5jJjvmEwRr8epuGZq4eUUa",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9d2c63558bcf9de015644de0",
+        "spotify_artists01_genres": "viral rap",
+        "spotify_artists01_popularity": "41",
+        "spotify_artists02": "DaBaby",
+        "spotify_artists02_id": "4r63FhuTkUYltbVAg5TQnk",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5ace68c56849548db7f102be",
+        "spotify_artists02_genres": "hip hop, north carolina hip hop, pop rap, rap, trap",
+        "spotify_artists02_popularity": "78",
+        "spotify_artists03": "City Girls",
+        "spotify_artists03_id": "37hAfseJWi0G3Scife12Il",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb474a6b0c1e6d4e6cbf1b9e19",
+        "spotify_artists03_genres": "scam rap, trap queen",
+        "spotify_artists03_popularity": "64",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "fmNzZOZj3W0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1604,
+            "name": "BRS Kash",
+            "slug": "brs-kash",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "BRS Kash, DaBaby, City Girls",
+        "ytvideoid": "fmNzZOZj3W0",
+        "spotify_track_id": "15C4TnrrVdym7UykxQIOTZ"
+      },
+      "genre_data": [
+        {
+          "name": "Dirty rap",
+          "slug": "dirty-rap",
+          "term_id": 481,
+          "post_count": 10
+        },
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Southern hip hop",
+          "slug": "southern-hip-hop",
+          "term_id": 721,
+          "post_count": 99
+        },
+        {
+          "name": "Trap",
+          "slug": "trap",
+          "term_id": 748,
+          "post_count": 282
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "throat-baby-go-baby"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

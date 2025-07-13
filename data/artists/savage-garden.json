@@ -1,0 +1,72 @@
+{
+  "id": 4722,
+  "count": 1,
+  "description": "Savage Garden were an Australian pop duo.",
+  "link": "https://sub.music8.jp/category/savage-garden/",
+  "name": "Savage Garden",
+  "slug": "savage-garden",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "1993-2001",
+    "artistborn": "",
+    "artistjpname": "サヴェージ・ガーデン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "",
+    "spotify_artist_images": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4722",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4722"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4722"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "サヴェージ・ガーデン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1993-2001",
+  "occupation": "duo"
+}

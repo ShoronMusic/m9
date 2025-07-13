@@ -1,0 +1,63 @@
+{
+  "id": 1151,
+  "count": 1,
+  "description": "Hans Zimmer is a German film score composer and music producer.",
+  "link": "https://sub.music8.jp/category/hans-zimmer/",
+  "name": "Hans Zimmer",
+  "slug": "hans-zimmer",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "1977",
+    "artistborn": "19570912",
+    "artistdied": "",
+    "artistjpname": "ハンス・ジマー",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1151",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1151"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1151"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ハンス・ジマー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1977",
+  "occupation": ""
+}

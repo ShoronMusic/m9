@@ -1,0 +1,55 @@
+{
+  "id": 1148,
+  "count": 2,
+  "description": "UK",
+  "link": "https://sub.music8.jp/category/georgia-ku/",
+  "name": "Georgia Ku",
+  "slug": "georgia-ku",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": [],
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1148",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1148"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1148"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

@@ -1,0 +1,77 @@
+{
+  "id": 3399,
+  "count": 2,
+  "description": "Tim McGraw is an American country singer, songwriter, record producer.",
+  "link": "https://sub.music8.jp/category/tim-mcgraw/",
+  "name": "Tim McGraw",
+  "slug": "tim-mcgraw",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1990",
+    "artistborn": "19670501",
+    "artistjpname": "ティム・マグロウ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3399",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3399"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3399"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ティム・マグロウ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1990",
+  "occupation": "singer, songwriter, producer"
+}

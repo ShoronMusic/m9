@@ -1,0 +1,72 @@
+{
+  "id": 5714,
+  "count": 10,
+  "description": "The Haunt is an American rock band.",
+  "link": "https://sub.music8.jp/category/haunt/",
+  "name": "Haunt",
+  "slug": "haunt",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2015",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Traveler | Blade Killer | Screamer | Night Demon | Smoulder | Sumerlands | Riot City | HIGH SPIRITS | Savage Master | Blood Star | Cauldron | Seven Sisters | Sabïre | Ambush | Hell Fire | Bewitcher | Wytch Hazel | Vulture | Stallion | Fortress",
+    "spotify_artist_id": "7Iej5Kqi4cLAuZZ66dGt3H",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174746dd60e3e40b1796babd87a"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5714",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5714"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5714"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174746dd60e3e40b1796babd87a",
+  "artistActiveYearStart": "2015",
+  "occupation": "band"
+}

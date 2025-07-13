@@ -1,0 +1,73 @@
+{
+  "id": 2023,
+  "count": 7,
+  "description": "Aidan Bissett is an American pop singer and songwriter.",
+  "link": "https://sub.music8.jp/category/aidan-bissett/",
+  "name": "Aidan Bissett",
+  "slug": "aidan-bissett",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "",
+    "artistborn": "20020215",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2023",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2023"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2023"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "",
+  "occupation": "singer, songwriter"
+}

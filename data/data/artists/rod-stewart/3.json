@@ -1,0 +1,466 @@
+{
+  "artist": {
+    "id": 769,
+    "count": 43,
+    "description": "Rod Stewart is a British rock and pop singer and songwriter.",
+    "link": "https://sub.music8.jp/category/rod-stewart/",
+    "name": "Rod Stewart",
+    "slug": "rod-stewart",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1961",
+      "artistborn": "",
+      "artistjpname": "ロッド・スチュワート",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "musician",
+          "label": "Musician"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/769",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=769"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=769"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 49499,
+      "date": "1975-09-01T14:45:00",
+      "date_gmt": "1975-09-01T05:45:00",
+      "title": {
+        "rendered": "Sailing"
+      },
+      "content": {
+        "rendered": "<p>Rod Stewart - Sailing</p>\n",
+        "protected": false
+      },
+      "categories": [
+        769
+      ],
+      "tags": [],
+      "genre": [
+        6
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6OuRbvP4PgbuzBIapVzmFJ",
+        "spotify_release_date": "1975",
+        "spotify_name": "Sailing",
+        "spotify_artists": "Rod Stewart",
+        "spotify_album": "Atlantic Crossing",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b71df8eef79beb0e9d937144",
+        "spotify_duration_ms": "277960",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.43",
+        "spotify_energy": "0.374",
+        "spotify_key": "11",
+        "spotify_loudness": "-9.949",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0292",
+        "spotify_tempo": "128.56",
+        "spotify_valence": "0.191",
+        "spotify_acousticness": "0.372",
+        "spotify_instrumentalness": "0.379",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.316",
+        "spotify_artists01": "Rod Stewart",
+        "spotify_artists01_id": "2y8Jo9CKhJvtfeKOsYzRdT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1d3e6633d1da408fc103a9ec",
+        "spotify_artists01_genres": "mellow gold, soft rock",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "FOt3oQ_k008",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Rod-Stewart-Sailing.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 769,
+            "name": "Rod Stewart",
+            "slug": "rod-stewart",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1961",
+              "artistborn": "",
+              "artistjpname": "ロッド・スチュワート",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Rod Stewart",
+        "ytvideoid": "FOt3oQ_k008",
+        "spotify_track_id": "6OuRbvP4PgbuzBIapVzmFJ"
+      },
+      "genre_data": [
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "sailing"
+    },
+    {
+      "id": 49583,
+      "date": "1972-08-12T14:37:00",
+      "date_gmt": "1972-08-12T05:37:00",
+      "title": {
+        "rendered": "You Wear It Well"
+      },
+      "content": {
+        "rendered": "<p>Rod Stewart - You Wear It Well</p>\n",
+        "protected": false
+      },
+      "categories": [
+        769
+      ],
+      "tags": [],
+      "genre": [
+        519
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "08BSHFPXmclm8AYat5hXM7",
+        "spotify_release_date": "1972",
+        "spotify_name": "You Wear It Well",
+        "spotify_artists": "Rod Stewart",
+        "spotify_album": "Never A Dull Moment",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732a9bcb31e5e18c2ea9011520",
+        "spotify_duration_ms": "262960",
+        "spotify_popularity": "53",
+        "spotify_danceability": "0.547",
+        "spotify_energy": "0.561",
+        "spotify_key": "2",
+        "spotify_loudness": "-10.056",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0322",
+        "spotify_tempo": "127.295",
+        "spotify_valence": "0.899",
+        "spotify_acousticness": "0.491",
+        "spotify_instrumentalness": "7.47E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.146",
+        "spotify_artists01": "Rod Stewart",
+        "spotify_artists01_id": "2y8Jo9CKhJvtfeKOsYzRdT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1d3e6633d1da408fc103a9ec",
+        "spotify_artists01_genres": "mellow gold, soft rock",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5lX0eMI7Hw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Rod-Stewart-You-Wear-It-Well.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 769,
+            "name": "Rod Stewart",
+            "slug": "rod-stewart",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1961",
+              "artistborn": "",
+              "artistjpname": "ロッド・スチュワート",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Rod Stewart",
+        "ytvideoid": "5lX0eMI7Hw",
+        "spotify_track_id": "08BSHFPXmclm8AYat5hXM7"
+      },
+      "genre_data": [
+        {
+          "name": "Folk rock",
+          "slug": "folk-rock",
+          "term_id": 519,
+          "post_count": 97
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "you-wear-it-well"
+    },
+    {
+      "id": 49597,
+      "date": "1971-07-30T14:12:00",
+      "date_gmt": "1971-07-30T05:12:00",
+      "title": {
+        "rendered": "Maggie May"
+      },
+      "content": {
+        "rendered": "<p>Rod Stewart - Maggie May</p>\n",
+        "protected": false
+      },
+      "categories": [
+        769
+      ],
+      "tags": [],
+      "genre": [
+        519,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6rovOdp3HgK1DeAMYDzoA7",
+        "spotify_release_date": "1971/5/18",
+        "spotify_name": "Maggie May",
+        "spotify_artists": "Rod Stewart",
+        "spotify_album": "Every Picture Tells A Story",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f20825485137abccd82b9665",
+        "spotify_duration_ms": "350266",
+        "spotify_popularity": "73",
+        "spotify_danceability": "0.605",
+        "spotify_energy": "0.574",
+        "spotify_key": "2",
+        "spotify_loudness": "-10.536",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0377",
+        "spotify_tempo": "129.449",
+        "spotify_valence": "0.543",
+        "spotify_acousticness": "0.559",
+        "spotify_instrumentalness": "0.113",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0684",
+        "spotify_artists01": "Rod Stewart",
+        "spotify_artists01_id": "2y8Jo9CKhJvtfeKOsYzRdT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1d3e6633d1da408fc103a9ec",
+        "spotify_artists01_genres": "mellow gold, soft rock",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "pj2EQRLm7Vc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Rod-Stewart-Maggie-May.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 769,
+            "name": "Rod Stewart",
+            "slug": "rod-stewart",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1961",
+              "artistborn": "",
+              "artistjpname": "ロッド・スチュワート",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Rod Stewart",
+        "ytvideoid": "pj2EQRLm7Vc",
+        "spotify_track_id": "6rovOdp3HgK1DeAMYDzoA7"
+      },
+      "genre_data": [
+        {
+          "name": "Folk rock",
+          "slug": "folk-rock",
+          "term_id": 519,
+          "post_count": 97
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "maggie-may"
+    }
+  ],
+  "totalSongs": 43,
+  "totalPages": 3,
+  "currentPage": 3
+}

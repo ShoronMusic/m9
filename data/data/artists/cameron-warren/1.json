@@ -1,0 +1,193 @@
+{
+  "artist": {
+    "id": 4647,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/cameron-warren/",
+    "name": "Cameron Warren",
+    "slug": "cameron-warren",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4647",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4647"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4647"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 67419,
+      "date": "2024-04-27T22:49:49",
+      "date_gmt": "2024-04-27T13:49:49",
+      "title": {
+        "rendered": "Bad Decisions"
+      },
+      "content": {
+        "rendered": "<p>Delta Heavy, Cameron Warren - Bad Decisions</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4647,
+        2688
+      ],
+      "tags": [],
+      "genre": [
+        487
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "b8DAJBAB_XQ",
+        "ytreleasedate": "2024/04/27",
+        "spotify_track_id": "0qFNPzeb1tDKQ67ynIzU5S",
+        "spotify_release_date": "2024-04-26",
+        "spotify_name": "Bad Decisions",
+        "spotify_artists": "Delta Heavy, Cameron Warren",
+        "spotify_album": "Bad Decisions",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ae7b327e983394b22c9b54e6",
+        "spotify_duration_ms": "195258",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.464",
+        "spotify_energy": "0.954",
+        "spotify_key": "3",
+        "spotify_loudness": "-0.606",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.037",
+        "spotify_tempo": "173.979",
+        "spotify_valence": "0.125",
+        "spotify_acousticness": "0.00288",
+        "spotify_instrumentalness": "0.0272",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.171",
+        "spotify_artists01": "Delta Heavy",
+        "spotify_artists01_id": "7GvVTb8yFV0ZrdI30Qce6T",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaabebb3c0610ea10be71c846",
+        "spotify_artists01_genres": "brostep, complextro, drum and bass, filthstep",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "Cameron Warren",
+        "spotify_artists02_id": "6IQYJzN5PeAnBEONnt6Ta8",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab67616d0000b273ae7b327e983394b22c9b54e6",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "34",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273ae7b327e983394b22c9b54e6.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4647,
+            "name": "Cameron Warren",
+            "slug": "cameron-warren",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2688,
+            "name": "Delta Heavy",
+            "slug": "delta-heavy",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Delta Heavy, Cameron Warren",
+        "ytvideoid": "b8DAJBAB_XQ",
+        "spotify_track_id": "0qFNPzeb1tDKQ67ynIzU5S"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "bad-decisions-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

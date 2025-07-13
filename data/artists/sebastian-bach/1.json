@@ -1,0 +1,1353 @@
+{
+  "artist": {
+    "id": 3849,
+    "count": 10,
+    "description": "Sebastian Bach is a Canadian-American singer.",
+    "link": "https://sub.music8.jp/category/sebastian-bach/",
+    "name": "Sebastian Bach",
+    "slug": "sebastian-bach",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1983",
+      "artistborn": "19680403",
+      "artistjpname": "セバスチャン・バック",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3849",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3849"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3849"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 90620,
+      "date": "2025-02-14T20:20:13",
+      "date_gmt": "2025-02-14T11:20:13",
+      "title": {
+        "rendered": "To Live Again"
+      },
+      "content": {
+        "rendered": "<p>SEBASTIAN BACH - To Live Again</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3849
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "k8Bwp9XEDFU",
+        "ytreleasedate": "2025/02/14",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "3iLWoYCcEFCcZx5ZnPFHD2",
+        "spotify_release_date": "2024-05-10",
+        "spotify_name": "To Live Again",
+        "spotify_artists": "セバスチャン・バック",
+        "spotify_album": "Child Within The Man",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d96234501360f19ad12c3b2e",
+        "spotify_duration_ms": "289359",
+        "spotify_popularity": "17",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "セバスチャン・バック",
+        "spotify_artists01_id": "2D2svlzUpyTfcEEq0t3dgV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe6e2d8f3c176b603a8983a02",
+        "spotify_artists01_genres": "グラムメタル, ハード・ロック",
+        "spotify_artists01_popularity": "33",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/sebastian-bach-to-live-again.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3849,
+            "name": "Sebastian Bach",
+            "slug": "sebastian-bach",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19680403",
+              "artistjpname": "セバスチャン・バック",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "セバスチャン・バック",
+        "ytvideoid": "k8Bwp9XEDFU",
+        "spotify_track_id": "3iLWoYCcEFCcZx5ZnPFHD2"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "to-live-again"
+    },
+    {
+      "id": 85036,
+      "date": "2024-11-02T16:58:13",
+      "date_gmt": "2024-11-02T07:58:13",
+      "title": {
+        "rendered": "Future Of Youth"
+      },
+      "content": {
+        "rendered": "<p>SEBASTIAN BACH - Future Of Youth</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3849
+      ],
+      "tags": [],
+      "genre": [
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "Jrfp1VLuXw0",
+        "ytreleasedate": "2024/11/02",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2SorwgEIrmngZirKf83hBz",
+        "spotify_release_date": "2024-05-10",
+        "spotify_name": "Future Of Youth",
+        "spotify_artists": "セバスチャン・バック",
+        "spotify_album": "Child Within The Man",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d96234501360f19ad12c3b2e",
+        "spotify_duration_ms": "224586",
+        "spotify_popularity": "24",
+        "spotify_danceability": "0.447",
+        "spotify_energy": "0.933",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.861",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0694",
+        "spotify_tempo": "95.51",
+        "spotify_valence": "0.322",
+        "spotify_acousticness": "0.00000804",
+        "spotify_instrumentalness": "0.143",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.256",
+        "spotify_artists01": "セバスチャン・バック",
+        "spotify_artists01_id": "2D2svlzUpyTfcEEq0t3dgV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe6e2d8f3c176b603a8983a02",
+        "spotify_artists01_genres": "glam metal, hard rock",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273d96234501360f19ad12c3b2e-3.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3849,
+            "name": "Sebastian Bach",
+            "slug": "sebastian-bach",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19680403",
+              "artistjpname": "セバスチャン・バック",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "セバスチャン・バック",
+        "ytvideoid": "Jrfp1VLuXw0",
+        "spotify_track_id": "2SorwgEIrmngZirKf83hBz"
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "future-of-youth"
+    },
+    {
+      "id": 67015,
+      "date": "2024-05-16T22:06:50",
+      "date_gmt": "2024-05-16T13:06:50",
+      "title": {
+        "rendered": "Freedom"
+      },
+      "content": {
+        "rendered": "<p>SEBASTIAN BACH - Freedom</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3849
+      ],
+      "tags": [],
+      "genre": [
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "XG3BrKkrmeg",
+        "ytreleasedate": "2024/05/16",
+        "spotify_track_id": "4MQkVbYj1QTtaaw1u6ghX0",
+        "spotify_release_date": "2024-05-10",
+        "spotify_name": "Freedom",
+        "spotify_artists": "セバスチャン・バック",
+        "spotify_album": "Child Within The Man",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d96234501360f19ad12c3b2e",
+        "spotify_duration_ms": "188666",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.482",
+        "spotify_energy": "0.959",
+        "spotify_key": "2",
+        "spotify_loudness": "-4.911",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.143",
+        "spotify_tempo": "102.959",
+        "spotify_valence": "0.31",
+        "spotify_acousticness": "0.0000286",
+        "spotify_instrumentalness": "0.472",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.386",
+        "spotify_artists01": "セバスチャン・バック",
+        "spotify_artists01_id": "2D2svlzUpyTfcEEq0t3dgV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8119b07f237b640b73f8dbbc",
+        "spotify_artists01_genres": "glam metal, hard rock",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273d96234501360f19ad12c3b2e.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3849,
+            "name": "Sebastian Bach",
+            "slug": "sebastian-bach",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19680403",
+              "artistjpname": "セバスチャン・バック",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "セバスチャン・バック",
+        "ytvideoid": "XG3BrKkrmeg",
+        "spotify_track_id": "4MQkVbYj1QTtaaw1u6ghX0"
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "freedom-4"
+    },
+    {
+      "id": 66041,
+      "date": "2024-04-24T09:02:54",
+      "date_gmt": "2024-04-24T00:02:54",
+      "title": {
+        "rendered": "(Hold On) To The Dream"
+      },
+      "content": {
+        "rendered": "<p>SEBASTIAN BACH - (Hold On) To The Dream</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3849
+      ],
+      "tags": [],
+      "genre": [
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "jF714zipA2M",
+        "ytreleasedate": "2024/04/24",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "07lpgADuKvRhANVpKeVBkN",
+        "spotify_release_date": "2024-04-19",
+        "spotify_name": "(Hold On) To The Dream",
+        "spotify_artists": "セバスチャン・バック",
+        "spotify_album": "(Hold On) To The Dream",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ca3b124dc0be40f096fb8c16",
+        "spotify_duration_ms": "301920",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.333",
+        "spotify_energy": "0.937",
+        "spotify_key": "11",
+        "spotify_loudness": "-4.374",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0927",
+        "spotify_tempo": "167.983",
+        "spotify_valence": "0.145",
+        "spotify_acousticness": "0.0000626",
+        "spotify_instrumentalness": "0.04",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.237",
+        "spotify_artists01": "セバスチャン・バック",
+        "spotify_artists01_id": "2D2svlzUpyTfcEEq0t3dgV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8119b07f237b640b73f8dbbc",
+        "spotify_artists01_genres": "glam metal, hard rock",
+        "spotify_artists01_popularity": "32",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273ca3b124dc0be40f096fb8c16.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3849,
+            "name": "Sebastian Bach",
+            "slug": "sebastian-bach",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19680403",
+              "artistjpname": "セバスチャン・バック",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "セバスチャン・バック",
+        "ytvideoid": "jF714zipA2M",
+        "spotify_track_id": "07lpgADuKvRhANVpKeVBkN"
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hold-on-to-the-dream"
+    },
+    {
+      "id": 77754,
+      "date": "2024-03-15T21:13:04",
+      "date_gmt": "2024-03-15T12:13:04",
+      "title": {
+        "rendered": "Everybody Bleeds"
+      },
+      "content": {
+        "rendered": "<p>SEBASTIAN BACH - Everybody Bleeds</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3849
+      ],
+      "tags": [],
+      "genre": [
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "ytvideoid": "_wx4PQRx2hA",
+        "ytreleasedate": "",
+        "spotify_track_id": "0uTiaqxr25hwrWxA98JueF",
+        "spotify_release_date": "2024-05-10",
+        "spotify_name": "Everybody Bleeds",
+        "spotify_artists": "セバスチャン・バック",
+        "spotify_album": "Child Within The Man",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d96234501360f19ad12c3b2e",
+        "spotify_duration_ms": "266466",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.442",
+        "spotify_energy": "0.974",
+        "spotify_key": "2",
+        "spotify_loudness": "-4.489",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0925",
+        "spotify_tempo": "103.962",
+        "spotify_valence": "0.22",
+        "spotify_acousticness": "0.0000127",
+        "spotify_instrumentalness": "0.0896",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.127",
+        "spotify_artists01": "セバスチャン・バック",
+        "spotify_artists01_id": "2D2svlzUpyTfcEEq0t3dgV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8119b07f237b640b73f8dbbc",
+        "spotify_artists01_genres": "glam metal, hard rock",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273d96234501360f19ad12c3b2e-2.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3849,
+            "name": "Sebastian Bach",
+            "slug": "sebastian-bach",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19680403",
+              "artistjpname": "セバスチャン・バック",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "セバスチャン・バック",
+        "ytvideoid": "_wx4PQRx2hA",
+        "spotify_track_id": "0uTiaqxr25hwrWxA98JueF"
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "everybody-bleeds"
+    },
+    {
+      "id": 77750,
+      "date": "2023-12-07T21:10:37",
+      "date_gmt": "2023-12-07T12:10:37",
+      "title": {
+        "rendered": "What Do I Got to Lose?"
+      },
+      "content": {
+        "rendered": "<p>SEBASTIAN BACH - What Do I Got to Lose?</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3849
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "6wRLuG7tahc",
+        "ytreleasedate": "",
+        "spotify_track_id": "6GTaNa8jwz8y9GAJHuhEB0",
+        "spotify_release_date": "2024-05-10",
+        "spotify_name": "What Do I Got To Lose?",
+        "spotify_artists": "セバスチャン・バック",
+        "spotify_album": "Child Within The Man",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d96234501360f19ad12c3b2e",
+        "spotify_duration_ms": "288520",
+        "spotify_popularity": "37",
+        "spotify_danceability": "0.461",
+        "spotify_energy": "0.925",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.529",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.05",
+        "spotify_tempo": "91.004",
+        "spotify_valence": "0.421",
+        "spotify_acousticness": "0.0000242",
+        "spotify_instrumentalness": "0.000334",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.262",
+        "spotify_artists01": "セバスチャン・バック",
+        "spotify_artists01_id": "2D2svlzUpyTfcEEq0t3dgV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8119b07f237b640b73f8dbbc",
+        "spotify_artists01_genres": "glam metal, hard rock",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273d96234501360f19ad12c3b2e-1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3849,
+            "name": "Sebastian Bach",
+            "slug": "sebastian-bach",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19680403",
+              "artistjpname": "セバスチャン・バック",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "セバスチャン・バック",
+        "ytvideoid": "6wRLuG7tahc",
+        "spotify_track_id": "6GTaNa8jwz8y9GAJHuhEB0"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "what-do-i-got-to-lose-2"
+    },
+    {
+      "id": 58257,
+      "date": "2023-12-07T21:00:37",
+      "date_gmt": "2023-12-07T12:00:37",
+      "title": {
+        "rendered": "What Do I Got To Lose?"
+      },
+      "content": {
+        "rendered": "<p>SEBASTIAN BACH – What Do I Got To Lose? </p>\n",
+        "protected": false
+      },
+      "categories": [
+        3849
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7HeDgIOQpnJuOaKJsIMI31",
+        "spotify_release_date": "2023-12-07",
+        "spotify_name": "What Do I Got To Lose?",
+        "spotify_artists": "セバスチャン・バック",
+        "spotify_album": "What Do I Got To Lose?",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27380e6705d3af249e339f8dee3",
+        "spotify_duration_ms": "288520",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.461",
+        "spotify_energy": "0.925",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.529",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.05",
+        "spotify_tempo": "91.004",
+        "spotify_valence": "0.421",
+        "spotify_acousticness": "0.0000242",
+        "spotify_instrumentalness": "0.000334",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.262",
+        "spotify_artists01": "セバスチャン・バック",
+        "spotify_artists01_id": "2D2svlzUpyTfcEEq0t3dgV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8119b07f237b640b73f8dbbc",
+        "spotify_artists01_genres": "glam metal, hard rock",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "6wRLuG7tahc",
+        "ytreleasedate": "2023/12/07",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27380e6705d3af249e339f8dee3.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3849,
+            "name": "Sebastian Bach",
+            "slug": "sebastian-bach",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19680403",
+              "artistjpname": "セバスチャン・バック",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "セバスチャン・バック",
+        "ytvideoid": "6wRLuG7tahc",
+        "spotify_track_id": "7HeDgIOQpnJuOaKJsIMI31"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "what-do-i-got-to-lose"
+    },
+    {
+      "id": 77757,
+      "date": "2014-04-17T21:16:18",
+      "date_gmt": "2014-04-17T12:16:18",
+      "title": {
+        "rendered": "Taking Back Tomorrow"
+      },
+      "content": {
+        "rendered": "<p>Sebastian Bach - Taking Back Tomorrow</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3849
+      ],
+      "tags": [],
+      "genre": [
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "ytvideoid": "7rPKc7nt50M",
+        "ytreleasedate": "",
+        "spotify_track_id": "5V1x6tRPc44uZWBxWvDmdN",
+        "spotify_release_date": "2014-04-22",
+        "spotify_name": "Taking Back Tomorrow",
+        "spotify_artists": "セバスチャン・バック",
+        "spotify_album": "Give 'Em Hell",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cde2bc138d5dbda27636c929",
+        "spotify_duration_ms": "241320",
+        "spotify_popularity": "5",
+        "spotify_danceability": "0.528",
+        "spotify_energy": "0.902",
+        "spotify_key": "10",
+        "spotify_loudness": "-3.486",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0304",
+        "spotify_tempo": "107.992",
+        "spotify_valence": "0.41",
+        "spotify_acousticness": "0.0000101",
+        "spotify_instrumentalness": "0.401",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.324",
+        "spotify_artists01": "セバスチャン・バック",
+        "spotify_artists01_id": "2D2svlzUpyTfcEEq0t3dgV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8119b07f237b640b73f8dbbc",
+        "spotify_artists01_genres": "glam metal, hard rock",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273cde2bc138d5dbda27636c929.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3849,
+            "name": "Sebastian Bach",
+            "slug": "sebastian-bach",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19680403",
+              "artistjpname": "セバスチャン・バック",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "セバスチャン・バック",
+        "ytvideoid": "7rPKc7nt50M",
+        "spotify_track_id": "5V1x6tRPc44uZWBxWvDmdN"
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "taking-back-tomorrow"
+    },
+    {
+      "id": 77745,
+      "date": "2011-08-23T21:07:48",
+      "date_gmt": "2011-08-23T12:07:48",
+      "title": {
+        "rendered": "Kicking And Screaming"
+      },
+      "content": {
+        "rendered": "<p>Sebastian Bach - Kicking & Screaming</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3849
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "ytvideoid": "xKOruHhpAiQ",
+        "ytreleasedate": "",
+        "spotify_track_id": "0LQd2GKo0PDJhKJ0lCeYVI",
+        "spotify_release_date": "2011-09-23",
+        "spotify_name": "Kicking & Screaming",
+        "spotify_artists": "セバスチャン・バック",
+        "spotify_album": "Kicking & Screaming",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273976127c8b78ce2592ea9187b",
+        "spotify_duration_ms": "197346",
+        "spotify_popularity": "27",
+        "spotify_danceability": "0.538",
+        "spotify_energy": "0.941",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.613",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0429",
+        "spotify_tempo": "106.013",
+        "spotify_valence": "0.572",
+        "spotify_acousticness": "0.000012",
+        "spotify_instrumentalness": "0.816",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.549",
+        "spotify_artists01": "セバスチャン・バック",
+        "spotify_artists01_id": "2D2svlzUpyTfcEEq0t3dgV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8119b07f237b640b73f8dbbc",
+        "spotify_artists01_genres": "glam metal, hard rock",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273976127c8b78ce2592ea9187b.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3849,
+            "name": "Sebastian Bach",
+            "slug": "sebastian-bach",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19680403",
+              "artistjpname": "セバスチャン・バック",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "セバスチャン・バック",
+        "ytvideoid": "xKOruHhpAiQ",
+        "spotify_track_id": "0LQd2GKo0PDJhKJ0lCeYVI"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [],
+      "slug": "kicking-and-screaming"
+    },
+    {
+      "id": 77741,
+      "date": "2007-01-01T21:02:28",
+      "date_gmt": "2007-01-01T12:02:28",
+      "title": {
+        "rendered": "A Bitchslap"
+      },
+      "content": {
+        "rendered": "<p>SEBASTIAN BACH - A Bitchslap</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5639,
+        3849
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "ytvideoid": "fiBNHRKM24A",
+        "ytreleasedate": "",
+        "spotify_track_id": "18HQThICm0Q5P7pPvnGnkd",
+        "spotify_release_date": "2007-01-01",
+        "spotify_name": "(Love Is) A Bitchslap",
+        "spotify_artists": "Sebastian Bach, Axl Rose",
+        "spotify_album": "Angel Down",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731d739470d9a9297d5b698a8a",
+        "spotify_duration_ms": "188546",
+        "spotify_popularity": "17",
+        "spotify_danceability": "0.486",
+        "spotify_energy": "0.953",
+        "spotify_key": "8",
+        "spotify_loudness": "-4.321",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0507",
+        "spotify_tempo": "144.89",
+        "spotify_valence": "0.607",
+        "spotify_acousticness": "0.0000625",
+        "spotify_instrumentalness": "0.0648",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.565",
+        "spotify_artists01": "セバスチャン・バック",
+        "spotify_artists01_id": "2D2svlzUpyTfcEEq0t3dgV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8119b07f237b640b73f8dbbc",
+        "spotify_artists01_genres": "glam metal, hard rock",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "Axl Rose",
+        "spotify_artists02_id": "6lig3yUbu7r6VhnB8YGSlF",
+        "spotify_artists02_images": "https://i.scdn.co/image/089f36d81503ca2da6f1a655a7dcf67d6d44c4e5",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "19",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2731d739470d9a9297d5b698a8a.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5639,
+            "name": "Axl Rose",
+            "slug": "axl-rose",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19620206",
+              "artistjpname": "アクセル・ローズ",
+              "member": [
+                {
+                  "term_id": 3087,
+                  "name": "Guns N' Roses",
+                  "slug": "guns-n-roses",
+                  "term_group": 0,
+                  "term_taxonomy_id": 3087,
+                  "taxonomy": "category",
+                  "description": "Guns N' Roses is an American hard rock band formed in Los Angeles, California, in 1985.",
+                  "parent": 0,
+                  "count": 22,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ],
+              "related_artists": "Steven Adler | Hollywood Roses | Izzy Stradlin | Hollywood Rose | Duff McKagan | Rapid Fire | Slash's Snakepit | Izzy Stradlin And The Ju Ju Hounds | Slash (slash) | Gilby Clarke | Kurt Cobain | Adler | Adler's Appetite | Hanoi Rocks | Velvet Revolver | Duff McKagan's Loaded | Joan Jett & the Blackhearts | Mick Mars (mick-mars) | Grace McKagan (grace-mckagan) | Skid Row (skid-row)",
+              "spotify_artist_id": "6lig3yUbu7r6VhnB8YGSlF",
+              "spotify_artist_images": "https://i.scdn.co/image/0700b94a406088eadadfb41e855043da288a9e9a",
+              "playlist_category": false,
+              "youtube_channel": "",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3849,
+            "name": "Sebastian Bach",
+            "slug": "sebastian-bach",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19680403",
+              "artistjpname": "セバスチャン・バック",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Sebastian Bach, Axl Rose",
+        "ytvideoid": "fiBNHRKM24A",
+        "spotify_track_id": "18HQThICm0Q5P7pPvnGnkd"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "a-bitchslap"
+    }
+  ],
+  "totalSongs": 10,
+  "totalPages": 1,
+  "currentPage": 1
+}

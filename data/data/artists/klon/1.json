@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 3763,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/klon/",
+    "name": "KLON",
+    "slug": "klon",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FRA",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3763",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3763"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3763"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57287,
+      "date": "2020-11-05T09:50:02",
+      "date_gmt": "2020-11-05T00:50:02",
+      "title": {
+        "rendered": "West"
+      },
+      "content": {
+        "rendered": "<p>KLON - West</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3763
+      ],
+      "tags": [],
+      "genre": [
+        736,
+        738
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5ywG1CGRBdJiV67i6hjXKX",
+        "spotify_release_date": "2021-06-11",
+        "spotify_name": "West",
+        "spotify_artists": "KLON",
+        "spotify_album": "Nouveau Genre",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27393e66bda87be99dd21cdec1f",
+        "spotify_duration_ms": "277106",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.754",
+        "spotify_energy": "0.661",
+        "spotify_key": "0",
+        "spotify_loudness": "-8.727",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0385",
+        "spotify_tempo": "133.997",
+        "spotify_valence": "0.33",
+        "spotify_acousticness": "0.062",
+        "spotify_instrumentalness": "0.122",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.157",
+        "spotify_artists01": "KLON",
+        "spotify_artists01_id": "5wpi76n2HLEBtDpiEdUwss",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb36584e17ffc92ed8d91d3b0e",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "16",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Fve9JQUxZm8",
+        "ytreleasedate": "2020/11/05"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/KLON-West.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3763,
+            "name": "KLON",
+            "slug": "klon",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "KLON",
+        "ytvideoid": "Fve9JQUxZm8",
+        "spotify_track_id": "5ywG1CGRBdJiV67i6hjXKX"
+      },
+      "genre_data": [
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        },
+        {
+          "name": "Synthwave",
+          "slug": "synthwave",
+          "term_id": 738,
+          "post_count": 64
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "west"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

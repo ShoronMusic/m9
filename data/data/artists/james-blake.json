@@ -1,0 +1,80 @@
+{
+  "id": 4902,
+  "count": 1,
+  "description": "James Blake is an English singer, songwriter, and record producer.",
+  "link": "https://sub.music8.jp/category/james-blake/",
+  "name": "James Blake",
+  "slug": "james-blake",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2009",
+    "artistborn": "19880925",
+    "artistjpname": "ジェイムス・ブレイク",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "53KwLdlmrlCelAZMaLVZqU",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517493fe5fc8fdb5a98248911a07"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4902",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4902"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4902"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェイムス・ブレイク",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517493fe5fc8fdb5a98248911a07",
+  "artistActiveYearStart": "2009",
+  "occupation": "singer, songwriter, producer"
+}

@@ -1,0 +1,77 @@
+{
+  "id": 1562,
+  "count": 12,
+  "description": "Lil Durk is an American rapper and singer.",
+  "link": "https://sub.music8.jp/category/lil-durk/",
+  "name": "Lil Durk",
+  "slug": "lil-durk",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2010",
+    "artistborn": "19921019",
+    "artistdied": "",
+    "artistjpname": "リル・ダーク",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1562",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1562"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1562"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "リル・ダーク",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2010",
+  "occupation": "singer, songwriter, rapper"
+}

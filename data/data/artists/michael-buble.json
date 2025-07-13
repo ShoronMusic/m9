@@ -1,0 +1,63 @@
+{
+  "id": 3239,
+  "count": 2,
+  "description": "Michael Bublé is a Canadian singer and songwriter.",
+  "link": "https://sub.music8.jp/category/michael-buble/",
+  "name": "Michael Bublé",
+  "slug": "michael-buble",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "1994",
+    "artistborn": "19750909",
+    "artistjpname": "マイケル・ブーブレ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3239",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3239"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3239"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マイケル・ブーブレ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1994",
+  "occupation": ""
+}

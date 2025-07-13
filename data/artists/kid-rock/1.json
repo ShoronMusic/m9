@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 2239,
+    "count": 1,
+    "description": "Kid Rock is an American singer, songwriter and rapper.",
+    "link": "https://sub.music8.jp/category/kid-rock/",
+    "name": "Kid Rock",
+    "slug": "kid-rock",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1988",
+      "artistborn": "19710117",
+      "artistdied": "",
+      "artistjpname": "キッド・ロック",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2239",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2239"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2239"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40049,
+      "date": "2022-03-12T00:01:00",
+      "date_gmt": "2022-03-11T15:01:00",
+      "title": {
+        "rendered": "We The People"
+      },
+      "content": {
+        "rendered": "\n<p>KidRock-WeThePeople</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2239
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        688
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3pjsvuym4GmDzwTwIMQFlK",
+        "spotify_release_date": "2022/1/25",
+        "spotify_name": "WeThePeople",
+        "spotify_artists": "KidRock",
+        "spotify_album": "WeThePeople",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27359911f25089c2eb26c39b4d9",
+        "spotify_duration_ms": "249660",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.545",
+        "spotify_energy": "0.947",
+        "spotify_key": "9",
+        "spotify_loudness": "-4.117",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.268",
+        "spotify_tempo": "175.999",
+        "spotify_valence": "0.46",
+        "spotify_acousticness": "0.014",
+        "spotify_instrumentalness": "3.05E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.545",
+        "spotify_artists01": "KidRock",
+        "spotify_artists01_id": "7dOBabd5O4CvKrg4iriHTM",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2306846cafba63385008dc21",
+        "spotify_artists01_genres": "numetal",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "kyFnLqJx-uU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kid-Rock-We-The-People.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2239,
+            "name": "Kid Rock",
+            "slug": "kid-rock",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1988",
+              "artistborn": "19710117",
+              "artistdied": "",
+              "artistjpname": "キッド・ロック",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "KidRock",
+        "ytvideoid": "kyFnLqJx-uU",
+        "spotify_track_id": "3pjsvuym4GmDzwTwIMQFlK"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Rap rock",
+          "slug": "rap-rock",
+          "term_id": 688,
+          "post_count": 93
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "we-the-people"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

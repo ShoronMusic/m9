@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 1866,
+    "count": 1,
+    "description": "CAN",
+    "link": "https://sub.music8.jp/category/new-friends/",
+    "name": "New Friends",
+    "slug": "new-friends",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1866",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1866"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1866"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40237,
+      "date": "2022-02-18T23:23:00",
+      "date_gmt": "2022-02-18T14:23:00",
+      "title": {
+        "rendered": "Right Here"
+      },
+      "content": {
+        "rendered": "\n<p>NewFriends-RightHere</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1866
+      ],
+      "tags": [],
+      "genre": [
+        411
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0G6I0dl2cIditsaqLt608y",
+        "spotify_release_date": "2022/2/18",
+        "spotify_name": "RightHere",
+        "spotify_artists": "NewFriends",
+        "spotify_album": "ThePilot",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ad287b3f31d47191f9f573d5",
+        "spotify_duration_ms": "175659",
+        "spotify_popularity": "22",
+        "spotify_danceability": "0.494",
+        "spotify_energy": "0.741",
+        "spotify_key": "0",
+        "spotify_loudness": "-8.642",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0355",
+        "spotify_tempo": "157.825",
+        "spotify_valence": "0.465",
+        "spotify_acousticness": "0.0684",
+        "spotify_instrumentalness": "1.39E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.109",
+        "spotify_artists01": "NewFriends",
+        "spotify_artists01_id": "7aHNy2bjgGqOeFqUZ1shgb",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2655bb3102ad5caa93e459ff",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "33",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "9Ir_0dmUjXg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/New-Friends-Right-Here.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1866,
+            "name": "New Friends",
+            "slug": "new-friends",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "NewFriends",
+        "ytvideoid": "9Ir_0dmUjXg",
+        "spotify_track_id": "0G6I0dl2cIditsaqLt608y"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "right-here"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

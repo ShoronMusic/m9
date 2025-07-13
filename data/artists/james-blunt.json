@@ -1,0 +1,80 @@
+{
+  "id": 2890,
+  "count": 11,
+  "description": "James Blunt is an English singer, songwriter, and musician.",
+  "link": "https://sub.music8.jp/category/james-blunt/",
+  "name": "James Blunt",
+  "slug": "james-blunt",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2004",
+    "artistborn": "19740223",
+    "artistdied": "",
+    "artistjpname": "ジェームス・ブラント",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7KMqksf0UMdyA0UCf4R3ux",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743863fa2fdb07fb4fe1a9607d"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2890",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2890"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2890"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェームス・ブラント",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051743863fa2fdb07fb4fe1a9607d",
+  "artistActiveYearStart": "2004",
+  "occupation": "singer, songwriter, musician"
+}

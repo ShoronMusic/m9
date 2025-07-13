@@ -1,0 +1,775 @@
+{
+  "artist": {
+    "id": 997,
+    "count": 5,
+    "description": "Tom Jones is a Welsh singer. ",
+    "link": "https://sub.music8.jp/category/tom-jones/",
+    "name": "Tom Jones",
+    "slug": "tom-jones",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1963",
+      "artistborn": "19400607",
+      "artistdied": "",
+      "artistjpname": "トム・ジョーンズ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/997",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=997"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=997"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47571,
+      "date": "1988-10-28T21:14:00",
+      "date_gmt": "1988-10-28T12:14:00",
+      "title": {
+        "rendered": "Kiss"
+      },
+      "content": {
+        "rendered": "<p>Tom Jones and Art Of Noise - Kiss</p>\n",
+        "protected": false
+      },
+      "categories": [
+        996,
+        997
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "58UEwo2r86awBBUSMZCP5X",
+        "spotify_release_date": "1988/11/21",
+        "spotify_name": "Kiss (feat. Tom Jones)",
+        "spotify_artists": "The Art Of Noise, Tom Jones",
+        "spotify_album": "The Best Of The Art Of Noise",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e9ca3f8e98f1347ca8b3ed05",
+        "spotify_duration_ms": "211946",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.868",
+        "spotify_energy": "0.936",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.574",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.193",
+        "spotify_tempo": "115.694",
+        "spotify_valence": "0.589",
+        "spotify_acousticness": "0.0789",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.219",
+        "spotify_artists01": "The Art Of Noise",
+        "spotify_artists01_id": "77zrvBORXcnTyysjjKRfBU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb20d03c1362c6110db22f54f0",
+        "spotify_artists01_genres": "new romantic, synthpop",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "Tom Jones",
+        "spotify_artists02_id": "1T0wRBO0CK0vK8ouUMqEl5",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb93fdc3f7371a0292b10bfcb2",
+        "spotify_artists02_genres": "adult standards, british invasion",
+        "spotify_artists02_popularity": "62",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5uZQFOfMSfY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tom-Jones-and-Art-Of-Noise-Kiss.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 996,
+            "name": "Art of Noise",
+            "slug": "art-of-noise",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1983",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アート・オブ・ノイズ",
+              "member": false,
+              "artistimage1": {
+                "ID": 67684,
+                "id": 67684,
+                "title": "art-of-noise",
+                "filename": "art-of-noise.webp",
+                "filesize": 12606,
+                "url": "https://sub.music8.jp/wp-content/uploads/art-of-noise.webp",
+                "link": "https://sub.music8.jp/art-of-noise/",
+                "alt": "",
+                "author": "1",
+                "description": "",
+                "caption": "",
+                "name": "art-of-noise",
+                "status": "inherit",
+                "uploaded_to": 0,
+                "date": "2024-05-29 02:49:01",
+                "modified": "2024-05-29 02:49:01",
+                "menu_order": 0,
+                "mime_type": "image/webp",
+                "type": "image",
+                "subtype": "webp",
+                "icon": "https://sub.music8.jp/wp-includes/images/media/default.png",
+                "width": 350,
+                "height": 350,
+                "sizes": {
+                  "thumbnail": "https://sub.music8.jp/wp-content/uploads/art-of-noise.webp",
+                  "thumbnail-width": 50,
+                  "thumbnail-height": 50,
+                  "medium": "https://sub.music8.jp/wp-content/uploads/art-of-noise-50x50.webp",
+                  "medium-width": 50,
+                  "medium-height": 50,
+                  "medium_large": "https://sub.music8.jp/wp-content/uploads/art-of-noise.webp",
+                  "medium_large-width": 350,
+                  "medium_large-height": 350,
+                  "large": "https://sub.music8.jp/wp-content/uploads/art-of-noise-100x100.webp",
+                  "large-width": 100,
+                  "large-height": 100,
+                  "1536x1536": "https://sub.music8.jp/wp-content/uploads/art-of-noise.webp",
+                  "1536x1536-width": 350,
+                  "1536x1536-height": 350,
+                  "2048x2048": "https://sub.music8.jp/wp-content/uploads/art-of-noise.webp",
+                  "2048x2048-width": 350,
+                  "2048x2048-height": 350
+                }
+              },
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "77zrvBORXcnTyysjjKRfBU",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517416f8622dae8ef502c331eda3"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 997,
+            "name": "Tom Jones",
+            "slug": "tom-jones",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1963",
+              "artistborn": "19400607",
+              "artistdied": "",
+              "artistjpname": "トム・ジョーンズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Art Of Noise, Tom Jones",
+        "ytvideoid": "5uZQFOfMSfY",
+        "spotify_track_id": "58UEwo2r86awBBUSMZCP5X"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "kiss2"
+    },
+    {
+      "id": 49627,
+      "date": "1966-10-28T16:46:00",
+      "date_gmt": "1966-10-28T07:46:00",
+      "title": {
+        "rendered": "Green, Green Grass of Home"
+      },
+      "content": {
+        "rendered": "<p>Tom Jones - Green, Green Grass of Home</p>\n",
+        "protected": false
+      },
+      "categories": [
+        997
+      ],
+      "tags": [],
+      "genre": [
+        430,
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5BFWQXNGPYadZxNKxY1UfU",
+        "spotify_release_date": "1967/3/1",
+        "spotify_name": "Green Green Grass Of Home",
+        "spotify_artists": "Tom Jones",
+        "spotify_album": "Green, Green Grass Of Home",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734d61fd562f4d182f6af9af79",
+        "spotify_duration_ms": "184893",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.543",
+        "spotify_energy": "0.41",
+        "spotify_key": "8",
+        "spotify_loudness": "-13.253",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0268",
+        "spotify_tempo": "95.363",
+        "spotify_valence": "0.817",
+        "spotify_acousticness": "0.157",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0996",
+        "spotify_artists01": "Tom Jones",
+        "spotify_artists01_id": "1T0wRBO0CK0vK8ouUMqEl5",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb93fdc3f7371a0292b10bfcb2",
+        "spotify_artists01_genres": "adult standards, british invasion",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "EmT1ptv3VEc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tom-Jones-Green-Green-Grass-of-Home.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 997,
+            "name": "Tom Jones",
+            "slug": "tom-jones",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1963",
+              "artistborn": "19400607",
+              "artistdied": "",
+              "artistjpname": "トム・ジョーンズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tom Jones",
+        "ytvideoid": "EmT1ptv3VEc",
+        "spotify_track_id": "5BFWQXNGPYadZxNKxY1UfU"
+      },
+      "genre_data": [
+        {
+          "name": "Blue-eyed soul",
+          "slug": "blue-eyed-soul",
+          "term_id": 430,
+          "post_count": 59
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "green-green-grass-of-home"
+    },
+    {
+      "id": 49631,
+      "date": "1965-11-01T16:41:00",
+      "date_gmt": "1965-11-01T07:41:00",
+      "title": {
+        "rendered": "Thunderball"
+      },
+      "content": {
+        "rendered": "<p>Tom Jones - Thunderball</p>\n",
+        "protected": false
+      },
+      "categories": [
+        997
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        719
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0Cq5h2Xnn6EqA5dhDQUcss",
+        "spotify_release_date": "1997/10/13",
+        "spotify_name": "Thunderball",
+        "spotify_artists": "Tom Jones",
+        "spotify_album": "The Best Of ... Tom Jones",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732d066b0f3a5337dd075fe973",
+        "spotify_duration_ms": "171066",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.208",
+        "spotify_energy": "0.673",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.618",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0389",
+        "spotify_tempo": "89.792",
+        "spotify_valence": "0.451",
+        "spotify_acousticness": "0.609",
+        "spotify_instrumentalness": "4.26E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.595",
+        "spotify_artists01": "Tom Jones",
+        "spotify_artists01_id": "1T0wRBO0CK0vK8ouUMqEl5",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb93fdc3f7371a0292b10bfcb2",
+        "spotify_artists01_genres": "adult standards, british invasion",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "XYNzL42AsI4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tom-Jones-Thunderball.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 997,
+            "name": "Tom Jones",
+            "slug": "tom-jones",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1963",
+              "artistborn": "19400607",
+              "artistdied": "",
+              "artistjpname": "トム・ジョーンズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tom Jones",
+        "ytvideoid": "XYNzL42AsI4",
+        "spotify_track_id": "0Cq5h2Xnn6EqA5dhDQUcss"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "thunderball"
+    },
+    {
+      "id": 49633,
+      "date": "1965-06-05T16:37:00",
+      "date_gmt": "1965-06-05T07:37:00",
+      "title": {
+        "rendered": "What's New Pussycat?"
+      },
+      "content": {
+        "rendered": "<p>Tom Jones - What's New Pussycat?</p>\n",
+        "protected": false
+      },
+      "categories": [
+        997
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "4HjwGX3pJKJTeOSDpT6GCo",
+        "spotify_release_date": "1966/1/1",
+        "spotify_name": "What's New Pussycat?",
+        "spotify_artists": "Tom Jones",
+        "spotify_album": "What's New Pussycat",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27340cce76a437e4a66d76f123c",
+        "spotify_duration_ms": "128800",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.392",
+        "spotify_energy": "0.453",
+        "spotify_key": "2",
+        "spotify_loudness": "-13.297",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.171",
+        "spotify_tempo": "183.92",
+        "spotify_valence": "0.574",
+        "spotify_acousticness": "0.752",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.115",
+        "spotify_artists01": "Tom Jones",
+        "spotify_artists01_id": "1T0wRBO0CK0vK8ouUMqEl5",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb93fdc3f7371a0292b10bfcb2",
+        "spotify_artists01_genres": "adult standards, british invasion",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qQvIAs-nPSo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tom-Jones-Whats-New-Pussycat.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 997,
+            "name": "Tom Jones",
+            "slug": "tom-jones",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1963",
+              "artistborn": "19400607",
+              "artistdied": "",
+              "artistjpname": "トム・ジョーンズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tom Jones",
+        "ytvideoid": "qQvIAs-nPSo",
+        "spotify_track_id": "4HjwGX3pJKJTeOSDpT6GCo"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "whats-new-pussycat"
+    },
+    {
+      "id": 49635,
+      "date": "1965-01-22T16:33:00",
+      "date_gmt": "1965-01-22T07:33:00",
+      "title": {
+        "rendered": "It's Not Unusual"
+      },
+      "content": {
+        "rendered": "<p>Tom Jones - It's Not Unusual</p>\n",
+        "protected": false
+      },
+      "categories": [
+        997
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3TlIt0ReIxPsVZcOEivT5U",
+        "spotify_release_date": "1965/5/1",
+        "spotify_name": "It's Not Unusual",
+        "spotify_artists": "Tom Jones",
+        "spotify_album": "Along Came Jones",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27337c9e9907888dea39387df7c",
+        "spotify_duration_ms": "119800",
+        "spotify_popularity": "75",
+        "spotify_danceability": "0.476",
+        "spotify_energy": "0.722",
+        "spotify_key": "0",
+        "spotify_loudness": "-10.017",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0646",
+        "spotify_tempo": "92.966",
+        "spotify_valence": "0.909",
+        "spotify_acousticness": "0.598",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.184",
+        "spotify_artists01": "Tom Jones",
+        "spotify_artists01_id": "1T0wRBO0CK0vK8ouUMqEl5",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb93fdc3f7371a0292b10bfcb2",
+        "spotify_artists01_genres": "adult standards, british invasion",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "k-HdGnzYdFQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tom-Jones-Its-Not-Unusual.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 997,
+            "name": "Tom Jones",
+            "slug": "tom-jones",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1963",
+              "artistborn": "19400607",
+              "artistdied": "",
+              "artistjpname": "トム・ジョーンズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tom Jones",
+        "ytvideoid": "k-HdGnzYdFQ",
+        "spotify_track_id": "3TlIt0ReIxPsVZcOEivT5U"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "its-not-unusual"
+    }
+  ],
+  "totalSongs": 5,
+  "totalPages": 1,
+  "currentPage": 1
+}

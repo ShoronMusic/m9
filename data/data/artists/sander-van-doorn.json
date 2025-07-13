@@ -1,0 +1,76 @@
+{
+  "id": 4849,
+  "count": 0,
+  "description": "Sander van Doorn is a Dutch electro house DJ and record producer.",
+  "link": "https://sub.music8.jp/category/sander-van-doorn/",
+  "name": "Sander van Doorn",
+  "slug": "sander-van-doorn",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NED",
+    "artistactiveyearstart": "2004",
+    "artistborn": "19790228",
+    "artistjpname": "サンダー・ヴァン・ドーン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "",
+    "spotify_artist_images": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4849",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4849"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4849"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "サンダー・ヴァン・ドーン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2004",
+  "occupation": "dj, producer"
+}

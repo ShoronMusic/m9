@@ -1,0 +1,73 @@
+{
+  "id": 1767,
+  "count": 5,
+  "description": "Flo Milli is an American rapper.",
+  "link": "https://sub.music8.jp/category/flo-milli/",
+  "name": "Flo Milli",
+  "slug": "flo-milli",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2015",
+    "artistborn": "20000109",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1767",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1767"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1767"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2015",
+  "occupation": "songwriter, rapper"
+}

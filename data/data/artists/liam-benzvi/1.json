@@ -1,0 +1,241 @@
+{
+  "artist": {
+    "id": 3707,
+    "count": 1,
+    "description": "Liam Benzvi is an American singer-songwriter.",
+    "link": "https://sub.music8.jp/category/liam-benzvi/",
+    "name": "Liam Benzvi",
+    "slug": "liam-benzvi",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "ssw",
+          "label": "SSW"
+        },
+        {
+          "value": "musician",
+          "label": "Musician"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3707",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3707"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3707"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 56700,
+      "date": "2023-03-09T20:17:38",
+      "date_gmt": "2023-03-09T11:17:38",
+      "title": {
+        "rendered": "Rooftops"
+      },
+      "content": {
+        "rendered": "<p>Hatchie - Rooftops (ft. Liam Benzvi)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3706,
+        3707
+      ],
+      "tags": [],
+      "genre": [
+        407,
+        485
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3CKz6hWioZYBNznQazpjiH",
+        "spotify_release_date": "2023-04-07",
+        "spotify_name": "Rooftops",
+        "spotify_artists": "Hatchie, Liam Benzvi",
+        "spotify_album": "Giving The World Away (Deluxe)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733c45de7b1461eeb339771dcf",
+        "spotify_duration_ms": "233237",
+        "spotify_popularity": "19",
+        "spotify_danceability": "0.576",
+        "spotify_energy": "0.92",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.872",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0408",
+        "spotify_tempo": "95.021",
+        "spotify_valence": "0.569",
+        "spotify_acousticness": "0.00542",
+        "spotify_instrumentalness": "0.00191",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0946",
+        "spotify_artists01": "Hatchie",
+        "spotify_artists01_id": "3d7MqowTZa2bC5iy1JXLLt",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb18ddb08f29289df123e45f2b",
+        "spotify_artists01_genres": "brisbane indie",
+        "spotify_artists01_popularity": "38",
+        "spotify_artists02": "Liam Benzvi",
+        "spotify_artists02_id": "0K1pnBf7UJLpAk5ZPV54lS",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb9e319d90c9426ee2855793ad",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "19",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "VLZc8OPHrHc",
+        "ytreleasedate": "2023/03/09"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Hatchie-Rooftops-ft.-Liam-Benzvi.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3706,
+            "name": "Hatchie",
+            "slug": "hatchie",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19930504",
+              "artistjpname": "ハッチー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3707,
+            "name": "Liam Benzvi",
+            "slug": "liam-benzvi",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Hatchie, Liam Benzvi",
+        "ytvideoid": "VLZc8OPHrHc",
+        "spotify_track_id": "3CKz6hWioZYBNznQazpjiH"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative dance",
+          "slug": "alternative-dance",
+          "term_id": 407,
+          "post_count": 144
+        },
+        {
+          "name": "Dream pop",
+          "slug": "dream-pop",
+          "term_id": 485,
+          "post_count": 212
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rooftops"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,201 @@
+{
+  "artist": {
+    "id": 4060,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/millyz/",
+    "name": "Millyz",
+    "slug": "millyz",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "rapper",
+          "label": "Rapper"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4060",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4060"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4060"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 60207,
+      "date": "2024-01-12T20:15:42",
+      "date_gmt": "2024-01-12T11:15:42",
+      "title": {
+        "rendered": "Last Time"
+      },
+      "content": {
+        "rendered": "<p>Millyz - Last Time</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4060
+      ],
+      "tags": [],
+      "genre": [
+        564,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5lNWV5HwCCPbRX5OD1HcVt",
+        "spotify_release_date": "2023-12-01",
+        "spotify_name": "Last Time",
+        "spotify_artists": "Millyz",
+        "spotify_album": "Holy Water",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27365588071bd3556e713fb1ce4",
+        "spotify_duration_ms": "191389",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.655",
+        "spotify_energy": "0.53",
+        "spotify_key": "7",
+        "spotify_loudness": "-8.858",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.318",
+        "spotify_tempo": "81.297",
+        "spotify_valence": "0.195",
+        "spotify_acousticness": "0.201",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.2",
+        "spotify_artists01": "Millyz",
+        "spotify_artists01_id": "7dDYME7Y3GoEQotd8gUvQg",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb6cbce0c348536ee51e0dc67",
+        "spotify_artists01_genres": "boston hip hop",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ji8hQ6TnsFc",
+        "ytreleasedate": "2024/01/12"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Millyz-Last-Time.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4060,
+            "name": "Millyz",
+            "slug": "millyz",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Millyz",
+        "ytvideoid": "ji8hQ6TnsFc",
+        "spotify_track_id": "5lNWV5HwCCPbRX5OD1HcVt"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "last-time"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

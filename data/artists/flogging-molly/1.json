@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1820,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/flogging-molly/",
+    "name": "Flogging Molly",
+    "slug": "flogging-molly",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1820",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1820"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1820"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38794,
+      "date": "2022-09-07T09:39:00",
+      "date_gmt": "2022-09-07T00:39:00",
+      "title": {
+        "rendered": "A Song Of Liberty"
+      },
+      "content": {
+        "rendered": "\n<p>FloggingMolly-ASongOfLiberty</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1820
+      ],
+      "tags": [],
+      "genre": [
+        446,
+        518
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4lJGJA7Q70ALbwUIPmHvRL",
+        "spotify_release_date": "2022/9/9",
+        "spotify_name": "ASongOfLiberty",
+        "spotify_artists": "FloggingMolly",
+        "spotify_album": "Anthem",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fb95cdc2b25f925894623b20",
+        "spotify_duration_ms": "217855",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.223",
+        "spotify_energy": "0.954",
+        "spotify_key": "7",
+        "spotify_loudness": "-3.031",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.185",
+        "spotify_tempo": "161.553",
+        "spotify_valence": "0.42",
+        "spotify_acousticness": "0.0331",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0988",
+        "spotify_artists01": "FloggingMolly",
+        "spotify_artists01_id": "5kQGFREO5FzMBMsAO3cEtj",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0024ccb466aa62503fa9f3e2",
+        "spotify_artists01_genres": "celticpunk,celticrock,punk",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ccGKjOQsEp0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Flogging-Molly-A-Song-Of-Liberty.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1820,
+            "name": "Flogging Molly",
+            "slug": "flogging-molly",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "FloggingMolly",
+        "ytvideoid": "ccGKjOQsEp0",
+        "spotify_track_id": "4lJGJA7Q70ALbwUIPmHvRL"
+      },
+      "genre_data": [
+        {
+          "name": "Celtic punk",
+          "slug": "celtic-punk",
+          "term_id": 446,
+          "post_count": 10
+        },
+        {
+          "name": "Folk punk",
+          "slug": "folk-punk",
+          "term_id": 518,
+          "post_count": 3
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "a-song-of-liberty"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,194 @@
+{
+  "artist": {
+    "id": 4331,
+    "count": 1,
+    "description": "NOFX is an American punk rock band.",
+    "link": "https://sub.music8.jp/category/nofx/",
+    "name": "NOFX",
+    "slug": "nofx",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1983",
+      "artistborn": "",
+      "artistjpname": "ノーエフエックス",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4331",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4331"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4331"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 63404,
+      "date": "2024-03-07T22:15:56",
+      "date_gmt": "2024-03-07T13:15:56",
+      "title": {
+        "rendered": "I'm a Rat"
+      },
+      "content": {
+        "rendered": "<p>NOFX - I'm a Rat</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4331
+      ],
+      "tags": [],
+      "genre": [
+        711
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "T1JTcjWODNQ",
+        "ytreleasedate": "2024/03/07",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "4rNlmTlKXDBtvwzi63NkQc",
+        "spotify_release_date": "2024-03-06",
+        "spotify_name": "I'm a Rat",
+        "spotify_artists": "NOFX",
+        "spotify_album": "I'm a Rat",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27378e013ce38ca2e630e50d511",
+        "spotify_duration_ms": "130547",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.475",
+        "spotify_energy": "0.886",
+        "spotify_key": "9",
+        "spotify_loudness": "-12.958",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0541",
+        "spotify_tempo": "105.103",
+        "spotify_valence": "0.188",
+        "spotify_acousticness": "0.000332",
+        "spotify_instrumentalness": "0.000175",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.18",
+        "spotify_artists01": "NOFX",
+        "spotify_artists01_id": "4S2yOnmsWW97dT87yVoaSZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46cddcf65625878991cf30658be",
+        "spotify_artists01_genres": "punk, skate punk, socal pop punk",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27378e013ce38ca2e630e50d511.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4331,
+            "name": "NOFX",
+            "slug": "nofx",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "",
+              "artistjpname": "ノーエフエックス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "NOFX",
+        "ytvideoid": "T1JTcjWODNQ",
+        "spotify_track_id": "4rNlmTlKXDBtvwzi63NkQc"
+      },
+      "genre_data": [
+        {
+          "name": "Skate punk",
+          "slug": "skate-punk",
+          "term_id": 711,
+          "post_count": 21
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "im-a-rat"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 1777,
+    "count": 1,
+    "description": "CAN",
+    "link": "https://sub.music8.jp/category/peaches/",
+    "name": "Peaches",
+    "slug": "peaches",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1777",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1777"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1777"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 44119,
+      "date": "2012-03-20T21:11:00",
+      "date_gmt": "2012-03-20T12:11:00",
+      "title": {
+        "rendered": "Alligator_Aviator_Autopilot_Antimatter"
+      },
+      "content": {
+        "rendered": "\n<p>R.E.M.-Alligator_Aviator_Autopilot_Antimatter</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1777,
+        1775
+      ],
+      "tags": [],
+      "genre": [
+        584,
+        669
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "25S3QBF2GUKjC2G6bn3j2q",
+        "spotify_release_date": "2011/1/1",
+        "spotify_name": "Alligator_Aviator_Autopilot_Antimatter",
+        "spotify_artists": "R.E.M.",
+        "spotify_album": "Collapse Into Now",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e1017daf779136c2b5e16739",
+        "spotify_duration_ms": "165173",
+        "spotify_popularity": "28",
+        "spotify_danceability": "0.297",
+        "spotify_energy": "0.924",
+        "spotify_key": "2",
+        "spotify_loudness": "-3.057",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0426",
+        "spotify_tempo": "145.138",
+        "spotify_valence": "0.448",
+        "spotify_acousticness": "0.000915",
+        "spotify_instrumentalness": "0.0395",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.336",
+        "spotify_artists01": "R.E.M.",
+        "spotify_artists01_id": "4KWTAlx2RvbpseOGMEmROg",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6334ab6a83196f36475ada7f",
+        "spotify_artists01_genres": "alternative rock, athens indie, permanent wave, rock",
+        "spotify_artists01_popularity": "72",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "PqGTXL10l-w",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/R.E.M.-Alligator_Aviator_Autopilot_Antimatter.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1777,
+            "name": "Peaches",
+            "slug": "peaches",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1775,
+            "name": "R.E.M.",
+            "slug": "rem",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1980–2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アールイーエム",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "4KWTAlx2RvbpseOGMEmROg",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051746334ab6a83196f36475ada7f"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "R.E.M.",
+        "ytvideoid": "PqGTXL10l-w",
+        "spotify_track_id": "25S3QBF2GUKjC2G6bn3j2q"
+      },
+      "genre_data": [
+        {
+          "name": "Jangle pop",
+          "slug": "jangle-pop",
+          "term_id": 584,
+          "post_count": 112
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "alligator_aviator_autopilot_antimatter"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

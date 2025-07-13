@@ -1,0 +1,186 @@
+{
+  "artist": {
+    "id": 2894,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/fresno/",
+    "name": "Fresno",
+    "slug": "fresno",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2894",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2894"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2894"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 49764,
+      "date": "2023-07-22T00:59:11",
+      "date_gmt": "2023-07-21T15:59:11",
+      "title": {
+        "rendered": "Broken By You"
+      },
+      "content": {
+        "rendered": "<p>McFly, Fresno - Broken By You</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2894,
+        2895
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "41ATRo4jo08OFfyRPU77Y3",
+        "spotify_release_date": "2023-07-28",
+        "spotify_name": "Broken By You (feat. Fresno)",
+        "spotify_artists": "McFly, Fresno",
+        "spotify_album": "Power to Play (Deluxe)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736ce830bf89f66c0755dd6f1e",
+        "spotify_duration_ms": "185854",
+        "spotify_popularity": "41",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "McFly",
+        "spotify_artists01_id": "47izDDvtOxxz3FzHYuUptd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb269b088b81c56f66ec2cfb85",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "Fresno",
+        "spotify_artists02_id": "2sFXe6NbmT3k7Qy4N8fE7f",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba4e56a1126dfb5c6be336f66",
+        "spotify_artists02_genres": "emocore, brazilian rock, emo",
+        "spotify_artists02_popularity": "56",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "3NmxHLxznbs",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "pvstyle": [
+          "pv"
+        ]
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/mcfly-fresno-broken-by-you.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2894,
+            "name": "Fresno",
+            "slug": "fresno",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2895,
+            "name": "McFly",
+            "slug": "mcfly",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2003",
+              "artistborn": "",
+              "artistjpname": "マクフライ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "McFly, Fresno",
+        "ytvideoid": "3NmxHLxznbs",
+        "spotify_track_id": "41ATRo4jo08OFfyRPU77Y3"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "broken-by-you"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

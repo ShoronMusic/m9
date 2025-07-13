@@ -1,0 +1,75 @@
+{
+  "id": 6969,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/superbus/",
+  "name": "Superbus",
+  "slug": "superbus",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FRA",
+    "artistactiveyearstart": "1999",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3Hog7RVQ1lAv1crdfiJPLq",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517420684804eb0985642aea7ff2",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "UChISSDP50ox3IO9x1ySVpMQ",
+    "wikipedia_page": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6969",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6969"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6969"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517420684804eb0985642aea7ff2",
+  "artistActiveYearStart": "1999",
+  "occupation": "band"
+}

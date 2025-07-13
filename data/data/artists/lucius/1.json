@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 2495,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/lucius/",
+    "name": "Lucius",
+    "slug": "lucius",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2495",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2495"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2495"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40532,
+      "date": "2022-01-12T11:37:00",
+      "date_gmt": "2022-01-12T02:37:00",
+      "title": {
+        "rendered": "Next to Normal"
+      },
+      "content": {
+        "rendered": "\n<p>Lucius-NexttoNormal</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2495
+      ],
+      "tags": [],
+      "genre": [
+        524,
+        574,
+        677,
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "32hyjj6HoeylRLJDEwLRPM",
+        "spotify_release_date": "2022/4/8",
+        "spotify_name": "NexttoNormal",
+        "spotify_artists": "Lucius",
+        "spotify_album": "SecondNature",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738000a85d192b2c99e3e089f3",
+        "spotify_duration_ms": "190964",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.853",
+        "spotify_energy": "0.559",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.931",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0364",
+        "spotify_tempo": "106.998",
+        "spotify_valence": "0.962",
+        "spotify_acousticness": "0.138",
+        "spotify_instrumentalness": "0.000222",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.291",
+        "spotify_artists01": "Lucius",
+        "spotify_artists01_id": "1WrqUPWlHN5FXCRcQgrkas",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb945d9c309aa25294560d4307",
+        "spotify_artists01_genres": "indiefolk,indiepop,newamericana",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "CteTC6zIlIw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lucius-Next-to-Normal.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2495,
+            "name": "Lucius",
+            "slug": "lucius",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Lucius",
+        "ytvideoid": "CteTC6zIlIw",
+        "spotify_track_id": "32hyjj6HoeylRLJDEwLRPM"
+      },
+      "genre_data": [
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        },
+        {
+          "name": "Psychedelic pop",
+          "slug": "psychedelic-pop",
+          "term_id": 677,
+          "post_count": 79
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "next-to-normal"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

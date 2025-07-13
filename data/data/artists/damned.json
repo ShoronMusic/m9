@@ -1,0 +1,72 @@
+{
+  "id": 3202,
+  "count": 2,
+  "description": "The Damned are an English punk rock band.",
+  "link": "https://sub.music8.jp/category/damned/",
+  "name": "DAMNED",
+  "slug": "damned",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1976",
+    "artistborn": "",
+    "artistjpname": "ダムド",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "VELTRO | NINTH IN PLUTO | Ms.EVA | ZEILE | GERTENA | RAN | RENGEKI | Ars Nøva | LIBRAVEL | HOLLOW SHADE | NAMELESS | BlacK TeaR | NIGAI | ホンモノ | Bue | ZRGN",
+    "spotify_artist_id": "37yPFnhAvDdqQNgtWnDDhP",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616d00001e028ad35bdc9094179a2a2deec9"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3202",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3202"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3202"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ダムド",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616d00001e028ad35bdc9094179a2a2deec9",
+  "artistActiveYearStart": "1976",
+  "occupation": "band"
+}

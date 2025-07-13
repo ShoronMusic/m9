@@ -1,0 +1,63 @@
+{
+  "id": 2901,
+  "count": 5,
+  "description": "Jennie is a South Korean singer, rapper, and actress.",
+  "link": "https://sub.music8.jp/category/jennie/",
+  "name": "JENNIE",
+  "slug": "jennie",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "KOR",
+    "artistactiveyearstart": "2012",
+    "artistborn": "19960116",
+    "artistdied": "",
+    "artistjpname": "ジェニー",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2901",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2901"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2901"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェニー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2012",
+  "occupation": ""
+}

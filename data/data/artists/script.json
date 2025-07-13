@@ -1,0 +1,69 @@
+{
+  "id": 2309,
+  "count": 3,
+  "description": "The Script is an Irish rock band.",
+  "link": "https://sub.music8.jp/category/script/",
+  "name": "Script",
+  "slug": "script",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "IRL",
+    "artistactiveyearstart": "2001",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・スクリプト",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2309",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2309"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2309"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ザ・スクリプト",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2001",
+  "occupation": "band"
+}

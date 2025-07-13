@@ -1,0 +1,74 @@
+{
+  "id": 1365,
+  "count": 28,
+  "description": "Pulp are an English rock band",
+  "link": "https://sub.music8.jp/category/pulp/",
+  "name": "Pulp",
+  "slug": "pulp",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1978",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "パルプ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "36E7oYfz3LLRto6l2WmDcD",
+    "spotify_artist_images": "https://i.scdn.co/image/ec898afde4a75ca38803ac0233d804db067ff2b2",
+    "youtube_channel": "UC5FrSWytdXh-sKJHjSaiyLg",
+    "wikipedia_page": "Pulp_(band)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1365",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1365"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1365"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "パルプ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ec898afde4a75ca38803ac0233d804db067ff2b2",
+  "artistActiveYearStart": "1978",
+  "occupation": "band"
+}

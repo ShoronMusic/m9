@@ -1,0 +1,61 @@
+{
+  "id": 2939,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/streets/",
+  "name": "Streets",
+  "slug": "streets",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1994",
+    "artistborn": "19781127",
+    "artistdied": "",
+    "artistjpname": ""
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2939",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2939"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2939"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1994",
+  "occupation": ""
+}

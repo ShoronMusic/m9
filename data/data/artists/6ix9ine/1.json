@@ -1,0 +1,222 @@
+{
+  "artist": {
+    "id": 1718,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/6ix9ine/",
+    "name": "6ix9ine",
+    "slug": "6ix9ine",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1718",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1718"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1718"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 42387,
+      "date": "2018-12-21T13:19:00",
+      "date_gmt": "2018-12-21T04:19:00",
+      "title": {
+        "rendered": "Swervin"
+      },
+      "content": {
+        "rendered": "\n<p>ABoogieWitDaHoodie-Swervinfeat.6ix9ine</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1718,
+        1701
+      ],
+      "tags": [],
+      "genre": [
+        490,
+        564,
+        657,
+        748
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1wJRveJZLSb1rjhnUHQiv6",
+        "spotify_release_date": "2018/12/21",
+        "spotify_name": "Swervin (feat. 6ix9ine)",
+        "spotify_artists": "A Boogie Wit da Hoodie, 6ix9ine",
+        "spotify_album": "Hoodie SZN",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273dcfadea246002a5c0fd7b1b8",
+        "spotify_duration_ms": "189486",
+        "spotify_popularity": "76",
+        "spotify_danceability": "0.581",
+        "spotify_energy": "0.662",
+        "spotify_key": "9",
+        "spotify_loudness": "-5.239",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.303",
+        "spotify_tempo": "93.023",
+        "spotify_valence": "0.434",
+        "spotify_acousticness": "0.0153",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.111",
+        "spotify_artists01": "A Boogie Wit da Hoodie",
+        "spotify_artists01_id": "31W5EY0aAly4Qieq6OFu6I",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7f69a00b3dacd4d959859dce",
+        "spotify_artists01_genres": "melodic rap, rap, trap",
+        "spotify_artists01_popularity": "79",
+        "spotify_artists02": "6ix9ine",
+        "spotify_artists02_id": "7gZfnEnfiaHzxARJ2LeXrf",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb7b113c043124cddf04397e77",
+        "spotify_artists02_genres": "emo rap",
+        "spotify_artists02_popularity": "71",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "v-rxFHRTrJc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/A-Boogie-Wit-Da-Hoodie-Swervin-feat.-6ix9ine.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1718,
+            "name": "6ix9ine",
+            "slug": "6ix9ine",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1701,
+            "name": "A Boogie Wit Da Hoodie",
+            "slug": "a-boogie-wit-da-hoodie",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19951206",
+              "artistdied": "",
+              "artistjpname": "ア・ブギー・ウィット・ダ・フーディ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "31W5EY0aAly4Qieq6OFu6I",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ebe9d9f649d6ef85497f71af"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "A Boogie Wit da Hoodie, 6ix9ine",
+        "ytvideoid": "v-rxFHRTrJc",
+        "spotify_track_id": "1wJRveJZLSb1rjhnUHQiv6"
+      },
+      "genre_data": [
+        {
+          "name": "East Coast hip hop",
+          "slug": "east-coast-hip-hop",
+          "term_id": 490,
+          "post_count": 42
+        },
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "Trap",
+          "slug": "trap",
+          "term_id": 748,
+          "post_count": 282
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "swervin"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,81 @@
+{
+  "id": 4183,
+  "count": 8,
+  "description": "Kanye West is an American rapper, singer, songwriter, record producer.",
+  "link": "https://sub.music8.jp/category/kanye-west/",
+  "name": "Kanye West",
+  "slug": "kanye-west",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1996",
+    "artistborn": "19770608",
+    "artistjpname": "カニエ・ウェスト",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4183",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4183"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4183"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "カニエ・ウェスト",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1996",
+  "occupation": "singer, songwriter, rapper, producer"
+}

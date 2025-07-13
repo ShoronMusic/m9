@@ -1,0 +1,72 @@
+{
+  "id": 6272,
+  "count": 3,
+  "description": "NOVELISTS is a French progressive metalcore band.",
+  "link": "https://sub.music8.jp/category/novelists/",
+  "name": "NOVELISTS",
+  "slug": "novelists",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FRA",
+    "artistactiveyearstart": "2013",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6o8sDniHcZPM1SixvjKiYS",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517444cf1eaffed99aefdd3bf950"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6272",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6272"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6272"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517444cf1eaffed99aefdd3bf950",
+  "artistActiveYearStart": "2013",
+  "occupation": "band"
+}

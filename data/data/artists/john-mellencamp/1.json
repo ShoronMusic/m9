@@ -1,0 +1,919 @@
+{
+  "artist": {
+    "id": 985,
+    "count": 7,
+    "description": "John Mellencamp (John Cougar Mellencamp) is an American singer-songwriter.",
+    "link": "https://sub.music8.jp/category/john-mellencamp/",
+    "name": "John Mellencamp",
+    "slug": "john-mellencamp",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1974",
+      "artistborn": "19511007",
+      "artistdied": "",
+      "artistjpname": "ジョン・メレンキャンプ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/985",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=985"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=985"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47749,
+      "date": "1987-10-24T09:15:00",
+      "date_gmt": "1987-10-24T00:15:00",
+      "title": {
+        "rendered": "Cherry Bomb"
+      },
+      "content": {
+        "rendered": "<p>John Mellencamp - Cherry Bomb</p>\n",
+        "protected": false
+      },
+      "categories": [
+        985
+      ],
+      "tags": [],
+      "genre": [
+        559
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "43oPpqzWPSZmeiwYicmzjG",
+        "spotify_release_date": "1987",
+        "spotify_name": "Cherry Bomb",
+        "spotify_artists": "John Mellencamp",
+        "spotify_album": "The Lonesome Jubilee",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273070f39b3a5350af6e9fa3780",
+        "spotify_duration_ms": "287106",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.744",
+        "spotify_energy": "0.945",
+        "spotify_key": "7",
+        "spotify_loudness": "-3.266",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0286",
+        "spotify_tempo": "113.882",
+        "spotify_valence": "0.961",
+        "spotify_acousticness": "0.0509",
+        "spotify_instrumentalness": "1.41E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0435",
+        "spotify_artists01": "John Mellencamp",
+        "spotify_artists01_id": "3lPQ2Fk5JOwGWAF3ORFCqH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb39cf2e0c338c08d5b8350053",
+        "spotify_artists01_genres": "album rock, classic rock, country rock, folk rock, hard rock, heartland rock, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "KF0gsbQKhD8",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/John-Mellencamp-Cherry-Bomb.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 985,
+            "name": "John Mellencamp",
+            "slug": "john-mellencamp",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1974",
+              "artistborn": "19511007",
+              "artistdied": "",
+              "artistjpname": "ジョン・メレンキャンプ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "John Mellencamp",
+        "ytvideoid": "KF0gsbQKhD8",
+        "spotify_track_id": "43oPpqzWPSZmeiwYicmzjG"
+      },
+      "genre_data": [
+        {
+          "name": "Heartland rock",
+          "slug": "heartland-rock",
+          "term_id": 559,
+          "post_count": 44
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cherry-bomb"
+    },
+    {
+      "id": 47793,
+      "date": "1987-08-15T09:27:00",
+      "date_gmt": "1987-08-15T00:27:00",
+      "title": {
+        "rendered": "Paper In Fire"
+      },
+      "content": {
+        "rendered": "<p>John Mellencamp - Paper In Fire</p>\n",
+        "protected": false
+      },
+      "categories": [
+        985
+      ],
+      "tags": [],
+      "genre": [
+        468,
+        559,
+        701
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "3fbVtEI5leNfYKvL7FxDz1",
+        "spotify_release_date": "1987",
+        "spotify_name": "Paper In Fire",
+        "spotify_artists": "John Mellencamp",
+        "spotify_album": "The Lonesome Jubilee",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273070f39b3a5350af6e9fa3780",
+        "spotify_duration_ms": "231200",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.607",
+        "spotify_energy": "0.905",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.748",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0427",
+        "spotify_tempo": "141.984",
+        "spotify_valence": "0.533",
+        "spotify_acousticness": "0.00122",
+        "spotify_instrumentalness": "0.000276",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0624",
+        "spotify_artists01": "John Mellencamp",
+        "spotify_artists01_id": "3lPQ2Fk5JOwGWAF3ORFCqH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb39cf2e0c338c08d5b8350053",
+        "spotify_artists01_genres": "album rock, classic rock, country rock, folk rock, hard rock, heartland rock, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "myo9wXrNUP4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/John-Mellencamp-Paper-In-Fire.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 985,
+            "name": "John Mellencamp",
+            "slug": "john-mellencamp",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1974",
+              "artistborn": "19511007",
+              "artistdied": "",
+              "artistjpname": "ジョン・メレンキャンプ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "John Mellencamp",
+        "ytvideoid": "myo9wXrNUP4",
+        "spotify_track_id": "3fbVtEI5leNfYKvL7FxDz1"
+      },
+      "genre_data": [
+        {
+          "name": "Country rock",
+          "slug": "country-rock",
+          "term_id": 468,
+          "post_count": 89
+        },
+        {
+          "name": "Heartland rock",
+          "slug": "heartland-rock",
+          "term_id": 559,
+          "post_count": 44
+        },
+        {
+          "name": "Roots rock",
+          "slug": "roots-rock",
+          "term_id": 701,
+          "post_count": 8
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "paper-in-fire"
+    },
+    {
+      "id": 48130,
+      "date": "1986-01-01T09:24:00",
+      "date_gmt": "1986-01-01T00:24:00",
+      "title": {
+        "rendered": "R.O.C.K. In The U.S.A."
+      },
+      "content": {
+        "rendered": "<p>John Mellencamp - R.O.C.K. In The U.S.A.</p>\n",
+        "protected": false
+      },
+      "categories": [
+        985
+      ],
+      "tags": [],
+      "genre": [
+        699
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0lqfBvf1Gqmmt3l5Qeirlm",
+        "spotify_release_date": "1985",
+        "spotify_name": "R.O.C.K. In The U.S.A. (A Salute To 60's Rock)",
+        "spotify_artists": "John Mellencamp",
+        "spotify_album": "Scarecrow",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b46e7ea6a6b2fa45caa23393",
+        "spotify_duration_ms": "174360",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.432",
+        "spotify_energy": "0.958",
+        "spotify_key": "9",
+        "spotify_loudness": "-4.009",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0819",
+        "spotify_tempo": "164.018",
+        "spotify_valence": "0.874",
+        "spotify_acousticness": "0.00943",
+        "spotify_instrumentalness": "2.79E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.227",
+        "spotify_artists01": "John Mellencamp",
+        "spotify_artists01_id": "3lPQ2Fk5JOwGWAF3ORFCqH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb39cf2e0c338c08d5b8350053",
+        "spotify_artists01_genres": "album rock, classic rock, country rock, folk rock, hard rock, heartland rock, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "DGwOjKzVa7Y",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/John-Mellencamp-R.O.C.K.-In-The-U.S.A.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 985,
+            "name": "John Mellencamp",
+            "slug": "john-mellencamp",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1974",
+              "artistborn": "19511007",
+              "artistdied": "",
+              "artistjpname": "ジョン・メレンキャンプ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "John Mellencamp",
+        "ytvideoid": "DGwOjKzVa7Y",
+        "spotify_track_id": "0lqfBvf1Gqmmt3l5Qeirlm"
+      },
+      "genre_data": [
+        {
+          "name": "Rock and roll",
+          "slug": "rock-and-roll",
+          "term_id": 699,
+          "post_count": 16
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "r-o-c-k-in-the-u-s-a"
+    },
+    {
+      "id": 48158,
+      "date": "1985-11-02T09:18:00",
+      "date_gmt": "1985-11-02T00:18:00",
+      "title": {
+        "rendered": "Small Town"
+      },
+      "content": {
+        "rendered": "<p>John Mellencamp - Small Town</p>\n",
+        "protected": false
+      },
+      "categories": [
+        985
+      ],
+      "tags": [],
+      "genre": [
+        559,
+        701
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2HsjJJL4DhPCzMlnaGv7ap",
+        "spotify_release_date": "1985",
+        "spotify_name": "Small Town",
+        "spotify_artists": "John Mellencamp",
+        "spotify_album": "Scarecrow",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b46e7ea6a6b2fa45caa23393",
+        "spotify_duration_ms": "221626",
+        "spotify_popularity": "69",
+        "spotify_danceability": "0.659",
+        "spotify_energy": "0.919",
+        "spotify_key": "11",
+        "spotify_loudness": "-2.658",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0333",
+        "spotify_tempo": "123.135",
+        "spotify_valence": "0.631",
+        "spotify_acousticness": "0.155",
+        "spotify_instrumentalness": "0.0054",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.312",
+        "spotify_artists01": "John Mellencamp",
+        "spotify_artists01_id": "3lPQ2Fk5JOwGWAF3ORFCqH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb39cf2e0c338c08d5b8350053",
+        "spotify_artists01_genres": "album rock, classic rock, country rock, folk rock, hard rock, heartland rock, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "0CVLVaBECuc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/John-Mellencamp-Small-Town.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 985,
+            "name": "John Mellencamp",
+            "slug": "john-mellencamp",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1974",
+              "artistborn": "19511007",
+              "artistdied": "",
+              "artistjpname": "ジョン・メレンキャンプ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "John Mellencamp",
+        "ytvideoid": "0CVLVaBECuc",
+        "spotify_track_id": "2HsjJJL4DhPCzMlnaGv7ap"
+      },
+      "genre_data": [
+        {
+          "name": "Heartland rock",
+          "slug": "heartland-rock",
+          "term_id": 559,
+          "post_count": 44
+        },
+        {
+          "name": "Roots rock",
+          "slug": "roots-rock",
+          "term_id": 701,
+          "post_count": 8
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "small-town"
+    },
+    {
+      "id": 48671,
+      "date": "1983-10-23T09:11:00",
+      "date_gmt": "1983-10-23T00:11:00",
+      "title": {
+        "rendered": "Pink Houses"
+      },
+      "content": {
+        "rendered": "<p>John Mellencamp - Pink Houses</p>\n",
+        "protected": false
+      },
+      "categories": [
+        985
+      ],
+      "tags": [],
+      "genre": [
+        559
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5JKQMoGmXwDHCodn5pFVHB",
+        "spotify_release_date": "1983",
+        "spotify_name": "Pink Houses",
+        "spotify_artists": "John Mellencamp",
+        "spotify_album": "Uh-HUH!",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cd949894aa0df080ed50ff9b",
+        "spotify_duration_ms": "283666",
+        "spotify_popularity": "67",
+        "spotify_danceability": "0.635",
+        "spotify_energy": "0.795",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.313",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0269",
+        "spotify_tempo": "115.23",
+        "spotify_valence": "0.628",
+        "spotify_acousticness": "0.0514",
+        "spotify_instrumentalness": "3.08E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0751",
+        "spotify_artists01": "John Mellencamp",
+        "spotify_artists01_id": "3lPQ2Fk5JOwGWAF3ORFCqH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb39cf2e0c338c08d5b8350053",
+        "spotify_artists01_genres": "album rock, classic rock, country rock, folk rock, hard rock, heartland rock, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qOfkpu6749w",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/John-Mellencamp-Pink-Houses.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 985,
+            "name": "John Mellencamp",
+            "slug": "john-mellencamp",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1974",
+              "artistborn": "19511007",
+              "artistdied": "",
+              "artistjpname": "ジョン・メレンキャンプ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "John Mellencamp",
+        "ytvideoid": "qOfkpu6749w",
+        "spotify_track_id": "5JKQMoGmXwDHCodn5pFVHB"
+      },
+      "genre_data": [
+        {
+          "name": "Heartland rock",
+          "slug": "heartland-rock",
+          "term_id": 559,
+          "post_count": 44
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "pink-houses"
+    },
+    {
+      "id": 48956,
+      "date": "1982-07-24T09:01:00",
+      "date_gmt": "1982-07-24T00:01:00",
+      "title": {
+        "rendered": "Jack &#038; Diane"
+      },
+      "content": {
+        "rendered": "<p>John Mellencamp - Jack &amp; Diane</p>\n",
+        "protected": false
+      },
+      "categories": [
+        985
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        559
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "43btz2xjMKpcmjkuRsvxyg",
+        "spotify_release_date": "1982",
+        "spotify_name": "Jack & Diane",
+        "spotify_artists": "John Mellencamp",
+        "spotify_album": "American Fool",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b1945b44ce8868740f132f8e",
+        "spotify_duration_ms": "254493",
+        "spotify_popularity": "77",
+        "spotify_danceability": "0.811",
+        "spotify_energy": "0.41",
+        "spotify_key": "9",
+        "spotify_loudness": "-8.214",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0391",
+        "spotify_tempo": "103.965",
+        "spotify_valence": "0.626",
+        "spotify_acousticness": "0.0365",
+        "spotify_instrumentalness": "6.63E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0799",
+        "spotify_artists01": "John Mellencamp",
+        "spotify_artists01_id": "3lPQ2Fk5JOwGWAF3ORFCqH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb39cf2e0c338c08d5b8350053",
+        "spotify_artists01_genres": "album rock, classic rock, country rock, folk rock, hard rock, heartland rock, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "h04CH9YZcpI",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/John-Mellencamp-Jack-Diane.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 985,
+            "name": "John Mellencamp",
+            "slug": "john-mellencamp",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1974",
+              "artistborn": "19511007",
+              "artistdied": "",
+              "artistjpname": "ジョン・メレンキャンプ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "John Mellencamp",
+        "ytvideoid": "h04CH9YZcpI",
+        "spotify_track_id": "43btz2xjMKpcmjkuRsvxyg"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Heartland rock",
+          "slug": "heartland-rock",
+          "term_id": 559,
+          "post_count": 44
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "jack-diane"
+    },
+    {
+      "id": 49006,
+      "date": "1982-04-01T09:08:00",
+      "date_gmt": "1982-04-01T00:08:00",
+      "title": {
+        "rendered": "Hurts So Good"
+      },
+      "content": {
+        "rendered": "<p>John Mellencamp - Hurts So Good</p>\n",
+        "protected": false
+      },
+      "categories": [
+        985
+      ],
+      "tags": [],
+      "genre": [
+        559
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "67eX1ovaHyVPUinMHeUtIM",
+        "spotify_release_date": "1982",
+        "spotify_name": "Hurts So Good",
+        "spotify_artists": "John Mellencamp",
+        "spotify_album": "American Fool",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b1945b44ce8868740f132f8e",
+        "spotify_duration_ms": "218960",
+        "spotify_popularity": "75",
+        "spotify_danceability": "0.785",
+        "spotify_energy": "0.737",
+        "spotify_key": "9",
+        "spotify_loudness": "-5.306",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0363",
+        "spotify_tempo": "125.447",
+        "spotify_valence": "0.971",
+        "spotify_acousticness": "0.042",
+        "spotify_instrumentalness": "0.000107",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.108",
+        "spotify_artists01": "John Mellencamp",
+        "spotify_artists01_id": "3lPQ2Fk5JOwGWAF3ORFCqH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb39cf2e0c338c08d5b8350053",
+        "spotify_artists01_genres": "album rock, classic rock, country rock, folk rock, hard rock, heartland rock, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "4dOsbsuhYGQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/John-Mellencamp-Hurts-So-Good.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 985,
+            "name": "John Mellencamp",
+            "slug": "john-mellencamp",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1974",
+              "artistborn": "19511007",
+              "artistdied": "",
+              "artistjpname": "ジョン・メレンキャンプ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "John Mellencamp",
+        "ytvideoid": "4dOsbsuhYGQ",
+        "spotify_track_id": "67eX1ovaHyVPUinMHeUtIM"
+      },
+      "genre_data": [
+        {
+          "name": "Heartland rock",
+          "slug": "heartland-rock",
+          "term_id": 559,
+          "post_count": 44
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hurts-so-good"
+    }
+  ],
+  "totalSongs": 7,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,419 @@
+{
+  "artist": {
+    "id": 1016,
+    "count": 2,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/marilyn-martin/",
+    "name": "Marilyn Martin",
+    "slug": "marilyn-martin",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1016",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1016"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1016"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 43855,
+      "date": "2013-11-05T17:08:00",
+      "date_gmt": "2013-11-05T08:08:00",
+      "title": {
+        "rendered": "Bad Girl"
+      },
+      "content": {
+        "rendered": "\n<p>AvrilLavigne-BadGirlft.MarilynManson</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1409,
+        1016
+      ],
+      "tags": [],
+      "genre": [
+        577,
+        644,
+        658,
+        683
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1HiV8vDg7l9eKp6abjvA7P",
+        "spotify_release_date": "2013/11/1",
+        "spotify_name": "Bad Girl (feat. Marilyn Manson)",
+        "spotify_artists": "Avril Lavigne, Marilyn Manson",
+        "spotify_album": "Avril Lavigne (Expanded Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273817da73d6641ddbcc0a50363",
+        "spotify_duration_ms": "174906",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.429",
+        "spotify_energy": "0.939",
+        "spotify_key": "0",
+        "spotify_loudness": "-3.305",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.137",
+        "spotify_tempo": "157.989",
+        "spotify_valence": "0.335",
+        "spotify_acousticness": "4.72E-05",
+        "spotify_instrumentalness": "3.76E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.409",
+        "spotify_artists01": "Avril Lavigne",
+        "spotify_artists01_id": "0p4nmQO2msCgU4IF37Wi3j",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb581efa688945cbb092df1726",
+        "spotify_artists01_genres": "canadian pop, candy pop, pop",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "Marilyn Manson",
+        "spotify_artists02_id": "2VYQTNDsvvKN9wmU5W7xpj",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb9e2dae585750a8d6055f4e35",
+        "spotify_artists02_genres": "alternative metal, hard rock, industrial, industrial metal, industrial rock, nu metal, post-grunge, rock",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "K3EgAgqIZJE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Avril-Lavigne-Bad-Girl-ft.-Marilyn-Manson.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1409,
+            "name": "Avril Lavigne",
+            "slug": "avril-lavigne",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1999",
+              "artistborn": "19840927",
+              "artistdied": "",
+              "artistjpname": "アヴリル・ラヴィーン",
+              "member": [
+                {
+                  "errors": {
+                    "invalid_term": [
+                      "空のターム。"
+                    ]
+                  },
+                  "error_data": []
+                }
+              ],
+              "artistimage1": {
+                "ID": 67692,
+                "id": 67692,
+                "title": "avril-lavigne",
+                "filename": "avril-lavigne.webp",
+                "filesize": 11722,
+                "url": "https://sub.music8.jp/wp-content/uploads/avril-lavigne.webp",
+                "link": "https://sub.music8.jp/avril-lavigne/",
+                "alt": "",
+                "author": "1",
+                "description": "",
+                "caption": "",
+                "name": "avril-lavigne",
+                "status": "inherit",
+                "uploaded_to": 0,
+                "date": "2024-05-29 07:36:30",
+                "modified": "2024-05-29 07:36:30",
+                "menu_order": 0,
+                "mime_type": "image/webp",
+                "type": "image",
+                "subtype": "webp",
+                "icon": "https://sub.music8.jp/wp-includes/images/media/default.png",
+                "width": 350,
+                "height": 350,
+                "sizes": {
+                  "thumbnail": "https://sub.music8.jp/wp-content/uploads/avril-lavigne.webp",
+                  "thumbnail-width": 50,
+                  "thumbnail-height": 50,
+                  "medium": "https://sub.music8.jp/wp-content/uploads/avril-lavigne-50x50.webp",
+                  "medium-width": 50,
+                  "medium-height": 50,
+                  "medium_large": "https://sub.music8.jp/wp-content/uploads/avril-lavigne.webp",
+                  "medium_large-width": 350,
+                  "medium_large-height": 350,
+                  "large": "https://sub.music8.jp/wp-content/uploads/avril-lavigne-100x100.webp",
+                  "large-width": 100,
+                  "large-height": 100,
+                  "1536x1536": "https://sub.music8.jp/wp-content/uploads/avril-lavigne.webp",
+                  "1536x1536-width": 350,
+                  "1536x1536-height": 350,
+                  "2048x2048": "https://sub.music8.jp/wp-content/uploads/avril-lavigne.webp",
+                  "2048x2048-width": 350,
+                  "2048x2048-height": 350
+                }
+              },
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "Kesha (kesha) | Christina Aguilera (christina-aguilera) | Hilary Duff (hilary-duff) | Kelly Clarkson (kelly-clarkson) | Fergie (fergie) | Britney Spears (britney-spears) | Gwen Stefani (gwen-stefani) | Spice Girls (spice-girls) | Pussycat Dolls (pussycat-dolls) | Paramore (paramore) | Veronicas (veronicas) | Lindsay Lohan (lindsay-lohan) | Jessie J (jessie-j) | Nelly Furtado (nelly-furtado) | Christina Perri | P!nk (pink) | Simple Plan (simple-plan) | JoJo (jojo) | Ashlee Simpson (ashlee-simpson) | Miley Cyrus (miley-cyrus)",
+              "spotify_artist_id": "0p4nmQO2msCgU4IF37Wi3j",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051745c3349ddba6b8e064c1bab16"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1016,
+            "name": "Marilyn Martin",
+            "slug": "marilyn-martin",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Avril Lavigne, Marilyn Manson",
+        "ytvideoid": "K3EgAgqIZJE",
+        "spotify_track_id": "1HiV8vDg7l9eKp6abjvA7P"
+      },
+      "genre_data": [
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        },
+        {
+          "name": "Nu metal",
+          "slug": "nu-metal",
+          "term_id": 644,
+          "post_count": 47
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Punk rock",
+          "slug": "punk-rock",
+          "term_id": 683,
+          "post_count": 119
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "bad-girl"
+    },
+    {
+      "id": 48154,
+      "date": "1985-11-11T09:03:00",
+      "date_gmt": "1985-11-11T00:03:00",
+      "title": {
+        "rendered": "Separate Lives"
+      },
+      "content": {
+        "rendered": "\n<p>Phil Collins &amp; Marilyn Martin - Separate Lives</p>\n\n\n\n\n\n\n\n<figure class=\"wp-block-image size-full is-resized is-style-default\"><img loading=\"lazy\" decoding=\"async\" src=\"http://xs867261.xsrv.jp/wp/wp-content/uploads/white-nights.jpg\" alt=\"\" class=\"wp-image-2936\" width=\"250\" height=\"250\"/><figcaption>White Nights (Soundtrack) 1985</figcaption></figure>\n",
+        "protected": false
+      },
+      "categories": [
+        1016,
+        1015
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        6
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6DEFVerhYVJ6ZkPJiPl5Sm",
+        "spotify_release_date": "2016/10/14",
+        "spotify_name": "Separate Lives - 2016 Remaster",
+        "spotify_artists": "Phil Collins, Marilyn Martin",
+        "spotify_album": "The Singles (Expanded)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737422ea855ab95313c190855d",
+        "spotify_duration_ms": "248906",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.32",
+        "spotify_energy": "0.308",
+        "spotify_key": "4",
+        "spotify_loudness": "-9.118",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0318",
+        "spotify_tempo": "93.173",
+        "spotify_valence": "0.193",
+        "spotify_acousticness": "0.237",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.319",
+        "spotify_artists01": "Phil Collins",
+        "spotify_artists01_id": "4lxfqrEsLX6N1N4OCSkILp",
+        "spotify_artists01_images": "https://i.scdn.co/image/31fbe64783eb5d493161640bd599dceafc615c6d",
+        "spotify_artists01_genres": "rock drums, soft rock",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "Marilyn Martin",
+        "spotify_artists02_id": "3vtjCpFunIFNdbXkBVx0gL",
+        "spotify_artists02_images": "https://i.scdn.co/image/3606e48e78b1b2bf7753c812d7542e341f4645a3",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "39",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "DS6zS41tmWg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Phil-Collins-Marilyn-Martin-Separate-Lives.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1016,
+            "name": "Marilyn Martin",
+            "slug": "marilyn-martin",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1015,
+            "name": "Phil Collins",
+            "slug": "phil-collins",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "19510130",
+              "artistdied": "",
+              "artistjpname": "フィル・コリンズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                },
+                {
+                  "value": "drummer",
+                  "label": "Drummer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Phil Collins, Marilyn Martin",
+        "ytvideoid": "DS6zS41tmWg",
+        "spotify_track_id": "6DEFVerhYVJ6ZkPJiPl5Sm"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "separate-lives"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

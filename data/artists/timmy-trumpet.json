@@ -1,0 +1,81 @@
+{
+  "id": 1120,
+  "count": 10,
+  "description": "Timmy Trumpet is an Australian musician, DJ, songwriter and record producer.",
+  "link": "https://sub.music8.jp/category/timmy-trumpet/",
+  "name": "Timmy Trumpet",
+  "slug": "timmy-trumpet",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2005",
+    "artistborn": "19820609",
+    "artistdied": "",
+    "artistjpname": "ティミー・トランペット",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1120",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1120"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1120"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ティミー・トランペット",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2005",
+  "occupation": "songwriter, musician, dj, producer"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 2033,
+  "count": 4,
+  "description": "Jamie Miller is a Welsh singer.",
+  "link": "https://sub.music8.jp/category/jamie-miller/",
+  "name": "Jamie Miller",
+  "slug": "jamie-miller",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2017",
+    "artistborn": "19970909",
+    "artistdied": "",
+    "artistjpname": "ジェイミー・ミラー",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2033",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2033"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2033"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェイミー・ミラー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2017",
+  "occupation": ""
+}

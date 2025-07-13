@@ -1,0 +1,831 @@
+{
+  "artist": {
+    "id": 976,
+    "count": 5,
+    "description": "Patti Smith  is an American singer, songwriter",
+    "link": "https://sub.music8.jp/category/patti-smith/",
+    "name": "Patti Smith",
+    "slug": "patti-smith",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1967",
+      "artistborn": "19461230",
+      "artistdied": "",
+      "artistjpname": "パティ・スミス",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "ssw",
+          "label": "SSW"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/976",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=976"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=976"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 44021,
+      "date": "2012-11-16T21:13:00",
+      "date_gmt": "2012-11-16T12:13:00",
+      "title": {
+        "rendered": "Blue"
+      },
+      "content": {
+        "rendered": "\n<p>R.E.M.-Blue</p>\n",
+        "protected": false
+      },
+      "categories": [
+        976,
+        1775
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        630
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "GvI_U8PJ-4Q",
+        "likecount": "0",
+        "spotify_track_id": "7vCWANOktSpqWOjNEHqinm",
+        "spotify_release_date": "2011-01-01",
+        "spotify_name": "Blue",
+        "spotify_artists": "R.E.M.",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e1017daf779136c2b5e16739",
+        "spotify_duration_ms": "345880",
+        "spotify_popularity": "27",
+        "spotify_danceability": "0.166",
+        "spotify_energy": "0.681",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.464",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0483",
+        "spotify_tempo": "129.178",
+        "spotify_valence": "0.0757",
+        "spotify_acousticness": "0.545",
+        "spotify_instrumentalness": "0.586",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.187",
+        "spotify_artists01": "R.E.M.",
+        "spotify_artists01_id": "4KWTAlx2RvbpseOGMEmROg",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6334ab6a83196f36475ada7f",
+        "spotify_artists01_genres": "alternative rock, athens indie, permanent wave, rock",
+        "spotify_artists01_popularity": "72",
+        "spotify_artists02": "BlueBucksClan",
+        "spotify_artists02_id": "1l61CX1j6go8arTjPH9wy0",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb4445b7772ca43be76e268835",
+        "spotify_artists02_genres": "cali rap, westcoast flow",
+        "spotify_artists02_popularity": "51",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "R.E.M., Patti Smith",
+        "spotify_album": "Collapse Into Now",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/R.E.M.-Blue.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 976,
+            "name": "Patti Smith",
+            "slug": "patti-smith",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1967",
+              "artistborn": "19461230",
+              "artistdied": "",
+              "artistjpname": "パティ・スミス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1775,
+            "name": "R.E.M.",
+            "slug": "rem",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1980–2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アールイーエム",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "4KWTAlx2RvbpseOGMEmROg",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051746334ab6a83196f36475ada7f"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "R.E.M., Patti Smith",
+        "spotify_artists": "R.E.M.",
+        "ytvideoid": "GvI_U8PJ-4Q",
+        "spotify_track_id": "7vCWANOktSpqWOjNEHqinm"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "blue-2"
+    },
+    {
+      "id": 12444,
+      "date": "1996-08-19T20:07:00",
+      "date_gmt": "1996-08-19T11:07:00",
+      "title": {
+        "rendered": "E-Bow the Letter"
+      },
+      "content": {
+        "rendered": "<p>R.E.M. - E-Bow the Letter</p>\n",
+        "protected": false
+      },
+      "categories": [
+        976,
+        1775
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        424,
+        519
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2S3wW83zk0CosLGYN7jfor",
+        "spotify_release_date": "1996/1/1",
+        "spotify_name": "E-Bow The Letter",
+        "spotify_artists": "R.E.M.",
+        "spotify_album": "New Adventures In Hi-Fi",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cac5a75373b7b8fd879dea9f",
+        "spotify_duration_ms": "324826",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.349",
+        "spotify_energy": "0.627",
+        "spotify_key": "2",
+        "spotify_loudness": "-8.386",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.033",
+        "spotify_tempo": "155.107",
+        "spotify_valence": "0.312",
+        "spotify_acousticness": "0.173",
+        "spotify_instrumentalness": "0.000521",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0836",
+        "spotify_artists01": "R.E.M.",
+        "spotify_artists01_id": "4KWTAlx2RvbpseOGMEmROg",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6334ab6a83196f36475ada7f",
+        "spotify_artists01_genres": "alternative rock, athens indie, permanent wave, rock",
+        "spotify_artists01_popularity": "72",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5cnIQHJ169s",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/R.E.M.-E-Bow-the-Letter.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 976,
+            "name": "Patti Smith",
+            "slug": "patti-smith",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1967",
+              "artistborn": "19461230",
+              "artistdied": "",
+              "artistjpname": "パティ・スミス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1775,
+            "name": "R.E.M.",
+            "slug": "rem",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1980–2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アールイーエム",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "4KWTAlx2RvbpseOGMEmROg",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051746334ab6a83196f36475ada7f"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "R.E.M.",
+        "ytvideoid": "5cnIQHJ169s",
+        "spotify_track_id": "2S3wW83zk0CosLGYN7jfor"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Avant-rock",
+          "slug": "avant-rock",
+          "term_id": 424,
+          "post_count": 1
+        },
+        {
+          "name": "Folk rock",
+          "slug": "folk-rock",
+          "term_id": 519,
+          "post_count": 97
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "e-bow-the-letter"
+    },
+    {
+      "id": 2307,
+      "date": "1992-08-01T18:53:00",
+      "date_gmt": "1992-08-01T09:53:00",
+      "title": {
+        "rendered": "Sometimes Love Just Ain't Enough"
+      },
+      "content": {
+        "rendered": "<p>Patty Smyth ft. Don Henley - Sometimes Love Just Ain't Enough</p>\n",
+        "protected": false
+      },
+      "categories": [
+        975,
+        976
+      ],
+      "tags": [],
+      "genre": [
+        6
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "qdzbjUWu2VU",
+        "likecount": "1",
+        "spotify_track_id": "3WBIPmLnulcFn8cv89Fpe4",
+        "spotify_release_date": "2015-06-29",
+        "spotify_name": "Sometimes Love Just Ain't Enough (Live)",
+        "spotify_artists": "パティ・スマイス",
+        "spotify_album": "The Bottom Line Archive Series: In Their Own Words Vol. 2",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736111d1bd2c6f0d6bc84b2d15",
+        "spotify_duration_ms": "304071",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.456",
+        "spotify_energy": "0.185",
+        "spotify_key": "10",
+        "spotify_loudness": "-11.622",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0434",
+        "spotify_tempo": "154.407",
+        "spotify_valence": "0.28",
+        "spotify_acousticness": "0.751",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.742",
+        "spotify_artists01": "パティ・スマイス",
+        "spotify_artists01_id": "2dgfCEMSVETFp29mRpiFpz",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebae32e4c9130baf3477fa297f",
+        "spotify_artists01_genres": "new wave pop",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "ytreleasedate": "",
+        "artist_order": "Patti Smith, Don Henley"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Patty-Smyth-ft.-Don-Henley-Sometimes-Love-Just-Aint-Enough.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 975,
+            "name": "Don Henley",
+            "slug": "don-henley",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19470722",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "Glenn Frey | Bruce Hornsby | Steve Winwood (steve-winwood) | Eddie Money (eddie-money) | Joe Walsh (joe-walsh) | John Mellencamp (john-mellencamp) | Huey Lewis & The News | J. Geils Band (j-geils-band) | 38 Special (38-special) | Jefferson Starship (jefferson-starship) | Jackson Browne (jackson-browne) | Rick Springfield (rick-springfield) | Steve Perry (steve-perry) | Robert Palmer (robert-palmer) | Little River Band | John Waite | Mr. Mister (mr-mister) | Loverboy (loverboy) | Dan Fogelberg | Mike + The Mechanics (mike-and-the-mechanics)",
+              "spotify_artist_id": "5dbuFbrHa1SJlQhQX9OUJ2",
+              "spotify_artist_images": "https://i.scdn.co/image/6318212047d0b26c06f21149e525257e8a161651"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 976,
+            "name": "Patti Smith",
+            "slug": "patti-smith",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1967",
+              "artistborn": "19461230",
+              "artistdied": "",
+              "artistjpname": "パティ・スミス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Patti Smith, Don Henley",
+        "spotify_artists": "パティ・スマイス",
+        "ytvideoid": "qdzbjUWu2VU",
+        "spotify_track_id": "3WBIPmLnulcFn8cv89Fpe4"
+      },
+      "genre_data": [
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "sometimes-love-just-aint-enough"
+    },
+    {
+      "id": 48486,
+      "date": "1984-08-01T09:08:00",
+      "date_gmt": "1984-08-01T00:08:00",
+      "title": {
+        "rendered": "The Warrior"
+      },
+      "content": {
+        "rendered": "<p>Scandal ft. Patty Smyth - The Warrior</p>\n",
+        "protected": false
+      },
+      "categories": [
+        976,
+        998
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2hQnLzly0jRPpLPp23sA4i",
+        "spotify_release_date": "1984/8/21",
+        "spotify_name": "The Warrior (feat. Patty Smyth)",
+        "spotify_artists": "Scandal, Patty Smyth",
+        "spotify_album": "Warrior",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a14eac8b5f523086ee72f3d3",
+        "spotify_duration_ms": "240826",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.606",
+        "spotify_energy": "0.777",
+        "spotify_key": "2",
+        "spotify_loudness": "-11.034",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0347",
+        "spotify_tempo": "123.077",
+        "spotify_valence": "0.859",
+        "spotify_acousticness": "0.089",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.321",
+        "spotify_artists01": "Scandal",
+        "spotify_artists01_id": "3RFGnJaDVOyxL9YcFaKatu",
+        "spotify_artists01_images": "https://i.scdn.co/image/7da2c218d4717c9d5b630e31c1398b31bbbbc125",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "38",
+        "spotify_artists02": "Patty Smyth",
+        "spotify_artists02_id": "2dgfCEMSVETFp29mRpiFpz",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebae32e4c9130baf3477fa297f",
+        "spotify_artists02_genres": "new wave pop",
+        "spotify_artists02_popularity": "46",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "47y5bo8wtqM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Scandal-ft.-Patty-Smyth-The-Warrior.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 976,
+            "name": "Patti Smith",
+            "slug": "patti-smith",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1967",
+              "artistborn": "19461230",
+              "artistdied": "",
+              "artistjpname": "パティ・スミス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 998,
+            "name": "Scandal",
+            "slug": "scandal",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1981",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スキャンダル",
+              "member": [
+                {
+                  "term_id": 976,
+                  "name": "Patti Smith",
+                  "slug": "patti-smith",
+                  "term_group": 0,
+                  "term_taxonomy_id": 976,
+                  "taxonomy": "category",
+                  "description": "Patti Smith  is an American singer, songwriter",
+                  "parent": 0,
+                  "count": 5,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Scandal, Patty Smyth",
+        "ytvideoid": "47y5bo8wtqM",
+        "spotify_track_id": "2hQnLzly0jRPpLPp23sA4i"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-warrior"
+    },
+    {
+      "id": 49392,
+      "date": "1978-03-02T20:07:00",
+      "date_gmt": "1978-03-02T11:07:00",
+      "title": {
+        "rendered": "Because the Night"
+      },
+      "content": {
+        "rendered": "<p>Patti Smith Group - Because the Night</p>\n",
+        "protected": false
+      },
+      "categories": [
+        976
+      ],
+      "tags": [],
+      "genre": [
+        638
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0lIoY4ZQsdn5QzhraM9o9u",
+        "spotify_release_date": "1978",
+        "spotify_name": "Because the Night",
+        "spotify_artists": "Patti Smith",
+        "spotify_album": "Easter",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a28eabe111f67a386e75a31a",
+        "spotify_duration_ms": "204800",
+        "spotify_popularity": "71",
+        "spotify_danceability": "-1.5255167009850321",
+        "spotify_energy": "0.1525908890900663",
+        "spotify_key": "1.5522909188051726",
+        "spotify_loudness": "0.11028328677580718",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "-0.2983634056157792",
+        "spotify_tempo": "-0.060554298911453704",
+        "spotify_valence": "-0.9690955762407033",
+        "spotify_acousticness": "-0.3753884675686936",
+        "spotify_instrumentalness": "-0.4115192012827468",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.3920982598908849",
+        "spotify_artists01": "Patti Smith",
+        "spotify_artists01_id": "0vYkHhJ48Bs3jWcvZXvOrP",
+        "spotify_artists01_images": "https://i.scdn.co/image/20e52d0b168541016f901d9ec6d4f2a0e41f193b",
+        "spotify_artists01_genres": "art punk, permanent wave, protopunk, singer-songwriter",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "c_BcivBprM0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Patti-Smith-Group-Because-the-Night.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 976,
+            "name": "Patti Smith",
+            "slug": "patti-smith",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1967",
+              "artistborn": "19461230",
+              "artistdied": "",
+              "artistjpname": "パティ・スミス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Patti Smith",
+        "ytvideoid": "c_BcivBprM0",
+        "spotify_track_id": "0lIoY4ZQsdn5QzhraM9o9u"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "because-the-night"
+    }
+  ],
+  "totalSongs": 5,
+  "totalPages": 1,
+  "currentPage": 1
+}

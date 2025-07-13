@@ -1,0 +1,260 @@
+{
+  "artist": {
+    "id": 3482,
+    "count": 1,
+    "description": "Rob Halford is an English heavy metal singer. the lead vocalist of Judas Priest.",
+    "link": "https://sub.music8.jp/category/rob-halford/",
+    "name": "Rob Halford",
+    "slug": "rob-halford",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1969",
+      "artistborn": "19510825",
+      "artistjpname": "ロブ・ハルフォード",
+      "member": [
+        {
+          "term_id": 3429,
+          "name": "Judas Priest",
+          "slug": "judas-priest",
+          "term_group": 0,
+          "term_taxonomy_id": 3429,
+          "taxonomy": "category",
+          "description": "Judas Priest are an English heavy metal band",
+          "parent": 0,
+          "count": 7,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3482",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3482"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3482"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 54585,
+      "date": "2023-10-28T20:56:03",
+      "date_gmt": "2023-10-28T11:56:03",
+      "title": {
+        "rendered": "Total Eclipse of the Heart"
+      },
+      "content": {
+        "rendered": "<p>DORO - Total Eclipse of the Heart (feat. Rob Halford)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3481,
+        3482
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6mbbEEC946xqAKAwZWrp0Q",
+        "spotify_release_date": "2023-10-27",
+        "spotify_name": "Total Eclipse of the Heart",
+        "spotify_artists": "Doro, Rob Halford",
+        "spotify_album": "Conqueress - Forever Strong And Proud",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273311bef0b0d3f902208897dd8",
+        "spotify_duration_ms": "240308",
+        "spotify_popularity": "8",
+        "spotify_danceability": "0.364",
+        "spotify_energy": "0.7",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.887",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0331",
+        "spotify_tempo": "130.631",
+        "spotify_valence": "0.23",
+        "spotify_acousticness": "0.0161",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.103",
+        "spotify_artists01": "Doro",
+        "spotify_artists01_id": "5GLeyUhj8B8f5pJxqZllKl",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0f0c71fd8ca7477c0a7de478",
+        "spotify_artists01_genres": "german heavy metal, german metal, hard rock, hel, metal, power metal, speed metal",
+        "spotify_artists01_popularity": "42",
+        "spotify_artists02": "ロブ・ハルフォード",
+        "spotify_artists02_id": "7CTjkl9M3enzBBfm1u10Sy",
+        "spotify_artists02_images": "https://i.scdn.co/image/35c10184fb4ffc9be65e8f19771eec2a7a123ab6",
+        "spotify_artists02_genres": "hard rock, metal, speed metal",
+        "spotify_artists02_popularity": "48",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "DguMk2Hze1E",
+        "ytreleasedate": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/DORO-Total-Eclipse-of-the-Heart-feat.-Rob-Halford.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3481,
+            "name": "DORO",
+            "slug": "doro",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1980",
+              "artistborn": "19640603",
+              "artistjpname": "ドロ・ペッシュ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3482,
+            "name": "Rob Halford",
+            "slug": "rob-halford",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1969",
+              "artistborn": "19510825",
+              "artistjpname": "ロブ・ハルフォード",
+              "member": [
+                {
+                  "term_id": 3429,
+                  "name": "Judas Priest",
+                  "slug": "judas-priest",
+                  "term_group": 0,
+                  "term_taxonomy_id": 3429,
+                  "taxonomy": "category",
+                  "description": "Judas Priest are an English heavy metal band",
+                  "parent": 0,
+                  "count": 7,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Doro, Rob Halford",
+        "ytvideoid": "DguMk2Hze1E",
+        "spotify_track_id": "6mbbEEC946xqAKAwZWrp0Q"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "total-eclipse-of-the-heart-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

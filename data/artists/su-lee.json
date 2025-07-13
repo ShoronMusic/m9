@@ -1,0 +1,75 @@
+{
+  "id": 2275,
+  "count": 6,
+  "description": "Su Lee is a South Korean musician.",
+  "link": "https://sub.music8.jp/category/su-lee/",
+  "name": "Su Lee",
+  "slug": "su-lee",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "KOR",
+    "artistactiveyearstart": "2019",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3deduluMry0ZIGWF673gfK",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517491b0aba94956a3d2bc2f6ea6",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "UCh0H_Bie0cJ5zpat63aJ1dQ",
+    "wikipedia_page": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2275",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2275"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2275"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517491b0aba94956a3d2bc2f6ea6",
+  "artistActiveYearStart": "2019",
+  "occupation": "musician"
+}

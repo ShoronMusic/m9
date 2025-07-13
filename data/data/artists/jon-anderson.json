@@ -1,0 +1,80 @@
+{
+  "id": 5137,
+  "count": 2,
+  "description": "Jon Anderson is an English-American singer, songwriter and musician, the former lead singer of the progressive rock band Yes",
+  "link": "https://sub.music8.jp/category/jon-anderson/",
+  "name": "Jon Anderson",
+  "slug": "jon-anderson",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1963",
+    "artistborn": "19441025",
+    "artistjpname": "ジョン・アンダーソン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "ssw",
+        "label": "SSW"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2iptQ8hQmUa7kZocEBHt7u",
+    "spotify_artist_images": "https://i.scdn.co/image/7d3a8f51df51c2b24dea619f65832dbf50def86e"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5137",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5137"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5137"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジョン・アンダーソン",
+  "spotifyArtistImages": "https://i.scdn.co/image/7d3a8f51df51c2b24dea619f65832dbf50def86e",
+  "artistActiveYearStart": "1963",
+  "occupation": "singer, ssw, producer"
+}

@@ -1,0 +1,72 @@
+{
+  "id": 5207,
+  "count": 1,
+  "description": "Parkah &amp; Durzo are an Italian DJ duo.",
+  "link": "https://sub.music8.jp/category/parkah-durzo/",
+  "name": "PARKAH &amp; DURZO",
+  "slug": "parkah-durzo",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "ITA",
+    "artistactiveyearstart": "2019",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4gENhx9lVdoVk5I7A6pDOP",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051745b8ac7a8d30ce5a40529baba"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5207",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5207"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5207"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051745b8ac7a8d30ce5a40529baba",
+  "artistActiveYearStart": "2019",
+  "occupation": "duo"
+}

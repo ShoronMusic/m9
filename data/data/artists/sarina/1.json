@@ -1,0 +1,328 @@
+{
+  "artist": {
+    "id": 3181,
+    "count": 2,
+    "description": "Sarina is a Japanese singer, songwriter.",
+    "link": "https://sub.music8.jp/category/sarina/",
+    "name": "Sarina",
+    "slug": "sarina",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "JPN",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "サリーナ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3181",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3181"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3181"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 71954,
+      "date": "2023-08-04T14:04:03",
+      "date_gmt": "2023-08-04T05:04:03",
+      "title": {
+        "rendered": "Brace For Impact"
+      },
+      "content": {
+        "rendered": "<p>Sarina - Brace For Impact- </p>\n",
+        "protected": false
+      },
+      "categories": [
+        3181
+      ],
+      "tags": [],
+      "genre": [
+        410
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "3wwkCAp0K1E",
+        "ytreleasedate": "",
+        "spotify_track_id": "224NK4i6l2xOlEwNazMK1o",
+        "spotify_release_date": "2023-08-04",
+        "spotify_name": "Brace For Impact",
+        "spotify_artists": "Sarina",
+        "spotify_album": "Foreword",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739856b2ac596f3b9218427a91",
+        "spotify_duration_ms": "223696",
+        "spotify_popularity": "13",
+        "spotify_danceability": "0.598",
+        "spotify_energy": "0.632",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.541",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.037",
+        "spotify_tempo": "100.052",
+        "spotify_valence": "0.337",
+        "spotify_acousticness": "0.119",
+        "spotify_instrumentalness": "0.00000412",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.103",
+        "spotify_artists01": "Sarina",
+        "spotify_artists01_id": "4QetRFFnJpfUtu0sLRaQZy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebfd0c57b766976ee046fa318d",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "22",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2739856b2ac596f3b9218427a91.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3181,
+            "name": "Sarina",
+            "slug": "sarina",
+            "acf": {
+              "artistorigin": "JPN",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "サリーナ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Sarina",
+        "ytvideoid": "3wwkCAp0K1E",
+        "spotify_track_id": "224NK4i6l2xOlEwNazMK1o"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "brace-for-impact"
+    },
+    {
+      "id": 51885,
+      "date": "2023-02-17T13:21:19",
+      "date_gmt": "2023-02-17T04:21:19",
+      "title": {
+        "rendered": "Sometimes I Wanna Cry"
+      },
+      "content": {
+        "rendered": "<p>Sarina - Sometimes I Wanna Cry</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3181
+      ],
+      "tags": [],
+      "genre": [
+        660
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7DILQWS3AmJ8EHNmnD4pXn",
+        "spotify_release_date": "2023-02-17",
+        "spotify_name": "Sometimes I Wanna Cry :(",
+        "spotify_artists": "Sarina",
+        "spotify_album": "Sometimes I Wanna Cry :(",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27382d17225acc22bd7ece812bb",
+        "spotify_duration_ms": "142092",
+        "spotify_popularity": "45",
+        "spotify_danceability": "0.638",
+        "spotify_energy": "0.971",
+        "spotify_key": "3",
+        "spotify_loudness": "-2.382",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0699",
+        "spotify_tempo": "149.94",
+        "spotify_valence": "0.89",
+        "spotify_acousticness": "0.00477",
+        "spotify_instrumentalness": "0.000034",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0875",
+        "spotify_artists01": "Sarina",
+        "spotify_artists01_id": "4QetRFFnJpfUtu0sLRaQZy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebfd0c57b766976ee046fa318d",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "29",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "-qTt3FewvwI",
+        "ytreleasedate": "2023/02/17"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sarina-Sometimes-I-Wanna-Cry.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3181,
+            "name": "Sarina",
+            "slug": "sarina",
+            "acf": {
+              "artistorigin": "JPN",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "サリーナ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Sarina",
+        "ytvideoid": "-qTt3FewvwI",
+        "spotify_track_id": "7DILQWS3AmJ8EHNmnD4pXn"
+      },
+      "genre_data": [
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "sometimes-i-wanna-cry"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

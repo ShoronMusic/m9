@@ -1,0 +1,210 @@
+{
+  "artist": {
+    "id": 3755,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/indi/",
+    "name": "INDI",
+    "slug": "indi",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "KAZ",
+      "artistactiveyearstart": "",
+      "artistborn": "19910326",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3755",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3755"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3755"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57213,
+      "date": "2023-10-20T21:11:05",
+      "date_gmt": "2023-10-20T12:11:05",
+      "title": {
+        "rendered": "Release Me"
+      },
+      "content": {
+        "rendered": "<p>Kanine, INDI - Release Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3755,
+        3754
+      ],
+      "tags": [],
+      "genre": [
+        487
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5hcbBprSX4taWpm6DVUuWi",
+        "spotify_release_date": "2023-10-20",
+        "spotify_name": "Release Me",
+        "spotify_artists": "Kanine, INDI",
+        "spotify_album": "Release Me",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734e6761f5d6b06b033364f28d",
+        "spotify_duration_ms": "216551",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.437",
+        "spotify_energy": "0.97",
+        "spotify_key": "5",
+        "spotify_loudness": "-0.04",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.138",
+        "spotify_tempo": "173.962",
+        "spotify_valence": "0.0954",
+        "spotify_acousticness": "0.00927",
+        "spotify_instrumentalness": "0.034",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.128",
+        "spotify_artists01": "Kanine",
+        "spotify_artists01_id": "1KiNUGL3r0GgyLwqYCY1yV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9b0adb9fd6ad3c0ba8c72dd3",
+        "spotify_artists01_genres": "bass house, uk dnb",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "INDI",
+        "spotify_artists02_id": "6T2L2KzWTtlOO4DvTe2vo9",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebbf4544570bc24af63c82f90f",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "36",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ssXZIY37SfM",
+        "ytreleasedate": "2023/10/20"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kanine-Release-Me-ft.-INDI.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3755,
+            "name": "INDI",
+            "slug": "indi",
+            "acf": {
+              "artistorigin": "KAZ",
+              "artistactiveyearstart": "",
+              "artistborn": "19910326",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3754,
+            "name": "Kanine",
+            "slug": "kanine",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "19970411",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kanine, INDI",
+        "ytvideoid": "ssXZIY37SfM",
+        "spotify_track_id": "5hcbBprSX4taWpm6DVUuWi"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "release-me-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

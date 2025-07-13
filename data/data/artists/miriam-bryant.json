@@ -1,0 +1,63 @@
+{
+  "id": 1046,
+  "count": 2,
+  "description": "Miriam Bryant is a Finnish-Swedish singer and songwriter.",
+  "link": "https://sub.music8.jp/category/miriam-bryant/",
+  "name": "Miriam Bryant",
+  "slug": "miriam-bryant",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2011",
+    "artistborn": "19910308",
+    "artistdied": "",
+    "artistjpname": "ミリアム・ブライアント",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1046",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1046"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1046"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ミリアム・ブライアント",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2011",
+  "occupation": ""
+}

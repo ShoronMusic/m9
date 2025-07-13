@@ -1,0 +1,402 @@
+{
+  "artist": {
+    "id": 2610,
+    "count": 2,
+    "description": "Rakim  is an American rapper.",
+    "link": "https://sub.music8.jp/category/rakim/",
+    "name": "Rakim",
+    "slug": "rakim",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1985",
+      "artistborn": "19680128",
+      "artistdied": "",
+      "artistjpname": "ラキム",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "rapper",
+          "label": "Rapper"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2610",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2610"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2610"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 89633,
+      "date": "2025-01-12T21:50:14",
+      "date_gmt": "2025-01-12T12:50:14",
+      "title": {
+        "rendered": "Take It Back"
+      },
+      "content": {
+        "rendered": "<p>Nas, Rakim, Mos Def - Take It Back</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6426,
+        2775,
+        2610
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "ytvideoid": "CVZqnU6u0tQ",
+        "ytreleasedate": "2025/01/12",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "",
+        "spotify_release_date": "",
+        "spotify_name": "undefined",
+        "spotify_artists": "",
+        "spotify_album": "",
+        "spotify_images": "",
+        "spotify_duration_ms": "",
+        "spotify_popularity": "",
+        "spotify_danceability": "",
+        "spotify_energy": "",
+        "spotify_key": "",
+        "spotify_loudness": "",
+        "spotify_mode": "",
+        "spotify_speechiness": "",
+        "spotify_tempo": "",
+        "spotify_valence": "",
+        "spotify_acousticness": "",
+        "spotify_instrumentalness": "",
+        "spotify_time_signature": "",
+        "spotify_liveness": "",
+        "spotify_artists01": "",
+        "spotify_artists01_id": "",
+        "spotify_artists01_images": "",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Nas-Rakim-Mos-Def-Take-It-Back.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6426,
+            "name": "Mos Def",
+            "slug": "mos-def",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1987",
+              "artistborn": "19731211",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "0Mz5XE0kb1GBnbLQm2VbcO",
+              "spotify_artist_images": "https://i.scdn.co/image/eae06411463fb7ffea6a433c9d22f11418a1f7da",
+              "youtube_channel": "",
+              "wikipedia_page": "Yasiin_Bey"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2775,
+            "name": "Nas",
+            "slug": "nas",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1991",
+              "artistborn": "19730914",
+              "artistdied": "",
+              "artistjpname": "ナズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2610,
+            "name": "Rakim",
+            "slug": "rakim",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1985",
+              "artistborn": "19680128",
+              "artistdied": "",
+              "artistjpname": "ラキム",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "",
+        "ytvideoid": "CVZqnU6u0tQ",
+        "spotify_track_id": ""
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "take-it-back"
+    },
+    {
+      "id": 38332,
+      "date": "2022-11-12T18:19:00",
+      "date_gmt": "2022-11-12T09:19:00",
+      "title": {
+        "rendered": "Wonders"
+      },
+      "content": {
+        "rendered": "\n<p>MichaelPatrickKelly-Wondersft.Rakim</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1987,
+        2610
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5mD5zNNhbuP8O5itNTn4jl",
+        "spotify_release_date": "2022/11/11",
+        "spotify_name": "Wonders(feat.Rakim)",
+        "spotify_artists": "MichaelPatrickKelly,Rakim",
+        "spotify_album": "B.O.A.T.S(ExtendedEdition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730ca9714fc9f2e660d1438b02",
+        "spotify_duration_ms": "209186",
+        "spotify_popularity": "66",
+        "spotify_danceability": "0.581",
+        "spotify_energy": "0.792",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.865",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.105",
+        "spotify_tempo": "165.87",
+        "spotify_valence": "0.765",
+        "spotify_acousticness": "0.126",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.218",
+        "spotify_artists01": "MichaelPatrickKelly",
+        "spotify_artists01_id": "4OGiMt96TFUKkKWf7Imlno",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb054c36bbd68e111e69338d3e",
+        "spotify_artists01_genres": "germanpop",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "Rakim",
+        "spotify_artists02_id": "3PyWEKLWI0vHPmoNrIX0QE",
+        "spotify_artists02_images": "https://i.scdn.co/image/8d38481927c46840efeda04eaf5cd617dc78f53c",
+        "spotify_artists02_genres": "eastcoasthiphop",
+        "spotify_artists02_popularity": "58",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Jjo7xWkD1Cs",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Michael-Patrick-Kelly-Wonders.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1987,
+            "name": "Michael Patrick Kelly",
+            "slug": "michael-patrick-kelly",
+            "acf": {
+              "artistorigin": "IRL",
+              "artistactiveyearstart": "",
+              "artistborn": "19771205",
+              "artistdied": "",
+              "artistjpname": "マイケル・パトリック・ケリー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2610,
+            "name": "Rakim",
+            "slug": "rakim",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1985",
+              "artistborn": "19680128",
+              "artistdied": "",
+              "artistjpname": "ラキム",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "MichaelPatrickKelly,Rakim",
+        "ytvideoid": "Jjo7xWkD1Cs",
+        "spotify_track_id": "5mD5zNNhbuP8O5itNTn4jl"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "wonders-2"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

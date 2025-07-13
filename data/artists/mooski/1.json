@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1587,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/mooski/",
+    "name": "Mooski",
+    "slug": "mooski",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1587",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1587"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1587"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41532,
+      "date": "2020-06-17T11:39:00",
+      "date_gmt": "2020-06-17T02:39:00",
+      "title": {
+        "rendered": "Track Star"
+      },
+      "content": {
+        "rendered": "\n<p>Mooski-TrackStar</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1587
+      ],
+      "tags": [],
+      "genre": [
+        402,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5hChuUMe5iHfjkXgzj1D4b",
+        "spotify_release_date": "2021/2/9",
+        "spotify_name": "Track Star",
+        "spotify_artists": "Mooski",
+        "spotify_album": "Track Star",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e4ba2e0371d692d957568407",
+        "spotify_duration_ms": "199706",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.641",
+        "spotify_energy": "0.598",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.7",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.324",
+        "spotify_tempo": "131.459",
+        "spotify_valence": "0.285",
+        "spotify_acousticness": "0.381",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "5",
+        "spotify_liveness": "0.0921",
+        "spotify_artists01": "Mooski",
+        "spotify_artists01_id": "4NqH3V7GS0Igs1VyGMXEi8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb82155b291fe3f0cd2d5f2b14",
+        "spotify_artists01_genres": "alabama rap",
+        "spotify_artists01_popularity": "41",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "KPfcycMj8BE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mooski-Track-Star.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1587,
+            "name": "Mooski",
+            "slug": "mooski",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Mooski",
+        "ytvideoid": "KPfcycMj8BE",
+        "spotify_track_id": "5hChuUMe5iHfjkXgzj1D4b"
+      },
+      "genre_data": [
+        {
+          "name": "Afrobeats",
+          "slug": "afrobeats",
+          "term_id": 402,
+          "post_count": 135
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "track-star"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

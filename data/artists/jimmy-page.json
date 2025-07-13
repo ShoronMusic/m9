@@ -1,0 +1,80 @@
+{
+  "id": 4923,
+  "count": 0,
+  "description": "Jimmy Page  is an English musician and producer. the guitarist and founder of the rock band Led Zeppelin.",
+  "link": "https://sub.music8.jp/category/jimmy-page/",
+  "name": "Jimmy Page",
+  "slug": "jimmy-page",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1957",
+    "artistborn": "19440109",
+    "artistjpname": "ジミー・ペイジ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "",
+    "spotify_artist_images": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4923",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4923"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4923"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジミー・ペイジ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1957",
+  "occupation": "songwriter, musician, producer"
+}

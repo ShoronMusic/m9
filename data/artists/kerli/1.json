@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 3108,
+    "count": 1,
+    "description": "Kerli is an Estonian singer and songwriter.",
+    "link": "https://sub.music8.jp/category/kerli/",
+    "name": "KERLI",
+    "slug": "kerli",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "EST",
+      "artistactiveyearstart": "2002",
+      "artistborn": "19870207",
+      "artistjpname": "ケルリ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3108",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3108"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3108"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51216,
+      "date": "2023-02-08T16:06:57",
+      "date_gmt": "2023-02-08T07:06:57",
+      "title": {
+        "rendered": "21st Century Kids"
+      },
+      "content": {
+        "rendered": "<p>KERLI - 21st Century Kids</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3108
+      ],
+      "tags": [],
+      "genre": [
+        501
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3vYU6OAjfkrYlzsKdo1VXE",
+        "spotify_release_date": "2023-01-27",
+        "spotify_name": "21st Century Kids",
+        "spotify_artists": "Kerli",
+        "spotify_album": "21st Century Kids",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c9c4bd67516d28c917796899",
+        "spotify_duration_ms": "161790",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.748",
+        "spotify_energy": "0.739",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.422",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0358",
+        "spotify_tempo": "127.992",
+        "spotify_valence": "0.391",
+        "spotify_acousticness": "0.246",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0915",
+        "spotify_artists01": "Kerli",
+        "spotify_artists01_id": "4IFgewC2urR62Fwt7uAU03",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb508a5ac902dc3814b6079682",
+        "spotify_artists01_genres": "candy pop, dark pop, estonian pop, metropopolis",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "0EglSGj_pyA",
+        "ytreleasedate": "2023/02/08"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/KERLI-21st-Century-Kids.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3108,
+            "name": "KERLI",
+            "slug": "kerli",
+            "acf": {
+              "artistorigin": "EST",
+              "artistactiveyearstart": "2002",
+              "artistborn": "19870207",
+              "artistjpname": "ケルリ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kerli",
+        "ytvideoid": "0EglSGj_pyA",
+        "spotify_track_id": "3vYU6OAjfkrYlzsKdo1VXE"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "21st-century-kids"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

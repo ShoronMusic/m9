@@ -1,0 +1,216 @@
+{
+  "artist": {
+    "id": 4520,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/swarm/",
+    "name": "SWARM",
+    "slug": "swarm",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4520",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4520"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4520"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 66128,
+      "date": "2024-04-18T11:02:39",
+      "date_gmt": "2024-04-18T02:02:39",
+      "title": {
+        "rendered": "THE DRAIN"
+      },
+      "content": {
+        "rendered": "<p>BAD OMENS, HEALTH, SWARM - THE DRAIN</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2415,
+        878,
+        4520
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        577
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "3igy4eLQK8M",
+        "ytreleasedate": "2024/04/18",
+        "likecount": "1",
+        "artist_order": "BAD OMENS, HEALTH, SWARM",
+        "spotify_track_id": "0LSgZIdGUQtaXxlFN9thhc",
+        "spotify_release_date": "2024-04-17",
+        "spotify_name": "THE DRAIN",
+        "spotify_artists": "BAD OMENS, HEALTH, SWARM",
+        "spotify_album": "THE DRAIN",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273edeaccc3ae8b843066d91edf",
+        "spotify_duration_ms": "225701",
+        "spotify_popularity": "69",
+        "spotify_danceability": "0.571",
+        "spotify_energy": "0.857",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.163",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0353",
+        "spotify_tempo": "100.008",
+        "spotify_valence": "0.0745",
+        "spotify_acousticness": "0.000506",
+        "spotify_instrumentalness": "0.0225",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.115",
+        "spotify_artists01": "Bad Omens",
+        "spotify_artists01_id": "3Ri4H12KFyu98LMjSoij5V",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1b3edadad88f63936826d4b1",
+        "spotify_artists01_genres": "american metalcore",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "HEALTH",
+        "spotify_artists02_id": "6FfjnGXMhxSsJTuGLWBDth",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5b2bf033db0073228084edb4",
+        "spotify_artists02_genres": "grave wave, metropopolis, noise pop, noise rock",
+        "spotify_artists02_popularity": "57",
+        "spotify_artists03": "SWARM",
+        "spotify_artists03_id": "07OF36h5y4S6s9ckQliaj3",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb11ea352c22e5b6003f637fca",
+        "spotify_artists03_genres": "dark clubbing",
+        "spotify_artists03_popularity": "49",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273edeaccc3ae8b843066d91edf.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2415,
+            "name": "BAD OMENS",
+            "slug": "bad-omens",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "バッド・オーメンズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "3Ri4H12KFyu98LMjSoij5V",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ad84334ca5838c6182c8f8d4"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 878,
+            "name": "HEALTH",
+            "slug": "health",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2005",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヘルス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4520,
+            "name": "SWARM",
+            "slug": "swarm",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "BAD OMENS, HEALTH, SWARM",
+        "spotify_artists": "BAD OMENS, HEALTH, SWARM",
+        "ytvideoid": "3igy4eLQK8M",
+        "spotify_track_id": "0LSgZIdGUQtaXxlFN9thhc"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-drain"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

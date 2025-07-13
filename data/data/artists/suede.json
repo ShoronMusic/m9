@@ -1,0 +1,75 @@
+{
+  "id": 1364,
+  "count": 26,
+  "description": "Suede are an English rock band formed in London in 1989.",
+  "link": "https://sub.music8.jp/category/suede/",
+  "name": "Suede",
+  "slug": "suede",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1989",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "スウェード",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6PHIK3kjWggLtVygsOtpqS",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517457c2ffe35ca34d4fe1627c8b",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "UCdNf1p4SVbcFWKJULVNvl3A",
+    "wikipedia_page": "Suede_(band)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1364",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1364"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1364"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "スウェード",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517457c2ffe35ca34d4fe1627c8b",
+  "artistActiveYearStart": "1989",
+  "occupation": "band"
+}

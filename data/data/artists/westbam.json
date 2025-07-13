@@ -1,0 +1,76 @@
+{
+  "id": 5438,
+  "count": 1,
+  "description": "WestBam is a German DJ and musician.",
+  "link": "https://sub.music8.jp/category/westbam/",
+  "name": "WestBam",
+  "slug": "westbam",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "1983",
+    "artistborn": "19650304",
+    "artistjpname": "ウェストバム",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "Mr. X & Mr. Y | Dr. Motte & WestBam present | Dr. Motte | Love Committee | Members Of Mayday | Hardy Hard | Marusha | Westbam/ML | Raver's Nature | Music Instructor | RMB | Mellow Trax | Lexy & K-Paul | Tomcraft | Elektrochemie LK | Da Hool | DJ Quicksilver | Trance Allstars | Kai Tracid | Taucher",
+    "spotify_artist_id": "1zcj0EOWK3jRZKeh20dnMR",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616d00001e02582bdeecbc10115f5330850f"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5438",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5438"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5438"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ウェストバム",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616d00001e02582bdeecbc10115f5330850f",
+  "artistActiveYearStart": "1983",
+  "occupation": "dj, producer"
+}

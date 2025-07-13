@@ -1,0 +1,166 @@
+{
+  "artist": {
+    "id": 4465,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/joywave/",
+    "name": "Joywave",
+    "slug": "joywave",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4465",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4465"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4465"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65568,
+      "date": "2024-03-22T22:02:31",
+      "date_gmt": "2024-03-22T13:02:31",
+      "title": {
+        "rendered": "Scared"
+      },
+      "content": {
+        "rendered": "<p>Joywave - Scared</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4465
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "_DzXuZWGC2c",
+        "ytreleasedate": "2024/03/22",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0pyoALipqEy5mQ0RN4UAsI",
+        "spotify_release_date": "2024-03-22",
+        "spotify_name": "Scared",
+        "spotify_artists": "Joywave",
+        "spotify_album": "Scared",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738c396017493939a43d71c604",
+        "spotify_duration_ms": "153746",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.431",
+        "spotify_energy": "0.703",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.925",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0872",
+        "spotify_tempo": "179.909",
+        "spotify_valence": "0.31",
+        "spotify_acousticness": "0.0000778",
+        "spotify_instrumentalness": "0.000834",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0839",
+        "spotify_artists01": "Joywave",
+        "spotify_artists01_id": "1UfzhwcOR4yfX7yHTPfC9m",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1e490640504ca496c21ac010",
+        "spotify_artists01_genres": "indietronica, modern alternative rock, modern rock, rochester ny indie, shimmer pop",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2738c396017493939a43d71c604.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4465,
+            "name": "Joywave",
+            "slug": "joywave",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Joywave",
+        "ytvideoid": "_DzXuZWGC2c",
+        "spotify_track_id": "0pyoALipqEy5mQ0RN4UAsI"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "scared"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

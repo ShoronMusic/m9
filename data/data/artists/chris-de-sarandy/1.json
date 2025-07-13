@@ -1,0 +1,227 @@
+{
+  "artist": {
+    "id": 3046,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/chris-de-sarandy/",
+    "name": "Chris de Sarandy",
+    "slug": "chris-de-sarandy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3046",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3046"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3046"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50700,
+      "date": "2023-07-27T14:28:07",
+      "date_gmt": "2023-07-27T05:28:07",
+      "title": {
+        "rendered": "Cynical"
+      },
+      "content": {
+        "rendered": "<p>twocolors x Safri Duo x Chris de Sar, y - Cynical</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3046,
+        3045,
+        2143
+      ],
+      "tags": [],
+      "genre": [
+        670
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2grS8y9w2vVp7sDJ3RnSx9",
+        "spotify_release_date": "2023-06-30",
+        "spotify_name": "Cynical",
+        "spotify_artists": "twocolors, Safri Duo, Chris de Sarandy",
+        "spotify_album": "Cynical",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ba65d77d9fd2a8deada1b7a9",
+        "spotify_duration_ms": "191365",
+        "spotify_popularity": "80",
+        "spotify_danceability": "0.69",
+        "spotify_energy": "0.84",
+        "spotify_key": "11",
+        "spotify_loudness": "-6.947",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0573",
+        "spotify_tempo": "129.935",
+        "spotify_valence": "0.493",
+        "spotify_acousticness": "0.0268",
+        "spotify_instrumentalness": "0.0000306",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.363",
+        "spotify_artists01": "twocolors",
+        "spotify_artists01_id": "7ACEUD7UsmmXrnj4OLt8f9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb696e10126ba80dd6bfc9f6a9",
+        "spotify_artists01_genres": "edm, pop dance, pop edm",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "Safri Duo",
+        "spotify_artists02_id": "2UOx6w3eHpPKc3RBnNV3Rl",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebb966002fe050c42df97d93d0",
+        "spotify_artists02_genres": "eurodance",
+        "spotify_artists02_popularity": "61",
+        "spotify_artists03": "Chris de Sarandy",
+        "spotify_artists03_id": "3xAB6KlDT1mrv1y74c3H3X",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb661501f69790951b994baa1b",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "59",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "a0Ri763zXR8",
+        "ytreleasedate": "2023/07/27"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/twocolors-x-Safri-Duo-x-Chris-de-Sarandy-Cynical.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3046,
+            "name": "Chris de Sarandy",
+            "slug": "chris-de-sarandy",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3045,
+            "name": "Safri Duo",
+            "slug": "safri-duo",
+            "acf": {
+              "artistorigin": "DEN",
+              "artistactiveyearstart": "1990",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": " サフリ・デュオ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2143,
+            "name": "twocolors",
+            "slug": "twocolors",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "twocolors, Safri Duo, Chris de Sarandy",
+        "ytvideoid": "a0Ri763zXR8",
+        "spotify_track_id": "2grS8y9w2vVp7sDJ3RnSx9"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cynical"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

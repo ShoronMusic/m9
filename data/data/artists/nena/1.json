@@ -1,0 +1,305 @@
+{
+  "artist": {
+    "id": 850,
+    "count": 2,
+    "description": "NENA is a German singer , lead vocalist of the band Nena.",
+    "link": "https://sub.music8.jp/category/nena/",
+    "name": "NENA",
+    "slug": "nena",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "1979",
+      "artistborn": "19600324",
+      "artistdied": "",
+      "artistjpname": "ネーナ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/850",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=850"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=850"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52339,
+      "date": "2023-03-25T22:27:40",
+      "date_gmt": "2023-03-25T13:27:40",
+      "title": {
+        "rendered": "Karawane"
+      },
+      "content": {
+        "rendered": "<p>NENA - Karawane</p>\n",
+        "protected": false
+      },
+      "categories": [
+        850
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "3H3CEHFIKCduINgr8C6ml6",
+        "spotify_release_date": "2020-10-16",
+        "spotify_name": "Karawane",
+        "spotify_artists": "Nena",
+        "spotify_album": "LICHT",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d31203bca8246265d5f7190b",
+        "spotify_duration_ms": "283680",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.623",
+        "spotify_energy": "0.823",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.219",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0286",
+        "spotify_tempo": "123.954",
+        "spotify_valence": "0.634",
+        "spotify_acousticness": "0.0566",
+        "spotify_instrumentalness": "0.0000922",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.143",
+        "spotify_artists01": "Nena",
+        "spotify_artists01_id": "6Tz0QRoe083BcOo2YbG9lV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb9e71a338c63f78ed071d783",
+        "spotify_artists01_genres": "german pop, new wave pop",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "TBBqZ7wcZQ4",
+        "ytreleasedate": "2023/03/25"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/NENA-Karawane.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 850,
+            "name": "NENA",
+            "slug": "nena",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1979",
+              "artistborn": "19600324",
+              "artistdied": "",
+              "artistjpname": "ネーナ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Nena",
+        "ytvideoid": "TBBqZ7wcZQ4",
+        "spotify_track_id": "3H3CEHFIKCduINgr8C6ml6"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "nena-karawane"
+    },
+    {
+      "id": 48555,
+      "date": "1984-04-08T21:18:00",
+      "date_gmt": "1984-04-08T12:18:00",
+      "title": {
+        "rendered": "99 Luftballons"
+      },
+      "content": {
+        "rendered": "<p>NENA - 99 Luftballons</p>\n",
+        "protected": false
+      },
+      "categories": [
+        850
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "Fpu5a0Bl8eY",
+        "likecount": "",
+        "spotify_track_id": "4ZhPLoMzZwewHLLjV1J15c",
+        "spotify_release_date": "1983/9/23",
+        "spotify_name": "99 Luftballons",
+        "spotify_artists": "Nena",
+        "spotify_album": "Nena",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730a043c8c45330aa972c46339",
+        "spotify_duration_ms": "232466",
+        "spotify_popularity": "76",
+        "spotify_danceability": "-0.5662396640448577",
+        "spotify_energy": "-1.3014678673602456",
+        "spotify_key": "-0.33779553375659294",
+        "spotify_loudness": "0.1856045171827667",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.1607217005350903",
+        "spotify_tempo": "-1.367271641133369",
+        "spotify_valence": "-0.823246850632579",
+        "spotify_acousticness": "0.0037619381400516086",
+        "spotify_instrumentalness": "-0.4115113853768638",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.4452092180443956",
+        "spotify_artists01": "Nena",
+        "spotify_artists01_id": "6Tz0QRoe083BcOo2YbG9lV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb9e71a338c63f78ed071d783",
+        "spotify_artists01_genres": "german pop, new wave pop",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/NENA-99-Luftballons.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 850,
+            "name": "NENA",
+            "slug": "nena",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1979",
+              "artistborn": "19600324",
+              "artistdied": "",
+              "artistjpname": "ネーナ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Nena",
+        "ytvideoid": "Fpu5a0Bl8eY",
+        "spotify_track_id": "4ZhPLoMzZwewHLLjV1J15c"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "99-luftballons"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

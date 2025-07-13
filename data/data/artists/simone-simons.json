@@ -1,0 +1,86 @@
+{
+  "id": 4592,
+  "count": 3,
+  "description": "Simone Simons is a Dutch singer. the lead singer of Dutch symphonic metal band Epica.",
+  "link": "https://sub.music8.jp/category/simone-simons/",
+  "name": "Simone Simons",
+  "slug": "simone-simons",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NED",
+    "artistactiveyearstart": "2002",
+    "artistborn": "19850117",
+    "artistjpname": "シモーネ・シモンズ",
+    "member": [
+      {
+        "term_id": 2419,
+        "name": "Epica",
+        "slug": "epica",
+        "term_group": 0,
+        "term_taxonomy_id": 2419,
+        "taxonomy": "category",
+        "description": "Epica is a Dutch symphonic metal band.",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4592",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4592"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4592"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "シモーネ・シモンズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2002",
+  "occupation": "singer, songwriter"
+}

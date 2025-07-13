@@ -1,0 +1,72 @@
+{
+  "id": 827,
+  "count": 6,
+  "description": "Simple Minds are a Scottish rock band.",
+  "link": "https://sub.music8.jp/category/simple-minds/",
+  "name": "Simple Minds",
+  "slug": "simple-minds",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1977",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "シンプル・マインズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6hN9F0iuULZYWXppob22Aj",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517483e9da1d7f9d7da25c9e1e53"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/827",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=827"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=827"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "シンプル・マインズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517483e9da1d7f9d7da25c9e1e53",
+  "artistActiveYearStart": "1977",
+  "occupation": "band"
+}

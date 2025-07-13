@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 1965,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/don-broco/",
+    "name": "Don Broco",
+    "slug": "don-broco",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1965",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1965"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1965"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39718,
+      "date": "2022-04-26T22:25:00",
+      "date_gmt": "2022-04-26T13:25:00",
+      "title": {
+        "rendered": "Fingernails"
+      },
+      "content": {
+        "rendered": "\n<p>DonBroco-Fingernails</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1965
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        553,
+        579
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": null,
+        "spotify_track_id": "1aOt6LvXOV6I8dv1A5Diia",
+        "spotify_release_date": "2022/4/25",
+        "spotify_name": "Fingernails",
+        "spotify_artists": "DONBROCO",
+        "spotify_album": "Fingernails",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730fdc224e3b42a5d38a8508e9",
+        "spotify_duration_ms": "245243",
+        "spotify_popularity": "53",
+        "spotify_danceability": "0.613",
+        "spotify_energy": "0.946",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.522",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.113",
+        "spotify_tempo": "141.994",
+        "spotify_valence": "0.374",
+        "spotify_acousticness": "0.00391",
+        "spotify_instrumentalness": "0.0338",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.11",
+        "spotify_artists01": "DONBROCO",
+        "spotify_artists01_id": "1aOt6LvXOV6I8dv1A5Diia",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcbe17add82f96dfbbc2f3fb3",
+        "spotify_artists01_genres": "britishalternativerock,modernalternativerock",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Don-Broco-Fingernails.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1965,
+            "name": "Don Broco",
+            "slug": "don-broco",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "DONBROCO",
+        "ytvideoid": "",
+        "spotify_track_id": "1aOt6LvXOV6I8dv1A5Diia"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Industrial rock",
+          "slug": "industrial-rock",
+          "term_id": 579,
+          "post_count": 99
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "fingernails"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

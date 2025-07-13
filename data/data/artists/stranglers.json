@@ -1,0 +1,69 @@
+{
+  "id": 1003,
+  "count": 2,
+  "description": "The Stranglers are an English rock band.",
+  "link": "https://sub.music8.jp/category/stranglers/",
+  "name": "Stranglers",
+  "slug": "stranglers",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1974",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ストラングラーズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ]
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1003",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1003"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1003"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ストラングラーズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1974",
+  "occupation": "band"
+}

@@ -1,0 +1,210 @@
+{
+  "artist": {
+    "id": 3197,
+    "count": 1,
+    "description": "Junoflo is a Korean-American rapper.",
+    "link": "https://sub.music8.jp/category/junoflo/",
+    "name": "Junoflo",
+    "slug": "junoflo",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "KOR",
+      "artistactiveyearstart": "2015",
+      "artistborn": "19921125",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3197",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3197"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3197"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52083,
+      "date": "2019-06-05T18:19:13",
+      "date_gmt": "2019-06-05T09:19:13",
+      "title": {
+        "rendered": "luv luv"
+      },
+      "content": {
+        "rendered": "<p>RIRI - luv luv feat. Junoflo</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3197,
+        3196
+      ],
+      "tags": [],
+      "genre": [
+        405
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6tVGDikPR5tNtKvWiSKibE",
+        "spotify_release_date": "2019-03-13",
+        "spotify_name": "luv luv",
+        "spotify_artists": "RIRI, Junoflo",
+        "spotify_album": "luv luv",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27301234df72ce2c5fa75a0d5f0",
+        "spotify_duration_ms": "208687",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.472",
+        "spotify_energy": "0.592",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.977",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.394",
+        "spotify_tempo": "159.992",
+        "spotify_valence": "0.693",
+        "spotify_acousticness": "0.449",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0835",
+        "spotify_artists01": "RIRI",
+        "spotify_artists01_id": "2UmhByzSum8X2lQZ7pWvWp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebba90b15dc56c52dad1c06511",
+        "spotify_artists01_genres": "japanese r&b",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "Junoflo",
+        "spotify_artists02_id": "5ZjBaiZiRUZx4AmlzOOc9R",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebea3e36b0af7d7bf4e6b46062",
+        "spotify_artists02_genres": "k-rap",
+        "spotify_artists02_popularity": "42",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "yun8BKaMXMM",
+        "ytreleasedate": "2019/06/05"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/RIRI-luv-luv-feat.-Junoflo.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3197,
+            "name": "Junoflo",
+            "slug": "junoflo",
+            "acf": {
+              "artistorigin": "KOR",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19921125",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3196,
+            "name": "RIRI",
+            "slug": "riri",
+            "acf": {
+              "artistorigin": "JPN",
+              "artistactiveyearstart": "",
+              "artistborn": "19991105",
+              "artistjpname": "リリ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "RIRI, Junoflo",
+        "ytvideoid": "yun8BKaMXMM",
+        "spotify_track_id": "6tVGDikPR5tNtKvWiSKibE"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative R&amp;B",
+          "slug": "alternative-rb",
+          "term_id": 405,
+          "post_count": 348
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "luv-luv"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

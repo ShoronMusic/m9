@@ -1,0 +1,76 @@
+{
+  "id": 2124,
+  "count": 6,
+  "description": "Alesso is a Swedish DJ and music producer.",
+  "link": "https://sub.music8.jp/category/alesso/",
+  "name": "Alesso",
+  "slug": "alesso",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2010",
+    "artistborn": "19910707",
+    "artistdied": "",
+    "artistjpname": "アレッソ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4AVFqumd2ogHFlRbKIjp1t",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174327e7178289c299c48e12577"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2124",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2124"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2124"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アレッソ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174327e7178289c299c48e12577",
+  "artistActiveYearStart": "2010",
+  "occupation": "dj, producer"
+}

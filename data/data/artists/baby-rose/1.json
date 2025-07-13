@@ -1,0 +1,242 @@
+{
+  "artist": {
+    "id": 3703,
+    "count": 1,
+    "description": "Baby Rose is an American singer.",
+    "link": "https://sub.music8.jp/category/baby-rose/",
+    "name": "Baby Rose",
+    "slug": "baby-rose",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2017",
+      "artistborn": "19940805",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3703",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3703"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3703"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 56681,
+      "date": "2023-02-10T19:53:11",
+      "date_gmt": "2023-02-10T10:53:11",
+      "title": {
+        "rendered": "I Wont Tell"
+      },
+      "content": {
+        "rendered": "<p>Baby Rose - I Won't Tell</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3703,
+        3704
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "3rot29NUumMnFoeZCq7ynk",
+        "spotify_release_date": "2023-04-28",
+        "spotify_name": "I Won't Tell",
+        "spotify_artists": "Baby Rose, Smino",
+        "spotify_album": "Through and Through",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739f2b50fd5561f2d9a00ead29",
+        "spotify_duration_ms": "219240",
+        "spotify_popularity": "45",
+        "spotify_danceability": "0.879",
+        "spotify_energy": "0.489",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.064",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.092",
+        "spotify_tempo": "123.017",
+        "spotify_valence": "0.627",
+        "spotify_acousticness": "0.0163",
+        "spotify_instrumentalness": "0.000184",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.888",
+        "spotify_artists01": "Baby Rose",
+        "spotify_artists01_id": "6Z4JcgqrqgysyHIPRtDIHo",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7d9bb6a988d9eec89fc293b2",
+        "spotify_artists01_genres": "alternative r&b",
+        "spotify_artists01_popularity": "42",
+        "spotify_artists02": "Smino",
+        "spotify_artists02_id": "1ybINI1qPiFbwDXamRtwxD",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb665eca0564934b82f47c49bc",
+        "spotify_artists02_genres": "alternative r&b",
+        "spotify_artists02_popularity": "64",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "_ghdta_cUNI",
+        "ytreleasedate": "2023/02/10"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Baby-Rose-I-Wont-Tell-feat.-Smino.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3703,
+            "name": "Baby Rose",
+            "slug": "baby-rose",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "19940805",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3704,
+            "name": "Smino",
+            "slug": "smino",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2009",
+              "artistborn": "19911002",
+              "artistjpname": "スミノ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Baby Rose, Smino",
+        "ytvideoid": "_ghdta_cUNI",
+        "spotify_track_id": "3rot29NUumMnFoeZCq7ynk"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "i-wont-tell"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

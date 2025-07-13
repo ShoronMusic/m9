@@ -1,0 +1,81 @@
+{
+  "id": 1282,
+  "count": 2,
+  "description": "DREAMERS is an American rock band.",
+  "link": "https://sub.music8.jp/category/dreamers/",
+  "name": "DREAMERS",
+  "slug": "dreamers",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2014",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ドリーマーズ",
+    "member": [
+      {
+        "errors": {
+          "invalid_term": [
+            "空のターム。"
+          ]
+        },
+        "error_data": []
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Man Who | Twin Wild | Vinyl Theatre | Unlikely Candidates | Demob Happy | Arrested Youth | Side Saddle | Joywave (joywave) | Midnight Mantra | Wrecks | Night Riots | Storytell | Cemetery Sun | TWIN XL (twin-xl) | WEATHERS (weathers) | Magh Wolf | Dark & Nightshade | New Politics | Smallpools | 888",
+    "spotify_artist_id": "1FgsVeOhRYuSw2ghkIXV0A",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c2b7e7641ec4403a79010e04"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1282",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1282"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1282"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ドリーマーズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174c2b7e7641ec4403a79010e04",
+  "artistActiveYearStart": "2014",
+  "occupation": "band"
+}

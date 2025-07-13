@@ -1,0 +1,469 @@
+{
+  "artist": {
+    "id": 2131,
+    "count": 3,
+    "description": "ITA",
+    "link": "https://sub.music8.jp/category/mazare/",
+    "name": "Mazare",
+    "slug": "mazare",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2131",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2131"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2131"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 78107,
+      "date": "2024-06-04T16:58:12",
+      "date_gmt": "2024-06-04T07:58:12",
+      "title": {
+        "rendered": "Generation Gap"
+      },
+      "content": {
+        "rendered": "<p>Mazare, Dead Pony - Generation Gap</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5659,
+        2131
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        487
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "9ZCpgvbQUB8",
+        "ytreleasedate": "2024/06/04",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5FQ9dxFbkBO7tGYNnE8gin",
+        "spotify_release_date": "2024-06-03",
+        "spotify_name": "Generation Gap",
+        "spotify_artists": "Mazare, Dead Pony",
+        "spotify_album": "Generation Gap",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273dea8811ad6bf874318fd2fb3",
+        "spotify_duration_ms": "181363",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.45",
+        "spotify_energy": "0.979",
+        "spotify_key": "9",
+        "spotify_loudness": "-3.119",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0682",
+        "spotify_tempo": "176.18",
+        "spotify_valence": "0.219",
+        "spotify_acousticness": "0.00389",
+        "spotify_instrumentalness": "0.0000329",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.536",
+        "spotify_artists01": "Mazare",
+        "spotify_artists01_id": "4yzZdtb9UicgY2M23eEtL9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcdc7fd3671e07196e3dd9eb6",
+        "spotify_artists01_genres": "dancefloor dnb, melodic dubstep",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "Dead Pony",
+        "spotify_artists02_id": "3lGO6uBIzoFyU6OoGMER1B",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb48f0ff2e027db1a1c4cfdc80",
+        "spotify_artists02_genres": "scottish indie rock",
+        "spotify_artists02_popularity": "37",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273dea8811ad6bf874318fd2fb3.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5659,
+            "name": "Dead Pony",
+            "slug": "dead-pony",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "デッド・ポニー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Spyres | swim school (swim-school) | Gallus | Roly Mo | Lucia & The Best Boys | Coach Party | Baby Strange | Rascalton | Gaffa Tape Sandy | SNAYX | Kid Kapichi (kid-kapichi) | Pleasure Heads | Beach Riot | Dunts | Van T's | Voodoos | Lauran Hibberd (lauran-hibberd) | Mysterines (mysterines) | Declan Welsh and The Decadent West | Black Honey (black-honey)",
+              "spotify_artist_id": "3lGO6uBIzoFyU6OoGMER1B",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517448f0ff2e027db1a1c4cfdc80"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2131,
+            "name": "Mazare",
+            "slug": "mazare",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Mazare, Dead Pony",
+        "ytvideoid": "9ZCpgvbQUB8",
+        "spotify_track_id": "5FQ9dxFbkBO7tGYNnE8gin"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "generation-gap"
+    },
+    {
+      "id": 38070,
+      "date": "2023-01-27T23:51:00",
+      "date_gmt": "2023-01-27T14:51:00",
+      "title": {
+        "rendered": "Stay"
+      },
+      "content": {
+        "rendered": "<p>Mazare&amp;JoshRubin-Stay</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2375,
+        2131
+      ],
+      "tags": [],
+      "genre": [
+        487
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "03QrAtqu3Fx09IyZ9H5ycg",
+        "spotify_release_date": "2023/1/20",
+        "spotify_name": "Stay",
+        "spotify_artists": "Mazare, Josh Rubin",
+        "spotify_album": "Stay",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734b11984ce47ca826096bd49d",
+        "spotify_duration_ms": "256363",
+        "spotify_popularity": "29",
+        "spotify_danceability": "0.38",
+        "spotify_energy": "0.888",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.198",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.169",
+        "spotify_tempo": "175.968",
+        "spotify_valence": "0.389",
+        "spotify_acousticness": "0.0311",
+        "spotify_instrumentalness": "5.36E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.362",
+        "spotify_artists01": "Mazare",
+        "spotify_artists01_id": "4yzZdtb9UicgY2M23eEtL9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb81ccad866215e8e2a7c6ff0b",
+        "spotify_artists01_genres": "dancefloor dnb, melodic dubstep",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "Josh Rubin",
+        "spotify_artists02_id": "7e1qyhWgdVEnEjG7Sbb5W0",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebd354d221bb56b8c69270c982",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "38",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "uRteam0MD-A",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mazare-Josh-Rubin-Stay.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2375,
+            "name": "Josh Rubin",
+            "slug": "josh-rubin",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2131,
+            "name": "Mazare",
+            "slug": "mazare",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Mazare, Josh Rubin",
+        "ytvideoid": "uRteam0MD-A",
+        "spotify_track_id": "03QrAtqu3Fx09IyZ9H5ycg"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "stay-3"
+    },
+    {
+      "id": 39925,
+      "date": "2022-03-27T22:16:00",
+      "date_gmt": "2022-03-27T13:16:00",
+      "title": {
+        "rendered": "Into The Light"
+      },
+      "content": {
+        "rendered": "\n<p>SkybreakxEhallzxALLEYCVT-IntoTheLight(MazareRemix)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2130,
+        2129,
+        2131,
+        2128
+      ],
+      "tags": [],
+      "genre": [
+        487,
+        488,
+        529
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6OM4GmDd7oOTqlFejzf0b9",
+        "spotify_release_date": "2022/3/16",
+        "spotify_name": "IntoTheLight-MazareRemix",
+        "spotify_artists": "Skybreak,Ehallz,ALLEYCVT,Mazare",
+        "spotify_album": "Unity(Remixes)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737fce29ffe6fa488834d2cef9",
+        "spotify_duration_ms": "245454",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.288",
+        "spotify_energy": "0.843",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.576",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0561",
+        "spotify_tempo": "176.142",
+        "spotify_valence": "0.152",
+        "spotify_acousticness": "0.0127",
+        "spotify_instrumentalness": "1.75E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.188",
+        "spotify_artists01": "Skybreak",
+        "spotify_artists01_id": "2858y2JiMYIst8dY4WXGi3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5022f22dbd64de838a4e9527",
+        "spotify_artists01_genres": "dubstep,melodicdubstep",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "Ehallz",
+        "spotify_artists02_id": "0xOo3C7mSM5jl3SUq3XtHL",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc147d810a9e362a5bf194d5b",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "25",
+        "spotify_artists03": "ALLEYCVT",
+        "spotify_artists03_id": "4JxRK2gxmri7L7OWaxnVD1",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb412805cfafe3725b6fc0acbc",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "38",
+        "spotify_artists04": "Mazare",
+        "spotify_artists04_id": "4yzZdtb9UicgY2M23eEtL9",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5eb81ccad866215e8e2a7c6ff0b",
+        "spotify_artists04_genres": "dancefloordnb,melodicdubstep",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5kIiCCopSIo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Skybreak-x-Ehallz-x-ALLEYCVT-Into-The-Light-Mazare-Remix.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2130,
+            "name": "ALLEYCVT",
+            "slug": "alleycvt",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2129,
+            "name": "Ehallz",
+            "slug": "ehallz",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2131,
+            "name": "Mazare",
+            "slug": "mazare",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2128,
+            "name": "Skybreak",
+            "slug": "skybreak",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Skybreak,Ehallz,ALLEYCVT,Mazare",
+        "ytvideoid": "5kIiCCopSIo",
+        "spotify_track_id": "6OM4GmDd7oOTqlFejzf0b9"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        },
+        {
+          "name": "Dubstep",
+          "slug": "dubstep",
+          "term_id": 488,
+          "post_count": 21
+        },
+        {
+          "name": "Future bass",
+          "slug": "future-bass",
+          "term_id": 529,
+          "post_count": 49
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "into-the-light"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

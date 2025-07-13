@@ -1,0 +1,183 @@
+{
+  "artist": {
+    "id": 3444,
+    "count": 1,
+    "description": "PLAZA is a Canadian singer, songwriter and producer.",
+    "link": "https://sub.music8.jp/category/plaza/",
+    "name": "PLAZA",
+    "slug": "plaza",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "CAN",
+      "artistactiveyearstart": "2016",
+      "artistborn": "",
+      "artistjpname": "プラザ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3444",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3444"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3444"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 54209,
+      "date": "2023-10-07T10:43:09",
+      "date_gmt": "2023-10-07T01:43:09",
+      "title": {
+        "rendered": "Other Side"
+      },
+      "content": {
+        "rendered": "<p>PLAZA - Other Side</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3444
+      ],
+      "tags": [],
+      "genre": [
+        405
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3s6JticzW7IHZiHN5e0YO9",
+        "spotify_release_date": "2023-09-29",
+        "spotify_name": "Other Side",
+        "spotify_artists": "PLAZA",
+        "spotify_album": "Other Side",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f7e29f7f57db83a06c85d98a",
+        "spotify_duration_ms": "193533",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.494",
+        "spotify_energy": "0.625",
+        "spotify_key": "7",
+        "spotify_loudness": "-8.255",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0528",
+        "spotify_tempo": "159.99",
+        "spotify_valence": "0.168",
+        "spotify_acousticness": "0.00848",
+        "spotify_instrumentalness": "0.00000682",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.22",
+        "spotify_artists01": "PLAZA",
+        "spotify_artists01_id": "50Fwc6LYQ2aYsWVN10hhTY",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb54a05fbd86929fc38f9d879d",
+        "spotify_artists01_genres": "canadian contemporary r&b, dark r&b, trap soul",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "FJ9mk-90CUU",
+        "ytreleasedate": "2023/10/07"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/PLAZA-Other-Side.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3444,
+            "name": "PLAZA",
+            "slug": "plaza",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "プラザ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "PLAZA",
+        "ytvideoid": "FJ9mk-90CUU",
+        "spotify_track_id": "3s6JticzW7IHZiHN5e0YO9"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative R&amp;B",
+          "slug": "alternative-rb",
+          "term_id": 405,
+          "post_count": 348
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "other-side"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

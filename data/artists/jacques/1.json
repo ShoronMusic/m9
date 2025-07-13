@@ -1,0 +1,197 @@
+{
+  "artist": {
+    "id": 3739,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/jacques/",
+    "name": "Jacques",
+    "slug": "jacques",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FRA",
+      "artistactiveyearstart": "",
+      "artistborn": "19911218",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "55i4AnS7E58y41UwE0vvQh",
+      "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174be592b42f329a7abb58d83a9"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3739",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3739"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3739"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57086,
+      "date": "2023-10-25T18:21:13",
+      "date_gmt": "2023-10-25T09:21:13",
+      "title": {
+        "rendered": "Absolve"
+      },
+      "content": {
+        "rendered": "<p>Jacques - Absolve</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3739
+      ],
+      "tags": [],
+      "genre": [
+        576,
+        630
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "4vdkt6qe7CR5mgahJ6JWsF",
+        "spotify_release_date": "2023-10-25",
+        "spotify_name": "Absolve",
+        "spotify_artists": "Jacques",
+        "spotify_album": "Absolve",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27314612d17827548a6baa191c4",
+        "spotify_duration_ms": "230488",
+        "spotify_popularity": "17",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Jacques",
+        "spotify_artists01_id": "55i4AnS7E58y41UwE0vvQh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbe592b42f329a7abb58d83a9",
+        "spotify_artists01_genres": "french indie pop, french indietronica",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "BwZkIEQDj10",
+        "ytreleasedate": "2023/10/25",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/jacques-absolve.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3739,
+            "name": "Jacques",
+            "slug": "jacques",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "",
+              "artistborn": "19911218",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "55i4AnS7E58y41UwE0vvQh",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174be592b42f329a7abb58d83a9"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jacques",
+        "ytvideoid": "BwZkIEQDj10",
+        "spotify_track_id": "4vdkt6qe7CR5mgahJ6JWsF"
+      },
+      "genre_data": [
+        {
+          "name": "Indietronica",
+          "slug": "indietronica",
+          "term_id": 576,
+          "post_count": 60
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "absolve"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

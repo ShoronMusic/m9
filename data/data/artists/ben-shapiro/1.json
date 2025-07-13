@@ -1,0 +1,224 @@
+{
+  "artist": {
+    "id": 4187,
+    "count": 1,
+    "description": "Ben Shapiro ",
+    "link": "https://sub.music8.jp/category/ben-shapiro/",
+    "name": "Ben Shapiro",
+    "slug": "ben-shapiro",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4187",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4187"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4187"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61897,
+      "date": "2024-01-27T21:28:12",
+      "date_gmt": "2024-01-27T12:28:12",
+      "title": {
+        "rendered": "Facts"
+      },
+      "content": {
+        "rendered": "<p> Tom MacDonald, Ben Shapiro - Facts</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4187,
+        3314
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "ytvideoid": "5kGpohEpuTE",
+        "ytreleasedate": "2024/01/27",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2ue12T2b9JXlErJJ6NSs8W",
+        "spotify_release_date": "2024-01-26",
+        "spotify_name": "FACTS",
+        "spotify_artists": "Tom MacDonald, Ben Shapiro",
+        "spotify_album": "FACTS",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27384572655b174b21fc406f989",
+        "spotify_duration_ms": "200689",
+        "spotify_popularity": "71",
+        "spotify_danceability": "0.683",
+        "spotify_energy": "0.848",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.16",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.211",
+        "spotify_tempo": "145.125",
+        "spotify_valence": "0.549",
+        "spotify_acousticness": "0.0271",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.162",
+        "spotify_artists01": "Tom MacDonald",
+        "spotify_artists01_id": "6DvlemMOlMH6VD9tB7BPRf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4c0a5ddb0ec9d0a3c7f91f8e",
+        "spotify_artists01_genres": "bc underground hip hop, country rap, maga rap",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "Ben Shapiro",
+        "spotify_artists02_id": "3gkJWMJxN26opykgDVsYtY",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "49",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tom-MacDonald-Ben-Shapiro-Facts.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4187,
+            "name": "Ben Shapiro",
+            "slug": "ben-shapiro",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3314,
+            "name": "Tom MacDonald",
+            "slug": "tom-macdonald",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2003",
+              "artistborn": "19880921",
+              "artistjpname": "トム・マクドナルド",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "6DvlemMOlMH6VD9tB7BPRf",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051744c0a5ddb0ec9d0a3c7f91f8e",
+              "youtube_channel": "UCElGBUWDCa05jRzc2PfmGqQ",
+              "wikipedia_page": "Tom_MacDonald_(rapper)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Tom MacDonald, Ben Shapiro",
+        "ytvideoid": "5kGpohEpuTE",
+        "spotify_track_id": "2ue12T2b9JXlErJJ6NSs8W"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "facts"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,82 @@
+{
+  "id": 4346,
+  "count": 2,
+  "description": "Arrested Development is an American hip hop group.",
+  "link": "https://sub.music8.jp/category/arrested-development/",
+  "name": "ARRESTED DEVELOPMENT",
+  "slug": "arrested-development",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1988",
+    "artistborn": "",
+    "artistjpname": "アレステッド・ディベロップメント",
+    "member": [
+      {
+        "term_id": 1215,
+        "name": "Madonna",
+        "slug": "madonna",
+        "term_group": 0,
+        "term_taxonomy_id": 1215,
+        "taxonomy": "category",
+        "description": "Madonna is an American singer, songwriter, and actress.",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "group",
+        "label": "Group"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4346",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4346"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4346"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アレステッド・ディベロップメント",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1988",
+  "occupation": "group"
+}

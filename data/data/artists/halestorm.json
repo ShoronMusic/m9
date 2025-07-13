@@ -1,0 +1,72 @@
+{
+  "id": 5012,
+  "count": 3,
+  "description": "Halestorm is an American rock band.",
+  "link": "https://sub.music8.jp/category/halestorm/",
+  "name": "Halestorm",
+  "slug": "halestorm",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1997",
+    "artistborn": "",
+    "artistjpname": "ヘイルストーム",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6om12Ev5ppgoMy3OYSoech",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517435d58aafc40646040e1f5f16"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5012",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5012"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5012"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ヘイルストーム",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517435d58aafc40646040e1f5f16",
+  "artistActiveYearStart": "1997",
+  "occupation": "band"
+}

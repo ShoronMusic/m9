@@ -1,0 +1,194 @@
+{
+  "artist": {
+    "id": 1878,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/just-friends/",
+    "name": "Just Friends",
+    "slug": "just-friends",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1878",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1878"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1878"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38755,
+      "date": "2022-09-13T11:09:00",
+      "date_gmt": "2022-09-13T02:09:00",
+      "title": {
+        "rendered": "Fever"
+      },
+      "content": {
+        "rendered": "\n<p>JustFriends-Fever</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1878
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        527,
+        657,
+        669
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4xbpIvhaW6Zx2XK0t5M4A5",
+        "spotify_release_date": "2022/3/4",
+        "spotify_name": "Fever",
+        "spotify_artists": "JustFriends",
+        "spotify_album": "Hella",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27339159a7c8de6a746211e8a5e",
+        "spotify_duration_ms": "191861",
+        "spotify_popularity": "45",
+        "spotify_danceability": "0.757",
+        "spotify_energy": "0.732",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.165",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0528",
+        "spotify_tempo": "79.998",
+        "spotify_valence": "0.857",
+        "spotify_acousticness": "0.101",
+        "spotify_instrumentalness": "2.08E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.316",
+        "spotify_artists01": "JustFriends",
+        "spotify_artists01_id": "5489Aao4KjbdU9l5CUadOa",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb38202d32848b6da10c672e0b",
+        "spotify_artists01_genres": "diyemo,indiepunk",
+        "spotify_artists01_popularity": "36",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "La91xUKw35o",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Just-Friends-Fever.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1878,
+            "name": "Just Friends",
+            "slug": "just-friends",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "JustFriends",
+        "ytvideoid": "La91xUKw35o",
+        "spotify_track_id": "4xbpIvhaW6Zx2XK0t5M4A5"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Funk rock",
+          "slug": "funk-rock",
+          "term_id": 527,
+          "post_count": 153
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "fever-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

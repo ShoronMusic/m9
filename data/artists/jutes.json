@@ -1,0 +1,76 @@
+{
+  "id": 3198,
+  "count": 3,
+  "description": "",
+  "link": "https://sub.music8.jp/category/jutes/",
+  "name": "Jutes",
+  "slug": "jutes",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 1037,
+        "name": "Simply Red",
+        "slug": "simply-red",
+        "term_group": 0,
+        "term_taxonomy_id": 1037,
+        "taxonomy": "category",
+        "description": "Simply Red are a British soul and pop band.",
+        "parent": 0,
+        "count": 29,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3198",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3198"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3198"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

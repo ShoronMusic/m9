@@ -1,0 +1,77 @@
+{
+  "id": 1712,
+  "count": 1,
+  "description": "Snow is a Canadian reggae musician.",
+  "link": "https://sub.music8.jp/category/snow/",
+  "name": "Snow",
+  "slug": "snow",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "1989",
+    "artistborn": "19691030",
+    "artistdied": "",
+    "artistjpname": "スノー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1712",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1712"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1712"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "スノー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1989",
+  "occupation": "singer, rapper, musician"
+}

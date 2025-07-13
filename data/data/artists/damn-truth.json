@@ -1,0 +1,72 @@
+{
+  "id": 5895,
+  "count": 2,
+  "description": "The Damn Truth is a Canadian rock band.",
+  "link": "https://sub.music8.jp/category/damn-truth/",
+  "name": "Damn Truth",
+  "slug": "damn-truth",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3aEHKmYKru5l6OkG9IOIPb",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e6d177869f7f0809aa9d96f5"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5895",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5895"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5895"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174e6d177869f7f0809aa9d96f5",
+  "artistActiveYearStart": "",
+  "occupation": "band"
+}

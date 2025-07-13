@@ -1,0 +1,83 @@
+{
+  "id": 5380,
+  "count": 3,
+  "description": "Lucas &amp; Steve are a Dutch house music duo formed by DJs and record producers.",
+  "link": "https://sub.music8.jp/category/lucas-steve/",
+  "name": "Lucas &amp; Steve",
+  "slug": "lucas-steve",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NED",
+    "artistactiveyearstart": "2010",
+    "artistborn": "",
+    "artistjpname": "ルーカス & スティーブ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      },
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5wwneIFdawNgQ7GvKK29Z3",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174260048f788daa5c85ffee4d3",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "UCIAzXmeDqLu-HY9yJ5Rd4pg",
+    "wikipedia_page": "Lucas_%26_Steve"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5380",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5380"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5380"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ルーカス & スティーブ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174260048f788daa5c85ffee4d3",
+  "artistActiveYearStart": "2010",
+  "occupation": "duo, dj, producer"
+}

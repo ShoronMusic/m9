@@ -1,0 +1,208 @@
+{
+  "artist": {
+    "id": 3877,
+    "count": 1,
+    "description": "Davina Michelle is a Dutch singer.",
+    "link": "https://sub.music8.jp/category/davina-michelle/",
+    "name": "Davina Michelle",
+    "slug": "davina-michelle",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "NED",
+      "artistactiveyearstart": "2017",
+      "artistborn": "19951112",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3877",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3877"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3877"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58495,
+      "date": "2023-03-27T18:04:25",
+      "date_gmt": "2023-03-27T09:04:25",
+      "title": {
+        "rendered": "Heartbeat"
+      },
+      "content": {
+        "rendered": "<p>Davina Michelle - Heartbeat</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3877
+      ],
+      "tags": [],
+      "genre": [
+        466,
+        470,
+        521
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4QlRUzRXS4fCyrlVBLXg8r",
+        "spotify_release_date": "2023-01-05",
+        "spotify_name": "Heartbeat",
+        "spotify_artists": "Davina Michelle",
+        "spotify_album": "Heartbeat",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273be48d8bcccf8ab22b0dca805",
+        "spotify_duration_ms": "198803",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.623",
+        "spotify_energy": "0.629",
+        "spotify_key": "4",
+        "spotify_loudness": "-9.985",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0519",
+        "spotify_tempo": "110.503",
+        "spotify_valence": "0.786",
+        "spotify_acousticness": "0.067",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.676",
+        "spotify_artists01": "Davina Michelle",
+        "spotify_artists01_id": "6OG9fZ1LKXyL0hShRmmnq1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb91e2d57a7627801fe092c7a7",
+        "spotify_artists01_genres": "dutch pop",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "yHPjU6ujot8",
+        "ytreleasedate": "2023/03/27",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Davina-Michelle-Heartbeat.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3877,
+            "name": "Davina Michelle",
+            "slug": "davina-michelle",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "2017",
+              "artistborn": "19951112",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Davina Michelle",
+        "ytvideoid": "yHPjU6ujot8",
+        "spotify_track_id": "4QlRUzRXS4fCyrlVBLXg8r"
+      },
+      "genre_data": [
+        {
+          "name": "Country pop",
+          "slug": "country-pop",
+          "term_id": 466,
+          "post_count": 142
+        },
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Folktronica",
+          "slug": "folktronica",
+          "term_id": 521,
+          "post_count": 27
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "heartbeat-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

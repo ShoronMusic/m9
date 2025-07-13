@@ -1,0 +1,466 @@
+{
+  "artist": {
+    "id": 2715,
+    "count": 3,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/billy-gillies/",
+    "name": "Billy Gillies",
+    "slug": "billy-gillies",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2715",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2715"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2715"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 80020,
+      "date": "2024-07-05T20:09:50",
+      "date_gmt": "2024-07-05T11:09:50",
+      "title": {
+        "rendered": "Fair"
+      },
+      "content": {
+        "rendered": "<p>Billy Gillies, Betsy - Fair</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5764,
+        2715
+      ],
+      "tags": [],
+      "genre": [
+        747,
+        5573
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "KdYjx6o9Gyw",
+        "ytreleasedate": "2024/07/05",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7f9fJAUu3EXbzzOmZA4QRC",
+        "spotify_release_date": "2024-06-14",
+        "spotify_name": "Fair",
+        "spotify_artists": "Billy Gillies, Betsy",
+        "spotify_album": "Fair",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734771710d77d64d3d0b539ca3",
+        "spotify_duration_ms": "208111",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.282",
+        "spotify_energy": "0.921",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.815",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0961",
+        "spotify_tempo": "143.096",
+        "spotify_valence": "0.0773",
+        "spotify_acousticness": "0.0324",
+        "spotify_instrumentalness": "0.000106",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0943",
+        "spotify_artists01": "Billy Gillies",
+        "spotify_artists01_id": "0kmovylAP20DMJhS3BE2CO",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5a1602d58b376feaf45986c4",
+        "spotify_artists01_genres": "bouncy house, tech trance",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "Betsy",
+        "spotify_artists02_id": "58FAQGIDRMXK5AsxJu9YNp",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb9fa24e2b4a517814a033a531",
+        "spotify_artists02_genres": "uk pop",
+        "spotify_artists02_popularity": "42",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2734771710d77d64d3d0b539ca3.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5764,
+            "name": "Betsy",
+            "slug": "betsy",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "7giHVN9ZtS1y4CtkjNT6pK",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749dd91e804aa207bd8be6ff1f"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2715,
+            "name": "Billy Gillies",
+            "slug": "billy-gillies",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Billy Gillies, Betsy",
+        "ytvideoid": "KdYjx6o9Gyw",
+        "spotify_track_id": "7f9fJAUu3EXbzzOmZA4QRC"
+      },
+      "genre_data": [
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        },
+        {
+          "name": "Vocal Trance",
+          "slug": "vocal-trance",
+          "term_id": 5573,
+          "post_count": 11
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "fair"
+    },
+    {
+      "id": 56195,
+      "date": "2023-07-28T22:33:44",
+      "date_gmt": "2023-07-28T13:33:44",
+      "title": {
+        "rendered": "DNA"
+      },
+      "content": {
+        "rendered": "<p>Billy Gillies - DNA (Loving You) [feat. Hannah Boleyn]</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2715,
+        3661
+      ],
+      "tags": [],
+      "genre": [
+        747
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6ibDVMcMUNqZ5eXT9sD4Vy",
+        "spotify_release_date": "2023-07-28",
+        "spotify_name": "DNA (Loving You) [feat. Hannah Boleyn]",
+        "spotify_artists": "Billy Gillies, Hannah Boleyn",
+        "spotify_album": "DNA (Loving You) [feat. Hannah Boleyn]",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27360c614f7030dd6078ee0d3f0",
+        "spotify_duration_ms": "164919",
+        "spotify_popularity": "77",
+        "spotify_danceability": "0.731",
+        "spotify_energy": "0.867",
+        "spotify_key": "9",
+        "spotify_loudness": "-6.169",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0576",
+        "spotify_tempo": "142.048",
+        "spotify_valence": "0.23",
+        "spotify_acousticness": "0.0112",
+        "spotify_instrumentalness": "0.0291",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0863",
+        "spotify_artists01": "Billy Gillies",
+        "spotify_artists01_id": "0kmovylAP20DMJhS3BE2CO",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf8b9805e118cd016fef27a59",
+        "spotify_artists01_genres": "tech trance",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "Hannah Boleyn",
+        "spotify_artists02_id": "6EP96GaItADv1rNqR2oGIR",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb7a1476311508fa99ca122999",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "56",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qGDsMXdQoyI",
+        "ytreleasedate": "2023/07/28"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Billy-Gillies-DNA-Loving-You-feat.-Hannah-Boleyn.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2715,
+            "name": "Billy Gillies",
+            "slug": "billy-gillies",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3661,
+            "name": "Hannah Boleyn",
+            "slug": "hannah-boleyn",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "19900218",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Billy Gillies, Hannah Boleyn",
+        "ytvideoid": "qGDsMXdQoyI",
+        "spotify_track_id": "6ibDVMcMUNqZ5eXT9sD4Vy"
+      },
+      "genre_data": [
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "dna"
+    },
+    {
+      "id": 38916,
+      "date": "2022-08-19T23:37:00",
+      "date_gmt": "2022-08-19T14:37:00",
+      "title": {
+        "rendered": "Kings (FSOE 750 Anthem)"
+      },
+      "content": {
+        "rendered": "\n<p>Aly&amp;FilaxBillyGillies-Kings(FSOE750Anthem)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2714,
+        2715
+      ],
+      "tags": [],
+      "genre": [
+        747,
+        760
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "EFAA5x2RFRw",
+        "likecount": "1",
+        "spotify_track_id": "1LJX2ix1covgeNQZyeGLwH",
+        "spotify_release_date": "2022/12/9",
+        "spotify_name": "Kings-Mixed",
+        "spotify_artists": "Aly & Fila, Billy Gillies",
+        "spotify_album": "FSOE750-Kings&Queens",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732650376b399bb861665b2e99",
+        "spotify_duration_ms": "188000",
+        "spotify_popularity": "6",
+        "spotify_danceability": "0.399",
+        "spotify_energy": "0.982",
+        "spotify_key": "4",
+        "spotify_loudness": "-6.127",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0923",
+        "spotify_tempo": "142.021",
+        "spotify_valence": "0.24",
+        "spotify_acousticness": "0.000141",
+        "spotify_instrumentalness": "0.928",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.126",
+        "spotify_artists01": "Aly&Fila",
+        "spotify_artists01_id": "2hL1EouqXLtBEB6JKnPF0h",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb708c6be46aed23f2de0b157d",
+        "spotify_artists01_genres": "progressivehouse,trance,upliftingtrance",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "BillyGillies",
+        "spotify_artists02_id": "0kmovylAP20DMJhS3BE2CO",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebf8b9805e118cd016fef27a59",
+        "spotify_artists02_genres": "techtrance",
+        "spotify_artists02_popularity": "45",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Aly-Fila-x-Billy-Gillies-Kings-FSOE-750-Anthem.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2714,
+            "name": "Aly &amp; Fila",
+            "slug": "aly-fila",
+            "acf": {
+              "artistorigin": "EGY",
+              "artistactiveyearstart": "2003",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アリー・アンド・フィラ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2715,
+            "name": "Billy Gillies",
+            "slug": "billy-gillies",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Aly & Fila, Billy Gillies",
+        "ytvideoid": "EFAA5x2RFRw",
+        "spotify_track_id": "1LJX2ix1covgeNQZyeGLwH"
+      },
+      "genre_data": [
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        },
+        {
+          "name": "Uplifting trance",
+          "slug": "uplifting-trance",
+          "term_id": 760,
+          "post_count": 2
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "kings-fsoe-750-anthem"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

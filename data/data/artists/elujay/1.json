@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2165,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/elujay/",
+    "name": "Elujay",
+    "slug": "elujay",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2165",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2165"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2165"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40368,
+      "date": "2022-02-12T03:45:00",
+      "date_gmt": "2022-02-11T18:45:00",
+      "title": {
+        "rendered": "Ratrace"
+      },
+      "content": {
+        "rendered": "\n<p>Elujay-Ratrace</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2165
+      ],
+      "tags": [],
+      "genre": [
+        405,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3B6FRewixwLjKWD30aVc0V",
+        "spotify_release_date": "2022/1/21",
+        "spotify_name": "Ratrace",
+        "spotify_artists": "Elujay",
+        "spotify_album": "Circmvnt",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730d8e945a3ec9d9cabec1c5cb",
+        "spotify_duration_ms": "238729",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.647",
+        "spotify_energy": "0.598",
+        "spotify_key": "6",
+        "spotify_loudness": "-11.504",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0909",
+        "spotify_tempo": "100.988",
+        "spotify_valence": "0.431",
+        "spotify_acousticness": "0.406",
+        "spotify_instrumentalness": "0.0672",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0649",
+        "spotify_artists01": "Elujay",
+        "spotify_artists01_id": "1CgbNAF3Stnz1Tpipu3xdO",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebad4154f1744eb1d109646aa3",
+        "spotify_artists01_genres": "alternativer&b,calirap,indier&b",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "FC0yrSRM3ZY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Elujay-Ratrace.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2165,
+            "name": "Elujay",
+            "slug": "elujay",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Elujay",
+        "ytvideoid": "FC0yrSRM3ZY",
+        "spotify_track_id": "3B6FRewixwLjKWD30aVc0V"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative R&amp;B",
+          "slug": "alternative-rb",
+          "term_id": 405,
+          "post_count": 348
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ratrace"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

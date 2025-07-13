@@ -1,0 +1,541 @@
+{
+  "artist": {
+    "id": 3705,
+    "count": 4,
+    "description": "",
+    "link": "https://sub.music8.jp/category/kamal/",
+    "name": "Kamal.",
+    "slug": "kamal",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "20000714",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3705",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3705"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3705"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 56696,
+      "date": "2023-07-04T20:10:57",
+      "date_gmt": "2023-07-04T11:10:57",
+      "title": {
+        "rendered": "crowded places"
+      },
+      "content": {
+        "rendered": "<p>Kamal. - crowded places</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3705
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2iC9xdV7OXkUBsDWZ8CNzW",
+        "spotify_release_date": "2023-03-17",
+        "spotify_name": "crowded places",
+        "spotify_artists": "Kamal.",
+        "spotify_album": "so here you are, drowning",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27358e91ef4025db1e3af611a72",
+        "spotify_duration_ms": "150859",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.528",
+        "spotify_energy": "0.276",
+        "spotify_key": "6",
+        "spotify_loudness": "-15.01",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0709",
+        "spotify_tempo": "83.416",
+        "spotify_valence": "0.149",
+        "spotify_acousticness": "0.674",
+        "spotify_instrumentalness": "0.011",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.106",
+        "spotify_artists01": "Kamal.",
+        "spotify_artists01_id": "2gIHyzlzKxntjQWf8xAGaI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3cdd23976dc857b6b54f6659",
+        "spotify_artists01_genres": "modern indie pop",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ujvxe-y2480",
+        "ytreleasedate": "2023/07/04"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kamal.-crowded-places.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3705,
+            "name": "Kamal.",
+            "slug": "kamal",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "20000714",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kamal.",
+        "ytvideoid": "ujvxe-y2480",
+        "spotify_track_id": "2iC9xdV7OXkUBsDWZ8CNzW"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "crowded-places"
+    },
+    {
+      "id": 56692,
+      "date": "2023-03-17T20:09:19",
+      "date_gmt": "2023-03-17T11:09:19",
+      "title": {
+        "rendered": "white wine"
+      },
+      "content": {
+        "rendered": "<p>Kamal. - white wine</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3705
+      ],
+      "tags": [],
+      "genre": [
+        574,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "58HM7Fr9H4rOXZORhyJ5BG",
+        "spotify_release_date": "2023-03-17",
+        "spotify_name": "white wine",
+        "spotify_artists": "Kamal.",
+        "spotify_album": "so here you are, drowning",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27358e91ef4025db1e3af611a72",
+        "spotify_duration_ms": "155972",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.464",
+        "spotify_energy": "0.29",
+        "spotify_key": "9",
+        "spotify_loudness": "-11.392",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0405",
+        "spotify_tempo": "153.889",
+        "spotify_valence": "0.212",
+        "spotify_acousticness": "0.843",
+        "spotify_instrumentalness": "0.00287",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.127",
+        "spotify_artists01": "Kamal.",
+        "spotify_artists01_id": "2gIHyzlzKxntjQWf8xAGaI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3cdd23976dc857b6b54f6659",
+        "spotify_artists01_genres": "modern indie pop",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "gf6pyYWOZEI",
+        "ytreleasedate": "2023/03/17"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kamal.-white-wine.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3705,
+            "name": "Kamal.",
+            "slug": "kamal",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "20000714",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kamal.",
+        "ytvideoid": "gf6pyYWOZEI",
+        "spotify_track_id": "58HM7Fr9H4rOXZORhyJ5BG"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "white-wine"
+    },
+    {
+      "id": 56685,
+      "date": "2023-02-17T20:02:29",
+      "date_gmt": "2023-02-17T11:02:29",
+      "title": {
+        "rendered": "free flow"
+      },
+      "content": {
+        "rendered": "<p>Kamal. - free flow</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3705
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1UxiPpx3EC2SqFmGoqlXOy",
+        "spotify_release_date": "2023-02-16",
+        "spotify_name": "free flow",
+        "spotify_artists": "Kamal.",
+        "spotify_album": "free flow",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273bedcae8468245edf83c9ff3b",
+        "spotify_duration_ms": "203624",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.625",
+        "spotify_energy": "0.412",
+        "spotify_key": "0",
+        "spotify_loudness": "-8.483",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.156",
+        "spotify_tempo": "86.985",
+        "spotify_valence": "0.322",
+        "spotify_acousticness": "0.456",
+        "spotify_instrumentalness": "0.181",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.105",
+        "spotify_artists01": "Kamal.",
+        "spotify_artists01_id": "2gIHyzlzKxntjQWf8xAGaI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3cdd23976dc857b6b54f6659",
+        "spotify_artists01_genres": "modern indie pop",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "CtVHByJoGek",
+        "ytreleasedate": "2023/02/17"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kamal.-free-flow.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3705,
+            "name": "Kamal.",
+            "slug": "kamal",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "20000714",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kamal.",
+        "ytvideoid": "CtVHByJoGek",
+        "spotify_track_id": "1UxiPpx3EC2SqFmGoqlXOy"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "free-flow"
+    },
+    {
+      "id": 56688,
+      "date": "2023-01-13T20:06:48",
+      "date_gmt": "2023-01-13T11:06:48",
+      "title": {
+        "rendered": "essential"
+      },
+      "content": {
+        "rendered": "<p>Kamal. - essential</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3705
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5furV6z87xBEymy1nXFAXu",
+        "spotify_release_date": "2023-01-12",
+        "spotify_name": "essential",
+        "spotify_artists": "Kamal.",
+        "spotify_album": "essential",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b8e7fc9fa7bab31a94b74e9b",
+        "spotify_duration_ms": "162656",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.435",
+        "spotify_energy": "0.384",
+        "spotify_key": "7",
+        "spotify_loudness": "-11.127",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.054",
+        "spotify_tempo": "160.037",
+        "spotify_valence": "0.205",
+        "spotify_acousticness": "0.774",
+        "spotify_instrumentalness": "0.00194",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.179",
+        "spotify_artists01": "Kamal.",
+        "spotify_artists01_id": "2gIHyzlzKxntjQWf8xAGaI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3cdd23976dc857b6b54f6659",
+        "spotify_artists01_genres": "modern indie pop",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "FO9nHf_EDpc",
+        "ytreleasedate": "2023/01/13"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kamal.-essential.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3705,
+            "name": "Kamal.",
+            "slug": "kamal",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "20000714",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kamal.",
+        "ytvideoid": "FO9nHf_EDpc",
+        "spotify_track_id": "5furV6z87xBEymy1nXFAXu"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "essential"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

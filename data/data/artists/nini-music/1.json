@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2409,
+    "count": 1,
+    "description": "TPE",
+    "link": "https://sub.music8.jp/category/nini-music/",
+    "name": "Nini Music",
+    "slug": "nini-music",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2409",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2409"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2409"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39131,
+      "date": "2022-07-19T20:57:00",
+      "date_gmt": "2022-07-19T11:57:00",
+      "title": {
+        "rendered": "LongMa"
+      },
+      "content": {
+        "rendered": "\n<p>NiniMusic-LongMa(TaiwaneseFolkMetal)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2409
+      ],
+      "tags": [],
+      "genre": [
+        517
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4nSm8dE043BKPDyOxE2L7B",
+        "spotify_release_date": "2022/2/25",
+        "spotify_name": "Longma",
+        "spotify_artists": "NiniMusic",
+        "spotify_album": "Longma",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b5066ae22cfe84a78e4b7840",
+        "spotify_duration_ms": "164853",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.479",
+        "spotify_energy": "0.904",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.152",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0559",
+        "spotify_tempo": "89.981",
+        "spotify_valence": "0.235",
+        "spotify_acousticness": "0.104",
+        "spotify_instrumentalness": "0.965",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.253",
+        "spotify_artists01": "NiniMusic",
+        "spotify_artists01_id": "4iggZUAEXfBeJH9DjKwccm",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd16bbbe7c3a4f081fc7a5bc3",
+        "spotify_artists01_genres": "taiwanmetal",
+        "spotify_artists01_popularity": "24",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "dOn7uCux0uc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Nini-Music-LongMa-Taiwanese-Folk-Metal.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2409,
+            "name": "Nini Music",
+            "slug": "nini-music",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "NiniMusic",
+        "ytvideoid": "dOn7uCux0uc",
+        "spotify_track_id": "4nSm8dE043BKPDyOxE2L7B"
+      },
+      "genre_data": [
+        {
+          "name": "Folk metal",
+          "slug": "folk-metal",
+          "term_id": 517,
+          "post_count": 44
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "longma"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

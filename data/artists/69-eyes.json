@@ -1,0 +1,63 @@
+{
+  "id": 2250,
+  "count": 3,
+  "description": "The 69 Eyes is a Finnish rock band.",
+  "link": "https://sub.music8.jp/category/69-eyes/",
+  "name": "69 Eyes",
+  "slug": "69-eyes",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FIN",
+    "artistactiveyearstart": "1989",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・シックスティナイン・アイズ",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2250",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2250"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2250"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ザ・シックスティナイン・アイズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1989",
+  "occupation": ""
+}

@@ -1,0 +1,72 @@
+{
+  "id": 970,
+  "count": 14,
+  "description": "The The are an English post-punk band.",
+  "link": "https://sub.music8.jp/category/the-the/",
+  "name": "The The",
+  "slug": "the-the",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1979",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・ザ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7cKtqv9cYVlOwnuCFH95ce",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174f7141fa845d562afdc8cfab9"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/970",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=970"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=970"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ザ・ザ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174f7141fa845d562afdc8cfab9",
+  "artistActiveYearStart": "1979",
+  "occupation": "band"
+}

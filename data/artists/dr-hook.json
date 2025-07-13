@@ -1,0 +1,72 @@
+{
+  "id": 6161,
+  "count": 1,
+  "description": "Dr. Hook &amp; the Medicine Show is an American rock band.",
+  "link": "https://sub.music8.jp/category/dr-hook/",
+  "name": "Dr. Hook",
+  "slug": "dr-hook",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1969",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Leo Sayer | Tony Orlando & Dawn | Exile | Neil Diamond (neil-diamond) | Kenny Rogers | Bellamy Brothers | Four Tops | Rod Stewart (rod-stewart) | Little River Band | Drifters | Glenn Frey | Suzi Quatro | Linda Ronstadt | Captain & Tennille | Frankie Valli & The Four Seasons | Tom Jones (tom-jones) | Billy Ocean | Chicago (chicago) | Lobo | Dobie Gray",
+    "spotify_artist_id": "2Mhi3jfuRSdbVZPdjqsnnN",
+    "spotify_artist_images": "https://i.scdn.co/image/1b2c27a5d31ff24a955cc557758d56b640cd030b"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6161",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6161"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6161"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/1b2c27a5d31ff24a955cc557758d56b640cd030b",
+  "artistActiveYearStart": "1969",
+  "occupation": "band"
+}

@@ -1,0 +1,67 @@
+{
+  "id": 1018,
+  "count": 1,
+  "description": "US",
+  "link": "https://sub.music8.jp/category/bone-thugs-n-harmony/",
+  "name": "Bone Thugs N Harmony",
+  "slug": "bone-thugs-n-harmony",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [],
+    "related_artists": "",
+    "spotify_artist_id": "5spEJXLwD1sKUdC2bnOHPg",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174b60f40ed17d0ef8d1a630c00"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1018",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1018"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1018"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174b60f40ed17d0ef8d1a630c00",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

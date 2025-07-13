@@ -1,0 +1,82 @@
+{
+  "id": 1159,
+  "count": 15,
+  "description": "No Doubt was an American rock band",
+  "link": "https://sub.music8.jp/category/no-doubt/",
+  "name": "No Doubt",
+  "slug": "no-doubt",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1986-2015",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ノー・ダウト",
+    "member": [
+      {
+        "term_id": 1268,
+        "name": "Gwen Stefani",
+        "slug": "gwen-stefani",
+        "term_group": 0,
+        "term_taxonomy_id": 1268,
+        "taxonomy": "category",
+        "description": "Gwen Stefani is an American singer and songwriter, lead vocalist, and the primary songwriter of the band No Doubt.",
+        "parent": 0,
+        "count": 30,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1159",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1159"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1159"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ノー・ダウト",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1986-2015",
+  "occupation": "band"
+}

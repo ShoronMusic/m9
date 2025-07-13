@@ -1,0 +1,72 @@
+{
+  "id": 5209,
+  "count": 1,
+  "description": "Douwe Bob is a Dutch singer-songwriter.",
+  "link": "https://sub.music8.jp/category/douwe-bob/",
+  "name": "Douwe Bob",
+  "slug": "douwe-bob",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NED",
+    "artistactiveyearstart": "2012",
+    "artistborn": "19921212",
+    "artistjpname": "ダウ・ボブ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6VSZeMeJlVPGoR2nfB6UxD",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bd0c6fe063cbf12979b8befd"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5209",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5209"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5209"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ダウ・ボブ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174bd0c6fe063cbf12979b8befd",
+  "artistActiveYearStart": "2012",
+  "occupation": "ssw"
+}

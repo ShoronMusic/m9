@@ -1,0 +1,72 @@
+{
+  "id": 1535,
+  "count": 29,
+  "description": "Coldplay is a British rock band.",
+  "link": "https://sub.music8.jp/category/coldplay/",
+  "name": "Coldplay",
+  "slug": "coldplay",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1996",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "コールドプレイ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "OneRepublic (onerepublic) | Oasis (oasis) | Maroon 5 (maroon-5) | Keane (keane) | U2 (u2) | Imagine Dragons (imagine-dragons) | Chainsmokers (chainsmokers) | Snow Patrol (snow-patrol) | Script (script) | Calvin Harris (calvin-harris) | Adele (adele) | Avicii (avicii) | Sia (sia) | Bruno Mars (bruno-mars) | Queen (queen) | Sam Smith (sam-smith) | Ed Sheeran (ed-sheeran) | Twenty One Pilots (twenty-one-pilots) | Killers (killers) | David Guetta (david-guetta)",
+    "spotify_artist_id": "4gzpq5DPGxSnKTe4SA8HAU",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051741ba8fc5f5c73e7e9313cc6eb"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1535",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1535"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1535"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "コールドプレイ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051741ba8fc5f5c73e7e9313cc6eb",
+  "artistActiveYearStart": "1996",
+  "occupation": "band"
+}

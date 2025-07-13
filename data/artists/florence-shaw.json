@@ -1,0 +1,75 @@
+{
+  "id": 3010,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/florence-shaw/",
+  "name": "Florence Shaw",
+  "slug": "florence-shaw",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 1257,
+        "name": "Dry Cleaning",
+        "slug": "dry-cleaning",
+        "term_group": 0,
+        "term_taxonomy_id": 1257,
+        "taxonomy": "category",
+        "description": "Dry Cleaning are an English post-punk band.",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3010",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3010"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3010"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

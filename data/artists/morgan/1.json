@@ -1,0 +1,182 @@
+{
+  "artist": {
+    "id": 3138,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/morgan/",
+    "name": "MORGAN",
+    "slug": "morgan",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3138",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3138"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3138"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51430,
+      "date": "2023-06-09T11:35:00",
+      "date_gmt": "2023-06-09T02:35:00",
+      "title": {
+        "rendered": "Adrenaline Rush ft. MORGAN"
+      },
+      "content": {
+        "rendered": "<p>Sigma - Adrenaline Rush ft. MORGAN</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3138,
+        3137
+      ],
+      "tags": [],
+      "genre": [
+        487
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3NUISCTw1SHWQ9cma4IhUM",
+        "spotify_release_date": "2023-06-23",
+        "spotify_name": "Adrenaline Rush",
+        "spotify_artists": "Sigma, MORGAN",
+        "spotify_album": "Adrenaline Rush (Extended Mix)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d81a83da8cc4c0bbe2ea18c6",
+        "spotify_duration_ms": "184542",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.31",
+        "spotify_energy": "0.859",
+        "spotify_key": "7",
+        "spotify_loudness": "-2.949",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.231",
+        "spotify_tempo": "167.929",
+        "spotify_valence": "0.149",
+        "spotify_acousticness": "0.0169",
+        "spotify_instrumentalness": "0.0302",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.42",
+        "spotify_artists01": "Sigma",
+        "spotify_artists01_id": "01pKrlgPJhm5dB4lneYAqS",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6af9837f3520a9bfe7e1db68",
+        "spotify_artists01_genres": "dancefloor dnb, house, pop dance, uk dance",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "MORGAN",
+        "spotify_artists02_id": "7ltW5jYRnGOE4O1vcgW2DI",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc1dbca20c82b0eb879d3b911",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "50",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "uEScektfDwM",
+        "ytreleasedate": "2023/06/09"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sigma-Adrenaline-Rush-ft.-MORGAN.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3138,
+            "name": "MORGAN",
+            "slug": "morgan",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3137,
+            "name": "Sigma",
+            "slug": "sigma",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistjpname": "シグマ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Sigma, MORGAN",
+        "ytvideoid": "uEScektfDwM",
+        "spotify_track_id": "3NUISCTw1SHWQ9cma4IhUM"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "adrenaline-rush-ft-morgan"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

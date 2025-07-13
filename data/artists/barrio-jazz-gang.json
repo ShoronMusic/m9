@@ -1,0 +1,72 @@
+{
+  "id": 6237,
+  "count": 5,
+  "description": "Barrio Jazz Gang is an Italian musical group.",
+  "link": "https://sub.music8.jp/category/barrio-jazz-gang/",
+  "name": "Barrio Jazz Gang",
+  "slug": "barrio-jazz-gang",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "ITA",
+    "artistactiveyearstart": "2002",
+    "artistborn": "",
+    "artistjpname": "バリオジャズギャング",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "group",
+        "label": "Group"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6YJDoRq0kg9PcRboJSI6RJ",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616d00001e02875859bef106ce9a2349adfb"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6237",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6237"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6237"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "バリオジャズギャング",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616d00001e02875859bef106ce9a2349adfb",
+  "artistActiveYearStart": "2002",
+  "occupation": "group"
+}

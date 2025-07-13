@@ -1,0 +1,334 @@
+{
+  "artist": {
+    "id": 2569,
+    "count": 2,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/tyler-hubbard/",
+    "name": "Tyler Hubbard",
+    "slug": "tyler-hubbard",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "19870131",
+      "artistdied": "",
+      "artistjpname": "タイラー・ハバード"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2569",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2569"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2569"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 99294,
+      "date": "2025-05-16T21:46:12",
+      "date_gmt": "2025-05-16T12:46:12",
+      "title": {
+        "rendered": "Forget Tonight"
+      },
+      "content": {
+        "rendered": "<p>Steve Aoki, Tyler Hubbard - Forget Tonight</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1026,
+        2569
+      ],
+      "tags": [],
+      "genre": [
+        466,
+        470
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "Bfmnx32LWWA",
+        "ytreleasedate": "2025/05/16",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "31dKu1hasoYuOq0ycWL0QF",
+        "spotify_release_date": "2025-05-16",
+        "spotify_name": "Forget Tonight (ft. Tyler Hubbard)",
+        "spotify_artists": "Steve Aoki, Tyler Hubbard",
+        "spotify_album": "Forget Tonight (ft. Tyler Hubbard)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273632e0078e07b5021b45063d6",
+        "spotify_duration_ms": "165826",
+        "spotify_popularity": "27",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Steve Aoki",
+        "spotify_artists01_id": "77AiFEVeAVj2ORpC85QVJs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcf85b39d94c486218a687248",
+        "spotify_artists01_genres": "electro house, edm",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "Tyler Hubbard",
+        "spotify_artists02_id": "3BEV5FcxOtkQJ7lLRKMh3V",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb2f6f827fdf212575e1c4f646",
+        "spotify_artists02_genres": "country",
+        "spotify_artists02_popularity": "64",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/steve-aoki-tyler-hubbard-forget-tonight.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1026,
+            "name": "Steve Aoki",
+            "slug": "steve-aoki",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "19771130",
+              "artistdied": "",
+              "artistjpname": "スティーブ・アオキ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "77AiFEVeAVj2ORpC85QVJs",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174cf85b39d94c486218a687248",
+              "youtube_channel": "UCALvGYb5h_MZCzW_vG8d8eQ",
+              "wikipedia_page": "Steve_Aoki"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2569,
+            "name": "Tyler Hubbard",
+            "slug": "tyler-hubbard",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19870131",
+              "artistdied": "",
+              "artistjpname": "タイラー・ハバード"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Steve Aoki, Tyler Hubbard",
+        "ytvideoid": "Bfmnx32LWWA",
+        "spotify_track_id": "31dKu1hasoYuOq0ycWL0QF"
+      },
+      "genre_data": [
+        {
+          "name": "Country pop",
+          "slug": "country-pop",
+          "term_id": 466,
+          "post_count": 142
+        },
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "forget-tonight"
+    },
+    {
+      "id": 49932,
+      "date": "2023-01-21T20:41:40",
+      "date_gmt": "2023-01-21T11:41:40",
+      "title": {
+        "rendered": "Dancin’ In The Country"
+      },
+      "content": {
+        "rendered": "<p>Tyler Hubbard - Dancin’ In The Country</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2569
+      ],
+      "tags": [],
+      "genre": [
+        466
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6Z1bV93BP95h4YjIavrQPf",
+        "spotify_release_date": "2022-08-19",
+        "spotify_name": "Dancin’ In The Country",
+        "spotify_artists": "Tyler Hubbard",
+        "spotify_album": "Dancin' In The Country",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273711b380bf425824e2a54b8fa",
+        "spotify_duration_ms": "179645",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.655",
+        "spotify_energy": "0.869",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.807",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0633",
+        "spotify_tempo": "114.984",
+        "spotify_valence": "0.541",
+        "spotify_acousticness": "0.00408",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.104",
+        "spotify_artists01": "Tyler Hubbard",
+        "spotify_artists01_id": "3BEV5FcxOtkQJ7lLRKMh3V",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb586b5ad31a4e938044c3dac3",
+        "spotify_artists01_genres": "contemporary country, modern country pop",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ma3L7xWB_1U",
+        "ytreleasedate": "2023/01/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tyler-Hubbard-Dancin-In-The-Country.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2569,
+            "name": "Tyler Hubbard",
+            "slug": "tyler-hubbard",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19870131",
+              "artistdied": "",
+              "artistjpname": "タイラー・ハバード"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tyler Hubbard",
+        "ytvideoid": "ma3L7xWB_1U",
+        "spotify_track_id": "6Z1bV93BP95h4YjIavrQPf"
+      },
+      "genre_data": [
+        {
+          "name": "Country pop",
+          "slug": "country-pop",
+          "term_id": 466,
+          "post_count": 142
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "dancin-in-the-country"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,74 @@
+{
+  "id": 6470,
+  "count": 3,
+  "description": "L.A. Guns are an American hard rock band from Los Angeles, formed in 1983.",
+  "link": "https://sub.music8.jp/category/l-a-guns/",
+  "name": "L.A. Guns",
+  "slug": "l-a-guns",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1983",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "22TEmHXBBLjTec2LOAuMdS",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517428a320851d55c071a620ab48",
+    "youtube_channel": "",
+    "wikipedia_page": "L.A._Guns"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6470",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6470"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6470"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517428a320851d55c071a620ab48",
+  "artistActiveYearStart": "1983",
+  "occupation": "band"
+}

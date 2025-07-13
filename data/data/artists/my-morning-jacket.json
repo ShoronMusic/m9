@@ -1,0 +1,74 @@
+{
+  "id": 6422,
+  "count": 2,
+  "description": "",
+  "link": "https://sub.music8.jp/category/my-morning-jacket/",
+  "name": "My Morning Jacket",
+  "slug": "my-morning-jacket",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1998",
+    "artistborn": "",
+    "artistjpname": "マイ・モーニング・ジャケット",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "My Morning Jacket is an American rock band formed in Louisville, Kentucky, in 1998.",
+    "spotify_artist_id": "43O3c6wewpzPKwVaGEEtBM",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174eaaa18ce5578767a30348673",
+    "youtube_channel": "UCKARN4GSFIOiKUIpCtRlO9g",
+    "wikipedia_page": "My_Morning_Jacket"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6422",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6422"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6422"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マイ・モーニング・ジャケット",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174eaaa18ce5578767a30348673",
+  "artistActiveYearStart": "1998",
+  "occupation": "band"
+}

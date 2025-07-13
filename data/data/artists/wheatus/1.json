@@ -1,0 +1,213 @@
+{
+  "artist": {
+    "id": 3867,
+    "count": 1,
+    "description": "Wheatus is an American rock band.",
+    "link": "https://sub.music8.jp/category/wheatus/",
+    "name": "Wheatus",
+    "slug": "wheatus",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1995",
+      "artistborn": "",
+      "artistjpname": "ウィータス",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3867",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3867"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3867"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58375,
+      "date": "2023-11-21T11:39:42",
+      "date_gmt": "2023-11-21T02:39:42",
+      "title": {
+        "rendered": "Christmas Dirtbag"
+      },
+      "content": {
+        "rendered": "<p>Wheatus - Christmas Dirtbag</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3867
+      ],
+      "tags": [],
+      "genre": [
+        455,
+        575,
+        669
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "05lLXO1gallwajxAD4aTvE",
+        "spotify_release_date": "2023-10-13",
+        "spotify_name": "Christmas Dirtbag",
+        "spotify_artists": "Wheatus",
+        "spotify_album": "Just A Dirtbag Christmas EP",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273be71769c316a1f857a3b62ba",
+        "spotify_duration_ms": "252368",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.594",
+        "spotify_energy": "0.706",
+        "spotify_key": "4",
+        "spotify_loudness": "-6.002",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0536",
+        "spotify_tempo": "94.435",
+        "spotify_valence": "0.301",
+        "spotify_acousticness": "0.24",
+        "spotify_instrumentalness": "0.00000291",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.104",
+        "spotify_artists01": "Wheatus",
+        "spotify_artists01_id": "4mYFgEjpQT4IKOrjOUKyXu",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb72f10e0706fee3998a0644b9",
+        "spotify_artists01_genres": "pop rock",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "4swdGWL8QfQ",
+        "ytreleasedate": "2023/11/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Wheatus-Christmas-Dirtbag.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3867,
+            "name": "Wheatus",
+            "slug": "wheatus",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1995",
+              "artistborn": "",
+              "artistjpname": "ウィータス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Wheatus",
+        "ytvideoid": "4swdGWL8QfQ",
+        "spotify_track_id": "05lLXO1gallwajxAD4aTvE"
+      },
+      "genre_data": [
+        {
+          "name": "Christmas",
+          "slug": "christmas",
+          "term_id": 455,
+          "post_count": 111
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "christmas-dirtbag"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

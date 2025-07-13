@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 4504,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/ole-60/",
+    "name": "Ole 60",
+    "slug": "ole-60",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4504",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4504"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4504"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65898,
+      "date": "2024-03-12T20:51:49",
+      "date_gmt": "2024-03-12T11:51:49",
+      "title": {
+        "rendered": "Brother Joe"
+      },
+      "content": {
+        "rendered": "<p>Ole 60 - Brother Joe</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4504
+      ],
+      "tags": [],
+      "genre": [
+        399,
+        468
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "yJyNN4UEqKI",
+        "ytreleasedate": "2024/03/12",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6A9zZO9ibucGSN8Jmyxt9w",
+        "spotify_release_date": "2024-03-08",
+        "spotify_name": "Brother Joe",
+        "spotify_artists": "Ole 60",
+        "spotify_album": "Brother Joe",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27396ca483143dafd7ff457be32",
+        "spotify_duration_ms": "288000",
+        "spotify_popularity": "65",
+        "spotify_danceability": "0.419",
+        "spotify_energy": "0.452",
+        "spotify_key": "9",
+        "spotify_loudness": "-7.007",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0337",
+        "spotify_tempo": "153.228",
+        "spotify_valence": "0.367",
+        "spotify_acousticness": "0.179",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.142",
+        "spotify_artists01": "Ole 60",
+        "spotify_artists01_id": "3iXeAZ8862AyoZ5ZGg800O",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb785a668b2a2597534ae76be9",
+        "spotify_artists01_genres": "modern country pop",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27396ca483143dafd7ff457be32.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4504,
+            "name": "Ole 60",
+            "slug": "ole-60",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Ole 60",
+        "ytvideoid": "yJyNN4UEqKI",
+        "spotify_track_id": "6A9zZO9ibucGSN8Jmyxt9w"
+      },
+      "genre_data": [
+        {
+          "name": "Acoustic rock",
+          "slug": "acoustic-rock",
+          "term_id": 399,
+          "post_count": 94
+        },
+        {
+          "name": "Country rock",
+          "slug": "country-rock",
+          "term_id": 468,
+          "post_count": 89
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "brother-joe"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

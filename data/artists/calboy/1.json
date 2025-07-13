@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 1710,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/calboy/",
+    "name": "Calboy",
+    "slug": "calboy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1710",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1710"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1710"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 42543,
+      "date": "2018-09-13T17:36:00",
+      "date_gmt": "2018-09-13T08:36:00",
+      "title": {
+        "rendered": "Envy Me"
+      },
+      "content": {
+        "rendered": "\n<p>Calboy-EnvyMe</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1710
+      ],
+      "tags": [],
+      "genre": [
+        564,
+        685,
+        748
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "7rvyVWja33WG9R97oeJAjx",
+        "spotify_release_date": "2019/5/31",
+        "spotify_name": "Envy Me",
+        "spotify_artists": "Calboy",
+        "spotify_album": "Wildboy",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735f75220f317b41171e88209e",
+        "spotify_duration_ms": "120133",
+        "spotify_popularity": "69",
+        "spotify_danceability": "0.74",
+        "spotify_energy": "0.488",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.664",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.27",
+        "spotify_tempo": "149.042",
+        "spotify_valence": "0.584",
+        "spotify_acousticness": "0.234",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.241",
+        "spotify_artists01": "Calboy",
+        "spotify_artists01_id": "0HkcYmcjrBR3SCw9Ld5VZk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb399e66766e938b7bed3a9793",
+        "spotify_artists01_genres": "chicago rap, melodic rap",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "FhPvceQcfzE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Calboy-Envy-Me.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1710,
+            "name": "Calboy",
+            "slug": "calboy",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Calboy",
+        "ytvideoid": "FhPvceQcfzE",
+        "spotify_track_id": "7rvyVWja33WG9R97oeJAjx"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Trap",
+          "slug": "trap",
+          "term_id": 748,
+          "post_count": 282
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "envy-me"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

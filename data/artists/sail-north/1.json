@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 3571,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/sail-north/",
+    "name": "Sail North",
+    "slug": "sail-north",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FRA",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3571",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3571"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3571"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 55435,
+      "date": "2023-09-11T11:31:53",
+      "date_gmt": "2023-09-11T02:31:53",
+      "title": {
+        "rendered": "Tale of The Shadow"
+      },
+      "content": {
+        "rendered": "<p>Sail North - Tale of The Shadow</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3571
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5nN3bMQo2HpOE3Vb7WvLWq",
+        "spotify_release_date": "2023-09-08",
+        "spotify_name": "Tale of The Shadow",
+        "spotify_artists": "Sail North",
+        "spotify_album": "Tale of The Shadow",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ba4d702cc64b853ecb0a5075",
+        "spotify_duration_ms": "206000",
+        "spotify_popularity": "62",
+        "spotify_danceability": "0.561",
+        "spotify_energy": "0.657",
+        "spotify_key": "2",
+        "spotify_loudness": "-8.836",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0614",
+        "spotify_tempo": "122.633",
+        "spotify_valence": "0.426",
+        "spotify_acousticness": "0.00139",
+        "spotify_instrumentalness": "0.0000738",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.149",
+        "spotify_artists01": "Sail North",
+        "spotify_artists01_id": "0Gtv3Wi6jj0lW1Po5QbIGS",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc1a1527b7e750f6bfb6cdff9",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "TvtcwsouILY",
+        "ytreleasedate": "2023/09/11"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sail-North-Tale-of-The-Shadow.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3571,
+            "name": "Sail North",
+            "slug": "sail-north",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Sail North",
+        "ytvideoid": "TvtcwsouILY",
+        "spotify_track_id": "5nN3bMQo2HpOE3Vb7WvLWq"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "tale-of-the-shadow"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

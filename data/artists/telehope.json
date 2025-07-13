@@ -1,0 +1,72 @@
+{
+  "id": 5401,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/telehope/",
+  "name": "Telehope",
+  "slug": "telehope",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "LOYALS | Y O U T H F O O L | Wild Wind | Drew Winters | 90's Kids | Runaway Club | A N X | Stolen | VICTORS | Patternist | MILKK | LAVE | Jet Black Alley Cat | Hotel Apache | Cherry Pools | Phangs | Honest Men | Hardcastle | NEWCOAST | All the Rest",
+    "spotify_artist_id": "5cN9JUcmWKhbR3kM2mWIge",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051745f4c901722c96625aad35607"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5401",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5401"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5401"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051745f4c901722c96625aad35607",
+  "artistActiveYearStart": "",
+  "occupation": "band"
+}

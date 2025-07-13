@@ -1,0 +1,77 @@
+{
+  "id": 928,
+  "count": 2,
+  "description": "Thomas Dolby is an English musician, producer.",
+  "link": "https://sub.music8.jp/category/thomas-dolby/",
+  "name": "Thomas Dolby",
+  "slug": "thomas-dolby",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "",
+    "artistborn": "19581014",
+    "artistdied": "",
+    "artistjpname": "トーマス・ドルビー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/928",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=928"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=928"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "トーマス・ドルビー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "",
+  "occupation": "ssw, musician, producer"
+}

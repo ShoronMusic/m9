@@ -1,0 +1,470 @@
+{
+  "artist": {
+    "id": 2250,
+    "count": 3,
+    "description": "The 69 Eyes is a Finnish rock band.",
+    "link": "https://sub.music8.jp/category/69-eyes/",
+    "name": "69 Eyes",
+    "slug": "69-eyes",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FIN",
+      "artistactiveyearstart": "1989",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ザ・シックスティナイン・アイズ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2250",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2250"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2250"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52238,
+      "date": "2023-04-21T20:56:16",
+      "date_gmt": "2023-04-21T11:56:16",
+      "title": {
+        "rendered": "This Murder Takes Two"
+      },
+      "content": {
+        "rendered": "<p>The 69 Eyes - This Murder Takes Two (feat Kat Von D)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2250,
+        3218
+      ],
+      "tags": [],
+      "genre": [
+        547,
+        553
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5nhbdrBO8OO1ztzUkyszux",
+        "spotify_release_date": "2023-04-21",
+        "spotify_name": "This Murder Takes Two",
+        "spotify_artists": "69 Eyes, Kat Von D",
+        "spotify_album": "Death of Darkness",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fd6439501cf0903645632fcf",
+        "spotify_duration_ms": "215893",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.55",
+        "spotify_energy": "0.693",
+        "spotify_key": "3",
+        "spotify_loudness": "-6.679",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0247",
+        "spotify_tempo": "85.034",
+        "spotify_valence": "0.467",
+        "spotify_acousticness": "0.013",
+        "spotify_instrumentalness": "0.341",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.116",
+        "spotify_artists01": "The 69 Eyes",
+        "spotify_artists01_id": "0Z1UczcSjwKNuv4HgdjH3b",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3e051c12732f358935e5eca9",
+        "spotify_artists01_genres": "dark rock, finnish hard rock, gothic metal",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "S8J8_1uGxrw",
+        "ytreleasedate": "2023/04/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-69-Eyes-This-Murder-Takes-Two-feat-Kat-Von-D.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2250,
+            "name": "69 Eyes",
+            "slug": "69-eyes",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・シックスティナイン・アイズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          },
+          {
+            "id": 3218,
+            "name": "Kat Von D",
+            "slug": "kat-von-d",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19820308",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "0eLQCmRxdnxAK9rchhAFlU",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bf58e65b950dbbaf3780f1e9"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "69 Eyes, Kat Von D",
+        "ytvideoid": "S8J8_1uGxrw",
+        "spotify_track_id": "5nhbdrBO8OO1ztzUkyszux"
+      },
+      "genre_data": [
+        {
+          "name": "Gothic rock",
+          "slug": "gothic-rock",
+          "term_id": 547,
+          "post_count": 79
+        },
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "this-murder-takes-two"
+    },
+    {
+      "id": 38739,
+      "date": "2022-09-14T23:22:00",
+      "date_gmt": "2022-09-14T14:22:00",
+      "title": {
+        "rendered": "California"
+      },
+      "content": {
+        "rendered": "\n<p>The69Eyes-California</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2250
+      ],
+      "tags": [],
+      "genre": [
+        538,
+        547
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3Dwz5NcCwVsKAMpJkcMlV6",
+        "spotify_release_date": "2023/4/21",
+        "spotify_name": "California",
+        "spotify_artists": "The 69 Eyes",
+        "spotify_album": "Death of Darkness",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fd6439501cf0903645632fcf",
+        "spotify_duration_ms": "226280",
+        "spotify_popularity": "1",
+        "spotify_danceability": "0.475",
+        "spotify_energy": "0.91",
+        "spotify_key": "6",
+        "spotify_loudness": "-4.028",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0686",
+        "spotify_tempo": "134.085",
+        "spotify_valence": "0.362",
+        "spotify_acousticness": "0.00831",
+        "spotify_instrumentalness": "0.0711",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.297",
+        "spotify_artists01": "The 69 Eyes",
+        "spotify_artists01_id": "0Z1UczcSjwKNuv4HgdjH3b",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3e051c12732f358935e5eca9",
+        "spotify_artists01_genres": "dark rock, finnish hard rock, gothic metal",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "fqaYXyek-Ok",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-69-Eyes-California.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2250,
+            "name": "69 Eyes",
+            "slug": "69-eyes",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・シックスティナイン・アイズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The 69 Eyes",
+        "ytvideoid": "fqaYXyek-Ok",
+        "spotify_track_id": "3Dwz5NcCwVsKAMpJkcMlV6"
+      },
+      "genre_data": [
+        {
+          "name": "Glam metal",
+          "slug": "glam-metal",
+          "term_id": 538,
+          "post_count": 112
+        },
+        {
+          "name": "Gothic rock",
+          "slug": "gothic-rock",
+          "term_id": 547,
+          "post_count": 79
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "california-2"
+    },
+    {
+      "id": 39794,
+      "date": "2022-04-13T01:01:00",
+      "date_gmt": "2022-04-12T16:01:00",
+      "title": {
+        "rendered": "Drive"
+      },
+      "content": {
+        "rendered": "\n<p>The69Eyes-Drive</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2250
+      ],
+      "tags": [],
+      "genre": [
+        547,
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "46rza9wERtck3Z9S4U8Nt4",
+        "spotify_release_date": "2023/4/21",
+        "spotify_name": "Drive",
+        "spotify_artists": "The69Eyes",
+        "spotify_album": "DeathofDarkness",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730c558e6cb01c67c3a8d1de2e",
+        "spotify_duration_ms": "202074",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.432",
+        "spotify_energy": "0.949",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.109",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0892",
+        "spotify_tempo": "80.041",
+        "spotify_valence": "0.458",
+        "spotify_acousticness": "0.0033",
+        "spotify_instrumentalness": "0.748",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0662",
+        "spotify_artists01": "The69Eyes",
+        "spotify_artists01_id": "0Z1UczcSjwKNuv4HgdjH3b",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3e051c12732f358935e5eca9",
+        "spotify_artists01_genres": "darkrock,finnishhardrock,gothicmetal",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "76ls-EtQSMM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-69-Eyes-Drive.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2250,
+            "name": "69 Eyes",
+            "slug": "69-eyes",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・シックスティナイン・アイズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The69Eyes",
+        "ytvideoid": "76ls-EtQSMM",
+        "spotify_track_id": "46rza9wERtck3Z9S4U8Nt4"
+      },
+      "genre_data": [
+        {
+          "name": "Gothic rock",
+          "slug": "gothic-rock",
+          "term_id": 547,
+          "post_count": 79
+        },
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "drive-5"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

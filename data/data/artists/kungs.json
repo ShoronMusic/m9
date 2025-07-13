@@ -1,0 +1,77 @@
+{
+  "id": 1999,
+  "count": 4,
+  "description": "Kungs is a French DJ, record producer and musician.",
+  "link": "https://sub.music8.jp/category/kungs/",
+  "name": "Kungs",
+  "slug": "kungs",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FRA",
+    "artistactiveyearstart": "2015",
+    "artistborn": "19961217",
+    "artistdied": "",
+    "artistjpname": "クングス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1999",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1999"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1999"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "クングス",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2015",
+  "occupation": "musician, dj, producer"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 940,
+  "count": 4,
+  "description": "Julian Lennon is an English musician.",
+  "link": "https://sub.music8.jp/category/julian-lennon/",
+  "name": "Julian Lennon",
+  "slug": "julian-lennon",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1984",
+    "artistborn": "19630808",
+    "artistdied": "",
+    "artistjpname": "ジュリアン・レノン",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/940",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=940"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=940"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジュリアン・レノン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1984",
+  "occupation": ""
+}

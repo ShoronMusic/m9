@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 2783,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/amelia-moore/",
+    "name": "Amelia Moore",
+    "slug": "amelia-moore",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2783",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2783"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2783"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38646,
+      "date": "2022-09-24T19:51:00",
+      "date_gmt": "2022-09-24T10:51:00",
+      "title": {
+        "rendered": "next door"
+      },
+      "content": {
+        "rendered": "\n<p>AmeliaMoore,ASTN-nextdoor</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2783,
+        2784
+      ],
+      "tags": [],
+      "genre": [
+        427,
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "8NtqssadI7M",
+        "likecount": "1",
+        "spotify_track_id": "08HGey7e94Ez3ZurG1IXTP",
+        "spotify_release_date": "2022-09-23",
+        "spotify_name": "next door (feat. ASTN)",
+        "spotify_artists": "Amelia Moore, ASTN",
+        "spotify_album": "next door (feat. ASTN)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a9ee7f0f9b2f0f0bbd74b1e6",
+        "spotify_duration_ms": "208313",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.773",
+        "spotify_energy": "0.499",
+        "spotify_key": "3",
+        "spotify_loudness": "-6.308",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.041",
+        "spotify_tempo": "102.003",
+        "spotify_valence": "0.597",
+        "spotify_acousticness": "0.553",
+        "spotify_instrumentalness": "0.00246",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.101",
+        "spotify_artists01": "Amelia Moore",
+        "spotify_artists01_id": "61shKG2hWuRTW2PEAPk7fo",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb180091f8d602564e37bbdd2b",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "ASTN",
+        "spotify_artists02_id": "7zkwepHPyac6tCYl0fL0co",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb2c0ed09b7146cf2663572dee",
+        "spotify_artists02_genres": "bedroom soul",
+        "spotify_artists02_popularity": "56",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Amelia-Moore-ASTN-next-door.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2783,
+            "name": "Amelia Moore",
+            "slug": "amelia-moore",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2784,
+            "name": "ASTN",
+            "slug": "astn",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Amelia Moore, ASTN",
+        "ytvideoid": "8NtqssadI7M",
+        "spotify_track_id": "08HGey7e94Ez3ZurG1IXTP"
+      },
+      "genre_data": [
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "next-door"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,74 @@
+{
+  "id": 6687,
+  "count": 2,
+  "description": "Katatonia is a Swedish heavy metal band formed in Stockholm in 1991.",
+  "link": "https://sub.music8.jp/category/katatonia/",
+  "name": "KATATONIA",
+  "slug": "katatonia",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "1991",
+    "artistborn": "",
+    "artistjpname": "カタトニア",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2CWWgbxApjbyByxBBCvGTm",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a65f5211ef06d534018b7a11",
+    "youtube_channel": "",
+    "wikipedia_page": "Katatonia"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6687",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6687"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6687"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "カタトニア",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a65f5211ef06d534018b7a11",
+  "artistActiveYearStart": "1991",
+  "occupation": "band"
+}

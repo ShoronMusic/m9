@@ -1,0 +1,236 @@
+{
+  "artist": {
+    "id": 3419,
+    "count": 1,
+    "description": "Clark is a British electronic musician.",
+    "link": "https://sub.music8.jp/category/clark/",
+    "name": "Clark",
+    "slug": "clark",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2001",
+      "artistborn": "19790829",
+      "artistjpname": "クラーク",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3419",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3419"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3419"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 53874,
+      "date": "2023-05-26T21:06:21",
+      "date_gmt": "2023-05-26T12:06:21",
+      "title": {
+        "rendered": "Medicine"
+      },
+      "content": {
+        "rendered": "<p>Clark - Medicine (feat. Thom Yorke)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3419,
+        3420
+      ],
+      "tags": [],
+      "genre": [
+        421,
+        667
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6pcJGuExZqLqi5SY5CSULh",
+        "spotify_release_date": "2023-05-26",
+        "spotify_name": "Medicine",
+        "spotify_artists": "Clark, Thom Yorke",
+        "spotify_album": "Sus Dog",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ee901996011bae75d8852c33",
+        "spotify_duration_ms": "311562",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.556",
+        "spotify_energy": "0.781",
+        "spotify_key": "7",
+        "spotify_loudness": "-6.118",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0322",
+        "spotify_tempo": "141.013",
+        "spotify_valence": "0.201",
+        "spotify_acousticness": "0.0586",
+        "spotify_instrumentalness": "0.209",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.0992",
+        "spotify_artists01": "Clark",
+        "spotify_artists01_id": "6kic5bCjlohhDn9KzXbOta",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7d3f24f4506d090e0a415a39",
+        "spotify_artists01_genres": "electronica, intelligent dance music, wonky",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "トム・ヨーク",
+        "spotify_artists02_id": "4CvTDPKA6W06DRfBnZKrau",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb3153f6fe26063cfcbfc57677",
+        "spotify_artists02_genres": "alternative rock, art pop, art rock, electronica, glitch pop, indie rock, oxford indie",
+        "spotify_artists02_popularity": "56",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "3V85QYm8h9s",
+        "ytreleasedate": "2023/05/26"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Clark-Medicine-feat.-Thom-Yorke.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3419,
+            "name": "Clark",
+            "slug": "clark",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2001",
+              "artistborn": "19790829",
+              "artistjpname": "クラーク",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3420,
+            "name": "Thom Yorke",
+            "slug": "thom-yorke",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1985",
+              "artistborn": "19661007",
+              "artistjpname": "トム・ヨーク",
+              "member": [
+                {
+                  "term_id": 1373,
+                  "name": "Radiohead",
+                  "slug": "radiohead",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1373,
+                  "taxonomy": "category",
+                  "description": "Radiohead are an English rock band",
+                  "parent": 0,
+                  "count": 38,
+                  "filter": "raw"
+                },
+                {
+                  "term_id": 3209,
+                  "name": "Smile",
+                  "slug": "smile",
+                  "term_group": 0,
+                  "term_taxonomy_id": 3209,
+                  "taxonomy": "category",
+                  "description": "The Smile are an English rock band.",
+                  "parent": 0,
+                  "count": 8,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Clark, Thom Yorke",
+        "ytvideoid": "3V85QYm8h9s",
+        "spotify_track_id": "6pcJGuExZqLqi5SY5CSULh"
+      },
+      "genre_data": [
+        {
+          "name": "Art rock",
+          "slug": "art-rock",
+          "term_id": 421,
+          "post_count": 118
+        },
+        {
+          "name": "Post-rock",
+          "slug": "post-rock",
+          "term_id": 667,
+          "post_count": 27
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "medicine-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

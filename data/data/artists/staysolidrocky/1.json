@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1659,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/staysolidrocky/",
+    "name": "StaySolidRocky",
+    "slug": "staysolidrocky",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1659",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1659"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1659"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41614,
+      "date": "2020-04-21T20:28:00",
+      "date_gmt": "2020-04-21T11:28:00",
+      "title": {
+        "rendered": "Party Girl"
+      },
+      "content": {
+        "rendered": "\n<p>StaySolidRocky-PartyGirl</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1659
+      ],
+      "tags": [],
+      "genre": [
+        504,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5RqR4ZCCKJDcBLIn4sih9l",
+        "spotify_release_date": "2020/4/21",
+        "spotify_name": "Party Girl",
+        "spotify_artists": "StaySolidRocky",
+        "spotify_album": "Party Girl",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f3fb166b5515fb19b070773c",
+        "spotify_duration_ms": "147800",
+        "spotify_popularity": "74",
+        "spotify_danceability": "0.728",
+        "spotify_energy": "0.431",
+        "spotify_key": "6",
+        "spotify_loudness": "-9.966",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0622",
+        "spotify_tempo": "130.022",
+        "spotify_valence": "0.629",
+        "spotify_acousticness": "0.749",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0996",
+        "spotify_artists01": "StaySolidRocky",
+        "spotify_artists01_id": "1XLWox9w1Yvbodui0SRhUQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd6b4cd036a38de239c1e902d",
+        "spotify_artists01_genres": "melodic rap",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "1KlNDZpCkHc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/StaySolidRocky-Party-Girl.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1659,
+            "name": "StaySolidRocky",
+            "slug": "staysolidrocky",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "StaySolidRocky",
+        "ytvideoid": "1KlNDZpCkHc",
+        "spotify_track_id": "5RqR4ZCCKJDcBLIn4sih9l"
+      },
+      "genre_data": [
+        {
+          "name": "Emo rap",
+          "slug": "emo-rap",
+          "term_id": 504,
+          "post_count": 57
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "party-girl"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

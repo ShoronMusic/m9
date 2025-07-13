@@ -1,0 +1,834 @@
+{
+  "artist": {
+    "id": 2539,
+    "count": 6,
+    "description": "Vulfpeck is an American funk band.",
+    "link": "https://sub.music8.jp/category/vulfpeck/",
+    "name": "Vulfpeck",
+    "slug": "vulfpeck",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2011",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ヴォルフペック",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2539",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2539"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2539"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 92847,
+      "date": "2025-03-07T17:39:18",
+      "date_gmt": "2025-03-07T08:39:18",
+      "title": {
+        "rendered": "Can You Tell"
+      },
+      "content": {
+        "rendered": "<p>VULFPECK - Can You Tell</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2539
+      ],
+      "tags": [],
+      "genre": [
+        524,
+        719
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "zRB0gBJaCpA",
+        "ytreleasedate": "2025/03/07",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0FujKlrcfwpwL6Ct6LWzhJ",
+        "spotify_release_date": "2025-03-04",
+        "spotify_name": "Can You Tell",
+        "spotify_artists": "Vulfpeck, Joey Dosik",
+        "spotify_album": "Clarity of Cal",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a41dfd7aa0fb93cfb3b896a9",
+        "spotify_duration_ms": "266064",
+        "spotify_popularity": "38",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Vulfpeck",
+        "spotify_artists01_id": "7pXu47GoqSYRajmBCjxdD6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3f8c36a57018e5221c8c458c",
+        "spotify_artists01_genres": "funk rock",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "Joey Dosik",
+        "spotify_artists02_id": "3kANxNTLNOhxpOPoCbGq9E",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5c66093eb3d60078b3319590",
+        "spotify_artists02_genres": "retro soul",
+        "spotify_artists02_popularity": "42",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/vulfpeck-can-you-tell.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2539,
+            "name": "Vulfpeck",
+            "slug": "vulfpeck",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヴォルフペック",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Vulfpeck, Joey Dosik",
+        "ytvideoid": "zRB0gBJaCpA",
+        "spotify_track_id": "0FujKlrcfwpwL6Ct6LWzhJ"
+      },
+      "genre_data": [
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "can-you-tell"
+    },
+    {
+      "id": 91989,
+      "date": "2025-02-26T21:57:46",
+      "date_gmt": "2025-02-26T12:57:46",
+      "title": {
+        "rendered": "This Is Not The Song I Wrote"
+      },
+      "content": {
+        "rendered": "<p>VULFPECK - This Is Not The Song I Wrote</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2539
+      ],
+      "tags": [],
+      "genre": [
+        659
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "7Nf-cQj_SLE",
+        "ytreleasedate": "2025/02/26",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7DWWfEiOhKZro4Mv5pbYUW",
+        "spotify_release_date": "2025-02-25",
+        "spotify_name": "This Is Not The Song I Wrote",
+        "spotify_artists": "Vulfpeck, Joey Dosik, Jacob Jeffries",
+        "spotify_album": "This Is Not the Song I Wrote",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d7f48c32b08fa6ccf22058c4",
+        "spotify_duration_ms": "202543",
+        "spotify_popularity": "42",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Vulfpeck",
+        "spotify_artists01_id": "7pXu47GoqSYRajmBCjxdD6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1dd3305209679e9b244d3fb9",
+        "spotify_artists01_genres": "funk rock",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "Joey Dosik",
+        "spotify_artists02_id": "3kANxNTLNOhxpOPoCbGq9E",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5c66093eb3d60078b3319590",
+        "spotify_artists02_genres": "retro soul",
+        "spotify_artists02_popularity": "38",
+        "spotify_artists03": "Jacob Jeffries",
+        "spotify_artists03_id": "2s4evfvMB1HbNMGak6pDUB",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebb444cd5f36c06d7ee9bd94e9",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "42",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/vulfpeck-this-is-not-the-song-i-wrote.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2539,
+            "name": "Vulfpeck",
+            "slug": "vulfpeck",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヴォルフペック",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Vulfpeck, Joey Dosik, Jacob Jeffries",
+        "ytvideoid": "7Nf-cQj_SLE",
+        "spotify_track_id": "7DWWfEiOhKZro4Mv5pbYUW"
+      },
+      "genre_data": [
+        {
+          "name": "Pop soul",
+          "slug": "pop-soul",
+          "term_id": 659,
+          "post_count": 187
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "this-is-not-the-song-i-wrote"
+    },
+    {
+      "id": 90812,
+      "date": "2025-02-12T22:43:55",
+      "date_gmt": "2025-02-12T13:43:55",
+      "title": {
+        "rendered": "New Beastly"
+      },
+      "content": {
+        "rendered": "<p>VULFPECK - New Beastly</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2539
+      ],
+      "tags": [],
+      "genre": [
+        478
+      ],
+      "vocal": [],
+      "style": [
+        2873
+      ],
+      "acf": {
+        "ytvideoid": "hvYnw9Fse2U",
+        "ytreleasedate": "2025/02/12",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5PU1tTZlTnhaz2QRJGKNPh",
+        "spotify_release_date": "2025-02-11",
+        "spotify_name": "New Beastly",
+        "spotify_artists": "Vulfpeck",
+        "spotify_album": "New Beastly",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730bc644d0ab56408d7000ef76",
+        "spotify_duration_ms": "251748",
+        "spotify_popularity": "44",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Vulfpeck",
+        "spotify_artists01_id": "7pXu47GoqSYRajmBCjxdD6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1dd3305209679e9b244d3fb9",
+        "spotify_artists01_genres": "ファンクロック",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/vulfpeck-new-beastly.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2539,
+            "name": "Vulfpeck",
+            "slug": "vulfpeck",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヴォルフペック",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Vulfpeck",
+        "ytvideoid": "hvYnw9Fse2U",
+        "spotify_track_id": "5PU1tTZlTnhaz2QRJGKNPh"
+      },
+      "genre_data": [
+        {
+          "name": "Deep funk",
+          "slug": "deep-funk",
+          "term_id": 478,
+          "post_count": 6
+        }
+      ],
+      "vocal_data": [],
+      "slug": "new-beastly"
+    },
+    {
+      "id": 90329,
+      "date": "2025-02-05T21:27:36",
+      "date_gmt": "2025-02-05T12:27:36",
+      "title": {
+        "rendered": "Big Dipper &#038; Matter of Time"
+      },
+      "content": {
+        "rendered": "<p>VULFPECK - Big Dipper & Matter of Time</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2539
+      ],
+      "tags": [],
+      "genre": [
+        524,
+        719
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "QEah75Oyv8c",
+        "ytreleasedate": "2025/02/05",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3dH6J7zTb9v1M3zV4Aimvr",
+        "spotify_release_date": "2025-02-04",
+        "spotify_name": "Big Dipper",
+        "spotify_artists": "Vulfpeck",
+        "spotify_album": "Big Dipper",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27369fb61b11af321cb70897e8f",
+        "spotify_duration_ms": "188708",
+        "spotify_popularity": "44",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Vulfpeck",
+        "spotify_artists01_id": "7pXu47GoqSYRajmBCjxdD6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3f8c36a57018e5221c8c458c",
+        "spotify_artists01_genres": "ファンクロック",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/vulfpeck-big-dipper-matter-of-time.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2539,
+            "name": "Vulfpeck",
+            "slug": "vulfpeck",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヴォルフペック",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Vulfpeck",
+        "ytvideoid": "QEah75Oyv8c",
+        "spotify_track_id": "3dH6J7zTb9v1M3zV4Aimvr"
+      },
+      "genre_data": [
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "big-dipper-matter-of-time"
+    },
+    {
+      "id": 52944,
+      "date": "2023-01-28T21:47:54",
+      "date_gmt": "2023-01-28T12:47:54",
+      "title": {
+        "rendered": "Miracle"
+      },
+      "content": {
+        "rendered": "<p>VULFPECK - Miracle</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2539
+      ],
+      "tags": [],
+      "genre": [
+        524
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4ZRyO29QQaJ7imFb1w2Mpr",
+        "spotify_release_date": "2022-12-30",
+        "spotify_name": "Miracle",
+        "spotify_artists": "Vulfpeck",
+        "spotify_album": "Schvitz",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27312dd7dcec66b6d230a719a5e",
+        "spotify_duration_ms": "204601",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.629",
+        "spotify_energy": "0.215",
+        "spotify_key": "4",
+        "spotify_loudness": "-13.048",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.106",
+        "spotify_tempo": "171.87",
+        "spotify_valence": "0.823",
+        "spotify_acousticness": "0.65",
+        "spotify_instrumentalness": "0.0175",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.104",
+        "spotify_artists01": "Vulfpeck",
+        "spotify_artists01_id": "7pXu47GoqSYRajmBCjxdD6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3f8c36a57018e5221c8c458c",
+        "spotify_artists01_genres": "ann arbor indie, funk rock, instrumental funk",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "TR7g7tPGXts",
+        "ytreleasedate": "2023/01/28"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/VULFPECK-Miracle.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2539,
+            "name": "Vulfpeck",
+            "slug": "vulfpeck",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヴォルフペック",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Vulfpeck",
+        "ytvideoid": "TR7g7tPGXts",
+        "spotify_track_id": "4ZRyO29QQaJ7imFb1w2Mpr"
+      },
+      "genre_data": [
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "miracle-2"
+    },
+    {
+      "id": 38254,
+      "date": "2022-11-26T23:19:00",
+      "date_gmt": "2022-11-26T14:19:00",
+      "title": {
+        "rendered": "Sauna"
+      },
+      "content": {
+        "rendered": "\n<p>VULFPECK-Sauna</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2539
+      ],
+      "tags": [],
+      "genre": [
+        524,
+        587
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1DSl7kRrdWhwntiK6HOLVY",
+        "spotify_release_date": "2022/12/30",
+        "spotify_name": "Sauna",
+        "spotify_artists": "Vulfpeck,Vulf",
+        "spotify_album": "Schvitz",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27312dd7dcec66b6d230a719a5e",
+        "spotify_duration_ms": "195223",
+        "spotify_popularity": "53",
+        "spotify_danceability": "0.838",
+        "spotify_energy": "0.338",
+        "spotify_key": "1",
+        "spotify_loudness": "-10.592",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0434",
+        "spotify_tempo": "94.191",
+        "spotify_valence": "0.668",
+        "spotify_acousticness": "0.0296",
+        "spotify_instrumentalness": "0.121",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.115",
+        "spotify_artists01": "Vulfpeck",
+        "spotify_artists01_id": "7pXu47GoqSYRajmBCjxdD6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3f8c36a57018e5221c8c458c",
+        "spotify_artists01_genres": "annarborindie,funkrock,instrumentalfunk",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "Vulf",
+        "spotify_artists02_id": "1kkjXmcMmibTegsw0JtDwv",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb82f5d91fec8ab041cbffa749",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "63",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "9qoXa5_w3Gw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/VULFPECK-Sauna.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2539,
+            "name": "Vulfpeck",
+            "slug": "vulfpeck",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヴォルフペック",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Vulfpeck,Vulf",
+        "ytvideoid": "9qoXa5_w3Gw",
+        "spotify_track_id": "1DSl7kRrdWhwntiK6HOLVY"
+      },
+      "genre_data": [
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        },
+        {
+          "name": "Jazz pop",
+          "slug": "jazz-pop",
+          "term_id": 587,
+          "post_count": 34
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "sauna"
+    }
+  ],
+  "totalSongs": 6,
+  "totalPages": 1,
+  "currentPage": 1
+}

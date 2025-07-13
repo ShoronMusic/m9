@@ -1,0 +1,67 @@
+{
+  "id": 5131,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/masicka/",
+  "name": "Masicka",
+  "slug": "masicka",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "JAM",
+    "artistactiveyearstart": "",
+    "artistborn": "19931204",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [],
+    "related_artists": "",
+    "spotify_artist_id": "2Gzy8TYJ5xrEMDyUjZuDsK",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e9460abf13af4f23e78a9550"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5131",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5131"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5131"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174e9460abf13af4f23e78a9550",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

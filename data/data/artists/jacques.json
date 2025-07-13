@@ -1,0 +1,67 @@
+{
+  "id": 3739,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/jacques/",
+  "name": "Jacques",
+  "slug": "jacques",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FRA",
+    "artistactiveyearstart": "",
+    "artistborn": "19911218",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [],
+    "related_artists": "",
+    "spotify_artist_id": "55i4AnS7E58y41UwE0vvQh",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174be592b42f329a7abb58d83a9"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3739",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3739"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3739"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174be592b42f329a7abb58d83a9",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

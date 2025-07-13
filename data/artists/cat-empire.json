@@ -1,0 +1,72 @@
+{
+  "id": 5788,
+  "count": 1,
+  "description": "The Cat Empire are an Australian jazz/funk band.",
+  "link": "https://sub.music8.jp/category/cat-empire/",
+  "name": "Cat Empire",
+  "slug": "cat-empire",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "1999",
+    "artistborn": "",
+    "artistjpname": "キャット・エンパイア",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "John Butler Trio | Felix Riebl | Fat Freddy's Drop | Beautiful Girls | Harry James Angus | Xavier Rudd | Bukahara | Waifs | Boy & Bear | John Butler | Blue King Brown | Josh Pyke | Herd | Bluejuice | Ball Park Music | Whitlams | Pete Murray | Bedouin Soundclash | Bernard Fanning | Ash Grunwald",
+    "spotify_artist_id": "023YMawCG3OvACmRjWxLWC",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e3c317810b88d2db7bbeafe0"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5788",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5788"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5788"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "キャット・エンパイア",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174e3c317810b88d2db7bbeafe0",
+  "artistActiveYearStart": "1999",
+  "occupation": "band"
+}

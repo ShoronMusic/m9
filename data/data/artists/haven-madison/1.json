@@ -1,0 +1,184 @@
+{
+  "artist": {
+    "id": 4573,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/haven-madison/",
+    "name": "Haven Madison",
+    "slug": "haven-madison",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4573",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4573"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4573"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 66648,
+      "date": "2024-04-26T14:30:01",
+      "date_gmt": "2024-04-26T05:30:01",
+      "title": {
+        "rendered": "Kiss The Ground"
+      },
+      "content": {
+        "rendered": "<p>Haven Madison - Kiss The Ground</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4573
+      ],
+      "tags": [],
+      "genre": [
+        410
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "jk25-8tAczU",
+        "ytreleasedate": "2024/04/26",
+        "spotify_track_id": "4hXc50b59ywx8cdg9KlHCQ",
+        "spotify_release_date": "2024-04-26",
+        "spotify_name": "Kiss The Ground",
+        "spotify_artists": "Haven Madison",
+        "spotify_album": "Turn Off All The Lights",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739d25fd7b11409b4c8dfe9d80",
+        "spotify_duration_ms": "155400",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.688",
+        "spotify_energy": "0.503",
+        "spotify_key": "0",
+        "spotify_loudness": "-9.614",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0449",
+        "spotify_tempo": "75.042",
+        "spotify_valence": "0.574",
+        "spotify_acousticness": "0.00265",
+        "spotify_instrumentalness": "0.00435",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0573",
+        "spotify_artists01": "Haven Madison",
+        "spotify_artists01_id": "4bkKamJB5V4yN1llhAv6RZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb937a8bc60845e0fdd752d280",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2739d25fd7b11409b4c8dfe9d80.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4573,
+            "name": "Haven Madison",
+            "slug": "haven-madison",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Haven Madison",
+        "ytvideoid": "jk25-8tAczU",
+        "spotify_track_id": "4hXc50b59ywx8cdg9KlHCQ"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "kiss-the-ground"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,433 @@
+{
+  "artist": {
+    "id": 2026,
+    "count": 2,
+    "description": "Thundercat is an American bassist, singer, producer, and songwriter.",
+    "link": "https://sub.music8.jp/category/thundercat/",
+    "name": "Thundercat",
+    "slug": "thundercat",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2006",
+      "artistborn": "19841019",
+      "artistdied": "",
+      "artistjpname": "サンダーキャット",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        },
+        {
+          "value": "musician",
+          "label": "Musician"
+        },
+        {
+          "value": "bassist",
+          "label": "Bassist"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2026",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2026"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2026"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52271,
+      "date": "2023-04-26T21:53:48",
+      "date_gmt": "2023-04-26T12:53:48",
+      "title": {
+        "rendered": "No More Lies"
+      },
+      "content": {
+        "rendered": "<p>Thundercat, Tame Impala - No More Lies</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2223,
+        2026
+      ],
+      "tags": [],
+      "genre": [
+        677,
+        678,
+        735
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "62tGzw9OJOwDcjPBnMPCuj",
+        "spotify_release_date": "2023-04-25",
+        "spotify_name": "No More Lies",
+        "spotify_artists": "Thundercat, Tame Impala",
+        "spotify_album": "No More Lies",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273882c536d8dcfb086bcf9733b",
+        "spotify_duration_ms": "327217",
+        "spotify_popularity": "69",
+        "spotify_danceability": "0.602",
+        "spotify_energy": "0.835",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.573",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0413",
+        "spotify_tempo": "97.992",
+        "spotify_valence": "0.496",
+        "spotify_acousticness": "0.0921",
+        "spotify_instrumentalness": "0.0000643",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.138",
+        "spotify_artists01": "サンダーキャット",
+        "spotify_artists01_id": "4frXpPxQQZwbCu3eTGnZEw",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb299e78573ac6393aa9079d19",
+        "spotify_artists01_genres": "afrofuturism, indie soul",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "テーム・インパラ",
+        "spotify_artists02_id": "5INjqkS1o8h1imAzPqGZBb",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb90357ef28b3a012a1d1b2fa2",
+        "spotify_artists02_genres": "australian psych, modern rock, neo-psychedelic, rock",
+        "spotify_artists02_popularity": "79",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "XJYLSdiUqDw",
+        "ytreleasedate": "2023/04/26"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Thundercat-Tame-Impala-No-More-Lies.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2223,
+            "name": "Tame Impala",
+            "slug": "tame-impala",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "テーム・インパラ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2026,
+            "name": "Thundercat",
+            "slug": "thundercat",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "19841019",
+              "artistdied": "",
+              "artistjpname": "サンダーキャット",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "bassist",
+                  "label": "Bassist"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Thundercat, Tame Impala",
+        "ytvideoid": "XJYLSdiUqDw",
+        "spotify_track_id": "62tGzw9OJOwDcjPBnMPCuj"
+      },
+      "genre_data": [
+        {
+          "name": "Psychedelic pop",
+          "slug": "psychedelic-pop",
+          "term_id": 677,
+          "post_count": 79
+        },
+        {
+          "name": "Psychedelic rock",
+          "slug": "psychedelic-rock",
+          "term_id": 678,
+          "post_count": 111
+        },
+        {
+          "name": "Synth-funk",
+          "slug": "synth-funk",
+          "term_id": 735,
+          "post_count": 262
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "no-more-lies"
+    },
+    {
+      "id": 39074,
+      "date": "2022-07-29T20:47:00",
+      "date_gmt": "2022-07-29T11:47:00",
+      "title": {
+        "rendered": "Cracker Island"
+      },
+      "content": {
+        "rendered": "\n<p>Gorillaz-CrackerIslandft.Thundercat</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1963,
+        2026
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        524,
+        735
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "S03T47hapAc",
+        "likecount": "1",
+        "spotify_track_id": "2W3ZpQg9i6lE6kmHbcdu9N",
+        "spotify_release_date": "2022/6/22",
+        "spotify_name": "CrackerIsland(feat.Thundercat)",
+        "spotify_artists": "Gorillaz,Thundercat",
+        "spotify_album": "CrackerIsland(feat.Thundercat)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273efbba3463588a325949874d5",
+        "spotify_duration_ms": "213750",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.741",
+        "spotify_energy": "0.913",
+        "spotify_key": "2",
+        "spotify_loudness": "-3.34",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0465",
+        "spotify_tempo": "120.012",
+        "spotify_valence": "0.643",
+        "spotify_acousticness": "0.00343",
+        "spotify_instrumentalness": "0.103",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.325",
+        "spotify_artists01": "Gorillaz",
+        "spotify_artists01_id": "3AA28KZvwAUcZuOKwyblJQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb337d671a32b2f44d4a4e6cf2",
+        "spotify_artists01_genres": "alternativehiphop,modernrock,rock",
+        "spotify_artists01_popularity": "79",
+        "spotify_artists02": "Thundercat",
+        "spotify_artists02_id": "4frXpPxQQZwbCu3eTGnZEw",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb299e78573ac6393aa9079d19",
+        "spotify_artists02_genres": "afrofuturism,indiesoul",
+        "spotify_artists02_popularity": "72",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "artist_order": "",
+        "ytreleasedate": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273efbba3463588a325949874d5.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1963,
+            "name": "Gorillaz",
+            "slug": "gorillaz",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1998",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ゴリラズ",
+              "member": [
+                {
+                  "term_id": 2650,
+                  "name": "Damon Albarn",
+                  "slug": "damon-albarn",
+                  "term_group": 0,
+                  "term_taxonomy_id": 2650,
+                  "taxonomy": "category",
+                  "description": "Damon Albarn is an English and Icelandic musician, singer, songwriter and composer. He is the frontman of the rock band Blur and virtual band Gorillaz.",
+                  "parent": 0,
+                  "count": 1,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2026,
+            "name": "Thundercat",
+            "slug": "thundercat",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "19841019",
+              "artistdied": "",
+              "artistjpname": "サンダーキャット",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "bassist",
+                  "label": "Bassist"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Gorillaz,Thundercat",
+        "ytvideoid": "S03T47hapAc",
+        "spotify_track_id": "2W3ZpQg9i6lE6kmHbcdu9N"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        },
+        {
+          "name": "Synth-funk",
+          "slug": "synth-funk",
+          "term_id": 735,
+          "post_count": 262
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cracker-island"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

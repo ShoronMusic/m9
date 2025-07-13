@@ -1,0 +1,184 @@
+{
+  "artist": {
+    "id": 4380,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/jamwayne/",
+    "name": "JamWayne",
+    "slug": "jamwayne",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4380",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4380"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4380"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 64118,
+      "date": "2024-01-07T17:10:10",
+      "date_gmt": "2024-01-07T08:10:10",
+      "title": {
+        "rendered": "No Problems"
+      },
+      "content": {
+        "rendered": "<p>JamWayne - No Problems</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4380
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "ytvideoid": "slO2aXwUfGA",
+        "ytreleasedate": "2024/01/07",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7nkY4XlAbeLrdYERcAPiSS",
+        "spotify_release_date": "2024-01-07",
+        "spotify_name": "No Problems",
+        "spotify_artists": "JamWayne",
+        "spotify_album": "No Problems",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27332dc4b4c6e58ee9137ac8f1d",
+        "spotify_duration_ms": "172822",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.742",
+        "spotify_energy": "0.736",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.505",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0455",
+        "spotify_tempo": "125.027",
+        "spotify_valence": "0.267",
+        "spotify_acousticness": "0.0645",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.106",
+        "spotify_artists01": "JamWayne",
+        "spotify_artists01_id": "3BHsFg7FtIpq3EB54et7H3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb12dfb6cf3586cbb3082af9ca",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "42",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27332dc4b4c6e58ee9137ac8f1d.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4380,
+            "name": "JamWayne",
+            "slug": "jamwayne",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "JamWayne",
+        "ytvideoid": "slO2aXwUfGA",
+        "spotify_track_id": "7nkY4XlAbeLrdYERcAPiSS"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "no-problems"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

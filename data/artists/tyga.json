@@ -1,0 +1,73 @@
+{
+  "id": 1087,
+  "count": 17,
+  "description": "Tyga is an American rapper.",
+  "link": "https://sub.music8.jp/category/tyga/",
+  "name": "Tyga",
+  "slug": "tyga",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2004",
+    "artistborn": "19891119",
+    "artistdied": "",
+    "artistjpname": "タイガ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1087",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1087"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1087"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "タイガ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2004",
+  "occupation": "songwriter, rapper"
+}

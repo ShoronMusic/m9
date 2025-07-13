@@ -1,0 +1,76 @@
+{
+  "id": 3333,
+  "count": 6,
+  "description": "Felix Jaehn is a German DJ and record producer",
+  "link": "https://sub.music8.jp/category/felix-jaehn/",
+  "name": "Felix Jaehn",
+  "slug": "felix-jaehn",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "2012",
+    "artistborn": "",
+    "artistjpname": "フェリックス・ジェーン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "FAST BOY (fast-boy) | Topic (topic) | Sam Feldt (sam-feldt) | Robin Schulz (robin-schulz) | Ofenbach (ofenbach) | Alle Farben (alle-farben) | James Carter | YouNotUs (younotus) | Kungs (kungs) | twocolors (twocolors) | Jax Jones (jax-jones) | Lost Frequencies (lost-frequencies) | Ray Dalton (ray-dalton) | A7S (a7s) | Sigala (sigala) | Toby Romeo (toby-romeo) | Norma Jean Martine (norma-jean-martine) | Klingande (klingande) | GAMPER & DADONI | VIZE (vize)",
+    "spotify_artist_id": "4bL2B6hmLlMWnUEZnorEtG",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174528fd7e23c32ce4ae0e44e4f"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3333",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3333"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3333"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "フェリックス・ジェーン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174528fd7e23c32ce4ae0e44e4f",
+  "artistActiveYearStart": "2012",
+  "occupation": "dj, producer"
+}

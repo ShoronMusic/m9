@@ -1,0 +1,76 @@
+{
+  "id": 2188,
+  "count": 1,
+  "description": "Johnny Gill is an American singer and songwriter. He is the sixth and final member of the R&amp;B/pop group New Edition.",
+  "link": "https://sub.music8.jp/category/johnny-gill/",
+  "name": "Johnny Gill",
+  "slug": "johnny-gill",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1982",
+    "artistborn": "19660522",
+    "artistdied": "",
+    "artistjpname": "ジョニー・ギル",
+    "member": [
+      {
+        "term_id": 1008,
+        "name": "New Edition",
+        "slug": "new-edition",
+        "term_group": 0,
+        "term_taxonomy_id": 1008,
+        "taxonomy": "category",
+        "description": "New Edition is an American R&amp;B/Pop group",
+        "parent": 0,
+        "count": 11,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2188",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2188"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2188"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジョニー・ギル",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1982",
+  "occupation": ""
+}

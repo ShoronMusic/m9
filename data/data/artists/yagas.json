@@ -1,0 +1,72 @@
+{
+  "id": 6046,
+  "count": 3,
+  "description": "The Yagas is a Swedish indie rock band.",
+  "link": "https://sub.music8.jp/category/yagas/",
+  "name": "Yagas",
+  "slug": "yagas",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2016",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2ryRF1xeUbHB9FXczC2uBg",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743f28deb12e079a7f2f90bac1"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6046",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6046"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6046"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051743f28deb12e079a7f2f90bac1",
+  "artistActiveYearStart": "2016",
+  "occupation": "band"
+}

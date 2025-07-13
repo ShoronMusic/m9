@@ -1,0 +1,69 @@
+{
+  "id": 3015,
+  "count": 6,
+  "description": "The Lemon Twigs are an American rock band. Fronted by brothers Brian and Michael D'Addario.",
+  "link": "https://sub.music8.jp/category/lemon-twigs/",
+  "name": "Lemon Twigs",
+  "slug": "lemon-twigs",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2014",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・レモン・ツイッグス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ]
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3015",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3015"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3015"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ザ・レモン・ツイッグス",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2014",
+  "occupation": "band"
+}

@@ -1,0 +1,669 @@
+{
+  "artist": {
+    "id": 1512,
+    "count": 3,
+    "description": "Robert Smith is a British musician, lead singer, guitarist, and songwriter of the rock band The Cure.",
+    "link": "https://sub.music8.jp/category/robert-smith/",
+    "name": "Robert Smith",
+    "slug": "robert-smith",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1972",
+      "artistborn": "19590421",
+      "artistdied": "",
+      "artistjpname": "ロバート・スミス",
+      "member": [
+        {
+          "term_id": 984,
+          "name": "Cure",
+          "slug": "cure",
+          "term_group": 0,
+          "term_taxonomy_id": 984,
+          "taxonomy": "category",
+          "description": "The Cure is an English rock band.",
+          "parent": 0,
+          "count": 20,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "musician",
+          "label": "Musician"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1512",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1512"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1512"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 54541,
+      "date": "2023-10-13T20:17:32",
+      "date_gmt": "2023-10-13T11:17:32",
+      "title": {
+        "rendered": "Girls Float + Boys Cry"
+      },
+      "content": {
+        "rendered": "<p>††† (Crosses) - Girls Float + Boys Cry (feat. Robert Smith)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1512,
+        2938
+      ],
+      "tags": [],
+      "genre": [
+        476,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "551DaGlNF8TaxhJLXUEf40",
+        "spotify_release_date": "2023-10-13",
+        "spotify_name": "Girls Float † Boys Cry (feat. Robert Smith)",
+        "spotify_artists": "✝✝✝ (Crosses), Robert Smith",
+        "spotify_album": "Goodnight, God Bless, I Love U, Delete.",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732dcad081aaaa41923f26bdef",
+        "spotify_duration_ms": "266256",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.619",
+        "spotify_energy": "0.869",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.54",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0477",
+        "spotify_tempo": "139.025",
+        "spotify_valence": "0.112",
+        "spotify_acousticness": "0.0367",
+        "spotify_instrumentalness": "0.271",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.126",
+        "spotify_artists01": "✝✝✝ (Crosses)",
+        "spotify_artists01_id": "3gPZCcrc8KG2RuVl3rtbQ2",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebec6291f8a6cee657dab63610",
+        "spotify_artists01_genres": "electronic rock",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "Robert Smith",
+        "spotify_artists02_id": "6G7P2EzH5A36ujN9VPm4B0",
+        "spotify_artists02_images": "https://i.scdn.co/image/6d5600a80cadf8321e6509a9421f3ac582d461b3",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "46",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "BOBdol6I7ws",
+        "ytreleasedate": "2023/10/13"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/†††-Crosses-Girls-Float-Boys-Cry-feat.-Robert-Smith.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1512,
+            "name": "Robert Smith",
+            "slug": "robert-smith",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1972",
+              "artistborn": "19590421",
+              "artistdied": "",
+              "artistjpname": "ロバート・スミス",
+              "member": [
+                {
+                  "term_id": 984,
+                  "name": "Cure",
+                  "slug": "cure",
+                  "term_group": 0,
+                  "term_taxonomy_id": 984,
+                  "taxonomy": "category",
+                  "description": "The Cure is an English rock band.",
+                  "parent": 0,
+                  "count": 20,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2938,
+            "name": "††† (Crosses)",
+            "slug": "crosses",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "クロセズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": "",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "✝✝✝ (Crosses), Robert Smith",
+        "ytvideoid": "BOBdol6I7ws",
+        "spotify_track_id": "551DaGlNF8TaxhJLXUEf40"
+      },
+      "genre_data": [
+        {
+          "name": "Dark wave",
+          "slug": "dark-wave",
+          "term_id": 476,
+          "post_count": 57
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "girls-float-boys-cry"
+    },
+    {
+      "id": 50653,
+      "date": "2023-03-08T11:21:00",
+      "date_gmt": "2023-03-08T02:21:51",
+      "title": {
+        "rendered": "Pretty Boy (Robert Smith Remix)"
+      },
+      "content": {
+        "rendered": "<p>Noel Gallagher's High Flying Birds - Pretty Boy (Robert Smith Remix)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1497,
+        1512
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        421,
+        630
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6aH7dDhhvgEbSXKx4BfBUM",
+        "spotify_release_date": "2023/3/8",
+        "spotify_name": "Pretty Boy - Robert Smith Remix",
+        "spotify_artists": "Noel Gallagher's High Flying Birds, Robert Smith",
+        "spotify_album": "Pretty Boy (Robert Smith Remix)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737433a86234b617f6a13d536d",
+        "spotify_duration_ms": "343284",
+        "spotify_popularity": "2",
+        "spotify_danceability": "0.464",
+        "spotify_energy": "0.873",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.724",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0394",
+        "spotify_tempo": "156.962",
+        "spotify_valence": "0.427",
+        "spotify_acousticness": "0.0392",
+        "spotify_instrumentalness": "0.112",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0804",
+        "spotify_artists01": "ノエル・ギャラガーズ・ハイ・フライング・バーズ",
+        "spotify_artists01_id": "7sjttK1WcZeyLPn3IsQ62L",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb21544d3b4e0a00d209f56743",
+        "spotify_artists01_genres": "britpop",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "Robert Smith",
+        "spotify_artists02_id": "6G7P2EzH5A36ujN9VPm4B0",
+        "spotify_artists02_images": "https://i.scdn.co/image/6d5600a80cadf8321e6509a9421f3ac582d461b3",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "45",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "KBMjCzA8ayY",
+        "ytreleasedate": "2023/3/8"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Noel-Gallaghers-High-Flying-Birds-Pretty-Boy-Robert-Smith-Remix.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1497,
+            "name": "Noel Gallagher's High Flying Birds",
+            "slug": "noel-gallaghers-high-flying-birds",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2010",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ノエル・ギャラガーズ・ハイ・フライング・バーズ",
+              "member": [
+                {
+                  "errors": {
+                    "invalid_term": [
+                      "空のターム。"
+                    ]
+                  },
+                  "error_data": []
+                }
+              ],
+              "artistimage1": {
+                "ID": 85292,
+                "id": 85292,
+                "title": "noel-gallaghers-high-flying-birds",
+                "filename": "noel-gallaghers-high-flying-birds-1.jpg",
+                "filesize": 44801,
+                "url": "https://sub.music8.jp/wp-content/uploads/noel-gallaghers-high-flying-birds-1.jpg",
+                "link": "https://sub.music8.jp/noel-gallaghers-high-flying-birds-2/",
+                "alt": "",
+                "author": "1",
+                "description": "",
+                "caption": "",
+                "name": "noel-gallaghers-high-flying-birds-2",
+                "status": "inherit",
+                "uploaded_to": 0,
+                "date": "2024-11-17 14:41:49",
+                "modified": "2024-11-17 14:41:49",
+                "menu_order": 0,
+                "mime_type": "image/jpeg",
+                "type": "image",
+                "subtype": "jpeg",
+                "icon": "https://sub.music8.jp/wp-includes/images/media/default.png",
+                "width": 500,
+                "height": 500,
+                "sizes": {
+                  "thumbnail": "https://sub.music8.jp/wp-content/uploads/noel-gallaghers-high-flying-birds-1.jpg",
+                  "thumbnail-width": 50,
+                  "thumbnail-height": 50,
+                  "medium": "https://sub.music8.jp/wp-content/uploads/noel-gallaghers-high-flying-birds-1-50x50.jpg",
+                  "medium-width": 50,
+                  "medium-height": 50,
+                  "medium_large": "https://sub.music8.jp/wp-content/uploads/noel-gallaghers-high-flying-birds-1.jpg",
+                  "medium_large-width": 500,
+                  "medium_large-height": 500,
+                  "large": "https://sub.music8.jp/wp-content/uploads/noel-gallaghers-high-flying-birds-1-100x100.jpg",
+                  "large-width": 100,
+                  "large-height": 100,
+                  "1536x1536": "https://sub.music8.jp/wp-content/uploads/noel-gallaghers-high-flying-birds-1.jpg",
+                  "1536x1536-width": 500,
+                  "1536x1536-height": 500,
+                  "2048x2048": "https://sub.music8.jp/wp-content/uploads/noel-gallaghers-high-flying-birds-1.jpg",
+                  "2048x2048-width": 500,
+                  "2048x2048-height": 500
+                }
+              },
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Liam Gallagher (liam-gallagher) | Stereophonics (stereophonics) | Kasabian (kasabian) | Oasis (oasis) | Stone Roses (stone-roses) | Jake Bugg (jake-bugg) | Libertines (libertines) | Richard Ashcroft | Ocean Colour Scene (ocean-colour-scene) | Razorlight | Courteeners | Blossoms (blossoms) | Beady Eye | James | Embrace (embrace) | Miles Kane (miles-kane) | Cast (cast) | Shed Seven (shed-seven) | Travis (travis) | Coral (coral)",
+              "spotify_artist_id": "7sjttK1WcZeyLPn3IsQ62L",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517421544d3b4e0a00d209f56743"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1512,
+            "name": "Robert Smith",
+            "slug": "robert-smith",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1972",
+              "artistborn": "19590421",
+              "artistdied": "",
+              "artistjpname": "ロバート・スミス",
+              "member": [
+                {
+                  "term_id": 984,
+                  "name": "Cure",
+                  "slug": "cure",
+                  "term_group": 0,
+                  "term_taxonomy_id": 984,
+                  "taxonomy": "category",
+                  "description": "The Cure is an English rock band.",
+                  "parent": 0,
+                  "count": 20,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Noel Gallagher's High Flying Birds, Robert Smith",
+        "ytvideoid": "KBMjCzA8ayY",
+        "spotify_track_id": "6aH7dDhhvgEbSXKx4BfBUM"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Art rock",
+          "slug": "art-rock",
+          "term_id": 421,
+          "post_count": 118
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "pretty-boy-robert-smith-remix"
+    },
+    {
+      "id": 40934,
+      "date": "2021-06-22T02:08:00",
+      "date_gmt": "2021-06-21T17:08:00",
+      "title": {
+        "rendered": "How Not To Drown"
+      },
+      "content": {
+        "rendered": "\n<p><ahref=\"7U_LhzgwJ4U\">CHVRCHES,RobertSmith-HowNotToDrown</a></p>\n",
+        "protected": false
+      },
+      "categories": [
+        1509,
+        1512
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        501,
+        547
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2La74vQJjGEbn0LdTKTGGY",
+        "spotify_release_date": "2021/8/27",
+        "spotify_name": "How Not To Drown",
+        "spotify_artists": "CHVRCHES, Robert Smith",
+        "spotify_album": "Screen Violence",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273533b1dfaecaa454f7514e6f9",
+        "spotify_duration_ms": "331011",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.501",
+        "spotify_energy": "0.807",
+        "spotify_key": "11",
+        "spotify_loudness": "-6.508",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0411",
+        "spotify_tempo": "86.99",
+        "spotify_valence": "0.276",
+        "spotify_acousticness": "0.0138",
+        "spotify_instrumentalness": "0.123",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.151",
+        "spotify_artists01": "CHVRCHES",
+        "spotify_artists01_id": "3CjlHNtplJyTf9npxaPl5w",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebec93fdb668ef34df08f2c1e7",
+        "spotify_artists01_genres": "indietronica, metropopolis, neo-synthpop, shimmer pop",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "Robert Smith",
+        "spotify_artists02_id": "6G7P2EzH5A36ujN9VPm4B0",
+        "spotify_artists02_images": "https://i.scdn.co/image/6d5600a80cadf8321e6509a9421f3ac582d461b3",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "45",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "7U_LhzgwJ4U",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/CHVRCHES-Robert-Smith-How-Not-To-Drown.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1509,
+            "name": "CHVRCHES",
+            "slug": "chvrches",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "チャーチズ",
+              "member": [
+                {
+                  "errors": {
+                    "invalid_term": [
+                      "空のターム。"
+                    ]
+                  },
+                  "error_data": []
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Purity Ring | MS MR | Naked And Famous | HAIM (haim) | BROODS | St. Lucia | Passion Pit (passion-pit) | Phantogram | BANKS (banks) | Tegan and Sara (tegan-and-sara) | Foxes (foxes) | Metric (metric) | St. Vincent (st-vincent) | Lauren Mayberry (lauren-mayberry) | Phoenix (phoenix) | FOALS (foals) | Wolf Alice | Vampire Weekend (vampire-weekend) | Bombay Bicycle Club (bombay-bicycle-club) | Arcade Fire (arcade-fire)",
+              "spotify_artist_id": "3CjlHNtplJyTf9npxaPl5w",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517415e5ae2c6a8cdf07ed0253ae"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1512,
+            "name": "Robert Smith",
+            "slug": "robert-smith",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1972",
+              "artistborn": "19590421",
+              "artistdied": "",
+              "artistjpname": "ロバート・スミス",
+              "member": [
+                {
+                  "term_id": 984,
+                  "name": "Cure",
+                  "slug": "cure",
+                  "term_group": 0,
+                  "term_taxonomy_id": 984,
+                  "taxonomy": "category",
+                  "description": "The Cure is an English rock band.",
+                  "parent": 0,
+                  "count": 20,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "CHVRCHES, Robert Smith",
+        "ytvideoid": "7U_LhzgwJ4U",
+        "spotify_track_id": "2La74vQJjGEbn0LdTKTGGY"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Gothic rock",
+          "slug": "gothic-rock",
+          "term_id": 547,
+          "post_count": 79
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "how-not-to-drown"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

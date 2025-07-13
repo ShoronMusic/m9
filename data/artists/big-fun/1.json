@@ -1,0 +1,490 @@
+{
+  "artist": {
+    "id": 1011,
+    "count": 3,
+    "description": "Big Fun was a British boy band",
+    "link": "https://sub.music8.jp/category/big-fun/",
+    "name": "Big Fun",
+    "slug": "big-fun",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1989-1994",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ビッグ・ファン",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ],
+      "related_artists": "",
+      "spotify_artist_id": "7otAq2USieUy9XlE2YebBW",
+      "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517412b00ec0d266ba58795f4eef"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1011",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1011"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1011"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47277,
+      "date": "1990-06-11T21:12:00",
+      "date_gmt": "1990-06-11T12:12:00",
+      "title": {
+        "rendered": "You've Got A Friend"
+      },
+      "content": {
+        "rendered": "<p>Big Fun, Sonia - You've Got A Friend</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1011,
+        1010
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "",
+        "spotify_release_date": "",
+        "spotify_name": "",
+        "spotify_artists": "",
+        "spotify_album": "",
+        "spotify_images": "",
+        "spotify_duration_ms": "",
+        "spotify_popularity": "",
+        "spotify_danceability": "",
+        "spotify_energy": "",
+        "spotify_key": "",
+        "spotify_loudness": "",
+        "spotify_mode": "",
+        "spotify_speechiness": "",
+        "spotify_tempo": "",
+        "spotify_valence": "",
+        "spotify_acousticness": "",
+        "spotify_instrumentalness": "",
+        "spotify_time_signature": "",
+        "spotify_liveness": "",
+        "spotify_artists01": "",
+        "spotify_artists01_id": "",
+        "spotify_artists01_images": "",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "XfzjE_mwk8M",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Big-Fun-Sonia-Youve-Got-A-Friend.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1011,
+            "name": "Big Fun",
+            "slug": "big-fun",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1989-1994",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ビッグ・ファン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "7otAq2USieUy9XlE2YebBW",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517412b00ec0d266ba58795f4eef"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1010,
+            "name": "Sonia",
+            "slug": "sonia",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1989",
+              "artistborn": "19710213",
+              "artistdied": "",
+              "artistjpname": "ソニア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "",
+        "ytvideoid": "XfzjE_mwk8M",
+        "spotify_track_id": ""
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "youve-got-a-friend"
+    },
+    {
+      "id": 47373,
+      "date": "1989-11-01T21:38:00",
+      "date_gmt": "1989-11-01T12:38:00",
+      "title": {
+        "rendered": "Can't Shake the Feeling"
+      },
+      "content": {
+        "rendered": "<p>Big Fun - Can't Shake the Feeling</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1011
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        561
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "_wbgmsEBR5k",
+        "likecount": "1",
+        "spotify_track_id": "1cBnMjygoCHnI5InNUoHCP",
+        "spotify_release_date": "2019/5/10",
+        "spotify_name": "Can't Shake the Feeling",
+        "spotify_artists": "Big Fun",
+        "spotify_album": "A Pocketful of Dreams",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c9c713daf817d51681fbbca4",
+        "spotify_duration_ms": "223506",
+        "spotify_popularity": "28",
+        "spotify_danceability": "0.575",
+        "spotify_energy": "0.958",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.383",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0911",
+        "spotify_tempo": "124.257",
+        "spotify_valence": "0.68",
+        "spotify_acousticness": "0.0683",
+        "spotify_instrumentalness": "1.22E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.191",
+        "spotify_artists01": "Big Fun",
+        "spotify_artists01_id": "2nvxeT9UqUmTfFzTgNGwC0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab67616d0000b273c9c713daf817d51681fbbca4",
+        "spotify_artists01_genres": "boy band",
+        "spotify_artists01_popularity": "18",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "artist_order": "",
+        "ytreleasedate": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Big-Fun-Cant-Shake-the-Feeling.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1011,
+            "name": "Big Fun",
+            "slug": "big-fun",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1989-1994",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ビッグ・ファン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "7otAq2USieUy9XlE2YebBW",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517412b00ec0d266ba58795f4eef"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Big Fun",
+        "ytvideoid": "_wbgmsEBR5k",
+        "spotify_track_id": "1cBnMjygoCHnI5InNUoHCP"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Hi-NRG",
+          "slug": "hi-nrg",
+          "term_id": 561,
+          "post_count": 47
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cant-shake-the-feeling"
+    },
+    {
+      "id": 47431,
+      "date": "1989-08-01T21:31:00",
+      "date_gmt": "1989-08-01T12:31:00",
+      "title": {
+        "rendered": "Blame It On The Boogie"
+      },
+      "content": {
+        "rendered": "<p>Big Fun - Blame It On The Boogie</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1011
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        561
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "stP4r2feKVA",
+        "likecount": "0",
+        "spotify_track_id": "6GCqXZRwoxjkIDJrp5K3RZ",
+        "spotify_release_date": "2019/5/10",
+        "spotify_name": "Blame It on the Boogie - 7\" Version",
+        "spotify_artists": "Big Fun",
+        "spotify_album": "A Pocketful of Dreams",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c9c713daf817d51681fbbca4",
+        "spotify_duration_ms": "218680",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.656",
+        "spotify_energy": "0.953",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.482",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0781",
+        "spotify_tempo": "117.453",
+        "spotify_valence": "0.828",
+        "spotify_acousticness": "0.151",
+        "spotify_instrumentalness": "9.24E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0677",
+        "spotify_artists01": "Big Fun",
+        "spotify_artists01_id": "2nvxeT9UqUmTfFzTgNGwC0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab67616d0000b273c9c713daf817d51681fbbca4",
+        "spotify_artists01_genres": "boy band",
+        "spotify_artists01_popularity": "18",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "artist_order": "",
+        "ytreleasedate": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Big-Fun-Blame-It-On-The-Boogie.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1011,
+            "name": "Big Fun",
+            "slug": "big-fun",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1989-1994",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ビッグ・ファン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "7otAq2USieUy9XlE2YebBW",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517412b00ec0d266ba58795f4eef"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Big Fun",
+        "ytvideoid": "stP4r2feKVA",
+        "spotify_track_id": "6GCqXZRwoxjkIDJrp5K3RZ"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Hi-NRG",
+          "slug": "hi-nrg",
+          "term_id": 561,
+          "post_count": 47
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "blame-it-on-the-boogie"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

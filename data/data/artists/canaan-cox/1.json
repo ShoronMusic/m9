@@ -1,0 +1,184 @@
+{
+  "artist": {
+    "id": 4515,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/canaan-cox/",
+    "name": "Canaan Cox",
+    "slug": "canaan-cox",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "19891120",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4515",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4515"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4515"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 66071,
+      "date": "2024-03-13T10:16:20",
+      "date_gmt": "2024-03-13T01:16:20",
+      "title": {
+        "rendered": "Let It Run"
+      },
+      "content": {
+        "rendered": "<p>Canaan Cox - Let It Run</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4515
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "Ev__Skd9IUY",
+        "ytreleasedate": "2024/04/13",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1ImOqtljkWykxcCHLaQHkU",
+        "spotify_release_date": "2024-04-12",
+        "spotify_name": "Let It Run",
+        "spotify_artists": "Canaan Cox",
+        "spotify_album": "Let It Run",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731e44644d76d9559b6b5a3584",
+        "spotify_duration_ms": "174978",
+        "spotify_popularity": "45",
+        "spotify_danceability": "0.66",
+        "spotify_energy": "0.855",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.91",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0372",
+        "spotify_tempo": "140.019",
+        "spotify_valence": "0.774",
+        "spotify_acousticness": "0.0576",
+        "spotify_instrumentalness": "0.00293",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.126",
+        "spotify_artists01": "Canaan Cox",
+        "spotify_artists01_id": "6LcdklijxllKGfl4FWiv3D",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb79fb5a367c983013d7cd7461",
+        "spotify_artists01_genres": "modern country pop",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2731e44644d76d9559b6b5a3584.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4515,
+            "name": "Canaan Cox",
+            "slug": "canaan-cox",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19891120",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Canaan Cox",
+        "ytvideoid": "Ev__Skd9IUY",
+        "spotify_track_id": "1ImOqtljkWykxcCHLaQHkU"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "let-it-run"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

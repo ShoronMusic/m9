@@ -1,0 +1,214 @@
+{
+  "artist": {
+    "id": 923,
+    "count": 1,
+    "description": "GER",
+    "link": "https://sub.music8.jp/category/susanne-kemmler/",
+    "name": "Susanne Kemmler",
+    "slug": "susanne-kemmler",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/923",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=923"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=923"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47573,
+      "date": "1988-10-25T14:59:00",
+      "date_gmt": "1988-10-25T05:59:00",
+      "title": {
+        "rendered": "The Different Story (World Of Lust And Crime)"
+      },
+      "content": {
+        "rendered": "<p>Peter Schilling - The Different Story (World Of Lust And Crime)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        922,
+        923
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "zZ3cHxO99Cg",
+        "likecount": "",
+        "spotify_track_id": "1jP0CImX4WDx8jGfzrMTkV",
+        "spotify_release_date": "1989/4/4",
+        "spotify_name": "The Different Story (World of Lust and Crime) - Single Version",
+        "spotify_artists": "Peter Schilling",
+        "spotify_album": "The Different Story (World Of Lust And Crime)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273da10e566a05c4c506a424f3a",
+        "spotify_duration_ms": "232773",
+        "spotify_popularity": "38",
+        "spotify_danceability": "-0.09100149895522935",
+        "spotify_energy": "-0.07111045805613574",
+        "spotify_key": "-0.33779553375659294",
+        "spotify_loudness": "-0.6872881608931429",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "-0.54700648576154",
+        "spotify_tempo": "-0.25068635594565997",
+        "spotify_valence": "0.8940042734630768",
+        "spotify_acousticness": "0.3922357144809791",
+        "spotify_instrumentalness": "-0.36660780363160356",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "0.9755089125620166",
+        "spotify_artists01": "Peter Schilling",
+        "spotify_artists01_id": "7ip3CWlgPZbQHvgJpmcGSS",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb58ed694b912dd14417374401",
+        "spotify_artists01_genres": "neue deutsche welle, synthpop",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Peter-Schilling-The-Different-Story-World-Of-Lust-And-Crime.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 922,
+            "name": "Peter Schilling",
+            "slug": "peter-schilling",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1982",
+              "artistborn": "19560128",
+              "artistdied": "",
+              "artistjpname": "ピーター・シリング",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 923,
+            "name": "Susanne Kemmler",
+            "slug": "susanne-kemmler",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Peter Schilling",
+        "ytvideoid": "zZ3cHxO99Cg",
+        "spotify_track_id": "1jP0CImX4WDx8jGfzrMTkV"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "the-different-story-world-of-lust-and-crime"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 4804,
+  "count": 7,
+  "description": "DIIV is an American rock band.",
+  "link": "https://sub.music8.jp/category/diiv/",
+  "name": "DIIV",
+  "slug": "diiv",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "ダイヴ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Wild Nothing (wild-nothing) | Beach Fossils (beach-fossils) | Craft Spells | Deerhunter | Real Estate (real-estate) | Cloud Nothings | Melody's Echo Chamber | Ringo Deathstarr | Yuck | Ride | Black Marble | Preoccupations | Ariel Pink | Bdrmm (bdrmm) | Ducktails | Ty Segall | A Place To Bury Strangers | Nothing | Horrors | Lower Dens",
+    "spotify_artist_id": "4OrizGCKhOrW6iDDJHN9xd",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d1d8fe5d58e2465b148fbb92"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4804",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4804"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4804"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ダイヴ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174d1d8fe5d58e2465b148fbb92",
+  "artistActiveYearStart": "",
+  "occupation": "band"
+}

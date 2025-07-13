@@ -1,0 +1,324 @@
+{
+  "artist": {
+    "id": 4162,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/elettra-storm/",
+    "name": "ELETTRA STORM",
+    "slug": "elettra-storm",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "ITA",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "エレットラ・ストーム",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4162",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4162"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4162"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61757,
+      "date": "2024-02-01T14:11:14",
+      "date_gmt": "2024-02-01T05:11:14",
+      "title": {
+        "rendered": "Origin of Dreams"
+      },
+      "content": {
+        "rendered": "<p>ELETTRA STORM - Origin of Dreams</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4162
+      ],
+      "tags": [],
+      "genre": [
+        614,
+        668
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "qPSRb5AY37g",
+        "ytreleasedate": "2024/02/01",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6hvy0HszGWyYCLiGqqFyvL",
+        "spotify_release_date": "2024-02-01",
+        "spotify_name": "Origin Of Dreams",
+        "spotify_artists": "Elettra Storm",
+        "spotify_album": "Origin Of Dreams",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27356eef9f8f3b10100530decf5",
+        "spotify_duration_ms": "247866",
+        "spotify_popularity": "18",
+        "spotify_danceability": "0.402",
+        "spotify_energy": "0.935",
+        "spotify_key": "8",
+        "spotify_loudness": "-6.549",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.107",
+        "spotify_tempo": "83.501",
+        "spotify_valence": "0.496",
+        "spotify_acousticness": "0.000351",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.37",
+        "spotify_artists01": "Elettra Storm",
+        "spotify_artists01_id": "6FROTstvZO0h3nuTMvgjkh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe2d4ebc57a7e12fa2d6b8afa",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "10",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ELETTRA-STORM-Origin-of-Dreams.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4162,
+            "name": "ELETTRA STORM",
+            "slug": "elettra-storm",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "エレットラ・ストーム",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Elettra Storm",
+        "ytvideoid": "qPSRb5AY37g",
+        "spotify_track_id": "6hvy0HszGWyYCLiGqqFyvL"
+      },
+      "genre_data": [
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        },
+        {
+          "name": "Power metal",
+          "slug": "power-metal",
+          "term_id": 668,
+          "post_count": 98
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "origin-of-dreams"
+    },
+    {
+      "id": 61760,
+      "date": "2023-12-06T14:15:13",
+      "date_gmt": "2023-12-06T05:15:13",
+      "title": {
+        "rendered": "Higher than the Stars"
+      },
+      "content": {
+        "rendered": "<p>ELETTRA STORM - Higher than the Stars</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4162
+      ],
+      "tags": [],
+      "genre": [
+        668
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "_6KM8QKKQm4",
+        "ytreleasedate": "2023/12/06",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "20w60Q0HzumHUVEJc2TtLy",
+        "spotify_release_date": "2023-12-06",
+        "spotify_name": "Higher Than The Stars",
+        "spotify_artists": "Elettra Storm",
+        "spotify_album": "Higher Than The Stars",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e1f4eff4634b5eed8f4f3779",
+        "spotify_duration_ms": "219320",
+        "spotify_popularity": "21",
+        "spotify_danceability": "0.351",
+        "spotify_energy": "0.925",
+        "spotify_key": "10",
+        "spotify_loudness": "-6.343",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.116",
+        "spotify_tempo": "176.162",
+        "spotify_valence": "0.164",
+        "spotify_acousticness": "0.0000189",
+        "spotify_instrumentalness": "0.0000131",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.123",
+        "spotify_artists01": "Elettra Storm",
+        "spotify_artists01_id": "6FROTstvZO0h3nuTMvgjkh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe2d4ebc57a7e12fa2d6b8afa",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "10",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ELETTRA-STORM-Higher-than-the-Stars.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4162,
+            "name": "ELETTRA STORM",
+            "slug": "elettra-storm",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "エレットラ・ストーム",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Elettra Storm",
+        "ytvideoid": "_6KM8QKKQm4",
+        "spotify_track_id": "20w60Q0HzumHUVEJc2TtLy"
+      },
+      "genre_data": [
+        {
+          "name": "Power metal",
+          "slug": "power-metal",
+          "term_id": 668,
+          "post_count": 98
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "higher-than-the-stars"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

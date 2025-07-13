@@ -1,0 +1,72 @@
+{
+  "id": 6284,
+  "count": 4,
+  "description": "Ben Barnes is an English actor and singer.",
+  "link": "https://sub.music8.jp/category/ben-barnes/",
+  "name": "Ben Barnes",
+  "slug": "ben-barnes",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2004",
+    "artistborn": "",
+    "artistjpname": "ベン・バーンズ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "32PaECIhlV46TtNdKP34GX",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174f13814c517e572c23ac6dac2"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6284",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6284"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6284"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ベン・バーンズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174f13814c517e572c23ac6dac2",
+  "artistActiveYearStart": "2004",
+  "occupation": "singer"
+}

@@ -1,0 +1,334 @@
+{
+  "artist": {
+    "id": 3684,
+    "count": 2,
+    "description": "Patrick Martin is a Los Angeles-based artist and songwriter.",
+    "link": "https://sub.music8.jp/category/patrick-martin/",
+    "name": "Patrick Martin",
+    "slug": "patrick-martin",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3684",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3684"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3684"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 56425,
+      "date": "2023-04-28T20:58:55",
+      "date_gmt": "2023-04-28T11:58:55",
+      "title": {
+        "rendered": "All This Love"
+      },
+      "content": {
+        "rendered": "<p>Patrick Martin - All This Love</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3684
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2FlUWh0l8SeQH5lrkQxubG",
+        "spotify_release_date": "2023-04-28",
+        "spotify_name": "All This Love",
+        "spotify_artists": "Patrick Martin",
+        "spotify_album": "All This Love",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d8712eb6a204e65bf2252f6b",
+        "spotify_duration_ms": "221106",
+        "spotify_popularity": "26",
+        "spotify_danceability": "-0.3814248220655578",
+        "spotify_energy": "1.0264242763799172",
+        "spotify_key": "-1.417844935220459",
+        "spotify_loudness": "1.2139030540429958",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.21622238806762623",
+        "spotify_tempo": "-0.7323696916564634",
+        "spotify_valence": "-0.33865269780558577",
+        "spotify_acousticness": "-0.7909388661205838",
+        "spotify_instrumentalness": "-0.3515170930419958",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.8694329962955626",
+        "spotify_artists01": "Patrick Martin",
+        "spotify_artists01_id": "0akke4ZfLeCMEwuSJX5yc8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd32b2ac4c4880690fa6c69e3",
+        "spotify_artists01_genres": "la pop",
+        "spotify_artists01_popularity": "28",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "PxULWBd1gYE",
+        "ytreleasedate": "2023/04/28"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Patrick-Martin-All-This-Love.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3684,
+            "name": "Patrick Martin",
+            "slug": "patrick-martin",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Patrick Martin",
+        "ytvideoid": "PxULWBd1gYE",
+        "spotify_track_id": "2FlUWh0l8SeQH5lrkQxubG"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "all-this-love"
+    },
+    {
+      "id": 56421,
+      "date": "2023-02-17T20:54:35",
+      "date_gmt": "2023-02-17T11:54:35",
+      "title": {
+        "rendered": "Dandelion Eyes"
+      },
+      "content": {
+        "rendered": "<p>Patrick Martin - Dandelion Eyes</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3684
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4N27EhvsqQ0FWVrPS4trAS",
+        "spotify_release_date": "2023-02-17",
+        "spotify_name": "Dandelion Eyes",
+        "spotify_artists": "Patrick Martin",
+        "spotify_album": "Dandelion Eyes",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273dbac3502a35f9c1585b08529",
+        "spotify_duration_ms": "189869",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.662",
+        "spotify_energy": "0.741",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.506",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0315",
+        "spotify_tempo": "126.004",
+        "spotify_valence": "0.619",
+        "spotify_acousticness": "0.0598",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.126",
+        "spotify_artists01": "Patrick Martin",
+        "spotify_artists01_id": "0akke4ZfLeCMEwuSJX5yc8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd32b2ac4c4880690fa6c69e3",
+        "spotify_artists01_genres": "la pop",
+        "spotify_artists01_popularity": "28",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "fqQPDaRrIko",
+        "ytreleasedate": "2023/02/17"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Patrick-Martin-Dandelion-Eyes.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3684,
+            "name": "Patrick Martin",
+            "slug": "patrick-martin",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Patrick Martin",
+        "ytvideoid": "fqQPDaRrIko",
+        "spotify_track_id": "4N27EhvsqQ0FWVrPS4trAS"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "dandelion-eyes"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

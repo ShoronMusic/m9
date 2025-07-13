@@ -1,0 +1,72 @@
+{
+  "id": 4609,
+  "count": 1,
+  "description": "Christia Visser is a South African actress and singer.",
+  "link": "https://sub.music8.jp/category/christia-visser/",
+  "name": "Christia Visser",
+  "slug": "christia-visser",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "RSA",
+    "artistactiveyearstart": "2013",
+    "artistborn": "19920302",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "0AVwVUxhRdEKiuLNGAxmtu",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051741fea2b4b67814664d762c8c8"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4609",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4609"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4609"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051741fea2b4b67814664d762c8c8",
+  "artistActiveYearStart": "2013",
+  "occupation": "singer"
+}

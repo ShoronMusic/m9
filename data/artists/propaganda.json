@@ -1,0 +1,72 @@
+{
+  "id": 955,
+  "count": 9,
+  "description": "Propaganda is a German synth-pop band",
+  "link": "https://sub.music8.jp/category/propaganda/",
+  "name": "Propaganda",
+  "slug": "propaganda",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "1982",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "プロパガンダ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "28yIUgPYZqgJoNZjeBvrHn",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ecd299d1ab6add5c974aac58"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/955",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=955"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=955"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "プロパガンダ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ecd299d1ab6add5c974aac58",
+  "artistActiveYearStart": "1982",
+  "occupation": "band"
+}

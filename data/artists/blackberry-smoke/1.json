@@ -1,0 +1,331 @@
+{
+  "artist": {
+    "id": 4189,
+    "count": 2,
+    "description": "Blackberry Smoke is an American country rock band.",
+    "link": "https://sub.music8.jp/category/blackberry-smoke/",
+    "name": "Blackberry Smoke",
+    "slug": "blackberry-smoke",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2000",
+      "artistborn": "",
+      "artistjpname": "ブラックベリー・スモーク",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4189",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4189"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4189"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61913,
+      "date": "2024-01-19T21:42:23",
+      "date_gmt": "2024-01-19T12:42:23",
+      "title": {
+        "rendered": "Azalea"
+      },
+      "content": {
+        "rendered": "<p>Blackberry Smoke - Azalea</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4189
+      ],
+      "tags": [],
+      "genre": [
+        468,
+        720
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "2eDfnKqg4TA",
+        "ytreleasedate": "2024/01/19",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7FsVjtLNj2KCXU1P7c62Cf",
+        "spotify_release_date": "2024-01-19",
+        "spotify_name": "Azalea",
+        "spotify_artists": "ブラックベリー・スモーク",
+        "spotify_album": "Azalea",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736f94c8a01b01197d4292a35e",
+        "spotify_duration_ms": "256013",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.585",
+        "spotify_energy": "0.509",
+        "spotify_key": "0",
+        "spotify_loudness": "-10.098",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0294",
+        "spotify_tempo": "81.38",
+        "spotify_valence": "0.351",
+        "spotify_acousticness": "0.399",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.188",
+        "spotify_artists01": "ブラックベリー・スモーク",
+        "spotify_artists01_id": "5P1oS9DUTPEqcrmXDmX4p8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb07d1addf10e18eff048cac1",
+        "spotify_artists01_genres": "modern southern rock, southern rock",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Blackberry-Smoke-Azalea.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4189,
+            "name": "Blackberry Smoke",
+            "slug": "blackberry-smoke",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2000",
+              "artistborn": "",
+              "artistjpname": "ブラックベリー・スモーク",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ブラックベリー・スモーク",
+        "ytvideoid": "2eDfnKqg4TA",
+        "spotify_track_id": "7FsVjtLNj2KCXU1P7c62Cf"
+      },
+      "genre_data": [
+        {
+          "name": "Country rock",
+          "slug": "country-rock",
+          "term_id": 468,
+          "post_count": 89
+        },
+        {
+          "name": "Southern Rock",
+          "slug": "southern-rock",
+          "term_id": 720,
+          "post_count": 27
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "azalea"
+    },
+    {
+      "id": 61917,
+      "date": "2023-10-06T21:46:02",
+      "date_gmt": "2023-10-06T12:46:02",
+      "title": {
+        "rendered": "Little Bit Crazy"
+      },
+      "content": {
+        "rendered": "<p>Blackberry Smoke - Little Bit Crazy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4189
+      ],
+      "tags": [],
+      "genre": [
+        658,
+        720
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "IH8OeTx-GVI",
+        "ytreleasedate": "2023/10/06",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0mxbf0VhKWQEJP7EOreW7S",
+        "spotify_release_date": "2023-10-06",
+        "spotify_name": "Little Bit Crazy",
+        "spotify_artists": "ブラックベリー・スモーク",
+        "spotify_album": "Little Bit Crazy",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fcc16e68c28846a75c5de8a5",
+        "spotify_duration_ms": "286040",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.578",
+        "spotify_energy": "0.66",
+        "spotify_key": "2",
+        "spotify_loudness": "-7.512",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0311",
+        "spotify_tempo": "122.346",
+        "spotify_valence": "0.578",
+        "spotify_acousticness": "0.00976",
+        "spotify_instrumentalness": "0.0000635",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0413",
+        "spotify_artists01": "ブラックベリー・スモーク",
+        "spotify_artists01_id": "5P1oS9DUTPEqcrmXDmX4p8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb07d1addf10e18eff048cac1",
+        "spotify_artists01_genres": "modern southern rock, southern rock",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Blackberry-Smoke-Little-Bit-Crazy.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4189,
+            "name": "Blackberry Smoke",
+            "slug": "blackberry-smoke",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2000",
+              "artistborn": "",
+              "artistjpname": "ブラックベリー・スモーク",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ブラックベリー・スモーク",
+        "ytvideoid": "IH8OeTx-GVI",
+        "spotify_track_id": "0mxbf0VhKWQEJP7EOreW7S"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Southern Rock",
+          "slug": "southern-rock",
+          "term_id": 720,
+          "post_count": 27
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "little-bit-crazy"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

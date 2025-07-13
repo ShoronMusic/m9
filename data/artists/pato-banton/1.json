@@ -1,0 +1,226 @@
+{
+  "artist": {
+    "id": 1029,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/pato-banton/",
+    "name": "Pato Banton",
+    "slug": "pato-banton",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1029",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1029"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1029"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 3083,
+      "date": "1995-11-07T14:12:00",
+      "date_gmt": "1995-11-07T05:12:00",
+      "title": {
+        "rendered": "Spirits in the Material World"
+      },
+      "content": {
+        "rendered": "<p>Pato Banton - Spirits in the Material World ft.Sting</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1029,
+        768
+      ],
+      "tags": [],
+      "genre": [
+        574,
+        690
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "S--kTyvm_fM",
+        "likecount": "0",
+        "spotify_track_id": "05Rc21O5DJCm8gxNMD7AGn",
+        "spotify_release_date": "1996/1/1",
+        "spotify_name": "Spirits In The Material World",
+        "spotify_artists": "Pato Banton And The Reggae Revolution",
+        "spotify_album": "Stay Positive",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27317cfc6be8eb2cb027e14c5c0",
+        "spotify_duration_ms": "277360",
+        "spotify_popularity": "16",
+        "spotify_danceability": "0.682",
+        "spotify_energy": "0.833",
+        "spotify_key": "9",
+        "spotify_loudness": "-8.221",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0339",
+        "spotify_tempo": "134.87",
+        "spotify_valence": "0.902",
+        "spotify_acousticness": "0.293",
+        "spotify_instrumentalness": "0.00189",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0533",
+        "spotify_artists01": "Pato Banton And The Reggae Revolution",
+        "spotify_artists01_id": "3USKetsGV6JcW6Y35KL2Jr",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab67616d0000b27317cfc6be8eb2cb027e14c5c0",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "23",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "ytreleasedate": "",
+        "artist_order": "Pato Banton, Sting"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pato-Banton-Spirits-in-the-Material-World-ft.Sting_.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1029,
+            "name": "Pato Banton",
+            "slug": "pato-banton",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 768,
+            "name": "Sting",
+            "slug": "sting",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1971",
+              "artistborn": "19511002",
+              "artistdied": "",
+              "artistjpname": "スティング",
+              "member": [
+                {
+                  "term_id": 2,
+                  "name": "Police",
+                  "slug": "police",
+                  "term_group": 0,
+                  "term_taxonomy_id": 2,
+                  "taxonomy": "category",
+                  "description": "The Police were an English rock band formed in London in 1977.",
+                  "parent": 0,
+                  "count": 22,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "bassist",
+                  "label": "Bassist"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "0Ty63ceoRnnJKVEYP0VQpk",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749fdb4dab484a9f12e347c216",
+              "youtube_channel": "UCwERP8ZAI10RtZIAPsZQDDw",
+              "wikipedia_page": "Sting_(musician)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Pato Banton, Sting",
+        "spotify_artists": "Pato Banton And The Reggae Revolution",
+        "ytvideoid": "S--kTyvm_fM",
+        "spotify_track_id": "05Rc21O5DJCm8gxNMD7AGn"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        },
+        {
+          "name": "Reggae",
+          "slug": "reggae",
+          "term_id": 690,
+          "post_count": 83
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "spirits-in-the-material-world-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

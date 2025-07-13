@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 1787,
+    "count": 1,
+    "description": "CAN",
+    "link": "https://sub.music8.jp/category/goody-grace/",
+    "name": "Goody Grace",
+    "slug": "goody-grace",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1787",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1787"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1787"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40025,
+      "date": "2022-03-16T18:40:00",
+      "date_gmt": "2022-03-16T09:40:00",
+      "title": {
+        "rendered": "Rest In Pieces"
+      },
+      "content": {
+        "rendered": "\n<p>KelsyKarter-RestInPiecesFt.GoodyGrace</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1787,
+        1786
+      ],
+      "tags": [],
+      "genre": [
+        658,
+        660
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "W14lrJNFCFo",
+        "likecount": "1",
+        "spotify_track_id": "5RR9EjI16LxwQFOX5fxpCW",
+        "spotify_release_date": "2022/2/11",
+        "spotify_name": "RestInPieces(feat.GoodyGrace)",
+        "spotify_artists": "KelsyKarter&TheHeroines,GoodyGrace",
+        "spotify_album": "RestInPieces(feat.GoodyGrace)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27355f41cfabed4b76300165f53",
+        "spotify_duration_ms": "175186",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.498",
+        "spotify_energy": "0.893",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.688",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0671",
+        "spotify_tempo": "158.098",
+        "spotify_valence": "0.43",
+        "spotify_acousticness": "0.00117",
+        "spotify_instrumentalness": "2.45E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.11",
+        "spotify_artists01": "KelsyKarter&TheHeroines",
+        "spotify_artists01_id": "2mAAO54PkHr3NjdlRpzEDl",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3e1f92648fa6cc9b30d03855",
+        "spotify_artists01_genres": "altz",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "GoodyGrace",
+        "spotify_artists02_id": "1iH2Yx2Ea0kZ0zKI3Nlk30",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb019c82e3a21b1e8f99fdea63",
+        "spotify_artists02_genres": "poprap",
+        "spotify_artists02_popularity": "52",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "Kelsy Karter, Goody Grace",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kelsy-Karter-Rest-In-Pieces.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1787,
+            "name": "Goody Grace",
+            "slug": "goody-grace",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1786,
+            "name": "Kelsy Karter",
+            "slug": "kelsy-karter",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Kelsy Karter, Goody Grace",
+        "spotify_artists": "KelsyKarter&TheHeroines,GoodyGrace",
+        "ytvideoid": "W14lrJNFCFo",
+        "spotify_track_id": "5RR9EjI16LxwQFOX5fxpCW"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rest-in-pieces"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

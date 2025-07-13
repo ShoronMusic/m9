@@ -1,0 +1,235 @@
+{
+  "artist": {
+    "id": 2666,
+    "count": 1,
+    "description": "Supermode is a Swedish electronic music duo consisting of DJs and producers Steve Angello and Axwell.",
+    "link": "https://sub.music8.jp/category/supermode/",
+    "name": "Supermode",
+    "slug": "supermode",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "2006",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "スーパーモード",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "duo",
+          "label": "Duo"
+        },
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2666",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2666"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2666"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38778,
+      "date": "2022-09-08T20:56:00",
+      "date_gmt": "2022-09-08T11:56:00",
+      "title": {
+        "rendered": "Tell Me Why (Meduza Extended Remix)"
+      },
+      "content": {
+        "rendered": "\n<p>Supermode-TellMeWhy(MeduzaExtendedRemix)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1630,
+        2666
+      ],
+      "tags": [],
+      "genre": [
+        670,
+        742
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "28z7B1ctsuTyspQFda3xEl",
+        "spotify_release_date": "2022/9/2",
+        "spotify_name": "TellMeWhy-MEDUZAExtendedRemix",
+        "spotify_artists": "Supermode,MEDUZA",
+        "spotify_album": "TellMeWhy(MEDUZARemix)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273010a5f4abb5bc82685e30137",
+        "spotify_duration_ms": "508690",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.635",
+        "spotify_energy": "0.876",
+        "spotify_key": "4",
+        "spotify_loudness": "-6.637",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0372",
+        "spotify_tempo": "126.006",
+        "spotify_valence": "0.0816",
+        "spotify_acousticness": "0.111",
+        "spotify_instrumentalness": "0.842",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.125",
+        "spotify_artists01": "Supermode",
+        "spotify_artists01_id": "7urnl0uH1w3NCoErxw7AUK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab67616d0000b273010a5f4abb5bc82685e30137",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "MEDUZA",
+        "spotify_artists02_id": "0xRXCcSX89eobfrshSVdyu",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb15c5994b69ff1f930756bd1f",
+        "spotify_artists02_genres": "edm,popdance,pophouse,ukdance",
+        "spotify_artists02_popularity": "76",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "GUaltRgMaMA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Supermode-Tell-Me-Why-Meduza-Extended-Remix.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1630,
+            "name": "Meduza",
+            "slug": "meduza",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "メドゥーザ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2666,
+            "name": "Supermode",
+            "slug": "supermode",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スーパーモード",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Supermode,MEDUZA",
+        "ytvideoid": "GUaltRgMaMA",
+        "spotify_track_id": "28z7B1ctsuTyspQFda3xEl"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        },
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "tell-me-why-meduza-extended-remix"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

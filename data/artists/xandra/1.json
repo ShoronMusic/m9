@@ -1,0 +1,245 @@
+{
+  "artist": {
+    "id": 5721,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/xandra/",
+    "name": "XANDRA",
+    "slug": "xandra",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ],
+      "related_artists": "Gigi Grombacher (gigi-grombacher) | John Summit (john-summit) | Two Friends | it's murph | Dom Dolla (dom-dolla) | TWINSICK | Disco Lines (dsco-lines) | Loud Luxury | Louis The Child (louis-the-child) | Hayla (hayla)",
+      "spotify_artist_id": "0R7QDPXqFaQ9F0FdTZUeca",
+      "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174099cdabfb153e298ecd02ead"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5721",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5721"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5721"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 79443,
+      "date": "2024-07-20T17:44:16",
+      "date_gmt": "2024-07-20T08:44:16",
+      "title": {
+        "rendered": "Body Say"
+      },
+      "content": {
+        "rendered": "<p>XANDRA, Gigi Grombacher - Body Say</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5722,
+        5721
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        670
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "vowUD1U_3sA",
+        "ytreleasedate": "2024/07/20",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "25ArkZpdsdxliawDn8mRMb",
+        "spotify_release_date": "2024-07-12",
+        "spotify_name": "Body Say",
+        "spotify_artists": "XANDRA, GiGi Grombacher",
+        "spotify_album": "Body Say",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27371372226c7ad0febffafb6dd",
+        "spotify_duration_ms": "135357",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.765",
+        "spotify_energy": "0.856",
+        "spotify_key": "1",
+        "spotify_loudness": "-3.933",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0641",
+        "spotify_tempo": "126.017",
+        "spotify_valence": "0.541",
+        "spotify_acousticness": "0.0808",
+        "spotify_instrumentalness": "0.000152",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.286",
+        "spotify_artists01": "XANDRA",
+        "spotify_artists01_id": "0R7QDPXqFaQ9F0FdTZUeca",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb099cdabfb153e298ecd02ead",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "33",
+        "spotify_artists02": "GiGi Grombacher",
+        "spotify_artists02_id": "4F18x5o9JJ3TbuXfyry04n",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb7d2e53b44b8c94641993e067",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "35",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27371372226c7ad0febffafb6dd.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5722,
+            "name": "Gigi Grombacher",
+            "slug": "gigi-grombacher",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "XANDRA (xandra) | Callie Reiff | Genes | Sam Creighton | noelle | Isabel Wood | Caroline Kole | Halo Kitsch | Riley Biederer (riley-biederer) | Sophia Gripari | Leadley | Advokid | Paulina | Jades Goudreault | Olivia Lunny | Amari | Alice Gray | Haywood | Heather Sommer | Beren Olivia",
+              "spotify_artist_id": "4F18x5o9JJ3TbuXfyry04n",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747d2e53b44b8c94641993e067"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 5721,
+            "name": "XANDRA",
+            "slug": "xandra",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Gigi Grombacher (gigi-grombacher) | John Summit (john-summit) | Two Friends | it's murph | Dom Dolla (dom-dolla) | TWINSICK | Disco Lines (dsco-lines) | Loud Luxury | Louis The Child (louis-the-child) | Hayla (hayla)",
+              "spotify_artist_id": "0R7QDPXqFaQ9F0FdTZUeca",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174099cdabfb153e298ecd02ead"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "XANDRA, GiGi Grombacher",
+        "ytvideoid": "vowUD1U_3sA",
+        "spotify_track_id": "25ArkZpdsdxliawDn8mRMb"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "body-say-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

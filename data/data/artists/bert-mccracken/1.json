@@ -1,0 +1,242 @@
+{
+  "artist": {
+    "id": 1433,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/bert-mccracken/",
+    "name": "Bert McCracken",
+    "slug": "bert-mccracken",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1433",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1433"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1433"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41367,
+      "date": "2020-09-29T22:38:00",
+      "date_gmt": "2020-09-29T13:38:00",
+      "title": {
+        "rendered": "body bag"
+      },
+      "content": {
+        "rendered": "\n<p>MachineGunKellyFt.YUNGBLUD&amp;BertMcCrackenofTheUsed-bodybag</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1433,
+        1425,
+        2853
+      ],
+      "tags": [],
+      "genre": [
+        658,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0NZrY7Lc9g6V03hxRpfToV",
+        "spotify_release_date": "2020/9/29",
+        "spotify_name": "body bag (feat. YUNGBLUD & Bert McCracken of The Used)",
+        "spotify_artists": "Machine Gun Kelly, YUNGBLUD, The Used, Bert McCracken",
+        "spotify_album": "Tickets To My Downfall (SOLD OUT Deluxe)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d2939e48fb657d72064ca699",
+        "spotify_duration_ms": "170074",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.575",
+        "spotify_energy": "0.959",
+        "spotify_key": "1",
+        "spotify_loudness": "-2.469",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.108",
+        "spotify_tempo": "110.973",
+        "spotify_valence": "0.642",
+        "spotify_acousticness": "0.000192",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0515",
+        "spotify_artists01": "Machine Gun Kelly",
+        "spotify_artists01_id": "6TIYQ3jFPwQSRmorSezPxX",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebeabbcceb4f3622a80728d437",
+        "spotify_artists01_genres": "ohio hip hop, pop rap",
+        "spotify_artists01_popularity": "76",
+        "spotify_artists02": "YUNGBLUD",
+        "spotify_artists02_id": "6Ad91Jof8Niiw0lGLLi3NW",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc733e03049f72ac47bee8259",
+        "spotify_artists02_genres": "british indie rock, modern rock, pov: indie, rock",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "The Used",
+        "spotify_artists03_id": "55VydwMyCuGcavwPuhutPL",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb779c0b2354fc5392c1378290",
+        "spotify_artists03_genres": "alternative metal, neon pop punk, pop emo, post-grunge, post-hardcore, screamo",
+        "spotify_artists03_popularity": "61",
+        "spotify_artists04": "Bert McCracken",
+        "spotify_artists04_id": "6ulyIBuifBzU35RsvFZIx0",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab67616d0000b273518fe67eda902eb177d5e231",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "4wK8zXVoDw0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Machine-Gun-Kelly-Ft.-YUNGBLUD-Bert-McCracken-of-The-Used-body-bag.png",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1433,
+            "name": "Bert McCracken",
+            "slug": "bert-mccracken",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1425,
+            "name": "Machine Gun Kelly",
+            "slug": "machine-gun-kelly",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "19900422",
+              "artistdied": "",
+              "artistjpname": "マシン・ガン・ケリー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "guitaristr",
+                  "label": "Guitarist"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "6TIYQ3jFPwQSRmorSezPxX",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051746659c0c409fee150c1f7c879",
+              "youtube_channel": "UCUs8sGiP4avNaYNVO22INhQ",
+              "wikipedia_page": "Machine_Gun_Kelly_(musician)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2853,
+            "name": "yungblud",
+            "slug": "yungblud",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2017",
+              "artistborn": "19970805",
+              "artistjpname": "ヤングブラッド",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "6Ad91Jof8Niiw0lGLLi3NW",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174500931ffc686f1699034e4e5",
+              "youtube_channel": "UCd3Llj2WWJh8ItfYl32eJ4Q",
+              "wikipedia_page": "ungblud"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Machine Gun Kelly, YUNGBLUD, The Used, Bert McCracken",
+        "ytvideoid": "4wK8zXVoDw0",
+        "spotify_track_id": "0NZrY7Lc9g6V03hxRpfToV"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "body-bag"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

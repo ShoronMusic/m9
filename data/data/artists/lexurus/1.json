@@ -1,0 +1,212 @@
+{
+  "artist": {
+    "id": 2367,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/lexurus/",
+    "name": "Lexurus",
+    "slug": "lexurus",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2367",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2367"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2367"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38110,
+      "date": "2023-01-05T23:16:00",
+      "date_gmt": "2023-01-05T14:16:00",
+      "title": {
+        "rendered": "Fireflies (Lexurus Remix)"
+      },
+      "content": {
+        "rendered": "<p>OwlCity-Fireflies(LexurusRemix)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2367,
+        1377
+      ],
+      "tags": [],
+      "genre": [
+        487,
+        695,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3DamFFqW32WihKkTVlwTYQ",
+        "spotify_release_date": "2009/1/1",
+        "spotify_name": "Fireflies",
+        "spotify_artists": "Owl City",
+        "spotify_album": "Ocean Eyes",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273785d4e702802da500fc78b32",
+        "spotify_duration_ms": "228346",
+        "spotify_popularity": "80",
+        "spotify_danceability": "0.512",
+        "spotify_energy": "0.662",
+        "spotify_key": "3",
+        "spotify_loudness": "-6.797",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0439",
+        "spotify_tempo": "180.114",
+        "spotify_valence": "0.472",
+        "spotify_acousticness": "0.0275",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.118",
+        "spotify_artists01": "Owl City",
+        "spotify_artists01_id": "07QEuhtrNmmZ0zEcqE9SF6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb13e712f07986a4a850e01c7f",
+        "spotify_artists01_genres": "indietronica, pop",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "gFWGjrPrsNc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Owl-City-Fireflies-Lexurus-Remix.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2367,
+            "name": "Lexurus",
+            "slug": "lexurus",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1377,
+            "name": "Owl City",
+            "slug": "owl-city",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19860705",
+              "artistdied": "",
+              "artistjpname": "アウル・シティー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                },
+                {
+                  "value": "multi-instrumentalist",
+                  "label": "Multi-instrumentalist"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Owl City",
+        "ytvideoid": "gFWGjrPrsNc",
+        "spotify_track_id": "3DamFFqW32WihKkTVlwTYQ"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        },
+        {
+          "name": "Remix",
+          "slug": "remix",
+          "term_id": 695,
+          "post_count": 4
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "fireflies-lexurus-remix"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

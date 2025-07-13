@@ -1,0 +1,216 @@
+{
+  "artist": {
+    "id": 951,
+    "count": 1,
+    "description": "Japan were an English new wave band.",
+    "link": "https://sub.music8.jp/category/japan/",
+    "name": "Japan",
+    "slug": "japan",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1974-1991",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ジャパン",
+      "member": [
+        {
+          "term_id": 952,
+          "name": "David Sylvian",
+          "slug": "david-sylvian",
+          "term_group": 0,
+          "term_taxonomy_id": 952,
+          "taxonomy": "category",
+          "description": "David Sylvian is an English musician and singer-songwriter, known for his work with the band Japan.",
+          "parent": 0,
+          "count": 2,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/951",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=951"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=951"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 49262,
+      "date": "1979-11-17T13:35:00",
+      "date_gmt": "1979-11-17T04:35:00",
+      "title": {
+        "rendered": "Quiet Life"
+      },
+      "content": {
+        "rendered": "<p>Japan - Quiet Life</p>\n",
+        "protected": false
+      },
+      "categories": [
+        951
+      ],
+      "tags": [],
+      "genre": [
+        419,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "7GTcfdzY73zsDINXbBzV7B",
+        "spotify_release_date": "1979",
+        "spotify_name": "Quiet Life",
+        "spotify_artists": "Japan",
+        "spotify_album": "Quiet Life",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273566589367f878d9717819bc0",
+        "spotify_duration_ms": "289080",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.665",
+        "spotify_energy": "0.686",
+        "spotify_key": "4",
+        "spotify_loudness": "-12.446",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0344",
+        "spotify_tempo": "130.859",
+        "spotify_valence": "0.843",
+        "spotify_acousticness": "0.0105",
+        "spotify_instrumentalness": "0.123",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.113",
+        "spotify_artists01": "Japan",
+        "spotify_artists01_id": "7vPXrGlSGukcwpaPxUfKKR",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd6303454ba06d4934fcc43c6",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave, synthpop",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "xhm-EqcPta0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Japan-Quiet-Life.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 951,
+            "name": "Japan",
+            "slug": "japan",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1974-1991",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ジャパン",
+              "member": [
+                {
+                  "term_id": 952,
+                  "name": "David Sylvian",
+                  "slug": "david-sylvian",
+                  "term_group": 0,
+                  "term_taxonomy_id": 952,
+                  "taxonomy": "category",
+                  "description": "David Sylvian is an English musician and singer-songwriter, known for his work with the band Japan.",
+                  "parent": 0,
+                  "count": 2,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Japan",
+        "ytvideoid": "xhm-EqcPta0",
+        "spotify_track_id": "7GTcfdzY73zsDINXbBzV7B"
+      },
+      "genre_data": [
+        {
+          "name": "Art pop",
+          "slug": "art-pop",
+          "term_id": 419,
+          "post_count": 124
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "quiet-life"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

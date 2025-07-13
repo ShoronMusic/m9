@@ -1,0 +1,331 @@
+{
+  "artist": {
+    "id": 1599,
+    "count": 2,
+    "description": "Eric Church (Kenneth Eric Church) is an American country music singer-songwriter.",
+    "link": "https://sub.music8.jp/category/eric-church/",
+    "name": "Eric Church",
+    "slug": "eric-church",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2005",
+      "artistborn": "19770503",
+      "artistdied": "",
+      "artistjpname": "エリック・チャーチ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1599",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1599"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1599"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41273,
+      "date": "2020-11-09T13:27:00",
+      "date_gmt": "2020-11-09T04:27:00",
+      "title": {
+        "rendered": "Hell Of A View"
+      },
+      "content": {
+        "rendered": "\n<p>EricChurch-HellOfAView</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1599
+      ],
+      "tags": [],
+      "genre": [
+        465
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "4mXGooManGPH6xAWRAtRJU",
+        "spotify_release_date": "2021/4/23",
+        "spotify_name": "Hell Of A View",
+        "spotify_artists": "Eric Church",
+        "spotify_album": "Soul",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732ca9baed899738a0c79b2e69",
+        "spotify_duration_ms": "175026",
+        "spotify_popularity": "71",
+        "spotify_danceability": "0.689",
+        "spotify_energy": "0.592",
+        "spotify_key": "5",
+        "spotify_loudness": "-6.758",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0235",
+        "spotify_tempo": "98.997",
+        "spotify_valence": "0.919",
+        "spotify_acousticness": "0.101",
+        "spotify_instrumentalness": "0.00867",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.11",
+        "spotify_artists01": "Eric Church",
+        "spotify_artists01_id": "2IvkS5MXK0vPGnwyJsrEyV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3a1d2b7dee62a3f77ef519df",
+        "spotify_artists01_genres": "contemporary country, country, country road",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "BIBMEMUbZVg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Eric-Church-Hell-Of-A-View.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1599,
+            "name": "Eric Church",
+            "slug": "eric-church",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2005",
+              "artistborn": "19770503",
+              "artistdied": "",
+              "artistjpname": "エリック・チャーチ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Eric Church",
+        "ytvideoid": "BIBMEMUbZVg",
+        "spotify_track_id": "4mXGooManGPH6xAWRAtRJU"
+      },
+      "genre_data": [
+        {
+          "name": "Country",
+          "slug": "country",
+          "term_id": 465,
+          "post_count": 123
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hell-of-a-view"
+    },
+    {
+      "id": 41735,
+      "date": "2020-02-10T11:49:00",
+      "date_gmt": "2020-02-10T02:49:00",
+      "title": {
+        "rendered": "Does To Me"
+      },
+      "content": {
+        "rendered": "\n<p>LukeCombs-DoesToMeft.EricChurch</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1599,
+        1548
+      ],
+      "tags": [],
+      "genre": [
+        465
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0nGXi46VcQQ56ZJR428MKS",
+        "spotify_release_date": "2019/11/8",
+        "spotify_name": "Does To Me (feat. Eric Church)",
+        "spotify_artists": "Luke Combs, Eric Church",
+        "spotify_album": "What You See Is What You Get",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273429d8ec28f865acf2a927c2d",
+        "spotify_duration_ms": "223320",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.616",
+        "spotify_energy": "0.849",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.897",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0373",
+        "spotify_tempo": "113.065",
+        "spotify_valence": "0.638",
+        "spotify_acousticness": "0.311",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.311",
+        "spotify_artists01": "Luke Combs",
+        "spotify_artists01_id": "718COspgdWOnwOFpJHRZHS",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5db6179b28f7e3654898b279",
+        "spotify_artists01_genres": "contemporary country, country",
+        "spotify_artists01_popularity": "83",
+        "spotify_artists02": "Eric Church",
+        "spotify_artists02_id": "2IvkS5MXK0vPGnwyJsrEyV",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb3a1d2b7dee62a3f77ef519df",
+        "spotify_artists02_genres": "contemporary country, country, country road",
+        "spotify_artists02_popularity": "71",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "17fnUqLdm7o",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Luke-Combs-Does-To-Me-ft.-Eric-Church.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1599,
+            "name": "Eric Church",
+            "slug": "eric-church",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2005",
+              "artistborn": "19770503",
+              "artistdied": "",
+              "artistjpname": "エリック・チャーチ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1548,
+            "name": "Luke Combs",
+            "slug": "luke-combs",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "19900302",
+              "artistdied": "",
+              "artistjpname": "ルーク・コムズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "718COspgdWOnwOFpJHRZHS",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bd634295d99c61823c517c3f"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Luke Combs, Eric Church",
+        "ytvideoid": "17fnUqLdm7o",
+        "spotify_track_id": "0nGXi46VcQQ56ZJR428MKS"
+      },
+      "genre_data": [
+        {
+          "name": "Country",
+          "slug": "country",
+          "term_id": 465,
+          "post_count": 123
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "does-to-me"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 5223,
+  "count": 32,
+  "description": "Nine Inch Nails (NIN)  is an American industrial rock band.",
+  "link": "https://sub.music8.jp/category/nine-inch-nails/",
+  "name": "Nine Inch Nails",
+  "slug": "nine-inch-nails",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1988",
+    "artistborn": "",
+    "artistjpname": "ナイン・インチ・ネイルズ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "0X380XXQSNBYuleKzav5UO",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174047095c90419cf2a97266f77"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5223",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5223"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5223"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ナイン・インチ・ネイルズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174047095c90419cf2a97266f77",
+  "artistActiveYearStart": "1988",
+  "occupation": "band"
+}

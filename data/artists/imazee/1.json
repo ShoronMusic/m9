@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2738,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/imazee/",
+    "name": "Imazee",
+    "slug": "imazee",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2738",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2738"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2738"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40132,
+      "date": "2022-03-04T21:49:00",
+      "date_gmt": "2022-03-04T12:49:00",
+      "title": {
+        "rendered": "For You"
+      },
+      "content": {
+        "rendered": "\n<p>Imazee-ForYou</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2738
+      ],
+      "tags": [],
+      "genre": [
+        414
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "6tAmp1IDQaZe5465QkMIZS",
+        "spotify_release_date": "2022/2/27",
+        "spotify_name": "ForYou",
+        "spotify_artists": "Imazee",
+        "spotify_album": "ForYou",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a5b337977bad9685b2d62675",
+        "spotify_duration_ms": "219897",
+        "spotify_popularity": "5",
+        "spotify_danceability": "0.855",
+        "spotify_energy": "0.525",
+        "spotify_key": "8",
+        "spotify_loudness": "-11.546",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0485",
+        "spotify_tempo": "110.005",
+        "spotify_valence": "0.228",
+        "spotify_acousticness": "0.544",
+        "spotify_instrumentalness": "0.739",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.327",
+        "spotify_artists01": "Imazee",
+        "spotify_artists01_id": "6f3Sct8bmxo4MhQAnmGsgu",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba70f87db50deaac0b502d8c1",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "31",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "SeuEAAGIu8Q",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Imazee-For-You.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2738,
+            "name": "Imazee",
+            "slug": "imazee",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Imazee",
+        "ytvideoid": "SeuEAAGIu8Q",
+        "spotify_track_id": "6tAmp1IDQaZe5465QkMIZS"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "for-you"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

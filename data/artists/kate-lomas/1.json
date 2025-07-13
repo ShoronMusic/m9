@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 3271,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/kate-lomas/",
+    "name": "Kate Lomas",
+    "slug": "kate-lomas",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3271",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3271"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3271"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52349,
+      "date": "2023-03-25T22:31:14",
+      "date_gmt": "2023-03-25T13:31:14",
+      "title": {
+        "rendered": "Say It"
+      },
+      "content": {
+        "rendered": "<p>Kate Lomas - Say It</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3271
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "0nNRcO7RkUT808m0uhImQp",
+        "spotify_release_date": "2023-03-17",
+        "spotify_name": "Say It",
+        "spotify_artists": "Kate Lomas",
+        "spotify_album": "Say It",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f4c1749e3492f243d093accb",
+        "spotify_duration_ms": "184466",
+        "spotify_popularity": "13",
+        "spotify_danceability": "0.619",
+        "spotify_energy": "0.41",
+        "spotify_key": "3",
+        "spotify_loudness": "-13.964",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0503",
+        "spotify_tempo": "119.997",
+        "spotify_valence": "0.478",
+        "spotify_acousticness": "0.708",
+        "spotify_instrumentalness": "0.641",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.103",
+        "spotify_artists01": "Kate Lomas",
+        "spotify_artists01_id": "1wuyAb5932lV40X4raI2mB",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbecd40f2e980158d538f5838",
+        "spotify_artists01_genres": "uk alternative pop",
+        "spotify_artists01_popularity": "9",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "pW3gBf2W23c",
+        "ytreleasedate": "2023/03/25"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kate-Lomas-Say-It.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3271,
+            "name": "Kate Lomas",
+            "slug": "kate-lomas",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kate Lomas",
+        "ytvideoid": "pW3gBf2W23c",
+        "spotify_track_id": "0nNRcO7RkUT808m0uhImQp"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "say-it"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

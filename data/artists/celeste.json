@@ -1,0 +1,76 @@
+{
+  "id": 6103,
+  "count": 5,
+  "description": "Celeste is a British singer-songwriter.",
+  "link": "https://sub.music8.jp/category/celeste/",
+  "name": "Celeste",
+  "slug": "celeste",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2014",
+    "artistborn": "19940505",
+    "artistjpname": "セレステ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "Joy Crookes (joy-crookes) | Yebba | Charlotte Day Wilson (charlotte-day-wilson) | Michael Kiwanuka (michael-kiwanuka) | Patrick Watson | Leon Bridges (leon-bridges) | Arlo Parks (arlo-parks) | Black Pumas (black-pumas) | Olivia Dean (olivia-dean) | SYML | KIRBY | St. Vincent (st-vincent) | Amy Winehouse (amy-winehouse) | SAULT | Bon Iver (bon-iver) | Jorja Smith (jorja-smith) | Etta James | Labrinth (labrinth) | Lianne La Havas | Omar Apollo (omar-apollo)",
+    "spotify_artist_id": "49HlOY4gkHqsYG9GCuhkcc",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743b48ae3bd4b963766b769f7c"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6103",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6103"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6103"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "セレステ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051743b48ae3bd4b963766b769f7c",
+  "artistActiveYearStart": "2014",
+  "occupation": "singer, songwriter"
+}

@@ -1,0 +1,106 @@
+{
+  "id": 3080,
+  "count": 2,
+  "description": "Sampha is an English singer, songwriter, musician and record producer.",
+  "link": "https://sub.music8.jp/category/sampha/",
+  "name": "Sampha",
+  "slug": "sampha",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2009",
+    "artistborn": "19981116",
+    "artistdied": "",
+    "artistjpname": "サンファ",
+    "member": [
+      {
+        "term_id": 1028,
+        "name": "Julio Iglesias",
+        "slug": "julio-iglesias",
+        "term_group": 0,
+        "term_taxonomy_id": 1028,
+        "taxonomy": "category",
+        "description": "Julio Iglesias is a Spanish singer, songwriter.",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 768,
+        "name": "Sting",
+        "slug": "sting",
+        "term_group": 0,
+        "term_taxonomy_id": 768,
+        "taxonomy": "category",
+        "description": "Sting, is an English musician and actor. He was the frontman, songwriter and bassist for new wave band the Police.",
+        "parent": 0,
+        "count": 50,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3080",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3080"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3080"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "サンファ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2009",
+  "occupation": "singer, songwriter, musician, producer"
+}

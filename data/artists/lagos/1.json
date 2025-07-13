@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2617,
+    "count": 1,
+    "description": "MEX",
+    "link": "https://sub.music8.jp/category/lagos/",
+    "name": "LAGOS",
+    "slug": "lagos",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2617",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2617"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2617"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39676,
+      "date": "2022-04-29T22:21:00",
+      "date_gmt": "2022-04-29T13:21:00",
+      "title": {
+        "rendered": "Tengamos Pasado"
+      },
+      "content": {
+        "rendered": "\n<p>LAGOS-TengamosPasado</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2617
+      ],
+      "tags": [],
+      "genre": [
+        601
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4fBDh59Cybyp5UNqoNGRfP",
+        "spotify_release_date": "2022/4/29",
+        "spotify_name": "TengamosPasado",
+        "spotify_artists": "LAGOS",
+        "spotify_album": "TengamosPasado",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a2464dbf6b4c2a6c505a0e3c",
+        "spotify_duration_ms": "180648",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.745",
+        "spotify_energy": "0.795",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.091",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0367",
+        "spotify_tempo": "116.954",
+        "spotify_valence": "0.718",
+        "spotify_acousticness": "0.113",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "LAGOS",
+        "spotify_artists01_id": "7uQ1D2NNHs5cUL3CLKRbia",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2ce3000fb18251fa767445b0",
+        "spotify_artists01_genres": "popvenezolano",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Qqk35X0kWTI",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/LAGOS-Tengamos-Pasado.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2617,
+            "name": "LAGOS",
+            "slug": "lagos",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LAGOS",
+        "ytvideoid": "Qqk35X0kWTI",
+        "spotify_track_id": "4fBDh59Cybyp5UNqoNGRfP"
+      },
+      "genre_data": [
+        {
+          "name": "Latin pop",
+          "slug": "latin-pop",
+          "term_id": 601,
+          "post_count": 46
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "tengamos-pasado"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

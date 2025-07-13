@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 1253,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/milk-teeth/",
+    "name": "Milk Teeth",
+    "slug": "milk-teeth",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1253",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1253"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1253"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 42920,
+      "date": "2017-09-25T18:06:00",
+      "date_gmt": "2017-09-25T09:06:00",
+      "title": {
+        "rendered": "Nearby Catfight"
+      },
+      "content": {
+        "rendered": "\n<p>MilkTeeth-NearbyCatfight</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1253
+      ],
+      "tags": [],
+      "genre": [
+        683
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "3WVxWBfDr6OvuGfnPzb7lG",
+        "spotify_release_date": "2017/9/25",
+        "spotify_name": "Nearby Catfight",
+        "spotify_artists": "Milk Teeth",
+        "spotify_album": "Nearby Catfight",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27370fc27246c533704441e4ee6",
+        "spotify_duration_ms": "194573",
+        "spotify_popularity": "9",
+        "spotify_danceability": "0.314",
+        "spotify_energy": "0.977",
+        "spotify_key": "4",
+        "spotify_loudness": "-2.809",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.123",
+        "spotify_tempo": "175.928",
+        "spotify_valence": "0.299",
+        "spotify_acousticness": "0.000391",
+        "spotify_instrumentalness": "3.55E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0742",
+        "spotify_artists01": "Milk Teeth",
+        "spotify_artists01_id": "3i7Iv2QAdoCduoIZbWYCyY",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0b85dd94195d03cbc129791e",
+        "spotify_artists01_genres": "bristol indie, british alternative rock, modern alternative rock",
+        "spotify_artists01_popularity": "19",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "H-F6Wh34_V4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Milk-Teeth-Nearby-Catfight.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1253,
+            "name": "Milk Teeth",
+            "slug": "milk-teeth",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Milk Teeth",
+        "ytvideoid": "H-F6Wh34_V4",
+        "spotify_track_id": "3WVxWBfDr6OvuGfnPzb7lG"
+      },
+      "genre_data": [
+        {
+          "name": "Punk rock",
+          "slug": "punk-rock",
+          "term_id": 683,
+          "post_count": 119
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "nearby-catfight"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

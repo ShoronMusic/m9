@@ -1,0 +1,486 @@
+{
+  "artist": {
+    "id": 4120,
+    "count": 3,
+    "description": "Vegyn is a British music producer, DJ,",
+    "link": "https://sub.music8.jp/category/vegyn/",
+    "name": "Vegyn",
+    "slug": "vegyn",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2013",
+      "artistborn": "",
+      "artistjpname": "ヴェジン",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4120",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4120"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4120"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 60860,
+      "date": "2024-01-16T23:40:58",
+      "date_gmt": "2024-01-16T14:40:58",
+      "title": {
+        "rendered": "The Path Less Travelled"
+      },
+      "content": {
+        "rendered": "<p>Vegyn - The Path Less Travelled</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4120
+      ],
+      "tags": [],
+      "genre": [
+        414,
+        452,
+        630
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "18cm1ZEAPohP5fWo0o0RAe",
+        "spotify_release_date": "2024-01-16",
+        "spotify_name": "The Path Less Travelled",
+        "spotify_artists": "Vegyn",
+        "spotify_album": "The Path Less Travelled",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fd181a713387b4c073bda60a",
+        "spotify_duration_ms": "224303",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.449",
+        "spotify_energy": "0.708",
+        "spotify_key": "10",
+        "spotify_loudness": "-8.072",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0318",
+        "spotify_tempo": "111.949",
+        "spotify_valence": "0.13",
+        "spotify_acousticness": "0.271",
+        "spotify_instrumentalness": "0.952",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.628",
+        "spotify_artists01": "Vegyn",
+        "spotify_artists01_id": "5iUnvXddCpOrbWKm7QMr6o",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba24e476751f24a9a41a5fa25",
+        "spotify_artists01_genres": "experimental hip hop",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "zma3DweV8nw",
+        "ytreleasedate": "2024/01/16"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Vegyn-The-Path-Less-Travelled.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4120,
+            "name": "Vegyn",
+            "slug": "vegyn",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2013",
+              "artistborn": "",
+              "artistjpname": "ヴェジン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Vegyn",
+        "ytvideoid": "zma3DweV8nw",
+        "spotify_track_id": "18cm1ZEAPohP5fWo0o0RAe"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        },
+        {
+          "name": "Chillwave",
+          "slug": "chillwave",
+          "term_id": 452,
+          "post_count": 24
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [],
+      "slug": "the-path-less-travelled"
+    },
+    {
+      "id": 60867,
+      "date": "2023-11-08T23:46:22",
+      "date_gmt": "2023-11-08T14:46:22",
+      "title": {
+        "rendered": "Halo Flip"
+      },
+      "content": {
+        "rendered": "<p>Vegyn, Lauren Auder - Halo Flip</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4122,
+        4120
+      ],
+      "tags": [],
+      "genre": [
+        630,
+        670
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "51rhNWFSSx85Bbg2rEw7Gn",
+        "spotify_release_date": "2024-01-16",
+        "spotify_name": "Halo Flip",
+        "spotify_artists": "Vegyn, Lauren Auder",
+        "spotify_album": "The Path Less Travelled",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fd181a713387b4c073bda60a",
+        "spotify_duration_ms": "415267",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.453",
+        "spotify_energy": "0.745",
+        "spotify_key": "6",
+        "spotify_loudness": "-6.217",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0366",
+        "spotify_tempo": "129.988",
+        "spotify_valence": "0.0389",
+        "spotify_acousticness": "0.00686",
+        "spotify_instrumentalness": "0.001",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.432",
+        "spotify_artists01": "Vegyn",
+        "spotify_artists01_id": "5iUnvXddCpOrbWKm7QMr6o",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba24e476751f24a9a41a5fa25",
+        "spotify_artists01_genres": "experimental hip hop",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "Lauren Auder",
+        "spotify_artists02_id": "5rxf4rjZ5lyhKt7DWM5dLL",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb07f863f91b1d41f765f5c6e1",
+        "spotify_artists02_genres": "baroque pop",
+        "spotify_artists02_popularity": "31",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "R6TCaR3FwGk",
+        "ytreleasedate": "2023/11/08"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Vegyn-Halo-Flip-feat.-Lauren-Auder.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4122,
+            "name": "Lauren Auder",
+            "slug": "lauren-auder",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4120,
+            "name": "Vegyn",
+            "slug": "vegyn",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2013",
+              "artistborn": "",
+              "artistjpname": "ヴェジン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Vegyn, Lauren Auder",
+        "ytvideoid": "R6TCaR3FwGk",
+        "spotify_track_id": "51rhNWFSSx85Bbg2rEw7Gn"
+      },
+      "genre_data": [
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "halo-flip"
+    },
+    {
+      "id": 60863,
+      "date": "2023-09-20T23:44:27",
+      "date_gmt": "2023-09-20T14:44:27",
+      "title": {
+        "rendered": "Makeshi"
+      },
+      "content": {
+        "rendered": "<p>Vegyn, Tourniquet - Makeshi</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4121,
+        4120
+      ],
+      "tags": [],
+      "genre": [
+        414,
+        670
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "4YrUH3TZazK6DC2w5qXryI",
+        "spotify_release_date": "2023-09-20",
+        "spotify_name": "Makeshift Tourniquet",
+        "spotify_artists": "Vegyn",
+        "spotify_album": "Makeshift Tourniquet",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a8a9126443f6db5d53eeb421",
+        "spotify_duration_ms": "317835",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.467",
+        "spotify_energy": "0.581",
+        "spotify_key": "8",
+        "spotify_loudness": "-8.831",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0505",
+        "spotify_tempo": "122.012",
+        "spotify_valence": "0.139",
+        "spotify_acousticness": "0.0137",
+        "spotify_instrumentalness": "0.885",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.11",
+        "spotify_artists01": "Vegyn",
+        "spotify_artists01_id": "5iUnvXddCpOrbWKm7QMr6o",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba24e476751f24a9a41a5fa25",
+        "spotify_artists01_genres": "experimental hip hop",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "HNxMnsauTgA",
+        "ytreleasedate": "2023/09/20"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Vegyn-Makeshift-Tourniquet.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4121,
+            "name": "Tourniquet",
+            "slug": "tourniquet",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4120,
+            "name": "Vegyn",
+            "slug": "vegyn",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2013",
+              "artistborn": "",
+              "artistjpname": "ヴェジン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Vegyn",
+        "ytvideoid": "HNxMnsauTgA",
+        "spotify_track_id": "4YrUH3TZazK6DC2w5qXryI"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [],
+      "slug": "makeshi"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

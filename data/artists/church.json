@@ -1,0 +1,63 @@
+{
+  "id": 1004,
+  "count": 2,
+  "description": "The Church are an Australian rock band.",
+  "link": "https://sub.music8.jp/category/church/",
+  "name": "Church",
+  "slug": "church",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "1980",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・チャーチ",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1004",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1004"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1004"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ザ・チャーチ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1980",
+  "occupation": ""
+}

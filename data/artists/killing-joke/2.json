@@ -1,0 +1,419 @@
+{
+  "artist": {
+    "id": 1763,
+    "count": 23,
+    "description": "Killing Joke are an English rock band.",
+    "link": "https://sub.music8.jp/category/killing-joke/",
+    "name": "Killing Joke",
+    "slug": "killing-joke",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1978",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "キリング・ジョーク",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1763",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1763"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1763"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 49176,
+      "date": "1980-10-05T13:34:00",
+      "date_gmt": "1980-10-05T04:34:00",
+      "title": {
+        "rendered": "The Wait"
+      },
+      "content": {
+        "rendered": "<p>Killing Joke - The Wait</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1763
+      ],
+      "tags": [],
+      "genre": [
+        665
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5IChlGHDTx5f9lsd8IlwU2",
+        "spotify_release_date": "1980/10/5",
+        "spotify_name": "The Wait - 2005 Digital Remaster",
+        "spotify_artists": "Killing Joke",
+        "spotify_album": "Killing Joke",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b227a26f69316e7203d354ec",
+        "spotify_duration_ms": "221826",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.202",
+        "spotify_energy": "0.935",
+        "spotify_key": "6",
+        "spotify_loudness": "-8.295",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0417",
+        "spotify_tempo": "176.802",
+        "spotify_valence": "0.904",
+        "spotify_acousticness": "2.27E-05",
+        "spotify_instrumentalness": "0.822",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.274",
+        "spotify_artists01": "Killing Joke",
+        "spotify_artists01_id": "0Zy4ncr8h1jd7Nzr9946fD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb27c2f14d0deaac56f64c1f4",
+        "spotify_artists01_genres": "gothic rock, industrial rock, new wave, post-punk, punk, uk post-punk",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "f42MLoLbnnQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Killing-Joke-The-Wait.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1763,
+            "name": "Killing Joke",
+            "slug": "killing-joke",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "キリング・ジョーク",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Killing Joke",
+        "ytvideoid": "f42MLoLbnnQ",
+        "spotify_track_id": "5IChlGHDTx5f9lsd8IlwU2"
+      },
+      "genre_data": [
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-wait"
+    },
+    {
+      "id": 49192,
+      "date": "1980-09-01T13:39:00",
+      "date_gmt": "1980-09-01T04:39:00",
+      "title": {
+        "rendered": "Requiem"
+      },
+      "content": {
+        "rendered": "<p>Killing Joke - Requiem</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1763
+      ],
+      "tags": [],
+      "genre": [
+        665
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "29QxWOqd1z0HynG72mAEqn",
+        "spotify_release_date": "1980/10/5",
+        "spotify_name": "Requiem - 2005 Digital Remaster",
+        "spotify_artists": "Killing Joke",
+        "spotify_album": "Killing Joke",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b227a26f69316e7203d354ec",
+        "spotify_duration_ms": "225466",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.497",
+        "spotify_energy": "0.685",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.293",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0281",
+        "spotify_tempo": "172.206",
+        "spotify_valence": "0.743",
+        "spotify_acousticness": "0.0435",
+        "spotify_instrumentalness": "0.0401",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.152",
+        "spotify_artists01": "Killing Joke",
+        "spotify_artists01_id": "0Zy4ncr8h1jd7Nzr9946fD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb27c2f14d0deaac56f64c1f4",
+        "spotify_artists01_genres": "gothic rock, industrial rock, new wave, post-punk, punk, uk post-punk",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "U7WPI4TJImo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Killing-Joke-Requiem.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1763,
+            "name": "Killing Joke",
+            "slug": "killing-joke",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "キリング・ジョーク",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Killing Joke",
+        "ytvideoid": "U7WPI4TJImo",
+        "spotify_track_id": "29QxWOqd1z0HynG72mAEqn"
+      },
+      "genre_data": [
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "requiem"
+    },
+    {
+      "id": 49242,
+      "date": "1980-02-01T13:37:00",
+      "date_gmt": "1980-02-01T04:37:00",
+      "title": {
+        "rendered": "Wardance"
+      },
+      "content": {
+        "rendered": "<p>Killing Joke - Wardance</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1763
+      ],
+      "tags": [],
+      "genre": [
+        665
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "6OphVgjr1xaHjR7GMEeUn1",
+        "spotify_release_date": "1980/10/5",
+        "spotify_name": "Wardance - 2005 Digital Remaster",
+        "spotify_artists": "Killing Joke",
+        "spotify_album": "Killing Joke",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b227a26f69316e7203d354ec",
+        "spotify_duration_ms": "225813",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.392",
+        "spotify_energy": "0.981",
+        "spotify_key": "11",
+        "spotify_loudness": "-8.086",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0487",
+        "spotify_tempo": "144.512",
+        "spotify_valence": "0.424",
+        "spotify_acousticness": "0.000186",
+        "spotify_instrumentalness": "0.773",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.37",
+        "spotify_artists01": "Killing Joke",
+        "spotify_artists01_id": "0Zy4ncr8h1jd7Nzr9946fD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb27c2f14d0deaac56f64c1f4",
+        "spotify_artists01_genres": "gothic rock, industrial rock, new wave, post-punk, punk, uk post-punk",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "L0z0vmkJ4MQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Killing-Joke-Wardance.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1763,
+            "name": "Killing Joke",
+            "slug": "killing-joke",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "キリング・ジョーク",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Killing Joke",
+        "ytvideoid": "L0z0vmkJ4MQ",
+        "spotify_track_id": "6OphVgjr1xaHjR7GMEeUn1"
+      },
+      "genre_data": [
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "wardance"
+    }
+  ],
+  "totalSongs": 23,
+  "totalPages": 2,
+  "currentPage": 2
+}

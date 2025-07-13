@@ -1,0 +1,196 @@
+{
+  "artist": {
+    "id": 5451,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/brother-d/",
+    "name": "Brother D",
+    "slug": "brother-d",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5451",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5451"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5451"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 73695,
+      "date": "1980-10-01T11:08:27",
+      "date_gmt": "1980-10-01T02:08:27",
+      "title": {
+        "rendered": "How We Gonna Make the Black Nation Rise?"
+      },
+      "content": {
+        "rendered": "<p>Brother D with Collective Effort - How We Gonna Make the Black Nation Rise?</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5451
+      ],
+      "tags": [],
+      "genre": [
+        647
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "S-HQR2-s1J4",
+        "ytreleasedate": "",
+        "spotify_track_id": "",
+        "spotify_release_date": "",
+        "spotify_name": "undefined",
+        "spotify_artists": "",
+        "spotify_album": "",
+        "spotify_images": "",
+        "spotify_duration_ms": "",
+        "spotify_popularity": "",
+        "spotify_danceability": "",
+        "spotify_energy": "",
+        "spotify_key": "",
+        "spotify_loudness": "",
+        "spotify_mode": "",
+        "spotify_speechiness": "",
+        "spotify_tempo": "",
+        "spotify_valence": "",
+        "spotify_acousticness": "",
+        "spotify_instrumentalness": "",
+        "spotify_time_signature": "",
+        "spotify_liveness": "",
+        "spotify_artists01": "",
+        "spotify_artists01_id": "",
+        "spotify_artists01_images": "",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/How-We-Gonna-Make-the-Black-Nation-Rise.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5451,
+            "name": "Brother D",
+            "slug": "brother-d",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "",
+        "ytvideoid": "S-HQR2-s1J4",
+        "spotify_track_id": ""
+      },
+      "genre_data": [
+        {
+          "name": "Old-school hip hop",
+          "slug": "old-school-hip-hop",
+          "term_id": 647,
+          "post_count": 60
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "how-we-gonna-make-the-black-nation-rise"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

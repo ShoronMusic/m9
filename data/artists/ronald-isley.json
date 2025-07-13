@@ -1,0 +1,73 @@
+{
+  "id": 1233,
+  "count": 3,
+  "description": "Ronald Isley is an American singer, songwriter, and record producer, the lead singer and founding member of the family music group The Isley Brothers.",
+  "link": "https://sub.music8.jp/category/ronald-isley/",
+  "name": "Ronald Isley",
+  "slug": "ronald-isley",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1954",
+    "artistborn": "19410521",
+    "artistdied": "",
+    "artistjpname": "ロナルド・アイズレー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1233",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1233"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1233"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ロナルド・アイズレー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1954",
+  "occupation": "singer, producer"
+}

@@ -1,0 +1,195 @@
+{
+  "artist": {
+    "id": 1412,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/mike-campbell/",
+    "name": "Mike Campbell",
+    "slug": "mike-campbell",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1412",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1412"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1412"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41204,
+      "date": "2020-12-11T07:36:00",
+      "date_gmt": "2020-12-10T22:36:00",
+      "title": {
+        "rendered": "I Need To Know"
+      },
+      "content": {
+        "rendered": "\n<p>Starcrawler-INeedToKnowfeat.MikeCampbell</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1412,
+        1302
+      ],
+      "tags": [],
+      "genre": [
+        536
+      ],
+      "vocal": [
+        2855,
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "#NAME?",
+        "likecount": "0",
+        "spotify_track_id": "3N2sId7l0LTx0zW0jrTypU",
+        "spotify_release_date": "2020/12/11",
+        "spotify_name": "I Need To Know",
+        "spotify_artists": "Starcrawler, Mike Campbell",
+        "spotify_album": "I Need To Know",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738a2b84fc7c316aff359daddb",
+        "spotify_duration_ms": "146664",
+        "spotify_popularity": "18",
+        "spotify_danceability": "0.488",
+        "spotify_energy": "0.857",
+        "spotify_key": "9",
+        "spotify_loudness": "-10.273",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0392",
+        "spotify_tempo": "152.068",
+        "spotify_valence": "0.793",
+        "spotify_acousticness": "0.0822",
+        "spotify_instrumentalness": "1.20E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.262",
+        "spotify_artists01": "Starcrawler",
+        "spotify_artists01_id": "0ZhtrY2Lt1s9klwm03lu8i",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc64097e4556409de4e8841ff",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "Mike Campbell",
+        "spotify_artists02_id": "2F21INCQBcc1t6UtzYRhQb",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "3",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Starcrawler-I-Need-To-Know-feat.-Mike-Campbell.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1412,
+            "name": "Mike Campbell",
+            "slug": "mike-campbell",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1302,
+            "name": "Starcrawler",
+            "slug": "starcrawler",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スタークローラー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Starcrawler, Mike Campbell",
+        "ytvideoid": "#NAME?",
+        "spotify_track_id": "3N2sId7l0LTx0zW0jrTypU"
+      },
+      "genre_data": [
+        {
+          "name": "Garage rock",
+          "slug": "garage-rock",
+          "term_id": 536,
+          "post_count": 59
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        },
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "i-need-to-know"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

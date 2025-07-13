@@ -1,0 +1,203 @@
+{
+  "artist": {
+    "id": 3014,
+    "count": 1,
+    "description": "The Skints are an English reggae punk band.",
+    "link": "https://sub.music8.jp/category/skints/",
+    "name": "Skints",
+    "slug": "skints",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2007",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "スキンツ",
+      "member": false
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3014",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3014"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3014"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50571,
+      "date": "2023-02-15T13:21:14",
+      "date_gmt": "2023-02-15T04:21:14",
+      "title": {
+        "rendered": "Love Never Dies"
+      },
+      "content": {
+        "rendered": "<p>The Interrupters - Love Never Dies (feat. The Skints)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1410,
+        3014
+      ],
+      "tags": [],
+      "genre": [
+        690,
+        710
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "19Z3EyQ0vvemHzIQo7x1ze",
+        "spotify_release_date": "2023-04-28",
+        "spotify_name": "Love Never Dies",
+        "spotify_artists": "The Interrupters, The Skints",
+        "spotify_album": "In The Wild (Deluxe Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ff1ed67b0f37b5e345e5a663",
+        "spotify_duration_ms": "200322",
+        "spotify_popularity": "36",
+        "spotify_danceability": "0.541",
+        "spotify_energy": "0.948",
+        "spotify_key": "9",
+        "spotify_loudness": "-1.072",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0812",
+        "spotify_tempo": "174.035",
+        "spotify_valence": "0.934",
+        "spotify_acousticness": "0.298",
+        "spotify_instrumentalness": "0.0000102",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.405",
+        "spotify_artists01": "The Interrupters",
+        "spotify_artists01_id": "25Maank76ry2Tmbi2Ql1SF",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba036cf8a81e30b81b76ab056",
+        "spotify_artists01_genres": "punk, ska, ska punk, skate punk",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "The Skints",
+        "spotify_artists02_id": "39k4UDTgsWe6NCi6hgnfc1",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb03708420650a2f4374ed9dc0",
+        "spotify_artists02_genres": "dub punk, modern reggae, reggae fusion, ska, uk reggae",
+        "spotify_artists02_popularity": "36",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "OZ1aKSYKwwk",
+        "ytreleasedate": "2023/02/15",
+        "artist_order": "Interrupters, Skints"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273ff1ed67b0f37b5e345e5a663-1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1410,
+            "name": "Interrupters",
+            "slug": "interrupters",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "インタラプターズ",
+              "member": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          },
+          {
+            "id": 3014,
+            "name": "Skints",
+            "slug": "skints",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スキンツ",
+              "member": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "Interrupters, Skints",
+        "spotify_artists": "The Interrupters, The Skints",
+        "ytvideoid": "OZ1aKSYKwwk",
+        "spotify_track_id": "19Z3EyQ0vvemHzIQo7x1ze"
+      },
+      "genre_data": [
+        {
+          "name": "Reggae",
+          "slug": "reggae",
+          "term_id": 690,
+          "post_count": 83
+        },
+        {
+          "name": "Ska punk",
+          "slug": "ska-punk",
+          "term_id": 710,
+          "post_count": 32
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "love-never-dies"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,183 @@
+{
+  "artist": {
+    "id": 2791,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/fbp-blxckid/",
+    "name": "FBP Blxckid",
+    "slug": "fbp-blxckid",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2791",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2791"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2791"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38417,
+      "date": "2022-10-29T19:38:00",
+      "date_gmt": "2022-10-29T10:38:00",
+      "title": {
+        "rendered": "Januaari"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2791,
+        2790
+      ],
+      "tags": [],
+      "genre": [
+        402,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3nKeIHakx9uRzBuRrF43vr",
+        "spotify_release_date": "2022/11/4",
+        "spotify_name": "Januaari(feat.FPBBlxckid)",
+        "spotify_artists": "Nakalness,FPBBlxckid",
+        "spotify_album": "Januaari(feat.FPBBlxckid)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27390af4c8b469237fa630f9505",
+        "spotify_duration_ms": "234989",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.854",
+        "spotify_energy": "0.597",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.575",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0399",
+        "spotify_tempo": "119.963",
+        "spotify_valence": "0.524",
+        "spotify_acousticness": "0.323",
+        "spotify_instrumentalness": "8.07E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0777",
+        "spotify_artists01": "Nakalness",
+        "spotify_artists01_id": "1loI0RIE3tosoU6YePYuUI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb222ebe3b42f9140aea2e2a0e",
+        "spotify_artists01_genres": "malayrap",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "FPBBlxckid",
+        "spotify_artists02_id": "41cobY0yvRWbHSWfmD8DDp",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb2c5e8b3315a355506e417470",
+        "spotify_artists02_genres": "malayrap",
+        "spotify_artists02_popularity": "28",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "UPhoB0-Km6U",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2791,
+            "name": "FBP Blxckid",
+            "slug": "fbp-blxckid",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2790,
+            "name": "Nakalness",
+            "slug": "nakalness",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Nakalness,FPBBlxckid",
+        "ytvideoid": "UPhoB0-Km6U",
+        "spotify_track_id": "3nKeIHakx9uRzBuRrF43vr"
+      },
+      "genre_data": [
+        {
+          "name": "Afrobeats",
+          "slug": "afrobeats",
+          "term_id": 402,
+          "post_count": 135
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "januaari"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

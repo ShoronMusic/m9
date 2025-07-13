@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 3220,
+    "count": 1,
+    "description": "Go-Jo is an Australian Producer, singer-songwrite.",
+    "link": "https://sub.music8.jp/category/go-jo/",
+    "name": "Go-Jo",
+    "slug": "go-jo",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3220",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3220"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3220"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52249,
+      "date": "2023-03-20T21:19:57",
+      "date_gmt": "2023-03-20T12:19:57",
+      "title": {
+        "rendered": "Mrs. Hollywood"
+      },
+      "content": {
+        "rendered": "<p>Go-Jo - Mrs. Hollywood</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3220
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1K1KcmJgKaeqnsisQnhyE1",
+        "spotify_release_date": "2023-03-20",
+        "spotify_name": "Mrs. Hollywood",
+        "spotify_artists": "Go-Jo",
+        "spotify_album": "Mrs. Hollywood",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732b989601f1f78003efae5682",
+        "spotify_duration_ms": "143840",
+        "spotify_popularity": "72",
+        "spotify_danceability": "0.758",
+        "spotify_energy": "0.655",
+        "spotify_key": "5",
+        "spotify_loudness": "-7.226",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0305",
+        "spotify_tempo": "128.019",
+        "spotify_valence": "0.972",
+        "spotify_acousticness": "0.143",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.158",
+        "spotify_artists01": "Go-Jo",
+        "spotify_artists01_id": "7CslUrDCYnm3vMtKZJZGNv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb82867f2521942208eec2e7f5",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "E3eGwKuSPC8",
+        "ytreleasedate": "2023/03/20"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Go-Jo-Mrs.-Hollywood.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3220,
+            "name": "Go-Jo",
+            "slug": "go-jo",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Go-Jo",
+        "ytvideoid": "E3eGwKuSPC8",
+        "spotify_track_id": "1K1KcmJgKaeqnsisQnhyE1"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "mrs-hollywood"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,63 @@
+{
+  "id": 1234,
+  "count": 2,
+  "description": "Jeff Beck was an English guitarist.",
+  "link": "https://sub.music8.jp/category/jeff-beck/",
+  "name": "Jeff Beck",
+  "slug": "jeff-beck",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1964–2023",
+    "artistborn": "19440624",
+    "artistdied": "2023.01.10",
+    "artistjpname": "ジェフ・ベック",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1234",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1234"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1234"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェフ・ベック",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1964–2023",
+  "occupation": ""
+}

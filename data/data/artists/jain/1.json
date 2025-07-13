@@ -1,0 +1,728 @@
+{
+  "artist": {
+    "id": 3118,
+    "count": 5,
+    "description": "Jain is a French singer-songwriter and musician.",
+    "link": "https://sub.music8.jp/category/jain/",
+    "name": "Jain",
+    "slug": "jain",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FRA",
+      "artistactiveyearstart": "2013",
+      "artistborn": "19920207",
+      "artistjpname": "ジェイン",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3118",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3118"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3118"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 91876,
+      "date": "2025-02-28T20:38:41",
+      "date_gmt": "2025-02-28T11:38:41",
+      "title": {
+        "rendered": "Tout le monde est fou"
+      },
+      "content": {
+        "rendered": "<p>Jain, Solomun - Tout le monde est fou</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3118,
+        6539
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        736
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "oKg125fcMH8",
+        "ytreleasedate": "2025/02/28",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "23gjnzrBdrhmEiN49pFY4k",
+        "spotify_release_date": "2025-02-28",
+        "spotify_name": "Tout le monde est fou",
+        "spotify_artists": "Jain, Solomun",
+        "spotify_album": "Tout le monde est fou",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f7394032e7262dc6722c0dd2",
+        "spotify_duration_ms": "205692",
+        "spotify_popularity": "10",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Jain",
+        "spotify_artists01_id": "2HHmvvSQ44ePDH7IKVzgK0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb887264fafa6634019ce9bd11",
+        "spotify_artists01_genres": "french pop",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "Solomun",
+        "spotify_artists02_id": "5wJK4kQAkVGjqM9x46KQOC",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebbfbacb40dced09ead13a3fa4",
+        "spotify_artists02_genres": "melodic techno, minimal techno, techno, deep house, melodic house",
+        "spotify_artists02_popularity": "60",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/jain-solomun-tout-le-monde-est-fou.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3118,
+            "name": "Jain",
+            "slug": "jain",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19920207",
+              "artistjpname": "ジェイン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6539,
+            "name": "Solomun",
+            "slug": "solomun",
+            "acf": {
+              "artistorigin": "BOS",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "5wJK4kQAkVGjqM9x46KQOC",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bfbacb40dced09ead13a3fa4",
+              "youtube_channel": "",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jain, Solomun",
+        "ytvideoid": "oKg125fcMH8",
+        "spotify_track_id": "23gjnzrBdrhmEiN49pFY4k"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "tout-le-monde-est-fou"
+    },
+    {
+      "id": 76665,
+      "date": "2024-07-11T22:19:54",
+      "date_gmt": "2024-07-11T13:19:54",
+      "title": {
+        "rendered": "Nobody Knows"
+      },
+      "content": {
+        "rendered": "<p>Jain - Nobody Knows</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3118
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        561,
+        662
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "ytvideoid": "bGBv7IbWcow",
+        "ytreleasedate": "2024/07/11",
+        "spotify_track_id": "6r1dG3TW8wpYMt9vSVAO3w",
+        "spotify_release_date": "2024-07-12",
+        "spotify_name": "Nobody Knows",
+        "spotify_artists": "Jain",
+        "spotify_album": "Nobody Knows",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27369f376ffec08fd8a164bec2c",
+        "spotify_duration_ms": "171232",
+        "spotify_popularity": "53",
+        "spotify_danceability": "0.625",
+        "spotify_energy": "0.819",
+        "spotify_key": "2",
+        "spotify_loudness": "-6.318",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0513",
+        "spotify_tempo": "127.084",
+        "spotify_valence": "0.337",
+        "spotify_acousticness": "0.00121",
+        "spotify_instrumentalness": "0.00000338",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.208",
+        "spotify_artists01": "Jain",
+        "spotify_artists01_id": "2HHmvvSQ44ePDH7IKVzgK0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb887264fafa6634019ce9bd11",
+        "spotify_artists01_genres": "french pop",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27369f376ffec08fd8a164bec2c.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3118,
+            "name": "Jain",
+            "slug": "jain",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19920207",
+              "artistjpname": "ジェイン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jain",
+        "ytvideoid": "bGBv7IbWcow",
+        "spotify_track_id": "6r1dG3TW8wpYMt9vSVAO3w"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Hi-NRG",
+          "slug": "hi-nrg",
+          "term_id": 561,
+          "post_count": 47
+        },
+        {
+          "name": "Post-disco",
+          "slug": "post-disco",
+          "term_id": 662,
+          "post_count": 32
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "nobody-knows"
+    },
+    {
+      "id": 53180,
+      "date": "2023-09-27T20:13:22",
+      "date_gmt": "2023-09-27T11:13:22",
+      "title": {
+        "rendered": "Night Heights"
+      },
+      "content": {
+        "rendered": "<p>Jain - Night Heights</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3118
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7fPM25Phrs4uJhHyuBbVbU",
+        "spotify_release_date": "2023-04-21",
+        "spotify_name": "Night Heights",
+        "spotify_artists": "Jain",
+        "spotify_album": "The Fool",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ea494aca4f8ae6a9c2b904f9",
+        "spotify_duration_ms": "249920",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.623",
+        "spotify_energy": "0.607",
+        "spotify_key": "2",
+        "spotify_loudness": "-7.349",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.03",
+        "spotify_tempo": "99.98",
+        "spotify_valence": "0.554",
+        "spotify_acousticness": "0.57",
+        "spotify_instrumentalness": "0.000162",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.133",
+        "spotify_artists01": "Jain",
+        "spotify_artists01_id": "2HHmvvSQ44ePDH7IKVzgK0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb673f287fead1f6c83b9b68ea",
+        "spotify_artists01_genres": "french pop",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Xt10lLr24ZE",
+        "ytreleasedate": "2023/09/27"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Jain-Night-Heights.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3118,
+            "name": "Jain",
+            "slug": "jain",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19920207",
+              "artistjpname": "ジェイン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Jain",
+        "ytvideoid": "Xt10lLr24ZE",
+        "spotify_track_id": "7fPM25Phrs4uJhHyuBbVbU"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "night-heights"
+    },
+    {
+      "id": 56214,
+      "date": "2023-07-21T22:53:05",
+      "date_gmt": "2023-07-21T13:53:05",
+      "title": {
+        "rendered": "Makeba (Ian Asher Remix)"
+      },
+      "content": {
+        "rendered": "<p>Jain - Makeba (Ian Asher Remix)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3664,
+        3118
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        479
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "67eYAnkdTu8BMcIx29z26L",
+        "spotify_release_date": "2023-01-13",
+        "spotify_name": "Makeba - Ian Asher Remix",
+        "spotify_artists": "Jain, Ian Asher",
+        "spotify_album": "Makeba (Ian Asher Remix)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273364f4be3f9c2a01a4765a36b",
+        "spotify_duration_ms": "125178",
+        "spotify_popularity": "78",
+        "spotify_danceability": "0.651",
+        "spotify_energy": "0.937",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.078",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0468",
+        "spotify_tempo": "123.993",
+        "spotify_valence": "0.666",
+        "spotify_acousticness": "0.236",
+        "spotify_instrumentalness": "0.0975",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.119",
+        "spotify_artists01": "Jain",
+        "spotify_artists01_id": "2HHmvvSQ44ePDH7IKVzgK0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb673f287fead1f6c83b9b68ea",
+        "spotify_artists01_genres": "french pop",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "Ian Asher",
+        "spotify_artists02_id": "5IrxhrMyvZxzgPYrC9j2km",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb15921a7a0a4f8efd65bdd6e4",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "60",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "VI9gIPBH_dM",
+        "ytreleasedate": "2023/07/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Jain-Makeba-Ian-Asher-Remix.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3664,
+            "name": "Ian Asher",
+            "slug": "ian-asher",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3118,
+            "name": "Jain",
+            "slug": "jain",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19920207",
+              "artistjpname": "ジェイン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Jain, Ian Asher",
+        "ytvideoid": "VI9gIPBH_dM",
+        "spotify_track_id": "67eYAnkdTu8BMcIx29z26L"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Deep house",
+          "slug": "deep-house",
+          "term_id": 479,
+          "post_count": 90
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "makeba-ian-asher-remix"
+    },
+    {
+      "id": 51266,
+      "date": "2023-02-24T21:45:02",
+      "date_gmt": "2023-02-24T12:45:02",
+      "title": {
+        "rendered": "The Fool"
+      },
+      "content": {
+        "rendered": "<p>Jain - The Fool</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3118
+      ],
+      "tags": [],
+      "genre": [
+        410
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "40GNYv0ldvcenD3hxFp1Kn",
+        "spotify_release_date": "2023-02-23",
+        "spotify_name": "The Fool",
+        "spotify_artists": "Jain",
+        "spotify_album": "The Fool",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273835c7b0746038ab907fdc656",
+        "spotify_duration_ms": "206893",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.638",
+        "spotify_energy": "0.404",
+        "spotify_key": "10",
+        "spotify_loudness": "-8.31",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0292",
+        "spotify_tempo": "115.007",
+        "spotify_valence": "0.406",
+        "spotify_acousticness": "0.407",
+        "spotify_instrumentalness": "0.00000764",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0961",
+        "spotify_artists01": "Jain",
+        "spotify_artists01_id": "2HHmvvSQ44ePDH7IKVzgK0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb673f287fead1f6c83b9b68ea",
+        "spotify_artists01_genres": "french pop",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "D6IzxQU1YC8",
+        "ytreleasedate": "2023/02/24"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Jain-The-Fool.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3118,
+            "name": "Jain",
+            "slug": "jain",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19920207",
+              "artistjpname": "ジェイン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Jain",
+        "ytvideoid": "D6IzxQU1YC8",
+        "spotify_track_id": "40GNYv0ldvcenD3hxFp1Kn"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "the-fool"
+    }
+  ],
+  "totalSongs": 5,
+  "totalPages": 1,
+  "currentPage": 1
+}

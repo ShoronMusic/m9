@@ -1,0 +1,80 @@
+{
+  "id": 5067,
+  "count": 0,
+  "description": "John Lennon was an English singer, songwriter and musician, the founder, co-lead vocalist and rhythm guitarist of the Beatles.",
+  "link": "https://sub.music8.jp/category/john-lennon/",
+  "name": "John Lennon",
+  "slug": "john-lennon",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1956–1980",
+    "artistborn": "19401009",
+    "artistjpname": "ジョン・レノン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "1980.12.08",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "",
+    "spotify_artist_images": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5067",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5067"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5067"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジョン・レノン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1956–1980",
+  "occupation": "singer, songwriter, musician"
+}

@@ -1,0 +1,513 @@
+{
+  "artist": {
+    "id": 2164,
+    "count": 3,
+    "description": "Baby Keem is an American rapper, songwriter, and record producer.",
+    "link": "https://sub.music8.jp/category/baby-keem/",
+    "name": "Baby Keem",
+    "slug": "baby-keem",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2017",
+      "artistborn": "20001022",
+      "artistdied": "",
+      "artistjpname": "ベイビー・キーム",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2164",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2164"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2164"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 59612,
+      "date": "2023-12-09T14:04:12",
+      "date_gmt": "2023-12-09T05:04:12",
+      "title": {
+        "rendered": "leavemealone"
+      },
+      "content": {
+        "rendered": "<p>Fred again.. , Baby Keem - leavemealone</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2164,
+        3660
+      ],
+      "tags": [],
+      "genre": [
+        487,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1MVqeIAwhD4T44AKVkIfic",
+        "spotify_release_date": "2023-12-08",
+        "spotify_name": "leavemealone",
+        "spotify_artists": "Fred again.., Baby Keem",
+        "spotify_album": "leavemealone",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c9049966d5a1c1954ae98480",
+        "spotify_duration_ms": "222784",
+        "spotify_popularity": "81",
+        "spotify_danceability": "0.682",
+        "spotify_energy": "0.882",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.5",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0543",
+        "spotify_tempo": "174.052",
+        "spotify_valence": "0.103",
+        "spotify_acousticness": "0.00521",
+        "spotify_instrumentalness": "0.0194",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.571",
+        "spotify_artists01": "Fred again..",
+        "spotify_artists01_id": "4oLeXFyACqeem2VImYeBFe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb69eea22d7189af21794f3043",
+        "spotify_artists01_genres": "edm, house, stutter house",
+        "spotify_artists01_popularity": "76",
+        "spotify_artists02": "Baby Keem",
+        "spotify_artists02_id": "5SXuuuRpukkTvsLuUknva1",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebd6f2323c1971fd5a70cd0255",
+        "spotify_artists02_genres": "hip hop, rap",
+        "spotify_artists02_popularity": "77",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "POajNdBtNYE",
+        "ytreleasedate": "2023/12/09"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Fred-again.-leavemealone.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2164,
+            "name": "Baby Keem",
+            "slug": "baby-keem",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "20001022",
+              "artistdied": "",
+              "artistjpname": "ベイビー・キーム",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3660,
+            "name": "Fred again..",
+            "slug": "fred-again",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2010",
+              "artistborn": "19930719",
+              "artistjpname": "フレッド・アゲイン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                },
+                {
+                  "value": "multi-instrumentalist",
+                  "label": "Multi-instrumentalist"
+                }
+              ],
+              "related_artists": "Barry Can't Swim | Dom Dolla (dom-dolla) | Bicep (bicep) | John Summit (john-summit) | Fisher (fisher) | Overmono | Chris Lake (chris-lake) | RÜFÜS DU SOL (rufus-du-sol) | D.O.D (d-o-d) | Blessed Madonna (blessed-madonna) | Four Tet | Sammy Virji | Peggy Gou (peggy-gou) | Flume (flume) | Jamie xx (jamie-xx) | KAYTRANADA (kaytranada) | Disclosure | Chase & Status | Elderbrook (elderbrook) | MK (mk)",
+              "spotify_artist_id": "4oLeXFyACqeem2VImYeBFe",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517469eea22d7189af21794f3043"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Fred again.., Baby Keem",
+        "ytvideoid": "POajNdBtNYE",
+        "spotify_track_id": "1MVqeIAwhD4T44AKVkIfic"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "leavemealone"
+    },
+    {
+      "id": 70271,
+      "date": "2023-12-08T20:55:11",
+      "date_gmt": "2023-12-08T11:55:11",
+      "title": {
+        "rendered": "leavemealone"
+      },
+      "content": {
+        "rendered": "<p>Fred again.., Baby Keem - leavemealone</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2164,
+        3660
+      ],
+      "tags": [],
+      "genre": [
+        487,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "rNv8K8AYGi8",
+        "ytreleasedate": "",
+        "spotify_track_id": "1nzOUWyHoZLzf9EX0pnFPn",
+        "spotify_release_date": "2024-04-09",
+        "spotify_name": "leavemealone",
+        "spotify_artists": "Fred again.., Baby Keem",
+        "spotify_album": "USB",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fd4fd4ebe15ddab320bbe7c1",
+        "spotify_duration_ms": "222784",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.68",
+        "spotify_energy": "0.881",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.503",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0553",
+        "spotify_tempo": "174.062",
+        "spotify_valence": "0.105",
+        "spotify_acousticness": "0.00499",
+        "spotify_instrumentalness": "0.0253",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.574",
+        "spotify_artists01": "Fred again..",
+        "spotify_artists01_id": "4oLeXFyACqeem2VImYeBFe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb69eea22d7189af21794f3043",
+        "spotify_artists01_genres": "edm, house, stutter house",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "Baby Keem",
+        "spotify_artists02_id": "5SXuuuRpukkTvsLuUknva1",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebd6f2323c1971fd5a70cd0255",
+        "spotify_artists02_genres": "hip hop, rap",
+        "spotify_artists02_popularity": "76",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273fd4fd4ebe15ddab320bbe7c1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2164,
+            "name": "Baby Keem",
+            "slug": "baby-keem",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "20001022",
+              "artistdied": "",
+              "artistjpname": "ベイビー・キーム",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3660,
+            "name": "Fred again..",
+            "slug": "fred-again",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2010",
+              "artistborn": "19930719",
+              "artistjpname": "フレッド・アゲイン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                },
+                {
+                  "value": "multi-instrumentalist",
+                  "label": "Multi-instrumentalist"
+                }
+              ],
+              "related_artists": "Barry Can't Swim | Dom Dolla (dom-dolla) | Bicep (bicep) | John Summit (john-summit) | Fisher (fisher) | Overmono | Chris Lake (chris-lake) | RÜFÜS DU SOL (rufus-du-sol) | D.O.D (d-o-d) | Blessed Madonna (blessed-madonna) | Four Tet | Sammy Virji | Peggy Gou (peggy-gou) | Flume (flume) | Jamie xx (jamie-xx) | KAYTRANADA (kaytranada) | Disclosure | Chase & Status | Elderbrook (elderbrook) | MK (mk)",
+              "spotify_artist_id": "4oLeXFyACqeem2VImYeBFe",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517469eea22d7189af21794f3043"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Fred again.., Baby Keem",
+        "ytvideoid": "rNv8K8AYGi8",
+        "spotify_track_id": "1nzOUWyHoZLzf9EX0pnFPn"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "leavemealone-2"
+    },
+    {
+      "id": 40203,
+      "date": "2022-02-25T13:23:00",
+      "date_gmt": "2022-02-25T04:23:00",
+      "title": {
+        "rendered": "16"
+      },
+      "content": {
+        "rendered": "\n<p>BabyKeem-16</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2164
+      ],
+      "tags": [],
+      "genre": [
+        452,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1Is8hGpkGMiePASAxBluxM",
+        "spotify_release_date": "2021/9/10",
+        "spotify_name": "16",
+        "spotify_artists": "BabyKeem",
+        "spotify_album": "TheMelodicBlue",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731bfa23b13d0504fb90c37b39",
+        "spotify_duration_ms": "156040",
+        "spotify_popularity": "81",
+        "spotify_danceability": "0.701",
+        "spotify_energy": "0.782",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.987",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.138",
+        "spotify_tempo": "94.03",
+        "spotify_valence": "0.57",
+        "spotify_acousticness": "0.0918",
+        "spotify_instrumentalness": "2.31E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.124",
+        "spotify_artists01": "BabyKeem",
+        "spotify_artists01_id": "5SXuuuRpukkTvsLuUknva1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd6f2323c1971fd5a70cd0255",
+        "spotify_artists01_genres": "hiphop,rap",
+        "spotify_artists01_popularity": "79",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "XB9IS9aqQvA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Baby-Keem-16.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2164,
+            "name": "Baby Keem",
+            "slug": "baby-keem",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "20001022",
+              "artistdied": "",
+              "artistjpname": "ベイビー・キーム",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "BabyKeem",
+        "ytvideoid": "XB9IS9aqQvA",
+        "spotify_track_id": "1Is8hGpkGMiePASAxBluxM"
+      },
+      "genre_data": [
+        {
+          "name": "Chillwave",
+          "slug": "chillwave",
+          "term_id": 452,
+          "post_count": 24
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "16"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

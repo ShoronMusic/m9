@@ -1,0 +1,214 @@
+{
+  "artist": {
+    "id": 5201,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/drama/",
+    "name": "Drama",
+    "slug": "drama",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5201",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5201"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5201"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 70184,
+      "date": "2020-04-03T16:23:52",
+      "date_gmt": "2020-04-03T07:23:52",
+      "title": {
+        "rendered": "Nobody"
+      },
+      "content": {
+        "rendered": "<p>Gorgon City, DRAMA - Nobody</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5201,
+        2334
+      ],
+      "tags": [],
+      "genre": [
+        479,
+        670
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "wpR-OKoAtmQ",
+        "ytreleasedate": "",
+        "spotify_track_id": "1pJwEPkqfgtmV68vYQ7RyD",
+        "spotify_release_date": "2021-06-25",
+        "spotify_name": "Nobody",
+        "spotify_artists": "Gorgon City, DRAMA",
+        "spotify_album": "Olympia",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273bafa195f89e8bea7b7846589",
+        "spotify_duration_ms": "199013",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.697",
+        "spotify_energy": "0.664",
+        "spotify_key": "1",
+        "spotify_loudness": "-8.962",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0275",
+        "spotify_tempo": "120.041",
+        "spotify_valence": "0.265",
+        "spotify_acousticness": "0.0256",
+        "spotify_instrumentalness": "0.0173",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.112",
+        "spotify_artists01": "Gorgon City",
+        "spotify_artists01_id": "4VNQWV2y1E97Eqo2D5UTjx",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb03f8368ab5b5e8143f7d30c4",
+        "spotify_artists01_genres": "future garage, house, pop dance, uk dance",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "DRAMA",
+        "spotify_artists02_id": "7LvvNoUPwTZpgXDWBRrfHg",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebf988cbc1e77217dc8a7a7871",
+        "spotify_artists02_genres": "indie soul",
+        "spotify_artists02_popularity": "56",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273bafa195f89e8bea7b7846589.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5201,
+            "name": "Drama",
+            "slug": "drama",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2334,
+            "name": "Gorgon City",
+            "slug": "gorgon-city",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ゴーゴン・シティ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Gorgon City, DRAMA",
+        "ytvideoid": "wpR-OKoAtmQ",
+        "spotify_track_id": "1pJwEPkqfgtmV68vYQ7RyD"
+      },
+      "genre_data": [
+        {
+          "name": "Deep house",
+          "slug": "deep-house",
+          "term_id": 479,
+          "post_count": 90
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "nobody-5"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,377 @@
+{
+  "artist": {
+    "id": 3043,
+    "count": 2,
+    "description": "John Martin is a Swedish singer and songwriter.",
+    "link": "https://sub.music8.jp/category/john-martin/",
+    "name": "John Martin",
+    "slug": "john-martin",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "2010",
+      "artistborn": "19800824",
+      "artistdied": "",
+      "artistjpname": "ジョン・マーティン",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3043",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3043"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3043"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50694,
+      "date": "2023-08-30T14:13:41",
+      "date_gmt": "2023-08-30T05:13:41",
+      "title": {
+        "rendered": "Coming Home"
+      },
+      "content": {
+        "rendered": "<p>ARTBAT, John Martin - Coming Home</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3042,
+        3043
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        501,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2ReortySZeaeI0CUWiIh8v",
+        "spotify_release_date": "2023-08-25",
+        "spotify_name": "Coming Home (feat. John Martin)",
+        "spotify_artists": "ARTBAT, John Martin",
+        "spotify_album": "Coming Home (feat. John Martin)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27331e9c4fadca2636979f0ea1e",
+        "spotify_duration_ms": "212812",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.581",
+        "spotify_energy": "0.696",
+        "spotify_key": "7",
+        "spotify_loudness": "-8.308",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0332",
+        "spotify_tempo": "127.986",
+        "spotify_valence": "0.117",
+        "spotify_acousticness": "0.0509",
+        "spotify_instrumentalness": "0.00326",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.179",
+        "spotify_artists01": "ARTBAT",
+        "spotify_artists01_id": "3BkRu2TGd2I1uBxZKddfg1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba940b5335cc9cfb77b8ab10f",
+        "spotify_artists01_genres": "ukrainian electronic",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "John Martin",
+        "spotify_artists02_id": "2auikkNYqigWStoHWK1Grq",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc219fd875a1df4abf7eb157d",
+        "spotify_artists02_genres": "pop edm",
+        "spotify_artists02_popularity": "66",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "0zISVceb3LE",
+        "ytreleasedate": "2023/08/30"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ARTBAT-ft.-John-Martin-Coming-Home.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3042,
+            "name": "ARTBAT",
+            "slug": "artbat",
+            "acf": {
+              "artistorigin": "UKR",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アートバット",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "3BkRu2TGd2I1uBxZKddfg1",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174111dd7f3a44a7c5b9c1aeb06",
+              "youtube_channel": "UCkFgRdbsN5d6gVqMB_lVaQg",
+              "wikipedia_page": "Artbat"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3043,
+            "name": "John Martin",
+            "slug": "john-martin",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2010",
+              "artistborn": "19800824",
+              "artistdied": "",
+              "artistjpname": "ジョン・マーティン",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ARTBAT, John Martin",
+        "ytvideoid": "0zISVceb3LE",
+        "spotify_track_id": "2ReortySZeaeI0CUWiIh8v"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "coming-home-3"
+    },
+    {
+      "id": 81326,
+      "date": "2013-09-23T15:06:16",
+      "date_gmt": "2013-09-23T06:06:16",
+      "title": {
+        "rendered": "Children Of The Sun"
+      },
+      "content": {
+        "rendered": "<p>Tinie Tempah, John Martin - Children Of The Sun</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3043,
+        3552
+      ],
+      "tags": [],
+      "genre": [
+        441,
+        669
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "ytvideoid": "aQQ_dipczlY",
+        "ytreleasedate": "2013/09/23",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3G3IuaMNMkfcjp2eu5U0tm",
+        "spotify_release_date": "2013-11-04",
+        "spotify_name": "Children of the Sun (feat. John Martin)",
+        "spotify_artists": "Tinie Tempah, John Martin",
+        "spotify_album": "Demonstration",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273054a273e9badf20122f5b497",
+        "spotify_duration_ms": "231794",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.392",
+        "spotify_energy": "0.751",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.928",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0903",
+        "spotify_tempo": "73.893",
+        "spotify_valence": "0.308",
+        "spotify_acousticness": "0.0481",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.372",
+        "spotify_artists01": "Tinie Tempah",
+        "spotify_artists01_id": "0Tob4H0FLtEONHU1MjpUEp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb3ba872f2db68e17e01d3cbd",
+        "spotify_artists01_genres": "dance pop, grime, pop rap",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "John Martin",
+        "spotify_artists02_id": "2auikkNYqigWStoHWK1Grq",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc219fd875a1df4abf7eb157d",
+        "spotify_artists02_genres": "pop edm",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273054a273e9badf20122f5b497.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3043,
+            "name": "John Martin",
+            "slug": "john-martin",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2010",
+              "artistborn": "19800824",
+              "artistdied": "",
+              "artistjpname": "ジョン・マーティン",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3552,
+            "name": "Tinie Tempah",
+            "slug": "tinie-tempah",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2005",
+              "artistborn": "19881107",
+              "artistjpname": "タイニー・テンパー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ],
+              "related_artists": "Tinchy Stryder | Professor Green | N-Dubz | Example (example) | Wiley | Wretch 32 | Lethal Bizzle (lethal-bizzle) | Dappy | Dizzee Rascal | Rizzle Kicks | Chip | Plan B | Roll Deep | Devlin | Katy B | So Solid Crew | Taio Cruz (taio-cruz) | Naughty Boy (naughty-boy) | B.o.B (bob) | Far East Movement",
+              "spotify_artist_id": "0Tob4H0FLtEONHU1MjpUEp",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174b3ba872f2db68e17e01d3cbd"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Tinie Tempah, John Martin",
+        "ytvideoid": "aQQ_dipczlY",
+        "spotify_track_id": "3G3IuaMNMkfcjp2eu5U0tm"
+      },
+      "genre_data": [
+        {
+          "name": "British hip hop",
+          "slug": "british-hip-hop",
+          "term_id": 441,
+          "post_count": 67
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "children-of-the-sun"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 1053,
+  "count": 6,
+  "description": "Alessia Cara is a Canadian singer-songwriter.",
+  "link": "https://sub.music8.jp/category/alessia-cara/",
+  "name": "Alessia Cara",
+  "slug": "alessia-cara",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "2009",
+    "artistborn": "19960711",
+    "artistdied": "",
+    "artistjpname": "アレッシア・カーラ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2wUjUUtkb5lvLKcGKsKqsR",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e74b7398634a741f74858dc7"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1053",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1053"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1053"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アレッシア・カーラ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174e74b7398634a741f74858dc7",
+  "artistActiveYearStart": "2009",
+  "occupation": "ssw"
+}

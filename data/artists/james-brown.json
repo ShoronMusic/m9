@@ -1,0 +1,80 @@
+{
+  "id": 5433,
+  "count": 2,
+  "description": "James Brown was an American singer, dancer and musician.",
+  "link": "https://sub.music8.jp/category/james-brown/",
+  "name": "James Brown",
+  "slug": "james-brown",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1954–2006",
+    "artistborn": "19330503",
+    "artistjpname": "ジェームス・ブラウン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "2006.12.25",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "James Brown & The Famous Flames | Curtis Mayfield | Sly & The Family Stone | Ray Charles (ray-charles) | Al Green | Parliament (parliament) | Otis Redding | Isaac Hayes | Wilson Pickett (wilson-pickett) | Funkadelic (funkadelic) | Aretha Franklin (aretha-franklin) | Little Richard | Marvin Gaye (marvin-gaye) | Sam Cooke | Bill Withers (bill-withers) | George Clinton (george-clinton) | Stevie Wonder (stevie-wonder) | Rick James (rick-james) | Muddy Waters | J.B.'s",
+    "spotify_artist_id": "7GaxyUddsPok8BuhxN6OUW",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174158342aa8bb8a192c778f2a5"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5433",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5433"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5433"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェームス・ブラウン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174158342aa8bb8a192c778f2a5",
+  "artistActiveYearStart": "1954–2006",
+  "occupation": "singer, musician, producer"
+}

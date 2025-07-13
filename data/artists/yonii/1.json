@@ -1,0 +1,218 @@
+{
+  "artist": {
+    "id": 6198,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/yonii/",
+    "name": "YONII",
+    "slug": "yonii",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6198",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6198"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6198"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 85996,
+      "date": "2024-11-24T21:33:00",
+      "date_gmt": "2024-11-24T12:33:00",
+      "title": {
+        "rendered": "My Baby La La"
+      },
+      "content": {
+        "rendered": "<p>Sjaak, YONII - My Baby La La</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6197,
+        6198
+      ],
+      "tags": [],
+      "genre": [
+        563,
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "9vbjyLweiiM",
+        "ytreleasedate": "2024/07/06",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "4AvB7BcWXkdQXefCyIVcrB",
+        "spotify_release_date": "2024-07-05",
+        "spotify_name": "My Baby La La",
+        "spotify_artists": "Sjaak, YONII",
+        "spotify_album": "My Baby La La",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736b60ed698b41209eb19a2335",
+        "spotify_duration_ms": "154545",
+        "spotify_popularity": "18",
+        "spotify_danceability": "0.764",
+        "spotify_energy": "0.632",
+        "spotify_key": "6",
+        "spotify_loudness": "-8.457",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0566",
+        "spotify_tempo": "131.977",
+        "spotify_valence": "0.239",
+        "spotify_acousticness": "0.373",
+        "spotify_instrumentalness": "0.000531",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0798",
+        "spotify_artists01": "Sjaak",
+        "spotify_artists01_id": "2YjydjpJfm9VAtiV0XRmkm",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb77336c5c8f906391c4fc7692",
+        "spotify_artists01_genres": "dutch hip hop",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "YONII",
+        "spotify_artists02_id": "7H3TyvM3dpW78cru0Oaui9",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb824eac0d2ff06f14a565dc32",
+        "spotify_artists02_genres": "german hip hop",
+        "spotify_artists02_popularity": "50",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/sjaak-yonii-my-baby-la-la.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6197,
+            "name": "Sjaak",
+            "slug": "sjaak",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6198,
+            "name": "YONII",
+            "slug": "yonii",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Sjaak, YONII",
+        "ytvideoid": "9vbjyLweiiM",
+        "spotify_track_id": "4AvB7BcWXkdQXefCyIVcrB"
+      },
+      "genre_data": [
+        {
+          "name": "Hip house",
+          "slug": "hip-house",
+          "term_id": 563,
+          "post_count": 67
+        },
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "my-baby-la-la"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

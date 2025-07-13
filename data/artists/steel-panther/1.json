@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2451,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/steel-panther/",
+    "name": "Steel Panther",
+    "slug": "steel-panther",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2451",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2451"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2451"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38200,
+      "date": "2022-12-07T23:00:00",
+      "date_gmt": "2022-12-07T14:00:00",
+      "title": {
+        "rendered": "1987"
+      },
+      "content": {
+        "rendered": "\n<p>SteelPanther-1987</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2451
+      ],
+      "tags": [],
+      "genre": [
+        538
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5bUap94CxA9jkbCmPHjhkR",
+        "spotify_release_date": "2023/2/24",
+        "spotify_name": "1987",
+        "spotify_artists": "SteelPanther",
+        "spotify_album": "OntheProwl",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c1a975bf920cd7d94bf4da25",
+        "spotify_duration_ms": "206938",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.425",
+        "spotify_energy": "0.894",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.25",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0572",
+        "spotify_tempo": "159.891",
+        "spotify_valence": "0.698",
+        "spotify_acousticness": "0.00463",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0872",
+        "spotify_artists01": "SteelPanther",
+        "spotify_artists01_id": "3l02WF362j1oHOurzuseBv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4c7c6dfd10e75627af62024a",
+        "spotify_artists01_genres": "comicmetal,glammetal,sleazerock",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "HewOSY1XLLQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Steel-Panther-1987.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2451,
+            "name": "Steel Panther",
+            "slug": "steel-panther",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SteelPanther",
+        "ytvideoid": "HewOSY1XLLQ",
+        "spotify_track_id": "5bUap94CxA9jkbCmPHjhkR"
+      },
+      "genre_data": [
+        {
+          "name": "Glam metal",
+          "slug": "glam-metal",
+          "term_id": 538,
+          "post_count": 112
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "1987"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

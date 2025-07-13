@@ -1,0 +1,994 @@
+{
+  "artist": {
+    "id": 2596,
+    "count": 7,
+    "description": "Olivia O'Brien is an American singer.",
+    "link": "https://sub.music8.jp/category/olivia-obrien/",
+    "name": "Olivia O'Brien",
+    "slug": "olivia-obrien",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2013",
+      "artistborn": "19991126",
+      "artistdied": "",
+      "artistjpname": "オリヴィア・オブライエン",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2596",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2596"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2596"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 77958,
+      "date": "2024-08-07T14:41:45",
+      "date_gmt": "2024-08-07T05:41:45",
+      "title": {
+        "rendered": "out of your league"
+      },
+      "content": {
+        "rendered": "<p>Olivia O'Brien - out of your league</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2596
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        6
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "XHfUIrAavmI",
+        "ytreleasedate": "2024/08/07",
+        "spotify_track_id": "2dtkCu5kL120SjaxDDUAz6",
+        "spotify_release_date": "2024-08-02",
+        "spotify_name": "out of your league (but i want you so bad)",
+        "spotify_artists": "Olivia O'Brien",
+        "spotify_album": "out of your league (but i want you so bad)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735593976a3c35c79e8d539eba",
+        "spotify_duration_ms": "255379",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.754",
+        "spotify_energy": "0.717",
+        "spotify_key": "1",
+        "spotify_loudness": "-5.258",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0261",
+        "spotify_tempo": "105.032",
+        "spotify_valence": "0.876",
+        "spotify_acousticness": "0.598",
+        "spotify_instrumentalness": "0.000181",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.102",
+        "spotify_artists01": "Olivia O'Brien",
+        "spotify_artists01_id": "1QRj3hoop9Mv5VvHQkwPEp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb49df8b861fa8ae1bf2e2cd32",
+        "spotify_artists01_genres": "alt z, pop",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2735593976a3c35c79e8d539eba.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2596,
+            "name": "Olivia O'Brien",
+            "slug": "olivia-obrien",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19991126",
+              "artistdied": "",
+              "artistjpname": "オリヴィア・オブライエン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Olivia O'Brien",
+        "ytvideoid": "XHfUIrAavmI",
+        "spotify_track_id": "2dtkCu5kL120SjaxDDUAz6"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "out-of-your-league"
+    },
+    {
+      "id": 65814,
+      "date": "2024-04-12T16:55:43",
+      "date_gmt": "2024-04-12T07:55:43",
+      "title": {
+        "rendered": "blip"
+      },
+      "content": {
+        "rendered": "<p>Olivia O'Brien - blip</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2596
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "fafaKSm6lOc",
+        "ytreleasedate": "2024/04/12",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3jUa8gNaETKW2Ru4iQNFDy",
+        "spotify_release_date": "2024-04-12",
+        "spotify_name": "blip",
+        "spotify_artists": "Olivia O'Brien",
+        "spotify_album": "blip",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27359e8e927559c4a1fe90b9588",
+        "spotify_duration_ms": "260982",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.519",
+        "spotify_energy": "0.359",
+        "spotify_key": "10",
+        "spotify_loudness": "-9.412",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0304",
+        "spotify_tempo": "121.994",
+        "spotify_valence": "0.3",
+        "spotify_acousticness": "0.504",
+        "spotify_instrumentalness": "0.00203",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.0922",
+        "spotify_artists01": "Olivia O'Brien",
+        "spotify_artists01_id": "1QRj3hoop9Mv5VvHQkwPEp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb49df8b861fa8ae1bf2e2cd32",
+        "spotify_artists01_genres": "alt z, pop",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27359e8e927559c4a1fe90b9588.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2596,
+            "name": "Olivia O'Brien",
+            "slug": "olivia-obrien",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19991126",
+              "artistdied": "",
+              "artistjpname": "オリヴィア・オブライエン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Olivia O'Brien",
+        "ytvideoid": "fafaKSm6lOc",
+        "spotify_track_id": "3jUa8gNaETKW2Ru4iQNFDy"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "blip"
+    },
+    {
+      "id": 58576,
+      "date": "2023-10-19T20:07:08",
+      "date_gmt": "2023-10-19T11:07:08",
+      "title": {
+        "rendered": "Bandaid On A Bullet Hole"
+      },
+      "content": {
+        "rendered": "<p>Olivia O'Brien - Bandaid On A Bullet Hole</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2596
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "59CW3pfCsmyUfDdHY8V34f",
+        "spotify_release_date": "2023-10-19",
+        "spotify_name": "Bandaid On A Bullet Hole",
+        "spotify_artists": "Olivia O'Brien",
+        "spotify_album": "Bandaid On A Bullet Hole",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730057ba785765c193d4051f68",
+        "spotify_duration_ms": "173677",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.666",
+        "spotify_energy": "0.912",
+        "spotify_key": "0",
+        "spotify_loudness": "-3.024",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.158",
+        "spotify_tempo": "120.068",
+        "spotify_valence": "0.566",
+        "spotify_acousticness": "0.066",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.404",
+        "spotify_artists01": "Olivia O'Brien",
+        "spotify_artists01_id": "1QRj3hoop9Mv5VvHQkwPEp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe594ac25931d59f2ac6bea0f",
+        "spotify_artists01_genres": "alt z, pop",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "VjJDstpRjwk",
+        "ytreleasedate": "2023/10/19"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Olivia-OBrien-Bandaid-On-A-Bullet-Hole.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2596,
+            "name": "Olivia O'Brien",
+            "slug": "olivia-obrien",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19991126",
+              "artistdied": "",
+              "artistjpname": "オリヴィア・オブライエン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Olivia O'Brien",
+        "ytvideoid": "VjJDstpRjwk",
+        "spotify_track_id": "59CW3pfCsmyUfDdHY8V34f"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "bandaid-on-a-bullet-hole"
+    },
+    {
+      "id": 58571,
+      "date": "2023-07-14T20:05:04",
+      "date_gmt": "2023-07-14T11:05:04",
+      "title": {
+        "rendered": "i shouldve fucked your brother"
+      },
+      "content": {
+        "rendered": "<p>Olivia O'Brien - I Should’ve Fucked Your Brother</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2596
+      ],
+      "tags": [],
+      "genre": [
+        658,
+        669
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "03moFmOsgmGXeioNYAoRf1",
+        "spotify_release_date": "2023-07-14",
+        "spotify_name": "i should’ve fucked your brother",
+        "spotify_artists": "Olivia O'Brien",
+        "spotify_album": "i should’ve fucked your brother",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733406a379d0eba20146742520",
+        "spotify_duration_ms": "195482",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.543",
+        "spotify_energy": "0.872",
+        "spotify_key": "5",
+        "spotify_loudness": "-3.443",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0701",
+        "spotify_tempo": "129.993",
+        "spotify_valence": "0.477",
+        "spotify_acousticness": "0.0357",
+        "spotify_instrumentalness": "0.0000855",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.382",
+        "spotify_artists01": "Olivia O'Brien",
+        "spotify_artists01_id": "1QRj3hoop9Mv5VvHQkwPEp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe594ac25931d59f2ac6bea0f",
+        "spotify_artists01_genres": "alt z, pop",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "3ifSE2HWS8o",
+        "ytreleasedate": "2023/07/14"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Olivia-OBrien-I-Shouldve-Fucked-Your-Brother.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2596,
+            "name": "Olivia O'Brien",
+            "slug": "olivia-obrien",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19991126",
+              "artistdied": "",
+              "artistjpname": "オリヴィア・オブライエン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Olivia O'Brien",
+        "ytvideoid": "3ifSE2HWS8o",
+        "spotify_track_id": "03moFmOsgmGXeioNYAoRf1"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "i-shouldve-fucked-your-brother"
+    },
+    {
+      "id": 58566,
+      "date": "2023-04-07T20:02:40",
+      "date_gmt": "2023-04-07T11:02:40",
+      "title": {
+        "rendered": "Born"
+      },
+      "content": {
+        "rendered": "<p>Olivia O'Brien - Born With A Broken Heart</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2596
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        659
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1GTcBwVrpxpTLeJXtceeb8",
+        "spotify_release_date": "2023-04-07",
+        "spotify_name": "Born With A Broken Heart",
+        "spotify_artists": "Olivia O'Brien",
+        "spotify_album": "Born With A Broken Heart",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273db34f461387428d8c10c01a5",
+        "spotify_duration_ms": "218708",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.404",
+        "spotify_energy": "0.577",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.755",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0324",
+        "spotify_tempo": "175.786",
+        "spotify_valence": "0.23",
+        "spotify_acousticness": "0.0301",
+        "spotify_instrumentalness": "0.00000309",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.117",
+        "spotify_artists01": "Olivia O'Brien",
+        "spotify_artists01_id": "1QRj3hoop9Mv5VvHQkwPEp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe594ac25931d59f2ac6bea0f",
+        "spotify_artists01_genres": "alt z, pop",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "XIWsXz1HbW8",
+        "ytreleasedate": "2023/04/07"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Olivia-OBrien-Born-With-A-Broken-Heart.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2596,
+            "name": "Olivia O'Brien",
+            "slug": "olivia-obrien",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19991126",
+              "artistdied": "",
+              "artistjpname": "オリヴィア・オブライエン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Olivia O'Brien",
+        "ytvideoid": "XIWsXz1HbW8",
+        "spotify_track_id": "1GTcBwVrpxpTLeJXtceeb8"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Pop soul",
+          "slug": "pop-soul",
+          "term_id": 659,
+          "post_count": 187
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "born"
+    },
+    {
+      "id": 38391,
+      "date": "2022-11-04T02:15:00",
+      "date_gmt": "2022-11-03T17:15:00",
+      "title": {
+        "rendered": "Never Be The One"
+      },
+      "content": {
+        "rendered": "\n<p>OliviaO'Brien-NeverBeTheOne</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2596
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        655,
+        736
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6JF0rThWWZ1KDOAA2GC0T8",
+        "spotify_release_date": "2022/11/4",
+        "spotify_name": "NeverBeTheOne",
+        "spotify_artists": "OliviaO'Brien",
+        "spotify_album": "NeverBeTheOne",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736c865ddf06b08966de1f1f71",
+        "spotify_duration_ms": "201048",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.847",
+        "spotify_energy": "0.711",
+        "spotify_key": "6",
+        "spotify_loudness": "-4.567",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0386",
+        "spotify_tempo": "131.001",
+        "spotify_valence": "0.607",
+        "spotify_acousticness": "0.0496",
+        "spotify_instrumentalness": "0.000171",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.114",
+        "spotify_artists01": "OliviaO'Brien",
+        "spotify_artists01_id": "1QRj3hoop9Mv5VvHQkwPEp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0c6801b6c85ebdde5bfe5a45",
+        "spotify_artists01_genres": "altz,pop",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qSsY5riqD9E",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Olivia-OBrien-Never-Be-The-One.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2596,
+            "name": "Olivia O'Brien",
+            "slug": "olivia-obrien",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19991126",
+              "artistdied": "",
+              "artistjpname": "オリヴィア・オブライエン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "OliviaO'Brien",
+        "ytvideoid": "qSsY5riqD9E",
+        "spotify_track_id": "6JF0rThWWZ1KDOAA2GC0T8"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "never-be-the-one"
+    },
+    {
+      "id": 39028,
+      "date": "2022-08-05T13:26:00",
+      "date_gmt": "2022-08-05T04:26:00",
+      "title": {
+        "rendered": "Bitch Back"
+      },
+      "content": {
+        "rendered": "\n<p>OliviaO'Brien-BitchBackft.FLETCHER</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1594,
+        2596
+      ],
+      "tags": [],
+      "genre": [
+        657
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2pDWMxjBf4xkIY4nRjVpZC",
+        "spotify_release_date": "2022/8/5",
+        "spotify_name": "BitchBack(feat.FLETCHER)",
+        "spotify_artists": "OliviaO'Brien,FLETCHER",
+        "spotify_album": "BitchBack",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e29dd63f4ab628e18d8665fe",
+        "spotify_duration_ms": "143795",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.802",
+        "spotify_energy": "0.816",
+        "spotify_key": "9",
+        "spotify_loudness": "-2.78",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.147",
+        "spotify_tempo": "89.982",
+        "spotify_valence": "0.67",
+        "spotify_acousticness": "0.119",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0819",
+        "spotify_artists01": "OliviaO'Brien",
+        "spotify_artists01_id": "1QRj3hoop9Mv5VvHQkwPEp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0c6801b6c85ebdde5bfe5a45",
+        "spotify_artists01_genres": "altz,pop",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "FLETCHER",
+        "spotify_artists02_id": "5qa31A9HySw3T7MKWI9bGg",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebfaf7e9528de5dc23441abaf7",
+        "spotify_artists02_genres": "altz,pop",
+        "spotify_artists02_popularity": "65",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "QFdJZ5i6_bk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Olivia-OBrien-Bitch-Back-ft.-FLETCHER.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1594,
+            "name": "Fletcher",
+            "slug": "fletcher",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19940319",
+              "artistdied": "",
+              "artistjpname": "フレッチャー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "Lauren Sanderson (lauren-sanderson) | Zolita (zolita) | Hayley Kiyoko (hayley-kiyoko) | Xana | Reneé Rapp (renee-rapp) | King Princess | Carlie Hanson (carlie-hanson) | Olivia O'Brien (olivia-obrien) | Aces (aces) | Chelsea Cutler (chelsea-cutler) | MUNA | bülow (bulow) | Charlotte Lawrence (charlotte-lawrence) | Ally Hills | Lennon Stella (lennon-stella) | Bea Miller (bea-miller) | Beth McCarthy | shy martin (shy-martin) | VÉRITÉ | G Flip (g-flip)",
+              "spotify_artist_id": "5qa31A9HySw3T7MKWI9bGg",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c0c476d8fedef598522ee5ec"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2596,
+            "name": "Olivia O'Brien",
+            "slug": "olivia-obrien",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19991126",
+              "artistdied": "",
+              "artistjpname": "オリヴィア・オブライエン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "OliviaO'Brien,FLETCHER",
+        "ytvideoid": "QFdJZ5i6_bk",
+        "spotify_track_id": "2pDWMxjBf4xkIY4nRjVpZC"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "bitch-back"
+    }
+  ],
+  "totalSongs": 7,
+  "totalPages": 1,
+  "currentPage": 1
+}

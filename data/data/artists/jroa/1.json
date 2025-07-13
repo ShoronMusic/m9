@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 2769,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/jroa/",
+    "name": "JROA",
+    "slug": "jroa",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2769",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2769"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2769"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39784,
+      "date": "2022-04-14T21:56:00",
+      "date_gmt": "2022-04-14T12:56:00",
+      "title": {
+        "rendered": "Sun and Moon"
+      },
+      "content": {
+        "rendered": "\n<p>Anees-SunandMoonRemix(ft.JROA)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2568,
+        2769
+      ],
+      "tags": [],
+      "genre": [
+        427,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "Y7oydsPgd6Q",
+        "likecount": "0",
+        "spotify_track_id": "7m4BsKrYkOFy3VNmAMu5bO",
+        "spotify_release_date": "2023/5/19",
+        "spotify_name": "sunandmoon",
+        "spotify_artists": "anees",
+        "spotify_album": "summercamp",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273503b0c468b7664d0bb543793",
+        "spotify_duration_ms": "151507",
+        "spotify_popularity": "67",
+        "spotify_danceability": "0.815",
+        "spotify_energy": "0.442",
+        "spotify_key": "6",
+        "spotify_loudness": "-7.462",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.107",
+        "spotify_tempo": "90.019",
+        "spotify_valence": "0.706",
+        "spotify_acousticness": "0.457",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.101",
+        "spotify_artists01": "anees",
+        "spotify_artists01_id": "2HPqVfdPh9JkBSlFG5hK6h",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7dcf13c8ed8fb49e80a5fbf0",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "anees, JROA",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Anees-Sun-and-Moon-Remix-ft.-JROA.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2568,
+            "name": "anees",
+            "slug": "anees",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "19920730",
+              "artistdied": "",
+              "artistjpname": "アニーズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2769,
+            "name": "JROA",
+            "slug": "jroa",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "anees, JROA",
+        "spotify_artists": "anees",
+        "ytvideoid": "Y7oydsPgd6Q",
+        "spotify_track_id": "7m4BsKrYkOFy3VNmAMu5bO"
+      },
+      "genre_data": [
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "sun-and-moon"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

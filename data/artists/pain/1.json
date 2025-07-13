@@ -1,0 +1,453 @@
+{
+  "artist": {
+    "id": 4324,
+    "count": 3,
+    "description": "",
+    "link": "https://sub.music8.jp/category/pain/",
+    "name": "PAIN",
+    "slug": "pain",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4324",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4324"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4324"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 85010,
+      "date": "2024-11-02T16:43:26",
+      "date_gmt": "2024-11-02T07:43:26",
+      "title": {
+        "rendered": "My Angel"
+      },
+      "content": {
+        "rendered": "<p>PAIN - My Angel</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4324
+      ],
+      "tags": [],
+      "genre": [
+        577
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "gGFimthSUUw",
+        "ytreleasedate": "2024/11/02",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7nrsHfX8Z4dWPFxDaMvklu",
+        "spotify_release_date": "2024-05-17",
+        "spotify_name": "My Angel",
+        "spotify_artists": "PAIN, Cécile Siméone",
+        "spotify_album": "I Am",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e606a24df420df49afd851e2",
+        "spotify_duration_ms": "231493",
+        "spotify_popularity": "28",
+        "spotify_danceability": "0.474",
+        "spotify_energy": "0.841",
+        "spotify_key": "11",
+        "spotify_loudness": "-4.78",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0389",
+        "spotify_tempo": "119.015",
+        "spotify_valence": "0.449",
+        "spotify_acousticness": "0.0000144",
+        "spotify_instrumentalness": "0.23",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.343",
+        "spotify_artists01": "PAIN",
+        "spotify_artists01_id": "0hGpZy6ws8FofByMkt0CV1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3b61986ea29cedda59f16526",
+        "spotify_artists01_genres": "neue deutsche harte",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "Cécile Siméone",
+        "spotify_artists02_id": "2f26Llo2tw5wbARBE5y8ML",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "15",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273e606a24df420df49afd851e2-1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4324,
+            "name": "PAIN",
+            "slug": "pain",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "PAIN, Cécile Siméone",
+        "ytvideoid": "gGFimthSUUw",
+        "spotify_track_id": "7nrsHfX8Z4dWPFxDaMvklu"
+      },
+      "genre_data": [
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "my-angel"
+    },
+    {
+      "id": 66990,
+      "date": "2024-05-18T21:30:39",
+      "date_gmt": "2024-05-18T12:30:39",
+      "title": {
+        "rendered": "Don't Wake The Dead"
+      },
+      "content": {
+        "rendered": "<p>PAIN - Don't Wake The Dead</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4324
+      ],
+      "tags": [],
+      "genre": [
+        577
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "Ldil4-b0K64",
+        "ytreleasedate": "2024/05/18",
+        "spotify_track_id": "1AxTJaBxuMzdXFhRHQfUMz",
+        "spotify_release_date": "2024-05-17",
+        "spotify_name": "Don't Wake The Dead",
+        "spotify_artists": "PAIN",
+        "spotify_album": "I Am",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e606a24df420df49afd851e2",
+        "spotify_duration_ms": "247506",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.482",
+        "spotify_energy": "0.818",
+        "spotify_key": "6",
+        "spotify_loudness": "-4.709",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0443",
+        "spotify_tempo": "130.04",
+        "spotify_valence": "0.254",
+        "spotify_acousticness": "0.0000122",
+        "spotify_instrumentalness": "0.00143",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.289",
+        "spotify_artists01": "PAIN",
+        "spotify_artists01_id": "0hGpZy6ws8FofByMkt0CV1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3b61986ea29cedda59f16526",
+        "spotify_artists01_genres": "neue deutsche harte",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273e606a24df420df49afd851e2.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4324,
+            "name": "PAIN",
+            "slug": "pain",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "PAIN",
+        "ytvideoid": "Ldil4-b0K64",
+        "spotify_track_id": "1AxTJaBxuMzdXFhRHQfUMz"
+      },
+      "genre_data": [
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "dont-wake-the-dead"
+    },
+    {
+      "id": 63358,
+      "date": "2024-03-08T21:29:34",
+      "date_gmt": "2024-03-08T12:29:34",
+      "title": {
+        "rendered": "Go With The Flow"
+      },
+      "content": {
+        "rendered": "<p>PAIN - Go With The Flow</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4324
+      ],
+      "tags": [],
+      "genre": [
+        577,
+        579
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "6kkBAjdRzpw",
+        "ytreleasedate": "",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "52Q1BPrmgPHS4WIaShyfQa",
+        "spotify_release_date": "2024-03-08",
+        "spotify_name": "Go With The Flow",
+        "spotify_artists": "Pain",
+        "spotify_album": "Go With The Flow",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733767a183980bc1f48bc1a883",
+        "spotify_duration_ms": "182000",
+        "spotify_popularity": "12",
+        "spotify_danceability": "0.378",
+        "spotify_energy": "0.964",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.187",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0463",
+        "spotify_tempo": "160.019",
+        "spotify_valence": "0.594",
+        "spotify_acousticness": "0.0000193",
+        "spotify_instrumentalness": "0.375",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.328",
+        "spotify_artists01": "Pain",
+        "spotify_artists01_id": "0hGpZy6ws8FofByMkt0CV1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb713829957c8268ba11ce059d",
+        "spotify_artists01_genres": "neue deutsche harte",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2733767a183980bc1f48bc1a883.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4324,
+            "name": "PAIN",
+            "slug": "pain",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Pain",
+        "ytvideoid": "6kkBAjdRzpw",
+        "spotify_track_id": "52Q1BPrmgPHS4WIaShyfQa"
+      },
+      "genre_data": [
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        },
+        {
+          "name": "Industrial rock",
+          "slug": "industrial-rock",
+          "term_id": 579,
+          "post_count": 99
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "go-with-the-flow"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,213 @@
+{
+  "artist": {
+    "id": 4457,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/malik-harris/",
+    "name": "Malik Harris",
+    "slug": "malik-harris",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "7B6Uk58O2DVfg1xZPKEp4n",
+      "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ada5e5e2ac0ab3fef07a96cb"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4457",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4457"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4457"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65519,
+      "date": "2024-03-16T21:17:50",
+      "date_gmt": "2024-03-16T12:17:50",
+      "title": {
+        "rendered": "WHO CARES"
+      },
+      "content": {
+        "rendered": "<p>Mi Casa, Malik Harris - WHO CARES</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4457,
+        4456
+      ],
+      "tags": [],
+      "genre": [
+        524,
+        645,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "xj9kpHQuhBw",
+        "ytreleasedate": "2024/03/16",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3EbWjvHbCusBvpUGXX3IT9",
+        "spotify_release_date": "2024-03-15",
+        "spotify_name": "WHO CARES",
+        "spotify_artists": "Mi Casa, Malik Harris",
+        "spotify_album": "WHO CARES",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cbccc6ed6b5696737dd4fa92",
+        "spotify_duration_ms": "171330",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.76",
+        "spotify_energy": "0.627",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.804",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0419",
+        "spotify_tempo": "114.948",
+        "spotify_valence": "0.676",
+        "spotify_acousticness": "0.0906",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.198",
+        "spotify_artists01": "Mi Casa",
+        "spotify_artists01_id": "6c7bGIcrxaMdYSn6htbHj0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba083d46a4d7ad68f9c821bd2",
+        "spotify_artists01_genres": "afro soul, kwaito, south african house, south african pop, south african pop dance",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "Malik Harris",
+        "spotify_artists02_id": "7B6Uk58O2DVfg1xZPKEp4n",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebada5e5e2ac0ab3fef07a96cb",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "51",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273cbccc6ed6b5696737dd4fa92.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4457,
+            "name": "Malik Harris",
+            "slug": "malik-harris",
+            "acf": {
+              "artistorigin": "",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "7B6Uk58O2DVfg1xZPKEp4n",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ada5e5e2ac0ab3fef07a96cb"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4456,
+            "name": "Mi Casa",
+            "slug": "mi-casa",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Mi Casa, Malik Harris",
+        "ytvideoid": "xj9kpHQuhBw",
+        "spotify_track_id": "3EbWjvHbCusBvpUGXX3IT9"
+      },
+      "genre_data": [
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        },
+        {
+          "name": "Nu-disco",
+          "slug": "nu-disco",
+          "term_id": 645,
+          "post_count": 175
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "who-cares"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

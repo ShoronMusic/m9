@@ -1,0 +1,73 @@
+{
+  "id": 3600,
+  "count": 1,
+  "description": "Tamino is a Belgian-Egyptian singer, musician.",
+  "link": "https://sub.music8.jp/category/tamino/",
+  "name": "Tamino",
+  "slug": "tamino",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "BEL",
+    "artistactiveyearstart": "2016",
+    "artistborn": "19961024",
+    "artistjpname": "タミーノ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3600",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3600"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3600"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "タミーノ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2016",
+  "occupation": "singer, musician"
+}

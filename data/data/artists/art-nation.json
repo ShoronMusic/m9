@@ -1,0 +1,74 @@
+{
+  "id": 6241,
+  "count": 3,
+  "description": "Art Nation is a Swedish melodic rock band from Gothenburg, founded in 2014.",
+  "link": "https://sub.music8.jp/category/art-nation/",
+  "name": "Art Nation",
+  "slug": "art-nation",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2014",
+    "artistborn": "",
+    "artistjpname": "アート・ネイション",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6V8nNGRYy1tDMxWUX0w32H",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051741297d0dc5b8b8be085e15745",
+    "youtube_channel": "",
+    "wikipedia_page": "Art_Nation"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6241",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6241"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6241"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アート・ネイション",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051741297d0dc5b8b8be085e15745",
+  "artistActiveYearStart": "2014",
+  "occupation": "band"
+}

@@ -1,0 +1,333 @@
+{
+  "artist": {
+    "id": 2456,
+    "count": 2,
+    "description": "Zebrahead is an American rock band.",
+    "link": "https://sub.music8.jp/category/zebrahead/",
+    "name": "Zebrahead",
+    "slug": "zebrahead",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1996",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ゼブラヘッド",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2456",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2456"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2456"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38120,
+      "date": "2022-12-27T23:22:00",
+      "date_gmt": "2022-12-27T14:22:00",
+      "title": {
+        "rendered": "Evil Anonymous"
+      },
+      "content": {
+        "rendered": "\n<p>Zebrahead-EvilAnonymous</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2456
+      ],
+      "tags": [],
+      "genre": [
+        687,
+        710
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6fB3DvO3syABrIW527ISKA",
+        "spotify_release_date": "2022/12/9",
+        "spotify_name": "EvilAnonymous",
+        "spotify_artists": "zebrahead",
+        "spotify_album": "EvilAnonymous",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a13260b0a363dc077c15e825",
+        "spotify_duration_ms": "176405",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.616",
+        "spotify_energy": "0.87",
+        "spotify_key": "9",
+        "spotify_loudness": "-3.322",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.102",
+        "spotify_tempo": "95.044",
+        "spotify_valence": "0.859",
+        "spotify_acousticness": "0.0515",
+        "spotify_instrumentalness": "1.73E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0229",
+        "spotify_artists01": "zebrahead",
+        "spotify_artists01_id": "6SiyKSeJo6gcsS2NvuAbsl",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb05fe18f0e91beba7775bbc77",
+        "spotify_artists01_genres": "funkmetal,skatepunk",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "wk2dkfhjIoY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Zebrahead-Evil-Anonymous.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2456,
+            "name": "Zebrahead",
+            "slug": "zebrahead",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ゼブラヘッド",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "zebrahead",
+        "ytvideoid": "wk2dkfhjIoY",
+        "spotify_track_id": "6fB3DvO3syABrIW527ISKA"
+      },
+      "genre_data": [
+        {
+          "name": "Rap Metal",
+          "slug": "rap-metal",
+          "term_id": 687,
+          "post_count": 32
+        },
+        {
+          "name": "Ska punk",
+          "slug": "ska-punk",
+          "term_id": 710,
+          "post_count": 32
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "evil-anonymous"
+    },
+    {
+      "id": 38438,
+      "date": "2022-10-28T11:28:00",
+      "date_gmt": "2022-10-28T02:28:00",
+      "title": {
+        "rendered": "No Tomorrow"
+      },
+      "content": {
+        "rendered": "\n<p>Zebrahead-NoTomorrow</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2456
+      ],
+      "tags": [],
+      "genre": [
+        616,
+        711
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "22L3BjZDqU8ETWa1wfwdah",
+        "spotify_release_date": "2022/10/14",
+        "spotify_name": "NoTomorrow",
+        "spotify_artists": "zebrahead",
+        "spotify_album": "NoTomorrow",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733ea7a835eedf71857c82b672",
+        "spotify_duration_ms": "193273",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.391",
+        "spotify_energy": "0.922",
+        "spotify_key": "10",
+        "spotify_loudness": "-3.683",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.159",
+        "spotify_tempo": "194.559",
+        "spotify_valence": "0.619",
+        "spotify_acousticness": "0.00578",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.353",
+        "spotify_artists01": "zebrahead",
+        "spotify_artists01_id": "6SiyKSeJo6gcsS2NvuAbsl",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb05fe18f0e91beba7775bbc77",
+        "spotify_artists01_genres": "funkmetal,skatepunk",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ztlC5wbvWVk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Zebrahead-No-Tomorrow.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2456,
+            "name": "Zebrahead",
+            "slug": "zebrahead",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ゼブラヘッド",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "zebrahead",
+        "ytvideoid": "ztlC5wbvWVk",
+        "spotify_track_id": "22L3BjZDqU8ETWa1wfwdah"
+      },
+      "genre_data": [
+        {
+          "name": "Melodic hardcore",
+          "slug": "melodic-hardcore",
+          "term_id": 616,
+          "post_count": 3
+        },
+        {
+          "name": "Skate punk",
+          "slug": "skate-punk",
+          "term_id": 711,
+          "post_count": 21
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "no-tomorrow"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,67 @@
+{
+  "id": 2222,
+  "count": 1,
+  "description": "Diana Ross is an American singer, actress, and record producer.",
+  "link": "https://sub.music8.jp/category/diana-ross/",
+  "name": "Diana Ross",
+  "slug": "diana-ross",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1956",
+    "artistborn": "19440326",
+    "artistdied": "",
+    "artistjpname": "ダイアナ・ロス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [],
+    "related_artists": "Dionne Warwick (dionne-warwick) | Supremes | Donna Summer (donna-summer) | Gladys Knight & The Pips | Natalie Cole | Roberta Flack | Pointer Sisters | Sister Sledge | Smokey Robinson | Gloria Gaynor (gloria-gaynor) | Patti LaBelle | Chaka Khan (chaka-khan) | Commodores | Smokey Robinson & The Miracles | Four Tops | Vanessa Williams (vanessa-williams) | Village People (village-people) | Billy Ocean | KC & The Sunshine Band | Gladys Knight (gladys-knight)",
+    "spotify_artist_id": "3MdG05syQeRYPPcClLaUGl",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174db59e1c017a93648b119f0cc"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2222",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2222"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2222"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ダイアナ・ロス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174db59e1c017a93648b119f0cc",
+  "artistActiveYearStart": "1956",
+  "occupation": ""
+}

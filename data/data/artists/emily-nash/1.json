@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2093,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/emily-nash/",
+    "name": "Emily Nash",
+    "slug": "emily-nash",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2093",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2093"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2093"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40508,
+      "date": "2022-01-14T20:37:00",
+      "date_gmt": "2022-01-14T11:37:00",
+      "title": {
+        "rendered": "Garden"
+      },
+      "content": {
+        "rendered": "\n<p>EmilyNash-Garden</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2093
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        751
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "77uXlUY5qtAxiN1UCtAcyF",
+        "spotify_release_date": "2022/1/14",
+        "spotify_name": "Garden",
+        "spotify_artists": "EmilyNash",
+        "spotify_album": "Garden",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ef132f88521a8301c806f97a",
+        "spotify_duration_ms": "215645",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.664",
+        "spotify_energy": "0.874",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.918",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0378",
+        "spotify_tempo": "127.971",
+        "spotify_valence": "0.729",
+        "spotify_acousticness": "0.00999",
+        "spotify_instrumentalness": "0.256",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.189",
+        "spotify_artists01": "EmilyNash",
+        "spotify_artists01_id": "6OaDL8ICMweuCQZfgYIKup",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe28728e36ea963ac468906f2",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "iVK-A3Oh2CU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Emily-Nash-Garden.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2093,
+            "name": "Emily Nash",
+            "slug": "emily-nash",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "EmilyNash",
+        "ytvideoid": "iVK-A3Oh2CU",
+        "spotify_track_id": "77uXlUY5qtAxiN1UCtAcyF"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Trip hop",
+          "slug": "trip-hop",
+          "term_id": 751,
+          "post_count": 100
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "garden"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

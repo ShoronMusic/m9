@@ -1,0 +1,195 @@
+{
+  "artist": {
+    "id": 6020,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/boney-james/",
+    "name": "Boney James",
+    "slug": "boney-james",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6020",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6020"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6020"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 83598,
+      "date": "2024-10-11T09:11:08",
+      "date_gmt": "2024-10-11T00:11:08",
+      "title": {
+        "rendered": "All I Want Is You"
+      },
+      "content": {
+        "rendered": "<p>October London, Boney James - All I Want Is You</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6020,
+        2911
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "J2JwJzf7RJM",
+        "ytreleasedate": "2024/10/11",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2YKgKQeaYc2sIZIGooyLw0",
+        "spotify_release_date": "2024-07-19",
+        "spotify_name": "All I Want Is You [Feat. October London]",
+        "spotify_artists": "Boney James, October London",
+        "spotify_album": "All I Want Is You",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734fc035881b939d6981da715c",
+        "spotify_duration_ms": "200520",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.627",
+        "spotify_energy": "0.622",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.954",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.247",
+        "spotify_tempo": "83.043",
+        "spotify_valence": "0.656",
+        "spotify_acousticness": "0.474",
+        "spotify_instrumentalness": "0.0000078",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.127",
+        "spotify_artists01": "Boney James",
+        "spotify_artists01_id": "1sBRcMH8DDR8Nsk2RoJmjS",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2e9609d87e8c303c358001e4",
+        "spotify_artists01_genres": "smooth jazz, smooth saxophone",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "October London",
+        "spotify_artists02_id": "1eNO1DUCOtZgCzlwtjtb1t",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb856bb4bed980131cc0a81d2c",
+        "spotify_artists02_genres": "neo r&b",
+        "spotify_artists02_popularity": "58",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2734fc035881b939d6981da715c.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6020,
+            "name": "Boney James",
+            "slug": "boney-james",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2911,
+            "name": "October London",
+            "slug": "october-london",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19861017",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Boney James, October London",
+        "ytvideoid": "J2JwJzf7RJM",
+        "spotify_track_id": "2YKgKQeaYc2sIZIGooyLw0"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "all-i-want-is-you-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

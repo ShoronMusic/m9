@@ -1,0 +1,289 @@
+{
+  "artist": {
+    "id": 3176,
+    "count": 1,
+    "description": "ZZZAHARA &amp; EYEDRESS",
+    "link": "https://sub.music8.jp/category/simps/",
+    "name": "SIMPS",
+    "slug": "simps",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": [
+        {
+          "term_id": 3177,
+          "name": "Eyedress",
+          "slug": "eyedress",
+          "term_group": 0,
+          "term_taxonomy_id": 3177,
+          "taxonomy": "category",
+          "description": "Eyedress is a Filipino singer-songwriter, rapper, and record producer.",
+          "parent": 0,
+          "count": 12,
+          "filter": "raw"
+        },
+        {
+          "term_id": 3175,
+          "name": "ZZZAHARA",
+          "slug": "zzzahara",
+          "term_group": 0,
+          "term_taxonomy_id": 3175,
+          "taxonomy": "category",
+          "description": "",
+          "parent": 0,
+          "count": 5,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3176",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3176"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3176"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51830,
+      "date": "2022-02-25T02:55:16",
+      "date_gmt": "2022-02-24T17:55:16",
+      "title": {
+        "rendered": "TESLA"
+      },
+      "content": {
+        "rendered": "<p>THE SIMPS (ZZZAHARA & EYEDRESS) - TESLA</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3177,
+        3176,
+        3175
+      ],
+      "tags": [],
+      "genre": [
+        427,
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3wUne0H6z9p8PdkXZqOKRs",
+        "spotify_release_date": "2022-02-14",
+        "spotify_name": "Tesla",
+        "spotify_artists": "SIMPS, Eyedress, ZZZAHARA",
+        "spotify_album": "Siblings",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273df8d0d7b1283f95b3f991373",
+        "spotify_duration_ms": "236546",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.533",
+        "spotify_energy": "0.547",
+        "spotify_key": "0",
+        "spotify_loudness": "-11.383",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0358",
+        "spotify_tempo": "77.179",
+        "spotify_valence": "0.147",
+        "spotify_acousticness": "0.426",
+        "spotify_instrumentalness": "0.771",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.114",
+        "spotify_artists01": "The Simps",
+        "spotify_artists01_id": "1jsT4oqnLcCax2grWbuhL6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb700449ddb8927329f21e3f49",
+        "spotify_artists01_genres": "american post-punk",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "Eyedress",
+        "spotify_artists02_id": "3XxNRirzbjfLdDli06zMaB",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb7b805a3dd0d21343de6d5ab0",
+        "spotify_artists02_genres": "noise pop",
+        "spotify_artists02_popularity": "72",
+        "spotify_artists03": "zzzahara",
+        "spotify_artists03_id": "26j38hvhD7PjC0a4EqdaSn",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb76ac5afe5c75c7ed1111abb7",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "48",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "q-asE3NFauc",
+        "ytreleasedate": "2022/02/25"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/THE-SIMPS-ZZZAHARA-EYEDRESS-TESLA.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3177,
+            "name": "Eyedress",
+            "slug": "eyedress",
+            "acf": {
+              "artistorigin": "PHI",
+              "artistactiveyearstart": "2008",
+              "artistborn": "19900528",
+              "artistjpname": "アイドレス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Strawberry Guy | Vacations (vacations) | Yot Club | salvia palth | Current Joys | Memo Boy | Alex G | SIMPS (simps) | Roar | Duster | alex_g_offline | TV Girl (tv-girl) | Joy Again | Dent May | sign crushes motorist | Cults | bôa | Mac DeMarco (mac-demarco) | Surf Curse (surf-curse) | Dream, Ivory",
+              "spotify_artist_id": "3XxNRirzbjfLdDli06zMaB",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051748fc44d8cabce60020d1f8ec4"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3176,
+            "name": "SIMPS",
+            "slug": "simps",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": [
+                {
+                  "term_id": 3177,
+                  "name": "Eyedress",
+                  "slug": "eyedress",
+                  "term_group": 0,
+                  "term_taxonomy_id": 3177,
+                  "taxonomy": "category",
+                  "description": "Eyedress is a Filipino singer-songwriter, rapper, and record producer.",
+                  "parent": 0,
+                  "count": 12,
+                  "filter": "raw"
+                },
+                {
+                  "term_id": 3175,
+                  "name": "ZZZAHARA",
+                  "slug": "zzzahara",
+                  "term_group": 0,
+                  "term_taxonomy_id": 3175,
+                  "taxonomy": "category",
+                  "description": "",
+                  "parent": 0,
+                  "count": 5,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3175,
+            "name": "ZZZAHARA",
+            "slug": "zzzahara",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SIMPS, Eyedress, ZZZAHARA",
+        "ytvideoid": "q-asE3NFauc",
+        "spotify_track_id": "3wUne0H6z9p8PdkXZqOKRs"
+      },
+      "genre_data": [
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "tesla"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 3094,
+    "count": 1,
+    "description": "Emily Ann Roberts is an American country singer.",
+    "link": "https://sub.music8.jp/category/emily-ann-roberts/",
+    "name": "Emily Ann Roberts",
+    "slug": "emily-ann-roberts",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2015",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3094",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3094"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3094"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51109,
+      "date": "2023-04-26T21:08:42",
+      "date_gmt": "2023-04-26T12:08:42",
+      "title": {
+        "rendered": "He Set Her Off"
+      },
+      "content": {
+        "rendered": "<p>Emily Ann Roberts - He Set Her Off</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3094
+      ],
+      "tags": [],
+      "genre": [
+        466
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4mJVMoNIfhUkxIOHfmhSsA",
+        "spotify_release_date": "2023-03-17",
+        "spotify_name": "He Set Her Off",
+        "spotify_artists": "Emily Ann Roberts",
+        "spotify_album": "He Set Her Off",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735cf3da2323837fdcafb6e5c4",
+        "spotify_duration_ms": "152080",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.648",
+        "spotify_energy": "0.871",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.477",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0411",
+        "spotify_tempo": "124.989",
+        "spotify_valence": "0.655",
+        "spotify_acousticness": "0.143",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.363",
+        "spotify_artists01": "Emily Ann Roberts",
+        "spotify_artists01_id": "4ZuggB1YawAAZOBL4pI9J8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5b3381abc6e2dbc63a6556a7",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "42",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "hZShGfg7Qys",
+        "ytreleasedate": "2023/04/26"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Emily-Ann-Roberts-He-Set-Her-Off.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3094,
+            "name": "Emily Ann Roberts",
+            "slug": "emily-ann-roberts",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Emily Ann Roberts",
+        "ytvideoid": "hZShGfg7Qys",
+        "spotify_track_id": "4mJVMoNIfhUkxIOHfmhSsA"
+      },
+      "genre_data": [
+        {
+          "name": "Country pop",
+          "slug": "country-pop",
+          "term_id": 466,
+          "post_count": 142
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "he-set-her-off"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

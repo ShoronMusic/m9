@@ -1,0 +1,72 @@
+{
+  "id": 1366,
+  "count": 17,
+  "description": "The Charlatans are an English rock band.",
+  "link": "https://sub.music8.jp/category/charlatans/",
+  "name": "Charlatans",
+  "slug": "charlatans",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1988",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・シャーラタンズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Inspiral Carpets (inspiral-carpets) | Happy Mondays | Shed Seven (shed-seven) | Seahorses (seahorses) | Cast (cast) | Bluetones (bluetones) | Ian Brown | Black Grape | Farm | Ocean Colour Scene (ocean-colour-scene) | Dodgy (dodgy) | Primal Scream (primal-scream) | La's | Sleeper (sleeper) | Wonder Stuff | Lightning Seeds (lightning-seeds) | Ash (ash) | Kula Shaker (kula-shaker) | Embrace (embrace) | Doves",
+    "spotify_artist_id": "5fScAXreYFnuqwOgBsJgSd",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c8b6a877dcfb6c00be749304"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1366",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1366"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1366"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ザ・シャーラタンズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174c8b6a877dcfb6c00be749304",
+  "artistActiveYearStart": "1988",
+  "occupation": "band"
+}

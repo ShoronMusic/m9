@@ -1,0 +1,189 @@
+{
+  "artist": {
+    "id": 4047,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/king-cydal/",
+    "name": "King Cydal",
+    "slug": "king-cydal",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4047",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4047"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4047"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 60102,
+      "date": "2024-01-04T18:01:28",
+      "date_gmt": "2024-01-04T09:01:28",
+      "title": {
+        "rendered": "House on a Hill"
+      },
+      "content": {
+        "rendered": "<p>B-Legit, King Cydal - House on a Hill</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4046,
+        4047
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "25dg2MndFrBwaH5CuOaEQT",
+        "spotify_release_date": "2023-07-28",
+        "spotify_name": "House on a Hill (feat. King Cydal)",
+        "spotify_artists": "B-Legit, King Cydal",
+        "spotify_album": "Throwblock Music II: 88' D Boi",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273958f95e646cdab995ea79140",
+        "spotify_duration_ms": "206654",
+        "spotify_popularity": "25",
+        "spotify_danceability": "0.836",
+        "spotify_energy": "0.861",
+        "spotify_key": "3",
+        "spotify_loudness": "-4.733",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.25",
+        "spotify_tempo": "88.007",
+        "spotify_valence": "0.396",
+        "spotify_acousticness": "0.0513",
+        "spotify_instrumentalness": "0.0000651",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.195",
+        "spotify_artists01": "B-Legit",
+        "spotify_artists01_id": "6nltEpEZtqZD1v4YJLlaZI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb73c5654fab7fcc99a3aafa0e",
+        "spotify_artists01_genres": "g funk, hyphy, west coast rap",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "King Cydal",
+        "spotify_artists02_id": "0MG5YxUZNYX2TpY8DEVyT8",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb44e0b143949131c78b779f3a",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "12",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "X_N8bP_kw1g",
+        "ytreleasedate": "2024/01/04"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/B-Legit-House-on-a-Hill-feat.-King-Cydal.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4046,
+            "name": "B-Legit",
+            "slug": "b-legit",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1988",
+              "artistborn": "19680113",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4047,
+            "name": "King Cydal",
+            "slug": "king-cydal",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "B-Legit, King Cydal",
+        "ytvideoid": "X_N8bP_kw1g",
+        "spotify_track_id": "25dg2MndFrBwaH5CuOaEQT"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "house-on-a-hill"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 6238,
+  "count": 7,
+  "description": "Variety Lab is a French electronic music project.",
+  "link": "https://sub.music8.jp/category/variety-lab/",
+  "name": "Variety Lab",
+  "slug": "variety-lab",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FRA",
+    "artistactiveyearstart": "2002",
+    "artistborn": "",
+    "artistjpname": "ヴァラエティ・ラブ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "musicproject",
+        "label": "Music Project"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7JBOdpSaBHLpbSwkd72upG",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174438d66c68fc08688c0fb50f5"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6238",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6238"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6238"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ヴァラエティ・ラブ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174438d66c68fc08688c0fb50f5",
+  "artistActiveYearStart": "2002",
+  "occupation": "musicproject"
+}

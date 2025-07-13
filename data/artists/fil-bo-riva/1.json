@@ -1,0 +1,221 @@
+{
+  "artist": {
+    "id": 3090,
+    "count": 1,
+    "description": "Fil Bo Riva is an Italian singer, songwriter, musician and producer.",
+    "link": "https://sub.music8.jp/category/fil-bo-riva/",
+    "name": "Fil Bo Riva",
+    "slug": "fil-bo-riva",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "ITA",
+      "artistactiveyearstart": "2015",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3090",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3090"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3090"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51090,
+      "date": "2023-05-20T15:11:00",
+      "date_gmt": "2023-05-20T06:11:00",
+      "title": {
+        "rendered": "Killer Queen"
+      },
+      "content": {
+        "rendered": "<p>Robin Schulz, Fil Bo Riva - Killer Queen</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3090,
+        2328
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        752
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5QI1jPpw4LoNMuUXKGLQg2",
+        "spotify_release_date": "2023/8/25",
+        "spotify_name": "Killer Queen",
+        "spotify_artists": "Robin Schulz, Fil Bo Riva",
+        "spotify_album": "Pink",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cd074cc1d77ef0b7dfd24562",
+        "spotify_duration_ms": "180521",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.715",
+        "spotify_energy": "0.638",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.509",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0596",
+        "spotify_tempo": "116.025",
+        "spotify_valence": "0.412",
+        "spotify_acousticness": "0.0712",
+        "spotify_instrumentalness": "0.0000133",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.206",
+        "spotify_artists01": "ロビン・シュルツ",
+        "spotify_artists01_id": "3t5xRXzsuZmMDkQzgOX35S",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb82c0d0d4ef6742997f03d678",
+        "spotify_artists01_genres": "deep euro house, deep house, edm, german dance, pop dance, tropical house",
+        "spotify_artists01_popularity": "76",
+        "spotify_artists02": "FIL BO RIVA",
+        "spotify_artists02_id": "3JE0uoggWwwYG6rSSJk0HN",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebd8f0c34ac0c81e3f0a366dd8",
+        "spotify_artists02_genres": "german indie",
+        "spotify_artists02_popularity": "49",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "tKzOHDy1TaY",
+        "ytreleasedate": "2023/5/20"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Robin-Schulz-Fil-Bo-Riva-Killer-Queen.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3090,
+            "name": "Fil Bo Riva",
+            "slug": "fil-bo-riva",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2328,
+            "name": "Robin Schulz",
+            "slug": "robin-schulz",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19870428",
+              "artistdied": "",
+              "artistjpname": "ロビン・シュルツ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Felix Jaehn (felix-jaehn) | Lost Frequencies (lost-frequencies) | Kungs (kungs) | Ofenbach (ofenbach) | Axwell /\\ Ingrosso (axwell-ingrosso) | Sam Feldt (sam-feldt) | Alex Schulz (alex-schulz) | Klingande (klingande) | Sigala (sigala) | Alle Farben (alle-farben) | Galantis (galantis) | Martin Solveig (martin-solveig) | Alesso (alesso) | Kygo (kygo) | Sebastian Ingrosso (sebastian-ingrosso) | Jax Jones (jax-jones) | Don Diablo (don-diablo) | Nicky Romero (nicky-romero) | Axwell (axwell) | Jonas Blue (jonas-blue)",
+              "spotify_artist_id": "3t5xRXzsuZmMDkQzgOX35S",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517482c0d0d4ef6742997f03d678",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "UCLVVBWrp9jw4-SYUoU42hcg",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Robin Schulz, Fil Bo Riva",
+        "ytvideoid": "tKzOHDy1TaY",
+        "spotify_track_id": "5QI1jPpw4LoNMuUXKGLQg2"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Tropical house",
+          "slug": "tropical-house",
+          "term_id": 752,
+          "post_count": 101
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "killer-queen-3"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

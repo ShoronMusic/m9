@@ -1,0 +1,197 @@
+{
+  "artist": {
+    "id": 2472,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/danny-elfman/",
+    "name": "Danny Elfman",
+    "slug": "danny-elfman",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2472",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2472"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2472"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39269,
+      "date": "2022-06-29T09:57:00",
+      "date_gmt": "2022-06-29T00:57:00",
+      "title": {
+        "rendered": "Kick Me"
+      },
+      "content": {
+        "rendered": "\n<p>DannyElfman&amp;IggyPop-KickMe</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2472,
+        1936
+      ],
+      "tags": [],
+      "genre": [
+        421,
+        590,
+        665
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "GUn9yti3jcw",
+        "likecount": "1",
+        "spotify_track_id": "4G7LvQlEpqqdinVSSfi8Mb",
+        "spotify_release_date": "2022-06-29",
+        "spotify_name": "Kick Me",
+        "spotify_artists": "ダニー・エルフマン, イギー・ポップ",
+        "spotify_album": "Kick Me",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731a2882e52572a30325279a41",
+        "spotify_duration_ms": "217040",
+        "spotify_popularity": "10",
+        "spotify_danceability": "0.457",
+        "spotify_energy": "0.945",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.722",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.201",
+        "spotify_tempo": "150.095",
+        "spotify_valence": "0.426",
+        "spotify_acousticness": "0.000503",
+        "spotify_instrumentalness": "0.00329",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.623",
+        "spotify_artists01": "ダニー・エルフマン",
+        "spotify_artists01_id": "5qBZETtyzfYnXOobDXbmcD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebde02eb3f32d24f6ab74fdb2b",
+        "spotify_artists01_genres": "orchestral soundtrack, soundtrack",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "イギー・ポップ",
+        "spotify_artists02_id": "33EUXrFKGjpUSGacqEHhU4",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb21e6d14c3d8aab9887380d00",
+        "spotify_artists02_genres": "alternative rock, glam rock, permanent wave, protopunk, rock",
+        "spotify_artists02_popularity": "60",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "Danny Elfman, Iggy Pop",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Danny-Elfman-Iggy-Pop-Kick-Me.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2472,
+            "name": "Danny Elfman",
+            "slug": "danny-elfman",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1936,
+            "name": "Iggy Pop",
+            "slug": "iggy-pop",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1960s",
+              "artistborn": "19470821",
+              "artistdied": "",
+              "artistjpname": "イギー・ポップ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Danny Elfman, Iggy Pop",
+        "spotify_artists": "ダニー・エルフマン, イギー・ポップ",
+        "ytvideoid": "GUn9yti3jcw",
+        "spotify_track_id": "4G7LvQlEpqqdinVSSfi8Mb"
+      },
+      "genre_data": [
+        {
+          "name": "Art rock",
+          "slug": "art-rock",
+          "term_id": 421,
+          "post_count": 118
+        },
+        {
+          "name": "Jazz-rock",
+          "slug": "jazz-rock",
+          "term_id": 590,
+          "post_count": 20
+        },
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "kick-me"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

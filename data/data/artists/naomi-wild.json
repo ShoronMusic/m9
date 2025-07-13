@@ -1,0 +1,63 @@
+{
+  "id": 2202,
+  "count": 2,
+  "description": "Naomi Wild is an American songwriter and singer",
+  "link": "https://sub.music8.jp/category/naomi-wild/",
+  "name": "Naomi Wild",
+  "slug": "naomi-wild",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2017",
+    "artistborn": "19950729",
+    "artistdied": "",
+    "artistjpname": "ナオミ・ワイルド",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2202",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2202"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2202"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ナオミ・ワイルド",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2017",
+  "occupation": ""
+}

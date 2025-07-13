@@ -1,0 +1,532 @@
+{
+  "artist": {
+    "id": 2907,
+    "count": 3,
+    "description": "Mario is an American R&amp;B singer and songwriter.",
+    "link": "https://sub.music8.jp/category/mario/",
+    "name": "Mario",
+    "slug": "mario",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2001",
+      "artistborn": "19860827",
+      "artistdied": "",
+      "artistjpname": "マリオ",
+      "member": [
+        {
+          "term_id": 1014,
+          "name": "Beth Nielsen Chapman",
+          "slug": "beth-nielsen-chapman",
+          "term_group": 0,
+          "term_taxonomy_id": 1014,
+          "taxonomy": "category",
+          "description": "Beth Nielsen Chapman is an American singer-songwriter and musician.",
+          "parent": 0,
+          "count": 4,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2907",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2907"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2907"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 85044,
+      "date": "2024-11-09T17:03:41",
+      "date_gmt": "2024-11-09T08:03:41",
+      "title": {
+        "rendered": "Glad You Came"
+      },
+      "content": {
+        "rendered": "<p>Mario - Glad You Came</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2907
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "0K7YtyLCGeU",
+        "ytreleasedate": "2024/11/09",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "4rvDe4aarTJ0IhnB0QkbmO",
+        "spotify_release_date": "2024-11-07",
+        "spotify_name": "Glad You Came",
+        "spotify_artists": "マリオ",
+        "spotify_album": "Glad You Came",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738fa73c05bf903d7ab78d926f",
+        "spotify_duration_ms": "146289",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.512",
+        "spotify_energy": "0.787",
+        "spotify_key": "0",
+        "spotify_loudness": "-7.497",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0856",
+        "spotify_tempo": "159.504",
+        "spotify_valence": "0.508",
+        "spotify_acousticness": "0.441",
+        "spotify_instrumentalness": "0.000351",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0973",
+        "spotify_artists01": "マリオ",
+        "spotify_artists01_id": "20s0P9QLxGqKuCsGwFsp7w",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb48f54214e0580b101375840c",
+        "spotify_artists01_genres": "dance pop, r&b, southern hip hop, urban contemporary",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2738fa73c05bf903d7ab78d926f.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2907,
+            "name": "Mario",
+            "slug": "mario",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2001",
+              "artistborn": "19860827",
+              "artistdied": "",
+              "artistjpname": "マリオ",
+              "member": [
+                {
+                  "term_id": 1014,
+                  "name": "Beth Nielsen Chapman",
+                  "slug": "beth-nielsen-chapman",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1014,
+                  "taxonomy": "category",
+                  "description": "Beth Nielsen Chapman is an American singer-songwriter and musician.",
+                  "parent": 0,
+                  "count": 4,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "マリオ",
+        "ytvideoid": "0K7YtyLCGeU",
+        "spotify_track_id": "4rvDe4aarTJ0IhnB0QkbmO"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "glad-you-came"
+    },
+    {
+      "id": 49843,
+      "date": "2023-08-04T19:02:00",
+      "date_gmt": "2023-08-04T10:02:15",
+      "title": {
+        "rendered": "Main One ft. Tyga"
+      },
+      "content": {
+        "rendered": "<p>Mario, Lil Wayne - Main One ft. Tyga</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1177,
+        2907,
+        1087
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2nB44lzuvxp40hNMkT6BZj",
+        "spotify_release_date": "2023/7/21",
+        "spotify_name": "Main One (feat. Tyga)",
+        "spotify_artists": "Mario, Lil Wayne, Tyga",
+        "spotify_album": "Main One (feat. Tyga)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736e7eebc219500335633a21ce",
+        "spotify_duration_ms": "199440",
+        "spotify_popularity": "66",
+        "spotify_danceability": "0.694",
+        "spotify_energy": "0.64",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.254",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0882",
+        "spotify_tempo": "98.991",
+        "spotify_valence": "0.155",
+        "spotify_acousticness": "0.0623",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.147",
+        "spotify_artists01": "マリオ",
+        "spotify_artists01_id": "20s0P9QLxGqKuCsGwFsp7w",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb09e3445cef22163eb8d45371",
+        "spotify_artists01_genres": "dance pop, r&b, southern hip hop, urban contemporary",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "リル・ウェイン",
+        "spotify_artists02_id": "55Aa2cqylxrFIXC767Z865",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc63aded6f4bf4d06d1377106",
+        "spotify_artists02_genres": "hip hop, new orleans rap, pop rap, rap, trap",
+        "spotify_artists02_popularity": "83",
+        "spotify_artists03": "Tyga",
+        "spotify_artists03_id": "5LHRHt1k9lMyONurDHEdrp",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebf91c2e559a5a8233d3b35fb1",
+        "spotify_artists03_genres": "hip hop, pop rap, rap, trap",
+        "spotify_artists03_popularity": "78",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "lxgzbRXQELQ",
+        "ytreleasedate": "2023/8/4"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mario-Lil-Wayne-Main-One-ft.-Tyga.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1177,
+            "name": "Lil Wayne",
+            "slug": "lil-wayne",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1995",
+              "artistborn": "19820927",
+              "artistdied": "",
+              "artistjpname": "リル・ウェイン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2907,
+            "name": "Mario",
+            "slug": "mario",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2001",
+              "artistborn": "19860827",
+              "artistdied": "",
+              "artistjpname": "マリオ",
+              "member": [
+                {
+                  "term_id": 1014,
+                  "name": "Beth Nielsen Chapman",
+                  "slug": "beth-nielsen-chapman",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1014,
+                  "taxonomy": "category",
+                  "description": "Beth Nielsen Chapman is an American singer-songwriter and musician.",
+                  "parent": 0,
+                  "count": 4,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1087,
+            "name": "Tyga",
+            "slug": "tyga",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "19891119",
+              "artistdied": "",
+              "artistjpname": "タイガ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Mario, Lil Wayne, Tyga",
+        "ytvideoid": "lxgzbRXQELQ",
+        "spotify_track_id": "2nB44lzuvxp40hNMkT6BZj"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "main-one-ft-tyga"
+    },
+    {
+      "id": 71342,
+      "date": "2004-10-04T11:28:28",
+      "date_gmt": "2004-10-04T02:28:28",
+      "title": {
+        "rendered": "Let Me Love You"
+      },
+      "content": {
+        "rendered": "<p>Mario - Let Me Love You</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2907
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "H64QG4UsrGI",
+        "ytreleasedate": "",
+        "spotify_track_id": "5WphWTUIfRe7x8NZss79cY",
+        "spotify_release_date": "2004-12-06",
+        "spotify_name": "Let Me Love You",
+        "spotify_artists": "マリオ",
+        "spotify_album": "Turning Point",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c2248a5b79dededa74edfde0",
+        "spotify_duration_ms": "249093",
+        "spotify_popularity": "68",
+        "spotify_danceability": "0.622",
+        "spotify_energy": "0.593",
+        "spotify_key": "7",
+        "spotify_loudness": "-8.352",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0916",
+        "spotify_tempo": "94.364",
+        "spotify_valence": "0.607",
+        "spotify_acousticness": "0.163",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0979",
+        "spotify_artists01": "マリオ",
+        "spotify_artists01_id": "20s0P9QLxGqKuCsGwFsp7w",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb09e3445cef22163eb8d45371",
+        "spotify_artists01_genres": "dance pop, r&b, southern hip hop, urban contemporary",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273c2248a5b79dededa74edfde0.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2907,
+            "name": "Mario",
+            "slug": "mario",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2001",
+              "artistborn": "19860827",
+              "artistdied": "",
+              "artistjpname": "マリオ",
+              "member": [
+                {
+                  "term_id": 1014,
+                  "name": "Beth Nielsen Chapman",
+                  "slug": "beth-nielsen-chapman",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1014,
+                  "taxonomy": "category",
+                  "description": "Beth Nielsen Chapman is an American singer-songwriter and musician.",
+                  "parent": 0,
+                  "count": 4,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "マリオ",
+        "ytvideoid": "H64QG4UsrGI",
+        "spotify_track_id": "5WphWTUIfRe7x8NZss79cY"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "let-me-love-you"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

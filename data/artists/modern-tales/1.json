@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 6491,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/modern-tales/",
+    "name": "Modern Tales",
+    "slug": "modern-tales",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6491",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6491"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6491"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 90887,
+      "date": "2025-02-15T11:52:54",
+      "date_gmt": "2025-02-15T02:52:54",
+      "title": {
+        "rendered": "Darkness In Me"
+      },
+      "content": {
+        "rendered": "<p>Steve Angello, Modern Tales - Darkness In Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6491,
+        4759
+      ],
+      "tags": [],
+      "genre": [
+        2963
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "8SjZ8l-5S6M",
+        "ytreleasedate": "2025/02/15",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1YLMr6JAwM1HhKJdSnvNjX",
+        "spotify_release_date": "2025-02-14",
+        "spotify_name": "Darkness In Me",
+        "spotify_artists": "Steve Angello, Modern Tales",
+        "spotify_album": "Darkness In Me",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27310faeef495f9daac2129e3d2",
+        "spotify_duration_ms": "268549",
+        "spotify_popularity": "12",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "スティーヴ・アンジェロ",
+        "spotify_artists01_id": "4FqPRilb0Ja0TKG3RS3y4s",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2bd2406364f86733efafcf80",
+        "spotify_artists01_genres": "プログレッシブハウス",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "Modern Tales",
+        "spotify_artists02_id": "5j34pD51tkc8KtqqYiBe8k",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb49ff2fc3fefd7dc89f4c6c9e",
+        "spotify_artists02_genres": "メロディック・ハウス",
+        "spotify_artists02_popularity": "15",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/steve-angello-modern-tales-darkness-in-me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6491,
+            "name": "Modern Tales",
+            "slug": "modern-tales",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4759,
+            "name": "Steve Angello",
+            "slug": "steve-angello",
+            "acf": {
+              "artistorigin": "GRE",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Steve Angello, Modern Tales",
+        "ytvideoid": "8SjZ8l-5S6M",
+        "spotify_track_id": "1YLMr6JAwM1HhKJdSnvNjX"
+      },
+      "genre_data": [
+        {
+          "name": "Future rave",
+          "slug": "future-rave",
+          "term_id": 2963,
+          "post_count": 28
+        }
+      ],
+      "vocal_data": [],
+      "slug": "darkness-in-me"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

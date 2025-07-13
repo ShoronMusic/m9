@@ -1,0 +1,62 @@
+{
+  "id": 3014,
+  "count": 1,
+  "description": "The Skints are an English reggae punk band.",
+  "link": "https://sub.music8.jp/category/skints/",
+  "name": "Skints",
+  "slug": "skints",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2007",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "スキンツ",
+    "member": false
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3014",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3014"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3014"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "スキンツ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2007",
+  "occupation": ""
+}

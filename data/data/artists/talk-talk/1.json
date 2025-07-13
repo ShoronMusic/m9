@@ -1,0 +1,201 @@
+{
+  "artist": {
+    "id": 817,
+    "count": 1,
+    "description": "Talk Talk were an English band.",
+    "link": "https://sub.music8.jp/category/talk-talk/",
+    "name": "Talk Talk",
+    "slug": "talk-talk",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1981–1991",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "トーク・トーク",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/817",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=817"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=817"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 48615,
+      "date": "1984-01-13T11:44:00",
+      "date_gmt": "1984-01-13T02:44:00",
+      "title": {
+        "rendered": "It's My Life"
+      },
+      "content": {
+        "rendered": "<p>Talk Talk - It's My Life</p>\n",
+        "protected": false
+      },
+      "categories": [
+        817
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "cFH5JgyZK1I",
+        "likecount": "",
+        "spotify_track_id": "4jhsuQCUCJKA5f0bXb6XdJ",
+        "spotify_release_date": "1984",
+        "spotify_name": "It's My Life - 1997 Remaster",
+        "spotify_artists": "Talk Talk",
+        "spotify_album": "It's My Life",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273dd38867a51bf339a3c33497d",
+        "spotify_duration_ms": "232400",
+        "spotify_popularity": "73",
+        "spotify_danceability": "-0.10860291247706744",
+        "spotify_energy": "0.4252269059245001",
+        "spotify_key": "-1.417844935220459",
+        "spotify_loudness": "-0.09335197645881847",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.39382458817174104",
+        "spotify_tempo": "0.06669505828412212",
+        "spotify_valence": "0.8845946782625527",
+        "spotify_acousticness": "0.7340926376609954",
+        "spotify_instrumentalness": "4.302073269734169",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "1.499979624327935",
+        "spotify_artists01": "Talk Talk",
+        "spotify_artists01_id": "7Fo8TAyGJr4VmhE68QamMf",
+        "spotify_artists01_images": "https://i.scdn.co/image/1d64b14523c4a0a3a09879fd133b539b390256f1",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave, new wave pop, sophisti-pop, synthpop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Talk-Talk-Its-My-Life.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 817,
+            "name": "Talk Talk",
+            "slug": "talk-talk",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1981–1991",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "トーク・トーク",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Talk Talk",
+        "ytvideoid": "cFH5JgyZK1I",
+        "spotify_track_id": "4jhsuQCUCJKA5f0bXb6XdJ"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "talk-talk-its-my-life"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

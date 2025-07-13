@@ -1,0 +1,67 @@
+{
+  "id": 6246,
+  "count": 1,
+  "description": "Singit Live is an Australian music collective",
+  "link": "https://sub.music8.jp/category/sing-it-live/",
+  "name": "Sing it Live",
+  "slug": "sing-it-live",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [],
+    "related_artists": "",
+    "spotify_artist_id": "4IRgPPuqJddMWGYVYo1Env",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747a001cf94f8c379864f4d343"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6246",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6246"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6246"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051747a001cf94f8c379864f4d343",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

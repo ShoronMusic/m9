@@ -1,0 +1,370 @@
+{
+  "artist": {
+    "id": 5919,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/bugoy-drilon/",
+    "name": "Bugoy Drilon",
+    "slug": "bugoy-drilon",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "PHI",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5919",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5919"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5919"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 97544,
+      "date": "2025-04-16T20:16:42",
+      "date_gmt": "2025-04-16T11:16:42",
+      "title": {
+        "rendered": "Forever Young"
+      },
+      "content": {
+        "rendered": "<p>Music Travel Love, Bugoy Drilon - Forever Young</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5919,
+        2053
+      ],
+      "tags": [],
+      "genre": [
+        516
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "3iAiWIytqdw",
+        "ytreleasedate": "2025/04/16",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1mkoKn2PFOONBLysiZRVH6",
+        "spotify_release_date": "2025-04-15",
+        "spotify_name": "Forever Young",
+        "spotify_artists": "Music Travel Love, Bugoy Drilon",
+        "spotify_album": "Forever Young",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ebdf2c64ed829929c359c8a1",
+        "spotify_duration_ms": "250997",
+        "spotify_popularity": "40",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Music Travel Love",
+        "spotify_artists01_id": "2qNrJcE9LjzPdiXbrjkqFa",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcc1aa7c14ffc81ede107333c",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "Bugoy Drilon",
+        "spotify_artists02_id": "0kRAKgEOVI43Qkz9PLmPt8",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebf1b3951455b233e8f9d332eb",
+        "spotify_artists02_genres": "opm, pinoy r&b, p-pop",
+        "spotify_artists02_popularity": "56",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/music-travel-love-bugoy-drilon-forever-young.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5919,
+            "name": "Bugoy Drilon",
+            "slug": "bugoy-drilon",
+            "acf": {
+              "artistorigin": "PHI",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2053,
+            "name": "Music Travel Love",
+            "slug": "music-travel-love",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ミュージック・トラベル・ラブ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "2qNrJcE9LjzPdiXbrjkqFa",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051748ab8d8db534d284d7a5b3bbc",
+              "youtube_channel": "UCLxAS02eWvfZK4icRNzWD_g",
+              "wikipedia_page": "The_Moffatts#Music_Travel_Love"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Music Travel Love, Bugoy Drilon",
+        "ytvideoid": "3iAiWIytqdw",
+        "spotify_track_id": "1mkoKn2PFOONBLysiZRVH6"
+      },
+      "genre_data": [
+        {
+          "name": "Folk",
+          "slug": "folk",
+          "term_id": 516,
+          "post_count": 61
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "forever-young-6"
+    },
+    {
+      "id": 82008,
+      "date": "2024-09-12T16:39:00",
+      "date_gmt": "2024-09-12T07:39:00",
+      "title": {
+        "rendered": "That's the Way It Is"
+      },
+      "content": {
+        "rendered": "<p>Music Travel Love, Bugoy Drilon - That's the Way It Is</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5919,
+        2053
+      ],
+      "tags": [],
+      "genre": [
+        516
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "ILJkRQwhDec",
+        "ytreleasedate": "2024/09/12",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2HSRSem3gRMhIImR86JThi",
+        "spotify_release_date": "2024-09-03",
+        "spotify_name": "That's the Way It Is",
+        "spotify_artists": "Music Travel Love, Bugoy Drilon",
+        "spotify_album": "That's the Way It Is",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733759de1e46d0ec9377c29f5d",
+        "spotify_duration_ms": "230055",
+        "spotify_popularity": "13",
+        "spotify_danceability": "0.589",
+        "spotify_energy": "0.474",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.78",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0363",
+        "spotify_tempo": "185.796",
+        "spotify_valence": "0.736",
+        "spotify_acousticness": "0.258",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.103",
+        "spotify_artists01": "Music Travel Love",
+        "spotify_artists01_id": "2qNrJcE9LjzPdiXbrjkqFa",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8ab8d8db534d284d7a5b3bbc",
+        "spotify_artists01_genres": "canadian contemporary country",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "Bugoy Drilon",
+        "spotify_artists02_id": "0kRAKgEOVI43Qkz9PLmPt8",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebf1b3951455b233e8f9d332eb",
+        "spotify_artists02_genres": "opm",
+        "spotify_artists02_popularity": "54",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2733759de1e46d0ec9377c29f5d.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5919,
+            "name": "Bugoy Drilon",
+            "slug": "bugoy-drilon",
+            "acf": {
+              "artistorigin": "PHI",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2053,
+            "name": "Music Travel Love",
+            "slug": "music-travel-love",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ミュージック・トラベル・ラブ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "2qNrJcE9LjzPdiXbrjkqFa",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051748ab8d8db534d284d7a5b3bbc",
+              "youtube_channel": "UCLxAS02eWvfZK4icRNzWD_g",
+              "wikipedia_page": "The_Moffatts#Music_Travel_Love"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Music Travel Love, Bugoy Drilon",
+        "ytvideoid": "ILJkRQwhDec",
+        "spotify_track_id": "2HSRSem3gRMhIImR86JThi"
+      },
+      "genre_data": [
+        {
+          "name": "Folk",
+          "slug": "folk",
+          "term_id": 516,
+          "post_count": 61
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "thats-the-way-it-is"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

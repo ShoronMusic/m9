@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 6088,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/rory/",
+    "name": "RØRY",
+    "slug": "rory",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "19841004",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6088",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6088"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6088"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 84729,
+      "date": "2024-11-05T09:30:19",
+      "date_gmt": "2024-11-05T00:30:19",
+      "title": {
+        "rendered": "SORRY I'M LATE"
+      },
+      "content": {
+        "rendered": "<p>RØRY - SORRY I'M LATE</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6088
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "cYuAoVI0dls",
+        "ytreleasedate": "2024/11/05",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "2zjBoQPdXMjgnVfnS8V9zx",
+        "spotify_release_date": "2024-10-04",
+        "spotify_name": "SORRY I'M LATE",
+        "spotify_artists": "RØRY",
+        "spotify_album": "SORRY I'M LATE",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273131f069b66dfb304a56e34cb",
+        "spotify_duration_ms": "195401",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.461",
+        "spotify_energy": "0.908",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.535",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0613",
+        "spotify_tempo": "76.985",
+        "spotify_valence": "0.413",
+        "spotify_acousticness": "0.00143",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.347",
+        "spotify_artists01": "RØRY",
+        "spotify_artists01_id": "7axZFTseO96HmG1u4ABDAI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd9e04a42b2390d0f9fa5816b",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273131f069b66dfb304a56e34cb.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6088,
+            "name": "RØRY",
+            "slug": "rory",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "19841004",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "RØRY",
+        "ytvideoid": "cYuAoVI0dls",
+        "spotify_track_id": "2zjBoQPdXMjgnVfnS8V9zx"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "sorry-im-late"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

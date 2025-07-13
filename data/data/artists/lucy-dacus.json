@@ -1,0 +1,82 @@
+{
+  "id": 3052,
+  "count": 4,
+  "description": "Lucy Dacu is an American singer-songwriter and producer.",
+  "link": "https://sub.music8.jp/category/lucy-dacus/",
+  "name": "Lucy Dacus",
+  "slug": "lucy-dacus",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2015",
+    "artistborn": "19950502",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 3367,
+        "name": "boygenius",
+        "slug": "boygenius",
+        "term_group": 0,
+        "term_taxonomy_id": 3367,
+        "taxonomy": "category",
+        "description": "Boygenius  is an American indie supergroup.",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [],
+    "related_artists": "",
+    "spotify_artist_id": "07D1Bjaof0NFlU32KXiqUP",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a5a55fb2f2c129da51b7676e",
+    "youtube_channel": "UC30azBKZICH0yBDZhOtyDlg",
+    "wikipedia_page": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3052",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3052"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3052"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a5a55fb2f2c129da51b7676e",
+  "artistActiveYearStart": "2015",
+  "occupation": ""
+}

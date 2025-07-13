@@ -1,0 +1,179 @@
+{
+  "artist": {
+    "id": 4440,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/various-artists/",
+    "name": "Various Artists",
+    "slug": "various-artists",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4440",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4440"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4440"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65165,
+      "date": "2021-12-29T11:10:18",
+      "date_gmt": "2021-12-29T02:10:18",
+      "title": {
+        "rendered": "We Don't Talk About Bruno"
+      },
+      "content": {
+        "rendered": "<p>We Don't Talk About Bruno (From \"Encanto\")</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4440
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        3039
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "bvWRMAU6V-c",
+        "ytreleasedate": "2021/12/29",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "52xJxFP6TqMuO4Yt0eOkMz",
+        "spotify_release_date": "2021-11-19",
+        "spotify_name": "We Don't Talk About Bruno",
+        "spotify_artists": "Carolina Gaitán - La Gaita, Mauro Castillo, Adassa, Rhenzy Feliz, Diane Guerrero, Stephanie Beatriz, Encanto - Cast",
+        "spotify_album": "Encanto (Original Motion Picture Soundtrack)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e1ac646ed6f25125e2a77229",
+        "spotify_duration_ms": "216120",
+        "spotify_popularity": "75",
+        "spotify_danceability": "0.577",
+        "spotify_energy": "0.45",
+        "spotify_key": "0",
+        "spotify_loudness": "-8.516",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0834",
+        "spotify_tempo": "205.863",
+        "spotify_valence": "0.83",
+        "spotify_acousticness": "0.357",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.111",
+        "spotify_artists01": "Carolina Gaitán - La Gaita",
+        "spotify_artists01_id": "29PgYEggDV3cDP9QYTogwv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe78d36d1e77dd892bfd3cb86",
+        "spotify_artists01_genres": "movie tunes",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "Mauro Castillo",
+        "spotify_artists02_id": "36CUTsdtNgCwMq6zKD1l8I",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebdd0e676ecbf0f3cdc1a07a13",
+        "spotify_artists02_genres": "modern salsa, movie tunes, salsa colombiana",
+        "spotify_artists02_popularity": "58",
+        "spotify_artists03": "Adassa",
+        "spotify_artists03_id": "72kqSqk124Vnl1wtT6q9Fh",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb2e92ad357313d0692640d053",
+        "spotify_artists03_genres": "movie tunes",
+        "spotify_artists03_popularity": "58",
+        "spotify_artists04": "Rhenzy Feliz",
+        "spotify_artists04_id": "2as15AH2BTrPk8v4gyElmr",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "57",
+        "potify_artists05": "Diane Guerrero",
+        "spotify_artists05_id": "18MFcGBHtyW0mU3ufcm0X1",
+        "spotify_artists05_images": "https://i.scdn.co/image/ab67616d0000b273efeb65dd95ca699aad664583",
+        "spotify_artists05_genres": "movie tunes",
+        "spotify_artists05_popularity": "59"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273e1ac646ed6f25125e2a77229.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4440,
+            "name": "Various Artists",
+            "slug": "various-artists",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Carolina Gaitán - La Gaita, Mauro Castillo, Adassa, Rhenzy Feliz, Diane Guerrero, Stephanie Beatriz, Encanto - Cast",
+        "ytvideoid": "bvWRMAU6V-c",
+        "spotify_track_id": "52xJxFP6TqMuO4Yt0eOkMz"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Soundtrack",
+          "slug": "soundtrack",
+          "term_id": 3039,
+          "post_count": 6
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "we-dont-talk-about-bruno"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

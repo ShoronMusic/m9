@@ -1,0 +1,63 @@
+{
+  "id": 3300,
+  "count": 1,
+  "description": "SiM (Silence iz Mine) are a Japanese alternative metal band.",
+  "link": "https://sub.music8.jp/category/sim/",
+  "name": "SiM",
+  "slug": "sim",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "JPN",
+    "artistactiveyearstart": "2004",
+    "artistborn": "",
+    "artistjpname": "シム",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3300",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3300"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3300"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "シム",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2004",
+  "occupation": ""
+}

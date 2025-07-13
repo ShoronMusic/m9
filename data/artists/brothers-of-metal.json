@@ -1,0 +1,72 @@
+{
+  "id": 2449,
+  "count": 3,
+  "description": "Brothers of Metal is a Swedish power metal band.",
+  "link": "https://sub.music8.jp/category/brothers-of-metal/",
+  "name": "Brothers of Metal",
+  "slug": "brothers-of-metal",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2012",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ブラザーズ・オブ・メタル",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "0WPCPYm5IDNtQjuJOGNPcy",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174858acaade67e90e609412aae"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2449",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2449"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2449"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ブラザーズ・オブ・メタル",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174858acaade67e90e609412aae",
+  "artistActiveYearStart": "2012",
+  "occupation": "band"
+}

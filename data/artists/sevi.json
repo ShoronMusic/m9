@@ -1,0 +1,72 @@
+{
+  "id": 5737,
+  "count": 2,
+  "description": "Sevi is a Bulgarian rock band.",
+  "link": "https://sub.music8.jp/category/sevi/",
+  "name": "SEVI",
+  "slug": "sevi",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "BUL",
+    "artistactiveyearstart": "2010",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "FLO (flo) | Kiana Ledé | Alina Baraz (alina-baraz) | Omar Apollo (omar-apollo)",
+    "spotify_artist_id": "4FjEeyarIOb4t4mkoKXPYc",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a0d5d8b72fbea3e560bf8145"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5737",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5737"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5737"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a0d5d8b72fbea3e560bf8145",
+  "artistActiveYearStart": "2010",
+  "occupation": "band"
+}

@@ -1,0 +1,184 @@
+{
+  "artist": {
+    "id": 6681,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/veeze/",
+    "name": "Veeze",
+    "slug": "veeze",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "0B3kMiB21aPQlKumGDr4c7",
+      "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747a96f6990c7005c723b4799f",
+      "youtube_channel": "",
+      "wikipedia_page": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6681",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6681"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6681"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 95087,
+      "date": "2025-04-04T00:00:00",
+      "date_gmt": "2025-04-03T15:00:00",
+      "title": {
+        "rendered": "CAN’T BE CRETE BOY"
+      },
+      "content": {
+        "rendered": "<p>Lil Yachty, Veeze - CAN’T BE CRETE BOY</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1379,
+        6681
+      ],
+      "tags": [],
+      "genre": [
+        486,
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "ytvideoid": "d3wHC956WLk",
+        "ytreleasedate": "2025/04/04",
+        "spotify_track_id": "6azLIBwMsR99vcd360aoGE",
+        "spotify_release_date": "2025-04-04",
+        "spotify_name": "Can’t Be Crete Boy",
+        "spotify_artists": "Lil Yachty, Veeze",
+        "spotify_album": "Can’t Be Crete Boy",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a5db8ee128d326ded37184a0",
+        "spotify_duration_ms": "222184",
+        "spotify_popularity": "57",
+        "spotify_artists01": "Lil Yachty",
+        "spotify_artists01_id": "6icQOAFXDZKsumw3YXyusw",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb86c7c38d4c8c461dba55035c",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "80"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/lil-yachty-veeze-cant-be-crete-boy.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1379,
+            "name": "Lil Yachty",
+            "slug": "lil-yachty",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "19970823",
+              "artistdied": "",
+              "artistjpname": "リル・ヨッティ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6681,
+            "name": "Veeze",
+            "slug": "veeze",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "0B3kMiB21aPQlKumGDr4c7",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747a96f6990c7005c723b4799f",
+              "youtube_channel": "",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Lil Yachty, Veeze",
+        "ytvideoid": "d3wHC956WLk",
+        "spotify_track_id": "6azLIBwMsR99vcd360aoGE"
+      },
+      "genre_data": [
+        {
+          "name": "Drill",
+          "slug": "drill",
+          "term_id": 486,
+          "post_count": 11
+        },
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cant-be-crete-boy"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

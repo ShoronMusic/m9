@@ -1,0 +1,208 @@
+{
+  "artist": {
+    "id": 3784,
+    "count": 1,
+    "description": "Corey Smith is an American singer-songwriter and guitarist.",
+    "link": "https://sub.music8.jp/category/corey-smith/",
+    "name": "Corey Smith",
+    "slug": "corey-smith",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2000",
+      "artistborn": "19790720",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "ssw",
+          "label": "SSW"
+        },
+        {
+          "value": "guitaristr",
+          "label": "Guitarist"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3784",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3784"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3784"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57558,
+      "date": "2023-03-18T19:42:08",
+      "date_gmt": "2023-03-18T10:42:08",
+      "title": {
+        "rendered": "Daddys Weed"
+      },
+      "content": {
+        "rendered": "<p>Corey Smith - Daddys Weed</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3784
+      ],
+      "tags": [],
+      "genre": [
+        465,
+        519
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2ecckyK40HInSrKyGwRWNj",
+        "spotify_release_date": "2023-03-03",
+        "spotify_name": "Daddy's Weed",
+        "spotify_artists": "Corey Smith",
+        "spotify_album": "Daddy's Weed",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c4310cd21cf09851dbe436ab",
+        "spotify_duration_ms": "241240",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.693",
+        "spotify_energy": "0.643",
+        "spotify_key": "0",
+        "spotify_loudness": "-9.84",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0329",
+        "spotify_tempo": "94.983",
+        "spotify_valence": "0.622",
+        "spotify_acousticness": "0.212",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.152",
+        "spotify_artists01": "Corey Smith",
+        "spotify_artists01_id": "2Da6v0shOpKrOG07ZxonXo",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb32f0f91850642c2f11f9dc1d",
+        "spotify_artists01_genres": "trop rock",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "vXrtkIuRtEA",
+        "ytreleasedate": "2023/03/18"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Corey-Smith-Daddys-Weed.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3784,
+            "name": "Corey Smith",
+            "slug": "corey-smith",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2000",
+              "artistborn": "19790720",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                },
+                {
+                  "value": "guitaristr",
+                  "label": "Guitarist"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Corey Smith",
+        "ytvideoid": "vXrtkIuRtEA",
+        "spotify_track_id": "2ecckyK40HInSrKyGwRWNj"
+      },
+      "genre_data": [
+        {
+          "name": "Country",
+          "slug": "country",
+          "term_id": 465,
+          "post_count": 123
+        },
+        {
+          "name": "Folk rock",
+          "slug": "folk-rock",
+          "term_id": 519,
+          "post_count": 97
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "daddys-weed"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

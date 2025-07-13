@@ -1,0 +1,562 @@
+{
+  "artist": {
+    "id": 2607,
+    "count": 3,
+    "description": "Macklemore is an American rapper, singer, and songwriter.",
+    "link": "https://sub.music8.jp/category/macklemore/",
+    "name": "Macklemore",
+    "slug": "macklemore",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2000",
+      "artistborn": "19830619",
+      "artistdied": "",
+      "artistjpname": "マックルモアー",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2607",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2607"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2607"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51528,
+      "date": "2023-03-03T19:30:21",
+      "date_gmt": "2023-03-03T10:30:21",
+      "title": {
+        "rendered": "NO BAD DAYS"
+      },
+      "content": {
+        "rendered": "<p>MACKLEMORE - NO BAD DAYS FEAT. COLLETT</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3149,
+        2607
+      ],
+      "tags": [],
+      "genre": [
+        574,
+        657
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5C8ySsx3AT121g24uYR823",
+        "spotify_release_date": "2023-03-03",
+        "spotify_name": "NO BAD DAYS (feat. Collett)",
+        "spotify_artists": "Macklemore, COLLETT",
+        "spotify_album": "BEN",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273033b871ae27b16ddd8139806",
+        "spotify_duration_ms": "173453",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.769",
+        "spotify_energy": "0.858",
+        "spotify_key": "8",
+        "spotify_loudness": "-6.01",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.15",
+        "spotify_tempo": "160.049",
+        "spotify_valence": "0.86",
+        "spotify_acousticness": "0.117",
+        "spotify_instrumentalness": "0.0186",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.157",
+        "spotify_artists01": "マックルモアー",
+        "spotify_artists01_id": "3JhNCzhSMTxs9WLGJJxWOY",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb488b3b242f97163a7f8e17b9",
+        "spotify_artists01_genres": "pop rap, seattle hip hop",
+        "spotify_artists01_popularity": "76",
+        "spotify_artists02": "Collett",
+        "spotify_artists02_id": "6u079TgFSFrxtv8iqq0Zn9",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab67616d0000b273278a8c5f3d3723c362e96d27",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "50",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "2h82Wevk11s",
+        "ytreleasedate": "2023/03/03"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/MACKLEMORE-NO-BAD-DAYS-FEAT.-COLLETT.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3149,
+            "name": "COLLETT",
+            "slug": "collett",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2607,
+            "name": "Macklemore",
+            "slug": "macklemore",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2000",
+              "artistborn": "19830619",
+              "artistdied": "",
+              "artistjpname": "マックルモアー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Macklemore, COLLETT",
+        "ytvideoid": "2h82Wevk11s",
+        "spotify_track_id": "5C8ySsx3AT121g24uYR823"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "no-bad-days"
+    },
+    {
+      "id": 38932,
+      "date": "2022-08-19T13:39:00",
+      "date_gmt": "2022-08-19T04:39:00",
+      "title": {
+        "rendered": "MANIAC"
+      },
+      "content": {
+        "rendered": "\n<p>MACKLEMORE-MANIACFEATURINGWINDSER</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2607,
+        2639
+      ],
+      "tags": [],
+      "genre": [
+        574,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": null,
+        "spotify_track_id": "4Dmav01B2Fra0U4VYPPq4d",
+        "spotify_release_date": "2022/8/19",
+        "spotify_name": "MANIAC(feat.Windser)",
+        "spotify_artists": "Macklemore,Windser",
+        "spotify_album": "MANIAC(feat.Windser)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273faa65094520f6e9522944218",
+        "spotify_duration_ms": "180902",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.708",
+        "spotify_energy": "0.674",
+        "spotify_key": "11",
+        "spotify_loudness": "-7.434",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.107",
+        "spotify_tempo": "152.051",
+        "spotify_valence": "0.736",
+        "spotify_acousticness": "0.137",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.258",
+        "spotify_artists01": "Macklemore",
+        "spotify_artists01_id": "3JhNCzhSMTxs9WLGJJxWOY",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb488b3b242f97163a7f8e17b9",
+        "spotify_artists01_genres": "poprap,seattlehiphop",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "Windser",
+        "spotify_artists02_id": "0G9ibJ5qs4Zl6iupdrVAG1",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb491e8896adb24d2812a9905b",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "47",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/MACKLEMORE-MANIAC-FEATURING-WINDSER.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2607,
+            "name": "Macklemore",
+            "slug": "macklemore",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2000",
+              "artistborn": "19830619",
+              "artistdied": "",
+              "artistjpname": "マックルモアー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2639,
+            "name": "WINDSER",
+            "slug": "windser",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Macklemore,Windser",
+        "ytvideoid": "",
+        "spotify_track_id": "4Dmav01B2Fra0U4VYPPq4d"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "maniac-2"
+    },
+    {
+      "id": 81288,
+      "date": "2018-01-25T14:29:32",
+      "date_gmt": "2018-01-25T05:29:32",
+      "title": {
+        "rendered": "These Days"
+      },
+      "content": {
+        "rendered": "<p>Rudimental, Jess Glynne, Macklemore, Dan Caplen - These Days</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5865,
+        2914,
+        2607,
+        2673
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "pjTj-_55WZ8",
+        "ytreleasedate": "2018/01/25",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7mkT9kS25nUIoNkm02Ww0n",
+        "spotify_release_date": "2019-01-25",
+        "spotify_name": "These Days (feat. Jess Glynne, Macklemore & Dan Caplen)",
+        "spotify_artists": "Rudimental, Jess Glynne, Macklemore, Dan Caplen",
+        "spotify_album": "Toast to Our Differences (Deluxe Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27316c2503914f2c6feadad7934",
+        "spotify_duration_ms": "211760",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.654",
+        "spotify_energy": "0.798",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.084",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0451",
+        "spotify_tempo": "92.207",
+        "spotify_valence": "0.574",
+        "spotify_acousticness": "0.188",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.15",
+        "spotify_artists01": "ルディメンタル",
+        "spotify_artists01_id": "4WN5naL3ofxrVBgFpguzKo",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe0a1e4d232f422c8db0ed3f7",
+        "spotify_artists01_genres": "pop dance, uk dance, uk funky",
+        "spotify_artists01_popularity": "72",
+        "spotify_artists02": "ジェス・グリン",
+        "spotify_artists02_id": "4ScCswdRlyA23odg9thgIO",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba52d6095be04ca6691ba9a96",
+        "spotify_artists02_genres": "dance pop, pop, uk pop",
+        "spotify_artists02_popularity": "74",
+        "spotify_artists03": "マックルモアー",
+        "spotify_artists03_id": "3JhNCzhSMTxs9WLGJJxWOY",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb488b3b242f97163a7f8e17b9",
+        "spotify_artists03_genres": "pop rap, seattle hip hop",
+        "spotify_artists03_popularity": "78",
+        "spotify_artists04": "ダン・カプレン",
+        "spotify_artists04_id": "2U3FuHYvL3vhkbDAXm24Ep",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5ebdb38494fde4be97dc484a7f7",
+        "spotify_artists04_genres": "neo soul, uk contemporary r&b",
+        "spotify_artists04_popularitys": "61",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27316c2503914f2c6feadad7934.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5865,
+            "name": "Dan Caplen",
+            "slug": "dan-caplen",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19920327",
+              "artistjpname": "ダン・カプレン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "2U3FuHYvL3vhkbDAXm24Ep",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174db38494fde4be97dc484a7f7"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2914,
+            "name": "Jess Glynne",
+            "slug": "jess-glynne",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19891020",
+              "artistdied": "",
+              "artistjpname": "ジェス・グリン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "Ella Eyre (ella-eyre) | Ella Henderson (ella-henderson) | Olly Murs (olly-murs) | Emeli Sandé (emeli-sande) | Rita Ora (rita-ora) | Rudimental (rudimental) | Sigala (sigala) | Clean Bandit (clean-bandit) | Olly Alexander (Years & Years) | Mabel (mabel) | Paloma Faith (paloma-faith) | Pixie Lott (pixie-lott) | Becky Hill (becky-hill) | Louisa Johnson (louisa-johnson) | Zara Larsson (zara-larsson) | Jax Jones (jax-jones) | Fleur East | JP Cooper (jp-cooper) | Anne-Marie (anne-marie) | Cheryl",
+              "spotify_artist_id": "4ScCswdRlyA23odg9thgIO",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a52d6095be04ca6691ba9a96"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2607,
+            "name": "Macklemore",
+            "slug": "macklemore",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2000",
+              "artistborn": "19830619",
+              "artistdied": "",
+              "artistjpname": "マックルモアー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2673,
+            "name": "Rudimental",
+            "slug": "rudimental",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ルディメンタル",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Rudimental, Jess Glynne, Macklemore, Dan Caplen",
+        "ytvideoid": "pjTj-_55WZ8",
+        "spotify_track_id": "7mkT9kS25nUIoNkm02Ww0n"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "these-days"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

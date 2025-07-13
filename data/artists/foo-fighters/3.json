@@ -1,0 +1,801 @@
+{
+  "artist": {
+    "id": 3422,
+    "count": 45,
+    "description": "Foo Fighters is an American rock band formed in Seattle in 1994.",
+    "link": "https://sub.music8.jp/category/foo-fighters/",
+    "name": "Foo Fighters",
+    "slug": "foo-fighters",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1994",
+      "artistborn": "",
+      "artistjpname": "フー・ファイターズ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ],
+      "related_artists": "Audioslave | Soundgarden | Smashing Pumpkins (smashing-pumpkins) | Stone Temple Pilots | Queens of the Stone Age (queens-of-the-stone-age) | Pearl Jam (pearl-jam) | Rage Against The Machine | Alice In Chains | Incubus | Chris Cornell | Red Hot Chili Peppers (red-hot-chili-peppers) | Offspring (offspring) | Bush (bush) | Nirvana (nirvana) | White Stripes (white-stripes) | Weezer (weezer) | blink-182 (blink-182) | Green Day (green-day) | Silverchair | Limp Bizkit",
+      "spotify_artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+      "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15",
+      "youtube_channel": "UCi2KNss4Yx73NG0JARSFe0A",
+      "wikipedia_page": "Foo_Fighters"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3422",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3422"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3422"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 93644,
+      "date": "1997-08-18T23:19:12",
+      "date_gmt": "1997-08-18T14:19:12",
+      "title": {
+        "rendered": "Everlong"
+      },
+      "content": {
+        "rendered": "<p>Foo Fighters - Everlong</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3422
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        553,
+        663
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "eBG7P-K-r1Y",
+        "ytreleasedate": "2009/10/03",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5UWwZ5lm5PKu6eKsHAGxOk",
+        "spotify_release_date": "1997-05-20",
+        "spotify_name": "Everlong",
+        "spotify_artists": "Foo Fighters",
+        "spotify_album": "The Colour And The Shape",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730389027010b78a5e7dce426b",
+        "spotify_duration_ms": "250546",
+        "spotify_popularity": "83",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Foo Fighters",
+        "spotify_artists01_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc884df599abc793c116cdf15",
+        "spotify_artists01_genres": "rock, post-grunge, alternative rock, grunge, modern rock",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/foo-fighters-everlong.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3422,
+            "name": "Foo Fighters",
+            "slug": "foo-fighters",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistjpname": "フー・ファイターズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Audioslave | Soundgarden | Smashing Pumpkins (smashing-pumpkins) | Stone Temple Pilots | Queens of the Stone Age (queens-of-the-stone-age) | Pearl Jam (pearl-jam) | Rage Against The Machine | Alice In Chains | Incubus | Chris Cornell | Red Hot Chili Peppers (red-hot-chili-peppers) | Offspring (offspring) | Bush (bush) | Nirvana (nirvana) | White Stripes (white-stripes) | Weezer (weezer) | blink-182 (blink-182) | Green Day (green-day) | Silverchair | Limp Bizkit",
+              "spotify_artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15",
+              "youtube_channel": "UCi2KNss4Yx73NG0JARSFe0A",
+              "wikipedia_page": "Foo_Fighters"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Foo Fighters",
+        "ytvideoid": "eBG7P-K-r1Y",
+        "spotify_track_id": "5UWwZ5lm5PKu6eKsHAGxOk"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Post-grunge",
+          "slug": "post-grunge",
+          "term_id": 663,
+          "post_count": 99
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "everlong"
+    },
+    {
+      "id": 93640,
+      "date": "1997-04-28T23:17:20",
+      "date_gmt": "1997-04-28T14:17:20",
+      "title": {
+        "rendered": "Monkey Wrench"
+      },
+      "content": {
+        "rendered": "<p>Foo Fighters - Monkey Wrench</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3422
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        550,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "I7rCNiiNPxA",
+        "ytreleasedate": "2009/10/03",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "44wXefe8WB9Fd6xwtmAwbR",
+        "spotify_release_date": "1997-05-20",
+        "spotify_name": "Monkey Wrench",
+        "spotify_artists": "Foo Fighters",
+        "spotify_album": "The Colour And The Shape",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730389027010b78a5e7dce426b",
+        "spotify_duration_ms": "231480",
+        "spotify_popularity": "68",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Foo Fighters",
+        "spotify_artists01_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc884df599abc793c116cdf15",
+        "spotify_artists01_genres": "rock, post-grunge, alternative rock, grunge, modern rock",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/foo-fighters-monkey-wrench.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3422,
+            "name": "Foo Fighters",
+            "slug": "foo-fighters",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistjpname": "フー・ファイターズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Audioslave | Soundgarden | Smashing Pumpkins (smashing-pumpkins) | Stone Temple Pilots | Queens of the Stone Age (queens-of-the-stone-age) | Pearl Jam (pearl-jam) | Rage Against The Machine | Alice In Chains | Incubus | Chris Cornell | Red Hot Chili Peppers (red-hot-chili-peppers) | Offspring (offspring) | Bush (bush) | Nirvana (nirvana) | White Stripes (white-stripes) | Weezer (weezer) | blink-182 (blink-182) | Green Day (green-day) | Silverchair | Limp Bizkit",
+              "spotify_artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15",
+              "youtube_channel": "UCi2KNss4Yx73NG0JARSFe0A",
+              "wikipedia_page": "Foo_Fighters"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Foo Fighters",
+        "ytvideoid": "I7rCNiiNPxA",
+        "spotify_track_id": "44wXefe8WB9Fd6xwtmAwbR"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Grunge",
+          "slug": "grunge",
+          "term_id": 550,
+          "post_count": 55
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "monkey-wrench"
+    },
+    {
+      "id": 93636,
+      "date": "1996-02-25T23:15:15",
+      "date_gmt": "1996-02-25T14:15:15",
+      "title": {
+        "rendered": "Big Me"
+      },
+      "content": {
+        "rendered": "<p>Foo Fighters - Big Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3422
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        584,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "pLdJQFTnZfA",
+        "ytreleasedate": "2009/10/03",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "6pb5BBnIM5IM7R1cqag6rE",
+        "spotify_release_date": "1995-07-04",
+        "spotify_name": "Big Me",
+        "spotify_artists": "Foo Fighters",
+        "spotify_album": "Foo Fighters",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273126420226a30aa75a2f52691",
+        "spotify_duration_ms": "132840",
+        "spotify_popularity": "63",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Foo Fighters",
+        "spotify_artists01_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc884df599abc793c116cdf15",
+        "spotify_artists01_genres": "rock, post-grunge, alternative rock, grunge, modern rock",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/foo-fighters-big-me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3422,
+            "name": "Foo Fighters",
+            "slug": "foo-fighters",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistjpname": "フー・ファイターズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Audioslave | Soundgarden | Smashing Pumpkins (smashing-pumpkins) | Stone Temple Pilots | Queens of the Stone Age (queens-of-the-stone-age) | Pearl Jam (pearl-jam) | Rage Against The Machine | Alice In Chains | Incubus | Chris Cornell | Red Hot Chili Peppers (red-hot-chili-peppers) | Offspring (offspring) | Bush (bush) | Nirvana (nirvana) | White Stripes (white-stripes) | Weezer (weezer) | blink-182 (blink-182) | Green Day (green-day) | Silverchair | Limp Bizkit",
+              "spotify_artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15",
+              "youtube_channel": "UCi2KNss4Yx73NG0JARSFe0A",
+              "wikipedia_page": "Foo_Fighters"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Foo Fighters",
+        "ytvideoid": "pLdJQFTnZfA",
+        "spotify_track_id": "6pb5BBnIM5IM7R1cqag6rE"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Jangle pop",
+          "slug": "jangle-pop",
+          "term_id": 584,
+          "post_count": 112
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "big-me"
+    },
+    {
+      "id": 93632,
+      "date": "1995-09-04T23:13:33",
+      "date_gmt": "1995-09-04T14:13:33",
+      "title": {
+        "rendered": "I'll Stick Around"
+      },
+      "content": {
+        "rendered": "<p>Foo Fighters - I'll Stick Around</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3422
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        550,
+        669
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "X_rTTsZZ9KE",
+        "ytreleasedate": "2011/04/11",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "4LGKzrdEeBwR9UHCGlDT0W",
+        "spotify_release_date": "1995-07-04",
+        "spotify_name": "I'll Stick Around",
+        "spotify_artists": "Foo Fighters",
+        "spotify_album": "Foo Fighters",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273126420226a30aa75a2f52691",
+        "spotify_duration_ms": "232533",
+        "spotify_popularity": "57",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Foo Fighters",
+        "spotify_artists01_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc884df599abc793c116cdf15",
+        "spotify_artists01_genres": "rock, post-grunge, alternative rock, grunge, modern rock",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/foo-fighters-ill-stick-around.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3422,
+            "name": "Foo Fighters",
+            "slug": "foo-fighters",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistjpname": "フー・ファイターズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Audioslave | Soundgarden | Smashing Pumpkins (smashing-pumpkins) | Stone Temple Pilots | Queens of the Stone Age (queens-of-the-stone-age) | Pearl Jam (pearl-jam) | Rage Against The Machine | Alice In Chains | Incubus | Chris Cornell | Red Hot Chili Peppers (red-hot-chili-peppers) | Offspring (offspring) | Bush (bush) | Nirvana (nirvana) | White Stripes (white-stripes) | Weezer (weezer) | blink-182 (blink-182) | Green Day (green-day) | Silverchair | Limp Bizkit",
+              "spotify_artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15",
+              "youtube_channel": "UCi2KNss4Yx73NG0JARSFe0A",
+              "wikipedia_page": "Foo_Fighters"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Foo Fighters",
+        "ytvideoid": "X_rTTsZZ9KE",
+        "spotify_track_id": "4LGKzrdEeBwR9UHCGlDT0W"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Grunge",
+          "slug": "grunge",
+          "term_id": 550,
+          "post_count": 55
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ill-stick-around"
+    },
+    {
+      "id": 93628,
+      "date": "1995-06-19T23:10:58",
+      "date_gmt": "1995-06-19T14:10:58",
+      "title": {
+        "rendered": "This Is a Call"
+      },
+      "content": {
+        "rendered": "<p>Foo Fighters - This Is a Call</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3422
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        550,
+        669
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "h-Rnr3wTX9I",
+        "ytreleasedate": "2014/11/12",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "2wO8aOvN1ogLy1N8XT1WJE",
+        "spotify_release_date": "1995-07-04",
+        "spotify_name": "This Is a Call",
+        "spotify_artists": "Foo Fighters",
+        "spotify_album": "Foo Fighters",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273126420226a30aa75a2f52691",
+        "spotify_duration_ms": "233360",
+        "spotify_popularity": "58",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Foo Fighters",
+        "spotify_artists01_id": "7jy3rLJdDQY21OgRLCZ9sD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc884df599abc793c116cdf15",
+        "spotify_artists01_genres": "rock, post-grunge, alternative rock, grunge, modern rock",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/foo-fighters-this-is-a-call.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3422,
+            "name": "Foo Fighters",
+            "slug": "foo-fighters",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistjpname": "フー・ファイターズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Audioslave | Soundgarden | Smashing Pumpkins (smashing-pumpkins) | Stone Temple Pilots | Queens of the Stone Age (queens-of-the-stone-age) | Pearl Jam (pearl-jam) | Rage Against The Machine | Alice In Chains | Incubus | Chris Cornell | Red Hot Chili Peppers (red-hot-chili-peppers) | Offspring (offspring) | Bush (bush) | Nirvana (nirvana) | White Stripes (white-stripes) | Weezer (weezer) | blink-182 (blink-182) | Green Day (green-day) | Silverchair | Limp Bizkit",
+              "spotify_artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15",
+              "youtube_channel": "UCi2KNss4Yx73NG0JARSFe0A",
+              "wikipedia_page": "Foo_Fighters"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Foo Fighters",
+        "ytvideoid": "h-Rnr3wTX9I",
+        "spotify_track_id": "2wO8aOvN1ogLy1N8XT1WJE"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Grunge",
+          "slug": "grunge",
+          "term_id": 550,
+          "post_count": 55
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "this-is-a-call"
+    }
+  ],
+  "totalSongs": 45,
+  "totalPages": 3,
+  "currentPage": 3
+}

@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 3147,
+    "count": 1,
+    "description": "Angie McMahon is an Australian singer-songwriter and musician.",
+    "link": "https://sub.music8.jp/category/angie-mcmahon/",
+    "name": "Angie McMahon",
+    "slug": "angie-mcmahon",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "2013",
+      "artistborn": "",
+      "artistjpname": "アンジー・マクマホン",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3147",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3147"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3147"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51497,
+      "date": "2023-07-12T13:11:52",
+      "date_gmt": "2023-07-12T04:11:52",
+      "title": {
+        "rendered": "Letting Go"
+      },
+      "content": {
+        "rendered": "<p>Angie McMahon - Letting Go</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3147
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2XHznZZIWLkh7xO3WQAjpp",
+        "spotify_release_date": "2023-07-11",
+        "spotify_name": "Letting Go",
+        "spotify_artists": "Angie McMahon",
+        "spotify_album": "Letting Go",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cc6ab5ba4f58e34a4dc8f0e3",
+        "spotify_duration_ms": "210381",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.485",
+        "spotify_energy": "0.753",
+        "spotify_key": "10",
+        "spotify_loudness": "-6.652",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0548",
+        "spotify_tempo": "170.043",
+        "spotify_valence": "0.601",
+        "spotify_acousticness": "0.443",
+        "spotify_instrumentalness": "0.00912",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.121",
+        "spotify_artists01": "Angie McMahon",
+        "spotify_artists01_id": "574ERIqzZ5yZU9JhIf3Ysf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb895c3c29aec5f6dfe4e05341",
+        "spotify_artists01_genres": "australian indie",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "u1-3wk8KXKk",
+        "ytreleasedate": "2023/07/12"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Angie-McMahon-Letting-Go.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3147,
+            "name": "Angie McMahon",
+            "slug": "angie-mcmahon",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2013",
+              "artistborn": "",
+              "artistjpname": "アンジー・マクマホン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Angie McMahon",
+        "ytvideoid": "u1-3wk8KXKk",
+        "spotify_track_id": "2XHznZZIWLkh7xO3WQAjpp"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "letting-go"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

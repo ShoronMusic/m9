@@ -1,0 +1,331 @@
+{
+  "artist": {
+    "id": 4514,
+    "count": 2,
+    "description": "HONNE are an English electronic music duo.",
+    "link": "https://sub.music8.jp/category/honne/",
+    "name": "HONNE",
+    "slug": "honne",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2014",
+      "artistborn": "",
+      "artistjpname": "ホンネ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "duo",
+          "label": "Duo"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4514",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4514"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4514"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 67083,
+      "date": "2024-05-17T23:10:36",
+      "date_gmt": "2024-05-17T14:10:36",
+      "title": {
+        "rendered": "Songs In My Head"
+      },
+      "content": {
+        "rendered": "<p>HONNE - Songs In My Head</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4514
+      ],
+      "tags": [],
+      "genre": [
+        427,
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "Shlo3oNRHUU",
+        "ytreleasedate": "2024/05/17",
+        "spotify_track_id": "1r7Q77PuiuZwSJgVooeuiv",
+        "spotify_release_date": "2024-05-17",
+        "spotify_name": "Songs In My Head",
+        "spotify_artists": "HONNE",
+        "spotify_album": "Songs In My Head",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730b7da6bb6d288b6a5fb59305",
+        "spotify_duration_ms": "186540",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.491",
+        "spotify_energy": "0.236",
+        "spotify_key": "7",
+        "spotify_loudness": "-12.595",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.051",
+        "spotify_tempo": "108.811",
+        "spotify_valence": "0.501",
+        "spotify_acousticness": "0.693",
+        "spotify_instrumentalness": "0.0000391",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.355",
+        "spotify_artists01": "HONNE",
+        "spotify_artists01_id": "0Vw76uk7P8yVtTClWyOhac",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6b42582a85338365590ec0bc",
+        "spotify_artists01_genres": "uk pop",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2730b7da6bb6d288b6a5fb59305.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4514,
+            "name": "HONNE",
+            "slug": "honne",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistjpname": "ホンネ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "HONNE",
+        "ytvideoid": "Shlo3oNRHUU",
+        "spotify_track_id": "1r7Q77PuiuZwSJgVooeuiv"
+      },
+      "genre_data": [
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "songs-in-my-head"
+    },
+    {
+      "id": 66059,
+      "date": "2024-04-19T10:07:32",
+      "date_gmt": "2024-04-19T01:07:32",
+      "title": {
+        "rendered": "Imaginary"
+      },
+      "content": {
+        "rendered": "<p>HONNE - Imaginary</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4514
+      ],
+      "tags": [],
+      "genre": [
+        427,
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "LyuBK0Dp-0k",
+        "ytreleasedate": "2024/04/19",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7J0uovBm6eDVBQL1ZaXOJ6",
+        "spotify_release_date": "2024-04-19",
+        "spotify_name": "Imaginary",
+        "spotify_artists": "HONNE",
+        "spotify_album": "Imaginary",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27382afabd2121907593a4ae9d8",
+        "spotify_duration_ms": "200839",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.767",
+        "spotify_energy": "0.37",
+        "spotify_key": "4",
+        "spotify_loudness": "-10.621",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.105",
+        "spotify_tempo": "75.003",
+        "spotify_valence": "0.963",
+        "spotify_acousticness": "0.446",
+        "spotify_instrumentalness": "0.0000546",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.256",
+        "spotify_artists01": "HONNE",
+        "spotify_artists01_id": "0Vw76uk7P8yVtTClWyOhac",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6b42582a85338365590ec0bc",
+        "spotify_artists01_genres": "uk pop",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27382afabd2121907593a4ae9d8.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4514,
+            "name": "HONNE",
+            "slug": "honne",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistjpname": "ホンネ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "HONNE",
+        "ytvideoid": "LyuBK0Dp-0k",
+        "spotify_track_id": "7J0uovBm6eDVBQL1ZaXOJ6"
+      },
+      "genre_data": [
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "imaginary"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

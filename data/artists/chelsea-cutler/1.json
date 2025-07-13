@@ -1,0 +1,601 @@
+{
+  "artist": {
+    "id": 1081,
+    "count": 4,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/chelsea-cutler/",
+    "name": "Chelsea Cutler",
+    "slug": "chelsea-cutler",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1081",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1081"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1081"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 85355,
+      "date": "2024-11-01T11:26:57",
+      "date_gmt": "2024-11-01T02:26:57",
+      "title": {
+        "rendered": "ashes &#038; rust"
+      },
+      "content": {
+        "rendered": "<p>Jeremy Zucker, Chelsea Cutler - ashes & rust</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1081,
+        1768
+      ],
+      "tags": [],
+      "genre": [
+        484,
+        573
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "tpv818jD9jI",
+        "ytreleasedate": "2024/11/01",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "0ynwM8MdgPqbSfII51PP3e",
+        "spotify_release_date": "2024-11-01",
+        "spotify_name": "ashes & rust",
+        "spotify_artists": "Jeremy Zucker, Chelsea Cutler",
+        "spotify_album": "brent iii",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27380a409b73bd9ea1006881557",
+        "spotify_duration_ms": "242493",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.552",
+        "spotify_energy": "0.26",
+        "spotify_key": "0",
+        "spotify_loudness": "-11.245",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0276",
+        "spotify_tempo": "95.821",
+        "spotify_valence": "0.221",
+        "spotify_acousticness": "0.313",
+        "spotify_instrumentalness": "0.00000153",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.379",
+        "spotify_artists01": "Jeremy Zucker",
+        "spotify_artists01_id": "3gIRvgZssIb9aiirIg0nI3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb64df9f37d51342328bc0790c",
+        "spotify_artists01_genres": "alt z, electropop, pop",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "Chelsea Cutler",
+        "spotify_artists02_id": "5JMLG56F1X5mFmWNmS0iAp",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb59a8d157830e44e260fe9669",
+        "spotify_artists02_genres": "alt z",
+        "spotify_artists02_popularity": "69",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/jeremy-zucker-chelsea-cutler-ashes-rust.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1081,
+            "name": "Chelsea Cutler",
+            "slug": "chelsea-cutler",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1768,
+            "name": "Jeremy Zucker",
+            "slug": "jeremy-zucker",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19960303",
+              "artistdied": "",
+              "artistjpname": "ジェレミー・ザッカー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jeremy Zucker, Chelsea Cutler",
+        "ytvideoid": "tpv818jD9jI",
+        "spotify_track_id": "0ynwM8MdgPqbSfII51PP3e"
+      },
+      "genre_data": [
+        {
+          "name": "Downtempo",
+          "slug": "downtempo",
+          "term_id": 484,
+          "post_count": 60
+        },
+        {
+          "name": "Indie folk",
+          "slug": "indie-folk",
+          "term_id": 573,
+          "post_count": 125
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ashes-rust"
+    },
+    {
+      "id": 84330,
+      "date": "2024-10-11T18:13:20",
+      "date_gmt": "2024-10-11T09:13:20",
+      "title": {
+        "rendered": "A-frame"
+      },
+      "content": {
+        "rendered": "<p>Jeremy Zucker, Chelsea Cutler - A-frame</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1081,
+        1768
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "VqQ_BmIH4EA",
+        "ytreleasedate": "2024/10/11",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7DNB6Es2bipdtHoJ6uq3nB",
+        "spotify_release_date": "2024-10-11",
+        "spotify_name": "A-frame",
+        "spotify_artists": "Jeremy Zucker, Chelsea Cutler",
+        "spotify_album": "A-frame",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735996fb4efc97a842aa394c02",
+        "spotify_duration_ms": "216666",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.684",
+        "spotify_energy": "0.621",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.984",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0492",
+        "spotify_tempo": "113.944",
+        "spotify_valence": "0.579",
+        "spotify_acousticness": "0.331",
+        "spotify_instrumentalness": "0.0000334",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.303",
+        "spotify_artists01": "Jeremy Zucker",
+        "spotify_artists01_id": "3gIRvgZssIb9aiirIg0nI3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb64df9f37d51342328bc0790c",
+        "spotify_artists01_genres": "alt z, electropop, pop",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "Chelsea Cutler",
+        "spotify_artists02_id": "5JMLG56F1X5mFmWNmS0iAp",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb59a8d157830e44e260fe9669",
+        "spotify_artists02_genres": "alt z",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2735996fb4efc97a842aa394c02.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1081,
+            "name": "Chelsea Cutler",
+            "slug": "chelsea-cutler",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1768,
+            "name": "Jeremy Zucker",
+            "slug": "jeremy-zucker",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19960303",
+              "artistdied": "",
+              "artistjpname": "ジェレミー・ザッカー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jeremy Zucker, Chelsea Cutler",
+        "ytvideoid": "VqQ_BmIH4EA",
+        "spotify_track_id": "7DNB6Es2bipdtHoJ6uq3nB"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "a-frame"
+    },
+    {
+      "id": 84334,
+      "date": "2024-09-13T18:14:58",
+      "date_gmt": "2024-09-13T09:14:58",
+      "title": {
+        "rendered": "black &#038; white"
+      },
+      "content": {
+        "rendered": "<p>Jeremy Zucker, Chelsea Cutler - black & white</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1081,
+        1768
+      ],
+      "tags": [],
+      "genre": [
+        573,
+        655
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "Lo0qbCGFsZo",
+        "ytreleasedate": "2024/09/13",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0j2l3sf15o9vczIATwA3Xr",
+        "spotify_release_date": "2024-09-13",
+        "spotify_name": "black & white",
+        "spotify_artists": "Jeremy Zucker, Chelsea Cutler",
+        "spotify_album": "black & white",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273eb30b8397d9d11b1a79ba223",
+        "spotify_duration_ms": "208960",
+        "spotify_popularity": "62",
+        "spotify_danceability": "0.671",
+        "spotify_energy": "0.334",
+        "spotify_key": "0",
+        "spotify_loudness": "-10.292",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0366",
+        "spotify_tempo": "129.722",
+        "spotify_valence": "0.543",
+        "spotify_acousticness": "0.757",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.173",
+        "spotify_artists01": "Jeremy Zucker",
+        "spotify_artists01_id": "3gIRvgZssIb9aiirIg0nI3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb64df9f37d51342328bc0790c",
+        "spotify_artists01_genres": "alt z, electropop, pop",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "Chelsea Cutler",
+        "spotify_artists02_id": "5JMLG56F1X5mFmWNmS0iAp",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb59a8d157830e44e260fe9669",
+        "spotify_artists02_genres": "alt z",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273eb30b8397d9d11b1a79ba223.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1081,
+            "name": "Chelsea Cutler",
+            "slug": "chelsea-cutler",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1768,
+            "name": "Jeremy Zucker",
+            "slug": "jeremy-zucker",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19960303",
+              "artistdied": "",
+              "artistjpname": "ジェレミー・ザッカー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jeremy Zucker, Chelsea Cutler",
+        "ytvideoid": "Lo0qbCGFsZo",
+        "spotify_track_id": "0j2l3sf15o9vczIATwA3Xr"
+      },
+      "genre_data": [
+        {
+          "name": "Indie folk",
+          "slug": "indie-folk",
+          "term_id": 573,
+          "post_count": 125
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "black-white"
+    },
+    {
+      "id": 42155,
+      "date": "2019-05-23T20:54:00",
+      "date_gmt": "2019-05-23T11:54:00",
+      "title": {
+        "rendered": "Not Ok"
+      },
+      "content": {
+        "rendered": "\n<p>Kygo,ChelseaCutler-NotOk</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1081,
+        1066
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        752
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "6aoGtdWXBkYQ2O2wnyIz2x",
+        "spotify_release_date": "2019/5/23",
+        "spotify_name": "Not Ok",
+        "spotify_artists": "Kygo, Chelsea Cutler",
+        "spotify_album": "Not Ok",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737fe984eca0149b0c2b4b6828",
+        "spotify_duration_ms": "210943",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.618",
+        "spotify_energy": "0.66",
+        "spotify_key": "11",
+        "spotify_loudness": "-8.14",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0372",
+        "spotify_tempo": "105",
+        "spotify_valence": "0.408",
+        "spotify_acousticness": "0.0292",
+        "spotify_instrumentalness": "2.07E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.325",
+        "spotify_artists01": "Kygo",
+        "spotify_artists01_id": "23fqKkggKUBHNkbKtXEls4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe636670d717588b11d654130",
+        "spotify_artists01_genres": "edm, pop, pop dance, tropical house",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "Chelsea Cutler",
+        "spotify_artists02_id": "5JMLG56F1X5mFmWNmS0iAp",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba7593553897ece2f65e14b1e",
+        "spotify_artists02_genres": "alt z",
+        "spotify_artists02_popularity": "64",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "MFdzgnMOmlw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kygo-Chelsea-Cutler-Not-Ok.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1081,
+            "name": "Chelsea Cutler",
+            "slug": "chelsea-cutler",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1066,
+            "name": "Kygo",
+            "slug": "kygo",
+            "acf": {
+              "artistorigin": "NOR",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19910911",
+              "artistdied": "",
+              "artistjpname": "カイゴ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kygo, Chelsea Cutler",
+        "ytvideoid": "MFdzgnMOmlw",
+        "spotify_track_id": "6aoGtdWXBkYQ2O2wnyIz2x"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Tropical house",
+          "slug": "tropical-house",
+          "term_id": 752,
+          "post_count": 101
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "not-ok"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 5849,
+  "count": 1,
+  "description": "Jet are an Australian rock band.",
+  "link": "https://sub.music8.jp/category/jet/",
+  "name": "Jet",
+  "slug": "jet",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2001",
+    "artistborn": "",
+    "artistjpname": "ジェット",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Vines | Wolfmother | Hives (hives) | Raconteurs | Fratellis | White Stripes (white-stripes) | Franz Ferdinand (franz-ferdinand) | Subways | Dandy Warhols | Kaiser Chiefs | Black Rebel Motorcycle Club | OK Go (ok-go) | Jack White (jack-white) | Bravery | Supergrass (supergrass) | Queens of the Stone Age (queens-of-the-stone-age) | Libertines (libertines) | Kasabian (kasabian) | Black Keys (black-keys) | Darkness",
+    "spotify_artist_id": "5ypxebeHEIXjMtJb17uJlI",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747fee6883cc7e990e5b6de167"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5849",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5849"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5849"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェット",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051747fee6883cc7e990e5b6de167",
+  "artistActiveYearStart": "2001",
+  "occupation": "band"
+}

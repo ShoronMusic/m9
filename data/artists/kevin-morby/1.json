@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2021,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/kevin-morby/",
+    "name": "Kevin Morby",
+    "slug": "kevin-morby",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2021",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2021"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2021"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40115,
+      "date": "2022-03-04T23:22:00",
+      "date_gmt": "2022-03-04T14:22:00",
+      "title": {
+        "rendered": "This is a Photograph"
+      },
+      "content": {
+        "rendered": "\n<p>KevinMorby-ThisisaPhotograph</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2021
+      ],
+      "tags": [],
+      "genre": [
+        449
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1hj8os1Xxiuo95atpJzfCp",
+        "spotify_release_date": "2022/5/13",
+        "spotify_name": "ThisIsAPhotograph",
+        "spotify_artists": "KevinMorby",
+        "spotify_album": "ThisIsAPhotograph",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735f046546434d8fc6a88fac45",
+        "spotify_duration_ms": "210333",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.721",
+        "spotify_energy": "0.915",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.953",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0469",
+        "spotify_tempo": "124.011",
+        "spotify_valence": "0.783",
+        "spotify_acousticness": "0.51",
+        "spotify_instrumentalness": "0.00163",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.119",
+        "spotify_artists01": "KevinMorby",
+        "spotify_artists01_id": "6fxk3UXHTFYET8qCT9WlBF",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb292b964365b5de1a53216852",
+        "spotify_artists01_genres": "chamberpop,indierock,kcindie,modernfolkrock",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "hmxrnAouciM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kevin-Morby-This-is-a-Photograph.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2021,
+            "name": "Kevin Morby",
+            "slug": "kevin-morby",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "KevinMorby",
+        "ytvideoid": "hmxrnAouciM",
+        "spotify_track_id": "1hj8os1Xxiuo95atpJzfCp"
+      },
+      "genre_data": [
+        {
+          "name": "Chamber pop",
+          "slug": "chamber-pop",
+          "term_id": 449,
+          "post_count": 100
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "this-is-a-photograph"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

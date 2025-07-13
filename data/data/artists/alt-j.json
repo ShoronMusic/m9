@@ -1,0 +1,81 @@
+{
+  "id": 1884,
+  "count": 2,
+  "description": "alt-J is an English indie rock band.",
+  "link": "https://sub.music8.jp/category/alt-j/",
+  "name": "alt-J",
+  "slug": "alt-j",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2007",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "アルト・ジェイ",
+    "member": [
+      {
+        "errors": {
+          "invalid_term": [
+            "空のターム。"
+          ]
+        },
+        "error_data": []
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Foals (foals) | Nick Murphy | xx (xx) | Bombay Bicycle Club (bombay-bicycle-club) | Portugal. The Man (portugal-the-man) | Arcade Fire (arcade-fire) | Vampire Weekend (vampire-weekend) | Metronomy (metronomy) | Broken Bells (broken-bells) | Local Natives (local-natives) | Black Keys (black-keys) | Bon Iver (bon-iver) | Fleet Foxes (fleet-foxes) | Two Door Cinema Club (two-door-cinema-club) | Grizzly Bear (grizzly-bear) | Daughter (daughter) | MGMT (mgmt) | Jamie xx (jamie-xx) | Beirut (beirut) | Milky Chance (milky-chance)",
+    "spotify_artist_id": "3XHO7cRUPCLOr6jwp8vsx5",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743fb5214e667e278a20878a6b"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1884",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1884"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1884"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アルト・ジェイ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051743fb5214e667e278a20878a6b",
+  "artistActiveYearStart": "2007",
+  "occupation": "band"
+}

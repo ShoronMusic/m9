@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 3405,
+    "count": 1,
+    "description": "Eleine are a Swedish metal band.",
+    "link": "https://sub.music8.jp/category/eleine/",
+    "name": "ELEINE",
+    "slug": "eleine",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "2014",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3405",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3405"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3405"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 53689,
+      "date": "2023-07-15T23:46:42",
+      "date_gmt": "2023-07-15T14:46:42",
+      "title": {
+        "rendered": "We Shall Remain"
+      },
+      "content": {
+        "rendered": "<p>ELEINE - We Shall Remain</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3405
+      ],
+      "tags": [],
+      "genre": [
+        545,
+        733
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "4NE5lWvdpevNpziV5BUoOq",
+        "spotify_release_date": "2023-07-14",
+        "spotify_name": "We Shall Remain",
+        "spotify_artists": "Eleine",
+        "spotify_album": "We Shall Remain",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27389e8ddae56b05e3b12d6bbb0",
+        "spotify_duration_ms": "260573",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.351",
+        "spotify_energy": "0.953",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.001",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0705",
+        "spotify_tempo": "90.178",
+        "spotify_valence": "0.337",
+        "spotify_acousticness": "0.0000695",
+        "spotify_instrumentalness": "0.00517",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0969",
+        "spotify_artists01": "Eleine",
+        "spotify_artists01_id": "2L2rV1gDa17HwFcFCWBIAx",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb612b8348eb58df9163a265e1",
+        "spotify_artists01_genres": "fallen angel, gothic symphonic metal, slayer, symphonic metal, symphonic power metal",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "eKYHfQuBHFg",
+        "ytreleasedate": "2023/07/15"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ELEINE-We-Shall-Remain.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3405,
+            "name": "ELEINE",
+            "slug": "eleine",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Eleine",
+        "ytvideoid": "eKYHfQuBHFg",
+        "spotify_track_id": "4NE5lWvdpevNpziV5BUoOq"
+      },
+      "genre_data": [
+        {
+          "name": "Gothic metal",
+          "slug": "gothic-metal",
+          "term_id": 545,
+          "post_count": 22
+        },
+        {
+          "name": "Symphonic metal",
+          "slug": "symphonic-metal",
+          "term_id": 733,
+          "post_count": 71
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "we-shall-remain"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

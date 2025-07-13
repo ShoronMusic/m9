@@ -1,0 +1,80 @@
+{
+  "id": 1009,
+  "count": 3,
+  "description": "Amy Grant is an American singer-songwriter and musician",
+  "link": "https://sub.music8.jp/category/amy-grant/",
+  "name": "Amy Grant",
+  "slug": "amy-grant",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1976",
+    "artistborn": "19601125",
+    "artistdied": "",
+    "artistjpname": "エイミー・グラント",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "72Nhcx7prNk2ZCxhx0Y5es",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174146b2a42b7b2cf027d6ab5b7"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1009",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1009"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1009"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エイミー・グラント",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174146b2a42b7b2cf027d6ab5b7",
+  "artistActiveYearStart": "1976",
+  "occupation": "singer, songwriter, musician"
+}

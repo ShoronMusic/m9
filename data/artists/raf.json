@@ -1,0 +1,76 @@
+{
+  "id": 5558,
+  "count": 2,
+  "description": "",
+  "link": "https://sub.music8.jp/category/raf/",
+  "name": "Raf",
+  "slug": "raf",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "ITA",
+    "artistactiveyearstart": "1983",
+    "artistborn": "19590929",
+    "artistjpname": "ラフ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3rlKqNmhaP9UiC0wFQyFS3",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174265afc11b2df81dcc734dd58"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5558",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5558"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5558"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ラフ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174265afc11b2df81dcc734dd58",
+  "artistActiveYearStart": "1983",
+  "occupation": "singer, songwriter"
+}

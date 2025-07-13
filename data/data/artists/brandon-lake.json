@@ -1,0 +1,76 @@
+{
+  "id": 3123,
+  "count": 4,
+  "description": "Brandon Lake is an American singer, songwriter.",
+  "link": "https://sub.music8.jp/category/brandon-lake/",
+  "name": "Brandon Lake",
+  "slug": "brandon-lake",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2015",
+    "artistborn": "",
+    "artistjpname": "ブランドン・レイク",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      },
+      {
+        "value": "guitaristr",
+        "label": "Guitarist"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1bdnGJxkbIIys5Jhk1T74v",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c3c1f3ff85e965f31ab192e5"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3123",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3123"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3123"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ブランドン・レイク",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174c3c1f3ff85e965f31ab192e5",
+  "artistActiveYearStart": "2015",
+  "occupation": "ssw, guitaristr"
+}

@@ -1,0 +1,76 @@
+{
+  "id": 5307,
+  "count": 1,
+  "description": "Yung Joc is an American rapper.",
+  "link": "https://sub.music8.jp/category/yung-joc/",
+  "name": "Yung Joc",
+  "slug": "yung-joc",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2003",
+    "artistborn": "19800402",
+    "artistjpname": "ヤング・ジョック",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "23LbwefIODbyGdRbAz3urj",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051748d49307107224315c77594c1"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5307",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5307"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5307"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ヤング・ジョック",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051748d49307107224315c77594c1",
+  "artistActiveYearStart": "2003",
+  "occupation": "songwriter, rapper"
+}

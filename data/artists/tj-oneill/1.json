@@ -1,0 +1,204 @@
+{
+  "artist": {
+    "id": 3287,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/tj-oneill/",
+    "name": "TJ O'Neill",
+    "slug": "tj-oneill",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3287",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3287"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3287"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52540,
+      "date": "2023-09-22T14:08:57",
+      "date_gmt": "2023-09-22T05:08:57",
+      "title": {
+        "rendered": "Railroad Shelter"
+      },
+      "content": {
+        "rendered": "<p>TJ O'Neill - Railroad Shelter (feat. Stick Figure)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2646,
+        3287
+      ],
+      "tags": [],
+      "genre": [
+        690
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2Cv6DwpDGeg1m6gcHG55dc",
+        "spotify_release_date": "2023-09-22",
+        "spotify_name": "Railroad Shelter (with Stick Figure)",
+        "spotify_artists": "TJ O'Neill, Stick Figure",
+        "spotify_album": "Railroad Shelter (with Stick Figure)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273eea85bac84babffabee4c0c9",
+        "spotify_duration_ms": "245059",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.841",
+        "spotify_energy": "0.685",
+        "spotify_key": "11",
+        "spotify_loudness": "-6.498",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0437",
+        "spotify_tempo": "139.992",
+        "spotify_valence": "0.505",
+        "spotify_acousticness": "0.0246",
+        "spotify_instrumentalness": "0.000391",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.112",
+        "spotify_artists01": "TJ O'Neill",
+        "spotify_artists01_id": "4maVD6NJFM9n1U8z0Vd262",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6041d0be9957c0ed3a8b3119",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "41",
+        "spotify_artists02": "Stick Figure",
+        "spotify_artists02_id": "5SXEylV07TC57eanSxxg4R",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba0f1123095d7e00b8d9fc8ed",
+        "spotify_artists02_genres": "reggae fusion, reggae rock",
+        "spotify_artists02_popularity": "65",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qyo6LlgQQ98",
+        "ytreleasedate": "2023/09/22"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/TJ-ONeill-Railroad-Shelter-feat.-Stick-Figure.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2646,
+            "name": "Stick Figure",
+            "slug": "stick-figure",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スティック・フィギュア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3287,
+            "name": "TJ O'Neill",
+            "slug": "tj-oneill",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "TJ O'Neill, Stick Figure",
+        "ytvideoid": "qyo6LlgQQ98",
+        "spotify_track_id": "2Cv6DwpDGeg1m6gcHG55dc"
+      },
+      "genre_data": [
+        {
+          "name": "Reggae",
+          "slug": "reggae",
+          "term_id": 690,
+          "post_count": 83
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "railroad-shelter"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

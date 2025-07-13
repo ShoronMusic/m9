@@ -1,0 +1,205 @@
+{
+  "artist": {
+    "id": 1961,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/neighbourhood/",
+    "name": "Neighbourhood",
+    "slug": "neighbourhood",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1961",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1961"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1961"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39816,
+      "date": "2022-04-08T23:35:00",
+      "date_gmt": "2022-04-08T14:35:00",
+      "title": {
+        "rendered": "NO ESCAPE"
+      },
+      "content": {
+        "rendered": "\n<p>HEALTHxTheNeighbourhood-NOESCAPE</p>\n",
+        "protected": false
+      },
+      "categories": [
+        878,
+        1961
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        476,
+        579,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5Xg5bGbWHToIMSsqWxOsej",
+        "spotify_release_date": "2022/4/8",
+        "spotify_name": "NOESCAPE",
+        "spotify_artists": "HEALTH,TheNeighbourhood",
+        "spotify_album": "DISCO4::PARTII",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731efbfc95ca21bffcde24d34f",
+        "spotify_duration_ms": "214333",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.602",
+        "spotify_energy": "0.693",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.205",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.032",
+        "spotify_tempo": "110",
+        "spotify_valence": "0.161",
+        "spotify_acousticness": "0.000344",
+        "spotify_instrumentalness": "0.136",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.308",
+        "spotify_artists01": "HEALTH",
+        "spotify_artists01_id": "6FfjnGXMhxSsJTuGLWBDth",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5b2bf033db0073228084edb4",
+        "spotify_artists01_genres": "gravewave,metropopolis,noisepop,noiserock",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "TheNeighbourhood",
+        "spotify_artists02_id": "77SW9BnxLY8rJ0RciFqkHh",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebdf0b5ac84376a0a4b2166816",
+        "spotify_artists02_genres": "modernalternativerock,modernrock,pop,pov:indie",
+        "spotify_artists02_popularity": "82",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "1RnTuIw4OXI",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/HEALTH-x-The-Neighbourhood-NO-ESCAPE.png",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 878,
+            "name": "HEALTH",
+            "slug": "health",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2005",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヘルス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1961,
+            "name": "Neighbourhood",
+            "slug": "neighbourhood",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "HEALTH,TheNeighbourhood",
+        "ytvideoid": "1RnTuIw4OXI",
+        "spotify_track_id": "5Xg5bGbWHToIMSsqWxOsej"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Dark wave",
+          "slug": "dark-wave",
+          "term_id": 476,
+          "post_count": 57
+        },
+        {
+          "name": "Industrial rock",
+          "slug": "industrial-rock",
+          "term_id": 579,
+          "post_count": 99
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "no-escape"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,94 @@
+{
+  "id": 1023,
+  "count": 6,
+  "description": "will.i.am (will I am\") is an American rapper, singer, songwriter, actor, and record producer. lead member of the hip hop musical group Black Eyed Peas.",
+  "link": "https://sub.music8.jp/category/will-i-am/",
+  "name": "will.i.am",
+  "slug": "will-i-am",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1988",
+    "artistborn": "19750315",
+    "artistdied": "",
+    "artistjpname": "ウィル・アイ・アム",
+    "member": [
+      {
+        "term_id": 1651,
+        "name": "Black Eyed Peas",
+        "slug": "black-eyed-peas",
+        "term_group": 0,
+        "term_taxonomy_id": 1651,
+        "taxonomy": "category",
+        "description": "Black Eyed Peas (The Black Eyed Peas) is an American musical group.",
+        "parent": 0,
+        "count": 40,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1023",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1023"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1023"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ウィル・アイ・アム",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1988",
+  "occupation": "singer, songwriter, rapper, producer"
+}

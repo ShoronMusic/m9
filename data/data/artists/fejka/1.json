@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2355,
+    "count": 1,
+    "description": "GER",
+    "link": "https://sub.music8.jp/category/fejka/",
+    "name": "Fejká",
+    "slug": "fejka",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2355",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2355"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2355"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39211,
+      "date": "2022-07-08T20:34:00",
+      "date_gmt": "2022-07-08T11:34:00",
+      "title": {
+        "rendered": "Pulsing"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2355
+      ],
+      "tags": [],
+      "genre": [
+        414
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5uy5YwhwkiuihoJQdEiuws",
+        "spotify_release_date": "2022/7/7",
+        "spotify_name": "Pulsing",
+        "spotify_artists": "Fejk?",
+        "spotify_album": "Pulsing",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ad4b8db2c7ec4e4c28903f85",
+        "spotify_duration_ms": "237600",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.488",
+        "spotify_energy": "0.903",
+        "spotify_key": "6",
+        "spotify_loudness": "-10.355",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0373",
+        "spotify_tempo": "119.99",
+        "spotify_valence": "0.0364",
+        "spotify_acousticness": "0.0039",
+        "spotify_instrumentalness": "0.823",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.137",
+        "spotify_artists01": "Fejk?",
+        "spotify_artists01_id": "0VWvUvjaHaW1OeXtcVISu9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6f8557582e0afb4e81052858",
+        "spotify_artists01_genres": "ambienthouse",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "oa0Ekj3lBNM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Fejka-Pulsing.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2355,
+            "name": "Fejká",
+            "slug": "fejka",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Fejk?",
+        "ytvideoid": "oa0Ekj3lBNM",
+        "spotify_track_id": "5uy5YwhwkiuihoJQdEiuws"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "pulsing"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,315 @@
+{
+  "artist": {
+    "id": 1867,
+    "count": 2,
+    "description": "Gang of Youths are an Australian alternative rock band.",
+    "link": "https://sub.music8.jp/category/gang-of-youths/",
+    "name": "Gang of Youths",
+    "slug": "gang-of-youths",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "2011",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ギャング・オブ・ユース",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1867",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1867"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1867"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40215,
+      "date": "2022-02-22T23:30:00",
+      "date_gmt": "2022-02-22T14:30:00",
+      "title": {
+        "rendered": "spirit boy"
+      },
+      "content": {
+        "rendered": "\n<p>GangofYouths-spiritboy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1867
+      ],
+      "tags": [],
+      "genre": [
+        449,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3N69UICZdPX1wYrPvV4uvZ",
+        "spotify_release_date": "2022/2/25",
+        "spotify_name": "spiritboy",
+        "spotify_artists": "GangofYouths",
+        "spotify_album": "angelinrealtime.",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27341892ebb6904966e6610fb16",
+        "spotify_duration_ms": "387275",
+        "spotify_popularity": "33",
+        "spotify_danceability": "0.483",
+        "spotify_energy": "0.689",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.583",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0363",
+        "spotify_tempo": "140.038",
+        "spotify_valence": "0.492",
+        "spotify_acousticness": "0.0469",
+        "spotify_instrumentalness": "7.23E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0695",
+        "spotify_artists01": "GangofYouths",
+        "spotify_artists01_id": "142YBUGmLWCJigFLzgguf8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb49cc52e8c14304c5ce368adf",
+        "spotify_artists01_genres": "australianindie,modernrock",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "cF_mi_hRqA4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Gang-of-Youths-spirit-boy.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1867,
+            "name": "Gang of Youths",
+            "slug": "gang-of-youths",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ギャング・オブ・ユース",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "GangofYouths",
+        "ytvideoid": "cF_mi_hRqA4",
+        "spotify_track_id": "3N69UICZdPX1wYrPvV4uvZ"
+      },
+      "genre_data": [
+        {
+          "name": "Chamber pop",
+          "slug": "chamber-pop",
+          "term_id": 449,
+          "post_count": 100
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "spirit-boy"
+    },
+    {
+      "id": 40494,
+      "date": "2022-01-19T12:35:00",
+      "date_gmt": "2022-01-19T03:35:00",
+      "title": {
+        "rendered": "in the wake of your leave"
+      },
+      "content": {
+        "rendered": "\n<p>GangofYouths-inthewakeofyourleave</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1867
+      ],
+      "tags": [],
+      "genre": [
+        559,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3tr7NTCykrBqLxaFTQMIYx",
+        "spotify_release_date": "2022/2/25",
+        "spotify_name": "inthewakeofyourleave",
+        "spotify_artists": "GangofYouths",
+        "spotify_album": "angelinrealtime.",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27341892ebb6904966e6610fb16",
+        "spotify_duration_ms": "243541",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.321",
+        "spotify_energy": "0.862",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.713",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0686",
+        "spotify_tempo": "178.995",
+        "spotify_valence": "0.427",
+        "spotify_acousticness": "0.00427",
+        "spotify_instrumentalness": "0.000272",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.319",
+        "spotify_artists01": "GangofYouths",
+        "spotify_artists01_id": "142YBUGmLWCJigFLzgguf8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb49cc52e8c14304c5ce368adf",
+        "spotify_artists01_genres": "australianindie,modernrock",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "L5Py3TP9kgU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Gang-of-Youths-in-the-wake-of-your-leave.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1867,
+            "name": "Gang of Youths",
+            "slug": "gang-of-youths",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ギャング・オブ・ユース",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "GangofYouths",
+        "ytvideoid": "L5Py3TP9kgU",
+        "spotify_track_id": "3tr7NTCykrBqLxaFTQMIYx"
+      },
+      "genre_data": [
+        {
+          "name": "Heartland rock",
+          "slug": "heartland-rock",
+          "term_id": 559,
+          "post_count": 44
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "in-the-wake-of-your-leave"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

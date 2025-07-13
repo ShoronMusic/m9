@@ -1,0 +1,332 @@
+{
+  "artist": {
+    "id": 3510,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/king-george/",
+    "name": "King George",
+    "slug": "king-george",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3510",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3510"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3510"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 54904,
+      "date": "2023-09-01T22:46:08",
+      "date_gmt": "2023-09-01T13:46:08",
+      "title": {
+        "rendered": "Steppin Out ft. King George"
+      },
+      "content": {
+        "rendered": "<p>BadGir - Steppin Out ft. King George</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3509,
+        3510
+      ],
+      "tags": [],
+      "genre": [
+        685,
+        719
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5RNXoL878k1GJ2WOYZieP6",
+        "spotify_release_date": "2023-02-07",
+        "spotify_name": "Steppin Out",
+        "spotify_artists": "Badgir, King George",
+        "spotify_album": "Steppin Out",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273efa1c0ad056544b0e6906234",
+        "spotify_duration_ms": "228858",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.93",
+        "spotify_energy": "0.469",
+        "spotify_key": "8",
+        "spotify_loudness": "-8.149",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.079",
+        "spotify_tempo": "94.99",
+        "spotify_valence": "0.484",
+        "spotify_acousticness": "0.0319",
+        "spotify_instrumentalness": "0.00000868",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0842",
+        "spotify_artists01": "Badgir",
+        "spotify_artists01_id": "7KphMzg7R5WZOa1yNIHAxG",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2105bb9f4c717c5367b82d00",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "17",
+        "spotify_artists02": "King George",
+        "spotify_artists02_id": "1e8aSZlUDv7OrtNL1dzqqC",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "17",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "QIbiLKFEHvg",
+        "ytreleasedate": "2023/09/01"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/BadGir-Steppin-Out-ft.-King-George.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3509,
+            "name": "BadGir",
+            "slug": "badgir",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3510,
+            "name": "King George",
+            "slug": "king-george",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Badgir, King George",
+        "ytvideoid": "QIbiLKFEHvg",
+        "spotify_track_id": "5RNXoL878k1GJ2WOYZieP6"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "steppin-out-ft-king-george"
+    },
+    {
+      "id": 80494,
+      "date": "2020-12-25T20:05:49",
+      "date_gmt": "2020-12-25T11:05:49",
+      "title": {
+        "rendered": "Too Long"
+      },
+      "content": {
+        "rendered": "<p>King George - Too Long</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3510
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "r-c8urzFYdw",
+        "ytreleasedate": "2024/05/16",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6YIvNjBwtWtG5DNbArJ3DB",
+        "spotify_release_date": "2020-12-25",
+        "spotify_name": "TOO LONG",
+        "spotify_artists": "King George",
+        "spotify_album": "TOO LONG",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a32a75f90ccd520f2ffd867e",
+        "spotify_duration_ms": "249048",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.828",
+        "spotify_energy": "0.456",
+        "spotify_key": "11",
+        "spotify_loudness": "-7.103",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0902",
+        "spotify_tempo": "80.987",
+        "spotify_valence": "0.916",
+        "spotify_acousticness": "0.446",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0863",
+        "spotify_artists01": "King George",
+        "spotify_artists01_id": "4da15R0o9ipD6vPVPqYz5D",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb104461e5b1621a79734c3afd",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273a32a75f90ccd520f2ffd867e.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3510,
+            "name": "King George",
+            "slug": "king-george",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "King George",
+        "ytvideoid": "r-c8urzFYdw",
+        "spotify_track_id": "6YIvNjBwtWtG5DNbArJ3DB"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "too-long"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,463 @@
+{
+  "artist": {
+    "id": 2398,
+    "count": 3,
+    "description": "Palace is a Swedish melodic hard rock band.",
+    "link": "https://sub.music8.jp/category/palace_swe/",
+    "name": "Palace",
+    "slug": "palace_swe",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "2016",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2398",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2398"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2398"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 69488,
+      "date": "2024-06-10T22:10:16",
+      "date_gmt": "2024-06-10T13:10:16",
+      "title": {
+        "rendered": "Reckless Heart"
+      },
+      "content": {
+        "rendered": "<p>Palace - Reckless Heart</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2398
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "B8U3PAtKRaU",
+        "ytreleasedate": "",
+        "spotify_track_id": "3vhFWrFbWZ7GEJkwwsDEEc",
+        "spotify_release_date": "2024-06-10",
+        "spotify_name": "Reckless Heart",
+        "spotify_artists": "パレス",
+        "spotify_album": "Reckless Heart",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731b78938ad7fcd221602ed65d",
+        "spotify_duration_ms": "217115",
+        "spotify_popularity": "13",
+        "spotify_danceability": "0.625",
+        "spotify_energy": "0.875",
+        "spotify_key": "2",
+        "spotify_loudness": "-4.805",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.037",
+        "spotify_tempo": "129.988",
+        "spotify_valence": "0.68",
+        "spotify_acousticness": "0.00245",
+        "spotify_instrumentalness": "0.000998",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.26",
+        "spotify_artists01": "パレス",
+        "spotify_artists01_id": "2UdGUzQV0W0i7Ye1xuZW8D",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2f7defa0ae6ef6f984e02603",
+        "spotify_artists01_genres": "melodic hard rock, nightrun, swedish melodic rock",
+        "spotify_artists01_popularity": "19",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2731b78938ad7fcd221602ed65d.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2398,
+            "name": "Palace",
+            "slug": "palace_swe",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "パレス",
+        "ytvideoid": "B8U3PAtKRaU",
+        "spotify_track_id": "3vhFWrFbWZ7GEJkwwsDEEc"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "reckless-heart"
+    },
+    {
+      "id": 38387,
+      "date": "2022-11-04T20:46:00",
+      "date_gmt": "2022-11-04T11:46:00",
+      "title": {
+        "rendered": "Kyrie"
+      },
+      "content": {
+        "rendered": "\n<p>Palace-Kyrie(Mr.Mistercover)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2398
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "",
+        "spotify_release_date": "",
+        "spotify_name": "",
+        "spotify_artists": "",
+        "spotify_album": "",
+        "spotify_images": "",
+        "spotify_duration_ms": "",
+        "spotify_popularity": "",
+        "spotify_danceability": "",
+        "spotify_energy": "",
+        "spotify_key": "",
+        "spotify_loudness": "",
+        "spotify_mode": "",
+        "spotify_speechiness": "",
+        "spotify_tempo": "",
+        "spotify_valence": "",
+        "spotify_acousticness": "",
+        "spotify_instrumentalness": "",
+        "spotify_time_signature": "",
+        "spotify_liveness": "",
+        "spotify_artists01": "",
+        "spotify_artists01_id": "",
+        "spotify_artists01_images": "",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "V7WQINXNSbc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Palace-Kyrie.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2398,
+            "name": "Palace",
+            "slug": "palace_swe",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "",
+        "ytvideoid": "V7WQINXNSbc",
+        "spotify_track_id": ""
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "kyrie-2"
+    },
+    {
+      "id": 39541,
+      "date": "2022-05-24T13:29:00",
+      "date_gmt": "2022-05-24T04:29:00",
+      "title": {
+        "rendered": "Westbound"
+      },
+      "content": {
+        "rendered": "\n<p>Palace-Westbound</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2398
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6Iy45T24Y9KlIdeVJSyHEI",
+        "spotify_release_date": "2022/7/15",
+        "spotify_name": "Westbound",
+        "spotify_artists": "Palace",
+        "spotify_album": "One4theRoad",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273959cd822e9c36f9e5b19f94c",
+        "spotify_duration_ms": "252492",
+        "spotify_popularity": "21",
+        "spotify_danceability": "0.512",
+        "spotify_energy": "0.945",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.407",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0808",
+        "spotify_tempo": "76.498",
+        "spotify_valence": "0.899",
+        "spotify_acousticness": "0.00691",
+        "spotify_instrumentalness": "0.000113",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.412",
+        "spotify_artists01": "Palace",
+        "spotify_artists01_id": "2UdGUzQV0W0i7Ye1xuZW8D",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdaa8d4031a8ec18b10a3be73",
+        "spotify_artists01_genres": "melodichardrock,nightrun,swedishmelodicrock",
+        "spotify_artists01_popularity": "19",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "jUwKVLYr9vc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Palace-Westbound.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2398,
+            "name": "Palace",
+            "slug": "palace_swe",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Palace",
+        "ytvideoid": "jUwKVLYr9vc",
+        "spotify_track_id": "6Iy45T24Y9KlIdeVJSyHEI"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "westbound"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

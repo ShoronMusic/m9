@@ -1,0 +1,846 @@
+{
+  "artist": {
+    "id": 1785,
+    "count": 5,
+    "description": "Simple Plan is a Canadian rock band",
+    "link": "https://sub.music8.jp/category/simple-plan/",
+    "name": "Simple Plan",
+    "slug": "simple-plan",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "CAN",
+      "artistactiveyearstart": "1999",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "シンプル・プラン",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1785",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1785"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1785"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 98602,
+      "date": "2025-05-10T10:21:34",
+      "date_gmt": "2025-05-10T01:21:34",
+      "title": {
+        "rendered": "Young &#038; Dumb"
+      },
+      "content": {
+        "rendered": "<p>Avril Lavigne, Simple Plan - Young & Dumb</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1409,
+        1785
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        660
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "gRX3Gm-YPRY",
+        "ytreleasedate": "2025/05/10",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3mJncxEu2NrKYfRvoWiVfm",
+        "spotify_release_date": "2025-05-09",
+        "spotify_name": "Young & Dumb (feat. Simple Plan)",
+        "spotify_artists": "Avril Lavigne, Simple Plan",
+        "spotify_album": "Young & Dumb (feat. Simple Plan)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d7a751f0ad89ebbf27a9b9a5",
+        "spotify_duration_ms": "166776",
+        "spotify_popularity": "0",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Avril Lavigne",
+        "spotify_artists01_id": "0p4nmQO2msCgU4IF37Wi3j",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcea575e8c9519d4367984256",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "79",
+        "spotify_artists02": "Simple Plan",
+        "spotify_artists02_id": "2p4FqHnazRucYQHyDCdBrJ",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc5fa723bdd0e043d13877196",
+        "spotify_artists02_genres": "pop punk, punk, emo",
+        "spotify_artists02_popularity": "71",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/avril-lavigne-simple-plan-young-dumb.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1409,
+            "name": "Avril Lavigne",
+            "slug": "avril-lavigne",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1999",
+              "artistborn": "19840927",
+              "artistdied": "",
+              "artistjpname": "アヴリル・ラヴィーン",
+              "member": [
+                {
+                  "errors": {
+                    "invalid_term": [
+                      "空のターム。"
+                    ]
+                  },
+                  "error_data": []
+                }
+              ],
+              "artistimage1": {
+                "ID": 67692,
+                "id": 67692,
+                "title": "avril-lavigne",
+                "filename": "avril-lavigne.webp",
+                "filesize": 11722,
+                "url": "https://sub.music8.jp/wp-content/uploads/avril-lavigne.webp",
+                "link": "https://sub.music8.jp/avril-lavigne/",
+                "alt": "",
+                "author": "1",
+                "description": "",
+                "caption": "",
+                "name": "avril-lavigne",
+                "status": "inherit",
+                "uploaded_to": 0,
+                "date": "2024-05-29 07:36:30",
+                "modified": "2024-05-29 07:36:30",
+                "menu_order": 0,
+                "mime_type": "image/webp",
+                "type": "image",
+                "subtype": "webp",
+                "icon": "https://sub.music8.jp/wp-includes/images/media/default.png",
+                "width": 350,
+                "height": 350,
+                "sizes": {
+                  "thumbnail": "https://sub.music8.jp/wp-content/uploads/avril-lavigne.webp",
+                  "thumbnail-width": 50,
+                  "thumbnail-height": 50,
+                  "medium": "https://sub.music8.jp/wp-content/uploads/avril-lavigne-50x50.webp",
+                  "medium-width": 50,
+                  "medium-height": 50,
+                  "medium_large": "https://sub.music8.jp/wp-content/uploads/avril-lavigne.webp",
+                  "medium_large-width": 350,
+                  "medium_large-height": 350,
+                  "large": "https://sub.music8.jp/wp-content/uploads/avril-lavigne-100x100.webp",
+                  "large-width": 100,
+                  "large-height": 100,
+                  "1536x1536": "https://sub.music8.jp/wp-content/uploads/avril-lavigne.webp",
+                  "1536x1536-width": 350,
+                  "1536x1536-height": 350,
+                  "2048x2048": "https://sub.music8.jp/wp-content/uploads/avril-lavigne.webp",
+                  "2048x2048-width": 350,
+                  "2048x2048-height": 350
+                }
+              },
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "Kesha (kesha) | Christina Aguilera (christina-aguilera) | Hilary Duff (hilary-duff) | Kelly Clarkson (kelly-clarkson) | Fergie (fergie) | Britney Spears (britney-spears) | Gwen Stefani (gwen-stefani) | Spice Girls (spice-girls) | Pussycat Dolls (pussycat-dolls) | Paramore (paramore) | Veronicas (veronicas) | Lindsay Lohan (lindsay-lohan) | Jessie J (jessie-j) | Nelly Furtado (nelly-furtado) | Christina Perri | P!nk (pink) | Simple Plan (simple-plan) | JoJo (jojo) | Ashlee Simpson (ashlee-simpson) | Miley Cyrus (miley-cyrus)",
+              "spotify_artist_id": "0p4nmQO2msCgU4IF37Wi3j",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051745c3349ddba6b8e064c1bab16"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1785,
+            "name": "Simple Plan",
+            "slug": "simple-plan",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1999",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シンプル・プラン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Avril Lavigne, Simple Plan",
+        "ytvideoid": "gRX3Gm-YPRY",
+        "spotify_track_id": "3mJncxEu2NrKYfRvoWiVfm"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "young-dumb"
+    },
+    {
+      "id": 76516,
+      "date": "2024-07-24T13:58:46",
+      "date_gmt": "2024-07-24T04:58:46",
+      "title": {
+        "rendered": "Can You Feel the Love Tonight"
+      },
+      "content": {
+        "rendered": "<p>Simple Plan, Disney - Can You Feel the Love Tonight</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1785
+      ],
+      "tags": [
+        5897
+      ],
+      "genre": [
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "qImwl91Fdow",
+        "ytreleasedate": "2024/07/24",
+        "spotify_track_id": "372ltCYz1uLID85yHqe7S9",
+        "spotify_release_date": "2024-07-12",
+        "spotify_name": "Can You Feel the Love Tonight - From \"A Whole New Sound\"",
+        "spotify_artists": "シンプル・プラン, ディズニー",
+        "spotify_album": "Can You Feel the Love Tonight (From \"A Whole New Sound\")",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731e9ee423dda6a5800a575ceb",
+        "spotify_duration_ms": "173350",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.488",
+        "spotify_energy": "0.872",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.301",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0723",
+        "spotify_tempo": "168.055",
+        "spotify_valence": "0.557",
+        "spotify_acousticness": "0.000182",
+        "spotify_instrumentalness": "0.00000242",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.132",
+        "spotify_artists01": "シンプル・プラン",
+        "spotify_artists01_id": "2p4FqHnazRucYQHyDCdBrJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebfdf40c1eab3c562e96522d02",
+        "spotify_artists01_genres": "canadian pop punk, canadian punk, canadian rock, modern rock, neon pop punk, pop punk, pop rock",
+        "spotify_artists01_popularity": "68",
+        "spotify_artists02": "ディズニー",
+        "spotify_artists02_id": "3xvaSlT4xsyk6lY1ESOspO",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc698d53b77db34027b00f853",
+        "spotify_artists02_genres": "movie tunes",
+        "spotify_artists02_popularity": "82",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2731e9ee423dda6a5800a575ceb.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1785,
+            "name": "Simple Plan",
+            "slug": "simple-plan",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1999",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シンプル・プラン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "シンプル・プラン, ディズニー",
+        "ytvideoid": "qImwl91Fdow",
+        "spotify_track_id": "372ltCYz1uLID85yHqe7S9"
+      },
+      "genre_data": [
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "can-you-feel-the-love-tonight-2"
+    },
+    {
+      "id": 54011,
+      "date": "2023-10-13T20:16:57",
+      "date_gmt": "2023-10-13T11:16:57",
+      "title": {
+        "rendered": "Iconic"
+      },
+      "content": {
+        "rendered": "<p>Simple Plan - Iconic (feat. Jax)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3428,
+        1785
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4r0AbYYtiklnWyNRgEHPM8",
+        "spotify_release_date": "2023-10-13",
+        "spotify_name": "Iconic (feat. Jax)",
+        "spotify_artists": "Simple Plan, Jax",
+        "spotify_album": "Iconic (feat. Jax)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273016e2b72eff5f3e3ab31bdf5",
+        "spotify_duration_ms": "186258",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.598",
+        "spotify_energy": "0.857",
+        "spotify_key": "11",
+        "spotify_loudness": "-3.569",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0307",
+        "spotify_tempo": "90.05",
+        "spotify_valence": "0.582",
+        "spotify_acousticness": "0.00156",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.376",
+        "spotify_artists01": "シンプル・プラン",
+        "spotify_artists01_id": "2p4FqHnazRucYQHyDCdBrJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9e889e992f5dc0e7bb632713",
+        "spotify_artists01_genres": "canadian pop punk, canadian punk, canadian rock, modern rock, neon pop punk, pop punk, pop rock",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "Jax",
+        "spotify_artists02_id": "7DQYAz99eM3Y5PkP9WtUew",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb9b047b776a6e3419b09913fb",
+        "spotify_artists02_genres": "gen z singer-songwriter",
+        "spotify_artists02_popularity": "60",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "IPQtgqSVeYU",
+        "ytreleasedate": "2023/10/13"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Simple-Plan-Iconic-feat.-Jax.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3428,
+            "name": "Jax",
+            "slug": "jax",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19960505",
+              "artistjpname": "ジャックス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "7DQYAz99eM3Y5PkP9WtUew",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bda11eb410674fddbe8343c0"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1785,
+            "name": "Simple Plan",
+            "slug": "simple-plan",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1999",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シンプル・プラン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Simple Plan, Jax",
+        "ytvideoid": "IPQtgqSVeYU",
+        "spotify_track_id": "4r0AbYYtiklnWyNRgEHPM8"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "iconic"
+    },
+    {
+      "id": 40027,
+      "date": "2022-03-16T18:32:00",
+      "date_gmt": "2022-03-16T09:32:00",
+      "title": {
+        "rendered": "Congratulations"
+      },
+      "content": {
+        "rendered": "\n<p>SimplePlan-Congratulations</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1785
+      ],
+      "tags": [],
+      "genre": [
+        658,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7j7iaMkcwjuA2oQHgRRRaX",
+        "spotify_release_date": "2022/5/6",
+        "spotify_name": "Congratulations",
+        "spotify_artists": "SimplePlan",
+        "spotify_album": "HarderThanItLooks",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273642d4ad3a8c6713e8fe61b62",
+        "spotify_duration_ms": "196887",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.45",
+        "spotify_energy": "0.912",
+        "spotify_key": "8",
+        "spotify_loudness": "-3.957",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0427",
+        "spotify_tempo": "185.053",
+        "spotify_valence": "0.772",
+        "spotify_acousticness": "3.91E-05",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0938",
+        "spotify_artists01": "SimplePlan",
+        "spotify_artists01_id": "2p4FqHnazRucYQHyDCdBrJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb14be52ba7ed12e0177ebe08b",
+        "spotify_artists01_genres": "canadianpoppunk,canadianpunk,canadianrock,modernrock,neonpoppunk,poppunk",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "QMLx5eN_3UU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Simple-Plan-Congratulations.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1785,
+            "name": "Simple Plan",
+            "slug": "simple-plan",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1999",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シンプル・プラン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SimplePlan",
+        "ytvideoid": "QMLx5eN_3UU",
+        "spotify_track_id": "7j7iaMkcwjuA2oQHgRRRaX"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "congratulations-2"
+    },
+    {
+      "id": 40241,
+      "date": "2022-02-18T22:12:00",
+      "date_gmt": "2022-02-18T13:12:00",
+      "title": {
+        "rendered": "Ruin My Life"
+      },
+      "content": {
+        "rendered": "\n<p>SimplePlan-RuinMyLifefeat.DeryckWhibley</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1840,
+        1785
+      ],
+      "tags": [],
+      "genre": [
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "b1Ny_C5XGNQ",
+        "likecount": "1",
+        "spotify_track_id": "0g4Nl4tH0jef0wApjV5sfH",
+        "spotify_release_date": "2022/5/6",
+        "spotify_name": "RuinMyLife(feat.DeryckWhibley)",
+        "spotify_artists": "Simple Plan, Deryck Whibley",
+        "spotify_album": "HarderThanItLooks",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273642d4ad3a8c6713e8fe61b62",
+        "spotify_duration_ms": "199198",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.505",
+        "spotify_energy": "0.893",
+        "spotify_key": "1",
+        "spotify_loudness": "-3.314",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.1",
+        "spotify_tempo": "171.081",
+        "spotify_valence": "0.682",
+        "spotify_acousticness": "0.00169",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.145",
+        "spotify_artists01": "SimplePlan",
+        "spotify_artists01_id": "2p4FqHnazRucYQHyDCdBrJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb14be52ba7ed12e0177ebe08b",
+        "spotify_artists01_genres": "canadianpoppunk,canadianpunk,canadianrock,modernrock,neonpoppunk,poppunk",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "DeryckWhibley",
+        "spotify_artists02_id": "4qJK4cVUMM04auRU8oa4bf",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "35",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Simple-Plan-Ruin-My-Life.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1840,
+            "name": "Deryck Whibley",
+            "slug": "deryck-whibley",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1785,
+            "name": "Simple Plan",
+            "slug": "simple-plan",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1999",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シンプル・プラン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Simple Plan, Deryck Whibley",
+        "ytvideoid": "b1Ny_C5XGNQ",
+        "spotify_track_id": "0g4Nl4tH0jef0wApjV5sfH"
+      },
+      "genre_data": [
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ruin-my-life"
+    }
+  ],
+  "totalSongs": 5,
+  "totalPages": 1,
+  "currentPage": 1
+}

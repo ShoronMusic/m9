@@ -1,0 +1,63 @@
+{
+  "id": 2364,
+  "count": 2,
+  "description": "Tom Morello is an American guitarist, singer, songwriter.",
+  "link": "https://sub.music8.jp/category/tom-morello/",
+  "name": "Tom Morello",
+  "slug": "tom-morello",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1979",
+    "artistborn": "19640530",
+    "artistdied": "",
+    "artistjpname": "トム・モレロ",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2364",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2364"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2364"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "トム・モレロ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1979",
+  "occupation": ""
+}

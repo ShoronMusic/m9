@@ -1,0 +1,63 @@
+{
+  "id": 3043,
+  "count": 2,
+  "description": "John Martin is a Swedish singer and songwriter.",
+  "link": "https://sub.music8.jp/category/john-martin/",
+  "name": "John Martin",
+  "slug": "john-martin",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2010",
+    "artistborn": "19800824",
+    "artistdied": "",
+    "artistjpname": "ジョン・マーティン",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3043",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3043"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3043"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジョン・マーティン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2010",
+  "occupation": ""
+}

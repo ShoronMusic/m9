@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1811,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/automatic/",
+    "name": "Automatic",
+    "slug": "automatic",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1811",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1811"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1811"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40092,
+      "date": "2022-03-09T01:37:00",
+      "date_gmt": "2022-03-08T16:37:00",
+      "title": {
+        "rendered": "New Beginning"
+      },
+      "content": {
+        "rendered": "\n<p>Automatic-NewBeginning</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1811
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        665
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "070Sb4HEVCbnZ2StWk6gjU",
+        "spotify_release_date": "2022/6/24",
+        "spotify_name": "NewBeginning",
+        "spotify_artists": "Automatic",
+        "spotify_album": "Excess",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738790e5214fa78c0703adafc5",
+        "spotify_duration_ms": "239320",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.12901617006774674",
+        "spotify_energy": "0.9215642699051351",
+        "spotify_key": "1.0122662180732396",
+        "spotify_loudness": "0.16297837682336394",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.373844340660028",
+        "spotify_tempo": "-1.847517392998305",
+        "spotify_valence": "0.46116289423896645",
+        "spotify_acousticness": "-0.78017814251594",
+        "spotify_instrumentalness": "0.17587618700596833",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.3522650412757518",
+        "spotify_artists01": "Automatic",
+        "spotify_artists01_id": "3uX1tstdmFJyxW9b5mSNlU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc587085d8510efc5c702fa78",
+        "spotify_artists01_genres": "synthpunk",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "muEyle9evDQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Automatic-New-Beginning.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1811,
+            "name": "Automatic",
+            "slug": "automatic",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Automatic",
+        "ytvideoid": "muEyle9evDQ",
+        "spotify_track_id": "070Sb4HEVCbnZ2StWk6gjU"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "new-beginning"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

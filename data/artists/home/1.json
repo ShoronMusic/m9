@@ -1,0 +1,323 @@
+{
+  "artist": {
+    "id": 3792,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/home/",
+    "name": "HOME",
+    "slug": "home",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "JPN",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3792",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3792"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3792"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 85229,
+      "date": "2024-11-08T11:03:09",
+      "date_gmt": "2024-11-08T02:03:09",
+      "title": {
+        "rendered": "Tell Me"
+      },
+      "content": {
+        "rendered": "<p>HOME - Tell Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3792
+      ],
+      "tags": [],
+      "genre": [
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "SgpHkkp2udE",
+        "ytreleasedate": "2024/11/08",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2FtoRpAX2JUcWxI4jKQLqu",
+        "spotify_release_date": "2024-04-04",
+        "spotify_name": "Tell Me Why",
+        "spotify_artists": "lavender home, soave lofi",
+        "spotify_album": "Tell Me Why",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27317e3cd8e35c6023ac43521f1",
+        "spotify_duration_ms": "123428",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.666",
+        "spotify_energy": "0.201",
+        "spotify_key": "11",
+        "spotify_loudness": "-15.131",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0842",
+        "spotify_tempo": "148.043",
+        "spotify_valence": "0.092",
+        "spotify_acousticness": "0.964",
+        "spotify_instrumentalness": "0.898",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.122",
+        "spotify_artists01": "lavender home",
+        "spotify_artists01_id": "1CwrZttbwK0qOv9N9MfAPp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab67616d0000b27371c718850759cc291ce0edee",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "38",
+        "spotify_artists02": "soave lofi",
+        "spotify_artists02_id": "0QuTX3mzksvtwoQru6tiF8",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebb9378f2c32eb15742fad5cb1",
+        "spotify_artists02_genres": "lo-fi cover",
+        "spotify_artists02_popularity": "64",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/home-tell-me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3792,
+            "name": "HOME",
+            "slug": "home",
+            "acf": {
+              "artistorigin": "JPN",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "lavender home, soave lofi",
+        "ytvideoid": "SgpHkkp2udE",
+        "spotify_track_id": "2FtoRpAX2JUcWxI4jKQLqu"
+      },
+      "genre_data": [
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "tell-me-2"
+    },
+    {
+      "id": 57679,
+      "date": "2023-08-02T20:28:49",
+      "date_gmt": "2023-08-02T11:28:49",
+      "title": {
+        "rendered": "Lucy"
+      },
+      "content": {
+        "rendered": "<p>HOME - Lucy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3792
+      ],
+      "tags": [],
+      "genre": [
+        449,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1ioc0bvKPoAjGAyZ5lRxvu",
+        "spotify_release_date": "2023-08-02",
+        "spotify_name": "Lucy",
+        "spotify_artists": "HOME",
+        "spotify_album": "Lucy",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273964092c277f58a7d61fa6574",
+        "spotify_duration_ms": "187157",
+        "spotify_popularity": "33",
+        "spotify_danceability": "0.664",
+        "spotify_energy": "0.877",
+        "spotify_key": "9",
+        "spotify_loudness": "-3.342",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0316",
+        "spotify_tempo": "151.02",
+        "spotify_valence": "0.345",
+        "spotify_acousticness": "0.306",
+        "spotify_instrumentalness": "0.00026",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.335",
+        "spotify_artists01": "HOME",
+        "spotify_artists01_id": "05TvJ2uTExkaxykVebDcJB",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebfb2ee1a885d3427249fe4387",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "23",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "IKLFWvp2eBo",
+        "ytreleasedate": "2023/08/02"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/HOME-Lucy.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3792,
+            "name": "HOME",
+            "slug": "home",
+            "acf": {
+              "artistorigin": "JPN",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "HOME",
+        "ytvideoid": "IKLFWvp2eBo",
+        "spotify_track_id": "1ioc0bvKPoAjGAyZ5lRxvu"
+      },
+      "genre_data": [
+        {
+          "name": "Chamber pop",
+          "slug": "chamber-pop",
+          "term_id": 449,
+          "post_count": 100
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "lucy"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,63 @@
+{
+  "id": 2255,
+  "count": 6,
+  "description": "The Hu is a Mongolian folk metal band.",
+  "link": "https://sub.music8.jp/category/hu/",
+  "name": "HU",
+  "slug": "hu",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "MGL",
+    "artistactiveyearstart": "2016",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・フー",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2255",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2255"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2255"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ザ・フー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2016",
+  "occupation": ""
+}

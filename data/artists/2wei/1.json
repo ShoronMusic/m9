@@ -1,0 +1,196 @@
+{
+  "artist": {
+    "id": 4420,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/2wei/",
+    "name": "2WEI",
+    "slug": "2wei",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4420",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4420"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4420"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 64726,
+      "date": "2024-03-24T21:28:08",
+      "date_gmt": "2024-03-24T12:28:08",
+      "title": {
+        "rendered": "Down With The Wolves"
+      },
+      "content": {
+        "rendered": "<p>Score, 2WEI - Down With The Wolves</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4420,
+        1903
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "uhXW7eqF_SQ",
+        "ytreleasedate": "2024/03/22",
+        "likecount": "1",
+        "artist_order": "Score, 2WEI",
+        "spotify_track_id": "5DtLkQnQfzJYj8QBJKYiqS",
+        "spotify_release_date": "2024-03-22",
+        "spotify_name": "Down With The Wolves",
+        "spotify_artists": "The Score, 2WEI",
+        "spotify_album": "Down With The Wolves",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737d5fc7c30bf962ae616266bc",
+        "spotify_duration_ms": "191000",
+        "spotify_popularity": "22",
+        "spotify_danceability": "0.243",
+        "spotify_energy": "0.769",
+        "spotify_key": "11",
+        "spotify_loudness": "-6.493",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0478",
+        "spotify_tempo": "175.862",
+        "spotify_valence": "0.298",
+        "spotify_acousticness": "0.0113",
+        "spotify_instrumentalness": "0.0000429",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.139",
+        "spotify_artists01": "The Score",
+        "spotify_artists01_id": "2q3GG88dVwuQPF4FmySr9I",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc1fded2a185c54df399fe63a",
+        "spotify_artists01_genres": "modern alternative rock, pov: indie",
+        "spotify_artists01_popularity": "68",
+        "spotify_artists02": "2WEI",
+        "spotify_artists02_id": "4SGDDnlwi5G42HTGzYl2Fc",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb18e34a08c6e99893a0c8dcb6",
+        "spotify_artists02_genres": "epicore",
+        "spotify_artists02_popularity": "63",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2737d5fc7c30bf962ae616266bc.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4420,
+            "name": "2WEI",
+            "slug": "2wei",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1903,
+            "name": "Score",
+            "slug": "score",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・スコア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "Score, 2WEI",
+        "spotify_artists": "The Score, 2WEI",
+        "ytvideoid": "uhXW7eqF_SQ",
+        "spotify_track_id": "5DtLkQnQfzJYj8QBJKYiqS"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "down-with-the-wolves"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

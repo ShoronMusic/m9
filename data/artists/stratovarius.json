@@ -1,0 +1,69 @@
+{
+  "id": 2400,
+  "count": 8,
+  "description": "Stratovarius is a Finnish power metal band.",
+  "link": "https://sub.music8.jp/category/stratovarius/",
+  "name": "Stratovarius",
+  "slug": "stratovarius",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FIN",
+    "artistactiveyearstart": "1984",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ストラトヴァリウス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2400",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2400"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2400"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ストラトヴァリウス",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1984",
+  "occupation": "band"
+}

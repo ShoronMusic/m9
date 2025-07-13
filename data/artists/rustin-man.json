@@ -1,0 +1,77 @@
+{
+  "id": 4369,
+  "count": 2,
+  "description": "",
+  "link": "https://sub.music8.jp/category/rustin-man/",
+  "name": "Rustin Man",
+  "slug": "rustin-man",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 1215,
+        "name": "Madonna",
+        "slug": "madonna",
+        "term_group": 0,
+        "term_taxonomy_id": 1215,
+        "taxonomy": "category",
+        "description": "Madonna is an American singer, songwriter, and actress.",
+        "parent": 0,
+        "count": 62,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": []
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4369",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4369"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4369"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

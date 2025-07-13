@@ -1,0 +1,82 @@
+{
+  "id": 6665,
+  "count": 3,
+  "description": "CMAT is an Irish singer, songwriter, and musician.",
+  "link": "https://sub.music8.jp/category/cmat/",
+  "name": "CMAT",
+  "slug": "cmat",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "IRE",
+    "artistactiveyearstart": "2017",
+    "artistborn": "19960223",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3VBNIRx1LxVdRqOiPgkLwv",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174b68d7dc0f8b678bca480d8b0",
+    "youtube_channel": "UCqOs5M8ExbnFPgVU6dH9lsQ",
+    "wikipedia_page": "CMAT_(musician)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6665",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6665"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6665"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174b68d7dc0f8b678bca480d8b0",
+  "artistActiveYearStart": "2017",
+  "occupation": "singer, songwriter, musician"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 3369,
+  "count": 1,
+  "description": "Avenged Sevenfold (A7X) is an American heavy metal band.",
+  "link": "https://sub.music8.jp/category/avenged-sevenfold/",
+  "name": "Avenged Sevenfold",
+  "slug": "avenged-sevenfold",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1999",
+    "artistborn": "",
+    "artistjpname": "アヴェンジド・セヴンフォールド",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3369",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3369"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3369"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アヴェンジド・セヴンフォールド",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1999",
+  "occupation": ""
+}

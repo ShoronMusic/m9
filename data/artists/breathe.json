@@ -1,0 +1,72 @@
+{
+  "id": 1012,
+  "count": 7,
+  "description": "Breathe was a British pop band.",
+  "link": "https://sub.music8.jp/category/breathe/",
+  "name": "Breathe",
+  "slug": "breathe",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1984-1991",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ブリーズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "53M4Iv2RkzzxFFvW2B1jhC",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517421f51d7e72cdfd3140f425b2"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1012",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1012"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1012"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ブリーズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517421f51d7e72cdfd3140f425b2",
+  "artistActiveYearStart": "1984-1991",
+  "occupation": "band"
+}

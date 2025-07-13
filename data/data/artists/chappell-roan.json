@@ -1,0 +1,76 @@
+{
+  "id": 3051,
+  "count": 9,
+  "description": "Chappell Roan is an American singer and songwriter.",
+  "link": "https://sub.music8.jp/category/chappell-roan/",
+  "name": "Chappell Roan",
+  "slug": "chappell-roan",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2017",
+    "artistborn": "19980219",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "boygenius (boygenius) | Reneé Rapp (renee-rapp) | Ethel Cain | Lucy Dacus (lucy-dacus) | MUNA | Last Dinner Party (last-dinner-party) | Phoebe Bridgers (phoebe-bridgers) | Leith Ross | Lizzy McAlpine (lizzy-mcalpine) | Towa Bird (towa-bird) | Julien Baker | Rina Sawayama (rina-sawayama) | Adrianne Lenker | Suki Waterhouse (suki-waterhouse) | Remi Wolf (remi-wolf) | Maya Hawke (maya-hawke) | dodie (dodie) | Gracie Abrams (gracie-abrams) | hemlocke springs (hemlocke-springs) | quinnie",
+    "spotify_artist_id": "7GlBOeep6PqTfFi59PTUUN",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174cde5a0d57c1b79de5fce6bee"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3051",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3051"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3051"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174cde5a0d57c1b79de5fce6bee",
+  "artistActiveYearStart": "2017",
+  "occupation": "singer, songwriter"
+}

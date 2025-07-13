@@ -1,0 +1,199 @@
+{
+  "artist": {
+    "id": 1752,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/gammer/",
+    "name": "Gammer",
+    "slug": "gammer",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1752",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1752"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1752"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41160,
+      "date": "2021-01-20T23:21:00",
+      "date_gmt": "2021-01-20T14:21:00",
+      "title": {
+        "rendered": "Incoming"
+      },
+      "content": {
+        "rendered": "\n<p>SteveAoki&amp;Gammer-Incoming</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1752,
+        1026
+      ],
+      "tags": [],
+      "genre": [
+        554
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "6glnOPg3nEUxcqLojzgTgL",
+        "spotify_release_date": "2021/1/22",
+        "spotify_name": "Incoming",
+        "spotify_artists": "Steve Aoki, Gammer",
+        "spotify_album": "6OKI - Rave Royale EP",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27330f4d330fc9f6d7a5cf8f0cc",
+        "spotify_duration_ms": "147000",
+        "spotify_popularity": "36",
+        "spotify_danceability": "0.623",
+        "spotify_energy": "0.982",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.484",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.119",
+        "spotify_tempo": "149.993",
+        "spotify_valence": "0.192",
+        "spotify_acousticness": "0.0109",
+        "spotify_instrumentalness": "0.806",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0981",
+        "spotify_artists01": "Steve Aoki",
+        "spotify_artists01_id": "77AiFEVeAVj2ORpC85QVJs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5fb007a707c0ec3a7c1726af",
+        "spotify_artists01_genres": "edm, electro house, pop dance",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "Gammer",
+        "spotify_artists02_id": "5nd7jnne7zbsV2J5jBKNOY",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb49e52e2aec3f24042455e822",
+        "spotify_artists02_genres": "deep happy hardcore, happy hardcore, hardcore techno",
+        "spotify_artists02_popularity": "46",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "IeKG2t5GH_o",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Steve-Aoki-Gammer-Incoming.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1752,
+            "name": "Gammer",
+            "slug": "gammer",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1026,
+            "name": "Steve Aoki",
+            "slug": "steve-aoki",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "19771130",
+              "artistdied": "",
+              "artistjpname": "スティーブ・アオキ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "77AiFEVeAVj2ORpC85QVJs",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174cf85b39d94c486218a687248",
+              "youtube_channel": "UCALvGYb5h_MZCzW_vG8d8eQ",
+              "wikipedia_page": "Steve_Aoki"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Steve Aoki, Gammer",
+        "ytvideoid": "IeKG2t5GH_o",
+        "spotify_track_id": "6glnOPg3nEUxcqLojzgTgL"
+      },
+      "genre_data": [
+        {
+          "name": "Hardcore",
+          "slug": "hardcore",
+          "term_id": 554,
+          "post_count": 3
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "incoming"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

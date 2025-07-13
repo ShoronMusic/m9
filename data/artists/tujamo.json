@@ -1,0 +1,73 @@
+{
+  "id": 1111,
+  "count": 2,
+  "description": "Tujamo is a German DJ and electro house music producer.",
+  "link": "https://sub.music8.jp/category/tujamo/",
+  "name": "Tujamo",
+  "slug": "tujamo",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "2005",
+    "artistborn": "19880118",
+    "artistdied": "",
+    "artistjpname": "トゥジャーモ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1111",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1111"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1111"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "トゥジャーモ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2005",
+  "occupation": "dj, producer"
+}

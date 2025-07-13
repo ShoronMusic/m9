@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 3156,
+    "count": 1,
+    "description": "Barns Courtney is an English singer, songwriter, and musician.",
+    "link": "https://sub.music8.jp/category/barns-courtney/",
+    "name": "Barns Courtney",
+    "slug": "barns-courtney",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2015",
+      "artistborn": "19901117",
+      "artistjpname": "バーンズ・コートニー",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3156",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3156"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3156"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51633,
+      "date": "2023-04-19T22:33:16",
+      "date_gmt": "2023-04-19T13:33:16",
+      "title": {
+        "rendered": "Golden"
+      },
+      "content": {
+        "rendered": "<p>Barns Courtney - Golden</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3156
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0woKDRMZzsFWeHppNQnGlS",
+        "spotify_release_date": "2023-04-19",
+        "spotify_name": "Golden",
+        "spotify_artists": "Barns Courtney",
+        "spotify_album": "Golden",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737058048240671651fda2435c",
+        "spotify_duration_ms": "170523",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.586",
+        "spotify_energy": "0.81",
+        "spotify_key": "6",
+        "spotify_loudness": "-7.287",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0484",
+        "spotify_tempo": "105.015",
+        "spotify_valence": "0.646",
+        "spotify_acousticness": "0.00275",
+        "spotify_instrumentalness": "0.0000295",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.145",
+        "spotify_artists01": "Barns Courtney",
+        "spotify_artists01_id": "5tFRohaO5yEsuJxmMnlCO9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9944967d1ef8b12f85a92118",
+        "spotify_artists01_genres": "modern alternative rock",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "nNFVQf8ll4Y",
+        "ytreleasedate": "2023/04/19"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Barns-Courtney-Golden.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3156,
+            "name": "Barns Courtney",
+            "slug": "barns-courtney",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19901117",
+              "artistjpname": "バーンズ・コートニー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Barns Courtney",
+        "ytvideoid": "nNFVQf8ll4Y",
+        "spotify_track_id": "0woKDRMZzsFWeHppNQnGlS"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "golden"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

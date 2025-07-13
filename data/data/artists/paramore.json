@@ -1,0 +1,87 @@
+{
+  "id": 888,
+  "count": 22,
+  "description": "Paramore is an American rock band.",
+  "link": "https://sub.music8.jp/category/paramore/",
+  "name": "Paramore",
+  "slug": "paramore",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2004",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "パラモア",
+    "member": [
+      {
+        "term_id": 1045,
+        "name": "Hayley Williams",
+        "slug": "hayley-williams",
+        "term_group": 0,
+        "term_taxonomy_id": 1045,
+        "taxonomy": "category",
+        "description": "Hayley Williams is an American musician, The lead vocalist and one of the founding members of the rock band Paramore.",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "74XFHRwlV6OrjEM0A2NCMF",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865",
+    "youtube_channel": "UCc7_woMAIVIW2mAr1rPCsFQ",
+    "wikipedia_page": "Paramore"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/888",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=888"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=888"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "パラモア",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865",
+  "artistActiveYearStart": "2004",
+  "occupation": "band"
+}

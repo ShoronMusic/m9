@@ -1,0 +1,73 @@
+{
+  "id": 1343,
+  "count": 3,
+  "description": "Sam Fischer is an Australian pop rock singer-songwriter and musician.",
+  "link": "https://sub.music8.jp/category/sam-fischer/",
+  "name": "Sam Fischer",
+  "slug": "sam-fischer",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "",
+    "artistborn": "19910705",
+    "artistdied": "",
+    "artistjpname": "サム・フィッシャー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1343",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1343"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1343"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "サム・フィッシャー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "",
+  "occupation": "ssw, musician"
+}

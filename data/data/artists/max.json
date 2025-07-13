@@ -1,0 +1,72 @@
+{
+  "id": 1207,
+  "count": 7,
+  "description": "MAX (Max Schneider) is an American singer and actor.",
+  "link": "https://sub.music8.jp/category/max/",
+  "name": "MAX",
+  "slug": "max",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2008",
+    "artistborn": "19920621",
+    "artistdied": "",
+    "artistjpname": "マックス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1bqxdqvUtPWZri43cKHac8",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517423e614922b351df9c2e93a2b"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1207",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1207"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1207"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マックス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517423e614922b351df9c2e93a2b",
+  "artistActiveYearStart": "2008",
+  "occupation": "singer"
+}

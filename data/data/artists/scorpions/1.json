@@ -1,0 +1,319 @@
+{
+  "artist": {
+    "id": 2227,
+    "count": 2,
+    "description": "The Scorpions are a German hard rock band.",
+    "link": "https://sub.music8.jp/category/scorpions/",
+    "name": "Scorpions",
+    "slug": "scorpions",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "1965",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "スコーピオンズ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2227",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2227"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2227"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40568,
+      "date": "2022-02-26T18:07:00",
+      "date_gmt": "2022-02-26T09:07:00",
+      "title": {
+        "rendered": "When You Know (Where You Come From)"
+      },
+      "content": {
+        "rendered": "\n<p>Scorpions-WhenYouKnow(WhereYouComeFrom)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2227
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4cXLQrYdvNNRGg6fpCxWT2",
+        "spotify_release_date": "2022/2/25",
+        "spotify_name": "When You Know (Where You Come From)",
+        "spotify_artists": "Scorpions",
+        "spotify_album": "Rock Believer (Deluxe)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273eeacad9436d5ba5052d46c43",
+        "spotify_duration_ms": "262146",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.45",
+        "spotify_energy": "0.618",
+        "spotify_key": "2",
+        "spotify_loudness": "-3.522",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0308",
+        "spotify_tempo": "147.96",
+        "spotify_valence": "0.291",
+        "spotify_acousticness": "0.26",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.121",
+        "spotify_artists01": "Scorpions",
+        "spotify_artists01_id": "27T030eWyCQRmDyuvr1kxY",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7440170c0628c2945da819c3",
+        "spotify_artists01_genres": "album rock, german hard rock, german metal, german rock, hard rock, rock",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "syNDdIfKbkw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Scorpions-When-You-Know-Where-You-Come-From.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2227,
+            "name": "Scorpions",
+            "slug": "scorpions",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1965",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スコーピオンズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Scorpions",
+        "ytvideoid": "syNDdIfKbkw",
+        "spotify_track_id": "4cXLQrYdvNNRGg6fpCxWT2"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "when-you-know-where-you-come-from"
+    },
+    {
+      "id": 40486,
+      "date": "2022-01-19T21:40:00",
+      "date_gmt": "2022-01-19T12:40:00",
+      "title": {
+        "rendered": "Rock Believer"
+      },
+      "content": {
+        "rendered": "\n<p>Scorpions-RockBeliever</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2227
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2aTfmRBiYginQLFD4e5cie",
+        "spotify_release_date": "2022/2/25",
+        "spotify_name": "RockBeliever",
+        "spotify_artists": "Scorpions",
+        "spotify_album": "RockBeliever(Deluxe)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273eeacad9436d5ba5052d46c43",
+        "spotify_duration_ms": "237128",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.445",
+        "spotify_energy": "0.88",
+        "spotify_key": "8",
+        "spotify_loudness": "-2.909",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.043",
+        "spotify_tempo": "93.299",
+        "spotify_valence": "0.375",
+        "spotify_acousticness": "0.119",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.272",
+        "spotify_artists01": "Scorpions",
+        "spotify_artists01_id": "27T030eWyCQRmDyuvr1kxY",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7440170c0628c2945da819c3",
+        "spotify_artists01_genres": "albumrock,germanhardrock,germanmetal,germanrock,hardrock,rock",
+        "spotify_artists01_popularity": "72",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "TllvFtkXMBE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Scorpions-Rock-Believer.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2227,
+            "name": "Scorpions",
+            "slug": "scorpions",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1965",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スコーピオンズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Scorpions",
+        "ytvideoid": "TllvFtkXMBE",
+        "spotify_track_id": "2aTfmRBiYginQLFD4e5cie"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rock-believer"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

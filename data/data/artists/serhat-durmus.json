@@ -1,0 +1,76 @@
+{
+  "id": 6224,
+  "count": 4,
+  "description": "Serhat Durmus is a Turkish electronic music producer and DJ.",
+  "link": "https://sub.music8.jp/category/serhat-durmus/",
+  "name": "Serhat Durmus",
+  "slug": "serhat-durmus",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "TUR",
+    "artistactiveyearstart": "2016",
+    "artistborn": "19980410",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1R2iRWvuwwokMKGHirNGTD",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ba5ce117196788eb5c1e03cd"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6224",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6224"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6224"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ba5ce117196788eb5c1e03cd",
+  "artistActiveYearStart": "2016",
+  "occupation": "dj, producer"
+}

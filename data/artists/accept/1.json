@@ -1,0 +1,317 @@
+{
+  "artist": {
+    "id": 4250,
+    "count": 2,
+    "description": "Accept is a German heavy metal band.",
+    "link": "https://sub.music8.jp/category/accept/",
+    "name": "Accept",
+    "slug": "accept",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "1976",
+      "artistborn": "",
+      "artistjpname": "アクセプト",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4250",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4250"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4250"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 64954,
+      "date": "2024-03-28T21:18:11",
+      "date_gmt": "2024-03-28T12:18:11",
+      "title": {
+        "rendered": "The Reckoning"
+      },
+      "content": {
+        "rendered": "<p>ACCEPT - The Reckoning</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4250
+      ],
+      "tags": [],
+      "genre": [
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "yV8USmxRzw0",
+        "ytreleasedate": "2024/03/28",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1kHUi1NRlaHVo4NpfAjHJA",
+        "spotify_release_date": "2024-03-27",
+        "spotify_name": "The Reckoning",
+        "spotify_artists": "アクセプト",
+        "spotify_album": "The Reckoning",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e2d1903adbd76bd483bf39e6",
+        "spotify_duration_ms": "274240",
+        "spotify_popularity": "37",
+        "spotify_danceability": "0.424",
+        "spotify_energy": "0.977",
+        "spotify_key": "11",
+        "spotify_loudness": "-6.634",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0533",
+        "spotify_tempo": "169.988",
+        "spotify_valence": "0.477",
+        "spotify_acousticness": "0.000216",
+        "spotify_instrumentalness": "0.165",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.129",
+        "spotify_artists01": "アクセプト",
+        "spotify_artists01_id": "3JDIAtVrJdQ7GFOX26LYpv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb726d55d855cae9b4bdfd9514",
+        "spotify_artists01_genres": "german heavy metal, german metal, glam metal, hard rock, metal, power metal, speed metal, thrash metal",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273e2d1903adbd76bd483bf39e6.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4250,
+            "name": "Accept",
+            "slug": "accept",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1976",
+              "artistborn": "",
+              "artistjpname": "アクセプト",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "アクセプト",
+        "ytvideoid": "yV8USmxRzw0",
+        "spotify_track_id": "1kHUi1NRlaHVo4NpfAjHJA"
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-reckoning"
+    },
+    {
+      "id": 62769,
+      "date": "2024-02-29T20:56:26",
+      "date_gmt": "2024-02-29T11:56:26",
+      "title": {
+        "rendered": "Humanoid"
+      },
+      "content": {
+        "rendered": "<p>ACCEPT - Humanoid</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4250
+      ],
+      "tags": [],
+      "genre": [
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "LYPFFZFBBYY",
+        "ytreleasedate": "2024/02/29",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5tUZwaxzIk8vdXMzMiegRh",
+        "spotify_release_date": "2024-02-28",
+        "spotify_name": "Humanoid",
+        "spotify_artists": "アクセプト",
+        "spotify_album": "Humanoid",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c48faeb9542ff932941135c9",
+        "spotify_duration_ms": "275426",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.417",
+        "spotify_energy": "0.964",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.722",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0612",
+        "spotify_tempo": "162.044",
+        "spotify_valence": "0.359",
+        "spotify_acousticness": "0.000071",
+        "spotify_instrumentalness": "0.198",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.134",
+        "spotify_artists01": "アクセプト",
+        "spotify_artists01_id": "3JDIAtVrJdQ7GFOX26LYpv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb726d55d855cae9b4bdfd9514",
+        "spotify_artists01_genres": "german heavy metal, german metal, glam metal, hard rock, metal, power metal, speed metal, thrash metal",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ACCEPT-Humanoid.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4250,
+            "name": "Accept",
+            "slug": "accept",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1976",
+              "artistborn": "",
+              "artistjpname": "アクセプト",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "アクセプト",
+        "ytvideoid": "LYPFFZFBBYY",
+        "spotify_track_id": "5tUZwaxzIk8vdXMzMiegRh"
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "humanoid"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

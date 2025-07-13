@@ -1,0 +1,315 @@
+{
+  "artist": {
+    "id": 1004,
+    "count": 2,
+    "description": "The Church are an Australian rock band.",
+    "link": "https://sub.music8.jp/category/church/",
+    "name": "Church",
+    "slug": "church",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "1980",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ザ・チャーチ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1004",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1004"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1004"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47676,
+      "date": "1988-04-01T15:59:00",
+      "date_gmt": "1988-04-01T06:59:00",
+      "title": {
+        "rendered": "Reptile"
+      },
+      "content": {
+        "rendered": "<p>The Church - Reptile</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1004
+      ],
+      "tags": [],
+      "genre": [
+        460,
+        677
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "29Znt9AbEH9FSsw86zPAYT",
+        "spotify_release_date": "1988/2/16",
+        "spotify_name": "Reptile",
+        "spotify_artists": "The Church",
+        "spotify_album": "Starfish",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734b75b4c598bbf7c852d3b3fe",
+        "spotify_duration_ms": "295973",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.433",
+        "spotify_energy": "0.67",
+        "spotify_key": "7",
+        "spotify_loudness": "-13.126",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0396",
+        "spotify_tempo": "156.99",
+        "spotify_valence": "0.497",
+        "spotify_acousticness": "0.0206",
+        "spotify_instrumentalness": "0.0096",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.208",
+        "spotify_artists01": "The Church",
+        "spotify_artists01_id": "2ZfogSsOWP4mVfEqfpLXCt",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf87738dae4fe74422080fa5c",
+        "spotify_artists01_genres": "australian rock, dream pop, new romantic, new wave",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "x6Mx5xKOMAk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Church-Reptile.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1004,
+            "name": "Church",
+            "slug": "church",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1980",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・チャーチ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Church",
+        "ytvideoid": "x6Mx5xKOMAk",
+        "spotify_track_id": "29Znt9AbEH9FSsw86zPAYT"
+      },
+      "genre_data": [
+        {
+          "name": "College rock",
+          "slug": "college-rock",
+          "term_id": 460,
+          "post_count": 1
+        },
+        {
+          "name": "Psychedelic pop",
+          "slug": "psychedelic-pop",
+          "term_id": 677,
+          "post_count": 79
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "reptile"
+    },
+    {
+      "id": 47693,
+      "date": "1988-02-15T15:51:00",
+      "date_gmt": "1988-02-15T06:51:00",
+      "title": {
+        "rendered": "Under The Milky Way"
+      },
+      "content": {
+        "rendered": "<p>The Church - Under The Milky Way</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1004
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        485
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "1RCtHLyq1xIbgGMrYRrKJ2",
+        "spotify_release_date": "1988/2/16",
+        "spotify_name": "Under the Milky Way",
+        "spotify_artists": "The Church",
+        "spotify_album": "Starfish",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734b75b4c598bbf7c852d3b3fe",
+        "spotify_duration_ms": "297600",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.578",
+        "spotify_energy": "0.583",
+        "spotify_key": "9",
+        "spotify_loudness": "-13.416",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0269",
+        "spotify_tempo": "135.986",
+        "spotify_valence": "0.519",
+        "spotify_acousticness": "0.0548",
+        "spotify_instrumentalness": "0.199",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.125",
+        "spotify_artists01": "The Church",
+        "spotify_artists01_id": "2ZfogSsOWP4mVfEqfpLXCt",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf87738dae4fe74422080fa5c",
+        "spotify_artists01_genres": "australian rock, dream pop, new romantic, new wave",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "pWxJEIz7sSA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Church-Under-The-Milky-Way.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1004,
+            "name": "Church",
+            "slug": "church",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1980",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・チャーチ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Church",
+        "ytvideoid": "pWxJEIz7sSA",
+        "spotify_track_id": "1RCtHLyq1xIbgGMrYRrKJ2"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Dream pop",
+          "slug": "dream-pop",
+          "term_id": 485,
+          "post_count": 212
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "under-the-milky-way"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,63 @@
+{
+  "id": 1325,
+  "count": 3,
+  "description": "Jason Aldean is an American country music singer.",
+  "link": "https://sub.music8.jp/category/jason-aldean/",
+  "name": "Jason Aldean",
+  "slug": "jason-aldean",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1998",
+    "artistborn": "19770228",
+    "artistdied": "",
+    "artistjpname": "ジェイソン・アルディーン",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1325",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1325"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1325"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェイソン・アルディーン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1998",
+  "occupation": ""
+}

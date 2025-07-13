@@ -1,0 +1,226 @@
+{
+  "artist": {
+    "id": 2371,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/mazie/",
+    "name": "mazie",
+    "slug": "mazie",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2371",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2371"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2371"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38086,
+      "date": "2023-01-18T23:21:00",
+      "date_gmt": "2023-01-18T14:21:00",
+      "title": {
+        "rendered": "New York"
+      },
+      "content": {
+        "rendered": "<p>SteveAoki&amp;Regard-NewYorkft.mazie</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2371,
+        1685,
+        1026
+      ],
+      "tags": [],
+      "genre": [
+        501
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0WdkklLlHI5SdulAdk32wE",
+        "spotify_release_date": "2023/1/6",
+        "spotify_name": "New York ft. mazie",
+        "spotify_artists": "Steve Aoki, Regard, mazie",
+        "spotify_album": "New York ft. mazie",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fa8f2f475e880428a7da7e0e",
+        "spotify_duration_ms": "132228",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.409",
+        "spotify_energy": "0.76",
+        "spotify_key": "6",
+        "spotify_loudness": "-5.291",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.264",
+        "spotify_tempo": "103.909",
+        "spotify_valence": "0.601",
+        "spotify_acousticness": "0.286",
+        "spotify_instrumentalness": "3.30E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0807",
+        "spotify_artists01": "Steve Aoki",
+        "spotify_artists01_id": "77AiFEVeAVj2ORpC85QVJs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5fb007a707c0ec3a7c1726af",
+        "spotify_artists01_genres": "edm, electro house, pop dance",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "Regard",
+        "spotify_artists02_id": "4ofCBoyEiGSePFAG500xev",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb57b88b86e0c19c06033630aa",
+        "spotify_artists02_genres": "pop dance, pop edm, slap house, uk dance",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "mazie",
+        "spotify_artists03_id": "4adSXA1GDOxNG7Zw89YHyz",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebb5612ce79e8db40685f287b7",
+        "spotify_artists03_genres": "modern indie pop",
+        "spotify_artists03_popularity": "56",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "PJ930DI6Cqg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Steve-Aoki-Regard-New-York-ft.-mazie.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2371,
+            "name": "mazie",
+            "slug": "mazie",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1685,
+            "name": "Regard",
+            "slug": "regard",
+            "acf": {
+              "artistorigin": "KOS",
+              "artistactiveyearstart": "2016",
+              "artistborn": "19930723",
+              "artistdied": "",
+              "artistjpname": "リガード",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1026,
+            "name": "Steve Aoki",
+            "slug": "steve-aoki",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "19771130",
+              "artistdied": "",
+              "artistjpname": "スティーブ・アオキ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "77AiFEVeAVj2ORpC85QVJs",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174cf85b39d94c486218a687248",
+              "youtube_channel": "UCALvGYb5h_MZCzW_vG8d8eQ",
+              "wikipedia_page": "Steve_Aoki"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Steve Aoki, Regard, mazie",
+        "ytvideoid": "PJ930DI6Cqg",
+        "spotify_track_id": "0WdkklLlHI5SdulAdk32wE"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "new-york-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

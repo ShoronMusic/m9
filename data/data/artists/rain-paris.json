@@ -1,0 +1,76 @@
+{
+  "id": 5176,
+  "count": 2,
+  "description": "Rain Paris is a Canadian singer-songwriter.",
+  "link": "https://sub.music8.jp/category/rain-paris/",
+  "name": "Rain Paris",
+  "slug": "rain-paris",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "2013",
+    "artistborn": "19930513",
+    "artistjpname": "レイン・パリ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "10TCOjSPs9ywBN1Q083BnB",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517418a8c92579a71dd7ad88093c"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5176",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5176"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5176"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "レイン・パリ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517418a8c92579a71dd7ad88093c",
+  "artistActiveYearStart": "2013",
+  "occupation": "singer, songwriter"
+}

@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 2639,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/windser/",
+    "name": "WINDSER",
+    "slug": "windser",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2639",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2639"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2639"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38932,
+      "date": "2022-08-19T13:39:00",
+      "date_gmt": "2022-08-19T04:39:00",
+      "title": {
+        "rendered": "MANIAC"
+      },
+      "content": {
+        "rendered": "\n<p>MACKLEMORE-MANIACFEATURINGWINDSER</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2607,
+        2639
+      ],
+      "tags": [],
+      "genre": [
+        574,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": null,
+        "spotify_track_id": "4Dmav01B2Fra0U4VYPPq4d",
+        "spotify_release_date": "2022/8/19",
+        "spotify_name": "MANIAC(feat.Windser)",
+        "spotify_artists": "Macklemore,Windser",
+        "spotify_album": "MANIAC(feat.Windser)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273faa65094520f6e9522944218",
+        "spotify_duration_ms": "180902",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.708",
+        "spotify_energy": "0.674",
+        "spotify_key": "11",
+        "spotify_loudness": "-7.434",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.107",
+        "spotify_tempo": "152.051",
+        "spotify_valence": "0.736",
+        "spotify_acousticness": "0.137",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.258",
+        "spotify_artists01": "Macklemore",
+        "spotify_artists01_id": "3JhNCzhSMTxs9WLGJJxWOY",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb488b3b242f97163a7f8e17b9",
+        "spotify_artists01_genres": "poprap,seattlehiphop",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "Windser",
+        "spotify_artists02_id": "0G9ibJ5qs4Zl6iupdrVAG1",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb491e8896adb24d2812a9905b",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "47",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/MACKLEMORE-MANIAC-FEATURING-WINDSER.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2607,
+            "name": "Macklemore",
+            "slug": "macklemore",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2000",
+              "artistborn": "19830619",
+              "artistdied": "",
+              "artistjpname": "マックルモアー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2639,
+            "name": "WINDSER",
+            "slug": "windser",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Macklemore,Windser",
+        "ytvideoid": "",
+        "spotify_track_id": "4Dmav01B2Fra0U4VYPPq4d"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "maniac-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

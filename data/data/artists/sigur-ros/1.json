@@ -1,0 +1,319 @@
+{
+  "artist": {
+    "id": 3179,
+    "count": 2,
+    "description": "Sigur Rós is an Icelandic post-rock band,",
+    "link": "https://sub.music8.jp/category/sigur-ros/",
+    "name": "Sigur Rós",
+    "slug": "sigur-ros",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "ISL",
+      "artistactiveyearstart": "1994",
+      "artistborn": "",
+      "artistjpname": "シガー・ロス",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3179",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3179"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3179"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51854,
+      "date": "2023-09-05T03:37:56",
+      "date_gmt": "2023-09-04T18:37:56",
+      "title": {
+        "rendered": "Skel"
+      },
+      "content": {
+        "rendered": "<p>Sigur Rós - Skel</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3179
+      ],
+      "tags": [],
+      "genre": [
+        413,
+        415,
+        667
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4y2PbNSL31Zew8wfVdPjeK",
+        "spotify_release_date": "2023-06-16",
+        "spotify_name": "Skel",
+        "spotify_artists": "Sigur Rós",
+        "spotify_album": "ÁTTA",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27374a5ed27045be72c484074a2",
+        "spotify_duration_ms": "298986",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.155",
+        "spotify_energy": "0.162",
+        "spotify_key": "1",
+        "spotify_loudness": "-12.407",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0488",
+        "spotify_tempo": "134.296",
+        "spotify_valence": "0.0353",
+        "spotify_acousticness": "0.866",
+        "spotify_instrumentalness": "0.925",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.0741",
+        "spotify_artists01": "シガー・ロス",
+        "spotify_artists01_id": "6UUrUCIZtQeOf8tC0WuzRy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6e9247ebb1bd90c23fb776fc",
+        "spotify_artists01_genres": "chamber pop, compositional ambient, dream pop, ethereal wave, icelandic rock, indie rock, melancholia, nordic post-rock, post-rock",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "JQVOCcEG-BA",
+        "ytreleasedate": "2023/09/05"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sigur-Ros-Skel.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3179,
+            "name": "Sigur Rós",
+            "slug": "sigur-ros",
+            "acf": {
+              "artistorigin": "ISL",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistjpname": "シガー・ロス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Sigur Rós",
+        "ytvideoid": "JQVOCcEG-BA",
+        "spotify_track_id": "4y2PbNSL31Zew8wfVdPjeK"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient",
+          "slug": "ambient",
+          "term_id": 413,
+          "post_count": 25
+        },
+        {
+          "name": "Ambient pop",
+          "slug": "ambient-pop",
+          "term_id": 415,
+          "post_count": 61
+        },
+        {
+          "name": "Post-rock",
+          "slug": "post-rock",
+          "term_id": 667,
+          "post_count": 27
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "skel"
+    },
+    {
+      "id": 71657,
+      "date": "2000-03-20T00:23:20",
+      "date_gmt": "2000-03-19T15:23:20",
+      "title": {
+        "rendered": "Ný Batterí"
+      },
+      "content": {
+        "rendered": "<p>Sigur Rós - Ný Batterí</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3179
+      ],
+      "tags": [],
+      "genre": [
+        413,
+        667
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "DNWJ7lbshzQ",
+        "ytreleasedate": "",
+        "spotify_track_id": "5Vaf7zr1ISsISAXnjB2X98",
+        "spotify_release_date": "1999-06-12",
+        "spotify_name": "Ný batterí",
+        "spotify_artists": "シガー・ロス",
+        "spotify_album": "Ágætis byrjun",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27397d4015428c1ae8409236f69",
+        "spotify_duration_ms": "490706",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.129",
+        "spotify_energy": "0.375",
+        "spotify_key": "11",
+        "spotify_loudness": "-10.926",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0427",
+        "spotify_tempo": "166.129",
+        "spotify_valence": "0.0436",
+        "spotify_acousticness": "0.0745",
+        "spotify_instrumentalness": "0.409",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.151",
+        "spotify_artists01": "シガー・ロス",
+        "spotify_artists01_id": "6UUrUCIZtQeOf8tC0WuzRy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6e9247ebb1bd90c23fb776fc",
+        "spotify_artists01_genres": "chamber pop, compositional ambient, dream pop, ethereal wave, icelandic rock, indie rock, melancholia, nordic post-rock, post-rock",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27397d4015428c1ae8409236f69.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3179,
+            "name": "Sigur Rós",
+            "slug": "sigur-ros",
+            "acf": {
+              "artistorigin": "ISL",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistjpname": "シガー・ロス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "シガー・ロス",
+        "ytvideoid": "DNWJ7lbshzQ",
+        "spotify_track_id": "5Vaf7zr1ISsISAXnjB2X98"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient",
+          "slug": "ambient",
+          "term_id": 413,
+          "post_count": 25
+        },
+        {
+          "name": "Post-rock",
+          "slug": "post-rock",
+          "term_id": 667,
+          "post_count": 27
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ny-batteri"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

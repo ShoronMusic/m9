@@ -1,0 +1,616 @@
+{
+  "artist": {
+    "id": 1838,
+    "count": 4,
+    "description": "The Rasmus is a Finnish rock band",
+    "link": "https://sub.music8.jp/category/rasmus/",
+    "name": "Rasmus",
+    "slug": "rasmus",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FIN",
+      "artistactiveyearstart": "1994",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ザ・ラスムス",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1838",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1838"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1838"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 99162,
+      "date": "2025-05-16T22:18:27",
+      "date_gmt": "2025-05-16T13:18:27",
+      "title": {
+        "rendered": "Break These Chains"
+      },
+      "content": {
+        "rendered": "<p>Rasmus, Niko Vilhelm of Blind Channel - Break These Chains</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6782,
+        1838
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        411
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "dj_kypliLno",
+        "ytreleasedate": "",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "",
+        "artist_order": "Rasmus, Niko Vilhelm",
+        "spotify_track_id": "03epNQcpWbIg6kWRIWLfN7",
+        "spotify_release_date": "2025-05-16",
+        "spotify_name": "Break These Chains (feat. Niko Vilhelm of Blind Channel)",
+        "spotify_artists": "The Rasmus, Blind Channel",
+        "spotify_album": "Break These Chains (feat. Niko Vilhelm of Blind Channel)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738e9b77b63cdd044a3ce6cb65",
+        "spotify_duration_ms": "223906",
+        "spotify_popularity": "0",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "The Rasmus",
+        "spotify_artists01_id": "76ptJV8617638xrpeoUtzl",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb52612710e1a88ad35002aced",
+        "spotify_artists01_genres": "finnish rock",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "Blind Channel",
+        "spotify_artists02_id": "3L58J6a7f0jyy2p6f3MSAs",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb1325659738f1c1f893424eb3",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "49",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/the-rasmus-niko-vilhelm-of-blind-channel-break-these-chains.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6782,
+            "name": "Niko Vilhelm",
+            "slug": "niko-vilhelm",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "3bIDVpODlxr80Gj7EAEXkV",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bf160e980ceb2f726a3db452",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1838,
+            "name": "Rasmus",
+            "slug": "rasmus",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ラスムス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "Rasmus, Niko Vilhelm",
+        "spotify_artists": "The Rasmus, Blind Channel",
+        "ytvideoid": "dj_kypliLno",
+        "spotify_track_id": "03epNQcpWbIg6kWRIWLfN7"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "break-these-chains"
+    },
+    {
+      "id": 94678,
+      "date": "2025-03-28T09:35:28",
+      "date_gmt": "2025-03-28T00:35:28",
+      "title": {
+        "rendered": "Creatures of Chaos"
+      },
+      "content": {
+        "rendered": "<p>The Rasmus - Creatures of Chaos</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1838
+      ],
+      "tags": [],
+      "genre": [
+        411
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "uY4vweIBFcY",
+        "ytreleasedate": "2025/03/28",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "4r3jUruTmJT5N4I99wHnFU",
+        "spotify_release_date": "2025-03-28",
+        "spotify_name": "Creatures of Chaos",
+        "spotify_artists": "The Rasmus",
+        "spotify_album": "Creatures of Chaos",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273315ff390c6814779bb7ea3f9",
+        "spotify_duration_ms": "200483",
+        "spotify_popularity": "10",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "The Rasmus",
+        "spotify_artists01_id": "76ptJV8617638xrpeoUtzl",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb52612710e1a88ad35002aced",
+        "spotify_artists01_genres": "finnish rock",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/the-rasmus-creatures-of-chaos.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1838,
+            "name": "Rasmus",
+            "slug": "rasmus",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ラスムス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "The Rasmus",
+        "ytvideoid": "uY4vweIBFcY",
+        "spotify_track_id": "4r3jUruTmJT5N4I99wHnFU"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "creatures-of-chaos"
+    },
+    {
+      "id": 38663,
+      "date": "2022-09-23T15:02:00",
+      "date_gmt": "2022-09-23T06:02:00",
+      "title": {
+        "rendered": "Live and Never Die"
+      },
+      "content": {
+        "rendered": "\n<p>TheRasmus-LiveandNeverDie</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1838
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7cI3vVVMCTb4BKAC35kjfP",
+        "spotify_release_date": "2022/9/23",
+        "spotify_name": "LiveandNeverDie",
+        "spotify_artists": "TheRasmus",
+        "spotify_album": "Rise",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f35073636fbb23fcffb0119d",
+        "spotify_duration_ms": "234946",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.551",
+        "spotify_energy": "0.931",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.191",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0613",
+        "spotify_tempo": "108.01",
+        "spotify_valence": "0.592",
+        "spotify_acousticness": "0.00809",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.457",
+        "spotify_artists01": "TheRasmus",
+        "spotify_artists01_id": "76ptJV8617638xrpeoUtzl",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe75bd6df1e10c242611096ac",
+        "spotify_artists01_genres": "finnishalternativerock,funkmetal",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "0XITDqsyr1Y",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Rasmus-Live-and-Never-Die.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1838,
+            "name": "Rasmus",
+            "slug": "rasmus",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ラスムス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "TheRasmus",
+        "ytvideoid": "0XITDqsyr1Y",
+        "spotify_track_id": "7cI3vVVMCTb4BKAC35kjfP"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "live-and-never-die"
+    },
+    {
+      "id": 39452,
+      "date": "2022-06-10T12:27:00",
+      "date_gmt": "2022-06-10T03:27:00",
+      "title": {
+        "rendered": "Rise"
+      },
+      "content": {
+        "rendered": "\n<p>TheRasmus-Rise</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1838
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "643JG1S9MQcKPGbBa1MoBF",
+        "spotify_release_date": "2022/9/23",
+        "spotify_name": "Rise",
+        "spotify_artists": "TheRasmus",
+        "spotify_album": "Rise",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f35073636fbb23fcffb0119d",
+        "spotify_duration_ms": "234483",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.328",
+        "spotify_energy": "0.771",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.177",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0473",
+        "spotify_tempo": "119.568",
+        "spotify_valence": "0.206",
+        "spotify_acousticness": "0.00052",
+        "spotify_instrumentalness": "0.000588",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.474",
+        "spotify_artists01": "TheRasmus",
+        "spotify_artists01_id": "76ptJV8617638xrpeoUtzl",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe75bd6df1e10c242611096ac",
+        "spotify_artists01_genres": "finnishalternativerock,funkmetal",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "4YD6kymdp6c",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Rasmus-Rise.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1838,
+            "name": "Rasmus",
+            "slug": "rasmus",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ラスムス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "TheRasmus",
+        "ytvideoid": "4YD6kymdp6c",
+        "spotify_track_id": "643JG1S9MQcKPGbBa1MoBF"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rise"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

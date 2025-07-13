@@ -1,0 +1,183 @@
+{
+  "artist": {
+    "id": 2510,
+    "count": 1,
+    "description": "US/IRL",
+    "link": "https://sub.music8.jp/category/black-swan/",
+    "name": "Black Swan",
+    "slug": "black-swan",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US/IRL",
+      "artistactiveyearstart": "2019",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ブラック・スワン",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2510",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2510"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2510"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40245,
+      "date": "2022-02-18T18:26:00",
+      "date_gmt": "2022-02-18T09:26:00",
+      "title": {
+        "rendered": "Generation Mind"
+      },
+      "content": {
+        "rendered": "\n<p>BlackSwan-GenerationMind</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2510
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5I5s4ebTsPzQIIGwW4bPAQ",
+        "spotify_release_date": "2022/4/8",
+        "spotify_name": "GenerationMind",
+        "spotify_artists": "BlackSwan",
+        "spotify_album": "GenerationMind",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738c5d63366b503838f77f1815",
+        "spotify_duration_ms": "266012",
+        "spotify_popularity": "20",
+        "spotify_danceability": "0.493",
+        "spotify_energy": "0.721",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.174",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.04",
+        "spotify_tempo": "126.065",
+        "spotify_valence": "0.65",
+        "spotify_acousticness": "3.43E-05",
+        "spotify_instrumentalness": "9.95E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.223",
+        "spotify_artists01": "BlackSwan",
+        "spotify_artists01_id": "5gmDGdc0wzxJUD10xycfiL",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab67616d0000b273dc55fb34a46c1e7f6c832eda",
+        "spotify_artists01_genres": "modernhardrock",
+        "spotify_artists01_popularity": "18",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "OfCi7ybORSo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Black-Swan-Generation-Mind.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2510,
+            "name": "Black Swan",
+            "slug": "black-swan",
+            "acf": {
+              "artistorigin": "US/IRL",
+              "artistactiveyearstart": "2019",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ブラック・スワン",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "BlackSwan",
+        "ytvideoid": "OfCi7ybORSo",
+        "spotify_track_id": "5I5s4ebTsPzQIIGwW4bPAQ"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "generation-mind"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

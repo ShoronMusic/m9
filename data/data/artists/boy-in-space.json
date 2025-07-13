@@ -1,0 +1,76 @@
+{
+  "id": 5047,
+  "count": 1,
+  "description": "Boy In Space is a Swedish singer-songwriter and musician.",
+  "link": "https://sub.music8.jp/category/boy-in-space/",
+  "name": "Boy In Space",
+  "slug": "boy-in-space",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2012",
+    "artistborn": "19940517",
+    "artistjpname": "ボーイ・イン・スペース",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "0xu4jAQQv7ZAqvFGdc9HgP",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a3913a190760cc30af6126d7"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5047",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5047"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5047"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ボーイ・イン・スペース",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a3913a190760cc30af6126d7",
+  "artistActiveYearStart": "2012",
+  "occupation": "singer, songwriter"
+}

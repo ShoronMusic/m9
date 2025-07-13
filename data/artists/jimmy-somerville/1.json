@@ -1,0 +1,239 @@
+{
+  "artist": {
+    "id": 807,
+    "count": 1,
+    "description": "Jimmy Somerville is a Scottish pop singer and songwriter. He sang in the 1980s with the pop groups Bronski Beat and the Communards.",
+    "link": "https://sub.music8.jp/category/jimmy-somerville/",
+    "name": "Jimmy Somerville",
+    "slug": "jimmy-somerville",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1983",
+      "artistborn": "19610622",
+      "artistdied": "",
+      "artistjpname": "ジミー・ソマーヴィル",
+      "member": [
+        {
+          "term_id": 806,
+          "name": "Bronski Beat",
+          "slug": "bronski-beat",
+          "term_group": 0,
+          "term_taxonomy_id": 806,
+          "taxonomy": "category",
+          "description": "Bronski Beat was a British synth-pop band.",
+          "parent": 0,
+          "count": 5,
+          "filter": "raw"
+        },
+        {
+          "term_id": 804,
+          "name": "Communards",
+          "slug": "communards",
+          "term_group": 0,
+          "term_taxonomy_id": 804,
+          "taxonomy": "category",
+          "description": "The Communards were a British pop duo.",
+          "parent": 0,
+          "count": 2,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/807",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=807"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=807"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47353,
+      "date": "1990-01-01T22:28:00",
+      "date_gmt": "1990-01-01T13:28:00",
+      "title": {
+        "rendered": "You Make Me Feel (Mighty Real)"
+      },
+      "content": {
+        "rendered": "<p>Jimmy Somerville - You Make Me Feel (Mighty Real)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        807
+      ],
+      "tags": [],
+      "genre": [
+        561,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "nZtdcMIR5do",
+        "likecount": "0",
+        "spotify_track_id": "3lwNHGO5yJLNpHsMlvL9IF",
+        "spotify_release_date": "2002/1/1",
+        "spotify_name": "You Make Me Feel (Mighty Real)",
+        "spotify_artists": "Jimmy Somerville",
+        "spotify_album": "The Very Best Of Jimmy Somerville, Bronski Beat & The Communards",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273000541924b813d95134ca143",
+        "spotify_duration_ms": "235573",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.62",
+        "spotify_energy": "0.905",
+        "spotify_key": "10",
+        "spotify_loudness": "-5.214",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0277",
+        "spotify_tempo": "134.988",
+        "spotify_valence": "0.801",
+        "spotify_acousticness": "0.0176",
+        "spotify_instrumentalness": "0.00097",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.331",
+        "spotify_artists01": "Jimmy Somerville",
+        "spotify_artists01_id": "6LQeBFIfD4C22RJVVjQ6S7",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebff129bf16491298a6cd8ec91",
+        "spotify_artists01_genres": "hi-nrg, new romantic, new wave pop, scottish new wave, synthpop",
+        "spotify_artists01_popularity": "42",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "artist_order": "",
+        "ytreleasedate": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Jimmy-Somerville-You-Make-Me-Feel-Mighty-Real.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 807,
+            "name": "Jimmy Somerville",
+            "slug": "jimmy-somerville",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19610622",
+              "artistdied": "",
+              "artistjpname": "ジミー・ソマーヴィル",
+              "member": [
+                {
+                  "term_id": 806,
+                  "name": "Bronski Beat",
+                  "slug": "bronski-beat",
+                  "term_group": 0,
+                  "term_taxonomy_id": 806,
+                  "taxonomy": "category",
+                  "description": "Bronski Beat was a British synth-pop band.",
+                  "parent": 0,
+                  "count": 5,
+                  "filter": "raw"
+                },
+                {
+                  "term_id": 804,
+                  "name": "Communards",
+                  "slug": "communards",
+                  "term_group": 0,
+                  "term_taxonomy_id": 804,
+                  "taxonomy": "category",
+                  "description": "The Communards were a British pop duo.",
+                  "parent": 0,
+                  "count": 2,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jimmy Somerville",
+        "ytvideoid": "nZtdcMIR5do",
+        "spotify_track_id": "3lwNHGO5yJLNpHsMlvL9IF"
+      },
+      "genre_data": [
+        {
+          "name": "Hi-NRG",
+          "slug": "hi-nrg",
+          "term_id": 561,
+          "post_count": 47
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "you-make-me-feel-mighty-real"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

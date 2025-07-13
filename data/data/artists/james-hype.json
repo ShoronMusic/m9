@@ -1,0 +1,73 @@
+{
+  "id": 2329,
+  "count": 3,
+  "description": "James Hype is an English DJ and record producer.",
+  "link": "https://sub.music8.jp/category/james-hype/",
+  "name": "James Hype",
+  "slug": "james-hype",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2016",
+    "artistborn": "19891128",
+    "artistdied": "",
+    "artistjpname": "ジェームズ・ハイプ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2329",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2329"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2329"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェームズ・ハイプ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2016",
+  "occupation": "dj, producer"
+}

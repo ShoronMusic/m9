@@ -1,0 +1,223 @@
+{
+  "artist": {
+    "id": 1127,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/miss-palmer/",
+    "name": "Miss Palmer",
+    "slug": "miss-palmer",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1127",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1127"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1127"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 44202,
+      "date": "2011-08-22T12:14:00",
+      "date_gmt": "2011-08-22T03:14:00",
+      "title": {
+        "rendered": "No Beef"
+      },
+      "content": {
+        "rendered": "\n<p>Afrojack&amp;SteveAokiftMissPalmer-NoBeef</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1126,
+        1127,
+        1026
+      ],
+      "tags": [],
+      "genre": [
+        492,
+        670
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "52Y9VvRfnKjdM0MvAM21cR",
+        "spotify_release_date": "2011/2/1",
+        "spotify_name": "No Beef - Original Mix",
+        "spotify_artists": "AFROJACK, Steve Aoki, Miss Palmer",
+        "spotify_album": "No Beef",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f10dcea67bc4974d69d47ad3",
+        "spotify_duration_ms": "361941",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.741",
+        "spotify_energy": "0.838",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.181",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0404",
+        "spotify_tempo": "127.98",
+        "spotify_valence": "0.234",
+        "spotify_acousticness": "0.0229",
+        "spotify_instrumentalness": "0.31",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0649",
+        "spotify_artists01": "AFROJACK",
+        "spotify_artists01_id": "4D75GcNG95ebPtNvoNVXhz",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb78484e23002e1607039af9b9",
+        "spotify_artists01_genres": "big room, dance pop, dutch house, edm, electro house, pop dance",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "Steve Aoki",
+        "spotify_artists02_id": "77AiFEVeAVj2ORpC85QVJs",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5fb007a707c0ec3a7c1726af",
+        "spotify_artists02_genres": "edm, electro house, pop dance",
+        "spotify_artists02_popularity": "71",
+        "spotify_artists03": "Miss Palmer",
+        "spotify_artists03_id": "2Vd2ZmSFVZ9LEwHeJ8vf7U",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab67616d0000b273df2d244547ab707efec6e220",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "39",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "LWlmVW3xWM4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Afrojack-Steve-Aoki-ft-Miss-Palmer-No-Beef.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1126,
+            "name": "Afrojack",
+            "slug": "afrojack",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19870909",
+              "artistdied": "",
+              "artistjpname": "アフロジャック",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1127,
+            "name": "Miss Palmer",
+            "slug": "miss-palmer",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1026,
+            "name": "Steve Aoki",
+            "slug": "steve-aoki",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "19771130",
+              "artistdied": "",
+              "artistjpname": "スティーブ・アオキ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "77AiFEVeAVj2ORpC85QVJs",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174cf85b39d94c486218a687248",
+              "youtube_channel": "UCALvGYb5h_MZCzW_vG8d8eQ",
+              "wikipedia_page": "Steve_Aoki"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "AFROJACK, Steve Aoki, Miss Palmer",
+        "ytvideoid": "LWlmVW3xWM4",
+        "spotify_track_id": "52Y9VvRfnKjdM0MvAM21cR"
+      },
+      "genre_data": [
+        {
+          "name": "Electro house",
+          "slug": "electro-house",
+          "term_id": 492,
+          "post_count": 105
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "no-beef"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

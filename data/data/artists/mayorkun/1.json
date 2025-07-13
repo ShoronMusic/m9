@@ -1,0 +1,182 @@
+{
+  "artist": {
+    "id": 2161,
+    "count": 1,
+    "description": "NIG",
+    "link": "https://sub.music8.jp/category/mayorkun/",
+    "name": "Mayorkun",
+    "slug": "mayorkun",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2161",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2161"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2161"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40417,
+      "date": "2022-01-27T23:10:00",
+      "date_gmt": "2022-01-27T14:10:00",
+      "title": {
+        "rendered": "Holy Father"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2161,
+        2162
+      ],
+      "tags": [],
+      "genre": [
+        402,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "hT8jn9vt_a4",
+        "likecount": "1",
+        "spotify_track_id": "3yCYQ0uzJyX0GwJoF3QvAe",
+        "spotify_release_date": "2021/10/27",
+        "spotify_name": "HolyFather",
+        "spotify_artists": "Mayorkun, Victony",
+        "spotify_album": "HolyFather",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273476481ddfb9040a30486c164",
+        "spotify_duration_ms": "184000",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.784",
+        "spotify_energy": "0.865",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.679",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.155",
+        "spotify_tempo": "115.96",
+        "spotify_valence": "0.491",
+        "spotify_acousticness": "0.301",
+        "spotify_instrumentalness": "0.000324",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.11",
+        "spotify_artists01": "Mayorkun",
+        "spotify_artists01_id": "3DNCUaKdMZcMVJIS7yTskd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb3624b58e22a9258bd37e38b",
+        "spotify_artists01_genres": "afrobeats,afropop,nigerianpop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "Victony",
+        "spotify_artists02_id": "1E5hfn5BduN2nnoZCJmUVG",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb7ae7b5364af3ed3f4070ac4e",
+        "spotify_artists02_genres": "afrobeats,nigerianpop",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mayorkun-Victony-Holy-Father.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2161,
+            "name": "Mayorkun",
+            "slug": "mayorkun",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2162,
+            "name": "Victony",
+            "slug": "victony",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Mayorkun, Victony",
+        "ytvideoid": "hT8jn9vt_a4",
+        "spotify_track_id": "3yCYQ0uzJyX0GwJoF3QvAe"
+      },
+      "genre_data": [
+        {
+          "name": "Afrobeats",
+          "slug": "afrobeats",
+          "term_id": 402,
+          "post_count": 135
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "holy-father"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

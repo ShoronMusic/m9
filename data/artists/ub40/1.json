@@ -1,0 +1,369 @@
+{
+  "artist": {
+    "id": 4287,
+    "count": 2,
+    "description": "UB40 are an English reggae and pop band.",
+    "link": "https://sub.music8.jp/category/ub40/",
+    "name": "UB40",
+    "slug": "ub40",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1978",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4287",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4287"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4287"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 63004,
+      "date": "2024-02-23T14:44:00",
+      "date_gmt": "2024-02-23T05:44:00",
+      "title": {
+        "rendered": "Gimme Some Kinda Sign"
+      },
+      "content": {
+        "rendered": "<p>UB40, Gilly G - Gimme Some Kinda Sign</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4288,
+        4287
+      ],
+      "tags": [],
+      "genre": [
+        690
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "IcwejMcz-14",
+        "ytreleasedate": "2024/02/23",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3CR1AZDZxCOQk9kK8TuoRp",
+        "spotify_release_date": "2024-02-23",
+        "spotify_name": "Gimme Some Kinda Sign",
+        "spotify_artists": "UB40, Gilly G",
+        "spotify_album": "Gimme Some Kinda Sign",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27356872ae79b75ed5e3ced63cb",
+        "spotify_duration_ms": "228680",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.727",
+        "spotify_energy": "0.741",
+        "spotify_key": "2",
+        "spotify_loudness": "-6.419",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0387",
+        "spotify_tempo": "171.937",
+        "spotify_valence": "0.913",
+        "spotify_acousticness": "0.0669",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.367",
+        "spotify_artists01": "UB40",
+        "spotify_artists01_id": "69MEO1AADKg1IZrq2XLzo5",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc83eb76e972697256cd12762",
+        "spotify_artists01_genres": "reggae fusion, uk reggae",
+        "spotify_artists01_popularity": "68",
+        "spotify_artists02": "Gilly G",
+        "spotify_artists02_id": "1gV0WyQW2VwQF7cSSSPBrS",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab67616d0000b273476a98b7a000cf5dd36dde63",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "31",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/UB40-Gimme-Some-Kinda-Sign-ft.-Gilly-G.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4288,
+            "name": "Gilly G",
+            "slug": "gilly-g",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4287,
+            "name": "UB40",
+            "slug": "ub40",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "UB40, Gilly G",
+        "ytvideoid": "IcwejMcz-14",
+        "spotify_track_id": "3CR1AZDZxCOQk9kK8TuoRp"
+      },
+      "genre_data": [
+        {
+          "name": "Reggae",
+          "slug": "reggae",
+          "term_id": 690,
+          "post_count": 83
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "gimme-some-kinda-sign"
+    },
+    {
+      "id": 73582,
+      "date": "1988-01-01T23:01:44",
+      "date_gmt": "1988-01-01T14:01:44",
+      "title": {
+        "rendered": "Reckless"
+      },
+      "content": {
+        "rendered": "<p>Afrika Bambaataa, UB40 - Reckless</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5429,
+        4287
+      ],
+      "tags": [],
+      "genre": [
+        524
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "cdnSsI0f84I",
+        "ytreleasedate": "",
+        "spotify_track_id": "4Z34sx7mBjxuEmkGEyoXhT",
+        "spotify_release_date": "1988-01-01",
+        "spotify_name": "Reckless - 7\" Edit",
+        "spotify_artists": "Afrika Bambaataa, UB40",
+        "spotify_album": "The Light",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b3f1b7bd7b586cf079a5ce37",
+        "spotify_duration_ms": "235084",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.751",
+        "spotify_energy": "0.772",
+        "spotify_key": "5",
+        "spotify_loudness": "-12.335",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0334",
+        "spotify_tempo": "114.782",
+        "spotify_valence": "0.953",
+        "spotify_acousticness": "0.122",
+        "spotify_instrumentalness": "0.000367",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.129",
+        "spotify_artists01": "Afrika Bambaataa",
+        "spotify_artists01_id": "7cg61q8kK8jlFi8TKKw70p",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb338f62b09ba1fd4f0f5ed1f4",
+        "spotify_artists01_genres": "bronx hip hop, east coast hip hop, old school hip hop",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "UB40",
+        "spotify_artists02_id": "69MEO1AADKg1IZrq2XLzo5",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb057ec513c696b66901270810",
+        "spotify_artists02_genres": "reggae fusion, uk reggae",
+        "spotify_artists02_popularity": "69",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273b3f1b7bd7b586cf079a5ce37.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5429,
+            "name": "Afrika Bambaataa",
+            "slug": "afrika-bambaataa",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1977–2013",
+              "artistborn": "19570417",
+              "artistjpname": "アフリカ・バンバータ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Grandmaster Melle Mel (grandmaster-melle-mel) | Grandmaster Flash | Soulsonic Force (soulsonic-force) | Kurtis Blow (kurtis-blow) | Newcleus | Grandmaster Flash & The Furious Five | Cold Crush Brothers | Planet Patrol | Grandmaster Caz | Furious Five | DJ Kool Herc | Treacherous Three | Whodini | Sugarhill Gang (sugarhill-gang) | Marley Marl | World Class Wreckin' Cru | Kool Moe Dee | Egyptian Lover | Doug E. Fresh | L.A. Dream Team",
+              "spotify_artist_id": "7cg61q8kK8jlFi8TKKw70p",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174338f62b09ba1fd4f0f5ed1f4"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4287,
+            "name": "UB40",
+            "slug": "ub40",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Afrika Bambaataa, UB40",
+        "ytvideoid": "cdnSsI0f84I",
+        "spotify_track_id": "4Z34sx7mBjxuEmkGEyoXhT"
+      },
+      "genre_data": [
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "reckless"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

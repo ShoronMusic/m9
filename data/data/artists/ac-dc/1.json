@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 4684,
+    "count": 1,
+    "description": "AC/DC are an Australian rock band.",
+    "link": "https://sub.music8.jp/category/ac-dc/",
+    "name": "AC/DC",
+    "slug": "ac-dc",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "1973",
+      "artistborn": "",
+      "artistjpname": "エーシー・ディーシー",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ],
+      "related_artists": "",
+      "spotify_artist_id": "711MCceyCBcFnzjGY4Q7Un",
+      "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c4c77549095c86acb4e77b37"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4684",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4684"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4684"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 67664,
+      "date": "1990-09-10T10:53:39",
+      "date_gmt": "1990-09-10T01:53:39",
+      "title": {
+        "rendered": "Thunderstruck"
+      },
+      "content": {
+        "rendered": "<p>AC/DC - Thunderstruck</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4684
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "v2AC41dglnM",
+        "ytreleasedate": "",
+        "spotify_track_id": "57bgtoPSgt236HzfBOd8kj",
+        "spotify_release_date": "1990-09-24",
+        "spotify_name": "Thunderstruck",
+        "spotify_artists": "AC/DC",
+        "spotify_album": "The Razors Edge",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738399047ff71200928f5b6508",
+        "spotify_duration_ms": "292880",
+        "spotify_popularity": "86",
+        "spotify_danceability": "0.502",
+        "spotify_energy": "0.89",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.175",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0364",
+        "spotify_tempo": "133.52",
+        "spotify_valence": "0.259",
+        "spotify_acousticness": "0.000147",
+        "spotify_instrumentalness": "0.0117",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.217",
+        "spotify_artists01": "AC/DC",
+        "spotify_artists01_id": "711MCceyCBcFnzjGY4Q7Un",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37",
+        "spotify_artists01_genres": "australian rock, hard rock, rock",
+        "spotify_artists01_popularity": "80",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2738399047ff71200928f5b6508.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4684,
+            "name": "AC/DC",
+            "slug": "ac-dc",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1973",
+              "artistborn": "",
+              "artistjpname": "エーシー・ディーシー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "711MCceyCBcFnzjGY4Q7Un",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c4c77549095c86acb4e77b37"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "AC/DC",
+        "ytvideoid": "v2AC41dglnM",
+        "spotify_track_id": "57bgtoPSgt236HzfBOd8kj"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "thunderstruck"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

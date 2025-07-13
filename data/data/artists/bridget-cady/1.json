@@ -1,0 +1,194 @@
+{
+  "artist": {
+    "id": 1239,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/bridget-cady/",
+    "name": "Bridget Cady",
+    "slug": "bridget-cady",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1239",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1239"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1239"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 42609,
+      "date": "2018-07-19T16:56:00",
+      "date_gmt": "2018-07-19T07:56:00",
+      "title": {
+        "rendered": "Didn't I"
+      },
+      "content": {
+        "rendered": "\n<p>RodStewart-Didn'tIft.BridgetCady</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1239,
+        769
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "1GL3ydfG8v9m4jKiVx8UQ0",
+        "spotify_release_date": "2018/9/28",
+        "spotify_name": "Didn't I",
+        "spotify_artists": "Rod Stewart, Bridget Cady",
+        "spotify_album": "Blood Red Roses (Deluxe Version)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27332b4dc1cf919b3659563f0a9",
+        "spotify_duration_ms": "240986",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.614",
+        "spotify_energy": "0.706",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.292",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0292",
+        "spotify_tempo": "104.034",
+        "spotify_valence": "0.509",
+        "spotify_acousticness": "0.128",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.093",
+        "spotify_artists01": "Rod Stewart",
+        "spotify_artists01_id": "2y8Jo9CKhJvtfeKOsYzRdT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1d3e6633d1da408fc103a9ec",
+        "spotify_artists01_genres": "mellow gold, soft rock",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "Bridget Cady",
+        "spotify_artists02_id": "5RJ60X53PX6NgZCCsYZ91Z",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "13",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "iTA8KFFhHpA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Rod-Stewart-Didnt-I-ft.-Bridget-Cady.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1239,
+            "name": "Bridget Cady",
+            "slug": "bridget-cady",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 769,
+            "name": "Rod Stewart",
+            "slug": "rod-stewart",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1961",
+              "artistborn": "",
+              "artistjpname": "ロッド・スチュワート",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Rod Stewart, Bridget Cady",
+        "ytvideoid": "iTA8KFFhHpA",
+        "spotify_track_id": "1GL3ydfG8v9m4jKiVx8UQ0"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "didnt-i"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

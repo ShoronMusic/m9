@@ -1,0 +1,84 @@
+{
+  "id": 5247,
+  "count": 0,
+  "description": "Marvin Gaye was an American soul and R&amp;B singer, songwriter, and musician.",
+  "link": "https://sub.music8.jp/category/marvin-gaye/",
+  "name": "Marvin Gaye",
+  "slug": "marvin-gaye",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1957–1984",
+    "artistborn": "19390402",
+    "artistjpname": "マーヴィン・ゲイ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "1984.04.01",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "",
+    "spotify_artist_images": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5247",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5247"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5247"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マーヴィン・ゲイ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1957–1984",
+  "occupation": "singer, songwriter, musician, producer"
+}

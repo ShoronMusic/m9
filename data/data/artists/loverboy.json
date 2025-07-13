@@ -1,0 +1,63 @@
+{
+  "id": 939,
+  "count": 5,
+  "description": "Loverboy is a Canadian rock band",
+  "link": "https://sub.music8.jp/category/loverboy/",
+  "name": "Loverboy",
+  "slug": "loverboy",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "1979",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ラヴァーボーイ",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/939",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=939"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=939"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ラヴァーボーイ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1979",
+  "occupation": ""
+}

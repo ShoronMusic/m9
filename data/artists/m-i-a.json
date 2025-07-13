@@ -1,0 +1,83 @@
+{
+  "id": 1220,
+  "count": 6,
+  "description": "M.I.A. s a British rapper, record producer, songwriter and singer.",
+  "link": "https://sub.music8.jp/category/m-i-a/",
+  "name": "M.I.A.",
+  "slug": "m-i-a",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2000",
+    "artistborn": "19750718",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "0QJIPDAEDILuo8AIq3pMuU",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d75b03e7f83d62dcd55617ca",
+    "youtube_channel": "UCG4ei7sWX6m2itTEhbWQmuA",
+    "wikipedia_page": "M.I.A._(rapper)",
+    "spotify_artist_images_s": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1220",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1220"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1220"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174d75b03e7f83d62dcd55617ca",
+  "artistActiveYearStart": "2000",
+  "occupation": "singer, rapper, producer"
+}

@@ -1,0 +1,73 @@
+{
+  "id": 1210,
+  "count": 19,
+  "description": "R3HAB is a Dutch-Moroccan DJ and music producer.",
+  "link": "https://sub.music8.jp/category/r3hab/",
+  "name": "R3HAB",
+  "slug": "r3hab",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NED",
+    "artistactiveyearstart": "2007",
+    "artistborn": "19860402",
+    "artistdied": "",
+    "artistjpname": "リハブ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1210",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1210"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1210"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "リハブ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2007",
+  "occupation": "dj, producer"
+}

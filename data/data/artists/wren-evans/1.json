@@ -1,0 +1,184 @@
+{
+  "artist": {
+    "id": 2903,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/wren-evans/",
+    "name": "WREN EVANS",
+    "slug": "wren-evans",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "VIE",
+      "artistactiveyearstart": "2020",
+      "artistborn": "20011119",
+      "artistdied": "",
+      "artistjpname": "レン・エバンス"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2903",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2903"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2903"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 49818,
+      "date": "2023-08-15T00:31:55",
+      "date_gmt": "2023-08-14T15:31:55",
+      "title": {
+        "rendered": "CALL ME"
+      },
+      "content": {
+        "rendered": "<p>WREN EVANS - CALL ME |</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2903
+      ],
+      "tags": [],
+      "genre": [
+        449,
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "08GUMwJRpisuxHGyRzoSuu",
+        "spotify_release_date": "2023-08-15",
+        "spotify_name": "Call Me",
+        "spotify_artists": "Wren Evans, itsnk",
+        "spotify_album": "Call Me",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732b7765b67955235bc5bded97",
+        "spotify_duration_ms": "214736",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.808",
+        "spotify_energy": "0.541",
+        "spotify_key": "9",
+        "spotify_loudness": "-11.864",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0654",
+        "spotify_tempo": "114.007",
+        "spotify_valence": "0.38",
+        "spotify_acousticness": "0.0992",
+        "spotify_instrumentalness": "0.00351",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0939",
+        "spotify_artists01": "Wren Evans",
+        "spotify_artists01_id": "5M3ffmRiOX9Q8Y4jNeR5wu",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb37b110af3f232710b8f14a97",
+        "spotify_artists01_genres": "v-pop, vietnamese hip hop, vietnamese melodic rap",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "itsnk",
+        "spotify_artists02_id": "0hy8mfXxfD8kQ6MRQkDVrn",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb215ae0e47da5791516c7aaff",
+        "spotify_artists02_genres": "vietnamese hip hop",
+        "spotify_artists02_popularity": "40",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "WRCoRYtiDDQ",
+        "ytreleasedate": "2023/08/15"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/WREN-EVANS-CALL-ME.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2903,
+            "name": "WREN EVANS",
+            "slug": "wren-evans",
+            "acf": {
+              "artistorigin": "VIE",
+              "artistactiveyearstart": "2020",
+              "artistborn": "20011119",
+              "artistdied": "",
+              "artistjpname": "レン・エバンス"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Wren Evans, itsnk",
+        "ytvideoid": "WRCoRYtiDDQ",
+        "spotify_track_id": "08GUMwJRpisuxHGyRzoSuu"
+      },
+      "genre_data": [
+        {
+          "name": "Chamber pop",
+          "slug": "chamber-pop",
+          "term_id": 449,
+          "post_count": 100
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "call-me-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

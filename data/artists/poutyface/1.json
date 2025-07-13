@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2470,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/poutyface/",
+    "name": "poutyface",
+    "slug": "poutyface",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2470",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2470"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2470"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39863,
+      "date": "2022-04-06T09:17:00",
+      "date_gmt": "2022-04-06T00:17:00",
+      "title": {
+        "rendered": "Cherry Picking"
+      },
+      "content": {
+        "rendered": "\n<p>poutyface-CherryPicking</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2470
+      ],
+      "tags": [],
+      "genre": [
+        640,
+        683
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "53XLxGfbbHqFC7U6h21raj",
+        "spotify_release_date": "2022/3/4",
+        "spotify_name": "CherryPicking",
+        "spotify_artists": "poutyface",
+        "spotify_album": "CherryPicking",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c9413f9b91b8b6653de2d33c",
+        "spotify_duration_ms": "150736",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.561",
+        "spotify_energy": "0.805",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.352",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0424",
+        "spotify_tempo": "81.506",
+        "spotify_valence": "0.791",
+        "spotify_acousticness": "0.0246",
+        "spotify_instrumentalness": "0.00241",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0493",
+        "spotify_artists01": "poutyface",
+        "spotify_artists01_id": "0H44O4IYqpTOGx4c5nV37f",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb61d35b32cdb46aff08ff048a",
+        "spotify_artists01_genres": "altz,modernindiepop",
+        "spotify_artists01_popularity": "42",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "nXf0qCm8rsM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/poutyface-Cherry-Picking.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2470,
+            "name": "poutyface",
+            "slug": "poutyface",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "poutyface",
+        "ytvideoid": "nXf0qCm8rsM",
+        "spotify_track_id": "53XLxGfbbHqFC7U6h21raj"
+      },
+      "genre_data": [
+        {
+          "name": "Noise pop",
+          "slug": "noise-pop",
+          "term_id": 640,
+          "post_count": 76
+        },
+        {
+          "name": "Punk rock",
+          "slug": "punk-rock",
+          "term_id": 683,
+          "post_count": 119
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "cherry-picking"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,203 @@
+{
+  "artist": {
+    "id": 3870,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/kool-aid-man/",
+    "name": "Kool-Aid Man",
+    "slug": "kool-aid-man",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3870",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3870"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3870"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58385,
+      "date": "2018-12-18T12:00:28",
+      "date_gmt": "2018-12-18T03:00:28",
+      "title": {
+        "rendered": "All I Really Want For Christmas"
+      },
+      "content": {
+        "rendered": "<p>Lil Jon featuring Kool-Aid Man - All I Really Want For Christmas</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3870,
+        3869
+      ],
+      "tags": [],
+      "genre": [
+        455,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5Tz3kCWr1LL2S7P02W55jw",
+        "spotify_release_date": "2018-12-14",
+        "spotify_name": "All I Really Want For Christmas (feat. Kool-Aid Man)",
+        "spotify_artists": "Lil Jon, Kool-Aid Man",
+        "spotify_album": "All I Really Want For Christmas (feat. Kool-Aid Man)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27329f6887270ebb259aae77307",
+        "spotify_duration_ms": "171434",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.764",
+        "spotify_energy": "0.905",
+        "spotify_key": "6",
+        "spotify_loudness": "-3.231",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.115",
+        "spotify_tempo": "100.053",
+        "spotify_valence": "0.407",
+        "spotify_acousticness": "0.000318",
+        "spotify_instrumentalness": "0.000207",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0693",
+        "spotify_artists01": "Lil Jon",
+        "spotify_artists01_id": "7sfl4Xt5KmfyDs2T3SVSMK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba12641edfc4ffbbdf58f7d15",
+        "spotify_artists01_genres": "atl hip hop, crunk, dance pop, dirty south rap, old school atlanta hip hop, pop rap, southern hip hop, trap",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "Kool-Aid Man",
+        "spotify_artists02_id": "6DT3Q5s1oRIZZdOOmg0kVI",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "27",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "L0r6ocwGnMg",
+        "ytreleasedate": "2018/12/18"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lil-Jon-featuring-Kool-Aid-Man-All-I-Really-Want-For-Christmas.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3870,
+            "name": "Kool-Aid Man",
+            "slug": "kool-aid-man",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3869,
+            "name": "Lil Jon",
+            "slug": "lil-jon",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1991",
+              "artistborn": "19710117",
+              "artistjpname": "リル・ジョン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Lil Jon, Kool-Aid Man",
+        "ytvideoid": "L0r6ocwGnMg",
+        "spotify_track_id": "5Tz3kCWr1LL2S7P02W55jw"
+      },
+      "genre_data": [
+        {
+          "name": "Christmas",
+          "slug": "christmas",
+          "term_id": 455,
+          "post_count": 111
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "all-i-really-want-for-christmas"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

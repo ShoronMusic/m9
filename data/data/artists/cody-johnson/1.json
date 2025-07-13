@@ -1,0 +1,166 @@
+{
+  "artist": {
+    "id": 4442,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/cody-johnson/",
+    "name": "Cody Johnson",
+    "slug": "cody-johnson",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4442",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4442"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4442"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65185,
+      "date": "2020-10-16T17:25:02",
+      "date_gmt": "2020-10-16T08:25:02",
+      "title": {
+        "rendered": "'Til You Can't"
+      },
+      "content": {
+        "rendered": "<p>Cody Johnson - 'Til You Can't</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4442
+      ],
+      "tags": [],
+      "genre": [
+        465
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "v2LixP7n_hM",
+        "ytreleasedate": "2021/10/16",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "4k3lPl8YTKuY8c1HelVnm3",
+        "spotify_release_date": "2021-10-08",
+        "spotify_name": "'Til You Can't",
+        "spotify_artists": "Cody Johnson",
+        "spotify_album": "Human The Double Album",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d249311c1e8dcf6d91d35558",
+        "spotify_duration_ms": "224213",
+        "spotify_popularity": "74",
+        "spotify_danceability": "0.501",
+        "spotify_energy": "0.815",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.865",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0436",
+        "spotify_tempo": "160.087",
+        "spotify_valence": "0.46",
+        "spotify_acousticness": "0.0513",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.106",
+        "spotify_artists01": "Cody Johnson",
+        "spotify_artists01_id": "6zLBxLdl60ekBLpawtT63I",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb37fd77080cfc361e8f61337c",
+        "spotify_artists01_genres": "classic texas country, contemporary country, modern country pop",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273d249311c1e8dcf6d91d35558.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4442,
+            "name": "Cody Johnson",
+            "slug": "cody-johnson",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Cody Johnson",
+        "ytvideoid": "v2LixP7n_hM",
+        "spotify_track_id": "4k3lPl8YTKuY8c1HelVnm3"
+      },
+      "genre_data": [
+        {
+          "name": "Country",
+          "slug": "country",
+          "term_id": 465,
+          "post_count": 123
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "til-you-cant"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

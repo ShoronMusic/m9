@@ -1,0 +1,754 @@
+{
+  "artist": {
+    "id": 4072,
+    "count": 5,
+    "description": "",
+    "link": "https://sub.music8.jp/category/wesghost/",
+    "name": "WesGhost",
+    "slug": "wesghost",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4072",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4072"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4072"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 90987,
+      "date": "2025-01-08T12:53:07",
+      "date_gmt": "2025-01-08T03:53:07",
+      "title": {
+        "rendered": "ROT"
+      },
+      "content": {
+        "rendered": "<p>WesGhost, Jutes - ROT</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3198,
+        4072
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "UeV2zOXd2PY",
+        "ytreleasedate": "2025/01/08",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "20RARv4ryWuq4qUnqZapDx",
+        "spotify_release_date": "2024-12-27",
+        "spotify_name": "ROT",
+        "spotify_artists": "WesGhost, Jutes",
+        "spotify_album": "ROT",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734bb6ae51a6803b08335bde87",
+        "spotify_duration_ms": "159000",
+        "spotify_popularity": "56",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "WesGhost",
+        "spotify_artists01_id": "6YmJPuYzqe1HsJArGYcHBJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4aedffe308b5882e5c14919c",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "Jutes",
+        "spotify_artists02_id": "53fzjsJnjEKkA6TdncuIM4",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb59c8aa9a91c80872e94f72d6",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "61",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/wesghost-jutes-rot.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3198,
+            "name": "Jutes",
+            "slug": "jutes",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": [
+                {
+                  "term_id": 1037,
+                  "name": "Simply Red",
+                  "slug": "simply-red",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1037,
+                  "taxonomy": "category",
+                  "description": "Simply Red are a British soul and pop band.",
+                  "parent": 0,
+                  "count": 29,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4072,
+            "name": "WesGhost",
+            "slug": "wesghost",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "WesGhost, Jutes",
+        "ytvideoid": "UeV2zOXd2PY",
+        "spotify_track_id": "20RARv4ryWuq4qUnqZapDx"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rot"
+    },
+    {
+      "id": 88006,
+      "date": "2024-11-01T14:28:47",
+      "date_gmt": "2024-11-01T05:28:47",
+      "title": {
+        "rendered": "IOU"
+      },
+      "content": {
+        "rendered": "<p>Layto, WesGhost - IOU</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6351,
+        4072
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        503,
+        688
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3akZGuqQhifRrFYB8UCell",
+        "spotify_release_date": "2024-11-01",
+        "spotify_name": "IOU",
+        "spotify_artists": "Layto, WesGhost",
+        "spotify_album": "IOU",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273eebe13ae769f1f4b4fea284a",
+        "spotify_duration_ms": "191622",
+        "spotify_popularity": "58",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Layto",
+        "spotify_artists01_id": "0MqXw0plXKIaJtM342hIag",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2277e68c21ca4b8c7e520381",
+        "spotify_artists01_genres": "dark r&b",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "WesGhost",
+        "spotify_artists02_id": "6YmJPuYzqe1HsJArGYcHBJ",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb4aedffe308b5882e5c14919c",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "61",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "lBeGIPvkaas",
+        "ytreleasedate": "2024/11/01"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/layto-wesghost-iou.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6351,
+            "name": "Layto",
+            "slug": "layto",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "0MqXw0plXKIaJtM342hIag",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051742277e68c21ca4b8c7e520381"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4072,
+            "name": "WesGhost",
+            "slug": "wesghost",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Layto, WesGhost",
+        "ytvideoid": "lBeGIPvkaas",
+        "spotify_track_id": "3akZGuqQhifRrFYB8UCell"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Emo",
+          "slug": "emo",
+          "term_id": 503,
+          "post_count": 163
+        },
+        {
+          "name": "Rap rock",
+          "slug": "rap-rock",
+          "term_id": 688,
+          "post_count": 93
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "iou-2"
+    },
+    {
+      "id": 67588,
+      "date": "2024-04-25T22:09:51",
+      "date_gmt": "2024-04-25T13:09:51",
+      "title": {
+        "rendered": "SPINE"
+      },
+      "content": {
+        "rendered": "<p>WesGhost - SPINE</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4072
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "euj6vs_PIeA",
+        "ytreleasedate": "2024/04/25",
+        "spotify_track_id": "6Stz1dIY7OD61gU7SdVR22",
+        "spotify_release_date": "2024-04-19",
+        "spotify_name": "SPINE",
+        "spotify_artists": "WesGhost",
+        "spotify_album": "SPINE",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739726df93a0bcb621bd59b9ac",
+        "spotify_duration_ms": "180715",
+        "spotify_popularity": "72",
+        "spotify_danceability": "0.414",
+        "spotify_energy": "0.934",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.279",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.107",
+        "spotify_tempo": "149.98",
+        "spotify_valence": "0.306",
+        "spotify_acousticness": "0.00362",
+        "spotify_instrumentalness": "0.0000678",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.368",
+        "spotify_artists01": "WesGhost",
+        "spotify_artists01_id": "6YmJPuYzqe1HsJArGYcHBJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4aedffe308b5882e5c14919c",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2739726df93a0bcb621bd59b9ac.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4072,
+            "name": "WesGhost",
+            "slug": "wesghost",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "WesGhost",
+        "ytvideoid": "euj6vs_PIeA",
+        "spotify_track_id": "6Stz1dIY7OD61gU7SdVR22"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "spine"
+    },
+    {
+      "id": 64350,
+      "date": "2024-03-15T14:32:54",
+      "date_gmt": "2024-03-15T05:32:54",
+      "title": {
+        "rendered": "TEETH"
+      },
+      "content": {
+        "rendered": "<p>WesGhost, Diggy Graves - TEETH</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4397,
+        4072
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "Lm-4djRpKFA",
+        "ytreleasedate": "2024/03/15",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1IsOdvUcz8eoN1qgoNP1sC",
+        "spotify_release_date": "2024-03-15",
+        "spotify_name": "TEETH (feat. Diggy Graves)",
+        "spotify_artists": "WesGhost, Diggy Graves",
+        "spotify_album": "TEETH (feat. Diggy Graves)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f9cc4109440acc21d8c5b05d",
+        "spotify_duration_ms": "149333",
+        "spotify_popularity": "65",
+        "spotify_danceability": "0.482",
+        "spotify_energy": "0.615",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.837",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0385",
+        "spotify_tempo": "89.989",
+        "spotify_valence": "0.107",
+        "spotify_acousticness": "0.18",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.651",
+        "spotify_artists01": "WesGhost",
+        "spotify_artists01_id": "6YmJPuYzqe1HsJArGYcHBJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebed5c046dff9db65689ef69f9",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "Diggy Graves",
+        "spotify_artists02_id": "1TpOqFPZPxxeuLHL3oSl2t",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebe9681a775a286281a7196e5e",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "58",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273f9cc4109440acc21d8c5b05d.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4397,
+            "name": "Diggy Graves",
+            "slug": "diggy-graves",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4072,
+            "name": "WesGhost",
+            "slug": "wesghost",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "WesGhost, Diggy Graves",
+        "ytvideoid": "Lm-4djRpKFA",
+        "spotify_track_id": "1IsOdvUcz8eoN1qgoNP1sC"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "teeth-2"
+    },
+    {
+      "id": 60324,
+      "date": "2023-12-22T22:12:56",
+      "date_gmt": "2023-12-22T13:12:56",
+      "title": {
+        "rendered": "DEADBEAT"
+      },
+      "content": {
+        "rendered": "<p>WesGhost - DEADBEAT</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4072
+      ],
+      "tags": [],
+      "genre": [
+        411
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3COVhNcQ71ZyAxHyM1xiK4",
+        "spotify_release_date": "2023-12-22",
+        "spotify_name": "DEADBEAT - demo",
+        "spotify_artists": "WesGhost",
+        "spotify_album": "DEADBEAT (demo)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27314307ca6c30f39870ed08f9c",
+        "spotify_duration_ms": "145714",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.514",
+        "spotify_energy": "0.862",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.508",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0947",
+        "spotify_tempo": "139.935",
+        "spotify_valence": "0.682",
+        "spotify_acousticness": "0.000617",
+        "spotify_instrumentalness": "0.0000509",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.332",
+        "spotify_artists01": "WesGhost",
+        "spotify_artists01_id": "6YmJPuYzqe1HsJArGYcHBJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8af60979e87ff8db03ed528c",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "eU3Xre43E7k",
+        "ytreleasedate": "2023/12/22"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/WesGhost-DEADBEAT.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4072,
+            "name": "WesGhost",
+            "slug": "wesghost",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "WesGhost",
+        "ytvideoid": "eU3Xre43E7k",
+        "spotify_track_id": "3COVhNcQ71ZyAxHyM1xiK4"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "deadbeat"
+    }
+  ],
+  "totalSongs": 5,
+  "totalPages": 1,
+  "currentPage": 1
+}

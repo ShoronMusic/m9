@@ -1,0 +1,63 @@
+{
+  "id": 1825,
+  "count": 2,
+  "description": "The Baboon Show is a Swedish punk rock band.",
+  "link": "https://sub.music8.jp/category/baboon-show/",
+  "name": "Baboon Show",
+  "slug": "baboon-show",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2003",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "バブーン・ショー",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1825",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1825"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1825"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "バブーン・ショー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2003",
+  "occupation": ""
+}

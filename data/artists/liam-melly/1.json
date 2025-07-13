@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 2725,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/liam-melly/",
+    "name": "Liam Melly",
+    "slug": "liam-melly",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2725",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2725"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2725"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40324,
+      "date": "2022-02-10T00:52:00",
+      "date_gmt": "2022-02-09T15:52:00",
+      "title": {
+        "rendered": "Wolves "
+      },
+      "content": {
+        "rendered": "\n<p>LiamMelly,PaulSkelton&amp;JessicaDoherty-Wolves&nbsp;</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2727,
+        2725,
+        2726
+      ],
+      "tags": [],
+      "genre": [
+        670,
+        747
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "ErTvjdLFlJ4",
+        "likecount": "1",
+        "spotify_track_id": "2wO9nW6pKbVIn63S12ZjAP",
+        "spotify_release_date": "2022/3/18",
+        "spotify_name": "Wolves-Acoustic",
+        "spotify_artists": "Liam Melly, Paul Skelton, Jessica Doherty",
+        "spotify_album": "Wolves(Acoustic)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e909a287ef435d1a3c7a7cbf",
+        "spotify_duration_ms": "201739",
+        "spotify_popularity": "4",
+        "spotify_danceability": "0.403",
+        "spotify_energy": "0.23",
+        "spotify_key": "4",
+        "spotify_loudness": "-10.682",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.029",
+        "spotify_tempo": "138.204",
+        "spotify_valence": "0.139",
+        "spotify_acousticness": "0.95",
+        "spotify_instrumentalness": "0.00379",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0956",
+        "spotify_artists01": "LiamMelly",
+        "spotify_artists01_id": "15TOCEFCG40c29gYNX47YD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebfdfa2c6182e1687043e4135e",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "22",
+        "spotify_artists02": "PaulSkelton",
+        "spotify_artists02_id": "0EtDkY89lQmLn7eMm1fmmE",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb7e451b51fe40be6e31e3ec8d",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "17",
+        "spotify_artists03": "JessicaDoherty",
+        "spotify_artists03_id": "2b96ErouPdfy03CgJ1Rj4e",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab67616d0000b2739121be37a9efa56b8260058f",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "9",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Liam-Melly-Paul-Skelton-Jessica-Doherty-Wolves.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2727,
+            "name": "Jessica Doherty",
+            "slug": "jessica-doherty",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2725,
+            "name": "Liam Melly",
+            "slug": "liam-melly",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2726,
+            "name": "Paul Skelton",
+            "slug": "paul-skelton",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Liam Melly, Paul Skelton, Jessica Doherty",
+        "ytvideoid": "ErTvjdLFlJ4",
+        "spotify_track_id": "2wO9nW6pKbVIn63S12ZjAP"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        },
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "wolves-3"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

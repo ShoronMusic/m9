@@ -1,0 +1,325 @@
+{
+  "artist": {
+    "id": 2492,
+    "count": 2,
+    "description": "Peach Pit is a Canadian indie pop band",
+    "link": "https://sub.music8.jp/category/peach-pit/",
+    "name": "Peach Pit",
+    "slug": "peach-pit",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "CAN",
+      "artistactiveyearstart": "2016",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ピーチ・ピット",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2492",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2492"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2492"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 79549,
+      "date": "2024-08-23T20:02:28",
+      "date_gmt": "2024-08-23T11:02:28",
+      "title": {
+        "rendered": "Magpie"
+      },
+      "content": {
+        "rendered": "<p>Peach Pit - Magpie</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2492
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "DKyWzW9WXic",
+        "ytreleasedate": "2024/08/23",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2ghZbiC9CbdmrHkH5nIquF",
+        "spotify_release_date": "2024-08-23",
+        "spotify_name": "Magpie",
+        "spotify_artists": "Peach Pit",
+        "spotify_album": "Magpie",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a3ca3cb1462f5c8b1d7d3399",
+        "spotify_duration_ms": "241290",
+        "spotify_popularity": "22",
+        "spotify_danceability": "0.148",
+        "spotify_energy": "0.887",
+        "spotify_key": "0",
+        "spotify_loudness": "-3.906",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.039",
+        "spotify_tempo": "184.552",
+        "spotify_valence": "0.364",
+        "spotify_acousticness": "0.000361",
+        "spotify_instrumentalness": "0.29",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.167",
+        "spotify_artists01": "Peach Pit",
+        "spotify_artists01_id": "6fC2AcsQtd9h4BWELbbire",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb103529e66028086d70ec17bb",
+        "spotify_artists01_genres": "pov: indie, vancouver indie",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273a3ca3cb1462f5c8b1d7d3399.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2492,
+            "name": "Peach Pit",
+            "slug": "peach-pit",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ピーチ・ピット",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Peach Pit",
+        "ytvideoid": "DKyWzW9WXic",
+        "spotify_track_id": "2ghZbiC9CbdmrHkH5nIquF"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "magpie"
+    },
+    {
+      "id": 40462,
+      "date": "2022-01-21T11:09:00",
+      "date_gmt": "2022-01-21T02:09:00",
+      "title": {
+        "rendered": "Vickie"
+      },
+      "content": {
+        "rendered": "\n<p>PeachPit-Vickie</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2492
+      ],
+      "tags": [],
+      "genre": [
+        520,
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2Q18HgXzNB1jB85EuXFgNn",
+        "spotify_release_date": "2022/3/4",
+        "spotify_name": "Vickie",
+        "spotify_artists": "PeachPit",
+        "spotify_album": "From2to3",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731106bbfbbc49692e49f3b580",
+        "spotify_duration_ms": "223944",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.697",
+        "spotify_energy": "0.464",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.019",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0259",
+        "spotify_tempo": "89.293",
+        "spotify_valence": "0.667",
+        "spotify_acousticness": "0.147",
+        "spotify_instrumentalness": "4.51E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.139",
+        "spotify_artists01": "PeachPit",
+        "spotify_artists01_id": "6fC2AcsQtd9h4BWELbbire",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb66fe5cb49c14d5cadb50ad50",
+        "spotify_artists01_genres": "pov:indie,vancouverindie",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "fVgAaphNkOA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Peach-Pit-Vickie.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2492,
+            "name": "Peach Pit",
+            "slug": "peach-pit",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ピーチ・ピット",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "PeachPit",
+        "ytvideoid": "fVgAaphNkOA",
+        "spotify_track_id": "2Q18HgXzNB1jB85EuXFgNn"
+      },
+      "genre_data": [
+        {
+          "name": "Folk-pop",
+          "slug": "folk-pop",
+          "term_id": 520,
+          "post_count": 191
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "vickie"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

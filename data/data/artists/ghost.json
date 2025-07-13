@@ -1,0 +1,74 @@
+{
+  "id": 2230,
+  "count": 13,
+  "description": "Ghost (Ghost B.C.) is a Swedish rock band.",
+  "link": "https://sub.music8.jp/category/ghost/",
+  "name": "Ghost",
+  "slug": "ghost",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2006",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ゴースト",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1Qp56T7n950O3EGMsSl81D",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174acba76e3aa5f199eb85e9465",
+    "youtube_channel": "UCAOiVaJJlH0Oduv48NN0mMA",
+    "wikipedia_page": "Ghost_(Swedish_band)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2230",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2230"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2230"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ゴースト",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174acba76e3aa5f199eb85e9465",
+  "artistActiveYearStart": "2006",
+  "occupation": "band"
+}

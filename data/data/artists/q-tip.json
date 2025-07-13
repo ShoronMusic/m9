@@ -1,0 +1,73 @@
+{
+  "id": 981,
+  "count": 2,
+  "description": "Q-Tip is an American rapper, record producer, singer, and DJ.",
+  "link": "https://sub.music8.jp/category/q-tip/",
+  "name": "Q-Tip",
+  "slug": "q-tip",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1985",
+    "artistborn": "19700410",
+    "artistdied": "",
+    "artistjpname": "Qティップ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/981",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=981"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=981"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "Qティップ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1985",
+  "occupation": "rapper, producer"
+}

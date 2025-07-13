@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2019,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/leah-sykes/",
+    "name": "Leah Sykes",
+    "slug": "leah-sykes",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2019",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2019"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2019"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40119,
+      "date": "2022-03-04T23:10:00",
+      "date_gmt": "2022-03-04T14:10:00",
+      "title": {
+        "rendered": "All The Cool Kids Get High"
+      },
+      "content": {
+        "rendered": "\n<p>LeahSykes-AllTheCoolKidsGetHigh</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2019
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5fmEmgItv5hpXd5yGbpLxT",
+        "spotify_release_date": "2022/3/4",
+        "spotify_name": "AllTheCoolKidsGetHigh",
+        "spotify_artists": "LeahSykes",
+        "spotify_album": "AllTheCoolKidsGetHigh",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ddb8cdef835a256e4b5fd02a",
+        "spotify_duration_ms": "177809",
+        "spotify_popularity": "17",
+        "spotify_danceability": "0.704",
+        "spotify_energy": "0.62",
+        "spotify_key": "0",
+        "spotify_loudness": "-5.853",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0345",
+        "spotify_tempo": "110.01",
+        "spotify_valence": "0.48",
+        "spotify_acousticness": "0.0717",
+        "spotify_instrumentalness": "0.000309",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0997",
+        "spotify_artists01": "LeahSykes",
+        "spotify_artists01_id": "3OYYN1sVAjeYS6sRlCH19H",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb832c3d3011bca887319dda26",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "20",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qq3a45Ba73A",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Leah-Sykes-All-The-Cool-Kids-Get-High.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2019,
+            "name": "Leah Sykes",
+            "slug": "leah-sykes",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LeahSykes",
+        "ytvideoid": "qq3a45Ba73A",
+        "spotify_track_id": "5fmEmgItv5hpXd5yGbpLxT"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "all-the-cool-kids-get-high"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

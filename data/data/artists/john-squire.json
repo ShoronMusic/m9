@@ -1,0 +1,86 @@
+{
+  "id": 4024,
+  "count": 3,
+  "description": "John Squire is an English musician, songwriter . He was the guitarist for the Stone Roses, a rock band.",
+  "link": "https://sub.music8.jp/category/john-squire/",
+  "name": "John Squire",
+  "slug": "john-squire",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1980",
+    "artistborn": "19621124",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 1392,
+        "name": "Seahorses",
+        "slug": "seahorses",
+        "term_group": 0,
+        "term_taxonomy_id": 1392,
+        "taxonomy": "category",
+        "description": "The Seahorses were an English alternative rock band",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4024",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4024"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4024"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1980",
+  "occupation": "songwriter, musician"
+}

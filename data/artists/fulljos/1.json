@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2719,
+    "count": 1,
+    "description": "ESP",
+    "link": "https://sub.music8.jp/category/fulljos/",
+    "name": "FULLJOS",
+    "slug": "fulljos",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2719",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2719"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2719"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38765,
+      "date": "2022-09-09T23:55:00",
+      "date_gmt": "2022-09-09T14:55:00",
+      "title": {
+        "rendered": "Monotony"
+      },
+      "content": {
+        "rendered": "\n<p>FULLJOS-Monotony</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2719
+      ],
+      "tags": [],
+      "genre": [
+        670,
+        747
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0DYUGKaGKX9ISr87hV0e1j",
+        "spotify_release_date": "2022/9/9",
+        "spotify_name": "Monotony",
+        "spotify_artists": "FULLJOS",
+        "spotify_album": "Monotony",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e44118b8cbb128e793e5960b",
+        "spotify_duration_ms": "243759",
+        "spotify_popularity": "26",
+        "spotify_danceability": "0.594",
+        "spotify_energy": "0.787",
+        "spotify_key": "5",
+        "spotify_loudness": "-11.167",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0382",
+        "spotify_tempo": "128.006",
+        "spotify_valence": "0.0398",
+        "spotify_acousticness": "0.00252",
+        "spotify_instrumentalness": "0.831",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.155",
+        "spotify_artists01": "FULLJOS",
+        "spotify_artists01_id": "4fZ6qbm72PCF4TSVwZ4qec",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6d2a72632b8322da1df76736",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "31",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "https://music.youtube.com/watch?v=ruEVCvL2RI4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/FULLJOS-Monotony.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2719,
+            "name": "FULLJOS",
+            "slug": "fulljos",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "FULLJOS",
+        "ytvideoid": "https://music.youtube.com/watch?v=ruEVCvL2RI4",
+        "spotify_track_id": "0DYUGKaGKX9ISr87hV0e1j"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        },
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "monotony"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

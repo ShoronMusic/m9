@@ -1,0 +1,354 @@
+{
+  "artist": {
+    "id": 799,
+    "count": 2,
+    "description": "ABC is a British pop band that formed in 1980.",
+    "link": "https://sub.music8.jp/category/abc/",
+    "name": "ABC",
+    "slug": "abc",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1980",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "エービーシー",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ],
+      "related_artists": "Heaven 17 (heaven-17) | Haircut 100 (haircut-100) | Howard Jones (howard-jones) | Kajagoogoo (kaiagoogoo) | Blancmange (blancmange) | Scritti Politti (scritti-politti) | Thompson Twins (thompson-twins) | China Crisis (china-crisis) | Ultravox (ultravox) | Human League (human-league) | Thomas Dolby (thomas-dolby) | Go West (go-west) | Fun Boy Three | Visage (visage) | Nik Kershaw (nik-kershaw) | Curiosity Killed The Cat (curiosity-killed-the-cat) | Living In A Box (living-in-a-box) | Blow Monkeys (blow-monkeys) | Adam & The Ants | Altered Images",
+      "spotify_artist_id": "2s79xe5F6eUQkjwjww27Fh",
+      "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743d666042f3b1b4356d0fbc68"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/799",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=799"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=799"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 48316,
+      "date": "1985-04-01T20:13:00",
+      "date_gmt": "1985-04-01T11:13:00",
+      "title": {
+        "rendered": "Be Near Me"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        799
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        638,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "VhAgQMqVxiE",
+        "likecount": "1",
+        "spotify_track_id": "1l3fRzoUngJr6hSMIT1Hfq",
+        "spotify_release_date": "Oct-85",
+        "spotify_name": "Be Near Me",
+        "spotify_artists": "ABC",
+        "spotify_album": "How To Be A Zillionaire",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27347f7ce1e5c9d6047e072c506",
+        "spotify_duration_ms": "219826",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.7010621095274836",
+        "spotify_energy": "-1.0637851860174066",
+        "spotify_key": "-0.06778318339062644",
+        "spotify_loudness": "-1.1168871153486468",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.49594585323160695",
+        "spotify_tempo": "-0.007410070286770756",
+        "spotify_valence": "0.6587643934499731",
+        "spotify_acousticness": "0.19799882631051544",
+        "spotify_instrumentalness": "0.18970432818369656",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.3190706924298076",
+        "spotify_artists01": "ABC",
+        "spotify_artists01_id": "2s79xe5F6eUQkjwjww27Fh",
+        "spotify_artists01_images": "https://i.scdn.co/image/5f3a5d166208f063be876b29d54fe4d2f6290c3f",
+        "spotify_artists01_genres": "dance rock, new romantic, new wave, new wave pop, sophisti-pop, synthpop",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "artist_order": "",
+        "ytreleasedate": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ABC-Be-Near-Me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 799,
+            "name": "ABC",
+            "slug": "abc",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1980",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "エービーシー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Heaven 17 (heaven-17) | Haircut 100 (haircut-100) | Howard Jones (howard-jones) | Kajagoogoo (kaiagoogoo) | Blancmange (blancmange) | Scritti Politti (scritti-politti) | Thompson Twins (thompson-twins) | China Crisis (china-crisis) | Ultravox (ultravox) | Human League (human-league) | Thomas Dolby (thomas-dolby) | Go West (go-west) | Fun Boy Three | Visage (visage) | Nik Kershaw (nik-kershaw) | Curiosity Killed The Cat (curiosity-killed-the-cat) | Living In A Box (living-in-a-box) | Blow Monkeys (blow-monkeys) | Adam & The Ants | Altered Images",
+              "spotify_artist_id": "2s79xe5F6eUQkjwjww27Fh",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743d666042f3b1b4356d0fbc68"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ABC",
+        "ytvideoid": "VhAgQMqVxiE",
+        "spotify_track_id": "1l3fRzoUngJr6hSMIT1Hfq"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "be-near-me"
+    },
+    {
+      "id": 48988,
+      "date": "1982-05-07T20:10:00",
+      "date_gmt": "1982-05-07T11:10:00",
+      "title": {
+        "rendered": "The Look Of Love"
+      },
+      "content": {
+        "rendered": "<p>ABC - The Look Of Love</p>\n",
+        "protected": false
+      },
+      "categories": [
+        799
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        638,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "cNEdxZURTaI",
+        "likecount": "1",
+        "spotify_track_id": "6HvUtPLqkP0t6zd6YNdWby",
+        "spotify_release_date": "1982/6/21",
+        "spotify_name": "The Look Of Love, Pt.1",
+        "spotify_artists": "ABC",
+        "spotify_album": "The Lexicon Of Love",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e1520b61485114423bb8c923",
+        "spotify_duration_ms": "209160",
+        "spotify_popularity": "65",
+        "spotify_danceability": "0.8066705906585122",
+        "spotify_energy": "1.1802189525429312",
+        "spotify_key": "1.0122662180732396",
+        "spotify_loudness": "1.0596880447512766",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "0.8715910875700771",
+        "spotify_tempo": "-0.17871441630734564",
+        "spotify_valence": "0.973985832667532",
+        "spotify_acousticness": "0.05814826682778151",
+        "spotify_instrumentalness": "-0.4088317321060318",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "0.8958424753317504",
+        "spotify_artists01": "ABC",
+        "spotify_artists01_id": "2s79xe5F6eUQkjwjww27Fh",
+        "spotify_artists01_images": "https://i.scdn.co/image/5f3a5d166208f063be876b29d54fe4d2f6290c3f",
+        "spotify_artists01_genres": "dance rock, new romantic, new wave, new wave pop, sophisti-pop, synthpop",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "artist_order": "",
+        "ytreleasedate": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ABC-The-Look-Of-Love.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 799,
+            "name": "ABC",
+            "slug": "abc",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1980",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "エービーシー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Heaven 17 (heaven-17) | Haircut 100 (haircut-100) | Howard Jones (howard-jones) | Kajagoogoo (kaiagoogoo) | Blancmange (blancmange) | Scritti Politti (scritti-politti) | Thompson Twins (thompson-twins) | China Crisis (china-crisis) | Ultravox (ultravox) | Human League (human-league) | Thomas Dolby (thomas-dolby) | Go West (go-west) | Fun Boy Three | Visage (visage) | Nik Kershaw (nik-kershaw) | Curiosity Killed The Cat (curiosity-killed-the-cat) | Living In A Box (living-in-a-box) | Blow Monkeys (blow-monkeys) | Adam & The Ants | Altered Images",
+              "spotify_artist_id": "2s79xe5F6eUQkjwjww27Fh",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743d666042f3b1b4356d0fbc68"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ABC",
+        "ytvideoid": "cNEdxZURTaI",
+        "spotify_track_id": "6HvUtPLqkP0t6zd6YNdWby"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-look-of-love"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

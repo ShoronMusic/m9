@@ -1,0 +1,69 @@
+{
+  "id": 1675,
+  "count": 5,
+  "description": "NLE Choppa s an American rapper",
+  "link": "https://sub.music8.jp/category/nle-choppa/",
+  "name": "NLE Choppa",
+  "slug": "nle-choppa",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2018",
+    "artistborn": "20021101",
+    "artistdied": "",
+    "artistjpname": "NLEチョッパ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1675",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1675"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1675"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "NLEチョッパ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2018",
+  "occupation": "rapper"
+}

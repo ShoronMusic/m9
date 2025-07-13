@@ -1,0 +1,94 @@
+{
+  "id": 4598,
+  "count": 4,
+  "description": "Serj Tankian is a Armenian-American musician and songwriter. He is best known as the lead vocalist, keyboardist, rhythm guitarist and primary lyricist of System of a Down",
+  "link": "https://sub.music8.jp/category/serj-tankian/",
+  "name": "Serj Tankian",
+  "slug": "serj-tankian",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1992",
+    "artistborn": "19670821",
+    "artistjpname": "サージ・タンキアン",
+    "member": [
+      {
+        "term_id": 3436,
+        "name": "System of a Down",
+        "slug": "system-of-a-down",
+        "term_group": 0,
+        "term_taxonomy_id": 3436,
+        "taxonomy": "category",
+        "description": "System of a Down (SOAD) is an Armenian-American heavy metal band",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4598",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4598"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4598"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "サージ・タンキアン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1992",
+  "occupation": "singer, songwriter, musician, producer"
+}

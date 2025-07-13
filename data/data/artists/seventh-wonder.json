@@ -1,0 +1,82 @@
+{
+  "id": 2391,
+  "count": 1,
+  "description": "Seventh Wonder is a Swedish progressive metal band",
+  "link": "https://sub.music8.jp/category/seventh-wonder/",
+  "name": "Seventh Wonder",
+  "slug": "seventh-wonder",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2000",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "セヴンスワンダー",
+    "member": [
+      {
+        "term_id": 906,
+        "name": "Prince",
+        "slug": "prince",
+        "term_group": 0,
+        "term_taxonomy_id": 906,
+        "taxonomy": "category",
+        "description": "Prince was an American singer, songwriter, musician, record producer, and actor.",
+        "parent": 0,
+        "count": 66,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2391",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2391"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2391"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "セヴンスワンダー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2000",
+  "occupation": "band"
+}

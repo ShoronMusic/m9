@@ -1,0 +1,333 @@
+{
+  "artist": {
+    "id": 1003,
+    "count": 2,
+    "description": "The Stranglers are an English rock band.",
+    "link": "https://sub.music8.jp/category/stranglers/",
+    "name": "Stranglers",
+    "slug": "stranglers",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1974",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ストラングラーズ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1003",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1003"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1003"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47966,
+      "date": "1986-10-06T15:35:00",
+      "date_gmt": "1986-10-06T06:35:00",
+      "title": {
+        "rendered": "Always The Sun"
+      },
+      "content": {
+        "rendered": "<p>The Stranglers - Always The Sun</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1003
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "10BQIOZ8dhGwOOGBVA97qz",
+        "spotify_release_date": "1990/3/14",
+        "spotify_name": "Always The Sun - Sunny Side Up Mix",
+        "spotify_artists": "The Stranglers",
+        "spotify_album": "10",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fc01049a47f7d901bafb250c",
+        "spotify_duration_ms": "243053",
+        "spotify_popularity": "57",
+        "spotify_danceability": "-0.6894495586977234",
+        "spotify_energy": "0.886610934413541",
+        "spotify_key": "-0.877820234488526",
+        "spotify_loudness": "1.182643254862242",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.1363013980207746",
+        "spotify_tempo": "0.39497428553903485",
+        "spotify_valence": "0.5458492510436838",
+        "spotify_acousticness": "-0.7510426092903705",
+        "spotify_instrumentalness": "-0.24618273067947494",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.4850424366595287",
+        "spotify_artists01": "The Stranglers",
+        "spotify_artists01_id": "0RUEHcBiENFEqxgicqS2ig",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb68403a9e79bf84b604b7155c",
+        "spotify_artists01_genres": "glam rock, new romantic, new wave, new wave pop, protopunk, pub rock, zolo",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "cYQTL-ws6p4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Stranglers-Always-The-Sun.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1003,
+            "name": "Stranglers",
+            "slug": "stranglers",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1974",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ストラングラーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Stranglers",
+        "ytvideoid": "cYQTL-ws6p4",
+        "spotify_track_id": "10BQIOZ8dhGwOOGBVA97qz"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "always-the-sun"
+    },
+    {
+      "id": 49036,
+      "date": "1982-01-11T15:42:00",
+      "date_gmt": "1982-01-11T06:42:00",
+      "title": {
+        "rendered": "Golden Brown"
+      },
+      "content": {
+        "rendered": "<p>The Stranglers - Golden Brown</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1003
+      ],
+      "tags": [],
+      "genre": [
+        426,
+        638
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2AX5E86cn9n2dgioZEjirI",
+        "spotify_release_date": "1981",
+        "spotify_name": "Golden Brown",
+        "spotify_artists": "The Stranglers",
+        "spotify_album": "La Folie",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a713f9b06accedba5d963d61",
+        "spotify_duration_ms": "206760",
+        "spotify_popularity": "72",
+        "spotify_danceability": "-0.6806488519368044",
+        "spotify_energy": "-2.503862608271081",
+        "spotify_key": "0.20222916697534005",
+        "spotify_loudness": "-2.189842508181382",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.4915057982290041",
+        "spotify_tempo": "-1.441330396031815",
+        "spotify_valence": "-0.3762910786076824",
+        "spotify_acousticness": "0.31454095921279357",
+        "spotify_instrumentalness": "0.33399797525564295",
+        "spotify_time_signature": "-15.52404105323116",
+        "spotify_liveness": "-0.2659597342762968",
+        "spotify_artists01": "The Stranglers",
+        "spotify_artists01_id": "0RUEHcBiENFEqxgicqS2ig",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb68403a9e79bf84b604b7155c",
+        "spotify_artists01_genres": "glam rock, new romantic, new wave, new wave pop, protopunk, pub rock, zolo",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Qca9ByvLhBA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Stranglers-Golden-Brown.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1003,
+            "name": "Stranglers",
+            "slug": "stranglers",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1974",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ストラングラーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Stranglers",
+        "ytvideoid": "Qca9ByvLhBA",
+        "spotify_track_id": "2AX5E86cn9n2dgioZEjirI"
+      },
+      "genre_data": [
+        {
+          "name": "Baroque pop",
+          "slug": "baroque-pop",
+          "term_id": 426,
+          "post_count": 36
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "golden-brown"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

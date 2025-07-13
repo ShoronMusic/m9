@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 5587,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/brunette/",
+    "name": "BRUNETTE",
+    "slug": "brunette",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "ARM",
+      "artistactiveyearstart": "",
+      "artistborn": "20010527",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5587",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5587"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5587"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 76669,
+      "date": "2024-05-25T22:24:42",
+      "date_gmt": "2024-05-25T13:24:42",
+      "title": {
+        "rendered": "SUPERSTAR ILLNESS"
+      },
+      "content": {
+        "rendered": "<p>BRUNETTE - SUPERSTAR ILLNESS</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5587
+      ],
+      "tags": [],
+      "genre": [
+        405
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "-ImqhGe9G0s",
+        "ytreleasedate": "2024/05/25",
+        "spotify_track_id": "64LA4LewsI117WN8k4lfnQ",
+        "spotify_release_date": "2024-05-25",
+        "spotify_name": "Superstar Illness",
+        "spotify_artists": "Brunette",
+        "spotify_album": "Superstar Illness",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273819754c7e97f248b9ff74bc0",
+        "spotify_duration_ms": "180000",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.714",
+        "spotify_energy": "0.579",
+        "spotify_key": "11",
+        "spotify_loudness": "-10.631",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0696",
+        "spotify_tempo": "140.086",
+        "spotify_valence": "0.209",
+        "spotify_acousticness": "0.158",
+        "spotify_instrumentalness": "0.0000142",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.232",
+        "spotify_artists01": "Brunette",
+        "spotify_artists01_id": "3SR6TrRumzRfsa92RkVIcG",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2bea40bf3625d69861e251e6",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "38",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273819754c7e97f248b9ff74bc0.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5587,
+            "name": "BRUNETTE",
+            "slug": "brunette",
+            "acf": {
+              "artistorigin": "ARM",
+              "artistactiveyearstart": "",
+              "artistborn": "20010527",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Brunette",
+        "ytvideoid": "-ImqhGe9G0s",
+        "spotify_track_id": "64LA4LewsI117WN8k4lfnQ"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative R&amp;B",
+          "slug": "alternative-rb",
+          "term_id": 405,
+          "post_count": 348
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "superstar-illness"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 1902,
+  "count": 10,
+  "description": "Milky Chance is a German rock band.",
+  "link": "https://sub.music8.jp/category/milky-chance/",
+  "name": "Milky Chance",
+  "slug": "milky-chance",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "2012",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ミルキーチャンス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1hzfo8twXdOegF3xireCYs",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517444692946203bdd94759116e3"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1902",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1902"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1902"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ミルキーチャンス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517444692946203bdd94759116e3",
+  "artistActiveYearStart": "2012",
+  "occupation": "band"
+}

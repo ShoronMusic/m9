@@ -1,0 +1,76 @@
+{
+  "id": 5171,
+  "count": 2,
+  "description": "Arthur Baker is an American record producer and DJ.",
+  "link": "https://sub.music8.jp/category/arthur-baker/",
+  "name": "Arthur Baker",
+  "slug": "arthur-baker",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1982",
+    "artistborn": "19550422",
+    "artistjpname": "アーサー・ベイカー",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5YzGCkGA6XEGKs2C9KRVKA",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bbb816cbbff0a6598cdcf478"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5171",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5171"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5171"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アーサー・ベイカー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174bbb816cbbff0a6598cdcf478",
+  "artistActiveYearStart": "1982",
+  "occupation": "dj, producer"
+}

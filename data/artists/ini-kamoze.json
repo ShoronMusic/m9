@@ -1,0 +1,72 @@
+{
+  "id": 5043,
+  "count": 1,
+  "description": "iNi Kamoze is a Jamaican reggae artist.",
+  "link": "https://sub.music8.jp/category/ini-kamoze/",
+  "name": "Ini Kamoze",
+  "slug": "ini-kamoze",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "JAM",
+    "artistactiveyearstart": "1981",
+    "artistborn": "19571009",
+    "artistjpname": "アイニ・カモーゼ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1VJspRsoC6c0bvqhnSiFCs",
+    "spotify_artist_images": "https://i.scdn.co/image/c6924c38af6286d5d1f5ee73436f49d6602774e9"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5043",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5043"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5043"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アイニ・カモーゼ",
+  "spotifyArtistImages": "https://i.scdn.co/image/c6924c38af6286d5d1f5ee73436f49d6602774e9",
+  "artistActiveYearStart": "1981",
+  "occupation": "singer"
+}

@@ -1,0 +1,77 @@
+{
+  "id": 953,
+  "count": 1,
+  "description": "Ryuichi Sakamoto was a Japanese composer, pianist, record producer, and actor.",
+  "link": "https://sub.music8.jp/category/ryuichi-sakamoto/",
+  "name": "Ryuichi Sakamoto",
+  "slug": "ryuichi-sakamoto",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "JAP",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistdied": "2023.03.08",
+    "artistjpname": "坂本龍一",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      },
+      {
+        "value": "pianist",
+        "label": "Pianist"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/953",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=953"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=953"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "坂本龍一",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "",
+  "occupation": "musician, producer, pianist"
+}

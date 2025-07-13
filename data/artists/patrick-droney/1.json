@@ -1,0 +1,420 @@
+{
+  "artist": {
+    "id": 3172,
+    "count": 3,
+    "description": "",
+    "link": "https://sub.music8.jp/category/patrick-droney/",
+    "name": "Patrick Droney",
+    "slug": "patrick-droney",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "パトリック・ドローニー",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3172",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3172"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3172"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51773,
+      "date": "2023-08-25T01:48:22",
+      "date_gmt": "2023-08-24T16:48:22",
+      "title": {
+        "rendered": "Shotgun Rider"
+      },
+      "content": {
+        "rendered": "<p>Patrick Droney - Shotgun Rider</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3172
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2AgY4zzIHAZDuswSO7SKxX",
+        "spotify_release_date": "2023-08-25",
+        "spotify_name": "Shotgun Rider",
+        "spotify_artists": "Patrick Droney",
+        "spotify_album": "Subtitles for Feelings",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27362c349a7d775f234e2d424e7",
+        "spotify_duration_ms": "234329",
+        "spotify_popularity": "53",
+        "spotify_danceability": "-0.2582149274126912",
+        "spotify_energy": "0.34133890074467427",
+        "spotify_key": "0.47224151734130654",
+        "spotify_loudness": "0.6381273243708238",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.45598535820818115",
+        "spotify_tempo": "-0.4552869987834441",
+        "spotify_valence": "-1.7265679898828965",
+        "spotify_acousticness": "-0.7875591442664177",
+        "spotify_instrumentalness": "-0.3441821659825052",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "0.36473289379664314",
+        "spotify_artists01": "Patrick Droney",
+        "spotify_artists01_id": "78Rk1F0jGdipWWfrhyWwt3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb45285d0033b54d29e48f0921",
+        "spotify_artists01_genres": "nashville singer-songwriter",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "CmKJG2Pg0Sw",
+        "ytreleasedate": "2023/08/25"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Patrick-Droney-Shotgun-Rider.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3172,
+            "name": "Patrick Droney",
+            "slug": "patrick-droney",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "パトリック・ドローニー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Patrick Droney",
+        "ytvideoid": "CmKJG2Pg0Sw",
+        "spotify_track_id": "2AgY4zzIHAZDuswSO7SKxX"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "shotgun-rider"
+    },
+    {
+      "id": 51776,
+      "date": "2023-07-07T01:52:08",
+      "date_gmt": "2023-07-06T16:52:08",
+      "title": {
+        "rendered": "Caroline"
+      },
+      "content": {
+        "rendered": "<p>Patrick Droney - Caroline</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3172
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1GdITFFlxMEYAvW9zacIIg",
+        "spotify_release_date": "2023-07-07",
+        "spotify_name": "Caroline",
+        "spotify_artists": "Patrick Droney",
+        "spotify_album": "Caroline",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735ac205f2eb16287e6c0d8b1a",
+        "spotify_duration_ms": "223421",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.667",
+        "spotify_energy": "0.542",
+        "spotify_key": "0",
+        "spotify_loudness": "-5.883",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0393",
+        "spotify_tempo": "134.944",
+        "spotify_valence": "0.351",
+        "spotify_acousticness": "0.0287",
+        "spotify_instrumentalness": "0.086",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.08",
+        "spotify_artists01": "Patrick Droney",
+        "spotify_artists01_id": "78Rk1F0jGdipWWfrhyWwt3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb45285d0033b54d29e48f0921",
+        "spotify_artists01_genres": "nashville singer-songwriter",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "7xTD_t_p6zA",
+        "ytreleasedate": "2023/07/07"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Patrick-Droney-Caroline.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3172,
+            "name": "Patrick Droney",
+            "slug": "patrick-droney",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "パトリック・ドローニー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Patrick Droney",
+        "ytvideoid": "7xTD_t_p6zA",
+        "spotify_track_id": "1GdITFFlxMEYAvW9zacIIg"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "caroline-2"
+    },
+    {
+      "id": 51779,
+      "date": "2023-05-26T01:53:34",
+      "date_gmt": "2023-05-25T16:53:34",
+      "title": {
+        "rendered": "Go Getter"
+      },
+      "content": {
+        "rendered": "<p>Patrick Droney - Go Getter</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3172
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4SuT3gebBDQuDgfmkMsjzn",
+        "spotify_release_date": "2023-05-26",
+        "spotify_name": "Go Getter",
+        "spotify_artists": "Patrick Droney",
+        "spotify_album": "Go Getter",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d3ca0cf7dbc46a18debf6855",
+        "spotify_duration_ms": "243520",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.623",
+        "spotify_energy": "0.805",
+        "spotify_key": "1",
+        "spotify_loudness": "-5.337",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0582",
+        "spotify_tempo": "79.989",
+        "spotify_valence": "0.611",
+        "spotify_acousticness": "0.0585",
+        "spotify_instrumentalness": "0.00293",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.111",
+        "spotify_artists01": "Patrick Droney",
+        "spotify_artists01_id": "78Rk1F0jGdipWWfrhyWwt3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb45285d0033b54d29e48f0921",
+        "spotify_artists01_genres": "nashville singer-songwriter",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "AJZ6IVfSO48",
+        "ytreleasedate": "2023/05/26"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Patrick-Droney-Go-Getter.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3172,
+            "name": "Patrick Droney",
+            "slug": "patrick-droney",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "パトリック・ドローニー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Patrick Droney",
+        "ytvideoid": "AJZ6IVfSO48",
+        "spotify_track_id": "4SuT3gebBDQuDgfmkMsjzn"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "go-getter"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

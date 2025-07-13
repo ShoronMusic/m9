@@ -1,0 +1,76 @@
+{
+  "id": 5630,
+  "count": 1,
+  "description": "Travis Tritt is an American country singer.",
+  "link": "https://sub.music8.jp/category/travis-tritt/",
+  "name": "Travis Tritt",
+  "slug": "travis-tritt",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1987",
+    "artistborn": "19630209",
+    "artistjpname": "トラヴィス・トリット",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "Clint Black | Aaron Tippin | Tracy Byrd | John Michael Montgomery | Tracy Lawrence | Mark Chesnutt | Sammy Kershaw | Joe Diffie | Sawyer Brown | Neal McCoy | Diamond Rio | David Lee Murphy | Little Texas | Confederate Railroad | Shenandoah | Randy Travis | John Anderson | Patty Loveless | Alabama | Clay Walker",
+    "spotify_artist_id": "2M4Yt7oKGoYd0wqU44k4i2",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a8c570d026bf6b373b2fb307"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5630",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5630"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5630"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "トラヴィス・トリット",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a8c570d026bf6b373b2fb307",
+  "artistActiveYearStart": "1987",
+  "occupation": "singer, songwriter"
+}

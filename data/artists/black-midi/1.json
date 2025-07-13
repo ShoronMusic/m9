@@ -1,0 +1,204 @@
+{
+  "artist": {
+    "id": 1815,
+    "count": 1,
+    "description": "Black Midi is an English rock band.",
+    "link": "https://sub.music8.jp/category/black-midi/",
+    "name": "Black Midi",
+    "slug": "black-midi",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2017",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ブラック・ミディ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1815",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1815"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1815"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39199,
+      "date": "2022-07-12T02:32:00",
+      "date_gmt": "2022-07-11T17:32:00",
+      "title": {
+        "rendered": "Sugar/Tzu"
+      },
+      "content": {
+        "rendered": "\n<p>BlackMidi-Sugar/Tzu</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1815
+      ],
+      "tags": [],
+      "genre": [
+        511,
+        590,
+        665,
+        674
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0DkazfLyVRaMvSkwycyyfT",
+        "spotify_release_date": "2022/7/15",
+        "spotify_name": "Sugar/Tzu",
+        "spotify_artists": "blackmidi",
+        "spotify_album": "Hellfire",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273079bc2bd9ea16956274efc24",
+        "spotify_duration_ms": "230687",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.275",
+        "spotify_energy": "0.977",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.418",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.378",
+        "spotify_tempo": "87.678",
+        "spotify_valence": "0.101",
+        "spotify_acousticness": "0.105",
+        "spotify_instrumentalness": "1.08E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.472",
+        "spotify_artists01": "blackmidi",
+        "spotify_artists01_id": "7Hvq85OU8T7Hsd63zNBwaL",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb069ff978752054a7e015daab",
+        "spotify_artists01_genres": "crankwave,noiserock,uknoiserock,ukpost-punkrevival",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "8D3TrpQ_nFo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/black-midi-SugarTzu.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1815,
+            "name": "Black Midi",
+            "slug": "black-midi",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ブラック・ミディ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "blackmidi",
+        "ytvideoid": "8D3TrpQ_nFo",
+        "spotify_track_id": "0DkazfLyVRaMvSkwycyyfT"
+      },
+      "genre_data": [
+        {
+          "name": "Experimental",
+          "slug": "experimental",
+          "term_id": 511,
+          "post_count": 3
+        },
+        {
+          "name": "Jazz-rock",
+          "slug": "jazz-rock",
+          "term_id": 590,
+          "post_count": 20
+        },
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        },
+        {
+          "name": "Progressive rock",
+          "slug": "progressive-rock",
+          "term_id": 674,
+          "post_count": 48
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "sugar-tzu"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

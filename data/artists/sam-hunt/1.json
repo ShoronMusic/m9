@@ -1,0 +1,337 @@
+{
+  "artist": {
+    "id": 1662,
+    "count": 2,
+    "description": "Sam Hunt is an American singer and songwriter.",
+    "link": "https://sub.music8.jp/category/sam-hunt/",
+    "name": "Sam Hunt",
+    "slug": "sam-hunt",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2008",
+      "artistborn": "19841208",
+      "artistdied": "",
+      "artistjpname": "サム・ハント",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1662",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1662"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1662"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 64412,
+      "date": "2024-03-22T15:27:52",
+      "date_gmt": "2024-03-22T06:27:52",
+      "title": {
+        "rendered": "Locked Up"
+      },
+      "content": {
+        "rendered": "<p>Sam Hunt - Locked Up</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1662
+      ],
+      "tags": [],
+      "genre": [
+        465,
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "_B9NEwqFRTI",
+        "ytreleasedate": "2024/03/22",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3lT10s1U9K0vrEGpsu8kBP",
+        "spotify_release_date": "2024-03-22",
+        "spotify_name": "Locked Up",
+        "spotify_artists": "Sam Hunt",
+        "spotify_album": "Locked Up",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737b3b8c9adc3f4f314a9a7bf8",
+        "spotify_duration_ms": "208106",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.491",
+        "spotify_energy": "0.78",
+        "spotify_key": "9",
+        "spotify_loudness": "-4.127",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.149",
+        "spotify_tempo": "199.751",
+        "spotify_valence": "0.48",
+        "spotify_acousticness": "0.34",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.156",
+        "spotify_artists01": "Sam Hunt",
+        "spotify_artists01_id": "2kucQ9jQwuD8jWdtR9Ef38",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb08580648700068bbce5f7d8d",
+        "spotify_artists01_genres": "contemporary country, country, country pop, modern country rock",
+        "spotify_artists01_popularity": "68",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2737b3b8c9adc3f4f314a9a7bf8.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1662,
+            "name": "Sam Hunt",
+            "slug": "sam-hunt",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2008",
+              "artistborn": "19841208",
+              "artistdied": "",
+              "artistjpname": "サム・ハント",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Sam Hunt",
+        "ytvideoid": "_B9NEwqFRTI",
+        "spotify_track_id": "3lT10s1U9K0vrEGpsu8kBP"
+      },
+      "genre_data": [
+        {
+          "name": "Country",
+          "slug": "country",
+          "term_id": 465,
+          "post_count": 123
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "locked-up"
+    },
+    {
+      "id": 41681,
+      "date": "2020-03-20T21:11:00",
+      "date_gmt": "2020-03-20T12:11:00",
+      "title": {
+        "rendered": "Hard To Forget"
+      },
+      "content": {
+        "rendered": "\n<p>SamHunt-HardToForget</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1662
+      ],
+      "tags": [],
+      "genre": [
+        465
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "10xuH52YSXHWFwCaF1fsDd",
+        "spotify_release_date": "2020/4/3",
+        "spotify_name": "Hard To Forget",
+        "spotify_artists": "Sam Hunt",
+        "spotify_album": "SOUTHSIDE",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b5529363386deb522a4f586c",
+        "spotify_duration_ms": "204760",
+        "spotify_popularity": "67",
+        "spotify_danceability": "0.689",
+        "spotify_energy": "0.689",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.517",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.045",
+        "spotify_tempo": "130.069",
+        "spotify_valence": "0.664",
+        "spotify_acousticness": "0.23",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.57",
+        "spotify_artists01": "Sam Hunt",
+        "spotify_artists01_id": "2kucQ9jQwuD8jWdtR9Ef38",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcf3c2fdcf8db021111d6da29",
+        "spotify_artists01_genres": "contemporary country, country, country pop",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Wxhv_HsEIl4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sam-Hunt-Hard-To-Forget.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1662,
+            "name": "Sam Hunt",
+            "slug": "sam-hunt",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2008",
+              "artistborn": "19841208",
+              "artistdied": "",
+              "artistjpname": "サム・ハント",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Sam Hunt",
+        "ytvideoid": "Wxhv_HsEIl4",
+        "spotify_track_id": "10xuH52YSXHWFwCaF1fsDd"
+      },
+      "genre_data": [
+        {
+          "name": "Country",
+          "slug": "country",
+          "term_id": 465,
+          "post_count": 123
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hard-to-forget"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

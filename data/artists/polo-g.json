@@ -1,0 +1,69 @@
+{
+  "id": 1435,
+  "count": 7,
+  "description": "Polo G is an American rapper.",
+  "link": "https://sub.music8.jp/category/polo-g/",
+  "name": "Polo G",
+  "slug": "polo-g",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2017",
+    "artistborn": "19990106",
+    "artistdied": "",
+    "artistjpname": "ポロG",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1435",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1435"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1435"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ポロG",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2017",
+  "occupation": "rapper"
+}

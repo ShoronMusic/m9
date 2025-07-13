@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1922,
+    "count": 1,
+    "description": "SGP",
+    "link": "https://sub.music8.jp/category/sign-of-five/",
+    "name": "Sign Of Five",
+    "slug": "sign-of-five",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1922",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1922"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1922"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39593,
+      "date": "2022-05-13T18:17:00",
+      "date_gmt": "2022-05-13T09:17:00",
+      "title": {
+        "rendered": "CHANCES"
+      },
+      "content": {
+        "rendered": "\n<p>SignOfFive-CHANCES</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1922
+      ],
+      "tags": [],
+      "genre": [
+        575,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6XvEVDPIgFkBcabQPq5Peh",
+        "spotify_release_date": "2022/5/13",
+        "spotify_name": "Chances",
+        "spotify_artists": "SignofFive",
+        "spotify_album": "Chances",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d73b19b2e388fc243b68601c",
+        "spotify_duration_ms": "162000",
+        "spotify_popularity": "1",
+        "spotify_danceability": "0.519",
+        "spotify_energy": "0.885",
+        "spotify_key": "0",
+        "spotify_loudness": "-7.338",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0473",
+        "spotify_tempo": "94.986",
+        "spotify_valence": "0.477",
+        "spotify_acousticness": "1.73E-05",
+        "spotify_instrumentalness": "1.72E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.402",
+        "spotify_artists01": "SignofFive",
+        "spotify_artists01_id": "5v9bVo0Z9GI9L2SCFON6Hh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe7c3193ec16024d931b28806",
+        "spotify_artists01_genres": "singaporeanindie,singaporeanpunk",
+        "spotify_artists01_popularity": "1",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "f27SxF8CqBY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sign-Of-Five-CHANCES.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1922,
+            "name": "Sign Of Five",
+            "slug": "sign-of-five",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SignofFive",
+        "ytvideoid": "f27SxF8CqBY",
+        "spotify_track_id": "6XvEVDPIgFkBcabQPq5Peh"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "chances"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

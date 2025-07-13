@@ -1,0 +1,76 @@
+{
+  "id": 3587,
+  "count": 1,
+  "description": "Aphex Twin is an Irish-born British musician, composer and DJ.",
+  "link": "https://sub.music8.jp/category/aphex-twin/",
+  "name": "Aphex Twin",
+  "slug": "aphex-twin",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1988",
+    "artistborn": "19710818",
+    "artistjpname": "エイフェックス・ツイン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "dj",
+        "label": "DJ"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6kBDZFXuLrZgHnvmPu9NsG",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174adb24a1aca9893ac8afce138"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3587",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3587"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3587"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エイフェックス・ツイン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174adb24a1aca9893ac8afce138",
+  "artistActiveYearStart": "1988",
+  "occupation": "musician, dj"
+}

@@ -1,0 +1,94 @@
+{
+  "id": 3009,
+  "count": 1,
+  "description": "Yonaka are an English rock band.",
+  "link": "https://sub.music8.jp/category/yonaka/",
+  "name": "Yonaka",
+  "slug": "yonaka",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2014",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ヨナカ",
+    "member": [
+      {
+        "term_id": 1020,
+        "name": "Eric Clapton",
+        "slug": "eric-clapton",
+        "term_group": 0,
+        "term_taxonomy_id": 1020,
+        "taxonomy": "category",
+        "description": "Eric Clapton is an English rock and blues guitarist, singer, and songwriter.",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      },
+      {
+        "term_id": 768,
+        "name": "Sting",
+        "slug": "sting",
+        "term_group": 0,
+        "term_taxonomy_id": 768,
+        "taxonomy": "category",
+        "description": "Sting, is an English musician and actor. He was the frontman, songwriter and bassist for new wave band the Police.",
+        "parent": 0,
+        "count": 50,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3009",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3009"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3009"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ヨナカ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2014",
+  "occupation": "band"
+}

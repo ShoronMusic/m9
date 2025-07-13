@@ -1,0 +1,202 @@
+{
+  "artist": {
+    "id": 2465,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/kayla-king/",
+    "name": "KAYLA KING",
+    "slug": "kayla-king",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2465",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2465"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2465"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38293,
+      "date": "2022-11-18T21:25:00",
+      "date_gmt": "2022-11-18T12:25:00",
+      "title": {
+        "rendered": "Kiss from a Rose"
+      },
+      "content": {
+        "rendered": "\n<p>NoResolvefeat.KAYLAKING-KissfromaRose(RockCover)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2465,
+        2441
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        560
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "tFOemr0BOQA",
+        "likecount": "1",
+        "spotify_track_id": "4fSoOoWQs4DR0ON87wh0xS",
+        "spotify_release_date": "2022/11/18",
+        "spotify_name": "KissfromaRose",
+        "spotify_artists": "No Resolve, KAYLA KING",
+        "spotify_album": "KissfromaRose",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27386e5bef6e6dbc0b836d87768",
+        "spotify_duration_ms": "277500",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.47",
+        "spotify_energy": "0.92",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.059",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0654",
+        "spotify_tempo": "136.025",
+        "spotify_valence": "0.369",
+        "spotify_acousticness": "0.00124",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.311",
+        "spotify_artists01": "NoResolve",
+        "spotify_artists01_id": "7oAoGc2k7201dlU7mkhlDp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebeee2b78fe238b0773e1c57fc",
+        "spotify_artists01_genres": "gymcore,heavyalternative",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "KAYLAKING",
+        "spotify_artists02_id": "0R2YD9wUNA985BjENY7oTR",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebb6b09b7c65cb9f05842bbae9",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "44",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/No-Resolve-feat.-KAYLA-KING-Kiss-from-a-Rose.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2465,
+            "name": "KAYLA KING",
+            "slug": "kayla-king",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2441,
+            "name": "No Resolve",
+            "slug": "no-resolve",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2010",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "No Resolve, KAYLA KING",
+        "ytvideoid": "tFOemr0BOQA",
+        "spotify_track_id": "4fSoOoWQs4DR0ON87wh0xS"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "kiss-from-a-rose-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

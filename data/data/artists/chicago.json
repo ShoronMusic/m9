@@ -1,0 +1,72 @@
+{
+  "id": 4954,
+  "count": 7,
+  "description": "Chicago is an American rock band.",
+  "link": "https://sub.music8.jp/category/chicago/",
+  "name": "Chicago",
+  "slug": "chicago",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1967",
+    "artistborn": "",
+    "artistjpname": "シカゴ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Peter Cetera (peter-cetera) | REO Speedwagon (reo-speedwagon) | Foreigner (foreigner) | Toto (toto) | Kenny Loggins (kenny-loggins) | Christopher Cross | Starship (starship) | Boston (boston) | Styx (styx) | Huey Lewis & The News | America | Doobie Brothers (doobie-brothers) | Jefferson Starship (jefferson-starship) | Daryl Hall & John Oates | Heart (heart) | Three Dog Night (three-dog-night) | Bread | Barry Manilow (barry-manilow) | Seals and Crofts | Richard Marx (richard-marx)",
+    "spotify_artist_id": "3iDD7bnsjL9J4fO298r0L0",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bab088e2157b02848dfcbc1e"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4954",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4954"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4954"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "シカゴ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174bab088e2157b02848dfcbc1e",
+  "artistActiveYearStart": "1967",
+  "occupation": "band"
+}

@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 4005,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/presley-regier/",
+    "name": "Presley Regier",
+    "slug": "presley-regier",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "ssw",
+          "label": "SSW"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4005",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4005"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4005"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 59629,
+      "date": "2023-04-28T14:28:39",
+      "date_gmt": "2023-04-28T05:28:39",
+      "title": {
+        "rendered": "Nevermind"
+      },
+      "content": {
+        "rendered": "<p>Presley Regier - Nevermind</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4005
+      ],
+      "tags": [],
+      "genre": [
+        427,
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7EIFZh5EwM25MXgMnM1OZA",
+        "spotify_release_date": "2023-09-29",
+        "spotify_name": "NEVERMIND - Bonus Track",
+        "spotify_artists": "Presley Regier",
+        "spotify_album": "RUN",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273dc534ed88c9427bc63977be6",
+        "spotify_duration_ms": "169989",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.811",
+        "spotify_energy": "0.586",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.554",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0347",
+        "spotify_tempo": "113.021",
+        "spotify_valence": "0.691",
+        "spotify_acousticness": "0.0108",
+        "spotify_instrumentalness": "0.00000325",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.348",
+        "spotify_artists01": "Presley Regier",
+        "spotify_artists01_id": "7AAHfakMQan4p04ozZhhwc",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3a31e3bd06619b4270dbb604",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "h46gCzc40R8",
+        "ytreleasedate": "2023/04/28"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Presley-Regier-Nevermind.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4005,
+            "name": "Presley Regier",
+            "slug": "presley-regier",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Presley Regier",
+        "ytvideoid": "h46gCzc40R8",
+        "spotify_track_id": "7EIFZh5EwM25MXgMnM1OZA"
+      },
+      "genre_data": [
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "nevermind-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

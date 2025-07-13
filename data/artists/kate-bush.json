@@ -1,0 +1,63 @@
+{
+  "id": 825,
+  "count": 3,
+  "description": "Kate Bush is an English singer, songwriter, record producer, and dancer.",
+  "link": "https://sub.music8.jp/category/kate-bush/",
+  "name": "Kate Bush",
+  "slug": "kate-bush",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1975",
+    "artistborn": "19580730",
+    "artistdied": "",
+    "artistjpname": "ケイト・ブッシュ",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/825",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=825"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=825"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ケイト・ブッシュ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1975",
+  "occupation": ""
+}

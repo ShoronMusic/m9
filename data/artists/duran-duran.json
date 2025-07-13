@@ -1,0 +1,72 @@
+{
+  "id": 800,
+  "count": 14,
+  "description": "Duran Duran are an English new wave band.",
+  "link": "https://sub.music8.jp/category/duran-duran/",
+  "name": "Duran Duran",
+  "slug": "duran-duran",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1978",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "デュラン・デュラン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Spandau Ballet (spandau-ballet) | Human League (human-league) | a-ha (a-ha) | Frankie Goes To Hollywood (frankie-goes-to-hollywood) | Simple Minds (simple-minds) | Thompson Twins (thompson-twins) | Culture Club (culture-club) | Pet Shop Boys (pet-shop-boys) | Tears For Fears (tears-for-fears) | A Flock Of Seagulls (flock-of-seagulls) | Eurythmics (eurythmics) | Erasure (erasure) | Bananarama (bananarama) | Fine Young Cannibals (fine-young-cannibals) | Billy Idol (billy-idol) | INXS (inxs) | Soft Cell (soft-cell) | Men at Work (men-at-work) | Howard Jones (howard-jones) | Alphaville (alphaville)",
+    "spotify_artist_id": "0lZoBs4Pzo7R89JM9lxwoT",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174f363c34ff8b5ca3b9a13b174"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/800",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=800"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=800"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "デュラン・デュラン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174f363c34ff8b5ca3b9a13b174",
+  "artistActiveYearStart": "1978",
+  "occupation": "band"
+}

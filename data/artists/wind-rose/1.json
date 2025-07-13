@@ -1,0 +1,861 @@
+{
+  "artist": {
+    "id": 2251,
+    "count": 6,
+    "description": "Wind Rose is an Italian power metal band.",
+    "link": "https://sub.music8.jp/category/wind-rose/",
+    "name": "Wind Rose",
+    "slug": "wind-rose",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "ITA",
+      "artistactiveyearstart": "2009",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ウインド・ローズ ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2251",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2251"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2251"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 80595,
+      "date": "2024-08-29T14:02:39",
+      "date_gmt": "2024-08-29T05:02:39",
+      "title": {
+        "rendered": "To Be a Dwarf"
+      },
+      "content": {
+        "rendered": "<p>WIND ROSE - To Be a Dwarf</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2251
+      ],
+      "tags": [],
+      "genre": [
+        517
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "ykqyLX4PUao",
+        "ytreleasedate": "2024/08/29",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1YADABmC0HI1AAQjr2wNro",
+        "spotify_release_date": "2024-08-29",
+        "spotify_name": "To Be a Dwarf",
+        "spotify_artists": "Wind Rose",
+        "spotify_album": "To Be a Dwarf",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738ce6104eb1fc89dda1b31038",
+        "spotify_duration_ms": "301125",
+        "spotify_popularity": "36",
+        "spotify_danceability": "0.493",
+        "spotify_energy": "0.957",
+        "spotify_key": "7",
+        "spotify_loudness": "-6.648",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0518",
+        "spotify_tempo": "101.266",
+        "spotify_valence": "0.41",
+        "spotify_acousticness": "0.00002",
+        "spotify_instrumentalness": "0.0366",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.18",
+        "spotify_artists01": "Wind Rose",
+        "spotify_artists01_id": "67ps5pbKVO7V9Fcb4lTIXz",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe78f7b1edae902872d399cfb",
+        "spotify_artists01_genres": "fantasy metal, italian folk metal, italian power metal, middle earth, tolkien metal",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2738ce6104eb1fc89dda1b31038.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2251,
+            "name": "Wind Rose",
+            "slug": "wind-rose",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウインド・ローズ ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Wind Rose",
+        "ytvideoid": "ykqyLX4PUao",
+        "spotify_track_id": "1YADABmC0HI1AAQjr2wNro"
+      },
+      "genre_data": [
+        {
+          "name": "Folk metal",
+          "slug": "folk-metal",
+          "term_id": 517,
+          "post_count": 44
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "to-be-a-dwarf"
+    },
+    {
+      "id": 80599,
+      "date": "2024-07-11T14:04:36",
+      "date_gmt": "2024-07-11T05:04:36",
+      "title": {
+        "rendered": "Rock and Stone"
+      },
+      "content": {
+        "rendered": "<p>WIND ROSE - Rock and Stone</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2251
+      ],
+      "tags": [],
+      "genre": [
+        517
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "8ZXBm1NXBaI",
+        "ytreleasedate": "2024/07/11",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "23rQSLXdUAHv6gb1kta7lf",
+        "spotify_release_date": "2024-07-11",
+        "spotify_name": "Rock and Stone",
+        "spotify_artists": "Wind Rose",
+        "spotify_album": "Rock and Stone",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273098f59ec396f3d61ed419da7",
+        "spotify_duration_ms": "305158",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.29",
+        "spotify_energy": "0.956",
+        "spotify_key": "5",
+        "spotify_loudness": "-6.654",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0545",
+        "spotify_tempo": "124.969",
+        "spotify_valence": "0.635",
+        "spotify_acousticness": "0.0000226",
+        "spotify_instrumentalness": "0.438",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.194",
+        "spotify_artists01": "Wind Rose",
+        "spotify_artists01_id": "67ps5pbKVO7V9Fcb4lTIXz",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe78f7b1edae902872d399cfb",
+        "spotify_artists01_genres": "fantasy metal, italian folk metal, italian power metal, middle earth, tolkien metal",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273098f59ec396f3d61ed419da7.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2251,
+            "name": "Wind Rose",
+            "slug": "wind-rose",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウインド・ローズ ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Wind Rose",
+        "ytvideoid": "8ZXBm1NXBaI",
+        "spotify_track_id": "23rQSLXdUAHv6gb1kta7lf"
+      },
+      "genre_data": [
+        {
+          "name": "Folk metal",
+          "slug": "folk-metal",
+          "term_id": 517,
+          "post_count": 44
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rock-and-stone"
+    },
+    {
+      "id": 80603,
+      "date": "2023-01-04T14:05:56",
+      "date_gmt": "2023-01-04T05:05:56",
+      "title": {
+        "rendered": "Army Of Stone"
+      },
+      "content": {
+        "rendered": "<p>WIND ROSE - Army Of Stone</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2251
+      ],
+      "tags": [],
+      "genre": [
+        517,
+        668
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "SFxKm8zxCeE",
+        "ytreleasedate": "2023/01/04",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "1hOCeFetInJTLT7KeJ4ZsB",
+        "spotify_release_date": "2022-06-10",
+        "spotify_name": "Army of Stone",
+        "spotify_artists": "Wind Rose",
+        "spotify_album": "Warfront",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273445b4037e3b19377d5fba4a7",
+        "spotify_duration_ms": "305783",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.501",
+        "spotify_energy": "0.991",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.791",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0441",
+        "spotify_tempo": "113.004",
+        "spotify_valence": "0.274",
+        "spotify_acousticness": "0.0000301",
+        "spotify_instrumentalness": "0.0229",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.381",
+        "spotify_artists01": "Wind Rose",
+        "spotify_artists01_id": "67ps5pbKVO7V9Fcb4lTIXz",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe78f7b1edae902872d399cfb",
+        "spotify_artists01_genres": "fantasy metal, italian folk metal, italian power metal, middle earth, tolkien metal",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273445b4037e3b19377d5fba4a7.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2251,
+            "name": "Wind Rose",
+            "slug": "wind-rose",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウインド・ローズ ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Wind Rose",
+        "ytvideoid": "SFxKm8zxCeE",
+        "spotify_track_id": "1hOCeFetInJTLT7KeJ4ZsB"
+      },
+      "genre_data": [
+        {
+          "name": "Folk metal",
+          "slug": "folk-metal",
+          "term_id": 517,
+          "post_count": 44
+        },
+        {
+          "name": "Power metal",
+          "slug": "power-metal",
+          "term_id": 668,
+          "post_count": 98
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "army-of-stone"
+    },
+    {
+      "id": 39464,
+      "date": "2022-06-08T13:16:00",
+      "date_gmt": "2022-06-08T04:16:00",
+      "title": {
+        "rendered": "Fellows Of The Hammer"
+      },
+      "content": {
+        "rendered": "\n<p>WindRose-FellowsOfTheHammer</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2251
+      ],
+      "tags": [],
+      "genre": [
+        517,
+        668,
+        733
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2RyG06POk4ybd4B0CZC02k",
+        "spotify_release_date": "2022/6/10",
+        "spotify_name": "FellowsoftheHammer",
+        "spotify_artists": "WindRose",
+        "spotify_album": "Warfront",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273445b4037e3b19377d5fba4a7",
+        "spotify_duration_ms": "375595",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.511",
+        "spotify_energy": "0.986",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.586",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0627",
+        "spotify_tempo": "115.016",
+        "spotify_valence": "0.236",
+        "spotify_acousticness": "0.00012",
+        "spotify_instrumentalness": "0.476",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.487",
+        "spotify_artists01": "WindRose",
+        "spotify_artists01_id": "67ps5pbKVO7V9Fcb4lTIXz",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb0635ebd8512bc791f6215b6",
+        "spotify_artists01_genres": "fantasymetal,italianfolkmetal,italianpowermetal,middleearth,tolkienmetal",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "OeJdSFpcipM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Wind-Rose-Fellows-Of-The-Hammer.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2251,
+            "name": "Wind Rose",
+            "slug": "wind-rose",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウインド・ローズ ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "WindRose",
+        "ytvideoid": "OeJdSFpcipM",
+        "spotify_track_id": "2RyG06POk4ybd4B0CZC02k"
+      },
+      "genre_data": [
+        {
+          "name": "Folk metal",
+          "slug": "folk-metal",
+          "term_id": 517,
+          "post_count": 44
+        },
+        {
+          "name": "Power metal",
+          "slug": "power-metal",
+          "term_id": 668,
+          "post_count": 98
+        },
+        {
+          "name": "Symphonic metal",
+          "slug": "symphonic-metal",
+          "term_id": 733,
+          "post_count": 71
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "fellows-of-the-hammer"
+    },
+    {
+      "id": 39750,
+      "date": "2022-04-21T01:03:00",
+      "date_gmt": "2022-04-20T16:03:00",
+      "title": {
+        "rendered": "Together We Rise"
+      },
+      "content": {
+        "rendered": "\n<p>WINDROSE-TogetherWeRise</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2251
+      ],
+      "tags": [],
+      "genre": [
+        517,
+        668,
+        733
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1OMplIvNpCVCYirUTXF07d",
+        "spotify_release_date": "2022/6/10",
+        "spotify_name": "TogetherWeRise",
+        "spotify_artists": "WindRose",
+        "spotify_album": "Warfront",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273445b4037e3b19377d5fba4a7",
+        "spotify_duration_ms": "302628",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.581",
+        "spotify_energy": "0.968",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.749",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.042",
+        "spotify_tempo": "120.013",
+        "spotify_valence": "0.605",
+        "spotify_acousticness": "0.000151",
+        "spotify_instrumentalness": "0.666",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0599",
+        "spotify_artists01": "WindRose",
+        "spotify_artists01_id": "67ps5pbKVO7V9Fcb4lTIXz",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb0635ebd8512bc791f6215b6",
+        "spotify_artists01_genres": "fantasymetal,italianfolkmetal,italianpowermetal,middleearth,tolkienmetal",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "sdHpktve7xc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/WIND-ROSE-Together-We-Rise.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2251,
+            "name": "Wind Rose",
+            "slug": "wind-rose",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウインド・ローズ ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "WindRose",
+        "ytvideoid": "sdHpktve7xc",
+        "spotify_track_id": "1OMplIvNpCVCYirUTXF07d"
+      },
+      "genre_data": [
+        {
+          "name": "Folk metal",
+          "slug": "folk-metal",
+          "term_id": 517,
+          "post_count": 44
+        },
+        {
+          "name": "Power metal",
+          "slug": "power-metal",
+          "term_id": 668,
+          "post_count": 98
+        },
+        {
+          "name": "Symphonic metal",
+          "slug": "symphonic-metal",
+          "term_id": 733,
+          "post_count": 71
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "together-we-rise"
+    },
+    {
+      "id": 40088,
+      "date": "2022-03-09T13:56:00",
+      "date_gmt": "2022-03-09T04:56:00",
+      "title": {
+        "rendered": "Gates Of Ekrund"
+      },
+      "content": {
+        "rendered": "\n<p>WINDROSE-GatesOfEkrund</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2251
+      ],
+      "tags": [],
+      "genre": [
+        517,
+        668,
+        733
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7hx4Fr1vbGmKd0IYOmBIqr",
+        "spotify_release_date": "2022/6/10",
+        "spotify_name": "GatesofEkrund",
+        "spotify_artists": "WindRose",
+        "spotify_album": "Warfront",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273445b4037e3b19377d5fba4a7",
+        "spotify_duration_ms": "353164",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.361",
+        "spotify_energy": "0.987",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.359",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.142",
+        "spotify_tempo": "179.951",
+        "spotify_valence": "0.219",
+        "spotify_acousticness": "0.000131",
+        "spotify_instrumentalness": "0.0234",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.0841",
+        "spotify_artists01": "WindRose",
+        "spotify_artists01_id": "67ps5pbKVO7V9Fcb4lTIXz",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb0635ebd8512bc791f6215b6",
+        "spotify_artists01_genres": "fantasymetal,italianfolkmetal,italianpowermetal,middleearth,tolkienmetal",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "nHXUkZmvEJE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/WIND-ROSE-Gates-Of-Ekrund.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2251,
+            "name": "Wind Rose",
+            "slug": "wind-rose",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウインド・ローズ ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "WindRose",
+        "ytvideoid": "nHXUkZmvEJE",
+        "spotify_track_id": "7hx4Fr1vbGmKd0IYOmBIqr"
+      },
+      "genre_data": [
+        {
+          "name": "Folk metal",
+          "slug": "folk-metal",
+          "term_id": 517,
+          "post_count": 44
+        },
+        {
+          "name": "Power metal",
+          "slug": "power-metal",
+          "term_id": 668,
+          "post_count": 98
+        },
+        {
+          "name": "Symphonic metal",
+          "slug": "symphonic-metal",
+          "term_id": 733,
+          "post_count": 71
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "gates-of-ekrund"
+    }
+  ],
+  "totalSongs": 6,
+  "totalPages": 1,
+  "currentPage": 1
+}

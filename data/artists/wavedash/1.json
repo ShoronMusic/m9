@@ -1,0 +1,221 @@
+{
+  "artist": {
+    "id": 4687,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/wavedash/",
+    "name": "Wavedash",
+    "slug": "wavedash",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4687",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4687"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4687"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61923,
+      "date": "2024-02-10T23:26:01",
+      "date_gmt": "2024-02-10T14:26:01",
+      "title": {
+        "rendered": "All Ur Luv"
+      },
+      "content": {
+        "rendered": "<p>Wavedash, Madeon, Toro y Moi - All Ur Luv</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3173,
+        2533,
+        4687
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        735
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "zLFTQ3p3P1s",
+        "ytreleasedate": "",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3K1RnBxBkrMwoBE8gC63eY",
+        "spotify_release_date": "2024-02-01",
+        "spotify_name": "All Ur Luv",
+        "spotify_artists": "Wavedash, Madeon, Toro y Moi",
+        "spotify_album": "All Ur Luv",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a8591576b255b60d199867bd",
+        "spotify_duration_ms": "161771",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.714",
+        "spotify_energy": "0.811",
+        "spotify_key": "0",
+        "spotify_loudness": "-3.69",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.107",
+        "spotify_tempo": "115",
+        "spotify_valence": "0.736",
+        "spotify_acousticness": "0.0892",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0979",
+        "spotify_artists01": "Wavedash",
+        "spotify_artists01_id": "1SlTeYo2NYg93bGqlQYkwE",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba2eb8772c7436c49184d4594",
+        "spotify_artists01_genres": "brostep",
+        "spotify_artists01_popularity": "42",
+        "spotify_artists02": "マデオン",
+        "spotify_artists02_id": "4pb4rqWSoGUgxm63xmJ8xc",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebeb3e154881ba6cc3e4d4980d",
+        "spotify_artists02_genres": "complextro, edm, electro house, electropop, filter house, nantes indie, pop dance",
+        "spotify_artists02_popularity": "53",
+        "spotify_artists03": "トロ・イ・モア",
+        "spotify_artists03_id": "6O4EGCCb6DoIiR6B1QCQgp",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb0ae25eb659ba5b9a4d28a394",
+        "spotify_artists03_genres": "chillwave, hypnagogic pop, indie soul, indietronica",
+        "spotify_artists03_popularity": "58",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273a8591576b255b60d199867bd.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3173,
+            "name": "Madeon",
+            "slug": "madeon",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "2005",
+              "artistborn": "19940530",
+              "artistjpname": "マデオン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2533,
+            "name": "Toro y Moi",
+            "slug": "toro-y-moi",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2008",
+              "artistborn": "19861107",
+              "artistdied": "",
+              "artistjpname": "トロ・イ・モア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4687,
+            "name": "Wavedash",
+            "slug": "wavedash",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Wavedash, Madeon, Toro y Moi",
+        "ytvideoid": "zLFTQ3p3P1s",
+        "spotify_track_id": "3K1RnBxBkrMwoBE8gC63eY"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Synth-funk",
+          "slug": "synth-funk",
+          "term_id": 735,
+          "post_count": 262
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "all-ur-luv"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

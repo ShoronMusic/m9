@@ -1,0 +1,204 @@
+{
+  "artist": {
+    "id": 2980,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/magugu/",
+    "name": "Magugu",
+    "slug": "magugu",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2980",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2980"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2980"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50354,
+      "date": "2023-08-23T22:55:52",
+      "date_gmt": "2023-08-23T13:55:52",
+      "title": {
+        "rendered": "Revenge Of The Orchestra"
+      },
+      "content": {
+        "rendered": "<p>Apashe - Revenge Of The Orchestra (ft. Magugu)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2979,
+        2980
+      ],
+      "tags": [],
+      "genre": [
+        740
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1LeeXhb4CsZZAxb7VzRWng",
+        "spotify_release_date": "2023-08-23",
+        "spotify_name": "Revenge of the Orchestra",
+        "spotify_artists": "Apashe, Magugu",
+        "spotify_album": "Revenge of the Orchestra",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ef018c53255becaa03715c3f",
+        "spotify_duration_ms": "230476",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.698",
+        "spotify_energy": "0.961",
+        "spotify_key": "2",
+        "spotify_loudness": "-2.016",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.113",
+        "spotify_tempo": "126.04",
+        "spotify_valence": "0.107",
+        "spotify_acousticness": "0.0145",
+        "spotify_instrumentalness": "0.748",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.158",
+        "spotify_artists01": "Apashe",
+        "spotify_artists01_id": "1fd3fmwlhrDl2U5wbbPQYN",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd681a74e4f148b698baf6edb",
+        "spotify_artists01_genres": "bass trap",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "Magugu",
+        "spotify_artists02_id": "6zfXNcgsqAJvIgEqWcX9hL",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebbf4ccc6bf74218b8ad3e77b1",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "38",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Ui7AM-OqBGw",
+        "ytreleasedate": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Apashe-Revenge-Of-The-Orchestra.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2979,
+            "name": "Apashe",
+            "slug": "apashe",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19920509",
+              "artistdied": "",
+              "artistjpname": "アパシェ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2980,
+            "name": "Magugu",
+            "slug": "magugu",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Apashe, Magugu",
+        "ytvideoid": "Ui7AM-OqBGw",
+        "spotify_track_id": "1LeeXhb4CsZZAxb7VzRWng"
+      },
+      "genre_data": [
+        {
+          "name": "Tech house",
+          "slug": "tech-house",
+          "term_id": 740,
+          "post_count": 91
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "revenge-of-the-orchestra"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

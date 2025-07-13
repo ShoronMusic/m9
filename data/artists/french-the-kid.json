@@ -1,0 +1,72 @@
+{
+  "id": 6069,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/french-the-kid/",
+  "name": "French The Kid",
+  "slug": "french-the-kid",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4k1cMkJjG3UCRptckbpAnC",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517498f674ded9750e8e57d10a61"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6069",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6069"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6069"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517498f674ded9750e8e57d10a61",
+  "artistActiveYearStart": "",
+  "occupation": "rapper"
+}

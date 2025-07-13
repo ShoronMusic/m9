@@ -1,0 +1,72 @@
+{
+  "id": 5701,
+  "count": 1,
+  "description": "Frank Turner is an English punk and folk singer-songwriter.",
+  "link": "https://sub.music8.jp/category/frank-turner/",
+  "name": "Frank Turner",
+  "slug": "frank-turner",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2001",
+    "artistborn": "19811228",
+    "artistjpname": "フランク・ターナー",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      }
+    ],
+    "related_artists": "Brian Fallon | Dave Hause | Beans on Toast | Chuck Ragan | Gaslight Anthem (gaslight-anthem) | Will Varley | Menzingers | Million Dead | Horrible Crowes | Skinny Lister | Hot Water Music (hot-water-music) | Red City Radio | Loved Ones | Tim Vantol | Against Me! | Tim Barry | Mingle Harde | Flatliners | Off With Their Heads | Lawrence Arms",
+    "spotify_artist_id": "27M9shmwhIjRo7WntpT9Rp",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517415bc846cba5e7daed061cb0c"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5701",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5701"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5701"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "フランク・ターナー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517415bc846cba5e7daed061cb0c",
+  "artistActiveYearStart": "2001",
+  "occupation": "ssw"
+}

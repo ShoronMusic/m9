@@ -1,0 +1,201 @@
+{
+  "artist": {
+    "id": 3768,
+    "count": 1,
+    "description": "Jess Meilman is an American singer and songwriter.",
+    "link": "https://sub.music8.jp/category/jess-meilman/",
+    "name": "Jess Meilman",
+    "slug": "jess-meilman",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3768",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3768"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3768"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57385,
+      "date": "2023-02-17T11:15:21",
+      "date_gmt": "2023-02-17T02:15:21",
+      "title": {
+        "rendered": "Ketamine Kids"
+      },
+      "content": {
+        "rendered": "<p>Jess Meilman - Ketamine Kids</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3768
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5kmXcMK9U9RNZxDHSOYlO5",
+        "spotify_release_date": "2023-02-10",
+        "spotify_name": "Ketamine Kids",
+        "spotify_artists": "Jess Meilman",
+        "spotify_album": "Ketamine Kids",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27303391d399b50ca5dc4cbf77a",
+        "spotify_duration_ms": "166439",
+        "spotify_popularity": "8",
+        "spotify_danceability": "0.651",
+        "spotify_energy": "0.538",
+        "spotify_key": "11",
+        "spotify_loudness": "-6.371",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0497",
+        "spotify_tempo": "133.046",
+        "spotify_valence": "0.235",
+        "spotify_acousticness": "0.1",
+        "spotify_instrumentalness": "0.32",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0953",
+        "spotify_artists01": "Jess Meilman",
+        "spotify_artists01_id": "1kmlGybezNBp0fGM8PNBw9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb994a254e6b459081fd1d8075",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "14",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "KNztfTTbA3k",
+        "ytreleasedate": "2023/02/17"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Jess-Meilman-Ketamine-Kids.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3768,
+            "name": "Jess Meilman",
+            "slug": "jess-meilman",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Jess Meilman",
+        "ytvideoid": "KNztfTTbA3k",
+        "spotify_track_id": "5kmXcMK9U9RNZxDHSOYlO5"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "ketamine-kids"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,63 @@
+{
+  "id": 1214,
+  "count": 1,
+  "description": "Jason Donovan is an Australian actor and singer.",
+  "link": "https://sub.music8.jp/category/jason-donovan/",
+  "name": "Jason Donovan",
+  "slug": "jason-donovan",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "1980",
+    "artistborn": "19680601",
+    "artistdied": "",
+    "artistjpname": "ジェイソン・ドノヴァン",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1214",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1214"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1214"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェイソン・ドノヴァン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1980",
+  "occupation": ""
+}

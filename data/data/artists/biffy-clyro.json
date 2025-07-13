@@ -1,0 +1,63 @@
+{
+  "id": 2302,
+  "count": 1,
+  "description": "Biffy Clyro is a Scottish rock band.",
+  "link": "https://sub.music8.jp/category/biffy-clyro/",
+  "name": "Biffy Clyro",
+  "slug": "biffy-clyro",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1995",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ビッフィ・クライロ",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2302",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2302"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2302"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ビッフィ・クライロ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1995",
+  "occupation": ""
+}

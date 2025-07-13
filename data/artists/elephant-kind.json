@@ -1,0 +1,72 @@
+{
+  "id": 5810,
+  "count": 5,
+  "description": "Elephant Kind is an Indonesian indie rock band.",
+  "link": "https://sub.music8.jp/category/elephant-kind/",
+  "name": "Elephant Kind",
+  "slug": "elephant-kind",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "INA",
+    "artistactiveyearstart": "2013",
+    "artistborn": "",
+    "artistjpname": "エレファント・カインド",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4xerUCsurnILh4KpC5FVWX",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174de7c0792f6a173331677fee1"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5810",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5810"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5810"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エレファント・カインド",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174de7c0792f6a173331677fee1",
+  "artistActiveYearStart": "2013",
+  "occupation": "band"
+}

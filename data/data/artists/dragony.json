@@ -1,0 +1,72 @@
+{
+  "id": 5641,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/dragony/",
+  "name": "Dragony",
+  "slug": "dragony",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUT",
+    "artistactiveyearstart": "2007",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Veonity | Galderia | Aldaria | Victorius | Memories Of Old | Cryonic Temple | Wisdom | Marius Danielsen | Dreamtale | Magic Kingdom | Timeless Miracle | Frozen Land | Terra Atlantica | Skeletoon | Power Quest | Thornbridge | Shadowquest | Keldian | Grimgotts | Kaledon",
+    "spotify_artist_id": "4ZGFYwFpBWxq6FxqilvRJT",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174da28f296849fb06240c14dd3"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5641",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5641"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5641"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174da28f296849fb06240c14dd3",
+  "artistActiveYearStart": "2007",
+  "occupation": "band"
+}

@@ -1,0 +1,67 @@
+{
+  "id": 838,
+  "count": 3,
+  "description": "Men at Work are an Australian rock band",
+  "link": "https://sub.music8.jp/category/men-at-work/",
+  "name": "Men at Work",
+  "slug": "men-at-work",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "1978",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "メン・アット・ワーク",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [],
+    "related_artists": "",
+    "spotify_artist_id": "0f3EsoviYnRKTkmayI3cux",
+    "spotify_artist_images": "https://i.scdn.co/image/29eea102fd8b9b1ba9844b8a2d9e08c534271d36"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/838",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=838"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=838"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "メン・アット・ワーク",
+  "spotifyArtistImages": "https://i.scdn.co/image/29eea102fd8b9b1ba9844b8a2d9e08c534271d36",
+  "artistActiveYearStart": "1978",
+  "occupation": ""
+}

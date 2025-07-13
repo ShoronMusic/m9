@@ -1,0 +1,67 @@
+{
+  "id": 1603,
+  "count": 4,
+  "description": "US",
+  "link": "https://sub.music8.jp/category/lainey-wilson/",
+  "name": "Lainey Wilson",
+  "slug": "lainey-wilson",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2011",
+    "artistborn": "19920519",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [],
+    "related_artists": "",
+    "spotify_artist_id": "6tPHARSq45lQ8BSALCfkFC",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174cb092867a2a4c35434d0128b"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1603",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1603"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1603"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174cb092867a2a4c35434d0128b",
+  "artistActiveYearStart": "2011",
+  "occupation": ""
+}

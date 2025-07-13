@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2175,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/judi-jackson/",
+    "name": "Judi Jackson",
+    "slug": "judi-jackson",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2175",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2175"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2175"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39913,
+      "date": "2022-03-31T00:42:00",
+      "date_gmt": "2022-03-30T15:42:00",
+      "title": {
+        "rendered": "River"
+      },
+      "content": {
+        "rendered": "\n<p>JudiJackson-River</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2175
+      ],
+      "tags": [],
+      "genre": [
+        685,
+        719
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7jRwDyaQA93XBDj9E1lJvs",
+        "spotify_release_date": "2021/10/29",
+        "spotify_name": "River",
+        "spotify_artists": "JudiJackson",
+        "spotify_album": "Grace",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f2353730d1d60c43e63c6e84",
+        "spotify_duration_ms": "248393",
+        "spotify_popularity": "20",
+        "spotify_danceability": "0.264",
+        "spotify_energy": "0.342",
+        "spotify_key": "0",
+        "spotify_loudness": "-8.438",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0302",
+        "spotify_tempo": "129.633",
+        "spotify_valence": "0.154",
+        "spotify_acousticness": "0.197",
+        "spotify_instrumentalness": "6.74E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.104",
+        "spotify_artists01": "JudiJackson",
+        "spotify_artists01_id": "6cc4nTPbOmmi0oWqMKL6fU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb01d77df5d94ad76a99c1e9d4",
+        "spotify_artists01_genres": "neor&b",
+        "spotify_artists01_popularity": "26",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Yhd6FXNEZQQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Judi-Jackson-River.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2175,
+            "name": "Judi Jackson",
+            "slug": "judi-jackson",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "JudiJackson",
+        "ytvideoid": "Yhd6FXNEZQQ",
+        "spotify_track_id": "7jRwDyaQA93XBDj9E1lJvs"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "river"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

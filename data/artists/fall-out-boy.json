@@ -1,0 +1,72 @@
+{
+  "id": 2366,
+  "count": 7,
+  "description": "Fall Out Boy is an American rock band.",
+  "link": "https://sub.music8.jp/category/fall-out-boy/",
+  "name": "Fall Out Boy",
+  "slug": "fall-out-boy",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2001",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "フォール・アウト・ボーイ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Panic! At The Disco (panic-at-the-disco) | All-American Rejects (all-american-rejects) | All Time Low (all-time-low) | My Chemical Romance (my-chemical-romance) | Good Charlotte (good-charlotte) | Paramore (paramore) | Red Jumpsuit Apparatus (red-jumpsuit-apparatus) | Simple Plan (simple-plan) | Yellowcard (yellowcard) | Bowling For Soup (bowling-for-soup) | Plain White T's | We The Kings | Jimmy Eat World (jimmy-eat-world) | Sum 41 (sum-41) | BOYS LIKE GIRLS (boys-like-girls) | blink-182 (blink-182) | Mayday Parade (mayday-parade) | Three Days Grace | Green Day (green-day) | Sleeping With Sirens (sleeping-with-sirens)",
+    "spotify_artist_id": "4UXqAaa6dQYAk18Lv7PEgX",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174362011ebe6064c38e97e9aac"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2366",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2366"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2366"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "フォール・アウト・ボーイ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174362011ebe6064c38e97e9aac",
+  "artistActiveYearStart": "2001",
+  "occupation": "band"
+}

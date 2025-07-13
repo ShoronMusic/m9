@@ -1,0 +1,73 @@
+{
+  "id": 1974,
+  "count": 6,
+  "description": "Rex Orange County is an English singer, songwriter and multi-instrumentalist.",
+  "link": "https://sub.music8.jp/category/rex-orange-county/",
+  "name": "Rex Orange County",
+  "slug": "rex-orange-county",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2015",
+    "artistborn": "19980504",
+    "artistdied": "",
+    "artistjpname": "レックス・オレンジ・カウンティ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "multi-instrumentalist",
+        "label": "Multi-instrumentalist"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1974",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1974"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1974"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "レックス・オレンジ・カウンティ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2015",
+  "occupation": "singer, multi-instrumentalist"
+}

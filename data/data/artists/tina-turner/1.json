@@ -1,0 +1,732 @@
+{
+  "artist": {
+    "id": 1090,
+    "count": 4,
+    "description": "Tina Turner was a singer, songwriter and actress.",
+    "link": "https://sub.music8.jp/category/tina-turner/",
+    "name": "Tina Turner",
+    "slug": "tina-turner",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1956–2009",
+      "artistborn": "19391126",
+      "artistdied": "2023.05.24",
+      "artistjpname": "ティナ・ターナー",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1090",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1090"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1090"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58855,
+      "date": "2023-11-28T11:42:30",
+      "date_gmt": "2023-11-28T02:42:30",
+      "title": {
+        "rendered": "Something Beautiful - 2023 Version"
+      },
+      "content": {
+        "rendered": "<p>Tina Turner - Something Beautiful - 2023 Version</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1090
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2p2BsulfyMgpXDwlz9RfpO",
+        "spotify_release_date": "2023-09-28",
+        "spotify_name": "Something Beautiful - 2023 Version",
+        "spotify_artists": "Tina Turner",
+        "spotify_album": "Something Beautiful (2023 Version)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27310c43c0a2e138d6d4b992f92",
+        "spotify_duration_ms": "316540",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.495",
+        "spotify_energy": "0.646",
+        "spotify_key": "8",
+        "spotify_loudness": "-8.201",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.036",
+        "spotify_tempo": "167.944",
+        "spotify_valence": "0.315",
+        "spotify_acousticness": "0.464",
+        "spotify_instrumentalness": "0.000135",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0916",
+        "spotify_artists01": "ティナ・ターナー",
+        "spotify_artists01_id": "1zuJe6b1roixEKMOtyrEak",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb22102415297132237b78829d",
+        "spotify_artists01_genres": "soft rock",
+        "spotify_artists01_popularity": "68",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Uz40h30xvrs",
+        "ytreleasedate": "2023/11/28"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tina-Turner-Something-Beautiful.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1090,
+            "name": "Tina Turner",
+            "slug": "tina-turner",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1956–2009",
+              "artistborn": "19391126",
+              "artistdied": "2023.05.24",
+              "artistjpname": "ティナ・ターナー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tina Turner",
+        "ytvideoid": "Uz40h30xvrs",
+        "spotify_track_id": "2p2BsulfyMgpXDwlz9RfpO"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "something-beautiful-2023-version"
+    },
+    {
+      "id": 41483,
+      "date": "2020-07-17T20:19:00",
+      "date_gmt": "2020-07-17T11:19:00",
+      "title": {
+        "rendered": "What's Love Got to Do with It"
+      },
+      "content": {
+        "rendered": "\n<p>Kygo,TinaTurner-What'sLoveGottoDowithIt</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1066,
+        1090
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "3Be7CLdHZpyzsVijme39cW",
+        "spotify_release_date": "2020/7/17",
+        "spotify_name": "What's Love Got to Do with It",
+        "spotify_artists": "Kygo, Tina Turner",
+        "spotify_album": "What's Love Got to Do with It",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f0b43fee481f279a186dff20",
+        "spotify_duration_ms": "208156",
+        "spotify_popularity": "73",
+        "spotify_danceability": "0.75",
+        "spotify_energy": "0.664",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.908",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.154",
+        "spotify_tempo": "105.023",
+        "spotify_valence": "0.617",
+        "spotify_acousticness": "0.275",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0632",
+        "spotify_artists01": "Kygo",
+        "spotify_artists01_id": "23fqKkggKUBHNkbKtXEls4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe636670d717588b11d654130",
+        "spotify_artists01_genres": "edm, pop, pop dance, tropical house",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "Tina Turner",
+        "spotify_artists02_id": "1zuJe6b1roixEKMOtyrEak",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb4a47fa4c586d83120fe64506",
+        "spotify_artists02_genres": "soft rock",
+        "spotify_artists02_popularity": "69",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "TNYGLMQxZ64",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kygo-Tina-Turner-Whats-Love-Got-to-Do-with-It.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1066,
+            "name": "Kygo",
+            "slug": "kygo",
+            "acf": {
+              "artistorigin": "NOR",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19910911",
+              "artistdied": "",
+              "artistjpname": "カイゴ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1090,
+            "name": "Tina Turner",
+            "slug": "tina-turner",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1956–2009",
+              "artistborn": "19391126",
+              "artistdied": "2023.05.24",
+              "artistjpname": "ティナ・ターナー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kygo, Tina Turner",
+        "ytvideoid": "TNYGLMQxZ64",
+        "spotify_track_id": "3Be7CLdHZpyzsVijme39cW"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "kygo-whats-love-got-to-do-with-it"
+    },
+    {
+      "id": 47203,
+      "date": "1990-11-01T15:17:00",
+      "date_gmt": "1990-11-01T06:17:00",
+      "title": {
+        "rendered": "It Takes Two"
+      },
+      "content": {
+        "rendered": "<p>Rod Stewart , Tina Turner - It Takes Two</p>\n",
+        "protected": false
+      },
+      "categories": [
+        769,
+        1090
+      ],
+      "tags": [],
+      "genre": [
+        658,
+        699
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0IffXbmCnEHyXnX4Rzl2bV",
+        "spotify_release_date": "1991/1/1",
+        "spotify_name": "It Takes Two (with Tina Turner)",
+        "spotify_artists": "Rod Stewart, Tina Turner",
+        "spotify_album": "Simply the Best",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fb5915d057d11457b1ece844",
+        "spotify_duration_ms": "252720",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.623",
+        "spotify_energy": "0.974",
+        "spotify_key": "5",
+        "spotify_loudness": "-4.922",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0715",
+        "spotify_tempo": "141.235",
+        "spotify_valence": "0.71",
+        "spotify_acousticness": "0.00521",
+        "spotify_instrumentalness": "1.87E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0775",
+        "spotify_artists01": "Rod Stewart",
+        "spotify_artists01_id": "2y8Jo9CKhJvtfeKOsYzRdT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1d3e6633d1da408fc103a9ec",
+        "spotify_artists01_genres": "mellow gold, soft rock",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "Tina Turner",
+        "spotify_artists02_id": "1zuJe6b1roixEKMOtyrEak",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb4a47fa4c586d83120fe64506",
+        "spotify_artists02_genres": "soft rock",
+        "spotify_artists02_popularity": "69",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "BC9n5sQ4gYk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Rod-Stewart-Tina-Turner-It-Takes-Two.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 769,
+            "name": "Rod Stewart",
+            "slug": "rod-stewart",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1961",
+              "artistborn": "",
+              "artistjpname": "ロッド・スチュワート",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1090,
+            "name": "Tina Turner",
+            "slug": "tina-turner",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1956–2009",
+              "artistborn": "19391126",
+              "artistdied": "2023.05.24",
+              "artistjpname": "ティナ・ターナー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Rod Stewart, Tina Turner",
+        "ytvideoid": "BC9n5sQ4gYk",
+        "spotify_track_id": "0IffXbmCnEHyXnX4Rzl2bV"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Rock and roll",
+          "slug": "rock-and-roll",
+          "term_id": 699,
+          "post_count": 16
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "it-takes-two"
+    },
+    {
+      "id": 48176,
+      "date": "1985-10-21T15:30:00",
+      "date_gmt": "1985-10-21T06:30:00",
+      "title": {
+        "rendered": "It's Only Love"
+      },
+      "content": {
+        "rendered": "<p>Bryan Adams &amp; Tina Turner - It's Only Love</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1021,
+        1090
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5xGsNXXTu545MWoeuFfjxT",
+        "spotify_release_date": "1984/11/5",
+        "spotify_name": "It's Only Love",
+        "spotify_artists": "Bryan Adams, Tina Turner",
+        "spotify_album": "Reckless (30th Anniversary / Deluxe Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cf1fee2a55e98e22bf358512",
+        "spotify_duration_ms": "194618",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.515",
+        "spotify_energy": "0.805",
+        "spotify_key": "5",
+        "spotify_loudness": "-4.491",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0345",
+        "spotify_tempo": "101.161",
+        "spotify_valence": "0.743",
+        "spotify_acousticness": "0.00993",
+        "spotify_instrumentalness": "1.57E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.419",
+        "spotify_artists01": "Bryan Adams",
+        "spotify_artists01_id": "3Z02hBLubJxuFJfhacLSDc",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8009ff2c16ef26e06e4d6623",
+        "spotify_artists01_genres": "canadian pop, canadian singer-songwriter, classic canadian rock, heartland rock, mellow gold, soft rock",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "Tina Turner",
+        "spotify_artists02_id": "1zuJe6b1roixEKMOtyrEak",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb4a47fa4c586d83120fe64506",
+        "spotify_artists02_genres": "soft rock",
+        "spotify_artists02_popularity": "69",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "6igcfvq2BQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ryan-Adams-Tina-Turner-Its-Only-Love.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1021,
+            "name": "Bryan Adams",
+            "slug": "bryan-adams",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1975",
+              "artistborn": "19591105",
+              "artistdied": "",
+              "artistjpname": "ブライアン・アダムス",
+              "member": false,
+              "artistimage1": {
+                "ID": 50627,
+                "id": 50627,
+                "title": "BryanAdams",
+                "filename": "BryanAdams.jpg",
+                "filesize": 45797,
+                "url": "https://sub.music8.jp/wp-content/uploads/BryanAdams.jpg",
+                "link": "https://sub.music8.jp/bryanadams/",
+                "alt": "",
+                "author": "1",
+                "description": "",
+                "caption": "",
+                "name": "bryanadams",
+                "status": "inherit",
+                "uploaded_to": 0,
+                "date": "2023-09-08 08:23:20",
+                "modified": "2023-09-08 08:23:20",
+                "menu_order": 0,
+                "mime_type": "image/jpeg",
+                "type": "image",
+                "subtype": "jpeg",
+                "icon": "https://sub.music8.jp/wp-includes/images/media/default.png",
+                "width": 452,
+                "height": 452,
+                "sizes": {
+                  "thumbnail": "https://sub.music8.jp/wp-content/uploads/BryanAdams-100x100.jpg",
+                  "thumbnail-width": 50,
+                  "thumbnail-height": 50,
+                  "medium": "https://sub.music8.jp/wp-content/uploads/BryanAdams.jpg",
+                  "medium-width": 452,
+                  "medium-height": 452,
+                  "medium_large": "https://sub.music8.jp/wp-content/uploads/BryanAdams.jpg",
+                  "medium_large-width": 452,
+                  "medium_large-height": 452,
+                  "large": "https://sub.music8.jp/wp-content/uploads/BryanAdams.jpg",
+                  "large-width": 452,
+                  "large-height": 452,
+                  "1536x1536": "https://sub.music8.jp/wp-content/uploads/BryanAdams.jpg",
+                  "1536x1536-width": 452,
+                  "1536x1536-height": 452,
+                  "2048x2048": "https://sub.music8.jp/wp-content/uploads/BryanAdams.jpg",
+                  "2048x2048-width": 452,
+                  "2048x2048-height": 452
+                }
+              },
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Roxette (roxette) | Richard Marx (richard-marx) | Michael Bolton (michael-bolton) | Phil Collins (phil-collins) | Starship (starship) | Bonnie Tyler (bonnie-tyler) | Lionel Richie (lionel-richie) | Toto (toto) | Foreigner (foreigner) | Cyndi Lauper (cyndi-lauper) | Peter Cetera (peter-cetera) | Bangles (bangles) | Belinda Carlisle (belinda-carlisle) | Tina Turner (tina-turner) | Survivor (survivor) | a-ha (a-ha) | Bon Jovi (bon-jovi) | Eurythmics (eurythmics) | Chicago (chicago) | Mike + The Mechanics (mike-and-the-mechanics)",
+              "spotify_artist_id": "3Z02hBLubJxuFJfhacLSDc",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749333e218db341b192817db03"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1090,
+            "name": "Tina Turner",
+            "slug": "tina-turner",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1956–2009",
+              "artistborn": "19391126",
+              "artistdied": "2023.05.24",
+              "artistjpname": "ティナ・ターナー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Bryan Adams, Tina Turner",
+        "ytvideoid": "6igcfvq2BQ",
+        "spotify_track_id": "5xGsNXXTu545MWoeuFfjxT"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "its-only-love-2"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

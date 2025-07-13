@@ -1,0 +1,193 @@
+{
+  "artist": {
+    "id": 3851,
+    "count": 1,
+    "description": "SB19 is a Filipino boy band.",
+    "link": "https://sub.music8.jp/category/sb19/",
+    "name": "SB19",
+    "slug": "sb19",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "PHI",
+      "artistactiveyearstart": "2018",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3851",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3851"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3851"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58284,
+      "date": "2023-06-09T21:30:55",
+      "date_gmt": "2023-06-09T12:30:55",
+      "title": {
+        "rendered": "I WANT YOU"
+      },
+      "content": {
+        "rendered": "<p>SB19 - I WANT YOU</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3851
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "16GGH8OF6LiSUTTbm8421f",
+        "spotify_release_date": "2023-06-09",
+        "spotify_name": "I WANT YOU",
+        "spotify_artists": "SB19",
+        "spotify_album": "PAGTATAG!",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b2658224064935ffaf2eb760",
+        "spotify_duration_ms": "223339",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.674",
+        "spotify_energy": "0.681",
+        "spotify_key": "1",
+        "spotify_loudness": "-3.6",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0464",
+        "spotify_tempo": "127.942",
+        "spotify_valence": "0.683",
+        "spotify_acousticness": "0.229",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0436",
+        "spotify_artists01": "SB19",
+        "spotify_artists01_id": "3g7vYcdDXnqnDKYFwqXBJP",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1c0400b168c47ac55370ebd8",
+        "spotify_artists01_genres": "opm, p-pop, pinoy idol pop",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "s25Yi6pZnMs",
+        "ytreleasedate": "2023/06/09"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/SB19-I-WANT-YOU.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3851,
+            "name": "SB19",
+            "slug": "sb19",
+            "acf": {
+              "artistorigin": "PHI",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SB19",
+        "ytvideoid": "s25Yi6pZnMs",
+        "spotify_track_id": "16GGH8OF6LiSUTTbm8421f"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "i-want-you-4"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

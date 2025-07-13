@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 3301,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/rian/",
+    "name": "Rian",
+    "slug": "rian",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "2013",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3301",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3301"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3301"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52684,
+      "date": "2023-07-13T20:51:33",
+      "date_gmt": "2023-07-13T11:51:33",
+      "title": {
+        "rendered": "We Ride"
+      },
+      "content": {
+        "rendered": "<p>Rian - We Ride</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3301
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1qkRMJgQvqLgEPbPcqsYaI",
+        "spotify_release_date": "2023-08-04",
+        "spotify_name": "We Ride",
+        "spotify_artists": "Rian",
+        "spotify_album": "Wings",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273acd35f631973c3152b7019ae",
+        "spotify_duration_ms": "286146",
+        "spotify_popularity": "19",
+        "spotify_danceability": "0.465",
+        "spotify_energy": "0.946",
+        "spotify_key": "3",
+        "spotify_loudness": "-4.804",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0539",
+        "spotify_tempo": "139.925",
+        "spotify_valence": "0.524",
+        "spotify_acousticness": "0.000354",
+        "spotify_instrumentalness": "0.0000368",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.364",
+        "spotify_artists01": "Rian",
+        "spotify_artists01_id": "2juVsA2NRjRYTlrIOkdzm6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9ef2e4e577396604c414e5a7",
+        "spotify_artists01_genres": "melodic hard rock, swedish melodic rock",
+        "spotify_artists01_popularity": "16",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "hn_ynu3h-9c",
+        "ytreleasedate": "2023/07/13"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Rian-We-Ride.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3301,
+            "name": "Rian",
+            "slug": "rian",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2013",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Rian",
+        "ytvideoid": "hn_ynu3h-9c",
+        "spotify_track_id": "1qkRMJgQvqLgEPbPcqsYaI"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "we-ride"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

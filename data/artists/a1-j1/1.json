@@ -1,0 +1,205 @@
+{
+  "artist": {
+    "id": 1623,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/a1-j1/",
+    "name": "A1 x J1",
+    "slug": "a1-j1",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2021",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "アンドレ・タンネバーガー",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1623",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1623"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1623"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41142,
+      "date": "2021-02-04T23:17:00",
+      "date_gmt": "2021-02-04T14:17:00",
+      "title": {
+        "rendered": "Latest Trends"
+      },
+      "content": {
+        "rendered": "\n<p>A1xJ1-LatestTrends</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1623
+      ],
+      "tags": [],
+      "genre": [
+        441,
+        564,
+        756
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "7pnQ23WgZca9jEfMts9qsR",
+        "spotify_release_date": "2021/2/4",
+        "spotify_name": "Latest Trends",
+        "spotify_artists": "A1 x J1",
+        "spotify_album": "Latest Trends",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738efd0b0127b0f0e917331319",
+        "spotify_duration_ms": "158117",
+        "spotify_popularity": "68",
+        "spotify_danceability": "0.716",
+        "spotify_energy": "0.513",
+        "spotify_key": "5",
+        "spotify_loudness": "-10.159",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.223",
+        "spotify_tempo": "141.894",
+        "spotify_valence": "0.8",
+        "spotify_acousticness": "0.085",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.12",
+        "spotify_artists01": "A1 x J1",
+        "spotify_artists01_id": "1WO1hFAkFbeo9tV3uVX7Dy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5e8ea28388a1b56372980a6e",
+        "spotify_artists01_genres": "chill drill, melodic drill",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "7zbt4zliK4c",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/A1-x-J1-Latest-Trends.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1623,
+            "name": "A1 x J1",
+            "slug": "a1-j1",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2021",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アンドレ・タンネバーガー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "A1 x J1",
+        "ytvideoid": "7zbt4zliK4c",
+        "spotify_track_id": "7pnQ23WgZca9jEfMts9qsR"
+      },
+      "genre_data": [
+        {
+          "name": "British hip hop",
+          "slug": "british-hip-hop",
+          "term_id": 441,
+          "post_count": 67
+        },
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "UK drill",
+          "slug": "uk-drill",
+          "term_id": 756,
+          "post_count": 15
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "latest-trends"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

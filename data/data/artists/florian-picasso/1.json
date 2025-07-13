@@ -1,0 +1,214 @@
+{
+  "artist": {
+    "id": 2776,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/florian-picasso/",
+    "name": "Florian Picasso",
+    "slug": "florian-picasso",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2776",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2776"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2776"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40354,
+      "date": "2022-02-04T12:31:00",
+      "date_gmt": "2022-02-04T03:31:00",
+      "title": {
+        "rendered": "Tomorrow"
+      },
+      "content": {
+        "rendered": "\n<p>JohnLegend,Nas,FlorianPicasso-Tomorrow</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2776,
+        2774,
+        2775
+      ],
+      "tags": [],
+      "genre": [
+        564,
+        685,
+        719
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "",
+        "likecount": "",
+        "spotify_track_id": "2F8UhXCxJveJWAmUVKse5h",
+        "spotify_release_date": "2022/2/4",
+        "spotify_name": "Tomorrow",
+        "spotify_artists": "John Legend, Florian Picasso, Nas",
+        "spotify_album": "Tomorrow",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273937fa021348a85d9ee687fda",
+        "spotify_duration_ms": "203946",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.677",
+        "spotify_energy": "0.836",
+        "spotify_key": "2",
+        "spotify_loudness": "-3.425",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0607",
+        "spotify_tempo": "96.005",
+        "spotify_valence": "0.442",
+        "spotify_acousticness": "0.135",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.104",
+        "spotify_artists01": "JohnLegend",
+        "spotify_artists01_id": "5y2Xq6xcjJb2jVM54GHK3t",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaed3c717bf1753ab928ea88d",
+        "spotify_artists01_genres": "neosoul,pop,popsoul,urbancontemporary",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "FlorianPicasso",
+        "spotify_artists02_id": "4GWqzTTt2uA9Ms6HfUhWUn",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc256acc132d8e05d2d9b0b24",
+        "spotify_artists02_genres": "dutchhouse,edm,electrohouse,popdance,popedm,progressiveelectrohouse,progressivehouse,skyroom",
+        "spotify_artists02_popularity": "43",
+        "spotify_artists03": "Nas",
+        "spotify_artists03_id": "20qISvAhX20dpIbOOzGK3q",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebf7d9deb32a290a5ba574ee1c",
+        "spotify_artists03_genres": "conscioushiphop,eastcoasthiphop,gangsterrap,hardcorehiphop,hiphop,queenshiphop,rap",
+        "spotify_artists03_popularity": "74",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/John-Legend-Nas-Florian-Picasso-Tomorrow.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2776,
+            "name": "Florian Picasso",
+            "slug": "florian-picasso",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2774,
+            "name": "John Legend",
+            "slug": "john-legend",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2000",
+              "artistborn": "19781228",
+              "artistdied": "",
+              "artistjpname": "ジョン・レジェンド",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2775,
+            "name": "Nas",
+            "slug": "nas",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1991",
+              "artistborn": "19730914",
+              "artistdied": "",
+              "artistjpname": "ナズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "John Legend, Florian Picasso, Nas",
+        "ytvideoid": "",
+        "spotify_track_id": "2F8UhXCxJveJWAmUVKse5h"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "tomorrow"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

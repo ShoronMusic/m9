@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2376,
+    "count": 1,
+    "description": "MEX",
+    "link": "https://sub.music8.jp/category/last-nation/",
+    "name": "Last Nation",
+    "slug": "last-nation",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2376",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2376"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2376"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38068,
+      "date": "2023-01-31T00:05:00",
+      "date_gmt": "2023-01-30T15:05:00",
+      "title": {
+        "rendered": "Better Than Yesterday"
+      },
+      "content": {
+        "rendered": "<p>TheLastNation-BetterThanYesterday</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2376
+      ],
+      "tags": [],
+      "genre": [
+        414,
+        529
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4GciXq8qCv4jTRNWLs6HhG",
+        "spotify_release_date": "2023/2/10",
+        "spotify_name": "Better Than Yesterday",
+        "spotify_artists": "The Last Nation",
+        "spotify_album": "STILL ALIVE",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273edf4dfe322346fc74cacb1d3",
+        "spotify_duration_ms": "156160",
+        "spotify_popularity": "25",
+        "spotify_danceability": "0.386",
+        "spotify_energy": "0.736",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.963",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0484",
+        "spotify_tempo": "199.888",
+        "spotify_valence": "0.113",
+        "spotify_acousticness": "0.245",
+        "spotify_instrumentalness": "0.433",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.124",
+        "spotify_artists01": "The Last Nation",
+        "spotify_artists01_id": "2VfivUm19U6rmx8GwzUFtD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb58e88768155471bb5f579d04",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qM8W3KFeWo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Last-Nation-Better-Than-Yesterday.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2376,
+            "name": "Last Nation",
+            "slug": "last-nation",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Last Nation",
+        "ytvideoid": "qM8W3KFeWo",
+        "spotify_track_id": "4GciXq8qCv4jTRNWLs6HhG"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        },
+        {
+          "name": "Future bass",
+          "slug": "future-bass",
+          "term_id": 529,
+          "post_count": 49
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "better-than-yesterday"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

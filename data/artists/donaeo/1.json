@@ -1,0 +1,235 @@
+{
+  "artist": {
+    "id": 2756,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/donaeo/",
+    "name": "Donae&#039;o",
+    "slug": "donaeo",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2756",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2756"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2756"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39032,
+      "date": "2022-08-05T11:24:00",
+      "date_gmt": "2022-08-05T02:24:00",
+      "title": {
+        "rendered": "Nothing More To Say"
+      },
+      "content": {
+        "rendered": "\n<p>CalvinHarris-NothingMoreToSayft6LACK&amp;Donae'o</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1558,
+        2108,
+        2756
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "RJKKagr5wBA",
+        "likecount": "1",
+        "spotify_track_id": "4hvWEdTLJxrZsDDjUEcHvy",
+        "spotify_release_date": "2022/8/5",
+        "spotify_name": "",
+        "spotify_artists": "Calvin Harris, 6LACK, Donae'o",
+        "spotify_album": "FunkWavBouncesVol.2",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c5844aae8ac82f2a4fa6415e",
+        "spotify_duration_ms": "233974",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.799",
+        "spotify_energy": "0.726",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.596",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0369",
+        "spotify_tempo": "109.983",
+        "spotify_valence": "0.87",
+        "spotify_acousticness": "0.287",
+        "spotify_instrumentalness": "6.83E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.255",
+        "spotify_artists01": "CalvinHarris",
+        "spotify_artists01_id": "7CajNmpbOovFoOoasH2HaY",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb37bff6aa1d42bede9048750f",
+        "spotify_artists01_genres": "dancepop,edm,electrohouse,house,pop,progressivehouse,ukdance",
+        "spotify_artists01_popularity": "85",
+        "spotify_artists02": "6LACK",
+        "spotify_artists02_id": "4IVAbR2w4JJNJDDRFP3E83",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebf8e7a2d1a01fd98e43ee57dc",
+        "spotify_artists02_genres": "atlhiphop,melodicrap,r&b,rap,trap",
+        "spotify_artists02_popularity": "74",
+        "spotify_artists03": "Donae'o",
+        "spotify_artists03_id": "3xcx9CcYTM4M1890B8o9Bp",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebbf0d67cdfc6aaa6a0d3dfcdb",
+        "spotify_artists03_genres": "azonto,grime,oldschoolbassline,ukfunky,ukhiphop",
+        "spotify_artists03_popularity": "47",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Calvin-Harris-Nothing-More-To-Say-ft-6LACK-Donaeo.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1558,
+            "name": "6LACK",
+            "slug": "6lack",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19920624",
+              "artistdied": "",
+              "artistjpname": "ブラック",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "4IVAbR2w4JJNJDDRFP3E83",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174f8e7a2d1a01fd98e43ee57dc"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2108,
+            "name": "Calvin Harris",
+            "slug": "calvin-harris",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1999",
+              "artistborn": "19840117",
+              "artistdied": "",
+              "artistjpname": "カルヴィン・ハリス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Alesso (alesso) | David Guetta (david-guetta) | Afrojack (afrojack) | Martin Garrix (martin-garrix) | Zedd (zedd) | Avicii (avicii) | Major Lazer (major-lazer) | Kygo (kygo) | Galantis (galantis) | Tiësto (tiesto) | Swedish House Mafia (swedish-house-mafia) | Axwell /\\ Ingrosso | Steve Aoki (steve-aoki) | Hardwell (hardwell) | R3HAB (r3hab) | Nicky Romero (nicky-romero) | Robin Schulz (robin-schulz) | Chainsmokers (chainsmokers) | Jonas Blue (jonas-blue) | Dimitri Vegas & Like Mike",
+              "spotify_artist_id": "7CajNmpbOovFoOoasH2HaY",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517437bff6aa1d42bede9048750f",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "UCIjYyZxkFucP_W-tmXg_9Ow",
+              "wikipedia_page": "Calvin_Harris"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2756,
+            "name": "Donae&#039;o",
+            "slug": "donaeo",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Calvin Harris, 6LACK, Donae'o",
+        "ytvideoid": "RJKKagr5wBA",
+        "spotify_track_id": "4hvWEdTLJxrZsDDjUEcHvy"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "nothing-more-to-say"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,339 @@
+{
+  "artist": {
+    "id": 798,
+    "count": 2,
+    "description": "Wang Chung are an English new wave band.",
+    "link": "https://sub.music8.jp/category/wang-chung/",
+    "name": "Wang Chung",
+    "slug": "wang-chung",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1980",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ワン・チャン",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/798",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=798"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=798"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47899,
+      "date": "1987-01-06T20:03:00",
+      "date_gmt": "1987-01-06T11:03:00",
+      "title": {
+        "rendered": "Let's Go"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        798
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": null,
+        "spotify_track_id": "77Ffjo5brigkCg1sEZbKq5",
+        "spotify_release_date": "1986/10/14",
+        "spotify_name": "Let's Go",
+        "spotify_artists": "Wang Chung",
+        "spotify_album": "Mosaic",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738201d16e6ce2b8e4d2a8d1ae",
+        "spotify_duration_ms": "270426",
+        "spotify_popularity": "42",
+        "spotify_danceability": "1.5987341991412252",
+        "spotify_energy": "-0.5814291562334084",
+        "spotify_key": "0.20222916697534005",
+        "spotify_loudness": "-1.3556524386149773",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.28504324060797065",
+        "spotify_tempo": "-0.22536633078939713",
+        "spotify_valence": "1.1904065222795874",
+        "spotify_acousticness": "0.2601546305250639",
+        "spotify_instrumentalness": "-0.4115192012827468",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.07343251096982042",
+        "spotify_artists01": "Wang Chung",
+        "spotify_artists01_id": "6Zh3xrWlA0SA9Fsfj9AVwm",
+        "spotify_artists01_images": "https://i.scdn.co/image/39232453a7665ba95cbd4fc33482b191fb40413b",
+        "spotify_artists01_genres": "new romantic, new wave pop, synthpop",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "pJNazEjVd6Y",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Wang-Chung-Lets-Go.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 798,
+            "name": "Wang Chung",
+            "slug": "wang-chung",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1980",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ワン・チャン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Wang Chung",
+        "ytvideoid": "pJNazEjVd6Y",
+        "spotify_track_id": "77Ffjo5brigkCg1sEZbKq5"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "lets-go"
+    },
+    {
+      "id": 47996,
+      "date": "1986-09-01T20:06:00",
+      "date_gmt": "1986-09-01T11:06:00",
+      "title": {
+        "rendered": "Everybody Have Fun Tonight"
+      },
+      "content": {
+        "rendered": "<p>Wang Chung - Everybody Have Fun Tonight</p>\n",
+        "protected": false
+      },
+      "categories": [
+        798
+      ],
+      "tags": [],
+      "genre": [
+        472,
+        638,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "BoXu6QmxpJE",
+        "likecount": "",
+        "spotify_track_id": "6qBSGvyUzqNQv8XtnzCr9n",
+        "spotify_release_date": "1986/10/14",
+        "spotify_name": "Everybody Have Fun Tonight",
+        "spotify_artists": "Wang Chung",
+        "spotify_album": "Mosaic",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738201d16e6ce2b8e4d2a8d1ae",
+        "spotify_duration_ms": "287360",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.7802684703757551",
+        "spotify_energy": "-0.8540651730678421",
+        "spotify_key": "1.0122662180732396",
+        "spotify_loudness": "-1.234483502742912",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.3250037356313964",
+        "spotify_tempo": "0.185504407094277",
+        "spotify_valence": "0.3200189662311042",
+        "spotify_acousticness": "-0.10967240455149913",
+        "spotify_instrumentalness": "-0.41101176862387717",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.9232078414259922",
+        "spotify_artists01": "Wang Chung",
+        "spotify_artists01_id": "6Zh3xrWlA0SA9Fsfj9AVwm",
+        "spotify_artists01_images": "https://i.scdn.co/image/39232453a7665ba95cbd4fc33482b191fb40413b",
+        "spotify_artists01_genres": "new romantic, new wave pop, synthpop",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Wang-Chung-Everybody-Have-Fun-Tonight.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 798,
+            "name": "Wang Chung",
+            "slug": "wang-chung",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1980",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ワン・チャン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Wang Chung",
+        "ytvideoid": "BoXu6QmxpJE",
+        "spotify_track_id": "6qBSGvyUzqNQv8XtnzCr9n"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-rock",
+          "slug": "dance-rock",
+          "term_id": 472,
+          "post_count": 70
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "everybody-have-fun-tonight"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,187 @@
+{
+  "artist": {
+    "id": 3008,
+    "count": 1,
+    "description": "DACY is an Australian duo.",
+    "link": "https://sub.music8.jp/category/dacy/",
+    "name": "DACY",
+    "slug": "dacy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "2018",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3008",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3008"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3008"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50541,
+      "date": "2022-12-02T22:51:18",
+      "date_gmt": "2022-12-02T13:51:18",
+      "title": {
+        "rendered": "She Wants To Be Loved"
+      },
+      "content": {
+        "rendered": "<p>DACY - She Wants To Be Loved</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3008
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6TD812IQsnKkGYrmCsQetN",
+        "spotify_release_date": "2022-11-10",
+        "spotify_name": "She Wants To Be Loved",
+        "spotify_artists": "DACY",
+        "spotify_album": "She Wants To Be Loved",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739a961c53203eb849a8ed7f57",
+        "spotify_duration_ms": "200676",
+        "spotify_popularity": "36",
+        "spotify_danceability": "0.682",
+        "spotify_energy": "0.661",
+        "spotify_key": "8",
+        "spotify_loudness": "-7.722",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0315",
+        "spotify_tempo": "141.919",
+        "spotify_valence": "0.38",
+        "spotify_acousticness": "0.273",
+        "spotify_instrumentalness": "0.0000814",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.119",
+        "spotify_artists01": "DACY",
+        "spotify_artists01_id": "5FoBOcV83hd6uHOn4FBwbE",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb36582a491a48a034bc2d0720",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "17",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "2_biM9rajCs",
+        "ytreleasedate": "2022/12/02"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/DACY-She-Wants-To-Be-Loved.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3008,
+            "name": "DACY",
+            "slug": "dacy",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "DACY",
+        "ytvideoid": "2_biM9rajCs",
+        "spotify_track_id": "6TD812IQsnKkGYrmCsQetN"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "she-wants-to-be-loved"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

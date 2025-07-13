@@ -1,0 +1,177 @@
+{
+  "artist": {
+    "id": 2975,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/brooke-alexx/",
+    "name": "Brooke Alexx",
+    "slug": "brooke-alexx",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "19950428",
+      "artistdied": "",
+      "artistjpname": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2975",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2975"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2975"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50332,
+      "date": "2023-07-12T22:33:55",
+      "date_gmt": "2023-07-12T13:33:55",
+      "title": {
+        "rendered": "All My Exes' Moms"
+      },
+      "content": {
+        "rendered": "<p>Brooke Alexx - All My Exes' Moms</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2975
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3ikuDKc66w7CH9hRgc2KfX",
+        "spotify_release_date": "2022-08-25",
+        "spotify_name": "All My Exes' Moms",
+        "spotify_artists": "Brooke Alexx",
+        "spotify_album": "All My Exes' Moms",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ad970d1fe314b677f872675a",
+        "spotify_duration_ms": "125407",
+        "spotify_popularity": "66",
+        "spotify_danceability": "0.832",
+        "spotify_energy": "0.641",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.533",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0446",
+        "spotify_tempo": "112.012",
+        "spotify_valence": "0.874",
+        "spotify_acousticness": "0.289",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.413",
+        "spotify_artists01": "Brooke Alexx",
+        "spotify_artists01_id": "76OGIUhWyFyKOvhRuueDa7",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebfb4e57972afa3eccfa5e7d0a",
+        "spotify_artists01_genres": "alt z, singer-songwriter pop",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "to88uArVoJE",
+        "ytreleasedate": "2023/07/12"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Brooke-Alexx-All-My-Exes-Moms.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2975,
+            "name": "Brooke Alexx",
+            "slug": "brooke-alexx",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19950428",
+              "artistdied": "",
+              "artistjpname": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Brooke Alexx",
+        "ytvideoid": "to88uArVoJE",
+        "spotify_track_id": "3ikuDKc66w7CH9hRgc2KfX"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "all-my-exes-moms"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

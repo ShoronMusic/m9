@@ -1,0 +1,80 @@
+{
+  "id": 4400,
+  "count": 6,
+  "description": "Artemas is a British singer-songwriter and producer.",
+  "link": "https://sub.music8.jp/category/artemas/",
+  "name": "Artemas",
+  "slug": "artemas",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2020",
+    "artistborn": "19990923",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "Isabel LaRosa (isabel-larosa) | Montell Fish | Ari Abdul (ari-abdul) | Dutch Melrose | Shy Smith | ThxSoMch (thxsomch) | Chris Grey | Asal | SUICIDAL-IDOL | Kenya Grace (kenya-grace) | Beach Weather (beach-weather) | Eyedress (eyedress) | Lily-Rose Depp (lily-rose-depp) | Toby Mai | Hotel Ugly | Thomas LaRosa | Dominic Fike (dominic-fike) | d4vd (d4vd) | Lay Bankz (lay-bankz) | lucidbeatz",
+    "spotify_artist_id": "0PCCGZ0wGLizHt2KZ7hhA2",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174597f1c8c92c4a82734e3af43"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4400",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4400"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4400"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174597f1c8c92c4a82734e3af43",
+  "artistActiveYearStart": "2020",
+  "occupation": "singer, songwriter, producer"
+}

@@ -1,0 +1,197 @@
+{
+  "artist": {
+    "id": 6326,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/emma-bunton/",
+    "name": "Emma Bunton",
+    "slug": "emma-bunton",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "19760121",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "2AEEnr6Le5zHzBwpnlZSmq",
+      "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e30415da9c9ebcad7b968efc"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6326",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6326"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6326"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 87774,
+      "date": "2024-12-20T20:08:36",
+      "date_gmt": "2024-12-20T11:08:36",
+      "title": {
+        "rendered": "2 Become 1"
+      },
+      "content": {
+        "rendered": "<p>Emma Bunton - 2 Become 1</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6326
+      ],
+      "tags": [],
+      "genre": [
+        648,
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "",
+        "spotify_release_date": "",
+        "spotify_name": "",
+        "spotify_artists": "",
+        "spotify_album": "",
+        "spotify_images": "",
+        "spotify_duration_ms": "",
+        "spotify_popularity": "",
+        "spotify_danceability": "",
+        "spotify_energy": "",
+        "spotify_key": "",
+        "spotify_loudness": "",
+        "spotify_mode": "",
+        "spotify_speechiness": "",
+        "spotify_tempo": "",
+        "spotify_valence": "",
+        "spotify_acousticness": "",
+        "spotify_instrumentalness": "",
+        "spotify_time_signature": "",
+        "spotify_liveness": "",
+        "spotify_artists01": "",
+        "spotify_artists01_id": "",
+        "spotify_artists01_images": "",
+        "spotify_artists01_genres": "europop, talent show",
+        "spotify_artists01_popularity": "",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "-0NIc7l43Ws",
+        "ytreleasedate": "2024/12/20"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Emma-Bunton-2-Become-1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6326,
+            "name": "Emma Bunton",
+            "slug": "emma-bunton",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "19760121",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "2AEEnr6Le5zHzBwpnlZSmq",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e30415da9c9ebcad7b968efc"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "",
+        "ytvideoid": "-0NIc7l43Ws",
+        "spotify_track_id": ""
+      },
+      "genre_data": [
+        {
+          "name": "Orchestral pop",
+          "slug": "orchestral-pop",
+          "term_id": 648,
+          "post_count": 12
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "2-become-1"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

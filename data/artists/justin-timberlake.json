@@ -1,0 +1,76 @@
+{
+  "id": 1217,
+  "count": 12,
+  "description": "Justin Timberlake is an American singer, songwriter, record producer, and actor.",
+  "link": "https://sub.music8.jp/category/justin-timberlake/",
+  "name": "Justin Timberlake",
+  "slug": "justin-timberlake",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1992",
+    "artistborn": "19810131",
+    "artistdied": "",
+    "artistjpname": "ジャスティン・ティンバーレイク",
+    "member": [
+      {
+        "term_id": 3389,
+        "name": "*NSYNC",
+        "slug": "nsync",
+        "term_group": 0,
+        "term_taxonomy_id": 3389,
+        "taxonomy": "category",
+        "description": "NSYNC (NSYNC or 'N Sync) is an American vocal group and boy band.",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1217",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1217"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1217"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジャスティン・ティンバーレイク",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1992",
+  "occupation": ""
+}

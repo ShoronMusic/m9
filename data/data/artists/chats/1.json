@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1810,
+    "count": 1,
+    "description": "AUS",
+    "link": "https://sub.music8.jp/category/chats/",
+    "name": "Chats",
+    "slug": "chats",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1810",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1810"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1810"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40077,
+      "date": "2022-03-10T01:26:00",
+      "date_gmt": "2022-03-09T16:26:00",
+      "title": {
+        "rendered": "Struck By Lightning"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1810
+      ],
+      "tags": [],
+      "genre": [
+        535,
+        683
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5RsGSgBAkCQzTChScLpcux",
+        "spotify_release_date": "2022/8/19",
+        "spotify_name": "StruckByLightning",
+        "spotify_artists": "TheChats",
+        "spotify_album": "GetFucked",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27330a100dcd48ccde66318d174",
+        "spotify_duration_ms": "100840",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.385",
+        "spotify_energy": "0.796",
+        "spotify_key": "2",
+        "spotify_loudness": "-3.514",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.101",
+        "spotify_tempo": "135.108",
+        "spotify_valence": "0.545",
+        "spotify_acousticness": "0.0119",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.116",
+        "spotify_artists01": "TheChats",
+        "spotify_artists01_id": "1aQ7P3HtKOQFW16ebjiks1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba43a92d50e11b126604d710e",
+        "spotify_artists01_genres": "australiangaragepunk,brisbanepunk",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "#NAME?",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1810,
+            "name": "Chats",
+            "slug": "chats",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "TheChats",
+        "ytvideoid": "#NAME?",
+        "spotify_track_id": "5RsGSgBAkCQzTChScLpcux"
+      },
+      "genre_data": [
+        {
+          "name": "Garage punk",
+          "slug": "garage-punk",
+          "term_id": 535,
+          "post_count": 63
+        },
+        {
+          "name": "Punk rock",
+          "slug": "punk-rock",
+          "term_id": 683,
+          "post_count": 119
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "struck-by-lightning"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

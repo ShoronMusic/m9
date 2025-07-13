@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2085,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/frankie-viral/",
+    "name": "Frankie Viral",
+    "slug": "frankie-viral",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2085",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2085"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2085"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39609,
+      "date": "2022-05-11T13:46:00",
+      "date_gmt": "2022-05-11T04:46:00",
+      "title": {
+        "rendered": "The Chosen One"
+      },
+      "content": {
+        "rendered": "\n<p>FrankieViral-TheChosenOne</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2085
+      ],
+      "tags": [],
+      "genre": [
+        411
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4xK4B7LbI79rgxQYszT3H3",
+        "spotify_release_date": "2022/5/5",
+        "spotify_name": "TheChosenOne",
+        "spotify_artists": "FrankieViral",
+        "spotify_album": "TheChosenOne",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b21ae4c9acdf876b6c6eeecd",
+        "spotify_duration_ms": "222799",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.688",
+        "spotify_energy": "0.625",
+        "spotify_key": "8",
+        "spotify_loudness": "-8.405",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0345",
+        "spotify_tempo": "120.014",
+        "spotify_valence": "0.479",
+        "spotify_acousticness": "0.0697",
+        "spotify_instrumentalness": "0.00011",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.243",
+        "spotify_artists01": "FrankieViral",
+        "spotify_artists01_id": "2kBSL9MdlrJvMm0s9R9gFh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab67616d0000b273c6d903a498eb345c3127825a",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "0",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "VKpG80Qbp3U",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Frankie-Viral-The-Chosen-One.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2085,
+            "name": "Frankie Viral",
+            "slug": "frankie-viral",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "FrankieViral",
+        "ytvideoid": "VKpG80Qbp3U",
+        "spotify_track_id": "4xK4B7LbI79rgxQYszT3H3"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-chosen-one"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

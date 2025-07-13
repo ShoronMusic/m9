@@ -1,0 +1,204 @@
+{
+  "artist": {
+    "id": 1719,
+    "count": 1,
+    "description": "Ice-T (Ice T), is an American rapper",
+    "link": "https://sub.music8.jp/category/ice-t/",
+    "name": "Ice-T",
+    "slug": "ice-t",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1982",
+      "artistborn": "19580216",
+      "artistdied": "",
+      "artistjpname": "アイス-T",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1719",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1719"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1719"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47603,
+      "date": "1988-08-23T14:17:00",
+      "date_gmt": "1988-08-23T05:17:00",
+      "title": {
+        "rendered": "I'm Your Pusher"
+      },
+      "content": {
+        "rendered": "<p>Ice-T 窶・ I'm Your Pusher</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1719
+      ],
+      "tags": [],
+      "genre": [
+        463,
+        533,
+        564,
+        763
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2m2dKtaKequ1QZYGWYG3hG",
+        "spotify_release_date": "1988",
+        "spotify_name": "I'm Your Pusher / Pusherman",
+        "spotify_artists": "ICE-T",
+        "spotify_album": "Power",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e2cf6398efbe9b1deac05e3f",
+        "spotify_duration_ms": "335133",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.94",
+        "spotify_energy": "0.584",
+        "spotify_key": "6",
+        "spotify_loudness": "-9.342",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.124",
+        "spotify_tempo": "108.117",
+        "spotify_valence": "0.662",
+        "spotify_acousticness": "0.018",
+        "spotify_instrumentalness": "1.98E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.257",
+        "spotify_artists01": "ICE-T",
+        "spotify_artists01_id": "0eGh2jSWPBX5GuqIHoZJZG",
+        "spotify_artists01_images": "https://i.scdn.co/image/45dbca25479aad6571125107f1fdc029c0fb679e",
+        "spotify_artists01_genres": "conscious hip hop, gangster rap, golden age hip hop, hardcore hip hop, hip hop, new jersey rap, old school hip hop, west coast rap",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "2h5JO2sJ3kw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1719,
+            "name": "Ice-T",
+            "slug": "ice-t",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1982",
+              "artistborn": "19580216",
+              "artistdied": "",
+              "artistjpname": "アイス-T",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ICE-T",
+        "ytvideoid": "2h5JO2sJ3kw",
+        "spotify_track_id": "2m2dKtaKequ1QZYGWYG3hG"
+      },
+      "genre_data": [
+        {
+          "name": "Conscious hip hop",
+          "slug": "conscious-hip-hop",
+          "term_id": 463,
+          "post_count": 10
+        },
+        {
+          "name": "Gangsta rap",
+          "slug": "gangsta-rap",
+          "term_id": 533,
+          "post_count": 22
+        },
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "West Coast hip hop",
+          "slug": "west-coast-hip-hop",
+          "term_id": 763,
+          "post_count": 49
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "im-your-pusher"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

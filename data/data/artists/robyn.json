@@ -1,0 +1,86 @@
+{
+  "id": 6524,
+  "count": 1,
+  "description": "Robyn is a Swedish singer, songwriter, record producer, and DJ. ",
+  "link": "https://sub.music8.jp/category/robyn/",
+  "name": "Robyn",
+  "slug": "robyn",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "1989",
+    "artistborn": "19790612",
+    "artistjpname": "ロビン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6UE7nl9mha6s8z0wFQFIZ2",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bc142401994ad4c5ddbf7829",
+    "youtube_channel": "",
+    "wikipedia_page": "Robyn"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6524",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6524"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6524"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ロビン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174bc142401994ad4c5ddbf7829",
+  "artistActiveYearStart": "1989",
+  "occupation": "singer, songwriter, dj, producer"
+}

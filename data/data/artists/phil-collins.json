@@ -1,0 +1,77 @@
+{
+  "id": 1015,
+  "count": 23,
+  "description": "Phil Collins  is an English singer, drummer, songwriter, record producer and actor. the drummer and later lead singer of the rock band Genesis.",
+  "link": "https://sub.music8.jp/category/phil-collins/",
+  "name": "Phil Collins",
+  "slug": "phil-collins",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "",
+    "artistborn": "19510130",
+    "artistdied": "",
+    "artistjpname": "フィル・コリンズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "ssw",
+        "label": "SSW"
+      },
+      {
+        "value": "drummer",
+        "label": "Drummer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1015",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1015"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1015"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "フィル・コリンズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "",
+  "occupation": "singer, ssw, drummer"
+}

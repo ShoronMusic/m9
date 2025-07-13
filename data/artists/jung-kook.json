@@ -1,0 +1,82 @@
+{
+  "id": 2626,
+  "count": 2,
+  "description": "Jung Kook is a South Korean singer. a member and vocalist of the South Korean boy band BTS.",
+  "link": "https://sub.music8.jp/category/jung-kook/",
+  "name": "Jung Kook",
+  "slug": "jung-kook",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "KOR",
+    "artistactiveyearstart": "2013",
+    "artistborn": "19970901",
+    "artistdied": "",
+    "artistjpname": "ジョングク",
+    "member": [
+      {
+        "term_id": 1098,
+        "name": "BTS",
+        "slug": "bts",
+        "term_group": 0,
+        "term_taxonomy_id": 1098,
+        "taxonomy": "category",
+        "description": "BTS (Bangtan Boys)  is a South Korean boy band.",
+        "parent": 0,
+        "count": 7,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2626",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2626"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2626"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジョングク",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2013",
+  "occupation": "singer"
+}

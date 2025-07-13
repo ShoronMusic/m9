@@ -1,0 +1,78 @@
+{
+  "id": 1059,
+  "count": 6,
+  "description": "Griff is an English singer and songwriter.",
+  "link": "https://sub.music8.jp/category/griff/",
+  "name": "Griff",
+  "slug": "griff",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2019",
+    "artistborn": "20010121",
+    "artistdied": "",
+    "artistjpname": "グリフ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5RJFJWYgtgWktosLrUDzff",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d792e541b7b46fe8546c447e",
+    "youtube_channel": "UCIY8ucMI3c54m9P35x6UZOw",
+    "wikipedia_page": "Griff_(singer)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1059",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1059"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1059"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "グリフ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174d792e541b7b46fe8546c447e",
+  "artistActiveYearStart": "2019",
+  "occupation": "singer, songwriter"
+}

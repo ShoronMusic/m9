@@ -1,0 +1,76 @@
+{
+  "id": 1158,
+  "count": 19,
+  "description": "Morrissey is an English singer and songwriter. the frontman and lyricist of rock band the Smiths.",
+  "link": "https://sub.music8.jp/category/morrissey/",
+  "name": "Morrissey",
+  "slug": "morrissey",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1976",
+    "artistborn": "19590522",
+    "artistdied": "",
+    "artistjpname": "モリッシー",
+    "member": [
+      {
+        "term_id": 972,
+        "name": "Smiths",
+        "slug": "smiths",
+        "term_group": 0,
+        "term_taxonomy_id": 972,
+        "taxonomy": "category",
+        "description": "The Smiths were an English rock band formed in Manchester in 1982.",
+        "parent": 0,
+        "count": 22,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1158",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1158"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1158"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "モリッシー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1976",
+  "occupation": ""
+}

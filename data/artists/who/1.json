@@ -1,0 +1,216 @@
+{
+  "artist": {
+    "id": 4872,
+    "count": 1,
+    "description": "The Who are an English rock band.",
+    "link": "https://sub.music8.jp/category/who/",
+    "name": "Who",
+    "slug": "who",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1964",
+      "artistborn": "",
+      "artistjpname": "ザ・フー",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4872",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4872"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4872"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 69370,
+      "date": "1967-09-18T22:50:53",
+      "date_gmt": "1967-09-18T13:50:53",
+      "title": {
+        "rendered": "I Can See For Miles"
+      },
+      "content": {
+        "rendered": "<p>Who - I Can See For Miles</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4872
+      ],
+      "tags": [
+        5124
+      ],
+      "genre": [
+        553,
+        669,
+        678
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "Q0iqg2UanEc",
+        "ytreleasedate": "2012/11/01",
+        "spotify_track_id": "7B9F9nLxe7MZgZ68Jj86Fn",
+        "spotify_release_date": "2021-04-23",
+        "spotify_name": "I Can See For Miles - Mono Version",
+        "spotify_artists": "ザ・フー",
+        "spotify_album": "The Who Sell Out (Super Deluxe)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27334894946601823e27fc08538",
+        "spotify_duration_ms": "247306",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.338",
+        "spotify_energy": "0.815",
+        "spotify_key": "9",
+        "spotify_loudness": "-6.485",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0673",
+        "spotify_tempo": "133.014",
+        "spotify_valence": "0.199",
+        "spotify_acousticness": "0.00325",
+        "spotify_instrumentalness": "0.000403",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0884",
+        "spotify_artists01": "ザ・フー",
+        "spotify_artists01_id": "67ea9eGLXYMsO2eYQRui3w",
+        "spotify_artists01_images": "https://i.scdn.co/image/9cd709cabb4a614b4f1dd9ec256a5f30e21f0150",
+        "spotify_artists01_genres": "album rock, british invasion, classic rock, hard rock, rock",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27334894946601823e27fc08538.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4872,
+            "name": "Who",
+            "slug": "who",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1964",
+              "artistborn": "",
+              "artistjpname": "ザ・フー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ザ・フー",
+        "ytvideoid": "Q0iqg2UanEc",
+        "spotify_track_id": "7B9F9nLxe7MZgZ68Jj86Fn"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        },
+        {
+          "name": "Psychedelic rock",
+          "slug": "psychedelic-rock",
+          "term_id": 678,
+          "post_count": 111
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "i-can-see-for-miles"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,77 @@
+{
+  "id": 2029,
+  "count": 1,
+  "description": "Tim McIlrath  is an American rock musician. the lead singer, rhythm guitarist, songwriter and co-founder of the punk rock band Rise Against.",
+  "link": "https://sub.music8.jp/category/tim-mcilrath/",
+  "name": "Tim McIlrath",
+  "slug": "tim-mcilrath",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1995",
+    "artistborn": "19781103",
+    "artistdied": "",
+    "artistjpname": "ティム・マッキュラス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2029",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2029"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2029"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ティム・マッキュラス",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1995",
+  "occupation": "singer, songwriter, musician"
+}

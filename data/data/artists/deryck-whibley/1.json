@@ -1,0 +1,189 @@
+{
+  "artist": {
+    "id": 1840,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/deryck-whibley/",
+    "name": "Deryck Whibley",
+    "slug": "deryck-whibley",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1840",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1840"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1840"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40241,
+      "date": "2022-02-18T22:12:00",
+      "date_gmt": "2022-02-18T13:12:00",
+      "title": {
+        "rendered": "Ruin My Life"
+      },
+      "content": {
+        "rendered": "\n<p>SimplePlan-RuinMyLifefeat.DeryckWhibley</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1840,
+        1785
+      ],
+      "tags": [],
+      "genre": [
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "b1Ny_C5XGNQ",
+        "likecount": "1",
+        "spotify_track_id": "0g4Nl4tH0jef0wApjV5sfH",
+        "spotify_release_date": "2022/5/6",
+        "spotify_name": "RuinMyLife(feat.DeryckWhibley)",
+        "spotify_artists": "Simple Plan, Deryck Whibley",
+        "spotify_album": "HarderThanItLooks",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273642d4ad3a8c6713e8fe61b62",
+        "spotify_duration_ms": "199198",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.505",
+        "spotify_energy": "0.893",
+        "spotify_key": "1",
+        "spotify_loudness": "-3.314",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.1",
+        "spotify_tempo": "171.081",
+        "spotify_valence": "0.682",
+        "spotify_acousticness": "0.00169",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.145",
+        "spotify_artists01": "SimplePlan",
+        "spotify_artists01_id": "2p4FqHnazRucYQHyDCdBrJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb14be52ba7ed12e0177ebe08b",
+        "spotify_artists01_genres": "canadianpoppunk,canadianpunk,canadianrock,modernrock,neonpoppunk,poppunk",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "DeryckWhibley",
+        "spotify_artists02_id": "4qJK4cVUMM04auRU8oa4bf",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "35",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Simple-Plan-Ruin-My-Life.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1840,
+            "name": "Deryck Whibley",
+            "slug": "deryck-whibley",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1785,
+            "name": "Simple Plan",
+            "slug": "simple-plan",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1999",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シンプル・プラン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Simple Plan, Deryck Whibley",
+        "ytvideoid": "b1Ny_C5XGNQ",
+        "spotify_track_id": "0g4Nl4tH0jef0wApjV5sfH"
+      },
+      "genre_data": [
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ruin-my-life"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

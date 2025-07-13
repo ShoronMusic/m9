@@ -1,0 +1,197 @@
+{
+  "artist": {
+    "id": 1504,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/braves/",
+    "name": "BRÁEES",
+    "slug": "braves",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1504",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1504"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1504"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 42007,
+      "date": "2019-08-23T20:46:00",
+      "date_gmt": "2019-08-23T11:46:00",
+      "title": {
+        "rendered": "Lose You Again"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1504,
+        1503
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "2xzefshjUCbnclKWe6KStt",
+        "spotify_release_date": "2019/8/23",
+        "spotify_name": "Lose You Again",
+        "spotify_artists": "WALK THE MOON, BR?VES",
+        "spotify_album": "Lose You Again",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731ef11612d2eb0d9a14901b68",
+        "spotify_duration_ms": "216613",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.655",
+        "spotify_energy": "0.625",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.276",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0771",
+        "spotify_tempo": "82.996",
+        "spotify_valence": "0.516",
+        "spotify_acousticness": "0.0211",
+        "spotify_instrumentalness": "0.00136",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.182",
+        "spotify_artists01": "WALK THE MOON",
+        "spotify_artists01_id": "6DIS6PRrLS3wbnZsf7vYic",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebab9610e36fae856c0fd9b46b",
+        "spotify_artists01_genres": "dance rock, modern rock, pop",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "BR?VES",
+        "spotify_artists02_id": "6x041MgK6W2MyccJc7EyWs",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb08527f7ef71715da4af5d67e",
+        "spotify_artists02_genres": "la pop",
+        "spotify_artists02_popularity": "19",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Kqumah26A_Y",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Walk-the-Moon-Lose-You-Again-ft.-BRAVES.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1504,
+            "name": "BRÁEES",
+            "slug": "braves",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1503,
+            "name": "Walk the Moon",
+            "slug": "walk-the-moon",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウォーク・ザ・ムーン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "WALK THE MOON, BR?VES",
+        "ytvideoid": "Kqumah26A_Y",
+        "spotify_track_id": "2xzefshjUCbnclKWe6KStt"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "lose-you-again"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

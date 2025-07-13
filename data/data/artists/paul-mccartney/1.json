@@ -1,0 +1,687 @@
+{
+  "artist": {
+    "id": 1152,
+    "count": 4,
+    "description": "Paul McCartney is an English singer, songwriter and musician, ",
+    "link": "https://sub.music8.jp/category/paul-mccartney/",
+    "name": "Paul McCartney",
+    "slug": "paul-mccartney",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1957",
+      "artistborn": "19420618",
+      "artistdied": "",
+      "artistjpname": "ポール・マッカートニー",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "ssw",
+          "label": "SSW"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1152",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1152"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1152"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57631,
+      "date": "2023-11-30T19:39:42",
+      "date_gmt": "2023-11-30T10:39:42",
+      "title": {
+        "rendered": "Bite My Head Off"
+      },
+      "content": {
+        "rendered": "<p>Rolling Stones, Paul McCartney - Bite My Head Off</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1152,
+        3079
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "5C6p9XU3B36GPyfzcNBP6R",
+        "spotify_release_date": "2023-10-20",
+        "spotify_name": "Bite My Head Off",
+        "spotify_artists": "The Rolling Stones, Paul McCartney",
+        "spotify_album": "Hackney Diamonds",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273683680975bf153c97ea8ad8d",
+        "spotify_duration_ms": "211597",
+        "spotify_popularity": "67",
+        "spotify_danceability": "0.403",
+        "spotify_energy": "0.997",
+        "spotify_key": "4",
+        "spotify_loudness": "-2.411",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.249",
+        "spotify_tempo": "143.182",
+        "spotify_valence": "0.265",
+        "spotify_acousticness": "0.0000204",
+        "spotify_instrumentalness": "0.0000206",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0982",
+        "spotify_artists01": "ザ・ローリング・ストーンズ",
+        "spotify_artists01_id": "22bE4uQ6baNwSHPVcDxLCe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe4cea917b68726aadb4854b8",
+        "spotify_artists01_genres": "album rock, british invasion, classic rock, rock",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Mrjv_i_lVwo",
+        "ytreleasedate": "2023/11/30"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Rolling-Stones-Bite-My-Head-Off-ft.-Paul-McCartney.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1152,
+            "name": "Paul McCartney",
+            "slug": "paul-mccartney",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1957",
+              "artistborn": "19420618",
+              "artistdied": "",
+              "artistjpname": "ポール・マッカートニー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3079,
+            "name": "Rolling Stones",
+            "slug": "rolling-stones",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1962",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ローリング・ストーンズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Rolling Stones, Paul McCartney",
+        "ytvideoid": "Mrjv_i_lVwo",
+        "spotify_track_id": "5C6p9XU3B36GPyfzcNBP6R"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "bite-my-head-off"
+    },
+    {
+      "id": 48912,
+      "date": "1982-10-18T14:04:00",
+      "date_gmt": "1982-10-18T05:04:00",
+      "title": {
+        "rendered": "The Girl Is Mine"
+      },
+      "content": {
+        "rendered": "<p>Michael Jackson, Paul McCartney - The Girl Is Mine</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1384,
+        1152
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        6
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4IT6vDuKprKl6jyVndlY8V",
+        "spotify_release_date": "1982/11/30",
+        "spotify_name": "The Girl Is Mine (with Paul McCartney)",
+        "spotify_artists": "Michael Jackson, Paul McCartney",
+        "spotify_album": "Thriller",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273de437d960dda1ac0a3586d97",
+        "spotify_duration_ms": "222333",
+        "spotify_popularity": "66",
+        "spotify_danceability": "0.681",
+        "spotify_energy": "0.527",
+        "spotify_key": "9",
+        "spotify_loudness": "-10.422",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0561",
+        "spotify_tempo": "81.425",
+        "spotify_valence": "0.707",
+        "spotify_acousticness": "0.225",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0989",
+        "spotify_artists01": "Michael Jackson",
+        "spotify_artists01_id": "3fMbdgg4jU18AjLCKBhRSm",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0e08ea2c4d6789fbf5cbe0aa",
+        "spotify_artists01_genres": "r&b, soul",
+        "spotify_artists01_popularity": "80",
+        "spotify_artists02": "Paul McCartney",
+        "spotify_artists02_id": "4STHEaNw4mPZ2tzheohgXB",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb03bf2fe26e397122faa3d323",
+        "spotify_artists02_genres": "beatlesque, classic rock, mellow gold, rock",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "8GB9BULxZ8c",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Michael-Jackson-The-Girl-Is-Mine.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1384,
+            "name": "Michael Jackson",
+            "slug": "michael-jackson",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1964–2009",
+              "artistborn": "19580829",
+              "artistdied": "2009.06.25",
+              "artistjpname": "マイケル・ジャクソン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "3fMbdgg4jU18AjLCKBhRSm",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "UC5OrDvL9DscpcAstz7JnQGA",
+              "wikipedia_page": "Michael_Jackson"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1152,
+            "name": "Paul McCartney",
+            "slug": "paul-mccartney",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1957",
+              "artistborn": "19420618",
+              "artistdied": "",
+              "artistjpname": "ポール・マッカートニー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Michael Jackson, Paul McCartney",
+        "ytvideoid": "8GB9BULxZ8c",
+        "spotify_track_id": "4IT6vDuKprKl6jyVndlY8V"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-girl-is-mine"
+    },
+    {
+      "id": 49008,
+      "date": "1982-03-29T16:58:00",
+      "date_gmt": "1982-03-29T07:58:00",
+      "title": {
+        "rendered": "Ebony and Ivory"
+      },
+      "content": {
+        "rendered": "<p>Paul McCartney - Ebony and Ivory ft. Stevie Wonder</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1152,
+        1039
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        685,
+        6
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3fVSMbeq8tY3G85yxcJwRU",
+        "spotify_release_date": "1982/4/26",
+        "spotify_name": "Ebony And Ivory - Remixed 2015",
+        "spotify_artists": "Paul McCartney",
+        "spotify_album": "Tug Of War",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b9578c0dbfcf30d3fa3e8a34",
+        "spotify_duration_ms": "226266",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.567",
+        "spotify_energy": "0.692",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.881",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0379",
+        "spotify_tempo": "160.697",
+        "spotify_valence": "0.708",
+        "spotify_acousticness": "0.0784",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0338",
+        "spotify_artists01": "Paul McCartney",
+        "spotify_artists01_id": "4STHEaNw4mPZ2tzheohgXB",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb03bf2fe26e397122faa3d323",
+        "spotify_artists01_genres": "beatlesque, classic rock, mellow gold, rock",
+        "spotify_artists01_popularity": "68",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "fXAlfh6QKQs",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Paul-McCartney-Ebony-and-Ivory-ft.-Stevie-Wonder.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1152,
+            "name": "Paul McCartney",
+            "slug": "paul-mccartney",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1957",
+              "artistborn": "19420618",
+              "artistdied": "",
+              "artistjpname": "ポール・マッカートニー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1039,
+            "name": "Stevie Wonder",
+            "slug": "stevie-wonder",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1961",
+              "artistborn": "19500513",
+              "artistdied": "",
+              "artistjpname": "スティーヴィー・ワンダー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Paul McCartney",
+        "ytvideoid": "fXAlfh6QKQs",
+        "spotify_track_id": "3fVSMbeq8tY3G85yxcJwRU"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ebony-and-ivory"
+    },
+    {
+      "id": 85597,
+      "date": "1980-04-11T21:42:42",
+      "date_gmt": "1980-04-11T12:42:42",
+      "title": {
+        "rendered": "Coming Up"
+      },
+      "content": {
+        "rendered": "<p>Paul McCartney - Coming Up</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1152
+      ],
+      "tags": [],
+      "genre": [
+        527
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "g5nzLQ63c9E",
+        "ytreleasedate": "",
+        "likecount": "１",
+        "artist_order": "",
+        "spotify_track_id": "4Ku6X72Q815qNd7ChuiDdD",
+        "spotify_release_date": "1980-05-16",
+        "spotify_name": "Coming Up - Remastered 2011",
+        "spotify_artists": "ポール・マッカートニー",
+        "spotify_album": "McCartney II (Special Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733cef016d13d82873d45af84a",
+        "spotify_duration_ms": "231880",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.817",
+        "spotify_energy": "0.767",
+        "spotify_key": "8",
+        "spotify_loudness": "-7.194",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0467",
+        "spotify_tempo": "128.929",
+        "spotify_valence": "0.878",
+        "spotify_acousticness": "0.457",
+        "spotify_instrumentalness": "0.0723",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0606",
+        "spotify_artists01": "ポール・マッカートニー",
+        "spotify_artists01_id": "4STHEaNw4mPZ2tzheohgXB",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb03bf2fe26e397122faa3d323",
+        "spotify_artists01_genres": "classic rock, mellow gold, rock, soft rock",
+        "spotify_artists01_popularity": "74",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/paul-mccartney-coming-up.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1152,
+            "name": "Paul McCartney",
+            "slug": "paul-mccartney",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1957",
+              "artistborn": "19420618",
+              "artistdied": "",
+              "artistjpname": "ポール・マッカートニー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ポール・マッカートニー",
+        "ytvideoid": "g5nzLQ63c9E",
+        "spotify_track_id": "4Ku6X72Q815qNd7ChuiDdD"
+      },
+      "genre_data": [
+        {
+          "name": "Funk rock",
+          "slug": "funk-rock",
+          "term_id": 527,
+          "post_count": 153
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "coming-up"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

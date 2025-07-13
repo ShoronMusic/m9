@@ -1,0 +1,221 @@
+{
+  "artist": {
+    "id": 3129,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/window-kid/",
+    "name": "Window Kid",
+    "slug": "window-kid",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3129",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3129"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3129"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51365,
+      "date": "2023-09-01T22:41:35",
+      "date_gmt": "2023-09-01T13:41:35",
+      "title": {
+        "rendered": "Sliding"
+      },
+      "content": {
+        "rendered": "<p>Bad Boy Chiller Crew - Sliding - ft Window Kid and Charlie Choppa</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3127,
+        3128,
+        3129
+      ],
+      "tags": [],
+      "genre": [
+        563
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5iAp1pQB3dqB3rWfs38Yb6",
+        "spotify_release_date": "2023-08-31",
+        "spotify_name": "Sliding",
+        "spotify_artists": "Bad Boy Chiller Crew, Window Kid, Charlie Choppa",
+        "spotify_album": "Sliding",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739dddda7041012dbf5d0936df",
+        "spotify_duration_ms": "257200",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.947",
+        "spotify_energy": "0.89",
+        "spotify_key": "6",
+        "spotify_loudness": "-3.76",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.272",
+        "spotify_tempo": "128.001",
+        "spotify_valence": "0.784",
+        "spotify_acousticness": "0.107",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.203",
+        "spotify_artists01": "Bad Boy Chiller Crew",
+        "spotify_artists01_id": "5SRr4ZJMoygWecytkIwlaV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8fa413da68a36b3849775713",
+        "spotify_artists01_genres": "charva, indie hip hop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "Window Kid",
+        "spotify_artists02_id": "0Gt5eU7AuKfotkBLgjyg9p",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebe16f4f29e3ab57b750c4ad1e",
+        "spotify_artists02_genres": "bass house, bassline, old school bassline",
+        "spotify_artists02_popularity": "40",
+        "spotify_artists03": "Charlie Choppa",
+        "spotify_artists03_id": "4aTBKDsrXC1os9HzfPuDTR",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb37c15c080ab80743e1bbe300",
+        "spotify_artists03_genres": "charva",
+        "spotify_artists03_popularity": "39",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "BStL-pOappM",
+        "ytreleasedate": "2023/09/01"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Bad-Boy-Chiller-Crew-Sliding-ft-Window-Kid-and-Charlie-Choppa.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3127,
+            "name": "Bad Boy Chiller Crew",
+            "slug": "bad-boy-chiller-crew",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2019",
+              "artistborn": "",
+              "artistjpname": " バッド・ボーイ・チラー・クルー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3128,
+            "name": "Charlie Choppa",
+            "slug": "charlie-choppa",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3129,
+            "name": "Window Kid",
+            "slug": "window-kid",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Bad Boy Chiller Crew, Window Kid, Charlie Choppa",
+        "ytvideoid": "BStL-pOappM",
+        "spotify_track_id": "5iAp1pQB3dqB3rWfs38Yb6"
+      },
+      "genre_data": [
+        {
+          "name": "Hip house",
+          "slug": "hip-house",
+          "term_id": 563,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "sliding-ft-window-kid-and-charlie-choppa"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

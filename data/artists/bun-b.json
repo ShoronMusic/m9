@@ -1,0 +1,76 @@
+{
+  "id": 5300,
+  "count": 1,
+  "description": "Bun B is an American rapper.",
+  "link": "https://sub.music8.jp/category/bun-b/",
+  "name": "Bun B",
+  "slug": "bun-b",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1987",
+    "artistborn": "19730319",
+    "artistjpname": "バン・B",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "45a6gCQWq61lIUDmr1tKuO",
+    "spotify_artist_images": "https://i.scdn.co/image/3bba8d19446261eb36f6ce214dc472c6669536fa"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5300",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5300"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5300"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "バン・B",
+  "spotifyArtistImages": "https://i.scdn.co/image/3bba8d19446261eb36f6ce214dc472c6669536fa",
+  "artistActiveYearStart": "1987",
+  "occupation": "songwriter, rapper"
+}

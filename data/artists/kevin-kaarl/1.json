@@ -1,0 +1,209 @@
+{
+  "artist": {
+    "id": 3710,
+    "count": 1,
+    "description": "Kevin Kaarl is a Mexican folk music singer, songwriter and musician.",
+    "link": "https://sub.music8.jp/category/kevin-kaarl/",
+    "name": "Kevin Kaarl",
+    "slug": "kevin-kaarl",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "MEX",
+      "artistactiveyearstart": "2018",
+      "artistborn": "20010515",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        },
+        {
+          "value": "musician",
+          "label": "Musician"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3710",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3710"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3710"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 56751,
+      "date": "2023-03-25T23:16:54",
+      "date_gmt": "2023-03-25T14:16:54",
+      "title": {
+        "rendered": "te quiero tanto"
+      },
+      "content": {
+        "rendered": "<p>Kevin Kaarl - te quiero tanto</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3710
+      ],
+      "tags": [],
+      "genre": [
+        516
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "04aBuWoZeHYJeDDTWYSgso",
+        "spotify_release_date": "2022-08-25",
+        "spotify_name": "te quiero tanto",
+        "spotify_artists": "Kevin Kaarl",
+        "spotify_album": "Paris Texas",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730ee7e051b92d154d0c0bdf54",
+        "spotify_duration_ms": "325733",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.295",
+        "spotify_energy": "0.333",
+        "spotify_key": "0",
+        "spotify_loudness": "-9.788",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0331",
+        "spotify_tempo": "93.045",
+        "spotify_valence": "0.101",
+        "spotify_acousticness": "0.857",
+        "spotify_instrumentalness": "0.618",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.16",
+        "spotify_artists01": "Kevin Kaarl",
+        "spotify_artists01_id": "6OBGbSaBUvQtk9wpQfDbOE",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf8668ef22cac1e0046fadf11",
+        "spotify_artists01_genres": "indie triste",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "q07Gd6Q-7dY",
+        "ytreleasedate": "2023/03/25"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kevin-Kaarl-te-quiero-tanto.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3710,
+            "name": "Kevin Kaarl",
+            "slug": "kevin-kaarl",
+            "acf": {
+              "artistorigin": "MEX",
+              "artistactiveyearstart": "2018",
+              "artistborn": "20010515",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kevin Kaarl",
+        "ytvideoid": "q07Gd6Q-7dY",
+        "spotify_track_id": "04aBuWoZeHYJeDDTWYSgso"
+      },
+      "genre_data": [
+        {
+          "name": "Folk",
+          "slug": "folk",
+          "term_id": 516,
+          "post_count": 61
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "te-quiero-tanto"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,973 @@
+{
+  "artist": {
+    "id": 2501,
+    "count": 6,
+    "description": "Shallou is an American singer, producer.",
+    "link": "https://sub.music8.jp/category/shallou/",
+    "name": "Shallou",
+    "slug": "shallou",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2014",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "シャロウ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2501",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2501"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2501"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61855,
+      "date": "2024-01-23T20:38:03",
+      "date_gmt": "2024-01-23T11:38:03",
+      "title": {
+        "rendered": "Face In The Crowd"
+      },
+      "content": {
+        "rendered": "<p>Shallou - Face In The Crowd</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2501
+      ],
+      "tags": [],
+      "genre": [
+        414,
+        452
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "U26yViX5ojs",
+        "ytreleasedate": "2024/01/23",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1xIZc7f4LTF3fAF7RXZBlW",
+        "spotify_release_date": "2023-10-27",
+        "spotify_name": "Face In the Crowd",
+        "spotify_artists": "Shallou",
+        "spotify_album": "In Touch",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27375e22a7095b5b47318a4c0d4",
+        "spotify_duration_ms": "288120",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.576",
+        "spotify_energy": "0.673",
+        "spotify_key": "2",
+        "spotify_loudness": "-9.588",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0469",
+        "spotify_tempo": "119.986",
+        "spotify_valence": "0.0561",
+        "spotify_acousticness": "0.108",
+        "spotify_instrumentalness": "0.166",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.119",
+        "spotify_artists01": "Shallou",
+        "spotify_artists01_id": "7C3Cbtr2PkH2l4tOGhtCsk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaa932418bde5bb2012cdeef8",
+        "spotify_artists01_genres": "electropop, indie electropop, vapor soul",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Shallou-Face-In-The-Crowd.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2501,
+            "name": "Shallou",
+            "slug": "shallou",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シャロウ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Shallou",
+        "ytvideoid": "U26yViX5ojs",
+        "spotify_track_id": "1xIZc7f4LTF3fAF7RXZBlW"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        },
+        {
+          "name": "Chillwave",
+          "slug": "chillwave",
+          "term_id": 452,
+          "post_count": 24
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "face-in-the-crowd"
+    },
+    {
+      "id": 61859,
+      "date": "2023-12-01T20:40:02",
+      "date_gmt": "2023-12-01T11:40:02",
+      "title": {
+        "rendered": "Without U"
+      },
+      "content": {
+        "rendered": "<p>Shallou, Origami Human - Without U</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4182,
+        2501
+      ],
+      "tags": [],
+      "genre": [
+        452,
+        670
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "WZ4EEvlDBwA",
+        "ytreleasedate": "2023/12/01",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1mXnYKgiFUG59Ld6KGUrZD",
+        "spotify_release_date": "2023-10-27",
+        "spotify_name": "Without U",
+        "spotify_artists": "Shallou, Origami Human",
+        "spotify_album": "In Touch",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27375e22a7095b5b47318a4c0d4",
+        "spotify_duration_ms": "251306",
+        "spotify_popularity": "37",
+        "spotify_danceability": "0.624",
+        "spotify_energy": "0.782",
+        "spotify_key": "6",
+        "spotify_loudness": "-8.798",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0706",
+        "spotify_tempo": "125.158",
+        "spotify_valence": "0.142",
+        "spotify_acousticness": "0.487",
+        "spotify_instrumentalness": "0.00425",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "Shallou",
+        "spotify_artists01_id": "7C3Cbtr2PkH2l4tOGhtCsk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaa932418bde5bb2012cdeef8",
+        "spotify_artists01_genres": "electropop, indie electropop, vapor soul",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "Origami Human",
+        "spotify_artists02_id": "6vOoZCnNiawjGeViOSoY1t",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebffc12023af3084d5d1bdda46",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "26",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Shallou-Origami-Human-Without-U.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4182,
+            "name": "Origami Human",
+            "slug": "origami-human",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2501,
+            "name": "Shallou",
+            "slug": "shallou",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シャロウ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Shallou, Origami Human",
+        "ytvideoid": "WZ4EEvlDBwA",
+        "spotify_track_id": "1mXnYKgiFUG59Ld6KGUrZD"
+      },
+      "genre_data": [
+        {
+          "name": "Chillwave",
+          "slug": "chillwave",
+          "term_id": 452,
+          "post_count": 24
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "without-u"
+    },
+    {
+      "id": 38649,
+      "date": "2022-09-23T21:12:00",
+      "date_gmt": "2022-09-23T12:12:00",
+      "title": {
+        "rendered": "Save Some Room"
+      },
+      "content": {
+        "rendered": "\n<p>Shallou-SaveSomeRoom</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2501
+      ],
+      "tags": [],
+      "genre": [
+        414
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7FYEftcDTCjLkQZPAgPe0D",
+        "spotify_release_date": "2022/9/23",
+        "spotify_name": "SaveSomeRoom",
+        "spotify_artists": "Shallou",
+        "spotify_album": "SaveSomeRoom",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27394ebbc15038ee64ab12dd41e",
+        "spotify_duration_ms": "219927",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.657",
+        "spotify_energy": "0.794",
+        "spotify_key": "4",
+        "spotify_loudness": "-8.255",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0361",
+        "spotify_tempo": "120.019",
+        "spotify_valence": "0.125",
+        "spotify_acousticness": "0.0304",
+        "spotify_instrumentalness": "0.424",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0847",
+        "spotify_artists01": "Shallou",
+        "spotify_artists01_id": "7C3Cbtr2PkH2l4tOGhtCsk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb424f9d27e27f9651af6de946",
+        "spotify_artists01_genres": "electropop,indieelectropop",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "53CkmGVg87w",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Shallou-Save-Some-Room.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2501,
+            "name": "Shallou",
+            "slug": "shallou",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シャロウ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Shallou",
+        "ytvideoid": "53CkmGVg87w",
+        "spotify_track_id": "7FYEftcDTCjLkQZPAgPe0D"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "save-some-room"
+    },
+    {
+      "id": 38852,
+      "date": "2022-08-26T21:24:00",
+      "date_gmt": "2022-08-26T12:24:00",
+      "title": {
+        "rendered": "Raye"
+      },
+      "content": {
+        "rendered": "\n<p>Sultan+Shepard&amp;Shallou-Raye</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2501,
+        2731
+      ],
+      "tags": [],
+      "genre": [
+        414,
+        670
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5tsVgtKdAfKGcVIcCHvyxe",
+        "spotify_release_date": "2022/8/25",
+        "spotify_name": "Raye",
+        "spotify_artists": "Sultan+Shepard,Shallou",
+        "spotify_album": "Raye",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733aa0bd8bb8dae356e871ec24",
+        "spotify_duration_ms": "290409",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.645",
+        "spotify_energy": "0.572",
+        "spotify_key": "0",
+        "spotify_loudness": "-8.167",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0298",
+        "spotify_tempo": "121.994",
+        "spotify_valence": "0.121",
+        "spotify_acousticness": "0.716",
+        "spotify_instrumentalness": "0.0527",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0922",
+        "spotify_artists01": "Sultan+Shepard",
+        "spotify_artists01_id": "14Tg9FvbNismPR1PJHxRau",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8173d24f32917c4bd28d124e",
+        "spotify_artists01_genres": "canadianelectronic,progressivehouse",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "Shallou",
+        "spotify_artists02_id": "7C3Cbtr2PkH2l4tOGhtCsk",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb424f9d27e27f9651af6de946",
+        "spotify_artists02_genres": "electropop,indieelectropop",
+        "spotify_artists02_popularity": "59",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Db07VbXG-NA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sultan-Shepard-Shallou-Raye.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2501,
+            "name": "Shallou",
+            "slug": "shallou",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シャロウ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2731,
+            "name": "Sultan &amp; Shepard",
+            "slug": "sultan-shepard",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2002",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Sultan+Shepard,Shallou",
+        "ytvideoid": "Db07VbXG-NA",
+        "spotify_track_id": "5tsVgtKdAfKGcVIcCHvyxe"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "raye"
+    },
+    {
+      "id": 38976,
+      "date": "2022-08-12T20:58:00",
+      "date_gmt": "2022-08-12T11:58:00",
+      "title": {
+        "rendered": "Us"
+      },
+      "content": {
+        "rendered": "\n<p>Shallou,ayokay-Us</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2521,
+        2501
+      ],
+      "tags": [],
+      "genre": [
+        414,
+        752
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0reR3yfMTisKWQUnOmjxkN",
+        "spotify_release_date": "2022/8/12",
+        "spotify_name": "Us",
+        "spotify_artists": "Shallou,ayokay",
+        "spotify_album": "Us",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27379cebfda7e8e2ec8d3d0eec9",
+        "spotify_duration_ms": "182457",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.633",
+        "spotify_energy": "0.605",
+        "spotify_key": "0",
+        "spotify_loudness": "-9.248",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.031",
+        "spotify_tempo": "119.983",
+        "spotify_valence": "0.128",
+        "spotify_acousticness": "0.329",
+        "spotify_instrumentalness": "0.0343",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.112",
+        "spotify_artists01": "Shallou",
+        "spotify_artists01_id": "7C3Cbtr2PkH2l4tOGhtCsk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb424f9d27e27f9651af6de946",
+        "spotify_artists01_genres": "electropop,indieelectropop",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "ayokay",
+        "spotify_artists02_id": "4BzCdhJTyTS3gumq9xmymb",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb165f625d3527850dc792533c",
+        "spotify_artists02_genres": "electropop,indieelectropop",
+        "spotify_artists02_popularity": "52",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "K-qBy1GFEjk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Shallou-ayokay-Us.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2521,
+            "name": "ayokay",
+            "slug": "ayokay",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "4BzCdhJTyTS3gumq9xmymb",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174165f625d3527850dc792533c"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2501,
+            "name": "Shallou",
+            "slug": "shallou",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シャロウ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Shallou,ayokay",
+        "ytvideoid": "K-qBy1GFEjk",
+        "spotify_track_id": "0reR3yfMTisKWQUnOmjxkN"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        },
+        {
+          "name": "Tropical house",
+          "slug": "tropical-house",
+          "term_id": 752,
+          "post_count": 101
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "us"
+    },
+    {
+      "id": 40458,
+      "date": "2022-01-21T12:46:00",
+      "date_gmt": "2022-01-21T03:46:00",
+      "title": {
+        "rendered": "Here"
+      },
+      "content": {
+        "rendered": "\n<p>Shallou-Here</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2501
+      ],
+      "tags": [],
+      "genre": [
+        414,
+        655,
+        752
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6HAVjFro6OKMcY2xHOP0l7",
+        "spotify_release_date": "2021/11/12",
+        "spotify_name": "Here",
+        "spotify_artists": "Shallou",
+        "spotify_album": "Here",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730f9addb7a3b5668e1a105397",
+        "spotify_duration_ms": "192133",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.643",
+        "spotify_energy": "0.558",
+        "spotify_key": "7",
+        "spotify_loudness": "-9.681",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0477",
+        "spotify_tempo": "106.95",
+        "spotify_valence": "0.238",
+        "spotify_acousticness": "0.746",
+        "spotify_instrumentalness": "0.209",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.135",
+        "spotify_artists01": "Shallou",
+        "spotify_artists01_id": "7C3Cbtr2PkH2l4tOGhtCsk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb424f9d27e27f9651af6de946",
+        "spotify_artists01_genres": "electropop,indieelectropop",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5jDPR-G4Kkc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Shallou-Here.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2501,
+            "name": "Shallou",
+            "slug": "shallou",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シャロウ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Shallou",
+        "ytvideoid": "5jDPR-G4Kkc",
+        "spotify_track_id": "6HAVjFro6OKMcY2xHOP0l7"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Tropical house",
+          "slug": "tropical-house",
+          "term_id": 752,
+          "post_count": 101
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "here"
+    }
+  ],
+  "totalSongs": 6,
+  "totalPages": 1,
+  "currentPage": 1
+}

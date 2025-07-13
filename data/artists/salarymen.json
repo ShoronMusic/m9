@@ -1,0 +1,72 @@
+{
+  "id": 5663,
+  "count": 1,
+  "description": "Salarymen is an Australian indie-pop band.",
+  "link": "https://sub.music8.jp/category/salarymen/",
+  "name": "Salarymen",
+  "slug": "salarymen",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2020",
+    "artistborn": "",
+    "artistjpname": "サラリーメン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6CoqrYYldBGO37bHBr9rCM",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174782c06b5c227dfcd9f1af0f8"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5663",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5663"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5663"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "サラリーメン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174782c06b5c227dfcd9f1af0f8",
+  "artistActiveYearStart": "2020",
+  "occupation": "band"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 1213,
+  "count": 40,
+  "description": "Kylie Minogue is an Australian singer.",
+  "link": "https://sub.music8.jp/category/kylie-minogue/",
+  "name": "Kylie Minogue",
+  "slug": "kylie-minogue",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "1979",
+    "artistborn": "19680528",
+    "artistdied": "",
+    "artistjpname": "カイリー・ミノーグ",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1213",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1213"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1213"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "カイリー・ミノーグ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1979",
+  "occupation": ""
+}

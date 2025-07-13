@@ -1,0 +1,365 @@
+{
+  "artist": {
+    "id": 908,
+    "count": 2,
+    "description": "Soft Cell are an English synthpop duo.",
+    "link": "https://sub.music8.jp/category/soft-cell/",
+    "name": "Soft Cell",
+    "slug": "soft-cell",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1978",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ソフト・セル",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "duo",
+          "label": "Duo"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/908",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=908"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=908"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39975,
+      "date": "2022-03-22T21:42:00",
+      "date_gmt": "2022-03-22T12:42:00",
+      "title": {
+        "rendered": "Purple Zone"
+      },
+      "content": {
+        "rendered": "\n<p>SoftCell&amp;PetShopBoys-PurpleZone</p>\n",
+        "protected": false
+      },
+      "categories": [
+        843,
+        908
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        561,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "cv4QNTg1Mps",
+        "likecount": "1",
+        "spotify_track_id": "1yJ0p6SUVkYrmfcsfSfqWM",
+        "spotify_release_date": "2022-03-22",
+        "spotify_name": "Purple Zone",
+        "spotify_artists": "Soft Cell, Pet Shop Boys",
+        "spotify_album": "Purple Zone",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27347dd0185c3e438663a2fc52f",
+        "spotify_duration_ms": "191368",
+        "spotify_popularity": "3",
+        "spotify_danceability": "0.6",
+        "spotify_energy": "0.823",
+        "spotify_key": "0",
+        "spotify_loudness": "-7.722",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0389",
+        "spotify_tempo": "126.977",
+        "spotify_valence": "0.455",
+        "spotify_acousticness": "0.000675",
+        "spotify_instrumentalness": "0.00221",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0915",
+        "spotify_artists01": "Soft Cell",
+        "spotify_artists01_id": "6aq8T2RcspxVOGgMrTzjWc",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c0564b6c825349fc15885bd76",
+        "spotify_artists01_genres": "new romantic, new wave, new wave pop, synthpop",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "ペット・ショップ・ボーイズ",
+        "spotify_artists02_id": "2ycnb8Er79LoH2AsR5ldjh",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebd24f448b409b6304c2880614",
+        "spotify_artists02_genres": "dance rock, new romantic, new wave, new wave pop, permanent wave, synthpop",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Soft-Cell-Pet-Shop-Boys-Purple-Zone.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 843,
+            "name": "Pet Shop Boys",
+            "slug": "pet-shop-boys",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1981",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ペット・ショップ・ボーイズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "2ycnb8Er79LoH2AsR5ldjh",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d24f448b409b6304c2880614"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 908,
+            "name": "Soft Cell",
+            "slug": "soft-cell",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ソフト・セル",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Soft Cell, Pet Shop Boys",
+        "ytvideoid": "cv4QNTg1Mps",
+        "spotify_track_id": "1yJ0p6SUVkYrmfcsfSfqWM"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Hi-NRG",
+          "slug": "hi-nrg",
+          "term_id": 561,
+          "post_count": 47
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "purple-zone"
+    },
+    {
+      "id": 49090,
+      "date": "1981-07-17T10:26:00",
+      "date_gmt": "1981-07-17T01:26:00",
+      "title": {
+        "rendered": "Tainted Love"
+      },
+      "content": {
+        "rendered": "<p>Soft Cell - Tainted Love</p>\n",
+        "protected": false
+      },
+      "categories": [
+        908
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0cGG2EouYCEEC3xfa0tDFV",
+        "spotify_release_date": "1981",
+        "spotify_name": "Tainted Love",
+        "spotify_artists": "Soft Cell",
+        "spotify_album": "Non-Stop Erotic Cabaret",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27349c982dae436bac27c336f45",
+        "spotify_duration_ms": "153800",
+        "spotify_popularity": "82",
+        "spotify_danceability": "-1.2262926711137851",
+        "spotify_energy": "-1.6789638906694615",
+        "spotify_key": "-1.417844935220459",
+        "spotify_loudness": "-0.04929054523261303",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "-0.33166381813530077",
+        "spotify_tempo": "0.9086090815660746",
+        "spotify_valence": "-0.2633759362013926",
+        "spotify_acousticness": "2.7930036522679114",
+        "spotify_instrumentalness": "-0.4115192012827468",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "0.5439823775647419",
+        "spotify_artists01": "Soft Cell",
+        "spotify_artists01_id": "6aq8T2RcspxVOGgMrTzjWc",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c0564b6c825349fc15885bd76",
+        "spotify_artists01_genres": "new romantic, new wave, new wave pop, synthpop",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "XZVpR3Pk-r8",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Soft-Cell-Tainted-Love.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 908,
+            "name": "Soft Cell",
+            "slug": "soft-cell",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ソフト・セル",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Soft Cell",
+        "ytvideoid": "XZVpR3Pk-r8",
+        "spotify_track_id": "0cGG2EouYCEEC3xfa0tDFV"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "tainted-love"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 5068,
+  "count": 0,
+  "description": "Simon &amp; Garfunkel were an American folk pop and folk rock duo.",
+  "link": "https://sub.music8.jp/category/simon-garfunkel/",
+  "name": "Simon &amp; Garfunkel",
+  "slug": "simon-garfunkel",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1956-2010",
+    "artistborn": "",
+    "artistjpname": "サイモン&ガーファンクル",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "",
+    "spotify_artist_images": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5068",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5068"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5068"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "サイモン&ガーファンクル",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1956-2010",
+  "occupation": "duo"
+}

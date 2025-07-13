@@ -1,0 +1,77 @@
+{
+  "id": 3948,
+  "count": 2,
+  "description": "Juan Luis Guerra is a Dominican musician, singer, composer, and record producer.",
+  "link": "https://sub.music8.jp/category/juan-luis-guerra/",
+  "name": "Juan Luis Guerra 4.40",
+  "slug": "juan-luis-guerra",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "DOM",
+    "artistactiveyearstart": "1983",
+    "artistborn": "19570607",
+    "artistjpname": "フアン・ルイス・ゲラ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3948",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3948"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3948"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "フアン・ルイス・ゲラ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1983",
+  "occupation": "singer, musician, producer"
+}

@@ -1,0 +1,773 @@
+{
+  "artist": {
+    "id": 3724,
+    "count": 4,
+    "description": "Kirk Franklin is an American songwriter.",
+    "link": "https://sub.music8.jp/category/kirk-franklin/",
+    "name": "Kirk Franklin",
+    "slug": "kirk-franklin",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1992",
+      "artistborn": "19700126",
+      "artistjpname": "カーク・フランクリン",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        },
+        {
+          "value": "rapper",
+          "label": "Rapper"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3724",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3724"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3724"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57785,
+      "date": "2023-11-29T23:23:48",
+      "date_gmt": "2023-11-29T14:23:48",
+      "title": {
+        "rendered": "Witness Me"
+      },
+      "content": {
+        "rendered": "<p>Jacob Collier, Shawn Mendes, Stormzy & Kirk Franklin - Witness Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2300,
+        3724,
+        1062,
+        1637
+      ],
+      "tags": [],
+      "genre": [
+        544,
+        659
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4lIA2yIyg1nPmJ1rBwNFUG",
+        "spotify_release_date": "2023-11-21",
+        "spotify_name": "Witness Me (feat. Shawn Mendes, Stormzy & Kirk Franklin)",
+        "spotify_artists": "Jacob Collier, Shawn Mendes, Stormzy, Kirk Franklin",
+        "spotify_album": "Witness Me (feat. Shawn Mendes, Stormzy & Kirk Franklin)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cc40d4c1c8fa572b05d62703",
+        "spotify_duration_ms": "225893",
+        "spotify_popularity": "71",
+        "spotify_danceability": "0.459",
+        "spotify_energy": "0.546",
+        "spotify_key": "5",
+        "spotify_loudness": "-7.087",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0678",
+        "spotify_tempo": "88.142",
+        "spotify_valence": "0.472",
+        "spotify_acousticness": "0.836",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.109",
+        "spotify_artists01": "ジェイコブ・コリアー",
+        "spotify_artists01_id": "0QWrMNukfcVOmgEU0FEDyD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6b6a07bd9cceae9bd48be09b",
+        "spotify_artists01_genres": "uk alternative pop",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "ショーン・メンデス",
+        "spotify_artists02_id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb46e7a06fa6dfefaed6a3f0db",
+        "spotify_artists02_genres": "canadian pop, pop, viral pop",
+        "spotify_artists02_popularity": "80",
+        "spotify_artists03": "Stormzy",
+        "spotify_artists03_id": "2SrSdSvpminqmStGELCSNd",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb674d29e07df021a35df3ddf1",
+        "spotify_artists03_genres": "grime, uk hip hop",
+        "spotify_artists03_popularity": "69",
+        "spotify_artists04": "Kirk Franklin",
+        "spotify_artists04_id": "4akybxRTGHJZ1DXjLhJ1qu",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5ebd0a257c74c32388d98386f6b",
+        "spotify_artists04_genres": "gospel, gospel r&b",
+        "spotify_artists04_popularitys": "62",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "zb0ge6rIg-w",
+        "ytreleasedate": "2023/11/29"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Jacob-Collier-Witness-Me-feat.-Shawn-Mendes-Stormzy-Kirk-Franklin.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2300,
+            "name": "Jacob Collier",
+            "slug": "jacob-collier",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19940802",
+              "artistdied": "",
+              "artistjpname": "ジェイコブ・コリアー"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3724,
+            "name": "Kirk Franklin",
+            "slug": "kirk-franklin",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1992",
+              "artistborn": "19700126",
+              "artistjpname": "カーク・フランクリン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1062,
+            "name": "Shawn Mendes",
+            "slug": "shawn-mendes",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19980808",
+              "artistdied": "",
+              "artistjpname": "ショーン・メンデス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1637,
+            "name": "Stormzy",
+            "slug": "stormzy",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2010",
+              "artistborn": "19930726",
+              "artistdied": "",
+              "artistjpname": "ストームジー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Jacob Collier, Shawn Mendes, Stormzy, Kirk Franklin",
+        "ytvideoid": "zb0ge6rIg-w",
+        "spotify_track_id": "4lIA2yIyg1nPmJ1rBwNFUG"
+      },
+      "genre_data": [
+        {
+          "name": "Gospel",
+          "slug": "gospel",
+          "term_id": 544,
+          "post_count": 16
+        },
+        {
+          "name": "Pop soul",
+          "slug": "pop-soul",
+          "term_id": 659,
+          "post_count": 187
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "witness-me-2"
+    },
+    {
+      "id": 56915,
+      "date": "2023-10-28T14:12:29",
+      "date_gmt": "2023-10-28T05:12:29",
+      "title": {
+        "rendered": "Mercy ft. Kirk Franklin"
+      },
+      "content": {
+        "rendered": "<p>Trip Lee - Mercy ft. Kirk Franklin</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3724,
+        3723
+      ],
+      "tags": [],
+      "genre": [
+        564,
+        685,
+        748
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1Kci8csnCkMdszZhIhkCxC",
+        "spotify_release_date": "2023-10-27",
+        "spotify_name": "Mercy",
+        "spotify_artists": "Trip Lee, Kirk Franklin",
+        "spotify_album": "The Epilogue.",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27320d2c4be975f5521009b13a6",
+        "spotify_duration_ms": "276629",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.605",
+        "spotify_energy": "0.689",
+        "spotify_key": "1",
+        "spotify_loudness": "-5.085",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0473",
+        "spotify_tempo": "127.02",
+        "spotify_valence": "0.63",
+        "spotify_acousticness": "0.136",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.119",
+        "spotify_artists01": "Trip Lee",
+        "spotify_artists01_id": "12H1Dmi64fAmmARrsyVFzy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd852b84b3f05c4b26fdd9a53",
+        "spotify_artists01_genres": "christian hip hop, dfw rap",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "Kirk Franklin",
+        "spotify_artists02_id": "4akybxRTGHJZ1DXjLhJ1qu",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebd0a257c74c32388d98386f6b",
+        "spotify_artists02_genres": "gospel, gospel r&b",
+        "spotify_artists02_popularity": "61",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "8jr-5Oq1r6M",
+        "ytreleasedate": "2023/10/28"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Trip-Lee-Mercy-ft.-Kirk-Franklin.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3724,
+            "name": "Kirk Franklin",
+            "slug": "kirk-franklin",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1992",
+              "artistborn": "19700126",
+              "artistjpname": "カーク・フランクリン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3723,
+            "name": "Trip Lee",
+            "slug": "trip-lee",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2005",
+              "artistborn": "19871217",
+              "artistjpname": "トリップ・リー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Trip Lee, Kirk Franklin",
+        "ytvideoid": "8jr-5Oq1r6M",
+        "spotify_track_id": "1Kci8csnCkMdszZhIhkCxC"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Trap",
+          "slug": "trap",
+          "term_id": 748,
+          "post_count": 282
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "mercy-ft-kirk-franklin"
+    },
+    {
+      "id": 56918,
+      "date": "2023-08-25T14:18:49",
+      "date_gmt": "2023-08-25T05:18:49",
+      "title": {
+        "rendered": "Try Love"
+      },
+      "content": {
+        "rendered": "<p>Kirk Franklin - Try Love</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3724
+      ],
+      "tags": [],
+      "genre": [
+        544,
+        685,
+        719
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "72Y7oxX8vyMkDvdU6rr5Nt",
+        "spotify_release_date": "2023-08-25",
+        "spotify_name": "Try Love",
+        "spotify_artists": "Kirk Franklin",
+        "spotify_album": "Try Love",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b04405b502e93128be206d87",
+        "spotify_duration_ms": "272593",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.578",
+        "spotify_energy": "0.527",
+        "spotify_key": "2",
+        "spotify_loudness": "-9.56",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.262",
+        "spotify_tempo": "78.115",
+        "spotify_valence": "0.343",
+        "spotify_acousticness": "0.115",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.74",
+        "spotify_artists01": "Kirk Franklin",
+        "spotify_artists01_id": "4akybxRTGHJZ1DXjLhJ1qu",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd0a257c74c32388d98386f6b",
+        "spotify_artists01_genres": "gospel, gospel r&b",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ITAhCE9O_lA",
+        "ytreleasedate": "2023/08/25"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kirk-Franklin-Try-Love.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3724,
+            "name": "Kirk Franklin",
+            "slug": "kirk-franklin",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1992",
+              "artistborn": "19700126",
+              "artistjpname": "カーク・フランクリン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kirk Franklin",
+        "ytvideoid": "ITAhCE9O_lA",
+        "spotify_track_id": "72Y7oxX8vyMkDvdU6rr5Nt"
+      },
+      "genre_data": [
+        {
+          "name": "Gospel",
+          "slug": "gospel",
+          "term_id": 544,
+          "post_count": 16
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "try-love"
+    },
+    {
+      "id": 56922,
+      "date": "2023-05-06T14:22:43",
+      "date_gmt": "2023-05-06T05:22:43",
+      "title": {
+        "rendered": "All Things"
+      },
+      "content": {
+        "rendered": "<p>Kirk Franklin - All Things</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3724
+      ],
+      "tags": [],
+      "genre": [
+        544,
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3TF6zST4pvaoaUwekLUZEx",
+        "spotify_release_date": "2023-05-05",
+        "spotify_name": "All Things",
+        "spotify_artists": "Kirk Franklin",
+        "spotify_album": "All Things",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739088dd9fdd12aac67de0c63a",
+        "spotify_duration_ms": "189799",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.73",
+        "spotify_energy": "0.504",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.871",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.116",
+        "spotify_tempo": "84.963",
+        "spotify_valence": "0.726",
+        "spotify_acousticness": "0.331",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.129",
+        "spotify_artists01": "Kirk Franklin",
+        "spotify_artists01_id": "4akybxRTGHJZ1DXjLhJ1qu",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd0a257c74c32388d98386f6b",
+        "spotify_artists01_genres": "gospel, gospel r&b",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "2Qnqm3MHVZM",
+        "ytreleasedate": "2023/05/06"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kirk-Franklin-All-Things.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3724,
+            "name": "Kirk Franklin",
+            "slug": "kirk-franklin",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1992",
+              "artistborn": "19700126",
+              "artistjpname": "カーク・フランクリン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kirk Franklin",
+        "ytvideoid": "2Qnqm3MHVZM",
+        "spotify_track_id": "3TF6zST4pvaoaUwekLUZEx"
+      },
+      "genre_data": [
+        {
+          "name": "Gospel",
+          "slug": "gospel",
+          "term_id": 544,
+          "post_count": 16
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "all-things"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

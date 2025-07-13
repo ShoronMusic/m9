@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 5386,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/evan-giia/",
+    "name": "EVAN GIIA",
+    "slug": "evan-giia",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "19920130",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5386",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5386"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5386"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 72755,
+      "date": "2024-06-28T21:29:31",
+      "date_gmt": "2024-06-28T12:29:31",
+      "title": {
+        "rendered": "TALKING WALLS"
+      },
+      "content": {
+        "rendered": "<p>EVAN GIIA - TALKING WALLS</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5386
+      ],
+      "tags": [],
+      "genre": [
+        566
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "e_4KAXvslr8",
+        "ytreleasedate": "",
+        "spotify_track_id": "2EgVyvvuU95B3DqEZxbtj5",
+        "spotify_release_date": "2024-06-28",
+        "spotify_name": "TALKING WALLS",
+        "spotify_artists": "EVAN GIIA",
+        "spotify_album": "TALKING WALLS",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a46ead09834e4d7179b131fe",
+        "spotify_duration_ms": "152380",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.635",
+        "spotify_energy": "0.672",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.885",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.14",
+        "spotify_tempo": "126.029",
+        "spotify_valence": "0.22",
+        "spotify_acousticness": "0.0181",
+        "spotify_instrumentalness": "0.0141",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.15",
+        "spotify_artists01": "EVAN GIIA",
+        "spotify_artists01_id": "0D6BtvIkN3P9GHTa8KR24t",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb27ddebb18b1f46bf3e6de7ac",
+        "spotify_artists01_genres": "nyc pop",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273a46ead09834e4d7179b131fe.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5386,
+            "name": "EVAN GIIA",
+            "slug": "evan-giia",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19920130",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "EVAN GIIA",
+        "ytvideoid": "e_4KAXvslr8",
+        "spotify_track_id": "2EgVyvvuU95B3DqEZxbtj5"
+      },
+      "genre_data": [
+        {
+          "name": "House",
+          "slug": "house",
+          "term_id": 566,
+          "post_count": 71
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "talking-walls"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

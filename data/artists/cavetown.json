@@ -1,0 +1,80 @@
+{
+  "id": 1300,
+  "count": 4,
+  "description": "Cavetown is an English singer-songwriter and musician.",
+  "link": "https://sub.music8.jp/category/cavetown/",
+  "name": "Cavetown",
+  "slug": "cavetown",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2012",
+    "artistborn": "19981215",
+    "artistdied": "",
+    "artistjpname": "ケイヴタウン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "Penelope Scott | mxmtoon (mxmtoon) | Ricky Montgomery | chloe moriondo (chloe-moriondo) | Beach Bunny | Mother Mother (mother-mother) | Jack Stauber's Micropop | Sir Chloe | girl in red (girl-in-red) | Lovejoy (lovejoy) | Jack Stauber | Wilbur Soot | Lemon Demon | Roar | Egg | dodie (dodie) | McCafferty | I DONT KNOW HOW BUT THEY FOUND ME (i-dont-know-how-but-they-found-me) | Bo Burnham (bo-burnham) | Tally Hall",
+    "spotify_artist_id": "2hR4h1Cao2ueuI7Cx9c7V8",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ef138aa4569dba63ee549997"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1300",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1300"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1300"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ケイヴタウン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ef138aa4569dba63ee549997",
+  "artistActiveYearStart": "2012",
+  "occupation": "singer, songwriter, musician"
+}

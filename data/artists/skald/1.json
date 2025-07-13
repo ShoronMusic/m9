@@ -1,0 +1,180 @@
+{
+  "artist": {
+    "id": 2657,
+    "count": 1,
+    "description": "FRA",
+    "link": "https://sub.music8.jp/category/skald/",
+    "name": "SKÁLD",
+    "slug": "skald",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2657",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2657"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2657"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38148,
+      "date": "2022-12-16T21:32:00",
+      "date_gmt": "2022-12-16T12:32:00",
+      "title": {
+        "rendered": "Da Manen Sken"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2657
+      ],
+      "tags": [],
+      "genre": [
+        639,
+        642
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4kcxShcy2A2Taq2EJY290I",
+        "spotify_release_date": "2022/12/16",
+        "spotify_name": "D?M?nenSken",
+        "spotify_artists": "SK?LD",
+        "spotify_album": "D?M?nenSken",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e29be637b6085d3c41f78e4d",
+        "spotify_duration_ms": "277013",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.617",
+        "spotify_energy": "0.273",
+        "spotify_key": "10",
+        "spotify_loudness": "-15.072",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0284",
+        "spotify_tempo": "92.013",
+        "spotify_valence": "0.0393",
+        "spotify_acousticness": "0.78",
+        "spotify_instrumentalness": "0.784",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.111",
+        "spotify_artists01": "SK?LD",
+        "spotify_artists01_id": "3uliAYf4KyTkBpVf3BiWVv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb43eb6f2bf936b3b4ff243804",
+        "spotify_artists01_genres": "vikingfolk",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "c8hMEHPr6Yg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/SKALD-Da-Manen-Sken.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2657,
+            "name": "SKÁLD",
+            "slug": "skald",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SK?LD",
+        "ytvideoid": "c8hMEHPr6Yg",
+        "spotify_track_id": "4kcxShcy2A2Taq2EJY290I"
+      },
+      "genre_data": [
+        {
+          "name": "New-age",
+          "slug": "new-age",
+          "term_id": 639,
+          "post_count": 9
+        },
+        {
+          "name": "Nordic folk",
+          "slug": "nordic-folk",
+          "term_id": 642,
+          "post_count": 3
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "da-manen-sken"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

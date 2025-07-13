@@ -1,0 +1,63 @@
+{
+  "id": 943,
+  "count": 5,
+  "description": "Midnight Oil (The Oils) are an Australian rock band",
+  "link": "https://sub.music8.jp/category/midnight-oil/",
+  "name": "Midnight Oil",
+  "slug": "midnight-oil",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "1972",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ミッドナイト・オイル",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/943",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=943"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=943"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ミッドナイト・オイル",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1972",
+  "occupation": ""
+}

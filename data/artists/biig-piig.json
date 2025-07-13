@@ -1,0 +1,69 @@
+{
+  "id": 2760,
+  "count": 5,
+  "description": "Biig Piig is an Irish singer.",
+  "link": "https://sub.music8.jp/category/biig-piig/",
+  "name": "Biig Piig",
+  "slug": "biig-piig",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "IRL",
+    "artistactiveyearstart": "2016",
+    "artistborn": "19980122",
+    "artistdied": "",
+    "artistjpname": "ビッグ・ピッグ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2760",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2760"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2760"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ビッグ・ピッグ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2016",
+  "occupation": "singer"
+}

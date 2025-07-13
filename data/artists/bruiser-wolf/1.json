@@ -1,0 +1,228 @@
+{
+  "artist": {
+    "id": 4089,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/bruiser-wolf/",
+    "name": "Bruiser Wolf",
+    "slug": "bruiser-wolf",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "rapper",
+          "label": "Rapper"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4089",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4089"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4089"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 60504,
+      "date": "2024-01-18T19:50:43",
+      "date_gmt": "2024-01-18T10:50:43",
+      "title": {
+        "rendered": "Y.B.P."
+      },
+      "content": {
+        "rendered": "<p>Danny Brown, Bruiser Wolf - Y.B.P.</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4089,
+        3627
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "Danny Brown, Bruiser Wolf",
+        "spotify_track_id": "5BQHxZ7dOoyS2Vh9X02ows",
+        "spotify_release_date": "2023-11-17",
+        "spotify_name": "Y.B.P. (feat. Bruiser Wolf)",
+        "spotify_artists": "Danny Brown, Bruiser Wolf",
+        "spotify_album": "Quaranta",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e9dddb75e4b6844ad5f8b4e5",
+        "spotify_duration_ms": "176330",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.823",
+        "spotify_energy": "0.762",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.616",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.176",
+        "spotify_tempo": "104.038",
+        "spotify_valence": "0.785",
+        "spotify_acousticness": "0.684",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.208",
+        "spotify_artists01": "Danny Brown",
+        "spotify_artists01_id": "7aA592KWirLsnfb5ulGWvU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb196db1757e46efbecd7314c6",
+        "spotify_artists01_genres": "alternative hip hop, detroit hip hop, escape room, hip hop, underground hip hop",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "Bruiser Wolf",
+        "spotify_artists02_id": "2WWAtobfGkojaSqMRN5V67",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba20f1c1471a54a0930361eae",
+        "spotify_artists02_genres": "experimental hip hop",
+        "spotify_artists02_popularity": "40",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "6CUr6lMnwCc",
+        "ytreleasedate": "2024/01/18"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Danny-Brown-Y.B.P.-feat.-Bruiser-Wolf.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4089,
+            "name": "Bruiser Wolf",
+            "slug": "bruiser-wolf",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3627,
+            "name": "Danny Brown",
+            "slug": "danny-brown",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2003",
+              "artistborn": "19810316",
+              "artistjpname": "ダニー・ブラウン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ],
+              "related_artists": "JPEGMAFIA | Injury Reserve | billy woods | Death Grips | Freddie Gibbs | Armand Hammer | Lil Ugly Mane | Earl Sweatshirt (earl-sweatshirt) | Vince Staples (vince-staples) | Madlib | Devon Hendryx | Madvillain | Domo Genesis | Ab-Soul (ab-soul) | Mach-Hommy | MIKE | Action Bronson | clipping. | Zelooperz | Quelle Chris",
+              "spotify_artist_id": "7aA592KWirLsnfb5ulGWvU",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174196db1757e46efbecd7314c6"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Danny Brown, Bruiser Wolf",
+        "spotify_artists": "Danny Brown, Bruiser Wolf",
+        "ytvideoid": "6CUr6lMnwCc",
+        "spotify_track_id": "5BQHxZ7dOoyS2Vh9X02ows"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "y-b-p"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,339 @@
+{
+  "artist": {
+    "id": 3501,
+    "count": 2,
+    "description": "The Beatles were an English rock band.",
+    "link": "https://sub.music8.jp/category/beatles/",
+    "name": "Beatles",
+    "slug": "beatles",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1960–1970",
+      "artistborn": "",
+      "artistjpname": "ビートルズ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3501",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3501"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3501"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 54819,
+      "date": "2023-11-03T19:34:29",
+      "date_gmt": "2023-11-03T10:34:29",
+      "title": {
+        "rendered": "Now And Then"
+      },
+      "content": {
+        "rendered": "<p>Beatles - Now And Then</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3501
+      ],
+      "tags": [],
+      "genre": [
+        658,
+        6
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4vziJcnB2Qyi9o4nIRUeN7",
+        "spotify_release_date": "2023-11-02",
+        "spotify_name": "Now And Then",
+        "spotify_artists": "The Beatles",
+        "spotify_album": "Now And Then",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ccf24b5f25d58914b1321357",
+        "spotify_duration_ms": "248333",
+        "spotify_popularity": "84",
+        "spotify_danceability": "0.442",
+        "spotify_energy": "0.605",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.639",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0284",
+        "spotify_tempo": "87.194",
+        "spotify_valence": "0.358",
+        "spotify_acousticness": "0.238",
+        "spotify_instrumentalness": "0.0000644",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.307",
+        "spotify_artists01": "ザ・ビートルズ",
+        "spotify_artists01_id": "3WrFJ7ztbogyGnTHbHJFl2",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+        "spotify_artists01_genres": "beatlesque, british invasion, classic rock, merseybeat, psychedelic rock, rock",
+        "spotify_artists01_popularity": "82",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Opxhh9Oh3rg",
+        "ytreleasedate": "2023/11/03"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Beatles-Now-And-Then.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3501,
+            "name": "Beatles",
+            "slug": "beatles",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1960–1970",
+              "artistborn": "",
+              "artistjpname": "ビートルズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Beatles",
+        "ytvideoid": "Opxhh9Oh3rg",
+        "spotify_track_id": "4vziJcnB2Qyi9o4nIRUeN7"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "now-and-then"
+    },
+    {
+      "id": 69366,
+      "date": "1970-03-06T22:46:50",
+      "date_gmt": "1970-03-06T13:46:50",
+      "title": {
+        "rendered": "Let It Be"
+      },
+      "content": {
+        "rendered": "<p>The Beatles - Let It Be</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3501
+      ],
+      "tags": [
+        5124
+      ],
+      "genre": [
+        655,
+        698,
+        6
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "QDYfEBY9NM4",
+        "ytreleasedate": "2018/06/17",
+        "spotify_track_id": "7iN1s7xHE4ifF5povM6A48",
+        "spotify_release_date": "1970-05-08",
+        "spotify_name": "Let It Be - Remastered 2009",
+        "spotify_artists": "ザ・ビートルズ",
+        "spotify_album": "Let It Be (Remastered)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27384243a01af3c77b56fe01ab1",
+        "spotify_duration_ms": "243026",
+        "spotify_popularity": "73",
+        "spotify_danceability": "0.443",
+        "spotify_energy": "0.403",
+        "spotify_key": "0",
+        "spotify_loudness": "-8.339",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0322",
+        "spotify_tempo": "143.462",
+        "spotify_valence": "0.41",
+        "spotify_acousticness": "0.631",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.111",
+        "spotify_artists01": "ザ・ビートルズ",
+        "spotify_artists01_id": "3WrFJ7ztbogyGnTHbHJFl2",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+        "spotify_artists01_genres": "british invasion, classic rock, merseybeat, psychedelic rock, rock",
+        "spotify_artists01_popularity": "83",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27384243a01af3c77b56fe01ab1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3501,
+            "name": "Beatles",
+            "slug": "beatles",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1960–1970",
+              "artistborn": "",
+              "artistjpname": "ビートルズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ザ・ビートルズ",
+        "ytvideoid": "QDYfEBY9NM4",
+        "spotify_track_id": "7iN1s7xHE4ifF5povM6A48"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Rock",
+          "slug": "rock",
+          "term_id": 698,
+          "post_count": 81
+        },
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "let-it-be"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

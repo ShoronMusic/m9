@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2333,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/bicep/",
+    "name": "Bicep",
+    "slug": "bicep",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2333",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2333"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2333"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39267,
+      "date": "2022-06-29T16:44:00",
+      "date_gmt": "2022-06-29T07:44:00",
+      "title": {
+        "rendered": "MELI (II)"
+      },
+      "content": {
+        "rendered": "\n<p>BICEP-MELI(II)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2333
+      ],
+      "tags": [],
+      "genre": [
+        670,
+        742
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6nGhGBz7uaE1RngnIFRKep",
+        "spotify_release_date": "2022/6/28",
+        "spotify_name": "Meli(II)",
+        "spotify_artists": "Bicep",
+        "spotify_album": "Meli(II)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273dad4d3a00743ef449fcc79c7",
+        "spotify_duration_ms": "417431",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.489",
+        "spotify_energy": "0.92",
+        "spotify_key": "3",
+        "spotify_loudness": "-4.746",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0323",
+        "spotify_tempo": "126.991",
+        "spotify_valence": "0.215",
+        "spotify_acousticness": "0.0376",
+        "spotify_instrumentalness": "0.665",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.25",
+        "spotify_artists01": "Bicep",
+        "spotify_artists01_id": "73A3bLnfnz5BoQjb4gNCga",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3eb65039c20573b97cd1a54c",
+        "spotify_artists01_genres": "ambienthouse,electronica",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "myDq5LwbxuU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/BICEP-MELI-II.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2333,
+            "name": "Bicep",
+            "slug": "bicep",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Bicep",
+        "ytvideoid": "myDq5LwbxuU",
+        "spotify_track_id": "6nGhGBz7uaE1RngnIFRKep"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        },
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "meli-ii"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

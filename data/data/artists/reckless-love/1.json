@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2513,
+    "count": 1,
+    "description": "FIN",
+    "link": "https://sub.music8.jp/category/reckless-love/",
+    "name": "Reckless Love",
+    "slug": "reckless-love",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2513",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2513"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2513"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40374,
+      "date": "2022-01-31T20:18:00",
+      "date_gmt": "2022-01-31T11:18:00",
+      "title": {
+        "rendered": "Turborider"
+      },
+      "content": {
+        "rendered": "\n<p>RecklessLove-Turborider</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2513
+      ],
+      "tags": [],
+      "genre": [
+        538,
+        738
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4y628PitK5cCWCbH6DNpUG",
+        "spotify_release_date": "2022/3/25",
+        "spotify_name": "Turborider",
+        "spotify_artists": "RecklessLove",
+        "spotify_album": "Turborider",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273741a4d16ab3413c2a2627bf3",
+        "spotify_duration_ms": "265001",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.479",
+        "spotify_energy": "0.759",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.355",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0465",
+        "spotify_tempo": "179.969",
+        "spotify_valence": "0.193",
+        "spotify_acousticness": "0.00804",
+        "spotify_instrumentalness": "0.000604",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.198",
+        "spotify_artists01": "RecklessLove",
+        "spotify_artists01_id": "0Nkyv1Zj8Xh7Lux3KzIQCl",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5373674cfc13bbfa4387d4bf",
+        "spotify_artists01_genres": "finnishhardrock,newwaveofglammetal,sleazerock",
+        "spotify_artists01_popularity": "41",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Mqv9rfMQuL8",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/RECKLESS-LOVE-Turborider.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2513,
+            "name": "Reckless Love",
+            "slug": "reckless-love",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "RecklessLove",
+        "ytvideoid": "Mqv9rfMQuL8",
+        "spotify_track_id": "4y628PitK5cCWCbH6DNpUG"
+      },
+      "genre_data": [
+        {
+          "name": "Glam metal",
+          "slug": "glam-metal",
+          "term_id": 538,
+          "post_count": 112
+        },
+        {
+          "name": "Synthwave",
+          "slug": "synthwave",
+          "term_id": 738,
+          "post_count": 64
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "turborider"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

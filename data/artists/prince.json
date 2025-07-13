@@ -1,0 +1,86 @@
+{
+  "id": 906,
+  "count": 66,
+  "description": "Prince was an American singer, songwriter, musician, record producer, and actor.",
+  "link": "https://sub.music8.jp/category/prince/",
+  "name": "Prince",
+  "slug": "prince",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1975–2016",
+    "artistborn": "19580607",
+    "artistdied": "2016.04.21",
+    "artistjpname": "プリンス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5a2EaR3hamoenG9rDuVn8j",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174eaca358712b3fe4ed9814640",
+    "youtube_channel": "UCv3mNSNjuWldihk1DUdnGtw",
+    "wikipedia_page": "Prince_(musician)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/906",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=906"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=906"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "プリンス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174eaca358712b3fe4ed9814640",
+  "artistActiveYearStart": "1975–2016",
+  "occupation": "singer, songwriter, musician, producer"
+}

@@ -1,0 +1,208 @@
+{
+  "artist": {
+    "id": 2129,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/ehallz/",
+    "name": "Ehallz",
+    "slug": "ehallz",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2129",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2129"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2129"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39925,
+      "date": "2022-03-27T22:16:00",
+      "date_gmt": "2022-03-27T13:16:00",
+      "title": {
+        "rendered": "Into The Light"
+      },
+      "content": {
+        "rendered": "\n<p>SkybreakxEhallzxALLEYCVT-IntoTheLight(MazareRemix)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2130,
+        2129,
+        2131,
+        2128
+      ],
+      "tags": [],
+      "genre": [
+        487,
+        488,
+        529
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6OM4GmDd7oOTqlFejzf0b9",
+        "spotify_release_date": "2022/3/16",
+        "spotify_name": "IntoTheLight-MazareRemix",
+        "spotify_artists": "Skybreak,Ehallz,ALLEYCVT,Mazare",
+        "spotify_album": "Unity(Remixes)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737fce29ffe6fa488834d2cef9",
+        "spotify_duration_ms": "245454",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.288",
+        "spotify_energy": "0.843",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.576",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0561",
+        "spotify_tempo": "176.142",
+        "spotify_valence": "0.152",
+        "spotify_acousticness": "0.0127",
+        "spotify_instrumentalness": "1.75E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.188",
+        "spotify_artists01": "Skybreak",
+        "spotify_artists01_id": "2858y2JiMYIst8dY4WXGi3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5022f22dbd64de838a4e9527",
+        "spotify_artists01_genres": "dubstep,melodicdubstep",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "Ehallz",
+        "spotify_artists02_id": "0xOo3C7mSM5jl3SUq3XtHL",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc147d810a9e362a5bf194d5b",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "25",
+        "spotify_artists03": "ALLEYCVT",
+        "spotify_artists03_id": "4JxRK2gxmri7L7OWaxnVD1",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb412805cfafe3725b6fc0acbc",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "38",
+        "spotify_artists04": "Mazare",
+        "spotify_artists04_id": "4yzZdtb9UicgY2M23eEtL9",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5eb81ccad866215e8e2a7c6ff0b",
+        "spotify_artists04_genres": "dancefloordnb,melodicdubstep",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5kIiCCopSIo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Skybreak-x-Ehallz-x-ALLEYCVT-Into-The-Light-Mazare-Remix.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2130,
+            "name": "ALLEYCVT",
+            "slug": "alleycvt",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2129,
+            "name": "Ehallz",
+            "slug": "ehallz",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2131,
+            "name": "Mazare",
+            "slug": "mazare",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2128,
+            "name": "Skybreak",
+            "slug": "skybreak",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Skybreak,Ehallz,ALLEYCVT,Mazare",
+        "ytvideoid": "5kIiCCopSIo",
+        "spotify_track_id": "6OM4GmDd7oOTqlFejzf0b9"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        },
+        {
+          "name": "Dubstep",
+          "slug": "dubstep",
+          "term_id": 488,
+          "post_count": 21
+        },
+        {
+          "name": "Future bass",
+          "slug": "future-bass",
+          "term_id": 529,
+          "post_count": 49
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "into-the-light"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

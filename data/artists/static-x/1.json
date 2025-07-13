@@ -1,0 +1,567 @@
+{
+  "artist": {
+    "id": 3388,
+    "count": 4,
+    "description": "Static-X is an American industrial metal band.",
+    "link": "https://sub.music8.jp/category/static-x/",
+    "name": "Static-X",
+    "slug": "static-x",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1994",
+      "artistborn": "",
+      "artistjpname": "スタティック-X ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3388",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3388"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3388"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 60020,
+      "date": "2024-01-11T16:56:36",
+      "date_gmt": "2024-01-11T07:56:36",
+      "title": {
+        "rendered": "Otsego Placebo"
+      },
+      "content": {
+        "rendered": "<p>Static-X - Otsego Placebo</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3388
+      ],
+      "tags": [],
+      "genre": [
+        577
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "oq_M1EY1Ei8",
+        "ytreleasedate": "2024/01/11",
+        "spotify_track_id": "4N0Nj84Jnnu5BngBU5IuT6",
+        "spotify_release_date": "2020-07-10",
+        "spotify_name": "Otsego Placebo",
+        "spotify_artists": "Static-X",
+        "spotify_album": "Project Regeneration, Vol. 1",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b8fe4010a8a933ffd2819a26",
+        "spotify_duration_ms": "260306",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.435",
+        "spotify_energy": "0.973",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.68",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.121",
+        "spotify_tempo": "166.827",
+        "spotify_valence": "0.29",
+        "spotify_acousticness": "0.0000133",
+        "spotify_instrumentalness": "0.292",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.667",
+        "spotify_artists01": "Static-X",
+        "spotify_artists01_id": "7JDSHlDdVTo7aZKdQZ53Vf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7f4a72d9541571d430c157c7",
+        "spotify_artists01_genres": "alternative metal, industrial metal, industrial rock, nu metal, post-grunge, rap metal",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Static-X-Otsego-Placebo.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3388,
+            "name": "Static-X",
+            "slug": "static-x",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistjpname": "スタティック-X ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Static-X",
+        "ytvideoid": "oq_M1EY1Ei8",
+        "spotify_track_id": "4N0Nj84Jnnu5BngBU5IuT6"
+      },
+      "genre_data": [
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "otsego-placebo"
+    },
+    {
+      "id": 53468,
+      "date": "2023-10-06T20:10:30",
+      "date_gmt": "2023-10-06T11:10:30",
+      "title": {
+        "rendered": "Z0mbie"
+      },
+      "content": {
+        "rendered": "<p>Static-X - Z0mbie</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3388
+      ],
+      "tags": [],
+      "genre": [
+        409
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "1sigPT3Dq2zgrPL0YVMPOj",
+        "spotify_release_date": "2023-10-05",
+        "spotify_name": "Z0mbie",
+        "spotify_artists": "Static-X",
+        "spotify_album": "Z0mbie",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273799a5adda24a9bb98f90487c",
+        "spotify_duration_ms": "191470",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.387",
+        "spotify_energy": "0.926",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.849",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.11",
+        "spotify_tempo": "169.898",
+        "spotify_valence": "0.325",
+        "spotify_acousticness": "0.0000276",
+        "spotify_instrumentalness": "0.819",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.72",
+        "spotify_artists01": "Static-X",
+        "spotify_artists01_id": "7JDSHlDdVTo7aZKdQZ53Vf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7f4a72d9541571d430c157c7",
+        "spotify_artists01_genres": "alternative metal, industrial metal, industrial rock, nu metal, post-grunge, rap metal",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "tTqSCRQa4W8",
+        "ytreleasedate": "2023/10/06"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Static-X-Z0mbie.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3388,
+            "name": "Static-X",
+            "slug": "static-x",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistjpname": "スタティック-X ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Static-X",
+        "ytvideoid": "tTqSCRQa4W8",
+        "spotify_track_id": "1sigPT3Dq2zgrPL0YVMPOj"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "z0mbie"
+    },
+    {
+      "id": 53474,
+      "date": "2023-09-08T20:17:01",
+      "date_gmt": "2023-09-08T11:17:01",
+      "title": {
+        "rendered": "Stay Alive"
+      },
+      "content": {
+        "rendered": "<p>Static-X - Stay Alive</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3388
+      ],
+      "tags": [],
+      "genre": [
+        577
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2gsMbIi220xUNmGcNEVUBR",
+        "spotify_release_date": "2023-10-05",
+        "spotify_name": "Stay Alive",
+        "spotify_artists": "Static-X",
+        "spotify_album": "Z0mbie",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273799a5adda24a9bb98f90487c",
+        "spotify_duration_ms": "227958",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.539",
+        "spotify_energy": "0.997",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.654",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.096",
+        "spotify_tempo": "128.981",
+        "spotify_valence": "0.144",
+        "spotify_acousticness": "0.0000524",
+        "spotify_instrumentalness": "0.454",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.342",
+        "spotify_artists01": "Static-X",
+        "spotify_artists01_id": "7JDSHlDdVTo7aZKdQZ53Vf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7f4a72d9541571d430c157c7",
+        "spotify_artists01_genres": "alternative metal, industrial metal, industrial rock, nu metal, post-grunge, rap metal",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "JW3WiZBGDmU",
+        "ytreleasedate": "2023/09/08"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Static-X-Stay-Alive.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3388,
+            "name": "Static-X",
+            "slug": "static-x",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistjpname": "スタティック-X ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Static-X",
+        "ytvideoid": "JW3WiZBGDmU",
+        "spotify_track_id": "2gsMbIi220xUNmGcNEVUBR"
+      },
+      "genre_data": [
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "stay-alive"
+    },
+    {
+      "id": 53471,
+      "date": "2023-02-09T20:14:22",
+      "date_gmt": "2023-02-09T11:14:22",
+      "title": {
+        "rendered": "Terrible Lie"
+      },
+      "content": {
+        "rendered": "<p>Static-X - Terrible Lie</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3388
+      ],
+      "tags": [],
+      "genre": [
+        577,
+        644
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "3toc6JLXh9637dAa1scPCf",
+        "spotify_release_date": "2023-10-05",
+        "spotify_name": "Terrible Lie",
+        "spotify_artists": "Static-X",
+        "spotify_album": "Z0mbie",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273799a5adda24a9bb98f90487c",
+        "spotify_duration_ms": "243343",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.403",
+        "spotify_energy": "0.963",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.008",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0731",
+        "spotify_tempo": "176.002",
+        "spotify_valence": "0.565",
+        "spotify_acousticness": "0.000166",
+        "spotify_instrumentalness": "0.15",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.36",
+        "spotify_artists01": "Static-X",
+        "spotify_artists01_id": "7JDSHlDdVTo7aZKdQZ53Vf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7f4a72d9541571d430c157c7",
+        "spotify_artists01_genres": "alternative metal, industrial metal, industrial rock, nu metal, post-grunge, rap metal",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "yZKzqTYBr2Y",
+        "ytreleasedate": "2023/02/09"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Static-X-Terrible-Lie.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3388,
+            "name": "Static-X",
+            "slug": "static-x",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistjpname": "スタティック-X ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Static-X",
+        "ytvideoid": "yZKzqTYBr2Y",
+        "spotify_track_id": "3toc6JLXh9637dAa1scPCf"
+      },
+      "genre_data": [
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        },
+        {
+          "name": "Nu metal",
+          "slug": "nu-metal",
+          "term_id": 644,
+          "post_count": 47
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "terrible-lie"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

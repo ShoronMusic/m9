@@ -1,0 +1,205 @@
+{
+  "artist": {
+    "id": 1214,
+    "count": 1,
+    "description": "Jason Donovan is an Australian actor and singer.",
+    "link": "https://sub.music8.jp/category/jason-donovan/",
+    "name": "Jason Donovan",
+    "slug": "jason-donovan",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "1980",
+      "artistborn": "19680601",
+      "artistdied": "",
+      "artistjpname": "ジェイソン・ドノヴァン",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1214",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1214"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1214"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47551,
+      "date": "1988-11-28T16:15:00",
+      "date_gmt": "1988-11-28T07:15:00",
+      "title": {
+        "rendered": "Especially For You"
+      },
+      "content": {
+        "rendered": "<p>Kylie Minogue , Jason Donovan - Especially For You</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1214,
+        1213
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "yalM-2ih7RU",
+        "likecount": "0",
+        "spotify_track_id": "20tacYHSlPZWATSpSE4CAB",
+        "spotify_release_date": "1993/7/1",
+        "spotify_name": "Especially for You",
+        "spotify_artists": "Kylie Minogue, Jason Donovan",
+        "spotify_album": "Kylie's Non-Stop History 50+1",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731e160f2bb6543a583df71da9",
+        "spotify_duration_ms": "112666",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.512",
+        "spotify_energy": "0.59",
+        "spotify_key": "5",
+        "spotify_loudness": "-11.306",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.046",
+        "spotify_tempo": "160.097",
+        "spotify_valence": "0.376",
+        "spotify_acousticness": "0.848",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.364",
+        "spotify_artists01": "Kylie Minogue",
+        "spotify_artists01_id": "4RVnAU35WRWra6OZ3CbbMA",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8fba8ba5daf99cad45ca354b",
+        "spotify_artists01_genres": "australian dance, australian pop, dance pop, eurodance, new wave pop",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "Jason Donovan",
+        "spotify_artists02_id": "5bnNgwp3nooah9yHAHsnR4",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb01d88c48a1ce0e71fa8c97fa",
+        "spotify_artists02_genres": "australian dance, australian pop, new wave pop",
+        "spotify_artists02_popularity": "45",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kylie-Minogue-Jason-Donovan-Especially-For-You.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1214,
+            "name": "Jason Donovan",
+            "slug": "jason-donovan",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1980",
+              "artistborn": "19680601",
+              "artistdied": "",
+              "artistjpname": "ジェイソン・ドノヴァン",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1213,
+            "name": "Kylie Minogue",
+            "slug": "kylie-minogue",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1979",
+              "artistborn": "19680528",
+              "artistdied": "",
+              "artistjpname": "カイリー・ミノーグ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Kylie Minogue, Jason Donovan",
+        "ytvideoid": "yalM-2ih7RU",
+        "spotify_track_id": "20tacYHSlPZWATSpSE4CAB"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "especially-for-you"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

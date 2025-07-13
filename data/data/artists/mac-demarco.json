@@ -1,0 +1,77 @@
+{
+  "id": 3453,
+  "count": 3,
+  "description": "Mac DeMarco is a Canadian singer, songwriter, multi-instrumentalist and producer.",
+  "link": "https://sub.music8.jp/category/mac-demarco/",
+  "name": "Mac DeMarco",
+  "slug": "mac-demarco",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "2008",
+    "artistborn": "19900430",
+    "artistjpname": "マック・デマルコ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      },
+      {
+        "value": "multi-instrumentalist",
+        "label": "Multi-instrumentalist"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3453",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3453"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3453"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マック・デマルコ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2008",
+  "occupation": "ssw, producer, multi-instrumentalist"
+}

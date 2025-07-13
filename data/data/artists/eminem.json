@@ -1,0 +1,80 @@
+{
+  "id": 1657,
+  "count": 23,
+  "description": "Eminem is an American rapper, songwriter, and record producer.",
+  "link": "https://sub.music8.jp/category/eminem/",
+  "name": "Eminem",
+  "slug": "eminem",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1988",
+    "artistborn": "19721017",
+    "artistdied": "",
+    "artistjpname": "エミネム",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "Dr. Dre (dr-dre) | 50 Cent (50-cent) | Snoop Dogg (snoop-dogg) | 2Pac (2pac) | Ice Cube (ice-cube) | DMX (dmx) | Notorious B.I.G. (notorious-big) | Post Malone (post-malone) | D12 (d12) | Linkin Park (linkin-park) | Lil Wayne (lil-wayne) | Juice WRLD (juice-wrld) | Kanye West (kanye-west) | Kendrick Lamar (kendrick-lamar) | Eazy-E (eazy-e) | XXXTENTACION | N.W.A. (nwa) | Drake (drake) | JAY-Z (jay-z) | NF (nf)",
+    "spotify_artist_id": "7dGJo4pcD2V6oG8kP0tJRR",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1657",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1657"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1657"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エミネム",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+  "artistActiveYearStart": "1988",
+  "occupation": "songwriter, rapper, producer"
+}

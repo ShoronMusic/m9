@@ -1,0 +1,72 @@
+{
+  "id": 4812,
+  "count": 1,
+  "description": "The Doors were an American rock band",
+  "link": "https://sub.music8.jp/category/doors/",
+  "name": "Doors",
+  "slug": "doors",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1965–1973",
+    "artistborn": "",
+    "artistjpname": "ドアーズ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Jim Morrison | Janis Joplin (janis-joplin) | Jimi Hendrix (jimi-hendrix) | Jefferson Airplane | Cream (cream) | Who (who) | Animals | Led Zeppelin (led-zeppelin) | Deep Purple (deep-purple) | Steppenwolf | Velvet Underground (velvet-underground) | Rolling Stones (rolling-stones) | Kinks (kinks) | Iggy Pop (iggy-pop) | Black Sabbath (black-sabbath) | Clash (clash) | Lou Reed (lou-reed) | Yardbirds | George Harrison (george-harrison) | Bob Dylan (bob-dylan)",
+    "spotify_artist_id": "22WZ7M8sxp5THdruNY3gXt",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174440959e022afc20e819050bd"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4812",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4812"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4812"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ドアーズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174440959e022afc20e819050bd",
+  "artistActiveYearStart": "1965–1973",
+  "occupation": "band"
+}

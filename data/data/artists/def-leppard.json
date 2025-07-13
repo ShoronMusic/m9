@@ -1,0 +1,81 @@
+{
+  "id": 2238,
+  "count": 50,
+  "description": "Def Leppard is an English rock band.",
+  "link": "https://sub.music8.jp/category/def-leppard/",
+  "name": "Def Leppard",
+  "slug": "def-leppard",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1976",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "デフ・レパード",
+    "member": [
+      {
+        "errors": {
+          "invalid_term": [
+            "空のターム。"
+          ]
+        },
+        "error_data": []
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Poison (poison) | Whitesnake (whitesnake) | Warrant | Cinderella | Quiet Riot (quiet-riot) | Ratt | Skid Row (skid-row) | Great White | Tesla | Twisted Sister (twisted-sister) | Mötley Crüe (motley-crue) | Van Halen (van-halen) | White Lion | Slaughter | Damn Yankees (damn-yankees) | DOKKEN (dokken) | Sammy Hagar | Night Ranger (night-ranger) | Winger | Alice Cooper (alice-cooper)",
+    "spotify_artist_id": "6H1RjVyNruCmrBEWRbD0VZ",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174695e45d9945ce1f8e5fa5c54"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2238",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2238"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2238"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "デフ・レパード",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174695e45d9945ce1f8e5fa5c54",
+  "artistActiveYearStart": "1976",
+  "occupation": "band"
+}

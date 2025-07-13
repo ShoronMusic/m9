@@ -1,0 +1,72 @@
+{
+  "id": 5011,
+  "count": 3,
+  "description": "311 is an American rock band.",
+  "link": "https://sub.music8.jp/category/311/",
+  "name": "311",
+  "slug": "311",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1988",
+    "artistborn": "",
+    "artistjpname": "スリー・イレブン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "41Q0HrwWBtuUkJc7C1Rp6K",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517440d6cf99f1e4c6c8ad47411f"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5011",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5011"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5011"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "スリー・イレブン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517440d6cf99f1e4c6c8ad47411f",
+  "artistActiveYearStart": "1988",
+  "occupation": "band"
+}

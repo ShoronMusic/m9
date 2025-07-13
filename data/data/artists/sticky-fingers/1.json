@@ -1,0 +1,183 @@
+{
+  "artist": {
+    "id": 1865,
+    "count": 1,
+    "description": "Sticky Fingers is an Australian Indie rock band.",
+    "link": "https://sub.music8.jp/category/sticky-fingers/",
+    "name": "Sticky Fingers",
+    "slug": "sticky-fingers",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "2008",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "スティッキー・フィンガーズ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1865",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1865"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1865"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40472,
+      "date": "2022-01-20T23:16:00",
+      "date_gmt": "2022-01-20T14:16:00",
+      "title": {
+        "rendered": "Lekkerboy"
+      },
+      "content": {
+        "rendered": "\n<p>StickyFingers-Lekkerboy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1865
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4Hp1iJJReHTfD3ScPScvOz",
+        "spotify_release_date": "2022/4/20",
+        "spotify_name": "Lekkerboy",
+        "spotify_artists": "StickyFingers",
+        "spotify_album": "LEKKERBOY",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27308e99509a9f860d021bb0c6a",
+        "spotify_duration_ms": "301193",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.497",
+        "spotify_energy": "0.662",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.088",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0389",
+        "spotify_tempo": "154.861",
+        "spotify_valence": "0.312",
+        "spotify_acousticness": "0.105",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.179",
+        "spotify_artists01": "StickyFingers",
+        "spotify_artists01_id": "3ZGr7nQBXDU2WhyXgRVbt0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb21ebb7e4085f6c9765fbe9a5",
+        "spotify_artists01_genres": "australianreggaefusion,australiansurfrock,reggaefusion",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "R1UKHQHsHCM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sticky-Fingers-Lekkerboy.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1865,
+            "name": "Sticky Fingers",
+            "slug": "sticky-fingers",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2008",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スティッキー・フィンガーズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "StickyFingers",
+        "ytvideoid": "R1UKHQHsHCM",
+        "spotify_track_id": "4Hp1iJJReHTfD3ScPScvOz"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "lekkerboy"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

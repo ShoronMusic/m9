@@ -1,0 +1,217 @@
+{
+  "artist": {
+    "id": 6013,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/sam-martin/",
+    "name": "Sam Martin",
+    "slug": "sam-martin",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6013",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6013"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6013"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 83497,
+      "date": "2024-10-12T13:17:40",
+      "date_gmt": "2024-10-12T04:17:40",
+      "title": {
+        "rendered": "World Gone Wild"
+      },
+      "content": {
+        "rendered": "<p>Robin Schulz, CYRIL, Sam Martin - World Gone Wild</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4389,
+        2328,
+        6013
+      ],
+      "tags": [],
+      "genre": [
+        713
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "TDobuoZVPfQ",
+        "ytreleasedate": "2024/10/12",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "4arNFfHtD5FPYcpUUiUOM1",
+        "spotify_release_date": "2024-10-11",
+        "spotify_name": "World Gone Wild (feat. Sam Martin)",
+        "spotify_artists": "Robin Schulz, CYRIL, Sam Martin",
+        "spotify_album": "World Gone Wild (feat. Sam Martin)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733121f6eefc3b15ace827415c",
+        "spotify_duration_ms": "146523",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.634",
+        "spotify_energy": "0.714",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.529",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.104",
+        "spotify_tempo": "127.993",
+        "spotify_valence": "0.409",
+        "spotify_acousticness": "0.00882",
+        "spotify_instrumentalness": "0.0025",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.374",
+        "spotify_artists01": "ロビン・シュルツ",
+        "spotify_artists01_id": "3t5xRXzsuZmMDkQzgOX35S",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb82c0d0d4ef6742997f03d678",
+        "spotify_artists01_genres": "deep euro house, deep house, edm, german dance, pop dance, tropical house",
+        "spotify_artists01_popularity": "78",
+        "spotify_artists02": "CYRIL",
+        "spotify_artists02_id": "11kt6ggsdxvI8MhyeSMKom",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebd37855a6fdfb85b9512a9315",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "80",
+        "spotify_artists03": "Sam Martin",
+        "spotify_artists03_id": "66AE89GQTx88zLYhXn1wFK",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebbcb1ffae3a5cf994ff051b37",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "60",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2733121f6eefc3b15ace827415c.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4389,
+            "name": "CYRIL",
+            "slug": "cyril",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2328,
+            "name": "Robin Schulz",
+            "slug": "robin-schulz",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19870428",
+              "artistdied": "",
+              "artistjpname": "ロビン・シュルツ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Felix Jaehn (felix-jaehn) | Lost Frequencies (lost-frequencies) | Kungs (kungs) | Ofenbach (ofenbach) | Axwell /\\ Ingrosso (axwell-ingrosso) | Sam Feldt (sam-feldt) | Alex Schulz (alex-schulz) | Klingande (klingande) | Sigala (sigala) | Alle Farben (alle-farben) | Galantis (galantis) | Martin Solveig (martin-solveig) | Alesso (alesso) | Kygo (kygo) | Sebastian Ingrosso (sebastian-ingrosso) | Jax Jones (jax-jones) | Don Diablo (don-diablo) | Nicky Romero (nicky-romero) | Axwell (axwell) | Jonas Blue (jonas-blue)",
+              "spotify_artist_id": "3t5xRXzsuZmMDkQzgOX35S",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517482c0d0d4ef6742997f03d678",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "UCLVVBWrp9jw4-SYUoU42hcg",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6013,
+            "name": "Sam Martin",
+            "slug": "sam-martin",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Robin Schulz, CYRIL, Sam Martin",
+        "ytvideoid": "TDobuoZVPfQ",
+        "spotify_track_id": "4arNFfHtD5FPYcpUUiUOM1"
+      },
+      "genre_data": [
+        {
+          "name": "Slap House",
+          "slug": "slap-house",
+          "term_id": 713,
+          "post_count": 105
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "world-gone-wild"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

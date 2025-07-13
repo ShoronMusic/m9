@@ -1,0 +1,201 @@
+{
+  "artist": {
+    "id": 4476,
+    "count": 1,
+    "description": "Slipknot is an American heavy metal band.",
+    "link": "https://sub.music8.jp/category/slipknot/",
+    "name": "Slipknot",
+    "slug": "slipknot",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1995",
+      "artistborn": "",
+      "artistjpname": "スリップノット",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4476",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4476"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4476"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65650,
+      "date": "2022-07-20T20:24:49",
+      "date_gmt": "2022-07-20T11:24:49",
+      "title": {
+        "rendered": "The Dying Song"
+      },
+      "content": {
+        "rendered": "<p>Slipknot - The Dying Song</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4476
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        644
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "INi3qP1oWlY",
+        "ytreleasedate": "2022/07/20",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6rsoBvxrlxdmqJyGPPciyq",
+        "spotify_release_date": "2022-09-30",
+        "spotify_name": "The Dying Song (Time To Sing)",
+        "spotify_artists": "スリップノット",
+        "spotify_album": "The End, So Far",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c3eedff14af24fdd988ed1a7",
+        "spotify_duration_ms": "203586",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.516",
+        "spotify_energy": "0.991",
+        "spotify_key": "11",
+        "spotify_loudness": "-2.587",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.126",
+        "spotify_tempo": "95.017",
+        "spotify_valence": "0.402",
+        "spotify_acousticness": "0.000467",
+        "spotify_instrumentalness": "0.0000466",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.327",
+        "spotify_artists01": "スリップノット",
+        "spotify_artists01_id": "05fG473iIaoy82BF1aGhL8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebff9f4de8c13f6f563acbfaf1",
+        "spotify_artists01_genres": "alternative metal, nu metal, rap metal, rock",
+        "spotify_artists01_popularity": "78",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273c3eedff14af24fdd988ed1a7.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4476,
+            "name": "Slipknot",
+            "slug": "slipknot",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1995",
+              "artistborn": "",
+              "artistjpname": "スリップノット",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "スリップノット",
+        "ytvideoid": "INi3qP1oWlY",
+        "spotify_track_id": "6rsoBvxrlxdmqJyGPPciyq"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Nu metal",
+          "slug": "nu-metal",
+          "term_id": 644,
+          "post_count": 47
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-dying-song"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

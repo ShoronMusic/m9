@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 1074,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/night-game/",
+    "name": "Night Game",
+    "slug": "night-game",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1074",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1074"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1074"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 42897,
+      "date": "2017-10-20T21:02:00",
+      "date_gmt": "2017-10-20T12:02:00",
+      "title": {
+        "rendered": "Kids in Love"
+      },
+      "content": {
+        "rendered": "\n<p>Kygo-KidsinLoveft.TheNightGame</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1066,
+        1074
+      ],
+      "tags": [],
+      "genre": [
+        658,
+        752
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5nmHl233yo8XJvaNfdKAWU",
+        "spotify_release_date": "2017/11/3",
+        "spotify_name": "Kids in Love (feat. The Night Game)",
+        "spotify_artists": "Kygo, The Night Game",
+        "spotify_album": "Kids in Love",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273238d888f4282893ed8f83f2a",
+        "spotify_duration_ms": "263400",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.499",
+        "spotify_energy": "0.673",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.505",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0348",
+        "spotify_tempo": "121.87",
+        "spotify_valence": "0.301",
+        "spotify_acousticness": "0.399",
+        "spotify_instrumentalness": "1.21E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.208",
+        "spotify_artists01": "Kygo",
+        "spotify_artists01_id": "23fqKkggKUBHNkbKtXEls4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe636670d717588b11d654130",
+        "spotify_artists01_genres": "edm, pop, pop dance, tropical house",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "The Night Game",
+        "spotify_artists02_id": "79QO0Xmn1dZhvaLicS2Yrs",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb0f825187671c2513b7e723a7",
+        "spotify_artists02_genres": "hopebeat, modern alternative rock",
+        "spotify_artists02_popularity": "38",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "mv4MRmwXJMM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kygo-Kids-in-Love-ft.-The-Night-Game.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1066,
+            "name": "Kygo",
+            "slug": "kygo",
+            "acf": {
+              "artistorigin": "NOR",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19910911",
+              "artistdied": "",
+              "artistjpname": "カイゴ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1074,
+            "name": "Night Game",
+            "slug": "night-game",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kygo, The Night Game",
+        "ytvideoid": "mv4MRmwXJMM",
+        "spotify_track_id": "5nmHl233yo8XJvaNfdKAWU"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Tropical house",
+          "slug": "tropical-house",
+          "term_id": 752,
+          "post_count": 101
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "kids-in-love"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

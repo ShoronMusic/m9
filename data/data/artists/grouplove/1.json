@@ -1,0 +1,297 @@
+{
+  "artist": {
+    "id": 3190,
+    "count": 2,
+    "description": "GROUPLOVE is an American alternative rock band.",
+    "link": "https://sub.music8.jp/category/grouplove/",
+    "name": "GROUPLOVE",
+    "slug": "grouplove",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2009",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3190",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3190"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3190"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52004,
+      "date": "2023-07-07T16:30:50",
+      "date_gmt": "2023-07-07T07:30:50",
+      "title": {
+        "rendered": "Cheese"
+      },
+      "content": {
+        "rendered": "<p>GROUPLOVE - Cheese</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3190
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5GCSN4N9KzycSf5FD0wtWF",
+        "spotify_release_date": "2023-07-07",
+        "spotify_name": "Cheese",
+        "spotify_artists": "GROUPLOVE",
+        "spotify_album": "I Want It All Right Now",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732d54c83275530610ada64969",
+        "spotify_duration_ms": "192960",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.465",
+        "spotify_energy": "0.854",
+        "spotify_key": "9",
+        "spotify_loudness": "-5.388",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0518",
+        "spotify_tempo": "97.898",
+        "spotify_valence": "0.391",
+        "spotify_acousticness": "0.0057",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.116",
+        "spotify_artists01": "GROUPLOVE",
+        "spotify_artists01_id": "3kVUvbeRdcrqQ3oHk5hPdx",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb212e97916d72380d77a9db17",
+        "spotify_artists01_genres": "indie rock, la indie, modern alternative rock, modern rock, pov: indie",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Aj7ppP398pU",
+        "ytreleasedate": "2023/07/07"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/GROUPLOVE-Cheese.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3190,
+            "name": "GROUPLOVE",
+            "slug": "grouplove",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "GROUPLOVE",
+        "ytvideoid": "Aj7ppP398pU",
+        "spotify_track_id": "5GCSN4N9KzycSf5FD0wtWF"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cheese"
+    },
+    {
+      "id": 52001,
+      "date": "2023-03-24T16:25:15",
+      "date_gmt": "2023-03-24T07:25:15",
+      "title": {
+        "rendered": "Hello, All!"
+      },
+      "content": {
+        "rendered": "<p>GROUPLOVE - Hello, All!</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3190
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3DcJhILpOqM0tNWTKGf6uq",
+        "spotify_release_date": "2023-03-23",
+        "spotify_name": "Hello",
+        "spotify_artists": "GROUPLOVE",
+        "spotify_album": "Hello, All!",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738897cae78c4de08f715829ec",
+        "spotify_duration_ms": "203853",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.493",
+        "spotify_energy": "0.935",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.133",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0294",
+        "spotify_tempo": "94.964",
+        "spotify_valence": "0.774",
+        "spotify_acousticness": "0.00118",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.225",
+        "spotify_artists01": "GROUPLOVE",
+        "spotify_artists01_id": "3kVUvbeRdcrqQ3oHk5hPdx",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb212e97916d72380d77a9db17",
+        "spotify_artists01_genres": "indie rock, la indie, modern alternative rock, modern rock, pov: indie",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "uioxIZsbo3w",
+        "ytreleasedate": "2023/03/24"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/GROUPLOVE-Hello-All.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3190,
+            "name": "GROUPLOVE",
+            "slug": "grouplove",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "GROUPLOVE",
+        "ytvideoid": "uioxIZsbo3w",
+        "spotify_track_id": "3DcJhILpOqM0tNWTKGf6uq"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hello-all"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

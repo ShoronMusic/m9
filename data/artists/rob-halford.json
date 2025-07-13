@@ -1,0 +1,86 @@
+{
+  "id": 3482,
+  "count": 1,
+  "description": "Rob Halford is an English heavy metal singer. the lead vocalist of Judas Priest.",
+  "link": "https://sub.music8.jp/category/rob-halford/",
+  "name": "Rob Halford",
+  "slug": "rob-halford",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1969",
+    "artistborn": "19510825",
+    "artistjpname": "ロブ・ハルフォード",
+    "member": [
+      {
+        "term_id": 3429,
+        "name": "Judas Priest",
+        "slug": "judas-priest",
+        "term_group": 0,
+        "term_taxonomy_id": 3429,
+        "taxonomy": "category",
+        "description": "Judas Priest are an English heavy metal band",
+        "parent": 0,
+        "count": 7,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3482",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3482"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3482"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ロブ・ハルフォード",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1969",
+  "occupation": "singer, songwriter"
+}

@@ -1,0 +1,363 @@
+{
+  "artist": {
+    "id": 4333,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/kettama/",
+    "name": "KETTAMA",
+    "slug": "kettama",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "IRL",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4333",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4333"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4333"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 63417,
+      "date": "2024-03-08T13:59:00",
+      "date_gmt": "2024-03-08T04:59:00",
+      "title": {
+        "rendered": "Fen Violet"
+      },
+      "content": {
+        "rendered": "<p>Underworld, KETTAMA - Fen Violet</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4333,
+        3458
+      ],
+      "tags": [],
+      "genre": [
+        742
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "J91SR8wfAvU",
+        "ytreleasedate": "2024/03/08",
+        "likecount": "１",
+        "artist_order": "Underworld, KETTAMA",
+        "spotify_track_id": "4BrLRVfZF5Z8ld226xISH0",
+        "spotify_release_date": "2024-03-08",
+        "spotify_name": "Fen Violet",
+        "spotify_artists": "アンダーワールド, KETTAMA",
+        "spotify_album": "Fen Violet",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273325d8eec21f5edc49c407a81",
+        "spotify_duration_ms": "245880",
+        "spotify_popularity": "22",
+        "spotify_danceability": "0.602",
+        "spotify_energy": "0.835",
+        "spotify_key": "9",
+        "spotify_loudness": "-9.27",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0536",
+        "spotify_tempo": "136.965",
+        "spotify_valence": "0.188",
+        "spotify_acousticness": "0.0113",
+        "spotify_instrumentalness": "0.00222",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.127",
+        "spotify_artists01": "アンダーワールド",
+        "spotify_artists01_id": "1PXHzxRDiLnjqNrRn2Xbsa",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb092626de2b9e215ee4489e12",
+        "spotify_artists01_genres": "big beat, electronica",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "KETTAMA",
+        "spotify_artists02_id": "3an9rnsXKPCAMlZgH4A0n4",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb98706a46417d2dcf26e9eb0c",
+        "spotify_artists02_genres": "irish electronic",
+        "spotify_artists02_popularity": "43",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273325d8eec21f5edc49c407a81.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4333,
+            "name": "KETTAMA",
+            "slug": "kettama",
+            "acf": {
+              "artistorigin": "IRL",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3458,
+            "name": "Underworld",
+            "slug": "underworld",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1987",
+              "artistborn": "",
+              "artistjpname": "アンダーワールド",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ],
+              "related_artists": "Orbital (orbital) | Leftfield (leftfield) | Orb (orb) | Future Sound Of London | 808 State (808-state) | Fluke | Groove Armada | Chemical Brothers (chemical-brothers) | Faithless (faithless) | Propellerheads | Basement Jaxx | Apollo 440 | UNKLE | Fatboy Slim (fatboy-slim) | Stereo MC's | Death In Vegas | Primal Scream (primal-scream) | Tricky (tricky) | Moloko (moloko) | Shamen",
+              "spotify_artist_id": "1PXHzxRDiLnjqNrRn2Xbsa",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174092626de2b9e215ee4489e12"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Underworld, KETTAMA",
+        "spotify_artists": "アンダーワールド, KETTAMA",
+        "ytvideoid": "J91SR8wfAvU",
+        "spotify_track_id": "4BrLRVfZF5Z8ld226xISH0"
+      },
+      "genre_data": [
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "fen-violet"
+    },
+    {
+      "id": 78807,
+      "date": "2023-12-15T10:12:19",
+      "date_gmt": "2023-12-15T01:12:19",
+      "title": {
+        "rendered": "g-town euphoria"
+      },
+      "content": {
+        "rendered": "<p>UNDERWORLD , KETTAMA - g-town euphoria</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4333,
+        3458
+      ],
+      "tags": [],
+      "genre": [
+        676
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "QwSNXtzWER4",
+        "ytreleasedate": "2023/12/15",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2Oru5dabtJj9PPGuz7FpIT",
+        "spotify_release_date": "2023-12-15",
+        "spotify_name": "g-town euphoria (luna) [edit]",
+        "spotify_artists": "アンダーワールド, KETTAMA",
+        "spotify_album": "g-town euphoria (luna)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730aed99ab2395323e128cc3dc",
+        "spotify_duration_ms": "188720",
+        "spotify_popularity": "36",
+        "spotify_danceability": "0.511",
+        "spotify_energy": "0.927",
+        "spotify_key": "5",
+        "spotify_loudness": "-10.991",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0537",
+        "spotify_tempo": "142.029",
+        "spotify_valence": "0.273",
+        "spotify_acousticness": "0.00114",
+        "spotify_instrumentalness": "0.583",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.336",
+        "spotify_artists01": "アンダーワールド",
+        "spotify_artists01_id": "1PXHzxRDiLnjqNrRn2Xbsa",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb092626de2b9e215ee4489e12",
+        "spotify_artists01_genres": "big beat, electronica",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "KETTAMA",
+        "spotify_artists02_id": "3an9rnsXKPCAMlZgH4A0n4",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb3d88028fe7f95d5c87791784",
+        "spotify_artists02_genres": "irish electronic",
+        "spotify_artists02_popularity": "49",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2730aed99ab2395323e128cc3dc.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4333,
+            "name": "KETTAMA",
+            "slug": "kettama",
+            "acf": {
+              "artistorigin": "IRL",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3458,
+            "name": "Underworld",
+            "slug": "underworld",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1987",
+              "artistborn": "",
+              "artistjpname": "アンダーワールド",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ],
+              "related_artists": "Orbital (orbital) | Leftfield (leftfield) | Orb (orb) | Future Sound Of London | 808 State (808-state) | Fluke | Groove Armada | Chemical Brothers (chemical-brothers) | Faithless (faithless) | Propellerheads | Basement Jaxx | Apollo 440 | UNKLE | Fatboy Slim (fatboy-slim) | Stereo MC's | Death In Vegas | Primal Scream (primal-scream) | Tricky (tricky) | Moloko (moloko) | Shamen",
+              "spotify_artist_id": "1PXHzxRDiLnjqNrRn2Xbsa",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174092626de2b9e215ee4489e12"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "アンダーワールド, KETTAMA",
+        "ytvideoid": "QwSNXtzWER4",
+        "spotify_track_id": "2Oru5dabtJj9PPGuz7FpIT"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive trance",
+          "slug": "progressive-trance",
+          "term_id": 676,
+          "post_count": 7
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "g-town-euphoria"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

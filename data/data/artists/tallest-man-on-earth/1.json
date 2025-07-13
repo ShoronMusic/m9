@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 3888,
+    "count": 1,
+    "description": "The Tallest Man on Earth is a Swedish singer-songwriter.",
+    "link": "https://sub.music8.jp/category/tallest-man-on-earth/",
+    "name": "Tallest Man On Earth",
+    "slug": "tallest-man-on-earth",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "2005",
+      "artistborn": "19830430",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "ssw",
+          "label": "SSW"
+        }
+      ]
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3888",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3888"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3888"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58653,
+      "date": "2023-04-12T21:07:26",
+      "date_gmt": "2023-04-12T12:07:26",
+      "title": {
+        "rendered": "Looking For Love"
+      },
+      "content": {
+        "rendered": "<p>The Tallest Man On Earth - Looking For Love</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3888
+      ],
+      "tags": [],
+      "genre": [
+        448,
+        516
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4HaVJ5EePm2ABB6CP2Ff5X",
+        "spotify_release_date": "2023-04-14",
+        "spotify_name": "Looking For Love",
+        "spotify_artists": "The Tallest Man On Earth",
+        "spotify_album": "Henry St.",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fcd225270ecd6476274b5582",
+        "spotify_duration_ms": "215280",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.547",
+        "spotify_energy": "0.374",
+        "spotify_key": "0",
+        "spotify_loudness": "-9.3",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0402",
+        "spotify_tempo": "131.056",
+        "spotify_valence": "0.234",
+        "spotify_acousticness": "0.837",
+        "spotify_instrumentalness": "0.000955",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.262",
+        "spotify_artists01": "The Tallest Man On Earth",
+        "spotify_artists01_id": "2BpAc5eK7Rz5GAwSp9UYXa",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba926ec6ea69c15dad76847e6",
+        "spotify_artists01_genres": "chamber pop, indie folk, stomp and holler, swedish americana, swedish singer-songwriter",
+        "spotify_artists01_popularity": "49",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Dh9MO9m2-Bs",
+        "ytreleasedate": "2023/04/12"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Tallest-Man-On-Earth-Looking-For-Love.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3888,
+            "name": "Tallest Man On Earth",
+            "slug": "tallest-man-on-earth",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2005",
+              "artistborn": "19830430",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Tallest Man On Earth",
+        "ytvideoid": "Dh9MO9m2-Bs",
+        "spotify_track_id": "4HaVJ5EePm2ABB6CP2Ff5X"
+      },
+      "genre_data": [
+        {
+          "name": "Chamber folk",
+          "slug": "chamber-folk",
+          "term_id": 448,
+          "post_count": 22
+        },
+        {
+          "name": "Folk",
+          "slug": "folk",
+          "term_id": 516,
+          "post_count": 61
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "looking-for-love"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

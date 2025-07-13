@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 6380,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/pickle/",
+    "name": "Pickle",
+    "slug": "pickle",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6380",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6380"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6380"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 88359,
+      "date": "2024-12-27T10:55:00",
+      "date_gmt": "2024-12-27T01:55:00",
+      "title": {
+        "rendered": "Kick The Nation"
+      },
+      "content": {
+        "rendered": "<p>Lost Frequencies, Pickle - Kick The Nation</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2582,
+        6380
+      ],
+      "tags": [],
+      "genre": [
+        742,
+        747
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "-YaFN1Ujrdw",
+        "ytreleasedate": "2024/12/27",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3v6DpJeMAIwx1IXBvfCj9K",
+        "spotify_release_date": "2024-12-27",
+        "spotify_name": "Kick The Nation",
+        "spotify_artists": "Lost Frequencies, Pickle",
+        "spotify_album": "Kick The Nation",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735627b39d3113b2665ec40de4",
+        "spotify_duration_ms": "123692",
+        "spotify_popularity": "0",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "ロスト・フリクエンシーズ",
+        "spotify_artists01_id": "7f5Zgnp2spUuuzKplmRkt7",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6a77aaa2cde6783b1ca727e9",
+        "spotify_artists01_genres": "belgian edm, edm, pop dance, tropical house",
+        "spotify_artists01_popularity": "80",
+        "spotify_artists02": "Pickle",
+        "spotify_artists02_id": "3RuyFkjMNXXXabK3bH5DQt",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebcc7d39fb2bb37c507e7e62c3",
+        "spotify_artists02_genres": "dutch edm",
+        "spotify_artists02_popularity": "45",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/lost-frequencies-pickle-kick-the-nation.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2582,
+            "name": "Lost Frequencies",
+            "slug": "lost-frequencies",
+            "acf": {
+              "artistorigin": "BEL",
+              "artistactiveyearstart": "2014",
+              "artistborn": "19931130",
+              "artistdied": "",
+              "artistjpname": "ロスト・フリクエンシーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6380,
+            "name": "Pickle",
+            "slug": "pickle",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Lost Frequencies, Pickle",
+        "ytvideoid": "-YaFN1Ujrdw",
+        "spotify_track_id": "3v6DpJeMAIwx1IXBvfCj9K"
+      },
+      "genre_data": [
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        },
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "kick-the-nation"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

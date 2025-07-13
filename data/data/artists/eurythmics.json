@@ -1,0 +1,99 @@
+{
+  "id": 801,
+  "count": 10,
+  "description": "Eurythmics were a British pop duo formed in 1980.",
+  "link": "https://sub.music8.jp/category/eurythmics/",
+  "name": "Eurythmics",
+  "slug": "eurythmics",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1980",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ユーリズミックス",
+    "member": [
+      {
+        "term_id": 4770,
+        "name": "Annie Lennox",
+        "slug": "annie-lennox",
+        "term_group": 0,
+        "term_taxonomy_id": 4770,
+        "taxonomy": "category",
+        "description": "Annie Lennox is a Scottish singer-songwriter.",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 1034,
+        "name": "Dave Stewart",
+        "slug": "dave-stewart",
+        "term_group": 0,
+        "term_taxonomy_id": 1034,
+        "taxonomy": "category",
+        "description": "Dave Stewart is an English musician, songwriter, and record producer, known for his work with the Eurythmics.",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      }
+    ],
+    "related_artists": "Annie Lennox (annie-lennox) | Dave Stewart (dave-stewart) | Frankie Goes To Hollywood (frankie-goes-to-hollywood) | Bananarama (bananarama) | Fine Young Cannibals (fine-young-cannibals) | Culture Club (culture-club) | Alison Moyet (alison-moyet) | Spandau Ballet (spandau-ballet) | Human League (human-league) | Boy George (boy-george) | Kim Wilde (kim-wilde) | Bangles (bangles) | Communards (communards) | Thompson Twins (thompson-twins) | Pet Shop Boys (pet-shop-boys) | Erasure (erasure) | Soft Cell (soft-cell) | Belinda Carlisle (belinda-carlisle) | Berlin (berlin) | a-ha (a-ha) | Robert Palmer (robert-palmer)",
+    "spotify_artist_id": "0NKDgy9j66h3DLnN8qu1bB",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174145a01fb993c3088fe6ac5e7",
+    "youtube_channel": "UCyduOPMIl8N6vlyJxRo2v7g",
+    "wikipedia_page": "Eurythmics"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/801",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=801"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=801"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ユーリズミックス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174145a01fb993c3088fe6ac5e7",
+  "artistActiveYearStart": "1980",
+  "occupation": "duo"
+}

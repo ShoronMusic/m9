@@ -1,0 +1,76 @@
+{
+  "id": 5238,
+  "count": 1,
+  "description": "Chris Steyn is a South African singer and songwriter.",
+  "link": "https://sub.music8.jp/category/chris-steyn/",
+  "name": "Chris Steyn",
+  "slug": "chris-steyn",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "RSA",
+    "artistactiveyearstart": "2020",
+    "artistborn": "",
+    "artistjpname": "クリス・ステイン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1sm5dkYgmAby2vtl4Syc0q",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747873e026430bd3ccb5b1cc17"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5238",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5238"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5238"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "クリス・ステイン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051747873e026430bd3ccb5b1cc17",
+  "artistActiveYearStart": "2020",
+  "occupation": "singer, songwriter"
+}

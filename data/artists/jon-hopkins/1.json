@@ -1,0 +1,708 @@
+{
+  "artist": {
+    "id": 2735,
+    "count": 5,
+    "description": "Jon Hopkins is an English musician and producer",
+    "link": "https://sub.music8.jp/category/jon-hopkins/",
+    "name": "Jon Hopkins",
+    "slug": "jon-hopkins",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2001",
+      "artistborn": "19790815",
+      "artistdied": "",
+      "artistjpname": "ジョン・ホプキンス",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2735",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2735"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2735"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 80747,
+      "date": "2024-08-30T15:52:18",
+      "date_gmt": "2024-08-30T06:52:18",
+      "title": {
+        "rendered": "RITUAL (palace)"
+      },
+      "content": {
+        "rendered": "<p>Jon Hopkins - RITUAL (palace)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2735
+      ],
+      "tags": [],
+      "genre": [
+        413,
+        639
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "u3E_hG5c5QI",
+        "ytreleasedate": "2024/08/30",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "23glDLdns3JnzpaFdY8eH8",
+        "spotify_release_date": "2024-07-09",
+        "spotify_name": "RITUAL (palace)",
+        "spotify_artists": "Jon Hopkins, Vylana",
+        "spotify_album": "RITUAL (palace)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27356e4ef5d4cbcab30cfaa44ed",
+        "spotify_duration_ms": "355488",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.481",
+        "spotify_energy": "0.389",
+        "spotify_key": "11",
+        "spotify_loudness": "-15.531",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0282",
+        "spotify_tempo": "132.986",
+        "spotify_valence": "0.171",
+        "spotify_acousticness": "0.321",
+        "spotify_instrumentalness": "0.954",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0822",
+        "spotify_artists01": "Jon Hopkins",
+        "spotify_artists01_id": "7yxi31szvlbwvKq9dYOmFI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1c0c0e567366e8b528e7c6b7",
+        "spotify_artists01_genres": "electronica, intelligent dance music",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "Vylana",
+        "spotify_artists02_id": "6NDHQ6GcwKEA6BKvIIuFpn",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebcd215a6e8ee9cf6d1855fe28",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "37",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27356e4ef5d4cbcab30cfaa44ed-1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2735,
+            "name": "Jon Hopkins",
+            "slug": "jon-hopkins",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2001",
+              "artistborn": "19790815",
+              "artistdied": "",
+              "artistjpname": "ジョン・ホプキンス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jon Hopkins, Vylana",
+        "ytvideoid": "u3E_hG5c5QI",
+        "spotify_track_id": "23glDLdns3JnzpaFdY8eH8"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient",
+          "slug": "ambient",
+          "term_id": 413,
+          "post_count": 25
+        },
+        {
+          "name": "New-age",
+          "slug": "new-age",
+          "term_id": 639,
+          "post_count": 9
+        }
+      ],
+      "vocal_data": [],
+      "slug": "ritual-palace"
+    },
+    {
+      "id": 80743,
+      "date": "2024-04-30T15:49:42",
+      "date_gmt": "2024-04-30T06:49:42",
+      "title": {
+        "rendered": "RITUAL (evocation)"
+      },
+      "content": {
+        "rendered": "<p>Jon Hopkins - RITUAL (evocation)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2735
+      ],
+      "tags": [],
+      "genre": [
+        416
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "6nmwxYmg-Gs",
+        "ytreleasedate": "2024/04/30",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7lBIa2pIbyIngZZQkaPjAK",
+        "spotify_release_date": "2024-07-09",
+        "spotify_name": "RITUAL (evocation)",
+        "spotify_artists": "Jon Hopkins, Vylana, 7RAYS, Ishq, Cherif Hashizume",
+        "spotify_album": "RITUAL (palace)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27356e4ef5d4cbcab30cfaa44ed",
+        "spotify_duration_ms": "351420",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.478",
+        "spotify_energy": "0.67",
+        "spotify_key": "6",
+        "spotify_loudness": "-10.316",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.042",
+        "spotify_tempo": "132.984",
+        "spotify_valence": "0.238",
+        "spotify_acousticness": "0.267",
+        "spotify_instrumentalness": "0.774",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.429",
+        "spotify_artists01": "Jon Hopkins",
+        "spotify_artists01_id": "7yxi31szvlbwvKq9dYOmFI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1c0c0e567366e8b528e7c6b7",
+        "spotify_artists01_genres": "electronica, intelligent dance music",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "Vylana",
+        "spotify_artists02_id": "6NDHQ6GcwKEA6BKvIIuFpn",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebcd215a6e8ee9cf6d1855fe28",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "37",
+        "spotify_artists03": "7RAYS",
+        "spotify_artists03_id": "0AkP07i2cYjfWmxqCpdwwx",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb84015b0f3058c5c2d58c8bbc",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "34",
+        "spotify_artists04": "Ishq",
+        "spotify_artists04_id": "4SOjulesys5BeXKPGUCY9F",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5eb16ad435655df8e044ec6f418",
+        "spotify_artists04_genres": "ambient, psychill",
+        "spotify_artists04_popularitys": "33",
+        "potify_artists05": "Cherif Hashizume",
+        "spotify_artists05_id": "7lZE7MhAkIglYSnJJB1nYj",
+        "spotify_artists05_images": "https://i.scdn.co/image/ab6761610000e5ebdf66a6b0767a89f9e7595f8b",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "29"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27356e4ef5d4cbcab30cfaa44ed.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2735,
+            "name": "Jon Hopkins",
+            "slug": "jon-hopkins",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2001",
+              "artistborn": "19790815",
+              "artistdied": "",
+              "artistjpname": "ジョン・ホプキンス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jon Hopkins, Vylana, 7RAYS, Ishq, Cherif Hashizume",
+        "ytvideoid": "6nmwxYmg-Gs",
+        "spotify_track_id": "7lBIa2pIbyIngZZQkaPjAK"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient techno",
+          "slug": "ambient-techno",
+          "term_id": 416,
+          "post_count": 3
+        }
+      ],
+      "vocal_data": [],
+      "slug": "ritual-evocation"
+    },
+    {
+      "id": 38594,
+      "date": "2022-09-30T21:44:00",
+      "date_gmt": "2022-09-30T12:44:00",
+      "title": {
+        "rendered": "To Feel Again / Trois"
+      },
+      "content": {
+        "rendered": "\n<p>JonHopkins&amp;KellyLeeOwens&amp;Sultan+Shepard&amp;Jerro-ToFeelAgain/Trois</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2737,
+        2735,
+        2736,
+        2731
+      ],
+      "tags": [],
+      "genre": [
+        670,
+        676
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "4ho6jJU2nbX0NbiF33i4tX",
+        "spotify_release_date": "2022/9/29",
+        "spotify_name": "ToFeelAgain/Trois",
+        "spotify_artists": "JonHopkins,KellyLeeOwens,Sultan+Shepard,Jerro",
+        "spotify_album": "ToFeelAgain/Trois",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ec14c2ff2be968a6572735d9",
+        "spotify_duration_ms": "293489",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.496",
+        "spotify_energy": "0.873",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.547",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0362",
+        "spotify_tempo": "130",
+        "spotify_valence": "0.0458",
+        "spotify_acousticness": "0.00335",
+        "spotify_instrumentalness": "0.896",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.099",
+        "spotify_artists01": "JonHopkins",
+        "spotify_artists01_id": "7yxi31szvlbwvKq9dYOmFI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7ebcdfc56de761d77733e24e",
+        "spotify_artists01_genres": "compositionalambient,electronica,intelligentdancemusic",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "KellyLeeOwens",
+        "spotify_artists02_id": "5eitAUlYmlha3LLWg7aBn5",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb0e4b4ad95f7d1df3cd36176a",
+        "spotify_artists02_genres": "artpop,electra,electronica,spectra",
+        "spotify_artists02_popularity": "41",
+        "spotify_artists03": "Sultan+Shepard",
+        "spotify_artists03_id": "14Tg9FvbNismPR1PJHxRau",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb8173d24f32917c4bd28d124e",
+        "spotify_artists03_genres": "canadianelectronic,progressivehouse",
+        "spotify_artists03_popularity": "58",
+        "spotify_artists04": "Jerro",
+        "spotify_artists04_id": "1WHFu22zN1C6F11Z1rt12K",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5ebd200b7beba28ddbb702e2ca0",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Ln708htEVmA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Jon-Hopkins-Kelly-Lee-Owens-Sultan-Shepard-Jerro-To-Feel-Again-Trois.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2737,
+            "name": "Jerro",
+            "slug": "jerro",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2735,
+            "name": "Jon Hopkins",
+            "slug": "jon-hopkins",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2001",
+              "artistborn": "19790815",
+              "artistdied": "",
+              "artistjpname": "ジョン・ホプキンス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2736,
+            "name": "Kelly Lee Owens",
+            "slug": "kelly-lee-owens",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2014",
+              "artistborn": "19880824",
+              "artistdied": "",
+              "artistjpname": "ケリー・リー・オーウェンス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Daniel Avery (daniel-avery) | Andy Stott | Laurel Halo | Kaitlyn Aurelia Smith | Jenny Hval | Actress | Skee Mask | Avalon Emerson | Daphni | Against All Logic | Octo Octa | Floating Points (floating-points) | Tirzah | Rival Consoles | Carla dal Forno | Leon Vynehall | Oneohtrix Point Never | Field | Marie Davidson | Holly Herndon",
+              "spotify_artist_id": "5eitAUlYmlha3LLWg7aBn5",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ede9eef5d65bb20d63242ea1"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2731,
+            "name": "Sultan &amp; Shepard",
+            "slug": "sultan-shepard",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2002",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "JonHopkins,KellyLeeOwens,Sultan+Shepard,Jerro",
+        "ytvideoid": "Ln708htEVmA",
+        "spotify_track_id": "4ho6jJU2nbX0NbiF33i4tX"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        },
+        {
+          "name": "Progressive trance",
+          "slug": "progressive-trance",
+          "term_id": 676,
+          "post_count": 7
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "to-feel-again-trois"
+    },
+    {
+      "id": 80755,
+      "date": "2018-03-07T15:56:36",
+      "date_gmt": "2018-03-07T06:56:36",
+      "title": {
+        "rendered": "Emerald Rush"
+      },
+      "content": {
+        "rendered": "<p>Jon Hopkins - Emerald Rush</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2735
+      ],
+      "tags": [
+        3049
+      ],
+      "genre": [
+        670,
+        740
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "4sk0uDbM5lc",
+        "ytreleasedate": "2018/03/07",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5S3F5GL8LASIjPg2PMiU1Q",
+        "spotify_release_date": "2018-05-04",
+        "spotify_name": "Emerald Rush",
+        "spotify_artists": "Jon Hopkins",
+        "spotify_album": "Singularity",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739d9126ec04bb005c687291a5",
+        "spotify_duration_ms": "336706",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.414",
+        "spotify_energy": "0.498",
+        "spotify_key": "1",
+        "spotify_loudness": "-11.945",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0579",
+        "spotify_tempo": "106.978",
+        "spotify_valence": "0.37",
+        "spotify_acousticness": "0.00629",
+        "spotify_instrumentalness": "0.87",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.205",
+        "spotify_artists01": "Jon Hopkins",
+        "spotify_artists01_id": "7yxi31szvlbwvKq9dYOmFI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1c0c0e567366e8b528e7c6b7",
+        "spotify_artists01_genres": "electronica, intelligent dance music",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2739d9126ec04bb005c687291a5.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2735,
+            "name": "Jon Hopkins",
+            "slug": "jon-hopkins",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2001",
+              "artistborn": "19790815",
+              "artistdied": "",
+              "artistjpname": "ジョン・ホプキンス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jon Hopkins",
+        "ytvideoid": "4sk0uDbM5lc",
+        "spotify_track_id": "5S3F5GL8LASIjPg2PMiU1Q"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        },
+        {
+          "name": "Tech house",
+          "slug": "tech-house",
+          "term_id": 740,
+          "post_count": 91
+        }
+      ],
+      "vocal_data": [],
+      "slug": "emerald-rush"
+    },
+    {
+      "id": 80751,
+      "date": "2013-04-24T15:54:58",
+      "date_gmt": "2013-04-24T06:54:58",
+      "title": {
+        "rendered": "Open Eye Signal"
+      },
+      "content": {
+        "rendered": "<p>Jon Hopkins - Open Eye Signal</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2735
+      ],
+      "tags": [],
+      "genre": [
+        740
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "Q04ILDXe3QE",
+        "ytreleasedate": "2013/04/24",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0c9MTfnssGoNXUgmsaE5XU",
+        "spotify_release_date": "2013-06-03",
+        "spotify_name": "Open Eye Signal - Remaster 2023",
+        "spotify_artists": "Jon Hopkins",
+        "spotify_album": "Immunity",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27313112e7032a7954a0b51f833",
+        "spotify_duration_ms": "468586",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.8",
+        "spotify_energy": "0.679",
+        "spotify_key": "0",
+        "spotify_loudness": "-8.389",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.215",
+        "spotify_tempo": "122.504",
+        "spotify_valence": "0.207",
+        "spotify_acousticness": "0.193",
+        "spotify_instrumentalness": "0.782",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.112",
+        "spotify_artists01": "Jon Hopkins",
+        "spotify_artists01_id": "7yxi31szvlbwvKq9dYOmFI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1c0c0e567366e8b528e7c6b7",
+        "spotify_artists01_genres": "electronica, intelligent dance music",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27313112e7032a7954a0b51f833.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2735,
+            "name": "Jon Hopkins",
+            "slug": "jon-hopkins",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2001",
+              "artistborn": "19790815",
+              "artistdied": "",
+              "artistjpname": "ジョン・ホプキンス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jon Hopkins",
+        "ytvideoid": "Q04ILDXe3QE",
+        "spotify_track_id": "0c9MTfnssGoNXUgmsaE5XU"
+      },
+      "genre_data": [
+        {
+          "name": "Tech house",
+          "slug": "tech-house",
+          "term_id": 740,
+          "post_count": 91
+        }
+      ],
+      "vocal_data": [],
+      "slug": "open-eye-signal"
+    }
+  ],
+  "totalSongs": 5,
+  "totalPages": 1,
+  "currentPage": 1
+}

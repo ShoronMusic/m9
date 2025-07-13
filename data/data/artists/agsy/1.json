@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 6341,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/agsy/",
+    "name": "Agsy",
+    "slug": "agsy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "IND",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "6vEZoTDeZRvmQc1XXJCQBp",
+      "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e36ba970730b0087bcdfdd32"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6341",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6341"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6341"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 87929,
+      "date": "2024-12-21T13:20:12",
+      "date_gmt": "2024-12-21T04:20:12",
+      "title": {
+        "rendered": "Santa Claws"
+      },
+      "content": {
+        "rendered": "<p>Agsy - Santa Claws</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6341
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0TY80GStM6cxDDyLSYswni",
+        "spotify_release_date": "2024-12-20",
+        "spotify_name": "Santa Claws",
+        "spotify_artists": "Agsy",
+        "spotify_album": "Santa Claws",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734643a8c743cfbe5b217bc61d",
+        "spotify_duration_ms": "150681",
+        "spotify_popularity": "5",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Agsy",
+        "spotify_artists01_id": "6vEZoTDeZRvmQc1XXJCQBp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb32df2c68bc4a632d42c95316",
+        "spotify_artists01_genres": "desi hip hop, indian underground rap",
+        "spotify_artists01_popularity": "38",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "LV2kYcUNUaA",
+        "ytreleasedate": "2024/12/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/agsy-santa-claws.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6341,
+            "name": "Agsy",
+            "slug": "agsy",
+            "acf": {
+              "artistorigin": "IND",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "6vEZoTDeZRvmQc1XXJCQBp",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e36ba970730b0087bcdfdd32"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Agsy",
+        "ytvideoid": "LV2kYcUNUaA",
+        "spotify_track_id": "0TY80GStM6cxDDyLSYswni"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "santa-claws"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

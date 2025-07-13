@@ -1,0 +1,379 @@
+{
+  "artist": {
+    "id": 1886,
+    "count": 2,
+    "description": "Placebo are a British alternative rock band",
+    "link": "https://sub.music8.jp/category/placebo/",
+    "name": "Placebo",
+    "slug": "placebo",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1994",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "プラシーボ",
+      "member": [
+        {
+          "term_id": 937,
+          "name": "B-52's",
+          "slug": "b-52s",
+          "term_group": 0,
+          "term_taxonomy_id": 937,
+          "taxonomy": "category",
+          "description": "The B-52's are an American new wave band.",
+          "parent": 0,
+          "count": 8,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1886",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1886"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1886"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39941,
+      "date": "2022-03-25T20:42:00",
+      "date_gmt": "2022-03-25T11:42:00",
+      "title": {
+        "rendered": "Twin Demons"
+      },
+      "content": {
+        "rendered": "\n<p>Placebo-TwinDemons</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1886
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        630
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": null,
+        "spotify_track_id": "2UKM44AoVHTqOLb43b6M2U",
+        "spotify_release_date": "2022/3/25",
+        "spotify_name": "TwinDemons",
+        "spotify_artists": "Placebo",
+        "spotify_album": "NeverLetMeGo",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730c8a0bd4dbdd57692580ebb7",
+        "spotify_duration_ms": "238527",
+        "spotify_popularity": "26",
+        "spotify_danceability": "0.476",
+        "spotify_energy": "0.95",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.171",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0967",
+        "spotify_tempo": "150.037",
+        "spotify_valence": "0.107",
+        "spotify_acousticness": "7.97E-06",
+        "spotify_instrumentalness": "0.0488",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0647",
+        "spotify_artists01": "Placebo",
+        "spotify_artists01_id": "6RZUqkomCmb8zCRqc9eznB",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc8b42133fea50275b77f45e2",
+        "spotify_artists01_genres": "britpop,permanentwave,rock",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Placebo-Twin-Demons.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1886,
+            "name": "Placebo",
+            "slug": "placebo",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プラシーボ",
+              "member": [
+                {
+                  "term_id": 937,
+                  "name": "B-52's",
+                  "slug": "b-52s",
+                  "term_group": 0,
+                  "term_taxonomy_id": 937,
+                  "taxonomy": "category",
+                  "description": "The B-52's are an American new wave band.",
+                  "parent": 0,
+                  "count": 8,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Placebo",
+        "ytvideoid": "",
+        "spotify_track_id": "2UKM44AoVHTqOLb43b6M2U"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "twin-demons"
+    },
+    {
+      "id": 40540,
+      "date": "2022-01-11T12:46:00",
+      "date_gmt": "2022-01-11T03:46:00",
+      "title": {
+        "rendered": "Try Better Next Time"
+      },
+      "content": {
+        "rendered": "\n<p>Placebo-TryBetterNextTime</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1886
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        442,
+        638
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7jxR5vYnUhwE6niPPyzR4V",
+        "spotify_release_date": "2022/3/25",
+        "spotify_name": "TryBetterNextTime",
+        "spotify_artists": "Placebo",
+        "spotify_album": "NeverLetMeGo",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730c8a0bd4dbdd57692580ebb7",
+        "spotify_duration_ms": "187750",
+        "spotify_popularity": "35",
+        "spotify_danceability": "-0.45183047615291017",
+        "spotify_energy": "-0.3507371419888883",
+        "spotify_key": "0.47224151734130654",
+        "spotify_loudness": "0.681295618477579",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.1318613430181716",
+        "spotify_tempo": "-0.27197187159900105",
+        "spotify_valence": "-0.7432652914281237",
+        "spotify_acousticness": "-0.7939456531494625",
+        "spotify_instrumentalness": "-0.4114606421109768",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "4.255110578541304",
+        "spotify_artists01": "Placebo",
+        "spotify_artists01_id": "6RZUqkomCmb8zCRqc9eznB",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc8b42133fea50275b77f45e2",
+        "spotify_artists01_genres": "britpop,permanentwave,rock",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "VOVkzL0ga2w",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Placebo-Try-Better-Next-Time.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1886,
+            "name": "Placebo",
+            "slug": "placebo",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プラシーボ",
+              "member": [
+                {
+                  "term_id": 937,
+                  "name": "B-52's",
+                  "slug": "b-52s",
+                  "term_group": 0,
+                  "term_taxonomy_id": 937,
+                  "taxonomy": "category",
+                  "description": "The B-52's are an American new wave band.",
+                  "parent": 0,
+                  "count": 8,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Placebo",
+        "ytvideoid": "VOVkzL0ga2w",
+        "spotify_track_id": "7jxR5vYnUhwE6niPPyzR4V"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Britpop",
+          "slug": "britpop",
+          "term_id": 442,
+          "post_count": 265
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "try-better-next-time"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

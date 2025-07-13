@@ -1,0 +1,231 @@
+{
+  "artist": {
+    "id": 5021,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/eastsidaz/",
+    "name": "Eastsidaz",
+    "slug": "eastsidaz",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5021",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5021"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5021"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 68695,
+      "date": "2024-05-17T19:07:47",
+      "date_gmt": "2024-05-17T10:07:47",
+      "title": {
+        "rendered": "We All We Got"
+      },
+      "content": {
+        "rendered": "<p>Tha Dogg Pound, Tha Eastsidaz, Snoop Dogg - We All We Got</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5021,
+        1730,
+        5020
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "UgB_KSpiqsg",
+        "ytreleasedate": "2024/05/17",
+        "spotify_track_id": "4Owys0KTReXE74waMNb6s1",
+        "spotify_release_date": "2024-05-17",
+        "spotify_name": "We All We Got",
+        "spotify_artists": "Tha Dogg Pound, Snoop Dogg, Eastsidaz",
+        "spotify_album": "We All We Got",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733ff458eba31ba70ef167758b",
+        "spotify_duration_ms": "294924",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.689",
+        "spotify_energy": "0.877",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.117",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.296",
+        "spotify_tempo": "90.903",
+        "spotify_valence": "0.529",
+        "spotify_acousticness": "0.025",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.319",
+        "spotify_artists01": "Tha Dogg Pound",
+        "spotify_artists01_id": "60CFNa0ggWjV8OSDey8aGT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb754990874a129a06e008a199",
+        "spotify_artists01_genres": "g funk, west coast rap",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "スヌープ・ドッグ",
+        "spotify_artists02_id": "7hJcb9fa4alzcOq3EaNPoG",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb9a398209a4ef3360dce2dec4",
+        "spotify_artists02_genres": "g funk, gangster rap, hip hop, pop rap, rap, west coast rap",
+        "spotify_artists02_popularity": "80",
+        "spotify_artists03": "Tha Eastsidaz",
+        "spotify_artists03_id": "51FyBBOW464toW099BsW8z",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab67616d0000b2733ff458eba31ba70ef167758b",
+        "spotify_artists03_genres": "g funk, west coast rap",
+        "spotify_artists03_popularity": "46",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2733ff458eba31ba70ef167758b.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5021,
+            "name": "Eastsidaz",
+            "slug": "eastsidaz",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1730,
+            "name": "Snoop Dogg",
+            "slug": "snoop-dogg",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1992",
+              "artistborn": "19711020",
+              "artistdied": "",
+              "artistjpname": "スヌープ・ドッグ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 5020,
+            "name": "Tha Dogg Pound",
+            "slug": "tha-dogg-pound",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1992",
+              "artistborn": "",
+              "artistjpname": "ザ・ドッグ・パウンド",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "60CFNa0ggWjV8OSDey8aGT",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174754990874a129a06e008a199"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Tha Dogg Pound, Snoop Dogg, Eastsidaz",
+        "ytvideoid": "UgB_KSpiqsg",
+        "spotify_track_id": "4Owys0KTReXE74waMNb6s1"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "we-all-we-got"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

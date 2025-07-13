@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 3363,
+    "count": 1,
+    "description": "NSG is a British afroswing collective.",
+    "link": "https://sub.music8.jp/category/nsg/",
+    "name": "NSG",
+    "slug": "nsg",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2013",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "group",
+          "label": "Group"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3363",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3363"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3363"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 53091,
+      "date": "2023-09-22T21:05:50",
+      "date_gmt": "2023-09-22T12:05:50",
+      "title": {
+        "rendered": "NELLA ROSE"
+      },
+      "content": {
+        "rendered": "<p>NSG - NELLA ROSE</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3363
+      ],
+      "tags": [],
+      "genre": [
+        403,
+        441
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1OIQekJTsZ7E62Ow5jraYN",
+        "spotify_release_date": "2023-09-21",
+        "spotify_name": "NELLA ROSE",
+        "spotify_artists": "NSG",
+        "spotify_album": "NELLA ROSE",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27329bfe30f1e62780ed06ee014",
+        "spotify_duration_ms": "257986",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.74",
+        "spotify_energy": "0.821",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.028",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0469",
+        "spotify_tempo": "108.039",
+        "spotify_valence": "0.447",
+        "spotify_acousticness": "0.0252",
+        "spotify_instrumentalness": "0.000097",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.383",
+        "spotify_artists01": "NSG",
+        "spotify_artists01_id": "31Ua7zSTJxegjyd49ujbSA",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbdf3f85a9d8f7b911aa70e71",
+        "spotify_artists01_genres": "afrobeats, afroswing, uk dancehall, uk hip hop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "wRT3lfnrus0",
+        "ytreleasedate": "2023/09/22"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/NSG-NELLA-ROSE.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3363,
+            "name": "NSG",
+            "slug": "nsg",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2013",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "NSG",
+        "ytvideoid": "wRT3lfnrus0",
+        "spotify_track_id": "1OIQekJTsZ7E62Ow5jraYN"
+      },
+      "genre_data": [
+        {
+          "name": "Afroswing",
+          "slug": "afroswing",
+          "term_id": 403,
+          "post_count": 10
+        },
+        {
+          "name": "British hip hop",
+          "slug": "british-hip-hop",
+          "term_id": 441,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "nella-rose"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

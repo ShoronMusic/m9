@@ -1,0 +1,73 @@
+{
+  "id": 865,
+  "count": 2,
+  "description": "Tracey Ullman is a British-American actress, comedian, singer, writer, producer.",
+  "link": "https://sub.music8.jp/category/tracey-ullman/",
+  "name": "Tracey Ullman",
+  "slug": "tracey-ullman",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1976",
+    "artistborn": "19591230",
+    "artistdied": "",
+    "artistjpname": "トレイシー・ウルマン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/865",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=865"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=865"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "トレイシー・ウルマン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1976",
+  "occupation": "singer, producer"
+}

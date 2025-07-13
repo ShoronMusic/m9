@@ -1,0 +1,72 @@
+{
+  "id": 5948,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/victoria/",
+  "name": "Victoria",
+  "slug": "victoria",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "ITA",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "bassist",
+        "label": "Bassist"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7FNnA9vBm6EKceENgCGRMb",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517403479cd9d2eec574230368d4"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5948",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5948"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5948"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517403479cd9d2eec574230368d4",
+  "artistActiveYearStart": "",
+  "occupation": "bassist"
+}

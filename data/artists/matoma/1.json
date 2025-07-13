@@ -1,0 +1,248 @@
+{
+  "artist": {
+    "id": 3876,
+    "count": 1,
+    "description": "Matoma is a Norwegian DJ and record producer.",
+    "link": "https://sub.music8.jp/category/matoma/",
+    "name": "Matoma",
+    "slug": "matoma",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "NOR",
+      "artistactiveyearstart": "2014",
+      "artistborn": "19910529",
+      "artistjpname": "マトマ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "musician",
+          "label": "Musician"
+        },
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3876",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3876"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3876"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58487,
+      "date": "2020-12-11T17:50:27",
+      "date_gmt": "2020-12-11T08:50:27",
+      "title": {
+        "rendered": "It's Christmas Time"
+      },
+      "content": {
+        "rendered": "<p>Matoma & Michael Bolton - It's Christmas Time</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3876,
+        3875
+      ],
+      "tags": [],
+      "genre": [
+        455,
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0NLV6yzZjNYIGkWcEH7qhN",
+        "spotify_release_date": "2020-11-12",
+        "spotify_name": "It's Christmas Time (with Michael Bolton)",
+        "spotify_artists": "Matoma, Michael Bolton",
+        "spotify_album": "It's Christmas Time (with Michael Bolton)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736c99d4363853b109eb8be7ce",
+        "spotify_duration_ms": "203103",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.449",
+        "spotify_energy": "0.309",
+        "spotify_key": "3",
+        "spotify_loudness": "-7.295",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0286",
+        "spotify_tempo": "87.072",
+        "spotify_valence": "0.26",
+        "spotify_acousticness": "0.459",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.351",
+        "spotify_artists01": "マトマ",
+        "spotify_artists01_id": "4YXycRbyyAE0wozTk7QMEq",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9e89c8d25b3f4b4be014f2a8",
+        "spotify_artists01_genres": "pop dance, tropical house",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "マイケル・ボルトン",
+        "spotify_artists02_id": "6YHEMoNPbcheiWS2haGzkn",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebdb2bf7e02aa5c68fd6839a0e",
+        "spotify_artists02_genres": "soft rock",
+        "spotify_artists02_popularity": "62",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "vyhrAr1tp1A",
+        "ytreleasedate": "2020/12/11",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Matoma-Michael-Bolton-Its-Christmas-Time.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3876,
+            "name": "Matoma",
+            "slug": "matoma",
+            "acf": {
+              "artistorigin": "NOR",
+              "artistactiveyearstart": "2014",
+              "artistborn": "19910529",
+              "artistjpname": "マトマ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3875,
+            "name": "Michael Bolton",
+            "slug": "michael-bolton",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1975",
+              "artistborn": "19530226",
+              "artistjpname": "マイケル・ボルトン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Matoma, Michael Bolton",
+        "ytvideoid": "vyhrAr1tp1A",
+        "spotify_track_id": "0NLV6yzZjNYIGkWcEH7qhN"
+      },
+      "genre_data": [
+        {
+          "name": "Christmas",
+          "slug": "christmas",
+          "term_id": 455,
+          "post_count": 111
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "its-christmas-time-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

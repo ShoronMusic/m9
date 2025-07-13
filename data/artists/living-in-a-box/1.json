@@ -1,0 +1,315 @@
+{
+  "artist": {
+    "id": 950,
+    "count": 2,
+    "description": "Living in a Box are a British band.",
+    "link": "https://sub.music8.jp/category/living-in-a-box/",
+    "name": "Living In A Box",
+    "slug": "living-in-a-box",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1985",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "リヴィング・イン・ア・ボックス",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/950",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=950"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=950"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47407,
+      "date": "1989-09-04T13:30:00",
+      "date_gmt": "1989-09-04T04:30:00",
+      "title": {
+        "rendered": "Room In Your Heart"
+      },
+      "content": {
+        "rendered": "<p>Living in a Box - Room In Your Heart</p>\n",
+        "protected": false
+      },
+      "categories": [
+        950
+      ],
+      "tags": [],
+      "genre": [
+        430,
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5lJJgkSrYFhbh2xhhivfdd",
+        "spotify_release_date": "1989/7/8",
+        "spotify_name": "Room in Your Heart",
+        "spotify_artists": "Living In A Box",
+        "spotify_album": "Gatecrashing",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730405164016b536586e1d6c6b",
+        "spotify_duration_ms": "278773",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.555",
+        "spotify_energy": "0.516",
+        "spotify_key": "5",
+        "spotify_loudness": "-12.963",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0355",
+        "spotify_tempo": "137.96",
+        "spotify_valence": "0.587",
+        "spotify_acousticness": "0.411",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0999",
+        "spotify_artists01": "Living In A Box",
+        "spotify_artists01_id": "4W2dcPOyD7eSfJCPHCfwoA",
+        "spotify_artists01_images": "https://i.scdn.co/image/ed943080e88a565e3c89b2b2d9b80921d444dfb2",
+        "spotify_artists01_genres": "new romantic, new wave pop, sophisti-pop, synthpop",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "mWHRnraNiKc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Living-in-a-Box-Room-In-Your-Heart.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 950,
+            "name": "Living In A Box",
+            "slug": "living-in-a-box",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1985",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "リヴィング・イン・ア・ボックス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Living In A Box",
+        "ytvideoid": "mWHRnraNiKc",
+        "spotify_track_id": "5lJJgkSrYFhbh2xhhivfdd"
+      },
+      "genre_data": [
+        {
+          "name": "Blue-eyed soul",
+          "slug": "blue-eyed-soul",
+          "term_id": 430,
+          "post_count": 59
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "room-in-your-heart"
+    },
+    {
+      "id": 47869,
+      "date": "1987-03-23T13:26:00",
+      "date_gmt": "1987-03-23T04:26:00",
+      "title": {
+        "rendered": "Living In A Box"
+      },
+      "content": {
+        "rendered": "<p>Living In A Box - Living In A Box</p>\n",
+        "protected": false
+      },
+      "categories": [
+        950
+      ],
+      "tags": [],
+      "genre": [
+        718,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4j2non7vSAI1dZwsBIdGLz",
+        "spotify_release_date": "1987/5/9",
+        "spotify_name": "Living in a Box",
+        "spotify_artists": "Living In A Box",
+        "spotify_album": "Living in a Box",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27319b6a0ae303eef6370e4ee83",
+        "spotify_duration_ms": "186666",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.635",
+        "spotify_energy": "0.872",
+        "spotify_key": "0",
+        "spotify_loudness": "-12.739",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0445",
+        "spotify_tempo": "111.029",
+        "spotify_valence": "0.927",
+        "spotify_acousticness": "0.244",
+        "spotify_instrumentalness": "0.0635",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.307",
+        "spotify_artists01": "Living In A Box",
+        "spotify_artists01_id": "4W2dcPOyD7eSfJCPHCfwoA",
+        "spotify_artists01_images": "https://i.scdn.co/image/ed943080e88a565e3c89b2b2d9b80921d444dfb2",
+        "spotify_artists01_genres": "new romantic, new wave pop, sophisti-pop, synthpop",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "mHzfhU8t5i8",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Living-In-A-Box-Living-In-A-Box.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 950,
+            "name": "Living In A Box",
+            "slug": "living-in-a-box",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1985",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "リヴィング・イン・ア・ボックス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Living In A Box",
+        "ytvideoid": "mHzfhU8t5i8",
+        "spotify_track_id": "4j2non7vSAI1dZwsBIdGLz"
+      },
+      "genre_data": [
+        {
+          "name": "Sophisti-pop",
+          "slug": "sophisti-pop",
+          "term_id": 718,
+          "post_count": 82
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "living-in-a-box"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,213 @@
+{
+  "artist": {
+    "id": 3275,
+    "count": 1,
+    "description": "Ilse DeLange is a Dutch country and pop rock singer-songwriter.",
+    "link": "https://sub.music8.jp/category/ilse-delange/",
+    "name": "Ilse DeLange",
+    "slug": "ilse-delange",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "NED",
+      "artistactiveyearstart": "1995",
+      "artistborn": "19770513",
+      "artistjpname": "イルゼ・デランゲ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3275",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3275"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3275"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52372,
+      "date": "2023-02-10T22:54:30",
+      "date_gmt": "2023-02-10T13:54:30",
+      "title": {
+        "rendered": "YOU"
+      },
+      "content": {
+        "rendered": "<p>BossHoss, Ilse DeLange - YOU</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2067,
+        3275
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2i0IWB4fY0geiUUGZB8ywk",
+        "spotify_release_date": "2023-05-05",
+        "spotify_name": "YOU",
+        "spotify_artists": "The BossHoss, Ilse DeLange",
+        "spotify_album": "Electric Horsemen",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736bcaa80610f2c6cec1e33866",
+        "spotify_duration_ms": "183093",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.751",
+        "spotify_energy": "0.73",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.632",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0384",
+        "spotify_tempo": "113.523",
+        "spotify_valence": "0.463",
+        "spotify_acousticness": "0.143",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0765",
+        "spotify_artists01": "The BossHoss",
+        "spotify_artists01_id": "1sICjVlCMOCah0snHXWUz0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb73fe8c087ca106d32fe4d6cb",
+        "spotify_artists01_genres": "comic, german country, german pop, german rock",
+        "spotify_artists01_popularity": "49",
+        "spotify_artists02": "Ilse DeLange",
+        "spotify_artists02_id": "3FTKP1k9VbOng3m1rgnsqx",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebfd69b12e21f034dccf89520b",
+        "spotify_artists02_genres": "dutch americana, dutch pop, dutch rock",
+        "spotify_artists02_popularity": "49",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "-dJjGdT-2oA",
+        "ytreleasedate": "2023/02/10"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/BossHoss-Ilse-DeLange-YOU.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2067,
+            "name": "BossHoss",
+            "slug": "bosshoss",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ボスホス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "1sICjVlCMOCah0snHXWUz0",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517473fe8c087ca106d32fe4d6cb"
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          },
+          {
+            "id": 3275,
+            "name": "Ilse DeLange",
+            "slug": "ilse-delange",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "1995",
+              "artistborn": "19770513",
+              "artistjpname": "イルゼ・デランゲ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The BossHoss, Ilse DeLange",
+        "ytvideoid": "-dJjGdT-2oA",
+        "spotify_track_id": "2i0IWB4fY0geiUUGZB8ywk"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "you-3"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,225 @@
+{
+  "artist": {
+    "id": 6667,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/simien/",
+    "name": "SIMIEN",
+    "slug": "simien",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6667",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6667"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6667"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 94957,
+      "date": "2025-04-05T13:56:27",
+      "date_gmt": "2025-04-05T04:56:27",
+      "title": {
+        "rendered": "Never Really Mattered"
+      },
+      "content": {
+        "rendered": "<p>Akon, SIMIEN - Never Really Mattered</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1271,
+        6667
+      ],
+      "tags": [],
+      "genre": [
+        427,
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "4S0_Xj4L4mo",
+        "ytreleasedate": "2025/04/05",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2ZcimQZ0Kpv4gcU2HUyOms",
+        "spotify_release_date": "2025-03-21",
+        "spotify_name": "Never Really Mattered",
+        "spotify_artists": "Akon, SIMIEN",
+        "spotify_album": "Never Really Mattered",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27334acca6ffe5bd4d8552caf07",
+        "spotify_duration_ms": "199942",
+        "spotify_popularity": "62",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Akon",
+        "spotify_artists01_id": "0z4gvV4rjIZ9wHck67ucSV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8c5984726ddb2c2d90ada28d",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "84",
+        "spotify_artists02": "SIMIEN",
+        "spotify_artists02_id": "0IzBfoIbXMYXpBFV7oCsCm",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "44",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/akon-simien-never-really-mattered.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1271,
+            "name": "Akon",
+            "slug": "akon",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "19730416",
+              "artistdied": "",
+              "artistjpname": "エイコン",
+              "member": [
+                {
+                  "errors": {
+                    "invalid_term": [
+                      "空のターム。"
+                    ]
+                  },
+                  "error_data": []
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "0z4gvV4rjIZ9wHck67ucSV",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517414020d1e8b482b6e1c5e720d"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6667,
+            "name": "SIMIEN",
+            "slug": "simien",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Akon, SIMIEN",
+        "ytvideoid": "4S0_Xj4L4mo",
+        "spotify_track_id": "2ZcimQZ0Kpv4gcU2HUyOms"
+      },
+      "genre_data": [
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "never-really-mattered"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

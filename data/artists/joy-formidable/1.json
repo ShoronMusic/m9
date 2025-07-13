@@ -1,0 +1,572 @@
+{
+  "artist": {
+    "id": 1304,
+    "count": 4,
+    "description": "The Joy Formidable is a Welsh alternative rock band.",
+    "link": "https://sub.music8.jp/category/joy-formidable/",
+    "name": "Joy Formidable",
+    "slug": "joy-formidable",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2007",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ザ・ジョイ・フォーミダブル",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1304",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1304"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1304"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 44011,
+      "date": "2012-12-07T19:32:00",
+      "date_gmt": "2012-12-07T10:32:00",
+      "title": {
+        "rendered": "This Ladder Is Ours"
+      },
+      "content": {
+        "rendered": "\n<p>TheJoyFormidable-ThisLadderIsOurs</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1304
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        575
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "60i2U8vi4WQcbaBDFGLJ5C",
+        "spotify_release_date": "2013/1/22",
+        "spotify_name": "This Ladder Is Ours",
+        "spotify_artists": "The Joy Formidable",
+        "spotify_album": "Wolf's Law",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739fd477f7e7f5aca7567b65a5",
+        "spotify_duration_ms": "311288",
+        "spotify_popularity": "27",
+        "spotify_danceability": "0.31",
+        "spotify_energy": "0.919",
+        "spotify_key": "9",
+        "spotify_loudness": "-6.609",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.127",
+        "spotify_tempo": "144.902",
+        "spotify_valence": "0.0841",
+        "spotify_acousticness": "0.0103",
+        "spotify_instrumentalness": "0.000752",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "The Joy Formidable",
+        "spotify_artists01_id": "4LdZNE5MHGqvc0N9ivXNF3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb289e4874522788e1d986d81d",
+        "spotify_artists01_genres": "metropopolis, nu gaze, welsh indie, welsh rock",
+        "spotify_artists01_popularity": "36",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Y_t4s-HX3z0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Joy-Formidable-This-Ladder-Is-Ours.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1304,
+            "name": "Joy Formidable",
+            "slug": "joy-formidable",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ジョイ・フォーミダブル",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Joy Formidable",
+        "ytvideoid": "Y_t4s-HX3z0",
+        "spotify_track_id": "60i2U8vi4WQcbaBDFGLJ5C"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "this-ladder-is-ours"
+    },
+    {
+      "id": 44242,
+      "date": "2011-04-16T18:49:00",
+      "date_gmt": "2011-04-16T09:49:00",
+      "title": {
+        "rendered": "Whirring"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1304
+      ],
+      "tags": [],
+      "genre": [
+        575,
+        641,
+        708
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "2XbqxKjCnE9YWfPRqwgtPq",
+        "spotify_release_date": "2011/1/21",
+        "spotify_name": "Whirring",
+        "spotify_artists": "The Joy Formidable",
+        "spotify_album": "The Big Roar",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730e5b9295569d3f0c82144d50",
+        "spotify_duration_ms": "407160",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.335",
+        "spotify_energy": "0.968",
+        "spotify_key": "2",
+        "spotify_loudness": "-3.775",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0505",
+        "spotify_tempo": "145.061",
+        "spotify_valence": "0.372",
+        "spotify_acousticness": "0.000129",
+        "spotify_instrumentalness": "0.288",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.341",
+        "spotify_artists01": "The Joy Formidable",
+        "spotify_artists01_id": "4LdZNE5MHGqvc0N9ivXNF3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb289e4874522788e1d986d81d",
+        "spotify_artists01_genres": "metropopolis, nu gaze, welsh indie, welsh rock",
+        "spotify_artists01_popularity": "36",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "a2BUEzdjfpY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Joy-Formidable-Whirring.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1304,
+            "name": "Joy Formidable",
+            "slug": "joy-formidable",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ジョイ・フォーミダブル",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Joy Formidable",
+        "ytvideoid": "a2BUEzdjfpY",
+        "spotify_track_id": "2XbqxKjCnE9YWfPRqwgtPq"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Noise rock",
+          "slug": "noise-rock",
+          "term_id": 641,
+          "post_count": 39
+        },
+        {
+          "name": "Shoegaze",
+          "slug": "shoegaze",
+          "term_id": 708,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "whirring"
+    },
+    {
+      "id": 44468,
+      "date": "2009-02-09T19:29:00",
+      "date_gmt": "2009-02-09T10:29:00",
+      "title": {
+        "rendered": "Cradle"
+      },
+      "content": {
+        "rendered": "\n<p>TheJoyFormidable-Cradle</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1304
+      ],
+      "tags": [],
+      "genre": [
+        575,
+        641
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0xnrSQxqqNEKMtw6slzwVx",
+        "spotify_release_date": "2011/1/21",
+        "spotify_name": "Cradle",
+        "spotify_artists": "The Joy Formidable",
+        "spotify_album": "The Big Roar",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730e5b9295569d3f0c82144d50",
+        "spotify_duration_ms": "166720",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.422",
+        "spotify_energy": "0.94",
+        "spotify_key": "2",
+        "spotify_loudness": "-3.754",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0406",
+        "spotify_tempo": "160.938",
+        "spotify_valence": "0.488",
+        "spotify_acousticness": "2.94E-05",
+        "spotify_instrumentalness": "0.03",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.131",
+        "spotify_artists01": "The Joy Formidable",
+        "spotify_artists01_id": "4LdZNE5MHGqvc0N9ivXNF3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb289e4874522788e1d986d81d",
+        "spotify_artists01_genres": "metropopolis, nu gaze, welsh indie, welsh rock",
+        "spotify_artists01_popularity": "36",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "W66yhfMb4d0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Joy-Formidable-Cradle.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1304,
+            "name": "Joy Formidable",
+            "slug": "joy-formidable",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ジョイ・フォーミダブル",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Joy Formidable",
+        "ytvideoid": "W66yhfMb4d0",
+        "spotify_track_id": "0xnrSQxqqNEKMtw6slzwVx"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Noise rock",
+          "slug": "noise-rock",
+          "term_id": 641,
+          "post_count": 39
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "cradle"
+    },
+    {
+      "id": 44508,
+      "date": "2008-08-18T19:36:00",
+      "date_gmt": "2008-08-18T10:36:00",
+      "title": {
+        "rendered": "Austere"
+      },
+      "content": {
+        "rendered": "\n<p>TheJoyFormidable-Austere</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1304
+      ],
+      "tags": [],
+      "genre": [
+        575,
+        708
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "2aj6E4hqgQsy2cYs37KC5o",
+        "spotify_release_date": "2011/1/21",
+        "spotify_name": "Austere",
+        "spotify_artists": "The Joy Formidable",
+        "spotify_album": "The Big Roar",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730e5b9295569d3f0c82144d50",
+        "spotify_duration_ms": "210200",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.463",
+        "spotify_energy": "0.879",
+        "spotify_key": "2",
+        "spotify_loudness": "-4.609",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0446",
+        "spotify_tempo": "144.957",
+        "spotify_valence": "0.313",
+        "spotify_acousticness": "0.00273",
+        "spotify_instrumentalness": "0.705",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.311",
+        "spotify_artists01": "The Joy Formidable",
+        "spotify_artists01_id": "4LdZNE5MHGqvc0N9ivXNF3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb289e4874522788e1d986d81d",
+        "spotify_artists01_genres": "metropopolis, nu gaze, welsh indie, welsh rock",
+        "spotify_artists01_popularity": "36",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "PbYghzgt9IU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Joy-Formidable-Austere.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1304,
+            "name": "Joy Formidable",
+            "slug": "joy-formidable",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ジョイ・フォーミダブル",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Joy Formidable",
+        "ytvideoid": "PbYghzgt9IU",
+        "spotify_track_id": "2aj6E4hqgQsy2cYs37KC5o"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Shoegaze",
+          "slug": "shoegaze",
+          "term_id": 708,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "austere"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,209 @@
+{
+  "artist": {
+    "id": 1925,
+    "count": 1,
+    "description": "You Me at Six are an English rock band.",
+    "link": "https://sub.music8.jp/category/you-me-at-six/",
+    "name": "You Me At Six",
+    "slug": "you-me-at-six",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2004",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ユー・ミー・アット・シックス",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1925",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1925"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1925"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39115,
+      "date": "2022-07-22T19:35:00",
+      "date_gmt": "2022-07-22T10:35:00",
+      "title": {
+        "rendered": "DEEP CUTS"
+      },
+      "content": {
+        "rendered": "\n<p>YouMeAtSix-DEEPCUTS</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1925
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        553,
+        683
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "43zuHsv9bZ9WfsXPzpR4Nb",
+        "spotify_release_date": "2023/2/10",
+        "spotify_name": "DEEPCUTS",
+        "spotify_artists": "YouMeAtSix",
+        "spotify_album": "TruthDecay",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735198ee92a69322df0e7a5138",
+        "spotify_duration_ms": "254129",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.334",
+        "spotify_energy": "0.901",
+        "spotify_key": "10",
+        "spotify_loudness": "-6.391",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0637",
+        "spotify_tempo": "166.493",
+        "spotify_valence": "0.421",
+        "spotify_acousticness": "0.00106",
+        "spotify_instrumentalness": "0.00941",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.109",
+        "spotify_artists01": "YouMeAtSix",
+        "spotify_artists01_id": "1kNQXvepPjaPgUfeDAF2h6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc43aed7a2511d1c725322788",
+        "spotify_artists01_genres": "modernalternativerock,modernrock,neonpoppunk,popemo,poppunk",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "nllCB13s9fI",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/You-Me-At-Six-DEEP-CUTS.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1925,
+            "name": "You Me At Six",
+            "slug": "you-me-at-six",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ユー・ミー・アット・シックス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "YouMeAtSix",
+        "ytvideoid": "nllCB13s9fI",
+        "spotify_track_id": "43zuHsv9bZ9WfsXPzpR4Nb"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Punk rock",
+          "slug": "punk-rock",
+          "term_id": 683,
+          "post_count": 119
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "deep-cuts"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

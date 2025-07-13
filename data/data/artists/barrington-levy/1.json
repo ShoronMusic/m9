@@ -1,0 +1,189 @@
+{
+  "artist": {
+    "id": 2647,
+    "count": 1,
+    "description": "JAM",
+    "link": "https://sub.music8.jp/category/barrington-levy/",
+    "name": "Barrington Levy",
+    "slug": "barrington-levy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2647",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2647"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2647"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38235,
+      "date": "2022-12-12T02:56:00",
+      "date_gmt": "2022-12-11T17:56:00",
+      "title": {
+        "rendered": "Soul of the World"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2647,
+        2646
+      ],
+      "tags": [],
+      "genre": [
+        690
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "n8Nrzb1CuU4",
+        "likecount": "1",
+        "spotify_track_id": "0C6gVE3CYNsiDZkAHiT0sr",
+        "spotify_release_date": "2022/9/9",
+        "spotify_name": "SouloftheWorld(withBarringtonLevy)",
+        "spotify_artists": "Stick Figure, Barrington Levy",
+        "spotify_album": "Wisdom",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739550e26961358efe32cd89ac",
+        "spotify_duration_ms": "209357",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.672",
+        "spotify_energy": "0.704",
+        "spotify_key": "9",
+        "spotify_loudness": "-7.103",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.052",
+        "spotify_tempo": "92.988",
+        "spotify_valence": "0.202",
+        "spotify_acousticness": "0.16",
+        "spotify_instrumentalness": "0.0216",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.274",
+        "spotify_artists01": "StickFigure",
+        "spotify_artists01_id": "5SXEylV07TC57eanSxxg4R",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba0f1123095d7e00b8d9fc8ed",
+        "spotify_artists01_genres": "reggaefusion,reggaerock",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "BarringtonLevy",
+        "spotify_artists02_id": "5mMuiFhh7faS7qxnTLRA6u",
+        "spotify_artists02_images": "https://i.scdn.co/image/9c194c388f9b7b416ccfa5dbbdaf445b8970d3e3",
+        "spotify_artists02_genres": "reggae,reggaefusion,rootsreggae",
+        "spotify_artists02_popularity": "57",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "ytreleasedate": "",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Barrington-Levy-Stick-Figure-Soul-of-the-World.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2647,
+            "name": "Barrington Levy",
+            "slug": "barrington-levy",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2646,
+            "name": "Stick Figure",
+            "slug": "stick-figure",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スティック・フィギュア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Stick Figure, Barrington Levy",
+        "ytvideoid": "n8Nrzb1CuU4",
+        "spotify_track_id": "0C6gVE3CYNsiDZkAHiT0sr"
+      },
+      "genre_data": [
+        {
+          "name": "Reggae",
+          "slug": "reggae",
+          "term_id": 690,
+          "post_count": 83
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "soul-of-the-world"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,166 @@
+{
+  "artist": {
+    "id": 4458,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/king-promise/",
+    "name": "King Promise",
+    "slug": "king-promise",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4458",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4458"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4458"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65523,
+      "date": "2024-04-05T21:24:23",
+      "date_gmt": "2024-04-05T12:24:23",
+      "title": {
+        "rendered": "Paris"
+      },
+      "content": {
+        "rendered": "<p>King Promise - Paris</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4458
+      ],
+      "tags": [],
+      "genre": [
+        402
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "VzgkY78sh0I",
+        "ytreleasedate": "2024/04/05",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3varTiHGif7hoPSflFz0pQ",
+        "spotify_release_date": "2024-03-08",
+        "spotify_name": "Paris",
+        "spotify_artists": "King Promise",
+        "spotify_album": "Paris",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736d619b3fff01aec604513b08",
+        "spotify_duration_ms": "140166",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.843",
+        "spotify_energy": "0.816",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.327",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0416",
+        "spotify_tempo": "111.985",
+        "spotify_valence": "0.615",
+        "spotify_acousticness": "0.0735",
+        "spotify_instrumentalness": "0.000324",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.103",
+        "spotify_artists01": "King Promise",
+        "spotify_artists01_id": "4tIKaxUmpXzshok2yCnwdf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdec26b330e90ddcf3d570fa1",
+        "spotify_artists01_genres": "afrobeats, ghanaian alternative, ghanaian pop",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2736d619b3fff01aec604513b08.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4458,
+            "name": "King Promise",
+            "slug": "king-promise",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "King Promise",
+        "ytvideoid": "VzgkY78sh0I",
+        "spotify_track_id": "3varTiHGif7hoPSflFz0pQ"
+      },
+      "genre_data": [
+        {
+          "name": "Afrobeats",
+          "slug": "afrobeats",
+          "term_id": 402,
+          "post_count": 135
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "paris-3"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

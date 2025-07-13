@@ -1,0 +1,175 @@
+{
+  "artist": {
+    "id": 1842,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/state-champs/",
+    "name": "State Champs",
+    "slug": "state-champs",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1842",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1842"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1842"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40209,
+      "date": "2022-02-23T22:30:00",
+      "date_gmt": "2022-02-23T13:30:00",
+      "title": {
+        "rendered": "Everybody But You"
+      },
+      "content": {
+        "rendered": "\n<p>StateChamps-EverybodyButYoufeatBenBarlow</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1843,
+        1842
+      ],
+      "tags": [],
+      "genre": [
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "uYJKQHd7MhA",
+        "likecount": "1",
+        "spotify_track_id": "40FJkZzaY8DWGtYoCB63EE",
+        "spotify_release_date": "2022/5/13",
+        "spotify_name": "EverybodybutYou",
+        "spotify_artists": "State Champs, Ben Barlow",
+        "spotify_album": "KingsoftheNewAge",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734e50e8c11bb4f0ca59ec2a3e",
+        "spotify_duration_ms": "227393",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.659",
+        "spotify_energy": "0.914",
+        "spotify_key": "8",
+        "spotify_loudness": "-3.908",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0497",
+        "spotify_tempo": "105.017",
+        "spotify_valence": "0.79",
+        "spotify_acousticness": "0.0042",
+        "spotify_instrumentalness": "2.58E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.077",
+        "spotify_artists01": "StateChamps",
+        "spotify_artists01_id": "1qqdO7xMptucPDMopsOdkr",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe7425b5afa1532c080bd6753",
+        "spotify_artists01_genres": "pixie,poppunk",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "BenBarlow",
+        "spotify_artists02_id": "79SZgK0iRDlLJpsH7mSvNC",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab67616d0000b27339e7a01c6024ae5b1b905c82",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "35",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/State-Champs-Everybody-But-You-feat-Ben-Barlow.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1843,
+            "name": "Ben Barlow",
+            "slug": "ben-barlow",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1842,
+            "name": "State Champs",
+            "slug": "state-champs",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "State Champs, Ben Barlow",
+        "ytvideoid": "uYJKQHd7MhA",
+        "spotify_track_id": "40FJkZzaY8DWGtYoCB63EE"
+      },
+      "genre_data": [
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "everybody-but-you"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,69 @@
+{
+  "id": 1000,
+  "count": 3,
+  "description": "Olivia Newton-John was a British and Australian singer and actress.",
+  "link": "https://sub.music8.jp/category/olivia-newton-john/",
+  "name": "Olivia Newton-John",
+  "slug": "olivia-newton-john",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "1963–2022",
+    "artistborn": "19481226",
+    "artistdied": "2022.08.08",
+    "artistjpname": "オリビア・ニュートン＝ジョン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1000",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1000"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1000"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "オリビア・ニュートン＝ジョン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1963–2022",
+  "occupation": "singer"
+}

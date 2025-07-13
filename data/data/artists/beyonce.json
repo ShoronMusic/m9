@@ -1,0 +1,80 @@
+{
+  "id": 3798,
+  "count": 12,
+  "description": "Beyoncé is an American singer, songwriter.",
+  "link": "https://sub.music8.jp/category/beyonce/",
+  "name": "Beyoncé",
+  "slug": "beyonce",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1997",
+    "artistborn": "19810904",
+    "artistjpname": "ビヨンセ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "Destiny's Child (destinys-child) | Alicia Keys (alicia-keys) | Jennifer Lopez (jennifer-lopez) | Rihanna (rihanna) | Nicki Minaj (nicki-minaj) | Ciara (ciara) | Britney Spears (britney-spears) | Cardi B (cardi-b) | Christina Aguilera (christina-aguilera) | Justin Timberlake (justin-timberlake) | Megan Thee Stallion (megan-thee-stallion) | Pussycat Dolls (pussycat-dolls) | Carters | Iggy Azalea (iggy-azalea) | USHER (usher) | Fergie (fergie) | Aaliyah (aaliyah) | Mariah Carey (mariah-carey) | Kelly Rowland (kelly-rowland) | Jessie J (jessie-j)",
+    "spotify_artist_id": "6vWDO969PvNqNYHIOW5v0m",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174247f44069c0bd1781df2f785"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3798",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3798"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3798"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ビヨンセ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174247f44069c0bd1781df2f785",
+  "artistActiveYearStart": "1997",
+  "occupation": "singer, songwriter, producer"
+}

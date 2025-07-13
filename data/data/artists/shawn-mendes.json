@@ -1,0 +1,63 @@
+{
+  "id": 1062,
+  "count": 10,
+  "description": "Shawn Mendes is a Canadian singer-songwriter.",
+  "link": "https://sub.music8.jp/category/shawn-mendes/",
+  "name": "Shawn Mendes",
+  "slug": "shawn-mendes",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "2013",
+    "artistborn": "19980808",
+    "artistdied": "",
+    "artistjpname": "ショーン・メンデス",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1062",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1062"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1062"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ショーン・メンデス",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2013",
+  "occupation": ""
+}

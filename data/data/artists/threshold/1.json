@@ -1,0 +1,358 @@
+{
+  "artist": {
+    "id": 2440,
+    "count": 2,
+    "description": "Threshold are an English progressive metal band.",
+    "link": "https://sub.music8.jp/category/threshold/",
+    "name": "Threshold",
+    "slug": "threshold",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1988",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "スレッショルド",
+      "member": [
+        {
+          "term_id": 906,
+          "name": "Prince",
+          "slug": "prince",
+          "term_group": 0,
+          "term_taxonomy_id": 906,
+          "taxonomy": "category",
+          "description": "Prince was an American singer, songwriter, musician, record producer, and actor.",
+          "parent": 0,
+          "count": 66,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2440",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2440"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2440"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38297,
+      "date": "2022-11-18T21:07:00",
+      "date_gmt": "2022-11-18T12:07:00",
+      "title": {
+        "rendered": "Haunted"
+      },
+      "content": {
+        "rendered": "\n<p>THRESHOLD-Haunted</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2440
+      ],
+      "tags": [],
+      "genre": [
+        671
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "42yseMcTIzOq5KXQKk7odV",
+        "spotify_release_date": "2022/11/18",
+        "spotify_name": "Haunted",
+        "spotify_artists": "Threshold",
+        "spotify_album": "DividingLines",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c2fb60b3ca959f632696e99f",
+        "spotify_duration_ms": "306026",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.489",
+        "spotify_energy": "0.892",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.142",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0473",
+        "spotify_tempo": "158.006",
+        "spotify_valence": "0.391",
+        "spotify_acousticness": "0.000429",
+        "spotify_instrumentalness": "0.000586",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0616",
+        "spotify_artists01": "Threshold",
+        "spotify_artists01_id": "7KTRbZ1YTch5oXQOmQTStM",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb666dbab64b10e21b2044480e",
+        "spotify_artists01_genres": "progmetal,progressivemetal",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "g9kaTZb4H2A",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/THRESHOLD-Haunted.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2440,
+            "name": "Threshold",
+            "slug": "threshold",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1988",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スレッショルド",
+              "member": [
+                {
+                  "term_id": 906,
+                  "name": "Prince",
+                  "slug": "prince",
+                  "term_group": 0,
+                  "term_taxonomy_id": 906,
+                  "taxonomy": "category",
+                  "description": "Prince was an American singer, songwriter, musician, record producer, and actor.",
+                  "parent": 0,
+                  "count": 66,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Threshold",
+        "ytvideoid": "g9kaTZb4H2A",
+        "spotify_track_id": "42yseMcTIzOq5KXQKk7odV"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive metal",
+          "slug": "progressive-metal",
+          "term_id": 671,
+          "post_count": 43
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "haunted"
+    },
+    {
+      "id": 38548,
+      "date": "2022-10-07T21:11:00",
+      "date_gmt": "2022-10-07T12:11:00",
+      "title": {
+        "rendered": "Complex"
+      },
+      "content": {
+        "rendered": "\n<p>THRESHOLD-Complex</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2440
+      ],
+      "tags": [],
+      "genre": [
+        671
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1yKblFSgMYjbpFWa5r6nXI",
+        "spotify_release_date": "2022/11/18",
+        "spotify_name": "Complex",
+        "spotify_artists": "Threshold",
+        "spotify_album": "DividingLines",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c2fb60b3ca959f632696e99f",
+        "spotify_duration_ms": "350693",
+        "spotify_popularity": "37",
+        "spotify_danceability": "0.461",
+        "spotify_energy": "0.949",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.873",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0586",
+        "spotify_tempo": "162.036",
+        "spotify_valence": "0.628",
+        "spotify_acousticness": "0.000248",
+        "spotify_instrumentalness": "0.000188",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.269",
+        "spotify_artists01": "Threshold",
+        "spotify_artists01_id": "7KTRbZ1YTch5oXQOmQTStM",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb666dbab64b10e21b2044480e",
+        "spotify_artists01_genres": "progmetal,progressivemetal",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "3XZ4crYfzE0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/THRESHOLD-Complex.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2440,
+            "name": "Threshold",
+            "slug": "threshold",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1988",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スレッショルド",
+              "member": [
+                {
+                  "term_id": 906,
+                  "name": "Prince",
+                  "slug": "prince",
+                  "term_group": 0,
+                  "term_taxonomy_id": 906,
+                  "taxonomy": "category",
+                  "description": "Prince was an American singer, songwriter, musician, record producer, and actor.",
+                  "parent": 0,
+                  "count": 66,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Threshold",
+        "ytvideoid": "3XZ4crYfzE0",
+        "spotify_track_id": "1yKblFSgMYjbpFWa5r6nXI"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive metal",
+          "slug": "progressive-metal",
+          "term_id": 671,
+          "post_count": 43
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "complex"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

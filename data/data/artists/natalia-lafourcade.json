@@ -1,0 +1,73 @@
+{
+  "id": 3605,
+  "count": 1,
+  "description": "Natalia Lafourcade is a Mexican pop-rock, jazz and folk singer and songwriter.",
+  "link": "https://sub.music8.jp/category/natalia-lafourcade/",
+  "name": "Natalia Lafourcade",
+  "slug": "natalia-lafourcade",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "MEX",
+    "artistactiveyearstart": "1998",
+    "artistborn": "19840226",
+    "artistjpname": "ナタリア・ラフォルカデ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3605",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3605"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3605"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ナタリア・ラフォルカデ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1998",
+  "occupation": "singer, songwriter"
+}

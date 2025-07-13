@@ -1,0 +1,212 @@
+{
+  "artist": {
+    "id": 2087,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/broken-bells/",
+    "name": "Broken Bells",
+    "slug": "broken-bells",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2009",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ブロークン・ベルズ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "6dgwEwnK0YtDfS9XhRwBTG",
+      "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174cafd2875af0609eed7b8422e"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2087",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2087"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2087"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38689,
+      "date": "2022-09-21T11:14:00",
+      "date_gmt": "2022-09-21T02:14:00",
+      "title": {
+        "rendered": "Love On The Run"
+      },
+      "content": {
+        "rendered": "\n<p>BrokenBells-LoveOnTheRun</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2087
+      ],
+      "tags": [],
+      "genre": [
+        391,
+        574,
+        677,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "66JOl2uj2S6t9h6BxtLhwO",
+        "spotify_release_date": "2022/10/7",
+        "spotify_name": "LoveOnTheRun",
+        "spotify_artists": "BrokenBells",
+        "spotify_album": "INTOTHEBLUE",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f984ff222e94abcb15205d26",
+        "spotify_duration_ms": "423346",
+        "spotify_popularity": "53",
+        "spotify_danceability": "0.532",
+        "spotify_energy": "0.67",
+        "spotify_key": "3",
+        "spotify_loudness": "-7.761",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0256",
+        "spotify_tempo": "139.984",
+        "spotify_valence": "0.338",
+        "spotify_acousticness": "0.115",
+        "spotify_instrumentalness": "0.688",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.146",
+        "spotify_artists01": "BrokenBells",
+        "spotify_artists01_id": "6dgwEwnK0YtDfS9XhRwBTG",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcafd2875af0609eed7b8422e",
+        "spotify_artists01_genres": "chamberpop,indierock,indietronica,laindie,modernrock",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "uLUzTbZcxG8",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Broken-Bells-Love-On-The-Run.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2087,
+            "name": "Broken Bells",
+            "slug": "broken-bells",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ブロークン・ベルズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "6dgwEwnK0YtDfS9XhRwBTG",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174cafd2875af0609eed7b8422e"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "BrokenBells",
+        "ytvideoid": "uLUzTbZcxG8",
+        "spotify_track_id": "66JOl2uj2S6t9h6BxtLhwO"
+      },
+      "genre_data": [
+        {
+          "name": "AOR",
+          "slug": "aor",
+          "term_id": 391,
+          "post_count": 10
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        },
+        {
+          "name": "Psychedelic pop",
+          "slug": "psychedelic-pop",
+          "term_id": 677,
+          "post_count": 79
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "love-on-the-run"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

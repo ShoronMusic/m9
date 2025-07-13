@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2193,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/wyn-starks/",
+    "name": "Wyn Starks",
+    "slug": "wyn-starks",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2193",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2193"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2193"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39195,
+      "date": "2022-07-12T14:31:00",
+      "date_gmt": "2022-07-12T05:31:00",
+      "title": {
+        "rendered": "Who I Am"
+      },
+      "content": {
+        "rendered": "\n<p>WynStarks-WhoIAm</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2193
+      ],
+      "tags": [],
+      "genre": [
+        685,
+        719
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5rnA7GuOZvPWYHuydZ08zx",
+        "spotify_release_date": "2021/9/24",
+        "spotify_name": "WhoIAm",
+        "spotify_artists": "WynStarks",
+        "spotify_album": "BlackIsGolden",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731b6ba58fa256a8ae7f1a2fa3",
+        "spotify_duration_ms": "203567",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.543",
+        "spotify_energy": "0.448",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.084",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0305",
+        "spotify_tempo": "105.238",
+        "spotify_valence": "0.325",
+        "spotify_acousticness": "0.786",
+        "spotify_instrumentalness": "3.49E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.12",
+        "spotify_artists01": "WynStarks",
+        "spotify_artists01_id": "3rXMN9AbcZXln8vo79ufNQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb34adefe9f529d4d86476a9b8",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "g8S1bjR-dGI",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Wyn-Starks-Who-I-Am.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2193,
+            "name": "Wyn Starks",
+            "slug": "wyn-starks",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "WynStarks",
+        "ytvideoid": "g8S1bjR-dGI",
+        "spotify_track_id": "5rnA7GuOZvPWYHuydZ08zx"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "who-i-am-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 2067,
+  "count": 4,
+  "description": "The BossHoss is a German band.",
+  "link": "https://sub.music8.jp/category/bosshoss/",
+  "name": "BossHoss",
+  "slug": "bosshoss",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "2004",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ボスホス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1sICjVlCMOCah0snHXWUz0",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517473fe8c087ca106d32fe4d6cb"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2067",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2067"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2067"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ボスホス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517473fe8c087ca106d32fe4d6cb",
+  "artistActiveYearStart": "2004",
+  "occupation": "band"
+}

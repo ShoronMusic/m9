@@ -1,0 +1,369 @@
+{
+  "artist": {
+    "id": 2385,
+    "count": 2,
+    "description": "KOR",
+    "link": "https://sub.music8.jp/category/tablo/",
+    "name": "Tablo",
+    "slug": "tablo",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2385",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2385"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2385"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 98440,
+      "date": "2025-05-02T11:13:04",
+      "date_gmt": "2025-05-02T02:13:04",
+      "title": {
+        "rendered": "Stop The Rain"
+      },
+      "content": {
+        "rendered": "<p>TABLO, RM - Stop The Rain</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4627,
+        2385
+      ],
+      "tags": [],
+      "genre": [
+        607,
+        657,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "ytvideoid": "ZXAcTToLy_Y",
+        "ytreleasedate": "",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7kb6IV0z8Nd7vejSdAq0YN",
+        "spotify_release_date": "2025-05-02",
+        "spotify_name": "Stop The Rain (TABLO X RM)",
+        "spotify_artists": "TABLO, RM",
+        "spotify_album": "Stop The Rain (TABLO X RM)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731b66776ed69c89c8d20dc060",
+        "spotify_duration_ms": "190356",
+        "spotify_popularity": "0",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "TABLO",
+        "spotify_artists01_id": "3NdOtTPPaXrCyC7Lpmzyhv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3a38127e499b6f18e2deaecd",
+        "spotify_artists01_genres": "k-rap, k-pop",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "RM",
+        "spotify_artists02_id": "2auC28zjQyVTsiZKNgPRGs",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb847fe9bbfef3acf7981acd2a",
+        "spotify_artists02_genres": "k-pop, k-rap",
+        "spotify_artists02_popularity": "73",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/tablo-rm-stop-the-rain.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4627,
+            "name": "RM",
+            "slug": "rm",
+            "acf": {
+              "artistorigin": "KOR",
+              "artistactiveyearstart": "2010",
+              "artistborn": "19941212",
+              "artistjpname": "",
+              "member": [
+                {
+                  "errors": {
+                    "invalid_term": [
+                      "空のターム。"
+                    ]
+                  },
+                  "error_data": []
+                }
+              ],
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "2auC28zjQyVTsiZKNgPRGs",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174847fe9bbfef3acf7981acd2a"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2385,
+            "name": "Tablo",
+            "slug": "tablo",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "TABLO, RM",
+        "ytvideoid": "ZXAcTToLy_Y",
+        "spotify_track_id": "7kb6IV0z8Nd7vejSdAq0YN"
+      },
+      "genre_data": [
+        {
+          "name": "Lofi hip hop",
+          "slug": "lofi-hip-hop",
+          "term_id": 607,
+          "post_count": 4
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "stop-the-rain"
+    },
+    {
+      "id": 38116,
+      "date": "2022-12-31T20:30:00",
+      "date_gmt": "2022-12-31T11:30:00",
+      "title": {
+        "rendered": "Imagine"
+      },
+      "content": {
+        "rendered": "\n<p>Boytoy-Imagine(Feat.JacksonWang&amp;Tablo)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2383,
+        2384,
+        2385
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5dREBNCLW6fqkY3y3KYRBq",
+        "spotify_release_date": "2022/12/31",
+        "spotify_name": "Imagine(feat.JacksonWang&Tablo)",
+        "spotify_artists": "BOYTOY,JacksonWang,Tablo",
+        "spotify_album": "Imagine",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b3cef7349440a64c32cad777",
+        "spotify_duration_ms": "152360",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.736",
+        "spotify_energy": "0.591",
+        "spotify_key": "9",
+        "spotify_loudness": "-5.955",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0422",
+        "spotify_tempo": "93.008",
+        "spotify_valence": "0.956",
+        "spotify_acousticness": "0.244",
+        "spotify_instrumentalness": "1.04E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.241",
+        "spotify_artists01": "BOYTOY",
+        "spotify_artists01_id": "06zgs9qixZMQVu8gthU5Du",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab67616d0000b273b3cef7349440a64c32cad777",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "28",
+        "spotify_artists02": "JacksonWang",
+        "spotify_artists02_id": "1kfWoWgCugPkyxQP8lkRlY",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb0405e7cc11aecb995703d398",
+        "spotify_artists02_genres": "k-pop",
+        "spotify_artists02_popularity": "66",
+        "spotify_artists03": "Tablo",
+        "spotify_artists03_id": "3NdOtTPPaXrCyC7Lpmzyhv",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb2ae0c418642876b7342964e8",
+        "spotify_artists03_genres": "k-pop,k-rap,koreanr&b",
+        "spotify_artists03_popularity": "51",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "tfZHXv_QWj8",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Boytoy-Imagine-Feat.-Jackson-Wang-Tablo.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2383,
+            "name": "Boytoy",
+            "slug": "boytoy",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2384,
+            "name": "Jackson Wang",
+            "slug": "jackson-wang",
+            "acf": {
+              "artistorigin": "HKG",
+              "artistactiveyearstart": "2014",
+              "artistborn": "19940328",
+              "artistdied": "",
+              "artistjpname": "ジャクソン",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2385,
+            "name": "Tablo",
+            "slug": "tablo",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "BOYTOY,JacksonWang,Tablo",
+        "ytvideoid": "tfZHXv_QWj8",
+        "spotify_track_id": "5dREBNCLW6fqkY3y3KYRBq"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "imagine"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,361 @@
+{
+  "artist": {
+    "id": 3044,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/another-life/",
+    "name": "Another Life",
+    "slug": "another-life",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "NZL",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3044",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3044"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3044"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61016,
+      "date": "2024-01-27T21:25:48",
+      "date_gmt": "2024-01-27T12:25:48",
+      "title": {
+        "rendered": "In Your Arms"
+      },
+      "content": {
+        "rendered": "<p>ARTBAT, Another Life - In Your Arms</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3044,
+        3042
+      ],
+      "tags": [],
+      "genre": [
+        742,
+        747
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7lLuAZCes4jKORs3ak8xZP",
+        "spotify_release_date": "2024-01-26",
+        "spotify_name": "In Your Arms",
+        "spotify_artists": "ARTBAT, Another Life",
+        "spotify_album": "In Your Arms",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c858bf328a2d5dbc877bd31a",
+        "spotify_duration_ms": "333750",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.692",
+        "spotify_energy": "0.736",
+        "spotify_key": "9",
+        "spotify_loudness": "-6.482",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0684",
+        "spotify_tempo": "128.005",
+        "spotify_valence": "0.182",
+        "spotify_acousticness": "0.000717",
+        "spotify_instrumentalness": "0.701",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.118",
+        "spotify_artists01": "ARTBAT",
+        "spotify_artists01_id": "3BkRu2TGd2I1uBxZKddfg1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb111dd7f3a44a7c5b9c1aeb06",
+        "spotify_artists01_genres": "ukrainian electronic",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "Another Life",
+        "spotify_artists02_id": "7fMAxXqd5hhcwbC1d0VkLQ",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb1c9d696660de9bb9c2b1039b",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "39",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "OOixxkZup_g",
+        "ytreleasedate": "2024/01/27"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ARTBAT-Another-Life-In-Your-Arms.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3044,
+            "name": "Another Life",
+            "slug": "another-life",
+            "acf": {
+              "artistorigin": "NZL",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3042,
+            "name": "ARTBAT",
+            "slug": "artbat",
+            "acf": {
+              "artistorigin": "UKR",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アートバット",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "3BkRu2TGd2I1uBxZKddfg1",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174111dd7f3a44a7c5b9c1aeb06",
+              "youtube_channel": "UCkFgRdbsN5d6gVqMB_lVaQg",
+              "wikipedia_page": "Artbat"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ARTBAT, Another Life",
+        "ytvideoid": "OOixxkZup_g",
+        "spotify_track_id": "7lLuAZCes4jKORs3ak8xZP"
+      },
+      "genre_data": [
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        },
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "in-your-arms"
+    },
+    {
+      "id": 50697,
+      "date": "2023-06-16T14:22:35",
+      "date_gmt": "2023-06-16T05:22:35",
+      "title": {
+        "rendered": "Breathe In"
+      },
+      "content": {
+        "rendered": "<p>ARTBAT, Another Life - Breathe In</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3044,
+        3042
+      ],
+      "tags": [],
+      "genre": [
+        670
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3qM2JuYrffLMLtwx8YOWxj",
+        "spotify_release_date": "2023-07-07",
+        "spotify_name": "Breathe In",
+        "spotify_artists": "ARTBAT, Another Life",
+        "spotify_album": "Breathe In",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c85f1cc36204bfc0ec6d2e95",
+        "spotify_duration_ms": "398314",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.684",
+        "spotify_energy": "0.639",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.713",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0575",
+        "spotify_tempo": "126.999",
+        "spotify_valence": "0.0316",
+        "spotify_acousticness": "0.00131",
+        "spotify_instrumentalness": "0.738",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.31",
+        "spotify_artists01": "ARTBAT",
+        "spotify_artists01_id": "3BkRu2TGd2I1uBxZKddfg1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba940b5335cc9cfb77b8ab10f",
+        "spotify_artists01_genres": "ukrainian electronic",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "Another Life",
+        "spotify_artists02_id": "7fMAxXqd5hhcwbC1d0VkLQ",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb1c9d696660de9bb9c2b1039b",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "37",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "1LnLTDWHiUg",
+        "ytreleasedate": "2023/06/16"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ARTBAT-Another-Life-Breathe-In.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3044,
+            "name": "Another Life",
+            "slug": "another-life",
+            "acf": {
+              "artistorigin": "NZL",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3042,
+            "name": "ARTBAT",
+            "slug": "artbat",
+            "acf": {
+              "artistorigin": "UKR",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アートバット",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "3BkRu2TGd2I1uBxZKddfg1",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174111dd7f3a44a7c5b9c1aeb06",
+              "youtube_channel": "UCkFgRdbsN5d6gVqMB_lVaQg",
+              "wikipedia_page": "Artbat"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ARTBAT, Another Life",
+        "ytvideoid": "1LnLTDWHiUg",
+        "spotify_track_id": "3qM2JuYrffLMLtwx8YOWxj"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "breathe-in"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

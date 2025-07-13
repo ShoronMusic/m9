@@ -1,0 +1,433 @@
+{
+  "artist": {
+    "id": 959,
+    "count": 3,
+    "description": "Icehouse are an Australian rock band",
+    "link": "https://sub.music8.jp/category/icehouse/",
+    "name": "Icehouse",
+    "slug": "icehouse",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "1977",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "アイスハウス",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/959",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=959"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=959"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47789,
+      "date": "1987-08-17T20:29:00",
+      "date_gmt": "1987-08-17T11:29:00",
+      "title": {
+        "rendered": "Electric Blue"
+      },
+      "content": {
+        "rendered": "<p>Icehouse - Electric Blue</p>\n",
+        "protected": false
+      },
+      "categories": [
+        959
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5aWvinQcbc1W1WdP0GQ6J1",
+        "spotify_release_date": "1987/9/21",
+        "spotify_name": "Electric Blue",
+        "spotify_artists": "ICEHOUSE",
+        "spotify_album": "Man Of Colours",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d1565d17bd1808f0ee0da90d",
+        "spotify_duration_ms": "263680",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.42824019993899326",
+        "spotify_energy": "1.1732282854446123",
+        "spotify_key": "1.282278568439206",
+        "spotify_loudness": "1.0010387072407192",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.38050442316393235",
+        "spotify_tempo": "-0.7035716410666485",
+        "spotify_valence": "-0.17868957939667524",
+        "spotify_acousticness": "-0.3241099290916912",
+        "spotify_instrumentalness": "-0.4115073571792163",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.5182367855054728",
+        "spotify_artists01": "ICEHOUSE",
+        "spotify_artists01_id": "3IUisqn0mluZR0LITs8Sqk",
+        "spotify_artists01_images": "https://i.scdn.co/image/31b4f749eeccc5a22f2fdcef5e4089973ab4524f",
+        "spotify_artists01_genres": "australian rock, new romantic, sophisti-pop, synthpop",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "IUFOVu1CurM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Icehouse-Electric-Blue.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 959,
+            "name": "Icehouse",
+            "slug": "icehouse",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1977",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アイスハウス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ICEHOUSE",
+        "ytvideoid": "IUFOVu1CurM",
+        "spotify_track_id": "5aWvinQcbc1W1WdP0GQ6J1"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "electric-blue"
+    },
+    {
+      "id": 47837,
+      "date": "1987-06-08T20:32:00",
+      "date_gmt": "1987-06-08T11:32:00",
+      "title": {
+        "rendered": "Crazy"
+      },
+      "content": {
+        "rendered": "<p>Icehouse - Crazy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        959
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "4tmXsNoNOk37DPBhVk5wK1",
+        "spotify_release_date": "1987/9/21",
+        "spotify_name": "Crazy",
+        "spotify_artists": "ICEHOUSE",
+        "spotify_album": "Man Of Colours",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d1565d17bd1808f0ee0da90d",
+        "spotify_duration_ms": "203920",
+        "spotify_popularity": "55",
+        "spotify_danceability": "-1.0854813629390803",
+        "spotify_energy": "1.4528549693773642",
+        "spotify_key": "-0.06778318339062644",
+        "spotify_loudness": "1.3713928994393656",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "1.6086402180021533",
+        "spotify_tempo": "-0.42903950017823406",
+        "spotify_valence": "-1.4678041218684827",
+        "spotify_acousticness": "-0.6706285375877985",
+        "spotify_instrumentalness": "-0.38446414245675686",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "0.9356756939468834",
+        "spotify_artists01": "ICEHOUSE",
+        "spotify_artists01_id": "3IUisqn0mluZR0LITs8Sqk",
+        "spotify_artists01_images": "https://i.scdn.co/image/31b4f749eeccc5a22f2fdcef5e4089973ab4524f",
+        "spotify_artists01_genres": "australian rock, new romantic, sophisti-pop, synthpop",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "dRpJaZbt0uQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Icehouse-Crazy.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 959,
+            "name": "Icehouse",
+            "slug": "icehouse",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1977",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アイスハウス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ICEHOUSE",
+        "ytvideoid": "dRpJaZbt0uQ",
+        "spotify_track_id": "4tmXsNoNOk37DPBhVk5wK1"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "crazy-2"
+    },
+    {
+      "id": 48174,
+      "date": "1985-10-28T20:24:00",
+      "date_gmt": "1985-10-28T11:24:00",
+      "title": {
+        "rendered": "No Promises"
+      },
+      "content": {
+        "rendered": "<p>Icehouse - No Promises</p>\n",
+        "protected": false
+      },
+      "categories": [
+        959
+      ],
+      "tags": [],
+      "genre": [
+        638
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "4AX3HUxF377bqmKfqC0s2N",
+        "spotify_release_date": "1986",
+        "spotify_name": "No Promises",
+        "spotify_artists": "ICEHOUSE",
+        "spotify_album": "Modern Girls - Original Motion Picture Soundtrack",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273850f1107c9b690e6e7839e0a",
+        "spotify_duration_ms": "222200",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.18182041063326101",
+        "spotify_energy": "-0.022175788367904042",
+        "spotify_key": "-0.06778318339062644",
+        "spotify_loudness": "-0.9454047884142257",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "-0.5292462657511285",
+        "spotify_tempo": "-0.4188372922398133",
+        "spotify_valence": "0.11771266941983496",
+        "spotify_acousticness": "-0.2907011843263714",
+        "spotify_instrumentalness": "-0.324943013039579",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.4120148691984514",
+        "spotify_artists01": "ICEHOUSE",
+        "spotify_artists01_id": "3IUisqn0mluZR0LITs8Sqk",
+        "spotify_artists01_images": "https://i.scdn.co/image/31b4f749eeccc5a22f2fdcef5e4089973ab4524f",
+        "spotify_artists01_genres": "australian rock, new romantic, sophisti-pop, synthpop",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "VTy09veZnBc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Icehouse-No-Promises.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 959,
+            "name": "Icehouse",
+            "slug": "icehouse",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1977",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アイスハウス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ICEHOUSE",
+        "ytvideoid": "VTy09veZnBc",
+        "spotify_track_id": "4AX3HUxF377bqmKfqC0s2N"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "no-promises"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

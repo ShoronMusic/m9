@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2174,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/k-michelle/",
+    "name": "K. Michelle",
+    "slug": "k-michelle",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2174",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2174"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2174"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39951,
+      "date": "2022-03-25T00:39:00",
+      "date_gmt": "2022-03-24T15:39:00",
+      "title": {
+        "rendered": "Scooch"
+      },
+      "content": {
+        "rendered": "\n<p>K.Michelle-Scooch</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2174
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2HfqP3Bz8kFN02kzYJvGWF",
+        "spotify_release_date": "2022/2/11",
+        "spotify_name": "Scooch",
+        "spotify_artists": "K.Michelle",
+        "spotify_album": "Scooch",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a9ed4bad89a07795a27a5b77",
+        "spotify_duration_ms": "213954",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.633",
+        "spotify_energy": "0.568",
+        "spotify_key": "1",
+        "spotify_loudness": "-5.69",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.147",
+        "spotify_tempo": "165.806",
+        "spotify_valence": "0.361",
+        "spotify_acousticness": "0.273",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.133",
+        "spotify_artists01": "K.Michelle",
+        "spotify_artists01_id": "2retT7MFwHDVTeGKDdybEx",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd5fcf997b744916af773195d",
+        "spotify_artists01_genres": "hippop,r&b,urbancontemporary",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ZcwLsL_NFAk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/K.-Michelle-Scooch.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2174,
+            "name": "K. Michelle",
+            "slug": "k-michelle",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "K.Michelle",
+        "ytvideoid": "ZcwLsL_NFAk",
+        "spotify_track_id": "2HfqP3Bz8kFN02kzYJvGWF"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "scooch"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

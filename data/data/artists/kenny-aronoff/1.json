@@ -1,0 +1,211 @@
+{
+  "artist": {
+    "id": 6795,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/kenny-aronoff/",
+    "name": "Kenny Aronoff",
+    "slug": "kenny-aronoff",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6795",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6795"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6795"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 99334,
+      "date": "2025-05-16T22:14:56",
+      "date_gmt": "2025-05-16T13:14:56",
+      "title": {
+        "rendered": "Fiend"
+      },
+      "content": {
+        "rendered": "<p>John 5, Kenny Aronoff - Fiend</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6794,
+        6795
+      ],
+      "tags": [],
+      "genre": [
+        560
+      ],
+      "vocal": [],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "oyrvpND-_Vw",
+        "ytreleasedate": "2025/05/16",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "",
+        "spotify_release_date": "",
+        "spotify_name": "undefined",
+        "spotify_artists": "",
+        "spotify_album": "",
+        "spotify_images": "",
+        "spotify_duration_ms": "",
+        "spotify_popularity": "",
+        "spotify_danceability": "",
+        "spotify_energy": "",
+        "spotify_key": "",
+        "spotify_loudness": "",
+        "spotify_mode": "",
+        "spotify_speechiness": "",
+        "spotify_tempo": "",
+        "spotify_valence": "",
+        "spotify_acousticness": "",
+        "spotify_instrumentalness": "",
+        "spotify_time_signature": "",
+        "spotify_liveness": "",
+        "spotify_artists01": "",
+        "spotify_artists01_id": "",
+        "spotify_artists01_images": "",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/John-5-Kenny-Aronoff-Fiend.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6794,
+            "name": "John 5",
+            "slug": "john-5",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1987",
+              "artistborn": "19700731",
+              "artistjpname": "",
+              "member": [
+                {
+                  "term_id": 3387,
+                  "name": "Mötley Crüe",
+                  "slug": "motley-crue",
+                  "term_group": 0,
+                  "term_taxonomy_id": 3387,
+                  "taxonomy": "category",
+                  "description": "Mötley Crüe is an American heavy metal band.",
+                  "parent": 0,
+                  "count": 36,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "guitaristr",
+                  "label": "Guitarist"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "7mAqCk75DUBWgcC0sqhzwX",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174db6620693d4000420d2cf6eb",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "",
+              "wikipedia_page": "John_5_(guitarist)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6795,
+            "name": "Kenny Aronoff",
+            "slug": "kenny-aronoff",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "",
+        "ytvideoid": "oyrvpND-_Vw",
+        "spotify_track_id": ""
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [],
+      "slug": "fiend"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 822,
+    "count": 1,
+    "description": "Modern English are an English new wave/post-punk band",
+    "link": "https://sub.music8.jp/category/modern-english/",
+    "name": "Modern English",
+    "slug": "modern-english",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1979",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "モダン・イングリッシュ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/822",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=822"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=822"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 48994,
+      "date": "1982-05-03T13:03:00",
+      "date_gmt": "1982-05-03T04:03:00",
+      "title": {
+        "rendered": "I Melt With You"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        822
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        665
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6J2rMSRhgb4HuX6dWgM3nJ",
+        "spotify_release_date": "1982/1/25",
+        "spotify_name": "I Melt with You",
+        "spotify_artists": "Modern English",
+        "spotify_album": "After the Snow",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273277f9005d9c9475965086560",
+        "spotify_duration_ms": "251573",
+        "spotify_popularity": "62",
+        "spotify_danceability": "-0.8654636939161042",
+        "spotify_energy": "0.48115224271105056",
+        "spotify_key": "-1.417844935220459",
+        "spotify_loudness": "-1.079673068704892",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.3516440656470136",
+        "spotify_tempo": "1.425397287319536",
+        "spotify_valence": "-0.15046079379510277",
+        "spotify_acousticness": "-0.7889188024836109",
+        "spotify_instrumentalness": "-0.40201986951717705",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.730016731142597",
+        "spotify_artists01": "Modern English",
+        "spotify_artists01_id": "0fYPQBOx0vsRMmjUba9HgF",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb928fcac38f549911e12b7866",
+        "spotify_artists01_genres": "new romantic, new wave, new wave pop, synthpop",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "RmDftGg1kQI",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Modern-English-I-Melt-With-You.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 822,
+            "name": "Modern English",
+            "slug": "modern-english",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1979",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "モダン・イングリッシュ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Modern English",
+        "ytvideoid": "RmDftGg1kQI",
+        "spotify_track_id": "6J2rMSRhgb4HuX6dWgM3nJ"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "i-melt-with-you"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

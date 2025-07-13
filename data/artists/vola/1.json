@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 3066,
+    "count": 1,
+    "description": "Vola are a Danish progressive metal band.",
+    "link": "https://sub.music8.jp/category/vola/",
+    "name": "VOLA",
+    "slug": "vola",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "DEN",
+      "artistactiveyearstart": "2006",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ヴォラ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3066",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3066"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3066"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50873,
+      "date": "2023-08-23T19:42:45",
+      "date_gmt": "2023-08-23T10:42:45",
+      "title": {
+        "rendered": "Paper Wolf"
+      },
+      "content": {
+        "rendered": "<p>VOLA - Paper Wolf</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3066
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        671
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "2oWTUw2pld68nYrhIB79cK",
+        "spotify_release_date": "2023-08-23",
+        "spotify_name": "Paper Wolf",
+        "spotify_artists": "VOLA",
+        "spotify_album": "Paper Wolf",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273eaeacada19ae759224b7c38e",
+        "spotify_duration_ms": "267040",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.477",
+        "spotify_energy": "0.937",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.392",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0568",
+        "spotify_tempo": "112.511",
+        "spotify_valence": "0.379",
+        "spotify_acousticness": "0.0000181",
+        "spotify_instrumentalness": "0.0163",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.215",
+        "spotify_artists01": "VOLA",
+        "spotify_artists01_id": "1HQjBwlj8FSHMhVaNQ4tEI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0c9372f85a19d13a547f86f7",
+        "spotify_artists01_genres": "djent, progressive alternative, progressive metal",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "zFv2tt8dNo0",
+        "ytreleasedate": "2023/08/23"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/VOLA-Paper-Wolf.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3066,
+            "name": "VOLA",
+            "slug": "vola",
+            "acf": {
+              "artistorigin": "DEN",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヴォラ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "VOLA",
+        "ytvideoid": "zFv2tt8dNo0",
+        "spotify_track_id": "2oWTUw2pld68nYrhIB79cK"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Progressive metal",
+          "slug": "progressive-metal",
+          "term_id": 671,
+          "post_count": 43
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "paper-wolf"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

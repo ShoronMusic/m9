@@ -1,0 +1,86 @@
+{
+  "id": 3815,
+  "count": 1,
+  "description": "Blanco is an Italian singer, rapper and songwriter.",
+  "link": "https://sub.music8.jp/category/blanco/",
+  "name": "BLANCO",
+  "slug": "blanco",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "ITA",
+    "artistactiveyearstart": "2020",
+    "artistborn": "20030210",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 1159,
+        "name": "No Doubt",
+        "slug": "no-doubt",
+        "term_group": 0,
+        "term_taxonomy_id": 1159,
+        "taxonomy": "category",
+        "description": "No Doubt was an American rock band",
+        "parent": 0,
+        "count": 15,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3815",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3815"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3815"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2020",
+  "occupation": "singer, songwriter"
+}

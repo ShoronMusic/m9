@@ -1,0 +1,182 @@
+{
+  "artist": {
+    "id": 2466,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/lena-scissorhands/",
+    "name": "Lena Scissorhands",
+    "slug": "lena-scissorhands",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2466",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2466"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2466"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38124,
+      "date": "2022-12-24T23:14:00",
+      "date_gmt": "2022-12-24T14:14:00",
+      "title": {
+        "rendered": "The Rule Of 21"
+      },
+      "content": {
+        "rendered": "\n<p>SEASONTHEMOON(feat.LenaScissorhands)-TheRuleOf21</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2466,
+        2454
+      ],
+      "tags": [],
+      "genre": [
+        514,
+        545
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "Dz3IauN7zis",
+        "likecount": "1",
+        "spotify_track_id": "67wjsmf0TcxuYXme6zUTqE",
+        "spotify_release_date": "2022/12/23",
+        "spotify_name": "TheRuleOf21",
+        "spotify_artists": "Seas on the Moon, Lena Scissorhands",
+        "spotify_album": "TheRuleOf21",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27363f7ad1d8f7d494106361437",
+        "spotify_duration_ms": "282272",
+        "spotify_popularity": "27",
+        "spotify_danceability": "0.373",
+        "spotify_energy": "0.958",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.365",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0452",
+        "spotify_tempo": "176.061",
+        "spotify_valence": "0.405",
+        "spotify_acousticness": "0.00396",
+        "spotify_instrumentalness": "0.00126",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.111",
+        "spotify_artists01": "SeasontheMoon",
+        "spotify_artists01_id": "4uIHW758guEB2kTjfmMBc8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb7674b5780a0d7aed2ffdec1",
+        "spotify_artists01_genres": "slayer",
+        "spotify_artists01_popularity": "25",
+        "spotify_artists02": "LenaScissorhands",
+        "spotify_artists02_id": "5FEXEjkn7RZM0XycCEkSvP",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "16",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/SEAS-ON-THE-MOON-feat.-Lena-Scissorhands-The-Rule-Of-21.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2466,
+            "name": "Lena Scissorhands",
+            "slug": "lena-scissorhands",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2454,
+            "name": "Seas on the Moon",
+            "slug": "seas-on-the-moon",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Seas on the Moon, Lena Scissorhands",
+        "ytvideoid": "Dz3IauN7zis",
+        "spotify_track_id": "67wjsmf0TcxuYXme6zUTqE"
+      },
+      "genre_data": [
+        {
+          "name": "Extreme metal",
+          "slug": "extreme-metal",
+          "term_id": 514,
+          "post_count": 1
+        },
+        {
+          "name": "Gothic metal",
+          "slug": "gothic-metal",
+          "term_id": 545,
+          "post_count": 22
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "the-rule-of-21"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

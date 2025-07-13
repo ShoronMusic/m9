@@ -1,0 +1,75 @@
+{
+  "id": 2246,
+  "count": 3,
+  "description": "Rammstein is a German Neue Deutsche Härte band",
+  "link": "https://sub.music8.jp/category/rammstein/",
+  "name": "Rammstein",
+  "slug": "rammstein",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "1994",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ラムシュタイン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6wWVKhxIU2cEi0K81v7HvP",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517432845b1556f9dbdfe8ee6575",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "UCYp3rk70ACGXQ4gFAiMr1SQ",
+    "wikipedia_page": "Rammstein"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2246",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2246"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2246"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ラムシュタイン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517432845b1556f9dbdfe8ee6575",
+  "artistActiveYearStart": "1994",
+  "occupation": "band"
+}

@@ -1,0 +1,99 @@
+{
+  "id": 768,
+  "count": 50,
+  "description": "Sting, is an English musician and actor. He was the frontman, songwriter and bassist for new wave band the Police.",
+  "link": "https://sub.music8.jp/category/sting/",
+  "name": "Sting",
+  "slug": "sting",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1971",
+    "artistborn": "19511002",
+    "artistdied": "",
+    "artistjpname": "スティング",
+    "member": [
+      {
+        "term_id": 2,
+        "name": "Police",
+        "slug": "police",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "The Police were an English rock band formed in London in 1977.",
+        "parent": 0,
+        "count": 22,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "bassist",
+        "label": "Bassist"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "0Ty63ceoRnnJKVEYP0VQpk",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749fdb4dab484a9f12e347c216",
+    "youtube_channel": "UCwERP8ZAI10RtZIAPsZQDDw",
+    "wikipedia_page": "Sting_(musician)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/768",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=768"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=768"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "スティング",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051749fdb4dab484a9f12e347c216",
+  "artistActiveYearStart": "1971",
+  "occupation": "singer, songwriter, musician, bassist"
+}

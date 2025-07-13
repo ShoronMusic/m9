@@ -1,0 +1,82 @@
+{
+  "id": 1441,
+  "count": 1,
+  "description": "Phil Collen  is an English musician, co-lead guitarist for the rock band Def Leppard.",
+  "link": "https://sub.music8.jp/category/phil-collen/",
+  "name": "Phil Collen",
+  "slug": "phil-collen",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1974",
+    "artistborn": "19571208",
+    "artistdied": "",
+    "artistjpname": "フィル・コリン",
+    "member": [
+      {
+        "term_id": 2238,
+        "name": "Def Leppard",
+        "slug": "def-leppard",
+        "term_group": 0,
+        "term_taxonomy_id": 2238,
+        "taxonomy": "category",
+        "description": "Def Leppard is an English rock band.",
+        "parent": 0,
+        "count": 50,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "guitaristr",
+        "label": "Guitarist"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1441",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1441"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1441"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "フィル・コリン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1974",
+  "occupation": "guitaristr"
+}

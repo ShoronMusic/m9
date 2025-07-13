@@ -1,0 +1,433 @@
+{
+  "artist": {
+    "id": 1661,
+    "count": 3,
+    "description": "Lee Brice is an American country music singer and songwriter.",
+    "link": "https://sub.music8.jp/category/lee-brice/",
+    "name": "Lee Brice",
+    "slug": "lee-brice",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2007",
+      "artistborn": "19790610",
+      "artistdied": "",
+      "artistjpname": "リー・ブライス",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1661",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1661"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1661"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41644,
+      "date": "2020-04-10T20:57:00",
+      "date_gmt": "2020-04-10T11:57:00",
+      "title": {
+        "rendered": "One of Them Girls"
+      },
+      "content": {
+        "rendered": "\n<p>LeeBrice-OneofThemGirls</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1661
+      ],
+      "tags": [],
+      "genre": [
+        465
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6uyiyatWPCqC59Mm4rO8xL",
+        "spotify_release_date": "2020/11/20",
+        "spotify_name": "One Of Them Girls",
+        "spotify_artists": "Lee Brice",
+        "spotify_album": "Hey World",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fc27d74c91d8fa9e528b288c",
+        "spotify_duration_ms": "188893",
+        "spotify_popularity": "77",
+        "spotify_danceability": "0.643",
+        "spotify_energy": "0.79",
+        "spotify_key": "4",
+        "spotify_loudness": "-6.079",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0461",
+        "spotify_tempo": "95.981",
+        "spotify_valence": "0.808",
+        "spotify_acousticness": "0.29",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "Lee Brice",
+        "spotify_artists01_id": "5Zq7R5qmi58ByYyBQTlNuk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdda79571deaba197ad4793e2",
+        "spotify_artists01_genres": "contemporary country, country, country road, modern country rock",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "CpkZfkxdj2c",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lee-Brice-One-of-Them-Girls.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1661,
+            "name": "Lee Brice",
+            "slug": "lee-brice",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19790610",
+              "artistdied": "",
+              "artistjpname": "リー・ブライス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Lee Brice",
+        "ytvideoid": "CpkZfkxdj2c",
+        "spotify_track_id": "6uyiyatWPCqC59Mm4rO8xL"
+      },
+      "genre_data": [
+        {
+          "name": "Country",
+          "slug": "country",
+          "term_id": 465,
+          "post_count": 123
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "one-of-them-girls"
+    },
+    {
+      "id": 41937,
+      "date": "2019-10-07T09:46:00",
+      "date_gmt": "2019-10-07T00:46:00",
+      "title": {
+        "rendered": "I Hope You're Happy Now"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1664,
+        1661
+      ],
+      "tags": [],
+      "genre": [
+        465
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "SBBhyMYnwCw",
+        "likecount": "0",
+        "spotify_track_id": "0Al3wN3keprGTSgG8NBwjr",
+        "spotify_release_date": "2020/2/14",
+        "spotify_artists": "Carly Pearce, Lee Brice",
+        "spotify_album": "Carly Pearce",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736d66467f90a58d06c5bf70e1",
+        "spotify_duration_ms": "198688",
+        "spotify_popularity": "72",
+        "spotify_danceability": "0.591",
+        "spotify_energy": "0.815",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.725",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0366",
+        "spotify_tempo": "118.024",
+        "spotify_valence": "0.306",
+        "spotify_acousticness": "0.168",
+        "spotify_instrumentalness": "8.68E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.142",
+        "spotify_artists01": "Carly Pearce",
+        "spotify_artists01_id": "4sIl4BTo9l9KqEi0Y3RE72",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0279b6e03339bc092b85c8e0",
+        "spotify_artists01_genres": "contemporary country, country, country road",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "Lee Brice",
+        "spotify_artists02_id": "5Zq7R5qmi58ByYyBQTlNuk",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebdda79571deaba197ad4793e2",
+        "spotify_artists02_genres": "contemporary country, country, country road, modern country rock",
+        "spotify_artists02_popularity": "69",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_name": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Carly-Pearce-Lee-Brice-I-Hope-Youre-Happy-Now.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1664,
+            "name": "Carly Pearce",
+            "slug": "carly-pearce",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1661,
+            "name": "Lee Brice",
+            "slug": "lee-brice",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19790610",
+              "artistdied": "",
+              "artistjpname": "リー・ブライス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Carly Pearce, Lee Brice",
+        "ytvideoid": "SBBhyMYnwCw",
+        "spotify_track_id": "0Al3wN3keprGTSgG8NBwjr"
+      },
+      "genre_data": [
+        {
+          "name": "Country",
+          "slug": "country",
+          "term_id": 465,
+          "post_count": 123
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "i-hope-youre-happy-now"
+    },
+    {
+      "id": 42615,
+      "date": "2018-07-16T13:16:00",
+      "date_gmt": "2018-07-16T04:16:00",
+      "title": {
+        "rendered": "Rumor"
+      },
+      "content": {
+        "rendered": "\n<p>LeeBrice-Rumor</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1661
+      ],
+      "tags": [],
+      "genre": [
+        465
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "56eGOeSsqdg3FLxdo83TwV",
+        "spotify_release_date": "2017/11/3",
+        "spotify_name": "Rumor",
+        "spotify_artists": "Lee Brice",
+        "spotify_album": "Lee Brice",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735c91538e2bc9a8c4b5cc6497",
+        "spotify_duration_ms": "198440",
+        "spotify_popularity": "75",
+        "spotify_danceability": "0.655",
+        "spotify_energy": "0.56",
+        "spotify_key": "9",
+        "spotify_loudness": "-6.857",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0486",
+        "spotify_tempo": "140.975",
+        "spotify_valence": "0.599",
+        "spotify_acousticness": "0.749",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.115",
+        "spotify_artists01": "Lee Brice",
+        "spotify_artists01_id": "5Zq7R5qmi58ByYyBQTlNuk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdda79571deaba197ad4793e2",
+        "spotify_artists01_genres": "contemporary country, country, country road, modern country rock",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ObptpVRe6ek",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lee-Brice-Rumor.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1661,
+            "name": "Lee Brice",
+            "slug": "lee-brice",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19790610",
+              "artistdied": "",
+              "artistjpname": "リー・ブライス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Lee Brice",
+        "ytvideoid": "ObptpVRe6ek",
+        "spotify_track_id": "56eGOeSsqdg3FLxdo83TwV"
+      },
+      "genre_data": [
+        {
+          "name": "Country",
+          "slug": "country",
+          "term_id": 465,
+          "post_count": 123
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rumor"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

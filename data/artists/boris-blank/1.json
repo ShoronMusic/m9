@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 3853,
+    "count": 1,
+    "description": "Boris Blank is a Swiss artist and musician.",
+    "link": "https://sub.music8.jp/category/boris-blank/",
+    "name": "Boris Blank",
+    "slug": "boris-blank",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SUI",
+      "artistactiveyearstart": "1979",
+      "artistborn": "19520115",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "musician",
+          "label": "Musician"
+        }
+      ],
+      "related_artists": "",
+      "spotify_artist_id": "3vd0S87A6gMzZIMh0F5TOS",
+      "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d2f4902f6c366b74646b6cf2"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3853",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3853"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3853"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58311,
+      "date": "2023-12-01T22:07:49",
+      "date_gmt": "2023-12-01T13:07:49",
+      "title": {
+        "rendered": "Vertigo Heroes"
+      },
+      "content": {
+        "rendered": "<p>Boris Blank - Vertigo Heroes</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3853
+      ],
+      "tags": [],
+      "genre": [
+        742
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4t8pGHCCovZHLiLiuV7agI",
+        "spotify_release_date": "2023-12-01",
+        "spotify_name": "Vertigo Heroes - Part I",
+        "spotify_artists": "Boris Blank",
+        "spotify_album": "Vertigo Heroes (Part I)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b5ff37a9dd3d340af5b5c344",
+        "spotify_duration_ms": "224006",
+        "spotify_popularity": "24",
+        "spotify_danceability": "0.528",
+        "spotify_energy": "0.593",
+        "spotify_key": "10",
+        "spotify_loudness": "-12.117",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0337",
+        "spotify_tempo": "90.027",
+        "spotify_valence": "0.118",
+        "spotify_acousticness": "0.0387",
+        "spotify_instrumentalness": "0.796",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0826",
+        "spotify_artists01": "Boris Blank",
+        "spotify_artists01_id": "3vd0S87A6gMzZIMh0F5TOS",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd2f4902f6c366b74646b6cf2",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "30",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "0g8TqOp8OJ4",
+        "ytreleasedate": "2023/12/01"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Boris-Blank-Vertigo-Heroes-Part-I.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3853,
+            "name": "Boris Blank",
+            "slug": "boris-blank",
+            "acf": {
+              "artistorigin": "SUI",
+              "artistactiveyearstart": "1979",
+              "artistborn": "19520115",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "3vd0S87A6gMzZIMh0F5TOS",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d2f4902f6c366b74646b6cf2"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Boris Blank",
+        "ytvideoid": "0g8TqOp8OJ4",
+        "spotify_track_id": "4t8pGHCCovZHLiLiuV7agI"
+      },
+      "genre_data": [
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        }
+      ],
+      "vocal_data": [],
+      "slug": "vertigo-heroes"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 5234,
+  "count": 1,
+  "description": "Credit to the Nation are a British hip hop group.",
+  "link": "https://sub.music8.jp/category/credit-to-the-nation/",
+  "name": "Credit To The Nation",
+  "slug": "credit-to-the-nation",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1992-1998",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "group",
+        "label": "Group"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6xAcEmvfaiXufrU35TMMRK",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bc1e1483b21c1aadae4fbc1f"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5234",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5234"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5234"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174bc1e1483b21c1aadae4fbc1f",
+  "artistActiveYearStart": "1992-1998",
+  "occupation": "group"
+}

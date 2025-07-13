@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 3918,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/baby-bugs/",
+    "name": "Baby Bugs",
+    "slug": "baby-bugs",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3918",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3918"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3918"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58957,
+      "date": "2023-03-03T21:04:34",
+      "date_gmt": "2023-03-03T12:04:34",
+      "title": {
+        "rendered": "He Loves Me"
+      },
+      "content": {
+        "rendered": "<p>Baby Bugs - He Loves Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3918
+      ],
+      "tags": [],
+      "genre": [
+        520,
+        753
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4n9zRMC8orbZ8P53Hosi1A",
+        "spotify_release_date": "2023-03-03",
+        "spotify_name": "He Loves Me (He Loves Me Not)",
+        "spotify_artists": "Baby Bugs",
+        "spotify_album": "He Loves Me (He Loves Me Not)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a6d2e2ede29974f6a5d734cd",
+        "spotify_duration_ms": "231949",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.414",
+        "spotify_energy": "0.451",
+        "spotify_key": "3",
+        "spotify_loudness": "-6.748",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0363",
+        "spotify_tempo": "100.458",
+        "spotify_valence": "0.364",
+        "spotify_acousticness": "0.738",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.209",
+        "spotify_artists01": "Baby Bugs",
+        "spotify_artists01_id": "3TBTcHpZ3aV1g8rk8i1zb5",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc2854a6a02034b475809e973",
+        "spotify_artists01_genres": "pov: indie, weirdcore",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "7_ch3U4I9Sc",
+        "ytreleasedate": "2023/03/03"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Baby-Bugs-He-Loves-Me-He-Loves-Me-Not.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3918,
+            "name": "Baby Bugs",
+            "slug": "baby-bugs",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Baby Bugs",
+        "ytvideoid": "7_ch3U4I9Sc",
+        "spotify_track_id": "4n9zRMC8orbZ8P53Hosi1A"
+      },
+      "genre_data": [
+        {
+          "name": "Folk-pop",
+          "slug": "folk-pop",
+          "term_id": 520,
+          "post_count": 191
+        },
+        {
+          "name": "Twee pop",
+          "slug": "twee-pop",
+          "term_id": 753,
+          "post_count": 23
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "he-loves-me"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

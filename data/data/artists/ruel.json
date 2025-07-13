@@ -1,0 +1,69 @@
+{
+  "id": 2550,
+  "count": 4,
+  "description": "Ruel is an Australian singer and songwriter. ",
+  "link": "https://sub.music8.jp/category/ruel/",
+  "name": "Ruel",
+  "slug": "ruel",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2017",
+    "artistborn": "20021029",
+    "artistdied": "",
+    "artistjpname": "ルエル",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2550",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2550"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2550"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ルエル",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2017",
+  "occupation": "ssw"
+}

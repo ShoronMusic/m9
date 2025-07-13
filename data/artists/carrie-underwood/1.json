@@ -1,0 +1,526 @@
+{
+  "artist": {
+    "id": 1472,
+    "count": 3,
+    "description": "Carrie Underwood is an American singer, songwriter, and actress.",
+    "link": "https://sub.music8.jp/category/carrie-underwood/",
+    "name": "Carrie Underwood",
+    "slug": "carrie-underwood",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2005",
+      "artistborn": "19830310",
+      "artistdied": "",
+      "artistjpname": "キャリー・アンダーウッド",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1472",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1472"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1472"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40832,
+      "date": "2021-07-23T12:10:00",
+      "date_gmt": "2021-07-23T03:10:00",
+      "title": {
+        "rendered": "If I Didn't Love You"
+      },
+      "content": {
+        "rendered": "\n<p>JasonAldean&amp;CarrieUnderwood-IfIDidn'tLoveYou</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1472,
+        1325
+      ],
+      "tags": [],
+      "genre": [
+        462,
+        466
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "1WQ40xJSvgDmD9K7ckJwux",
+        "spotify_release_date": "2021/11/12",
+        "spotify_name": "If I Didn't Love You",
+        "spotify_artists": "Jason Aldean, Carrie Underwood",
+        "spotify_album": "MACON",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273966a63131e7b82b4669aaafa",
+        "spotify_duration_ms": "212030",
+        "spotify_popularity": "72",
+        "spotify_danceability": "0.456",
+        "spotify_energy": "0.679",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.802",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0324",
+        "spotify_tempo": "184.075",
+        "spotify_valence": "0.483",
+        "spotify_acousticness": "0.176",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.103",
+        "spotify_artists01": "Jason Aldean",
+        "spotify_artists01_id": "3FfvYsEGaIb52QPXhg4DcH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebef304e8a2b8af89a26cfc65b",
+        "spotify_artists01_genres": "contemporary country, country, country road, modern country rock",
+        "spotify_artists01_popularity": "74",
+        "spotify_artists02": "Carrie Underwood",
+        "spotify_artists02_id": "4xFUf1FHVy696Q1JQZMTRj",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc1c077c305eb4b2bcac25fd5",
+        "spotify_artists02_genres": "classic oklahoma country, contemporary country, country, country dawn, country road, dance pop",
+        "spotify_artists02_popularity": "70",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Zc3cxj5pDIs",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Jason-Aldean-Carrie-Underwood-If-I-Didnt-Love-You.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1472,
+            "name": "Carrie Underwood",
+            "slug": "carrie-underwood",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2005",
+              "artistborn": "19830310",
+              "artistdied": "",
+              "artistjpname": "キャリー・アンダーウッド",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1325,
+            "name": "Jason Aldean",
+            "slug": "jason-aldean",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1998",
+              "artistborn": "19770228",
+              "artistdied": "",
+              "artistjpname": "ジェイソン・アルディーン",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Jason Aldean, Carrie Underwood",
+        "ytvideoid": "Zc3cxj5pDIs",
+        "spotify_track_id": "1WQ40xJSvgDmD9K7ckJwux"
+      },
+      "genre_data": [
+        {
+          "name": "Comedy rock",
+          "slug": "comedy-rock",
+          "term_id": 462,
+          "post_count": 4
+        },
+        {
+          "name": "Country pop",
+          "slug": "country-pop",
+          "term_id": 466,
+          "post_count": 142
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "if-i-didnt-love-you"
+    },
+    {
+      "id": 43977,
+      "date": "2013-04-06T13:43:00",
+      "date_gmt": "2013-04-06T04:43:00",
+      "title": {
+        "rendered": "Can't Stop Lovin' You"
+      },
+      "content": {
+        "rendered": "\n<p>Aerosmith-Can'tStopLovin'Youft.CarrieUnderwood</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1468,
+        1472
+      ],
+      "tags": [],
+      "genre": [
+        468,
+        553
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "795ERoqNFbElIkkGNJV58Y",
+        "spotify_release_date": "2012/11/6",
+        "spotify_name": "Can't Stop Lovin' You",
+        "spotify_artists": "Aerosmith, Carrie Underwood",
+        "spotify_album": "Music From Another Dimension! (Expanded Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736778a3f53764c3ba3bc08d45",
+        "spotify_duration_ms": "244386",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.526",
+        "spotify_energy": "0.822",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.192",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0337",
+        "spotify_tempo": "139.973",
+        "spotify_valence": "0.596",
+        "spotify_acousticness": "0.011",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.456",
+        "spotify_artists01": "Aerosmith",
+        "spotify_artists01_id": "7Ey4PD4MYsKc5I2dolUwbH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc5733401b4689b2064458e7d",
+        "spotify_artists01_genres": "album rock, classic rock, hard rock, rock",
+        "spotify_artists01_popularity": "74",
+        "spotify_artists02": "Carrie Underwood",
+        "spotify_artists02_id": "4xFUf1FHVy696Q1JQZMTRj",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc1c077c305eb4b2bcac25fd5",
+        "spotify_artists02_genres": "classic oklahoma country, contemporary country, country, country dawn, country road, dance pop",
+        "spotify_artists02_popularity": "70",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "y85NGAUPcQs",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Aerosmith-Cant-Stop-Lovin-You.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1468,
+            "name": "Aerosmith",
+            "slug": "aerosmith",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1970",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "エアロスミス",
+              "member": false,
+              "artistimage1": {
+                "ID": 67670,
+                "id": 67670,
+                "title": "aerosmith",
+                "filename": "aerosmith.webp",
+                "filesize": 13458,
+                "url": "https://sub.music8.jp/wp-content/uploads/aerosmith.webp",
+                "link": "https://sub.music8.jp/aerosmith/",
+                "alt": "",
+                "author": "1",
+                "description": "",
+                "caption": "",
+                "name": "aerosmith",
+                "status": "inherit",
+                "uploaded_to": 0,
+                "date": "2024-05-29 02:04:33",
+                "modified": "2024-05-29 02:04:33",
+                "menu_order": 0,
+                "mime_type": "image/webp",
+                "type": "image",
+                "subtype": "webp",
+                "icon": "https://sub.music8.jp/wp-includes/images/media/default.png",
+                "width": 350,
+                "height": 350,
+                "sizes": {
+                  "thumbnail": "https://sub.music8.jp/wp-content/uploads/aerosmith.webp",
+                  "thumbnail-width": 50,
+                  "thumbnail-height": 50,
+                  "medium": "https://sub.music8.jp/wp-content/uploads/aerosmith-50x50.webp",
+                  "medium-width": 50,
+                  "medium-height": 50,
+                  "medium_large": "https://sub.music8.jp/wp-content/uploads/aerosmith.webp",
+                  "medium_large-width": 350,
+                  "medium_large-height": 350,
+                  "large": "https://sub.music8.jp/wp-content/uploads/aerosmith-100x100.webp",
+                  "large-width": 100,
+                  "large-height": 100,
+                  "1536x1536": "https://sub.music8.jp/wp-content/uploads/aerosmith.webp",
+                  "1536x1536-width": 350,
+                  "1536x1536-height": 350,
+                  "2048x2048": "https://sub.music8.jp/wp-content/uploads/aerosmith.webp",
+                  "2048x2048-width": 350,
+                  "2048x2048-height": 350
+                }
+              },
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "7Ey4PD4MYsKc5I2dolUwbH",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c5733401b4689b2064458e7d"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1472,
+            "name": "Carrie Underwood",
+            "slug": "carrie-underwood",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2005",
+              "artistborn": "19830310",
+              "artistdied": "",
+              "artistjpname": "キャリー・アンダーウッド",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Aerosmith, Carrie Underwood",
+        "ytvideoid": "y85NGAUPcQs",
+        "spotify_track_id": "795ERoqNFbElIkkGNJV58Y"
+      },
+      "genre_data": [
+        {
+          "name": "Country rock",
+          "slug": "country-rock",
+          "term_id": 468,
+          "post_count": 89
+        },
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "cant-stop-lovin-you"
+    },
+    {
+      "id": 71354,
+      "date": "2005-06-14T11:38:56",
+      "date_gmt": "2005-06-14T02:38:56",
+      "title": {
+        "rendered": "Inside Your Heaven"
+      },
+      "content": {
+        "rendered": "<p>Carrie Underwood - Inside Your Heaven</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1472
+      ],
+      "tags": [],
+      "genre": [
+        465,
+        466
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "OptOGu3Nl5M",
+        "ytreleasedate": "",
+        "spotify_track_id": "25ry9EyyRsp1dDctlAclin",
+        "spotify_release_date": "2014-12-09",
+        "spotify_name": "Inside Your Heaven",
+        "spotify_artists": "キャリー・アンダーウッド",
+        "spotify_album": "Greatest Hits: Decade #1",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739ea5deacdf2b7999500d3f9a",
+        "spotify_duration_ms": "243266",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.38",
+        "spotify_energy": "0.596",
+        "spotify_key": "7",
+        "spotify_loudness": "-3.469",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0315",
+        "spotify_tempo": "134.443",
+        "spotify_valence": "0.16",
+        "spotify_acousticness": "0.123",
+        "spotify_instrumentalness": "0.00000146",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.132",
+        "spotify_artists01": "キャリー・アンダーウッド",
+        "spotify_artists01_id": "4xFUf1FHVy696Q1JQZMTRj",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6d81a16f9d1b2abf04e765a6",
+        "spotify_artists01_genres": "classic oklahoma country, contemporary country, country, country dawn, dance pop, pop",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2739ea5deacdf2b7999500d3f9a.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1472,
+            "name": "Carrie Underwood",
+            "slug": "carrie-underwood",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2005",
+              "artistborn": "19830310",
+              "artistdied": "",
+              "artistjpname": "キャリー・アンダーウッド",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "キャリー・アンダーウッド",
+        "ytvideoid": "OptOGu3Nl5M",
+        "spotify_track_id": "25ry9EyyRsp1dDctlAclin"
+      },
+      "genre_data": [
+        {
+          "name": "Country",
+          "slug": "country",
+          "term_id": 465,
+          "post_count": 123
+        },
+        {
+          "name": "Country pop",
+          "slug": "country-pop",
+          "term_id": 466,
+          "post_count": 142
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "inside-your-heaven"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

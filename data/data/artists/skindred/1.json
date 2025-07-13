@@ -1,0 +1,462 @@
+{
+  "artist": {
+    "id": 2450,
+    "count": 3,
+    "description": "Skindred is a Welsh band.",
+    "link": "https://sub.music8.jp/category/skindred/",
+    "name": "Skindred",
+    "slug": "skindred",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1998",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "スキンドレッド",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2450",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2450"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2450"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 62984,
+      "date": "2023-07-19T14:13:25",
+      "date_gmt": "2023-07-19T05:13:25",
+      "title": {
+        "rendered": "Unstoppable"
+      },
+      "content": {
+        "rendered": "<p>Skindred - Unstoppable</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2450
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        687
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "c0bm1XfDtdY",
+        "ytreleasedate": "2023/07/19",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "41YqZ01I6xnP64LzTQcdGz",
+        "spotify_release_date": "2023-08-04",
+        "spotify_name": "Unstoppable",
+        "spotify_artists": "Skindred",
+        "spotify_album": "Smile",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27358bba342cc60783fff648dc0",
+        "spotify_duration_ms": "183693",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.587",
+        "spotify_energy": "0.752",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.889",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.139",
+        "spotify_tempo": "76.996",
+        "spotify_valence": "0.627",
+        "spotify_acousticness": "0.00128",
+        "spotify_instrumentalness": "0.001",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "Skindred",
+        "spotify_artists01_id": "3jTlKw98Ql1jGRPYqhqHap",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6b80f0b7f586425528d9eedd",
+        "spotify_artists01_genres": "alternative metal, nu metal, rap metal, reggae fusion, welsh metal, welsh rock",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Skindred-Unstoppable.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2450,
+            "name": "Skindred",
+            "slug": "skindred",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1998",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スキンドレッド",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Skindred",
+        "ytvideoid": "c0bm1XfDtdY",
+        "spotify_track_id": "41YqZ01I6xnP64LzTQcdGz"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Rap Metal",
+          "slug": "rap-metal",
+          "term_id": 687,
+          "post_count": 32
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "unstoppable-3"
+    },
+    {
+      "id": 62988,
+      "date": "2023-03-22T14:17:34",
+      "date_gmt": "2023-03-22T05:17:34",
+      "title": {
+        "rendered": "Set Fazers"
+      },
+      "content": {
+        "rendered": "<p>Skindred - Set Fazers</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2450
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        687
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "_TYTG2QmhKc",
+        "ytreleasedate": "2023/03/22",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1IYOdwWpd4IQKwqhRPpklu",
+        "spotify_release_date": "2023-08-04",
+        "spotify_name": "Set Fazers",
+        "spotify_artists": "Skindred",
+        "spotify_album": "Smile",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27358bba342cc60783fff648dc0",
+        "spotify_duration_ms": "195320",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.697",
+        "spotify_energy": "0.739",
+        "spotify_key": "2",
+        "spotify_loudness": "-8.722",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0854",
+        "spotify_tempo": "115.976",
+        "spotify_valence": "0.331",
+        "spotify_acousticness": "0.00162",
+        "spotify_instrumentalness": "0.00889",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0901",
+        "spotify_artists01": "Skindred",
+        "spotify_artists01_id": "3jTlKw98Ql1jGRPYqhqHap",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6b80f0b7f586425528d9eedd",
+        "spotify_artists01_genres": "alternative metal, nu metal, rap metal, reggae fusion, welsh metal, welsh rock",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Skindred-Set-Fazers.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2450,
+            "name": "Skindred",
+            "slug": "skindred",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1998",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スキンドレッド",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Skindred",
+        "ytvideoid": "_TYTG2QmhKc",
+        "spotify_track_id": "1IYOdwWpd4IQKwqhRPpklu"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Rap Metal",
+          "slug": "rap-metal",
+          "term_id": 687,
+          "post_count": 32
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "set-fazers"
+    },
+    {
+      "id": 38372,
+      "date": "2022-11-08T22:55:00",
+      "date_gmt": "2022-11-08T13:55:00",
+      "title": {
+        "rendered": "Gimme That Boom"
+      },
+      "content": {
+        "rendered": "\n<p>Skindred-GimmeThatBoom</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2450
+      ],
+      "tags": [],
+      "genre": [
+        644,
+        687
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4QbvKaOOsRXSUT0ySto5Ks",
+        "spotify_release_date": "2022/11/8",
+        "spotify_name": "GimmeThatBoom",
+        "spotify_artists": "Skindred",
+        "spotify_album": "GimmeThatBoom",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d052e032301481b16cb34e94",
+        "spotify_duration_ms": "193853",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.639",
+        "spotify_energy": "0.893",
+        "spotify_key": "2",
+        "spotify_loudness": "-6.651",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0802",
+        "spotify_tempo": "98.006",
+        "spotify_valence": "0.659",
+        "spotify_acousticness": "0.00147",
+        "spotify_instrumentalness": "6.75E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.34",
+        "spotify_artists01": "Skindred",
+        "spotify_artists01_id": "3jTlKw98Ql1jGRPYqhqHap",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6b80f0b7f586425528d9eedd",
+        "spotify_artists01_genres": "alternativemetal,numetal,rapmetal,reggaefusion,welshmetal,welshrock",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "acJsckmvSwY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Skindred-GIMME-THAT-BOOM.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2450,
+            "name": "Skindred",
+            "slug": "skindred",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1998",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スキンドレッド",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Skindred",
+        "ytvideoid": "acJsckmvSwY",
+        "spotify_track_id": "4QbvKaOOsRXSUT0ySto5Ks"
+      },
+      "genre_data": [
+        {
+          "name": "Nu metal",
+          "slug": "nu-metal",
+          "term_id": 644,
+          "post_count": 47
+        },
+        {
+          "name": "Rap Metal",
+          "slug": "rap-metal",
+          "term_id": 687,
+          "post_count": 32
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "gimme-that-boom"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

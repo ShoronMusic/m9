@@ -1,0 +1,83 @@
+{
+  "id": 1237,
+  "count": 6,
+  "description": "Mark Ronson is a British DJ, record producer, songwriter, and remixer.",
+  "link": "https://sub.music8.jp/category/mark-ronson/",
+  "name": "Mark Ronson",
+  "slug": "mark-ronson",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1993",
+    "artistborn": "19750904",
+    "artistdied": "",
+    "artistjpname": "マーク・ロンソン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3hv9jJF3adDNsBSIQDqcjp",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174105cc9628c315b29d299fbb4",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "UCSY5V7BJSrxNvvBF0Drslow",
+    "wikipedia_page": "Mark_Ronson"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1237",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1237"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1237"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マーク・ロンソン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174105cc9628c315b29d299fbb4",
+  "artistActiveYearStart": "1993",
+  "occupation": "songwriter, dj, producer"
+}

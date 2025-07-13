@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2651,
+    "count": 1,
+    "description": "KSA",
+    "link": "https://sub.music8.jp/category/alewya/",
+    "name": "Alewya",
+    "slug": "alewya",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2651",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2651"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2651"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38695,
+      "date": "2022-09-21T00:40:00",
+      "date_gmt": "2022-09-20T15:40:00",
+      "title": {
+        "rendered": "Let Go"
+      },
+      "content": {
+        "rendered": "\n<p>Alewya-LetGo</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2651
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        405
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3lVz9NRdm8xtQCBZqCoEaB",
+        "spotify_release_date": "2022/9/21",
+        "spotify_name": "LetGo",
+        "spotify_artists": "Alewya",
+        "spotify_album": "LetGo",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736ed955fcd57c9db78a0f4a2a",
+        "spotify_duration_ms": "229333",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.623",
+        "spotify_energy": "0.701",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.497",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0457",
+        "spotify_tempo": "179.95",
+        "spotify_valence": "0.065",
+        "spotify_acousticness": "0.201",
+        "spotify_instrumentalness": "0.123",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0972",
+        "spotify_artists01": "Alewya",
+        "spotify_artists01_id": "0wcjJjpvnHb5vK4iwKfxPm",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb60a30e2c2d495ec19fdf245",
+        "spotify_artists01_genres": "alternativer&b",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "i1zZaVuCVlk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Alewya-Let-Go.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2651,
+            "name": "Alewya",
+            "slug": "alewya",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Alewya",
+        "ytvideoid": "i1zZaVuCVlk",
+        "spotify_track_id": "3lVz9NRdm8xtQCBZqCoEaB"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Alternative R&amp;B",
+          "slug": "alternative-rb",
+          "term_id": 405,
+          "post_count": 348
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "let-go"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

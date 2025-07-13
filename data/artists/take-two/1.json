@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 2597,
+    "count": 1,
+    "description": "AUS",
+    "link": "https://sub.music8.jp/category/take-two/",
+    "name": "Take Two",
+    "slug": "take-two",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2597",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2597"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2597"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39030,
+      "date": "2022-08-05T13:20:00",
+      "date_gmt": "2022-08-05T04:20:00",
+      "title": {
+        "rendered": "GOLD"
+      },
+      "content": {
+        "rendered": "\n<p>TakeTwo-GOLD(Ft.MissyLancaster)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2598,
+        2597
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        658
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "iFGG0bRzY-M",
+        "likecount": "1",
+        "spotify_track_id": "1V580djyyXDniHemhjL906",
+        "spotify_release_date": "2022-08-05",
+        "spotify_name": "Gold",
+        "spotify_artists": "Take Two, Missy Lancaster",
+        "spotify_album": "Gold",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27399cbf21ac8c0a506384cf035",
+        "spotify_duration_ms": "195000",
+        "spotify_popularity": "16",
+        "spotify_danceability": "0.665",
+        "spotify_energy": "0.68",
+        "spotify_key": "0",
+        "spotify_loudness": "-5.3",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0387",
+        "spotify_tempo": "79.98",
+        "spotify_valence": "0.659",
+        "spotify_acousticness": "0.659",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.325",
+        "spotify_artists01": "Take Two",
+        "spotify_artists01_id": "3xpf0WFUBNHdkPVxKvrrGm",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7167088ab494c71cbdfc42be",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "18",
+        "spotify_artists02": "Missy Lancaster",
+        "spotify_artists02_id": "4D3jbGqN1G7WxpRYJ1R6gL",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba163ad5186f1f27c1055aed6",
+        "spotify_artists02_genres": "australian country",
+        "spotify_artists02_popularity": "15",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Take-Two-GOLD-Ft.-Missy-Lancaster.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2598,
+            "name": "Missy Lancaster",
+            "slug": "missy-lancaster",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2597,
+            "name": "Take Two",
+            "slug": "take-two",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Take Two, Missy Lancaster",
+        "ytvideoid": "iFGG0bRzY-M",
+        "spotify_track_id": "1V580djyyXDniHemhjL906"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "gold-4"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

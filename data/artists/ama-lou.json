@@ -1,0 +1,76 @@
+{
+  "id": 2942,
+  "count": 4,
+  "description": "Ama Lou is an English singer-songwriter.",
+  "link": "https://sub.music8.jp/category/ama-lou/",
+  "name": "Ama Lou",
+  "slug": "ama-lou",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2016",
+    "artistborn": "19980509",
+    "artistdied": "",
+    "artistjpname": "アマ・ルー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2tAqnHDAgnGtjnlzyoa38L",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d936ef4f6e926b1c6d7ac0d0"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2942",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2942"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2942"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アマ・ルー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174d936ef4f6e926b1c6d7ac0d0",
+  "artistActiveYearStart": "2016",
+  "occupation": "singer, songwriter"
+}

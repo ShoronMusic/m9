@@ -1,0 +1,183 @@
+{
+  "artist": {
+    "id": 2660,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/ekko-city/",
+    "name": "Ekko City",
+    "slug": "ekko-city",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2660",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2660"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2660"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38403,
+      "date": "2022-11-21T02:13:00",
+      "date_gmt": "2022-11-20T17:13:00",
+      "title": {
+        "rendered": "Move On"
+      },
+      "content": {
+        "rendered": "\n<p>EkkoCity&amp;Movadafeat.Mokita-MoveOn</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2660,
+        1399
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        752
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6iwZqyJ1C47NLvufzGkTLM",
+        "spotify_release_date": "2022/10/14",
+        "spotify_name": "MoveOn",
+        "spotify_artists": "EkkoCity,Movada,Mokita",
+        "spotify_album": "MoveOn",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27336e48e89786b800dad3d5ce0",
+        "spotify_duration_ms": "170443",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.526",
+        "spotify_energy": "0.81",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.692",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0497",
+        "spotify_tempo": "124.028",
+        "spotify_valence": "0.399",
+        "spotify_acousticness": "0.0699",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.271",
+        "spotify_artists01": "EkkoCity",
+        "spotify_artists01_id": "6cD3vbTm2onrLyW0du4UQk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba47bb87ab02af86eb80d3cb8",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "Movada",
+        "spotify_artists02_id": "6DDphNWazbGLtmw2ARnqMp",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb05597554044e036e7e2a586d",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "41",
+        "spotify_artists03": "Mokita",
+        "spotify_artists03_id": "3sKeaby6GMSJWgYueZaSjE",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebbc31462271de17582787ed15",
+        "spotify_artists03_genres": "chillpop,singer-songwriterpop",
+        "spotify_artists03_popularity": "61",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "IKY8Sz--mAA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Ekko-City-Movada-feat.-Mokita-Move-On.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2660,
+            "name": "Ekko City",
+            "slug": "ekko-city",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1399,
+            "name": "Mokita",
+            "slug": "mokita",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "EkkoCity,Movada,Mokita",
+        "ytvideoid": "IKY8Sz--mAA",
+        "spotify_track_id": "6iwZqyJ1C47NLvufzGkTLM"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Tropical house",
+          "slug": "tropical-house",
+          "term_id": 752,
+          "post_count": 101
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "move-on"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

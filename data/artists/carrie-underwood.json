@@ -1,0 +1,63 @@
+{
+  "id": 1472,
+  "count": 3,
+  "description": "Carrie Underwood is an American singer, songwriter, and actress.",
+  "link": "https://sub.music8.jp/category/carrie-underwood/",
+  "name": "Carrie Underwood",
+  "slug": "carrie-underwood",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2005",
+    "artistborn": "19830310",
+    "artistdied": "",
+    "artistjpname": "キャリー・アンダーウッド",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1472",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1472"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1472"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "キャリー・アンダーウッド",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2005",
+  "occupation": ""
+}

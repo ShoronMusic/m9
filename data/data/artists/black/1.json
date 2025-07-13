@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 990,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/black/",
+    "name": "Black",
+    "slug": "black",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/990",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=990"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=990"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 48000,
+      "date": "1986-09-01T11:37:00",
+      "date_gmt": "1986-09-01T02:37:00",
+      "title": {
+        "rendered": "Wonderful Life"
+      },
+      "content": {
+        "rendered": "<p>Black - Wonderful Life</p>\n",
+        "protected": false
+      },
+      "categories": [
+        990
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0IWtEFQBwRHaMXZQtGEVcM",
+        "spotify_release_date": "1987/1/1",
+        "spotify_name": "Wonderful Life",
+        "spotify_artists": "Black",
+        "spotify_album": "Wonderful Life",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a40e4b29bfacc9ef505b86d2",
+        "spotify_duration_ms": "287933",
+        "spotify_popularity": "69",
+        "spotify_danceability": "0.72",
+        "spotify_energy": "0.521",
+        "spotify_key": "7",
+        "spotify_loudness": "-12.468",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0302",
+        "spotify_tempo": "106.055",
+        "spotify_valence": "0.823",
+        "spotify_acousticness": "0.705",
+        "spotify_instrumentalness": "0.36",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.214",
+        "spotify_artists01": "Black",
+        "spotify_artists01_id": "0eu0y7eJ5NMo07NEQEIq1V",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebef433ef6e22bffcdfb64c26c",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "u1ZoHfJZACA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Black-Wonderful-Life.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 990,
+            "name": "Black",
+            "slug": "black",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Black",
+        "ytvideoid": "u1ZoHfJZACA",
+        "spotify_track_id": "0IWtEFQBwRHaMXZQtGEVcM"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "wonderful-life"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

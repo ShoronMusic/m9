@@ -1,0 +1,173 @@
+{
+  "artist": {
+    "id": 2534,
+    "count": 1,
+    "description": "FRA",
+    "link": "https://sub.music8.jp/category/adi-oasis/",
+    "name": "Adi Oasis",
+    "slug": "adi-oasis",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2534",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2534"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2534"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40227,
+      "date": "2022-02-19T22:28:00",
+      "date_gmt": "2022-02-19T13:28:00",
+      "title": {
+        "rendered": "Maintain (Jafunk Remix)"
+      },
+      "content": {
+        "rendered": "\n<p>Adi Oasis - Maintain(Ja funk Remix)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2534
+      ],
+      "tags": [],
+      "genre": [
+        524,
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "X_Wl09rEClc",
+        "likecount": "1",
+        "spotify_track_id": "1OzmRyRimHYkCn95HpHuU2",
+        "spotify_release_date": "2022-02-18",
+        "spotify_name": "Maintain - Jafunk Remix",
+        "spotify_artists": "Adi Oasis, Jafunk",
+        "spotify_album": "Maintain (Jafunk Remix)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c5ac48a7046bdc0ae7195ccc",
+        "spotify_duration_ms": "193946",
+        "spotify_popularity": "36",
+        "spotify_danceability": "0.836",
+        "spotify_energy": "0.532",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.885",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0806",
+        "spotify_tempo": "118.022",
+        "spotify_valence": "0.537",
+        "spotify_acousticness": "0.0555",
+        "spotify_instrumentalness": "0.0041",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0557",
+        "spotify_artists01": "Adi Oasis",
+        "spotify_artists01_id": "5RRfTrwXUGYiBB0DMV4hyh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5e9a8f9b0d5a7ab7ba4ee1b7",
+        "spotify_artists01_genres": "indie r&b, indie soul",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "Jafunk",
+        "spotify_artists02_id": "5KtUig38eqxK2rOtHZnz0k",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebeb517d9add665d338213a7f2",
+        "spotify_artists02_genres": "funky house",
+        "spotify_artists02_popularity": "48",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "artist_order": "",
+        "ytreleasedate": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Adi-Oasis-Maintain-Jafunk-Remix.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2534,
+            "name": "Adi Oasis",
+            "slug": "adi-oasis",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Adi Oasis, Jafunk",
+        "ytvideoid": "X_Wl09rEClc",
+        "spotify_track_id": "1OzmRyRimHYkCn95HpHuU2"
+      },
+      "genre_data": [
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "maintain-jafunk-remix"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

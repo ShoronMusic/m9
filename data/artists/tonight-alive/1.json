@@ -1,0 +1,581 @@
+{
+  "artist": {
+    "id": 1248,
+    "count": 4,
+    "description": "Tonight Alive are an Australian rock band.",
+    "link": "https://sub.music8.jp/category/tonight-alive/",
+    "name": "Tonight Alive",
+    "slug": "tonight-alive",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "2008",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "トゥナイト・アライヴ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1248",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1248"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1248"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 43388,
+      "date": "2016-01-27T18:32:00",
+      "date_gmt": "2016-01-27T09:32:00",
+      "title": {
+        "rendered": "Drive"
+      },
+      "content": {
+        "rendered": "\n<p>TonightAlive-Drive</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1248
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "6d2QqutgIg0x3Q9Cpa4qGg",
+        "spotify_release_date": "2016/3/4",
+        "spotify_name": "Drive",
+        "spotify_artists": "Tonight Alive",
+        "spotify_album": "Limitless",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738dd8e4a30e0edc4c50de843d",
+        "spotify_duration_ms": "195746",
+        "spotify_popularity": "20",
+        "spotify_danceability": "0.584",
+        "spotify_energy": "0.905",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.886",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0538",
+        "spotify_tempo": "87.917",
+        "spotify_valence": "0.687",
+        "spotify_acousticness": "0.00145",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.352",
+        "spotify_artists01": "Tonight Alive",
+        "spotify_artists01_id": "5pjCYG6hPLBO3y4swxu3dh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf605f6c661815b71d4bcc2ea",
+        "spotify_artists01_genres": "candy pop, pixie, pop emo, pop punk",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "sZFBM2vTnI4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tonight-Alive-Drive.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1248,
+            "name": "Tonight Alive",
+            "slug": "tonight-alive",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2008",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "トゥナイト・アライヴ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tonight Alive",
+        "ytvideoid": "sZFBM2vTnI4",
+        "spotify_track_id": "6d2QqutgIg0x3Q9Cpa4qGg"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "drive-2"
+    },
+    {
+      "id": 43799,
+      "date": "2014-04-11T04:32:00",
+      "date_gmt": "2014-04-10T19:32:00",
+      "title": {
+        "rendered": "The Edge"
+      },
+      "content": {
+        "rendered": "\n<p>TonightAlive-TheEdge</p>\n<p>   <!--wp:image{\"id\":4924,\"width\":250,\"height\":250,\"sizeSlug\":\"full\",\"linkDestination\":\"none\",\"className\":\"is-style-default\"}--> <figureclass=\"wp-block-imagesize-fullis-resizedis-style-default\"><imgsrc=\"http://xs867261.xsrv.jp/wp/wp-content/uploads/The-Amazing-Spider-Man-2.jpg\"alt=\"\"class=\"wp-image-4924\"width=\"250\"height=\"250\"/><figcaption><em>TheAmazingSpider-Man2</em>(2014)</figcaption></figure>\n",
+        "protected": false
+      },
+      "categories": [
+        1248
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        660
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7awuHUjsugNnMbRHdXUD1e",
+        "spotify_release_date": "2014/4/1",
+        "spotify_name": "The Edge",
+        "spotify_artists": "Tonight Alive",
+        "spotify_album": "The Edge",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c2b0023b0c04d7179c0db713",
+        "spotify_duration_ms": "180605",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.41",
+        "spotify_energy": "0.96",
+        "spotify_key": "7",
+        "spotify_loudness": "-3.289",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.142",
+        "spotify_tempo": "174.105",
+        "spotify_valence": "0.398",
+        "spotify_acousticness": "0.00408",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0983",
+        "spotify_artists01": "Tonight Alive",
+        "spotify_artists01_id": "5pjCYG6hPLBO3y4swxu3dh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf605f6c661815b71d4bcc2ea",
+        "spotify_artists01_genres": "candy pop, pixie, pop emo, pop punk",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "kRDVXnACx7Y",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tonight-Alive-The-Edge.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1248,
+            "name": "Tonight Alive",
+            "slug": "tonight-alive",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2008",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "トゥナイト・アライヴ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tonight Alive",
+        "ytvideoid": "kRDVXnACx7Y",
+        "spotify_track_id": "7awuHUjsugNnMbRHdXUD1e"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "the-edge"
+    },
+    {
+      "id": 43883,
+      "date": "2013-09-09T14:46:00",
+      "date_gmt": "2013-09-09T05:46:00",
+      "title": {
+        "rendered": "Come Home"
+      },
+      "content": {
+        "rendered": "\n<p>TonightAlive-ComeHome</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1248
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "4WvXV5fjsMMjtZAlVPD1St",
+        "spotify_release_date": "2013/9/10",
+        "spotify_name": "Come Home",
+        "spotify_artists": "Tonight Alive",
+        "spotify_album": "The Other Side",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732bfa74be7288986e88513fa9",
+        "spotify_duration_ms": "207693",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.52",
+        "spotify_energy": "0.926",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.106",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0326",
+        "spotify_tempo": "148.032",
+        "spotify_valence": "0.433",
+        "spotify_acousticness": "0.00024",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.161",
+        "spotify_artists01": "Tonight Alive",
+        "spotify_artists01_id": "5pjCYG6hPLBO3y4swxu3dh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf605f6c661815b71d4bcc2ea",
+        "spotify_artists01_genres": "candy pop, pixie, pop emo, pop punk",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "6RhWuyffcAg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tonight-Alive-Come-Home.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1248,
+            "name": "Tonight Alive",
+            "slug": "tonight-alive",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2008",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "トゥナイト・アライヴ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tonight Alive",
+        "ytvideoid": "6RhWuyffcAg",
+        "spotify_track_id": "4WvXV5fjsMMjtZAlVPD1St"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "come-home"
+    },
+    {
+      "id": 43909,
+      "date": "2013-07-31T14:39:00",
+      "date_gmt": "2013-07-31T05:39:00",
+      "title": {
+        "rendered": "Lonely Girl"
+      },
+      "content": {
+        "rendered": "\n<p>TonightAlive-LonelyGirl</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1248
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        660
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0fBrOyJj7gEAyXevVq69xv",
+        "spotify_release_date": "2013/9/10",
+        "spotify_name": "Lonely Girl",
+        "spotify_artists": "Tonight Alive",
+        "spotify_album": "The Other Side",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732bfa74be7288986e88513fa9",
+        "spotify_duration_ms": "191133",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.409",
+        "spotify_energy": "0.926",
+        "spotify_key": "7",
+        "spotify_loudness": "-3.423",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0461",
+        "spotify_tempo": "169.953",
+        "spotify_valence": "0.713",
+        "spotify_acousticness": "5.43E-05",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0919",
+        "spotify_artists01": "Tonight Alive",
+        "spotify_artists01_id": "5pjCYG6hPLBO3y4swxu3dh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf605f6c661815b71d4bcc2ea",
+        "spotify_artists01_genres": "candy pop, pixie, pop emo, pop punk",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "yrkfkwzChoM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tonight-Alive-Lonely-Girl.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1248,
+            "name": "Tonight Alive",
+            "slug": "tonight-alive",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2008",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "トゥナイト・アライヴ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tonight Alive",
+        "ytvideoid": "yrkfkwzChoM",
+        "spotify_track_id": "0fBrOyJj7gEAyXevVq69xv"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "lonely-girl"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

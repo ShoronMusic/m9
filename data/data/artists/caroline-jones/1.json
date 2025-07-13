@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2561,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/caroline-jones/",
+    "name": "Caroline Jones",
+    "slug": "caroline-jones",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2561",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2561"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2561"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39696,
+      "date": "2022-04-29T11:59:00",
+      "date_gmt": "2022-04-29T02:59:00",
+      "title": {
+        "rendered": "Being A Woman (Is Like Being the Sun)"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2561
+      ],
+      "tags": [],
+      "genre": [
+        466
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1KjJf8opjEc8hU7N8l8ljb",
+        "spotify_release_date": "2022/4/29",
+        "spotify_name": "BeingAWoman(IsLikeBeingTheSun)",
+        "spotify_artists": "CarolineJones",
+        "spotify_album": "BeingAWoman(IsLikeBeingTheSun)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735742343d411f7c6ac51f3360",
+        "spotify_duration_ms": "251211",
+        "spotify_popularity": "21",
+        "spotify_danceability": "0.663",
+        "spotify_energy": "0.572",
+        "spotify_key": "6",
+        "spotify_loudness": "-7.138",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0309",
+        "spotify_tempo": "104.983",
+        "spotify_valence": "0.693",
+        "spotify_acousticness": "0.761",
+        "spotify_instrumentalness": "0.000273",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.315",
+        "spotify_artists01": "CarolineJones",
+        "spotify_artists01_id": "3xl6isKUFqJNui79kpdT0Y",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf37fac003ffa3acc719f4ff7",
+        "spotify_artists01_genres": "troprock",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "WUS30DBLGBI",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Caroline-Jones-Being-A-Woman-Is-Like-Being-the-Sun.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2561,
+            "name": "Caroline Jones",
+            "slug": "caroline-jones",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "CarolineJones",
+        "ytvideoid": "WUS30DBLGBI",
+        "spotify_track_id": "1KjJf8opjEc8hU7N8l8ljb"
+      },
+      "genre_data": [
+        {
+          "name": "Country pop",
+          "slug": "country-pop",
+          "term_id": 466,
+          "post_count": 142
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "being-a-woman-is-like-being-the-sun"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

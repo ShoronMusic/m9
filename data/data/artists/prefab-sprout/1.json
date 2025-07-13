@@ -1,0 +1,1444 @@
+{
+  "artist": {
+    "id": 1013,
+    "count": 11,
+    "description": "Prefab Sprout are an English pop/rock band.",
+    "link": "https://sub.music8.jp/category/prefab-sprout/",
+    "name": "Prefab Sprout",
+    "slug": "prefab-sprout",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1978",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "プリファブ・スプラウト",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1013",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1013"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1013"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 2905,
+      "date": "1997-04-21T22:57:00",
+      "date_gmt": "1997-04-21T13:57:00",
+      "title": {
+        "rendered": "Prisoner Of The Past"
+      },
+      "content": {
+        "rendered": "<p>Prefab Sprout - Prisoner Of The Past</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1013
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "6eXHV5LaCpbCmsaao6N22F",
+        "spotify_release_date": "1997/3/10",
+        "spotify_name": "A Prisoner of the Past",
+        "spotify_artists": "Prefab Sprout",
+        "spotify_album": "Andromeda Heights",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739cb3ca1dd6bbfe2f6a4b7d0d",
+        "spotify_duration_ms": "301773",
+        "spotify_popularity": "25",
+        "spotify_danceability": "0.618",
+        "spotify_energy": "0.702",
+        "spotify_key": "7",
+        "spotify_loudness": "-6.846",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0273",
+        "spotify_tempo": "121.456",
+        "spotify_valence": "0.392",
+        "spotify_acousticness": "0.0521",
+        "spotify_instrumentalness": "6.80E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.343",
+        "spotify_artists01": "Prefab Sprout",
+        "spotify_artists01_id": "4w3QqrcmBv8dasemwBXmxf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c1f272ff8ca78ef4c70e49f70",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave pop, sophisti-pop",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "GlWPvaevTCI",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Prefab-Sprout-Prisoner-Of-The-Past.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1013,
+            "name": "Prefab Sprout",
+            "slug": "prefab-sprout",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリファブ・スプラウト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Prefab Sprout",
+        "ytvideoid": "GlWPvaevTCI",
+        "spotify_track_id": "6eXHV5LaCpbCmsaao6N22F"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "prisoner-of-the-past"
+    },
+    {
+      "id": 2901,
+      "date": "1992-12-01T22:51:00",
+      "date_gmt": "1992-12-01T13:51:00",
+      "title": {
+        "rendered": "Life of Surprises"
+      },
+      "content": {
+        "rendered": "<p>Prefab Sprout - Life of Surprises</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1013
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "63WzwAf_K80",
+        "likecount": "0",
+        "spotify_track_id": "1O1EjUinXkkKN9xKPERadv",
+        "spotify_release_date": "1989/6/16",
+        "spotify_name": "Life of Surprises",
+        "spotify_artists": "Prefab Sprout",
+        "spotify_album": "Protest Songs",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b621964bd292aab61a0ed4b0",
+        "spotify_duration_ms": "245266",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.674",
+        "spotify_energy": "0.717",
+        "spotify_key": "4",
+        "spotify_loudness": "-10.309",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0317",
+        "spotify_tempo": "128.498",
+        "spotify_valence": "0.858",
+        "spotify_acousticness": "0.0496",
+        "spotify_instrumentalness": "0.00233",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0988",
+        "spotify_artists01": "Prefab Sprout",
+        "spotify_artists01_id": "4w3QqrcmBv8dasemwBXmxf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c1f272ff8ca78ef4c70e49f70",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave pop, sophisti-pop",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "ytreleasedate": "",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Prefab-Sprout-Life-of-Surprises.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1013,
+            "name": "Prefab Sprout",
+            "slug": "prefab-sprout",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリファブ・スプラウト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Prefab Sprout",
+        "ytvideoid": "63WzwAf_K80",
+        "spotify_track_id": "1O1EjUinXkkKN9xKPERadv"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [],
+      "slug": "life-of-surprises"
+    },
+    {
+      "id": 2903,
+      "date": "1992-09-01T22:53:00",
+      "date_gmt": "1992-09-01T13:53:00",
+      "title": {
+        "rendered": "All the World Loves Lovers"
+      },
+      "content": {
+        "rendered": "<p>Prefab Sprout - All the World Loves Lovers</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1013
+      ],
+      "tags": [],
+      "genre": [
+        718
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1VLTpcRdq5RQpC6PTYYRf0",
+        "spotify_release_date": "1990/10/2",
+        "spotify_name": "All The World Loves Lovers",
+        "spotify_artists": "Prefab Sprout",
+        "spotify_album": "Jordan: The Comeback",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733d3b925e1e68cb4ee868cdc2",
+        "spotify_duration_ms": "230106",
+        "spotify_popularity": "28",
+        "spotify_danceability": "0.688",
+        "spotify_energy": "0.462",
+        "spotify_key": "0",
+        "spotify_loudness": "-11.116",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0368",
+        "spotify_tempo": "120.286",
+        "spotify_valence": "0.385",
+        "spotify_acousticness": "0.351",
+        "spotify_instrumentalness": "0.00251",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.15",
+        "spotify_artists01": "Prefab Sprout",
+        "spotify_artists01_id": "4w3QqrcmBv8dasemwBXmxf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c1f272ff8ca78ef4c70e49f70",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave pop, sophisti-pop",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "07RoD2mD_WI",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Prefab-Sprout-All-the-World-Loves-Lovers.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1013,
+            "name": "Prefab Sprout",
+            "slug": "prefab-sprout",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリファブ・スプラウト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Prefab Sprout",
+        "ytvideoid": "07RoD2mD_WI",
+        "spotify_track_id": "1VLTpcRdq5RQpC6PTYYRf0"
+      },
+      "genre_data": [
+        {
+          "name": "Sophisti-pop",
+          "slug": "sophisti-pop",
+          "term_id": 718,
+          "post_count": 82
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "all-the-world-loves-lovers"
+    },
+    {
+      "id": 2899,
+      "date": "1992-07-01T22:46:00",
+      "date_gmt": "1992-07-01T13:46:00",
+      "title": {
+        "rendered": "If You Don't Love Me"
+      },
+      "content": {
+        "rendered": "<p>Prefab Sprout - If You Don't Love Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1013
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "9FRQDOVSekE",
+        "likecount": "1",
+        "spotify_track_id": "0xTXFbvqudpyTzYWdNBrX6",
+        "spotify_release_date": "1983",
+        "spotify_name": "If You Don't Love Me",
+        "spotify_artists": "Prefab Sprout",
+        "spotify_album": "The Collection",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273901f8c115398ab6660469b7a",
+        "spotify_duration_ms": "222533",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.518",
+        "spotify_energy": "0.923",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.776",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0318",
+        "spotify_tempo": "121.981",
+        "spotify_valence": "0.442",
+        "spotify_acousticness": "0.000168",
+        "spotify_instrumentalness": "0.0728",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.106",
+        "spotify_artists01": "Prefab Sprout",
+        "spotify_artists01_id": "4w3QqrcmBv8dasemwBXmxf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c1f272ff8ca78ef4c70e49f70",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave pop, sophisti-pop",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "ytreleasedate": "",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Prefab-Sprout-If-You-Dont-Love-Me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1013,
+            "name": "Prefab Sprout",
+            "slug": "prefab-sprout",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリファブ・スプラウト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Prefab Sprout",
+        "ytvideoid": "9FRQDOVSekE",
+        "spotify_track_id": "0xTXFbvqudpyTzYWdNBrX6"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [],
+      "slug": "if-you-dont-love-me"
+    },
+    {
+      "id": 2897,
+      "date": "1992-06-01T22:43:00",
+      "date_gmt": "1992-06-01T13:43:00",
+      "title": {
+        "rendered": "The Sound of Crying"
+      },
+      "content": {
+        "rendered": "<p>Prefab Sprout - The Sound of Crying</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1013
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1WEQzqFdf1iHTzXbmzUEk0",
+        "spotify_release_date": "1983",
+        "spotify_name": "The Sound of Crying",
+        "spotify_artists": "Prefab Sprout",
+        "spotify_album": "The Collection",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273901f8c115398ab6660469b7a",
+        "spotify_duration_ms": "283133",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.702",
+        "spotify_energy": "0.675",
+        "spotify_key": "1",
+        "spotify_loudness": "-10.707",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0397",
+        "spotify_tempo": "117.909",
+        "spotify_valence": "0.898",
+        "spotify_acousticness": "0.105",
+        "spotify_instrumentalness": "0.0352",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0559",
+        "spotify_artists01": "Prefab Sprout",
+        "spotify_artists01_id": "4w3QqrcmBv8dasemwBXmxf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c1f272ff8ca78ef4c70e49f70",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave pop, sophisti-pop",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Zr4xlgZqQkg",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Prefab-Sprout-The-Sound-of-Crying.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1013,
+            "name": "Prefab Sprout",
+            "slug": "prefab-sprout",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリファブ・スプラウト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Prefab Sprout",
+        "ytvideoid": "Zr4xlgZqQkg",
+        "spotify_track_id": "1WEQzqFdf1iHTzXbmzUEk0"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-sound-of-crying"
+    },
+    {
+      "id": 47237,
+      "date": "1990-09-07T22:32:00",
+      "date_gmt": "1990-09-07T13:32:00",
+      "title": {
+        "rendered": "Looking for Atlantis"
+      },
+      "content": {
+        "rendered": "<p>Prefab Sprout - Looking for Atlantis</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1013
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2EMlBidlzPz3TBrsykKrEM",
+        "spotify_release_date": "1990/10/2",
+        "spotify_name": "Looking For Atlantis",
+        "spotify_artists": "Prefab Sprout",
+        "spotify_album": "Jordan: The Comeback",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733d3b925e1e68cb4ee868cdc2",
+        "spotify_duration_ms": "241000",
+        "spotify_popularity": "28",
+        "spotify_danceability": "0.564",
+        "spotify_energy": "0.795",
+        "spotify_key": "9",
+        "spotify_loudness": "-9.961",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0394",
+        "spotify_tempo": "151.698",
+        "spotify_valence": "0.547",
+        "spotify_acousticness": "0.0575",
+        "spotify_instrumentalness": "0.00116",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0649",
+        "spotify_artists01": "Prefab Sprout",
+        "spotify_artists01_id": "4w3QqrcmBv8dasemwBXmxf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c1f272ff8ca78ef4c70e49f70",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave pop, sophisti-pop",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ZBafyosi4Pg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Prefab-Sprout-Looking-for-Atlantis.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1013,
+            "name": "Prefab Sprout",
+            "slug": "prefab-sprout",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリファブ・スプラウト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Prefab Sprout",
+        "ytvideoid": "ZBafyosi4Pg",
+        "spotify_track_id": "2EMlBidlzPz3TBrsykKrEM"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "looking-for-atlantis"
+    },
+    {
+      "id": 47255,
+      "date": "1990-08-01T22:38:00",
+      "date_gmt": "1990-08-01T13:38:00",
+      "title": {
+        "rendered": "Jordan: The Comeback"
+      },
+      "content": {
+        "rendered": "<p>Prefab Sprout - Jordan: The Comeback</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1013
+      ],
+      "tags": [],
+      "genre": [
+        419,
+        638
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5nwkohCx4e1NUekuXQRNs8",
+        "spotify_release_date": "1990/10/2",
+        "spotify_name": "Jordan: The Comeback - Single Version",
+        "spotify_artists": "Prefab Sprout",
+        "spotify_album": "Jordan: The Comeback",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733d3b925e1e68cb4ee868cdc2",
+        "spotify_duration_ms": "251200",
+        "spotify_popularity": "19",
+        "spotify_danceability": "-0.038197258389715084",
+        "spotify_energy": "-1.0637851860174066",
+        "spotify_key": "-1.417844935220459",
+        "spotify_loudness": "-0.29192612934989337",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.4915057982290041",
+        "spotify_tempo": "-0.3760807662433408",
+        "spotify_valence": "-0.31512870980427543",
+        "spotify_acousticness": "1.410037008494209",
+        "spotify_instrumentalness": "-0.33756870715837434",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.7346639399810291",
+        "spotify_artists01": "Prefab Sprout",
+        "spotify_artists01_id": "4w3QqrcmBv8dasemwBXmxf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c1f272ff8ca78ef4c70e49f70",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave pop, sophisti-pop",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "OAX0OT2UNIU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Prefab-Sprout-Jordan-The-Comeback.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1013,
+            "name": "Prefab Sprout",
+            "slug": "prefab-sprout",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリファブ・スプラウト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Prefab Sprout",
+        "ytvideoid": "OAX0OT2UNIU",
+        "spotify_track_id": "5nwkohCx4e1NUekuXQRNs8"
+      },
+      "genre_data": [
+        {
+          "name": "Art pop",
+          "slug": "art-pop",
+          "term_id": 419,
+          "post_count": 124
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "jordan-the-comeback"
+    },
+    {
+      "id": 47684,
+      "date": "1988-03-01T22:29:00",
+      "date_gmt": "1988-03-01T13:29:00",
+      "title": {
+        "rendered": "The King of Rock 'N' Roll"
+      },
+      "content": {
+        "rendered": "<p>Prefab Sprout - The King of Rock 'N' Roll</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1013
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        658,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "13t9pPIr9xb1GrpSXEj16h",
+        "spotify_release_date": "1988/3/14",
+        "spotify_name": "The King of Rock 'N' Roll",
+        "spotify_artists": "Prefab Sprout",
+        "spotify_album": "From Langley Park To Memphis",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734f4b73eb515a95c06f83dea3",
+        "spotify_duration_ms": "262133",
+        "spotify_popularity": "45",
+        "spotify_danceability": "1.5987341991412252",
+        "spotify_energy": "-0.5255038194468579",
+        "spotify_key": "-0.06778318339062644",
+        "spotify_loudness": "-0.2823993334090922",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "-0.20290222305981753",
+        "spotify_tempo": "0.24361061867082887",
+        "spotify_valence": "1.0727865822730356",
+        "spotify_acousticness": "1.5343486169233058",
+        "spotify_instrumentalness": "-0.41151276819098154",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.6822168688044372",
+        "spotify_artists01": "Prefab Sprout",
+        "spotify_artists01_id": "4w3QqrcmBv8dasemwBXmxf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c1f272ff8ca78ef4c70e49f70",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave pop, sophisti-pop",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "4T6e3GJCjow",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Prefab-Sprout-The-King-of-Rock-N-Roll.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1013,
+            "name": "Prefab Sprout",
+            "slug": "prefab-sprout",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリファブ・スプラウト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Prefab Sprout",
+        "ytvideoid": "4T6e3GJCjow",
+        "spotify_track_id": "13t9pPIr9xb1GrpSXEj16h"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-king-of-rock-n-roll"
+    },
+    {
+      "id": 47699,
+      "date": "1988-02-01T22:26:00",
+      "date_gmt": "1988-02-01T13:26:00",
+      "title": {
+        "rendered": "Cars and Girls"
+      },
+      "content": {
+        "rendered": "<p>Prefab Sprout - Cars and Girls</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1013
+      ],
+      "tags": [],
+      "genre": [
+        574,
+        638
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "755cKP6z9tywIgQpAc3cVV",
+        "spotify_release_date": "1988/3/14",
+        "spotify_name": "Cars and Girls",
+        "spotify_artists": "Prefab Sprout",
+        "spotify_album": "From Langley Park To Memphis",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734f4b73eb515a95c06f83dea3",
+        "spotify_duration_ms": "265466",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.6218557486792122",
+        "spotify_energy": "-0.7981398362812916",
+        "spotify_key": "1.0122662180732396",
+        "spotify_loudness": "-0.7459374984037006",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "-0.5314662932524299",
+        "spotify_tempo": "0.2797820831797741",
+        "spotify_valence": "0.7340411550541662",
+        "spotify_acousticness": "-0.42278226828228677",
+        "spotify_instrumentalness": "-0.4108518431650391",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.6344170064662776",
+        "spotify_artists01": "Prefab Sprout",
+        "spotify_artists01_id": "4w3QqrcmBv8dasemwBXmxf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c1f272ff8ca78ef4c70e49f70",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave pop, sophisti-pop",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "jEJdfDD4dVg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Prefab-Sprout-Cars-and-Girls.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1013,
+            "name": "Prefab Sprout",
+            "slug": "prefab-sprout",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリファブ・スプラウト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Prefab Sprout",
+        "ytvideoid": "jEJdfDD4dVg",
+        "spotify_track_id": "755cKP6z9tywIgQpAc3cVV"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cars-and-girls"
+    },
+    {
+      "id": 48120,
+      "date": "1986-01-01T22:24:00",
+      "date_gmt": "1986-01-01T13:24:00",
+      "title": {
+        "rendered": "Johnny Johnny"
+      },
+      "content": {
+        "rendered": "<p>Prefab Sprout - Johnny Johnny</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1013
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        718
+      ],
+      "vocal": [],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "49prTXs9DoDDJNGDavG6Mg",
+        "spotify_release_date": "1983",
+        "spotify_name": "Johnny Johnny",
+        "spotify_artists": "Prefab Sprout",
+        "spotify_album": "The Collection",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273901f8c115398ab6660469b7a",
+        "spotify_duration_ms": "235466",
+        "spotify_popularity": "35",
+        "spotify_danceability": "1.2555066354653834",
+        "spotify_energy": "-2.56677861215595",
+        "spotify_key": "-1.417844935220459",
+        "spotify_loudness": "-0.8388237588265121",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "-0.3827244506652338",
+        "spotify_tempo": "-0.01844700432924415",
+        "spotify_valence": "-1.5148520978711035",
+        "spotify_acousticness": "-0.20679084863673108",
+        "spotify_instrumentalness": "-0.25459986009200514",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.6576530506584386",
+        "spotify_artists01": "Prefab Sprout",
+        "spotify_artists01_id": "4w3QqrcmBv8dasemwBXmxf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c1f272ff8ca78ef4c70e49f70",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave pop, sophisti-pop",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "XmiKqRlfX00",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Prefab-Sprout-Johnny-Johnny.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1013,
+            "name": "Prefab Sprout",
+            "slug": "prefab-sprout",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリファブ・スプラウト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Prefab Sprout",
+        "ytvideoid": "XmiKqRlfX00",
+        "spotify_track_id": "49prTXs9DoDDJNGDavG6Mg"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Sophisti-pop",
+          "slug": "sophisti-pop",
+          "term_id": 718,
+          "post_count": 82
+        }
+      ],
+      "vocal_data": [],
+      "slug": "johnny-johnny"
+    },
+    {
+      "id": 48434,
+      "date": "1984-10-01T22:16:00",
+      "date_gmt": "1984-10-01T13:16:00",
+      "title": {
+        "rendered": "When Love Breaks Down"
+      },
+      "content": {
+        "rendered": "<p>Prefab Sprout - When Love Breaks Down</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1013
+      ],
+      "tags": [],
+      "genre": [
+        718
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "7bRcgBFPDgWhVuopP5x6MW",
+        "spotify_release_date": "1985",
+        "spotify_name": "When Love Breaks Down - 2007 Remastered Version",
+        "spotify_artists": "Prefab Sprout, Thomas Dolby",
+        "spotify_album": "Steve McQueen",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e40c4c9d5f19d2ab9886a534",
+        "spotify_duration_ms": "245906",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.454",
+        "spotify_energy": "0.573",
+        "spotify_key": "1",
+        "spotify_loudness": "-8.094",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0512",
+        "spotify_tempo": "133.985",
+        "spotify_valence": "0.339",
+        "spotify_acousticness": "0.335",
+        "spotify_instrumentalness": "1.59E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0235",
+        "spotify_artists01": "Prefab Sprout",
+        "spotify_artists01_id": "4w3QqrcmBv8dasemwBXmxf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46c1f272ff8ca78ef4c70e49f70",
+        "spotify_artists01_genres": "melancholia, new romantic, new wave pop, sophisti-pop",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "Thomas Dolby",
+        "spotify_artists02_id": "2Uz58cSxlJgefDaSikxYQ7",
+        "spotify_artists02_images": "https://i.scdn.co/image/2994dbaf7be7460fb5f4ed0b486c82aa014740e5",
+        "spotify_artists02_genres": "new romantic, new wave, new wave pop, steampunk, synthpop, zolo",
+        "spotify_artists02_popularity": "41",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "QeZkLV3ZjeI&t=78s",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Prefab-Sprout-When-Love-Breaks-Down.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1013,
+            "name": "Prefab Sprout",
+            "slug": "prefab-sprout",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリファブ・スプラウト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Prefab Sprout, Thomas Dolby",
+        "ytvideoid": "QeZkLV3ZjeI&t=78s",
+        "spotify_track_id": "7bRcgBFPDgWhVuopP5x6MW"
+      },
+      "genre_data": [
+        {
+          "name": "Sophisti-pop",
+          "slug": "sophisti-pop",
+          "term_id": 718,
+          "post_count": 82
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "when-love-breaks-down"
+    }
+  ],
+  "totalSongs": 11,
+  "totalPages": 1,
+  "currentPage": 1
+}

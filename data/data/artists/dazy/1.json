@@ -1,0 +1,196 @@
+{
+  "artist": {
+    "id": 4441,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/dazy/",
+    "name": "dazy",
+    "slug": "dazy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4441",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4441"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4441"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65174,
+      "date": "2021-12-04T17:15:35",
+      "date_gmt": "2021-12-04T08:15:35",
+      "title": {
+        "rendered": "Sunroof"
+      },
+      "content": {
+        "rendered": "<p>Nicky Youre, dazy - Sunroof</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4441,
+        2537
+      ],
+      "tags": [],
+      "genre": [
+        427,
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "G5xSLbYMr-I",
+        "ytreleasedate": "2021/12/04",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5YqEzk3C5c3UZ1D5fJUlXA",
+        "spotify_release_date": "2023-06-09",
+        "spotify_name": "Sunroof",
+        "spotify_artists": "Nicky Youre, dazy",
+        "spotify_album": "Good Times Go",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ecd970d1d2623b6c7fc6080c",
+        "spotify_duration_ms": "163025",
+        "spotify_popularity": "82",
+        "spotify_danceability": "0.768",
+        "spotify_energy": "0.714",
+        "spotify_key": "10",
+        "spotify_loudness": "-5.11",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0401",
+        "spotify_tempo": "131.443",
+        "spotify_valence": "0.842",
+        "spotify_acousticness": "0.352",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.15",
+        "spotify_artists01": "Nicky Youre",
+        "spotify_artists01_id": "7qmpXeNz2ojlMl2EEfkeLs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc5d211cb18a841fdc031ac0a",
+        "spotify_artists01_genres": "singer-songwriter pop",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "dazy",
+        "spotify_artists02_id": "38PzLQE4GW8o7A18oGhi0x",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebb6a7d269c36ebe8eaa505969",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "66",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273ecd970d1d2623b6c7fc6080c.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4441,
+            "name": "dazy",
+            "slug": "dazy",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2537,
+            "name": "Nicky Youre",
+            "slug": "nicky-youre",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2020",
+              "artistborn": "19990604",
+              "artistdied": "",
+              "artistjpname": "ニッキー・ユーア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Nicky Youre, dazy",
+        "ytvideoid": "G5xSLbYMr-I",
+        "spotify_track_id": "5YqEzk3C5c3UZ1D5fJUlXA"
+      },
+      "genre_data": [
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "sunroof"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

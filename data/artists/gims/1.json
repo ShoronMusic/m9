@@ -1,0 +1,438 @@
+{
+  "artist": {
+    "id": 1025,
+    "count": 2,
+    "description": "Gims is a Congolese-French singer, rapper and songwriter.",
+    "link": "https://sub.music8.jp/category/gims/",
+    "name": "Gims",
+    "slug": "gims",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FRA",
+      "artistactiveyearstart": "",
+      "artistborn": "19860506",
+      "artistdied": "",
+      "artistjpname": "ギムス",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1025",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1025"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1025"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 42009,
+      "date": "2019-08-23T15:07:00",
+      "date_gmt": "2019-08-23T06:07:00",
+      "title": {
+        "rendered": "Reste"
+      },
+      "content": {
+        "rendered": "\n<p>GIMS&amp;Sting-Reste</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1025,
+        768
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "4F0B8TLdJVACskfkkTqHDI",
+        "spotify_release_date": "2019/4/26",
+        "spotify_name": "Reste",
+        "spotify_artists": "GIMS, Sting",
+        "spotify_album": "Ceinture noire (Transcendance)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27363e3c246585c5c1132c07008",
+        "spotify_duration_ms": "231520",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.75",
+        "spotify_energy": "0.541",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.137",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0449",
+        "spotify_tempo": "99.989",
+        "spotify_valence": "0.689",
+        "spotify_acousticness": "0.484",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.103",
+        "spotify_artists01": "GIMS",
+        "spotify_artists01_id": "0GOx72r5AAEKRGQFn3xqXK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb77144f838397a467e807df65",
+        "spotify_artists01_genres": "french hip hop, french pop, r&b francais, rap conscient",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "Sting",
+        "spotify_artists02_id": "0Ty63ceoRnnJKVEYP0VQpk",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb9fdb4dab484a9f12e347c216",
+        "spotify_artists02_genres": "permanent wave, soft rock, sophisti-pop",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "0Ev-6PYtI34",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/GIMS-Sting-Reste.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1025,
+            "name": "Gims",
+            "slug": "gims",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "",
+              "artistborn": "19860506",
+              "artistdied": "",
+              "artistjpname": "ギムス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 768,
+            "name": "Sting",
+            "slug": "sting",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1971",
+              "artistborn": "19511002",
+              "artistdied": "",
+              "artistjpname": "スティング",
+              "member": [
+                {
+                  "term_id": 2,
+                  "name": "Police",
+                  "slug": "police",
+                  "term_group": 0,
+                  "term_taxonomy_id": 2,
+                  "taxonomy": "category",
+                  "description": "The Police were an English rock band formed in London in 1977.",
+                  "parent": 0,
+                  "count": 22,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "bassist",
+                  "label": "Bassist"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "0Ty63ceoRnnJKVEYP0VQpk",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749fdb4dab484a9f12e347c216",
+              "youtube_channel": "UCwERP8ZAI10RtZIAPsZQDDw",
+              "wikipedia_page": "Sting_(musician)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "GIMS, Sting",
+        "ytvideoid": "0Ev-6PYtI34",
+        "spotify_track_id": "4F0B8TLdJVACskfkkTqHDI"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "reste"
+    },
+    {
+      "id": 42515,
+      "date": "2018-09-28T13:04:00",
+      "date_gmt": "2018-09-28T04:04:00",
+      "title": {
+        "rendered": "Gotta Get Back My Baby"
+      },
+      "content": {
+        "rendered": "\n<p>Sting,Shaggy-GottaGetBackMyBabyft.Gims</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1025,
+        1024,
+        768
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "7ub9HggXQPqjYTGEKuC6nF",
+        "spotify_release_date": "2018/4/20",
+        "spotify_name": "Gotta Get Back My Baby (with Shaggy)",
+        "spotify_artists": "Sting, Shaggy",
+        "spotify_album": "44/876 (Deluxe)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273793d300f1a8e8e3291845ad2",
+        "spotify_duration_ms": "176666",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.709",
+        "spotify_energy": "0.817",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.4",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.21",
+        "spotify_tempo": "91.008",
+        "spotify_valence": "0.632",
+        "spotify_acousticness": "0.179",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0863",
+        "spotify_artists01": "Sting",
+        "spotify_artists01_id": "0Ty63ceoRnnJKVEYP0VQpk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9fdb4dab484a9f12e347c216",
+        "spotify_artists01_genres": "permanent wave, soft rock, sophisti-pop",
+        "spotify_artists01_popularity": "68",
+        "spotify_artists02": "Shaggy",
+        "spotify_artists02_id": "5EvFsr3kj42KNv97ZEnqij",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb4f49b447350fa63936242776",
+        "spotify_artists02_genres": "pop rap, reggae fusion",
+        "spotify_artists02_popularity": "71",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "bLeNxQwMJwc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sting-Shaggy-Gotta-Get-Back-My-Baby.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1025,
+            "name": "Gims",
+            "slug": "gims",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "",
+              "artistborn": "19860506",
+              "artistdied": "",
+              "artistjpname": "ギムス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1024,
+            "name": "Shaggy",
+            "slug": "shaggy",
+            "acf": {
+              "artistorigin": "JAM",
+              "artistactiveyearstart": "1992",
+              "artistborn": "19681022",
+              "artistdied": "",
+              "artistjpname": "シャギー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 768,
+            "name": "Sting",
+            "slug": "sting",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1971",
+              "artistborn": "19511002",
+              "artistdied": "",
+              "artistjpname": "スティング",
+              "member": [
+                {
+                  "term_id": 2,
+                  "name": "Police",
+                  "slug": "police",
+                  "term_group": 0,
+                  "term_taxonomy_id": 2,
+                  "taxonomy": "category",
+                  "description": "The Police were an English rock band formed in London in 1977.",
+                  "parent": 0,
+                  "count": 22,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "bassist",
+                  "label": "Bassist"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "0Ty63ceoRnnJKVEYP0VQpk",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749fdb4dab484a9f12e347c216",
+              "youtube_channel": "UCwERP8ZAI10RtZIAPsZQDDw",
+              "wikipedia_page": "Sting_(musician)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Sting, Shaggy",
+        "ytvideoid": "bLeNxQwMJwc",
+        "spotify_track_id": "7ub9HggXQPqjYTGEKuC6nF"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "gotta-get-back-my-baby"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

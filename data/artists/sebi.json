@@ -1,0 +1,72 @@
+{
+  "id": 5471,
+  "count": 3,
+  "description": "",
+  "link": "https://sub.music8.jp/category/sebi/",
+  "name": "SEBi!",
+  "slug": "sebi",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUT",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Mindblind | Salmer | COLOURBLIND | Here For A Reason | Anton Josef | So Much More | Some Days You Lose | Ampere | Fat Chester | Up Close | Max Schabl und das Volk der Mäuse | Seek and Destroy | Death before Digital | Rumperts | Zug Nach Wien | Discorrected | RISK | Vandans | Ellyster | Romance Dawn",
+    "spotify_artist_id": "379HWDro6BdeD9CgqM1rzG",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174637d556eb98411aa79877805"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5471",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5471"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5471"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174637d556eb98411aa79877805",
+  "artistActiveYearStart": "",
+  "occupation": "band"
+}

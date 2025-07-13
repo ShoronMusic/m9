@@ -1,0 +1,72 @@
+{
+  "id": 5284,
+  "count": 1,
+  "description": "Murphy Lee is an American rapper.",
+  "link": "https://sub.music8.jp/category/murphy-lee/",
+  "name": "Murphy Lee",
+  "slug": "murphy-lee",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1993",
+    "artistborn": "",
+    "artistjpname": "マーフィー・リー",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "07W0YfsvHM7Mw7Bq48Mb0A",
+    "spotify_artist_images": "https://i.scdn.co/image/605cf5f84ac88eb2e8374b4daa4db58f264d31b1"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5284",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5284"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5284"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マーフィー・リー",
+  "spotifyArtistImages": "https://i.scdn.co/image/605cf5f84ac88eb2e8374b4daa4db58f264d31b1",
+  "artistActiveYearStart": "1993",
+  "occupation": "rapper"
+}

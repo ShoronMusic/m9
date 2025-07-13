@@ -1,0 +1,72 @@
+{
+  "id": 6100,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/vin-jay/",
+  "name": "Vin Jay",
+  "slug": "vin-jay",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "",
+    "artistborn": "19950807",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ],
+    "related_artists": "GAWNE (gawne) | Anickan | Bazanji | Kvng Moses | Ollie Joseph | Chris Webby (chris-webby) | Crypt | Apollo | Hi-Rez | Anilyst | Feeki | King Iso | Cryptic Wisdom | AK | Mass of Man (mass-of-man) | Matty Beats | Nsyt | Bingx | Enkay47 | Tom MacDonald (tom-macdonald)",
+    "spotify_artist_id": "2DQkr7ZMTqNrlz5HcXZeI7",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e0b12e3d9ba4b7317329629c"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6100",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6100"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6100"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174e0b12e3d9ba4b7317329629c",
+  "artistActiveYearStart": "",
+  "occupation": "rapper"
+}

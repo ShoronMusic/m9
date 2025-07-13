@@ -1,0 +1,995 @@
+{
+  "artist": {
+    "id": 1465,
+    "count": 47,
+    "description": "The Offspring is an American punk rock band",
+    "link": "https://sub.music8.jp/category/offspring/",
+    "name": "Offspring",
+    "slug": "offspring",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1984",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "オフスプリング ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1465",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1465"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1465"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 8893,
+      "date": "1997-03-24T18:55:00",
+      "date_gmt": "1997-03-24T09:55:00",
+      "title": {
+        "rendered": "Gone Away"
+      },
+      "content": {
+        "rendered": "<p>The Offspring - Gone Away</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1465
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        663
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5BnFZLH99sYav2cxJFGO2n",
+        "spotify_release_date": "1997/2/4",
+        "spotify_name": "Gone Away - 1997",
+        "spotify_artists": "The Offspring",
+        "spotify_album": "Ixnay On The Hombre",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ba12c467b8cc7eb3be9e7d8b",
+        "spotify_duration_ms": "268826",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.45",
+        "spotify_energy": "0.945",
+        "spotify_key": "3",
+        "spotify_loudness": "-3.995",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0806",
+        "spotify_tempo": "111.342",
+        "spotify_valence": "0.294",
+        "spotify_acousticness": "0.012",
+        "spotify_instrumentalness": "0.00687",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0683",
+        "spotify_artists01": "The Offspring",
+        "spotify_artists01_id": "5LfGQac0EIXyAN8aUwmNAQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd7c5bbf32459922a72ec0d31",
+        "spotify_artists01_genres": "alternative metal, permanent wave, post-grunge, punk, rock, skate punk, socal pop punk",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "40V9_1PMUGM",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Offspring-Gone-Away.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1465,
+            "name": "Offspring",
+            "slug": "offspring",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1984",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オフスプリング ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Offspring",
+        "ytvideoid": "40V9_1PMUGM",
+        "spotify_track_id": "5BnFZLH99sYav2cxJFGO2n"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Post-grunge",
+          "slug": "post-grunge",
+          "term_id": 663,
+          "post_count": 99
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "gone-away"
+    },
+    {
+      "id": 8889,
+      "date": "1997-01-19T18:47:00",
+      "date_gmt": "1997-01-19T09:47:00",
+      "title": {
+        "rendered": "All I Want"
+      },
+      "content": {
+        "rendered": "<p><a href=\"us8OhI-OTHg\">The Offspring - All I Want</a></p>\n",
+        "protected": false
+      },
+      "categories": [
+        1465
+      ],
+      "tags": [],
+      "genre": [
+        711
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "717oSBYrcR8awQgUsmyE32",
+        "spotify_release_date": "1997/2/4",
+        "spotify_name": "All I Want",
+        "spotify_artists": "The Offspring",
+        "spotify_album": "Ixnay On The Hombre",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ba12c467b8cc7eb3be9e7d8b",
+        "spotify_duration_ms": "114666",
+        "spotify_popularity": "69",
+        "spotify_danceability": "0.205",
+        "spotify_energy": "0.973",
+        "spotify_key": "6",
+        "spotify_loudness": "-3.389",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.124",
+        "spotify_tempo": "172.689",
+        "spotify_valence": "0.565",
+        "spotify_acousticness": "0.01",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.393",
+        "spotify_artists01": "The Offspring",
+        "spotify_artists01_id": "5LfGQac0EIXyAN8aUwmNAQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd7c5bbf32459922a72ec0d31",
+        "spotify_artists01_genres": "alternative metal, permanent wave, post-grunge, punk, rock, skate punk, socal pop punk",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "us8OhI-OTHg",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Offspring-All-I-Want.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1465,
+            "name": "Offspring",
+            "slug": "offspring",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1984",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オフスプリング ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Offspring",
+        "ytvideoid": "us8OhI-OTHg",
+        "spotify_track_id": "717oSBYrcR8awQgUsmyE32"
+      },
+      "genre_data": [
+        {
+          "name": "Skate punk",
+          "slug": "skate-punk",
+          "term_id": 711,
+          "post_count": 21
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "all-i-want"
+    },
+    {
+      "id": 8887,
+      "date": "1995-05-23T18:39:00",
+      "date_gmt": "1995-05-23T09:39:00",
+      "title": {
+        "rendered": "Smash It Up"
+      },
+      "content": {
+        "rendered": "\n<p>The Offspring - Smash It Up</p>\n\n\n\n<figure class=\"wp-block-image size-full is-resized is-style-default\"><img loading=\"lazy\" decoding=\"async\" src=\"http://xs867261.xsrv.jp/wp/wp-content/uploads/Batman-Forever.webp\" alt=\"\" class=\"wp-image-8892\" width=\"250\" height=\"250\"/><figcaption><em>Batman Forever</em> (1995)</figcaption></figure>\n",
+        "protected": false
+      },
+      "categories": [
+        1465
+      ],
+      "tags": [],
+      "genre": [
+        683
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "",
+        "spotify_release_date": "",
+        "spotify_name": "",
+        "spotify_artists": "",
+        "spotify_album": "",
+        "spotify_images": "",
+        "spotify_duration_ms": "",
+        "spotify_popularity": "",
+        "spotify_danceability": "",
+        "spotify_energy": "",
+        "spotify_key": "",
+        "spotify_loudness": "",
+        "spotify_mode": "",
+        "spotify_speechiness": "",
+        "spotify_tempo": "",
+        "spotify_valence": "",
+        "spotify_acousticness": "",
+        "spotify_instrumentalness": "",
+        "spotify_time_signature": "",
+        "spotify_liveness": "",
+        "spotify_artists01": "",
+        "spotify_artists01_id": "",
+        "spotify_artists01_images": "",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "#NAME?",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Offspring-Smash-It-Up.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1465,
+            "name": "Offspring",
+            "slug": "offspring",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1984",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オフスプリング ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "",
+        "ytvideoid": "#NAME?",
+        "spotify_track_id": ""
+      },
+      "genre_data": [
+        {
+          "name": "Punk rock",
+          "slug": "punk-rock",
+          "term_id": 683,
+          "post_count": 119
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "smash-it-up"
+    },
+    {
+      "id": 8885,
+      "date": "1995-03-15T18:36:00",
+      "date_gmt": "1995-03-15T09:36:00",
+      "title": {
+        "rendered": "Bad Habit"
+      },
+      "content": {
+        "rendered": "<p>The Offspring - Bad Habit</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1465
+      ],
+      "tags": [],
+      "genre": [
+        683,
+        711
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5tFzUj1jV09bo4wBQWSbDl",
+        "spotify_release_date": "1994/4/8",
+        "spotify_name": "Bad Habit",
+        "spotify_artists": "The Offspring",
+        "spotify_album": "Smash",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730158cbde70672dd821972907",
+        "spotify_duration_ms": "223906",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.354",
+        "spotify_energy": "0.73",
+        "spotify_key": "2",
+        "spotify_loudness": "-7.581",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0791",
+        "spotify_tempo": "148.08",
+        "spotify_valence": "0.383",
+        "spotify_acousticness": "0.0251",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.106",
+        "spotify_artists01": "The Offspring",
+        "spotify_artists01_id": "5LfGQac0EIXyAN8aUwmNAQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd7c5bbf32459922a72ec0d31",
+        "spotify_artists01_genres": "alternative metal, permanent wave, post-grunge, punk, rock, skate punk, socal pop punk",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "U43XOSiKfqM",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Offspring-Bad-Habit.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1465,
+            "name": "Offspring",
+            "slug": "offspring",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1984",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オフスプリング ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Offspring",
+        "ytvideoid": "U43XOSiKfqM",
+        "spotify_track_id": "5tFzUj1jV09bo4wBQWSbDl"
+      },
+      "genre_data": [
+        {
+          "name": "Punk rock",
+          "slug": "punk-rock",
+          "term_id": 683,
+          "post_count": 119
+        },
+        {
+          "name": "Skate punk",
+          "slug": "skate-punk",
+          "term_id": 711,
+          "post_count": 21
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "bad-habit"
+    },
+    {
+      "id": 8883,
+      "date": "1995-02-02T18:33:00",
+      "date_gmt": "1995-02-02T09:33:00",
+      "title": {
+        "rendered": "Gotta Get Away"
+      },
+      "content": {
+        "rendered": "<p>The Offspring - Gotta Get Away</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1465
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        711
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0vQPY1VCcvZa2Mm6QM63Le",
+        "spotify_release_date": "1994/4/8",
+        "spotify_name": "Gotta Get Away",
+        "spotify_artists": "The Offspring",
+        "spotify_album": "Smash",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730158cbde70672dd821972907",
+        "spotify_duration_ms": "232160",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.568",
+        "spotify_energy": "0.826",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.634",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0402",
+        "spotify_tempo": "132.782",
+        "spotify_valence": "0.796",
+        "spotify_acousticness": "0.00082",
+        "spotify_instrumentalness": "8.56E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0789",
+        "spotify_artists01": "The Offspring",
+        "spotify_artists01_id": "5LfGQac0EIXyAN8aUwmNAQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd7c5bbf32459922a72ec0d31",
+        "spotify_artists01_genres": "alternative metal, permanent wave, post-grunge, punk, rock, skate punk, socal pop punk",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "xrBAYD4kmPo",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Offspring-Gotta-Get-Away.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1465,
+            "name": "Offspring",
+            "slug": "offspring",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1984",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オフスプリング ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Offspring",
+        "ytvideoid": "xrBAYD4kmPo",
+        "spotify_track_id": "0vQPY1VCcvZa2Mm6QM63Le"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Skate punk",
+          "slug": "skate-punk",
+          "term_id": 711,
+          "post_count": 21
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "gotta-get-away"
+    },
+    {
+      "id": 8879,
+      "date": "1994-12-22T18:15:00",
+      "date_gmt": "1994-12-22T09:15:00",
+      "title": {
+        "rendered": "Self Esteem"
+      },
+      "content": {
+        "rendered": "<p>The Offspring - Self Esteem</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1465
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        550,
+        660,
+        711
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1FkoVC85Ds3mFoK0fVqEqP",
+        "spotify_release_date": "1994/4/8",
+        "spotify_name": "Self Esteem",
+        "spotify_artists": "The Offspring",
+        "spotify_album": "Smash",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730158cbde70672dd821972907",
+        "spotify_duration_ms": "257826",
+        "spotify_popularity": "80",
+        "spotify_danceability": "0.488",
+        "spotify_energy": "0.862",
+        "spotify_key": "0",
+        "spotify_loudness": "-7.595",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0476",
+        "spotify_tempo": "104.56",
+        "spotify_valence": "0.706",
+        "spotify_acousticness": "0.0204",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.359",
+        "spotify_artists01": "The Offspring",
+        "spotify_artists01_id": "5LfGQac0EIXyAN8aUwmNAQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd7c5bbf32459922a72ec0d31",
+        "spotify_artists01_genres": "alternative metal, permanent wave, post-grunge, punk, rock, skate punk, socal pop punk",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Abrn8aVQ76Q",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Offspring-Self-Esteem.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1465,
+            "name": "Offspring",
+            "slug": "offspring",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1984",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オフスプリング ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Offspring",
+        "ytvideoid": "Abrn8aVQ76Q",
+        "spotify_track_id": "1FkoVC85Ds3mFoK0fVqEqP"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Grunge",
+          "slug": "grunge",
+          "term_id": 550,
+          "post_count": 55
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        },
+        {
+          "name": "Skate punk",
+          "slug": "skate-punk",
+          "term_id": 711,
+          "post_count": 21
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "self-esteem"
+    },
+    {
+      "id": 8878,
+      "date": "1994-03-10T18:14:00",
+      "date_gmt": "1994-03-10T09:14:00",
+      "title": {
+        "rendered": "Come Out and Play"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1465
+      ],
+      "tags": [],
+      "genre": [
+        660,
+        683,
+        711
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5JJDu0Z5DKe7mR31MGksSg",
+        "spotify_release_date": "1994/4/8",
+        "spotify_name": "Come Out and Play",
+        "spotify_artists": "The Offspring",
+        "spotify_album": "Smash",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730158cbde70672dd821972907",
+        "spotify_duration_ms": "197800",
+        "spotify_popularity": "76",
+        "spotify_danceability": "0.519",
+        "spotify_energy": "0.77",
+        "spotify_key": "7",
+        "spotify_loudness": "-8.788",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0809",
+        "spotify_tempo": "158.29",
+        "spotify_valence": "0.921",
+        "spotify_acousticness": "0.0675",
+        "spotify_instrumentalness": "3.48E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0762",
+        "spotify_artists01": "The Offspring",
+        "spotify_artists01_id": "5LfGQac0EIXyAN8aUwmNAQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd7c5bbf32459922a72ec0d31",
+        "spotify_artists01_genres": "alternative metal, permanent wave, post-grunge, punk, rock, skate punk, socal pop punk",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "1jOk8dk-qaU",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Offspring-Come-Out-and-Play.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1465,
+            "name": "Offspring",
+            "slug": "offspring",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1984",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オフスプリング ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Offspring",
+        "ytvideoid": "1jOk8dk-qaU",
+        "spotify_track_id": "5JJDu0Z5DKe7mR31MGksSg"
+      },
+      "genre_data": [
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        },
+        {
+          "name": "Punk rock",
+          "slug": "punk-rock",
+          "term_id": 683,
+          "post_count": 119
+        },
+        {
+          "name": "Skate punk",
+          "slug": "skate-punk",
+          "term_id": 711,
+          "post_count": 21
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "come-out-and-play"
+    }
+  ],
+  "totalSongs": 47,
+  "totalPages": 3,
+  "currentPage": 3
+}

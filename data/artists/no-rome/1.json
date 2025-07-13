@@ -1,0 +1,405 @@
+{
+  "artist": {
+    "id": 1470,
+    "count": 2,
+    "description": "No Rome is a London-based Filipino musician.",
+    "link": "https://sub.music8.jp/category/no-rome/",
+    "name": "No Rome",
+    "slug": "no-rome",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "PHI",
+      "artistactiveyearstart": "2011",
+      "artistborn": "19970830",
+      "artistdied": "",
+      "artistjpname": "ノー・ローム",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1470",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1470"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1470"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52399,
+      "date": "2023-09-15T10:30:07",
+      "date_gmt": "2023-09-15T01:30:07",
+      "title": {
+        "rendered": "Elevator Music"
+      },
+      "content": {
+        "rendered": "<p>No Rome - Elevator Music</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1470
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4mYTYavKZErjx5MjDuaNW2",
+        "spotify_release_date": "2023-09-08",
+        "spotify_name": "Elevator Music (OMG)",
+        "spotify_artists": "No Rome",
+        "spotify_album": "Blueboy Must Die",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736e3b1adcc29e61ca7d10bbcb",
+        "spotify_duration_ms": "164725",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.734",
+        "spotify_energy": "0.756",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.583",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0332",
+        "spotify_tempo": "153.938",
+        "spotify_valence": "0.916",
+        "spotify_acousticness": "0.448",
+        "spotify_instrumentalness": "0.048",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.134",
+        "spotify_artists01": "No Rome",
+        "spotify_artists01_id": "6auWB5YAlcKaHyrbTH66nd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb88e49511f9b13acedb3dff89",
+        "spotify_artists01_genres": "indietronica",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "1nCyCidjlIQ",
+        "ytreleasedate": "2023/09/15"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/No-Rome-Elevator-Music.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1470,
+            "name": "No Rome",
+            "slug": "no-rome",
+            "acf": {
+              "artistorigin": "PHI",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19970830",
+              "artistdied": "",
+              "artistjpname": "ノー・ローム",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "No Rome",
+        "ytvideoid": "1nCyCidjlIQ",
+        "spotify_track_id": "4mYTYavKZErjx5MjDuaNW2"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "elevator-music"
+    },
+    {
+      "id": 41097,
+      "date": "2021-03-04T15:54:00",
+      "date_gmt": "2021-03-04T06:54:00",
+      "title": {
+        "rendered": "Spinning"
+      },
+      "content": {
+        "rendered": "\n<p>NoRome-Spinningft.CharliXCX&amp;The1975</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1469,
+        1471,
+        1470
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        534,
+        655
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "56D251hqnHtPSgwSH5a0fl",
+        "spotify_release_date": "2021/3/4",
+        "spotify_name": "Spinning (with Charli XCX & The 1975)",
+        "spotify_artists": "No Rome, Charli XCX, The 1975",
+        "spotify_album": "Spinning (with Charli XCX & The 1975)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734f5549dc1dd07183ee7941ba",
+        "spotify_duration_ms": "172559",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.716",
+        "spotify_energy": "0.698",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.644",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0415",
+        "spotify_tempo": "119.994",
+        "spotify_valence": "0.742",
+        "spotify_acousticness": "0.0126",
+        "spotify_instrumentalness": "8.70E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0733",
+        "spotify_artists01": "No Rome",
+        "spotify_artists01_id": "6auWB5YAlcKaHyrbTH66nd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb88e49511f9b13acedb3dff89",
+        "spotify_artists01_genres": "indietronica",
+        "spotify_artists01_popularity": "49",
+        "spotify_artists02": "Charli XCX",
+        "spotify_artists02_id": "25uiPmTg16RbhZWAqwLBy5",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb576cb43281160e345f728b71",
+        "spotify_artists02_genres": "art pop, candy pop, metropopolis, pop, uk pop",
+        "spotify_artists02_popularity": "76",
+        "spotify_artists03": "The 1975",
+        "spotify_artists03_id": "3mIj9lX2MWuHmhNCA7LSCW",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb89348336354096fd4e36ca73",
+        "spotify_artists03_genres": "modern alternative rock, modern rock, pop, pov: indie, rock",
+        "spotify_artists03_popularity": "75",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ql4wn9M0fho",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/No-Rome-Spinning-ft.-Charli-XCX-The-1975.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1469,
+            "name": "1975",
+            "slug": "1975",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2002",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ナインティーンセヴンティファイヴ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "3mIj9lX2MWuHmhNCA7LSCW",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517489348336354096fd4e36ca73"
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          },
+          {
+            "id": 1471,
+            "name": "Charli XCX",
+            "slug": "charli-xcx",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19920802",
+              "artistdied": "",
+              "artistjpname": "チャーリー・エックス・シー・エックス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "SOPHIE (sophie) | Caroline Polachek (caroline-polachek) | Kim Petras (kim-petras) | Rina Sawayama (rina-sawayama) | Slayyyter (slayyyter) | Tove Lo (tove-lo) | Shygirl (shygirl) | A. G. Cook | FKA twigs (fka-twigs) | Sky Ferreira (sky-ferreira) | Azealia Banks | MØ (mo) | Arca | Allie X (allie-x) | Iggy Azalea (iggy-azalea) | Grimes (grimes) | Lorde (lorde) | Carly Rae Jepsen (carly-rae-jepsen) | Tinashe (tinashe) | Dorian Electra (dorian-electra)",
+              "spotify_artist_id": "25uiPmTg16RbhZWAqwLBy5",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174936885667ef44c306483c838"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1470,
+            "name": "No Rome",
+            "slug": "no-rome",
+            "acf": {
+              "artistorigin": "PHI",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19970830",
+              "artistdied": "",
+              "artistjpname": "ノー・ローム",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "No Rome, Charli XCX, The 1975",
+        "ytvideoid": "ql4wn9M0fho",
+        "spotify_track_id": "56D251hqnHtPSgwSH5a0fl"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Garage house",
+          "slug": "garage-house",
+          "term_id": 534,
+          "post_count": 45
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "spinning"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

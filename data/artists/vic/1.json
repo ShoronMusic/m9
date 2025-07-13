@@ -1,0 +1,251 @@
+{
+  "artist": {
+    "id": 3653,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/vic/",
+    "name": "Vic",
+    "slug": "vic",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3653",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3653"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3653"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 56177,
+      "date": "2023-03-10T22:05:10",
+      "date_gmt": "2023-03-10T13:05:10",
+      "title": {
+        "rendered": "Tina"
+      },
+      "content": {
+        "rendered": "<p>Vintage Culture, Bhaskar & Meca - Tina (ft. The Vic)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3654,
+        3655,
+        3653,
+        2671
+      ],
+      "tags": [],
+      "genre": [
+        740
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "22MfEGdH3Noyx9GfyZWpFz",
+        "spotify_release_date": "2023-03-10",
+        "spotify_name": "Tina",
+        "spotify_artists": "Vintage Culture, Bhaskar, Meca, The Vic",
+        "spotify_album": "Tina",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27351eaa46b74b348af6d1a189c",
+        "spotify_duration_ms": "262500",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.746",
+        "spotify_energy": "0.91",
+        "spotify_key": "5",
+        "spotify_loudness": "-8.807",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0584",
+        "spotify_tempo": "128.007",
+        "spotify_valence": "0.286",
+        "spotify_acousticness": "0.00272",
+        "spotify_instrumentalness": "0.262",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.364",
+        "spotify_artists01": "Vintage Culture",
+        "spotify_artists01_id": "28uJnu5EsrGml2tBd7y8ts",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3c25c102ad2fc73a3379326a",
+        "spotify_artists01_genres": "brazilian edm",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "Bhaskar",
+        "spotify_artists02_id": "6kT18gnkVrCz8xJQcrib7L",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb6bc08d55daf67ecb69288f51",
+        "spotify_artists02_genres": "brazilian bass, brazilian edm, brazilian house",
+        "spotify_artists02_popularity": "55",
+        "spotify_artists03": "Meca",
+        "spotify_artists03_id": "4BXrJLagIbiwWnfJMd1sKQ",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebd99f314c8c71add599bcaf1f",
+        "spotify_artists03_genres": "brazilian edm",
+        "spotify_artists03_popularity": "42",
+        "spotify_artists04": "The Vic",
+        "spotify_artists04_id": "5Yme0D6xmxktmVYHLNULgR",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5ebc36682f6104747390673fa7d",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "38",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "LQkrsm9xVxg",
+        "ytreleasedate": "2023/03/10"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Vintage-Culture-Bhaskar-Meca-Tina-ft.-The-Vic.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3654,
+            "name": "Bhaskar",
+            "slug": "bhaskar",
+            "acf": {
+              "artistorigin": "BRA",
+              "artistactiveyearstart": "",
+              "artistborn": "19910826",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3655,
+            "name": "Meca",
+            "slug": "meca",
+            "acf": {
+              "artistorigin": "BRA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3653,
+            "name": "Vic",
+            "slug": "vic",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2671,
+            "name": "Vintage Culture",
+            "slug": "vintage-culture",
+            "acf": {
+              "artistorigin": "BRA",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19930707",
+              "artistdied": "",
+              "artistjpname": "ヴィンテージ・カルチャー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "28uJnu5EsrGml2tBd7y8ts",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174b2858408e6d69098e07329fd",
+              "youtube_channel": "UC4N1snt2b0d83vOkvaWP6mg",
+              "wikipedia_page": "Vintage_Culture"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Vintage Culture, Bhaskar, Meca, The Vic",
+        "ytvideoid": "LQkrsm9xVxg",
+        "spotify_track_id": "22MfEGdH3Noyx9GfyZWpFz"
+      },
+      "genre_data": [
+        {
+          "name": "Tech house",
+          "slug": "tech-house",
+          "term_id": 740,
+          "post_count": 91
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "tina"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

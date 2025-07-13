@@ -1,0 +1,72 @@
+{
+  "id": 6220,
+  "count": 3,
+  "description": "The BoykinZ are an American country music quartet.",
+  "link": "https://sub.music8.jp/category/boykinz/",
+  "name": "BoykinZ",
+  "slug": "boykinz",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2012",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "group",
+        "label": "Group"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "45yX0sqYmkP2IgBtKVJKSL",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a6c44aa2fbe58c9b644c66a6"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6220",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6220"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6220"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a6c44aa2fbe58c9b644c66a6",
+  "artistActiveYearStart": "2012",
+  "occupation": "group"
+}

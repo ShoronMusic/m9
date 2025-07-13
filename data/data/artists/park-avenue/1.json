@@ -1,0 +1,166 @@
+{
+  "artist": {
+    "id": 2379,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/park-avenue/",
+    "name": "Park Avenue",
+    "slug": "park-avenue",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2379",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2379"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2379"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38062,
+      "date": "2023-02-04T19:38:00",
+      "date_gmt": "2023-02-04T10:38:00",
+      "title": {
+        "rendered": "Thinking"
+      },
+      "content": {
+        "rendered": "<p>CloudNone-Thinking(feat.ParkAvenue)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2379
+      ],
+      "tags": [],
+      "genre": [
+        487
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "diES74gwllc",
+        "likecount": "1",
+        "spotify_track_id": "0DOfzzbKv4ObJ241SEjC4A",
+        "spotify_release_date": "2023/2/3",
+        "spotify_name": "Thinking",
+        "spotify_artists": "CloudNone, Park Avenue",
+        "spotify_album": "Thinking",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27393ad78f111e0911280c2851c",
+        "spotify_duration_ms": "303750",
+        "spotify_popularity": "26",
+        "spotify_danceability": "0.568",
+        "spotify_energy": "0.724",
+        "spotify_key": "10",
+        "spotify_loudness": "-5.41",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0411",
+        "spotify_tempo": "169.943",
+        "spotify_valence": "0.394",
+        "spotify_acousticness": "0.351",
+        "spotify_instrumentalness": "0.396",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.139",
+        "spotify_artists01": "CloudNone",
+        "spotify_artists01_id": "49vNfTzZU1nXv2xO34z5RY",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcd3e7b18d588a04d288013a4",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "38",
+        "spotify_artists02": "Park Avenue",
+        "spotify_artists02_id": "2InIVjILfVHmvET4a35JaF",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb679e331c8980d5a6f8033b6e",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "32",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "ytreleasedate": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/CloudNone-Thinking-feat.-Park-Avenue.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2379,
+            "name": "Park Avenue",
+            "slug": "park-avenue",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "CloudNone, Park Avenue",
+        "ytvideoid": "diES74gwllc",
+        "spotify_track_id": "0DOfzzbKv4ObJ241SEjC4A"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "thinking-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,77 @@
+{
+  "id": 2956,
+  "count": 5,
+  "description": "",
+  "link": "https://sub.music8.jp/category/lauren-mayberry/",
+  "name": "Lauren Mayberry",
+  "slug": "lauren-mayberry",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2003",
+    "artistborn": "19871007",
+    "artistdied": "",
+    "artistjpname": "ローレン・メイベリー",
+    "member": [
+      {
+        "term_id": 1509,
+        "name": "CHVRCHES",
+        "slug": "chvrches",
+        "term_group": 0,
+        "term_taxonomy_id": 1509,
+        "taxonomy": "category",
+        "description": "CHVRCHES is a Scottish synth-pop band.",
+        "parent": 0,
+        "count": 32,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": []
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2956",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2956"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2956"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ローレン・メイベリー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2003",
+  "occupation": ""
+}

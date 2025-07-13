@@ -1,0 +1,75 @@
+{
+  "id": 1240,
+  "count": 53,
+  "description": "U2 are an Irish rock band formed in Dublin in 1976.",
+  "link": "https://sub.music8.jp/category/u2/",
+  "name": "U2",
+  "slug": "u2",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "IRL",
+    "artistactiveyearstart": "1976",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ユーツー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "51Blml2LZPmy7TTiAg47vQ",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e62be215d2ee31bcd97edaba",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "UC4gPNusMDwx2Xm-YI35AkCA",
+    "wikipedia_page": "U2"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1240",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1240"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1240"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ユーツー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174e62be215d2ee31bcd97edaba",
+  "artistActiveYearStart": "1976",
+  "occupation": "band"
+}

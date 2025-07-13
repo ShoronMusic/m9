@@ -1,0 +1,80 @@
+{
+  "id": 5140,
+  "count": 1,
+  "description": "Mike Tramp is a Danish singer , his work with the glam metal band White Lion.",
+  "link": "https://sub.music8.jp/category/mike-tramp/",
+  "name": "Mike Tramp",
+  "slug": "mike-tramp",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "DEN",
+    "artistactiveyearstart": "1976",
+    "artistborn": "19610114",
+    "artistjpname": "マイク・トランプ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3ojfFAJO1If7IbumBpVlmq",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174345f706b193705e446f18c56"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5140",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5140"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5140"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マイク・トランプ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174345f706b193705e446f18c56",
+  "artistActiveYearStart": "1976",
+  "occupation": "singer, songwriter, musician"
+}

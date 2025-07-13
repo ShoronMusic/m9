@@ -1,0 +1,464 @@
+{
+  "artist": {
+    "id": 1897,
+    "count": 3,
+    "description": "Young the Giant is an American rock band.",
+    "link": "https://sub.music8.jp/category/young-the-giant/",
+    "name": "Young the Giant",
+    "slug": "young-the-giant",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2004",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ヤング・ザ・ジャイアント",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1897",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1897"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1897"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38808,
+      "date": "2022-09-22T03:14:00",
+      "date_gmt": "2022-09-21T18:14:00",
+      "title": {
+        "rendered": "My Way"
+      },
+      "content": {
+        "rendered": "\n<p>YoungtheGiant-MyWay</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1897
+      ],
+      "tags": [],
+      "genre": [
+        519,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0sfrbCvmUUfJgZlKqXQbQ6",
+        "spotify_release_date": "2022/11/16",
+        "spotify_name": "TheWalkHome",
+        "spotify_artists": "YoungtheGiant",
+        "spotify_album": "AmericanBollywood",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b5e439db4f64a8e271099a75",
+        "spotify_duration_ms": "196643",
+        "spotify_popularity": "62",
+        "spotify_danceability": "0.515",
+        "spotify_energy": "0.899",
+        "spotify_key": "7",
+        "spotify_loudness": "-6.404",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0493",
+        "spotify_tempo": "124.993",
+        "spotify_valence": "0.31",
+        "spotify_acousticness": "0.0062",
+        "spotify_instrumentalness": "1.18E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.49",
+        "spotify_artists01": "YoungtheGiant",
+        "spotify_artists01_id": "4j56EQDQu5XnL7R3E9iFJT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb55d7d266173722c1e09968ce",
+        "spotify_artists01_genres": "indietronica,modernalternativerock,modernrock,pov:indie,stompandholler",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "QZTgkVmnwzQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Young-the-Giant-My-Way.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1897,
+            "name": "Young the Giant",
+            "slug": "young-the-giant",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヤング・ザ・ジャイアント",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "YoungtheGiant",
+        "ytvideoid": "QZTgkVmnwzQ",
+        "spotify_track_id": "0sfrbCvmUUfJgZlKqXQbQ6"
+      },
+      "genre_data": [
+        {
+          "name": "Folk rock",
+          "slug": "folk-rock",
+          "term_id": 519,
+          "post_count": 97
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "my-way-2"
+    },
+    {
+      "id": 38972,
+      "date": "2022-08-12T22:29:00",
+      "date_gmt": "2022-08-12T13:29:00",
+      "title": {
+        "rendered": "The Walk Home"
+      },
+      "content": {
+        "rendered": "\n<p>YoungtheGiant-TheWalkHome</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1897
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7fioUXJZrCUn91UZJV2mQD",
+        "spotify_release_date": "2022/7/28",
+        "spotify_name": "Malibu",
+        "spotify_artists": "THEDRIVERERA,RossLynch,Rocky",
+        "spotify_album": "Malibu",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737d9ccc284ebf6cdf81ed8d09",
+        "spotify_duration_ms": "167556",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.858",
+        "spotify_energy": "0.659",
+        "spotify_key": "4",
+        "spotify_loudness": "-6.696",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0686",
+        "spotify_tempo": "111.004",
+        "spotify_valence": "0.748",
+        "spotify_acousticness": "0.281",
+        "spotify_instrumentalness": "0.00715",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.103",
+        "spotify_artists01": "THEDRIVERERA",
+        "spotify_artists01_id": "5bmqhxWk9SEFDGIzWpSjVJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb582db11525477fefd2245f6e",
+        "spotify_artists01_genres": "modernalternativerock",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "RossLynch",
+        "spotify_artists02_id": "4UxLFBvSr4xMDpHe1lrLrH",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebbefdffc6a3bb893beee80c55",
+        "spotify_artists02_genres": "post-teenpop",
+        "spotify_artists02_popularity": "59",
+        "spotify_artists03": "Rocky",
+        "spotify_artists03_id": "542yUd4rGzUEOLd1diV94f",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebb11c126f2410bc40efc76647",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "48",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "s8mw0BDagEU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Young-the-Giant-The-Walk-Home.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1897,
+            "name": "Young the Giant",
+            "slug": "young-the-giant",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヤング・ザ・ジャイアント",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "THEDRIVERERA,RossLynch,Rocky",
+        "ytvideoid": "s8mw0BDagEU",
+        "spotify_track_id": "7fioUXJZrCUn91UZJV2mQD"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-walk-home"
+    },
+    {
+      "id": 39141,
+      "date": "2022-07-15T23:20:00",
+      "date_gmt": "2022-07-15T14:20:00",
+      "title": {
+        "rendered": "American Bollywood"
+      },
+      "content": {
+        "rendered": "\n<p>YoungTheGiant-AmericanBollywood</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1897
+      ],
+      "tags": [],
+      "genre": [
+        485,
+        575,
+        630
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5uB9II615svx1O0lsfq0me",
+        "spotify_release_date": "2022/11/16",
+        "spotify_name": "AmericanBollywood",
+        "spotify_artists": "YoungtheGiant",
+        "spotify_album": "AmericanBollywood",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b5e439db4f64a8e271099a75",
+        "spotify_duration_ms": "284244",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.422",
+        "spotify_energy": "0.647",
+        "spotify_key": "5",
+        "spotify_loudness": "-7.8",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.039",
+        "spotify_tempo": "148.049",
+        "spotify_valence": "0.0919",
+        "spotify_acousticness": "0.0863",
+        "spotify_instrumentalness": "0.0106",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.229",
+        "spotify_artists01": "YoungtheGiant",
+        "spotify_artists01_id": "4j56EQDQu5XnL7R3E9iFJT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb55d7d266173722c1e09968ce",
+        "spotify_artists01_genres": "indietronica,modernalternativerock,modernrock,pov:indie,stompandholler",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "sqNSjJdU7gE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Young-The-Giant-American-Bollywood.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1897,
+            "name": "Young the Giant",
+            "slug": "young-the-giant",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヤング・ザ・ジャイアント",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "YoungtheGiant",
+        "ytvideoid": "sqNSjJdU7gE",
+        "spotify_track_id": "5uB9II615svx1O0lsfq0me"
+      },
+      "genre_data": [
+        {
+          "name": "Dream pop",
+          "slug": "dream-pop",
+          "term_id": 485,
+          "post_count": 212
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "american-bollywood"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

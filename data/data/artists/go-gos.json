@@ -1,0 +1,82 @@
+{
+  "id": 862,
+  "count": 4,
+  "description": "The Go-Go's were an American all-female rock band.",
+  "link": "https://sub.music8.jp/category/go-gos/",
+  "name": "Go-Go's",
+  "slug": "go-gos",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1978-2022",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ゴーゴーズ",
+    "member": [
+      {
+        "term_id": 3692,
+        "name": "Belinda Carlisle",
+        "slug": "belinda-carlisle",
+        "term_group": 0,
+        "term_taxonomy_id": 3692,
+        "taxonomy": "category",
+        "description": "Belinda Carlisle is an American singer.  lead vocalist of the Go-Go's.",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ]
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/862",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=862"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=862"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ゴーゴーズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1978-2022",
+  "occupation": "band"
+}

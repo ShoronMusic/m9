@@ -1,0 +1,228 @@
+{
+  "artist": {
+    "id": 3503,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/byron-messia/",
+    "name": "Byron Messia",
+    "slug": "byron-messia",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "JAM",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3503",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3503"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3503"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 54830,
+      "date": "2023-11-08T19:52:03",
+      "date_gmt": "2023-11-08T10:52:03",
+      "title": {
+        "rendered": "Nightmares"
+      },
+      "content": {
+        "rendered": "<p>Chris Brown - Nightmares, Byron Messia</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3503,
+        1549
+      ],
+      "tags": [],
+      "genre": [
+        402,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6K9ULKDxIVIxRH5FXPgLoq",
+        "spotify_release_date": "2023-11-07",
+        "spotify_name": "Nightmares (feat. Byron Messia)",
+        "spotify_artists": "Chris Brown, Byron Messia",
+        "spotify_album": "Nightmares (feat. Byron Messia)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a21fb42b6496836aa0648bae",
+        "spotify_duration_ms": "150997",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.646",
+        "spotify_energy": "0.463",
+        "spotify_key": "6",
+        "spotify_loudness": "-7.978",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.174",
+        "spotify_tempo": "101.541",
+        "spotify_valence": "0.306",
+        "spotify_acousticness": "0.267",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0933",
+        "spotify_artists01": "クリス・ブラウン",
+        "spotify_artists01_id": "7bXgB6jMjp9ATFy66eO08Z",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe50aa80e0f5869f84f6874d1",
+        "spotify_artists01_genres": "pop rap, r&b, rap",
+        "spotify_artists01_popularity": "83",
+        "spotify_artists02": "Byron Messia",
+        "spotify_artists02_id": "3IDfJpj4YVkaBl7Dd52Pxv",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb8a0cf849a4e62b7f5cbdfd20",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "58",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "xqdaVkJSNWg",
+        "ytreleasedate": "",
+        "pvstyle": [
+          "pv"
+        ],
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Chris-Brown-Nightmares-ft.-Byron-Messia.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3503,
+            "name": "Byron Messia",
+            "slug": "byron-messia",
+            "acf": {
+              "artistorigin": "JAM",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1549,
+            "name": "Chris Brown",
+            "slug": "chris-brown",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2002",
+              "artistborn": "19890505",
+              "artistdied": "",
+              "artistjpname": "クリス・ブラウン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ],
+              "related_artists": "Trey Songz | T-Pain (t-pain) | Ne-Yo (ne-yo) | USHER (usher) | Omarion (omarion) | Mario (mario) | Jeremih (jeremih) | August Alsina | Ella Mai (ella-mai) | Tyga (tyga) | Tory Lanez (tory-lanez) | DJ Khaled (dj-khaled) | Jacquees (jacquees) | Bryson Tiller (bryson-tiller) | Ciara (ciara) | Big Sean (big-sean) | Kehlani (kehlani) | Lloyd | Ty Dolla $ign (ty-dolla-ign) | Lil Wayne (lil-wayne)",
+              "spotify_artist_id": "7bXgB6jMjp9ATFy66eO08Z",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a48397e590a1c70e2cda7728"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Chris Brown, Byron Messia",
+        "ytvideoid": "xqdaVkJSNWg",
+        "spotify_track_id": "6K9ULKDxIVIxRH5FXPgLoq"
+      },
+      "genre_data": [
+        {
+          "name": "Afrobeats",
+          "slug": "afrobeats",
+          "term_id": 402,
+          "post_count": 135
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "nightmares-3"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

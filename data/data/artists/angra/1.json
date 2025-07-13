@@ -1,0 +1,353 @@
+{
+  "artist": {
+    "id": 3833,
+    "count": 2,
+    "description": "ANGRA is a Brazilian power metal band. ",
+    "link": "https://sub.music8.jp/category/angra/",
+    "name": "ANGRA",
+    "slug": "angra",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "BRA",
+      "artistactiveyearstart": "1991",
+      "artistborn": "",
+      "artistjpname": "アングラ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3833",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3833"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3833"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58105,
+      "date": "2023-12-01T09:47:03",
+      "date_gmt": "2023-12-01T00:47:03",
+      "title": {
+        "rendered": "Vida Seca"
+      },
+      "content": {
+        "rendered": "<p>ANGRA, Lenine - Vida Seca</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3833,
+        3834
+      ],
+      "tags": [],
+      "genre": [
+        671
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1oNEovE2cfpKcD6qq5moEK",
+        "spotify_release_date": "2023-11-03",
+        "spotify_name": "Vida Seca",
+        "spotify_artists": "ANGRA, Lenine",
+        "spotify_album": "Cycles Of Pain",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c7ae77aa9fdec37da1d9f8a3",
+        "spotify_duration_ms": "311172",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.299",
+        "spotify_energy": "0.891",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.771",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0644",
+        "spotify_tempo": "115.038",
+        "spotify_valence": "0.314",
+        "spotify_acousticness": "0.00517",
+        "spotify_instrumentalness": "0.000611",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0956",
+        "spotify_artists01": "ANGRA",
+        "spotify_artists01_id": "7IAXZaLTb6nkJr8RmVPn5y",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb66ed9eef4c4f85369167a555",
+        "spotify_artists01_genres": "brazilian metal, brazilian power metal, brazilian progressive metal, latin metal, metal, neo classical metal, power metal, progressive metal, progressive power metal, speed metal, symphonic metal",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "Lenine",
+        "spotify_artists02_id": "4YLBdrR3DVSMncm785NH6C",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebec49145db333873093681fb4",
+        "spotify_artists02_genres": "bossa nova, brazilian rock, manguebeat, mpb, nova mpb, nova musica pernambucana",
+        "spotify_artists02_popularity": "59",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "sqDmeRZpjAI",
+        "ytreleasedate": "2023/12/01"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ANGRA-Vida-Seca-feat.-Lenine.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3833,
+            "name": "ANGRA",
+            "slug": "angra",
+            "acf": {
+              "artistorigin": "BRA",
+              "artistactiveyearstart": "1991",
+              "artistborn": "",
+              "artistjpname": "アングラ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3834,
+            "name": "Lenine",
+            "slug": "lenine",
+            "acf": {
+              "artistorigin": "BRA",
+              "artistactiveyearstart": "1982",
+              "artistborn": "19590202",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ANGRA, Lenine",
+        "ytvideoid": "sqDmeRZpjAI",
+        "spotify_track_id": "1oNEovE2cfpKcD6qq5moEK"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive metal",
+          "slug": "progressive-metal",
+          "term_id": 671,
+          "post_count": 43
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "vida-seca"
+    },
+    {
+      "id": 58108,
+      "date": "2023-08-04T09:52:32",
+      "date_gmt": "2023-08-04T00:52:32",
+      "title": {
+        "rendered": "Ride Into The Storm"
+      },
+      "content": {
+        "rendered": "<p>ANGRA - Ride Into The Storm</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3833
+      ],
+      "tags": [],
+      "genre": [
+        668,
+        671
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5RHvHePfcJNWHx0FngHLy9",
+        "spotify_release_date": "2023-11-03",
+        "spotify_name": "Ride Into The Storm",
+        "spotify_artists": "ANGRA",
+        "spotify_album": "Cycles Of Pain",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c7ae77aa9fdec37da1d9f8a3",
+        "spotify_duration_ms": "372221",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.376",
+        "spotify_energy": "0.97",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.305",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0839",
+        "spotify_tempo": "175.028",
+        "spotify_valence": "0.216",
+        "spotify_acousticness": "0.0000311",
+        "spotify_instrumentalness": "0.00191",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.119",
+        "spotify_artists01": "ANGRA",
+        "spotify_artists01_id": "7IAXZaLTb6nkJr8RmVPn5y",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb66ed9eef4c4f85369167a555",
+        "spotify_artists01_genres": "brazilian metal, brazilian power metal, brazilian progressive metal, latin metal, metal, neo classical metal, power metal, progressive metal, progressive power metal, speed metal, symphonic metal",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "64YSuGo_QKQ",
+        "ytreleasedate": "2023/08/04"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ANGRA-Ride-Into-The-Storm.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3833,
+            "name": "ANGRA",
+            "slug": "angra",
+            "acf": {
+              "artistorigin": "BRA",
+              "artistactiveyearstart": "1991",
+              "artistborn": "",
+              "artistjpname": "アングラ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ANGRA",
+        "ytvideoid": "64YSuGo_QKQ",
+        "spotify_track_id": "5RHvHePfcJNWHx0FngHLy9"
+      },
+      "genre_data": [
+        {
+          "name": "Power metal",
+          "slug": "power-metal",
+          "term_id": 668,
+          "post_count": 98
+        },
+        {
+          "name": "Progressive metal",
+          "slug": "progressive-metal",
+          "term_id": 671,
+          "post_count": 43
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ride-into-the-storm"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

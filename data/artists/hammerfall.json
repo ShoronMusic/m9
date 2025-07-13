@@ -1,0 +1,72 @@
+{
+  "id": 5013,
+  "count": 2,
+  "description": "HammerFall is a Swedish power metal band.",
+  "link": "https://sub.music8.jp/category/hammerfall/",
+  "name": "HAMMERFALL",
+  "slug": "hammerfall",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "1993",
+    "artistborn": "",
+    "artistjpname": "ハンマーフォール",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2o18h28enlHxj887tATc58",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749a0164f238589f0c0ca31088"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5013",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5013"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5013"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ハンマーフォール",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051749a0164f238589f0c0ca31088",
+  "artistActiveYearStart": "1993",
+  "occupation": "band"
+}

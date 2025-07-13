@@ -1,0 +1,84 @@
+{
+  "id": 5245,
+  "count": 31,
+  "description": "Rick James was an American singer, musician, producer, and songwriter.",
+  "link": "https://sub.music8.jp/category/rick-james/",
+  "name": "Rick James",
+  "slug": "rick-james",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1964-2004",
+    "artistborn": "19480201",
+    "artistjpname": "リック・ジェームス",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "2004.08.06",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "Time | Gap Band (gap-band) | Cameo | Zapp (zapp) | Mary Jane Girls | Morris Day | Dazz Band (dazz-band) | S.O.S Band | Midnight Star (midnight-star) | Ohio Players (ohio-players) | Lakeside (lakeside) | Teena Marie | Con Funk Shun (con-funk-shun) | Sheila E. | Bar-Kays (bar-kays) | Whispers | Evelyn \"Champagne\" King | Roger | Rose Royce (rose-royce) | Heatwave (heatwave)",
+    "spotify_artist_id": "0FrpdcVlJQqibaz5HfBUrL",
+    "spotify_artist_images": "https://i.scdn.co/image/aa4cf47f4d71f91fe70f61bb703f35dc1afeb185"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5245",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5245"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5245"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "リック・ジェームス",
+  "spotifyArtistImages": "https://i.scdn.co/image/aa4cf47f4d71f91fe70f61bb703f35dc1afeb185",
+  "artistActiveYearStart": "1964-2004",
+  "occupation": "singer, songwriter, musician, producer"
+}

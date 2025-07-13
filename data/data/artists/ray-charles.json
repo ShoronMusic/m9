@@ -1,0 +1,84 @@
+{
+  "id": 4811,
+  "count": 0,
+  "description": "Ray Charles was an American singer, songwriter and pianist.",
+  "link": "https://sub.music8.jp/category/ray-charles/",
+  "name": "Ray Charles",
+  "slug": "ray-charles",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1947–2004",
+    "artistborn": "19300923",
+    "artistjpname": "レイ・チャールズ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "2004.06.10",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "pianist",
+        "label": "Pianist"
+      },
+      {
+        "value": "composer",
+        "label": "Composer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "",
+    "spotify_artist_images": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4811",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4811"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4811"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "レイ・チャールズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1947–2004",
+  "occupation": "singer, songwriter, pianist, composer"
+}

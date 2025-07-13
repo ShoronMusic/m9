@@ -1,0 +1,85 @@
+{
+  "id": 4770,
+  "count": 2,
+  "description": "Annie Lennox is a Scottish singer-songwriter.",
+  "link": "https://sub.music8.jp/category/annie-lennox/",
+  "name": "Annie Lennox",
+  "slug": "annie-lennox",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1976",
+    "artistborn": "19541225",
+    "artistjpname": "アニー・レノックス",
+    "member": [
+      {
+        "term_id": 801,
+        "name": "Eurythmics",
+        "slug": "eurythmics",
+        "term_group": 0,
+        "term_taxonomy_id": 801,
+        "taxonomy": "category",
+        "description": "Eurythmics were a British pop duo formed in 1980.",
+        "parent": 0,
+        "count": 10,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      }
+    ],
+    "related_artists": "Eurythmics (eurythmics) | Sinéad O'Connor (sinead-oconnor) | Dave Stewart (dave-stewart) | Alison Moyet (alison-moyet) | Texas | Lisa Stansfield (lisa-stansfield) | k.d. lang | Fine Young Cannibals (fine-young-cannibals) | Suzanne Vega (suzanne-vega) | Bette Midler | Culture Club (culture-club) | Bananarama (bananarama) | Belinda Carlisle (belinda-carlisle) | Frankie Goes To Hollywood (frankie-goes-to-hollywood) | Seal (seal) | Boy George (boy-george) | Wet Wet Wet (wet-wet-wet) | Simply Red (simply-red) | Bangles (bangles) | Spandau Ballet (spandau-ballet)",
+    "spotify_artist_id": "5MspMQqdVbdwP6ax3GXqum",
+    "spotify_artist_images": "https://i.scdn.co/image/c23a0ac99d89ab0817c7102b4d078ccd4b874682"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4770",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4770"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4770"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アニー・レノックス",
+  "spotifyArtistImages": "https://i.scdn.co/image/c23a0ac99d89ab0817c7102b4d078ccd4b874682",
+  "artistActiveYearStart": "1976",
+  "occupation": "ssw"
+}

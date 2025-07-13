@@ -1,0 +1,72 @@
+{
+  "id": 1966,
+  "count": 2,
+  "description": "Boston Manor is an English rock band.",
+  "link": "https://sub.music8.jp/category/boston-manor/",
+  "name": "Boston Manor",
+  "slug": "boston-manor",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2013",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ボストン・マナー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4WjeQi9wm84lYTIWZ95QoM",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174627b21a0782230db53e262ae"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1966",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1966"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1966"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ボストン・マナー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174627b21a0782230db53e262ae",
+  "artistActiveYearStart": "2013",
+  "occupation": "band"
+}

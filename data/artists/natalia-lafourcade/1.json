@@ -1,0 +1,271 @@
+{
+  "artist": {
+    "id": 3605,
+    "count": 1,
+    "description": "Natalia Lafourcade is a Mexican pop-rock, jazz and folk singer and songwriter.",
+    "link": "https://sub.music8.jp/category/natalia-lafourcade/",
+    "name": "Natalia Lafourcade",
+    "slug": "natalia-lafourcade",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "MEX",
+      "artistactiveyearstart": "1998",
+      "artistborn": "19840226",
+      "artistjpname": "ナタリア・ラフォルカデ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3605",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3605"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3605"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 55762,
+      "date": "2023-05-12T21:07:29",
+      "date_gmt": "2023-05-12T12:07:29",
+      "title": {
+        "rendered": "Thunderdome"
+      },
+      "content": {
+        "rendered": "<p>Portugal. The Man - Thunderdome (feat. Black Thought & Natalia Lafourcade)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3604,
+        3605,
+        1997
+      ],
+      "tags": [],
+      "genre": [
+        574,
+        575,
+        630
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6jW0scPonEHW9zjPspVHrn",
+        "spotify_release_date": "2023-06-23",
+        "spotify_name": "Thunderdome [W.T.A.] (feat. Black Thought & Natalia Lafourcade)",
+        "spotify_artists": "Portugal. The Man, Black Thought, Natalia Lafourcade",
+        "spotify_album": "Chris Black Changed My Life",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27327e49a37460c4445053eeb4f",
+        "spotify_duration_ms": "174727",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.681",
+        "spotify_energy": "0.791",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.076",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0397",
+        "spotify_tempo": "134.008",
+        "spotify_valence": "0.781",
+        "spotify_acousticness": "0.0521",
+        "spotify_instrumentalness": "0.0000132",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.291",
+        "spotify_artists01": "ポルトガル・ザ・マン",
+        "spotify_artists01_id": "4kI8Ie27vjvonwaB2ePh8T",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe20c61457ea3c2fdef20c326",
+        "spotify_artists01_genres": "indie rock, indietronica, modern alternative rock, modern rock",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "Black Thought",
+        "spotify_artists02_id": "6DJEUXZm0e2rAohdoZ5Voo",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb7aabcc743c0f53874ade6bb0",
+        "spotify_artists02_genres": "alternative hip hop, east coast hip hop",
+        "spotify_artists02_popularity": "53",
+        "spotify_artists03": "ナタリア・ラフォルカデ",
+        "spotify_artists03_id": "1hcdI2N1023RvSwLzTtdsp",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebc3c42a12891de47e2a39a95a",
+        "spotify_artists03_genres": "cantautora mexicana, latin alternative, latin pop, mexican pop, rock en espanol, veracruz indie",
+        "spotify_artists03_popularity": "70",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "DXf6ys5NZzM",
+        "ytreleasedate": "2023/05/12"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Portugal.-The-Man-Thunderdome-feat.-Black-Thought-Natalia-Lafourcade.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3604,
+            "name": "Black Thought",
+            "slug": "black-thought",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1987",
+              "artistborn": "19711003",
+              "artistjpname": "ブラック・ソート",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3605,
+            "name": "Natalia Lafourcade",
+            "slug": "natalia-lafourcade",
+            "acf": {
+              "artistorigin": "MEX",
+              "artistactiveyearstart": "1998",
+              "artistborn": "19840226",
+              "artistjpname": "ナタリア・ラフォルカデ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1997,
+            "name": "Portugal. The Man",
+            "slug": "portugal-the-man",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ポルトガル・ザ・マン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Portugal. The Man, Black Thought, Natalia Lafourcade",
+        "ytvideoid": "DXf6ys5NZzM",
+        "spotify_track_id": "6jW0scPonEHW9zjPspVHrn"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "thunderdome"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

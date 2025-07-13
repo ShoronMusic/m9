@@ -1,0 +1,173 @@
+{
+  "artist": {
+    "id": 2189,
+    "count": 1,
+    "description": "FRA",
+    "link": "https://sub.music8.jp/category/mofak/",
+    "name": "Mofak",
+    "slug": "mofak",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2189",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2189"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2189"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39514,
+      "date": "2022-05-28T11:50:00",
+      "date_gmt": "2022-05-28T02:50:00",
+      "title": {
+        "rendered": "Time To Go feat Sally Green"
+      },
+      "content": {
+        "rendered": "\n<p>Mofak-TimeToGofeatSallyGreen</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2189
+      ],
+      "tags": [],
+      "genre": [
+        524,
+        685,
+        735
+      ],
+      "vocal": [],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "77OHDN2s6VefN98i1bbLBX",
+        "spotify_release_date": "2022/5/31",
+        "spotify_name": "TimetoGo",
+        "spotify_artists": "Mofak,SallyGreen",
+        "spotify_album": "TimetoGo",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734d95c068f49e9376d55c671c",
+        "spotify_duration_ms": "220455",
+        "spotify_popularity": "15",
+        "spotify_danceability": "0.927",
+        "spotify_energy": "0.406",
+        "spotify_key": "1",
+        "spotify_loudness": "-9.758",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0945",
+        "spotify_tempo": "112.522",
+        "spotify_valence": "0.503",
+        "spotify_acousticness": "0.146",
+        "spotify_instrumentalness": "0.0136",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.453",
+        "spotify_artists01": "Mofak",
+        "spotify_artists01_id": "5NM65Y5uGN6Z9X5Uh3w8iV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7aab9ea3d1c2cbf3713af202",
+        "spotify_artists01_genres": "popping",
+        "spotify_artists01_popularity": "29",
+        "spotify_artists02": "SallyGreen",
+        "spotify_artists02_id": "5BHrTlWKFtM97PTs1Avpqs",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb82cd58429d257991d4f81244",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "26",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ndAlBLEXPcE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mofak-Time-To-Go-feat-Sally-Green.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2189,
+            "name": "Mofak",
+            "slug": "mofak",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Mofak,SallyGreen",
+        "ytvideoid": "ndAlBLEXPcE",
+        "spotify_track_id": "77OHDN2s6VefN98i1bbLBX"
+      },
+      "genre_data": [
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Synth-funk",
+          "slug": "synth-funk",
+          "term_id": 735,
+          "post_count": 262
+        }
+      ],
+      "vocal_data": [],
+      "slug": "time-to-go-feat-sally-green"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,967 @@
+{
+  "artist": {
+    "id": 1001,
+    "count": 7,
+    "description": "Wilson Phillips is an American pop vocal group.",
+    "link": "https://sub.music8.jp/category/wilson-phillips/",
+    "name": "Wilson Phillips",
+    "slug": "wilson-phillips",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1989",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ウィルソン・フィリップス",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "group",
+          "label": "Group"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1001",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1001"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1001"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 44107,
+      "date": "2012-05-01T01:14:00",
+      "date_gmt": "2012-04-30T16:14:00",
+      "title": {
+        "rendered": "Good Vibrations"
+      },
+      "content": {
+        "rendered": "\n<p>WilsonPhillips-GoodVibrations</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1001
+      ],
+      "tags": [],
+      "genre": [
+        390,
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1DUdlfMrZjxlA2B4RERsaT",
+        "spotify_release_date": "2012/3/30",
+        "spotify_name": "Good Vibrations",
+        "spotify_artists": "Wilson Phillips",
+        "spotify_album": "Dedicated",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734dfb7da5ae5f7f9e2846ffaf",
+        "spotify_duration_ms": "225613",
+        "spotify_popularity": "28",
+        "spotify_danceability": "0.396",
+        "spotify_energy": "0.359",
+        "spotify_key": "10",
+        "spotify_loudness": "-6.84",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0318",
+        "spotify_tempo": "133.032",
+        "spotify_valence": "0.451",
+        "spotify_acousticness": "0.795",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.111",
+        "spotify_artists01": "Wilson Phillips",
+        "spotify_artists01_id": "1yMYjh77WgOVafRkI50mim",
+        "spotify_artists01_images": "https://i.scdn.co/image/9101beb98984fddaf5f65b6e918370ccea6d11da",
+        "spotify_artists01_genres": "girl group, mellow gold, new wave pop, soft rock",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "6YdkQWN59HY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Wilson-Phillips-Good-Vibrations.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1001,
+            "name": "Wilson Phillips",
+            "slug": "wilson-phillips",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウィルソン・フィリップス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Wilson Phillips",
+        "ytvideoid": "6YdkQWN59HY",
+        "spotify_track_id": "1DUdlfMrZjxlA2B4RERsaT"
+      },
+      "genre_data": [
+        {
+          "name": "A cappella",
+          "slug": "a-cappella",
+          "term_id": 390,
+          "post_count": 11
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "good-vibrations"
+    },
+    {
+      "id": 69378,
+      "date": "1992-07-11T22:58:01",
+      "date_gmt": "1992-07-11T13:58:01",
+      "title": {
+        "rendered": "Give It Up"
+      },
+      "content": {
+        "rendered": "<p>Wilson Phillips - Give It Up</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1001
+      ],
+      "tags": [
+        5124
+      ],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "ytvideoid": "Z2g7vemjehI",
+        "ytreleasedate": "2010/05/31",
+        "spotify_track_id": "1pT0nVzqrjOSKcHpWZiAIt",
+        "spotify_release_date": "1992-01-01",
+        "spotify_name": "Give It Up",
+        "spotify_artists": "Wilson Phillips",
+        "spotify_album": "Shadows And Light",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a19c5100db04ca8db9351d81",
+        "spotify_duration_ms": "291066",
+        "spotify_popularity": "17",
+        "spotify_danceability": "0.321",
+        "spotify_energy": "0.746",
+        "spotify_key": "11",
+        "spotify_loudness": "-10.413",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0448",
+        "spotify_tempo": "185.764",
+        "spotify_valence": "0.914",
+        "spotify_acousticness": "0.236",
+        "spotify_instrumentalness": "0.0000378",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.26",
+        "spotify_artists01": "Wilson Phillips",
+        "spotify_artists01_id": "1yMYjh77WgOVafRkI50mim",
+        "spotify_artists01_images": "https://i.scdn.co/image/9101beb98984fddaf5f65b6e918370ccea6d11da",
+        "spotify_artists01_genres": "girl group, mellow gold, new wave pop, soft rock",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273a19c5100db04ca8db9351d81.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1001,
+            "name": "Wilson Phillips",
+            "slug": "wilson-phillips",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウィルソン・フィリップス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Wilson Phillips",
+        "ytvideoid": "Z2g7vemjehI",
+        "spotify_track_id": "1pT0nVzqrjOSKcHpWZiAIt"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "give-it-up"
+    },
+    {
+      "id": 2741,
+      "date": "1991-10-22T11:25:00",
+      "date_gmt": "1991-10-22T02:25:00",
+      "title": {
+        "rendered": "Daniel"
+      },
+      "content": {
+        "rendered": "<p>Wilson Phillips - Daniel</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1001
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "wT7vs8O1WAk",
+        "likecount": "1",
+        "spotify_track_id": "4MBz9ou800NTTuV2aY6R4C",
+        "spotify_release_date": "2000/5/23",
+        "spotify_name": "Daniel",
+        "spotify_artists": "Wilson Phillips",
+        "spotify_album": "Greatest Hits",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736af0795fcc648a5f085215af",
+        "spotify_duration_ms": "242760",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.568",
+        "spotify_energy": "0.534",
+        "spotify_key": "2",
+        "spotify_loudness": "-10.329",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0291",
+        "spotify_tempo": "126.312",
+        "spotify_valence": "0.361",
+        "spotify_acousticness": "0.206",
+        "spotify_instrumentalness": "8.03E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0998",
+        "spotify_artists01": "Wilson Phillips",
+        "spotify_artists01_id": "1yMYjh77WgOVafRkI50mim",
+        "spotify_artists01_images": "https://i.scdn.co/image/9101beb98984fddaf5f65b6e918370ccea6d11da",
+        "spotify_artists01_genres": "girl group, mellow gold, new wave pop, soft rock",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "ytreleasedate": "",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Two-Rooms.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1001,
+            "name": "Wilson Phillips",
+            "slug": "wilson-phillips",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウィルソン・フィリップス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Wilson Phillips",
+        "ytvideoid": "wT7vs8O1WAk",
+        "spotify_track_id": "4MBz9ou800NTTuV2aY6R4C"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "daniel2"
+    },
+    {
+      "id": 2737,
+      "date": "1991-01-30T11:06:00",
+      "date_gmt": "1991-01-30T02:06:00",
+      "title": {
+        "rendered": "You're in Love"
+      },
+      "content": {
+        "rendered": "<p>Wilson Phillips - You're in Love</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1001
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5KNbCF0FpIWuPE8x6bhGgw",
+        "spotify_release_date": "1990/5/8",
+        "spotify_name": "You're In Love",
+        "spotify_artists": "Wilson Phillips",
+        "spotify_album": "Wilson Phillips",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733168e1f416b81862ccc83594",
+        "spotify_duration_ms": "291866",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.688",
+        "spotify_energy": "0.679",
+        "spotify_key": "1",
+        "spotify_loudness": "-11.05",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0259",
+        "spotify_tempo": "101.872",
+        "spotify_valence": "0.536",
+        "spotify_acousticness": "0.319",
+        "spotify_instrumentalness": "0.000301",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.29",
+        "spotify_artists01": "Wilson Phillips",
+        "spotify_artists01_id": "1yMYjh77WgOVafRkI50mim",
+        "spotify_artists01_images": "https://i.scdn.co/image/9101beb98984fddaf5f65b6e918370ccea6d11da",
+        "spotify_artists01_genres": "girl group, mellow gold, new wave pop, soft rock",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "IlnWKfd7Cgo",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Wilson-Phillips-Youre-in-Love.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1001,
+            "name": "Wilson Phillips",
+            "slug": "wilson-phillips",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウィルソン・フィリップス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Wilson Phillips",
+        "ytvideoid": "IlnWKfd7Cgo",
+        "spotify_track_id": "5KNbCF0FpIWuPE8x6bhGgw"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "youre-in-love"
+    },
+    {
+      "id": 47221,
+      "date": "1990-10-01T11:04:00",
+      "date_gmt": "1990-10-01T02:04:00",
+      "title": {
+        "rendered": "Impulsive"
+      },
+      "content": {
+        "rendered": "<p>Wilson Phillips - Impulsive</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1001
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "2lxfnTyWxW381PXDm9Mg77",
+        "spotify_release_date": "1990/5/8",
+        "spotify_name": "Impulsive",
+        "spotify_artists": "Wilson Phillips",
+        "spotify_album": "Wilson Phillips",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733168e1f416b81862ccc83594",
+        "spotify_duration_ms": "274266",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.657",
+        "spotify_energy": "0.76",
+        "spotify_key": "4",
+        "spotify_loudness": "-8.613",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0298",
+        "spotify_tempo": "107.872",
+        "spotify_valence": "0.71",
+        "spotify_acousticness": "0.171",
+        "spotify_instrumentalness": "0.00551",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.224",
+        "spotify_artists01": "Wilson Phillips",
+        "spotify_artists01_id": "1yMYjh77WgOVafRkI50mim",
+        "spotify_artists01_images": "https://i.scdn.co/image/9101beb98984fddaf5f65b6e918370ccea6d11da",
+        "spotify_artists01_genres": "girl group, mellow gold, new wave pop, soft rock",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "pkYzwoZ0YwI",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Wilson-Phillips-Impulsive.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1001,
+            "name": "Wilson Phillips",
+            "slug": "wilson-phillips",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウィルソン・フィリップス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Wilson Phillips",
+        "ytvideoid": "pkYzwoZ0YwI",
+        "spotify_track_id": "2lxfnTyWxW381PXDm9Mg77"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "impulsive"
+    },
+    {
+      "id": 47283,
+      "date": "1990-06-01T11:01:00",
+      "date_gmt": "1990-06-01T02:01:00",
+      "title": {
+        "rendered": "Release Me"
+      },
+      "content": {
+        "rendered": "<p>Wilson Phillips - Release Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1001
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "1rIy3lkFJnMsTLZpxFmYU8",
+        "spotify_release_date": "1990/5/8",
+        "spotify_name": "Release Me",
+        "spotify_artists": "Wilson Phillips",
+        "spotify_album": "Wilson Phillips",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733168e1f416b81862ccc83594",
+        "spotify_duration_ms": "295693",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.724",
+        "spotify_energy": "0.471",
+        "spotify_key": "0",
+        "spotify_loudness": "-11.143",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0358",
+        "spotify_tempo": "97.211",
+        "spotify_valence": "0.442",
+        "spotify_acousticness": "0.448",
+        "spotify_instrumentalness": "2.50E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.218",
+        "spotify_artists01": "Wilson Phillips",
+        "spotify_artists01_id": "1yMYjh77WgOVafRkI50mim",
+        "spotify_artists01_images": "https://i.scdn.co/image/9101beb98984fddaf5f65b6e918370ccea6d11da",
+        "spotify_artists01_genres": "girl group, mellow gold, new wave pop, soft rock",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "gcNyk54b3ZU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Wilson-Phillips-Release-Me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1001,
+            "name": "Wilson Phillips",
+            "slug": "wilson-phillips",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウィルソン・フィリップス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Wilson Phillips",
+        "ytvideoid": "gcNyk54b3ZU",
+        "spotify_track_id": "1rIy3lkFJnMsTLZpxFmYU8"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "release-me"
+    },
+    {
+      "id": 47323,
+      "date": "1990-02-27T10:55:00",
+      "date_gmt": "1990-02-27T01:55:00",
+      "title": {
+        "rendered": "Hold On"
+      },
+      "content": {
+        "rendered": "<p>Wilson Phillips - Hold On</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1001
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        658,
+        6
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4VZDv8sASBS8UruUBGTFdk",
+        "spotify_release_date": "1990/5/8",
+        "spotify_name": "Hold On",
+        "spotify_artists": "Wilson Phillips",
+        "spotify_album": "Wilson Phillips",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733168e1f416b81862ccc83594",
+        "spotify_duration_ms": "266866",
+        "spotify_popularity": "71",
+        "spotify_danceability": "0.679",
+        "spotify_energy": "0.657",
+        "spotify_key": "5",
+        "spotify_loudness": "-9.897",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0255",
+        "spotify_tempo": "97.8",
+        "spotify_valence": "0.546",
+        "spotify_acousticness": "0.4",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0497",
+        "spotify_artists01": "Wilson Phillips",
+        "spotify_artists01_id": "1yMYjh77WgOVafRkI50mim",
+        "spotify_artists01_images": "https://i.scdn.co/image/9101beb98984fddaf5f65b6e918370ccea6d11da",
+        "spotify_artists01_genres": "girl group, mellow gold, new wave pop, soft rock",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "uIbXvaE39wM&t=13s",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Wilson-Phillips-Hold-On.png",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1001,
+            "name": "Wilson Phillips",
+            "slug": "wilson-phillips",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ウィルソン・フィリップス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Wilson Phillips",
+        "ytvideoid": "uIbXvaE39wM&t=13s",
+        "spotify_track_id": "4VZDv8sASBS8UruUBGTFdk"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "hold-on"
+    }
+  ],
+  "totalSongs": 7,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 5792,
+  "count": 2,
+  "description": "Picture This are an Irish pop rock musical band.",
+  "link": "https://sub.music8.jp/category/picture-this/",
+  "name": "Picture This",
+  "slug": "picture-this",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "IRL",
+    "artistactiveyearstart": "2015",
+    "artistborn": "",
+    "artistjpname": "ピクチャー・ディス",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Coronas | Hermitage Green | Walking On Cars | Ryan McMullan | Wild Youth | John Doherty | Keywest | Blizzards | Hudson Taylor | Chasing Abbey | Dermot Kennedy (dermot-kennedy) | 2 Johnnies | Gavin James (gavin-james) | Riptide Movement | Brave Giant | Tumbling Paddies | Lea Heart | Amble | Aslan | Whistlin' Donkeys",
+    "spotify_artist_id": "7jLSEPYCYQ5ssWU3BICqrW",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517409306b2526c49629938abf28"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5792",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5792"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5792"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ピクチャー・ディス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517409306b2526c49629938abf28",
+  "artistActiveYearStart": "2015",
+  "occupation": "band"
+}

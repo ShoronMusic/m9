@@ -1,0 +1,965 @@
+{
+  "artist": {
+    "id": 870,
+    "count": 7,
+    "description": "The Pretenders are a British-American rock band.",
+    "link": "https://sub.music8.jp/category/pretenders/",
+    "name": "Pretenders",
+    "slug": "pretenders",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1978",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "プリテンダーズ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/870",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=870"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=870"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 53806,
+      "date": "2023-05-11T19:48:05",
+      "date_gmt": "2023-05-11T10:48:05",
+      "title": {
+        "rendered": "Let The Sun Come In"
+      },
+      "content": {
+        "rendered": "<p>Pretenders - Let The Sun Come In</p>\n",
+        "protected": false
+      },
+      "categories": [
+        870
+      ],
+      "tags": [],
+      "genre": [
+        584,
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "2uopLAXm05NAxUnjIZ3Lbl",
+        "spotify_release_date": "2023-05-11",
+        "spotify_name": "Let the Sun Come In",
+        "spotify_artists": "Pretenders",
+        "spotify_album": "Let the Sun Come In",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27318a3da3839f577512bcbffbe",
+        "spotify_duration_ms": "233332",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.536",
+        "spotify_energy": "0.809",
+        "spotify_key": "2",
+        "spotify_loudness": "-6.549",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0288",
+        "spotify_tempo": "127.256",
+        "spotify_valence": "0.75",
+        "spotify_acousticness": "0.00797",
+        "spotify_instrumentalness": "0.0702",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0976",
+        "spotify_artists01": "Pretenders",
+        "spotify_artists01_id": "0GByy3DcfbQwDvXGCWmzv9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1b707c8d39a723170714fe20",
+        "spotify_artists01_genres": "album rock, classic rock, mellow gold, new romantic, new wave, new wave pop, permanent wave, rock, soft rock",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ocb4KkliFXc",
+        "ytreleasedate": "2023/05/11"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pretenders-Let-The-Sun-Come-In.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 870,
+            "name": "Pretenders",
+            "slug": "pretenders",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリテンダーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Pretenders",
+        "ytvideoid": "ocb4KkliFXc",
+        "spotify_track_id": "2uopLAXm05NAxUnjIZ3Lbl"
+      },
+      "genre_data": [
+        {
+          "name": "Jangle pop",
+          "slug": "jangle-pop",
+          "term_id": 584,
+          "post_count": 112
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "let-the-sun-come-in"
+    },
+    {
+      "id": 53809,
+      "date": "2020-04-22T19:52:33",
+      "date_gmt": "2020-04-22T10:52:33",
+      "title": {
+        "rendered": "The Buzz"
+      },
+      "content": {
+        "rendered": "<p>Pretenders - The Buzz</p>\n",
+        "protected": false
+      },
+      "categories": [
+        870
+      ],
+      "tags": [],
+      "genre": [
+        669
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "3fMW1VEAcVw5UXfXYxyjoc",
+        "spotify_release_date": "2020-07-17",
+        "spotify_name": "The Buzz",
+        "spotify_artists": "Pretenders",
+        "spotify_album": "Hate for Sale",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273019ed7e99089aa38329913a0",
+        "spotify_duration_ms": "230893",
+        "spotify_popularity": "33",
+        "spotify_danceability": "0.455",
+        "spotify_energy": "0.811",
+        "spotify_key": "0",
+        "spotify_loudness": "-5.892",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0435",
+        "spotify_tempo": "125.394",
+        "spotify_valence": "0.496",
+        "spotify_acousticness": "0.000406",
+        "spotify_instrumentalness": "0.0000914",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.143",
+        "spotify_artists01": "Pretenders",
+        "spotify_artists01_id": "0GByy3DcfbQwDvXGCWmzv9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1b707c8d39a723170714fe20",
+        "spotify_artists01_genres": "album rock, classic rock, mellow gold, new romantic, new wave, new wave pop, permanent wave, rock, soft rock",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "wlekpdXx2wc",
+        "ytreleasedate": "2020/04/22"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pretenders-The-Buzz.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 870,
+            "name": "Pretenders",
+            "slug": "pretenders",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリテンダーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Pretenders",
+        "ytvideoid": "wlekpdXx2wc",
+        "spotify_track_id": "3fMW1VEAcVw5UXfXYxyjoc"
+      },
+      "genre_data": [
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "the-buzz"
+    },
+    {
+      "id": 1125,
+      "date": "1994-04-11T11:06:00",
+      "date_gmt": "1994-04-11T02:06:00",
+      "title": {
+        "rendered": "I'll Stand By You"
+      },
+      "content": {
+        "rendered": "<p>The Pretenders - I'll Stand By You</p>\n",
+        "protected": false
+      },
+      "categories": [
+        870
+      ],
+      "tags": [],
+      "genre": [
+        411
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "nobHZ3nOp38",
+        "likecount": "",
+        "spotify_track_id": "7dq0b6Ave2plq8GTZOccdL",
+        "spotify_release_date": "2023/8/11",
+        "spotify_name": "I’ll Stand by You",
+        "spotify_artists": "Pretenders",
+        "spotify_album": "Push & Other Top Hits",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d9ce3250746b336d8bb9a556",
+        "spotify_duration_ms": "240546",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.459",
+        "spotify_energy": "0.689",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.004",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0295",
+        "spotify_tempo": "133.925",
+        "spotify_valence": "0.242",
+        "spotify_acousticness": "0.323",
+        "spotify_instrumentalness": "1.12E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.234",
+        "spotify_artists01": "Pretenders",
+        "spotify_artists01_id": "0GByy3DcfbQwDvXGCWmzv9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1b707c8d39a723170714fe20",
+        "spotify_artists01_genres": "album rock, classic rock, mellow gold, new romantic, new wave, new wave pop, permanent wave, rock, soft rock",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "ytreleasedate": "",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Pretenders-Ill-Stand-By-You.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 870,
+            "name": "Pretenders",
+            "slug": "pretenders",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリテンダーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Pretenders",
+        "ytvideoid": "nobHZ3nOp38",
+        "spotify_track_id": "7dq0b6Ave2plq8GTZOccdL"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "ill-stand-by-you"
+    },
+    {
+      "id": 48014,
+      "date": "1986-08-05T11:11:00",
+      "date_gmt": "1986-08-05T02:11:00",
+      "title": {
+        "rendered": "Don't Get Me Wrong"
+      },
+      "content": {
+        "rendered": "<p>The Pretenders - Don't Get Me Wrong</p>\n",
+        "protected": false
+      },
+      "categories": [
+        870
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "qbAab1hTxN4",
+        "likecount": "",
+        "spotify_track_id": "4EKORYDWBJDifTmgO14r7a",
+        "spotify_release_date": "2023/8/18",
+        "spotify_name": "Don’t Get Me Wrong",
+        "spotify_artists": "Pretenders",
+        "spotify_album": "Retro Prom Hits",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27397a7d9984bb17a28c5e274a3",
+        "spotify_duration_ms": "227626",
+        "spotify_popularity": "0",
+        "spotify_danceability": "-1.5783209415505464",
+        "spotify_energy": "1.3340136287059452",
+        "spotify_key": "-1.417844935220459",
+        "spotify_loudness": "0.5520884485304627",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.1252012605142674",
+        "spotify_tempo": "3.652956643328823",
+        "spotify_valence": "0.7999083214578353",
+        "spotify_acousticness": "0.275693581578701",
+        "spotify_instrumentalness": "-0.3816985142212112",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.511597915736284",
+        "spotify_artists01": "Pretenders",
+        "spotify_artists01_id": "0GByy3DcfbQwDvXGCWmzv9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1b707c8d39a723170714fe20",
+        "spotify_artists01_genres": "album rock, classic rock, mellow gold, new romantic, new wave, new wave pop, permanent wave, rock, soft rock",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Pretenders-Dont-Get-Me-Wrong.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 870,
+            "name": "Pretenders",
+            "slug": "pretenders",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリテンダーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Pretenders",
+        "ytvideoid": "qbAab1hTxN4",
+        "spotify_track_id": "4EKORYDWBJDifTmgO14r7a"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "dont-get-me-wrong"
+    },
+    {
+      "id": 48659,
+      "date": "1983-11-01T11:19:00",
+      "date_gmt": "1983-11-01T02:19:00",
+      "title": {
+        "rendered": "Middle Of The Road"
+      },
+      "content": {
+        "rendered": "<p>The Pretenders - Middle Of The Road</p>\n",
+        "protected": false
+      },
+      "categories": [
+        870
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        698
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "KosB3XJO_s",
+        "likecount": "",
+        "spotify_track_id": "1YhyOTcVjHe73cm6tYrHkA",
+        "spotify_release_date": "1984",
+        "spotify_name": "Middle of the Road - 2007 Remaster",
+        "spotify_artists": "Pretenders",
+        "spotify_album": "Learning to Crawl (Expanded & Remastered)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735436a01d3b621036889cffe6",
+        "spotify_duration_ms": "254293",
+        "spotify_popularity": "53",
+        "spotify_danceability": "-1.3319011522448136",
+        "spotify_energy": "1.5227616403605524",
+        "spotify_key": "1.0122662180732396",
+        "spotify_loudness": "0.7572122736308385",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "0.5163866873618475",
+        "spotify_tempo": "1.9455707711616554",
+        "spotify_valence": "-0.04225044898907506",
+        "spotify_acousticness": "-0.7706216876179532",
+        "spotify_instrumentalness": "0.04961924581801526",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-1.016152018194636",
+        "spotify_artists01": "Pretenders",
+        "spotify_artists01_id": "0GByy3DcfbQwDvXGCWmzv9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1b707c8d39a723170714fe20",
+        "spotify_artists01_genres": "album rock, classic rock, mellow gold, new romantic, new wave, new wave pop, permanent wave, rock, soft rock",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Pretenders-Middle-Of-The-Road.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 870,
+            "name": "Pretenders",
+            "slug": "pretenders",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリテンダーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Pretenders",
+        "ytvideoid": "KosB3XJO_s",
+        "spotify_track_id": "1YhyOTcVjHe73cm6tYrHkA"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Rock",
+          "slug": "rock",
+          "term_id": 698,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "middle-of-the-road"
+    },
+    {
+      "id": 48940,
+      "date": "1982-09-01T11:02:00",
+      "date_gmt": "1982-09-01T02:02:00",
+      "title": {
+        "rendered": "Back on the Chain Gang"
+      },
+      "content": {
+        "rendered": "<p>Pretenders - Back on the Chain Gang</p>\n",
+        "protected": false
+      },
+      "categories": [
+        870
+      ],
+      "tags": [],
+      "genre": [
+        584,
+        698
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "cMOKamtpUA8",
+        "likecount": "",
+        "spotify_track_id": "4cMHCRLPNoEbpnl2rz6GS9",
+        "spotify_release_date": "1984",
+        "spotify_name": "Back on the Chain Gang - 2007 Remaster",
+        "spotify_artists": "Pretenders",
+        "spotify_album": "Learning to Crawl (Expanded & Remastered)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735436a01d3b621036889cffe6",
+        "spotify_duration_ms": "231120",
+        "spotify_popularity": "66",
+        "spotify_danceability": "0.598",
+        "spotify_energy": "0.901",
+        "spotify_key": "2",
+        "spotify_loudness": "-6.081",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0359",
+        "spotify_tempo": "153.24",
+        "spotify_valence": "0.814",
+        "spotify_acousticness": "0.116",
+        "spotify_instrumentalness": "0.0401",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.178",
+        "spotify_artists01": "Pretenders",
+        "spotify_artists01_id": "0GByy3DcfbQwDvXGCWmzv9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1b707c8d39a723170714fe20",
+        "spotify_artists01_genres": "album rock, classic rock, mellow gold, new romantic, new wave, new wave pop, permanent wave, rock, soft rock",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pretenders-Back-on-the-Chain-Gang.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 870,
+            "name": "Pretenders",
+            "slug": "pretenders",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリテンダーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Pretenders",
+        "ytvideoid": "cMOKamtpUA8",
+        "spotify_track_id": "4cMHCRLPNoEbpnl2rz6GS9"
+      },
+      "genre_data": [
+        {
+          "name": "Jangle pop",
+          "slug": "jangle-pop",
+          "term_id": 584,
+          "post_count": 112
+        },
+        {
+          "name": "Rock",
+          "slug": "rock",
+          "term_id": 698,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "back-on-the-chain-gang"
+    },
+    {
+      "id": 49270,
+      "date": "1979-11-01T11:24:00",
+      "date_gmt": "1979-11-01T02:24:00",
+      "title": {
+        "rendered": "Brass In Pocket"
+      },
+      "content": {
+        "rendered": "<p>The Pretenders- Brass In Pocket</p>\n",
+        "protected": false
+      },
+      "categories": [
+        870
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        698
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "0H6re3PCP3E",
+        "likecount": "",
+        "spotify_track_id": "1QaJWSCk3UMKLotnPCIHh1",
+        "spotify_release_date": "1980/1/11",
+        "spotify_name": "Brass in Pocket - 2006 Remaster",
+        "spotify_artists": "Pretenders",
+        "spotify_album": "Pretenders",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733bfd0d4e205f83b591600e43",
+        "spotify_duration_ms": "185960",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.982684725876893",
+        "spotify_energy": "-0.2668491368090625",
+        "spotify_key": "1.0122662180732396",
+        "spotify_loudness": "0.7238684878380344",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.5292462657511285",
+        "spotify_tempo": "-1.2480913029436354",
+        "spotify_valence": "1.0727865822730356",
+        "spotify_acousticness": "2.062672952746967",
+        "spotify_instrumentalness": "-0.40412415187030964",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "0.11909471233665597",
+        "spotify_artists01": "Pretenders",
+        "spotify_artists01_id": "0GByy3DcfbQwDvXGCWmzv9",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1b707c8d39a723170714fe20",
+        "spotify_artists01_genres": "album rock, classic rock, mellow gold, new romantic, new wave, new wave pop, permanent wave, rock, soft rock",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Pretenders-Brass-In-Pocket.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 870,
+            "name": "Pretenders",
+            "slug": "pretenders",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "プリテンダーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Pretenders",
+        "ytvideoid": "0H6re3PCP3E",
+        "spotify_track_id": "1QaJWSCk3UMKLotnPCIHh1"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Rock",
+          "slug": "rock",
+          "term_id": 698,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "brass-in-pocket"
+    }
+  ],
+  "totalSongs": 7,
+  "totalPages": 1,
+  "currentPage": 1
+}

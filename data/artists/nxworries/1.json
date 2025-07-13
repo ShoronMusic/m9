@@ -1,0 +1,731 @@
+{
+  "artist": {
+    "id": 2793,
+    "count": 4,
+    "description": "NxWorries is an American music superduo",
+    "link": "https://sub.music8.jp/category/nxworries/",
+    "name": "NxWorries",
+    "slug": "nxworries",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2015",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ノー・ウォーリーズ",
+      "member": [
+        {
+          "term_id": 1541,
+          "name": "Anderson .Paak",
+          "slug": "anderson-paak",
+          "term_group": 0,
+          "term_taxonomy_id": 1541,
+          "taxonomy": "category",
+          "description": "Anderson .Paak is an American singer, rapper, and producer.",
+          "parent": 0,
+          "count": 17,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "duo",
+          "label": "Duo"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2793",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2793"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2793"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 66821,
+      "date": "2024-05-15T20:51:02",
+      "date_gmt": "2024-05-15T11:51:02",
+      "title": {
+        "rendered": "FromHere"
+      },
+      "content": {
+        "rendered": "<p>NxWorries (Anderson .Paak, Knxwledge), Snoop Dogg & October London - FromHere</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2793,
+        2911,
+        1730
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        719
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "u7jrNCB0DPY",
+        "ytreleasedate": "2024/05/15",
+        "spotify_track_id": "1kJK2dkXbMw8yOMFEuJUm7",
+        "spotify_release_date": "2024-05-14",
+        "spotify_name": "FromHere (feat. Snoop Dogg & October London)",
+        "spotify_artists": "NxWorries, Snoop Dogg, October London",
+        "spotify_album": "FromHere (feat. Snoop Dogg & October London)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735c5ae6195143c171b7585beb",
+        "spotify_duration_ms": "241511",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.374",
+        "spotify_energy": "0.517",
+        "spotify_key": "5",
+        "spotify_loudness": "-12.515",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.143",
+        "spotify_tempo": "170.362",
+        "spotify_valence": "0.479",
+        "spotify_acousticness": "0.288",
+        "spotify_instrumentalness": "0.00758",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.14",
+        "spotify_artists01": "NxWorries",
+        "spotify_artists01_id": "6PEMFpe3PTOksdV4ZXUpbE",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb89fa062521347470d69ba4c2",
+        "spotify_artists01_genres": "alternative r&b, indie soul",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "アンダーソン・パーク",
+        "spotify_artists02_id": "3jK9MiCrA42lLAdMGUZpwa",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496",
+        "spotify_artists02_genres": "escape room, hip hop, indie soul, neo soul",
+        "spotify_artists02_popularity": "73",
+        "spotify_artists03": "Knxwledge",
+        "spotify_artists03_id": "17Zu03OgBVxgLxWmRUyNOJ",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb8e0147d29ac3c4f161924696",
+        "spotify_artists03_genres": "abstract beats, alternative hip hop, indie soul, instrumental hip hop, wonky",
+        "spotify_artists03_popularity": "56",
+        "spotify_artists04": "スヌープ・ドッグ",
+        "spotify_artists04_id": "7hJcb9fa4alzcOq3EaNPoG",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5eb9a398209a4ef3360dce2dec4",
+        "spotify_artists04_genres": "g funk, gangster rap, hip hop, pop rap, rap, west coast rap",
+        "spotify_artists04_popularitys": "79",
+        "potify_artists05": "October London",
+        "spotify_artists05_id": "1eNO1DUCOtZgCzlwtjtb1t",
+        "spotify_artists05_images": "https://i.scdn.co/image/ab6761610000e5ebc967af41228d38a8dec951f0",
+        "spotify_artists05_genres": "neo r&b",
+        "spotify_artists05_popularity": "51"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2735c5ae6195143c171b7585beb.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2793,
+            "name": "NxWorries",
+            "slug": "nxworries",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ノー・ウォーリーズ",
+              "member": [
+                {
+                  "term_id": 1541,
+                  "name": "Anderson .Paak",
+                  "slug": "anderson-paak",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1541,
+                  "taxonomy": "category",
+                  "description": "Anderson .Paak is an American singer, rapper, and producer.",
+                  "parent": 0,
+                  "count": 17,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2911,
+            "name": "October London",
+            "slug": "october-london",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19861017",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1730,
+            "name": "Snoop Dogg",
+            "slug": "snoop-dogg",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1992",
+              "artistborn": "19711020",
+              "artistdied": "",
+              "artistjpname": "スヌープ・ドッグ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "NxWorries, Snoop Dogg, October London",
+        "ytvideoid": "u7jrNCB0DPY",
+        "spotify_track_id": "1kJK2dkXbMw8yOMFEuJUm7"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "fromhere"
+    },
+    {
+      "id": 65945,
+      "date": "2024-04-03T21:25:02",
+      "date_gmt": "2024-04-03T12:25:02",
+      "title": {
+        "rendered": "86Sentra"
+      },
+      "content": {
+        "rendered": "<p>NxWorries (Anderson .Paak, Knxwledge) - 86Sentra</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2793
+      ],
+      "tags": [],
+      "genre": [
+        564,
+        588
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "ytvideoid": "NK2AYc9UVCU",
+        "ytreleasedate": "2024/04/03",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0CBPxBZNCCBC5k1eBRVgYH",
+        "spotify_release_date": "2024-04-03",
+        "spotify_name": "86Sentra",
+        "spotify_artists": "NxWorries, Anderson .Paak, Knxwledge",
+        "spotify_album": "86Sentra",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273aecc155ceefb0f3d2a2210c9",
+        "spotify_duration_ms": "96009",
+        "spotify_popularity": "65",
+        "spotify_danceability": "0.763",
+        "spotify_energy": "0.618",
+        "spotify_key": "10",
+        "spotify_loudness": "-9.705",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.308",
+        "spotify_tempo": "160.448",
+        "spotify_valence": "0.643",
+        "spotify_acousticness": "0.355",
+        "spotify_instrumentalness": "0.0000395",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.105",
+        "spotify_artists01": "NxWorries",
+        "spotify_artists01_id": "6PEMFpe3PTOksdV4ZXUpbE",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb89fa062521347470d69ba4c2",
+        "spotify_artists01_genres": "alternative r&b, indie soul",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "アンダーソン・パーク",
+        "spotify_artists02_id": "3jK9MiCrA42lLAdMGUZpwa",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496",
+        "spotify_artists02_genres": "escape room, hip hop, indie soul, neo soul",
+        "spotify_artists02_popularity": "76",
+        "spotify_artists03": "Knxwledge",
+        "spotify_artists03_id": "17Zu03OgBVxgLxWmRUyNOJ",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb8e0147d29ac3c4f161924696",
+        "spotify_artists03_genres": "abstract beats, alternative hip hop, indie soul, instrumental hip hop, wonky",
+        "spotify_artists03_popularity": "58",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273aecc155ceefb0f3d2a2210c9.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2793,
+            "name": "NxWorries",
+            "slug": "nxworries",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ノー・ウォーリーズ",
+              "member": [
+                {
+                  "term_id": 1541,
+                  "name": "Anderson .Paak",
+                  "slug": "anderson-paak",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1541,
+                  "taxonomy": "category",
+                  "description": "Anderson .Paak is an American singer, rapper, and producer.",
+                  "parent": 0,
+                  "count": 17,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "NxWorries, Anderson .Paak, Knxwledge",
+        "ytvideoid": "NK2AYc9UVCU",
+        "spotify_track_id": "0CBPxBZNCCBC5k1eBRVgYH"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "Jazz rap",
+          "slug": "jazz-rap",
+          "term_id": 588,
+          "post_count": 45
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "86sentra"
+    },
+    {
+      "id": 65949,
+      "date": "2023-05-19T21:27:26",
+      "date_gmt": "2023-05-19T12:27:26",
+      "title": {
+        "rendered": "Daydreaming"
+      },
+      "content": {
+        "rendered": "<p>NxWorries (Anderson .Paak, Knxwledge) - Daydreaming</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2793
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "T741gjLy0LM",
+        "ytreleasedate": "2023/05/19",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7iYoFGzYNNhoSdMBgSo5Bb",
+        "spotify_release_date": "2024-04-03",
+        "spotify_name": "Daydreaming",
+        "spotify_artists": "NxWorries, Anderson .Paak, Knxwledge",
+        "spotify_album": "86Sentra",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273aecc155ceefb0f3d2a2210c9",
+        "spotify_duration_ms": "186967",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.701",
+        "spotify_energy": "0.586",
+        "spotify_key": "1",
+        "spotify_loudness": "-9.597",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0355",
+        "spotify_tempo": "74.023",
+        "spotify_valence": "0.499",
+        "spotify_acousticness": "0.268",
+        "spotify_instrumentalness": "0.146",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0777",
+        "spotify_artists01": "NxWorries",
+        "spotify_artists01_id": "6PEMFpe3PTOksdV4ZXUpbE",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb89fa062521347470d69ba4c2",
+        "spotify_artists01_genres": "alternative r&b, indie soul",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "アンダーソン・パーク",
+        "spotify_artists02_id": "3jK9MiCrA42lLAdMGUZpwa",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496",
+        "spotify_artists02_genres": "escape room, hip hop, indie soul, neo soul",
+        "spotify_artists02_popularity": "76",
+        "spotify_artists03": "Knxwledge",
+        "spotify_artists03_id": "17Zu03OgBVxgLxWmRUyNOJ",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb8e0147d29ac3c4f161924696",
+        "spotify_artists03_genres": "abstract beats, alternative hip hop, indie soul, instrumental hip hop, wonky",
+        "spotify_artists03_popularity": "58",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273aecc155ceefb0f3d2a2210c9-1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2793,
+            "name": "NxWorries",
+            "slug": "nxworries",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ノー・ウォーリーズ",
+              "member": [
+                {
+                  "term_id": 1541,
+                  "name": "Anderson .Paak",
+                  "slug": "anderson-paak",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1541,
+                  "taxonomy": "category",
+                  "description": "Anderson .Paak is an American singer, rapper, and producer.",
+                  "parent": 0,
+                  "count": 17,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "NxWorries, Anderson .Paak, Knxwledge",
+        "ytvideoid": "T741gjLy0LM",
+        "spotify_track_id": "7iYoFGzYNNhoSdMBgSo5Bb"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "daydreaming-3"
+    },
+    {
+      "id": 38484,
+      "date": "2022-10-20T19:55:00",
+      "date_gmt": "2022-10-20T10:55:00",
+      "title": {
+        "rendered": "Where I Go feat"
+      },
+      "content": {
+        "rendered": "\n<p>NxWorries(Anderson.Paak&amp;Knxwledge)-WhereIGofeat.H.E.R.</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1673,
+        2793
+      ],
+      "tags": [],
+      "genre": [
+        628,
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3MlQPB0wJuopo3NTZGlMpI",
+        "spotify_release_date": "2022/10/19",
+        "spotify_name": "WhereIGo(feat.H.E.R.)",
+        "spotify_artists": "NxWorries,Anderson.Paak,H.E.R.,Knxwledge",
+        "spotify_album": "WhereIGo(feat.H.E.R.)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733b1f0c3fe1a33f9fd2d88dc5",
+        "spotify_duration_ms": "201026",
+        "spotify_popularity": "69",
+        "spotify_danceability": "0.62",
+        "spotify_energy": "0.396",
+        "spotify_key": "1",
+        "spotify_loudness": "-15.498",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.206",
+        "spotify_tempo": "87.865",
+        "spotify_valence": "0.774",
+        "spotify_acousticness": "0.735",
+        "spotify_instrumentalness": "0.000985",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0976",
+        "spotify_artists01": "NxWorries",
+        "spotify_artists01_id": "6PEMFpe3PTOksdV4ZXUpbE",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb89fa062521347470d69ba4c2",
+        "spotify_artists01_genres": "alternativer&b,indiesoul",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "Anderson.Paak",
+        "spotify_artists02_id": "3jK9MiCrA42lLAdMGUZpwa",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496",
+        "spotify_artists02_genres": "escaperoom,hiphop,indiesoul,neosoul",
+        "spotify_artists02_popularity": "77",
+        "spotify_artists03": "H.E.R.",
+        "spotify_artists03_id": "3Y7RZ31TRPVadSFVy1o8os",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb7b05445e212ac49d9ed4c310",
+        "spotify_artists03_genres": "r&b,rap",
+        "spotify_artists03_popularity": "74",
+        "spotify_artists04": "Knxwledge",
+        "spotify_artists04_id": "17Zu03OgBVxgLxWmRUyNOJ",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5eb8e0147d29ac3c4f161924696",
+        "spotify_artists04_genres": "abstractbeats,alternativehiphop,indiesoul,instrumentalhiphop,wonky",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "#NAME?",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/NxWorries-Anderson-.Paak-Knxwledge-Where-I-Go-feat.-H.E.R.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1673,
+            "name": "H.E.R.",
+            "slug": "her",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19970627",
+              "artistdied": "",
+              "artistjpname": "ハー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2793,
+            "name": "NxWorries",
+            "slug": "nxworries",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ノー・ウォーリーズ",
+              "member": [
+                {
+                  "term_id": 1541,
+                  "name": "Anderson .Paak",
+                  "slug": "anderson-paak",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1541,
+                  "taxonomy": "category",
+                  "description": "Anderson .Paak is an American singer, rapper, and producer.",
+                  "parent": 0,
+                  "count": 17,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "NxWorries,Anderson.Paak,H.E.R.,Knxwledge",
+        "ytvideoid": "#NAME?",
+        "spotify_track_id": "3MlQPB0wJuopo3NTZGlMpI"
+      },
+      "genre_data": [
+        {
+          "name": "Neo soul",
+          "slug": "neo-soul",
+          "term_id": 628,
+          "post_count": 176
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "where-i-go-feat"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

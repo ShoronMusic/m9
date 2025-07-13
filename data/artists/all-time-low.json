@@ -1,0 +1,72 @@
+{
+  "id": 1348,
+  "count": 36,
+  "description": "All Time Low is an American rock band.",
+  "link": "https://sub.music8.jp/category/all-time-low/",
+  "name": "All Time Low",
+  "slug": "all-time-low",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2003",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "オール・タイム・ロウ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "46gyXjRIvN1NL1eCB8GBxo",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c8ae9b7a451d74da872bb3ac"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1348",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1348"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1348"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "オール・タイム・ロウ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174c8ae9b7a451d74da872bb3ac",
+  "artistActiveYearStart": "2003",
+  "occupation": "band"
+}

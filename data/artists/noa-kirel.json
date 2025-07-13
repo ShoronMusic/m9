@@ -1,0 +1,69 @@
+{
+  "id": 1321,
+  "count": 7,
+  "description": "Noa Kirel is an Israeli singer, songwriter, actress, dancer.",
+  "link": "https://sub.music8.jp/category/noa-kirel/",
+  "name": "Noa Kirel",
+  "slug": "noa-kirel",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "ISR",
+    "artistactiveyearstart": "2015",
+    "artistborn": "20010410",
+    "artistdied": "",
+    "artistjpname": "ノア・キレル",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1321",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1321"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1321"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ノア・キレル",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2015",
+  "occupation": "ssw"
+}

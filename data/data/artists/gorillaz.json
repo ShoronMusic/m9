@@ -1,0 +1,76 @@
+{
+  "id": 1963,
+  "count": 6,
+  "description": "Gorillaz are a British virtual band. by musician Damon Albarn and artist Jamie Hewlett.",
+  "link": "https://sub.music8.jp/category/gorillaz/",
+  "name": "Gorillaz",
+  "slug": "gorillaz",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1998",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ゴリラズ",
+    "member": [
+      {
+        "term_id": 2650,
+        "name": "Damon Albarn",
+        "slug": "damon-albarn",
+        "term_group": 0,
+        "term_taxonomy_id": 2650,
+        "taxonomy": "category",
+        "description": "Damon Albarn is an English and Icelandic musician, singer, songwriter and composer. He is the frontman of the rock band Blur and virtual band Gorillaz.",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1963",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1963"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1963"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ゴリラズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1998",
+  "occupation": ""
+}

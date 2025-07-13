@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 5148,
+    "count": 1,
+    "description": "LEPROUS is a Norwegian progressive metal band.",
+    "link": "https://sub.music8.jp/category/leprous/",
+    "name": "LEPROUS",
+    "slug": "leprous",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FIN",
+      "artistactiveyearstart": "2001",
+      "artistborn": "",
+      "artistjpname": "レプラス",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ],
+      "related_artists": "",
+      "spotify_artist_id": "4lgrzShsg2FLA89UM2fdO5",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5148",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5148"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5148"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 69549,
+      "date": "2024-05-31T21:49:06",
+      "date_gmt": "2024-05-31T12:49:06",
+      "title": {
+        "rendered": "Atonement"
+      },
+      "content": {
+        "rendered": "<p>LEPROUS - Atonement</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5148
+      ],
+      "tags": [],
+      "genre": [
+        671
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "k-po0_DnsJk",
+        "ytreleasedate": "",
+        "spotify_track_id": "6qpV9y4hLYXoM0MEWwf0rR",
+        "spotify_release_date": "2024-05-31",
+        "spotify_name": "Atonement",
+        "spotify_artists": "Leprous",
+        "spotify_album": "Atonement",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f8c4eb08d7f50a4e3b363a00",
+        "spotify_duration_ms": "289197",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.614",
+        "spotify_energy": "0.763",
+        "spotify_key": "9",
+        "spotify_loudness": "-7.687",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0676",
+        "spotify_tempo": "130.037",
+        "spotify_valence": "0.207",
+        "spotify_acousticness": "0.0141",
+        "spotify_instrumentalness": "0.000916",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.227",
+        "spotify_artists01": "Leprous",
+        "spotify_artists01_id": "4lgrzShsg2FLA89UM2fdO5",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1b4f5be8bb7577040d9f4f93",
+        "spotify_artists01_genres": "norwegian metal, prog metal, progressive metal",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273f8c4eb08d7f50a4e3b363a00.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5148,
+            "name": "LEPROUS",
+            "slug": "leprous",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "2001",
+              "artistborn": "",
+              "artistjpname": "レプラス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "4lgrzShsg2FLA89UM2fdO5",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Leprous",
+        "ytvideoid": "k-po0_DnsJk",
+        "spotify_track_id": "6qpV9y4hLYXoM0MEWwf0rR"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive metal",
+          "slug": "progressive-metal",
+          "term_id": 671,
+          "post_count": 43
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "atonement"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

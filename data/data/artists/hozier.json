@@ -1,0 +1,61 @@
+{
+  "id": 2981,
+  "count": 9,
+  "description": "Hozier is an Irish musician, singer and songwriter.",
+  "link": "https://sub.music8.jp/category/hozier/",
+  "name": "Hozier",
+  "slug": "hozier",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "IRL",
+    "artistactiveyearstart": "2008",
+    "artistborn": "19900317",
+    "artistdied": "",
+    "artistjpname": "ホージア"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2981",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2981"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2981"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ホージア",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2008",
+  "occupation": ""
+}

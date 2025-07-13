@@ -1,0 +1,72 @@
+{
+  "id": 2424,
+  "count": 8,
+  "description": "Disturbed is an American heavy metal band.",
+  "link": "https://sub.music8.jp/category/disturbed/",
+  "name": "Disturbed",
+  "slug": "disturbed",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1994",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ディスターブド",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Godsmack (godsmack) | Drowning Pool | Five Finger Death Punch (five-finger-death-punch) | Stone Sour | Seether | Papa Roach (papa-roach) | Mudvayne | Breaking Benjamin | Saliva | Shinedown (shinedown) | Rob Zombie | Puddle Of Mudd | Bullet For My Valentine (bullet-for-my-valentine) | Staind | Killswitch Engage | P.O.D. (p-o-d) | Theory of a Deadman (theory-of-a-deadman) | Three Days Grace | Static-X (static-x) | All That Remains",
+    "spotify_artist_id": "3TOqt5oJwL9BE2NG9MEwDa",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174012addc95f5b2e7283f45446"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2424",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2424"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2424"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ディスターブド",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174012addc95f5b2e7283f45446",
+  "artistActiveYearStart": "1994",
+  "occupation": "band"
+}

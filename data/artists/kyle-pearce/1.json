@@ -1,0 +1,207 @@
+{
+  "artist": {
+    "id": 4473,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/kyle-pearce/",
+    "name": "Kyle Pearce",
+    "slug": "kyle-pearce",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4473",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4473"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4473"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65590,
+      "date": "2023-11-18T22:19:49",
+      "date_gmt": "2023-11-18T13:19:49",
+      "title": {
+        "rendered": "Come Come"
+      },
+      "content": {
+        "rendered": "<p>Vintage Culture, Tube, Berger, Kyle Pearce - Come Come</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4472,
+        4473,
+        2671
+      ],
+      "tags": [],
+      "genre": [
+        742
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "P16ld732Br8",
+        "ytreleasedate": "2023/11/18",
+        "likecount": "1",
+        "artist_order": "Vintage Culture, Tube, Berger, Kyle Pearce",
+        "spotify_track_id": "2vGpCrWU9nAvs2CFhw5TsA",
+        "spotify_release_date": "2023-11-17",
+        "spotify_name": "Come Come",
+        "spotify_artists": "Vintage Culture, Tube & Berger, Kyle Pearce",
+        "spotify_album": "Come Come",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e08478c903adf270187e2024",
+        "spotify_duration_ms": "184596",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.78",
+        "spotify_energy": "0.848",
+        "spotify_key": "0",
+        "spotify_loudness": "-7.146",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0497",
+        "spotify_tempo": "123.996",
+        "spotify_valence": "0.175",
+        "spotify_acousticness": "0.00524",
+        "spotify_instrumentalness": "0.362",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0717",
+        "spotify_artists01": "Vintage Culture",
+        "spotify_artists01_id": "28uJnu5EsrGml2tBd7y8ts",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3c25c102ad2fc73a3379326a",
+        "spotify_artists01_genres": "brazilian edm",
+        "spotify_artists01_popularity": "72",
+        "spotify_artists02": "Tube & Berger",
+        "spotify_artists02_id": "32wcuqRxZuBY5HbH1bWa8h",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5b5353a875825cb656a2d3b2",
+        "spotify_artists02_genres": "dusseldorf electronic, german techno",
+        "spotify_artists02_popularity": "49",
+        "spotify_artists03": "Kyle Pearce",
+        "spotify_artists03_id": "1e5T955wZa6GSsBXgm4hlR",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebb7243e4710af8fe8ae59034c",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "45",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273e08478c903adf270187e2024.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4472,
+            "name": "Berger",
+            "slug": "berger",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4473,
+            "name": "Kyle Pearce",
+            "slug": "kyle-pearce",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2671,
+            "name": "Vintage Culture",
+            "slug": "vintage-culture",
+            "acf": {
+              "artistorigin": "BRA",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19930707",
+              "artistdied": "",
+              "artistjpname": "ヴィンテージ・カルチャー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "28uJnu5EsrGml2tBd7y8ts",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174b2858408e6d69098e07329fd",
+              "youtube_channel": "UC4N1snt2b0d83vOkvaWP6mg",
+              "wikipedia_page": "Vintage_Culture"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Vintage Culture, Tube, Berger, Kyle Pearce",
+        "spotify_artists": "Vintage Culture, Tube & Berger, Kyle Pearce",
+        "ytvideoid": "P16ld732Br8",
+        "spotify_track_id": "2vGpCrWU9nAvs2CFhw5TsA"
+      },
+      "genre_data": [
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "come-come"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

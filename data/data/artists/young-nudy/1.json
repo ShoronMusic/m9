@@ -1,0 +1,244 @@
+{
+  "artist": {
+    "id": 4578,
+    "count": 1,
+    "description": "Young Nudy is an American rapper.",
+    "link": "https://sub.music8.jp/category/young-nudy/",
+    "name": "Young Nudy",
+    "slug": "young-nudy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2014",
+      "artistborn": "19921217",
+      "artistjpname": "ヤング・ヌーディ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        },
+        {
+          "value": "rapper",
+          "label": "Rapper"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4578",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4578"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4578"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 66691,
+      "date": "2024-05-13T21:24:32",
+      "date_gmt": "2024-05-13T12:24:32",
+      "title": {
+        "rendered": "Little Foot Big Foot"
+      },
+      "content": {
+        "rendered": "<p>Childish Gambino, Young Nudy - Little Foot Big Foot</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4577,
+        4578
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "HLX1HxJm5wM",
+        "ytreleasedate": "2024/05/13",
+        "spotify_track_id": "1SdqlTmK9P97PntBQrtf85",
+        "spotify_release_date": "2024-05-13",
+        "spotify_name": "Little Foot Big Foot (feat. Young Nudy)",
+        "spotify_artists": "Childish Gambino, Young Nudy",
+        "spotify_album": "Atavista",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a9afb2484111b87abc2b4a80",
+        "spotify_duration_ms": "226546",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.785",
+        "spotify_energy": "0.727",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.967",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0493",
+        "spotify_tempo": "102.001",
+        "spotify_valence": "0.672",
+        "spotify_acousticness": "0.151",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.137",
+        "spotify_artists01": "チャイルディッシュ・ガンビーノ",
+        "spotify_artists01_id": "73sIBHcqh3Z3NyqHKZ7FOL",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3ef779aa0d271adb2b6a3ded",
+        "spotify_artists01_genres": "atl hip hop, hip hop, rap",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "Young Nudy",
+        "spotify_artists02_id": "5yPzzu25VzEk8qrGTLIrE1",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb123cc54c9d92f97d911edc42",
+        "spotify_artists02_genres": "pluggnb, rap, southern hip hop, trap",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273a9afb2484111b87abc2b4a80.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4577,
+            "name": "Childish Gambino",
+            "slug": "childish-gambino",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "19830925",
+              "artistjpname": "チャイルディッシュ・ガンビーノ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Chance The Rapper (chance-the-rapper) | Tyler, the Creator (tyler-the-creator) | Frank Ocean | Steve Lacy (steve-lacy) | Earl Sweatshirt (earl-sweatshirt) | Mac Miller | BROCKHAMPTON (brockhampton) | Kid Cudi (kid-cudi) | Joey Bada$$ (joey-bada) | A$AP Rocky (asap-rocky) | Aminé | Vince Staples (vince-staples) | Odd Future | Kendrick Lamar (kendrick-lamar) | MF DOOM | Miguel (miguel) | Tame Impala (tame-impala) | Internet (internet) | Brent Faiyaz (brent-faiyaz) | ScHoolboy Q (schoolboy-q)",
+              "spotify_artist_id": "73sIBHcqh3Z3NyqHKZ7FOL",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743ef779aa0d271adb2b6a3ded"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4578,
+            "name": "Young Nudy",
+            "slug": "young-nudy",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "19921217",
+              "artistjpname": "ヤング・ヌーディ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Childish Gambino, Young Nudy",
+        "ytvideoid": "HLX1HxJm5wM",
+        "spotify_track_id": "1SdqlTmK9P97PntBQrtf85"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "little-foot-big-foot"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

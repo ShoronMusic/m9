@@ -1,0 +1,63 @@
+{
+  "id": 1223,
+  "count": 3,
+  "description": "Barbra Streisand is an American singer, actress",
+  "link": "https://sub.music8.jp/category/barbra-streisand/",
+  "name": "Barbra Streisand",
+  "slug": "barbra-streisand",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1960",
+    "artistborn": "19420424",
+    "artistdied": "",
+    "artistjpname": "バーブラ・ストライサンド",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1223",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1223"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1223"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "バーブラ・ストライサンド",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1960",
+  "occupation": ""
+}

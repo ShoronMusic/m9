@@ -1,0 +1,208 @@
+{
+  "artist": {
+    "id": 3856,
+    "count": 1,
+    "description": "Marsha Ambrosius is an English singer and songwriter.",
+    "link": "https://sub.music8.jp/category/marsha-ambrosius/",
+    "name": "Marsha Ambrosius",
+    "slug": "marsha-ambrosius",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1997",
+      "artistborn": "19770808",
+      "artistjpname": "マーシャ・アンブロージアス",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3856",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3856"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3856"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58326,
+      "date": "2023-12-01T22:34:55",
+      "date_gmt": "2023-12-01T13:34:55",
+      "title": {
+        "rendered": "The Greatest"
+      },
+      "content": {
+        "rendered": "<p>Marsha Ambrosius - The Greatest</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3856
+      ],
+      "tags": [],
+      "genre": [
+        659,
+        719
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5JxAMHR4qFUzuTdTicEIoV",
+        "spotify_release_date": "2023-12-01",
+        "spotify_name": "The Greatest",
+        "spotify_artists": "Marsha Ambrosius",
+        "spotify_album": "The Greatest",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27386fb6d6ee8c64bd7bb564f66",
+        "spotify_duration_ms": "196603",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.502",
+        "spotify_energy": "0.383",
+        "spotify_key": "0",
+        "spotify_loudness": "-10.922",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0457",
+        "spotify_tempo": "82.03",
+        "spotify_valence": "0.334",
+        "spotify_acousticness": "0.126",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.108",
+        "spotify_artists01": "Marsha Ambrosius",
+        "spotify_artists01_id": "46VWDbmWmzvPBTmkSr25gM",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb43d80a41e3fefb4bbc550d87",
+        "spotify_artists01_genres": "british soul, contemporary r&b, hip pop, neo soul, r&b, urban contemporary",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "hd_7JX0eHP8",
+        "ytreleasedate": "2023/12/01"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Marsha-Ambrosius-The-Greatest.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3856,
+            "name": "Marsha Ambrosius",
+            "slug": "marsha-ambrosius",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1997",
+              "artistborn": "19770808",
+              "artistjpname": "マーシャ・アンブロージアス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Marsha Ambrosius",
+        "ytvideoid": "hd_7JX0eHP8",
+        "spotify_track_id": "5JxAMHR4qFUzuTdTicEIoV"
+      },
+      "genre_data": [
+        {
+          "name": "Pop soul",
+          "slug": "pop-soul",
+          "term_id": 659,
+          "post_count": 187
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "the-greatest-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

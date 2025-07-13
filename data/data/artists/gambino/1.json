@@ -1,0 +1,183 @@
+{
+  "artist": {
+    "id": 2622,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/gambino/",
+    "name": "Gambino",
+    "slug": "gambino",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FRA",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2622",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2622"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2622"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39145,
+      "date": "2022-07-15T22:30:00",
+      "date_gmt": "2022-07-15T13:30:00",
+      "title": {
+        "rendered": "CUBA"
+      },
+      "content": {
+        "rendered": "\n<p>GAMBINO-CUBA</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2622
+      ],
+      "tags": [],
+      "genre": [
+        563
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3hQmu4R1aSftGiFVwvfoCx",
+        "spotify_release_date": "2022/7/15",
+        "spotify_name": "Cuba",
+        "spotify_artists": "Gambino",
+        "spotify_album": "Cuba",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737c4fe752137db0dada3ed228",
+        "spotify_duration_ms": "187500",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.872",
+        "spotify_energy": "0.845",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.33",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.136",
+        "spotify_tempo": "127.999",
+        "spotify_valence": "0.752",
+        "spotify_acousticness": "0.354",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0734",
+        "spotify_artists01": "Gambino",
+        "spotify_artists01_id": "5Wf0eeUkR6rRAre6L7H7jW",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4d9a44c80031639b026756be",
+        "spotify_artists01_genres": "frenchhiphop,popurbaine,rapmarseille",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "#NAME?",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/GAMBINO-CUBA.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2622,
+            "name": "Gambino",
+            "slug": "gambino",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Gambino",
+        "ytvideoid": "#NAME?",
+        "spotify_track_id": "3hQmu4R1aSftGiFVwvfoCx"
+      },
+      "genre_data": [
+        {
+          "name": "Hip house",
+          "slug": "hip-house",
+          "term_id": 563,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cuba"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

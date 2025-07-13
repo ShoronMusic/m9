@@ -1,0 +1,75 @@
+{
+  "id": 6775,
+  "count": 1,
+  "description": "Rob Dougan is an Australian composer.",
+  "link": "https://sub.music8.jp/category/rob-dougan/",
+  "name": "Rob Dougan",
+  "slug": "rob-dougan",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "composer",
+        "label": "Composer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "22xRIphSN7IkPVbErICu7s",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616d00001e02f5c4383f7891617e1602e20a",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "",
+    "wikipedia_page": "Rob_Dougan"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6775",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6775"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6775"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616d00001e02f5c4383f7891617e1602e20a",
+  "artistActiveYearStart": "",
+  "occupation": "composer"
+}

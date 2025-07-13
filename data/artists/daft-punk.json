@@ -1,0 +1,80 @@
+{
+  "id": 5061,
+  "count": 2,
+  "description": "Daft Punk were a French electronic music duo.",
+  "link": "https://sub.music8.jp/category/daft-punk/",
+  "name": "Daft Punk",
+  "slug": "daft-punk",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FRA",
+    "artistactiveyearstart": "1993–2021",
+    "artistborn": "",
+    "artistjpname": "ダフト・パンク",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      },
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "Justice (justice) | Chemical Brothers (chemical-brothers) | Kavinsky (kavinsky) | Gorillaz (gorillaz) | Deadmau5 (deadmau5) | MGMT (mgmt) | Fatboy Slim (fatboy-slim) | Moby (moby) | Strokes (strokes) | Jamiroquai (jamiroquai) | Phoenix (phoenix) | Muse (muse) | Massive Attack (massive-attack) | Franz Ferdinand (franz-ferdinand) | Radiohead (radiohead) | Blur (blur) | Tame Impala (tame-impala) | White Stripes (white-stripes) | Disclosure | Foster the People (foster-the-people)",
+    "spotify_artist_id": "4tZwfgrHOc3mvqYlEYSvVi",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a7bfd7835b5c1eee0c95fa6e"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5061",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5061"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5061"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ダフト・パンク",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a7bfd7835b5c1eee0c95fa6e",
+  "artistActiveYearStart": "1993–2021",
+  "occupation": "duo, dj, producer"
+}

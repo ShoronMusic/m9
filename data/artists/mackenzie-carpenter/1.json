@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2092,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/mackenzie-carpenter/",
+    "name": "Mackenzie Carpenter",
+    "slug": "mackenzie-carpenter",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2092",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2092"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2092"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38498,
+      "date": "2022-10-18T11:36:00",
+      "date_gmt": "2022-10-18T02:36:00",
+      "title": {
+        "rendered": "Huntin' Season"
+      },
+      "content": {
+        "rendered": "\n<p>MackenzieCarpenter-Huntin'Season</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2092
+      ],
+      "tags": [],
+      "genre": [
+        466
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "27N3YqhzNsvfhqVSBoCjLf",
+        "spotify_release_date": "2022/9/30",
+        "spotify_name": "Huntin'Season",
+        "spotify_artists": "MackenzieCarpenter",
+        "spotify_album": "Huntin'Season",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739ab7be57ed46aca67bdbe891",
+        "spotify_duration_ms": "177840",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.412",
+        "spotify_energy": "0.763",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.25",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0562",
+        "spotify_tempo": "170.04",
+        "spotify_valence": "0.532",
+        "spotify_acousticness": "0.00352",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.134",
+        "spotify_artists01": "MackenzieCarpenter",
+        "spotify_artists01_id": "1gYlQ5LjfQz9QPaCApCsDZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb56b9081e1f410fe0c957980c",
+        "spotify_artists01_genres": "texascountry",
+        "spotify_artists01_popularity": "41",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "pOaumsPTIjk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mackenzie-Carpenter-Huntin-Season.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2092,
+            "name": "Mackenzie Carpenter",
+            "slug": "mackenzie-carpenter",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "MackenzieCarpenter",
+        "ytvideoid": "pOaumsPTIjk",
+        "spotify_track_id": "27N3YqhzNsvfhqVSBoCjLf"
+      },
+      "genre_data": [
+        {
+          "name": "Country pop",
+          "slug": "country-pop",
+          "term_id": 466,
+          "post_count": 142
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "huntin-season"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

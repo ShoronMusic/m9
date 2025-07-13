@@ -1,0 +1,212 @@
+{
+  "artist": {
+    "id": 3313,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/adam-calhoun/",
+    "name": "Adam Calhoun",
+    "slug": "adam-calhoun",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3313",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3313"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3313"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52751,
+      "date": "2023-09-23T23:40:00",
+      "date_gmt": "2023-09-23T14:40:00",
+      "title": {
+        "rendered": "Race War"
+      },
+      "content": {
+        "rendered": "<p>Tom MacDonald, Adam Calhoun - Race War</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3313,
+        3314
+      ],
+      "tags": [],
+      "genre": [
+        564,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5s8sasda8lBJFSVxyD1nAE",
+        "spotify_release_date": "2023-09-22",
+        "spotify_name": "Race War",
+        "spotify_artists": "Tom MacDonald, Adam Calhoun",
+        "spotify_album": "The Brave II",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ae35a597e49bb8e8c06c23da",
+        "spotify_duration_ms": "243000",
+        "spotify_popularity": "8",
+        "spotify_danceability": "0.654",
+        "spotify_energy": "0.748",
+        "spotify_key": "3",
+        "spotify_loudness": "-5.842",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.128",
+        "spotify_tempo": "170.086",
+        "spotify_valence": "0.524",
+        "spotify_acousticness": "0.0315",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0746",
+        "spotify_artists01": "Tom MacDonald",
+        "spotify_artists01_id": "6DvlemMOlMH6VD9tB7BPRf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4c0a5ddb0ec9d0a3c7f91f8e",
+        "spotify_artists01_genres": "bc underground hip hop, country rap, maga rap",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "Adam Calhoun",
+        "spotify_artists02_id": "4fZ8AuVP6Y8mLmCoybfKpC",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebe001ca9ed53adeef3d8e83f4",
+        "spotify_artists02_genres": "country rap, military rap, redneck",
+        "spotify_artists02_popularity": "62",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "L1cpZj9RKwc",
+        "ytreleasedate": "2023/09/23"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tom-MacDonald-Adam-Calhoun-Race-War.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3313,
+            "name": "Adam Calhoun",
+            "slug": "adam-calhoun",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3314,
+            "name": "Tom MacDonald",
+            "slug": "tom-macdonald",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2003",
+              "artistborn": "19880921",
+              "artistjpname": "トム・マクドナルド",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "6DvlemMOlMH6VD9tB7BPRf",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051744c0a5ddb0ec9d0a3c7f91f8e",
+              "youtube_channel": "UCElGBUWDCa05jRzc2PfmGqQ",
+              "wikipedia_page": "Tom_MacDonald_(rapper)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tom MacDonald, Adam Calhoun",
+        "ytvideoid": "L1cpZj9RKwc",
+        "spotify_track_id": "5s8sasda8lBJFSVxyD1nAE"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "race-war"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

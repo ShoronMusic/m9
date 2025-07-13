@@ -1,0 +1,410 @@
+{
+  "artist": {
+    "id": 3354,
+    "count": 2,
+    "description": "Skrillex is an American DJ and music producer.",
+    "link": "https://sub.music8.jp/category/skrillex/",
+    "name": "Skrillex",
+    "slug": "skrillex",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2004",
+      "artistborn": "19880115",
+      "artistjpname": "スクリレックス",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3354",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3354"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3354"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 59136,
+      "date": "2023-12-17T12:33:22",
+      "date_gmt": "2023-12-17T03:33:22",
+      "title": {
+        "rendered": "RATATA"
+      },
+      "content": {
+        "rendered": "<p>Skrillex, Mr. Oizo, Missy Elliot - RATATA</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1481,
+        3939,
+        3354
+      ],
+      "tags": [],
+      "genre": [
+        437,
+        3717
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4wteGC0HtLeZWjDcczc4Pw",
+        "spotify_release_date": "2023-02-17",
+        "spotify_name": "RATATA",
+        "spotify_artists": "Skrillex, Missy Elliot, Mr. Oizo",
+        "spotify_album": "Quest For Fire",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736382f06498259682f91cf981",
+        "spotify_duration_ms": "126774",
+        "spotify_popularity": "69",
+        "spotify_danceability": "0.889",
+        "spotify_energy": "0.6",
+        "spotify_key": "9",
+        "spotify_loudness": "-10.603",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.144",
+        "spotify_tempo": "123.978",
+        "spotify_valence": "0.501",
+        "spotify_acousticness": "0.0145",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.08",
+        "spotify_artists01": "スクリレックス",
+        "spotify_artists01_id": "5he5w2lnU9x7JFhnwcekXX",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb61f92702ca14484aa263a931",
+        "spotify_artists01_genres": "brostep, complextro, edm, electro, pop dance",
+        "spotify_artists01_popularity": "74",
+        "spotify_artists02": "ミッシー・エリオット",
+        "spotify_artists02_id": "2wIVse2owClT7go1WT98tk",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebf6691f40d906f097e9fbaa4c",
+        "spotify_artists02_genres": "dance pop, hip hop, hip pop, neo soul, pop rap, r&b, rap, urban contemporary, virginia hip hop",
+        "spotify_artists02_popularity": "69",
+        "spotify_artists03": "Mr. Oizo",
+        "spotify_artists03_id": "0b9ukmbg0MO5eMlorcgOwz",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb02b5851e1d1769748d64b908",
+        "spotify_artists03_genres": "filter house",
+        "spotify_artists03_popularity": "52",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "_hjeiLHmcFc",
+        "ytreleasedate": "2023/12/17"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Skrillex-Mr.-Oizo-RATATA-KREAM-Remix-ft.-Missy-Elliot.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1481,
+            "name": "Missy Elliott",
+            "slug": "missy-elliott",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1991",
+              "artistborn": "19710701",
+              "artistdied": "",
+              "artistjpname": "ミッシー・エリオット",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3939,
+            "name": "Mr. Oizo",
+            "slug": "mr-oizo",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "1997",
+              "artistborn": "19740414",
+              "artistjpname": "ミスター・オワゾ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3354,
+            "name": "Skrillex",
+            "slug": "skrillex",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "19880115",
+              "artistjpname": "スクリレックス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Skrillex, Missy Elliot, Mr. Oizo",
+        "ytvideoid": "_hjeiLHmcFc",
+        "spotify_track_id": "4wteGC0HtLeZWjDcczc4Pw"
+      },
+      "genre_data": [
+        {
+          "name": "Bounce",
+          "slug": "bounce",
+          "term_id": 437,
+          "post_count": 6
+        },
+        {
+          "name": "EDM trap",
+          "slug": "edm-trap",
+          "term_id": 3717,
+          "post_count": 11
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "ratata"
+    },
+    {
+      "id": 53038,
+      "date": "2023-02-24T21:08:47",
+      "date_gmt": "2023-02-24T12:08:47",
+      "title": {
+        "rendered": "Ceremony"
+      },
+      "content": {
+        "rendered": "<p>Skrillex, Yung Lean, Bladee - Ceremony</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3357,
+        3354,
+        3355
+      ],
+      "tags": [],
+      "genre": [
+        389,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4DmqWDZUtoxBX7wg9eCgzF",
+        "spotify_release_date": "2023-02-18",
+        "spotify_name": "Ceremony",
+        "spotify_artists": "Skrillex, Yung Lean, Bladee",
+        "spotify_album": "Don’t Get Too Close",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ff07469efd357665e364e2d9",
+        "spotify_duration_ms": "192000",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.791",
+        "spotify_energy": "0.679",
+        "spotify_key": "1",
+        "spotify_loudness": "-5.274",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.056",
+        "spotify_tempo": "140.042",
+        "spotify_valence": "0.586",
+        "spotify_acousticness": "0.0939",
+        "spotify_instrumentalness": "0.000139",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.274",
+        "spotify_artists01": "スクリレックス",
+        "spotify_artists01_id": "5he5w2lnU9x7JFhnwcekXX",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb61f92702ca14484aa263a931",
+        "spotify_artists01_genres": "brostep, complextro, edm, electro, pop dance",
+        "spotify_artists01_popularity": "76",
+        "spotify_artists02": "Yung Lean",
+        "spotify_artists02_id": "67lytN32YpUxiSeWlKfHJ3",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb33c1ea8922687859aa413547",
+        "spotify_artists02_genres": "cloud rap, psychedelic hip hop, underground hip hop",
+        "spotify_artists02_popularity": "66",
+        "spotify_artists03": "Bladee",
+        "spotify_artists03_id": "2xvtxDNInKDV4AvGmjw6d1",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb87e81f834df541e0041d7958",
+        "spotify_artists03_genres": "cloud rap, drain, glitchcore, underground hip hop",
+        "spotify_artists03_popularity": "65",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "0stc0duKiHs",
+        "ytreleasedate": "2023/02/24"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Skrillex-Yung-Lean-Bladee-Ceremony.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3357,
+            "name": "Bladee",
+            "slug": "bladee",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2008",
+              "artistborn": "19940409",
+              "artistjpname": "ブレイド",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "2xvtxDNInKDV4AvGmjw6d1",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517443633ee607e147dfd024a198"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3354,
+            "name": "Skrillex",
+            "slug": "skrillex",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "19880115",
+              "artistjpname": "スクリレックス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3355,
+            "name": "Yung Lean",
+            "slug": "yung-lean",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19960718",
+              "artistjpname": "ヤング・リーン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Skrillex, Yung Lean, Bladee",
+        "ytvideoid": "0stc0duKiHs",
+        "spotify_track_id": "4DmqWDZUtoxBX7wg9eCgzF"
+      },
+      "genre_data": [
+        {
+          "name": "2-Step",
+          "slug": "2-step",
+          "term_id": 389,
+          "post_count": 35
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ceremony"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

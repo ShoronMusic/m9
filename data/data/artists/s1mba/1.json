@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 1677,
+    "count": 1,
+    "description": "ZIM",
+    "link": "https://sub.music8.jp/category/s1mba/",
+    "name": "S1mba",
+    "slug": "s1mba",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1677",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1677"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1677"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 42433,
+      "date": "2018-11-15T15:10:00",
+      "date_gmt": "2018-11-15T06:10:00",
+      "title": {
+        "rendered": "Rover (Mu la la)"
+      },
+      "content": {
+        "rendered": "\n<p>S1mba-Rover(Mulala)ft.DTG</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1678,
+        1677
+      ],
+      "tags": [],
+      "genre": [
+        403,
+        441,
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4slSrbTK1sNK4I1mDYEthf",
+        "spotify_release_date": "2020/3/4",
+        "spotify_name": "Rover (feat. DTG)",
+        "spotify_artists": "S1mba, DTG",
+        "spotify_album": "Rover (feat. DTG)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27393bd3705124672a86fb7182f",
+        "spotify_duration_ms": "167916",
+        "spotify_popularity": "73",
+        "spotify_danceability": "0.613",
+        "spotify_energy": "0.624",
+        "spotify_key": "11",
+        "spotify_loudness": "-6.66",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.206",
+        "spotify_tempo": "62.948",
+        "spotify_valence": "0.803",
+        "spotify_acousticness": "0.496",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "5",
+        "spotify_liveness": "0.283",
+        "spotify_artists01": "S1mba",
+        "spotify_artists01_id": "71jSVPQ6yskfyvWeiwvT5s",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb363c4dfc3f8db1fb51593515",
+        "spotify_artists01_genres": "afroswing",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "DTG",
+        "spotify_artists02_id": "6kZWqUZqptyxb8Ki5DyBAg",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb01811f2063f92befc968380e",
+        "spotify_artists02_genres": "afroswing",
+        "spotify_artists02_popularity": "53",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "lcUq0DDt0Ro",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/S1mba-Rover-Mu-la-la-ft.-DTG.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1678,
+            "name": "DTG",
+            "slug": "dtg",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1677,
+            "name": "S1mba",
+            "slug": "s1mba",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "S1mba, DTG",
+        "ytvideoid": "lcUq0DDt0Ro",
+        "spotify_track_id": "4slSrbTK1sNK4I1mDYEthf"
+      },
+      "genre_data": [
+        {
+          "name": "Afroswing",
+          "slug": "afroswing",
+          "term_id": 403,
+          "post_count": 10
+        },
+        {
+          "name": "British hip hop",
+          "slug": "british-hip-hop",
+          "term_id": 441,
+          "post_count": 67
+        },
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rover-mu-la-la"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 1536,
+  "count": 56,
+  "description": "Queen are a British rock band",
+  "link": "https://sub.music8.jp/category/queen/",
+  "name": "Queen",
+  "slug": "queen",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1970",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "クイーン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Aerosmith (aerosmith) | Police (police) | Guns N' Roses (guns-n-roses) | Elton John (elton-john) | a-ha (a-ha) | Bon Jovi (bon-jovi) | Toto (toto) | Billy Joel (billy-joel) | AC/DC (ac-dc) | Kiss (kiss) | ABBA | Beatles (beatles) | Journey (journey) | Bonnie Tyler (bonnie-tyler) | Rolling Stones (rolling-stones) | Blondie (blondie) | Survivor (survivor) | Kansas (kansas) | R.E.M. (rem) | Dave Stewart (dave-stewart)",
+    "spotify_artist_id": "1dfeR4HaWDbWqFHLkxsg1d",
+    "spotify_artist_images": "https://i.scdn.co/image/af2b8e57f6d7b5d43a616bd1e27ba552cd8bfd42"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1536",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1536"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1536"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "クイーン",
+  "spotifyArtistImages": "https://i.scdn.co/image/af2b8e57f6d7b5d43a616bd1e27ba552cd8bfd42",
+  "artistActiveYearStart": "1970",
+  "occupation": "band"
+}

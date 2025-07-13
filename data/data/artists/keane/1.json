@@ -1,0 +1,194 @@
+{
+  "artist": {
+    "id": 3800,
+    "count": 1,
+    "description": "Keane are an English alternative rock band.",
+    "link": "https://sub.music8.jp/category/keane/",
+    "name": "Keane",
+    "slug": "keane",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1995",
+      "artistborn": "",
+      "artistjpname": "キーン",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3800",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3800"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3800"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57768,
+      "date": "2023-11-30T22:29:04",
+      "date_gmt": "2023-11-30T13:29:04",
+      "title": {
+        "rendered": "Love Actually"
+      },
+      "content": {
+        "rendered": "<p>Keane - Love Actually</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3800
+      ],
+      "tags": [],
+      "genre": [
+        410
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "1NSypq9r3pQwoEVcsH3MRa",
+        "spotify_release_date": "2023-12-01",
+        "spotify_name": "Love Actually",
+        "spotify_artists": "Keane",
+        "spotify_album": "Love Actually",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273920547ef8942e276fa171567",
+        "spotify_duration_ms": "268333",
+        "spotify_popularity": "11",
+        "spotify_danceability": "0.299",
+        "spotify_energy": "0.567",
+        "spotify_key": "4",
+        "spotify_loudness": "-8.23",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0312",
+        "spotify_tempo": "115.777",
+        "spotify_valence": "0.247",
+        "spotify_acousticness": "0.63",
+        "spotify_instrumentalness": "0.0000616",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.106",
+        "spotify_artists01": "Keane",
+        "spotify_artists01_id": "53A0W3U0s8diEn9RhXQhVz",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb41222a45dc0b10f65cbe8160",
+        "spotify_artists01_genres": "neo mellow, piano rock, pop rock",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "JEqSbOiSIPM",
+        "ytreleasedate": "2023/11/30",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Keane-Love-Actually.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3800,
+            "name": "Keane",
+            "slug": "keane",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1995",
+              "artistborn": "",
+              "artistjpname": "キーン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Keane",
+        "ytvideoid": "JEqSbOiSIPM",
+        "spotify_track_id": "1NSypq9r3pQwoEVcsH3MRa"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "57768"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

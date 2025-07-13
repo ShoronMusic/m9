@@ -1,0 +1,76 @@
+{
+  "id": 5314,
+  "count": 1,
+  "description": "Jay Sean is a British singer and songwriter.",
+  "link": "https://sub.music8.jp/category/jay-sean/",
+  "name": "Jay Sean",
+  "slug": "jay-sean",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2002",
+    "artistborn": "19810326",
+    "artistjpname": "ジェイ・ショーン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4pADjHPWyrlAF0FA7joK2H",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051741fe57aeec785741820fedd52"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5314",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5314"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5314"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェイ・ショーン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051741fe57aeec785741820fedd52",
+  "artistActiveYearStart": "2002",
+  "occupation": "singer, songwriter"
+}

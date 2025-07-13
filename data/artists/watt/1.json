@@ -1,0 +1,261 @@
+{
+  "artist": {
+    "id": 1462,
+    "count": 1,
+    "description": "Watt (Andrew Wotman) is an American record producer, singer, songwriter and guitarist.",
+    "link": "https://sub.music8.jp/category/watt/",
+    "name": "watt",
+    "slug": "watt",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "19901020",
+      "artistdied": "",
+      "artistjpname": "ワット",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        },
+        {
+          "value": "guitaristr",
+          "label": "Guitarist"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1462",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1462"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1462"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 43126,
+      "date": "2017-01-18T22:47:00",
+      "date_gmt": "2017-01-18T13:47:00",
+      "title": {
+        "rendered": "Burning Man"
+      },
+      "content": {
+        "rendered": "\n<p>watt-BurningManft.PostMalone</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1451,
+        1462
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        688
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6REbB4VXol3q3iiCjvojL5",
+        "spotify_release_date": "2017/1/18",
+        "spotify_name": "Burning Man",
+        "spotify_artists": "WATT, Post Malone",
+        "spotify_album": "Burning Man",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734989160b437cf49225b0ebe9",
+        "spotify_duration_ms": "197506",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.573",
+        "spotify_energy": "0.879",
+        "spotify_key": "2",
+        "spotify_loudness": "-2.782",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0602",
+        "spotify_tempo": "158.162",
+        "spotify_valence": "0.5",
+        "spotify_acousticness": "0.00917",
+        "spotify_instrumentalness": "1.08E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0513",
+        "spotify_artists01": "WATT",
+        "spotify_artists01_id": "4olE3I5QU0dvSR7LIpqTXc",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0bd101b7d708edeb1c915452",
+        "spotify_artists01_genres": "modern alternative rock",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "Post Malone",
+        "spotify_artists02_id": "246dkjvS1zLTtiykXe5h60",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb6be070445b03e0b63147c2c1",
+        "spotify_artists02_genres": "dfw rap, melodic rap, pop, rap",
+        "spotify_artists02_popularity": "89",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "#NAME?",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/watt-Burning-Man-ft.-Post-Malone.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1451,
+            "name": "Post Malone",
+            "slug": "post-malone",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19950704",
+              "artistdied": "",
+              "artistjpname": "ポスト・マローン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1462,
+            "name": "watt",
+            "slug": "watt",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19901020",
+              "artistdied": "",
+              "artistjpname": "ワット",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                },
+                {
+                  "value": "guitaristr",
+                  "label": "Guitarist"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "WATT, Post Malone",
+        "ytvideoid": "#NAME?",
+        "spotify_track_id": "6REbB4VXol3q3iiCjvojL5"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Rap rock",
+          "slug": "rap-rock",
+          "term_id": 688,
+          "post_count": 93
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "burning-man"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

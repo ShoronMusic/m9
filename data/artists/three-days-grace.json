@@ -1,0 +1,72 @@
+{
+  "id": 6165,
+  "count": 3,
+  "description": "Three Days Grace is a Canadian rock band.",
+  "link": "https://sub.music8.jp/category/three-days-grace/",
+  "name": "Three Days Grace",
+  "slug": "three-days-grace",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "1992",
+    "artistborn": "",
+    "artistjpname": "スリー・デイズ・グレイス",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Papa Roach (papa-roach) | Breaking Benjamin (breaking-benjamin) | Seether (seether) | Drowning Pool | Falling In Reverse (falling-in-reverse) | Sick Puppies (sick-puppies) | Trapt | Finger Eleven | Skillet (skillet) | Shinedown (shinedown) | Five Finger Death Punch (five-finger-death-punch) | Saliva | Thousand Foot Krutch | Slipknot (slipknot) | Linkin Park (linkin-park) | Hollywood Undead (hollywood-undead) | Bullet For My Valentine (bullet-for-my-valentine) | Bring Me The Horizon (bring-me-the-horizon) | Avenged Sevenfold (avenged-sevenfold) | Thirty Seconds To Mars (thirty-seconds-to-mars)",
+    "spotify_artist_id": "2xiIXseIJcq3nG7C8fHeBj",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051742e619cf7c1577485d14c2043"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6165",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6165"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6165"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "スリー・デイズ・グレイス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051742e619cf7c1577485d14c2043",
+  "artistActiveYearStart": "1992",
+  "occupation": "band"
+}

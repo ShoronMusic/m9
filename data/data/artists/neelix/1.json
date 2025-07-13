@@ -1,0 +1,335 @@
+{
+  "artist": {
+    "id": 2716,
+    "count": 2,
+    "description": "GER",
+    "link": "https://sub.music8.jp/category/neelix/",
+    "name": "Neelix",
+    "slug": "neelix",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2716",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2716"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2716"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61819,
+      "date": "2023-12-30T20:02:13",
+      "date_gmt": "2023-12-30T11:02:13",
+      "title": {
+        "rendered": "Next By Me"
+      },
+      "content": {
+        "rendered": "<p>Neelix, Interactive Noise - Next By Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4177,
+        2716
+      ],
+      "tags": [],
+      "genre": [
+        670,
+        680
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "JFRsnhg2ZxI",
+        "ytreleasedate": "2023/12/30",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2JFsWfRq1r6CmUnk1GSuXs",
+        "spotify_release_date": "2023-12-29",
+        "spotify_name": "Next By Me",
+        "spotify_artists": "Neelix, Interactive Noise",
+        "spotify_album": "Next By Me",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737691e68b1aa7fbef725353c6",
+        "spotify_duration_ms": "282000",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.68",
+        "spotify_energy": "0.536",
+        "spotify_key": "11",
+        "spotify_loudness": "-8.766",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0488",
+        "spotify_tempo": "140.021",
+        "spotify_valence": "0.346",
+        "spotify_acousticness": "0.214",
+        "spotify_instrumentalness": "0.492",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.367",
+        "spotify_artists01": "Neelix",
+        "spotify_artists01_id": "5X3rdmEE2Mif6kFQkb2PxB",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8f35c6b2a9280144fcd28a7f",
+        "spotify_artists01_genres": "german techno, progressive psytrance",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "Interactive Noise",
+        "spotify_artists02_id": "4lA68EVFzoodItMp7RH2cv",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebf3bf960b89d434672d195f4a",
+        "spotify_artists02_genres": "progressive psytrance, psychedelic trance, trance mexicano",
+        "spotify_artists02_popularity": "43",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Neelix-Interactive-Noise-Next-By-Me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4177,
+            "name": "Interactive Noise",
+            "slug": "interactive-noise",
+            "acf": {
+              "artistorigin": "MEX",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2716,
+            "name": "Neelix",
+            "slug": "neelix",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Neelix, Interactive Noise",
+        "ytvideoid": "JFRsnhg2ZxI",
+        "spotify_track_id": "2JFsWfRq1r6CmUnk1GSuXs"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        },
+        {
+          "name": "Psychedelic trance",
+          "slug": "psychedelic-trance",
+          "term_id": 680,
+          "post_count": 27
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "next-by-me"
+    },
+    {
+      "id": 38800,
+      "date": "2022-09-03T23:44:00",
+      "date_gmt": "2022-09-03T14:44:00",
+      "title": {
+        "rendered": "Wonders"
+      },
+      "content": {
+        "rendered": "\n<p>Neelix,GhostRider,TheGardener&amp;TheTree-Wonders</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2718,
+        2717,
+        2716
+      ],
+      "tags": [],
+      "genre": [
+        680,
+        747
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6d1AuFOL1YBzLcruapNbZV",
+        "spotify_release_date": "2022/9/2",
+        "spotify_name": "Wonders",
+        "spotify_artists": "Neelix,GhostRider,TheGardener&TheTree",
+        "spotify_album": "Wonders",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732e70ade65833b06cb0c77e34",
+        "spotify_duration_ms": "257357",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.492",
+        "spotify_energy": "0.616",
+        "spotify_key": "0",
+        "spotify_loudness": "-8.202",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0488",
+        "spotify_tempo": "139.918",
+        "spotify_valence": "0.316",
+        "spotify_acousticness": "0.167",
+        "spotify_instrumentalness": "0.0165",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.114",
+        "spotify_artists01": "Neelix",
+        "spotify_artists01_id": "5X3rdmEE2Mif6kFQkb2PxB",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8f35c6b2a9280144fcd28a7f",
+        "spotify_artists01_genres": "germantechno,progressivepsytrance",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "GhostRider",
+        "spotify_artists02_id": "6ZJDt01Lh0XOPMMJbUMcUi",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb838a4342037c1df7545b7c62",
+        "spotify_artists02_genres": "progressivepsytrance,psychedelictrance",
+        "spotify_artists02_popularity": "53",
+        "spotify_artists03": "TheGardener&TheTree",
+        "spotify_artists03_id": "1GarejqGHyKM1adTFnB4NN",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebcf342edf9cdec5e49bb6cd26",
+        "spotify_artists03_genres": "swissindie,swissindiefolk",
+        "spotify_artists03_popularity": "49",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "q4MrN6ttk1Q",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Neelix-Ghost-Rider-The-Gardener-The-Tree-Wonders.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2718,
+            "name": "Gardener",
+            "slug": "gardener",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2717,
+            "name": "Ghost Rider",
+            "slug": "ghost-rider",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2716,
+            "name": "Neelix",
+            "slug": "neelix",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Neelix,GhostRider,TheGardener&TheTree",
+        "ytvideoid": "q4MrN6ttk1Q",
+        "spotify_track_id": "6d1AuFOL1YBzLcruapNbZV"
+      },
+      "genre_data": [
+        {
+          "name": "Psychedelic trance",
+          "slug": "psychedelic-trance",
+          "term_id": 680,
+          "post_count": 27
+        },
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "wonders-3"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

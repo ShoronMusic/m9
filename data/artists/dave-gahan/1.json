@@ -1,0 +1,253 @@
+{
+  "artist": {
+    "id": 1337,
+    "count": 1,
+    "description": "Dave Gahan is an English singer and songwriter, lead singer of electronic band Depeche Mode.",
+    "link": "https://sub.music8.jp/category/dave-gahan/",
+    "name": "Dave Gahan",
+    "slug": "dave-gahan",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "19620509",
+      "artistdied": "",
+      "artistjpname": "デイヴ・ガーン",
+      "member": [
+        {
+          "term_id": 848,
+          "name": "Depeche Mode",
+          "slug": "depeche-mode",
+          "term_group": 0,
+          "term_taxonomy_id": 848,
+          "taxonomy": "category",
+          "description": "Depeche Mode are an English electronic music band.",
+          "parent": 0,
+          "count": 30,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1337",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1337"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1337"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 43084,
+      "date": "2017-03-10T11:25:00",
+      "date_gmt": "2017-03-10T02:25:00",
+      "title": {
+        "rendered": "Ocean"
+      },
+      "content": {
+        "rendered": "\n<p>Goldfrapp-OceanFeat.DaveGahan</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1337,
+        1336
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        494,
+        501
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "00UwQy1dht3RNiID8nIhZW",
+        "spotify_release_date": "2018/7/6",
+        "spotify_name": "Ocean (feat. Dave Gahan)",
+        "spotify_artists": "Goldfrapp, Dave Gahan",
+        "spotify_album": "Silver Eye (Deluxe Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273aa393d9f07c7598f59129d8b",
+        "spotify_duration_ms": "242826",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.514",
+        "spotify_energy": "0.636",
+        "spotify_key": "3",
+        "spotify_loudness": "-7.812",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0354",
+        "spotify_tempo": "107.065",
+        "spotify_valence": "0.234",
+        "spotify_acousticness": "0.0768",
+        "spotify_instrumentalness": "0.000421",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.142",
+        "spotify_artists01": "Goldfrapp",
+        "spotify_artists01_id": "5BKsn7SCN2XmbF7apdCpRS",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb242b3af6c6d4d944ff8739a2",
+        "spotify_artists01_genres": "alternative dance, art pop, electronica, indietronica, neo-synthpop, trip hop",
+        "spotify_artists01_popularity": "49",
+        "spotify_artists02": "Dave Gahan",
+        "spotify_artists02_id": "7hKXTmrq3ZppBx881yBbOr",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebe0c36cc7f070ba1e9e3ec598",
+        "spotify_artists02_genres": "alternative dance",
+        "spotify_artists02_popularity": "39",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "pSozvePvdek",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Goldfrapp-Ocean-Feat.-Dave-Gahan.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1337,
+            "name": "Dave Gahan",
+            "slug": "dave-gahan",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "19620509",
+              "artistdied": "",
+              "artistjpname": "デイヴ・ガーン",
+              "member": [
+                {
+                  "term_id": 848,
+                  "name": "Depeche Mode",
+                  "slug": "depeche-mode",
+                  "term_group": 0,
+                  "term_taxonomy_id": 848,
+                  "taxonomy": "category",
+                  "description": "Depeche Mode are an English electronic music band.",
+                  "parent": 0,
+                  "count": 30,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1336,
+            "name": "Goldfrapp",
+            "slug": "goldfrapp",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1999",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ゴールドフラップ",
+              "member": [
+                {
+                  "term_id": 2579,
+                  "name": "Alison Goldfrapp",
+                  "slug": "alison-goldfrapp",
+                  "term_group": 0,
+                  "term_taxonomy_id": 2579,
+                  "taxonomy": "category",
+                  "description": "Alison Goldfrapp is an English musician and lead vocalist of the electronic music duo Goldfrapp.",
+                  "parent": 0,
+                  "count": 9,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Goldfrapp, Dave Gahan",
+        "ytvideoid": "pSozvePvdek",
+        "spotify_track_id": "00UwQy1dht3RNiID8nIhZW"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Electro-Industrial",
+          "slug": "electro-industrial",
+          "term_id": 494,
+          "post_count": 21
+        },
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "ocean"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,63 @@
+{
+  "id": 1653,
+  "count": 3,
+  "description": "JP Saxe is a Canadian musician and singer.",
+  "link": "https://sub.music8.jp/category/jp-saxe/",
+  "name": "JP Saxe",
+  "slug": "jp-saxe",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "2012",
+    "artistborn": "19930323",
+    "artistdied": "",
+    "artistjpname": "JPサックス",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1653",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1653"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1653"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "JPサックス",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2012",
+  "occupation": ""
+}

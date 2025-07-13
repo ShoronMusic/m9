@@ -1,0 +1,78 @@
+{
+  "id": 6432,
+  "count": 2,
+  "description": "Kito is an Australian record producer, songwriter and DJ currently based in Los Angeles, California.",
+  "link": "https://sub.music8.jp/category/kito/",
+  "name": "Kito",
+  "slug": "kito",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2008",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3FLUBwpAnaIlIKeaBfsxFe",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ef7a1e4ddf3d57a85a55ca63",
+    "youtube_channel": "UCFgpyqK5ZrO94s-uCs9xxXQ",
+    "wikipedia_page": "Kito_(musician)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6432",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6432"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6432"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ef7a1e4ddf3d57a85a55ca63",
+  "artistActiveYearStart": "2008",
+  "occupation": "dj, producer"
+}

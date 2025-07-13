@@ -1,0 +1,615 @@
+{
+  "artist": {
+    "id": 3931,
+    "count": 4,
+    "description": "Bdrmm is a British shoegaze band.",
+    "link": "https://sub.music8.jp/category/bdrmm/",
+    "name": "Bdrmm",
+    "slug": "bdrmm",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2016",
+      "artistborn": "",
+      "artistjpname": "ベッドルーム",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3931",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3931"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3931"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 59104,
+      "date": "2023-10-09T21:36:01",
+      "date_gmt": "2023-10-09T12:36:01",
+      "title": {
+        "rendered": "Mud"
+      },
+      "content": {
+        "rendered": "<p>bdrmm - Mud</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3931
+      ],
+      "tags": [],
+      "genre": [
+        485,
+        630
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "7apGr5xsRnkPA6kExDCR2u",
+        "spotify_release_date": "2023-10-09",
+        "spotify_name": "Mud",
+        "spotify_artists": "bdrmm",
+        "spotify_album": "Mud",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735e8ab59333ec388198afd89e",
+        "spotify_duration_ms": "214850",
+        "spotify_popularity": "23",
+        "spotify_danceability": "0.45",
+        "spotify_energy": "0.615",
+        "spotify_key": "6",
+        "spotify_loudness": "-12.221",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0519",
+        "spotify_tempo": "160.011",
+        "spotify_valence": "0.13",
+        "spotify_acousticness": "0.00871",
+        "spotify_instrumentalness": "0.858",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.137",
+        "spotify_artists01": "bdrmm",
+        "spotify_artists01_id": "4Cx5LnF4WNJIn9SSqyeq9C",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb80ab6f0f8da6c2144dc4cff7",
+        "spotify_artists01_genres": "bedroom pop, crank wave, hull indie, nu gaze",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "AWPyhLjAPj0",
+        "ytreleasedate": "2023/10/09"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/bdrmm-Mud.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3931,
+            "name": "Bdrmm",
+            "slug": "bdrmm",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "ベッドルーム",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "bdrmm",
+        "ytvideoid": "AWPyhLjAPj0",
+        "spotify_track_id": "7apGr5xsRnkPA6kExDCR2u"
+      },
+      "genre_data": [
+        {
+          "name": "Dream pop",
+          "slug": "dream-pop",
+          "term_id": 485,
+          "post_count": 212
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "mud"
+    },
+    {
+      "id": 59100,
+      "date": "2023-05-16T21:33:52",
+      "date_gmt": "2023-05-16T12:33:52",
+      "title": {
+        "rendered": "Pulling Stitches"
+      },
+      "content": {
+        "rendered": "<p>bdrmm - Pulling Stitches</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3931
+      ],
+      "tags": [],
+      "genre": [
+        485,
+        575,
+        708
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "66BrisO8JjKKY9Q4TWMuqG",
+        "spotify_release_date": "2023-06-30",
+        "spotify_name": "Pulling Stitches",
+        "spotify_artists": "bdrmm",
+        "spotify_album": "I Don't Know",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738c2b14aebe306f3501257f7a",
+        "spotify_duration_ms": "252320",
+        "spotify_popularity": "25",
+        "spotify_danceability": "0.399",
+        "spotify_energy": "0.816",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.323",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0402",
+        "spotify_tempo": "176.973",
+        "spotify_valence": "0.414",
+        "spotify_acousticness": "0.00284",
+        "spotify_instrumentalness": "0.621",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.239",
+        "spotify_artists01": "bdrmm",
+        "spotify_artists01_id": "4Cx5LnF4WNJIn9SSqyeq9C",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb80ab6f0f8da6c2144dc4cff7",
+        "spotify_artists01_genres": "bedroom pop, crank wave, hull indie, nu gaze",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "wr5-ZUS4u9s",
+        "ytreleasedate": "2023/05/16"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/bdrmm-Pulling-Stitches.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3931,
+            "name": "Bdrmm",
+            "slug": "bdrmm",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "ベッドルーム",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "bdrmm",
+        "ytvideoid": "wr5-ZUS4u9s",
+        "spotify_track_id": "66BrisO8JjKKY9Q4TWMuqG"
+      },
+      "genre_data": [
+        {
+          "name": "Dream pop",
+          "slug": "dream-pop",
+          "term_id": 485,
+          "post_count": 212
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Shoegaze",
+          "slug": "shoegaze",
+          "term_id": 708,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "pulling-stitches"
+    },
+    {
+      "id": 59094,
+      "date": "2023-04-06T21:25:43",
+      "date_gmt": "2023-04-06T12:25:43",
+      "title": {
+        "rendered": "Be Careful"
+      },
+      "content": {
+        "rendered": "<p>bdrmm - Be Careful</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3931
+      ],
+      "tags": [],
+      "genre": [
+        485,
+        575,
+        708,
+        724
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0qWg7IaswHVeA7HyPSwP72",
+        "spotify_release_date": "2023-06-30",
+        "spotify_name": "Be Careful",
+        "spotify_artists": "bdrmm",
+        "spotify_album": "I Don't Know",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738c2b14aebe306f3501257f7a",
+        "spotify_duration_ms": "270120",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.582",
+        "spotify_energy": "0.506",
+        "spotify_key": "4",
+        "spotify_loudness": "-9.501",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0407",
+        "spotify_tempo": "177.997",
+        "spotify_valence": "0.663",
+        "spotify_acousticness": "0.0885",
+        "spotify_instrumentalness": "0.815",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0823",
+        "spotify_artists01": "bdrmm",
+        "spotify_artists01_id": "4Cx5LnF4WNJIn9SSqyeq9C",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb80ab6f0f8da6c2144dc4cff7",
+        "spotify_artists01_genres": "bedroom pop, crank wave, hull indie, nu gaze",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "QGS0J-llR8o",
+        "ytreleasedate": "2023/04/06"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/bdrmm-Be-Careful.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3931,
+            "name": "Bdrmm",
+            "slug": "bdrmm",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "ベッドルーム",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "bdrmm",
+        "ytvideoid": "QGS0J-llR8o",
+        "spotify_track_id": "0qWg7IaswHVeA7HyPSwP72"
+      },
+      "genre_data": [
+        {
+          "name": "Dream pop",
+          "slug": "dream-pop",
+          "term_id": 485,
+          "post_count": 212
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Shoegaze",
+          "slug": "shoegaze",
+          "term_id": 708,
+          "post_count": 81
+        },
+        {
+          "name": "Space rock",
+          "slug": "space-rock",
+          "term_id": 724,
+          "post_count": 20
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "be-careful"
+    },
+    {
+      "id": 59097,
+      "date": "2023-02-06T21:30:17",
+      "date_gmt": "2023-02-06T12:30:17",
+      "title": {
+        "rendered": "It's Just a Bit of Blood"
+      },
+      "content": {
+        "rendered": "<p>bdrmm - It's Just a Bit of Blood</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3931
+      ],
+      "tags": [],
+      "genre": [
+        630,
+        666,
+        708
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1Lu6G7oPuoYe1h2sRN9CGj",
+        "spotify_release_date": "2023-06-30",
+        "spotify_name": "It's Just A Bit of Blood",
+        "spotify_artists": "bdrmm",
+        "spotify_album": "I Don't Know",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fd7a2123dd30dadd0d06d4cc",
+        "spotify_duration_ms": "286520",
+        "spotify_popularity": "5",
+        "spotify_danceability": "0.335",
+        "spotify_energy": "0.827",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.169",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0466",
+        "spotify_tempo": "161.941",
+        "spotify_valence": "0.327",
+        "spotify_acousticness": "0.00851",
+        "spotify_instrumentalness": "0.414",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0731",
+        "spotify_artists01": "bdrmm",
+        "spotify_artists01_id": "4Cx5LnF4WNJIn9SSqyeq9C",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb80ab6f0f8da6c2144dc4cff7",
+        "spotify_artists01_genres": "bedroom pop, crank wave, hull indie, nu gaze",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "WRueisbYNWE",
+        "ytreleasedate": "2023/02/06"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/bdrmm-Its-Just-a-Bit-of-Blood.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3931,
+            "name": "Bdrmm",
+            "slug": "bdrmm",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "ベッドルーム",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "bdrmm",
+        "ytvideoid": "WRueisbYNWE",
+        "spotify_track_id": "1Lu6G7oPuoYe1h2sRN9CGj"
+      },
+      "genre_data": [
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        },
+        {
+          "name": "Post-punk revival",
+          "slug": "post-punk-revival",
+          "term_id": 666,
+          "post_count": 196
+        },
+        {
+          "name": "Shoegaze",
+          "slug": "shoegaze",
+          "term_id": 708,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "its-just-a-bit-of-blood"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

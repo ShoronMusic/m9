@@ -1,0 +1,336 @@
+{
+  "artist": {
+    "id": 3035,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/fever/",
+    "name": "FEVER",
+    "slug": "fever",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": [
+        {
+          "term_id": 768,
+          "name": "Sting",
+          "slug": "sting",
+          "term_group": 0,
+          "term_taxonomy_id": 768,
+          "taxonomy": "category",
+          "description": "Sting, is an English musician and actor. He was the frontman, songwriter and bassist for new wave band the Police.",
+          "parent": 0,
+          "count": 50,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3035",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3035"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3035"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50657,
+      "date": "2023-03-09T11:47:11",
+      "date_gmt": "2023-03-09T02:47:11",
+      "title": {
+        "rendered": "Long Ago"
+      },
+      "content": {
+        "rendered": "<p>FEVER - Long Ago</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3035
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1033024NXOQEjBZfe34mrs",
+        "spotify_release_date": "2023-03-10",
+        "spotify_name": "Long Ago",
+        "spotify_artists": "FEVER",
+        "spotify_album": "Long Ago",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ca590d2727d64fac01098a57",
+        "spotify_duration_ms": "187692",
+        "spotify_popularity": "22",
+        "spotify_danceability": "0.493",
+        "spotify_energy": "0.878",
+        "spotify_key": "3",
+        "spotify_loudness": "-5.098",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0357",
+        "spotify_tempo": "146.943",
+        "spotify_valence": "0.603",
+        "spotify_acousticness": "0.000358",
+        "spotify_instrumentalness": "0.000173",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.11",
+        "spotify_artists01": "FEVER",
+        "spotify_artists01_id": "6sqc5lrCbcsjjpTAp6m6cH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd2493925bb6f6933860aaca3",
+        "spotify_artists01_genres": "britpop revival",
+        "spotify_artists01_popularity": "14",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "HxQ5rEB0RFw",
+        "ytreleasedate": "2023/03/09"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/FEVER-Long-Ago.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3035,
+            "name": "FEVER",
+            "slug": "fever",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": [
+                {
+                  "term_id": 768,
+                  "name": "Sting",
+                  "slug": "sting",
+                  "term_group": 0,
+                  "term_taxonomy_id": 768,
+                  "taxonomy": "category",
+                  "description": "Sting, is an English musician and actor. He was the frontman, songwriter and bassist for new wave band the Police.",
+                  "parent": 0,
+                  "count": 50,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "FEVER",
+        "ytvideoid": "HxQ5rEB0RFw",
+        "spotify_track_id": "1033024NXOQEjBZfe34mrs"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "long-ago"
+    },
+    {
+      "id": 50660,
+      "date": "2019-10-11T11:50:21",
+      "date_gmt": "2019-10-11T02:50:21",
+      "title": {
+        "rendered": "Jungle Man"
+      },
+      "content": {
+        "rendered": "<p>FEVER - Jungle Man</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3035
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6shhOfOZXx9zwrwqSwZo4F",
+        "spotify_release_date": "2019-10-04",
+        "spotify_name": "Jungle Man",
+        "spotify_artists": "FEVER",
+        "spotify_album": "Jungle Man",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735ad36413a0e179756469a234",
+        "spotify_duration_ms": "123385",
+        "spotify_popularity": "29",
+        "spotify_danceability": "0.474",
+        "spotify_energy": "0.78",
+        "spotify_key": "10",
+        "spotify_loudness": "-6.637",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0328",
+        "spotify_tempo": "93.948",
+        "spotify_valence": "0.63",
+        "spotify_acousticness": "0.0004",
+        "spotify_instrumentalness": "0.00000944",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.692",
+        "spotify_artists01": "FEVER",
+        "spotify_artists01_id": "6sqc5lrCbcsjjpTAp6m6cH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd2493925bb6f6933860aaca3",
+        "spotify_artists01_genres": "britpop revival",
+        "spotify_artists01_popularity": "14",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Li2m8fPsVLM",
+        "ytreleasedate": "2019/10/11"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/FEVER-Jungle-Man.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3035,
+            "name": "FEVER",
+            "slug": "fever",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": [
+                {
+                  "term_id": 768,
+                  "name": "Sting",
+                  "slug": "sting",
+                  "term_group": 0,
+                  "term_taxonomy_id": 768,
+                  "taxonomy": "category",
+                  "description": "Sting, is an English musician and actor. He was the frontman, songwriter and bassist for new wave band the Police.",
+                  "parent": 0,
+                  "count": 50,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "FEVER",
+        "ytvideoid": "Li2m8fPsVLM",
+        "spotify_track_id": "6shhOfOZXx9zwrwqSwZo4F"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "jungle-man"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

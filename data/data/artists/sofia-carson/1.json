@@ -1,0 +1,507 @@
+{
+  "artist": {
+    "id": 1135,
+    "count": 3,
+    "description": "Sofia Carson is an American actress and singer.",
+    "link": "https://sub.music8.jp/category/sofia-carson/",
+    "name": "Sofia Carson",
+    "slug": "sofia-carson",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2012",
+      "artistborn": "19930410",
+      "artistdied": "",
+      "artistjpname": "ソフィア・カーソン",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1135",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1135"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1135"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61969,
+      "date": "2024-01-26T21:34:53",
+      "date_gmt": "2024-01-26T12:34:53",
+      "title": {
+        "rendered": "I Hope You Know"
+      },
+      "content": {
+        "rendered": "<p>Sofia Carson - I Hope You Know</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1135
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "as_ghNtkR98",
+        "ytreleasedate": "2024/01/26",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7gHVneUdwNT64NMOmoQPbj",
+        "spotify_release_date": "2024-01-26",
+        "spotify_name": "I Hope You Know",
+        "spotify_artists": "ソフィア・カーソン",
+        "spotify_album": "I Hope You Know",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273538bdcf1da113b0c6e8b272b",
+        "spotify_duration_ms": "199048",
+        "spotify_popularity": "62",
+        "spotify_danceability": "0.703",
+        "spotify_energy": "0.515",
+        "spotify_key": "2",
+        "spotify_loudness": "-6.308",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0392",
+        "spotify_tempo": "126.005",
+        "spotify_valence": "0.267",
+        "spotify_acousticness": "0.545",
+        "spotify_instrumentalness": "0.00000356",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "ソフィア・カーソン",
+        "spotify_artists01_id": "7bp2lSdh12wcA8LyB1srfJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba26cb5b1e204b1049ec4d6cb",
+        "spotify_artists01_genres": "pop",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sofia-Carson-I-Hope-You-Know.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1135,
+            "name": "Sofia Carson",
+            "slug": "sofia-carson",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19930410",
+              "artistdied": "",
+              "artistjpname": "ソフィア・カーソン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ソフィア・カーソン",
+        "ytvideoid": "as_ghNtkR98",
+        "spotify_track_id": "7gHVneUdwNT64NMOmoQPbj"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "i-hope-you-know"
+    },
+    {
+      "id": 39668,
+      "date": "2022-04-30T20:17:00",
+      "date_gmt": "2022-04-30T11:17:00",
+      "title": {
+        "rendered": "It's Only Love, Nobody Dies"
+      },
+      "content": {
+        "rendered": "\n<p>SofiaCarson-It'sOnlyLove,NobodyDies</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1135
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4HBaBg9EzXkTspFJ3y3uE0",
+        "spotify_release_date": "2022/3/25",
+        "spotify_name": "It'sOnlyLove,NobodyDies",
+        "spotify_artists": "SofiaCarson",
+        "spotify_album": "SofiaCarson",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fc59f417792c2d99379abe87",
+        "spotify_duration_ms": "184445",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.558",
+        "spotify_energy": "0.705",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.992",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0412",
+        "spotify_tempo": "101.015",
+        "spotify_valence": "0.314",
+        "spotify_acousticness": "0.488",
+        "spotify_instrumentalness": "0.000112",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.114",
+        "spotify_artists01": "SofiaCarson",
+        "spotify_artists01_id": "7bp2lSdh12wcA8LyB1srfJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7f3324bdce98a3585c6df7ec",
+        "spotify_artists01_genres": "pop",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "KMaJUGyv_98",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sofia-Carson-Its-Only-Love-Nobody-Dies.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1135,
+            "name": "Sofia Carson",
+            "slug": "sofia-carson",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19930410",
+              "artistdied": "",
+              "artistjpname": "ソフィア・カーソン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SofiaCarson",
+        "ytvideoid": "KMaJUGyv_98",
+        "spotify_track_id": "4HBaBg9EzXkTspFJ3y3uE0"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "its-only-love-nobody-dies"
+    },
+    {
+      "id": 42409,
+      "date": "2018-11-30T18:07:00",
+      "date_gmt": "2018-11-30T09:07:00",
+      "title": {
+        "rendered": "Different World"
+      },
+      "content": {
+        "rendered": "\n<p>AlanWalker-DifferentWorldft.SofiaCarson,K-391&amp;CORSAK</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1115,
+        1137,
+        1136,
+        1135
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        529
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "4heFQCyiW0RUEX1Q1lb008",
+        "spotify_release_date": "2018/12/14",
+        "spotify_name": "Different World (feat. CORSAK)",
+        "spotify_artists": "Alan Walker, K-391, Sofia Carson, CORSAK",
+        "spotify_album": "Different World",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a108e07c661f9fc54de9c43a",
+        "spotify_duration_ms": "202906",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.602",
+        "spotify_energy": "0.752",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.931",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0361",
+        "spotify_tempo": "130.037",
+        "spotify_valence": "0.331",
+        "spotify_acousticness": "0.0638",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.13",
+        "spotify_artists01": "Alan Walker",
+        "spotify_artists01_id": "7vk5e3vY1uw9plTHJAMwjN",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbf753c009fd9c2d53351dd3c",
+        "spotify_artists01_genres": "electro house",
+        "spotify_artists01_popularity": "79",
+        "spotify_artists02": "K-391",
+        "spotify_artists02_id": "6pWcSL9wSJZQ9ne0TnhdWr",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebb6f3a82acf4aa61603b353de",
+        "spotify_artists02_genres": "nordic house",
+        "spotify_artists02_popularity": "63",
+        "spotify_artists03": "Sofia Carson",
+        "spotify_artists03_id": "7bp2lSdh12wcA8LyB1srfJ",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb7f3324bdce98a3585c6df7ec",
+        "spotify_artists03_genres": "pop",
+        "spotify_artists03_popularity": "64",
+        "spotify_artists04": "CORSAK",
+        "spotify_artists04_id": "1TcbdifqhtxLz77unBYJ7z",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5eb8dd0af0bf46fbf997044796e",
+        "spotify_artists04_genres": "chinese electropop",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "m-PJmmvyP10",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Alan-Walker-Different-World-ft.-Sofia-Carson-K-391-CORSAK.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1115,
+            "name": "Alan Walker",
+            "slug": "alan-walker",
+            "acf": {
+              "artistorigin": "NOR",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19970824",
+              "artistdied": "",
+              "artistjpname": "アラン・ウォーカー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Marshmello (marshmello) | Martin Garrix (martin-garrix) | DJ Snake (dj-snake) | Chainsmokers (chainsmokers) | Avicii (avicii) | Axel Johansson | Kygo (kygo) | ZAYN (zayn) | Jonas Blue (jonas-blue) | Justin Bieber (justin-bieber) | Charlie Puth (charlie-puth) | Anne-Marie (anne-marie) | Mike Perry | Shawn Mendes (shawn-mendes) | Camila Cabello (camila-cabello) | Imagine Dragons (imagine-dragons) | Ava Max (ava-max) | Bebe Rexha (bebe-rexha) | Clean Bandit (clean-bandit) | Calvin Harris (calvin-harris)",
+              "spotify_artist_id": "7vk5e3vY1uw9plTHJAMwjN",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bf753c009fd9c2d53351dd3c",
+              "youtube_channel": "",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1137,
+            "name": "CORSAK",
+            "slug": "corsak",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1136,
+            "name": "K-391",
+            "slug": "k-391",
+            "acf": {
+              "artistorigin": "NOR",
+              "artistactiveyearstart": "2009",
+              "artistborn": "19940202",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1135,
+            "name": "Sofia Carson",
+            "slug": "sofia-carson",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19930410",
+              "artistdied": "",
+              "artistjpname": "ソフィア・カーソン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Alan Walker, K-391, Sofia Carson, CORSAK",
+        "ytvideoid": "m-PJmmvyP10",
+        "spotify_track_id": "4heFQCyiW0RUEX1Q1lb008"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Future bass",
+          "slug": "future-bass",
+          "term_id": 529,
+          "post_count": 49
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "different-world"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 4140,
+  "count": 1,
+  "description": "Arab Strap are a Scottish indie rock band.",
+  "link": "https://sub.music8.jp/category/arab-strap/",
+  "name": "Arab Strap",
+  "slug": "arab-strap",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1995",
+    "artistborn": "",
+    "artistjpname": "アラブ・ストラップ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6g8Jqb5JMfv92eB2r0awTN",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174129d10266bc7a8c6569b678c"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4140",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4140"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4140"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アラブ・ストラップ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174129d10266bc7a8c6569b678c",
+  "artistActiveYearStart": "1995",
+  "occupation": "band"
+}

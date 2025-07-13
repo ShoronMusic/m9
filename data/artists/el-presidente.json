@@ -1,0 +1,72 @@
+{
+  "id": 1499,
+  "count": 4,
+  "description": "El Presidente is a Scottish band.",
+  "link": "https://sub.music8.jp/category/el-presidente/",
+  "name": "El Presidente",
+  "slug": "el-presidente",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2005",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "エル・プレジデンテ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Sancocho | DJ Lynnwood | DJ Juanito | DJ Tragic | DJ Trajic | Mark V & Poogie Bear | DJ Kevin Halstead | Jonny Z | Poogie Bear | Mark V. | Movement | 740 Boyz | Mellow Man Ace | Los Umbrellos | 2 In A Room",
+    "spotify_artist_id": "082ZVCDd99Orp3HislzFaY",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616d00001e0240bb4b1307c76ff9135f8706"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1499",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1499"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1499"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エル・プレジデンテ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616d00001e0240bb4b1307c76ff9135f8706",
+  "artistActiveYearStart": "2005",
+  "occupation": "band"
+}

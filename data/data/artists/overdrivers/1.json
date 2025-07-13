@@ -1,0 +1,452 @@
+{
+  "artist": {
+    "id": 6278,
+    "count": 3,
+    "description": "",
+    "link": "https://sub.music8.jp/category/overdrivers/",
+    "name": "OVERDRIVERS",
+    "slug": "overdrivers",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FRA",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ],
+      "related_artists": "",
+      "spotify_artist_id": "4paZv6H428Sy9SdtXhSb7k",
+      "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747726ab6b555dc8d834b05ca9"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6278",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6278"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6278"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 87184,
+      "date": "2024-12-11T14:18:08",
+      "date_gmt": "2024-12-11T05:18:08",
+      "title": {
+        "rendered": "Guitar Playboy"
+      },
+      "content": {
+        "rendered": "<p>OVERDRIVERS - Guitar Playboy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6278
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2cUrFxWIFksyDH3DGuFfFB",
+        "spotify_release_date": "2024-12-11",
+        "spotify_name": "Guitar Playboy",
+        "spotify_artists": "OVERDRIVERS",
+        "spotify_album": "Guitar Playboy",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273448b55dca38727bc7016a1b0",
+        "spotify_duration_ms": "231000",
+        "spotify_popularity": "8",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "OVERDRIVERS",
+        "spotify_artists01_id": "4paZv6H428Sy9SdtXhSb7k",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7726ab6b555dc8d834b05ca9",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ndSxGoU-gbM",
+        "ytreleasedate": "2024/12/11"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/overdrivers-guitar-playboy.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6278,
+            "name": "OVERDRIVERS",
+            "slug": "overdrivers",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "4paZv6H428Sy9SdtXhSb7k",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747726ab6b555dc8d834b05ca9"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "OVERDRIVERS",
+        "ytvideoid": "ndSxGoU-gbM",
+        "spotify_track_id": "2cUrFxWIFksyDH3DGuFfFB"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "guitar-playboy"
+    },
+    {
+      "id": 87192,
+      "date": "2024-02-18T14:22:41",
+      "date_gmt": "2024-02-18T05:22:41",
+      "title": {
+        "rendered": "High Mountains"
+      },
+      "content": {
+        "rendered": "<p>OVERDRIVERS - High Mountains</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6278
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "25NemR6XQmcm5kOyOKfyvW",
+        "spotify_release_date": "2018",
+        "spotify_name": "High Mountains",
+        "spotify_artists": "OVERDRIVERS",
+        "spotify_album": "She's on Her Period",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f1977f912d36e66ef5b59929",
+        "spotify_duration_ms": "212037",
+        "spotify_popularity": "34",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "OVERDRIVERS",
+        "spotify_artists01_id": "4paZv6H428Sy9SdtXhSb7k",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7726ab6b555dc8d834b05ca9",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "hx6ba2pRfLY",
+        "ytreleasedate": "2021/02/18"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/overdrivers-high-mountains.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6278,
+            "name": "OVERDRIVERS",
+            "slug": "overdrivers",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "4paZv6H428Sy9SdtXhSb7k",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747726ab6b555dc8d834b05ca9"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "OVERDRIVERS",
+        "ytvideoid": "hx6ba2pRfLY",
+        "spotify_track_id": "25NemR6XQmcm5kOyOKfyvW"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "high-mountains"
+    },
+    {
+      "id": 87188,
+      "date": "2021-06-18T14:21:07",
+      "date_gmt": "2021-06-18T05:21:07",
+      "title": {
+        "rendered": "Factory"
+      },
+      "content": {
+        "rendered": "<p>OVERDRIVERS - Factory</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6278
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1zJcM1Bf6hcaZUmet6uPgC",
+        "spotify_release_date": "2021-06-18",
+        "spotify_name": "Factory",
+        "spotify_artists": "OVERDRIVERS",
+        "spotify_album": "Factory",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27346b4957a17a21decfe805e63",
+        "spotify_duration_ms": "278120",
+        "spotify_popularity": "17",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "OVERDRIVERS",
+        "spotify_artists01_id": "4paZv6H428Sy9SdtXhSb7k",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7726ab6b555dc8d834b05ca9",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Jnq6tAwGnEM",
+        "ytreleasedate": "2021/06/18"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/overdrivers-factory.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6278,
+            "name": "OVERDRIVERS",
+            "slug": "overdrivers",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "4paZv6H428Sy9SdtXhSb7k",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747726ab6b555dc8d834b05ca9"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "OVERDRIVERS",
+        "ytvideoid": "Jnq6tAwGnEM",
+        "spotify_track_id": "1zJcM1Bf6hcaZUmet6uPgC"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "factory"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

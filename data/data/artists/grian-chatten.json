@@ -1,0 +1,76 @@
+{
+  "id": 3164,
+  "count": 5,
+  "description": "",
+  "link": "https://sub.music8.jp/category/grian-chatten/",
+  "name": "Grian Chatten",
+  "slug": "grian-chatten",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2017",
+    "artistborn": "",
+    "artistjpname": "グリアン・チャッテン",
+    "member": [
+      {
+        "term_id": 1806,
+        "name": "Fontaines D.C.",
+        "slug": "fontaines-d-c",
+        "term_group": 0,
+        "term_taxonomy_id": 1806,
+        "taxonomy": "category",
+        "description": "Fontaines D.C. are an Irish post-punk band.",
+        "parent": 0,
+        "count": 9,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3164",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3164"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3164"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "グリアン・チャッテン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2017",
+  "occupation": ""
+}

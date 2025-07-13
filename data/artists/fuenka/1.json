@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 6695,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/fuenka/",
+    "name": "FUENKA",
+    "slug": "fuenka",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6695",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6695"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6695"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 95428,
+      "date": "2025-03-04T17:22:32",
+      "date_gmt": "2025-03-04T08:22:32",
+      "title": {
+        "rendered": "Seven Seas / The Poem"
+      },
+      "content": {
+        "rendered": "<p>Paul van Dyk, FUENKA - Seven Seas / The Poem</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6695,
+        2142
+      ],
+      "tags": [],
+      "genre": [
+        747
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "k4hmnW76Zq8",
+        "ytreleasedate": "2025/03/04",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7dub73ADzBTXTuN6ONhfWM",
+        "spotify_release_date": "2025-02-28",
+        "spotify_name": "Seven Seas / The Poem",
+        "spotify_artists": "Paul van Dyk, Fuenka",
+        "spotify_album": "Seven Seas",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273627ebb2d2ce4eb767f45660c",
+        "spotify_duration_ms": "195000",
+        "spotify_popularity": "47",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Paul van Dyk",
+        "spotify_artists01_id": "7wU1naftD3lNq7rNsiDvOR",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf6a2ae0e81e8a35f2b29a14d",
+        "spotify_artists01_genres": "trance, progressive trance",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "Fuenka",
+        "spotify_artists02_id": "20LsNbfhofBFByG5kuRKvK",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb09b2d5f18fccf8f1eddf8bdb",
+        "spotify_artists02_genres": "progressive house, melodic techno, progressive trance, trance, melodic house",
+        "spotify_artists02_popularity": "34",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/paul-van-dyk-fuenka-seven-seas-the-poem.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6695,
+            "name": "FUENKA",
+            "slug": "fuenka",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2142,
+            "name": "Paul van Dyk",
+            "slug": "paul-van-dyk",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1990",
+              "artistborn": "19711216",
+              "artistdied": "",
+              "artistjpname": "ポール・ヴァン・ダイク",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Paul van Dyk, Fuenka",
+        "ytvideoid": "k4hmnW76Zq8",
+        "spotify_track_id": "7dub73ADzBTXTuN6ONhfWM"
+      },
+      "genre_data": [
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [],
+      "slug": "seven-seas-the-poem"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

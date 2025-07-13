@@ -1,0 +1,72 @@
+{
+  "id": 1393,
+  "count": 18,
+  "description": "Cast is an English rock band.",
+  "link": "https://sub.music8.jp/category/cast/",
+  "name": "Cast",
+  "slug": "cast",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1992",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "キャスト",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Big Daddy Weave | MercyMe | Third Day | Matthew West | Jeremy Camp | Sidewalk Prophets | Building 429 | Chris Tomlin | Tenth Avenue North | Steven Curtis Chapman | Natalie Grant | Newsboys (newsboys) | Francesca Battistelli | Brandon Heath | David Crowder Band | Phillips, Craig & Dean | Kutless | Sanctus Real | Mandisa | Matt Maher",
+    "spotify_artist_id": "6eJqAWJdd8JhAN1pQGie4r",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ec86bff8e4055a570d4c6c8c"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1393",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1393"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1393"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "キャスト",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ec86bff8e4055a570d4c6c8c",
+  "artistActiveYearStart": "1992",
+  "occupation": "band"
+}

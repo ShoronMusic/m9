@@ -1,0 +1,80 @@
+{
+  "id": 783,
+  "count": 5,
+  "description": "Carole King is an American singer-songwriter and musician.",
+  "link": "https://sub.music8.jp/category/carole-king/",
+  "name": "Carole King",
+  "slug": "carole-king",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1958",
+    "artistborn": "19420209",
+    "artistdied": "",
+    "artistjpname": "キャロル・キング",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "Carly Simon (carly-simon) | Linda Ronstadt | James Taylor (james-taylor) | Judy Collins | Joni Mitchell (joni-mitchell) | Art Garfunkel | Seals and Crofts | Peter, Paul and Mary | Loggins & Messina | Crosby, Stills & Nash | Crosby, Stills, Nash & Young | Dan Fogelberg | Bonnie Raitt (bonnie-raitt) | Jim Croce (jim-croce) | Don McLean | Jackson Browne (jackson-browne) | Harry Chapin | Blood, Sweat & Tears | Paul Simon (paul-simon) | Janis Ian",
+    "spotify_artist_id": "319yZVtYM9MBGqmSQnMyY6",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ea6c3263b9aeda33707faee5"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/783",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=783"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=783"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "キャロル・キング",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ea6c3263b9aeda33707faee5",
+  "artistActiveYearStart": "1958",
+  "occupation": "singer, songwriter, musician"
+}

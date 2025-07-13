@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 2893,
+    "count": 1,
+    "description": "Iggy Azalea is an Australian rapper and model.",
+    "link": "https://sub.music8.jp/category/iggy-azalea/",
+    "name": "Iggy Azalea",
+    "slug": "iggy-azalea",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "2011",
+      "artistborn": "19900607",
+      "artistdied": "",
+      "artistjpname": "イギー・アゼリア",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2893",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2893"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2893"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 49758,
+      "date": "2023-08-25T21:54:00",
+      "date_gmt": "2023-08-25T12:54:40",
+      "title": {
+        "rendered": "Money Come"
+      },
+      "content": {
+        "rendered": "<p>Iggy Azalea - Money Come</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2893
+      ],
+      "tags": [],
+      "genre": [
+        657
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "09zxu55fmyg5Sd5dcQ8oyA",
+        "spotify_release_date": "2023/8/25",
+        "spotify_name": "Money Come",
+        "spotify_artists": "Iggy Azalea",
+        "spotify_album": "Money Come",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273773d90bb3031df99e53221ee",
+        "spotify_duration_ms": "158426",
+        "spotify_popularity": "33",
+        "spotify_danceability": "0.76",
+        "spotify_energy": "0.798",
+        "spotify_key": "6",
+        "spotify_loudness": "-3.836",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.128",
+        "spotify_tempo": "105.961",
+        "spotify_valence": "0.36",
+        "spotify_acousticness": "0.0602",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.302",
+        "spotify_artists01": "イギー・アゼリア",
+        "spotify_artists01_id": "5yG7ZAZafVaAlMTeBybKAL",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb698a6abf2897a8fc8283cc0c",
+        "spotify_artists01_genres": "australian hip hop, dance pop, pop",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "7t5V5ygeqLY",
+        "ytreleasedate": "2023/8/25"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Iggy-Azalea-Money-Come.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2893,
+            "name": "Iggy Azalea",
+            "slug": "iggy-azalea",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19900607",
+              "artistdied": "",
+              "artistjpname": "イギー・アゼリア",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Iggy Azalea",
+        "ytvideoid": "7t5V5ygeqLY",
+        "spotify_track_id": "09zxu55fmyg5Sd5dcQ8oyA"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "money-come"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

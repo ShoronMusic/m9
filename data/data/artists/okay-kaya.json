@@ -1,0 +1,72 @@
+{
+  "id": 4690,
+  "count": 1,
+  "description": "Okay Kaya is a Norwegian-American musician.",
+  "link": "https://sub.music8.jp/category/okay-kaya/",
+  "name": "Okay Kaya",
+  "slug": "okay-kaya",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2015",
+    "artistborn": "19900414",
+    "artistjpname": "オーケイ・カヤ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7d64ZVOXg02y73HB5UMqkb",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743dfa990f0de91f8660280be5"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4690",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4690"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4690"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "オーケイ・カヤ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051743dfa990f0de91f8660280be5",
+  "artistActiveYearStart": "2015",
+  "occupation": "singer"
+}

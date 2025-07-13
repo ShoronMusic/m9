@@ -1,0 +1,76 @@
+{
+  "id": 2348,
+  "count": 8,
+  "description": "Boris Brejcha  is a German DJ and record producer.",
+  "link": "https://sub.music8.jp/category/boris-brejcha/",
+  "name": "Boris Brejcha",
+  "slug": "boris-brejcha",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "",
+    "artistborn": "19811126",
+    "artistdied": "",
+    "artistjpname": "ボリス・ブレッチャ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6caPJFLv1wesmM7gwK1ACy",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517433c9b5dcc05194199aa68410"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2348",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2348"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2348"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ボリス・ブレッチャ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517433c9b5dcc05194199aa68410",
+  "artistActiveYearStart": "",
+  "occupation": "dj, producer"
+}

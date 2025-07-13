@@ -1,0 +1,85 @@
+{
+  "id": 1360,
+  "count": 15,
+  "description": "The Verve were an English rock band.",
+  "link": "https://sub.music8.jp/category/verve/",
+  "name": "Verve",
+  "slug": "verve",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1990-2009",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・ヴァーヴ ",
+    "member": [
+      {
+        "term_id": 6832,
+        "name": "Richard Ashcroft",
+        "slug": "richard-ashcroft",
+        "term_group": 0,
+        "term_taxonomy_id": 6832,
+        "taxonomy": "category",
+        "description": "Richard Ashcroft  is an English musician, singer, and songwriter. He formed the alternative rock band the Verve in 1989.",
+        "parent": 0,
+        "count": 7,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2cGwlqi3k18jFpUyTrsR84",
+    "spotify_artist_images": "https://i.scdn.co/image/3b0cb8b3e27a14e50c6ff93f350ef2f8f2cef780"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1360",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1360"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1360"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ザ・ヴァーヴ ",
+  "spotifyArtistImages": "https://i.scdn.co/image/3b0cb8b3e27a14e50c6ff93f350ef2f8f2cef780",
+  "artistActiveYearStart": "1990-2009",
+  "occupation": "band"
+}

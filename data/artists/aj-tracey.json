@@ -1,0 +1,76 @@
+{
+  "id": 1680,
+  "count": 6,
+  "description": "AJ Tracey is a British rapper and singer.",
+  "link": "https://sub.music8.jp/category/aj-tracey/",
+  "name": "AJ Tracey",
+  "slug": "aj-tracey",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2009",
+    "artistborn": "19940304",
+    "artistdied": "",
+    "artistjpname": "AJトレーシー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4Xi6LSfFqv26XgP9NKN26U",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174906bc930e23be36850a0e928"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1680",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1680"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1680"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "AJトレーシー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174906bc930e23be36850a0e928",
+  "artistActiveYearStart": "2009",
+  "occupation": "singer, rapper"
+}

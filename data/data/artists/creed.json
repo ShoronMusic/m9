@@ -1,0 +1,72 @@
+{
+  "id": 5268,
+  "count": 2,
+  "description": "Creed is an American rock band.",
+  "link": "https://sub.music8.jp/category/creed/",
+  "name": "Creed",
+  "slug": "creed",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1994",
+    "artistborn": "",
+    "artistjpname": "クリード",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Puddle Of Mudd | Hinder | 3 Doors Down | Staind | Daughtry (daughtry) | Hoobastank | Saving Abel | Fuel (fuel) | Seether | Trapt | Theory of a Deadman (theory-of-a-deadman) | Crossfade | Saliva | Nickelback (nickelback) | Finger Eleven | P.O.D. (p-o-d) | Lifehouse | Godsmack (godsmack) | Shinedown (shinedown) | Matchbox Twenty (matchbox-twenty)",
+    "spotify_artist_id": "43sZBwHjahUvgbx1WNIkIz",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051740d86c8971cc4d6fa63d58bae"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5268",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5268"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5268"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "クリード",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051740d86c8971cc4d6fa63d58bae",
+  "artistActiveYearStart": "1994",
+  "occupation": "band"
+}

@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 1593,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/duncan-laurence/",
+    "name": "Duncan Laurence",
+    "slug": "duncan-laurence",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1593",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1593"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1593"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 42263,
+      "date": "2019-03-07T11:40:00",
+      "date_gmt": "2019-03-07T02:40:00",
+      "title": {
+        "rendered": "Arcade"
+      },
+      "content": {
+        "rendered": "\n<p>DuncanLaurence-Arcadeft.Fletcher</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1593,
+        1594
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "1Xi84slp6FryDSCbzq4UCD",
+        "spotify_release_date": "2019/3/7",
+        "spotify_name": "Arcade",
+        "spotify_artists": "Duncan Laurence",
+        "spotify_album": "Arcade",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a954408e456d4d9d410f448b",
+        "spotify_duration_ms": "183624",
+        "spotify_popularity": "80",
+        "spotify_danceability": "0.45",
+        "spotify_energy": "0.329",
+        "spotify_key": "9",
+        "spotify_loudness": "-12.603",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0441",
+        "spotify_tempo": "71.884",
+        "spotify_valence": "0.266",
+        "spotify_acousticness": "0.818",
+        "spotify_instrumentalness": "0.00109",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.135",
+        "spotify_artists01": "Duncan Laurence",
+        "spotify_artists01_id": "3klZnJvYGIbWritVwQD434",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb068e531ba386224fa50e5d37",
+        "spotify_artists01_genres": "dutch pop",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "51u5fnyrGj4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Duncan-Laurence-Arcade-ft.-Fletcher.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1593,
+            "name": "Duncan Laurence",
+            "slug": "duncan-laurence",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1594,
+            "name": "Fletcher",
+            "slug": "fletcher",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19940319",
+              "artistdied": "",
+              "artistjpname": "フレッチャー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "Lauren Sanderson (lauren-sanderson) | Zolita (zolita) | Hayley Kiyoko (hayley-kiyoko) | Xana | Reneé Rapp (renee-rapp) | King Princess | Carlie Hanson (carlie-hanson) | Olivia O'Brien (olivia-obrien) | Aces (aces) | Chelsea Cutler (chelsea-cutler) | MUNA | bülow (bulow) | Charlotte Lawrence (charlotte-lawrence) | Ally Hills | Lennon Stella (lennon-stella) | Bea Miller (bea-miller) | Beth McCarthy | shy martin (shy-martin) | VÉRITÉ | G Flip (g-flip)",
+              "spotify_artist_id": "5qa31A9HySw3T7MKWI9bGg",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c0c476d8fedef598522ee5ec"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Duncan Laurence",
+        "ytvideoid": "51u5fnyrGj4",
+        "spotify_track_id": "1Xi84slp6FryDSCbzq4UCD"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "arcade"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,183 @@
+{
+  "artist": {
+    "id": 2621,
+    "count": 1,
+    "description": "ARG",
+    "link": "https://sub.music8.jp/category/wos/",
+    "name": "Wos",
+    "slug": "wos",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2621",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2621"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2621"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39368,
+      "date": "2022-06-17T22:27:00",
+      "date_gmt": "2022-06-17T13:27:00",
+      "title": {
+        "rendered": "QUEREME"
+      },
+      "content": {
+        "rendered": "\n<p>LOUTA,WOS-QUEREME</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2620,
+        2621
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0bhWW1Bve1Ng6kEm8WjiQA",
+        "spotify_release_date": "2022/6/16",
+        "spotify_name": "QUEREME",
+        "spotify_artists": "LOUTA,WOS",
+        "spotify_album": "QUEREME",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739da1c1ab9d2f8eb48de56570",
+        "spotify_duration_ms": "194840",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.795",
+        "spotify_energy": "0.625",
+        "spotify_key": "7",
+        "spotify_loudness": "-6.966",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0751",
+        "spotify_tempo": "99.991",
+        "spotify_valence": "0.715",
+        "spotify_acousticness": "0.151",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.128",
+        "spotify_artists01": "LOUTA",
+        "spotify_artists01_id": "5l4GdLELvdnXZVT5g947i3",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb80d72d75245d1e6c2441b87b",
+        "spotify_artists01_genres": "argentinealternativerock,argentineindie,electronicaargentina,popargentino",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "WOS",
+        "spotify_artists02_id": "5YCc6xS5Gpj3EkaYGdjyNK",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb632866253c99e4531985aa1a",
+        "spotify_artists02_genres": "argentineindie,trapargentino",
+        "spotify_artists02_popularity": "70",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "mNu-QCrsEqE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/LOUTA-WOS-QUEREME.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2620,
+            "name": "Louta",
+            "slug": "louta",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2621,
+            "name": "Wos",
+            "slug": "wos",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LOUTA,WOS",
+        "ytvideoid": "mNu-QCrsEqE",
+        "spotify_track_id": "0bhWW1Bve1Ng6kEm8WjiQA"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "quereme"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,222 @@
+{
+  "artist": {
+    "id": 4182,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/origami-human/",
+    "name": "Origami Human",
+    "slug": "origami-human",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4182",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4182"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4182"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61859,
+      "date": "2023-12-01T20:40:02",
+      "date_gmt": "2023-12-01T11:40:02",
+      "title": {
+        "rendered": "Without U"
+      },
+      "content": {
+        "rendered": "<p>Shallou, Origami Human - Without U</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4182,
+        2501
+      ],
+      "tags": [],
+      "genre": [
+        452,
+        670
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "WZ4EEvlDBwA",
+        "ytreleasedate": "2023/12/01",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1mXnYKgiFUG59Ld6KGUrZD",
+        "spotify_release_date": "2023-10-27",
+        "spotify_name": "Without U",
+        "spotify_artists": "Shallou, Origami Human",
+        "spotify_album": "In Touch",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27375e22a7095b5b47318a4c0d4",
+        "spotify_duration_ms": "251306",
+        "spotify_popularity": "37",
+        "spotify_danceability": "0.624",
+        "spotify_energy": "0.782",
+        "spotify_key": "6",
+        "spotify_loudness": "-8.798",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0706",
+        "spotify_tempo": "125.158",
+        "spotify_valence": "0.142",
+        "spotify_acousticness": "0.487",
+        "spotify_instrumentalness": "0.00425",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "Shallou",
+        "spotify_artists01_id": "7C3Cbtr2PkH2l4tOGhtCsk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaa932418bde5bb2012cdeef8",
+        "spotify_artists01_genres": "electropop, indie electropop, vapor soul",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "Origami Human",
+        "spotify_artists02_id": "6vOoZCnNiawjGeViOSoY1t",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebffc12023af3084d5d1bdda46",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "26",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Shallou-Origami-Human-Without-U.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4182,
+            "name": "Origami Human",
+            "slug": "origami-human",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2501,
+            "name": "Shallou",
+            "slug": "shallou",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シャロウ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Shallou, Origami Human",
+        "ytvideoid": "WZ4EEvlDBwA",
+        "spotify_track_id": "1mXnYKgiFUG59Ld6KGUrZD"
+      },
+      "genre_data": [
+        {
+          "name": "Chillwave",
+          "slug": "chillwave",
+          "term_id": 452,
+          "post_count": 24
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "without-u"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

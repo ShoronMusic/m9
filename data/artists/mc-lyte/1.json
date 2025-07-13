@@ -1,0 +1,175 @@
+{
+  "artist": {
+    "id": 6700,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/mc-lyte/",
+    "name": "MC Lyte",
+    "slug": "mc-lyte",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6700",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6700"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6700"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65301,
+      "date": "2024-04-03T20:48:32",
+      "date_gmt": "2024-04-03T11:48:32",
+      "title": {
+        "rendered": "Woman"
+      },
+      "content": {
+        "rendered": "<p>MC Lyte, Salt, Big Daddy Kane, Raheem DeVaughn - Woman</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6700
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "ytvideoid": "0SOpCV3TxD8",
+        "ytreleasedate": "",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5x4uYgWlmMCkJtqpHdCw1j",
+        "spotify_release_date": "2024-09-20",
+        "spotify_name": "Woman",
+        "spotify_artists": "MC Lyte, Big Daddy Kane, Raheem DeVaughn, Cheryl \"Salt\" James",
+        "spotify_album": "1 of 1",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c8bb3308976128371369aaa0",
+        "spotify_duration_ms": "210138",
+        "spotify_popularity": "19",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "MC Lyte",
+        "spotify_artists01_id": "2ZbWlThDW0qSbI3hinpl0w",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1b0ee69b4642fd253787f8d8",
+        "spotify_artists01_genres": "east coast hip hop",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "Big Daddy Kane",
+        "spotify_artists02_id": "6futYSDVulYR2PktBjTB5W",
+        "spotify_artists02_images": "https://i.scdn.co/image/a00659b168ab52f7d60f257b39572f47e6ff9e8f",
+        "spotify_artists02_genres": "east coast hip hop, hardcore hip hop",
+        "spotify_artists02_popularity": "50",
+        "spotify_artists03": "Raheem DeVaughn",
+        "spotify_artists03_id": "59NO6KX7wQCG7jGdtH1NtL",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb27cb93ee66b22ddbd3f8120d",
+        "spotify_artists03_genres": "neo soul, smooth r&b, quiet storm",
+        "spotify_artists03_popularity": "47",
+        "spotify_artists04": "Cheryl \"Salt\" James",
+        "spotify_artists04_id": "1tQkd63N0FUVFaXq7eOZID",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5eb17ccd08505542c80ff679f3a",
+        "spotify_artists04_genres": "new jack swing",
+        "spotify_artists04_popularitys": "10",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "pvstyle": [
+          "pv"
+        ]
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/mc-lyte-salt-big-daddy-kane-raheem-devaughn-woman.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6700,
+            "name": "MC Lyte",
+            "slug": "mc-lyte",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "MC Lyte, Big Daddy Kane, Raheem DeVaughn, Cheryl \"Salt\" James",
+        "ytvideoid": "0SOpCV3TxD8",
+        "spotify_track_id": "5x4uYgWlmMCkJtqpHdCw1j"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "woman-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

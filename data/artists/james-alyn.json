@@ -1,0 +1,82 @@
+{
+  "id": 5165,
+  "count": 3,
+  "description": "James Alyn is a Bangkok-based singer-songwriter and musician.",
+  "link": "https://sub.music8.jp/category/james-alyn/",
+  "name": "James Alyn",
+  "slug": "james-alyn",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "THA",
+    "artistactiveyearstart": "2017",
+    "artistborn": "19970509",
+    "artistjpname": "ジェームス・アリン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "WIM (wim) | HYBS (hybs)",
+    "spotify_artist_id": "2kkcOVicqa6SBIZqBSUCy5",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174608b6e8b49890b5174d0de57",
+    "youtube_channel": "UCPR03_qm2ZjggfafTnjr6yA",
+    "wikipedia_page": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5165",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5165"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5165"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェームス・アリン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174608b6e8b49890b5174d0de57",
+  "artistActiveYearStart": "2017",
+  "occupation": "singer, songwriter, musician"
+}

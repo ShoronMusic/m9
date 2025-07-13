@@ -1,0 +1,342 @@
+{
+  "artist": {
+    "id": 2699,
+    "count": 2,
+    "description": "Christian Burns is an English singer, songwriter, and musician.",
+    "link": "https://sub.music8.jp/category/christian-burns/",
+    "name": "Christian Burns",
+    "slug": "christian-burns",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1994",
+      "artistborn": "19740118",
+      "artistdied": "",
+      "artistjpname": "クリスチャン・バーンズ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2699",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2699"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2699"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38970,
+      "date": "2022-08-12T23:04:00",
+      "date_gmt": "2022-08-12T14:04:00",
+      "title": {
+        "rendered": "But Not Tonight"
+      },
+      "content": {
+        "rendered": "\n<p>PaulvanDykft.ChristianBurns-ButNotTonight</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2699,
+        2142
+      ],
+      "tags": [],
+      "genre": [
+        747
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "eEF3-cGevyQ",
+        "likecount": "1",
+        "spotify_track_id": "4DtCy79x9OqJ4UebQrHUcL",
+        "spotify_release_date": "2022/7/15",
+        "spotify_name": "ButNotTonight",
+        "spotify_artists": "Paul van Dyk, Christian Burns",
+        "spotify_album": "ButNotTonight",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735def017bc9d7a6f2903fadc5",
+        "spotify_duration_ms": "172500",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.611",
+        "spotify_energy": "0.787",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.051",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0328",
+        "spotify_tempo": "127.975",
+        "spotify_valence": "0.173",
+        "spotify_acousticness": "0.174",
+        "spotify_instrumentalness": "0.378",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0747",
+        "spotify_artists01": "PaulvanDyk",
+        "spotify_artists01_id": "7wU1naftD3lNq7rNsiDvOR",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf35904b11572a8e8203064de",
+        "spotify_artists01_genres": "germantechno,trance,upliftingtrance",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "ChristianBurns",
+        "spotify_artists02_id": "1hu8RDN5gKsi2YYvWTOAqY",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebe8b306a51d0cc33b889f768b",
+        "spotify_artists02_genres": "deepupliftingtrance",
+        "spotify_artists02_popularity": "40",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Paul-van-Dyk-ft.-Christian-Burns-But-Not-Tonight.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2699,
+            "name": "Christian Burns",
+            "slug": "christian-burns",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1994",
+              "artistborn": "19740118",
+              "artistdied": "",
+              "artistjpname": "クリスチャン・バーンズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2142,
+            "name": "Paul van Dyk",
+            "slug": "paul-van-dyk",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1990",
+              "artistborn": "19711216",
+              "artistdied": "",
+              "artistjpname": "ポール・ヴァン・ダイク",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Paul van Dyk, Christian Burns",
+        "ytvideoid": "eEF3-cGevyQ",
+        "spotify_track_id": "4DtCy79x9OqJ4UebQrHUcL"
+      },
+      "genre_data": [
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "but-not-tonight"
+    },
+    {
+      "id": 40554,
+      "date": "2022-01-07T22:26:00",
+      "date_gmt": "2022-01-07T13:26:00",
+      "title": {
+        "rendered": "Almost Home"
+      },
+      "content": {
+        "rendered": "\n<p>RichardDurand&amp;ChristianBurns-AlmostHome</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2699,
+        2698
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        747
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "M9SeeidLKoo",
+        "likecount": "1",
+        "spotify_track_id": "5DwHlWAV1V8xgxvAEWPzNz",
+        "spotify_release_date": "2022/1/7",
+        "spotify_name": "AlmostHome",
+        "spotify_artists": "Richard Durand, Christian Burns",
+        "spotify_album": "AlmostHome",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e3ec52fee8d0768bcc83469c",
+        "spotify_duration_ms": "205808",
+        "spotify_popularity": "23",
+        "spotify_danceability": "0.435",
+        "spotify_energy": "0.764",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.732",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0433",
+        "spotify_tempo": "135.844",
+        "spotify_valence": "0.392",
+        "spotify_acousticness": "0.283",
+        "spotify_instrumentalness": "0.00659",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0916",
+        "spotify_artists01": "RichardDurand",
+        "spotify_artists01_id": "7wne8sUhTAJdIsnuO4GjnR",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb63a3da89a7abf4e9e09e9b85",
+        "spotify_artists01_genres": "dutchtrance,progressivehouse,trance,upliftingtrance",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "ChristianBurns",
+        "spotify_artists02_id": "1hu8RDN5gKsi2YYvWTOAqY",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebe8b306a51d0cc33b889f768b",
+        "spotify_artists02_genres": "deepupliftingtrance",
+        "spotify_artists02_popularity": "40",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Richard-Durand-Christian-Burns-Almost-Home.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2699,
+            "name": "Christian Burns",
+            "slug": "christian-burns",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1994",
+              "artistborn": "19740118",
+              "artistdied": "",
+              "artistjpname": "クリスチャン・バーンズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2698,
+            "name": "Richard Durand",
+            "slug": "richard-durand",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Richard Durand, Christian Burns",
+        "ytvideoid": "M9SeeidLKoo",
+        "spotify_track_id": "5DwHlWAV1V8xgxvAEWPzNz"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "almost-home"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

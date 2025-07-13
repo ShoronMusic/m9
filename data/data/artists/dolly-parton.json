@@ -1,0 +1,67 @@
+{
+  "id": 3004,
+  "count": 2,
+  "description": "Dolly Parton is an American singer-songwriter, musician, actress.",
+  "link": "https://sub.music8.jp/category/dolly-parton/",
+  "name": "Dolly Parton",
+  "slug": "dolly-parton",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1956",
+    "artistborn": "19460119",
+    "artistdied": "",
+    "artistjpname": "ドリー・パートン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [],
+    "related_artists": "Loretta Lynn | Tammy Wynette | Patsy Cline | Kenny Rogers | Reba McEntire | Judds | Tanya Tucker | Willie Nelson (willie-nelson) | Cher (cher) | Shania Twain (shania-twain) | Charley Pride | Chicks | John Denver | Crystal Gayle | Johnny Cash | Linda Ronstadt | Don Williams | Bette Midler (bette-midler) | Neil Diamond (neil-diamond) | Glen Campbell",
+    "spotify_artist_id": "32vWCbZh0xZ4o9gkz4PsEU",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d76d342fbed8385e7809ae1f"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3004",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3004"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3004"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ドリー・パートン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174d76d342fbed8385e7809ae1f",
+  "artistActiveYearStart": "1956",
+  "occupation": ""
+}

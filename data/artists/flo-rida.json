@@ -1,0 +1,80 @@
+{
+  "id": 4900,
+  "count": 3,
+  "description": "Flo Rida is an American rapper and singer.",
+  "link": "https://sub.music8.jp/category/flo-rida/",
+  "name": "Flo Rida",
+  "slug": "flo-rida",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2000",
+    "artistborn": "19790916",
+    "artistjpname": "フロー・ライダー",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ],
+    "related_artists": "Taio Cruz (taio-cruz) | LMFAO (lmfao) | will.i.am (will-i-am) | Pitbull (pitbull) | Timbaland (timbaland) | B.o.B (bob) | Jason Derulo (jason-derulo) | Far East Movement | Sean Kingston (sean-kingston) | Sean Paul (sean-paul) | Jay Sean | Black Eyed Peas (black-eyed-peas) | Carly Rae Jepsen (carly-rae-jepsen) | Gym Class Heroes | fun. (fun) | Lil Jon (lil-jon) | Iyaz | Train | David Guetta (david-guetta) | Fergie (fergie)",
+    "spotify_artist_id": "0jnsk9HBra6NMjO2oANoPY",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174655ca8f3196953554b479452"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4900",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4900"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4900"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "フロー・ライダー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174655ca8f3196953554b479452",
+  "artistActiveYearStart": "2000",
+  "occupation": "singer, songwriter, rapper"
+}

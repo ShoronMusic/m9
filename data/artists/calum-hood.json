@@ -1,0 +1,95 @@
+{
+  "id": 6684,
+  "count": 2,
+  "description": "Calum Hood is an Australian musician, known for being the bassist and a vocalist of the pop rock band 5 Seconds of Summer.",
+  "link": "https://sub.music8.jp/category/calum-hood/",
+  "name": "Calum Hood",
+  "slug": "calum-hood",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2011",
+    "artistborn": "19960125",
+    "artistjpname": "カラム・フッド",
+    "member": [
+      {
+        "term_id": 1699,
+        "name": "5 Seconds of Summer",
+        "slug": "5sos",
+        "term_group": 0,
+        "term_taxonomy_id": 1699,
+        "taxonomy": "category",
+        "description": "5 Seconds of Summer (5SOS) are an Australian pop rock band.",
+        "parent": 0,
+        "count": 32,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "663fZd6uEkPKLwBzPj50S3",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a08ae267df3951ef6b89e105",
+    "youtube_channel": "",
+    "wikipedia_page": "Calum_Hood"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6684",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6684"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6684"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "カラム・フッド",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a08ae267df3951ef6b89e105",
+  "artistActiveYearStart": "2011",
+  "occupation": "singer, songwriter, musician"
+}

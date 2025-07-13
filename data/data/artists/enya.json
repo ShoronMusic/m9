@@ -1,0 +1,80 @@
+{
+  "id": 5126,
+  "count": 1,
+  "description": "Enya is an Irish composer and singer-songwriter.",
+  "link": "https://sub.music8.jp/category/enya/",
+  "name": "Enya",
+  "slug": "enya",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "IRL",
+    "artistactiveyearstart": "1980",
+    "artistborn": "19610517",
+    "artistjpname": "エンヤ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "composer",
+        "label": "Composer"
+      }
+    ],
+    "related_artists": "Clannad | Loreena McKennitt | ERA | Enigma | Celtic Woman | Secret Garden | Vangelis | Adiemus | Gregorian | Sarah Brightman | Kitaro | Moya Brennan | Mike Oldfield | Yanni | Deep Forest (deep-forest) | Maire Brennan | Lisa Gerrard | Dido (dido) | Jean-Michel Jarre (jean-michel-jarre-2) | Cranberries (cranberries)",
+    "spotify_artist_id": "6uothxMWeLWIhsGeF7cyo4",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749ce996547e0b307c94f662e6"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5126",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5126"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5126"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エンヤ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051749ce996547e0b307c94f662e6",
+  "artistActiveYearStart": "1980",
+  "occupation": "singer, songwriter, composer"
+}

@@ -1,0 +1,76 @@
+{
+  "id": 5579,
+  "count": 1,
+  "description": "Shekhinah, is a South African singer-songwriter.",
+  "link": "https://sub.music8.jp/category/shekhinah/",
+  "name": "Shekhinah",
+  "slug": "shekhinah",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "RSA",
+    "artistactiveyearstart": "2011",
+    "artistborn": "19941002",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "Simmy | Sha Sha | Elaine | Msaki | Azana | Ami Faku | Amanda Black | Lady Zamar | Cici | Nadia Nakai | Langa Mavuso | Tellaman | Samthing Soweto | Soil | Berita | DJ Zinhle | ANATII | LaSauce | Liquideep | Sun-El Musician",
+    "spotify_artist_id": "1F42GOcKAImOu4yj1b04NB",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174583bf8df5359080132149f62"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5579",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5579"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5579"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174583bf8df5359080132149f62",
+  "artistActiveYearStart": "2011",
+  "occupation": "singer, songwriter"
+}

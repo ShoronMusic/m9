@@ -1,0 +1,86 @@
+{
+  "id": 2178,
+  "count": 12,
+  "description": "thuy is a Vietnamese American singer and songwriter.",
+  "link": "https://sub.music8.jp/category/thuy/",
+  "name": "thuy",
+  "slug": "thuy",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2015",
+    "artistborn": "19911029",
+    "artistdied": "",
+    "artistjpname": "トゥイ",
+    "member": [
+      {
+        "term_id": 960,
+        "name": "Swing Out Sister",
+        "slug": "swing-out-sister",
+        "term_group": 0,
+        "term_taxonomy_id": 960,
+        "taxonomy": "category",
+        "description": "Swing Out Sister are a British pop group.",
+        "parent": 0,
+        "count": 9,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2178",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2178"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2178"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "トゥイ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2015",
+  "occupation": "singer, songwriter"
+}

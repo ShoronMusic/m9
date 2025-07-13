@@ -1,0 +1,450 @@
+{
+  "artist": {
+    "id": 3217,
+    "count": 2,
+    "description": "Statik Selektah is an American record producer, disc jockey (DJ).",
+    "link": "https://sub.music8.jp/category/statik-selektah/",
+    "name": "Statik Selektah",
+    "slug": "statik-selektah",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1995",
+      "artistborn": "19820123",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3217",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3217"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3217"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52235,
+      "date": "2023-04-01T20:49:33",
+      "date_gmt": "2023-04-01T11:49:33",
+      "title": {
+        "rendered": "MAYBE SO"
+      },
+      "content": {
+        "rendered": "<p>KOTA the Friend - MAYBE SO</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3216,
+        3217
+      ],
+      "tags": [],
+      "genre": [
+        564,
+        588
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "02FV3V3gPgANwKYUcT1eid",
+        "spotify_release_date": "2023-03-24",
+        "spotify_name": "Maybe So",
+        "spotify_artists": "Kota the Friend, Statik Selektah",
+        "spotify_album": "To See A Sunset",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27362b608dcb1f84896b52b8614",
+        "spotify_duration_ms": "245106",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.643",
+        "spotify_energy": "0.754",
+        "spotify_key": "7",
+        "spotify_loudness": "-6.667",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0605",
+        "spotify_tempo": "93.999",
+        "spotify_valence": "0.691",
+        "spotify_acousticness": "0.219",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.126",
+        "spotify_artists01": "Kota the Friend",
+        "spotify_artists01_id": "2AfU5LYBVCiCtuCCfM7uVX",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb82b614f20931c9ace54da09f",
+        "spotify_artists01_genres": "underground hip hop",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "Statik Selektah",
+        "spotify_artists02_id": "5v0XTlB9FqNvfBfnw8n5b0",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb6d3204aae2df315fb46c2e3c",
+        "spotify_artists02_genres": "alternative hip hop, boston hip hop",
+        "spotify_artists02_popularity": "54",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "_VCydcJ76uk",
+        "ytreleasedate": "2023/04/01"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/KOTA-the-Friend-MAYBE-SO.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3216,
+            "name": "KOTA the Friend",
+            "slug": "kota-the-friend",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19921016",
+              "artistjpname": "コタ・ザ・フレンド",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3217,
+            "name": "Statik Selektah",
+            "slug": "statik-selektah",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1995",
+              "artistborn": "19820123",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kota the Friend, Statik Selektah",
+        "ytvideoid": "_VCydcJ76uk",
+        "spotify_track_id": "02FV3V3gPgANwKYUcT1eid"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "Jazz rap",
+          "slug": "jazz-rap",
+          "term_id": 588,
+          "post_count": 45
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "maybe-so"
+    },
+    {
+      "id": 59556,
+      "date": "2023-02-24T12:11:39",
+      "date_gmt": "2023-02-24T03:11:39",
+      "title": {
+        "rendered": "Self Medication"
+      },
+      "content": {
+        "rendered": "<p>Logic, Seth MacFarlane, Redman & Statik Selektah - Self Medication</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3345,
+        3994,
+        3993,
+        3217
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5tIUJI1rofqeaaZ5x43tp4",
+        "spotify_release_date": "2023-02-24",
+        "spotify_name": "Self Medication (feat. Seth MacFarlane, Redman, & Statik Selektah)",
+        "spotify_artists": "Logic, Seth MacFarlane, Redman, Statik Selektah",
+        "spotify_album": "College Park",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739c48f9e97a7bd97d1dd54e01",
+        "spotify_duration_ms": "315102",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.51",
+        "spotify_energy": "0.879",
+        "spotify_key": "5",
+        "spotify_loudness": "-3.533",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.428",
+        "spotify_tempo": "92.218",
+        "spotify_valence": "0.652",
+        "spotify_acousticness": "0.632",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.125",
+        "spotify_artists01": "Logic",
+        "spotify_artists01_id": "4xRYI6VqpkE3UwrDrAZL8L",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6581cd61841a546e8ba1dc1f",
+        "spotify_artists01_genres": "conscious hip hop, hip hop, pop rap, rap",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "セス・マクファーレン",
+        "spotify_artists02_id": "79D4dipwR6scV8AN3dm7gW",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb28c2dea644b78257ccfb4520",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "59",
+        "spotify_artists03": "Redman",
+        "spotify_artists03_id": "7xTKLpo7UCzXSnlH7fOIoM",
+        "spotify_artists03_images": "https://i.scdn.co/image/0b05a9d1bfb856e3c55ae64cf004dfad6d338be2",
+        "spotify_artists03_genres": "east coast hip hop, hardcore hip hop, new jersey rap, wu fam",
+        "spotify_artists03_popularity": "62",
+        "spotify_artists04": "DJ Statik Selektah",
+        "spotify_artists04_id": "1IEGzaZzVTKJ7l0EON6Oax",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "44",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Vd4cF5Rv8Lw",
+        "ytreleasedate": "2023/02/24"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Logic-Self-Medication-feat.-Seth-MacFarlane-Redman-Statik-Selektah.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3345,
+            "name": "Logic",
+            "slug": "logic",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2005",
+              "artistborn": "19900122",
+              "artistjpname": "ロジック",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "4xRYI6VqpkE3UwrDrAZL8L",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174646477c13fe9ffb656d3607d",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "UCoDcFZ5KZ0KwBC_omalJuiA",
+              "wikipedia_page": "Logic_(rapper)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3994,
+            "name": "Redman",
+            "slug": "redman",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1990",
+              "artistborn": "19700417",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3993,
+            "name": "Seth MacFarlane",
+            "slug": "seth-macfarlane",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1995",
+              "artistborn": "19731026",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3217,
+            "name": "Statik Selektah",
+            "slug": "statik-selektah",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1995",
+              "artistborn": "19820123",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Logic, Seth MacFarlane, Redman, Statik Selektah",
+        "ytvideoid": "Vd4cF5Rv8Lw",
+        "spotify_track_id": "5tIUJI1rofqeaaZ5x43tp4"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "self-medication"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

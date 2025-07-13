@@ -1,0 +1,201 @@
+{
+  "artist": {
+    "id": 4133,
+    "count": 1,
+    "description": "Tenside ",
+    "link": "https://sub.music8.jp/category/tenside/",
+    "name": "GERTenside",
+    "slug": "tenside",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "2004",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4133",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4133"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4133"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 60993,
+      "date": "2024-01-19T21:01:54",
+      "date_gmt": "2024-01-19T12:01:54",
+      "title": {
+        "rendered": "PRETTY LONESOME"
+      },
+      "content": {
+        "rendered": "<p>Tenside - PRETTY LONESOME</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4133
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        618
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "39P2eXsl0vno8lqcTU0emr",
+        "spotify_release_date": "2024-01-19",
+        "spotify_name": "Pretty Lonesome",
+        "spotify_artists": "テンサイド",
+        "spotify_album": "Come Alive Dying",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738b690f592dadca3eca26b4be",
+        "spotify_duration_ms": "225542",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.457",
+        "spotify_energy": "0.942",
+        "spotify_key": "7",
+        "spotify_loudness": "-3.667",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.156",
+        "spotify_tempo": "83.028",
+        "spotify_valence": "0.491",
+        "spotify_acousticness": "0.000132",
+        "spotify_instrumentalness": "0.0000352",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.286",
+        "spotify_artists01": "テンサイド",
+        "spotify_artists01_id": "23d3dPHmTdEax2Ok6vTkke",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbe96e768b1973327ca6eabc0",
+        "spotify_artists01_genres": "german metalcore, thrash-groove metal",
+        "spotify_artists01_popularity": "33",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "CKmEJCnP7sc",
+        "ytreleasedate": "2024/01/19"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tenside-PRETTY-LONESOME.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4133,
+            "name": "GERTenside",
+            "slug": "tenside",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "テンサイド",
+        "ytvideoid": "CKmEJCnP7sc",
+        "spotify_track_id": "39P2eXsl0vno8lqcTU0emr"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Metalcore",
+          "slug": "metalcore",
+          "term_id": 618,
+          "post_count": 59
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "pretty-lonesome"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

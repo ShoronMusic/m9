@@ -1,0 +1,217 @@
+{
+  "artist": {
+    "id": 3953,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/yellow-house/",
+    "name": "Yellow House",
+    "slug": "yellow-house",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "RSA",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3953",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3953"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3953"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 59276,
+      "date": "2023-06-28T15:11:06",
+      "date_gmt": "2023-06-28T06:11:06",
+      "title": {
+        "rendered": "Heavier"
+      },
+      "content": {
+        "rendered": "<p>ODESZA, Yellow House - Heavier</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2115,
+        3953
+      ],
+      "tags": [],
+      "genre": [
+        452,
+        501
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5KPYMz7DUZc6ZdcxNgfL18",
+        "spotify_release_date": "2023-06-27",
+        "spotify_name": "Heavier",
+        "spotify_artists": "ODESZA, Yellow House",
+        "spotify_album": "Heavier",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738698d68e525fec9c6143d6ed",
+        "spotify_duration_ms": "257799",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.452",
+        "spotify_energy": "0.883",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.142",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0396",
+        "spotify_tempo": "169.932",
+        "spotify_valence": "0.396",
+        "spotify_acousticness": "0.000227",
+        "spotify_instrumentalness": "0.0176",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0657",
+        "spotify_artists01": "ODESZA",
+        "spotify_artists01_id": "21mKp7DqtSNHhCAU2ugvUw",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9f4a0cbfcc9b274344681ccb",
+        "spotify_artists01_genres": "chillwave, edm, indietronica",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "Yellow House",
+        "spotify_artists02_id": "2jAzx88tHo3KNYauXANisl",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb52ab6f1526ea532c237e290d",
+        "spotify_artists02_genres": "south african alternative",
+        "spotify_artists02_popularity": "49",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "nqLRlyKPogk",
+        "ytreleasedate": "2023/06/28"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ODESZA-Yellow-House-Heavier.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2115,
+            "name": "ODESZA",
+            "slug": "odesza",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オデッサ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3953,
+            "name": "Yellow House",
+            "slug": "yellow-house",
+            "acf": {
+              "artistorigin": "RSA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ODESZA, Yellow House",
+        "ytvideoid": "nqLRlyKPogk",
+        "spotify_track_id": "5KPYMz7DUZc6ZdcxNgfL18"
+      },
+      "genre_data": [
+        {
+          "name": "Chillwave",
+          "slug": "chillwave",
+          "term_id": 452,
+          "post_count": 24
+        },
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "heavier"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

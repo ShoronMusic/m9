@@ -1,0 +1,87 @@
+{
+  "id": 6671,
+  "count": 2,
+  "description": "Michael Clifford is an Australian musician, best known as the lead guitarist of the pop rock band 5 Seconds of Summer.",
+  "link": "https://sub.music8.jp/category/michael-clifford/",
+  "name": "Michael Clifford",
+  "slug": "michael-clifford",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2011",
+    "artistborn": "19951120",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 1699,
+        "name": "5 Seconds of Summer",
+        "slug": "5sos",
+        "term_group": 0,
+        "term_taxonomy_id": 1699,
+        "taxonomy": "category",
+        "description": "5 Seconds of Summer (5SOS) are an Australian pop rock band.",
+        "parent": 0,
+        "count": 32,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5xnIHjofV8JpeKaWfFMcj0",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a9283a1a3899170bd81c64f3",
+    "youtube_channel": "",
+    "wikipedia_page": "Michael_Clifford_(musician)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6671",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6671"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6671"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a9283a1a3899170bd81c64f3",
+  "artistActiveYearStart": "2011",
+  "occupation": "musician"
+}

@@ -1,0 +1,82 @@
+{
+  "id": 1698,
+  "count": 13,
+  "description": "Offset, is an American rapper. part of the hip hop group Migos.",
+  "link": "https://sub.music8.jp/category/offset/",
+  "name": "Offset",
+  "slug": "offset",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2002",
+    "artistborn": "19911214",
+    "artistdied": "",
+    "artistjpname": "オフセット",
+    "member": [
+      {
+        "term_id": 1706,
+        "name": "Migos",
+        "slug": "migos",
+        "term_group": 0,
+        "term_taxonomy_id": 1706,
+        "taxonomy": "category",
+        "description": "Migos were an American hip hop group.",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1698",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1698"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1698"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "オフセット",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2002",
+  "occupation": "rapper"
+}

@@ -1,0 +1,72 @@
+{
+  "id": 3077,
+  "count": 7,
+  "description": "Zach Bryan is an American singer-songwriter.",
+  "link": "https://sub.music8.jp/category/zach-bryan/",
+  "name": "Zach Bryan",
+  "slug": "zach-bryan",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2017",
+    "artistborn": "19960402",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "40ZNYROS4zLfyyBSs2PGe2",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051744fd54df35bfcfa0fc9fc2da7"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3077",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3077"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3077"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051744fd54df35bfcfa0fc9fc2da7",
+  "artistActiveYearStart": "2017",
+  "occupation": "ssw"
+}

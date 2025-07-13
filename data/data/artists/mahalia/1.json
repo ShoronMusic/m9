@@ -1,0 +1,652 @@
+{
+  "artist": {
+    "id": 2169,
+    "count": 4,
+    "description": "Mahalia is a British singer, songwriter and actress.",
+    "link": "https://sub.music8.jp/category/mahalia/",
+    "name": "Mahalia",
+    "slug": "mahalia",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2015",
+      "artistborn": "19980501",
+      "artistdied": "",
+      "artistjpname": "マへリア",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ],
+      "related_artists": "",
+      "spotify_artist_id": "16rCzZOMQX7P8Kmn5YKexI",
+      "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517462bcfbe26f00f2f645309cd3",
+      "youtube_channel": "UCOFDSTbv-hHT32ytVappaYg",
+      "wikipedia_page": "Mahalia_(singer)"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2169",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2169"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2169"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 90248,
+      "date": "2025-01-31T13:23:23",
+      "date_gmt": "2025-01-31T04:23:23",
+      "title": {
+        "rendered": "Pressure Points"
+      },
+      "content": {
+        "rendered": "<p>Mahalia, Lila Iké - Pressure Points</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4596,
+        2169
+      ],
+      "tags": [],
+      "genre": [
+        685,
+        690
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "1dOe7zvfqew",
+        "ytreleasedate": "2025/01/31",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6NqVCvwed3MKWNOtGNi02Z",
+        "spotify_release_date": "2025-01-30",
+        "spotify_name": "Pressure Points (feat. Lila Iké)",
+        "spotify_artists": "Mahalia, Lila Iké",
+        "spotify_album": "Pressure Points (feat. Lila Iké)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738acd8e7e51ab4937868f8047",
+        "spotify_duration_ms": "170962",
+        "spotify_popularity": "0",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Mahalia",
+        "spotify_artists01_id": "16rCzZOMQX7P8Kmn5YKexI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3454fd5588a7cf9f5252c6fc",
+        "spotify_artists01_genres": "オルタナティブr&b",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "Lila Iké",
+        "spotify_artists02_id": "3cp5AXmGxhU3tgNO6TgD4H",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6742d3000053b7862a482758e7d1a0202fe8e0",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "2",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/mahalia-lila-ike-pressure-points.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4596,
+            "name": "Lila Iké",
+            "slug": "lila-ike",
+            "acf": {
+              "artistorigin": "JAM",
+              "artistactiveyearstart": "",
+              "artistborn": "19940123",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2169,
+            "name": "Mahalia",
+            "slug": "mahalia",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19980501",
+              "artistdied": "",
+              "artistjpname": "マへリア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "16rCzZOMQX7P8Kmn5YKexI",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517462bcfbe26f00f2f645309cd3",
+              "youtube_channel": "UCOFDSTbv-hHT32ytVappaYg",
+              "wikipedia_page": "Mahalia_(singer)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Mahalia, Lila Iké",
+        "ytvideoid": "1dOe7zvfqew",
+        "spotify_track_id": "6NqVCvwed3MKWNOtGNi02Z"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Reggae",
+          "slug": "reggae",
+          "term_id": 690,
+          "post_count": 83
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "pressure-points"
+    },
+    {
+      "id": 76711,
+      "date": "2024-07-27T09:23:09",
+      "date_gmt": "2024-07-27T00:23:09",
+      "title": {
+        "rendered": "Life Size"
+      },
+      "content": {
+        "rendered": "<p>Mahalia - Life Size</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2169
+      ],
+      "tags": [],
+      "genre": [
+        402,
+        405
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "HPD6eFwAet4",
+        "ytreleasedate": "2024/07/27",
+        "spotify_track_id": "2MktD7t0SE7FOeVWSdoEGX",
+        "spotify_release_date": "2024-07-26",
+        "spotify_name": "Life Size",
+        "spotify_artists": "Mahalia, Take A Daytrip",
+        "spotify_album": "Life Size",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735a1bb367ed1171fc25b6e570",
+        "spotify_duration_ms": "151306",
+        "spotify_popularity": "18",
+        "spotify_danceability": "0.781",
+        "spotify_energy": "0.902",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.771",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.104",
+        "spotify_tempo": "131.038",
+        "spotify_valence": "0.614",
+        "spotify_acousticness": "0.0986",
+        "spotify_instrumentalness": "0.02",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.243",
+        "spotify_artists01": "Mahalia",
+        "spotify_artists01_id": "6mU3WkvcWgHoNG5OlLdsOz",
+        "spotify_artists01_images": "",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "0",
+        "spotify_artists02": "Take A Daytrip",
+        "spotify_artists02_id": "4djKrdEueYr8atAhknG6vt",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "0",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2735a1bb367ed1171fc25b6e570.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2169,
+            "name": "Mahalia",
+            "slug": "mahalia",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19980501",
+              "artistdied": "",
+              "artistjpname": "マへリア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "16rCzZOMQX7P8Kmn5YKexI",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517462bcfbe26f00f2f645309cd3",
+              "youtube_channel": "UCOFDSTbv-hHT32ytVappaYg",
+              "wikipedia_page": "Mahalia_(singer)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Mahalia, Take A Daytrip",
+        "ytvideoid": "HPD6eFwAet4",
+        "spotify_track_id": "2MktD7t0SE7FOeVWSdoEGX"
+      },
+      "genre_data": [
+        {
+          "name": "Afrobeats",
+          "slug": "afrobeats",
+          "term_id": 402,
+          "post_count": 135
+        },
+        {
+          "name": "Alternative R&amp;B",
+          "slug": "alternative-rb",
+          "term_id": 405,
+          "post_count": 348
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "life-size"
+    },
+    {
+      "id": 38344,
+      "date": "2022-11-11T21:29:00",
+      "date_gmt": "2022-11-11T12:29:00",
+      "title": {
+        "rendered": "Bag Of You"
+      },
+      "content": {
+        "rendered": "\n<p>Mahalia-BagOfYou</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2169
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3X7aFBB2ja4QT2XEuxKCIA",
+        "spotify_release_date": "2022/11/11",
+        "spotify_name": "BagOfYou",
+        "spotify_artists": "Mahalia",
+        "spotify_album": "BagOfYou",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27327abd95e4674a7bffdee281a",
+        "spotify_duration_ms": "197427",
+        "spotify_popularity": "53",
+        "spotify_danceability": "0.345",
+        "spotify_energy": "0.418",
+        "spotify_key": "7",
+        "spotify_loudness": "-9.453",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0408",
+        "spotify_tempo": "75.592",
+        "spotify_valence": "0.162",
+        "spotify_acousticness": "0.736",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.259",
+        "spotify_artists01": "Mahalia",
+        "spotify_artists01_id": "16rCzZOMQX7P8Kmn5YKexI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb904166badd695a7ef3c0caee",
+        "spotify_artists01_genres": "alternativer&b,indieanthem-folk,ukcontemporaryr&b",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "IjKk0NOGBWY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mahalia-Bag-Of-You.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2169,
+            "name": "Mahalia",
+            "slug": "mahalia",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19980501",
+              "artistdied": "",
+              "artistjpname": "マへリア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "16rCzZOMQX7P8Kmn5YKexI",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517462bcfbe26f00f2f645309cd3",
+              "youtube_channel": "UCOFDSTbv-hHT32ytVappaYg",
+              "wikipedia_page": "Mahalia_(singer)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Mahalia",
+        "ytvideoid": "IjKk0NOGBWY",
+        "spotify_track_id": "3X7aFBB2ja4QT2XEuxKCIA"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "bag-of-you"
+    },
+    {
+      "id": 40233,
+      "date": "2022-02-18T23:59:00",
+      "date_gmt": "2022-02-18T14:59:00",
+      "title": {
+        "rendered": "Letter To Ur Ex"
+      },
+      "content": {
+        "rendered": "\n<p>Mahalia-LetterToUrEx</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2169
+      ],
+      "tags": [],
+      "genre": [
+        628,
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2GoXtcbzgBUrvYv6ac7zA9",
+        "spotify_release_date": "2022/2/17",
+        "spotify_name": "LetterToUrEx",
+        "spotify_artists": "Mahalia",
+        "spotify_album": "LetterToUrEx",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732bef51a55ca96ee50c82abed",
+        "spotify_duration_ms": "134626",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.69",
+        "spotify_energy": "0.494",
+        "spotify_key": "6",
+        "spotify_loudness": "-7.41",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0378",
+        "spotify_tempo": "79.955",
+        "spotify_valence": "0.283",
+        "spotify_acousticness": "0.572",
+        "spotify_instrumentalness": "0.00068",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.129",
+        "spotify_artists01": "Mahalia",
+        "spotify_artists01_id": "16rCzZOMQX7P8Kmn5YKexI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb904166badd695a7ef3c0caee",
+        "spotify_artists01_genres": "alternativer&b,indieanthem-folk,ukcontemporaryr&b",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ZErsP0zAGWQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mahalia-Letter-To-Ur-Ex.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2169,
+            "name": "Mahalia",
+            "slug": "mahalia",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19980501",
+              "artistdied": "",
+              "artistjpname": "マへリア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "16rCzZOMQX7P8Kmn5YKexI",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517462bcfbe26f00f2f645309cd3",
+              "youtube_channel": "UCOFDSTbv-hHT32ytVappaYg",
+              "wikipedia_page": "Mahalia_(singer)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Mahalia",
+        "ytvideoid": "ZErsP0zAGWQ",
+        "spotify_track_id": "2GoXtcbzgBUrvYv6ac7zA9"
+      },
+      "genre_data": [
+        {
+          "name": "Neo soul",
+          "slug": "neo-soul",
+          "term_id": 628,
+          "post_count": 176
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "letter-to-ur-ex"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

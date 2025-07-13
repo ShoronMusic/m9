@@ -1,0 +1,82 @@
+{
+  "id": 4370,
+  "count": 15,
+  "description": "Portishead are an English band.",
+  "link": "https://sub.music8.jp/category/portishead/",
+  "name": "Portishead",
+  "slug": "portishead",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1991",
+    "artistborn": "",
+    "artistjpname": "ポーティスヘッド",
+    "member": [
+      {
+        "term_id": 4154,
+        "name": "Beth Gibbons",
+        "slug": "beth-gibbons",
+        "term_group": 0,
+        "term_taxonomy_id": 4154,
+        "taxonomy": "category",
+        "description": "Beth Gibbons is an English singer-songwriter.",
+        "parent": 0,
+        "count": 7,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4370",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4370"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4370"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ポーティスヘッド",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1991",
+  "occupation": "band"
+}

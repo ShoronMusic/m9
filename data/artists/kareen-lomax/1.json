@@ -1,0 +1,217 @@
+{
+  "artist": {
+    "id": 2117,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/kareen-lomax/",
+    "name": "Kareen Lomax",
+    "slug": "kareen-lomax",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2117",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2117"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2117"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40134,
+      "date": "2022-03-04T21:35:00",
+      "date_gmt": "2022-03-04T12:35:00",
+      "title": {
+        "rendered": "Let You Go"
+      },
+      "content": {
+        "rendered": "\n<p>Diplo&amp;TSHA-LetYouGo(feat.KareenLomax)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1709,
+        2117,
+        2116
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        670
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0nMwQVS9TDSMdg9cI0HCzA",
+        "spotify_release_date": "2022/7/22",
+        "spotify_name": "LetYouGo-SebastianIngrosso&DesembraRemix",
+        "spotify_artists": "Diplo,TSHA,SebastianIngrosso,KareenLomax,Desembra",
+        "spotify_album": "LetYouGo(SebastianIngrosso&DesembraRemix)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cd8fcee128d75bfd1b6d3cd4",
+        "spotify_duration_ms": "233462",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.791",
+        "spotify_energy": "0.885",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.616",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0948",
+        "spotify_tempo": "128.031",
+        "spotify_valence": "0.333",
+        "spotify_acousticness": "0.0446",
+        "spotify_instrumentalness": "0.0129",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0626",
+        "spotify_artists01": "Diplo",
+        "spotify_artists01_id": "5fMUXHkw8R8eOP2RNVYEZX",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdf01727aa674ddefa777797a",
+        "spotify_artists01_genres": "edm,electrohouse,moombahton,popdance",
+        "spotify_artists01_popularity": "78",
+        "spotify_artists02": "TSHA",
+        "spotify_artists02_id": "2kLa7JZu4Ijdz1Gle2khZh",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb544d5637c451668bb2fff9d4",
+        "spotify_artists02_genres": "ukhouse",
+        "spotify_artists02_popularity": "54",
+        "spotify_artists03": "SebastianIngrosso",
+        "spotify_artists03_id": "6hyMWrxGBsOx6sWcVj1DqP",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb0ddf983126c8dadd64163664",
+        "spotify_artists03_genres": "dutchhouse,edm,electrohouse,popdance,progressiveelectrohouse,progressivehouse",
+        "spotify_artists03_popularity": "61",
+        "spotify_artists04": "KareenLomax",
+        "spotify_artists04_id": "0Fb9qTWnjsB90xH3zWr4oa",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5eb7684672295e670e65857b8bb",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "7hWvfVGr0m1jUO2ded6LJJ",
+        "spotify_artists05_images": "https://i.scdn.co/image/ab6761610000e5ebfa452ed2cfe6816044537c9c",
+        "spotify_artists05_genres": "gamingdubstep",
+        "spotify_artists05_popularity": "29",
+        "ytvideoid": "YnJV6dmonLo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Diplo-TSHA-Let-You-Go-feat.-Kareen-Lomax.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1709,
+            "name": "Diplo",
+            "slug": "diplo",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1997",
+              "artistborn": "19781110",
+              "artistdied": "",
+              "artistjpname": "ディプロ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Jack Ü | Dillon Francis (dillon-francis) | Major Lazer (major-lazer) | Good Times Ahead | Flosstradamus | Yellow Claw (yellow-claw) | Steve Aoki (steve-aoki) | Don Diablo (don-diablo) | DVBBS (dvbbs) | Galantis (galantis) | Deorro | Afrojack (afrojack) | Alesso (alesso) | RL Grime | R3HAB (r3hab) | Jauz | NGHTMRE (nghtmre) | Kaskade (kaskade) | Nicky Romero (nicky-romero) | Zedd (zedd)",
+              "spotify_artist_id": "5fMUXHkw8R8eOP2RNVYEZX",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174df01727aa674ddefa777797a"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2117,
+            "name": "Kareen Lomax",
+            "slug": "kareen-lomax",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2116,
+            "name": "TSHA",
+            "slug": "tsha",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Diplo,TSHA,SebastianIngrosso,KareenLomax,Desembra",
+        "ytvideoid": "YnJV6dmonLo",
+        "spotify_track_id": "0nMwQVS9TDSMdg9cI0HCzA"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "let-you-go-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

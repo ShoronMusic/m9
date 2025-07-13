@@ -1,0 +1,566 @@
+{
+  "artist": {
+    "id": 2257,
+    "count": 4,
+    "description": "Korpiklaani is a Finnish folk metal band.",
+    "link": "https://sub.music8.jp/category/korpiklaani/",
+    "name": "Korpiklaani",
+    "slug": "korpiklaani",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FIN",
+      "artistactiveyearstart": "1993",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "コルピクラーニ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2257",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2257"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2257"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 91006,
+      "date": "2025-02-15T13:25:05",
+      "date_gmt": "2025-02-15T04:25:05",
+      "title": {
+        "rendered": "Kalmisto"
+      },
+      "content": {
+        "rendered": "<p>KORPIKLAANI - Kalmisto</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2257
+      ],
+      "tags": [],
+      "genre": [
+        517
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "S_LvU0lTYCM",
+        "ytreleasedate": "",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2PJh014qCtSSc4ikKwVzMX",
+        "spotify_release_date": "2024-04-05",
+        "spotify_name": "Kalmisto",
+        "spotify_artists": "Korpiklaani",
+        "spotify_album": "Rankarumpu",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735dfec38a56c00ab9c3980210",
+        "spotify_duration_ms": "262638",
+        "spotify_popularity": "20",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Korpiklaani",
+        "spotify_artists01_id": "521Yl3LUvD7G9dMRO4fpCy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebda501752b6e2f5c6ed2e98eb",
+        "spotify_artists01_genres": "フォークメタル, パイレーツ・メタル, パワーメタル, メタル, フォーク, 中世メタル, メロディック・メタル",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/korpiklaani-kalmisto.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2257,
+            "name": "Korpiklaani",
+            "slug": "korpiklaani",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "1993",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "コルピクラーニ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Korpiklaani",
+        "ytvideoid": "S_LvU0lTYCM",
+        "spotify_track_id": "2PJh014qCtSSc4ikKwVzMX"
+      },
+      "genre_data": [
+        {
+          "name": "Folk metal",
+          "slug": "folk-metal",
+          "term_id": 517,
+          "post_count": 44
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "kalmisto"
+    },
+    {
+      "id": 62817,
+      "date": "2024-02-15T10:17:06",
+      "date_gmt": "2024-02-15T01:17:06",
+      "title": {
+        "rendered": "Aita"
+      },
+      "content": {
+        "rendered": "<p>KORPIKLAANI - Aita</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2257
+      ],
+      "tags": [],
+      "genre": [
+        517
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "YALBFRma2cw",
+        "ytreleasedate": "2024/02/16",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0TfZAE7oV7Zv56crYu5m0K",
+        "spotify_release_date": "2024-02-15",
+        "spotify_name": "Aita",
+        "spotify_artists": "Korpiklaani",
+        "spotify_album": "Aita",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273eeb77fafb27afdf785fdbb59",
+        "spotify_duration_ms": "227204",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.533",
+        "spotify_energy": "0.948",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.302",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0378",
+        "spotify_tempo": "144.935",
+        "spotify_valence": "0.935",
+        "spotify_acousticness": "0.0000552",
+        "spotify_instrumentalness": "0.000569",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.271",
+        "spotify_artists01": "Korpiklaani",
+        "spotify_artists01_id": "521Yl3LUvD7G9dMRO4fpCy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebda501752b6e2f5c6ed2e98eb",
+        "spotify_artists01_genres": "finnish metal, folk metal, nordic folk metal, power metal, symphonic metal, viking metal",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/KORPIKLAANI-Aita.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2257,
+            "name": "Korpiklaani",
+            "slug": "korpiklaani",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "1993",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "コルピクラーニ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Korpiklaani",
+        "ytvideoid": "YALBFRma2cw",
+        "spotify_track_id": "0TfZAE7oV7Zv56crYu5m0K"
+      },
+      "genre_data": [
+        {
+          "name": "Folk metal",
+          "slug": "folk-metal",
+          "term_id": 517,
+          "post_count": 44
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "aita"
+    },
+    {
+      "id": 55605,
+      "date": "2023-11-09T19:47:39",
+      "date_gmt": "2023-11-09T10:47:39",
+      "title": {
+        "rendered": "Gotta Go Home"
+      },
+      "content": {
+        "rendered": "<p>KORPIKLAANI - Gotta Go Home</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2257
+      ],
+      "tags": [],
+      "genre": [
+        517
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5HlNlLazAmZgYzPv0zEUM2",
+        "spotify_release_date": "2023-11-08",
+        "spotify_name": "Gotta Go Home",
+        "spotify_artists": "Korpiklaani",
+        "spotify_album": "Gotta Go Home",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273246590114d9ebeadcdfb9acc",
+        "spotify_duration_ms": "194346",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.53",
+        "spotify_energy": "0.954",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.413",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0442",
+        "spotify_tempo": "140.042",
+        "spotify_valence": "0.773",
+        "spotify_acousticness": "0.00000561",
+        "spotify_instrumentalness": "0.00189",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.115",
+        "spotify_artists01": "Korpiklaani",
+        "spotify_artists01_id": "521Yl3LUvD7G9dMRO4fpCy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3a116aa0a33cab8b1884c16e",
+        "spotify_artists01_genres": "finnish metal, folk metal, nordic folk metal, power metal, symphonic metal, viking metal",
+        "spotify_artists01_popularity": "49",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "107BmEbJl2k",
+        "ytreleasedate": "2023/11/09"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/KORPIKLAANI-Gotta-Go-Home.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2257,
+            "name": "Korpiklaani",
+            "slug": "korpiklaani",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "1993",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "コルピクラーニ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Korpiklaani",
+        "ytvideoid": "107BmEbJl2k",
+        "spotify_track_id": "5HlNlLazAmZgYzPv0zEUM2"
+      },
+      "genre_data": [
+        {
+          "name": "Folk metal",
+          "slug": "folk-metal",
+          "term_id": 517,
+          "post_count": 44
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "gotta-go-home"
+    },
+    {
+      "id": 39466,
+      "date": "2022-06-08T01:39:00",
+      "date_gmt": "2022-06-07T16:39:00",
+      "title": {
+        "rendered": "Interrogativa Cantilena"
+      },
+      "content": {
+        "rendered": "\n<p>Korpiklaani-InterrogativaCantilena</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2257
+      ],
+      "tags": [],
+      "genre": [
+        517
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6oQaYzijl3xEoX1a8P7Foz",
+        "spotify_release_date": "2022/6/8",
+        "spotify_name": "InterrogativaCantilena",
+        "spotify_artists": "Korpiklaani,KevinRidley",
+        "spotify_album": "InterrogativaCantilena",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731eaa93e4f247ead0d564eb90",
+        "spotify_duration_ms": "228000",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.536",
+        "spotify_energy": "0.943",
+        "spotify_key": "7",
+        "spotify_loudness": "-3.868",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.05",
+        "spotify_tempo": "105.06",
+        "spotify_valence": "0.963",
+        "spotify_acousticness": "0.00905",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0193",
+        "spotify_artists01": "Korpiklaani",
+        "spotify_artists01_id": "521Yl3LUvD7G9dMRO4fpCy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4007626284c331661dab6d2c",
+        "spotify_artists01_genres": "finnishmetal,folkmetal,nordicfolkmetal,powermetal,symphonicmetal,vikingmetal",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "KevinRidley",
+        "spotify_artists02_id": "0Z1PQIOw4Hq35PcvDFEbR3",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab67616d0000b273cbc530159e3eb6135922262b",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "23",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Fx5kP3HXExg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Korpiklaani-Interrogativa-Cantilena.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2257,
+            "name": "Korpiklaani",
+            "slug": "korpiklaani",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "1993",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "コルピクラーニ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Korpiklaani,KevinRidley",
+        "ytvideoid": "Fx5kP3HXExg",
+        "spotify_track_id": "6oQaYzijl3xEoX1a8P7Foz"
+      },
+      "genre_data": [
+        {
+          "name": "Folk metal",
+          "slug": "folk-metal",
+          "term_id": 517,
+          "post_count": 44
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "interrogativa-cantilena"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

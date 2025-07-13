@@ -1,0 +1,193 @@
+{
+  "artist": {
+    "id": 5310,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/young-jeezy/",
+    "name": "Young Jeezy",
+    "slug": "young-jeezy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5310",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5310"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5310"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 71506,
+      "date": "2008-02-22T16:15:05",
+      "date_gmt": "2008-02-22T07:15:05",
+      "title": {
+        "rendered": "Love in This Club"
+      },
+      "content": {
+        "rendered": "<p>Usher, Young Jeezy - Love in This Club</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2878,
+        5310
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "cB5e0zHRzHc",
+        "ytreleasedate": "",
+        "spotify_track_id": "5j0McHPthKpOXRr3fBq8M0",
+        "spotify_release_date": "2008-05-27",
+        "spotify_name": "Love in This Club (feat. Young Jeezy)",
+        "spotify_artists": "Usher, Young Jeezy",
+        "spotify_album": "Here I Stand",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732bca149ba7dd5e45bf233ac3",
+        "spotify_duration_ms": "259720",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.573",
+        "spotify_energy": "0.712",
+        "spotify_key": "0",
+        "spotify_loudness": "-5.976",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0732",
+        "spotify_tempo": "140.012",
+        "spotify_valence": "0.346",
+        "spotify_acousticness": "0.0572",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.167",
+        "spotify_artists01": "アッシャー",
+        "spotify_artists01_id": "23zg3TcAtWQy7J6upgbUnj",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb716114797a4a644c67c5fa72",
+        "spotify_artists01_genres": "atl hip hop, contemporary r&b, dance pop, pop, r&b, rap, south carolina hip hop, urban contemporary",
+        "spotify_artists01_popularity": "80",
+        "spotify_artists02": "Jeezy",
+        "spotify_artists02_id": "4yBK75WVCQXej1p04GWqxH",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb075a4c9d6da66addd8247c12",
+        "spotify_artists02_genres": "atl hip hop, crunk, dirty south rap, gangster rap, old school atlanta hip hop, rap, southern hip hop, trap",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2732bca149ba7dd5e45bf233ac3.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2878,
+            "name": "USHER",
+            "slug": "usher",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1993",
+              "artistborn": "19781014",
+              "artistdied": "",
+              "artistjpname": "アッシャー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 5310,
+            "name": "Young Jeezy",
+            "slug": "young-jeezy",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Usher, Young Jeezy",
+        "ytvideoid": "cB5e0zHRzHc",
+        "spotify_track_id": "5j0McHPthKpOXRr3fBq8M0"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "love-in-this-club"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

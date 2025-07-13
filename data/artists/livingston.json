@@ -1,0 +1,80 @@
+{
+  "id": 4396,
+  "count": 6,
+  "description": "Livingston is an American singer-songwriter.",
+  "link": "https://sub.music8.jp/category/livingston/",
+  "name": "Livingston",
+  "slug": "livingston",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2020",
+    "artistborn": "20020711",
+    "artistjpname": "リヴィングストン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2fPsJqR6zfoHatC1eFr0eQ",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ebbb454818381f7e06306070"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4396",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4396"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4396"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "リヴィングストン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ebbb454818381f7e06306070",
+  "artistActiveYearStart": "2020",
+  "occupation": "singer, songwriter, producer"
+}

@@ -1,0 +1,444 @@
+{
+  "artist": {
+    "id": 3801,
+    "count": 3,
+    "description": "Atmosphere is an American hip-hop duo.",
+    "link": "https://sub.music8.jp/category/atmosphere/",
+    "name": "Atmosphere",
+    "slug": "atmosphere",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1996",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "duo",
+          "label": "Duo"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3801",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3801"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3801"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57789,
+      "date": "2023-11-30T23:39:38",
+      "date_gmt": "2023-11-30T14:39:38",
+      "title": {
+        "rendered": "Wetter"
+      },
+      "content": {
+        "rendered": "<p>Atmosphere - Wetter</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3801
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0CShSek3Zb2PVgQuhcDycv",
+        "spotify_release_date": "2023-12-01",
+        "spotify_name": "Wetter",
+        "spotify_artists": "Atmosphere, Slug, Ant",
+        "spotify_album": "Talk Talk EP",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e4e62f3fda9b78b2702b55d9",
+        "spotify_duration_ms": "240760",
+        "spotify_popularity": "9",
+        "spotify_danceability": "0.825",
+        "spotify_energy": "0.487",
+        "spotify_key": "7",
+        "spotify_loudness": "-9.331",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0978",
+        "spotify_tempo": "116.978",
+        "spotify_valence": "0.17",
+        "spotify_acousticness": "0.0574",
+        "spotify_instrumentalness": "0.00517",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.115",
+        "spotify_artists01": "Atmosphere",
+        "spotify_artists01_id": "1GAS0rb4L8VTPvizAx2O9J",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaf11deada0898af679ffe7f6",
+        "spotify_artists01_genres": "alternative hip hop, conscious hip hop, minnesota hip hop",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "Slug",
+        "spotify_artists02_id": "6Lz3nv3y0hhdKkyrApFCZD",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb6b823b5e43b6eea330a380a9",
+        "spotify_artists02_genres": "abstract hip hop",
+        "spotify_artists02_popularity": "53",
+        "spotify_artists03": "Ant",
+        "spotify_artists03_id": "71C1AXi9lDQXnSKZjeTYiI",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb30cdf166435afa17bf14ddd7",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "53",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "H2IB4We-Rwo",
+        "ytreleasedate": "2023/11/30"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Atmosphere-Wetter.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3801,
+            "name": "Atmosphere",
+            "slug": "atmosphere",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Atmosphere, Slug, Ant",
+        "ytvideoid": "H2IB4We-Rwo",
+        "spotify_track_id": "0CShSek3Zb2PVgQuhcDycv"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "wetter"
+    },
+    {
+      "id": 57797,
+      "date": "2023-05-05T23:48:40",
+      "date_gmt": "2023-05-05T14:48:40",
+      "title": {
+        "rendered": "Holding My Breath"
+      },
+      "content": {
+        "rendered": "<p>Atmosphere - Holding My Breath</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3801
+      ],
+      "tags": [],
+      "genre": [
+        564,
+        690
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5eTGsKdGB8q6qSGHO6mKg9",
+        "spotify_release_date": "2023-05-05",
+        "spotify_name": "Holding My Breath",
+        "spotify_artists": "Atmosphere, Slug, Ant",
+        "spotify_album": "So Many Other Realities Exist Simultaneously",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733f87587fb5f3442db65fd304",
+        "spotify_duration_ms": "257265",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.695",
+        "spotify_energy": "0.705",
+        "spotify_key": "10",
+        "spotify_loudness": "-6.134",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.27",
+        "spotify_tempo": "144.05",
+        "spotify_valence": "0.66",
+        "spotify_acousticness": "0.0286",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.348",
+        "spotify_artists01": "Atmosphere",
+        "spotify_artists01_id": "1GAS0rb4L8VTPvizAx2O9J",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaf11deada0898af679ffe7f6",
+        "spotify_artists01_genres": "alternative hip hop, conscious hip hop, minnesota hip hop",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "Slug",
+        "spotify_artists02_id": "6Lz3nv3y0hhdKkyrApFCZD",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb6b823b5e43b6eea330a380a9",
+        "spotify_artists02_genres": "abstract hip hop",
+        "spotify_artists02_popularity": "53",
+        "spotify_artists03": "Ant",
+        "spotify_artists03_id": "71C1AXi9lDQXnSKZjeTYiI",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb30cdf166435afa17bf14ddd7",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "53",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "8a2pFMR6L5Q",
+        "ytreleasedate": "2023/05/05"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Atmosphere-Holding-My-Breath.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3801,
+            "name": "Atmosphere",
+            "slug": "atmosphere",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Atmosphere, Slug, Ant",
+        "ytvideoid": "8a2pFMR6L5Q",
+        "spotify_track_id": "5eTGsKdGB8q6qSGHO6mKg9"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "Reggae",
+          "slug": "reggae",
+          "term_id": 690,
+          "post_count": 83
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "holding-my-breath"
+    },
+    {
+      "id": 57793,
+      "date": "2023-02-23T23:47:01",
+      "date_gmt": "2023-02-23T14:47:01",
+      "title": {
+        "rendered": "Okay"
+      },
+      "content": {
+        "rendered": "<p>Atmosphere - Okay</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3801
+      ],
+      "tags": [],
+      "genre": [
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5M4DNOdud9sYBLdj4ScVkH",
+        "spotify_release_date": "2023-05-05",
+        "spotify_name": "Okay",
+        "spotify_artists": "Atmosphere, Slug, Ant",
+        "spotify_album": "So Many Other Realities Exist Simultaneously",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733f87587fb5f3442db65fd304",
+        "spotify_duration_ms": "210680",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.803",
+        "spotify_energy": "0.711",
+        "spotify_key": "2",
+        "spotify_loudness": "-4.67",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.168",
+        "spotify_tempo": "87.002",
+        "spotify_valence": "0.266",
+        "spotify_acousticness": "0.15",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.205",
+        "spotify_artists01": "Atmosphere",
+        "spotify_artists01_id": "1GAS0rb4L8VTPvizAx2O9J",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaf11deada0898af679ffe7f6",
+        "spotify_artists01_genres": "alternative hip hop, conscious hip hop, minnesota hip hop",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "Slug",
+        "spotify_artists02_id": "6Lz3nv3y0hhdKkyrApFCZD",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb6b823b5e43b6eea330a380a9",
+        "spotify_artists02_genres": "abstract hip hop",
+        "spotify_artists02_popularity": "53",
+        "spotify_artists03": "Ant",
+        "spotify_artists03_id": "71C1AXi9lDQXnSKZjeTYiI",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb30cdf166435afa17bf14ddd7",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "53",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "CnkSW_J5Fww",
+        "ytreleasedate": "2023/02/23"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Atmosphere-Okay.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3801,
+            "name": "Atmosphere",
+            "slug": "atmosphere",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Atmosphere, Slug, Ant",
+        "ytvideoid": "CnkSW_J5Fww",
+        "spotify_track_id": "5M4DNOdud9sYBLdj4ScVkH"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "okay"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

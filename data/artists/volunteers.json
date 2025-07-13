@@ -1,0 +1,74 @@
+{
+  "id": 6576,
+  "count": 1,
+  "description": "The Volunteers is a South Korean rock band originally formed in 2017.",
+  "link": "https://sub.music8.jp/category/volunteers/",
+  "name": "Volunteers",
+  "slug": "volunteers",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "KOR",
+    "artistactiveyearstart": "2017",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2jLHrOkh1M5rLJgnrgfQf1",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051746238bd9ba3ab8296d193a778",
+    "youtube_channel": "UCVlcbGb0bA8Db7DAZVuIPJw",
+    "wikipedia_page": "The_Volunteers_(South_Korean_band)"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6576",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6576"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6576"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051746238bd9ba3ab8296d193a778",
+  "artistActiveYearStart": "2017",
+  "occupation": "band"
+}

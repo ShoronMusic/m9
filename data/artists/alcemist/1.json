@@ -1,0 +1,516 @@
+{
+  "artist": {
+    "id": 2680,
+    "count": 3,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/alcemist/",
+    "name": "Alcemist",
+    "slug": "alcemist",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2680",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2680"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2680"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 79244,
+      "date": "2024-08-16T14:05:23",
+      "date_gmt": "2024-08-16T05:05:23",
+      "title": {
+        "rendered": "Together Forever"
+      },
+      "content": {
+        "rendered": "<p>Big Sean - Together Forever</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2680,
+        1350
+      ],
+      "tags": [],
+      "genre": [
+        763
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "ytvideoid": "KZyR-SdtavA",
+        "ytreleasedate": "",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "38W7Dc1FqHiYgqWpoxrBd1",
+        "spotify_release_date": "2024-08-16",
+        "spotify_name": "Together Forever (Big Sean & The Alchemist)",
+        "spotify_artists": "   2:03 / 3:24   Big Sean, The Alchemist",
+        "spotify_album": "Together Forever",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273162c8252695396e17c380b1a",
+        "spotify_duration_ms": "181910",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.669",
+        "spotify_energy": "0.734",
+        "spotify_key": "8",
+        "spotify_loudness": "-7.183",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0725",
+        "spotify_tempo": "113.057",
+        "spotify_valence": "0.628",
+        "spotify_acousticness": "0.275",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.172",
+        "spotify_artists01": "ビッグ・ショーン",
+        "spotify_artists01_id": "0c173mlxpT3dSFRgMO8XPh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3d5b14b45d4c3d10d23b03ff",
+        "spotify_artists01_genres": "detroit hip hop, hip hop, pop rap, r&b, rap, southern hip hop, trap",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "The Alchemist",
+        "spotify_artists02_id": "0eVyjRhzZKke2KFYTcDkeu",
+        "spotify_artists02_images": "https://i.scdn.co/image/8a0d2c9a5bb08a3fd8e6ad457014022cb232525b",
+        "spotify_artists02_genres": "alternative hip hop, drumless hip hop, hip hop, instrumental hip hop, west coast rap",
+        "spotify_artists02_popularity": "71",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273162c8252695396e17c380b1a.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2680,
+            "name": "Alcemist",
+            "slug": "alcemist",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1350,
+            "name": "Big Sean",
+            "slug": "big-sean",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19880325",
+              "artistdied": "",
+              "artistjpname": "ビッグ・ショーン",
+              "member": false,
+              "artistimage1": {
+                "ID": 67705,
+                "id": 67705,
+                "title": "big-sean",
+                "filename": "big-sean.webp",
+                "filesize": 13472,
+                "url": "https://sub.music8.jp/wp-content/uploads/big-sean.webp",
+                "link": "https://sub.music8.jp/big-sean/",
+                "alt": "",
+                "author": "1",
+                "description": "",
+                "caption": "",
+                "name": "big-sean",
+                "status": "inherit",
+                "uploaded_to": 0,
+                "date": "2024-05-29 08:21:25",
+                "modified": "2024-05-29 08:21:25",
+                "menu_order": 0,
+                "mime_type": "image/webp",
+                "type": "image",
+                "subtype": "webp",
+                "icon": "https://sub.music8.jp/wp-includes/images/media/default.png",
+                "width": 350,
+                "height": 350,
+                "sizes": {
+                  "thumbnail": "https://sub.music8.jp/wp-content/uploads/big-sean.webp",
+                  "thumbnail-width": 50,
+                  "thumbnail-height": 50,
+                  "medium": "https://sub.music8.jp/wp-content/uploads/big-sean-50x50.webp",
+                  "medium-width": 50,
+                  "medium-height": 50,
+                  "medium_large": "https://sub.music8.jp/wp-content/uploads/big-sean.webp",
+                  "medium_large-width": 350,
+                  "medium_large-height": 350,
+                  "large": "https://sub.music8.jp/wp-content/uploads/big-sean-100x100.webp",
+                  "large-width": 100,
+                  "large-height": 100,
+                  "1536x1536": "https://sub.music8.jp/wp-content/uploads/big-sean.webp",
+                  "1536x1536-width": 350,
+                  "1536x1536-height": 350,
+                  "2048x2048": "https://sub.music8.jp/wp-content/uploads/big-sean.webp",
+                  "2048x2048-width": 350,
+                  "2048x2048-height": 350
+                }
+              },
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ],
+              "related_artists": "2 Chainz (2-chainz) | Wale (wale) | French Montana (french-montana) | Meek Mill (meek-mill) | Juicy J | ScHoolboy Q (schoolboy-q) | YG (yg) | Young Money | Kid Ink (kid-ink) | Rick Ross (rick-ross) | Ty Dolla $ign (ty-dolla-ign) | A$AP Ferg (asap-ferg) | Jeremih (jeremih) | Mike WiLL Made-It | Yo Gotti | Gucci Mane (gucci-mane) | Pusha T (pusha-t) | Rae Sremmurd (rae-sremmurd) | Tyga (tyga) | Chance The Rapper (chance-the-rapper)",
+              "spotify_artist_id": "0c173mlxpT3dSFRgMO8XPh",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051744022657af888d9f0de15342e"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "   2:03 / 3:24   Big Sean, The Alchemist",
+        "ytvideoid": "KZyR-SdtavA",
+        "spotify_track_id": "38W7Dc1FqHiYgqWpoxrBd1"
+      },
+      "genre_data": [
+        {
+          "name": "West Coast hip hop",
+          "slug": "west-coast-hip-hop",
+          "term_id": 763,
+          "post_count": 49
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "together-forever-2"
+    },
+    {
+      "id": 60696,
+      "date": "2023-12-29T22:21:18",
+      "date_gmt": "2023-12-29T13:21:18",
+      "title": {
+        "rendered": "Would You (go to bed with me?)"
+      },
+      "content": {
+        "rendered": "<p>Campbell x Alcemist - Would You (go to bed with me?)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2680,
+        4099
+      ],
+      "tags": [],
+      "genre": [
+        487
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2N8gR2yftrHbZR53U5kYnX",
+        "spotify_release_date": "2023-07-21",
+        "spotify_name": "Would You (go to bed with me?)",
+        "spotify_artists": "Campbell, Alcemist",
+        "spotify_album": "Would You (go to bed with me?)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27361fd4eff8bb3be13fadf66d9",
+        "spotify_duration_ms": "120522",
+        "spotify_popularity": "77",
+        "spotify_danceability": "0.602",
+        "spotify_energy": "0.766",
+        "spotify_key": "1",
+        "spotify_loudness": "-3.942",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0375",
+        "spotify_tempo": "87.042",
+        "spotify_valence": "0.444",
+        "spotify_acousticness": "0.000113",
+        "spotify_instrumentalness": "0.779",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0723",
+        "spotify_artists01": "Campbell",
+        "spotify_artists01_id": "5udgXJYWwK7cchnPSKqEkK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3c8d3b07e8a78427d42fd3db",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "Alcemist",
+        "spotify_artists02_id": "6WzWO3A5YAYxLVD224S9P0",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb3110bbed42a227a7852931ae",
+        "spotify_artists02_genres": "charva",
+        "spotify_artists02_popularity": "59",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "3eNCSxMYSrs",
+        "ytreleasedate": "2023/12/29"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Campbell-x-Alcemist-Would-You-go-to-bed-with-me.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2680,
+            "name": "Alcemist",
+            "slug": "alcemist",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4099,
+            "name": "Campbell",
+            "slug": "campbell",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Campbell, Alcemist",
+        "ytvideoid": "3eNCSxMYSrs",
+        "spotify_track_id": "2N8gR2yftrHbZR53U5kYnX"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "would-you-go-to-bed-with-me"
+    },
+    {
+      "id": 40411,
+      "date": "2022-01-28T10:59:00",
+      "date_gmt": "2022-01-28T01:59:00",
+      "title": {
+        "rendered": "Stan Smith"
+      },
+      "content": {
+        "rendered": "\n<p>Alcemist&amp;Coco-StanSmith</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2680,
+        2681
+      ],
+      "tags": [],
+      "genre": [
+        487,
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": null,
+        "spotify_track_id": "44BN6Vs8QTc1ippQOpfs5x",
+        "spotify_release_date": "2022/2/9",
+        "spotify_name": "StanSmith-RadioEdit",
+        "spotify_artists": "Alcemist,Coco",
+        "spotify_album": "StanSmith(RadioEdit)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735f174c4c2fd0e58663c7c016",
+        "spotify_duration_ms": "234857",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.682",
+        "spotify_energy": "0.893",
+        "spotify_key": "0",
+        "spotify_loudness": "-1.542",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.323",
+        "spotify_tempo": "175.146",
+        "spotify_valence": "0.272",
+        "spotify_acousticness": "0.0702",
+        "spotify_instrumentalness": "0.000288",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.135",
+        "spotify_artists01": "Alcemist",
+        "spotify_artists01_id": "6WzWO3A5YAYxLVD224S9P0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3110bbed42a227a7852931ae",
+        "spotify_artists01_genres": "charva",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "Coco",
+        "spotify_artists02_id": "7q33wxvdJ95u6w3fY2q5ai",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5f832ad63a1e4d156efc98a0",
+        "spotify_artists02_genres": "ukgrevival",
+        "spotify_artists02_popularity": "48",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Alcemist-Coco-Stan-Smith.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2680,
+            "name": "Alcemist",
+            "slug": "alcemist",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2681,
+            "name": "Coco",
+            "slug": "coco",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2019",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Alcemist,Coco",
+        "ytvideoid": "",
+        "spotify_track_id": "44BN6Vs8QTc1ippQOpfs5x"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        },
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "stan-smith"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

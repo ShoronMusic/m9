@@ -1,0 +1,88 @@
+{
+  "id": 2120,
+  "count": 3,
+  "description": "Kx5 is the debut self-titled album by Kx5, the collaborative project of Deadmau5 and Kaskade.",
+  "link": "https://sub.music8.jp/category/kx5/",
+  "name": "Kx5",
+  "slug": "kx5",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "2022",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 2121,
+        "name": "Deadmau5",
+        "slug": "deadmau5",
+        "term_group": 0,
+        "term_taxonomy_id": 2121,
+        "taxonomy": "category",
+        "description": "Deadmau5 is a Canadian electronic music producer and DJ.",
+        "parent": 0,
+        "count": 8,
+        "filter": "raw"
+      },
+      {
+        "term_id": 2122,
+        "name": "Kaskade",
+        "slug": "kaskade",
+        "term_group": 0,
+        "term_taxonomy_id": 2122,
+        "taxonomy": "category",
+        "description": "Kaskade is an American DJ, music producer and remixer.",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2120",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2120"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2120"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2022",
+  "occupation": ""
+}

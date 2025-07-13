@@ -1,0 +1,617 @@
+{
+  "artist": {
+    "id": 2118,
+    "count": 4,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/dance-with-the-dead/",
+    "name": "Dance with the Dead",
+    "slug": "dance-with-the-dead",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2118",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2118"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2118"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 84382,
+      "date": "2024-10-26T09:12:17",
+      "date_gmt": "2024-10-26T00:12:17",
+      "title": {
+        "rendered": "Wolf Pack"
+      },
+      "content": {
+        "rendered": "<p>Dance with the Dead, Gunship - Wolf Pack</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2118,
+        2937
+      ],
+      "tags": [],
+      "genre": [
+        476,
+        738
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "JBWsodbadRg",
+        "ytreleasedate": "2024/10/26",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2SwXCXyroijlJdWAiqLWhM",
+        "spotify_release_date": "2024-10-25",
+        "spotify_name": "Wolf Pack",
+        "spotify_artists": "Dance With the Dead, Gunship",
+        "spotify_album": "Dark Matter",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ed1736e4b66f18303c38543f",
+        "spotify_duration_ms": "249600",
+        "spotify_popularity": "37",
+        "spotify_danceability": "0.472",
+        "spotify_energy": "0.872",
+        "spotify_key": "2",
+        "spotify_loudness": "-6.062",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0284",
+        "spotify_tempo": "99.991",
+        "spotify_valence": "0.212",
+        "spotify_acousticness": "0.000654",
+        "spotify_instrumentalness": "0.00798",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0849",
+        "spotify_artists01": "Dance With the Dead",
+        "spotify_artists01_id": "2KtnZQwMQJN3uyI8eHZRvm",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb800bdb2c06c690ee4e06a197",
+        "spotify_artists01_genres": "darksynth, nightrun, synthwave",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "Gunship",
+        "spotify_artists02_id": "3PALZKWkpwjRvBsRmhlVSS",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb96a96f31fdff768dd1245905",
+        "spotify_artists02_genres": "popwave",
+        "spotify_artists02_popularity": "54",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273ed1736e4b66f18303c38543f.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2118,
+            "name": "Dance with the Dead",
+            "slug": "dance-with-the-dead",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2937,
+            "name": "GUNSHIP",
+            "slug": "gunship",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ガンシップ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Dance With the Dead, Gunship",
+        "ytvideoid": "JBWsodbadRg",
+        "spotify_track_id": "2SwXCXyroijlJdWAiqLWhM"
+      },
+      "genre_data": [
+        {
+          "name": "Dark wave",
+          "slug": "dark-wave",
+          "term_id": 476,
+          "post_count": 57
+        },
+        {
+          "name": "Synthwave",
+          "slug": "synthwave",
+          "term_id": 738,
+          "post_count": 64
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "wolf-pack"
+    },
+    {
+      "id": 81910,
+      "date": "2024-09-13T14:56:00",
+      "date_gmt": "2024-09-13T05:56:00",
+      "title": {
+        "rendered": "Neon Cross"
+      },
+      "content": {
+        "rendered": "<p>Dance with the Dead, Brandon Saller - Neon Cross</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5910,
+        2118
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        577,
+        738
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "OfE13r_Gt8s",
+        "ytreleasedate": "2024/09/13",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6GXuIRrrTeeS9l27jWYLbD",
+        "spotify_release_date": "2024-09-12",
+        "spotify_name": "Neon Cross",
+        "spotify_artists": "Dance With the Dead, Brandon Saller",
+        "spotify_album": "Neon Cross",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273152a159e4daf2346530242d3",
+        "spotify_duration_ms": "226685",
+        "spotify_popularity": "9",
+        "spotify_danceability": "0.464",
+        "spotify_energy": "0.873",
+        "spotify_key": "7",
+        "spotify_loudness": "-6.078",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0704",
+        "spotify_tempo": "89.043",
+        "spotify_valence": "0.367",
+        "spotify_acousticness": "0.000682",
+        "spotify_instrumentalness": "0.0000145",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.326",
+        "spotify_artists01": "Dance With the Dead",
+        "spotify_artists01_id": "2KtnZQwMQJN3uyI8eHZRvm",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb800bdb2c06c690ee4e06a197",
+        "spotify_artists01_genres": "darksynth, nightrun, synthwave",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "Brandon Saller",
+        "spotify_artists02_id": "12x8XI7ZYpGnKPUzifOxL6",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb16f08cf64ffd22b705007fa1",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "32",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273152a159e4daf2346530242d3.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5910,
+            "name": "Brandon Saller",
+            "slug": "brandon-saller",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19830624",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "multi-instrumentalist",
+                  "label": "Multi-instrumentalist"
+                }
+              ],
+              "related_artists": "Ryan Kirby | Buddy Nielsen | American Gentlemen | Jacoby Shaddix | Hell Or Highwater | Corpsegrinder | Alarcon | Dead Icarus | Spencer Charnas | I AM WAR | Bryan Garris | Dan Sugarman | Ice Nine Kills (ice-nine-kills) | Lowist | Fake Figures | Ryan Rose | Atreyu (atreyu) | Danny Worsnop | Billy Martin | Matthew K. Heafy",
+              "spotify_artist_id": "12x8XI7ZYpGnKPUzifOxL6",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517416f08cf64ffd22b705007fa1"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2118,
+            "name": "Dance with the Dead",
+            "slug": "dance-with-the-dead",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Dance With the Dead, Brandon Saller",
+        "ytvideoid": "OfE13r_Gt8s",
+        "spotify_track_id": "6GXuIRrrTeeS9l27jWYLbD"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        },
+        {
+          "name": "Synthwave",
+          "slug": "synthwave",
+          "term_id": 738,
+          "post_count": 64
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "neon-cross"
+    },
+    {
+      "id": 76597,
+      "date": "2024-07-26T20:56:23",
+      "date_gmt": "2024-07-26T11:56:23",
+      "title": {
+        "rendered": "Cold as Hell"
+      },
+      "content": {
+        "rendered": "<p>Dance with the Dead, Shaun Phillips - Cold as Hell</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2118,
+        5582
+      ],
+      "tags": [],
+      "genre": [
+        577,
+        738
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "w3BPH2vWQAo",
+        "ytreleasedate": "2024/07/26",
+        "spotify_track_id": "1L3ZsnW2EpL5wPUSMiE3sT",
+        "spotify_release_date": "2024-07-25",
+        "spotify_name": "Cold as Hell",
+        "spotify_artists": "Dance With the Dead, Shaun Phillips",
+        "spotify_album": "Cold as Hell",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c0126b67f48b8cd4ef74f2bf",
+        "spotify_duration_ms": "241643",
+        "spotify_popularity": "33",
+        "spotify_danceability": "0.486",
+        "spotify_energy": "0.954",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.031",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0495",
+        "spotify_tempo": "145.986",
+        "spotify_valence": "0.32",
+        "spotify_acousticness": "0.0000195",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0592",
+        "spotify_artists01": "Dance With the Dead",
+        "spotify_artists01_id": "2KtnZQwMQJN3uyI8eHZRvm",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb800bdb2c06c690ee4e06a197",
+        "spotify_artists01_genres": "darksynth, nightrun, synthwave",
+        "spotify_artists01_popularity": "49",
+        "spotify_artists02": "Shaun Phillips",
+        "spotify_artists02_id": "5LUuGePsFIh3m9oSk2LrFt",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "17",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273c0126b67f48b8cd4ef74f2bf.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2118,
+            "name": "Dance with the Dead",
+            "slug": "dance-with-the-dead",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 5582,
+            "name": "Shaun Phillips",
+            "slug": "shaun-phillips",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "5LUuGePsFIh3m9oSk2LrFt",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Dance With the Dead, Shaun Phillips",
+        "ytvideoid": "w3BPH2vWQAo",
+        "spotify_track_id": "1L3ZsnW2EpL5wPUSMiE3sT"
+      },
+      "genre_data": [
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        },
+        {
+          "name": "Synthwave",
+          "slug": "synthwave",
+          "term_id": 738,
+          "post_count": 64
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cold-as-hell"
+    },
+    {
+      "id": 40063,
+      "date": "2022-03-11T21:44:00",
+      "date_gmt": "2022-03-11T12:44:00",
+      "title": {
+        "rendered": "Hex"
+      },
+      "content": {
+        "rendered": "\n<p>DancewiththeDead-Hex</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2118
+      ],
+      "tags": [],
+      "genre": [
+        476,
+        577,
+        738
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4YPrCV5t9OykPyoI1xSxnR",
+        "spotify_release_date": "2022/1/10",
+        "spotify_name": "Hex",
+        "spotify_artists": "Dance With the Dead",
+        "spotify_album": "Driven to Madness",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27301e4a947ac10bd97afc345eb",
+        "spotify_duration_ms": "221419",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.537",
+        "spotify_energy": "0.844",
+        "spotify_key": "2",
+        "spotify_loudness": "-6.884",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0333",
+        "spotify_tempo": "108.997",
+        "spotify_valence": "0.212",
+        "spotify_acousticness": "7.58E-05",
+        "spotify_instrumentalness": "0.93",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0965",
+        "spotify_artists01": "Dance With the Dead",
+        "spotify_artists01_id": "2KtnZQwMQJN3uyI8eHZRvm",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb71a456b24389957cbb378bf1",
+        "spotify_artists01_genres": "darksynth, nightrun, synthwave",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "acITJV6VHBE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Dance-with-the-Dead-Hex.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2118,
+            "name": "Dance with the Dead",
+            "slug": "dance-with-the-dead",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Dance With the Dead",
+        "ytvideoid": "acITJV6VHBE",
+        "spotify_track_id": "4YPrCV5t9OykPyoI1xSxnR"
+      },
+      "genre_data": [
+        {
+          "name": "Dark wave",
+          "slug": "dark-wave",
+          "term_id": 476,
+          "post_count": 57
+        },
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        },
+        {
+          "name": "Synthwave",
+          "slug": "synthwave",
+          "term_id": 738,
+          "post_count": 64
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "hex"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

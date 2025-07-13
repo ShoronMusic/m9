@@ -1,0 +1,863 @@
+{
+  "artist": {
+    "id": 1917,
+    "count": 6,
+    "description": "Sum 41 is a Canadian rock band",
+    "link": "https://sub.music8.jp/category/sum-41/",
+    "name": "Sum 41",
+    "slug": "sum-41",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "CAN",
+      "artistactiveyearstart": "1996",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "サム・フォーティーワン",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1917",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1917"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1917"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 94785,
+      "date": "2025-04-01T11:13:17",
+      "date_gmt": "2025-04-01T02:13:17",
+      "title": {
+        "rendered": "Radio Silence"
+      },
+      "content": {
+        "rendered": "<p>Sum 41 - Radio Silence</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1917
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "QtelUJ7RgvI",
+        "ytreleasedate": "2025/04/01",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5wj0zsPyCsoKFN6oDnL12V",
+        "spotify_release_date": "2024-03-29",
+        "spotify_name": "Radio Silence",
+        "spotify_artists": "Sum 41",
+        "spotify_album": "Heaven :x: Hell",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d4109eee9ce4b4be92cbac39",
+        "spotify_duration_ms": "203315",
+        "spotify_popularity": "45",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Sum 41",
+        "spotify_artists01_id": "0qT79UgT5tY4yudH9VfsdT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb625af80b68ae4eb559c6c417",
+        "spotify_artists01_genres": "pop punk, punk, skate punk",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/sum-41-radio-silence.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1917,
+            "name": "Sum 41",
+            "slug": "sum-41",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "サム・フォーティーワン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Sum 41",
+        "ytvideoid": "QtelUJ7RgvI",
+        "spotify_track_id": "5wj0zsPyCsoKFN6oDnL12V"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "radio-silence"
+    },
+    {
+      "id": 64901,
+      "date": "2024-03-29T20:11:38",
+      "date_gmt": "2024-03-29T11:11:38",
+      "title": {
+        "rendered": "Dopamine"
+      },
+      "content": {
+        "rendered": "<p>Sum 41 - Dopamine</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1917
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "yYk2BTwuQnM",
+        "ytreleasedate": "2024/03/29",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6iox0DMrowvaE2BwqJ0mnd",
+        "spotify_release_date": "2024-03-29",
+        "spotify_name": "Dopamine",
+        "spotify_artists": "Sum 41",
+        "spotify_album": "Heaven :x: Hell",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c70fc54e7477f70c0d498b95",
+        "spotify_duration_ms": "186831",
+        "spotify_popularity": "27",
+        "spotify_danceability": "0.427",
+        "spotify_energy": "0.877",
+        "spotify_key": "6",
+        "spotify_loudness": "-4.897",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0646",
+        "spotify_tempo": "168.393",
+        "spotify_valence": "0.488",
+        "spotify_acousticness": "0.000111",
+        "spotify_instrumentalness": "0.00011",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0845",
+        "spotify_artists01": "Sum 41",
+        "spotify_artists01_id": "0qT79UgT5tY4yudH9VfsdT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb625af80b68ae4eb559c6c417",
+        "spotify_artists01_genres": "alternative metal, canadian pop punk, canadian punk, modern rock, pop punk, post-grunge, punk, rock",
+        "spotify_artists01_popularity": "72",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273c70fc54e7477f70c0d498b95.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1917,
+            "name": "Sum 41",
+            "slug": "sum-41",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "サム・フォーティーワン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Sum 41",
+        "ytvideoid": "yYk2BTwuQnM",
+        "spotify_track_id": "6iox0DMrowvaE2BwqJ0mnd"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "dopamine"
+    },
+    {
+      "id": 62270,
+      "date": "2024-02-23T11:43:38",
+      "date_gmt": "2024-02-23T02:43:38",
+      "title": {
+        "rendered": "Waiting On A Twist Of Fate"
+      },
+      "content": {
+        "rendered": "<p>Sum 41 - Waiting On A Twist Of Fate</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1917
+      ],
+      "tags": [],
+      "genre": [
+        660,
+        711
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "MjZxJ-GFrRA",
+        "ytreleasedate": "2024/02/23",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5PCMU8scAoT4sz4Fn2Umua",
+        "spotify_release_date": "2024-02-22",
+        "spotify_name": "Waiting On A Twist Of Fate",
+        "spotify_artists": "Sum 41",
+        "spotify_album": "Waiting On A Twist Of Fate",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27347ecef41481812c6dff296c9",
+        "spotify_duration_ms": "166844",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.421",
+        "spotify_energy": "0.972",
+        "spotify_key": "8",
+        "spotify_loudness": "-4.321",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.102",
+        "spotify_tempo": "96.04",
+        "spotify_valence": "0.588",
+        "spotify_acousticness": "0.0000365",
+        "spotify_instrumentalness": "0.0000568",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.11",
+        "spotify_artists01": "Sum 41",
+        "spotify_artists01_id": "0qT79UgT5tY4yudH9VfsdT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9af74b88c7db1500a52e4774",
+        "spotify_artists01_genres": "alternative metal, canadian pop punk, canadian punk, modern rock, pop punk, post-grunge, punk, rock",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sum-41-Waiting-On-A-Twist-Of-Fate.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1917,
+            "name": "Sum 41",
+            "slug": "sum-41",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "サム・フォーティーワン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Sum 41",
+        "ytvideoid": "MjZxJ-GFrRA",
+        "spotify_track_id": "5PCMU8scAoT4sz4Fn2Umua"
+      },
+      "genre_data": [
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        },
+        {
+          "name": "Skate punk",
+          "slug": "skate-punk",
+          "term_id": 711,
+          "post_count": 21
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "waiting-on-a-twist-of-fate"
+    },
+    {
+      "id": 59847,
+      "date": "2023-12-12T15:42:00",
+      "date_gmt": "2023-12-12T06:42:00",
+      "title": {
+        "rendered": "Rise Up"
+      },
+      "content": {
+        "rendered": "<p>Sum 41 – Rise Up</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1917
+      ],
+      "tags": [],
+      "genre": [
+        409
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "3wEKXWiYq3h4MCDJZiny0S",
+        "spotify_release_date": "2023-12-12",
+        "spotify_name": "Rise Up",
+        "spotify_artists": "Sum 41",
+        "spotify_album": "Rise Up",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a7af96024a78654541fccc20",
+        "spotify_duration_ms": "196837",
+        "spotify_popularity": "65",
+        "spotify_danceability": "0.477",
+        "spotify_energy": "0.965",
+        "spotify_key": "5",
+        "spotify_loudness": "-3.867",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.114",
+        "spotify_tempo": "150.027",
+        "spotify_valence": "0.581",
+        "spotify_acousticness": "0.0000254",
+        "spotify_instrumentalness": "0.00516",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "Sum 41",
+        "spotify_artists01_id": "0qT79UgT5tY4yudH9VfsdT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9af74b88c7db1500a52e4774",
+        "spotify_artists01_genres": "alternative metal, canadian pop punk, canadian punk, modern rock, pop punk, post-grunge, punk, rock",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "-tc4i31eWB0",
+        "ytreleasedate": "2023/12/12"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sum-41-–-Rise-Up.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1917,
+            "name": "Sum 41",
+            "slug": "sum-41",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "サム・フォーティーワン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Sum 41",
+        "ytvideoid": "-tc4i31eWB0",
+        "spotify_track_id": "3wEKXWiYq3h4MCDJZiny0S"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rise-up-2"
+    },
+    {
+      "id": 53052,
+      "date": "2023-09-28T19:55:55",
+      "date_gmt": "2023-09-28T10:55:55",
+      "title": {
+        "rendered": "Landmines"
+      },
+      "content": {
+        "rendered": "<p>Sum 41 - Landmines</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1917
+      ],
+      "tags": [],
+      "genre": [
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "05FEHgvSVpx3jnM2zNeSo9",
+        "spotify_release_date": "2023-09-27",
+        "spotify_name": "Landmines",
+        "spotify_artists": "Sum 41",
+        "spotify_album": "Landmines",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273efebe5389336056e6554c115",
+        "spotify_duration_ms": "175767",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.444",
+        "spotify_energy": "0.932",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.037",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0696",
+        "spotify_tempo": "172.147",
+        "spotify_valence": "0.736",
+        "spotify_acousticness": "0.000148",
+        "spotify_instrumentalness": "0.00000184",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0588",
+        "spotify_artists01": "Sum 41",
+        "spotify_artists01_id": "0qT79UgT5tY4yudH9VfsdT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9af74b88c7db1500a52e4774",
+        "spotify_artists01_genres": "alternative metal, canadian pop punk, canadian punk, modern rock, nu metal, pop punk, post-grunge, punk, rock",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "eQEY1gPeZgk",
+        "ytreleasedate": "2023/09/28"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sum-41-Landmines.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1917,
+            "name": "Sum 41",
+            "slug": "sum-41",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "サム・フォーティーワン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Sum 41",
+        "ytvideoid": "eQEY1gPeZgk",
+        "spotify_track_id": "05FEHgvSVpx3jnM2zNeSo9"
+      },
+      "genre_data": [
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "landmines"
+    },
+    {
+      "id": 39656,
+      "date": "2022-05-04T12:16:00",
+      "date_gmt": "2022-05-04T03:16:00",
+      "title": {
+        "rendered": "Shooting Star"
+      },
+      "content": {
+        "rendered": "\n<p>SK8-ShootingStar(feat.Sum41)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1839,
+        1917
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "65o2S5n0p31DTFtUzA1i1X",
+        "spotify_release_date": "2022/4/8",
+        "spotify_name": "ShootingStar(feat.Sum41)",
+        "spotify_artists": "SK8,Sum41",
+        "spotify_album": "LastDayOnEarth",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a15b69300982cb9418eaecbd",
+        "spotify_duration_ms": "138086",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.553",
+        "spotify_energy": "0.792",
+        "spotify_key": "11",
+        "spotify_loudness": "-4.741",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0436",
+        "spotify_tempo": "98.003",
+        "spotify_valence": "0.262",
+        "spotify_acousticness": "0.00129",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.6",
+        "spotify_artists01": "SK8",
+        "spotify_artists01_id": "4YqctGfuLnSvjjlFQvNish",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb393397724e86a34a8d2bfd74",
+        "spotify_artists01_genres": "teenpop",
+        "spotify_artists01_popularity": "42",
+        "spotify_artists02": "Sum41",
+        "spotify_artists02_id": "0qT79UgT5tY4yudH9VfsdT",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba79683a6e828e1a86341414c",
+        "spotify_artists02_genres": "alternativemetal,canadianpoppunk,canadianpunk,modernrock,numetal,poppunk,post-grunge,punk,rock",
+        "spotify_artists02_popularity": "71",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "3h-TlAMu5hs",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/SK8-Shooting-Star.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1839,
+            "name": "SK8",
+            "slug": "sk8",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19950117",
+              "artistdied": "",
+              "artistjpname": "スケート",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1917,
+            "name": "Sum 41",
+            "slug": "sum-41",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1996",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "サム・フォーティーワン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SK8,Sum41",
+        "ytvideoid": "3h-TlAMu5hs",
+        "spotify_track_id": "65o2S5n0p31DTFtUzA1i1X"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "shooting-star"
+    }
+  ],
+  "totalSongs": 6,
+  "totalPages": 1,
+  "currentPage": 1
+}

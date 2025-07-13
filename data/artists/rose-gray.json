@@ -1,0 +1,72 @@
+{
+  "id": 2588,
+  "count": 6,
+  "description": "Rose Gray is a Brirsh Singer-Songwriter.",
+  "link": "https://sub.music8.jp/category/rose-gray/",
+  "name": "Rose Gray",
+  "slug": "rose-gray",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ローズ・グレイ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5YYrWH3w4JYijU4JZrOXWA",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ed0608e08936d596cbc38b80"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2588",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2588"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2588"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ローズ・グレイ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ed0608e08936d596cbc38b80",
+  "artistActiveYearStart": "",
+  "occupation": "ssw"
+}

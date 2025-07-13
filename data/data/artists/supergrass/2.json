@@ -1,0 +1,595 @@
+{
+  "artist": {
+    "id": 1389,
+    "count": 24,
+    "description": "Supergrass are an English rock band.",
+    "link": "https://sub.music8.jp/category/supergrass/",
+    "name": "Supergrass",
+    "slug": "supergrass",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1993",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "Supergrass",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1389",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1389"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1389"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 7187,
+      "date": "1995-05-01T13:38:00",
+      "date_gmt": "1995-05-01T04:38:00",
+      "title": {
+        "rendered": "Lenny"
+      },
+      "content": {
+        "rendered": "<p>Supergrass - Lenny Fuzz</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1389
+      ],
+      "tags": [],
+      "genre": [
+        442,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "28Zeh6S7YqHabnKurm39IE",
+        "spotify_release_date": "1995/5/15",
+        "spotify_name": "Lenny",
+        "spotify_artists": "Supergrass",
+        "spotify_album": "I Should Coco",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737d2fd2378160e40c96bc61ff",
+        "spotify_duration_ms": "162733",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.439",
+        "spotify_energy": "0.727",
+        "spotify_key": "9",
+        "spotify_loudness": "-7.672",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0712",
+        "spotify_tempo": "159.654",
+        "spotify_valence": "0.547",
+        "spotify_acousticness": "8.11E-05",
+        "spotify_instrumentalness": "0.482",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0897",
+        "spotify_artists01": "Supergrass",
+        "spotify_artists01_id": "0sHeX8oQ6o7xic3wMf4NBU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb07cb4c66b99dffbd82328366",
+        "spotify_artists01_genres": "alternative rock, britpop, oxford indie",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "YXbsaa9DnmY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Supergrass-Lenny.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1389,
+            "name": "Supergrass",
+            "slug": "supergrass",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1993",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "Supergrass",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Supergrass",
+        "ytvideoid": "YXbsaa9DnmY",
+        "spotify_track_id": "28Zeh6S7YqHabnKurm39IE"
+      },
+      "genre_data": [
+        {
+          "name": "Britpop",
+          "slug": "britpop",
+          "term_id": 442,
+          "post_count": 265
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "lenny"
+    },
+    {
+      "id": 7185,
+      "date": "1995-03-13T13:35:00",
+      "date_gmt": "1995-03-13T04:35:00",
+      "title": {
+        "rendered": "Lose It"
+      },
+      "content": {
+        "rendered": "<p>Supergrass - Lose It</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1389
+      ],
+      "tags": [],
+      "genre": [
+        442,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "3zUS56FvsxCIyXdnlJ3896",
+        "spotify_release_date": "1995/5/15",
+        "spotify_name": "Lose It",
+        "spotify_artists": "Supergrass",
+        "spotify_album": "I Should Coco",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737d2fd2378160e40c96bc61ff",
+        "spotify_duration_ms": "157706",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.167",
+        "spotify_energy": "0.935",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.379",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0924",
+        "spotify_tempo": "150.816",
+        "spotify_valence": "0.271",
+        "spotify_acousticness": "6.48E-05",
+        "spotify_instrumentalness": "0.751",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0916",
+        "spotify_artists01": "Supergrass",
+        "spotify_artists01_id": "0sHeX8oQ6o7xic3wMf4NBU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb07cb4c66b99dffbd82328366",
+        "spotify_artists01_genres": "alternative rock, britpop, oxford indie",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "YtmOwRQItPY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Supergrass-Lose-It.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1389,
+            "name": "Supergrass",
+            "slug": "supergrass",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1993",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "Supergrass",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Supergrass",
+        "ytvideoid": "YtmOwRQItPY",
+        "spotify_track_id": "3zUS56FvsxCIyXdnlJ3896"
+      },
+      "genre_data": [
+        {
+          "name": "Britpop",
+          "slug": "britpop",
+          "term_id": 442,
+          "post_count": 265
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "lose-it"
+    },
+    {
+      "id": 7182,
+      "date": "1995-02-06T13:30:00",
+      "date_gmt": "1995-02-06T04:30:00",
+      "title": {
+        "rendered": "Mansize Rooster"
+      },
+      "content": {
+        "rendered": "<p>Supergrass - Mansize Rooster</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1389
+      ],
+      "tags": [],
+      "genre": [
+        442,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5afa3W4rCWxEWeXW3hWMRe",
+        "spotify_release_date": "1995/5/15",
+        "spotify_name": "Mansize Rooster",
+        "spotify_artists": "Supergrass",
+        "spotify_album": "I Should Coco",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737d2fd2378160e40c96bc61ff",
+        "spotify_duration_ms": "155373",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.286",
+        "spotify_energy": "0.844",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.41",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0462",
+        "spotify_tempo": "163.738",
+        "spotify_valence": "0.684",
+        "spotify_acousticness": "5.29E-05",
+        "spotify_instrumentalness": "0.00205",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0596",
+        "spotify_artists01": "Supergrass",
+        "spotify_artists01_id": "0sHeX8oQ6o7xic3wMf4NBU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb07cb4c66b99dffbd82328366",
+        "spotify_artists01_genres": "alternative rock, britpop, oxford indie",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "dHlLcVHncDw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Supergrass-Mansize-Rooster.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1389,
+            "name": "Supergrass",
+            "slug": "supergrass",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1993",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "Supergrass",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Supergrass",
+        "ytvideoid": "dHlLcVHncDw",
+        "spotify_track_id": "5afa3W4rCWxEWeXW3hWMRe"
+      },
+      "genre_data": [
+        {
+          "name": "Britpop",
+          "slug": "britpop",
+          "term_id": 442,
+          "post_count": 265
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "mansize-rooster"
+    },
+    {
+      "id": 7180,
+      "date": "1994-10-17T13:28:00",
+      "date_gmt": "1994-10-17T04:28:00",
+      "title": {
+        "rendered": "Caught by the Fuzz"
+      },
+      "content": {
+        "rendered": "<p>Supergrass - Caught by the Fuzz</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1389
+      ],
+      "tags": [],
+      "genre": [
+        442,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0iAcyO7WLhnC7WOTOpjGv1",
+        "spotify_release_date": "1995/5/15",
+        "spotify_name": "Caught By the Fuzz",
+        "spotify_artists": "Supergrass",
+        "spotify_album": "I Should Coco",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737d2fd2378160e40c96bc61ff",
+        "spotify_duration_ms": "136773",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.322",
+        "spotify_energy": "0.952",
+        "spotify_key": "9",
+        "spotify_loudness": "-6.925",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.205",
+        "spotify_tempo": "161.79",
+        "spotify_valence": "0.257",
+        "spotify_acousticness": "0.000202",
+        "spotify_instrumentalness": "0.219",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0671",
+        "spotify_artists01": "Supergrass",
+        "spotify_artists01_id": "0sHeX8oQ6o7xic3wMf4NBU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb07cb4c66b99dffbd82328366",
+        "spotify_artists01_genres": "alternative rock, britpop, oxford indie",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "GNIMuvbiZcc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Supergrass-Caught-by-the-Fuzz-1.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1389,
+            "name": "Supergrass",
+            "slug": "supergrass",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1993",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "Supergrass",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Supergrass",
+        "ytvideoid": "GNIMuvbiZcc",
+        "spotify_track_id": "0iAcyO7WLhnC7WOTOpjGv1"
+      },
+      "genre_data": [
+        {
+          "name": "Britpop",
+          "slug": "britpop",
+          "term_id": 442,
+          "post_count": 265
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "caught-by-the-fuzz"
+    }
+  ],
+  "totalSongs": 24,
+  "totalPages": 2,
+  "currentPage": 2
+}

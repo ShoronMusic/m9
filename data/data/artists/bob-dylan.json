@@ -1,0 +1,72 @@
+{
+  "id": 4390,
+  "count": 50,
+  "description": "Bob Dylan is an American singer-songwriter.",
+  "link": "https://sub.music8.jp/category/bob-dylan/",
+  "name": "Bob Dylan",
+  "slug": "bob-dylan",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1959",
+    "artistborn": "19410524",
+    "artistjpname": "ボブ・ディラン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "74ASZWbe4lXaubB36ztrGX",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6772690000dd22d7064356b04a156664a37c4f"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4390",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4390"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4390"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ボブ・ディラン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6772690000dd22d7064356b04a156664a37c4f",
+  "artistActiveYearStart": "1959",
+  "occupation": "ssw"
+}

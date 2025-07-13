@@ -1,0 +1,112 @@
+{
+  "id": 2,
+  "count": 22,
+  "description": "The Police were an English rock band formed in London in 1977.",
+  "link": "https://sub.music8.jp/category/police/",
+  "name": "Police",
+  "slug": "police",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1977–1986",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ポリス",
+    "member": [
+      {
+        "term_id": 768,
+        "name": "Sting",
+        "slug": "sting",
+        "term_group": 0,
+        "term_taxonomy_id": 768,
+        "taxonomy": "category",
+        "description": "Sting, is an English musician and actor. He was the frontman, songwriter and bassist for new wave band the Police.",
+        "parent": 0,
+        "count": 50,
+        "filter": "raw"
+      },
+      {
+        "term_id": 6645,
+        "name": "Andy Summers",
+        "slug": "andy-summers",
+        "term_group": 0,
+        "term_taxonomy_id": 6645,
+        "taxonomy": "category",
+        "description": "Andy Summers is an English guitarist best known as a member of the rock band the Police.",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 6722,
+        "name": "Stewart Copeland",
+        "slug": "stewart-copeland",
+        "term_group": 0,
+        "term_taxonomy_id": 6722,
+        "taxonomy": "category",
+        "description": "Stewart Copeland is an American musician and composer. He is best known for his work as the drummer of the British rock band the Police from 1977 to 1986.",
+        "parent": 0,
+        "count": 0,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Men at Work (men-at-work) | Billy Idol (billy-idol) | Duran Duran (duran-duran) | R.E.M. (rem) | Simple Minds (simple-minds) | INXS (inxs) | Cars (cars) | Pretenders (pretenders) | Tears For Fears (tears-for-fears) | Genesis (genesis) | Sting (sting) | Supertramp (supertramp) | Toto (toto) | U2 (u2) | Eurythmics (eurythmics) | Who (who) | Peter Gabriel (peter-gabriel) | a-ha (a-ha) | Dire Straits (dire-straits) | Lenny Kravitz (lenny-kravitz)",
+    "spotify_artist_id": "5NGO30tJxFlKixkPSgXcFE",
+    "spotify_artist_images": "https://i.scdn.co/image/72fe2cadb69ab59960ae3dbd29618549e4432699",
+    "youtube_channel": "UCuCY8MR9LcAGIXetnKx5SnQ",
+    "wikipedia_page": "The_Police",
+    "spotify_artist_images_s": ""
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ポリス",
+  "spotifyArtistImages": "https://i.scdn.co/image/72fe2cadb69ab59960ae3dbd29618549e4432699",
+  "artistActiveYearStart": "1977–1986",
+  "occupation": "band"
+}

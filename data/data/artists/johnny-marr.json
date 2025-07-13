@@ -1,0 +1,76 @@
+{
+  "id": 1833,
+  "count": 5,
+  "description": " is an English musician, songwriter and singer. the guitarist and co-songwriter of the Smiths,",
+  "link": "https://sub.music8.jp/category/johnny-marr/",
+  "name": "Johnny Marr",
+  "slug": "johnny-marr",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1982",
+    "artistborn": "19631031",
+    "artistdied": "",
+    "artistjpname": "ジョニー・マー",
+    "member": [
+      {
+        "term_id": 972,
+        "name": "Smiths",
+        "slug": "smiths",
+        "term_group": 0,
+        "term_taxonomy_id": 972,
+        "taxonomy": "category",
+        "description": "The Smiths were an English rock band formed in Manchester in 1982.",
+        "parent": 0,
+        "count": 22,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1833",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1833"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1833"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジョニー・マー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1982",
+  "occupation": ""
+}

@@ -1,0 +1,201 @@
+{
+  "artist": {
+    "id": 4102,
+    "count": 1,
+    "description": "KMFDM is a Germany multinational industrial rock band.",
+    "link": "https://sub.music8.jp/category/kmfdm/",
+    "name": "KMFDM",
+    "slug": "kmfdm",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "1984",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4102",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4102"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4102"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 60724,
+      "date": "2024-01-26T21:34:55",
+      "date_gmt": "2024-01-26T12:34:55",
+      "title": {
+        "rendered": "AIRHEAD"
+      },
+      "content": {
+        "rendered": "<p>KMFDM - AIRHEAD</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4102
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        579
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "50mKl6FRdz2f1yQX3NIamx",
+        "spotify_release_date": "2024-01-26",
+        "spotify_name": "Airhead",
+        "spotify_artists": "KMFDM",
+        "spotify_album": "Airhead",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27358a7b57accc6eed398656407",
+        "spotify_duration_ms": "281739",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.472",
+        "spotify_energy": "0.932",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.082",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0299",
+        "spotify_tempo": "103.521",
+        "spotify_valence": "0.702",
+        "spotify_acousticness": "0.0000927",
+        "spotify_instrumentalness": "0.00000529",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.355",
+        "spotify_artists01": "KMFDM",
+        "spotify_artists01_id": "3V4IvzRQYP5mzuVtkcHgVa",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6a76d5a5d332ac3af978720e",
+        "spotify_artists01_genres": "cyberpunk, industrial metal, industrial rock, neue deutsche harte",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "SdoxIBCIR-Y",
+        "ytreleasedate": "2024/01/26"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/KMFDM-AIRHEAD.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4102,
+            "name": "KMFDM",
+            "slug": "kmfdm",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1984",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "KMFDM",
+        "ytvideoid": "SdoxIBCIR-Y",
+        "spotify_track_id": "50mKl6FRdz2f1yQX3NIamx"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Industrial rock",
+          "slug": "industrial-rock",
+          "term_id": 579,
+          "post_count": 99
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "airhead"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

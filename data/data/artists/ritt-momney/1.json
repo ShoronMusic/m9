@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 1601,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/ritt-momney/",
+    "name": "Ritt Momney",
+    "slug": "ritt-momney",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1601",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1601"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1601"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41596,
+      "date": "2020-04-24T13:41:00",
+      "date_gmt": "2020-04-24T04:41:00",
+      "title": {
+        "rendered": "Put Your Records On"
+      },
+      "content": {
+        "rendered": "\n<p>RittMomney-PutYourRecordsOn</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1601
+      ],
+      "tags": [],
+      "genre": [
+        427,
+        484,
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "6AGOKlMZWLCaEJGnaROtF9",
+        "spotify_release_date": "2020/4/24",
+        "spotify_name": "Put Your Records On",
+        "spotify_artists": "Ritt Momney",
+        "spotify_album": "Put Your Records On",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d52d8eb3be188231e120dbbd",
+        "spotify_duration_ms": "210463",
+        "spotify_popularity": "76",
+        "spotify_danceability": "0.399",
+        "spotify_energy": "0.491",
+        "spotify_key": "6",
+        "spotify_loudness": "-10.778",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0538",
+        "spotify_tempo": "91.066",
+        "spotify_valence": "0.151",
+        "spotify_acousticness": "0.0563",
+        "spotify_instrumentalness": "0.00089",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.11",
+        "spotify_artists01": "Ritt Momney",
+        "spotify_artists01_id": "7MPGCB854Qo4alYMOPkBka",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8886486feba69252eca7a09b",
+        "spotify_artists01_genres": "bedroom pop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "WyVfkr6nsrk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Ritt-Momney-Put-Your-Records-On.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1601,
+            "name": "Ritt Momney",
+            "slug": "ritt-momney",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Ritt Momney",
+        "ytvideoid": "WyVfkr6nsrk",
+        "spotify_track_id": "6AGOKlMZWLCaEJGnaROtF9"
+      },
+      "genre_data": [
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        },
+        {
+          "name": "Downtempo",
+          "slug": "downtempo",
+          "term_id": 484,
+          "post_count": 60
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "put-your-records-on"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

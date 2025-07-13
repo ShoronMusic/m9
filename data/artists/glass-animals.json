@@ -1,0 +1,63 @@
+{
+  "id": 1547,
+  "count": 5,
+  "description": "Glass Animals are an English indie rock band.",
+  "link": "https://sub.music8.jp/category/glass-animals/",
+  "name": "Glass Animals",
+  "slug": "glass-animals",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2010",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "グラス・アニマルズ",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1547",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1547"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1547"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "グラス・アニマルズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2010",
+  "occupation": ""
+}

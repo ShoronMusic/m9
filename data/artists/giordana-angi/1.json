@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2616,
+    "count": 1,
+    "description": "ITA",
+    "link": "https://sub.music8.jp/category/giordana-angi/",
+    "name": "Giordana Angi",
+    "slug": "giordana-angi",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2616",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2616"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2616"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39720,
+      "date": "2022-04-26T22:16:00",
+      "date_gmt": "2022-04-26T13:16:00",
+      "title": {
+        "rendered": "Le cose che non dico"
+      },
+      "content": {
+        "rendered": "\n<p>GiordanaAngi-Lecosechenondico</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2616
+      ],
+      "tags": [],
+      "genre": [
+        501
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0QEWhtOJ1uj6YDaMt9OnAc",
+        "spotify_release_date": "2022/10/27",
+        "spotify_name": "Lecosechenondico",
+        "spotify_artists": "GiordanaAngi",
+        "spotify_album": "QuestaFragileBellezza",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27367e59f84f76c976ea2a246fd",
+        "spotify_duration_ms": "165573",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.661",
+        "spotify_energy": "0.701",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.525",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.04",
+        "spotify_tempo": "126.047",
+        "spotify_valence": "0.312",
+        "spotify_acousticness": "0.0394",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.111",
+        "spotify_artists01": "GiordanaAngi",
+        "spotify_artists01_id": "0ZhqSTaEEWN6USw0E30pws",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc9bd536a42651dc53aeb5c96",
+        "spotify_artists01_genres": "italianadultpop,italianpop",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ThRdKV9Uxh0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Giordana-Angi-Le-cose-che-non-dico.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2616,
+            "name": "Giordana Angi",
+            "slug": "giordana-angi",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "GiordanaAngi",
+        "ytvideoid": "ThRdKV9Uxh0",
+        "spotify_track_id": "0QEWhtOJ1uj6YDaMt9OnAc"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "le-cose-che-non-dico"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

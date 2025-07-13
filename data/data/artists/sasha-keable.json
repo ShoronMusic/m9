@@ -1,0 +1,76 @@
+{
+  "id": 5183,
+  "count": 4,
+  "description": "Sasha Keable is a British singer and songwriter.",
+  "link": "https://sub.music8.jp/category/sasha-keable/",
+  "name": "Sasha Keable",
+  "slug": "sasha-keable",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "",
+    "artistborn": "19940227",
+    "artistjpname": "サシャ・キーブル ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7MxGWmiAbqjNOGmj23wbWf",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517420f89b1bbd24a1b88f9d1145"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5183",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5183"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5183"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "サシャ・キーブル ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517420f89b1bbd24a1b88f9d1145",
+  "artistActiveYearStart": "",
+  "occupation": "singer, songwriter"
+}

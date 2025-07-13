@@ -1,0 +1,234 @@
+{
+  "artist": {
+    "id": 4532,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/babyidontlikeyou/",
+    "name": "babyidontlikeyou",
+    "slug": "babyidontlikeyou",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": [
+        {
+          "term_id": 1226,
+          "name": "Bon Jovi",
+          "slug": "bon-jovi",
+          "term_group": 0,
+          "term_taxonomy_id": 1226,
+          "taxonomy": "category",
+          "description": "Bon Jovi is an American rock band.",
+          "parent": 0,
+          "count": 27,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4532",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4532"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4532"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 66295,
+      "date": "2024-04-24T07:55:19",
+      "date_gmt": "2024-04-23T22:55:19",
+      "title": {
+        "rendered": "MAGIC"
+      },
+      "content": {
+        "rendered": "<p>GRYFFIN - MAGIC (ft. babyidontlikeyou)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4532,
+        1380
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        529
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "fgmDgWUYFY4",
+        "ytreleasedate": "2024/04/24",
+        "spotify_track_id": "7pTC4natqyNBB0EBtdDeYi",
+        "spotify_release_date": "2024-04-24",
+        "spotify_name": "MAGIC (feat. babyidontlikeyou)",
+        "spotify_artists": "Gryffin, babyidontlikeyou",
+        "spotify_album": "MAGIC",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735d01971ec90ce59944076366",
+        "spotify_duration_ms": "202746",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.589",
+        "spotify_energy": "0.881",
+        "spotify_key": "6",
+        "spotify_loudness": "-5.23",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.049",
+        "spotify_tempo": "137.012",
+        "spotify_valence": "0.34",
+        "spotify_acousticness": "0.00827",
+        "spotify_instrumentalness": "0.00277",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.348",
+        "spotify_artists01": "Gryffin",
+        "spotify_artists01_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9846c7c98ffc08fee6ebe5be",
+        "spotify_artists01_genres": "edm, pop dance",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "babyidontlikeyou",
+        "spotify_artists02_id": "0vvLUDvumHN2BRVL0ks8Uq",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb3bcc7307cb74bc8dffbd423b",
+        "spotify_artists02_genres": "uk pop",
+        "spotify_artists02_popularity": "35",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2735d01971ec90ce59944076366.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4532,
+            "name": "babyidontlikeyou",
+            "slug": "babyidontlikeyou",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": [
+                {
+                  "term_id": 1226,
+                  "name": "Bon Jovi",
+                  "slug": "bon-jovi",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1226,
+                  "taxonomy": "category",
+                  "description": "Bon Jovi is an American rock band.",
+                  "parent": 0,
+                  "count": 27,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1380,
+            "name": "Gryffin",
+            "slug": "gryffin",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "19870929",
+              "artistdied": "",
+              "artistjpname": "グリフィン",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Gryffin, babyidontlikeyou",
+        "ytvideoid": "fgmDgWUYFY4",
+        "spotify_track_id": "7pTC4natqyNBB0EBtdDeYi"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Future bass",
+          "slug": "future-bass",
+          "term_id": 529,
+          "post_count": 49
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "magic-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

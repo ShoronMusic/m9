@@ -1,0 +1,222 @@
+{
+  "artist": {
+    "id": 5468,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/emery-taylor/",
+    "name": "Emery Taylor",
+    "slug": "emery-taylor",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "BRA",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5468",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5468"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5468"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 74029,
+      "date": "2024-07-13T17:20:14",
+      "date_gmt": "2024-07-13T08:20:14",
+      "title": {
+        "rendered": "Hero"
+      },
+      "content": {
+        "rendered": "<p>Vintage Culture, Emery Taylor - Hero</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5468,
+        2671
+      ],
+      "tags": [],
+      "genre": [
+        670
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "1sZhzKHPDTE",
+        "ytreleasedate": "",
+        "spotify_track_id": "42j9s3ezCCR9wC1fJ4X3iz",
+        "spotify_release_date": "2024-06-28",
+        "spotify_name": "Hero",
+        "spotify_artists": "Vintage Culture, Emery Taylor",
+        "spotify_album": "Hero",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b61beaaa0bca4f10533ec5c8",
+        "spotify_duration_ms": "232318",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.66",
+        "spotify_energy": "0.913",
+        "spotify_key": "8",
+        "spotify_loudness": "-7.149",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0507",
+        "spotify_tempo": "123.983",
+        "spotify_valence": "0.416",
+        "spotify_acousticness": "0.0108",
+        "spotify_instrumentalness": "0.0000284",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0979",
+        "spotify_artists01": "Vintage Culture",
+        "spotify_artists01_id": "28uJnu5EsrGml2tBd7y8ts",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb92eacfdce994329ee715ff3c",
+        "spotify_artists01_genres": "brazilian edm",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "Emery Taylor",
+        "spotify_artists02_id": "73xTk3QtMXI3Hd5PBVkNwx",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab67616d0000b27367566a4dde0027a90c1882f0",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "39",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273b61beaaa0bca4f10533ec5c8.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5468,
+            "name": "Emery Taylor",
+            "slug": "emery-taylor",
+            "acf": {
+              "artistorigin": "BRA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2671,
+            "name": "Vintage Culture",
+            "slug": "vintage-culture",
+            "acf": {
+              "artistorigin": "BRA",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19930707",
+              "artistdied": "",
+              "artistjpname": "ヴィンテージ・カルチャー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "28uJnu5EsrGml2tBd7y8ts",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174b2858408e6d69098e07329fd",
+              "youtube_channel": "UC4N1snt2b0d83vOkvaWP6mg",
+              "wikipedia_page": "Vintage_Culture"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Vintage Culture, Emery Taylor",
+        "ytvideoid": "1sZhzKHPDTE",
+        "spotify_track_id": "42j9s3ezCCR9wC1fJ4X3iz"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hero-4"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,209 @@
+{
+  "artist": {
+    "id": 3274,
+    "count": 1,
+    "description": "Thomas Anders is a German singer, songwriter and record producer.",
+    "link": "https://sub.music8.jp/category/thomas-anders/",
+    "name": "Thomas Anders",
+    "slug": "thomas-anders",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "1980",
+      "artistborn": "19630301",
+      "artistjpname": "トーマス・アンダース",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3274",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3274"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3274"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52368,
+      "date": "2023-03-05T22:50:32",
+      "date_gmt": "2023-03-05T13:50:32",
+      "title": {
+        "rendered": "THE JOURNEY OF LIFE"
+      },
+      "content": {
+        "rendered": "<p>Thomas Anders - THE JOURNEY OF LIFE</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3274
+      ],
+      "tags": [],
+      "genre": [
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "558ItOQNa0cKgBKgwpcW3w",
+        "spotify_release_date": "2023-03-01",
+        "spotify_name": "The Journey of Life",
+        "spotify_artists": "Thomas Anders",
+        "spotify_album": "The Journey of Life",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b5435bcaa86eb796656a25ec",
+        "spotify_duration_ms": "210730",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.584",
+        "spotify_energy": "0.939",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.186",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0342",
+        "spotify_tempo": "127.991",
+        "spotify_valence": "0.848",
+        "spotify_acousticness": "0.000893",
+        "spotify_instrumentalness": "0.00519",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.226",
+        "spotify_artists01": "Thomas Anders",
+        "spotify_artists01_id": "5YST2BJLoQVVhyXoZfbCZ0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb591a8cb65e7c7bff7fcf2a3c",
+        "spotify_artists01_genres": "schlager",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "fnUXGGK2LAI",
+        "ytreleasedate": "2023/03/05"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Thomas-Anders-THE-JOURNEY-OF-LIFE.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3274,
+            "name": "Thomas Anders",
+            "slug": "thomas-anders",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1980",
+              "artistborn": "19630301",
+              "artistjpname": "トーマス・アンダース",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Thomas Anders",
+        "ytvideoid": "fnUXGGK2LAI",
+        "spotify_track_id": "558ItOQNa0cKgBKgwpcW3w"
+      },
+      "genre_data": [
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-journey-of-life"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

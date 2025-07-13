@@ -1,0 +1,72 @@
+{
+  "id": 5520,
+  "count": 3,
+  "description": "Solar Fake is a German synthpop/industrial band.",
+  "link": "https://sub.music8.jp/category/solar-fake/",
+  "name": "Solar Fake",
+  "slug": "solar-fake",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "2007",
+    "artistborn": "",
+    "artistjpname": "ソーラー・フェイク",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Frozen Plasma | Solitary Experiments (solitary-experiments) | CHROM | Diorama | Namnambulu | Culture Kultur | Absurd Minds | RROYCE | Angels and Agony | Zeraphine | Eisfabrik | In Strict Confidence | T.O.Y. | Ruined Conflict | Rotersand | Felix Marc | Colony 5 | Pride And Fall | [:SITD:] | Lights Of Euphoria",
+    "spotify_artist_id": "1ZJYzl0sevnazdNkEYsAOW",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174dfd50239d795ad834953aaa1"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5520",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5520"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5520"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ソーラー・フェイク",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174dfd50239d795ad834953aaa1",
+  "artistActiveYearStart": "2007",
+  "occupation": "band"
+}

@@ -1,0 +1,72 @@
+{
+  "id": 5177,
+  "count": 4,
+  "description": "FEVER 333  is an American rock band.",
+  "link": "https://sub.music8.jp/category/fever-333/",
+  "name": "FEVER 333",
+  "slug": "fever-333",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2017",
+    "artistborn": "",
+    "artistjpname": "フィーバー333",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1B0155rdv175D1tQ8VH7Oy",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a8baf13b472a5a9e722684f3"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5177",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5177"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5177"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "フィーバー333",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a8baf13b472a5a9e722684f3",
+  "artistActiveYearStart": "2017",
+  "occupation": "band"
+}

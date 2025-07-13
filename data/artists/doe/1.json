@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2156,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/doe/",
+    "name": "DOE",
+    "slug": "doe",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2156",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2156"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2156"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40394,
+      "date": "2022-01-28T22:49:00",
+      "date_gmt": "2022-01-28T13:49:00",
+      "title": {
+        "rendered": "So Good"
+      },
+      "content": {
+        "rendered": "\n<p>DOE-SoGood</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2156
+      ],
+      "tags": [],
+      "genre": [
+        685,
+        719
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "07Jh9acjGe72cCWWHwjtm1",
+        "spotify_release_date": "2022/2/18",
+        "spotify_name": "SoGood",
+        "spotify_artists": "DOE",
+        "spotify_album": "Clarity",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ac04dcf412e0df71cd51ee3b",
+        "spotify_duration_ms": "191621",
+        "spotify_popularity": "36",
+        "spotify_danceability": "0.671",
+        "spotify_energy": "0.59",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.959",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0261",
+        "spotify_tempo": "89.985",
+        "spotify_valence": "0.482",
+        "spotify_acousticness": "0.299",
+        "spotify_instrumentalness": "1.09E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.126",
+        "spotify_artists01": "DOE",
+        "spotify_artists01_id": "7z7byOJ4AJnMY2NHE66ZpW",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2b9d22f9fbd02567a30d9d73",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "49",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "kQAu6WB-INc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/DOE-So-Good.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2156,
+            "name": "DOE",
+            "slug": "doe",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "DOE",
+        "ytvideoid": "kQAu6WB-INc",
+        "spotify_track_id": "07Jh9acjGe72cCWWHwjtm1"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "so-good"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

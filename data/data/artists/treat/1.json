@@ -1,0 +1,326 @@
+{
+  "artist": {
+    "id": 2508,
+    "count": 2,
+    "description": "Treat is a Swedish rock band.",
+    "link": "https://sub.music8.jp/category/treat/",
+    "name": "Treat",
+    "slug": "treat",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "1981",
+      "artistborn": "20231107",
+      "artistdied": "",
+      "artistjpname": "トリート",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2508",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2508"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2508"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40035,
+      "date": "2022-03-15T17:51:00",
+      "date_gmt": "2022-03-15T08:51:00",
+      "title": {
+        "rendered": "Carolina Reaper"
+      },
+      "content": {
+        "rendered": "\n<p>Treat-CarolinaReaper</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2508
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3bNmRHEn9vurQcFpk29sh7",
+        "spotify_release_date": "2022/4/8",
+        "spotify_name": "CarolinaReaper",
+        "spotify_artists": "Treat",
+        "spotify_album": "TheEndgame",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734c5295b2a975d2c1509d8d5e",
+        "spotify_duration_ms": "230099",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.518",
+        "spotify_energy": "0.952",
+        "spotify_key": "6",
+        "spotify_loudness": "-3.19",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0552",
+        "spotify_tempo": "129.95",
+        "spotify_valence": "0.58",
+        "spotify_acousticness": "5.20E-05",
+        "spotify_instrumentalness": "8.22E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0539",
+        "spotify_artists01": "Treat",
+        "spotify_artists01_id": "6HY1gnFOOY9ZAgQtzvtZHI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaa813982e04ec5ac5faf029e",
+        "spotify_artists01_genres": "glammetal,melodichardrock,swedishhardrock,swedishmelodicrock",
+        "spotify_artists01_popularity": "31",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "aIzK_8ecYOs",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Treat-Carolina-Reaper.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2508,
+            "name": "Treat",
+            "slug": "treat",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "1981",
+              "artistborn": "20231107",
+              "artistdied": "",
+              "artistjpname": "トリート",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Treat",
+        "ytvideoid": "aIzK_8ecYOs",
+        "spotify_track_id": "3bNmRHEn9vurQcFpk29sh7"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "carolina-reaper"
+    },
+    {
+      "id": 40370,
+      "date": "2022-02-11T07:59:00",
+      "date_gmt": "2022-02-10T22:59:00",
+      "title": {
+        "rendered": "Home Of The Brave"
+      },
+      "content": {
+        "rendered": "\n<p>Treat-HomeOfTheBrave</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2508
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2DDjaE8vQfzWnzM7F1gNoe",
+        "spotify_release_date": "2022/4/8",
+        "spotify_name": "HomeoftheBrave",
+        "spotify_artists": "Treat",
+        "spotify_album": "TheEndgame",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734c5295b2a975d2c1509d8d5e",
+        "spotify_duration_ms": "250058",
+        "spotify_popularity": "33",
+        "spotify_danceability": "0.456",
+        "spotify_energy": "0.884",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.624",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0487",
+        "spotify_tempo": "125.059",
+        "spotify_valence": "0.354",
+        "spotify_acousticness": "2.05E-05",
+        "spotify_instrumentalness": "0.000586",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0948",
+        "spotify_artists01": "Treat",
+        "spotify_artists01_id": "6HY1gnFOOY9ZAgQtzvtZHI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaa813982e04ec5ac5faf029e",
+        "spotify_artists01_genres": "glammetal,melodichardrock,swedishhardrock,swedishmelodicrock",
+        "spotify_artists01_popularity": "31",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "cj1c5Lcyiw0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Treat-Home-of-the-Brave.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2508,
+            "name": "Treat",
+            "slug": "treat",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "1981",
+              "artistborn": "20231107",
+              "artistdied": "",
+              "artistjpname": "トリート",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Treat",
+        "ytvideoid": "cj1c5Lcyiw0",
+        "spotify_track_id": "2DDjaE8vQfzWnzM7F1gNoe"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "home-of-the-brave"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 5691,
+  "count": 1,
+  "description": "Seether are a South African rock band.",
+  "link": "https://sub.music8.jp/category/seether/",
+  "name": "Seether",
+  "slug": "seether",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "RSA",
+    "artistactiveyearstart": "1999",
+    "artistborn": "",
+    "artistjpname": "シーザー",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Puddle Of Mudd | Theory of a Deadman (theory-of-a-deadman) | Staind | Saving Abel | Hinder | Saliva | Crossfade | Trapt | Chevelle | Shinedown (shinedown) | Finger Eleven | Godsmack (godsmack) | SICK PUPPIES | 10 Years | Breaking Benjamin | Drowning Pool | Stone Sour | 3 Doors Down | Fuel (fuel) | Pop Evil",
+    "spotify_artist_id": "6B5c4sch27tWHAGdarpPaW",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bab1b739387a6e515dd2f160"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5691",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5691"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5691"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "シーザー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174bab1b739387a6e515dd2f160",
+  "artistActiveYearStart": "1999",
+  "occupation": "band"
+}

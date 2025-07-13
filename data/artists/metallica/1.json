@@ -1,0 +1,313 @@
+{
+  "artist": {
+    "id": 2445,
+    "count": 2,
+    "description": "Metallica is an American heavy metal band.",
+    "link": "https://sub.music8.jp/category/metallica/",
+    "name": "Metallica",
+    "slug": "metallica",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1981",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "メタリカ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2445",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2445"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2445"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52519,
+      "date": "2023-09-15T13:28:44",
+      "date_gmt": "2023-09-15T04:28:44",
+      "title": {
+        "rendered": "Too Far Gone?"
+      },
+      "content": {
+        "rendered": "<p>Metallica - Too Far Gone?</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2445
+      ],
+      "tags": [],
+      "genre": [
+        560,
+        745
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "0hJd6QkGR6S56fy7XFyaom",
+        "spotify_release_date": "2023-09-15",
+        "spotify_name": "Too Far Gone?",
+        "spotify_artists": "メタリカ",
+        "spotify_album": "Too Far Gone? (Live at MetLife Stadium, East Rutherford, NJ – August 6, 2023)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cf933f937a7ad787ec3e42ef",
+        "spotify_duration_ms": "273693",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.462",
+        "spotify_energy": "0.99",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.134",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.047",
+        "spotify_tempo": "96.579",
+        "spotify_valence": "0.492",
+        "spotify_acousticness": "0.0000277",
+        "spotify_instrumentalness": "0.0261",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0999",
+        "spotify_artists01": "メタリカ",
+        "spotify_artists01_id": "2ye2Wgw4gimLv2eAKyk1NB",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb69ca98dd3083f1082d740e44",
+        "spotify_artists01_genres": "hard rock, metal, old school thrash, rock, thrash metal",
+        "spotify_artists01_popularity": "81",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "T-6Cx-VxXxI",
+        "ytreleasedate": "2023/09/15"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Metallica-Too-Far-Gone.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2445,
+            "name": "Metallica",
+            "slug": "metallica",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1981",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "メタリカ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "メタリカ",
+        "ytvideoid": "T-6Cx-VxXxI",
+        "spotify_track_id": "0hJd6QkGR6S56fy7XFyaom"
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        },
+        {
+          "name": "Thrash metal",
+          "slug": "thrash-metal",
+          "term_id": 745,
+          "post_count": 7
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "too-far-gone"
+    },
+    {
+      "id": 38248,
+      "date": "2022-11-29T23:08:00",
+      "date_gmt": "2022-11-29T14:08:00",
+      "title": {
+        "rendered": "Lux Aterna"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2445
+      ],
+      "tags": [],
+      "genre": [
+        725,
+        745
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0QfZ8OHFnFzLe66iFBww2U",
+        "spotify_release_date": "2022/11/28",
+        "spotify_name": "Lux?terna",
+        "spotify_artists": "Metallica",
+        "spotify_album": "Lux?terna",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e79f40ea18f4738b8e910b27",
+        "spotify_duration_ms": "205679",
+        "spotify_popularity": "68",
+        "spotify_danceability": "0.418",
+        "spotify_energy": "0.995",
+        "spotify_key": "11",
+        "spotify_loudness": "-2.974",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0804",
+        "spotify_tempo": "130.493",
+        "spotify_valence": "0.243",
+        "spotify_acousticness": "1.40E-05",
+        "spotify_instrumentalness": "0.0005",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.132",
+        "spotify_artists01": "Metallica",
+        "spotify_artists01_id": "2ye2Wgw4gimLv2eAKyk1NB",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb69ca98dd3083f1082d740e44",
+        "spotify_artists01_genres": "hardrock,metal,oldschoolthrash,rock,thrashmetal",
+        "spotify_artists01_popularity": "82",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "u-7rWKnVVo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Metallica-Lux-AEterna.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2445,
+            "name": "Metallica",
+            "slug": "metallica",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1981",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "メタリカ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Metallica",
+        "ytvideoid": "u-7rWKnVVo",
+        "spotify_track_id": "0QfZ8OHFnFzLe66iFBww2U"
+      },
+      "genre_data": [
+        {
+          "name": "Speed metal",
+          "slug": "speed-metal",
+          "term_id": 725,
+          "post_count": 6
+        },
+        {
+          "name": "Thrash metal",
+          "slug": "thrash-metal",
+          "term_id": 745,
+          "post_count": 7
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "lux-aeterna"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

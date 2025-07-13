@@ -1,0 +1,189 @@
+{
+  "artist": {
+    "id": 5747,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/brye/",
+    "name": "Brye",
+    "slug": "brye",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5747",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5747"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5747"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 79808,
+      "date": "2024-08-23T15:31:59",
+      "date_gmt": "2024-08-23T06:31:59",
+      "title": {
+        "rendered": "My Bodys My Buddy"
+      },
+      "content": {
+        "rendered": "<p>Tessa Violet, Brye - My Bodys My Buddy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5747,
+        1295
+      ],
+      "tags": [],
+      "genre": [
+        427
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "PE9sIz4IAmE",
+        "ytreleasedate": "2024/08/23",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1Ra2A7WtslDs3V6bEwpVkO",
+        "spotify_release_date": "2024-08-23",
+        "spotify_name": "My Body's My Buddy",
+        "spotify_artists": "Tessa Violet, Brye",
+        "spotify_album": "My Body's My Buddy",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27342eb75b29fad58330ae7952c",
+        "spotify_duration_ms": "208983",
+        "spotify_popularity": "12",
+        "spotify_danceability": "0.67",
+        "spotify_energy": "0.487",
+        "spotify_key": "2",
+        "spotify_loudness": "-9.802",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0339",
+        "spotify_tempo": "146.889",
+        "spotify_valence": "0.747",
+        "spotify_acousticness": "0.876",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0712",
+        "spotify_artists01": "Tessa Violet",
+        "spotify_artists01_id": "5DD5GZd4ElmQTy9NleMvKJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe73bbec9dd078c35607eb114",
+        "spotify_artists01_genres": "alt z, indie pop, pov: indie",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "Brye",
+        "spotify_artists02_id": "6Z5uMO0V6jlOuZ7LUDrSsC",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc9b5105c3ab5e6ef900874cc",
+        "spotify_artists02_genres": "alt z, modern indie pop",
+        "spotify_artists02_popularity": "45",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27342eb75b29fad58330ae7952c.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5747,
+            "name": "Brye",
+            "slug": "brye",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1295,
+            "name": "Tessa Violet",
+            "slug": "tessa-violet",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "19900320",
+              "artistdied": "",
+              "artistjpname": "テッサ・ヴァイオレット",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Tessa Violet, Brye",
+        "ytvideoid": "PE9sIz4IAmE",
+        "spotify_track_id": "1Ra2A7WtslDs3V6bEwpVkO"
+      },
+      "genre_data": [
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "my-bodys-my-buddy"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

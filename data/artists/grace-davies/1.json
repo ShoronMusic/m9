@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2594,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/grace-davies/",
+    "name": "Grace Davies",
+    "slug": "grace-davies",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2594",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2594"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2594"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39241,
+      "date": "2022-07-05T01:59:00",
+      "date_gmt": "2022-07-04T16:59:00",
+      "title": {
+        "rendered": "Wolves"
+      },
+      "content": {
+        "rendered": "\n<p>GraceDavies-Wolves</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2594
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5Agqr1d0H8GGQXZ9WHNvWL",
+        "spotify_release_date": "2022/7/1",
+        "spotify_name": "Wolves",
+        "spotify_artists": "GraceDavies",
+        "spotify_album": "Wolves",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735ecb9221b9576afa9ec77de7",
+        "spotify_duration_ms": "217775",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.721",
+        "spotify_energy": "0.67",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.007",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0424",
+        "spotify_tempo": "119.988",
+        "spotify_valence": "0.342",
+        "spotify_acousticness": "0.223",
+        "spotify_instrumentalness": "3.70E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.455",
+        "spotify_artists01": "GraceDavies",
+        "spotify_artists01_id": "55VbVrjmAWcvCknVFfPzvK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8440731884df933e17ab8eaa",
+        "spotify_artists01_genres": "ukpop",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "0n5EJ2815UQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Grace-Davies-Wolves.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2594,
+            "name": "Grace Davies",
+            "slug": "grace-davies",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "GraceDavies",
+        "ytvideoid": "0n5EJ2815UQ",
+        "spotify_track_id": "5Agqr1d0H8GGQXZ9WHNvWL"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "wolves-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

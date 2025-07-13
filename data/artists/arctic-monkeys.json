@@ -1,0 +1,72 @@
+{
+  "id": 2271,
+  "count": 4,
+  "description": "Arctic Monkeys are an English rock band.",
+  "link": "https://sub.music8.jp/category/arctic-monkeys/",
+  "name": "Arctic Monkeys",
+  "slug": "arctic-monkeys",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2002",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "アークティック・モンキーズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7Ln80lUS6He07XvHI8qqHH",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747da39dea0a72f581535fb11f"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2271",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2271"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2271"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アークティック・モンキーズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051747da39dea0a72f581535fb11f",
+  "artistActiveYearStart": "2002",
+  "occupation": "band"
+}

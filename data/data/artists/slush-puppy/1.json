@@ -1,0 +1,214 @@
+{
+  "artist": {
+    "id": 1405,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/slush-puppy/",
+    "name": "Slush Puppy",
+    "slug": "slush-puppy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1405",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1405"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1405"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40830,
+      "date": "2021-07-23T22:54:00",
+      "date_gmt": "2021-07-23T13:54:00",
+      "title": {
+        "rendered": "EAT SPIT!"
+      },
+      "content": {
+        "rendered": "\n<p>SlushPuppy-EATSPIT!(feat.Royal&amp;theSerpent)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1401,
+        1405
+      ],
+      "tags": [],
+      "genre": [
+        567,
+        640,
+        657
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "1aFP0G0GHQAAH9gfC95wT1",
+        "spotify_release_date": "2021/7/23",
+        "spotify_name": "EAT SPIT! (feat. Royal & the Serpent)",
+        "spotify_artists": "Slush Puppy, Royal & the Serpent",
+        "spotify_album": "EAT SPIT! (feat. Royal & the Serpent)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d4a90d15fa73d71ce0d21cdd",
+        "spotify_duration_ms": "123571",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.763",
+        "spotify_energy": "0.805",
+        "spotify_key": "1",
+        "spotify_loudness": "-2.694",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.395",
+        "spotify_tempo": "167.978",
+        "spotify_valence": "0.402",
+        "spotify_acousticness": "0.0228",
+        "spotify_instrumentalness": "0.000154",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0776",
+        "spotify_artists01": "Slush Puppy",
+        "spotify_artists01_id": "58eJhHRICp87T2IFcP0bYh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba6e59d6321161c3c8158567b",
+        "spotify_artists01_genres": "socal indie",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "Royal & the Serpent",
+        "spotify_artists02_id": "64EHXDoln95lnccszdPum0",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb8052f9bcf32603eb858a0ee3",
+        "spotify_artists02_genres": "alt z, indie electropop, modern alternative pop",
+        "spotify_artists02_popularity": "58",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "X5Gg3rjxyWY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Slush-Puppy-EAT-SPIT.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1401,
+            "name": "Royal &amp; the Serpent",
+            "slug": "royal-the-serpent",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "19940325",
+              "artistdied": "",
+              "artistjpname": "ロイヤル＆ザ・サーペント",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "64EHXDoln95lnccszdPum0",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051745349d438ddcc473097449c25",
+              "spotify_artist_images_s": "Royal_%26_the_Serpent",
+              "youtube_channel": "UCnDGv_C_RTel5Ga2UugQxFw",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1405,
+            "name": "Slush Puppy",
+            "slug": "slush-puppy",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Slush Puppy, Royal & the Serpent",
+        "ytvideoid": "X5Gg3rjxyWY",
+        "spotify_track_id": "1aFP0G0GHQAAH9gfC95wT1"
+      },
+      "genre_data": [
+        {
+          "name": "Hyperpop",
+          "slug": "hyperpop",
+          "term_id": 567,
+          "post_count": 29
+        },
+        {
+          "name": "Noise pop",
+          "slug": "noise-pop",
+          "term_id": 640,
+          "post_count": 76
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "eat-spit"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

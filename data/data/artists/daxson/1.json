@@ -1,0 +1,176 @@
+{
+  "artist": {
+    "id": 2720,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/daxson/",
+    "name": "Daxson",
+    "slug": "daxson",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2720",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2720"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2720"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38705,
+      "date": "2022-09-17T00:11:00",
+      "date_gmt": "2022-09-16T15:11:00",
+      "title": {
+        "rendered": "The Only Way"
+      },
+      "content": {
+        "rendered": "\n<p>Daxson&amp;Numa-TheOnlyWay</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2720,
+        2721
+      ],
+      "tags": [],
+      "genre": [
+        747
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3LiU1IMIbzPR5MpOmo8HDt",
+        "spotify_release_date": "2022/9/16",
+        "spotify_name": "TheOnlyWay",
+        "spotify_artists": "Daxson,Numa",
+        "spotify_album": "TheOnlyWay",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273bb99503649f65153d5fd5eb0",
+        "spotify_duration_ms": "286222",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.463",
+        "spotify_energy": "0.9",
+        "spotify_key": "3",
+        "spotify_loudness": "-5.477",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0811",
+        "spotify_tempo": "134.973",
+        "spotify_valence": "0.0775",
+        "spotify_acousticness": "0.014",
+        "spotify_instrumentalness": "0.00445",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0958",
+        "spotify_artists01": "Daxson",
+        "spotify_artists01_id": "4WwMR8h0vztJLNgiL5ZFqW",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd0e7f0b344399e6628215831",
+        "spotify_artists01_genres": "progressivetrance",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "Numa",
+        "spotify_artists02_id": "7jCganF9yBJtcZRZjqQInS",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb6b507a12f2314fb1f973364e",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "30",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "jT7SY3CRnUI",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Daxson-Numa-The-Only-Way.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2720,
+            "name": "Daxson",
+            "slug": "daxson",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2721,
+            "name": "Numa",
+            "slug": "numa",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Daxson,Numa",
+        "ytvideoid": "jT7SY3CRnUI",
+        "spotify_track_id": "3LiU1IMIbzPR5MpOmo8HDt"
+      },
+      "genre_data": [
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "the-only-way"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

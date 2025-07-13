@@ -1,0 +1,455 @@
+{
+  "artist": {
+    "id": 3517,
+    "count": 3,
+    "description": "Manchester Orchestra is an American indie rock band.",
+    "link": "https://sub.music8.jp/category/manchester-orchestra/",
+    "name": "Manchester Orchestra",
+    "slug": "manchester-orchestra",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2004",
+      "artistborn": "",
+      "artistjpname": "マンチェスター・オーケストラ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3517",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3517"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3517"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 55028,
+      "date": "2023-10-21T13:09:39",
+      "date_gmt": "2023-10-21T04:09:39",
+      "title": {
+        "rendered": "The Way"
+      },
+      "content": {
+        "rendered": "<p>Manchester Orchestra - The Way</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3517
+      ],
+      "tags": [],
+      "genre": [
+        484,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2wlZIwHXloe802coeEhJ3T",
+        "spotify_release_date": "2023-03-07",
+        "spotify_name": "The Way",
+        "spotify_artists": "Manchester Orchestra",
+        "spotify_album": "The Way",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273275566b9419767883a17972a",
+        "spotify_duration_ms": "234891",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.479",
+        "spotify_energy": "0.521",
+        "spotify_key": "0",
+        "spotify_loudness": "-7.387",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0438",
+        "spotify_tempo": "78.096",
+        "spotify_valence": "0.198",
+        "spotify_acousticness": "0.204",
+        "spotify_instrumentalness": "0.382",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.14",
+        "spotify_artists01": "Manchester Orchestra",
+        "spotify_artists01_id": "5wFXmYsg3KFJ8BDsQudJ4f",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc76415b4869d52d07f6fe5fd",
+        "spotify_artists01_genres": "indie rock",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "mwRA2_RVR7A",
+        "ytreleasedate": "2023/10/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Manchester-Orchestra-The-Way.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3517,
+            "name": "Manchester Orchestra",
+            "slug": "manchester-orchestra",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistjpname": "マンチェスター・オーケストラ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Manchester Orchestra",
+        "ytvideoid": "mwRA2_RVR7A",
+        "spotify_track_id": "2wlZIwHXloe802coeEhJ3T"
+      },
+      "genre_data": [
+        {
+          "name": "Downtempo",
+          "slug": "downtempo",
+          "term_id": 484,
+          "post_count": 60
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-way"
+    },
+    {
+      "id": 55036,
+      "date": "2023-06-08T13:16:24",
+      "date_gmt": "2023-06-08T04:16:24",
+      "title": {
+        "rendered": "Table For Glasses"
+      },
+      "content": {
+        "rendered": "<p>Manchester Orchestra - Table For Glasses</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3517
+      ],
+      "tags": [],
+      "genre": [
+        415,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "2eYqYMFIyOq9yJSZzAy6B7",
+        "spotify_release_date": "2023-06-08",
+        "spotify_name": "Table For Glasses",
+        "spotify_artists": "Manchester Orchestra",
+        "spotify_album": "Table For Glasses",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27368753bea5e7ee9a025385adb",
+        "spotify_duration_ms": "231368",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.437",
+        "spotify_energy": "0.555",
+        "spotify_key": "2",
+        "spotify_loudness": "-7.3",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0309",
+        "spotify_tempo": "125.887",
+        "spotify_valence": "0.192",
+        "spotify_acousticness": "0.00887",
+        "spotify_instrumentalness": "0.0111",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.121",
+        "spotify_artists01": "Manchester Orchestra",
+        "spotify_artists01_id": "5wFXmYsg3KFJ8BDsQudJ4f",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc76415b4869d52d07f6fe5fd",
+        "spotify_artists01_genres": "indie rock",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "pWGNrl4ZeCs",
+        "ytreleasedate": "2023/06/08",
+        "pvstyle": [
+          "pv"
+        ],
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Manchester-Orchestra-Table-For-Glasses.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3517,
+            "name": "Manchester Orchestra",
+            "slug": "manchester-orchestra",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistjpname": "マンチェスター・オーケストラ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Manchester Orchestra",
+        "ytvideoid": "pWGNrl4ZeCs",
+        "spotify_track_id": "2eYqYMFIyOq9yJSZzAy6B7"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient pop",
+          "slug": "ambient-pop",
+          "term_id": 415,
+          "post_count": 61
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "table-for-glasses"
+    },
+    {
+      "id": 55032,
+      "date": "2023-02-23T13:13:42",
+      "date_gmt": "2023-02-23T04:13:42",
+      "title": {
+        "rendered": "Capital Karma"
+      },
+      "content": {
+        "rendered": "<p>Manchester Orchestra - Capital Karma</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3517
+      ],
+      "tags": [],
+      "genre": [
+        415
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2H4BLMGYuRRcRneJYUQy0R",
+        "spotify_release_date": "2023-02-23",
+        "spotify_name": "Capital Karma",
+        "spotify_artists": "Manchester Orchestra",
+        "spotify_album": "Capital Karma",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27315b1aefa84621c2f81876c49",
+        "spotify_duration_ms": "215732",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.396",
+        "spotify_energy": "0.282",
+        "spotify_key": "0",
+        "spotify_loudness": "-11.907",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.036",
+        "spotify_tempo": "71.683",
+        "spotify_valence": "0.102",
+        "spotify_acousticness": "0.789",
+        "spotify_instrumentalness": "0.00729",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.207",
+        "spotify_artists01": "Manchester Orchestra",
+        "spotify_artists01_id": "5wFXmYsg3KFJ8BDsQudJ4f",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc76415b4869d52d07f6fe5fd",
+        "spotify_artists01_genres": "indie rock",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "PGYhP6Frj7A",
+        "ytreleasedate": "2023/02/23"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Manchester-Orchestra-Capital-Karma.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3517,
+            "name": "Manchester Orchestra",
+            "slug": "manchester-orchestra",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistjpname": "マンチェスター・オーケストラ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Manchester Orchestra",
+        "ytvideoid": "PGYhP6Frj7A",
+        "spotify_track_id": "2H4BLMGYuRRcRneJYUQy0R"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient pop",
+          "slug": "ambient-pop",
+          "term_id": 415,
+          "post_count": 61
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "capital-karma"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

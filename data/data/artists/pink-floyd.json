@@ -1,0 +1,72 @@
+{
+  "id": 6147,
+  "count": 1,
+  "description": "Pink Floyd are an English rock band.",
+  "link": "https://sub.music8.jp/category/pink-floyd/",
+  "name": "Pink Floyd",
+  "slug": "pink-floyd",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1965",
+    "artistborn": "",
+    "artistjpname": "ピンク・フロイド",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Led Zeppelin (led-zeppelin) | Doors (doors) | David Bowie (david-bowie) | Rolling Stones (rolling-stones) | Jimi Hendrix (jimi-hendrix) | Beatles (beatles) | Police (police) | Cream (cream) | Dire Straits (dire-straits) | Supertramp (supertramp) | Pearl Jam (pearl-jam) | Deep Purple (deep-purple) | Yes (yes) | Who (who) | Kansas (kansas) | R.E.M. (rem) | Derek & The Dominos | Red Hot Chili Peppers (red-hot-chili-peppers) | George Harrison (george-harrison) | Black Sabbath (black-sabbath)",
+    "spotify_artist_id": "0k17h0D3J5VfsdmQ1iZtE9",
+    "spotify_artist_images": "https://i.scdn.co/image/d011c95081cd9a329e506abd7ded47535d524a07"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6147",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6147"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6147"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ピンク・フロイド",
+  "spotifyArtistImages": "https://i.scdn.co/image/d011c95081cd9a329e506abd7ded47535d524a07",
+  "artistActiveYearStart": "1965",
+  "occupation": "band"
+}

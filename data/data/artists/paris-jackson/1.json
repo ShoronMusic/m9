@@ -1,0 +1,208 @@
+{
+  "artist": {
+    "id": 1443,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/paris-jackson/",
+    "name": "Paris Jackson",
+    "slug": "paris-jackson",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1443",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1443"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1443"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41020,
+      "date": "2021-04-16T14:14:00",
+      "date_gmt": "2021-04-16T05:14:00",
+      "title": {
+        "rendered": "Low Key in Love"
+      },
+      "content": {
+        "rendered": "\n<p>TheStruts,ParisJackson-LowKeyinLove</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1443,
+        1438
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "41kxBQJuRpuvqlfR0Rh8fJ",
+        "spotify_release_date": "2021/4/16",
+        "spotify_name": "Low Key In Love (with paris jackson)",
+        "spotify_artists": "The Struts, paris jackson",
+        "spotify_album": "Low Key In Love (with paris jackson)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737f3d81b79a5980857bb253a7",
+        "spotify_duration_ms": "195880",
+        "spotify_popularity": "45",
+        "spotify_danceability": "0.657",
+        "spotify_energy": "0.755",
+        "spotify_key": "3",
+        "spotify_loudness": "-3.65",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0306",
+        "spotify_tempo": "108.511",
+        "spotify_valence": "0.75",
+        "spotify_acousticness": "0.0758",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.155",
+        "spotify_artists01": "The Struts",
+        "spotify_artists01_id": "3lDpdwM8KILepMHqBWUhIA",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe8099ddd876f6b4eeeb91486",
+        "spotify_artists01_genres": "glam rock, modern alternative rock",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "paris jackson",
+        "spotify_artists02_id": "11I8qWK4foqycuPFRDFH6e",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb615011def02290009a3464a7",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "37",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ISjYQ71VBHk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Struts-paris-jackson-Low-Key-in-Love.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1443,
+            "name": "Paris Jackson",
+            "slug": "paris-jackson",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1438,
+            "name": "Struts",
+            "slug": "struts",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ストラッツ",
+              "member": [
+                {
+                  "term_id": 6461,
+                  "name": "Luke Spiller",
+                  "slug": "luke-spiller",
+                  "term_group": 0,
+                  "term_taxonomy_id": 6461,
+                  "taxonomy": "category",
+                  "description": " Luke Spiller is a British singer and songwriter, best known as the flamboyant frontman of the rock band The Struts.",
+                  "parent": 0,
+                  "count": 4,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "3lDpdwM8KILepMHqBWUhIA",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d7e5ca4b5e006f754080c236",
+              "youtube_channel": "UCfoba7dC3rJrEirb70tS8UA",
+              "wikipedia_page": "The_Struts"
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Struts, paris jackson",
+        "ytvideoid": "ISjYQ71VBHk",
+        "spotify_track_id": "41kxBQJuRpuvqlfR0Rh8fJ"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "low-key-in-love"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

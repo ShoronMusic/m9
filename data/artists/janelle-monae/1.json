@@ -1,0 +1,909 @@
+{
+  "artist": {
+    "id": 930,
+    "count": 5,
+    "description": "Janelle Monáe is an American singer, songwriter, rapper and actress.",
+    "link": "https://sub.music8.jp/category/janelle-monae/",
+    "name": "Janelle Monáe",
+    "slug": "janelle-monae",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2003",
+      "artistborn": "19851201",
+      "artistdied": "",
+      "artistjpname": "ジャネール・モネイ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/930",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=930"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=930"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 53972,
+      "date": "2023-10-06T15:04:14",
+      "date_gmt": "2023-10-06T06:04:14",
+      "title": {
+        "rendered": "Champagne Shit"
+      },
+      "content": {
+        "rendered": "<p>Janelle Monáe - Champagne Shit (feat. Latto & Quavo) [Remix]</p>\n",
+        "protected": false
+      },
+      "categories": [
+        930,
+        2046,
+        1452
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "5OhG7shUD0xgQMirbRAipe",
+        "spotify_release_date": "2023-06-09",
+        "spotify_name": "Champagne Shit",
+        "spotify_artists": "Janelle Monáe",
+        "spotify_album": "The Age of Pleasure",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27331ac0ae08eb470692364f8b3",
+        "spotify_duration_ms": "143200",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.749",
+        "spotify_energy": "0.605",
+        "spotify_key": "5",
+        "spotify_loudness": "-4.515",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0494",
+        "spotify_tempo": "118.958",
+        "spotify_valence": "0.638",
+        "spotify_acousticness": "0.325",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.518",
+        "spotify_artists01": "ジャネール・モネイ",
+        "spotify_artists01_id": "6ueGR6SWhUJfvEhqkvMsVs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5dab878686269b7b8f4c3ab1",
+        "spotify_artists01_genres": "afrofuturism, alternative r&b, atl hip hop, neo soul, r&b",
+        "spotify_artists01_popularity": "68",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "UYsWKv-lUGU",
+        "ytreleasedate": "2023/10/06"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Janelle-Monae-Champagne-Shit.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 930,
+            "name": "Janelle Monáe",
+            "slug": "janelle-monae",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2003",
+              "artistborn": "19851201",
+              "artistdied": "",
+              "artistjpname": "ジャネール・モネイ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2046,
+            "name": "Latto",
+            "slug": "latto",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2016",
+              "artistborn": "19981222",
+              "artistdied": "",
+              "artistjpname": "ラトー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1452,
+            "name": "Quavo",
+            "slug": "quavo",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2008",
+              "artistborn": "19910402",
+              "artistdied": "",
+              "artistjpname": "クエイヴォ",
+              "member": [
+                {
+                  "term_id": 1706,
+                  "name": "Migos",
+                  "slug": "migos",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1706,
+                  "taxonomy": "category",
+                  "description": "Migos were an American hip hop group.",
+                  "parent": 0,
+                  "count": 1,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Janelle Monáe",
+        "ytvideoid": "UYsWKv-lUGU",
+        "spotify_track_id": "5OhG7shUD0xgQMirbRAipe"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "champagne-shit"
+    },
+    {
+      "id": 54688,
+      "date": "2023-09-01T13:09:39",
+      "date_gmt": "2023-09-01T04:09:39",
+      "title": {
+        "rendered": "You Thought"
+      },
+      "content": {
+        "rendered": "<p>Teezo Touchdown - You Thought ft. Janelle Monáe</p>\n",
+        "protected": false
+      },
+      "categories": [
+        930,
+        3140
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        427,
+        657,
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "698IDYJMDJS5IVakqcX8vo",
+        "spotify_release_date": "2023-09-08",
+        "spotify_name": "You Thought (feat. Janelle Monáe)",
+        "spotify_artists": "Teezo Touchdown, Janelle Monáe",
+        "spotify_album": "How Do You Sleep At Night?",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739fb52116a804cc8d8b3780d0",
+        "spotify_duration_ms": "181453",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.527",
+        "spotify_energy": "0.425",
+        "spotify_key": "2",
+        "spotify_loudness": "-10.089",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.127",
+        "spotify_tempo": "131.669",
+        "spotify_valence": "0.337",
+        "spotify_acousticness": "0.704",
+        "spotify_instrumentalness": "0.00000811",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.196",
+        "spotify_artists01": "Teezo Touchdown",
+        "spotify_artists01_id": "0fGcIStdT1OpFFhOC7Wp36",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb06668d921476ea8883f516b6",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "ジャネール・モネイ",
+        "spotify_artists02_id": "6ueGR6SWhUJfvEhqkvMsVs",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5dab878686269b7b8f4c3ab1",
+        "spotify_artists02_genres": "afrofuturism, alternative r&b, atl hip hop, neo soul, r&b",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "GEWWmpSjZcs",
+        "ytreleasedate": "2023/09/01"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Teezo-Touchdown-You-Thought.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 930,
+            "name": "Janelle Monáe",
+            "slug": "janelle-monae",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2003",
+              "artistborn": "19851201",
+              "artistdied": "",
+              "artistjpname": "ジャネール・モネイ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3140,
+            "name": "Teezo Touchdown",
+            "slug": "teezo-touchdown",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2016",
+              "artistborn": "19921031",
+              "artistjpname": "ティーゾ・タッチダウン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Teezo Touchdown, Janelle Monáe",
+        "ytvideoid": "GEWWmpSjZcs",
+        "spotify_track_id": "698IDYJMDJS5IVakqcX8vo"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "you-thought"
+    },
+    {
+      "id": 49895,
+      "date": "2023-07-08T20:48:00",
+      "date_gmt": "2023-07-08T11:48:08",
+      "title": {
+        "rendered": "Water Slide"
+      },
+      "content": {
+        "rendered": "<p>Janelle Monáe - Water Slide</p>\n",
+        "protected": false
+      },
+      "categories": [
+        930
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        685,
+        690
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0yYGtAM36rrs54Pks3DtLO",
+        "spotify_release_date": "2023/6/9",
+        "spotify_name": "Water Slide",
+        "spotify_artists": "Janelle Monáe",
+        "spotify_album": "The Age of Pleasure",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27353a89753c355ad8583458c9a",
+        "spotify_duration_ms": "164880",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.731",
+        "spotify_energy": "0.548",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.258",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0391",
+        "spotify_tempo": "150.034",
+        "spotify_valence": "0.22",
+        "spotify_acousticness": "0.44",
+        "spotify_instrumentalness": "0.00000485",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.318",
+        "spotify_artists01": "ジャネール・モネイ",
+        "spotify_artists01_id": "6ueGR6SWhUJfvEhqkvMsVs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5dab878686269b7b8f4c3ab1",
+        "spotify_artists01_genres": "afrofuturism, alternative r&b, atl hip hop, neo soul, r&b",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "hfwRjf675Ak",
+        "ytreleasedate": "2023/7/8"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Janelle-Monae-Water-Slide.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 930,
+            "name": "Janelle Monáe",
+            "slug": "janelle-monae",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2003",
+              "artistborn": "19851201",
+              "artistdied": "",
+              "artistjpname": "ジャネール・モネイ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Janelle Monáe",
+        "ytvideoid": "hfwRjf675Ak",
+        "spotify_track_id": "0yYGtAM36rrs54Pks3DtLO"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        },
+        {
+          "name": "Reggae",
+          "slug": "reggae",
+          "term_id": 690,
+          "post_count": 83
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "water-slide"
+    },
+    {
+      "id": 43112,
+      "date": "2017-02-09T09:06:00",
+      "date_gmt": "2017-02-09T00:06:00",
+      "title": {
+        "rendered": "Venus Fly"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1179,
+        930
+      ],
+      "tags": [],
+      "genre": [
+        501
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1QxbBB80IuPwhwW1ygGfPh",
+        "spotify_release_date": "2015/11/6",
+        "spotify_name": "Venus Fly",
+        "spotify_artists": "Grimes, Janelle Mon?e",
+        "spotify_album": "Art Angels",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730f751d4123932ee82e78aae1",
+        "spotify_duration_ms": "225734",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.62",
+        "spotify_energy": "0.742",
+        "spotify_key": "4",
+        "spotify_loudness": "-7.327",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0273",
+        "spotify_tempo": "128.407",
+        "spotify_valence": "0.252",
+        "spotify_acousticness": "0.000282",
+        "spotify_instrumentalness": "0.868",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.297",
+        "spotify_artists01": "Grimes",
+        "spotify_artists01_id": "053q0ukIDRgzwTr4vNSwab",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb34771f759ca81a422f5f2b57",
+        "spotify_artists01_genres": "art pop, canadian electropop, grave wave, indietronica, metropopolis, neo-synthpop",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "Janelle Mon?e",
+        "spotify_artists02_id": "6ueGR6SWhUJfvEhqkvMsVs",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5dab878686269b7b8f4c3ab1",
+        "spotify_artists02_genres": "afrofuturism, alternative r&b, atl hip hop, neo soul, r&b",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "eTLTXDHrgtw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Grimes-ft.-Janelle-Monae-Venus-Fly.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1179,
+            "name": "Grimes",
+            "slug": "grimes",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19880317",
+              "artistdied": "",
+              "artistjpname": "グライムス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "053q0ukIDRgzwTr4vNSwab",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517434771f759ca81a422f5f2b57",
+              "youtube_channel": "UCRXaOr2-9CJTMqQH5A5GYZQ",
+              "wikipedia_page": "Grimes"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 930,
+            "name": "Janelle Monáe",
+            "slug": "janelle-monae",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2003",
+              "artistborn": "19851201",
+              "artistdied": "",
+              "artistjpname": "ジャネール・モネイ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Grimes, Janelle Mon?e",
+        "ytvideoid": "eTLTXDHrgtw",
+        "spotify_track_id": "1QxbBB80IuPwhwW1ygGfPh"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "venus-fly"
+    },
+    {
+      "id": 43474,
+      "date": "2015-09-11T14:29:00",
+      "date_gmt": "2015-09-11T05:29:00",
+      "title": {
+        "rendered": "Pressure Off"
+      },
+      "content": {
+        "rendered": "\n<p>DuranDuran-PressureOff</p>\n",
+        "protected": false
+      },
+      "categories": [
+        800,
+        930,
+        931
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5Ouiwst9S16DLzDinM0J4R",
+        "spotify_release_date": "2015/6/17",
+        "spotify_name": "Pressure Off (feat. Janelle Mon?e and Nile Rodgers)",
+        "spotify_artists": "Duran Duran, Janelle Mon?e, Nile Rodgers",
+        "spotify_album": "Pressure Off (feat. Janelle Mon?e and Nile Rodgers)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27322a38fdd92571b49f0f700f9",
+        "spotify_duration_ms": "261135",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.733",
+        "spotify_energy": "0.876",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.56",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0385",
+        "spotify_tempo": "112.981",
+        "spotify_valence": "0.63",
+        "spotify_acousticness": "0.00452",
+        "spotify_instrumentalness": "4.25E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.916",
+        "spotify_artists01": "Duran Duran",
+        "spotify_artists01_id": "0lZoBs4Pzo7R89JM9lxwoT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb47f63876040bae5c16a28832",
+        "spotify_artists01_genres": "album rock, dance rock, new romantic, new wave, new wave pop, rock, soft rock, synthpop",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "Janelle Mon?e",
+        "spotify_artists02_id": "6ueGR6SWhUJfvEhqkvMsVs",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5dab878686269b7b8f4c3ab1",
+        "spotify_artists02_genres": "afrofuturism, alternative r&b, atl hip hop, neo soul, r&b",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "Nile Rodgers",
+        "spotify_artists03_id": "3yDIp0kaq9EFKe07X1X2rz",
+        "spotify_artists03_images": "https://i.scdn.co/image/6511b1fe261da3b6c6b69ae2aa771cfd307a18ae",
+        "spotify_artists03_genres": "disco",
+        "spotify_artists03_popularity": "71",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5qFhSWA9Cz4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Duran-Duran-Pressure-Off.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 800,
+            "name": "Duran Duran",
+            "slug": "duran-duran",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "デュラン・デュラン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Spandau Ballet (spandau-ballet) | Human League (human-league) | a-ha (a-ha) | Frankie Goes To Hollywood (frankie-goes-to-hollywood) | Simple Minds (simple-minds) | Thompson Twins (thompson-twins) | Culture Club (culture-club) | Pet Shop Boys (pet-shop-boys) | Tears For Fears (tears-for-fears) | A Flock Of Seagulls (flock-of-seagulls) | Eurythmics (eurythmics) | Erasure (erasure) | Bananarama (bananarama) | Fine Young Cannibals (fine-young-cannibals) | Billy Idol (billy-idol) | INXS (inxs) | Soft Cell (soft-cell) | Men at Work (men-at-work) | Howard Jones (howard-jones) | Alphaville (alphaville)",
+              "spotify_artist_id": "0lZoBs4Pzo7R89JM9lxwoT",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174f363c34ff8b5ca3b9a13b174"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 930,
+            "name": "Janelle Monáe",
+            "slug": "janelle-monae",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2003",
+              "artistborn": "19851201",
+              "artistdied": "",
+              "artistjpname": "ジャネール・モネイ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 931,
+            "name": "Nile Rodgers",
+            "slug": "nile-rodgers",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1972",
+              "artistborn": "19520919",
+              "artistdied": "",
+              "artistjpname": "ナイル・ロジャース",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                },
+                {
+                  "value": "guitaristr",
+                  "label": "Guitarist"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Duran Duran, Janelle Mon?e, Nile Rodgers",
+        "ytvideoid": "5qFhSWA9Cz4",
+        "spotify_track_id": "5Ouiwst9S16DLzDinM0J4R"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "pressure-off"
+    }
+  ],
+  "totalSongs": 5,
+  "totalPages": 1,
+  "currentPage": 1
+}

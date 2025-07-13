@@ -1,0 +1,76 @@
+{
+  "id": 4006,
+  "count": 8,
+  "description": "Mina Okabe is a Danish-Japanese singer-songwriter.",
+  "link": "https://sub.music8.jp/category/mina-okabe/",
+  "name": "Mina Okabe",
+  "slug": "mina-okabe",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "JPN",
+    "artistactiveyearstart": "2020",
+    "artistborn": "",
+    "artistjpname": "ミイナ・オカベ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5BS8KSKJPeLeXfABQx0bXl",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e338efcf2bad41fc2d9c7141"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4006",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4006"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4006"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ミイナ・オカベ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174e338efcf2bad41fc2d9c7141",
+  "artistActiveYearStart": "2020",
+  "occupation": "singer, songwriter"
+}

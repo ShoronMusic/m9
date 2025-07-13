@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 4563,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/ha-vay/",
+    "name": "Ha Vay",
+    "slug": "ha-vay",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4563",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4563"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4563"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 66572,
+      "date": "2024-01-26T13:08:54",
+      "date_gmt": "2024-01-26T04:08:54",
+      "title": {
+        "rendered": "Baby I'm The Wolf"
+      },
+      "content": {
+        "rendered": "<p>Ha Vay - Baby I'm The Wolf </p>\n",
+        "protected": false
+      },
+      "categories": [
+        4563
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        574
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "rauWgGkHNPQ",
+        "ytreleasedate": "2024/01/26",
+        "spotify_track_id": "7qDcLfMGg89bJbaFN7zx7c",
+        "spotify_release_date": "2024-02-02",
+        "spotify_name": "Baby I'm The Wolf",
+        "spotify_artists": "Ha Vay",
+        "spotify_album": "Baby I'm The Wolf",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27356fed379029a8a6a347cf84c",
+        "spotify_duration_ms": "206217",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.519",
+        "spotify_energy": "0.53",
+        "spotify_key": "11",
+        "spotify_loudness": "-8.468",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0296",
+        "spotify_tempo": "135.947",
+        "spotify_valence": "0.114",
+        "spotify_acousticness": "0.0633",
+        "spotify_instrumentalness": "0.0306",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.105",
+        "spotify_artists01": "Ha Vay",
+        "spotify_artists01_id": "4tm5BsY2371mgdIrZ7vZMt",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1a9205b1c1c869d31d55d1e7",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27356fed379029a8a6a347cf84c.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4563,
+            "name": "Ha Vay",
+            "slug": "ha-vay",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Ha Vay",
+        "ytvideoid": "rauWgGkHNPQ",
+        "spotify_track_id": "7qDcLfMGg89bJbaFN7zx7c"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "baby-im-the-wolf"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

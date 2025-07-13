@@ -1,0 +1,76 @@
+{
+  "id": 1005,
+  "count": 10,
+  "description": "Cyndi Lauper is an American singer, songwriter, and actress.",
+  "link": "https://sub.music8.jp/category/cyndi-lauper/",
+  "name": "Cyndi Lauper",
+  "slug": "cyndi-lauper",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1977",
+    "artistborn": "19530622",
+    "artistdied": "",
+    "artistjpname": "シンディ・ローパー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "Bangles (bangles) | Culture Club (culture-club) | Bonnie Tyler (bonnie-tyler) | Paula Abdul (paula-abdul) | Cher (cher) | Belinda Carlisle (belinda-carlisle) | Bananarama (bananarama) | Eurythmics (eurythmics) | Laura Branigan (laura-branigan) | Berlin (berlin) | Tina Turner (tina-turner) | Irene Cara (irene-cara) | Boy George (boy-george) | Kim Carnes (kim-carnes) | Sheena Easton (sheena-easton) | Bette Midler (bette-midler) | Debbie Gibson (debbie-gibson) | Wilson Phillips (wilson-phillips) | Annie Lennox (annie-lennox) | Tiffany (tiffany)",
+    "spotify_artist_id": "2BTZIqw0ntH9MvilQ3ewNY",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517472f5bad471601240967563d6"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1005",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1005"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1005"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "シンディ・ローパー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517472f5bad471601240967563d6",
+  "artistActiveYearStart": "1977",
+  "occupation": "singer, songwriter"
+}

@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 983,
+    "count": 1,
+    "description": "G.I. Orange was a British New Wave and pop band.",
+    "link": "https://sub.music8.jp/category/gi-orange/",
+    "name": "GI Orange",
+    "slug": "gi-orange",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1983–1990",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "G.I.オレンジ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/983",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=983"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=983"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 48228,
+      "date": "1985-08-25T20:56:00",
+      "date_gmt": "1985-08-25T11:56:00",
+      "title": {
+        "rendered": "Psychic Magic"
+      },
+      "content": {
+        "rendered": "<p>GI Orange - Psychic Magic</p>\n",
+        "protected": false
+      },
+      "categories": [
+        983
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5l5lNlH2RwRrtm5F1fkcY4",
+        "spotify_release_date": "2020/2/5",
+        "spotify_name": "Psychic Magic",
+        "spotify_artists": "G.I.Orange",
+        "spotify_album": "Psychic Magic",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ca33b56fce63452414f70861",
+        "spotify_duration_ms": "187080",
+        "spotify_popularity": "18",
+        "spotify_danceability": "1.3435137030745739",
+        "spotify_energy": "-1.196607860885464",
+        "spotify_key": "0.47224151734130654",
+        "spotify_loudness": "-0.14932190261102518",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "-0.3671842581561238",
+        "spotify_tempo": "0.1330557835563046",
+        "spotify_valence": "0.8657754878615044",
+        "spotify_acousticness": "-0.019546488440403954",
+        "spotify_instrumentalness": "-0.4115192012827468",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.6138365101817922",
+        "spotify_artists01": "G.I.Orange",
+        "spotify_artists01_id": "5iGsnXTQJ4i6TKyP3SGRyJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab67616d0000b273ca33b56fce63452414f70861",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "4",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "2GP6GXRB5Q",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/GI-Orange-Psychic-Magic.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 983,
+            "name": "GI Orange",
+            "slug": "gi-orange",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1983–1990",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "G.I.オレンジ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "G.I.Orange",
+        "ytvideoid": "2GP6GXRB5Q",
+        "spotify_track_id": "5l5lNlH2RwRrtm5F1fkcY4"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "psychic-magic"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

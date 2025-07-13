@@ -1,0 +1,76 @@
+{
+  "id": 1635,
+  "count": 11,
+  "description": "Mimi Webb is an English singer and songwriter.",
+  "link": "https://sub.music8.jp/category/mimi-webb/",
+  "name": "Mimi Webb",
+  "slug": "mimi-webb",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2020",
+    "artistborn": "20000723",
+    "artistdied": "",
+    "artistjpname": "ミミ・ウェッブ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3GxKJzJK4LpsYGXQrw77wz",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051746b7e5dfc8f2e2ecf8df83673"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1635",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1635"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1635"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ミミ・ウェッブ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051746b7e5dfc8f2e2ecf8df83673",
+  "artistActiveYearStart": "2020",
+  "occupation": "singer, songwriter"
+}

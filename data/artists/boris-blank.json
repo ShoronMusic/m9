@@ -1,0 +1,72 @@
+{
+  "id": 3853,
+  "count": 1,
+  "description": "Boris Blank is a Swiss artist and musician.",
+  "link": "https://sub.music8.jp/category/boris-blank/",
+  "name": "Boris Blank",
+  "slug": "boris-blank",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SUI",
+    "artistactiveyearstart": "1979",
+    "artistborn": "19520115",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3vd0S87A6gMzZIMh0F5TOS",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d2f4902f6c366b74646b6cf2"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3853",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3853"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3853"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174d2f4902f6c366b74646b6cf2",
+  "artistActiveYearStart": "1979",
+  "occupation": "musician"
+}

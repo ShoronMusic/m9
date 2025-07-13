@@ -1,0 +1,177 @@
+{
+  "artist": {
+    "id": 2954,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/silent-planet/",
+    "name": "Silent Planet",
+    "slug": "silent-planet",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2009",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "サイレント・プラネット"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2954",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2954"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2954"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50212,
+      "date": "2023-07-21T23:28:05",
+      "date_gmt": "2023-07-21T14:28:05",
+      "title": {
+        "rendered": "Antimatter"
+      },
+      "content": {
+        "rendered": "<p>Silent Planet - Antimatter</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2954
+      ],
+      "tags": [],
+      "genre": [
+        409
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "4b3FN7tBCRrkLcbN5ae4v9",
+        "spotify_release_date": "2023-07-21",
+        "spotify_name": "Antimatter",
+        "spotify_artists": "Silent Planet",
+        "spotify_album": "Antimatter",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27367f65dab4394d34e432bffb9",
+        "spotify_duration_ms": "221340",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.523",
+        "spotify_energy": "0.803",
+        "spotify_key": "2",
+        "spotify_loudness": "-6.363",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0583",
+        "spotify_tempo": "139.949",
+        "spotify_valence": "0.137",
+        "spotify_acousticness": "0.000689",
+        "spotify_instrumentalness": "0.00354",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.165",
+        "spotify_artists01": "Silent Planet",
+        "spotify_artists01_id": "0JGTiwfinlCuANGu4Gq2XU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb85ffd133b82ebf688dc5f443",
+        "spotify_artists01_genres": "christian metalcore, melodic metalcore, metalcore, progressive metalcore",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "wiEno0KE5uU",
+        "ytreleasedate": "2023/07/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Silent-Planet-Antimatter.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2954,
+            "name": "Silent Planet",
+            "slug": "silent-planet",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "サイレント・プラネット"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Silent Planet",
+        "ytvideoid": "wiEno0KE5uU",
+        "spotify_track_id": "4b3FN7tBCRrkLcbN5ae4v9"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "antimatter"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

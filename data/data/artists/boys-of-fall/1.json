@@ -1,0 +1,205 @@
+{
+  "artist": {
+    "id": 3029,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/boys-of-fall/",
+    "name": "Boys Of Fall",
+    "slug": "boys-of-fall",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3029",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3029"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3029"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50628,
+      "date": "2023-02-18T10:35:01",
+      "date_gmt": "2023-02-18T01:35:01",
+      "title": {
+        "rendered": "You Don't Even Think About Me"
+      },
+      "content": {
+        "rendered": "<p>Nowhere Left - You Don't Even Think About Me (feat. Boys Of Fall)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3029,
+        3028
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6wx4pHIjpIf1foNJWDaSEI",
+        "spotify_release_date": "2023-06-30",
+        "spotify_name": "You Don't Even Think About Me",
+        "spotify_artists": "Nowhere Left, Boys of Fall",
+        "spotify_album": "These Bones",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273bd9cda6d1ec658b0c874a97b",
+        "spotify_duration_ms": "192000",
+        "spotify_popularity": "17",
+        "spotify_danceability": "0.537",
+        "spotify_energy": "0.869",
+        "spotify_key": "0",
+        "spotify_loudness": "-5.235",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0388",
+        "spotify_tempo": "145.064",
+        "spotify_valence": "0.434",
+        "spotify_acousticness": "0.00179",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.121",
+        "spotify_artists01": "Nowhere Left",
+        "spotify_artists01_id": "43TWdJFqTBY2zgIUMcYC1m",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb75f852ae248783e05e76593f",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "24",
+        "spotify_artists02": "Boys of Fall",
+        "spotify_artists02_id": "0ILEjQuglCTYQkTrKGQvj5",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb28b62677fd3e81b255fe3769",
+        "spotify_artists02_genres": "easycore, pop punk",
+        "spotify_artists02_popularity": "35",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "beuKXfw19es",
+        "ytreleasedate": "2023/02/18"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Nowhere-Left-You-Dont-Even-Think-About-Me-feat.-Boys-Of-Fall.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3029,
+            "name": "Boys Of Fall",
+            "slug": "boys-of-fall",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3028,
+            "name": "Nowhere Left",
+            "slug": "nowhere-left",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2021",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Nowhere Left, Boys of Fall",
+        "ytvideoid": "beuKXfw19es",
+        "spotify_track_id": "6wx4pHIjpIf1foNJWDaSEI"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "you-dont-even-think-about-me"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

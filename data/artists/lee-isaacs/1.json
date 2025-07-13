@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2557,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/lee-isaacs/",
+    "name": "Lee Isaacs",
+    "slug": "lee-isaacs",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2557",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2557"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2557"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38318,
+      "date": "2022-11-17T00:14:00",
+      "date_gmt": "2022-11-16T15:14:00",
+      "title": {
+        "rendered": "In Another Life"
+      },
+      "content": {
+        "rendered": "\n<p>LeeIsaacs-InAnotherLife</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2557
+      ],
+      "tags": [],
+      "genre": [
+        658,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6TmnKMCdKXXyvygy1DX9zy",
+        "spotify_release_date": "2022/11/18",
+        "spotify_name": "InAnotherLife",
+        "spotify_artists": "LeeIsaacs",
+        "spotify_album": "AftertheApocalypse",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273155a4822a156fcd3ba239c01",
+        "spotify_duration_ms": "209440",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.612",
+        "spotify_energy": "0.767",
+        "spotify_key": "0",
+        "spotify_loudness": "-7.44",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0322",
+        "spotify_tempo": "121.998",
+        "spotify_valence": "0.266",
+        "spotify_acousticness": "0.0161",
+        "spotify_instrumentalness": "3.89E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.61",
+        "spotify_artists01": "LeeIsaacs",
+        "spotify_artists01_id": "6cfxwqUKYLqwqVu9X3wv6v",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbe34fc315998efe38917a66f",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "38",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ioxRxAVFVX4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lee-Isaacs-In-Another-Life.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2557,
+            "name": "Lee Isaacs",
+            "slug": "lee-isaacs",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LeeIsaacs",
+        "ytvideoid": "ioxRxAVFVX4",
+        "spotify_track_id": "6TmnKMCdKXXyvygy1DX9zy"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "in-another-life"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

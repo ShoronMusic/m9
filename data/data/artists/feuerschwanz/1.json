@@ -1,0 +1,317 @@
+{
+  "artist": {
+    "id": 4256,
+    "count": 2,
+    "description": "Feuerschwanz - is a German Medieval metal band.",
+    "link": "https://sub.music8.jp/category/feuerschwanz/",
+    "name": "Feuerschwanz",
+    "slug": "feuerschwanz",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "2004",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4256",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4256"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4256"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65737,
+      "date": "2024-04-10T15:01:11",
+      "date_gmt": "2024-04-10T06:01:11",
+      "title": {
+        "rendered": "Valhalla Calling"
+      },
+      "content": {
+        "rendered": "<p>FEUERSCHWANZ - Valhalla Calling </p>\n",
+        "protected": false
+      },
+      "categories": [
+        4256
+      ],
+      "tags": [],
+      "genre": [
+        612
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "11YmxGG8Dbw",
+        "ytreleasedate": "2024/04/10",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5W6SkYPOEFUgFu8unBYTrf",
+        "spotify_release_date": "2024-04-10",
+        "spotify_name": "Valhalla Calling",
+        "spotify_artists": "Feuerschwanz",
+        "spotify_album": "Valhalla Calling",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a7acbe4a2cd96cbfa0a676e4",
+        "spotify_duration_ms": "228351",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.306",
+        "spotify_energy": "0.978",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.667",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.132",
+        "spotify_tempo": "196.081",
+        "spotify_valence": "0.115",
+        "spotify_acousticness": "0.00011",
+        "spotify_instrumentalness": "0.00233",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.263",
+        "spotify_artists01": "Feuerschwanz",
+        "spotify_artists01_id": "2Ct54gNxKnYLnXk9HhviMI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb44eb1f6008296fc8ba2c03e2",
+        "spotify_artists01_genres": "medieval rock",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273a7acbe4a2cd96cbfa0a676e4.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4256,
+            "name": "Feuerschwanz",
+            "slug": "feuerschwanz",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Feuerschwanz",
+        "ytvideoid": "11YmxGG8Dbw",
+        "spotify_track_id": "5W6SkYPOEFUgFu8unBYTrf"
+      },
+      "genre_data": [
+        {
+          "name": "Medieval metal",
+          "slug": "medieval-metal",
+          "term_id": 612,
+          "post_count": 14
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "valhalla-calling"
+    },
+    {
+      "id": 62813,
+      "date": "2024-02-09T10:13:29",
+      "date_gmt": "2024-02-09T01:13:29",
+      "title": {
+        "rendered": "Highlander"
+      },
+      "content": {
+        "rendered": "<p>FEUERSCHWANZ - Highlander</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4256
+      ],
+      "tags": [],
+      "genre": [
+        612
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "FxLsn09RMUs",
+        "ytreleasedate": "2024/02/09",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6pihX9dY5MGrWIXNk2qqys",
+        "spotify_release_date": "2024-02-08",
+        "spotify_name": "Highlander - English Version",
+        "spotify_artists": "Feuerschwanz",
+        "spotify_album": "Highlander",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737a9a48e07102433897737977",
+        "spotify_duration_ms": "199792",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.282",
+        "spotify_energy": "0.989",
+        "spotify_key": "6",
+        "spotify_loudness": "-6.015",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.37",
+        "spotify_tempo": "193.876",
+        "spotify_valence": "0.141",
+        "spotify_acousticness": "0.0000566",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0658",
+        "spotify_artists01": "Feuerschwanz",
+        "spotify_artists01_id": "2Ct54gNxKnYLnXk9HhviMI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb16bb08309f7a7aab0eee81ba",
+        "spotify_artists01_genres": "medieval rock",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/FEUERSCHWANZ-Highlander.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4256,
+            "name": "Feuerschwanz",
+            "slug": "feuerschwanz",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Feuerschwanz",
+        "ytvideoid": "FxLsn09RMUs",
+        "spotify_track_id": "6pihX9dY5MGrWIXNk2qqys"
+      },
+      "genre_data": [
+        {
+          "name": "Medieval metal",
+          "slug": "medieval-metal",
+          "term_id": 612,
+          "post_count": 14
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "highlander"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

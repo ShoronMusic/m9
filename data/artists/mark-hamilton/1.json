@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1952,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/mark-hamilton/",
+    "name": "Mark Hamilton",
+    "slug": "mark-hamilton",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1952",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1952"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1952"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38276,
+      "date": "2022-11-22T14:25:00",
+      "date_gmt": "2022-11-22T05:25:00",
+      "title": {
+        "rendered": "Wake Up Little Man"
+      },
+      "content": {
+        "rendered": "\n<p>MarkHamilton-WakeUpLittleMan</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1952
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        630
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3jsF4HkD4DqOFqr6Jlm1wx",
+        "spotify_release_date": "2022/11/21",
+        "spotify_name": "WakeUpLittleMan",
+        "spotify_artists": "MarkHamilton",
+        "spotify_album": "WakeUpLittleMan",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27326680f882611847facb648b8",
+        "spotify_duration_ms": "233560",
+        "spotify_popularity": "1",
+        "spotify_danceability": "0.601",
+        "spotify_energy": "0.626",
+        "spotify_key": "9",
+        "spotify_loudness": "-11.625",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0353",
+        "spotify_tempo": "118.024",
+        "spotify_valence": "0.594",
+        "spotify_acousticness": "0.00434",
+        "spotify_instrumentalness": "0.000761",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0922",
+        "spotify_artists01": "MarkHamilton",
+        "spotify_artists01_id": "05GVMeplEuVRQ8SXTkJ5UI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7bc1b5b22caa5a9a3fe20e1b",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "16",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qluGQItaIG0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mark-Hamilton-Wake-Up-Little-Man.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1952,
+            "name": "Mark Hamilton",
+            "slug": "mark-hamilton",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "MarkHamilton",
+        "ytvideoid": "qluGQItaIG0",
+        "spotify_track_id": "3jsF4HkD4DqOFqr6Jlm1wx"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "wake-up-little-man"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

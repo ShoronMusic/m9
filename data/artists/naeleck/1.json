@@ -1,0 +1,230 @@
+{
+  "artist": {
+    "id": 6192,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/naeleck/",
+    "name": "Naeleck",
+    "slug": "naeleck",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FRA",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6192",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6192"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6192"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 85983,
+      "date": "2024-07-17T21:12:05",
+      "date_gmt": "2024-07-17T12:12:05",
+      "title": {
+        "rendered": "Crush Me Down (You Spin Me Around)"
+      },
+      "content": {
+        "rendered": "<p>Blasterjaxx, Naeleck, 3rd Wall - Crush Me Down (You Spin Me Around)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6193,
+        3989,
+        6192
+      ],
+      "tags": [],
+      "genre": [
+        4383
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "32gQagpo6ec",
+        "ytreleasedate": "2024/07/17",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2E8ometum2UaxsEdH8VS5z",
+        "spotify_release_date": "2024-06-21",
+        "spotify_name": "Crush Me Down (You Spin Me Around)",
+        "spotify_artists": "Blasterjaxx, Naeleck, 3rd Wall",
+        "spotify_album": "Crush Me Down (You Spin Me Around)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c9a1d279881c7bcdd76924e8",
+        "spotify_duration_ms": "121232",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.603",
+        "spotify_energy": "0.896",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.485",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.128",
+        "spotify_tempo": "149.927",
+        "spotify_valence": "0.335",
+        "spotify_acousticness": "0.014",
+        "spotify_instrumentalness": "0.000173",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.265",
+        "spotify_artists01": "Blasterjaxx",
+        "spotify_artists01_id": "37awA8DFCAnCCL7aqYbDnD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe94cb6c33b1cfa5c538fe819",
+        "spotify_artists01_genres": "big room, dutch house, edm, electro house, pop dance, progressive electro house, slap house",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "Naeleck",
+        "spotify_artists02_id": "2DYDFBqoaBP2i9XrTGpOgF",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebb6b8aff1c533e9873b17e312",
+        "spotify_artists02_genres": "electro, hypertechno",
+        "spotify_artists02_popularity": "71",
+        "spotify_artists03": "3rd Wall",
+        "spotify_artists03_id": "1tHXAxKf7BCwFZpj8cMERM",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb58a0baeb2ddd2d1b7212eeef",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "50",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/blasterjaxx-naeleck-3rd-wall-crush-me-down.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6193,
+            "name": "3rd Wall",
+            "slug": "3rd-wall",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3989,
+            "name": "Blasterjaxx",
+            "slug": "blasterjaxx",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "2010",
+              "artistborn": "",
+              "artistjpname": "ブラスタージャックス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6192,
+            "name": "Naeleck",
+            "slug": "naeleck",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Blasterjaxx, Naeleck, 3rd Wall",
+        "ytvideoid": "32gQagpo6ec",
+        "spotify_track_id": "2E8ometum2UaxsEdH8VS5z"
+      },
+      "genre_data": [
+        {
+          "name": "Hard Trance",
+          "slug": "hard-trance",
+          "term_id": 4383,
+          "post_count": 2
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "crush-me-down"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

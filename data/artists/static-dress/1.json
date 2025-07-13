@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 1890,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/static-dress/",
+    "name": "Static Dress",
+    "slug": "static-dress",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1890",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1890"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1890"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40205,
+      "date": "2022-02-23T22:50:00",
+      "date_gmt": "2022-02-23T13:50:00",
+      "title": {
+        "rendered": "such.a.shame"
+      },
+      "content": {
+        "rendered": "\n<p>StaticDress-such.a.shame</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1890
+      ],
+      "tags": [],
+      "genre": [
+        399,
+        503,
+        664
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4OTeo92nFufniBIPZG9RBf",
+        "spotify_release_date": "2022/5/18",
+        "spotify_name": "such.a.shame",
+        "spotify_artists": "StaticDress",
+        "spotify_album": "RougeCarpetDisaster",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273bb7a7f0463fb072a5debef52",
+        "spotify_duration_ms": "198375",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.415",
+        "spotify_energy": "0.98",
+        "spotify_key": "5",
+        "spotify_loudness": "-3.248",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.138",
+        "spotify_tempo": "150.092",
+        "spotify_valence": "0.259",
+        "spotify_acousticness": "0.000255",
+        "spotify_instrumentalness": "0.02",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.557",
+        "spotify_artists01": "StaticDress",
+        "spotify_artists01_id": "1Lqdsv7Ff4GNq9PM3Yd0vi",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebac48605391249ab395b819aa",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "sK5lrPkxelE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Static-Dress-such.a.shame_.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1890,
+            "name": "Static Dress",
+            "slug": "static-dress",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "StaticDress",
+        "ytvideoid": "sK5lrPkxelE",
+        "spotify_track_id": "4OTeo92nFufniBIPZG9RBf"
+      },
+      "genre_data": [
+        {
+          "name": "Acoustic rock",
+          "slug": "acoustic-rock",
+          "term_id": 399,
+          "post_count": 94
+        },
+        {
+          "name": "Emo",
+          "slug": "emo",
+          "term_id": 503,
+          "post_count": 163
+        },
+        {
+          "name": "Post-hardcore",
+          "slug": "post-hardcore",
+          "term_id": 664,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "such-a-shame"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

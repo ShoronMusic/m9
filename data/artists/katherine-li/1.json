@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2050,
+    "count": 1,
+    "description": "CAN",
+    "link": "https://sub.music8.jp/category/katherine-li/",
+    "name": "Katherine Li",
+    "slug": "katherine-li",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2050",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2050"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2050"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39398,
+      "date": "2022-06-16T23:18:00",
+      "date_gmt": "2022-06-16T14:18:00",
+      "title": {
+        "rendered": "Happening Again"
+      },
+      "content": {
+        "rendered": "\n<p>KatherineLi-HappeningAgain</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2050
+      ],
+      "tags": [],
+      "genre": [
+        449,
+        574
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5Rx6U54oaGNEZ8eVy3VLK7",
+        "spotify_release_date": "2022/6/6",
+        "spotify_name": "HappeningAgain",
+        "spotify_artists": "KatherineLi",
+        "spotify_album": "HappeningAgain",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a33a271b39ff46aa3a6261ce",
+        "spotify_duration_ms": "173951",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.653",
+        "spotify_energy": "0.705",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.334",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0299",
+        "spotify_tempo": "148.93",
+        "spotify_valence": "0.849",
+        "spotify_acousticness": "0.371",
+        "spotify_instrumentalness": "1.50E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.549",
+        "spotify_artists01": "KatherineLi",
+        "spotify_artists01_id": "6C7CCNJVIGEla8AI1LuBxI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb651d975546e3a0aa1b87fbe0",
+        "spotify_artists01_genres": "singer-songwriterpop",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "O1eoDTOxyWU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Katherine-Li-Happening-Again.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2050,
+            "name": "Katherine Li",
+            "slug": "katherine-li",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "KatherineLi",
+        "ytvideoid": "O1eoDTOxyWU",
+        "spotify_track_id": "5Rx6U54oaGNEZ8eVy3VLK7"
+      },
+      "genre_data": [
+        {
+          "name": "Chamber pop",
+          "slug": "chamber-pop",
+          "term_id": 449,
+          "post_count": 100
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "happening-again"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

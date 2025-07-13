@@ -1,0 +1,179 @@
+{
+  "artist": {
+    "id": 4428,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/gusgus/",
+    "name": "Gusgus",
+    "slug": "gusgus",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4428",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4428"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4428"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 64966,
+      "date": "2024-03-26T21:36:20",
+      "date_gmt": "2024-03-26T12:36:20",
+      "title": {
+        "rendered": "Breaking Down"
+      },
+      "content": {
+        "rendered": "<p>Gusgus - Breaking Down</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4428
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        740
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "iMFrODwRyZo",
+        "ytreleasedate": "2024/03/26",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6PTd7IbzHonEZZkk4Q2GrS",
+        "spotify_release_date": "2024-03-22",
+        "spotify_name": "Breaking Down - Edit",
+        "spotify_artists": "GusGus, Högni, Earth",
+        "spotify_album": "Breaking Down",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731b774fb88e3afb3d4ce25232",
+        "spotify_duration_ms": "298992",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.677",
+        "spotify_energy": "0.846",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.955",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.029",
+        "spotify_tempo": "129.979",
+        "spotify_valence": "0.548",
+        "spotify_acousticness": "0.0063",
+        "spotify_instrumentalness": "0.00888",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0794",
+        "spotify_artists01": "GusGus",
+        "spotify_artists01_id": "5sL9uDMwceYHPknnCLAAwJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb70bd8976fb3504635e0a182a",
+        "spotify_artists01_genres": "electronica, icelandic electronic, icelandic pop, trip hop",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "Högni",
+        "spotify_artists02_id": "3HAGb8WLuYRre506Dr8oJm",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5a5fb3fe0ca1b57835333a92",
+        "spotify_artists02_genres": "icelandic electronic",
+        "spotify_artists02_popularity": "32",
+        "spotify_artists03": "Earth",
+        "spotify_artists03_id": "67Gpze3r33vaJOmX4e1PVJ",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "27",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2731b774fb88e3afb3d4ce25232.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4428,
+            "name": "Gusgus",
+            "slug": "gusgus",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "GusGus, Högni, Earth",
+        "ytvideoid": "iMFrODwRyZo",
+        "spotify_track_id": "6PTd7IbzHonEZZkk4Q2GrS"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Tech house",
+          "slug": "tech-house",
+          "term_id": 740,
+          "post_count": 91
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "breaking-down"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

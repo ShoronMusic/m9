@@ -1,0 +1,82 @@
+{
+  "id": 1492,
+  "count": 13,
+  "description": "Kendrick Lamar is an American rapper, singer, and songwriter.",
+  "link": "https://sub.music8.jp/category/kendrick-lamar/",
+  "name": "Kendrick Lamar",
+  "slug": "kendrick-lamar",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2003",
+    "artistborn": "19870617",
+    "artistdied": "",
+    "artistjpname": "ケンドリック・ラマー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2YZyLoL8N0Wb9xBt1NhZWg",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517439ba6dcd4355c03de0b50918",
+    "youtube_channel": "UC3lBXcrKFnFAFkfVk5WuKcQ",
+    "wikipedia_page": "Kendrick_Lamar"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1492",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1492"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1492"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ケンドリック・ラマー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517439ba6dcd4355c03de0b50918",
+  "artistActiveYearStart": "2003",
+  "occupation": "singer, songwriter, rapper"
+}

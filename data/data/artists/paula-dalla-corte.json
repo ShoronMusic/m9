@@ -1,0 +1,72 @@
+{
+  "id": 3050,
+  "count": 4,
+  "description": "Paula Dalla is a Swiss singer.",
+  "link": "https://sub.music8.jp/category/paula-dalla-corte/",
+  "name": "Paula Dalla Corte",
+  "slug": "paula-dalla-corte",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SUI",
+    "artistactiveyearstart": "2020",
+    "artistborn": "20010521",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7p86QI1NsaOsdFPBMVyn0I",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051748d7db0d546f96db92ebb86a6"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3050",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3050"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3050"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051748d7db0d546f96db92ebb86a6",
+  "artistActiveYearStart": "2020",
+  "occupation": "singer"
+}

@@ -1,0 +1,76 @@
+{
+  "id": 1567,
+  "count": 15,
+  "description": "Kali Uchis is a Colombian-American singer and songwriter.",
+  "link": "https://sub.music8.jp/category/kali-uchis/",
+  "name": "Kali Uchis",
+  "slug": "kali-uchis",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2012",
+    "artistborn": "19940717",
+    "artistdied": "",
+    "artistjpname": "カリ・ウチス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1U1el3k54VvEUzo3ybLPlM",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517451dfdac248da65a860963b68"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1567",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1567"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1567"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "カリ・ウチス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517451dfdac248da65a860963b68",
+  "artistActiveYearStart": "2012",
+  "occupation": "singer, songwriter"
+}

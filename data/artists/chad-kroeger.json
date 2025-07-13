@@ -1,0 +1,76 @@
+{
+  "id": 1306,
+  "count": 2,
+  "description": "Chad Kroeger is a Canadian musician, the lead singer and guitarist of the rock band Nickelback.",
+  "link": "https://sub.music8.jp/category/chad-kroeger/",
+  "name": "Chad Kroeger",
+  "slug": "chad-kroeger",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "1995",
+    "artistborn": "19741115",
+    "artistdied": "",
+    "artistjpname": "チャド・クルーガー",
+    "member": [
+      {
+        "term_id": 1938,
+        "name": "Nickelback",
+        "slug": "nickelback",
+        "term_group": 0,
+        "term_taxonomy_id": 1938,
+        "taxonomy": "category",
+        "description": "Nickelback is a Canadian rock band.",
+        "parent": 0,
+        "count": 8,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1306",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1306"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1306"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "チャド・クルーガー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1995",
+  "occupation": ""
+}

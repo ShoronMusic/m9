@@ -1,0 +1,549 @@
+{
+  "artist": {
+    "id": 2354,
+    "count": 3,
+    "description": "Sarah de Warren is a British singer, songwriter.",
+    "link": "https://sub.music8.jp/category/sarah-de-warren/",
+    "name": "Sarah de Warren",
+    "slug": "sarah-de-warren",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "19940419",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2354",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2354"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2354"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51054,
+      "date": "2023-08-12T14:17:02",
+      "date_gmt": "2023-08-12T05:17:02",
+      "title": {
+        "rendered": "Light On |"
+      },
+      "content": {
+        "rendered": "<p>Markus Schulz, Sarah de Warren - Light On |</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2712,
+        2354
+      ],
+      "tags": [],
+      "genre": [
+        670
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6TTVqj1JMRiuHGm3szHhlh",
+        "spotify_release_date": "2023-08-11",
+        "spotify_name": "Light On",
+        "spotify_artists": "Markus Schulz, Sarah de Warren",
+        "spotify_album": "Light On",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f6ba936c5da299a050b86521",
+        "spotify_duration_ms": "269834",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.577",
+        "spotify_energy": "0.825",
+        "spotify_key": "0",
+        "spotify_loudness": "-5.809",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0321",
+        "spotify_tempo": "125.996",
+        "spotify_valence": "0.332",
+        "spotify_acousticness": "0.0419",
+        "spotify_instrumentalness": "0.000129",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.357",
+        "spotify_artists01": "Markus Schulz",
+        "spotify_artists01_id": "6OO0PboZcIWUWL7j2IyeoL",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebae5588c75419c2ff89ffe915",
+        "spotify_artists01_genres": "edm, pop dance, progressive house, progressive trance, trance",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "Sarah de Warren",
+        "spotify_artists02_id": "2V431yZGG08uroH2CZAgur",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb6a8b1fb14f82acbe6e68eb71",
+        "spotify_artists02_genres": "indie electropop",
+        "spotify_artists02_popularity": "50",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "LkQQ3rwpOPk",
+        "ytreleasedate": "2023/08/12"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Markus-Schulz-Sarah-de-Warrren-Light-On.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2712,
+            "name": "Markus Schulz",
+            "slug": "markus-schulz",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1990",
+              "artistborn": "19750203",
+              "artistdied": "",
+              "artistjpname": "マーカス・シュルツ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2354,
+            "name": "Sarah de Warren",
+            "slug": "sarah-de-warren",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "19940419",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Markus Schulz, Sarah de Warren",
+        "ytvideoid": "LkQQ3rwpOPk",
+        "spotify_track_id": "6TTVqj1JMRiuHGm3szHhlh"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "light-on"
+    },
+    {
+      "id": 51057,
+      "date": "2023-03-01T14:23:11",
+      "date_gmt": "2023-03-01T05:23:11",
+      "title": {
+        "rendered": "Sugar"
+      },
+      "content": {
+        "rendered": "<p>Sarah De Warren, Weird Genius - Sugar</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2354,
+        3086
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        713
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0rHT3KSdQn3JvGPwe5EH2Y",
+        "spotify_release_date": "2023-02-28",
+        "spotify_name": "Sugar",
+        "spotify_artists": "Sarah de Warren, Weird Genius",
+        "spotify_album": "Sugar",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cde01dcbec122210cfa7ca40",
+        "spotify_duration_ms": "162519",
+        "spotify_popularity": "37",
+        "spotify_danceability": "0.803",
+        "spotify_energy": "0.822",
+        "spotify_key": "7",
+        "spotify_loudness": "-6.431",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0594",
+        "spotify_tempo": "126.999",
+        "spotify_valence": "0.619",
+        "spotify_acousticness": "0.0416",
+        "spotify_instrumentalness": "0.00574",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.174",
+        "spotify_artists01": "Sarah de Warren",
+        "spotify_artists01_id": "2V431yZGG08uroH2CZAgur",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6a8b1fb14f82acbe6e68eb71",
+        "spotify_artists01_genres": "indie electropop",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "Weird Genius",
+        "spotify_artists02_id": "5B4kCOhcqTywB9YwXPfFtJ",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb2bfd225e77848c8e655aebeb",
+        "spotify_artists02_genres": "indonesian edm",
+        "spotify_artists02_popularity": "50",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qguCFOGO1u8",
+        "ytreleasedate": "2023/03/01"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sarah-De-Warren-Weird-Genius-Sugar.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2354,
+            "name": "Sarah de Warren",
+            "slug": "sarah-de-warren",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "19940419",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3086,
+            "name": "Weird Genius",
+            "slug": "weird-genius",
+            "acf": {
+              "artistorigin": "INA",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Sarah de Warren, Weird Genius",
+        "ytvideoid": "qguCFOGO1u8",
+        "spotify_track_id": "0rHT3KSdQn3JvGPwe5EH2Y"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Slap House",
+          "slug": "slap-house",
+          "term_id": 713,
+          "post_count": 105
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "sugar-4"
+    },
+    {
+      "id": 38144,
+      "date": "2022-12-20T20:08:00",
+      "date_gmt": "2022-12-20T11:08:00",
+      "title": {
+        "rendered": "Electric Life"
+      },
+      "content": {
+        "rendered": "\n<p>GarethEmeryfeatSarahdeWarren-ElectricLife</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2353,
+        2354
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        736
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "snysOPgQFf0",
+        "likecount": "1",
+        "spotify_track_id": "6a71f53jA3MQY1TomocVYD",
+        "spotify_release_date": "2022/12/9",
+        "spotify_name": "ElectricLife",
+        "spotify_artists": "Gareth Emery, Sarah de Warren",
+        "spotify_album": "ANALOG",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273103c51afae5524ae66758331",
+        "spotify_duration_ms": "186035",
+        "spotify_popularity": "37",
+        "spotify_danceability": "0.507",
+        "spotify_energy": "0.869",
+        "spotify_key": "11",
+        "spotify_loudness": "-7.09",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0443",
+        "spotify_tempo": "143.159",
+        "spotify_valence": "0.312",
+        "spotify_acousticness": "0.00194",
+        "spotify_instrumentalness": "5.64E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.398",
+        "spotify_artists01": "GarethEmery",
+        "spotify_artists01_id": "0hprEC0nsWuQPSHag1O2Vi",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebab8b3e2e7218ed4714d64d2f",
+        "spotify_artists01_genres": "edm,popdance,progressiveelectrohouse,progressivehouse,trance",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "SarahdeWarren",
+        "spotify_artists02_id": "2V431yZGG08uroH2CZAgur",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb6a8b1fb14f82acbe6e68eb71",
+        "spotify_artists02_genres": "indieelectropop",
+        "spotify_artists02_popularity": "52",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Gareth-Emery-feat-Sarah-de-Warren-Electric-Life.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2353,
+            "name": "Gareth Emery",
+            "slug": "gareth-emery",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2002",
+              "artistborn": "19800718",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "Ben Gold | Ashley Wallbridge | Christina Novelli (christina-novelli) | Aly & Fila | Annabel (annabel) | LSR/CITY (lsr-city) | John O'Callaghan (john-ocallaghan) | Andrew Rayel (andrew-rayel) | Orjan Nilsen (orjan-nilsen) | Super8 & Tab | Andy Moor | Markus Schulz (markus-schulz) | Cosmic Gate (cosmic-gate) | Ferry Corsten (ferry-corsten) | Alex M.O.R.P.H. | Craig Connelly | Giuseppe Ottaviani | Emma Hewitt (emma-hewitt) | Omnia | Richard Durand (richard-durand)",
+              "spotify_artist_id": "0hprEC0nsWuQPSHag1O2Vi",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ab8b3e2e7218ed4714d64d2f"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2354,
+            "name": "Sarah de Warren",
+            "slug": "sarah-de-warren",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "19940419",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Gareth Emery, Sarah de Warren",
+        "ytvideoid": "snysOPgQFf0",
+        "spotify_track_id": "6a71f53jA3MQY1TomocVYD"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "electric-life"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,92 @@
+{
+  "id": 6722,
+  "count": 0,
+  "description": "Stewart Copeland is an American musician and composer. He is best known for his work as the drummer of the British rock band the Police from 1977 to 1986.",
+  "link": "https://sub.music8.jp/category/stewart-copeland/",
+  "name": "Stewart Copeland",
+  "slug": "stewart-copeland",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1974",
+    "artistborn": "19520716",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 2,
+        "name": "Police",
+        "slug": "police",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "The Police were an English rock band formed in London in 1977.",
+        "parent": 0,
+        "count": 22,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "composer",
+        "label": "Composer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4XVxeuUkJRiCYJYdqRpwab",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051741ce98e2c61dde18d5dc52190",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "UCO3dZYJmRGG_VR-nunfVlwA",
+    "wikipedia_page": "Stewart_Copeland"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6722",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6722"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6722"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051741ce98e2c61dde18d5dc52190",
+  "artistActiveYearStart": "1974",
+  "occupation": "musician, composer"
+}

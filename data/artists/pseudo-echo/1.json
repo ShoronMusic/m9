@@ -1,0 +1,588 @@
+{
+  "artist": {
+    "id": 968,
+    "count": 4,
+    "description": "Pseudo Echo are an Australian new wave band",
+    "link": "https://sub.music8.jp/category/pseudo-echo/",
+    "name": "Pseudo Echo",
+    "slug": "pseudo-echo",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "1982",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "スード・エコー",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/968",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=968"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=968"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47924,
+      "date": "1986-11-17T11:08:00",
+      "date_gmt": "1986-11-17T02:08:00",
+      "title": {
+        "rendered": "Funkytown"
+      },
+      "content": {
+        "rendered": "<p>Pseudo Echo - Funkytown</p>\n",
+        "protected": false
+      },
+      "categories": [
+        968
+      ],
+      "tags": [],
+      "genre": [
+        472,
+        698
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2NOluoo7fm2pkqeLodLdAH",
+        "spotify_release_date": "1986/11/17",
+        "spotify_name": "Funky Town",
+        "spotify_artists": "Pseudo Echo",
+        "spotify_album": "Funky Town",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732823f126ed7d1829753bf4a0",
+        "spotify_duration_ms": "292428",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.653",
+        "spotify_energy": "0.826",
+        "spotify_key": "9",
+        "spotify_loudness": "-4.925",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0338",
+        "spotify_tempo": "128.024",
+        "spotify_valence": "0.708",
+        "spotify_acousticness": "0.0935",
+        "spotify_instrumentalness": "5.74E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.314",
+        "spotify_artists01": "Pseudo Echo",
+        "spotify_artists01_id": "0FDW3axHactZo8HU0OnNVy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0aca0e85f92cbc82e76b5eee",
+        "spotify_artists01_genres": "australian rock, dance rock, synthpop",
+        "spotify_artists01_popularity": "32",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "uE-itlGNap4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pseudo-Echo-Funkytown.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 968,
+            "name": "Pseudo Echo",
+            "slug": "pseudo-echo",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1982",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スード・エコー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Pseudo Echo",
+        "ytvideoid": "uE-itlGNap4",
+        "spotify_track_id": "2NOluoo7fm2pkqeLodLdAH"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-rock",
+          "slug": "dance-rock",
+          "term_id": 472,
+          "post_count": 70
+        },
+        {
+          "name": "Rock",
+          "slug": "rock",
+          "term_id": 698,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "funkytown"
+    },
+    {
+      "id": 48080,
+      "date": "1986-04-01T11:18:00",
+      "date_gmt": "1986-04-01T02:18:00",
+      "title": {
+        "rendered": "Living in a Dream"
+      },
+      "content": {
+        "rendered": "<p>Pseudo Echo - Living in a Dream</p>\n",
+        "protected": false
+      },
+      "categories": [
+        968
+      ],
+      "tags": [],
+      "genre": [
+        472,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "3ertpqNsmoDueJvuHQGxOT",
+        "spotify_release_date": "1985/1/1",
+        "spotify_name": "Living In A Dream",
+        "spotify_artists": "Pseudo Echo",
+        "spotify_album": "Love An Adventure",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f8589bc527ee18b4ef8fcbde",
+        "spotify_duration_ms": "205594",
+        "spotify_popularity": "27",
+        "spotify_danceability": "0.564",
+        "spotify_energy": "0.958",
+        "spotify_key": "9",
+        "spotify_loudness": "-3.212",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0587",
+        "spotify_tempo": "129.681",
+        "spotify_valence": "0.611",
+        "spotify_acousticness": "0.00875",
+        "spotify_instrumentalness": "0.00387",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.284",
+        "spotify_artists01": "Pseudo Echo",
+        "spotify_artists01_id": "0FDW3axHactZo8HU0OnNVy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0aca0e85f92cbc82e76b5eee",
+        "spotify_artists01_genres": "australian rock, dance rock, synthpop",
+        "spotify_artists01_popularity": "32",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5BdnhSVQslY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pseudo-Echo-Living-in-a-Dream.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 968,
+            "name": "Pseudo Echo",
+            "slug": "pseudo-echo",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1982",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スード・エコー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Pseudo Echo",
+        "ytvideoid": "5BdnhSVQslY",
+        "spotify_track_id": "3ertpqNsmoDueJvuHQGxOT"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-rock",
+          "slug": "dance-rock",
+          "term_id": 472,
+          "post_count": 70
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "living-in-a-dream"
+    },
+    {
+      "id": 48515,
+      "date": "1984-06-01T11:24:00",
+      "date_gmt": "1984-06-01T02:24:00",
+      "title": {
+        "rendered": "His Eyes"
+      },
+      "content": {
+        "rendered": "\n<p>Pseudo Echo - His Eyes</p>\n\n\n\n<figure class=\"wp-block-image size-full is-resized is-style-default\"><img loading=\"lazy\" decoding=\"async\" src=\"http://xs867261.xsrv.jp/wp/wp-content/uploads/Friday-the-13th-A-New-Beginning.jpg\" alt=\"\" class=\"wp-image-2224\" width=\"250\" height=\"250\"/><figcaption><em>Friday the 13th: A New Beginning</em> 1985</figcaption></figure>\n",
+        "protected": false
+      },
+      "categories": [
+        968
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5nYfIfBUL28KywIzNB30Yb",
+        "spotify_release_date": "1984/1/1",
+        "spotify_name": "His Eyes",
+        "spotify_artists": "Pseudo Echo",
+        "spotify_album": "Autumnal Park",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27395739116cac0f0b07d3987ef",
+        "spotify_duration_ms": "276644",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.005806275414880134",
+        "spotify_energy": "0.6559189201690201",
+        "spotify_key": "-1.417844935220459",
+        "spotify_loudness": "0.29784208186033073",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.2539628555897506",
+        "spotify_tempo": "0.6325466094868983",
+        "spotify_valence": "-0.5644829826181649",
+        "spotify_acousticness": "0.8195568684559993",
+        "spotify_instrumentalness": "-0.4100041179884914",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "0.6900375124868962",
+        "spotify_artists01": "Pseudo Echo",
+        "spotify_artists01_id": "0FDW3axHactZo8HU0OnNVy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0aca0e85f92cbc82e76b5eee",
+        "spotify_artists01_genres": "australian rock, dance rock, synthpop",
+        "spotify_artists01_popularity": "32",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "fOYzLA59phw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pseudo-Echo-His-Eyes.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 968,
+            "name": "Pseudo Echo",
+            "slug": "pseudo-echo",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1982",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スード・エコー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Pseudo Echo",
+        "ytvideoid": "fOYzLA59phw",
+        "spotify_track_id": "5nYfIfBUL28KywIzNB30Yb"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "his-eyes"
+    },
+    {
+      "id": 48657,
+      "date": "1983-11-01T11:21:00",
+      "date_gmt": "1983-11-01T02:21:00",
+      "title": {
+        "rendered": "Listening"
+      },
+      "content": {
+        "rendered": "<p>Pseudo Echo - Listening</p>\n",
+        "protected": false
+      },
+      "categories": [
+        968
+      ],
+      "tags": [],
+      "genre": [
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "6kGpTAzFAJeBPyQaM8mydC",
+        "spotify_release_date": "1984/1/1",
+        "spotify_name": "Listening",
+        "spotify_artists": "Pseudo Echo",
+        "spotify_album": "Autumnal Park",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27395739116cac0f0b07d3987ef",
+        "spotify_duration_ms": "178655",
+        "spotify_popularity": "36",
+        "spotify_danceability": "0.6",
+        "spotify_energy": "0.799",
+        "spotify_key": "7",
+        "spotify_loudness": "-6.088",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0313",
+        "spotify_tempo": "131.154",
+        "spotify_valence": "0.714",
+        "spotify_acousticness": "0.189",
+        "spotify_instrumentalness": "3.64E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.314",
+        "spotify_artists01": "Pseudo Echo",
+        "spotify_artists01_id": "0FDW3axHactZo8HU0OnNVy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0aca0e85f92cbc82e76b5eee",
+        "spotify_artists01_genres": "australian rock, dance rock, synthpop",
+        "spotify_artists01_popularity": "32",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "HRj1JDe0oyA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pseudo-Echo-Listening.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 968,
+            "name": "Pseudo Echo",
+            "slug": "pseudo-echo",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1982",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スード・エコー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Pseudo Echo",
+        "ytvideoid": "HRj1JDe0oyA",
+        "spotify_track_id": "6kGpTAzFAJeBPyQaM8mydC"
+      },
+      "genre_data": [
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "listening"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

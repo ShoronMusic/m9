@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1915,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/my-kid-brother/",
+    "name": "My Kid Brother",
+    "slug": "my-kid-brother",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1915",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1915"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1915"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39296,
+      "date": "2022-06-25T10:43:00",
+      "date_gmt": "2022-06-25T01:43:00",
+      "title": {
+        "rendered": "Spilt Salt"
+      },
+      "content": {
+        "rendered": "\n<p>MyKidBrother-SpiltSalt</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1915
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1qpasIOsd7KIxqOX06FDGB",
+        "spotify_release_date": "2022/10/7",
+        "spotify_name": "SpiltSalt",
+        "spotify_artists": "MyKidBrother",
+        "spotify_album": "Happy.Mad.Weird.Sad",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737e73249ee3ecc8e64367e4af",
+        "spotify_duration_ms": "216578",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.686",
+        "spotify_energy": "0.891",
+        "spotify_key": "7",
+        "spotify_loudness": "-3.48",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0275",
+        "spotify_tempo": "97.004",
+        "spotify_valence": "0.93",
+        "spotify_acousticness": "0.00294",
+        "spotify_instrumentalness": "0.0002",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.156",
+        "spotify_artists01": "MyKidBrother",
+        "spotify_artists01_id": "2x6K5sYwi04Ev2zyGki2nu",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2338ff0af07e60cdf1295364",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "27",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "9Ekv_IC9qBM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/My-Kid-Brother-Spilt-Salt.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1915,
+            "name": "My Kid Brother",
+            "slug": "my-kid-brother",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "MyKidBrother",
+        "ytvideoid": "9Ekv_IC9qBM",
+        "spotify_track_id": "1qpasIOsd7KIxqOX06FDGB"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "spilt-salt"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

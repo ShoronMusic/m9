@@ -1,0 +1,219 @@
+{
+  "artist": {
+    "id": 2920,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/solardo/",
+    "name": "Solardo",
+    "slug": "solardo",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2920",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2920"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2920"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 49983,
+      "date": "2023-01-19T21:42:54",
+      "date_gmt": "2023-01-19T12:42:54",
+      "title": {
+        "rendered": "I Can’t Wait"
+      },
+      "content": {
+        "rendered": "<p>Tiesto & Solardo - I Can’t Wait (feat. Poppy Baskcomb)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2921,
+        2920,
+        1204
+      ],
+      "tags": [],
+      "genre": [
+        670
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3bnla8QwheGOI2AtfWOES1",
+        "spotify_release_date": "2022-12-09",
+        "spotify_name": "I Can’t Wait (feat. Poppy Baskcomb)",
+        "spotify_artists": "Tiësto, Solardo, Poppy Baskcomb",
+        "spotify_album": "I Can’t Wait (feat. Poppy Baskcomb)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e0670b6ad9b012eb57cb60a4",
+        "spotify_duration_ms": "172799",
+        "spotify_popularity": "65",
+        "spotify_danceability": "0.644",
+        "spotify_energy": "0.847",
+        "spotify_key": "5",
+        "spotify_loudness": "-6.654",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0376",
+        "spotify_tempo": "124.979",
+        "spotify_valence": "0.214",
+        "spotify_acousticness": "0.000305",
+        "spotify_instrumentalness": "0.0223",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.149",
+        "spotify_artists01": "Tiësto",
+        "spotify_artists01_id": "2o5jDhtHVPhrJdv3cEQ99Z",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb27c55a5e9ed2a41c01589fae",
+        "spotify_artists01_genres": "big room, brostep, dutch edm, edm, house, pop dance, slap house, trance",
+        "spotify_artists01_popularity": "82",
+        "spotify_artists02": "Solardo",
+        "spotify_artists02_id": "0oO1IaDOBSeI96HbnCa5pZ",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebbdada96d47954c966653fa76",
+        "spotify_artists02_genres": "house, tech house, uk dance",
+        "spotify_artists02_popularity": "55",
+        "spotify_artists03": "Poppy Baskcomb",
+        "spotify_artists03_id": "4STmXOXUF3UieHU46NWLVt",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb296b862a0c544c4d50050e7f",
+        "spotify_artists03_genres": "uk dance",
+        "spotify_artists03_popularity": "60",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ALMEXctcho0",
+        "ytreleasedate": "2023/01/19"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tiesto-Solardo-I-Cant-Wait-feat.-Poppy-Baskcomb.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2921,
+            "name": "Poppy Baskcomb",
+            "slug": "poppy-baskcomb",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2920,
+            "name": "Solardo",
+            "slug": "solardo",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1204,
+            "name": "Tiësto",
+            "slug": "tiesto",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "1994",
+              "artistborn": "19690117",
+              "artistdied": "",
+              "artistjpname": "ティエスト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Tiësto, Solardo, Poppy Baskcomb",
+        "ytvideoid": "ALMEXctcho0",
+        "spotify_track_id": "3bnla8QwheGOI2AtfWOES1"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "i-cant-wait-3"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

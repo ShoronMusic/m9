@@ -1,0 +1,80 @@
+{
+  "id": 5042,
+  "count": 1,
+  "description": "Alesha Dixon is an English singer, rapper, dancer.",
+  "link": "https://sub.music8.jp/category/alesha-dixon/",
+  "name": "Alesha Dixon",
+  "slug": "alesha-dixon",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1999",
+    "artistborn": "19781007",
+    "artistjpname": "アリーシャ・ディクソン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "rapper",
+        "label": "Rapper"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5jLwURKdEPDvuYnac74s9c",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174be39d8104278b1fd485b8058"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5042",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5042"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5042"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アリーシャ・ディクソン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174be39d8104278b1fd485b8058",
+  "artistActiveYearStart": "1999",
+  "occupation": "singer, songwriter, rapper"
+}

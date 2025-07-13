@@ -1,0 +1,199 @@
+{
+  "artist": {
+    "id": 774,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/ozi/",
+    "name": "ØZI",
+    "slug": "ozi",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/774",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=774"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=774"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40019,
+      "date": "2022-03-17T01:10:00",
+      "date_gmt": "2022-03-16T16:10:00",
+      "title": {
+        "rendered": "Hello 2.0 Legends Only"
+      },
+      "content": {
+        "rendered": "\n<p>JamesReid-Hello2.0LegendsOnlyft.JAYBand・・・I</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2750,
+        2751,
+        774
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "tUvcu40_jtQ",
+        "likecount": "1",
+        "spotify_track_id": "2RKSmt3Dv1d4JFDr55LbWg",
+        "spotify_release_date": "2022/3/11",
+        "spotify_name": "Hello2.0(LegendsOnly)[feat.?ZI]",
+        "spotify_artists": "James Reid, TransparentArts,JAYB,?ZI",
+        "spotify_album": "Hello2.0(LegendsOnly)[feat.?ZI]",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27366840605159ab5b889a00d36",
+        "spotify_duration_ms": "230475",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.686",
+        "spotify_energy": "0.674",
+        "spotify_key": "4",
+        "spotify_loudness": "-9.013",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0613",
+        "spotify_tempo": "99.984",
+        "spotify_valence": "0.734",
+        "spotify_acousticness": "0.134",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.205",
+        "spotify_artists01": "JamesReid",
+        "spotify_artists01_id": "24fEOzlKhgSNLIcy9NdmwH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6d72944f9a971d77e8fca530",
+        "spotify_artists01_genres": "deepneofolk,opm,pinoyr&b",
+        "spotify_artists01_popularity": "50",
+        "spotify_artists02": "TransparentArts",
+        "spotify_artists02_id": "1F9TDeezTpFqrwPkn1S8qW",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab67616d0000b27366840605159ab5b889a00d36",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "35",
+        "spotify_artists03": "JAYB",
+        "spotify_artists03_id": "3IjHX8KZKoeq3X4QgXxqbT",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb8751e7b6e8495b4ac09111e5",
+        "spotify_artists03_genres": "k-pop",
+        "spotify_artists03_popularity": "49",
+        "spotify_artists04": "?ZI",
+        "spotify_artists04_id": "7Icsejk4pdIhkq2KO5A0jD",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5ebf50454803d515f8abb9d51ef",
+        "spotify_artists04_genres": "mandopop,taiwanhiphop",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "JamesReid, JAY B, ØZI",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/James-Reid-Hello-2.0-Legends-Only-ft.-JAY-B-and-OZI.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2750,
+            "name": "James Reid",
+            "slug": "james-reid",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2010",
+              "artistborn": "19930511",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2751,
+            "name": "JAY B",
+            "slug": "jay-b",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 774,
+            "name": "ØZI",
+            "slug": "ozi",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "JamesReid, JAY B, ØZI",
+        "spotify_artists": "James Reid, TransparentArts,JAYB,?ZI",
+        "ytvideoid": "tUvcu40_jtQ",
+        "spotify_track_id": "2RKSmt3Dv1d4JFDr55LbWg"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hello-2-0-legends-only"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

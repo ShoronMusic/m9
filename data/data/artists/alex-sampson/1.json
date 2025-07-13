@@ -1,0 +1,328 @@
+{
+  "artist": {
+    "id": 3551,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/alex-sampson/",
+    "name": "Alex Sampson",
+    "slug": "alex-sampson",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "CAN",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3551",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3551"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3551"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 76677,
+      "date": "2024-06-29T22:45:53",
+      "date_gmt": "2024-06-29T13:45:53",
+      "title": {
+        "rendered": "Pretty Baby"
+      },
+      "content": {
+        "rendered": "<p>Alex Sampson - Pretty Baby</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3551
+      ],
+      "tags": [],
+      "genre": [
+        427
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "ytvideoid": "H9067mpZ090",
+        "ytreleasedate": "2024/06/29",
+        "spotify_track_id": "78ZGO8OXHHBYg2ZhMNaywU",
+        "spotify_release_date": "2024-06-21",
+        "spotify_name": "Pretty Baby",
+        "spotify_artists": "Alex Sampson",
+        "spotify_album": "Pretty Baby",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731e6963f784b7ee2268ad90a5",
+        "spotify_duration_ms": "203522",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.545",
+        "spotify_energy": "0.46",
+        "spotify_key": "8",
+        "spotify_loudness": "-8.155",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0256",
+        "spotify_tempo": "108.06",
+        "spotify_valence": "0.5",
+        "spotify_acousticness": "0.492",
+        "spotify_instrumentalness": "0.00000209",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.171",
+        "spotify_artists01": "Alex Sampson",
+        "spotify_artists01_id": "70LuGDrcHRTN0dQJoLN7rf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4f46b47b3cc87b7febd4d5d9",
+        "spotify_artists01_genres": "singer-songwriter pop",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2731e6963f784b7ee2268ad90a5.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3551,
+            "name": "Alex Sampson",
+            "slug": "alex-sampson",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Alex Sampson",
+        "ytvideoid": "H9067mpZ090",
+        "spotify_track_id": "78ZGO8OXHHBYg2ZhMNaywU"
+      },
+      "genre_data": [
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "pretty-baby"
+    },
+    {
+      "id": 55264,
+      "date": "2023-11-10T20:54:59",
+      "date_gmt": "2023-11-10T11:54:59",
+      "title": {
+        "rendered": "BLIND"
+      },
+      "content": {
+        "rendered": "<p>Alex Sampson - BLIND</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3551
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5zr5aYz9hJJJ25wotnbVzH",
+        "spotify_release_date": "2023-11-10",
+        "spotify_name": "BLIND",
+        "spotify_artists": "Alex Sampson",
+        "spotify_album": "BLIND",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27346a9311f2b5afdf59a4976b7",
+        "spotify_duration_ms": "153016",
+        "spotify_popularity": "25",
+        "spotify_danceability": "0.56",
+        "spotify_energy": "0.654",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.692",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0482",
+        "spotify_tempo": "120.139",
+        "spotify_valence": "0.324",
+        "spotify_acousticness": "0.079",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.115",
+        "spotify_artists01": "Alex Sampson",
+        "spotify_artists01_id": "70LuGDrcHRTN0dQJoLN7rf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8229711ab8bb897098e0ba6b",
+        "spotify_artists01_genres": "singer-songwriter pop",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "YSePFl_H1Mo",
+        "ytreleasedate": "2023/11/10"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Alex-Sampson-BLIND.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3551,
+            "name": "Alex Sampson",
+            "slug": "alex-sampson",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Alex Sampson",
+        "ytvideoid": "YSePFl_H1Mo",
+        "spotify_track_id": "5zr5aYz9hJJJ25wotnbVzH"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "blind"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

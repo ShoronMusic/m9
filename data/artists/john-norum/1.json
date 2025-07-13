@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2875,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/john-norum/",
+    "name": "John Norum",
+    "slug": "john-norum",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2875",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2875"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2875"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 49652,
+      "date": "2023-07-24T18:54:00",
+      "date_gmt": "2023-07-24T09:54:25",
+      "title": {
+        "rendered": "NORMA"
+      },
+      "content": {
+        "rendered": "<p>John Norum - NORMA feat. Åge Sten Nilsen</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2876,
+        2875
+      ],
+      "tags": [],
+      "genre": [
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "6o3k0IdhBsycSxU1lLtSXG",
+        "spotify_release_date": "2022/10/28",
+        "spotify_name": "Norma",
+        "spotify_artists": "John Norum",
+        "spotify_album": "Gone To Stay",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736c5edcf8e63aaefa51175425",
+        "spotify_duration_ms": "278080",
+        "spotify_popularity": "1",
+        "spotify_danceability": "0.443",
+        "spotify_energy": "0.936",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.826",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0886",
+        "spotify_tempo": "87.145",
+        "spotify_valence": "0.371",
+        "spotify_acousticness": "0.000258",
+        "spotify_instrumentalness": "0.00935",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.255",
+        "spotify_artists01": "ジョン・ノーラム",
+        "spotify_artists01_id": "6bLPZMOlLH9wiaQ0kO5nZh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb79eeac2ec8bca5c40d4652e",
+        "spotify_artists01_genres": "glam metal, hard rock, metal guitar, swedish melodic rock",
+        "spotify_artists01_popularity": "29",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "xfxxwvRFCH0",
+        "ytreleasedate": "2023/7/24"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/John-Norum-NORMA.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2876,
+            "name": "Age Sten Nilsen",
+            "slug": "age-sten-nilsen",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2875,
+            "name": "John Norum",
+            "slug": "john-norum",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "John Norum",
+        "ytvideoid": "xfxxwvRFCH0",
+        "spotify_track_id": "6o3k0IdhBsycSxU1lLtSXG"
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "norma"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

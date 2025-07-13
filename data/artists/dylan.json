@@ -1,0 +1,76 @@
+{
+  "id": 1992,
+  "count": 6,
+  "description": "Dylan is an English musician, singer and songwriter.",
+  "link": "https://sub.music8.jp/category/dylan/",
+  "name": "Dylan",
+  "slug": "dylan",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2019",
+    "artistborn": "19991025",
+    "artistdied": "",
+    "artistjpname": "ディラン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "Chris Lane | Jordan Davis | Russell Dickerson | Dustin Lynch | Cole Swindell (cole-swindell) | Michael Ray | Chase Rice (chase-rice) | Mitchell Tenpenny | Chase Bryant | Scotty McCreery | Lee Brice (lee-brice) | LOCASH | Dylan Marlowe | Chase Matthew | Josh Ross | Dylan Schneider | Maddie & Tae | Tyler Hubbard (tyler-hubbard) | Parmalee (parmalee) | Chris Young (chris-young)",
+    "spotify_artist_id": "78YqeIji3mgAS2K1Maca6x",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ace2867be6710d634c8bc7c0"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1992",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1992"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1992"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ディラン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ace2867be6710d634c8bc7c0",
+  "artistActiveYearStart": "2019",
+  "occupation": "singer, songwriter"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 820,
+  "count": 3,
+  "description": "Johnny Hates Jazz are a British pop band.",
+  "link": "https://sub.music8.jp/category/johnny-hates-jazz/",
+  "name": "Johnny Hates Jazz",
+  "slug": "johnny-hates-jazz",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1985",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ジョニー・ヘイツ・ジャズ",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/820",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=820"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=820"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジョニー・ヘイツ・ジャズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1985",
+  "occupation": ""
+}

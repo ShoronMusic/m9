@@ -1,0 +1,815 @@
+{
+  "artist": {
+    "id": 946,
+    "count": 6,
+    "description": "The Jam were an English rock band.",
+    "link": "https://sub.music8.jp/category/jam/",
+    "name": "Jam",
+    "slug": "jam",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ザ・ジャム",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/946",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=946"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=946"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 48886,
+      "date": "1982-11-22T11:49:00",
+      "date_gmt": "1982-11-22T02:49:00",
+      "title": {
+        "rendered": "Beat Surrender"
+      },
+      "content": {
+        "rendered": "<p>The Jam - Beat Surrender</p>\n",
+        "protected": false
+      },
+      "categories": [
+        946
+      ],
+      "tags": [],
+      "genre": [
+        623,
+        669
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4rNgFyEBbLSDQmOa3MZCNQ",
+        "spotify_release_date": "1982/3/12",
+        "spotify_name": "Beat Surrender",
+        "spotify_artists": "The Jam",
+        "spotify_album": "The Gift (Deluxe Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a4fefc9eb5319ab448fc7f33",
+        "spotify_duration_ms": "207720",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.396",
+        "spotify_energy": "0.882",
+        "spotify_key": "2",
+        "spotify_loudness": "-11.068",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0362",
+        "spotify_tempo": "156.658",
+        "spotify_valence": "0.875",
+        "spotify_acousticness": "0.00106",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.179",
+        "spotify_artists01": "The Jam",
+        "spotify_artists01_id": "2P560DaOMNDUACoH8ZhOCR",
+        "spotify_artists01_images": "https://i.scdn.co/image/ee4cebe3c187f4f18502fd99b69e316c1caa2254",
+        "spotify_artists01_genres": "mod revival, new romantic, new wave, punk",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "iVrGm7dN8wk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Jam-Beat-Surrender.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 946,
+            "name": "Jam",
+            "slug": "jam",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ジャム",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Jam",
+        "ytvideoid": "iVrGm7dN8wk",
+        "spotify_track_id": "4rNgFyEBbLSDQmOa3MZCNQ"
+      },
+      "genre_data": [
+        {
+          "name": "Mod revival",
+          "slug": "mod-revival",
+          "term_id": 623,
+          "post_count": 11
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "beat-surrender"
+    },
+    {
+      "id": 48980,
+      "date": "1982-06-06T11:44:00",
+      "date_gmt": "1982-06-06T02:44:00",
+      "title": {
+        "rendered": "The Bitterest Pill (I Ever Had To Swallow)"
+      },
+      "content": {
+        "rendered": "<p>The Jam - The Bitterest Pill (I Ever Had To Swallow)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        946
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "4FNwrhEtMgsx9BwnLdBjBb",
+        "spotify_release_date": "1982/3/12",
+        "spotify_name": "The Bitterest Pill (I Ever Had To Swallow)",
+        "spotify_artists": "The Jam",
+        "spotify_album": "The Gift (Deluxe Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a4fefc9eb5319ab448fc7f33",
+        "spotify_duration_ms": "213320",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.485",
+        "spotify_energy": "0.675",
+        "spotify_key": "2",
+        "spotify_loudness": "-10.317",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0314",
+        "spotify_tempo": "112.385",
+        "spotify_valence": "0.867",
+        "spotify_acousticness": "0.00717",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.087",
+        "spotify_artists01": "The Jam",
+        "spotify_artists01_id": "2P560DaOMNDUACoH8ZhOCR",
+        "spotify_artists01_images": "https://i.scdn.co/image/ee4cebe3c187f4f18502fd99b69e316c1caa2254",
+        "spotify_artists01_genres": "mod revival, new romantic, new wave, punk",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Aw7kvqk-v4s",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Jam-The-Bitterest-Pill-I-Ever-Had-To-Swallow.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 946,
+            "name": "Jam",
+            "slug": "jam",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ジャム",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Jam",
+        "ytvideoid": "Aw7kvqk-v4s",
+        "spotify_track_id": "4FNwrhEtMgsx9BwnLdBjBb"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-bitterest-pill-i-ever-had-to-swallow"
+    },
+    {
+      "id": 49032,
+      "date": "1982-01-29T11:28:00",
+      "date_gmt": "1982-01-29T02:28:00",
+      "title": {
+        "rendered": "Town Called Malice"
+      },
+      "content": {
+        "rendered": "<p>The Jam - Town Called Malice</p>\n",
+        "protected": false
+      },
+      "categories": [
+        946
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0gdmDP6xy3ZV7JNoHWAN9k",
+        "spotify_release_date": "1982/3/12",
+        "spotify_name": "Town Called Malice",
+        "spotify_artists": "The Jam",
+        "spotify_album": "The Gift",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733cb7b96b66eeb42c6a74ebb3",
+        "spotify_duration_ms": "173320",
+        "spotify_popularity": "70",
+        "spotify_danceability": "-0.8566629871551852",
+        "spotify_energy": "1.1802189525429312",
+        "spotify_key": "0.47224151734130654",
+        "spotify_loudness": "-0.23982646404863664",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "0.7716898500115125",
+        "spotify_tempo": "-1.0698772797284026",
+        "spotify_valence": "0.4517532990384423",
+        "spotify_acousticness": "-0.7787796369211126",
+        "spotify_instrumentalness": "-0.38001508833870523",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.7266972962580025",
+        "spotify_artists01": "The Jam",
+        "spotify_artists01_id": "2P560DaOMNDUACoH8ZhOCR",
+        "spotify_artists01_images": "https://i.scdn.co/image/ee4cebe3c187f4f18502fd99b69e316c1caa2254",
+        "spotify_artists01_genres": "mod revival, new romantic, new wave, punk",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "YfpRm-p7qlY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Jam-Town-Called-Malice.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 946,
+            "name": "Jam",
+            "slug": "jam",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ジャム",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Jam",
+        "ytvideoid": "YfpRm-p7qlY",
+        "spotify_track_id": "0gdmDP6xy3ZV7JNoHWAN9k"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "town-called-malice"
+    },
+    {
+      "id": 49150,
+      "date": "1981-01-01T11:37:00",
+      "date_gmt": "1981-01-01T02:37:00",
+      "title": {
+        "rendered": "That's Entertainment"
+      },
+      "content": {
+        "rendered": "<p>The Jam - That's Entertainment</p>\n",
+        "protected": false
+      },
+      "categories": [
+        946
+      ],
+      "tags": [],
+      "genre": [
+        399,
+        411,
+        623
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "7MH7TkjQ4RA1vG454dciw0",
+        "spotify_release_date": "1980/11/28",
+        "spotify_name": "That's Entertainment",
+        "spotify_artists": "The Jam",
+        "spotify_album": "Sound Affects",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27304e7372b26d27803779696f4",
+        "spotify_duration_ms": "212786",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.567",
+        "spotify_energy": "0.653",
+        "spotify_key": "0",
+        "spotify_loudness": "-11.524",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0336",
+        "spotify_tempo": "142.218",
+        "spotify_valence": "0.78",
+        "spotify_acousticness": "0.211",
+        "spotify_instrumentalness": "0.000489",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0639",
+        "spotify_artists01": "The Jam",
+        "spotify_artists01_id": "2P560DaOMNDUACoH8ZhOCR",
+        "spotify_artists01_images": "https://i.scdn.co/image/ee4cebe3c187f4f18502fd99b69e316c1caa2254",
+        "spotify_artists01_genres": "mod revival, new romantic, new wave, punk",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "m-H0uIH5HHQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Jam-Thats-Entertainment.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 946,
+            "name": "Jam",
+            "slug": "jam",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ジャム",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Jam",
+        "ytvideoid": "m-H0uIH5HHQ",
+        "spotify_track_id": "7MH7TkjQ4RA1vG454dciw0"
+      },
+      "genre_data": [
+        {
+          "name": "Acoustic rock",
+          "slug": "acoustic-rock",
+          "term_id": 399,
+          "post_count": 94
+        },
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Mod revival",
+          "slug": "mod-revival",
+          "term_id": 623,
+          "post_count": 11
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "thats-entertainment"
+    },
+    {
+      "id": 49228,
+      "date": "1980-03-10T11:33:00",
+      "date_gmt": "1980-03-10T02:33:00",
+      "title": {
+        "rendered": "Going Underground"
+      },
+      "content": {
+        "rendered": "<p>The Jam - Going Underground</p>\n",
+        "protected": false
+      },
+      "categories": [
+        946
+      ],
+      "tags": [],
+      "genre": [
+        623,
+        638,
+        669
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "6ALPLbDJ9eWVij9ep3Cgf4",
+        "spotify_release_date": "1979/11/17",
+        "spotify_name": "Going Underground",
+        "spotify_artists": "The Jam",
+        "spotify_album": "Setting Sons (Super Deluxe)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e79cd8f4737fb27954f415f8",
+        "spotify_duration_ms": "174506",
+        "spotify_popularity": "60",
+        "spotify_danceability": "-2.8192205948401305",
+        "spotify_energy": "0.662909587267339",
+        "spotify_key": "1.5522909188051726",
+        "spotify_loudness": "0.42049957959814616",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "1.3422369178459812",
+        "spotify_tempo": "2.5837188777098765",
+        "spotify_valence": "1.2280449030816836",
+        "spotify_acousticness": "-0.7682131502046394",
+        "spotify_instrumentalness": "-0.411408576153325",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.5182367855054728",
+        "spotify_artists01": "The Jam",
+        "spotify_artists01_id": "2P560DaOMNDUACoH8ZhOCR",
+        "spotify_artists01_images": "https://i.scdn.co/image/ee4cebe3c187f4f18502fd99b69e316c1caa2254",
+        "spotify_artists01_genres": "mod revival, new romantic, new wave, punk",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "AE1ct5yEuVY",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Jam-Going-Underground.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 946,
+            "name": "Jam",
+            "slug": "jam",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ジャム",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Jam",
+        "ytvideoid": "AE1ct5yEuVY",
+        "spotify_track_id": "6ALPLbDJ9eWVij9ep3Cgf4"
+      },
+      "genre_data": [
+        {
+          "name": "Mod revival",
+          "slug": "mod-revival",
+          "term_id": 623,
+          "post_count": 11
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "going-underground"
+    },
+    {
+      "id": 49355,
+      "date": "1978-10-13T11:40:00",
+      "date_gmt": "1978-10-13T02:40:00",
+      "title": {
+        "rendered": "Down In The Tube Station At Midnight"
+      },
+      "content": {
+        "rendered": "<p>The Jam - Down In The Tube Station At Midnight</p>\n",
+        "protected": false
+      },
+      "categories": [
+        946
+      ],
+      "tags": [],
+      "genre": [
+        623
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5TXC1nMc1xfxu4a0k2GYOS",
+        "spotify_release_date": "1983/10/14",
+        "spotify_name": "Down In The Tube Station At Midnight - Single Version",
+        "spotify_artists": "The Jam",
+        "spotify_album": "Snap",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273961463622d05510ac61576ef",
+        "spotify_duration_ms": "241906",
+        "spotify_popularity": "26",
+        "spotify_danceability": "0.278",
+        "spotify_energy": "0.806",
+        "spotify_key": "9",
+        "spotify_loudness": "-7.772",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.172",
+        "spotify_tempo": "172.551",
+        "spotify_valence": "0.787",
+        "spotify_acousticness": "0.039",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0977",
+        "spotify_artists01": "The Jam",
+        "spotify_artists01_id": "2P560DaOMNDUACoH8ZhOCR",
+        "spotify_artists01_images": "https://i.scdn.co/image/ee4cebe3c187f4f18502fd99b69e316c1caa2254",
+        "spotify_artists01_genres": "mod revival, new romantic, new wave, punk",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "hf4EFDGP4yg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Jam-Down-In-The-Tube-Station-At-Midnight.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 946,
+            "name": "Jam",
+            "slug": "jam",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ジャム",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Jam",
+        "ytvideoid": "hf4EFDGP4yg",
+        "spotify_track_id": "5TXC1nMc1xfxu4a0k2GYOS"
+      },
+      "genre_data": [
+        {
+          "name": "Mod revival",
+          "slug": "mod-revival",
+          "term_id": 623,
+          "post_count": 11
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "down-in-the-tube-station-at-midnight"
+    }
+  ],
+  "totalSongs": 6,
+  "totalPages": 1,
+  "currentPage": 1
+}

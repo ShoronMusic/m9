@@ -1,0 +1,366 @@
+{
+  "artist": {
+    "id": 4499,
+    "count": 2,
+    "description": "Guy Sebastian is an Australian singer-songwriter.",
+    "link": "https://sub.music8.jp/category/guy-sebastian/",
+    "name": "Guy Sebastian",
+    "slug": "guy-sebastian",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "2003",
+      "artistborn": "19811026",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4499",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4499"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4499"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 102283,
+      "date": "2025-07-04T11:06:05",
+      "date_gmt": "2025-07-04T02:06:05",
+      "title": {
+        "rendered": "Get It Done"
+      },
+      "content": {
+        "rendered": "<p>Guy Sebastian - Get It Done</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4499
+      ],
+      "tags": [],
+      "genre": [
+        658,
+        659
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "42gfbluDzzs",
+        "ytreleasedate": "2025/07/04",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6qJ8Il5OThFcrOFj32xR32",
+        "spotify_release_date": "2025-07-04",
+        "spotify_name": "Get It Done",
+        "spotify_artists": "Guy Sebastian",
+        "spotify_album": "Get It Done",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e062246d48db378958d509a0",
+        "spotify_duration_ms": "182110",
+        "spotify_popularity": "30",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Guy Sebastian",
+        "spotify_artists01_id": "5PjekOABtfU2Kwo0AHVmci",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb87ec6101b0e088f19d5e3441",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/guy-sebastian-get-it-done.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4499,
+            "name": "Guy Sebastian",
+            "slug": "guy-sebastian",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2003",
+              "artistborn": "19811026",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Guy Sebastian",
+        "ytvideoid": "42gfbluDzzs",
+        "spotify_track_id": "6qJ8Il5OThFcrOFj32xR32"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Pop soul",
+          "slug": "pop-soul",
+          "term_id": 659,
+          "post_count": 187
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "get-it-done"
+    },
+    {
+      "id": 65842,
+      "date": "2024-02-28T17:12:33",
+      "date_gmt": "2024-02-28T08:12:33",
+      "title": {
+        "rendered": "Antidote"
+      },
+      "content": {
+        "rendered": "<p>Guy Sebastian, Sam Fischer - Antidote</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4499,
+        1343
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "TrNC9PjpWz0",
+        "ytreleasedate": "2024/02/28",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2xjWiL4bvoU8HuQKCPc74M",
+        "spotify_release_date": "2024-02-22",
+        "spotify_name": "Antidote (feat. Sam Fischer)",
+        "spotify_artists": "Guy Sebastian, Sam Fischer",
+        "spotify_album": "Antidote (feat. Sam Fischer)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273950bcae843b6ea0f5e28c778",
+        "spotify_duration_ms": "280463",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.425",
+        "spotify_energy": "0.585",
+        "spotify_key": "0",
+        "spotify_loudness": "-5.56",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0358",
+        "spotify_tempo": "132.79",
+        "spotify_valence": "0.253",
+        "spotify_acousticness": "0.405",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.16",
+        "spotify_artists01": "Guy Sebastian",
+        "spotify_artists01_id": "5PjekOABtfU2Kwo0AHVmci",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb08ed5c47d0cadfb5fbfecba5",
+        "spotify_artists01_genres": "australian pop",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "Sam Fischer",
+        "spotify_artists02_id": "6L1XC7NrmgWRlwAeLJvVtA",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb3fe34a07ce8c3f3f16d8ea8e",
+        "spotify_artists02_genres": "australian pop, singer-songwriter pop",
+        "spotify_artists02_popularity": "61",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273950bcae843b6ea0f5e28c778.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4499,
+            "name": "Guy Sebastian",
+            "slug": "guy-sebastian",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2003",
+              "artistborn": "19811026",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1343,
+            "name": "Sam Fischer",
+            "slug": "sam-fischer",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "",
+              "artistborn": "19910705",
+              "artistdied": "",
+              "artistjpname": "サム・フィッシャー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Guy Sebastian, Sam Fischer",
+        "ytvideoid": "TrNC9PjpWz0",
+        "spotify_track_id": "2xjWiL4bvoU8HuQKCPc74M"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "antidote"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

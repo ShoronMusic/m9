@@ -1,0 +1,72 @@
+{
+  "id": 3410,
+  "count": 4,
+  "description": "Cherry Glazerr is an American rock band.",
+  "link": "https://sub.music8.jp/category/cherry-glazerr/",
+  "name": "Cherry Glazerr",
+  "slug": "cherry-glazerr",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2013",
+    "artistborn": "",
+    "artistjpname": "チェリー・グレイザー",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Chastity Belt | Girlpool | Palehound | Diet Cig | Bleached | Daddy Issues | IAN SWEET | Lala Lala | Mannequin Pussy | Adult Mom | Jay Som | Tacocat | Bully | DILLY DALLY | Wavves | Soccer Mommy (soccer-mommy) | Together Pangea | Angel Olsen | Aquadolls | Snail Mail",
+    "spotify_artist_id": "3pIGm1omCcHIb1juBNHspg",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174be4108c674ad29f8440c67d2"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3410",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3410"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3410"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "チェリー・グレイザー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174be4108c674ad29f8440c67d2",
+  "artistActiveYearStart": "2013",
+  "occupation": "band"
+}

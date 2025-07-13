@@ -1,0 +1,318 @@
+{
+  "artist": {
+    "id": 3205,
+    "count": 2,
+    "description": "The Heavy are an English rock band.",
+    "link": "https://sub.music8.jp/category/heavy/",
+    "name": "Heavy",
+    "slug": "heavy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2007",
+      "artistborn": "",
+      "artistjpname": "ザ・ヘヴィー",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3205",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3205"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3205"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52157,
+      "date": "2023-03-23T21:32:57",
+      "date_gmt": "2023-03-23T12:32:57",
+      "title": {
+        "rendered": "Stone Cold Killer"
+      },
+      "content": {
+        "rendered": "<p>Heavy - Stone Cold Killer</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3205
+      ],
+      "tags": [],
+      "genre": [
+        537,
+        540,
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3PBLqjI5UupdXIjInW8QoE",
+        "spotify_release_date": "2023-04-21",
+        "spotify_name": "Stone Cold Killer",
+        "spotify_artists": "The Heavy",
+        "spotify_album": "AMEN",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d6291dcb0d472d5e04042a16",
+        "spotify_duration_ms": "188733",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.704",
+        "spotify_energy": "0.83",
+        "spotify_key": "6",
+        "spotify_loudness": "-5.343",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0522",
+        "spotify_tempo": "123.954",
+        "spotify_valence": "0.876",
+        "spotify_acousticness": "0.0051",
+        "spotify_instrumentalness": "0.0000381",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.563",
+        "spotify_artists01": "The Heavy",
+        "spotify_artists01_id": "0bZCak2tcRMY1dzEIuwF42",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1c1f2d58733718e6a4aaf00e",
+        "spotify_artists01_genres": "bath indie, modern blues rock",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "xFRQ1tYjoqw",
+        "ytreleasedate": "2023/03/23"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Heavy-Stone-Cold-Killer.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3205,
+            "name": "Heavy",
+            "slug": "heavy",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistjpname": "ザ・ヘヴィー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Heavy",
+        "ytvideoid": "xFRQ1tYjoqw",
+        "spotify_track_id": "3PBLqjI5UupdXIjInW8QoE"
+      },
+      "genre_data": [
+        {
+          "name": "Garage rock revival",
+          "slug": "garage-rock-revival",
+          "term_id": 537,
+          "post_count": 54
+        },
+        {
+          "name": "Glam rock",
+          "slug": "glam-rock",
+          "term_id": 540,
+          "post_count": 120
+        },
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "stone-cold-killer"
+    },
+    {
+      "id": 52160,
+      "date": "2012-08-08T21:38:49",
+      "date_gmt": "2012-08-08T12:38:49",
+      "title": {
+        "rendered": "Same Ol'"
+      },
+      "content": {
+        "rendered": "<p>Heavy - Same Ol'</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3205
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        421
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0xaH69M4A9NmdwbVqzQG7y",
+        "spotify_release_date": "2012-08-08",
+        "spotify_name": "Same Ol'",
+        "spotify_artists": "The Heavy",
+        "spotify_album": "The Glorious Dead",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273314875030abec4a4e0272de6",
+        "spotify_duration_ms": "241733",
+        "spotify_popularity": "29",
+        "spotify_danceability": "0.553",
+        "spotify_energy": "0.821",
+        "spotify_key": "5",
+        "spotify_loudness": "-4.478",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0309",
+        "spotify_tempo": "78.028",
+        "spotify_valence": "0.659",
+        "spotify_acousticness": "0.000213",
+        "spotify_instrumentalness": "0.00232",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0759",
+        "spotify_artists01": "The Heavy",
+        "spotify_artists01_id": "0bZCak2tcRMY1dzEIuwF42",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1c1f2d58733718e6a4aaf00e",
+        "spotify_artists01_genres": "bath indie, modern blues rock",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "4OAkUelXoVY",
+        "ytreleasedate": "2014/09/20"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Heavy-Same-Ol.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3205,
+            "name": "Heavy",
+            "slug": "heavy",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistjpname": "ザ・ヘヴィー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Heavy",
+        "ytvideoid": "4OAkUelXoVY",
+        "spotify_track_id": "0xaH69M4A9NmdwbVqzQG7y"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Art rock",
+          "slug": "art-rock",
+          "term_id": 421,
+          "post_count": 118
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "same-ol"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

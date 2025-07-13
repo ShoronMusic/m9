@@ -1,0 +1,241 @@
+{
+  "artist": {
+    "id": 4134,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/absolutely/",
+    "name": "Absolutely",
+    "slug": "absolutely",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4134",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4134"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4134"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61009,
+      "date": "2024-01-26T21:17:33",
+      "date_gmt": "2024-01-26T12:17:33",
+      "title": {
+        "rendered": "Waterslides"
+      },
+      "content": {
+        "rendered": "<p>Tiësto, Rudimental, Absolutely - Waterslides</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4134,
+        2673,
+        1204
+      ],
+      "tags": [],
+      "genre": [
+        487,
+        501
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1SBfaO3swtjh8dV07MExuP",
+        "spotify_release_date": "2024-01-26",
+        "spotify_name": "Waterslides",
+        "spotify_artists": "Tiësto, ルディメンタル, Absolutely",
+        "spotify_album": "Waterslides",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732b2827cce678c0e4309c0b79",
+        "spotify_duration_ms": "158174",
+        "spotify_popularity": "74",
+        "spotify_danceability": "0.323",
+        "spotify_energy": "0.689",
+        "spotify_key": "6",
+        "spotify_loudness": "-4.773",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.176",
+        "spotify_tempo": "173.497",
+        "spotify_valence": "0.233",
+        "spotify_acousticness": "0.00446",
+        "spotify_instrumentalness": "0.0000408",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.166",
+        "spotify_artists01": "Tiësto",
+        "spotify_artists01_id": "2o5jDhtHVPhrJdv3cEQ99Z",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe84e08fb1dfa2bf9b5a61563",
+        "spotify_artists01_genres": "big room, brostep, dutch edm, edm, house, pop dance, slap house, trance",
+        "spotify_artists01_popularity": "83",
+        "spotify_artists02": "ルディメンタル",
+        "spotify_artists02_id": "4WN5naL3ofxrVBgFpguzKo",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebe0a1e4d232f422c8db0ed3f7",
+        "spotify_artists02_genres": "pop dance, uk dance, uk funky",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "Absolutely",
+        "spotify_artists03_id": "4ellgkPyhbJetngXmHX5Zh",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb17e2b652b3b5b4056a300bc1",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "53",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5bw0vtdn4lU",
+        "ytreleasedate": "2024/01/26"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tiesto-Rudimental-Absolutely-Waterslides.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4134,
+            "name": "Absolutely",
+            "slug": "absolutely",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2673,
+            "name": "Rudimental",
+            "slug": "rudimental",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ルディメンタル",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1204,
+            "name": "Tiësto",
+            "slug": "tiesto",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "1994",
+              "artistborn": "19690117",
+              "artistdied": "",
+              "artistjpname": "ティエスト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Tiësto, ルディメンタル, Absolutely",
+        "ytvideoid": "5bw0vtdn4lU",
+        "spotify_track_id": "1SBfaO3swtjh8dV07MExuP"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        },
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "waterslides"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

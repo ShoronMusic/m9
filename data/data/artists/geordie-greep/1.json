@@ -1,0 +1,204 @@
+{
+  "artist": {
+    "id": 5812,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/geordie-greep/",
+    "name": "Geordie Greep",
+    "slug": "geordie-greep",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5812",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5812"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5812"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 80483,
+      "date": "2024-08-20T19:50:10",
+      "date_gmt": "2024-08-20T10:50:10",
+      "title": {
+        "rendered": "Holy, Holy"
+      },
+      "content": {
+        "rendered": "<p>Geordie Greep - Holy, Holy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5812
+      ],
+      "tags": [],
+      "genre": [
+        421,
+        590,
+        674
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "A4EU_0vFzuU",
+        "ytreleasedate": "2024/08/20",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "4Nk10X45JIH1xrIWOCbA3I",
+        "spotify_release_date": "2024-08-20",
+        "spotify_name": "Holy, Holy",
+        "spotify_artists": "Geordie Greep",
+        "spotify_album": "Holy, Holy",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ddc0841f5c0714201e742233",
+        "spotify_duration_ms": "363138",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.541",
+        "spotify_energy": "0.798",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.78",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.083",
+        "spotify_tempo": "144.059",
+        "spotify_valence": "0.721",
+        "spotify_acousticness": "0.116",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.717",
+        "spotify_artists01": "Geordie Greep",
+        "spotify_artists01_id": "65Msz2E34NUtbjEbsrsJlJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba98f8e255ccc67f72e6275f9",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273ddc0841f5c0714201e742233.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5812,
+            "name": "Geordie Greep",
+            "slug": "geordie-greep",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Geordie Greep",
+        "ytvideoid": "A4EU_0vFzuU",
+        "spotify_track_id": "4Nk10X45JIH1xrIWOCbA3I"
+      },
+      "genre_data": [
+        {
+          "name": "Art rock",
+          "slug": "art-rock",
+          "term_id": 421,
+          "post_count": 118
+        },
+        {
+          "name": "Jazz-rock",
+          "slug": "jazz-rock",
+          "term_id": 590,
+          "post_count": 20
+        },
+        {
+          "name": "Progressive rock",
+          "slug": "progressive-rock",
+          "term_id": 674,
+          "post_count": 48
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "holy-holy"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

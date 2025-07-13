@@ -1,0 +1,404 @@
+{
+  "artist": {
+    "id": 802,
+    "count": 2,
+    "description": "Aretha Franklin was an American singer, songwriter, and pianist, often referred to as the \"Queen of Soul\".",
+    "link": "https://sub.music8.jp/category/aretha-franklin/",
+    "name": "Aretha Franklin",
+    "slug": "aretha-franklin",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1956",
+      "artistborn": "19420325",
+      "artistdied": "2018.08.16",
+      "artistjpname": "アレサ・フランクリン",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/802",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=802"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=802"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47897,
+      "date": "1987-01-23T14:02:00",
+      "date_gmt": "1987-01-23T05:02:00",
+      "title": {
+        "rendered": "I Knew You Were Waiting (For Me)"
+      },
+      "content": {
+        "rendered": "<p>George Michael, Aretha Franklin - I Knew You Were Waiting (For Me)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        802,
+        991
+      ],
+      "tags": [],
+      "genre": [
+        472,
+        658,
+        685
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2XgDgIsVUOt9Lov5G4Wruy",
+        "spotify_release_date": "1998/11/9",
+        "spotify_name": "I Knew You Were Waiting (For Me)",
+        "spotify_artists": "George Michael, Aretha Franklin",
+        "spotify_album": "Ladies And Gentlemen... The Best Of George Michael",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27364c19b24ce947ffa363f8f96",
+        "spotify_duration_ms": "238000",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.717",
+        "spotify_energy": "0.837",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.49",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0457",
+        "spotify_tempo": "107.989",
+        "spotify_valence": "0.68",
+        "spotify_acousticness": "0.266",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.235",
+        "spotify_artists01": "George Michael",
+        "spotify_artists01_id": "19ra5tSw0tWufvUp8GotLo",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf8b74c36ba6c31fc0f58783c",
+        "spotify_artists01_genres": "new wave pop",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "Aretha Franklin",
+        "spotify_artists02_id": "7nwUJBm0HE4ZxD3f5cy5ok",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebf12270128127ba170f90097d",
+        "spotify_artists02_genres": "classic soul, jazz blues, memphis soul, neo soul, soul, southern soul, vocal jazz",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "fDxzQJaA228",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/George-Michael-Aretha-Franklin-I-Knew-You-Were-Waiting-For-Me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 802,
+            "name": "Aretha Franklin",
+            "slug": "aretha-franklin",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1956",
+              "artistborn": "19420325",
+              "artistdied": "2018.08.16",
+              "artistjpname": "アレサ・フランクリン",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 991,
+            "name": "George Michael",
+            "slug": "george-michael",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1981–2016",
+              "artistborn": "19630625",
+              "artistdied": "2016.12.25",
+              "artistjpname": "ジョージ・マイケル",
+              "member": [
+                {
+                  "errors": {
+                    "invalid_term": [
+                      "空のターム。"
+                    ]
+                  },
+                  "error_data": []
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "Wham! (wham) | Simply Red (simply-red) | Seal (seal) | Lisa Stansfield (lisa-stansfield) | Culture Club (culture-club) | Eurythmics (eurythmics) | Annie Lennox (annie-lennox) | Spandau Ballet (spandau-ballet) | Tina Turner (tina-turner) | Paul Young (paul-young) | Wet Wet Wet (wet-wet-wet) | Billy Ocean | Boy George (boy-george) | Duran Duran (duran-duran) | Lionel Richie (lionel-richie) | Bananarama (bananarama) | Rick Astley (rick-astley) | Level 42 (level-42) | Frankie Goes To Hollywood (frankie-goes-to-hollywood) | Cyndi Lauper (cyndi-lauper)",
+              "spotify_artist_id": "19ra5tSw0tWufvUp8GotLo",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d919dbf4e6ed3e695ba6339d"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "George Michael, Aretha Franklin",
+        "ytvideoid": "fDxzQJaA228",
+        "spotify_track_id": "2XgDgIsVUOt9Lov5G4Wruy"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-rock",
+          "slug": "dance-rock",
+          "term_id": 472,
+          "post_count": 70
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "i-knew-you-were-waiting-for-me"
+    },
+    {
+      "id": 48186,
+      "date": "1985-10-01T21:24:00",
+      "date_gmt": "1985-10-01T12:24:00",
+      "title": {
+        "rendered": "Sisters Are Doin' It for Themselves"
+      },
+      "content": {
+        "rendered": "<p>Eurythmics - Sisters Are Doin' It for Themselves ft. Aretha Franklin</p>\n",
+        "protected": false
+      },
+      "categories": [
+        802,
+        801
+      ],
+      "tags": [],
+      "genre": [
+        658,
+        719
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "drGx7JkFSp4",
+        "likecount": "1",
+        "spotify_track_id": "6pPCOXIQeNMr1oCWJTomSf",
+        "spotify_release_date": "1985/4/29",
+        "spotify_name": "Sisters Are Doin' It for Themselves - Remastered Version",
+        "spotify_artists": "Eurythmics, Annie Lennox, Dave Stewart, Aretha Franklin",
+        "spotify_album": "Be Yourself Tonight",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738b9d4820655b6bf032ed41f3",
+        "spotify_duration_ms": "357146",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.67",
+        "spotify_energy": "0.903",
+        "spotify_key": "10",
+        "spotify_loudness": "-5.796",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0402",
+        "spotify_tempo": "136.193",
+        "spotify_valence": "0.953",
+        "spotify_acousticness": "0.0129",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.331",
+        "spotify_artists01": "Eurythmics",
+        "spotify_artists01_id": "0NKDgy9j66h3DLnN8qu1bB",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb145a01fb993c3088fe6ac5e7",
+        "spotify_artists01_genres": "dance rock, new romantic, new wave, new wave pop, soft rock, sophisti-pop, synthpop",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "Annie Lennox",
+        "spotify_artists02_id": "5MspMQqdVbdwP6ax3GXqum",
+        "spotify_artists02_images": "https://i.scdn.co/image/fb1b39783fdc9625bcba0837e7da9882969eaa03",
+        "spotify_artists02_genres": "new romantic, new wave, new wave pop, singer-songwriter, soft rock, synthpop",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "Dave Stewart",
+        "spotify_artists03_id": "7gcCQIlkkfbul5Mt0jBQkg",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb69f218e3cb145eacfb6c8476",
+        "spotify_artists03_genres": "new wave pop, rock keyboard",
+        "spotify_artists03_popularity": "66",
+        "spotify_artists04": "Aretha Franklin",
+        "spotify_artists04_id": "7nwUJBm0HE4ZxD3f5cy5ok",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5ebf12270128127ba170f90097d",
+        "spotify_artists04_genres": "classic soul, jazz blues, memphis soul, neo soul, soul, southern soul, vocal jazz",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Eurythmics-Sisters-Are-Doin-It-for-Themselves.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 802,
+            "name": "Aretha Franklin",
+            "slug": "aretha-franklin",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1956",
+              "artistborn": "19420325",
+              "artistdied": "2018.08.16",
+              "artistjpname": "アレサ・フランクリン",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 801,
+            "name": "Eurythmics",
+            "slug": "eurythmics",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1980",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ユーリズミックス",
+              "member": [
+                {
+                  "term_id": 4770,
+                  "name": "Annie Lennox",
+                  "slug": "annie-lennox",
+                  "term_group": 0,
+                  "term_taxonomy_id": 4770,
+                  "taxonomy": "category",
+                  "description": "Annie Lennox is a Scottish singer-songwriter.",
+                  "parent": 0,
+                  "count": 2,
+                  "filter": "raw"
+                },
+                {
+                  "term_id": 1034,
+                  "name": "Dave Stewart",
+                  "slug": "dave-stewart",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1034,
+                  "taxonomy": "category",
+                  "description": "Dave Stewart is an English musician, songwriter, and record producer, known for his work with the Eurythmics.",
+                  "parent": 0,
+                  "count": 3,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ],
+              "related_artists": "Annie Lennox (annie-lennox) | Dave Stewart (dave-stewart) | Frankie Goes To Hollywood (frankie-goes-to-hollywood) | Bananarama (bananarama) | Fine Young Cannibals (fine-young-cannibals) | Culture Club (culture-club) | Alison Moyet (alison-moyet) | Spandau Ballet (spandau-ballet) | Human League (human-league) | Boy George (boy-george) | Kim Wilde (kim-wilde) | Bangles (bangles) | Communards (communards) | Thompson Twins (thompson-twins) | Pet Shop Boys (pet-shop-boys) | Erasure (erasure) | Soft Cell (soft-cell) | Belinda Carlisle (belinda-carlisle) | Berlin (berlin) | a-ha (a-ha) | Robert Palmer (robert-palmer)",
+              "spotify_artist_id": "0NKDgy9j66h3DLnN8qu1bB",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174145a01fb993c3088fe6ac5e7",
+              "youtube_channel": "UCyduOPMIl8N6vlyJxRo2v7g",
+              "wikipedia_page": "Eurythmics"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Eurythmics, Annie Lennox, Dave Stewart, Aretha Franklin",
+        "ytvideoid": "drGx7JkFSp4",
+        "spotify_track_id": "6pPCOXIQeNMr1oCWJTomSf"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Soul",
+          "slug": "soul",
+          "term_id": 719,
+          "post_count": 230
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "sisters-are-doin-it-for-themselves"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

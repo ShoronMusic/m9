@@ -1,0 +1,82 @@
+{
+  "id": 2793,
+  "count": 4,
+  "description": "NxWorries is an American music superduo",
+  "link": "https://sub.music8.jp/category/nxworries/",
+  "name": "NxWorries",
+  "slug": "nxworries",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2015",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ノー・ウォーリーズ",
+    "member": [
+      {
+        "term_id": 1541,
+        "name": "Anderson .Paak",
+        "slug": "anderson-paak",
+        "term_group": 0,
+        "term_taxonomy_id": 1541,
+        "taxonomy": "category",
+        "description": "Anderson .Paak is an American singer, rapper, and producer.",
+        "parent": 0,
+        "count": 17,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2793",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2793"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2793"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ノー・ウォーリーズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2015",
+  "occupation": "duo"
+}

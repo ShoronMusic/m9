@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 6662,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/james-french/",
+    "name": "James French",
+    "slug": "james-french",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6662",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6662"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6662"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 94888,
+      "date": "2025-03-13T13:20:47",
+      "date_gmt": "2025-03-13T04:20:47",
+      "title": {
+        "rendered": "I'm On Fire"
+      },
+      "content": {
+        "rendered": "<p>Cosmic Gate, James French - I'm On Fire</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2708,
+        6662
+      ],
+      "tags": [],
+      "genre": [
+        742
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "okEVip0RIR8",
+        "ytreleasedate": "2025/03/13",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1KIbfDi4qkolOx7Vwps33a",
+        "spotify_release_date": "2025-03-07",
+        "spotify_name": "I'm On Fire",
+        "spotify_artists": "Cosmic Gate, James French",
+        "spotify_album": "I'm On Fire",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273bd44917ad62fb34d6db3b052",
+        "spotify_duration_ms": "232607",
+        "spotify_popularity": "54",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Cosmic Gate",
+        "spotify_artists01_id": "6ySxYu68zTsO5ghsThpGtS",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb36cc648668d3037250d03b89",
+        "spotify_artists01_genres": "trance, progressive trance",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "James French",
+        "spotify_artists02_id": "1cyoaS6fUKVqileyv1iues",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebbc66eed277de6f3e596e8942",
+        "spotify_artists02_genres": "deep house",
+        "spotify_artists02_popularity": "45",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/cosmic-gate-james-french-im-on-fire.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2708,
+            "name": "Cosmic Gate",
+            "slug": "cosmic-gate",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1999",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "コズミック・ゲート",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "Aly & Fila | Orjan Nilsen (orjan-nilsen) | Ferry Corsten (ferry-corsten) | Super8 & Tab | Andy Moor | Alex M.O.R.P.H. | Markus Schulz (markus-schulz) | John O'Callaghan (john-ocallaghan) | Ben Gold | Kyau & Albert | Alexander Popov | Giuseppe Ottaviani | Rank 1 | Gabriel & Dresden | Ruben de Ronde | Andrew Rayel (andrew-rayel) | Solarstone | Richard Durand (richard-durand) | GAIA | Simon Patterson",
+              "spotify_artist_id": "6ySxYu68zTsO5ghsThpGtS",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a3ba56b137a0d342da88e222"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6662,
+            "name": "James French",
+            "slug": "james-french",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Cosmic Gate, James French",
+        "ytvideoid": "okEVip0RIR8",
+        "spotify_track_id": "1KIbfDi4qkolOx7Vwps33a"
+      },
+      "genre_data": [
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "im-on-fire"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

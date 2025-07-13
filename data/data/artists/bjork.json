@@ -1,0 +1,80 @@
+{
+  "id": 2297,
+  "count": 3,
+  "description": "Björk is an Icelandic singer, songwriter, and musician.",
+  "link": "https://sub.music8.jp/category/bjork/",
+  "name": "björk",
+  "slug": "bjork",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "ISL",
+    "artistactiveyearstart": "1975",
+    "artistborn": "19651121",
+    "artistdied": "",
+    "artistjpname": "ビョーク",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "Sugarcubes (sugarcubes) | Portishead (portishead) | PJ Harvey (pj-harvey) | Thom Yorke (thom-yorke) | Arca | Cocteau Twins (cocteau-twins) | Massive Attack (massive-attack) | Aphex Twin (aphex-twin) | Goldfrapp (goldfrapp) | Fiona Apple (fiona-apple) | Sonic Youth (sonic-youth) | Tricky (tricky) | Air (air) | FKA twigs (fka-twigs) | SOPHIE (sophie) | my bloody valentine (my-bloody-valentine) | Knife (knife) | Joy Division (joy-division) | Siouxsie And The Banshees (siouxsie-and-the-banshees) | Slowdive (slowdive)",
+    "spotify_artist_id": "7w29UYBi0qsHi5RTcv3lmA",
+    "spotify_artist_images": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2297",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2297"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2297"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ビョーク",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1975",
+  "occupation": "singer, songwriter, producer"
+}

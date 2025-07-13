@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1808,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/courting/",
+    "name": "Courting",
+    "slug": "courting",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1808",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1808"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1808"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39873,
+      "date": "2022-04-05T01:14:00",
+      "date_gmt": "2022-04-04T16:14:00",
+      "title": {
+        "rendered": "Tennis"
+      },
+      "content": {
+        "rendered": "\n<p>Courting-Tennis</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1808
+      ],
+      "tags": [],
+      "genre": [
+        420,
+        665
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3cJH8XcTtrdB1VcCYFdv82",
+        "spotify_release_date": "2022/4/5",
+        "spotify_name": "Tennis",
+        "spotify_artists": "Courting",
+        "spotify_album": "Tennis",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b04da2e5007d1e5e05b517b2",
+        "spotify_duration_ms": "241746",
+        "spotify_popularity": "36",
+        "spotify_danceability": "0.502",
+        "spotify_energy": "0.706",
+        "spotify_key": "9",
+        "spotify_loudness": "-5.189",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0445",
+        "spotify_tempo": "164.982",
+        "spotify_valence": "0.537",
+        "spotify_acousticness": "0.000453",
+        "spotify_instrumentalness": "8.93E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0857",
+        "spotify_artists01": "Courting",
+        "spotify_artists01_id": "3oLTaC5QBOH96VbxMAafpZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9e8dd8b80d3eadd9255065a2",
+        "spotify_artists01_genres": "crankwave,ukpost-punkrevival",
+        "spotify_artists01_popularity": "30",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "QaQosYoRSEU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Courting-Tennis.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1808,
+            "name": "Courting",
+            "slug": "courting",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Courting",
+        "ytvideoid": "QaQosYoRSEU",
+        "spotify_track_id": "3cJH8XcTtrdB1VcCYFdv82"
+      },
+      "genre_data": [
+        {
+          "name": "Art punk",
+          "slug": "art-punk",
+          "term_id": 420,
+          "post_count": 20
+        },
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "tennis"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,365 @@
+{
+  "artist": {
+    "id": 2100,
+    "count": 2,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/acraze/",
+    "name": "ACRAZE",
+    "slug": "acraze",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2100",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2100"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2100"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39901,
+      "date": "2022-04-11T03:01:00",
+      "date_gmt": "2022-04-10T18:01:00",
+      "title": {
+        "rendered": "Do It To It"
+      },
+      "content": {
+        "rendered": "\n<p>ACRAZE-DoItToIt(SubFocusRemix)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2100,
+        2677
+      ],
+      "tags": [],
+      "genre": [
+        487,
+        670
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4z78eVQBoMHg1e4XGp4rMj",
+        "spotify_release_date": "2022/4/1",
+        "spotify_name": "DoItToIt-SubFocusRemix",
+        "spotify_artists": "ACRAZE,SubFocus,Cherish",
+        "spotify_album": "DoItToIt(SubFocusRemix)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733646971bbf657b7ed5cc924e",
+        "spotify_duration_ms": "194482",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.599",
+        "spotify_energy": "0.977",
+        "spotify_key": "7",
+        "spotify_loudness": "-0.552",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0687",
+        "spotify_tempo": "173.959",
+        "spotify_valence": "0.108",
+        "spotify_acousticness": "0.00704",
+        "spotify_instrumentalness": "0.827",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.582",
+        "spotify_artists01": "ACRAZE",
+        "spotify_artists01_id": "4pnp4w9g30yLfVIAFnZMRd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb858f66e19749ddc0d44827d6",
+        "spotify_artists01_genres": "popdance,techhouse",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "SubFocus",
+        "spotify_artists02_id": "0QaSiI5TLA4N7mcsdxShDO",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb17479647ed32e627fea35cda",
+        "spotify_artists02_genres": "dancefloordnb,drumandbass,ukdance",
+        "spotify_artists02_popularity": "65",
+        "spotify_artists03": "Cherish",
+        "spotify_artists03_id": "1c70yCa8sRgIiQxl3HOEFo",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebed896a298ee61f6cec91abc4",
+        "spotify_artists03_genres": "atlhiphop,girlgroup,hippop,r&b,southernhiphop,urbancontemporary",
+        "spotify_artists03_popularity": "64",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "uba55vsxTGQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ACRAZE-Do-It-To-It-Sub-Focus-Remix.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2100,
+            "name": "ACRAZE",
+            "slug": "acraze",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2677,
+            "name": "Sub Focus",
+            "slug": "sub-focus",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2002",
+              "artistborn": "19820413",
+              "artistdied": "",
+              "artistjpname": "サブ・フォーカス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ACRAZE,SubFocus,Cherish",
+        "ytvideoid": "uba55vsxTGQ",
+        "spotify_track_id": "4z78eVQBoMHg1e4XGp4rMj"
+      },
+      "genre_data": [
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "do-it-to-it"
+    },
+    {
+      "id": 40488,
+      "date": "2022-01-19T20:48:00",
+      "date_gmt": "2022-01-19T11:48:00",
+      "title": {
+        "rendered": "Do It To It vs Aciiid (Djs From Mars Bootleg)"
+      },
+      "content": {
+        "rendered": "\n<p>AcrazeVsMoguai-DoItToItvsAciiid(DjsFromMarsBootleg)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2100,
+        2102,
+        2101
+      ],
+      "tags": [],
+      "genre": [
+        492,
+        566
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2XKsHHNCtKqk9cF35TRFyC",
+        "spotify_release_date": "2022/2/25",
+        "spotify_name": "DoItToIt-Ti?stoRemix",
+        "spotify_artists": "ACRAZE,Ti?sto,Cherish",
+        "spotify_album": "DoItToIt(Ti?stoRemix)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273db1c0e4ee302630ada0cf4af",
+        "spotify_duration_ms": "125280",
+        "spotify_popularity": "68",
+        "spotify_danceability": "0.636",
+        "spotify_energy": "0.892",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.573",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0386",
+        "spotify_tempo": "125.003",
+        "spotify_valence": "0.456",
+        "spotify_acousticness": "0.000422",
+        "spotify_instrumentalness": "0.0954",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.156",
+        "spotify_artists01": "ACRAZE",
+        "spotify_artists01_id": "4pnp4w9g30yLfVIAFnZMRd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb858f66e19749ddc0d44827d6",
+        "spotify_artists01_genres": "popdance,techhouse",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "Ti?sto",
+        "spotify_artists02_id": "2o5jDhtHVPhrJdv3cEQ99Z",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb27c55a5e9ed2a41c01589fae",
+        "spotify_artists02_genres": "bigroom,brostep,dutchedm,edm,house,popdance,slaphouse,trance",
+        "spotify_artists02_popularity": "83",
+        "spotify_artists03": "Cherish",
+        "spotify_artists03_id": "1c70yCa8sRgIiQxl3HOEFo",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebed896a298ee61f6cec91abc4",
+        "spotify_artists03_genres": "atlhiphop,girlgroup,hippop,r&b,southernhiphop,urbancontemporary",
+        "spotify_artists03_popularity": "64",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "gb83OvUkYfE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Acraze-Vs-Moguai-Do-It-To-It-vs-Aciiid-Djs-From-Mars-Bootleg.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2100,
+            "name": "ACRAZE",
+            "slug": "acraze",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2102,
+            "name": "Djs From Mars",
+            "slug": "djs-from-mars",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2003",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ディージェーズ・フロム・マーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Jean Luc | Rudeejay | Da Brozz | JD Davis | Mildenhaus | Sam Collins | Le Pedre | Crunkz | HYPELEZZ | Bonka | BNM | FÄT TONY | Tomcraft | Max Lean | MEDUN | Gin and Sonic | HÄWK | Nic Johnston | Luis Rodriguez | Neitan",
+              "spotify_artist_id": "1pmwwNA38kkkJwEMWe8hLD",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051741a83996f916524ea425c188c"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2101,
+            "name": "Moguai",
+            "slug": "moguai",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ACRAZE,Ti?sto,Cherish",
+        "ytvideoid": "gb83OvUkYfE",
+        "spotify_track_id": "2XKsHHNCtKqk9cF35TRFyC"
+      },
+      "genre_data": [
+        {
+          "name": "Electro house",
+          "slug": "electro-house",
+          "term_id": 492,
+          "post_count": 105
+        },
+        {
+          "name": "House",
+          "slug": "house",
+          "term_id": 566,
+          "post_count": 71
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "do-it-to-it-vs-aciiid-djs-from-mars-bootleg"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,201 @@
+{
+  "artist": {
+    "id": 6328,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/keanu-silva/",
+    "name": "Keanu Silva",
+    "slug": "keanu-silva",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6328",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6328"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6328"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 87818,
+      "date": "2024-12-15T21:01:03",
+      "date_gmt": "2024-12-15T12:01:03",
+      "title": {
+        "rendered": "Getting Lost"
+      },
+      "content": {
+        "rendered": "<p>MOGUAI, Keanu Silva, GRATIFY, K-391 - Getting Lost</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6329,
+        1136,
+        6328,
+        2101
+      ],
+      "tags": [],
+      "genre": [
+        670
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "71IxdxUXlRpBrRASkihDZ4",
+        "spotify_release_date": "2024-12-13",
+        "spotify_name": "Getting Lost",
+        "spotify_artists": "MOGUAI, Keanu Silva, GRATIFY, K-391",
+        "spotify_album": "Getting Lost",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737e2f3dfac8c4653d837c53e1",
+        "spotify_duration_ms": "161200",
+        "spotify_popularity": "51",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "MOGUAI",
+        "spotify_artists01_id": "4xgFgBZ7CRtgtHcziClOwQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb02ba1e7063a4b5f4d19db50f",
+        "spotify_artists01_genres": "dutch house, edm, electro house, german techno, progressive electro house, progressive house",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "Keanu Silva",
+        "spotify_artists02_id": "1zLMhO4zzzxt5PMV4wMS3y",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb0b7854f4d6455fdc8958ebaf",
+        "spotify_artists02_genres": "future house",
+        "spotify_artists02_popularity": "57",
+        "spotify_artists03": "GRATIFY",
+        "spotify_artists03_id": "5vLZlXIqghQxwSIiq3lgnh",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebb8b3ce18f2661b298e91d775",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "50",
+        "spotify_artists04": "K-391",
+        "spotify_artists04_id": "6pWcSL9wSJZQ9ne0TnhdWr",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5eb3c396374fc98c126e3b5039c",
+        "spotify_artists04_genres": "gaming edm, nordic house",
+        "spotify_artists04_popularitys": "66",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "jrmLiozSdpA",
+        "ytreleasedate": "2024/12/15"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/moguai-keanu-silva-gratify-k-391-getting-lost.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6329,
+            "name": "GRATIFY",
+            "slug": "gratify",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1136,
+            "name": "K-391",
+            "slug": "k-391",
+            "acf": {
+              "artistorigin": "NOR",
+              "artistactiveyearstart": "2009",
+              "artistborn": "19940202",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6328,
+            "name": "Keanu Silva",
+            "slug": "keanu-silva",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2101,
+            "name": "Moguai",
+            "slug": "moguai",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "MOGUAI, Keanu Silva, GRATIFY, K-391",
+        "ytvideoid": "jrmLiozSdpA",
+        "spotify_track_id": "71IxdxUXlRpBrRASkihDZ4"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "getting-lost"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

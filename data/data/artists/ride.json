@@ -1,0 +1,74 @@
+{
+  "id": 6511,
+  "count": 25,
+  "description": "Ride are an English rock band formed in Oxford in 1988.",
+  "link": "https://sub.music8.jp/category/ride/",
+  "name": "Ride",
+  "slug": "ride",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1988",
+    "artistborn": "",
+    "artistjpname": "ライド",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "0WPY9nnBy01s5QOt4o4oQX",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174958d509c00ca0257c95071e1",
+    "youtube_channel": "UCIesQAH8Z8SbA2rR6Ujx_Xw",
+    "wikipedia_page": "Ride_(band)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6511",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6511"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6511"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ライド",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174958d509c00ca0257c95071e1",
+  "artistActiveYearStart": "1988",
+  "occupation": "band"
+}

@@ -1,0 +1,75 @@
+{
+  "id": 6570,
+  "count": 2,
+  "description": " GOTTHARD is a Swiss hard rock band formed in Lugano in 1992.",
+  "link": "https://sub.music8.jp/category/gotthard/",
+  "name": "GOTTHARD",
+  "slug": "gotthard",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SUI",
+    "artistactiveyearstart": "1991",
+    "artistborn": "",
+    "artistjpname": "ゴットハード",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4DwhNqibDIsxIamSxWb7tQ",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ac61c98dc397452ae50bdb29",
+    "youtube_channel": "",
+    "wikipedia_page": "",
+    "spotify_artist_images_s": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6570",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6570"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6570"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ゴットハード",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ac61c98dc397452ae50bdb29",
+  "artistActiveYearStart": "1991",
+  "occupation": "band"
+}

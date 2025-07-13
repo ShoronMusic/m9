@@ -1,0 +1,464 @@
+{
+  "artist": {
+    "id": 3495,
+    "count": 3,
+    "description": "",
+    "link": "https://sub.music8.jp/category/gvllow/",
+    "name": "GVLLOW",
+    "slug": "gvllow",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3495",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3495"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3495"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 82836,
+      "date": "2024-09-25T16:55:56",
+      "date_gmt": "2024-09-25T07:55:56",
+      "title": {
+        "rendered": "Eyes Without a Face"
+      },
+      "content": {
+        "rendered": "<p>GVLLOW, Mothica - Eyes Without a Face</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3495,
+        3845
+      ],
+      "tags": [],
+      "genre": [
+        476,
+        736
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "-Ro3wklZKn0",
+        "ytreleasedate": "2024/09/25",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1tiNBONwqMzqiB4zowEsQy",
+        "spotify_release_date": "2024-08-07",
+        "spotify_name": "Eyes Without A Face (From The “American Psycho” Comic Series Soundtrack)",
+        "spotify_artists": "Gvllow, MOTHICA",
+        "spotify_album": "Eyes Without A Face (From The “American Psycho” Comic Series Soundtrack)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27389579dcc3b3af43d95e85ea5",
+        "spotify_duration_ms": "300342",
+        "spotify_popularity": "15",
+        "spotify_danceability": "0.431",
+        "spotify_energy": "0.937",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.938",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0601",
+        "spotify_tempo": "87.502",
+        "spotify_valence": "0.493",
+        "spotify_acousticness": "0.0194",
+        "spotify_instrumentalness": "0.00000435",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.232",
+        "spotify_artists01": "Gvllow",
+        "spotify_artists01_id": "69a2ovTpqzQrzthSkARvGn",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb367f27f1042316857133770f",
+        "spotify_artists01_genres": "dark trap",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "MOTHICA",
+        "spotify_artists02_id": "1JhiIIXT9DWqEU3BYFZwGA",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebac6a653aa8ce02df63535b4d",
+        "spotify_artists02_genres": "alt z, vapor soul",
+        "spotify_artists02_popularity": "57",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27389579dcc3b3af43d95e85ea5.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3495,
+            "name": "GVLLOW",
+            "slug": "gvllow",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3845,
+            "name": "MOTHICA",
+            "slug": "mothica",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "19950312",
+              "artistjpname": "モシカ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "1JhiIIXT9DWqEU3BYFZwGA",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ac6a653aa8ce02df63535b4d"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Gvllow, MOTHICA",
+        "ytvideoid": "-Ro3wklZKn0",
+        "spotify_track_id": "1tiNBONwqMzqiB4zowEsQy"
+      },
+      "genre_data": [
+        {
+          "name": "Dark wave",
+          "slug": "dark-wave",
+          "term_id": 476,
+          "post_count": 57
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "eyes-without-a-face-2"
+    },
+    {
+      "id": 54712,
+      "date": "2023-10-25T13:30:49",
+      "date_gmt": "2023-10-25T04:30:49",
+      "title": {
+        "rendered": "Last Dance"
+      },
+      "content": {
+        "rendered": "<p>GVLLOW - Last Dance</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3495
+      ],
+      "tags": [],
+      "genre": [
+        547,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7uD6UxXemMiej0mj8YjTQn",
+        "spotify_release_date": "2023-10-24",
+        "spotify_name": "Last Dance",
+        "spotify_artists": "Gvllow",
+        "spotify_album": "Last Dance",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273875e8f2c41ec802384d1bd99",
+        "spotify_duration_ms": "197386",
+        "spotify_popularity": "28",
+        "spotify_danceability": "0.485",
+        "spotify_energy": "0.868",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.193",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0443",
+        "spotify_tempo": "170.938",
+        "spotify_valence": "0.462",
+        "spotify_acousticness": "0.00165",
+        "spotify_instrumentalness": "0.00558",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.163",
+        "spotify_artists01": "Gvllow",
+        "spotify_artists01_id": "69a2ovTpqzQrzthSkARvGn",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb367f27f1042316857133770f",
+        "spotify_artists01_genres": "dark trap",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qDuokqAljMk",
+        "ytreleasedate": "2023/10/25"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/GVLLOW-Last-Dance.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3495,
+            "name": "GVLLOW",
+            "slug": "gvllow",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Gvllow",
+        "ytvideoid": "qDuokqAljMk",
+        "spotify_track_id": "7uD6UxXemMiej0mj8YjTQn"
+      },
+      "genre_data": [
+        {
+          "name": "Gothic rock",
+          "slug": "gothic-rock",
+          "term_id": 547,
+          "post_count": 79
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "last-dance"
+    },
+    {
+      "id": 54715,
+      "date": "2022-11-16T13:34:43",
+      "date_gmt": "2022-11-16T04:34:43",
+      "title": {
+        "rendered": "Not Sorry"
+      },
+      "content": {
+        "rendered": "<p>Gvllow - Not Sorry</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3495
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3JaD84ePWqJuryWaKRJJyo",
+        "spotify_release_date": "2022-11-14",
+        "spotify_name": "Not Sorry",
+        "spotify_artists": "Gvllow",
+        "spotify_album": "Not Sorry",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27347197874c72e8f1f81853410",
+        "spotify_duration_ms": "151443",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.481",
+        "spotify_energy": "0.947",
+        "spotify_key": "10",
+        "spotify_loudness": "-5.579",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0444",
+        "spotify_tempo": "93.47",
+        "spotify_valence": "0.663",
+        "spotify_acousticness": "0.286",
+        "spotify_instrumentalness": "0.937",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0898",
+        "spotify_artists01": "Gvllow",
+        "spotify_artists01_id": "69a2ovTpqzQrzthSkARvGn",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb367f27f1042316857133770f",
+        "spotify_artists01_genres": "dark trap",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "fMTdo12WV7I",
+        "ytreleasedate": "2022/11/16"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Gvllow-Not-Sorry.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3495,
+            "name": "GVLLOW",
+            "slug": "gvllow",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Gvllow",
+        "ytvideoid": "fMTdo12WV7I",
+        "spotify_track_id": "3JaD84ePWqJuryWaKRJJyo"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "not-sorry-2"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

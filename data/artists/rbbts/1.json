@@ -1,0 +1,197 @@
+{
+  "artist": {
+    "id": 2325,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/rbbts/",
+    "name": "RBBTS",
+    "slug": "rbbts",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2325",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2325"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2325"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40071,
+      "date": "2022-03-10T21:50:00",
+      "date_gmt": "2022-03-10T12:50:00",
+      "title": {
+        "rendered": "Lighthouse"
+      },
+      "content": {
+        "rendered": "\n<p>LeYouth-Lighthousefeat.RBBTS</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2119,
+        2325
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        670
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5yBIDuyXwZGF0RXRbNak0A",
+        "spotify_release_date": "2022/5/27",
+        "spotify_name": "Lighthouse",
+        "spotify_artists": "LeYouth,RBBTS",
+        "spotify_album": "Reminders",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27351dd52d01d08f180f0b5a8b5",
+        "spotify_duration_ms": "240000",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.511",
+        "spotify_energy": "0.729",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.812",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0435",
+        "spotify_tempo": "123.968",
+        "spotify_valence": "0.113",
+        "spotify_acousticness": "0.00177",
+        "spotify_instrumentalness": "0.0494",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.544",
+        "spotify_artists01": "LeYouth",
+        "spotify_artists01_id": "1Zz6NBe8UIZjm88TvehFtx",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5f06c7c7df0530c2849e7660",
+        "spotify_artists01_genres": "house,nudisco,ukdance",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "RBBTS",
+        "spotify_artists02_id": "3dA4z26BqCdMWynoHMK5l8",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb32a096d9bea428c7b58e88bb",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "36",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "6JDpXFmkIAc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Le-Youth-Lighthouse-feat.-RBBTS.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2119,
+            "name": "Le Youth",
+            "slug": "le-youth",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2325,
+            "name": "RBBTS",
+            "slug": "rbbts",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LeYouth,RBBTS",
+        "ytvideoid": "6JDpXFmkIAc",
+        "spotify_track_id": "5yBIDuyXwZGF0RXRbNak0A"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "lighthouse"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

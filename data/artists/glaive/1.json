@@ -1,0 +1,197 @@
+{
+  "artist": {
+    "id": 6077,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/glaive/",
+    "name": "glaive",
+    "slug": "glaive",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "20050120",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6077",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6077"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6077"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 84552,
+      "date": "2024-10-12T09:43:45",
+      "date_gmt": "2024-10-12T00:43:45",
+      "title": {
+        "rendered": "For God and Country"
+      },
+      "content": {
+        "rendered": "<p>glaive - For God and Country</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6077
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        503
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "6lFoZBGqBp8",
+        "ytreleasedate": "2024/10/12",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "5JmjXrRYZyJYmXz72IstSS",
+        "spotify_release_date": "2024-10-11",
+        "spotify_name": "For God and Country",
+        "spotify_artists": "glaive",
+        "spotify_album": "May It Never Falter",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f8ca9c4a3d400e89ca86bf56",
+        "spotify_duration_ms": "163389",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.545",
+        "spotify_energy": "0.579",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.431",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0324",
+        "spotify_tempo": "129.257",
+        "spotify_valence": "0.175",
+        "spotify_acousticness": "0.188",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.172",
+        "spotify_artists01": "glaive",
+        "spotify_artists01_id": "4cJKDGSv4Dz9QycXYmo565",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2c840e0f1d13c40fa981c5cc",
+        "spotify_artists01_genres": "glitchcore, hyperpop, proto-hyperpop",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273f8ca9c4a3d400e89ca86bf56.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6077,
+            "name": "glaive",
+            "slug": "glaive",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "20050120",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "glaive",
+        "ytvideoid": "6lFoZBGqBp8",
+        "spotify_track_id": "5JmjXrRYZyJYmXz72IstSS"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Emo",
+          "slug": "emo",
+          "term_id": 503,
+          "post_count": 163
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "for-god-and-country"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 3348,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/0wave/",
+    "name": "0WAVE",
+    "slug": "0wave",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "KOR",
+      "artistactiveyearstart": "2021",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3348",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3348"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3348"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52980,
+      "date": "2022-12-24T19:44:08",
+      "date_gmt": "2022-12-24T10:44:08",
+      "title": {
+        "rendered": "with me"
+      },
+      "content": {
+        "rendered": "<p>0WAVE - with me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3348
+      ],
+      "tags": [],
+      "genre": [
+        564,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0m6EEkLcmThsivAedX7lvj",
+        "spotify_release_date": "2022-12-14",
+        "spotify_name": "with me",
+        "spotify_artists": "0WAVE",
+        "spotify_album": "off the wall",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b2438faa069ff6451908b674",
+        "spotify_duration_ms": "193843",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.825",
+        "spotify_energy": "0.609",
+        "spotify_key": "5",
+        "spotify_loudness": "-6.794",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0875",
+        "spotify_tempo": "130.02",
+        "spotify_valence": "0.525",
+        "spotify_acousticness": "0.0862",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0831",
+        "spotify_artists01": "0WAVE",
+        "spotify_artists01_id": "1nxCRfWuzM4GSCVfrqtlxz",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8d5c349baf2b984c0bf79d4c",
+        "spotify_artists01_genres": "k-pop boy group",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "AIyOrLpwzfg",
+        "ytreleasedate": "2022/12/24"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/0WAVE-with-me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3348,
+            "name": "0WAVE",
+            "slug": "0wave",
+            "acf": {
+              "artistorigin": "KOR",
+              "artistactiveyearstart": "2021",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "0WAVE",
+        "ytvideoid": "AIyOrLpwzfg",
+        "spotify_track_id": "0m6EEkLcmThsivAedX7lvj"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "with-me"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

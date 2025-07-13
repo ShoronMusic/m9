@@ -1,0 +1,206 @@
+{
+  "artist": {
+    "id": 1182,
+    "count": 1,
+    "description": "TPE",
+    "link": "https://sub.music8.jp/category/aristophanes/",
+    "name": "Aristophanes",
+    "slug": "aristophanes",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1182",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1182"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1182"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 43446,
+      "date": "2015-10-15T16:51:00",
+      "date_gmt": "2015-10-15T07:51:00",
+      "title": {
+        "rendered": "SCREAM"
+      },
+      "content": {
+        "rendered": "\n<p>Grimes-SCREAMft.Aristophanes</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1182,
+        1179
+      ],
+      "tags": [],
+      "genre": [
+        408,
+        735
+      ],
+      "vocal": [],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0i7AGJG9DX0vI1w798IVKZ",
+        "spotify_release_date": "2015/11/6",
+        "spotify_name": "SCREAM",
+        "spotify_artists": null,
+        "spotify_album": "Art Angels",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730f751d4123932ee82e78aae1",
+        "spotify_duration_ms": "140140",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.69",
+        "spotify_energy": "0.916",
+        "spotify_key": "1",
+        "spotify_loudness": "-5.922",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0708",
+        "spotify_tempo": "112.046",
+        "spotify_valence": "0.657",
+        "spotify_acousticness": "0.00453",
+        "spotify_instrumentalness": "0.0296",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.324",
+        "spotify_artists01": "Grimes",
+        "spotify_artists01_id": "053q0ukIDRgzwTr4vNSwab",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb34771f759ca81a422f5f2b57",
+        "spotify_artists01_genres": "art pop, canadian electropop, grave wave, indietronica, metropopolis, neo-synthpop",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": null,
+        "spotify_artists02_id": "3gRbjzXPan9DOBEMmTjxVo",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba836451a5243912361a4b81c",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "29",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "UUe9rnucPoU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Grimes-SCREAM-ft.-Aristophanes.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1182,
+            "name": "Aristophanes",
+            "slug": "aristophanes",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1179,
+            "name": "Grimes",
+            "slug": "grimes",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19880317",
+              "artistdied": "",
+              "artistjpname": "グライムス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "053q0ukIDRgzwTr4vNSwab",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517434771f759ca81a422f5f2b57",
+              "youtube_channel": "UCRXaOr2-9CJTMqQH5A5GYZQ",
+              "wikipedia_page": "Grimes"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": null,
+        "ytvideoid": "UUe9rnucPoU",
+        "spotify_track_id": "0i7AGJG9DX0vI1w798IVKZ"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative hip hop",
+          "slug": "alternative-hip-hop",
+          "term_id": 408,
+          "post_count": 29
+        },
+        {
+          "name": "Synth-funk",
+          "slug": "synth-funk",
+          "term_id": 735,
+          "post_count": 262
+        }
+      ],
+      "vocal_data": [],
+      "slug": "grimes-scream"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

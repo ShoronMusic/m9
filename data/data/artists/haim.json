@@ -1,0 +1,87 @@
+{
+  "id": 4695,
+  "count": 7,
+  "description": "HAIM is an American rock band.",
+  "link": "https://sub.music8.jp/category/haim/",
+  "name": "HAIM",
+  "slug": "haim",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2007",
+    "artistborn": "",
+    "artistjpname": "ハイム",
+    "member": [
+      {
+        "term_id": 6604,
+        "name": "Danielle Haim",
+        "slug": "danielle-haim",
+        "term_group": 0,
+        "term_taxonomy_id": 6604,
+        "taxonomy": "category",
+        "description": "Danielle Haim is an American musician. She is the lead guitarist and vocalist of pop rock band Haim.",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4Ui2kfOqGujY81UcPrb5KE",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517409f7ea29906a367f0648e0bc",
+    "youtube_channel": "UC9Dln8col-vr7GB1UTR789w",
+    "wikipedia_page": "Haim_(band)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4695",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4695"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4695"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ハイム",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517409f7ea29906a367f0648e0bc",
+  "artistActiveYearStart": "2007",
+  "occupation": "band"
+}

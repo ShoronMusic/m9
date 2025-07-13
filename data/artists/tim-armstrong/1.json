@@ -1,0 +1,235 @@
+{
+  "artist": {
+    "id": 1411,
+    "count": 1,
+    "description": "Tim Armstrong is an American musician, songwriter and record producer. he is the singer/guitarist for the punk rock band Rancid.",
+    "link": "https://sub.music8.jp/category/tim-armstrong/",
+    "name": "Tim Armstrong",
+    "slug": "tim-armstrong",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1985",
+      "artistborn": "19651125",
+      "artistdied": "",
+      "artistjpname": "ティム・アームストロング ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        },
+        {
+          "value": "musician",
+          "label": "Musician"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1411",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1411"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1411"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 43809,
+      "date": "2014-03-17T20:11:00",
+      "date_gmt": "2014-03-17T11:11:00",
+      "title": {
+        "rendered": "Family"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1410,
+        1411
+      ],
+      "tags": [],
+      "genre": [
+        710
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0r9vx9Sh03mg3CcnoFdxXH",
+        "spotify_release_date": "2014/8/5",
+        "spotify_name": "Family",
+        "spotify_artists": "The Interrupters, Tim Armstrong",
+        "spotify_album": "The Interrupters (Deluxe Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27319eefb5ac4ab5532c8cd84d7",
+        "spotify_duration_ms": "160080",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.662",
+        "spotify_energy": "0.993",
+        "spotify_key": "0",
+        "spotify_loudness": "-1.093",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0759",
+        "spotify_tempo": "158.038",
+        "spotify_valence": "0.784",
+        "spotify_acousticness": "0.284",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.885",
+        "spotify_artists01": "The Interrupters",
+        "spotify_artists01_id": "25Maank76ry2Tmbi2Ql1SF",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba036cf8a81e30b81b76ab056",
+        "spotify_artists01_genres": "punk, ska, ska punk, skate punk",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "Tim Armstrong",
+        "spotify_artists02_id": "7v3ZMFl1E6X4isdEaOSnk3",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6772690000c46c82f16cd909b8013f272da850",
+        "spotify_artists02_genres": "punk, ska, ska punk, skate punk",
+        "spotify_artists02_popularity": "37",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "9Ct4sjUQNcw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Interrupters-Family.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1410,
+            "name": "Interrupters",
+            "slug": "interrupters",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "インタラプターズ",
+              "member": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          },
+          {
+            "id": 1411,
+            "name": "Tim Armstrong",
+            "slug": "tim-armstrong",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1985",
+              "artistborn": "19651125",
+              "artistdied": "",
+              "artistjpname": "ティム・アームストロング ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Interrupters, Tim Armstrong",
+        "ytvideoid": "9Ct4sjUQNcw",
+        "spotify_track_id": "0r9vx9Sh03mg3CcnoFdxXH"
+      },
+      "genre_data": [
+        {
+          "name": "Ska punk",
+          "slug": "ska-punk",
+          "term_id": 710,
+          "post_count": 32
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "family-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

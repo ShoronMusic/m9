@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1920,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/ciel/",
+    "name": "CIEL",
+    "slug": "ciel",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1920",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1920"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1920"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39965,
+      "date": "2022-03-24T17:48:00",
+      "date_gmt": "2022-03-24T08:48:00",
+      "title": {
+        "rendered": "Fine Everything"
+      },
+      "content": {
+        "rendered": "\n<p>CIEL-FineEverything</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1920
+      ],
+      "tags": [],
+      "genre": [
+        575,
+        665
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1Mv0nJfyxuZM05O3GseVIw",
+        "spotify_release_date": "2022/8/5",
+        "spotify_name": "BadInfluence",
+        "spotify_artists": "HotMilk",
+        "spotify_album": "TheKingandQueenofGasoline",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736bb483df05432ee60a9e899e",
+        "spotify_duration_ms": "182580",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.496",
+        "spotify_energy": "0.976",
+        "spotify_key": "9",
+        "spotify_loudness": "-4.27",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0536",
+        "spotify_tempo": "92.993",
+        "spotify_valence": "0.351",
+        "spotify_acousticness": "0.000221",
+        "spotify_instrumentalness": "0.000206",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.458",
+        "spotify_artists01": "HotMilk",
+        "spotify_artists01_id": "1koutXdSFq2PHqtxSWj9tK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcad5fde3357bf9c9225686fa",
+        "spotify_artists01_genres": "poppunk,ukpoppunk",
+        "spotify_artists01_popularity": "49",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "2j6WOQLI660",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/CIEL-Fine-Everything.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1920,
+            "name": "CIEL",
+            "slug": "ciel",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "HotMilk",
+        "ytvideoid": "2j6WOQLI660",
+        "spotify_track_id": "1Mv0nJfyxuZM05O3GseVIw"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "fine-everything"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

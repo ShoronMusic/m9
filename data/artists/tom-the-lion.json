@@ -1,0 +1,76 @@
+{
+  "id": 5662,
+  "count": 1,
+  "description": "Tom The Lion is a British singer-songwriter and multi-instrumentalist.",
+  "link": "https://sub.music8.jp/category/tom-the-lion/",
+  "name": "Tom The Lion",
+  "slug": "tom-the-lion",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2011",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      },
+      {
+        "value": "multi-instrumentalist",
+        "label": "Multi-instrumentalist"
+      }
+    ],
+    "related_artists": "John Garrison | Satellites | Budapest | Freddie Dickson | Arthur Beatrice | Outfit | Volcano Choir",
+    "spotify_artist_id": "2jmWN7KyREhT8sbISzFaWf",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517457ede056c92425bfb500a43b"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5662",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5662"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5662"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517457ede056c92425bfb500a43b",
+  "artistActiveYearStart": "2011",
+  "occupation": "ssw, multi-instrumentalist"
+}

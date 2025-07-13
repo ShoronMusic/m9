@@ -1,0 +1,75 @@
+{
+  "id": 3019,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/storm-orchestra/",
+  "name": "Storm Orchestra",
+  "slug": "storm-orchestra",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FRA",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 768,
+        "name": "Sting",
+        "slug": "sting",
+        "term_group": 0,
+        "term_taxonomy_id": 768,
+        "taxonomy": "category",
+        "description": "Sting, is an English musician and actor. He was the frontman, songwriter and bassist for new wave band the Police.",
+        "parent": 0,
+        "count": 50,
+        "filter": "raw"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3019",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3019"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3019"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

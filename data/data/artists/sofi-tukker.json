@@ -1,0 +1,69 @@
+{
+  "id": 2139,
+  "count": 10,
+  "description": "Sofi Tukker is an American musical duo.",
+  "link": "https://sub.music8.jp/category/sofi-tukker/",
+  "name": "Sofi Tukker",
+  "slug": "sofi-tukker",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2014",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ソフィー・タッカー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2139",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2139"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2139"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ソフィー・タッカー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2014",
+  "occupation": "duo"
+}

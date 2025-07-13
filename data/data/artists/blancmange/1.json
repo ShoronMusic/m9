@@ -1,0 +1,308 @@
+{
+  "artist": {
+    "id": 964,
+    "count": 2,
+    "description": "Blancmange is an English synth-pop band.",
+    "link": "https://sub.music8.jp/category/blancmange/",
+    "name": "Blancmange",
+    "slug": "blancmange",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1979",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ブランマンジ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/964",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=964"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=964"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 48583,
+      "date": "1984-03-01T22:27:00",
+      "date_gmt": "1984-03-01T13:27:00",
+      "title": {
+        "rendered": "Don't Tell Me"
+      },
+      "content": {
+        "rendered": "<p>Blancmange - Don't Tell Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        964
+      ],
+      "tags": [],
+      "genre": [
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "493NNPBvpP6cj5r0VBqcL4",
+        "spotify_release_date": "1984/1/1",
+        "spotify_name": "Don't Tell Me",
+        "spotify_artists": "Blancmange",
+        "spotify_album": "Mange Tout (Extended Version)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734b57d27ab5daa2cad55f7b45",
+        "spotify_duration_ms": "210746",
+        "spotify_popularity": "45",
+        "spotify_danceability": "0.725",
+        "spotify_energy": "0.81",
+        "spotify_key": "2",
+        "spotify_loudness": "-9.509",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0358",
+        "spotify_tempo": "120.231",
+        "spotify_valence": "0.926",
+        "spotify_acousticness": "0.437",
+        "spotify_instrumentalness": "0.000457",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.121",
+        "spotify_artists01": "Blancmange",
+        "spotify_artists01_id": "3LtBdgNHdH0Ix8hCFZ4NJG",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb71c047b12a488e420fa35e87",
+        "spotify_artists01_genres": "new romantic, synthpop",
+        "spotify_artists01_popularity": "36",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "76eeyjzNWcw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Blancmange-Dont-Tell-Me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 964,
+            "name": "Blancmange",
+            "slug": "blancmange",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1979",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ブランマンジ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Blancmange",
+        "ytvideoid": "76eeyjzNWcw",
+        "spotify_track_id": "493NNPBvpP6cj5r0VBqcL4"
+      },
+      "genre_data": [
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "dont-tell-me"
+    },
+    {
+      "id": 48914,
+      "date": "1982-10-15T22:36:00",
+      "date_gmt": "1982-10-15T13:36:00",
+      "title": {
+        "rendered": "Living On The Ceiling"
+      },
+      "content": {
+        "rendered": "<p>Blancmange - Living On The Ceiling</p>\n",
+        "protected": false
+      },
+      "categories": [
+        964
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "7ygp7PFQu9oYlV72tSd2Wz",
+        "spotify_release_date": "1982/1/1",
+        "spotify_name": "Living On The Ceiling",
+        "spotify_artists": "Blancmange, Dennis Weinrich with John O.Williams",
+        "spotify_album": "Happy Families",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738ce207d198f07d887b11601e",
+        "spotify_duration_ms": "250746",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.5338486810700218",
+        "spotify_energy": "0.026758881320327655",
+        "spotify_key": "-0.33779553375659294",
+        "spotify_loudness": "-0.2806130591701919",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "0.3188042397460197",
+        "spotify_tempo": "-0.43743313489120744",
+        "spotify_valence": "0.7340411550541662",
+        "spotify_acousticness": "0.6952452600269027",
+        "spotify_instrumentalness": "-0.15539797773004196",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "0.5838155961798749",
+        "spotify_artists01": "Blancmange",
+        "spotify_artists01_id": "3LtBdgNHdH0Ix8hCFZ4NJG",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb71c047b12a488e420fa35e87",
+        "spotify_artists01_genres": "new romantic, synthpop",
+        "spotify_artists01_popularity": "36",
+        "spotify_artists02": "Dennis Weinrich with John O.Williams",
+        "spotify_artists02_id": "38DOQYh2wbuhXYM2MSDvBb",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "29",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "QW_m8lhZbQQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Blancmange-Living-On-The-Ceiling.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 964,
+            "name": "Blancmange",
+            "slug": "blancmange",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1979",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ブランマンジ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Blancmange, Dennis Weinrich with John O.Williams",
+        "ytvideoid": "QW_m8lhZbQQ",
+        "spotify_track_id": "7ygp7PFQu9oYlV72tSd2Wz"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "living-on-the-ceiling"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

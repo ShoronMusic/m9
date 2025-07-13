@@ -1,0 +1,227 @@
+{
+  "artist": {
+    "id": 4268,
+    "count": 1,
+    "description": "Blanke, is an Australian electronic music producer and DJ.",
+    "link": "https://sub.music8.jp/category/blanke/",
+    "name": "Blanke",
+    "slug": "blanke",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "",
+      "artistborn": "19911216",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4268",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4268"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4268"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 62891,
+      "date": "2024-03-01T11:34:41",
+      "date_gmt": "2024-03-01T02:34:41",
+      "title": {
+        "rendered": "Everywhere, Nowhere"
+      },
+      "content": {
+        "rendered": "<p>REZZ, Blanke - Everywhere, Nowhere</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4268,
+        1418
+      ],
+      "tags": [],
+      "genre": [
+        621
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "a9Y4C2hPR8A",
+        "ytreleasedate": "2024/03/01",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6aVGa81S7Q1S24yuPbakEL",
+        "spotify_release_date": "2024-03-01",
+        "spotify_name": "Everywhere, Nowhere",
+        "spotify_artists": "Rezz, Blanke",
+        "spotify_album": "Everywhere, Nowhere",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ebfd6c28ea0eb3ad6cb9ac27",
+        "spotify_duration_ms": "185600",
+        "spotify_popularity": "22",
+        "spotify_danceability": "0.607",
+        "spotify_energy": "0.656",
+        "spotify_key": "5",
+        "spotify_loudness": "-3.708",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0422",
+        "spotify_tempo": "75.009",
+        "spotify_valence": "0.107",
+        "spotify_acousticness": "0.00511",
+        "spotify_instrumentalness": "0.773",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0765",
+        "spotify_artists01": "Rezz",
+        "spotify_artists01_id": "4aKdmOXdUKX07HVd3sGgzw",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcc758499cb4aa667c7923042",
+        "spotify_artists01_genres": "brostep, canadian electronic, edm, electra, electro house",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "Blanke",
+        "spotify_artists02_id": "59Yq0xrABEihHANsfo9QMT",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb2985adb194fd5397a6f2b5a1",
+        "spotify_artists02_genres": "dubstep, melodic dubstep, pop edm",
+        "spotify_artists02_popularity": "50",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/REZZ-x-Blanke-Everywhere-Nowhere.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4268,
+            "name": "Blanke",
+            "slug": "blanke",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "",
+              "artistborn": "19911216",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1418,
+            "name": "Rezz",
+            "slug": "rezz",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "",
+              "artistborn": "19950528",
+              "artistdied": "",
+              "artistjpname": "レズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "4aKdmOXdUKX07HVd3sGgzw",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174133d38808d09895d7c5c9434",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "UCMcWPM9eOz9Dsn7YwAlpOoQ",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Rezz, Blanke",
+        "ytvideoid": "a9Y4C2hPR8A",
+        "spotify_track_id": "6aVGa81S7Q1S24yuPbakEL"
+      },
+      "genre_data": [
+        {
+          "name": "Midtempo bass",
+          "slug": "midtempo-bass",
+          "term_id": 621,
+          "post_count": 26
+        }
+      ],
+      "vocal_data": [],
+      "slug": "everywhere-nowhere"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

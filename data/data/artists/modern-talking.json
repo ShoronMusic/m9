@@ -1,0 +1,63 @@
+{
+  "id": 879,
+  "count": 3,
+  "description": "Modern Talking was a German pop duo.",
+  "link": "https://sub.music8.jp/category/modern-talking/",
+  "name": "Modern Talking",
+  "slug": "modern-talking",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "1983-2003",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "モダン・トーキング",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/879",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=879"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=879"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "モダン・トーキング",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1983-2003",
+  "occupation": ""
+}

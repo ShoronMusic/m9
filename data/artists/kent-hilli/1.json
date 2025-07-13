@@ -1,0 +1,172 @@
+{
+  "artist": {
+    "id": 3306,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/kent-hilli/",
+    "name": "Kent Hilli",
+    "slug": "kent-hilli",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3306",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3306"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3306"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52723,
+      "date": "2023-06-12T23:00:08",
+      "date_gmt": "2023-06-12T14:00:08",
+      "title": {
+        "rendered": "Nothing Left To Lose"
+      },
+      "content": {
+        "rendered": "<p>Kent Hilli - Nothing Left To Lose (Feat. Jimmy Westerlund and Kai Hahto)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3306
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7ASUVttPmJWVuPXeyuumrA",
+        "spotify_release_date": "2023-08-04",
+        "spotify_name": "Nothing Left To Lose",
+        "spotify_artists": "Kent Hilli, JIMMY WESTERLUND, Kai Hahto",
+        "spotify_album": "Nothing Left To Lose",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273dabe75839d8e171b169c80d5",
+        "spotify_duration_ms": "358453",
+        "spotify_popularity": "24",
+        "spotify_danceability": "0.411",
+        "spotify_energy": "0.853",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.303",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0586",
+        "spotify_tempo": "124.798",
+        "spotify_valence": "0.218",
+        "spotify_acousticness": "0.0000822",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.414",
+        "spotify_artists01": "Kent Hilli",
+        "spotify_artists01_id": "3hBadIBMuBDDyJlC8ShpP5",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb758d32fa775d1b2e618ab108",
+        "spotify_artists01_genres": "melodic hard rock",
+        "spotify_artists01_popularity": "22",
+        "spotify_artists02": "JIMMY WESTERLUND",
+        "spotify_artists02_id": "4jGV2xiczM6kQkpZ0bs5vJ",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "9",
+        "spotify_artists03": "Kai Hahto",
+        "spotify_artists03_id": "3WLlw10f6tcxEZVNhOWjF9",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "8",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "EGRJta4JEOc",
+        "ytreleasedate": "2023/06/12"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kent-Hilli-Nothing-Left-To-Lose.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3306,
+            "name": "Kent Hilli",
+            "slug": "kent-hilli",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kent Hilli, JIMMY WESTERLUND, Kai Hahto",
+        "ytvideoid": "EGRJta4JEOc",
+        "spotify_track_id": "7ASUVttPmJWVuPXeyuumrA"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "nothing-left-to-lose-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

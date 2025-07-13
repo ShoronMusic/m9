@@ -1,0 +1,172 @@
+{
+  "artist": {
+    "id": 3307,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/streetlight/",
+    "name": "Streetlight",
+    "slug": "streetlight",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3307",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3307"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3307"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52726,
+      "date": "2023-06-06T23:04:50",
+      "date_gmt": "2023-06-06T14:04:50",
+      "title": {
+        "rendered": "Hit The Ground -"
+      },
+      "content": {
+        "rendered": "<p>Streetlight - Hit The Ground -</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3307
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "02RwHdc6HK4HJPJPVK1nd3",
+        "spotify_release_date": "2023-08-11",
+        "spotify_name": "Hit The Ground",
+        "spotify_artists": "Streetlight",
+        "spotify_album": "Ignition",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ae7b292a1c2f28b121652b08",
+        "spotify_duration_ms": "207226",
+        "spotify_popularity": "25",
+        "spotify_danceability": "0.432",
+        "spotify_energy": "0.92",
+        "spotify_key": "9",
+        "spotify_loudness": "-5.318",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0591",
+        "spotify_tempo": "146.098",
+        "spotify_valence": "0.207",
+        "spotify_acousticness": "0.000672",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.105",
+        "spotify_artists01": "Streetlight",
+        "spotify_artists01_id": "6v6jMAQtzYfgH5R91jMRkn",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd729f01df14f8b741acbcb00",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "20",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "nMFK2qSuqb0",
+        "ytreleasedate": "2023/06/06"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Streetlight-Hit-The-Ground.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3307,
+            "name": "Streetlight",
+            "slug": "streetlight",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Streetlight",
+        "ytvideoid": "nMFK2qSuqb0",
+        "spotify_track_id": "02RwHdc6HK4HJPJPVK1nd3"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hit-the-ground"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

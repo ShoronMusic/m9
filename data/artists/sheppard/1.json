@@ -1,0 +1,194 @@
+{
+  "artist": {
+    "id": 4379,
+    "count": 1,
+    "description": "Sheppard are an Australian indie pop band.",
+    "link": "https://sub.music8.jp/category/sheppard/",
+    "name": "Sheppard",
+    "slug": "sheppard",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "2009",
+      "artistborn": "",
+      "artistjpname": "シェパード",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4379",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4379"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4379"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 64106,
+      "date": "2024-03-14T16:58:16",
+      "date_gmt": "2024-03-14T07:58:16",
+      "title": {
+        "rendered": "Edge Of The Earth"
+      },
+      "content": {
+        "rendered": "<p>Sheppard - Edge Of The Earth</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4379
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "4wWIaWZNZ6Q",
+        "ytreleasedate": "2024/03/14",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "01VJuIGhHGx1U5dCXdXzi4",
+        "spotify_release_date": "2024-03-15",
+        "spotify_name": "Edge Of The Earth",
+        "spotify_artists": "シェパード",
+        "spotify_album": "Edge Of The Earth",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27306624f165134c1163226bcb6",
+        "spotify_duration_ms": "216296",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.645",
+        "spotify_energy": "0.975",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.666",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0451",
+        "spotify_tempo": "139.923",
+        "spotify_valence": "0.963",
+        "spotify_acousticness": "0.00769",
+        "spotify_instrumentalness": "0.000115",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.384",
+        "spotify_artists01": "シェパード",
+        "spotify_artists01_id": "6VxCmtR7S3yz4vnzsJqhSV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2267c8de897d96c45ed86acb",
+        "spotify_artists01_genres": "australian indie, australian pop, folk-pop",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27306624f165134c1163226bcb6.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4379,
+            "name": "Sheppard",
+            "slug": "sheppard",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2009",
+              "artistborn": "",
+              "artistjpname": "シェパード",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "シェパード",
+        "ytvideoid": "4wWIaWZNZ6Q",
+        "spotify_track_id": "01VJuIGhHGx1U5dCXdXzi4"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "edge-of-the-earth"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,74 @@
+{
+  "id": 6518,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/smith-kotzen/",
+  "name": "Smith/Kotzen",
+  "slug": "smith-kotzen",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK/US",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "musicproject",
+        "label": "Music Project"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5DE14yhJCkOYGtBVFnrtK5",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517448ca54789f9bc7d7a36f57b5",
+    "youtube_channel": "",
+    "wikipedia_page": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6518",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6518"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6518"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517448ca54789f9bc7d7a36f57b5",
+  "artistActiveYearStart": "",
+  "occupation": "musicproject"
+}

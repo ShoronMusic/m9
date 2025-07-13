@@ -1,0 +1,335 @@
+{
+  "artist": {
+    "id": 3636,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/bennett/",
+    "name": "Bennett",
+    "slug": "bennett",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3636",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3636"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3636"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 67389,
+      "date": "2024-04-27T22:12:59",
+      "date_gmt": "2024-04-27T13:12:59",
+      "title": {
+        "rendered": "Lullaby"
+      },
+      "content": {
+        "rendered": "<p>BENNETT - Lullaby</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3636
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        742
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "ytvideoid": "K9JDE-g3lZ4",
+        "ytreleasedate": "2024/04/27",
+        "spotify_track_id": "6ffUjpr83utMRU2X4BDu63",
+        "spotify_release_date": "2021-09-30",
+        "spotify_name": "Brahms Lullaby",
+        "spotify_artists": "Lucy Bennett",
+        "spotify_album": "Brahms Lullaby",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273665d6b36d44d288190331c4a",
+        "spotify_duration_ms": "99877",
+        "spotify_popularity": "71",
+        "spotify_danceability": "0.521",
+        "spotify_energy": "0.0473",
+        "spotify_key": "11",
+        "spotify_loudness": "-21.921",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0601",
+        "spotify_tempo": "137.368",
+        "spotify_valence": "0.879",
+        "spotify_acousticness": "0.996",
+        "spotify_instrumentalness": "0.964",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.101",
+        "spotify_artists01": "Lucy Bennett",
+        "spotify_artists01_id": "2gpFIVZUCq1gf8RALTZaWj",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab67616d0000b273665d6b36d44d288190331c4a",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273665d6b36d44d288190331c4a.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3636,
+            "name": "Bennett",
+            "slug": "bennett",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Lucy Bennett",
+        "ytvideoid": "K9JDE-g3lZ4",
+        "spotify_track_id": "6ffUjpr83utMRU2X4BDu63"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "lullaby-2"
+    },
+    {
+      "id": 56114,
+      "date": "2023-08-04T20:21:00",
+      "date_gmt": "2023-08-04T11:21:00",
+      "title": {
+        "rendered": "Vois sur ton chemin (Techno Mix)"
+      },
+      "content": {
+        "rendered": "<p>BENNETT - Vois sur ton chemin (Techno Mix)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3636
+      ],
+      "tags": [],
+      "genre": [
+        742
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "31nfdEooLEq7dn3UMcIeB5",
+        "spotify_release_date": "2023-08-04",
+        "spotify_name": "Vois sur ton chemin - Techno Mix",
+        "spotify_artists": "BENNETT",
+        "spotify_album": "Vois sur ton chemin (Techno Mix)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731b96e645016c4d431842aa93",
+        "spotify_duration_ms": "178156",
+        "spotify_popularity": "91",
+        "spotify_danceability": "0.634",
+        "spotify_energy": "0.824",
+        "spotify_key": "2",
+        "spotify_loudness": "-3.394",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.047",
+        "spotify_tempo": "137.959",
+        "spotify_valence": "0.371",
+        "spotify_acousticness": "0.0908",
+        "spotify_instrumentalness": "0.0711",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.119",
+        "spotify_artists01": "BENNETT",
+        "spotify_artists01_id": "1r43wW70tnGUauQYvY5w48",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb811bc967eed3d61e18fda49b",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "68",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "f4gODZFkTJg",
+        "ytreleasedate": "2023/08/04"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/BENNETT-Vois-sur-ton-chemin-Techno-Mix.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3636,
+            "name": "Bennett",
+            "slug": "bennett",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "BENNETT",
+        "ytvideoid": "f4gODZFkTJg",
+        "spotify_track_id": "31nfdEooLEq7dn3UMcIeB5"
+      },
+      "genre_data": [
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "vois-sur-ton-chemin-techno-mix"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

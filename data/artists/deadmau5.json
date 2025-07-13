@@ -1,0 +1,76 @@
+{
+  "id": 2121,
+  "count": 8,
+  "description": "Deadmau5 is a Canadian electronic music producer and DJ.",
+  "link": "https://sub.music8.jp/category/deadmau5/",
+  "name": "Deadmau5",
+  "slug": "deadmau5",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "1998",
+    "artistborn": "19810105",
+    "artistdied": "",
+    "artistjpname": "デッドマウス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "Kaskade (kaskade) | NERO | Wolfgang Gartner | Knife Party | Feed Me | Flux Pavilion | Kx5 (kx5) | Eric Prydz (eric-prydz) | Skrillex (skrillex) | Kill The Noise | Dada Life | Above & Beyond | Madeon (madeon) | Porter Robinson (porter-robinson) | Zomboy (zomboy) | Pendulum (pendulum) | Dillon Francis (dillon-francis) | Bassnectar | Swedish House Mafia (swedish-house-mafia) | Rezz (rezz)",
+    "spotify_artist_id": "2CIMQHirSU0MQqyYHq0eOx",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517489ffabe57a25cedeca3309e7"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2121",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2121"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2121"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "デッドマウス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517489ffabe57a25cedeca3309e7",
+  "artistActiveYearStart": "1998",
+  "occupation": "dj, producer"
+}

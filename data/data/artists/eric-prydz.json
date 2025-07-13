@@ -1,0 +1,80 @@
+{
+  "id": 1510,
+  "count": 2,
+  "description": "Eric Prydz is a Swedish DJ and music producer.",
+  "link": "https://sub.music8.jp/category/eric-prydz/",
+  "name": "Eric Prydz",
+  "slug": "eric-prydz",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2001",
+    "artistborn": "19760719",
+    "artistdied": "",
+    "artistjpname": "エリック・プライズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "Pryda | Cirez D | Steve Angello (steve-angello) | Fedde Le Grand (fedde-le-grand) | Armand Van Helden (armand-van-helden) | Dirty South | Sebastian Ingrosso (sebastian-ingrosso) | Laidback Luke (laidback-luke) | Sander van Doorn (sander-van-doorn) | Axwell (axwell) | Mark Knight | Alex Gaudino | Tim Berg | Yotto | Tommy Trash | Markus Schulz (markus-schulz) | Mat Zo | ARTY | Above & Beyond | CamelPhat (camelphat)",
+    "spotify_artist_id": "5sm0jQ1mq0dusiLtDJ2b4R",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051744170f1e4c72c0a9fc2eddc1d"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1510",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1510"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1510"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エリック・プライズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051744170f1e4c72c0a9fc2eddc1d",
+  "artistActiveYearStart": "2001",
+  "occupation": "musician, dj, producer"
+}

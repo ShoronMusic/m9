@@ -1,0 +1,434 @@
+{
+  "artist": {
+    "id": 3082,
+    "count": 3,
+    "description": "I See Stars are an American electronicore band,",
+    "link": "https://sub.music8.jp/category/i-see-stars/",
+    "name": "I SEE STARS",
+    "slug": "i-see-stars",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2006",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "アイ・シー・スターズ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3082",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3082"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3082"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58101,
+      "date": "2023-11-15T09:41:35",
+      "date_gmt": "2023-11-15T00:41:35",
+      "title": {
+        "rendered": "D4MAGE DONE"
+      },
+      "content": {
+        "rendered": "<p>I SEE STARS - D4MAGE DONE</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3082
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        500
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7BnK1opiLlkxkBQ0TVKRYw",
+        "spotify_release_date": "2023-11-14",
+        "spotify_name": "D4MAGE DONE",
+        "spotify_artists": "I See Stars",
+        "spotify_album": "D4MAGE DONE",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27377327ede02d8da295d242a77",
+        "spotify_duration_ms": "195133",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.398",
+        "spotify_energy": "0.956",
+        "spotify_key": "10",
+        "spotify_loudness": "-3.198",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.254",
+        "spotify_tempo": "136.069",
+        "spotify_valence": "0.453",
+        "spotify_acousticness": "0.000342",
+        "spotify_instrumentalness": "0.0000028",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.145",
+        "spotify_artists01": "I See Stars",
+        "spotify_artists01_id": "3iCJOi5YKh247eutgCyLFe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba1a68cc83c9817fb5796b42a",
+        "spotify_artists01_genres": "deathstep, melodic metalcore, metalcore, neon pop punk, nintendocore, screamo, trancecore",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "8mcr6dVBk3c",
+        "ytreleasedate": "2023/11/15"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/I-SEE-STARS-D4MAGE-DONE.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3082,
+            "name": "I SEE STARS",
+            "slug": "i-see-stars",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アイ・シー・スターズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "I See Stars",
+        "ytvideoid": "8mcr6dVBk3c",
+        "spotify_track_id": "7BnK1opiLlkxkBQ0TVKRYw"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Electronicore",
+          "slug": "electronicore",
+          "term_id": 500,
+          "post_count": 21
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "d4mage-done"
+    },
+    {
+      "id": 51037,
+      "date": "2023-09-08T13:51:46",
+      "date_gmt": "2023-09-08T04:51:46",
+      "title": {
+        "rendered": "are we 3ven?"
+      },
+      "content": {
+        "rendered": "<p>I SEE STARS - are we 3ven?</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3082
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        411
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "05WkUDENwFYIlGrQMXGN9K",
+        "spotify_release_date": "2023-09-08",
+        "spotify_name": "are we 3ven?",
+        "spotify_artists": "I See Stars",
+        "spotify_album": "are we 3ven?",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273150245772b7dc38d9e3da803",
+        "spotify_duration_ms": "232320",
+        "spotify_popularity": "23",
+        "spotify_danceability": "0.463",
+        "spotify_energy": "0.93",
+        "spotify_key": "0",
+        "spotify_loudness": "-3.897",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0713",
+        "spotify_tempo": "140.043",
+        "spotify_valence": "0.457",
+        "spotify_acousticness": "0.000937",
+        "spotify_instrumentalness": "0.000245",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0932",
+        "spotify_artists01": "I See Stars",
+        "spotify_artists01_id": "3iCJOi5YKh247eutgCyLFe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba1a68cc83c9817fb5796b42a",
+        "spotify_artists01_genres": "deathstep, melodic metalcore, metalcore, neon pop punk, nintendocore, screamo, trancecore",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "9v70lTeXtE8",
+        "ytreleasedate": "2023/09/08"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/I-SEE-STARS-are-we-3ven.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3082,
+            "name": "I SEE STARS",
+            "slug": "i-see-stars",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アイ・シー・スターズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "I See Stars",
+        "ytvideoid": "9v70lTeXtE8",
+        "spotify_track_id": "05WkUDENwFYIlGrQMXGN9K"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "are-we-3ven"
+    },
+    {
+      "id": 51034,
+      "date": "2023-05-16T13:46:54",
+      "date_gmt": "2023-05-16T04:46:54",
+      "title": {
+        "rendered": "Anomaly"
+      },
+      "content": {
+        "rendered": "<p>I SEE STARS - Anomaly</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3082
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        411
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0giwrgIJuOgsWERF7ReCwi",
+        "spotify_release_date": "2023-09-08",
+        "spotify_name": "Anomaly",
+        "spotify_artists": "I See Stars",
+        "spotify_album": "are we 3ven?",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273150245772b7dc38d9e3da803",
+        "spotify_duration_ms": "198146",
+        "spotify_popularity": "12",
+        "spotify_danceability": "0.452",
+        "spotify_energy": "0.936",
+        "spotify_key": "4",
+        "spotify_loudness": "-3.307",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.113",
+        "spotify_tempo": "157.934",
+        "spotify_valence": "0.583",
+        "spotify_acousticness": "0.000667",
+        "spotify_instrumentalness": "0.0000358",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.159",
+        "spotify_artists01": "I See Stars",
+        "spotify_artists01_id": "3iCJOi5YKh247eutgCyLFe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba1a68cc83c9817fb5796b42a",
+        "spotify_artists01_genres": "deathstep, melodic metalcore, metalcore, neon pop punk, nintendocore, screamo, trancecore",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Ttu1Hzix9fs",
+        "ytreleasedate": "2023/05/16"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/I-SEE-STARS-Anomaly.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3082,
+            "name": "I SEE STARS",
+            "slug": "i-see-stars",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "アイ・シー・スターズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "I See Stars",
+        "ytvideoid": "Ttu1Hzix9fs",
+        "spotify_track_id": "0giwrgIJuOgsWERF7ReCwi"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "anomaly"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 1629,
+  "count": 5,
+  "description": "The Killers are an American rock band.",
+  "link": "https://sub.music8.jp/category/killers/",
+  "name": "Killers",
+  "slug": "killers",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2001",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・キラーズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Brandon Flowers (brandon-flowers) | Kings Of Leon (kings-of-leon) | Franz Ferdinand (franz-ferdinand) | Kaiser Chiefs | Kooks (kooks) | Strokes (strokes) | Snow Patrol (snow-patrol) | Kasabian (kasabian) | Muse (muse) | White Stripes (white-stripes) | Stereophonics (stereophonics) | Two Door Cinema Club (two-door-cinema-club) | MGMT (mgmt) | Blur (blur) | Fratellis | Interpol (interpol) | Verve (verve) | Foo Fighters (foo-fighters) | Foster the People (foster-the-people) | Arcade Fire (arcade-fire)",
+    "spotify_artist_id": "0C0XlULifJtAgn6ZNCW2eu",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174207b21f3ed0ee96adce3166a"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1629",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1629"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1629"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ザ・キラーズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174207b21f3ed0ee96adce3166a",
+  "artistActiveYearStart": "2001",
+  "occupation": "band"
+}

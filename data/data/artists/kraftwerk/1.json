@@ -1,0 +1,933 @@
+{
+  "artist": {
+    "id": 954,
+    "count": 7,
+    "description": "Kraftwerk is a German electronic band.",
+    "link": "https://sub.music8.jp/category/kraftwerk/",
+    "name": "Kraftwerk",
+    "slug": "kraftwerk",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "1970",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "クラフトワーク",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/954",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=954"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=954"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47891,
+      "date": "1987-02-01T14:27:00",
+      "date_gmt": "1987-02-01T05:27:00",
+      "title": {
+        "rendered": "The telephone call"
+      },
+      "content": {
+        "rendered": "<p>Kraftwerk - The telephone call</p>\n",
+        "protected": false
+      },
+      "categories": [
+        954
+      ],
+      "tags": [],
+      "genre": [
+        499,
+        742
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6HjfXak5P4IAXklUu71NZY",
+        "spotify_release_date": "1986",
+        "spotify_name": "The Telephone Call - 2009 Remaster",
+        "spotify_artists": "Kraftwerk",
+        "spotify_album": "Techno Pop (2009 Remaster)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e39a1a93a1f589786bdc7316",
+        "spotify_duration_ms": "230200",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.772",
+        "spotify_energy": "0.98",
+        "spotify_key": "3",
+        "spotify_loudness": "-5.522",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0508",
+        "spotify_tempo": "127.364",
+        "spotify_valence": "0.642",
+        "spotify_acousticness": "0.0298",
+        "spotify_instrumentalness": "0.528",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.245",
+        "spotify_artists01": "Kraftwerk",
+        "spotify_artists01_id": "0dmPX6ovclgOy8WWJaFEUU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc46999e5afaf35c91cbe652b",
+        "spotify_artists01_genres": "dusseldorf electronic, early synthpop, electro, new wave, proto-techno, synthpop",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "OYhQVrXBgxU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kraftwerk-The-telephone-call.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 954,
+            "name": "Kraftwerk",
+            "slug": "kraftwerk",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1970",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "クラフトワーク",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kraftwerk",
+        "ytvideoid": "OYhQVrXBgxU",
+        "spotify_track_id": "6HjfXak5P4IAXklUu71NZY"
+      },
+      "genre_data": [
+        {
+          "name": "Electronica",
+          "slug": "electronica",
+          "term_id": 499,
+          "post_count": 9
+        },
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-telephone-call"
+    },
+    {
+      "id": 48730,
+      "date": "1983-08-03T14:22:00",
+      "date_gmt": "1983-08-03T05:22:00",
+      "title": {
+        "rendered": "Tour De France"
+      },
+      "content": {
+        "rendered": "<p>Kraftwerk - Tour De France</p>\n",
+        "protected": false
+      },
+      "categories": [
+        954
+      ],
+      "tags": [],
+      "genre": [
+        499
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5uNlgK7FEg6r9BGy12P9Sx",
+        "spotify_release_date": "2003",
+        "spotify_name": "Tour de France - 2009 Remaster",
+        "spotify_artists": "Kraftwerk",
+        "spotify_album": "Tour de France (2009 Remaster)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731e6789e2db014c888c3de97e",
+        "spotify_duration_ms": "312760",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.664",
+        "spotify_energy": "0.913",
+        "spotify_key": "0",
+        "spotify_loudness": "-8.424",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0469",
+        "spotify_tempo": "133.971",
+        "spotify_valence": "0.647",
+        "spotify_acousticness": "0.0866",
+        "spotify_instrumentalness": "0.892",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.305",
+        "spotify_artists01": "Kraftwerk",
+        "spotify_artists01_id": "0dmPX6ovclgOy8WWJaFEUU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc46999e5afaf35c91cbe652b",
+        "spotify_artists01_genres": "dusseldorf electronic, early synthpop, electro, new wave, proto-techno, synthpop",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "rTe7U92ecX8",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kraftwerk-Tour-De-France.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 954,
+            "name": "Kraftwerk",
+            "slug": "kraftwerk",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1970",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "クラフトワーク",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kraftwerk",
+        "ytvideoid": "rTe7U92ecX8",
+        "spotify_track_id": "5uNlgK7FEg6r9BGy12P9Sx"
+      },
+      "genre_data": [
+        {
+          "name": "Electronica",
+          "slug": "electronica",
+          "term_id": 499,
+          "post_count": 9
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "tour-de-france"
+    },
+    {
+      "id": 49102,
+      "date": "1981-07-01T14:17:00",
+      "date_gmt": "1981-07-01T05:17:00",
+      "title": {
+        "rendered": "Computer Love"
+      },
+      "content": {
+        "rendered": "<p>Kraftwerk - Computer Love</p>\n",
+        "protected": false
+      },
+      "categories": [
+        954
+      ],
+      "tags": [],
+      "genre": [
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "7CZdd0S4WTktuiiARS8pY4",
+        "spotify_release_date": "1981",
+        "spotify_name": "Computer Love - 2009 Remaster",
+        "spotify_artists": "Kraftwerk",
+        "spotify_album": "Computer World (2009 Remaster)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e49b7bfa74ee582a21ae2d99",
+        "spotify_duration_ms": "439440",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.713",
+        "spotify_energy": "0.622",
+        "spotify_key": "5",
+        "spotify_loudness": "-11.466",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0299",
+        "spotify_tempo": "124.693",
+        "spotify_valence": "0.516",
+        "spotify_acousticness": "0.802",
+        "spotify_instrumentalness": "0.845",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0944",
+        "spotify_artists01": "Kraftwerk",
+        "spotify_artists01_id": "0dmPX6ovclgOy8WWJaFEUU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc46999e5afaf35c91cbe652b",
+        "spotify_artists01_genres": "dusseldorf electronic, early synthpop, electro, new wave, proto-techno, synthpop",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ZtWTUt2RZh0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kraftwerk-Computer-Love.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 954,
+            "name": "Kraftwerk",
+            "slug": "kraftwerk",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1970",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "クラフトワーク",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kraftwerk",
+        "ytvideoid": "ZtWTUt2RZh0",
+        "spotify_track_id": "7CZdd0S4WTktuiiARS8pY4"
+      },
+      "genre_data": [
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "computer-love"
+    },
+    {
+      "id": 49361,
+      "date": "1978-09-01T14:05:00",
+      "date_gmt": "1978-09-01T05:05:00",
+      "title": {
+        "rendered": "Das Model"
+      },
+      "content": {
+        "rendered": "<p>Kraftwerk - Das Model</p>\n",
+        "protected": false
+      },
+      "categories": [
+        954
+      ],
+      "tags": [],
+      "genre": [
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3VwLD5o1r0YBLkjUfgSEYg",
+        "spotify_release_date": "2017/5/26",
+        "spotify_name": "Das Model",
+        "spotify_artists": "Kraftwerk",
+        "spotify_album": "3-D Der Katalog (German Version)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736f4cbe4000d08e065bca58e2",
+        "spotify_duration_ms": "219606",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.679",
+        "spotify_energy": "0.629",
+        "spotify_key": "4",
+        "spotify_loudness": "-8.074",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0329",
+        "spotify_tempo": "124.003",
+        "spotify_valence": "0.896",
+        "spotify_acousticness": "0.00453",
+        "spotify_instrumentalness": "0.799",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0946",
+        "spotify_artists01": "Kraftwerk",
+        "spotify_artists01_id": "0dmPX6ovclgOy8WWJaFEUU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc46999e5afaf35c91cbe652b",
+        "spotify_artists01_genres": "dusseldorf electronic, early synthpop, electro, new wave, proto-techno, synthpop",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "o0iga1eNgvA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kraftwerk-Das-Model.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 954,
+            "name": "Kraftwerk",
+            "slug": "kraftwerk",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1970",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "クラフトワーク",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kraftwerk",
+        "ytvideoid": "o0iga1eNgvA",
+        "spotify_track_id": "3VwLD5o1r0YBLkjUfgSEYg"
+      },
+      "genre_data": [
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "das-model"
+    },
+    {
+      "id": 49377,
+      "date": "1978-05-19T14:11:00",
+      "date_gmt": "1978-05-19T05:11:00",
+      "title": {
+        "rendered": "The Robots"
+      },
+      "content": {
+        "rendered": "<p>Kraftwerk - The Robots</p>\n",
+        "protected": false
+      },
+      "categories": [
+        954
+      ],
+      "tags": [],
+      "genre": [
+        499,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "5eqZWYQ5tbIehx00NeKXz7",
+        "spotify_release_date": "1978",
+        "spotify_name": "The Robots - 2009 Remaster",
+        "spotify_artists": "Kraftwerk",
+        "spotify_album": "The Man-Machine (2009 Remaster)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e4c3295cd6464ed5bc0f6c2c",
+        "spotify_duration_ms": "372760",
+        "spotify_popularity": "50",
+        "spotify_danceability": "0.806",
+        "spotify_energy": "0.765",
+        "spotify_key": "2",
+        "spotify_loudness": "-9.665",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0583",
+        "spotify_tempo": "115.023",
+        "spotify_valence": "0.353",
+        "spotify_acousticness": "0.0236",
+        "spotify_instrumentalness": "0.617",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.148",
+        "spotify_artists01": "Kraftwerk",
+        "spotify_artists01_id": "0dmPX6ovclgOy8WWJaFEUU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc46999e5afaf35c91cbe652b",
+        "spotify_artists01_genres": "dusseldorf electronic, early synthpop, electro, new wave, proto-techno, synthpop",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "okhQtoQFG5s",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kraftwerk-The-Robots.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 954,
+            "name": "Kraftwerk",
+            "slug": "kraftwerk",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1970",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "クラフトワーク",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kraftwerk",
+        "ytvideoid": "okhQtoQFG5s",
+        "spotify_track_id": "5eqZWYQ5tbIehx00NeKXz7"
+      },
+      "genre_data": [
+        {
+          "name": "Electronica",
+          "slug": "electronica",
+          "term_id": 499,
+          "post_count": 9
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-robots"
+    },
+    {
+      "id": 49483,
+      "date": "1976-05-01T14:19:00",
+      "date_gmt": "1976-05-01T05:19:00",
+      "title": {
+        "rendered": "Radioactivity"
+      },
+      "content": {
+        "rendered": "<p>Kraftwerk - Radioactivity</p>\n",
+        "protected": false
+      },
+      "categories": [
+        954
+      ],
+      "tags": [],
+      "genre": [
+        499,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "3kwql90R2gmkK12R8uGHCs",
+        "spotify_release_date": "1975",
+        "spotify_name": "Radioactivity - 2009 Remaster",
+        "spotify_artists": "Kraftwerk",
+        "spotify_album": "Radio-Activity (2009 Remaster)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273672ed7795c0a38627330b445",
+        "spotify_duration_ms": "401253",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.583",
+        "spotify_energy": "0.666",
+        "spotify_key": "9",
+        "spotify_loudness": "-11.702",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0307",
+        "spotify_tempo": "121.709",
+        "spotify_valence": "0.11",
+        "spotify_acousticness": "0.0917",
+        "spotify_instrumentalness": "0.993",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.281",
+        "spotify_artists01": "Kraftwerk",
+        "spotify_artists01_id": "0dmPX6ovclgOy8WWJaFEUU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc46999e5afaf35c91cbe652b",
+        "spotify_artists01_genres": "dusseldorf electronic, early synthpop, electro, new wave, proto-techno, synthpop",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "eaScyfSHc-Y",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kraftwerk-Radioactivity-1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 954,
+            "name": "Kraftwerk",
+            "slug": "kraftwerk",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1970",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "クラフトワーク",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kraftwerk",
+        "ytvideoid": "eaScyfSHc-Y",
+        "spotify_track_id": "3kwql90R2gmkK12R8uGHCs"
+      },
+      "genre_data": [
+        {
+          "name": "Electronica",
+          "slug": "electronica",
+          "term_id": 499,
+          "post_count": 9
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "radioactivity"
+    },
+    {
+      "id": 49513,
+      "date": "1975-05-01T14:13:00",
+      "date_gmt": "1975-05-01T05:13:00",
+      "title": {
+        "rendered": "Autobahn"
+      },
+      "content": {
+        "rendered": "<p>Kraftwerk- Autobahn</p>\n",
+        "protected": false
+      },
+      "categories": [
+        954
+      ],
+      "tags": [],
+      "genre": [
+        413,
+        499,
+        511,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "31uidLEHAcF8Cw1cX1VCS8",
+        "spotify_release_date": "1974",
+        "spotify_name": "Autobahn - 2009 Remaster",
+        "spotify_artists": "Kraftwerk",
+        "spotify_album": "Autobahn (2009 Remaster)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273eb48c90e8567494e9cb38133",
+        "spotify_duration_ms": "1367093",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.333",
+        "spotify_energy": "0.497",
+        "spotify_key": "2",
+        "spotify_loudness": "-15.606",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0366",
+        "spotify_tempo": "81.681",
+        "spotify_valence": "0.113",
+        "spotify_acousticness": "0.105",
+        "spotify_instrumentalness": "0.872",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.129",
+        "spotify_artists01": "Kraftwerk",
+        "spotify_artists01_id": "0dmPX6ovclgOy8WWJaFEUU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc46999e5afaf35c91cbe652b",
+        "spotify_artists01_genres": "dusseldorf electronic, early synthpop, electro, new wave, proto-techno, synthpop",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "gChOifUJZMc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kraftwerk-Autobahn.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 954,
+            "name": "Kraftwerk",
+            "slug": "kraftwerk",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1970",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "クラフトワーク",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kraftwerk",
+        "ytvideoid": "gChOifUJZMc",
+        "spotify_track_id": "31uidLEHAcF8Cw1cX1VCS8"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient",
+          "slug": "ambient",
+          "term_id": 413,
+          "post_count": 25
+        },
+        {
+          "name": "Electronica",
+          "slug": "electronica",
+          "term_id": 499,
+          "post_count": 9
+        },
+        {
+          "name": "Experimental",
+          "slug": "experimental",
+          "term_id": 511,
+          "post_count": 3
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "autobahn"
+    }
+  ],
+  "totalSongs": 7,
+  "totalPages": 1,
+  "currentPage": 1
+}

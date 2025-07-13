@@ -1,0 +1,401 @@
+{
+  "artist": {
+    "id": 4010,
+    "count": 2,
+    "description": "YouNotUs is a German DJ and production duo.",
+    "link": "https://sub.music8.jp/category/younotus/",
+    "name": "YouNotUs",
+    "slug": "younotus",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "2015",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "duo",
+          "label": "Duo"
+        },
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4010",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4010"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4010"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 89899,
+      "date": "2025-01-20T22:47:45",
+      "date_gmt": "2025-01-20T13:47:45",
+      "title": {
+        "rendered": "Someone For Me"
+      },
+      "content": {
+        "rendered": "<p>Kylie Minogue, YouNotUs - Someone For Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1213,
+        4010
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        713
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "Q8HAbqUWfXg",
+        "ytreleasedate": "2025/01/20",
+        "pvstyle": [
+          "visual"
+        ],
+        "likecount": "1",
+        "artist_order": "Kylie Minogue, YouNotUs",
+        "spotify_track_id": "2ZV382UHWd9GNEntNmir8b",
+        "spotify_release_date": "2025-01-17",
+        "spotify_name": "Someone For Me",
+        "spotify_artists": "カイリー・ミノーグ, YouNotUs",
+        "spotify_album": "Someone For Me",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736b1010a59414451205a6e0a6",
+        "spotify_duration_ms": "139333",
+        "spotify_popularity": "54",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "カイリー・ミノーグ",
+        "spotify_artists01_id": "4RVnAU35WRWra6OZ3CbbMA",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9a8ae4546aa5fb59aac60262",
+        "spotify_artists01_genres": "ダンスポップ",
+        "spotify_artists01_popularity": "72",
+        "spotify_artists02": "YouNotUs",
+        "spotify_artists02_id": "67ghKnycRX6VM1xfqJSMlH",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebee300752875957db69697b8a",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "60",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/kylie-minogue-younotus-someone-for-me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1213,
+            "name": "Kylie Minogue",
+            "slug": "kylie-minogue",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1979",
+              "artistborn": "19680528",
+              "artistdied": "",
+              "artistjpname": "カイリー・ミノーグ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4010,
+            "name": "YouNotUs",
+            "slug": "younotus",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Kylie Minogue, YouNotUs",
+        "spotify_artists": "カイリー・ミノーグ, YouNotUs",
+        "ytvideoid": "Q8HAbqUWfXg",
+        "spotify_track_id": "2ZV382UHWd9GNEntNmir8b"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Slap House",
+          "slug": "slap-house",
+          "term_id": 713,
+          "post_count": 105
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "someone-for-me"
+    },
+    {
+      "id": 59721,
+      "date": "2023-04-07T15:33:41",
+      "date_gmt": "2023-04-07T06:33:41",
+      "title": {
+        "rendered": "What It Feels Like"
+      },
+      "content": {
+        "rendered": "<p>Toby Romeo, YouNotUs - What It Feels Like</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4009,
+        4010
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        713
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7lD0SNdtIYGV30yxu4494I",
+        "spotify_release_date": "2023-04-07",
+        "spotify_name": "What It Feels Like",
+        "spotify_artists": "Toby Romeo, YouNotUs",
+        "spotify_album": "What It Feels Like",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f5dc243a1fe085cb478fb36a",
+        "spotify_duration_ms": "135276",
+        "spotify_popularity": "68",
+        "spotify_danceability": "0.712",
+        "spotify_energy": "0.834",
+        "spotify_key": "5",
+        "spotify_loudness": "-4.09",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0586",
+        "spotify_tempo": "124.105",
+        "spotify_valence": "0.804",
+        "spotify_acousticness": "0.244",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.181",
+        "spotify_artists01": "Toby Romeo",
+        "spotify_artists01_id": "2XnY6NZ6rENbLMYabjkRey",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdb993d912e72d58df5e0708c",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "YouNotUs",
+        "spotify_artists02_id": "67ghKnycRX6VM1xfqJSMlH",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb1e10b72486e0491e1820d4b7",
+        "spotify_artists02_genres": "german dance",
+        "spotify_artists02_popularity": "62",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "H3f12OZfLlc",
+        "ytreleasedate": "2023/04/07"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Toby-Romeo-YouNotUs-What-It-Feels-Like.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4009,
+            "name": "Toby Romeo",
+            "slug": "toby-romeo",
+            "acf": {
+              "artistorigin": "AUT",
+              "artistactiveyearstart": "2013",
+              "artistborn": "20001108",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4010,
+            "name": "YouNotUs",
+            "slug": "younotus",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Toby Romeo, YouNotUs",
+        "ytvideoid": "H3f12OZfLlc",
+        "spotify_track_id": "7lD0SNdtIYGV30yxu4494I"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Slap House",
+          "slug": "slap-house",
+          "term_id": 713,
+          "post_count": 105
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "what-it-feels-like"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

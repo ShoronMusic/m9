@@ -1,0 +1,76 @@
+{
+  "id": 951,
+  "count": 1,
+  "description": "Japan were an English new wave band.",
+  "link": "https://sub.music8.jp/category/japan/",
+  "name": "Japan",
+  "slug": "japan",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1974-1991",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ジャパン",
+    "member": [
+      {
+        "term_id": 952,
+        "name": "David Sylvian",
+        "slug": "david-sylvian",
+        "term_group": 0,
+        "term_taxonomy_id": 952,
+        "taxonomy": "category",
+        "description": "David Sylvian is an English musician and singer-songwriter, known for his work with the band Japan.",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/951",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=951"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=951"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジャパン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1974-1991",
+  "occupation": ""
+}

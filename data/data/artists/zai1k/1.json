@@ -1,0 +1,207 @@
+{
+  "artist": {
+    "id": 2006,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/zai1k/",
+    "name": "Zai1k",
+    "slug": "zai1k",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2006",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2006"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2006"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39961,
+      "date": "2022-03-24T21:52:00",
+      "date_gmt": "2022-03-24T12:52:00",
+      "title": {
+        "rendered": "Don't Text Me When You're Drunk"
+      },
+      "content": {
+        "rendered": "\n<p>StaceyRyan,ZAI1K-Don'tTextMeWhenYou'reDrunk</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2005,
+        2006
+      ],
+      "tags": [],
+      "genre": [
+        587,
+        655
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3xSoK8ldUubd66INPOszNi",
+        "spotify_release_date": "2022/1/16",
+        "spotify_name": "Don'tTextMeWhenYou'reDrunk",
+        "spotify_artists": "StaceyRyan,Zai1k",
+        "spotify_album": "Don'tTextMeWhenYou'reDrunk",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273924919ab8c460ab61c976201",
+        "spotify_duration_ms": "194053",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.733",
+        "spotify_energy": "0.732",
+        "spotify_key": "5",
+        "spotify_loudness": "-3.06",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0493",
+        "spotify_tempo": "97.095",
+        "spotify_valence": "0.774",
+        "spotify_acousticness": "0.66",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.178",
+        "spotify_artists01": "StaceyRyan",
+        "spotify_artists01_id": "3sXwEUqxSzb11VpuFa5cvJ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf9b0dc2a031a109eb151c01d",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "Zai1k",
+        "spotify_artists02_id": "2ORU5xiGsr9qfRKNvZ3UII",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb593b3fa11686b4337e252c2b",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "48",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "tH-TY6IiQQU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Stacey-Ryan-ZAI1K-Dont-Text-Me-When-Youre-Drunk.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2005,
+            "name": "Stacey Ryan",
+            "slug": "stacey-ryan",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2021",
+              "artistborn": "20000818",
+              "artistdied": "",
+              "artistjpname": "ステイシー・ライアン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2006,
+            "name": "Zai1k",
+            "slug": "zai1k",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "StaceyRyan,Zai1k",
+        "ytvideoid": "tH-TY6IiQQU",
+        "spotify_track_id": "3xSoK8ldUubd66INPOszNi"
+      },
+      "genre_data": [
+        {
+          "name": "Jazz pop",
+          "slug": "jazz-pop",
+          "term_id": 587,
+          "post_count": 34
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "dont-text-me-when-youre-drunk"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

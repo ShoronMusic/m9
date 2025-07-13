@@ -1,0 +1,76 @@
+{
+  "id": 1114,
+  "count": 12,
+  "description": "Linkin Park is an American rock band.",
+  "link": "https://sub.music8.jp/category/linkin-park/",
+  "name": "Linkin Park",
+  "slug": "linkin-park",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1996–2017",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "リンキン・パーク",
+    "member": [
+      {
+        "term_id": 1280,
+        "name": "Mike Shinoda",
+        "slug": "mike-shinoda",
+        "term_group": 0,
+        "term_taxonomy_id": 1280,
+        "taxonomy": "category",
+        "description": "Michael Shinoda is an American musician, singer, rapper, songwriter, and record producer.",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1114",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1114"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1114"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "リンキン・パーク",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1996–2017",
+  "occupation": ""
+}

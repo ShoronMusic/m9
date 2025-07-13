@@ -1,0 +1,193 @@
+{
+  "artist": {
+    "id": 2983,
+    "count": 1,
+    "description": "René Miller is a German artist, multi-instrumentalist, and songwriter.",
+    "link": "https://sub.music8.jp/category/rene-miller/",
+    "name": "René Miller",
+    "slug": "rene-miller",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "2014",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "multi-instrumentalist",
+          "label": "Multi-instrumentalist"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2983",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2983"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2983"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50370,
+      "date": "2023-01-27T13:10:49",
+      "date_gmt": "2023-01-27T04:10:49",
+      "title": {
+        "rendered": "Concrete Heart"
+      },
+      "content": {
+        "rendered": "<p>René Miller - Concrete Heart</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2983
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5rbgG65XON7P1VsSIKVnOI",
+        "spotify_release_date": "2022-10-14",
+        "spotify_name": "Concrete Heart",
+        "spotify_artists": "René Miller",
+        "spotify_album": "Concrete Heart",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273110c6f8707ebaeb26b37f1a3",
+        "spotify_duration_ms": "195426",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.607",
+        "spotify_energy": "0.578",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.391",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0398",
+        "spotify_tempo": "137.909",
+        "spotify_valence": "0.448",
+        "spotify_acousticness": "0.169",
+        "spotify_instrumentalness": "0.0000021",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.136",
+        "spotify_artists01": "René Miller",
+        "spotify_artists01_id": "6ngF3kF5I0prOoapltjAps",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc00670767a17b10412e70a48",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "38",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "uEcJ0m2Uedg",
+        "ytreleasedate": "2023/01/27"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Rene-Miller-Concrete-Heart.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2983,
+            "name": "René Miller",
+            "slug": "rene-miller",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "multi-instrumentalist",
+                  "label": "Multi-instrumentalist"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "René Miller",
+        "ytvideoid": "uEcJ0m2Uedg",
+        "spotify_track_id": "5rbgG65XON7P1VsSIKVnOI"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "concrete-heart"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

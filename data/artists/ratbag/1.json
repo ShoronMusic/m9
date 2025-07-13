@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 3734,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/ratbag/",
+    "name": "ratbag",
+    "slug": "ratbag",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "NZL",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3734",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3734"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3734"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57069,
+      "date": "2023-09-14T17:53:00",
+      "date_gmt": "2023-09-14T08:53:00",
+      "title": {
+        "rendered": "exit girl"
+      },
+      "content": {
+        "rendered": "<p>ratbag - exit girl</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3734
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        575
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6nbfnqVbTWYfgscVHlgTR3",
+        "spotify_release_date": "2023-09-14",
+        "spotify_name": "exit girl",
+        "spotify_artists": "ratbag",
+        "spotify_album": "exit girl",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27301ca1f54ce08605cc71cfd8a",
+        "spotify_duration_ms": "206493",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.788",
+        "spotify_energy": "0.753",
+        "spotify_key": "9",
+        "spotify_loudness": "-4.369",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0479",
+        "spotify_tempo": "91.994",
+        "spotify_valence": "0.716",
+        "spotify_acousticness": "0.405",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.404",
+        "spotify_artists01": "ratbag",
+        "spotify_artists01_id": "6v6OE9MQreCmwuAqF0NfzQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd634f1399e83df6442117e81",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "28",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5zlDhA0_rGs",
+        "ytreleasedate": "2023/09/14"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ratbag-exit-girl.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3734,
+            "name": "ratbag",
+            "slug": "ratbag",
+            "acf": {
+              "artistorigin": "NZL",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ratbag",
+        "ytvideoid": "5zlDhA0_rGs",
+        "spotify_track_id": "6nbfnqVbTWYfgscVHlgTR3"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "exit-girl"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

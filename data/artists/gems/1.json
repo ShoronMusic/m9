@@ -1,0 +1,298 @@
+{
+  "artist": {
+    "id": 3401,
+    "count": 2,
+    "description": "GEMSis a Swedish rock trio",
+    "link": "https://sub.music8.jp/category/gems/",
+    "name": "GEMS",
+    "slug": "gems",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3401",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3401"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3401"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 63393,
+      "date": "2024-03-05T22:08:10",
+      "date_gmt": "2024-03-05T13:08:10",
+      "title": {
+        "rendered": "Queens"
+      },
+      "content": {
+        "rendered": "<p>GEMS - Queens</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3401
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "_LJrPJhAN4Y",
+        "ytreleasedate": "2024/03/05",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3jgXsjnjd77sVivAEjiAfK",
+        "spotify_release_date": "2024-01-26",
+        "spotify_name": "Queens",
+        "spotify_artists": "The Gems",
+        "spotify_album": "Phoenix",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737a174f154f6498d30fe6f2ab",
+        "spotify_duration_ms": "191743",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.395",
+        "spotify_energy": "0.937",
+        "spotify_key": "2",
+        "spotify_loudness": "-2.747",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0876",
+        "spotify_tempo": "174.755",
+        "spotify_valence": "0.627",
+        "spotify_acousticness": "0.00471",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.325",
+        "spotify_artists01": "The Gems",
+        "spotify_artists01_id": "735eXziB2hC9TFcx6wjBsf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0b7907e60ebdfddd79cd4a89",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "30",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2737a174f154f6498d30fe6f2ab.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3401,
+            "name": "GEMS",
+            "slug": "gems",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "The Gems",
+        "ytvideoid": "_LJrPJhAN4Y",
+        "spotify_track_id": "3jgXsjnjd77sVivAEjiAfK"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "queens"
+    },
+    {
+      "id": 53655,
+      "date": "2023-10-03T22:51:14",
+      "date_gmt": "2023-10-03T13:51:14",
+      "title": {
+        "rendered": "Send Me To The Wolves"
+      },
+      "content": {
+        "rendered": "<p>GEMS - Send Me To The Wolves</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3401
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4Indcz3y0KKBisRgdAz2br",
+        "spotify_release_date": "2023-10-03",
+        "spotify_name": "Send Me To The Wolves",
+        "spotify_artists": "The Gems",
+        "spotify_album": "Send Me To The Wolves",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c9071c0acd00a2b6b26525ae",
+        "spotify_duration_ms": "190304",
+        "spotify_popularity": "24",
+        "spotify_danceability": "0.539",
+        "spotify_energy": "0.954",
+        "spotify_key": "0",
+        "spotify_loudness": "-2.289",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0578",
+        "spotify_tempo": "89.982",
+        "spotify_valence": "0.608",
+        "spotify_acousticness": "0.0035",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.089",
+        "spotify_artists01": "The Gems",
+        "spotify_artists01_id": "735eXziB2hC9TFcx6wjBsf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba83203d49f2491432db36d9f",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "20",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "lG5yz8yA0pc",
+        "ytreleasedate": "2023/10/03"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/THE-GEMS-Send-Me-To-The-Wolves.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3401,
+            "name": "GEMS",
+            "slug": "gems",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Gems",
+        "ytvideoid": "lG5yz8yA0pc",
+        "spotify_track_id": "4Indcz3y0KKBisRgdAz2br"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "send-me-to-the-wolves"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

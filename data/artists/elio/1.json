@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 4191,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/elio/",
+    "name": "ELIO",
+    "slug": "elio",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4191",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4191"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4191"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61946,
+      "date": "2024-02-01T21:16:03",
+      "date_gmt": "2024-02-01T12:16:03",
+      "title": {
+        "rendered": "More Than My Mind"
+      },
+      "content": {
+        "rendered": "<p>ELIO - More Than My Mind</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4191
+      ],
+      "tags": [],
+      "genre": [
+        472,
+        501
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "cznNTRfCev0",
+        "ytreleasedate": "2024/02/01",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3R9efKKQ6CcB6BjRguI2m5",
+        "spotify_release_date": "2024-01-26",
+        "spotify_name": "More Than My Mind",
+        "spotify_artists": "ELIO",
+        "spotify_album": "More Than My Mind",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27353dd83d1960d64b5abdce9ed",
+        "spotify_duration_ms": "153284",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.776",
+        "spotify_energy": "0.664",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.26",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0716",
+        "spotify_tempo": "127.449",
+        "spotify_valence": "0.599",
+        "spotify_acousticness": "0.298",
+        "spotify_instrumentalness": "0.0000558",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0889",
+        "spotify_artists01": "ELIO",
+        "spotify_artists01_id": "6xgvgzXNv3ymcITXTrxRaA",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc565d6dea5254b4572c1e2a9",
+        "spotify_artists01_genres": "alt z, electropop",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ELIO-More-Than-My-Mind.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4191,
+            "name": "ELIO",
+            "slug": "elio",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ELIO",
+        "ytvideoid": "cznNTRfCev0",
+        "spotify_track_id": "3R9efKKQ6CcB6BjRguI2m5"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-rock",
+          "slug": "dance-rock",
+          "term_id": 472,
+          "post_count": 70
+        },
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "more-than-my-mind"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

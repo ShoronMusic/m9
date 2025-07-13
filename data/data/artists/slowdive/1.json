@@ -1,0 +1,601 @@
+{
+  "artist": {
+    "id": 3294,
+    "count": 4,
+    "description": "Slowdive are a British rock band.",
+    "link": "https://sub.music8.jp/category/slowdive/",
+    "name": "Slowdive",
+    "slug": "slowdive",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1989",
+      "artistborn": "",
+      "artistjpname": "スロウダイヴ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3294",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3294"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3294"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52586,
+      "date": "2023-08-30T15:59:11",
+      "date_gmt": "2023-08-30T06:59:11",
+      "title": {
+        "rendered": "alife"
+      },
+      "content": {
+        "rendered": "<p>Slowdive - alife</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3294
+      ],
+      "tags": [],
+      "genre": [
+        485,
+        708
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2ceUzieIOIwYKA9zOiWkto",
+        "spotify_release_date": "2023-09-01",
+        "spotify_name": "alife",
+        "spotify_artists": "Slowdive",
+        "spotify_album": "everything is alive",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731c44c9b9b5305bf50106f16a",
+        "spotify_duration_ms": "273492",
+        "spotify_popularity": "62",
+        "spotify_danceability": "0.479",
+        "spotify_energy": "0.732",
+        "spotify_key": "4",
+        "spotify_loudness": "-6.603",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0279",
+        "spotify_tempo": "130.118",
+        "spotify_valence": "0.155",
+        "spotify_acousticness": "0.0516",
+        "spotify_instrumentalness": "0.734",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.106",
+        "spotify_artists01": "Slowdive",
+        "spotify_artists01_id": "72X6FHxaShda0XeQw3vbeF",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb653481f50df3c11791d6132a",
+        "spotify_artists01_genres": "alternative rock, dream pop, nu gaze, reading indie, shoegaze",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "MhQht-YK8rw",
+        "ytreleasedate": "2023/08/30"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Slowdive-alife.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3294,
+            "name": "Slowdive",
+            "slug": "slowdive",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistjpname": "スロウダイヴ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Slowdive",
+        "ytvideoid": "MhQht-YK8rw",
+        "spotify_track_id": "2ceUzieIOIwYKA9zOiWkto"
+      },
+      "genre_data": [
+        {
+          "name": "Dream pop",
+          "slug": "dream-pop",
+          "term_id": 485,
+          "post_count": 212
+        },
+        {
+          "name": "Shoegaze",
+          "slug": "shoegaze",
+          "term_id": 708,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "alife"
+    },
+    {
+      "id": 52589,
+      "date": "2023-08-09T16:04:09",
+      "date_gmt": "2023-08-09T07:04:09",
+      "title": {
+        "rendered": "the slab"
+      },
+      "content": {
+        "rendered": "<p>Slowdive - the slab</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3294
+      ],
+      "tags": [],
+      "genre": [
+        485,
+        665,
+        706
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2qvOC1CRBtwOcl2dlcOCM1",
+        "spotify_release_date": "2023-09-01",
+        "spotify_name": "the slab",
+        "spotify_artists": "Slowdive",
+        "spotify_album": "everything is alive",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731c44c9b9b5305bf50106f16a",
+        "spotify_duration_ms": "310874",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.374",
+        "spotify_energy": "0.942",
+        "spotify_key": "10",
+        "spotify_loudness": "-5.191",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0336",
+        "spotify_tempo": "148",
+        "spotify_valence": "0.567",
+        "spotify_acousticness": "0.0265",
+        "spotify_instrumentalness": "0.978",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.361",
+        "spotify_artists01": "Slowdive",
+        "spotify_artists01_id": "72X6FHxaShda0XeQw3vbeF",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb653481f50df3c11791d6132a",
+        "spotify_artists01_genres": "alternative rock, dream pop, nu gaze, reading indie, shoegaze",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "AiQUd6F6_kw",
+        "ytreleasedate": "2023/08/09"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Slowdive-the-slab.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3294,
+            "name": "Slowdive",
+            "slug": "slowdive",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistjpname": "スロウダイヴ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Slowdive",
+        "ytvideoid": "AiQUd6F6_kw",
+        "spotify_track_id": "2qvOC1CRBtwOcl2dlcOCM1"
+      },
+      "genre_data": [
+        {
+          "name": "Dream pop",
+          "slug": "dream-pop",
+          "term_id": 485,
+          "post_count": 212
+        },
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        },
+        {
+          "name": "Schlager",
+          "slug": "schlager",
+          "term_id": 706,
+          "post_count": 2
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-slab"
+    },
+    {
+      "id": 52592,
+      "date": "2023-07-18T16:06:38",
+      "date_gmt": "2023-07-18T07:06:38",
+      "title": {
+        "rendered": "skin in the game"
+      },
+      "content": {
+        "rendered": "<p>Slowdive - skin in the game</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3294
+      ],
+      "tags": [],
+      "genre": [
+        485,
+        630,
+        708
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "2EpduTUFSZfeb0GI4CaCQD",
+        "spotify_release_date": "2023-09-01",
+        "spotify_name": "skin in the game",
+        "spotify_artists": "Slowdive",
+        "spotify_album": "everything is alive",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731c44c9b9b5305bf50106f16a",
+        "spotify_duration_ms": "232537",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.528",
+        "spotify_energy": "0.653",
+        "spotify_key": "6",
+        "spotify_loudness": "-7.379",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0259",
+        "spotify_tempo": "98.29",
+        "spotify_valence": "0.371",
+        "spotify_acousticness": "0.526",
+        "spotify_instrumentalness": "0.838",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0985",
+        "spotify_artists01": "Slowdive",
+        "spotify_artists01_id": "72X6FHxaShda0XeQw3vbeF",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb653481f50df3c11791d6132a",
+        "spotify_artists01_genres": "alternative rock, dream pop, nu gaze, reading indie, shoegaze",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "HWtlDuzHc4g",
+        "ytreleasedate": "2023/07/18"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Slowdive-skin-in-the-game.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3294,
+            "name": "Slowdive",
+            "slug": "slowdive",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistjpname": "スロウダイヴ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Slowdive",
+        "ytvideoid": "HWtlDuzHc4g",
+        "spotify_track_id": "2EpduTUFSZfeb0GI4CaCQD"
+      },
+      "genre_data": [
+        {
+          "name": "Dream pop",
+          "slug": "dream-pop",
+          "term_id": 485,
+          "post_count": 212
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        },
+        {
+          "name": "Shoegaze",
+          "slug": "shoegaze",
+          "term_id": 708,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "skin-in-the-game"
+    },
+    {
+      "id": 52595,
+      "date": "2023-06-20T16:08:58",
+      "date_gmt": "2023-06-20T07:08:58",
+      "title": {
+        "rendered": "kisses"
+      },
+      "content": {
+        "rendered": "<p>Slowdive - kisses</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3294
+      ],
+      "tags": [],
+      "genre": [
+        485,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7LuPjGUfJqxuW14W4gMrU2",
+        "spotify_release_date": "2023-09-01",
+        "spotify_name": "kisses",
+        "spotify_artists": "Slowdive",
+        "spotify_album": "everything is alive",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731c44c9b9b5305bf50106f16a",
+        "spotify_duration_ms": "237434",
+        "spotify_popularity": "62",
+        "spotify_danceability": "0.57",
+        "spotify_energy": "0.8",
+        "spotify_key": "11",
+        "spotify_loudness": "-7.04",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0332",
+        "spotify_tempo": "128.033",
+        "spotify_valence": "0.469",
+        "spotify_acousticness": "0.0188",
+        "spotify_instrumentalness": "0.74",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0598",
+        "spotify_artists01": "Slowdive",
+        "spotify_artists01_id": "72X6FHxaShda0XeQw3vbeF",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb653481f50df3c11791d6132a",
+        "spotify_artists01_genres": "alternative rock, dream pop, nu gaze, reading indie, shoegaze",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "G9RpHfPyEx8",
+        "ytreleasedate": "2023/06/20"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Slowdive-kisses.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3294,
+            "name": "Slowdive",
+            "slug": "slowdive",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1989",
+              "artistborn": "",
+              "artistjpname": "スロウダイヴ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Slowdive",
+        "ytvideoid": "G9RpHfPyEx8",
+        "spotify_track_id": "7LuPjGUfJqxuW14W4gMrU2"
+      },
+      "genre_data": [
+        {
+          "name": "Dream pop",
+          "slug": "dream-pop",
+          "term_id": 485,
+          "post_count": 212
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "kisses"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

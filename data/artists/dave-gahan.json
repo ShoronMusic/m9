@@ -1,0 +1,76 @@
+{
+  "id": 1337,
+  "count": 1,
+  "description": "Dave Gahan is an English singer and songwriter, lead singer of electronic band Depeche Mode.",
+  "link": "https://sub.music8.jp/category/dave-gahan/",
+  "name": "Dave Gahan",
+  "slug": "dave-gahan",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "",
+    "artistborn": "19620509",
+    "artistdied": "",
+    "artistjpname": "デイヴ・ガーン",
+    "member": [
+      {
+        "term_id": 848,
+        "name": "Depeche Mode",
+        "slug": "depeche-mode",
+        "term_group": 0,
+        "term_taxonomy_id": 848,
+        "taxonomy": "category",
+        "description": "Depeche Mode are an English electronic music band.",
+        "parent": 0,
+        "count": 30,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1337",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1337"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1337"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "デイヴ・ガーン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

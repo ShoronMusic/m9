@@ -1,0 +1,63 @@
+{
+  "id": 1463,
+  "count": 9,
+  "description": "Lorde is a New Zealand singer and songwriter.",
+  "link": "https://sub.music8.jp/category/lorde/",
+  "name": "Lorde",
+  "slug": "lorde",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NZL",
+    "artistactiveyearstart": "2009",
+    "artistborn": "19961107",
+    "artistdied": "",
+    "artistjpname": "ロード",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1463",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1463"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1463"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ロード",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2009",
+  "occupation": ""
+}

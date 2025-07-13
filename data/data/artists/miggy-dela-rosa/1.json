@@ -1,0 +1,193 @@
+{
+  "artist": {
+    "id": 2330,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/miggy-dela-rosa/",
+    "name": "Miggy Dela Rosa",
+    "slug": "miggy-dela-rosa",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2330",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2330"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2330"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40031,
+      "date": "2022-03-15T23:24:00",
+      "date_gmt": "2022-03-15T14:24:00",
+      "title": {
+        "rendered": "Ferrari"
+      },
+      "content": {
+        "rendered": "\n<p>JamesHype,MiggyDelaRosa-Ferrari</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2329,
+        2330
+      ],
+      "tags": [],
+      "genre": [
+        740
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "CgeleP7nWN0",
+        "likecount": "1",
+        "spotify_track_id": "4zN21mbAuaD0WqtmaTZZeP",
+        "spotify_release_date": "2022/4/1",
+        "spotify_name": "Ferrari",
+        "spotify_artists": "James Hype, Miggy DelaRosa",
+        "spotify_album": "Ferrari",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736cc861b5c9c7cdef61b010b4",
+        "spotify_duration_ms": "186661",
+        "spotify_popularity": "87",
+        "spotify_danceability": "0.847",
+        "spotify_energy": "0.69",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.877",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0493",
+        "spotify_tempo": "125.004",
+        "spotify_valence": "0.692",
+        "spotify_acousticness": "0.0127",
+        "spotify_instrumentalness": "6.00E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0526",
+        "spotify_artists01": "JamesHype",
+        "spotify_artists01_id": "43BxCL6t4c73BQnIJtry5v",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebac473c8c8d3311437bc38916",
+        "spotify_artists01_genres": "deepgroovehouse,popdance,ukdance",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "MiggyDelaRosa",
+        "spotify_artists02_id": "45ruzGUmIr8WLjLOPJ9mGU",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebf4381c2beab61b4f5aa9549d",
+        "spotify_artists02_genres": "dancepop,popdance",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/James-Hype-Miggy-Dela-Rosa-Ferrari.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2329,
+            "name": "James Hype",
+            "slug": "james-hype",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2016",
+              "artistborn": "19891128",
+              "artistdied": "",
+              "artistjpname": "ジェームズ・ハイプ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2330,
+            "name": "Miggy Dela Rosa",
+            "slug": "miggy-dela-rosa",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "James Hype, Miggy DelaRosa",
+        "ytvideoid": "CgeleP7nWN0",
+        "spotify_track_id": "4zN21mbAuaD0WqtmaTZZeP"
+      },
+      "genre_data": [
+        {
+          "name": "Tech house",
+          "slug": "tech-house",
+          "term_id": 740,
+          "post_count": 91
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ferrari"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

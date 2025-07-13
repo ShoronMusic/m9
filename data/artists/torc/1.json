@@ -1,0 +1,201 @@
+{
+  "artist": {
+    "id": 3539,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/torc/",
+    "name": "Torc",
+    "slug": "torc",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "BEL",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3539",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3539"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3539"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 55206,
+      "date": "2023-07-10T19:40:39",
+      "date_gmt": "2023-07-10T10:40:39",
+      "title": {
+        "rendered": "The ten rules of techno"
+      },
+      "content": {
+        "rendered": "<p>Torc - The ten rules of techno</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3539
+      ],
+      "tags": [],
+      "genre": [
+        742
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3DT024B6ftlzAE0y735aUb",
+        "spotify_release_date": "2023-07-10",
+        "spotify_name": "Ten Rules - vocal edit",
+        "spotify_artists": "Torc",
+        "spotify_album": "Ten Rules EP",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b6f797c4be42a4d1e28ad95b",
+        "spotify_duration_ms": "329642",
+        "spotify_popularity": "15",
+        "spotify_danceability": "0.659",
+        "spotify_energy": "0.936",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.94",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0569",
+        "spotify_tempo": "136.011",
+        "spotify_valence": "0.228",
+        "spotify_acousticness": "0.0042",
+        "spotify_instrumentalness": "0.592",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.27",
+        "spotify_artists01": "Torc",
+        "spotify_artists01_id": "4F8MUuCYwS4H7rjHH0zjh8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb19ee75728846b8b417d8a293",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "5",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "B_D3dCSylCg",
+        "ytreleasedate": "2023/07/10"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Torc-The-ten-rules-of-techno.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3539,
+            "name": "Torc",
+            "slug": "torc",
+            "acf": {
+              "artistorigin": "BEL",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Torc",
+        "ytvideoid": "B_D3dCSylCg",
+        "spotify_track_id": "3DT024B6ftlzAE0y735aUb"
+      },
+      "genre_data": [
+        {
+          "name": "Techno",
+          "slug": "techno",
+          "term_id": 742,
+          "post_count": 130
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-ten-rules-of-techno"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

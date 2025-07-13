@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2678,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/keeno/",
+    "name": "Keeno",
+    "slug": "keeno",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2678",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2678"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2678"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38230,
+      "date": "2022-12-21T00:35:00",
+      "date_gmt": "2022-12-20T15:35:00",
+      "title": {
+        "rendered": "Lights On"
+      },
+      "content": {
+        "rendered": "\n<p>Keeno-LightsOn</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2678
+      ],
+      "tags": [],
+      "genre": [
+        414,
+        487
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "36ecDDGEpJPp5qhu9jiQnR",
+        "spotify_release_date": "2022/12/2",
+        "spotify_name": "LightsOn",
+        "spotify_artists": "Keeno",
+        "spotify_album": "LightsOn",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a841b4237940122ed1fb9cb8",
+        "spotify_duration_ms": "227586",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.389",
+        "spotify_energy": "0.896",
+        "spotify_key": "9",
+        "spotify_loudness": "-4.393",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0339",
+        "spotify_tempo": "174.032",
+        "spotify_valence": "0.0914",
+        "spotify_acousticness": "0.00174",
+        "spotify_instrumentalness": "0.954",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0711",
+        "spotify_artists01": "Keeno",
+        "spotify_artists01_id": "6r54QO0889i9vqaeuruUSn",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb74e84ad3f5d99a35865351f9",
+        "spotify_artists01_genres": "liquidfunk",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "pnB7uXYK5Fc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Keeno-Lights-On.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2678,
+            "name": "Keeno",
+            "slug": "keeno",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Keeno",
+        "ytvideoid": "pnB7uXYK5Fc",
+        "spotify_track_id": "36ecDDGEpJPp5qhu9jiQnR"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        },
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "lights-on-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,207 @@
+{
+  "artist": {
+    "id": 1071,
+    "count": 1,
+    "description": "Kodaline are an Irish rock band.",
+    "link": "https://sub.music8.jp/category/kodaline/",
+    "name": "Kodaline",
+    "slug": "kodaline",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "IRL",
+      "artistactiveyearstart": "2012",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "コーダライン",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1071",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1071"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1071"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 43320,
+      "date": "2016-04-12T00:24:00",
+      "date_gmt": "2016-04-11T15:24:00",
+      "title": {
+        "rendered": "Raging"
+      },
+      "content": {
+        "rendered": "\n<p>Kygo-Ragingft.Kodaline</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1071,
+        1066
+      ],
+      "tags": [],
+      "genre": [
+        521,
+        752
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "2Vhd5uZB4brKHmM0MNxkZo",
+        "spotify_release_date": "2016/5/13",
+        "spotify_name": "Raging (feat. Kodaline)",
+        "spotify_artists": "Kygo, Kodaline",
+        "spotify_album": "Cloud Nine",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27335590cb9280d5a1f5221ae1a",
+        "spotify_duration_ms": "224486",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.55",
+        "spotify_energy": "0.689",
+        "spotify_key": "3",
+        "spotify_loudness": "-7.76",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.094",
+        "spotify_tempo": "99.904",
+        "spotify_valence": "0.408",
+        "spotify_acousticness": "0.0498",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.207",
+        "spotify_artists01": "Kygo",
+        "spotify_artists01_id": "23fqKkggKUBHNkbKtXEls4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe636670d717588b11d654130",
+        "spotify_artists01_genres": "edm, pop, pop dance, tropical house",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "Kodaline",
+        "spotify_artists02_id": "4BxCuXFJrSWGi1KHcVqaU4",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb0b99560e4162fe239ac6d3ba",
+        "spotify_artists02_genres": "irish pop, modern rock",
+        "spotify_artists02_popularity": "66",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ZhzN7-Q00KU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kygo-Raging-ft.-Kodaline.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1071,
+            "name": "Kodaline",
+            "slug": "kodaline",
+            "acf": {
+              "artistorigin": "IRL",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "コーダライン",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1066,
+            "name": "Kygo",
+            "slug": "kygo",
+            "acf": {
+              "artistorigin": "NOR",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19910911",
+              "artistdied": "",
+              "artistjpname": "カイゴ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kygo, Kodaline",
+        "ytvideoid": "ZhzN7-Q00KU",
+        "spotify_track_id": "2Vhd5uZB4brKHmM0MNxkZo"
+      },
+      "genre_data": [
+        {
+          "name": "Folktronica",
+          "slug": "folktronica",
+          "term_id": 521,
+          "post_count": 27
+        },
+        {
+          "name": "Tropical house",
+          "slug": "tropical-house",
+          "term_id": 752,
+          "post_count": 101
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "raging"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

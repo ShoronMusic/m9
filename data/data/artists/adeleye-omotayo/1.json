@@ -1,0 +1,213 @@
+{
+  "artist": {
+    "id": 3672,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/adeleye-omotayo/",
+    "name": "Adeleye Omotayo",
+    "slug": "adeleye-omotayo",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3672",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3672"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3672"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 56316,
+      "date": "2023-11-21T22:53:38",
+      "date_gmt": "2023-11-21T13:53:38",
+      "title": {
+        "rendered": "Silent Running"
+      },
+      "content": {
+        "rendered": "<p>Gorillaz - Silent Running (feat. Adeleye Omotayo)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3672,
+        1963
+      ],
+      "tags": [],
+      "genre": [
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "0ZGWe02EtMpw40QAzOVZD1",
+        "spotify_release_date": "2023-02-24",
+        "spotify_name": "Silent Running (feat. Adeleye Omotayo)",
+        "spotify_artists": "Gorillaz, Adeleye Omotayo",
+        "spotify_album": "Cracker Island",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734b0ddebba0d5b34f2a2f07a4",
+        "spotify_duration_ms": "266338",
+        "spotify_popularity": "66",
+        "spotify_danceability": "0.659",
+        "spotify_energy": "0.901",
+        "spotify_key": "8",
+        "spotify_loudness": "-3.549",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0359",
+        "spotify_tempo": "106.997",
+        "spotify_valence": "0.776",
+        "spotify_acousticness": "0.0614",
+        "spotify_instrumentalness": "0.0000917",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.182",
+        "spotify_artists01": "Gorillaz",
+        "spotify_artists01_id": "3AA28KZvwAUcZuOKwyblJQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb337d671a32b2f44d4a4e6cf2",
+        "spotify_artists01_genres": "alternative hip hop, modern rock, rock",
+        "spotify_artists01_popularity": "76",
+        "spotify_artists02": "Adeleye Omotayo",
+        "spotify_artists02_id": "1z2GIqUV62qrl1J5sXalOT",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab67616d0000b2735c326be2a7f88db38ee409fa",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "44",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "GSLdiC48Q7Q",
+        "ytreleasedate": "2023/02/23"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Gorillaz-Silent-Running-feat.-Adeleye-Omotayo.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3672,
+            "name": "Adeleye Omotayo",
+            "slug": "adeleye-omotayo",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1963,
+            "name": "Gorillaz",
+            "slug": "gorillaz",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1998",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ゴリラズ",
+              "member": [
+                {
+                  "term_id": 2650,
+                  "name": "Damon Albarn",
+                  "slug": "damon-albarn",
+                  "term_group": 0,
+                  "term_taxonomy_id": 2650,
+                  "taxonomy": "category",
+                  "description": "Damon Albarn is an English and Icelandic musician, singer, songwriter and composer. He is the frontman of the rock band Blur and virtual band Gorillaz.",
+                  "parent": 0,
+                  "count": 1,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Gorillaz, Adeleye Omotayo",
+        "ytvideoid": "GSLdiC48Q7Q",
+        "spotify_track_id": "0ZGWe02EtMpw40QAzOVZD1"
+      },
+      "genre_data": [
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "silent-running"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

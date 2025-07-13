@@ -1,0 +1,72 @@
+{
+  "id": 5725,
+  "count": 3,
+  "description": "",
+  "link": "https://sub.music8.jp/category/absnt-mind/",
+  "name": "Absnt Mind",
+  "slug": "absnt-mind",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "group",
+        "label": "Group"
+      }
+    ],
+    "related_artists": "Conor Marcus | Absent Minds | Absent Mind | Edward Sexton | Melissa Brown | Just The Brave | IF YOU DARE | Next In Line | Tyler Bragoli | Here At Last",
+    "spotify_artist_id": "3wCxtQe4q4QsNnYD2BG7ag",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174f64a63d0c2989b17186cc6e5"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5725",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5725"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5725"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174f64a63d0c2989b17186cc6e5",
+  "artistActiveYearStart": "",
+  "occupation": "group"
+}

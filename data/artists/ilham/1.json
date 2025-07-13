@@ -1,0 +1,166 @@
+{
+  "artist": {
+    "id": 6091,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/ilham/",
+    "name": "ilham",
+    "slug": "ilham",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6091",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6091"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6091"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 84787,
+      "date": "2024-10-26T10:56:07",
+      "date_gmt": "2024-10-26T01:56:07",
+      "title": {
+        "rendered": "games"
+      },
+      "content": {
+        "rendered": "<p>ilham - games</p>\n",
+        "protected": false
+      },
+      "categories": [
+        6091
+      ],
+      "tags": [],
+      "genre": [
+        405
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "8Lfsda4JsMc",
+        "ytreleasedate": "2024/10/26",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "1qPWK9WhcEGIi1U6iHTeW9",
+        "spotify_release_date": "2024-10-25",
+        "spotify_name": "games",
+        "spotify_artists": "ilham",
+        "spotify_album": "games",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d48e4235de60df321dec195c",
+        "spotify_duration_ms": "124725",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.572",
+        "spotify_energy": "0.539",
+        "spotify_key": "9",
+        "spotify_loudness": "-8.155",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0487",
+        "spotify_tempo": "140.214",
+        "spotify_valence": "0.0889",
+        "spotify_acousticness": "0.187",
+        "spotify_instrumentalness": "0.00093",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "ilham",
+        "spotify_artists01_id": "0r7PsZB4ePA6vHrW4agoGN",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9d6102dd3c1840615840e251",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "36",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273d48e4235de60df321dec195c.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 6091,
+            "name": "ilham",
+            "slug": "ilham",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ilham",
+        "ytvideoid": "8Lfsda4JsMc",
+        "spotify_track_id": "1qPWK9WhcEGIi1U6iHTeW9"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative R&amp;B",
+          "slug": "alternative-rb",
+          "term_id": 405,
+          "post_count": 348
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "games"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

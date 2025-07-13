@@ -1,0 +1,72 @@
+{
+  "id": 5692,
+  "count": 1,
+  "description": "Something Corporate is an American rock band.",
+  "link": "https://sub.music8.jp/category/something-corporate/",
+  "name": "Something Corporate",
+  "slug": "something-corporate",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1998",
+    "artistborn": "",
+    "artistjpname": "サムシング・コーポレイト",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Jack's Mannequin | Starting Line | Straylight Run | Early November | Spill Canvas | Andrew McMahon in the Wilderness (andrew-mcmahon) | Saves The Day | Motion City Soundtrack | Mae | Rocket Summer | Cartel | Dashboard Confessional | Academy Is... | Matchbook Romance | Hidden In Plain View | Say Anything | Armor For Sleep | Midtown | FiNCH (finch) | Juliana Theory",
+    "spotify_artist_id": "71h7GTahhKcSkQ1ayhTvOD",
+    "spotify_artist_images": "https://i.scdn.co/image/471498d992f04aec37200af29afae1ce7c71d105"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5692",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5692"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5692"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "サムシング・コーポレイト",
+  "spotifyArtistImages": "https://i.scdn.co/image/471498d992f04aec37200af29afae1ce7c71d105",
+  "artistActiveYearStart": "1998",
+  "occupation": "band"
+}

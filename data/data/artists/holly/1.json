@@ -1,0 +1,205 @@
+{
+  "artist": {
+    "id": 4115,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/holly/",
+    "name": "Holly",
+    "slug": "holly",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4115",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4115"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4115"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 60829,
+      "date": "2024-01-19T23:10:49",
+      "date_gmt": "2024-01-19T14:10:49",
+      "title": {
+        "rendered": "DYSPHORIA"
+      },
+      "content": {
+        "rendered": "<p>REZZ, Holly - DYSPHORIA</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4115,
+        1418
+      ],
+      "tags": [],
+      "genre": [
+        476,
+        488,
+        621
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "23DEUXkuHskvqvM1j5VrGa",
+        "spotify_release_date": "2024-01-19",
+        "spotify_name": "DYSPHORIA",
+        "spotify_artists": "Rezz, Holly",
+        "spotify_album": "DYSPHORIA",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27383359692891041d1f5eaf633",
+        "spotify_duration_ms": "157637",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.58",
+        "spotify_energy": "0.837",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.672",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0489",
+        "spotify_tempo": "140.028",
+        "spotify_valence": "0.238",
+        "spotify_acousticness": "0.0565",
+        "spotify_instrumentalness": "0.798",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.104",
+        "spotify_artists01": "Rezz",
+        "spotify_artists01_id": "4aKdmOXdUKX07HVd3sGgzw",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcc758499cb4aa667c7923042",
+        "spotify_artists01_genres": "brostep, canadian electronic, edm, electra, electro house",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "Holly",
+        "spotify_artists02_id": "65stAzefvkwLeulY8215Zo",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebf99b7ab7aeb0beef0a1f7c8d",
+        "spotify_artists02_genres": "electronic trap",
+        "spotify_artists02_popularity": "41",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "110V3rgvtO0",
+        "ytreleasedate": "2024/01/19"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/REZZ-x-Holly-DYSPHORIA.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4115,
+            "name": "Holly",
+            "slug": "holly",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1418,
+            "name": "Rezz",
+            "slug": "rezz",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "",
+              "artistborn": "19950528",
+              "artistdied": "",
+              "artistjpname": "レズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "4aKdmOXdUKX07HVd3sGgzw",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174133d38808d09895d7c5c9434",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "UCMcWPM9eOz9Dsn7YwAlpOoQ",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Rezz, Holly",
+        "ytvideoid": "110V3rgvtO0",
+        "spotify_track_id": "23DEUXkuHskvqvM1j5VrGa"
+      },
+      "genre_data": [
+        {
+          "name": "Dark wave",
+          "slug": "dark-wave",
+          "term_id": 476,
+          "post_count": 57
+        },
+        {
+          "name": "Dubstep",
+          "slug": "dubstep",
+          "term_id": 488,
+          "post_count": 21
+        },
+        {
+          "name": "Midtempo bass",
+          "slug": "midtempo-bass",
+          "term_id": 621,
+          "post_count": 26
+        }
+      ],
+      "vocal_data": [],
+      "slug": "dysphoria"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

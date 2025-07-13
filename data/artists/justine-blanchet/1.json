@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 3224,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/justine-blanchet/",
+    "name": "Justine Blanchet",
+    "slug": "justine-blanchet",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3224",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3224"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3224"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52316,
+      "date": "2023-03-10T21:56:55",
+      "date_gmt": "2023-03-10T12:56:55",
+      "title": {
+        "rendered": "Heart Less"
+      },
+      "content": {
+        "rendered": "<p>Justine Blanchet - Heart Less</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3224
+      ],
+      "tags": [],
+      "genre": [
+        466,
+        658
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2XWIzeqL3Koe2wCG3AyNW6",
+        "spotify_release_date": "2023-06-23",
+        "spotify_name": "Heart Less",
+        "spotify_artists": "Justine Blanchet",
+        "spotify_album": "Don't Ask Me to Dance",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738d1fab7bd751ace82b2c69f1",
+        "spotify_duration_ms": "179100",
+        "spotify_popularity": "4",
+        "spotify_danceability": "0.468",
+        "spotify_energy": "0.883",
+        "spotify_key": "1",
+        "spotify_loudness": "-3.636",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0423",
+        "spotify_tempo": "199.981",
+        "spotify_valence": "0.727",
+        "spotify_acousticness": "0.0276",
+        "spotify_instrumentalness": "0.00485",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.245",
+        "spotify_artists01": "Justine Blanchet",
+        "spotify_artists01_id": "75gq8ktf7AEhIGPp1zRpfE",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4d1d92715be72c3ff224a40f",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "5",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "WEk1HLBP9tY",
+        "ytreleasedate": "2023/03/10"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Justine-Blanchet-Heart-Less.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3224,
+            "name": "Justine Blanchet",
+            "slug": "justine-blanchet",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Justine Blanchet",
+        "ytvideoid": "WEk1HLBP9tY",
+        "spotify_track_id": "2XWIzeqL3Koe2wCG3AyNW6"
+      },
+      "genre_data": [
+        {
+          "name": "Country pop",
+          "slug": "country-pop",
+          "term_id": 466,
+          "post_count": 142
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "heart-less"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

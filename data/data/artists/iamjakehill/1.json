@@ -1,0 +1,251 @@
+{
+  "artist": {
+    "id": 3568,
+    "count": 1,
+    "description": "Jake Hill is an American singer and rapper.",
+    "link": "https://sub.music8.jp/category/iamjakehill/",
+    "name": "iamjakehill",
+    "slug": "iamjakehill",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "ジェイク・ヒル",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "rapper",
+          "label": "Rapper"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3568",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3568"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3568"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 55424,
+      "date": "2023-10-27T11:13:54",
+      "date_gmt": "2023-10-27T02:13:54",
+      "title": {
+        "rendered": "Dreams"
+      },
+      "content": {
+        "rendered": "<p>Magnolia Park - Dreams</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3568,
+        1802
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        552,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1WY9DWGR755Dl0bQJBERY3",
+        "spotify_release_date": "2023-10-27",
+        "spotify_name": "Dreams",
+        "spotify_artists": "Magnolia Park, iamjakehill, VYPER 깨물다",
+        "spotify_album": "Halloween Mixtape II",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27396ddda24b7be1929c9de86b1",
+        "spotify_duration_ms": "169659",
+        "spotify_popularity": "53",
+        "spotify_danceability": "0.538",
+        "spotify_energy": "0.926",
+        "spotify_key": "7",
+        "spotify_loudness": "-3.831",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0851",
+        "spotify_tempo": "128",
+        "spotify_valence": "0.359",
+        "spotify_acousticness": "0.0163",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.208",
+        "spotify_artists01": "Magnolia Park",
+        "spotify_artists01_id": "7B76SsfzG0wWk1WEvGzCmY",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2dbd11216d01d7566cdd7058",
+        "spotify_artists01_genres": "pop punk",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "iamjakehill",
+        "spotify_artists02_id": "26JloX1vHxGGrGUVeMItFJ",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebb539c9260c552be52511e15b",
+        "spotify_artists02_genres": "sad rap",
+        "spotify_artists02_popularity": "64",
+        "spotify_artists03": "VYPER 깨물다",
+        "spotify_artists03_id": "0hb4fvsnN8bSS30ufdWWgx",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb655b121acf74df2c817b8d07",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "33",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "cW5i7D-95PQ",
+        "ytreleasedate": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Magnolia-Park-Dreams.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3568,
+            "name": "iamjakehill",
+            "slug": "iamjakehill",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "ジェイク・ヒル",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1802,
+            "name": "Magnolia Park",
+            "slug": "magnolia-park",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2019",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "マグノリア・パーク",
+              "member": [
+                {
+                  "term_id": 3032,
+                  "name": "Joshua Roberts",
+                  "slug": "joshua-roberts",
+                  "term_group": 0,
+                  "term_taxonomy_id": 3032,
+                  "taxonomy": "category",
+                  "description": "",
+                  "parent": 0,
+                  "count": 1,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Magnolia Park, iamjakehill, VYPER 깨물다",
+        "ytvideoid": "cW5i7D-95PQ",
+        "spotify_track_id": "1WY9DWGR755Dl0bQJBERY3"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Halloween",
+          "slug": "halloween",
+          "term_id": 552,
+          "post_count": 3
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "dreams-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

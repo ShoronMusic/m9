@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1869,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/lo-moon/",
+    "name": "Lo Moon",
+    "slug": "lo-moon",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1869",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1869"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1869"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40021,
+      "date": "2022-03-16T23:53:00",
+      "date_gmt": "2022-03-16T14:53:00",
+      "title": {
+        "rendered": "Expectations"
+      },
+      "content": {
+        "rendered": "\n<p>LoMoon-Expectations</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1869
+      ],
+      "tags": [],
+      "genre": [
+        485,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0szn6KlDyizhkoPL62782A",
+        "spotify_release_date": "2022/2/25",
+        "spotify_name": "Expectations",
+        "spotify_artists": "LoMoon",
+        "spotify_album": "AModernLife",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731b30d5c938e744b3dea55e58",
+        "spotify_duration_ms": "230226",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.546",
+        "spotify_energy": "0.892",
+        "spotify_key": "9",
+        "spotify_loudness": "-5.818",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0415",
+        "spotify_tempo": "157.007",
+        "spotify_valence": "0.488",
+        "spotify_acousticness": "0.00178",
+        "spotify_instrumentalness": "0.286",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.305",
+        "spotify_artists01": "LoMoon",
+        "spotify_artists01_id": "2XcWfmG3wclCLfTJb7mFeg",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb36c1dce4c4d9d43e647e9b25",
+        "spotify_artists01_genres": "lapop",
+        "spotify_artists01_popularity": "32",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "P7uyMUFvx1g",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lo-Moon-Expectations.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1869,
+            "name": "Lo Moon",
+            "slug": "lo-moon",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LoMoon",
+        "ytvideoid": "P7uyMUFvx1g",
+        "spotify_track_id": "0szn6KlDyizhkoPL62782A"
+      },
+      "genre_data": [
+        {
+          "name": "Dream pop",
+          "slug": "dream-pop",
+          "term_id": 485,
+          "post_count": 212
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "expectations"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

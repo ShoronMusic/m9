@@ -1,0 +1,197 @@
+{
+  "artist": {
+    "id": 1297,
+    "count": 1,
+    "description": "CAN",
+    "link": "https://sub.music8.jp/category/daysormay/",
+    "name": "daysormay",
+    "slug": "daysormay",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1297",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1297"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1297"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41546,
+      "date": "2020-05-29T10:41:00",
+      "date_gmt": "2020-05-29T01:41:00",
+      "title": {
+        "rendered": "Role Model"
+      },
+      "content": {
+        "rendered": "\n<p>daysormay-RoleModel(ft.TessaViolet)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1297,
+        1295
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        658
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "57gXXZbi4KeojlnheJUets",
+        "spotify_release_date": "2020/5/29",
+        "spotify_name": "Role Model",
+        "spotify_artists": "daysormay, Tessa Violet",
+        "spotify_album": "Role Model",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273bbbef9766e58f1809b2503c3",
+        "spotify_duration_ms": "199757",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.313",
+        "spotify_energy": "0.787",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.993",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0622",
+        "spotify_tempo": "89.075",
+        "spotify_valence": "0.78",
+        "spotify_acousticness": "0.0173",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.333",
+        "spotify_artists01": "daysormay",
+        "spotify_artists01_id": "1gneO1Mf6DCsgxUtDzF4lS",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf1c735a5e3c985367cc2e39c",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "28",
+        "spotify_artists02": "Tessa Violet",
+        "spotify_artists02_id": "5DD5GZd4ElmQTy9NleMvKJ",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb7f1f77ce56693d9244fedac6",
+        "spotify_artists02_genres": "alt z, indie pop, pov: indie",
+        "spotify_artists02_popularity": "54",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "QV9ZuR-eoY4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/daysormay-Role-Model-ft.-Tessa-Violet.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1297,
+            "name": "daysormay",
+            "slug": "daysormay",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1295,
+            "name": "Tessa Violet",
+            "slug": "tessa-violet",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "19900320",
+              "artistdied": "",
+              "artistjpname": "テッサ・ヴァイオレット",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "daysormay, Tessa Violet",
+        "ytvideoid": "QV9ZuR-eoY4",
+        "spotify_track_id": "57gXXZbi4KeojlnheJUets"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "role-model"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

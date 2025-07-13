@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2262,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/cleanbreak/",
+    "name": "Cleanbreak",
+    "slug": "cleanbreak",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2262",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2262"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2262"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39702,
+      "date": "2022-04-29T10:21:00",
+      "date_gmt": "2022-04-29T01:21:00",
+      "title": {
+        "rendered": "Coming Home"
+      },
+      "content": {
+        "rendered": "\n<p>Cleanbreak-ComingHome</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2262
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1jRgR5hu72jHck8eeO8lYM",
+        "spotify_release_date": "2022/7/8",
+        "spotify_name": "ComingHome",
+        "spotify_artists": "Cleanbreak",
+        "spotify_album": "ComingHome",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273bd573477cedef7c39e8249b9",
+        "spotify_duration_ms": "312097",
+        "spotify_popularity": "15",
+        "spotify_danceability": "0.375",
+        "spotify_energy": "0.902",
+        "spotify_key": "10",
+        "spotify_loudness": "-5.104",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0751",
+        "spotify_tempo": "158.098",
+        "spotify_valence": "0.374",
+        "spotify_acousticness": "3.18E-05",
+        "spotify_instrumentalness": "0.0783",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.126",
+        "spotify_artists01": "Cleanbreak",
+        "spotify_artists01_id": "6t4gvrs2prZHQitYzhsTae",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7901cb5b83f90b31e3e78ea3",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "6",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "k0UOjYvW7MI",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Cleanbreak-Coming-Home.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2262,
+            "name": "Cleanbreak",
+            "slug": "cleanbreak",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Cleanbreak",
+        "ytvideoid": "k0UOjYvW7MI",
+        "spotify_track_id": "1jRgR5hu72jHck8eeO8lYM"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "coming-home"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

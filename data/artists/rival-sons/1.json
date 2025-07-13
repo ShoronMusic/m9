@@ -1,0 +1,458 @@
+{
+  "artist": {
+    "id": 3863,
+    "count": 3,
+    "description": "Rival Sons is an American rock band.",
+    "link": "https://sub.music8.jp/category/rival-sons/",
+    "name": "Rival Sons",
+    "slug": "rival-sons",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2012",
+      "artistborn": "",
+      "artistjpname": "ライヴァル・サンズ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3863",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3863"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3863"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 58363,
+      "date": "2023-08-18T11:24:18",
+      "date_gmt": "2023-08-18T02:24:18",
+      "title": {
+        "rendered": "Sweet Life"
+      },
+      "content": {
+        "rendered": "<p>Rival Sons - Sweet Life</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3863
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        678
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1Ie947dqENDKKiATxfKmuw",
+        "spotify_release_date": "2023-08-18",
+        "spotify_name": "Sweet Life",
+        "spotify_artists": "Rival Sons",
+        "spotify_album": "Sweet Life",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273297f1e060174ed8da6229418",
+        "spotify_duration_ms": "213066",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.553",
+        "spotify_energy": "0.913",
+        "spotify_key": "8",
+        "spotify_loudness": "-4.009",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0979",
+        "spotify_tempo": "124.952",
+        "spotify_valence": "0.397",
+        "spotify_acousticness": "0.00109",
+        "spotify_instrumentalness": "0.00000723",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0259",
+        "spotify_artists01": "Rival Sons",
+        "spotify_artists01_id": "356c8AN5YWKvz86B4Sb1yf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2c5c942ddfae1fb789ace849",
+        "spotify_artists01_genres": "alternative roots rock, modern blues rock",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "myGkkoK344M",
+        "ytreleasedate": "2023/08/18"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Rival-Sons-Sweet-Life.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3863,
+            "name": "Rival Sons",
+            "slug": "rival-sons",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistjpname": "ライヴァル・サンズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Rival Sons",
+        "ytvideoid": "myGkkoK344M",
+        "spotify_track_id": "1Ie947dqENDKKiATxfKmuw"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Psychedelic rock",
+          "slug": "psychedelic-rock",
+          "term_id": 678,
+          "post_count": 111
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "sweet-life"
+    },
+    {
+      "id": 58354,
+      "date": "2023-04-05T11:16:25",
+      "date_gmt": "2023-04-05T02:16:25",
+      "title": {
+        "rendered": "Bird In The Hand"
+      },
+      "content": {
+        "rendered": "<p>Rival Sons - Bird In The Hand</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3863
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        553,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1VXRVN0tLh9KzsmBs1T642",
+        "spotify_release_date": "2023-06-02",
+        "spotify_name": "Bird in the Hand",
+        "spotify_artists": "Rival Sons",
+        "spotify_album": "DARKFIGHTER",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cd6c9fe8961013a5a23b7834",
+        "spotify_duration_ms": "268182",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.63",
+        "spotify_energy": "0.784",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.088",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0347",
+        "spotify_tempo": "118.032",
+        "spotify_valence": "0.428",
+        "spotify_acousticness": "0.00228",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0779",
+        "spotify_artists01": "Rival Sons",
+        "spotify_artists01_id": "356c8AN5YWKvz86B4Sb1yf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2c5c942ddfae1fb789ace849",
+        "spotify_artists01_genres": "alternative roots rock, modern blues rock",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "NdoBim6CNUU",
+        "ytreleasedate": "2023/04/05"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Rival-Sons-Bird-In-The-Hand.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3863,
+            "name": "Rival Sons",
+            "slug": "rival-sons",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistjpname": "ライヴァル・サンズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Rival Sons",
+        "ytvideoid": "NdoBim6CNUU",
+        "spotify_track_id": "1VXRVN0tLh9KzsmBs1T642"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "bird-in-the-hand"
+    },
+    {
+      "id": 58358,
+      "date": "2023-01-20T11:21:21",
+      "date_gmt": "2023-01-20T02:21:21",
+      "title": {
+        "rendered": "Rapture"
+      },
+      "content": {
+        "rendered": "<p>Rival Sons - Rapture</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3863
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1dWQWPWgYwqhl9MFo3o4sl",
+        "spotify_release_date": "2023-06-02",
+        "spotify_name": "Rapture",
+        "spotify_artists": "Rival Sons",
+        "spotify_album": "DARKFIGHTER",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cd6c9fe8961013a5a23b7834",
+        "spotify_duration_ms": "264378",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.318",
+        "spotify_energy": "0.559",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.818",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0266",
+        "spotify_tempo": "146.565",
+        "spotify_valence": "0.436",
+        "spotify_acousticness": "0.000115",
+        "spotify_instrumentalness": "0.00132",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.121",
+        "spotify_artists01": "Rival Sons",
+        "spotify_artists01_id": "356c8AN5YWKvz86B4Sb1yf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2c5c942ddfae1fb789ace849",
+        "spotify_artists01_genres": "alternative roots rock, modern blues rock",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "oFmd0l8o1yY",
+        "ytreleasedate": "2023/01/20"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Rival-Sons-Rapture.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3863,
+            "name": "Rival Sons",
+            "slug": "rival-sons",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistjpname": "ライヴァル・サンズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Rival Sons",
+        "ytvideoid": "oFmd0l8o1yY",
+        "spotify_track_id": "1dWQWPWgYwqhl9MFo3o4sl"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rapture-3"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

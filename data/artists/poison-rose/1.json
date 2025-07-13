@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2509,
+    "count": 1,
+    "description": "ITA",
+    "link": "https://sub.music8.jp/category/poison-rose/",
+    "name": "Poison Rose",
+    "slug": "poison-rose",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2509",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2509"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2509"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40283,
+      "date": "2022-02-14T18:11:00",
+      "date_gmt": "2022-02-14T09:11:00",
+      "title": {
+        "rendered": "Devil (Knock On My Door)"
+      },
+      "content": {
+        "rendered": "\n<p>PoisonRose-Devil(KnockOnMyDoor)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2509
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7K2tP13kVA7P7YEcAqJS7s",
+        "spotify_release_date": "2022/4/15",
+        "spotify_name": "Devil(KnockonMyDoor)",
+        "spotify_artists": "PoisonRose",
+        "spotify_album": "LittleBangTheory",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27345edc741542cba892a0bdc1a",
+        "spotify_duration_ms": "231833",
+        "spotify_popularity": "6",
+        "spotify_danceability": "0.513",
+        "spotify_energy": "0.866",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.664",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0379",
+        "spotify_tempo": "140.021",
+        "spotify_valence": "0.449",
+        "spotify_acousticness": "0.00036",
+        "spotify_instrumentalness": "0.000759",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.228",
+        "spotify_artists01": "PoisonRose",
+        "spotify_artists01_id": "6kNzkpQGh5a3eocXJh9IM6",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5d879788061589f7b84ade3e",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "2",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "8yv9Eu2_f-M",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Poison-Rose-Devil-Knock-On-My-Door.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2509,
+            "name": "Poison Rose",
+            "slug": "poison-rose",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "PoisonRose",
+        "ytvideoid": "8yv9Eu2_f-M",
+        "spotify_track_id": "7K2tP13kVA7P7YEcAqJS7s"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "devil-knock-on-my-door"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

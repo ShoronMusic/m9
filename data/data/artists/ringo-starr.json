@@ -1,0 +1,82 @@
+{
+  "id": 6405,
+  "count": 1,
+  "description": "Ringo Starr is an English musician, songwriter. the drummer for the Beatles.",
+  "link": "https://sub.music8.jp/category/ringo-starr/",
+  "name": "Ringo Starr",
+  "slug": "ringo-starr",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1957",
+    "artistborn": "19400707",
+    "artistjpname": "リンゴ・スター",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6DbJi8AcN5ANdtvJcwBSw8",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6772690000dd2288430109246003ea5b5612d4",
+    "youtube_channel": "UCqESxycliXwDheOseXqmq8w",
+    "wikipedia_page": "Ringo_Starr"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6405",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6405"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6405"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "リンゴ・スター",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6772690000dd2288430109246003ea5b5612d4",
+  "artistActiveYearStart": "1957",
+  "occupation": "singer, songwriter, musician"
+}

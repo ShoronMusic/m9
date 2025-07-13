@@ -1,0 +1,72 @@
+{
+  "id": 5887,
+  "count": 3,
+  "description": "",
+  "link": "https://sub.music8.jp/category/saturday-night-band/",
+  "name": "Saturday Night Band",
+  "slug": "saturday-night-band",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Amant | Beautiful Bend | USA-European Connection | Constellation Orchestra | John Davis & The Monster Orchestra | Lorraine Johnson | Arpeggio | Nightlife Unlimited | Erotic Drum Band | Celi Bee | Destination | Love And Kisses | Peter Jacques Band | Poussez! | Revanche | Simon Orchestra | Bionic Boogie | Pattie Brooks | Kat Mandu | Musique",
+    "spotify_artist_id": "3psZLweFG21o5Qx1ED6kRN",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616d00001e027f66774c81fe099c6d5ae6fe"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5887",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5887"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5887"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616d00001e027f66774c81fe099c6d5ae6fe",
+  "artistActiveYearStart": "",
+  "occupation": "band"
+}

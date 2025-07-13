@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 4242,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/anfisa-letyago/",
+    "name": "Anfisa Letyago",
+    "slug": "anfisa-letyago",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4242",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4242"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4242"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 62540,
+      "date": "2024-02-23T23:17:37",
+      "date_gmt": "2024-02-23T14:17:37",
+      "title": {
+        "rendered": "You &#038; Me"
+      },
+      "content": {
+        "rendered": "<p>Moby, Anfisa Letyago - You & Me</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4242,
+        2374
+      ],
+      "tags": [],
+      "genre": [
+        414,
+        3882
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "PN3thx9SGsw",
+        "ytreleasedate": "2024/02/23",
+        "likecount": "1",
+        "artist_order": "Moby, Anfisa Letyago",
+        "spotify_track_id": "5W4kiM2cUYBJXKRudNyxjW",
+        "spotify_release_date": "2023-03-03",
+        "spotify_name": "You Proof",
+        "spotify_artists": "Morgan Wallen",
+        "spotify_album": "One Thing At A Time",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273705079df9a25a28b452c1fc9",
+        "spotify_duration_ms": "157477",
+        "spotify_popularity": "85",
+        "spotify_danceability": "0.732",
+        "spotify_energy": "0.839",
+        "spotify_key": "9",
+        "spotify_loudness": "-5.007",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0345",
+        "spotify_tempo": "119.724",
+        "spotify_valence": "0.629",
+        "spotify_acousticness": "0.265",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.602",
+        "spotify_artists01": "Morgan Wallen",
+        "spotify_artists01_id": "4oUHIQIBe0LHzYfvXNW4QM",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcdb9694bfa4a026ee19426ae",
+        "spotify_artists01_genres": "contemporary country",
+        "spotify_artists01_popularity": "87",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Moby-Anfisa-Letyago-You-Me.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4242,
+            "name": "Anfisa Letyago",
+            "slug": "anfisa-letyago",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2374,
+            "name": "Moby",
+            "slug": "moby",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1983",
+              "artistborn": "19650911",
+              "artistdied": "",
+              "artistjpname": "モービー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Moby, Anfisa Letyago",
+        "spotify_artists": "Morgan Wallen",
+        "ytvideoid": "PN3thx9SGsw",
+        "spotify_track_id": "5W4kiM2cUYBJXKRudNyxjW"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient house",
+          "slug": "ambient-house",
+          "term_id": 414,
+          "post_count": 51
+        },
+        {
+          "name": "Future Garage",
+          "slug": "future-garage",
+          "term_id": 3882,
+          "post_count": 13
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "you-me-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

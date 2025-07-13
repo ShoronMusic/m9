@@ -1,0 +1,72 @@
+{
+  "id": 6041,
+  "count": 5,
+  "description": "",
+  "link": "https://sub.music8.jp/category/parcels/",
+  "name": "Parcels",
+  "slug": "parcels",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2014",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "L'Impératrice (limperatrice) | NEIL FRANCES | Metronomy (metronomy) | JUNGLE (jungle) | Poolside | LEISURE (leisure) | Franc Moody | Myd | Whitest Boy Alive | Benny Sings (benny-sings) | Theophilus London | Roosevelt (roosevelt) | Kazy Lambist | Tom Misch (tom-misch) | Khruangbin (khruangbin) | Two Another | Polo & Pan | DOPE LEMON | Amo Amo | Electric Guest (electric-guest)",
+    "spotify_artist_id": "3oKRxpszQKUjjaHz388fVA",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174495b935eb2a87c4cf3395248"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6041",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6041"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6041"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174495b935eb2a87c4cf3395248",
+  "artistActiveYearStart": "2014",
+  "occupation": "band"
+}

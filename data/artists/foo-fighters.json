@@ -1,0 +1,74 @@
+{
+  "id": 3422,
+  "count": 45,
+  "description": "Foo Fighters is an American rock band formed in Seattle in 1994.",
+  "link": "https://sub.music8.jp/category/foo-fighters/",
+  "name": "Foo Fighters",
+  "slug": "foo-fighters",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1994",
+    "artistborn": "",
+    "artistjpname": "フー・ファイターズ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Audioslave | Soundgarden | Smashing Pumpkins (smashing-pumpkins) | Stone Temple Pilots | Queens of the Stone Age (queens-of-the-stone-age) | Pearl Jam (pearl-jam) | Rage Against The Machine | Alice In Chains | Incubus | Chris Cornell | Red Hot Chili Peppers (red-hot-chili-peppers) | Offspring (offspring) | Bush (bush) | Nirvana (nirvana) | White Stripes (white-stripes) | Weezer (weezer) | blink-182 (blink-182) | Green Day (green-day) | Silverchair | Limp Bizkit",
+    "spotify_artist_id": "7jy3rLJdDQY21OgRLCZ9sD",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15",
+    "youtube_channel": "UCi2KNss4Yx73NG0JARSFe0A",
+    "wikipedia_page": "Foo_Fighters"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3422",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3422"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3422"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "フー・ファイターズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15",
+  "artistActiveYearStart": "1994",
+  "occupation": "band"
+}

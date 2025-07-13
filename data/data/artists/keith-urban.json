@@ -1,0 +1,88 @@
+{
+  "id": 1591,
+  "count": 2,
+  "description": "Keith Urban is an Australian and American singer, guitarist, and songwriter",
+  "link": "https://sub.music8.jp/category/keith-urban/",
+  "name": "Keith Urban",
+  "slug": "keith-urban",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1990",
+    "artistborn": "19671026",
+    "artistdied": "",
+    "artistjpname": "キース・アーバン",
+    "member": [
+      {
+        "term_id": 921,
+        "name": "Paul Young",
+        "slug": "paul-young",
+        "term_group": 0,
+        "term_taxonomy_id": 921,
+        "taxonomy": "category",
+        "description": "Paul Young is an English musician, singer and songwriter.",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      },
+      {
+        "term_id": 771,
+        "name": "Zucchero",
+        "slug": "zucchero",
+        "term_group": 0,
+        "term_taxonomy_id": 771,
+        "taxonomy": "category",
+        "description": "Zucchero is an Italian singer, musician and songwriter.",
+        "parent": 0,
+        "count": 3,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1591",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1591"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1591"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "キース・アーバン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1990",
+  "occupation": ""
+}

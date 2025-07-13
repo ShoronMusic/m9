@@ -1,0 +1,63 @@
+{
+  "id": 2327,
+  "count": 2,
+  "description": "Kavinsky is a French musician, producer, DJ, and actor.",
+  "link": "https://sub.music8.jp/category/kavinsky/",
+  "name": "Kavinsky",
+  "slug": "kavinsky",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FRA",
+    "artistactiveyearstart": "2005",
+    "artistborn": "19750731",
+    "artistdied": "",
+    "artistjpname": "カヴィンスキー",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2327",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2327"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2327"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "カヴィンスキー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2005",
+  "occupation": ""
+}

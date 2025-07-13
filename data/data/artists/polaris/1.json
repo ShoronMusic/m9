@@ -1,0 +1,571 @@
+{
+  "artist": {
+    "id": 2930,
+    "count": 4,
+    "description": "Polaris are an Australian metalcore band",
+    "link": "https://sub.music8.jp/category/polaris/",
+    "name": "POLARIS",
+    "slug": "polaris",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "2012",
+      "artistborn": "",
+      "artistjpname": "ポラリス",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2930",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2930"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2930"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 70003,
+      "date": "2024-06-21T00:32:36",
+      "date_gmt": "2024-06-20T15:32:36",
+      "title": {
+        "rendered": "CRIMINAL"
+      },
+      "content": {
+        "rendered": "<p>Stand Atlantic, Polaris - CRIMINAL</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2930,
+        1398
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        411
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "sYySr4E7kLg",
+        "ytreleasedate": "",
+        "spotify_track_id": "4i8U1t123TAsAgwudp0a3X",
+        "spotify_release_date": "2024-06-20",
+        "spotify_name": "CRIMINAL",
+        "spotify_artists": "Stand Atlantic, Polaris",
+        "spotify_album": "CRIMINAL",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b5e47292905c62cdba203baf",
+        "spotify_duration_ms": "227258",
+        "spotify_popularity": "15",
+        "spotify_danceability": "0.54",
+        "spotify_energy": "0.856",
+        "spotify_key": "5",
+        "spotify_loudness": "-3.716",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0818",
+        "spotify_tempo": "125.111",
+        "spotify_valence": "0.328",
+        "spotify_acousticness": "0.0000845",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.174",
+        "spotify_artists01": "Stand Atlantic",
+        "spotify_artists01_id": "1W2Fv4YUnjC8hx2qQd6fGh",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb42752738f909927572dfa62f",
+        "spotify_artists01_genres": "pixie, pop punk",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "Polaris",
+        "spotify_artists02_id": "5Ozo4kUq9OwVKLG4Jc6muw",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab67616d0000b2737502e5f0f45454cf2a62247a",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "5",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273b5e47292905c62cdba203baf.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2930,
+            "name": "POLARIS",
+            "slug": "polaris",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistjpname": "ポラリス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1398,
+            "name": "Stand Atlantic",
+            "slug": "stand-atlantic",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スタンド・アトランティック",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Stand Atlantic, Polaris",
+        "ytvideoid": "sYySr4E7kLg",
+        "spotify_track_id": "4i8U1t123TAsAgwudp0a3X"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "criminal"
+    },
+    {
+      "id": 50109,
+      "date": "2023-08-24T19:13:35",
+      "date_gmt": "2023-08-24T10:13:35",
+      "title": {
+        "rendered": "Overflow"
+      },
+      "content": {
+        "rendered": "<p>POLARIS - Overflow</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2930
+      ],
+      "tags": [],
+      "genre": [
+        409
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "2arUHEwno2zcSQynIptPfA",
+        "spotify_release_date": "2023-08-24",
+        "spotify_name": "Overflow",
+        "spotify_artists": "Polaris",
+        "spotify_album": "Overflow",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731b4a1ec439421229afaf17cf",
+        "spotify_duration_ms": "251922",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.457",
+        "spotify_energy": "0.99",
+        "spotify_key": "4",
+        "spotify_loudness": "-3.358",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0998",
+        "spotify_tempo": "146.055",
+        "spotify_valence": "0.171",
+        "spotify_acousticness": "0.0114",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0725",
+        "spotify_artists01": "Polaris",
+        "spotify_artists01_id": "0v2e0oznnTaIXKLGKHphfX",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8cc500e7483d02c27f89a12e",
+        "spotify_artists01_genres": "australian metalcore, australian post-hardcore, melodic metalcore, metalcore",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "AvECsj3mIF8",
+        "ytreleasedate": "2023/08/24"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/POLARIS-Overflow.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2930,
+            "name": "POLARIS",
+            "slug": "polaris",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistjpname": "ポラリス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Polaris",
+        "ytvideoid": "AvECsj3mIF8",
+        "spotify_track_id": "2arUHEwno2zcSQynIptPfA"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "overflow"
+    },
+    {
+      "id": 52711,
+      "date": "2023-07-27T22:44:57",
+      "date_gmt": "2023-07-27T13:44:57",
+      "title": {
+        "rendered": "NIGHTMARE"
+      },
+      "content": {
+        "rendered": "<p>Polaris - NIGHTMARE</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2930
+      ],
+      "tags": [],
+      "genre": [
+        618
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "0jrOt6XnOTeZOd56U16Bfp",
+        "spotify_release_date": "2023-09-01",
+        "spotify_name": "Nightmare",
+        "spotify_artists": "Polaris",
+        "spotify_album": "Fatalism",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273dcc4dcf2f48f7a97da2ff39f",
+        "spotify_duration_ms": "268269",
+        "spotify_popularity": "62",
+        "spotify_danceability": "0.489",
+        "spotify_energy": "0.993",
+        "spotify_key": "2",
+        "spotify_loudness": "-2.357",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0655",
+        "spotify_tempo": "100.015",
+        "spotify_valence": "0.192",
+        "spotify_acousticness": "0.000445",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.339",
+        "spotify_artists01": "Polaris",
+        "spotify_artists01_id": "0v2e0oznnTaIXKLGKHphfX",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8cc500e7483d02c27f89a12e",
+        "spotify_artists01_genres": "australian metalcore, australian post-hardcore, melodic metalcore, metalcore",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "v_XhxONGEJc",
+        "ytreleasedate": "2023/07/27"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/POLARIS-Nightmare.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2930,
+            "name": "POLARIS",
+            "slug": "polaris",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistjpname": "ポラリス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Polaris",
+        "ytvideoid": "v_XhxONGEJc",
+        "spotify_track_id": "0jrOt6XnOTeZOd56U16Bfp"
+      },
+      "genre_data": [
+        {
+          "name": "Metalcore",
+          "slug": "metalcore",
+          "term_id": 618,
+          "post_count": 59
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "nightmare-2"
+    },
+    {
+      "id": 52708,
+      "date": "2023-05-26T22:43:18",
+      "date_gmt": "2023-05-26T13:43:18",
+      "title": {
+        "rendered": "INHUMANE"
+      },
+      "content": {
+        "rendered": "<p>Polaris - INHUMANE</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2930
+      ],
+      "tags": [],
+      "genre": [
+        618
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4JpUHYV5xwiBHx9wnTSjh1",
+        "spotify_release_date": "2023-09-01",
+        "spotify_name": "Inhumane",
+        "spotify_artists": "Polaris",
+        "spotify_album": "Fatalism",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273dcc4dcf2f48f7a97da2ff39f",
+        "spotify_duration_ms": "239291",
+        "spotify_popularity": "58",
+        "spotify_danceability": "0.491",
+        "spotify_energy": "0.98",
+        "spotify_key": "2",
+        "spotify_loudness": "-2.68",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0977",
+        "spotify_tempo": "95.992",
+        "spotify_valence": "0.379",
+        "spotify_acousticness": "0.000294",
+        "spotify_instrumentalness": "0.00000655",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0818",
+        "spotify_artists01": "Polaris",
+        "spotify_artists01_id": "0v2e0oznnTaIXKLGKHphfX",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8cc500e7483d02c27f89a12e",
+        "spotify_artists01_genres": "australian metalcore, australian post-hardcore, melodic metalcore, metalcore",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "2ccRrs_NAJE",
+        "ytreleasedate": "2023/05/26"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Polaris-INHUMANE.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2930,
+            "name": "POLARIS",
+            "slug": "polaris",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistjpname": "ポラリス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Polaris",
+        "ytvideoid": "2ccRrs_NAJE",
+        "spotify_track_id": "4JpUHYV5xwiBHx9wnTSjh1"
+      },
+      "genre_data": [
+        {
+          "name": "Metalcore",
+          "slug": "metalcore",
+          "term_id": 618,
+          "post_count": 59
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "inhumane"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

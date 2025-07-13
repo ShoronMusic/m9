@@ -1,0 +1,484 @@
+{
+  "artist": {
+    "id": 1617,
+    "count": 3,
+    "description": "MNEK is an English singer, songwriter and record producer.",
+    "link": "https://sub.music8.jp/category/mnek/",
+    "name": "MNEK",
+    "slug": "mnek",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2011",
+      "artistborn": "19941109",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1617",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1617"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1617"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65241,
+      "date": "2022-03-17T09:20:50",
+      "date_gmt": "2022-03-17T00:20:50",
+      "title": {
+        "rendered": "Where Did You Go"
+      },
+      "content": {
+        "rendered": "<p>Jax Jones feat. MNEK - Where Did You Go</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1345,
+        1617
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        713
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "iqVLISbFZPc",
+        "ytreleasedate": "2022/03/17",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3sa06xVNmLLYIxdNNmVQN8",
+        "spotify_release_date": "2022-02-04",
+        "spotify_name": "Where Did You Go? (feat. MNEK)",
+        "spotify_artists": "Jax Jones, MNEK",
+        "spotify_album": "Where Did You Go (feat. MNEK)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273490a887b85a95378ea66b41d",
+        "spotify_duration_ms": "177689",
+        "spotify_popularity": "76",
+        "spotify_danceability": "0.763",
+        "spotify_energy": "0.782",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.541",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0346",
+        "spotify_tempo": "127.034",
+        "spotify_valence": "0.502",
+        "spotify_acousticness": "0.182",
+        "spotify_instrumentalness": "0.00000708",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.293",
+        "spotify_artists01": "ジャックス・ジョーンズ",
+        "spotify_artists01_id": "4Q6nIcaBED8qUel8bBx6Cr",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb09b06c6e39518619ecd56ec5",
+        "spotify_artists01_genres": "dance pop, edm, house, pop dance, uk dance, uk pop",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "MNEK",
+        "spotify_artists02_id": "7uMh23xWiuR7zsNkuNcm2G",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb8aead61f68aba43ec002195b",
+        "spotify_artists02_genres": "house, pop dance, uk contemporary r&b, uk dance, uk pop",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273490a887b85a95378ea66b41d.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1345,
+            "name": "Jax Jones",
+            "slug": "jax-jones",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2014",
+              "artistborn": "19870725",
+              "artistdied": "",
+              "artistjpname": "ジャックス・ジョーンズ"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1617,
+            "name": "MNEK",
+            "slug": "mnek",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19941109",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jax Jones, MNEK",
+        "ytvideoid": "iqVLISbFZPc",
+        "spotify_track_id": "3sa06xVNmLLYIxdNNmVQN8"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Slap House",
+          "slug": "slap-house",
+          "term_id": 713,
+          "post_count": 105
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "where-did-you-go"
+    },
+    {
+      "id": 41515,
+      "date": "2020-07-31T04:41:00",
+      "date_gmt": "2020-07-30T19:41:00",
+      "title": {
+        "rendered": "Head &#038; Heart"
+      },
+      "content": {
+        "rendered": "\n<p>JoelCorryxMNEK-Head&amp;Heart</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1616,
+        1617
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        528
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "CRuOOxF-ENQ",
+        "likecount": "0",
+        "spotify_track_id": "6cx06DFPPHchuUAcTxznu9",
+        "spotify_release_date": "2020/7/3",
+        "spotify_name": "Head & Heart (feat. MNEK)",
+        "spotify_artists": "Joel Corry, MNEK",
+        "spotify_album": "Head & Heart (feat. MNEK)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27391e93c59bacfe819db9601eb",
+        "spotify_duration_ms": "166028",
+        "spotify_popularity": "81",
+        "spotify_danceability": "0.734",
+        "spotify_energy": "0.874",
+        "spotify_key": "8",
+        "spotify_loudness": "-3.158",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0662",
+        "spotify_tempo": "122.953",
+        "spotify_valence": "0.905",
+        "spotify_acousticness": "0.168",
+        "spotify_instrumentalness": "1.14E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0489",
+        "spotify_artists01": "Joel Corry",
+        "spotify_artists01_id": "6DgP9otnZw5z6daOntINxp",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbde1d210a668ff0644b77750",
+        "spotify_artists01_genres": "dance pop, pop dance, uk dance",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "MNEK",
+        "spotify_artists02_id": "7uMh23xWiuR7zsNkuNcm2G",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb8aead61f68aba43ec002195b",
+        "spotify_artists02_genres": "house, pop dance, uk contemporary r&b, uk dance, uk pop",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Joel-Corry-x-MNEK-Head-Heart.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1616,
+            "name": "Joel Corry",
+            "slug": "joel-corry",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19890610",
+              "artistdied": "",
+              "artistjpname": "ジョエル・コリー"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1617,
+            "name": "MNEK",
+            "slug": "mnek",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19941109",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Joel Corry, MNEK",
+        "ytvideoid": "CRuOOxF-ENQ",
+        "spotify_track_id": "6cx06DFPPHchuUAcTxznu9"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Future House",
+          "slug": "future-house",
+          "term_id": 528,
+          "post_count": 52
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "head-heart"
+    },
+    {
+      "id": 70168,
+      "date": "2014-01-26T16:14:57",
+      "date_gmt": "2014-01-26T07:14:57",
+      "title": {
+        "rendered": "Ready For Your Love"
+      },
+      "content": {
+        "rendered": "<p>Gorgon City, MNEK - Ready For Your Love</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2334,
+        1617
+      ],
+      "tags": [],
+      "genre": [
+        479,
+        528
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "8B93tgRxMuE",
+        "ytreleasedate": "",
+        "spotify_track_id": "5wGLQvq6JoxYZX7V3ymPS5",
+        "spotify_release_date": "2014-01-01",
+        "spotify_name": "Ready For Your Love",
+        "spotify_artists": "Gorgon City, MNEK",
+        "spotify_album": "Sirens",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736f704961acb4b1d770411156",
+        "spotify_duration_ms": "198880",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.677",
+        "spotify_energy": "0.753",
+        "spotify_key": "5",
+        "spotify_loudness": "-7.038",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.154",
+        "spotify_tempo": "121.939",
+        "spotify_valence": "0.471",
+        "spotify_acousticness": "0.0531",
+        "spotify_instrumentalness": "0.0128",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.333",
+        "spotify_artists01": "Gorgon City",
+        "spotify_artists01_id": "4VNQWV2y1E97Eqo2D5UTjx",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb03f8368ab5b5e8143f7d30c4",
+        "spotify_artists01_genres": "future garage, house, pop dance, uk dance",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "MNEK",
+        "spotify_artists02_id": "7uMh23xWiuR7zsNkuNcm2G",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb8aead61f68aba43ec002195b",
+        "spotify_artists02_genres": "house, pop dance, uk contemporary r&b, uk dance, uk pop",
+        "spotify_artists02_popularity": "68",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2736f704961acb4b1d770411156.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2334,
+            "name": "Gorgon City",
+            "slug": "gorgon-city",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ゴーゴン・シティ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1617,
+            "name": "MNEK",
+            "slug": "mnek",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19941109",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Gorgon City, MNEK",
+        "ytvideoid": "8B93tgRxMuE",
+        "spotify_track_id": "5wGLQvq6JoxYZX7V3ymPS5"
+      },
+      "genre_data": [
+        {
+          "name": "Deep house",
+          "slug": "deep-house",
+          "term_id": 479,
+          "post_count": 90
+        },
+        {
+          "name": "Future House",
+          "slug": "future-house",
+          "term_id": 528,
+          "post_count": 52
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ready-for-your-love"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,75 @@
+{
+  "id": 6777,
+  "count": 4,
+  "description": "The Prodigy are an English electronic music band formed in Braintree, Essex, in 1990.",
+  "link": "https://sub.music8.jp/category/prodigy/",
+  "name": "Prodigy",
+  "slug": "prodigy",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1990",
+    "artistborn": "",
+    "artistjpname": "プロディジー",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4k1ELeJKT1ISyDv8JivPpB",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174147841812056c247407811f3",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "",
+    "wikipedia_page": "The_Prodigy"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6777",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6777"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6777"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "プロディジー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174147841812056c247407811f3",
+  "artistActiveYearStart": "1990",
+  "occupation": "band"
+}

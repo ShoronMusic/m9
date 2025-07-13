@@ -1,0 +1,72 @@
+{
+  "id": 1011,
+  "count": 3,
+  "description": "Big Fun was a British boy band",
+  "link": "https://sub.music8.jp/category/big-fun/",
+  "name": "Big Fun",
+  "slug": "big-fun",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1989-1994",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ビッグ・ファン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7otAq2USieUy9XlE2YebBW",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517412b00ec0d266ba58795f4eef"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1011",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1011"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1011"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ビッグ・ファン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517412b00ec0d266ba58795f4eef",
+  "artistActiveYearStart": "1989-1994",
+  "occupation": "band"
+}

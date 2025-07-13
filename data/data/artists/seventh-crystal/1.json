@@ -1,0 +1,456 @@
+{
+  "artist": {
+    "id": 3525,
+    "count": 3,
+    "description": "Seventh Crystal is a Swedish Melodic hard rock band.",
+    "link": "https://sub.music8.jp/category/seventh-crystal/",
+    "name": "Seventh Crystal",
+    "slug": "seventh-crystal",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "セヴンス・クリスタル",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3525",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3525"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3525"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 89255,
+      "date": "2024-10-17T21:31:27",
+      "date_gmt": "2024-10-17T12:31:27",
+      "title": {
+        "rendered": "Blinded By The Light"
+      },
+      "content": {
+        "rendered": "<p>Seventh Crystal - Blinded By The Light</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3525
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "XmcYnTbNyvM",
+        "ytreleasedate": "2024/10/17",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "58xAf7mg0f5mt0tZ5ojpoI",
+        "spotify_release_date": "2024-11-08",
+        "spotify_name": "Blinded by the Light",
+        "spotify_artists": "Seventh Crystal",
+        "spotify_album": "Entity",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27315671234c468484020f976a9",
+        "spotify_duration_ms": "297288",
+        "spotify_popularity": "18",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Seventh Crystal",
+        "spotify_artists01_id": "1c22q7SV8CTRwU3Z0fAHvZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebeb11884923b0c09050d07e85",
+        "spotify_artists01_genres": "melodic hard rock",
+        "spotify_artists01_popularity": "25",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/seventh-crystal-blinded-by-the-light.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3525,
+            "name": "Seventh Crystal",
+            "slug": "seventh-crystal",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "セヴンス・クリスタル",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Seventh Crystal",
+        "ytvideoid": "XmcYnTbNyvM",
+        "spotify_track_id": "58xAf7mg0f5mt0tZ5ojpoI"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "blinded-by-the-light"
+    },
+    {
+      "id": 82240,
+      "date": "2024-09-17T21:17:16",
+      "date_gmt": "2024-09-17T12:17:16",
+      "title": {
+        "rendered": "Path Of The Absurd"
+      },
+      "content": {
+        "rendered": "<p>Seventh Crystal - Path Of The Absurd</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3525
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "CQLDzQx0vH8",
+        "ytreleasedate": "2024/09/17",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "5QP4NuhAttqIzHeWYJqqp4",
+        "spotify_release_date": "2024-09-17",
+        "spotify_name": "Path of the Absurd",
+        "spotify_artists": "Seventh Crystal",
+        "spotify_album": "Path of the Absurd",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a472fc5c06dc6a31af7a1356",
+        "spotify_duration_ms": "219326",
+        "spotify_popularity": "15",
+        "spotify_danceability": "0.512",
+        "spotify_energy": "0.946",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.772",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0444",
+        "spotify_tempo": "106.097",
+        "spotify_valence": "0.27",
+        "spotify_acousticness": "0.0000786",
+        "spotify_instrumentalness": "0.0000484",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0672",
+        "spotify_artists01": "Seventh Crystal",
+        "spotify_artists01_id": "1c22q7SV8CTRwU3Z0fAHvZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebeb11884923b0c09050d07e85",
+        "spotify_artists01_genres": "melodic hard rock",
+        "spotify_artists01_popularity": "17",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273a472fc5c06dc6a31af7a1356.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3525,
+            "name": "Seventh Crystal",
+            "slug": "seventh-crystal",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "セヴンス・クリスタル",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Seventh Crystal",
+        "ytvideoid": "CQLDzQx0vH8",
+        "spotify_track_id": "5QP4NuhAttqIzHeWYJqqp4"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "path-of-the-absurd"
+    },
+    {
+      "id": 55129,
+      "date": "2023-11-03T15:03:09",
+      "date_gmt": "2023-11-03T06:03:09",
+      "title": {
+        "rendered": "Ready, Set Go!"
+      },
+      "content": {
+        "rendered": "<p>Seventh Crystal - Ready, Set Go!</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3525
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2phlCMzsEm0iff4UDi8cFE",
+        "spotify_release_date": "2023-11-03",
+        "spotify_name": "Ready, Set, Go!",
+        "spotify_artists": "Seventh Crystal",
+        "spotify_album": "Infinity",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273407cb01ec3e81d4426d2beaf",
+        "spotify_duration_ms": "239873",
+        "spotify_popularity": "27",
+        "spotify_danceability": "0.421",
+        "spotify_energy": "0.96",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.201",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.102",
+        "spotify_tempo": "174.052",
+        "spotify_valence": "0.301",
+        "spotify_acousticness": "0.0012",
+        "spotify_instrumentalness": "0.0137",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0934",
+        "spotify_artists01": "Seventh Crystal",
+        "spotify_artists01_id": "1c22q7SV8CTRwU3Z0fAHvZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe0940e09a9d58d8a2cc97c13",
+        "spotify_artists01_genres": "melodic hard rock",
+        "spotify_artists01_popularity": "21",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "X30sXmvIpJ8",
+        "ytreleasedate": "2023/11/03"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Seventh-Crystal-Ready-Set-Go.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3525,
+            "name": "Seventh Crystal",
+            "slug": "seventh-crystal",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "セヴンス・クリスタル",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Seventh Crystal",
+        "ytvideoid": "X30sXmvIpJ8",
+        "spotify_track_id": "2phlCMzsEm0iff4UDi8cFE"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ready-set-go"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

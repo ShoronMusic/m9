@@ -1,0 +1,420 @@
+{
+  "artist": {
+    "id": 2345,
+    "count": 2,
+    "description": "Third Party is a British progressive house DJ duo.",
+    "link": "https://sub.music8.jp/category/third-party/",
+    "name": "Third Party",
+    "slug": "third-party",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2011",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "サードパーティ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        },
+        {
+          "value": "musician",
+          "label": "Musician"
+        },
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2345",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2345"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2345"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 62246,
+      "date": "2024-02-17T21:42:21",
+      "date_gmt": "2024-02-17T12:42:21",
+      "title": {
+        "rendered": "Carry You"
+      },
+      "content": {
+        "rendered": "<p>Martin Garrix, Third Party, Oaks & Declan J Donovan - Carry You</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2704,
+        2345
+      ],
+      "tags": [],
+      "genre": [
+        670
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "xVGoGYb55NI",
+        "ytreleasedate": "2024/02/17",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "31ZO9XuKt48Qb2eUTBynd2",
+        "spotify_release_date": "2024-02-16",
+        "spotify_name": "Carry You",
+        "spotify_artists": "Martin Garrix, Third Party, Oaks, Declan J Donovan",
+        "spotify_album": "Carry You",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732cd834c826d484dcb3414699",
+        "spotify_duration_ms": "215905",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.507",
+        "spotify_energy": "0.731",
+        "spotify_key": "0",
+        "spotify_loudness": "-5.611",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0403",
+        "spotify_tempo": "126.996",
+        "spotify_valence": "0.356",
+        "spotify_acousticness": "0.0865",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0815",
+        "spotify_artists01": "マーティン・ギャリックス",
+        "spotify_artists01_id": "60d24wfXkVzDSfLS6hyCjZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb45c3688488f871aace7a4a57",
+        "spotify_artists01_genres": "dutch edm, edm, pop, pop dance, progressive house",
+        "spotify_artists01_popularity": "74",
+        "spotify_artists02": "Third Party",
+        "spotify_artists02_id": "2J80qXI4NHKpq5RT3xUF7V",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb73b0132f4223eb65f9b1bd04",
+        "spotify_artists02_genres": "dutch house, edm, electro house, pop dance, progressive electro house, progressive house",
+        "spotify_artists02_popularity": "52",
+        "spotify_artists03": "Oaks",
+        "spotify_artists03_id": "1X2sRzO3K7Uvry9JWbG2iO",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebfc3506fc29f8c92ecab0b1cf",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "56",
+        "spotify_artists04": "Declan J Donovan",
+        "spotify_artists04_id": "6bh228LGC3eAzbplPWV02r",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5ebe6b4ec09d88728d36950161d",
+        "spotify_artists04_genres": "uk pop",
+        "spotify_artists04_popularitys": "57",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Martin-Garrix-Third-≡-Party-Carry-You-feat.-Oaks-Declan-J-Donovan.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2704,
+            "name": "Martin Garrix",
+            "slug": "martin-garrix",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19960514",
+              "artistdied": "",
+              "artistjpname": "マーティン・ギャリックス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Dimitri Vegas & Like Mike (dimitri-vegas-like-mike) | Hardwell (hardwell) | Afrojack (afrojack) | Alesso (alesso) | Axwell /\\ Ingrosso (axwell-ingrosso) | Nicky Romero (nicky-romero) | KSHMR (kshmr) | R3HAB (r3hab) | Don Diablo (don-diablo) | Zedd (zedd) | Galantis (galantis) | Kygo (kygo) | Tiësto (tiesto) | Steve Aoki (steve-aoki) | Avicii (avicii) | DVBBS (dvbbs) | Jonas Blue (jonas-blue) | Calvin Harris (calvin-harris) | Major Lazer (major-lazer) | DJ Snake (dj-snake)",
+              "spotify_artist_id": "60d24wfXkVzDSfLS6hyCjZ",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517445c3688488f871aace7a4a57"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2345,
+            "name": "Third Party",
+            "slug": "third-party",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "サードパーティ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Martin Garrix, Third Party, Oaks, Declan J Donovan",
+        "ytvideoid": "xVGoGYb55NI",
+        "spotify_track_id": "31ZO9XuKt48Qb2eUTBynd2"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "carry-you"
+    },
+    {
+      "id": 38430,
+      "date": "2022-10-28T17:58:00",
+      "date_gmt": "2022-10-28T08:58:00",
+      "title": {
+        "rendered": "For The People"
+      },
+      "content": {
+        "rendered": "\n<p>NickyRomero&amp;ThirdParty-ForThePeople</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2344,
+        2345
+      ],
+      "tags": [],
+      "genre": [
+        492
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "BOalykpIZug",
+        "likecount": "1",
+        "spotify_track_id": "0OQ8rKWGXUl2AGIh10L1gm",
+        "spotify_release_date": "2022/12/28",
+        "spotify_name": "ForThePeople",
+        "spotify_artists": "Nicky Romero, Third Party",
+        "spotify_album": "NickyRomeroJAPANCOLLECTION2022(DELUXE)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27359ceee958161eb9fc8d88bf7",
+        "spotify_duration_ms": "219345",
+        "spotify_popularity": "24",
+        "spotify_danceability": "0.503",
+        "spotify_energy": "0.973",
+        "spotify_key": "8",
+        "spotify_loudness": "-4.947",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0598",
+        "spotify_tempo": "126.039",
+        "spotify_valence": "0.592",
+        "spotify_acousticness": "0.000774",
+        "spotify_instrumentalness": "0.774",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.371",
+        "spotify_artists01": "NickyRomero",
+        "spotify_artists01_id": "5ChF3i92IPZHduM7jN3dpg",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb343c238c9b274c64fd049b59",
+        "spotify_artists01_genres": "bigroom,dutchedm,dutchhouse,edm,electrohouse,popdance,progressiveelectrohouse",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "ThirdParty",
+        "spotify_artists02_id": "2J80qXI4NHKpq5RT3xUF7V",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb3b6f16aeb9c5002e9b4c2e56",
+        "spotify_artists02_genres": "dutchhouse,edm,electrohouse,popdance,progressiveelectrohouse,progressivehouse",
+        "spotify_artists02_popularity": "45",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Nicky-Romero-Third-Party-For-The-People.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2344,
+            "name": "Nicky Romero",
+            "slug": "nicky-romero",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19890106",
+              "artistdied": "",
+              "artistjpname": "ニッキー・ロメロ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "5ChF3i92IPZHduM7jN3dpg",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e20fc07556f40cc9ca58cd3a",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "UCLFiirHOF-wa3QRExEa4m8A",
+              "wikipedia_page": "Nicky_Romero"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2345,
+            "name": "Third Party",
+            "slug": "third-party",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "サードパーティ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Nicky Romero, Third Party",
+        "ytvideoid": "BOalykpIZug",
+        "spotify_track_id": "0OQ8rKWGXUl2AGIh10L1gm"
+      },
+      "genre_data": [
+        {
+          "name": "Electro house",
+          "slug": "electro-house",
+          "term_id": 492,
+          "post_count": 105
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "for-the-people"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

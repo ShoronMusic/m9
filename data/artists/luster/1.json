@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 1956,
+    "count": 1,
+    "description": "DEN",
+    "link": "https://sub.music8.jp/category/luster/",
+    "name": "Luster",
+    "slug": "luster",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1956",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1956"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1956"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39768,
+      "date": "2022-04-15T23:29:00",
+      "date_gmt": "2022-04-15T14:29:00",
+      "title": {
+        "rendered": "WOOH! (KNEW IT WOULD HAPPEN)"
+      },
+      "content": {
+        "rendered": "\n<p>Luster-WOOH!</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1956
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        638,
+        678
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2xW3KAzItiY5TkAnjTxy3B",
+        "spotify_release_date": "2022/5/13",
+        "spotify_name": "WOOH!(KNEWITWOULDHAPPEN)",
+        "spotify_artists": "Luster",
+        "spotify_album": "Pressure",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273dab222b2c9d7ce4cbc153083",
+        "spotify_duration_ms": "158283",
+        "spotify_popularity": "6",
+        "spotify_danceability": "-0.9798728818080519",
+        "spotify_energy": "-0.0012037870729476002",
+        "spotify_key": "-1.417844935220459",
+        "spotify_loudness": "1.0424207271085744",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.16516175553769313",
+        "spotify_tempo": "0.6170114292170299",
+        "spotify_valence": "0.4470485014381802",
+        "spotify_acousticness": "-0.7877922285322223",
+        "spotify_instrumentalness": "-0.4115192012827468",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.798397089765242",
+        "spotify_artists01": "Luster",
+        "spotify_artists01_id": "79BImQsuJ70xKbfyKG4ZzD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb560258a4ec2512f92e8275f9",
+        "spotify_artists01_genres": "danishalternativerock",
+        "spotify_artists01_popularity": "31",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "BwUJjlN5-z8",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Luster-WOOH-KNEW-IT-WOULD-HAPPEN.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1956,
+            "name": "Luster",
+            "slug": "luster",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Luster",
+        "ytvideoid": "BwUJjlN5-z8",
+        "spotify_track_id": "2xW3KAzItiY5TkAnjTxy3B"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Psychedelic rock",
+          "slug": "psychedelic-rock",
+          "term_id": 678,
+          "post_count": 111
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "wooh-knew-it-would-happen"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

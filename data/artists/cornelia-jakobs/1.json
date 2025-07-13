@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2599,
+    "count": 1,
+    "description": "SWE",
+    "link": "https://sub.music8.jp/category/cornelia-jakobs/",
+    "name": "Cornelia Jakobs",
+    "slug": "cornelia-jakobs",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2599",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2599"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2599"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40184,
+      "date": "2022-02-27T13:41:00",
+      "date_gmt": "2022-02-27T04:41:00",
+      "title": {
+        "rendered": "Hold Me Closer"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2599
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "697bFWgzBRm6bmnYWd8GyD",
+        "spotify_release_date": "2022/2/26",
+        "spotify_name": "HoldMeCloser",
+        "spotify_artists": "CorneliaJakobs",
+        "spotify_album": "HoldMeCloser",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273783063ee9d52b028dad27074",
+        "spotify_duration_ms": "199426",
+        "spotify_popularity": "65",
+        "spotify_danceability": "0.489",
+        "spotify_energy": "0.616",
+        "spotify_key": "6",
+        "spotify_loudness": "-7.599",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0382",
+        "spotify_tempo": "96.819",
+        "spotify_valence": "0.168",
+        "spotify_acousticness": "0.107",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.145",
+        "spotify_artists01": "CorneliaJakobs",
+        "spotify_artists01_id": "7cYZ8F0N2jby95FsxU9hh4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5f685a2f32364f6bd24b03c1",
+        "spotify_artists01_genres": "swedishpop",
+        "spotify_artists01_popularity": "49",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Fr582m6pW0Q",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2599,
+            "name": "Cornelia Jakobs",
+            "slug": "cornelia-jakobs",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "CorneliaJakobs",
+        "ytvideoid": "Fr582m6pW0Q",
+        "spotify_track_id": "697bFWgzBRm6bmnYWd8GyD"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "hold-me-closer-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

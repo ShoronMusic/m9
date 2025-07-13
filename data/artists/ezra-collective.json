@@ -1,0 +1,72 @@
+{
+  "id": 5331,
+  "count": 1,
+  "description": "Ezra Collective is a British jazz quintet.",
+  "link": "https://sub.music8.jp/category/ezra-collective/",
+  "name": "Ezra Collective",
+  "slug": "ezra-collective",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2016",
+    "artistborn": "",
+    "artistjpname": "エズラ・コレクティブ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5BRAUN0yN8557PLRZIr02W",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a38669cf5ce055735f7829e6"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5331",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5331"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5331"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エズラ・コレクティブ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a38669cf5ce055735f7829e6",
+  "artistActiveYearStart": "2016",
+  "occupation": "band"
+}

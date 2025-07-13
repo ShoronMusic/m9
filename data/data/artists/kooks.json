@@ -1,0 +1,63 @@
+{
+  "id": 1955,
+  "count": 4,
+  "description": "The Kooks are an English pop-rock band.",
+  "link": "https://sub.music8.jp/category/kooks/",
+  "name": "Kooks",
+  "slug": "kooks",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2004",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・クークス",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1955",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1955"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1955"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ザ・クークス",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2004",
+  "occupation": ""
+}

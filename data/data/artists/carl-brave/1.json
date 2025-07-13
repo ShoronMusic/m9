@@ -1,0 +1,183 @@
+{
+  "artist": {
+    "id": 2644,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/carl-brave/",
+    "name": "Carl Brave",
+    "slug": "carl-brave",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2644",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2644"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2644"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39678,
+      "date": "2022-04-29T22:13:00",
+      "date_gmt": "2022-04-29T13:13:00",
+      "title": {
+        "rendered": "Cristo di Rio"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2644,
+        2615
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "UgZ1HDaFeTM",
+        "likecount": "1",
+        "spotify_track_id": "0X9UPxUCd0FtbEXsd3oRMg",
+        "spotify_release_date": "2022/4/22",
+        "spotify_name": "CristodiRio(feat.CarlBrave)",
+        "spotify_artists": "Max Gazzè, Carl Brave",
+        "spotify_album": "CristodiRio(feat.CarlBrave)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27383cda5b10c67ec1cac90fdef",
+        "spotify_duration_ms": "214514",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.707",
+        "spotify_energy": "0.854",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.335",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0349",
+        "spotify_tempo": "111.011",
+        "spotify_valence": "0.816",
+        "spotify_acousticness": "0.0384",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.147",
+        "spotify_artists01": "MaxGazz?",
+        "spotify_artists01_id": "1h5O32I1o0VOnpLmKXLfRa",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb729894cbf917abd6b5772fe7",
+        "spotify_artists01_genres": "classicitalianpop,italianadultpop,italianpop",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "CarlBrave",
+        "spotify_artists02_id": "29nrwultxQ8jENVmXoyMqK",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb72a61d0862006f8d73f560e3",
+        "spotify_artists02_genres": "italianadultpop,italianpop,rapnapoletano,romeindie",
+        "spotify_artists02_popularity": "59",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Max-Gazze-Carl-Brave-Cristo-di-Rio.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2644,
+            "name": "Carl Brave",
+            "slug": "carl-brave",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2615,
+            "name": "Max Gazzè",
+            "slug": "max-gazze",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "1991",
+              "artistborn": "19670706",
+              "artistdied": "",
+              "artistjpname": "マックス・ガゼ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Max Gazzè, Carl Brave",
+        "ytvideoid": "UgZ1HDaFeTM",
+        "spotify_track_id": "0X9UPxUCd0FtbEXsd3oRMg"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cristo-di-rio"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,72 @@
+{
+  "id": 2549,
+  "count": 2,
+  "description": "Blue is a British boy band.",
+  "link": "https://sub.music8.jp/category/blue/",
+  "name": "Blue",
+  "slug": "blue",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2000",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ブルー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "6ca3AFdIIgaP4ZIW8J6zXu",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749ca66f0901a76a7ac29c04e9"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2549",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2549"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2549"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ブルー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051749ca66f0901a76a7ac29c04e9",
+  "artistActiveYearStart": "2000",
+  "occupation": "band"
+}

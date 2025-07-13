@@ -1,0 +1,878 @@
+{
+  "artist": {
+    "id": 2423,
+    "count": 6,
+    "description": "Pierce the Veil is an American rock band.",
+    "link": "https://sub.music8.jp/category/pierce-the-veil/",
+    "name": "Pierce The Veil",
+    "slug": "pierce-the-veil",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2006",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ピアス・ザ・ヴェイル",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2423",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2423"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2423"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 101469,
+      "date": "2025-06-20T17:08:39",
+      "date_gmt": "2025-06-20T08:08:39",
+      "title": {
+        "rendered": "Karma Police"
+      },
+      "content": {
+        "rendered": "<p>Pierce The Veil - Karma Police</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2423
+      ],
+      "tags": [],
+      "genre": [
+        663
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "tO3pgGjXZPA",
+        "ytreleasedate": "2025/06/20",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "2GBeNjgz5HSvBkE7dRryxk",
+        "spotify_release_date": "2024-04-19",
+        "spotify_name": "Karma Police",
+        "spotify_artists": "Pierce The Veil",
+        "spotify_album": "Karma Police",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736a0baadb25a407525671c3e1",
+        "spotify_duration_ms": "268005",
+        "spotify_popularity": "59",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Pierce The Veil",
+        "spotify_artists01_id": "4iJLPqClelZOBCBifm8Fzv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6f8f8d13be17bf486219edc7",
+        "spotify_artists01_genres": "emo, screamo, post-hardcore",
+        "spotify_artists01_popularity": "78",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/pierce-the-veil-karma-police.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2423,
+            "name": "Pierce The Veil",
+            "slug": "pierce-the-veil",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ピアス・ザ・ヴェイル",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Pierce The Veil",
+        "ytvideoid": "tO3pgGjXZPA",
+        "spotify_track_id": "2GBeNjgz5HSvBkE7dRryxk"
+      },
+      "genre_data": [
+        {
+          "name": "Post-grunge",
+          "slug": "post-grunge",
+          "term_id": 663,
+          "post_count": 99
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "karma-police-3"
+    },
+    {
+      "id": 98666,
+      "date": "2025-05-06T11:13:13",
+      "date_gmt": "2025-05-06T02:13:13",
+      "title": {
+        "rendered": "Kiss Me Now"
+      },
+      "content": {
+        "rendered": "<p>Pierce The Veil - Kiss Me Now</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2423
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        630
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "BsI-y9Zxwq0",
+        "ytreleasedate": "2025/05/06",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "40KgVtH6ANki7AN2Sj1rZD",
+        "spotify_release_date": "2025-05-06",
+        "spotify_name": "Kiss Me Now",
+        "spotify_artists": "Pierce The Veil",
+        "spotify_album": "Kiss Me Now",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739a489d64725e6ed207b52c94",
+        "spotify_duration_ms": "256268",
+        "spotify_popularity": "65",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Pierce The Veil",
+        "spotify_artists01_id": "4iJLPqClelZOBCBifm8Fzv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6f8f8d13be17bf486219edc7",
+        "spotify_artists01_genres": "emo, screamo, post-hardcore",
+        "spotify_artists01_popularity": "76",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/pierce-the-veil-kiss-me-now.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2423,
+            "name": "Pierce The Veil",
+            "slug": "pierce-the-veil",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ピアス・ザ・ヴェイル",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Pierce The Veil",
+        "ytvideoid": "BsI-y9Zxwq0",
+        "spotify_track_id": "40KgVtH6ANki7AN2Sj1rZD"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "kiss-me-now"
+    },
+    {
+      "id": 67513,
+      "date": "2024-04-19T21:18:06",
+      "date_gmt": "2024-04-19T12:18:06",
+      "title": {
+        "rendered": "Karma Police"
+      },
+      "content": {
+        "rendered": "<p>Pierce The Veil - Karma Police</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2423
+      ],
+      "tags": [],
+      "genre": [
+        663
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "r2kThPtHO80",
+        "ytreleasedate": "2024/04/19",
+        "spotify_track_id": "2GBeNjgz5HSvBkE7dRryxk",
+        "spotify_release_date": "2024-04-19",
+        "spotify_name": "Karma Police",
+        "spotify_artists": "Pierce The Veil",
+        "spotify_album": "Karma Police",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736a0baadb25a407525671c3e1",
+        "spotify_duration_ms": "268005",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.435",
+        "spotify_energy": "0.761",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.403",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0402",
+        "spotify_tempo": "76.008",
+        "spotify_valence": "0.25",
+        "spotify_acousticness": "0.0000783",
+        "spotify_instrumentalness": "0.0427",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.319",
+        "spotify_artists01": "Pierce The Veil",
+        "spotify_artists01_id": "4iJLPqClelZOBCBifm8Fzv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc9461fa3257fbddc14c33202",
+        "spotify_artists01_genres": "modern rock, pop punk, screamo",
+        "spotify_artists01_popularity": "70",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2736a0baadb25a407525671c3e1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2423,
+            "name": "Pierce The Veil",
+            "slug": "pierce-the-veil",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ピアス・ザ・ヴェイル",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Pierce The Veil",
+        "ytvideoid": "r2kThPtHO80",
+        "spotify_track_id": "2GBeNjgz5HSvBkE7dRryxk"
+      },
+      "genre_data": [
+        {
+          "name": "Post-grunge",
+          "slug": "post-grunge",
+          "term_id": 663,
+          "post_count": 99
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "karma-police-2"
+    },
+    {
+      "id": 53492,
+      "date": "2023-09-15T20:44:20",
+      "date_gmt": "2023-09-15T11:44:20",
+      "title": {
+        "rendered": "12 Fractures"
+      },
+      "content": {
+        "rendered": "<p>Pierce The Veil - 12 Fractures with chloe moriondo</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1298,
+        2423
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        503
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2R5SzmhzoaCkjDJcSaGrN3",
+        "spotify_release_date": "2023-02-10",
+        "spotify_name": "12 Fractures",
+        "spotify_artists": "Pierce The Veil, chloe moriondo",
+        "spotify_album": "The Jaws Of Life",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732846907b5152fb7dc38e450a",
+        "spotify_duration_ms": "181600",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.676",
+        "spotify_energy": "0.37",
+        "spotify_key": "7",
+        "spotify_loudness": "-8.392",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0269",
+        "spotify_tempo": "101.929",
+        "spotify_valence": "0.322",
+        "spotify_acousticness": "0.532",
+        "spotify_instrumentalness": "0.00000241",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.156",
+        "spotify_artists01": "Pierce The Veil",
+        "spotify_artists01_id": "4iJLPqClelZOBCBifm8Fzv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4aac0b9741ad24457ebfee48",
+        "spotify_artists01_genres": "pop punk, screamo",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "chloe moriondo",
+        "spotify_artists02_id": "3P4vW5tzQvmuoNaFQqzy9q",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb439e58a8522b25d500442663",
+        "spotify_artists02_genres": "alt z, bedroom pop, indie pop, pov: indie",
+        "spotify_artists02_popularity": "57",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "SHoqsC4RzDs",
+        "ytreleasedate": "2023/09/15"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pierce-The-Veil-12-Fractures-with-chloe-moriondo.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1298,
+            "name": "chloe moriondo",
+            "slug": "chloe-moriondo",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "クロエ・モリオンド",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "Frances Forever | mxmtoon (mxmtoon) | Tessa Violet (tessa-violet) | dodie (dodie) | Egg | carpetgarden | Addison Grace | Beach Bunny | Sir Chloe | Ezra Williams | Cavetown (cavetown) | Honeysticks | awfultune | Orla Gartland (orla-gartland) | Ricky Montgomery | Penelope Scott | Claud (claud) | Leith Ross | Ollie MN | dacelynn",
+              "spotify_artist_id": "3P4vW5tzQvmuoNaFQqzy9q",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174001dad9a4b6fac554f86b98c"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2423,
+            "name": "Pierce The Veil",
+            "slug": "pierce-the-veil",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ピアス・ザ・ヴェイル",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Pierce The Veil, chloe moriondo",
+        "ytvideoid": "SHoqsC4RzDs",
+        "spotify_track_id": "2R5SzmhzoaCkjDJcSaGrN3"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Emo",
+          "slug": "emo",
+          "term_id": 503,
+          "post_count": 163
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "12-fractures"
+    },
+    {
+      "id": 38356,
+      "date": "2022-11-11T13:12:00",
+      "date_gmt": "2022-11-11T04:12:00",
+      "title": {
+        "rendered": "Emergency Contact"
+      },
+      "content": {
+        "rendered": "\n<p>PierceTheVeil-EmergencyContact</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2423
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        663
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4amltxLIfFmtYEvZbdgDqO",
+        "spotify_release_date": "2023/2/10",
+        "spotify_name": "Emergency Contact",
+        "spotify_artists": "Pierce The Veil",
+        "spotify_album": "The Jaws Of Life",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732846907b5152fb7dc38e450a",
+        "spotify_duration_ms": "240000",
+        "spotify_popularity": "69",
+        "spotify_danceability": "0.537",
+        "spotify_energy": "0.82",
+        "spotify_key": "3",
+        "spotify_loudness": "-4.214",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0345",
+        "spotify_tempo": "113.032",
+        "spotify_valence": "0.414",
+        "spotify_acousticness": "0.000429",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.716",
+        "spotify_artists01": "Pierce The Veil",
+        "spotify_artists01_id": "4iJLPqClelZOBCBifm8Fzv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4aac0b9741ad24457ebfee48",
+        "spotify_artists01_genres": "pop punk, screamo",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Vr2PWqeRWlQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pierce-The-Veil-Emergency-Contact.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2423,
+            "name": "Pierce The Veil",
+            "slug": "pierce-the-veil",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ピアス・ザ・ヴェイル",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Pierce The Veil",
+        "ytvideoid": "Vr2PWqeRWlQ",
+        "spotify_track_id": "4amltxLIfFmtYEvZbdgDqO"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Post-grunge",
+          "slug": "post-grunge",
+          "term_id": 663,
+          "post_count": 99
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "emergency-contact"
+    },
+    {
+      "id": 38588,
+      "date": "2022-10-11T03:02:00",
+      "date_gmt": "2022-10-10T18:02:00",
+      "title": {
+        "rendered": "Pass The Nirvana"
+      },
+      "content": {
+        "rendered": "\n<p>PierceTheVeil-PassTheNirvana</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2423
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        550,
+        664
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7I93h9I0RUqt1ci3Bfa290",
+        "spotify_release_date": "2023/2/10",
+        "spotify_name": "PassTheNirvana",
+        "spotify_artists": "PierceTheVeil",
+        "spotify_album": "TheJawsOfLife",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732846907b5152fb7dc38e450a",
+        "spotify_duration_ms": "197373",
+        "spotify_popularity": "71",
+        "spotify_danceability": "0.536",
+        "spotify_energy": "0.9",
+        "spotify_key": "2",
+        "spotify_loudness": "-4.407",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0807",
+        "spotify_tempo": "143.025",
+        "spotify_valence": "0.627",
+        "spotify_acousticness": "0.000974",
+        "spotify_instrumentalness": "0.000286",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.157",
+        "spotify_artists01": "PierceTheVeil",
+        "spotify_artists01_id": "4iJLPqClelZOBCBifm8Fzv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4aac0b9741ad24457ebfee48",
+        "spotify_artists01_genres": "poppunk,screamo",
+        "spotify_artists01_popularity": "72",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "CKiX0vjux9U",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pierce-The-Veil-Pass-The-Nirvana.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2423,
+            "name": "Pierce The Veil",
+            "slug": "pierce-the-veil",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ピアス・ザ・ヴェイル",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "PierceTheVeil",
+        "ytvideoid": "CKiX0vjux9U",
+        "spotify_track_id": "7I93h9I0RUqt1ci3Bfa290"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Grunge",
+          "slug": "grunge",
+          "term_id": 550,
+          "post_count": 55
+        },
+        {
+          "name": "Post-hardcore",
+          "slug": "post-hardcore",
+          "term_id": 664,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "pass-the-nirvana"
+    }
+  ],
+  "totalSongs": 6,
+  "totalPages": 1,
+  "currentPage": 1
+}

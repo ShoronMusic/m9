@@ -1,0 +1,205 @@
+{
+  "artist": {
+    "id": 1595,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/niko-moon/",
+    "name": "Niko Moon",
+    "slug": "niko-moon",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1595",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1595"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1595"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41154,
+      "date": "2021-01-29T12:02:00",
+      "date_gmt": "2021-01-29T03:02:00",
+      "title": {
+        "rendered": "Good Time"
+      },
+      "content": {
+        "rendered": "\n<p>NikoMoon-GoodTimeft.Shaggy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1595,
+        1024
+      ],
+      "tags": [],
+      "genre": [
+        466,
+        690
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "2S8UMuLJ0z8agFgFGJ6Ztt",
+        "spotify_release_date": "2021/8/27",
+        "spotify_name": "GOOD TIME",
+        "spotify_artists": "Niko Moon",
+        "spotify_album": "GOOD TIME",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736293c2d1a9bf6a1b5baf5eca",
+        "spotify_duration_ms": "214720",
+        "spotify_popularity": "72",
+        "spotify_danceability": "0.802",
+        "spotify_energy": "0.59",
+        "spotify_key": "5",
+        "spotify_loudness": "-7.189",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0493",
+        "spotify_tempo": "138.084",
+        "spotify_valence": "0.687",
+        "spotify_acousticness": "0.0874",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.275",
+        "spotify_artists01": "Niko Moon",
+        "spotify_artists01_id": "6Rw7DRa1dzChBvxGPCpOxU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5a0a988510902410d6d368a7",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "vJEgOqy1BNw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Niko-Moon-Good-Time-ft.-Shaggy.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1595,
+            "name": "Niko Moon",
+            "slug": "niko-moon",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1024,
+            "name": "Shaggy",
+            "slug": "shaggy",
+            "acf": {
+              "artistorigin": "JAM",
+              "artistactiveyearstart": "1992",
+              "artistborn": "19681022",
+              "artistdied": "",
+              "artistjpname": "シャギー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Niko Moon",
+        "ytvideoid": "vJEgOqy1BNw",
+        "spotify_track_id": "2S8UMuLJ0z8agFgFGJ6Ztt"
+      },
+      "genre_data": [
+        {
+          "name": "Country pop",
+          "slug": "country-pop",
+          "term_id": 466,
+          "post_count": 142
+        },
+        {
+          "name": "Reggae",
+          "slug": "reggae",
+          "term_id": 690,
+          "post_count": 83
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "good-time-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

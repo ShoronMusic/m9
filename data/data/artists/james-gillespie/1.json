@@ -1,0 +1,176 @@
+{
+  "artist": {
+    "id": 1092,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/james-gillespie/",
+    "name": "James Gillespie",
+    "slug": "james-gillespie",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1092",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1092"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1092"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41016,
+      "date": "2021-04-16T20:36:00",
+      "date_gmt": "2021-04-16T11:36:00",
+      "title": {
+        "rendered": "Gone Are The Days"
+      },
+      "content": {
+        "rendered": "\n<p>Kygo-GoneAreTheDaysft.JamesGillespie</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1092,
+        1066
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "2xqAKNirOkGmtvcD6rvifZ",
+        "spotify_release_date": "2022/11/11",
+        "spotify_name": "Gone Are The Days (feat. James Gillespie)",
+        "spotify_artists": "Kygo, James Gillespie",
+        "spotify_album": "Thrill Of The Chase",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c5ebb5d70f71435fa7298607",
+        "spotify_duration_ms": "196666",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.528",
+        "spotify_energy": "0.453",
+        "spotify_key": "4",
+        "spotify_loudness": "-9.398",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0396",
+        "spotify_tempo": "119.761",
+        "spotify_valence": "0.281",
+        "spotify_acousticness": "0.355",
+        "spotify_instrumentalness": "1.06E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.104",
+        "spotify_artists01": "Kygo",
+        "spotify_artists01_id": "23fqKkggKUBHNkbKtXEls4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe636670d717588b11d654130",
+        "spotify_artists01_genres": "edm, pop, pop dance, tropical house",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "James Gillespie",
+        "spotify_artists02_id": "6wlk4iqaEgEvADMVG6QMd8",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb6efc08f970fec8032a878e7d",
+        "spotify_artists02_genres": "indie anthem-folk",
+        "spotify_artists02_popularity": "46",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qV8USJ_XN7Q",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kygo-Gone-Are-The-Days-ft.-James-Gillespie.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1092,
+            "name": "James Gillespie",
+            "slug": "james-gillespie",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1066,
+            "name": "Kygo",
+            "slug": "kygo",
+            "acf": {
+              "artistorigin": "NOR",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19910911",
+              "artistdied": "",
+              "artistjpname": "カイゴ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Kygo, James Gillespie",
+        "ytvideoid": "qV8USJ_XN7Q",
+        "spotify_track_id": "2xqAKNirOkGmtvcD6rvifZ"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [],
+      "slug": "gone-are-the-days"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

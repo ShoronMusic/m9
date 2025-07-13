@@ -1,0 +1,193 @@
+{
+  "artist": {
+    "id": 2206,
+    "count": 1,
+    "description": "Merkules is a Canadian rapper.",
+    "link": "https://sub.music8.jp/category/merkules/",
+    "name": "Merkules",
+    "slug": "merkules",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "CAN",
+      "artistactiveyearstart": "2011",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "rapper",
+          "label": "Rapper"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2206",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2206"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2206"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 59199,
+      "date": "2023-12-19T13:54:57",
+      "date_gmt": "2023-12-19T04:54:57",
+      "title": {
+        "rendered": "Good Kid"
+      },
+      "content": {
+        "rendered": "<p>Merkules - Good Kid</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2206
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7CXtko4co5UNe51FVioLyX",
+        "spotify_release_date": "2023-12-20",
+        "spotify_name": "Good Kid",
+        "spotify_artists": "Merkules, C-Lance",
+        "spotify_album": "Good Kid",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730a0a3d7c21584ac3aa13db76",
+        "spotify_duration_ms": "183466",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.544",
+        "spotify_energy": "0.765",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.665",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.271",
+        "spotify_tempo": "170.351",
+        "spotify_valence": "0.825",
+        "spotify_acousticness": "0.25",
+        "spotify_instrumentalness": "0.0146",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.156",
+        "spotify_artists01": "Merkules",
+        "spotify_artists01_id": "4oYZcPoj3q3DneXomtQBzg",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb33d9fcbda67a4c230d4c5b00",
+        "spotify_artists01_genres": "bc underground hip hop, canadian hip hop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "C-Lance",
+        "spotify_artists02_id": "2O2cQN5ayTOwS8WdiMAjWA",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb30a806d5ba276f79d5590c91",
+        "spotify_artists02_genres": "instrumental hip hop",
+        "spotify_artists02_popularity": "43",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Tn4CnANlI_k",
+        "ytreleasedate": "2023/12/19"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Merkules-Good-Kid.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2206,
+            "name": "Merkules",
+            "slug": "merkules",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Merkules, C-Lance",
+        "ytvideoid": "Tn4CnANlI_k",
+        "spotify_track_id": "7CXtko4co5UNe51FVioLyX"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "good-kid"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

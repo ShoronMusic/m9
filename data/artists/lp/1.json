@@ -1,0 +1,436 @@
+{
+  "artist": {
+    "id": 3057,
+    "count": 3,
+    "description": "LP is an American singer, musician and songwriter.",
+    "link": "https://sub.music8.jp/category/lp/",
+    "name": "LP",
+    "slug": "lp",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1998",
+      "artistborn": "19810318",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3057",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3057"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3057"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 53541,
+      "date": "2023-10-06T10:41:04",
+      "date_gmt": "2023-10-06T01:41:04",
+      "title": {
+        "rendered": "Wild"
+      },
+      "content": {
+        "rendered": "<p>LP - Wild (feat. Levante)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3398,
+        3057
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "477Ex6kVPCp9I7X8mihpBU",
+        "spotify_release_date": "2023-09-28",
+        "spotify_name": "Wild (feat. Levante)",
+        "spotify_artists": "LP, Levante",
+        "spotify_album": "Wild (feat. Levante)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730700c88292e48267dab8b14e",
+        "spotify_duration_ms": "181344",
+        "spotify_popularity": "10",
+        "spotify_danceability": "0.579",
+        "spotify_energy": "0.679",
+        "spotify_key": "10",
+        "spotify_loudness": "-6.893",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0515",
+        "spotify_tempo": "155.972",
+        "spotify_valence": "0.317",
+        "spotify_acousticness": "0.131",
+        "spotify_instrumentalness": "0.0000113",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.22",
+        "spotify_artists01": "LP",
+        "spotify_artists01_id": "0J7U24vlOOIeMpuaO6Q85A",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb97dbdfac09764e2516cee65",
+        "spotify_artists01_genres": "la pop, women's music",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "Levante",
+        "spotify_artists02_id": "5mTg1ztZByLRHsOEtwmT4G",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb0b5b85d17efed55877454b62",
+        "spotify_artists02_genres": "italian adult pop, italian pop, turin indie",
+        "spotify_artists02_popularity": "49",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "J8K6qK2Y1M0",
+        "ytreleasedate": "2023/10/06"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/LP-Wild.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3398,
+            "name": "Levante",
+            "slug": "levante",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19870523",
+              "artistjpname": "レヴァンテ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3057,
+            "name": "LP",
+            "slug": "lp",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1998",
+              "artistborn": "19810318",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LP, Levante",
+        "ytvideoid": "J8K6qK2Y1M0",
+        "spotify_track_id": "477Ex6kVPCp9I7X8mihpBU"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "wild"
+    },
+    {
+      "id": 53094,
+      "date": "2023-09-30T21:16:11",
+      "date_gmt": "2023-09-30T12:16:11",
+      "title": {
+        "rendered": "Dayglow"
+      },
+      "content": {
+        "rendered": "<p>LP - Dayglow</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3057
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "0klBAxKxrNhC2ED94AKa5n",
+        "spotify_release_date": "2023-09-29",
+        "spotify_name": "Dayglow",
+        "spotify_artists": "LP",
+        "spotify_album": "Love Lines",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273545fd84f213f61f4c750e54f",
+        "spotify_duration_ms": "210980",
+        "spotify_popularity": "17",
+        "spotify_danceability": "0.632",
+        "spotify_energy": "0.705",
+        "spotify_key": "8",
+        "spotify_loudness": "-7.019",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0413",
+        "spotify_tempo": "126.014",
+        "spotify_valence": "0.702",
+        "spotify_acousticness": "0.406",
+        "spotify_instrumentalness": "0.000373",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0802",
+        "spotify_artists01": "LP",
+        "spotify_artists01_id": "0J7U24vlOOIeMpuaO6Q85A",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb97dbdfac09764e2516cee65",
+        "spotify_artists01_genres": "la pop, women's music",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "7G_P-23iXrA",
+        "ytreleasedate": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/LP-Dayglow.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3057,
+            "name": "LP",
+            "slug": "lp",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1998",
+              "artistborn": "19810318",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LP",
+        "ytvideoid": "7G_P-23iXrA",
+        "spotify_track_id": "0klBAxKxrNhC2ED94AKa5n"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "dayglow"
+    },
+    {
+      "id": 50786,
+      "date": "2023-09-03T16:52:15",
+      "date_gmt": "2023-09-03T07:52:15",
+      "title": {
+        "rendered": "Long Goodbye"
+      },
+      "content": {
+        "rendered": "<p>LP - Long Goodbye</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3057
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "16DVu0Kqj2RpmiCuLpqRQp",
+        "spotify_release_date": "2023-09-06",
+        "spotify_name": "Long Goodbye",
+        "spotify_artists": "LP",
+        "spotify_album": "Love Lines",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273573d27378e4eaa3d606710d3",
+        "spotify_duration_ms": "263297",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.454",
+        "spotify_energy": "0.513",
+        "spotify_key": "5",
+        "spotify_loudness": "-8.895",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0275",
+        "spotify_tempo": "141.827",
+        "spotify_valence": "0.346",
+        "spotify_acousticness": "0.286",
+        "spotify_instrumentalness": "0.000118",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.089",
+        "spotify_artists01": "LP",
+        "spotify_artists01_id": "0J7U24vlOOIeMpuaO6Q85A",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb97dbdfac09764e2516cee65",
+        "spotify_artists01_genres": "la pop, women's music",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "fdaSCjlwhYA",
+        "ytreleasedate": "2023/09/06"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/LP-Long-Goodbye.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3057,
+            "name": "LP",
+            "slug": "lp",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1998",
+              "artistborn": "19810318",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LP",
+        "ytvideoid": "fdaSCjlwhYA",
+        "spotify_track_id": "16DVu0Kqj2RpmiCuLpqRQp"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "long-goodbye"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

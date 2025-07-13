@@ -1,0 +1,582 @@
+{
+  "artist": {
+    "id": 3322,
+    "count": 4,
+    "description": "Käärijä is a Finnish rapper, singer and songwriter.",
+    "link": "https://sub.music8.jp/category/kaarija/",
+    "name": "Käärijä",
+    "slug": "kaarija",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FIN",
+      "artistactiveyearstart": "2016",
+      "artistborn": "19931021",
+      "artistjpname": "カーリヤ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3322",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3322"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3322"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52803,
+      "date": "2023-09-15T12:47:50",
+      "date_gmt": "2023-09-15T03:47:50",
+      "title": {
+        "rendered": "It's Crazy It's Party"
+      },
+      "content": {
+        "rendered": "<p>Käärijä - It's Crazy It's Party (feat. Tommy Cash)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3322,
+        3323
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        500
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1FtibWDIm2kxf7zOlUcXvx",
+        "spotify_release_date": "2023-09-15",
+        "spotify_name": "It's Crazy It's Party (feat. Tommy Cash)",
+        "spotify_artists": "Käärijä, Tommy Cash",
+        "spotify_album": "It's Crazy It's Party (feat. Tommy Cash)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739bbb9f1a2d191cdfb753edfc",
+        "spotify_duration_ms": "194003",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.643",
+        "spotify_energy": "0.733",
+        "spotify_key": "9",
+        "spotify_loudness": "-6.029",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0752",
+        "spotify_tempo": "159.959",
+        "spotify_valence": "0.638",
+        "spotify_acousticness": "0.000373",
+        "spotify_instrumentalness": "0.0206",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0555",
+        "spotify_artists01": "Käärijä",
+        "spotify_artists01_id": "6LkMGN0t3HDNL8hIvma70r",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2b9e1d7fb3af9f51efddfbeb",
+        "spotify_artists01_genres": "finnish pop",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "Tommy Cash",
+        "spotify_artists02_id": "44XzG6GoJZNtkIGW19hsUK",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb380e0710ccddd0fed1a569a6",
+        "spotify_artists02_genres": "estonian hip hop",
+        "spotify_artists02_popularity": "51",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "NtOlguB6lg0",
+        "ytreleasedate": "2023/09/15",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kaarija-Its-Crazy-Its-Party-feat.-Tommy-Cash.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3322,
+            "name": "Käärijä",
+            "slug": "kaarija",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "2016",
+              "artistborn": "19931021",
+              "artistjpname": "カーリヤ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3323,
+            "name": "Tommy Cash",
+            "slug": "tommy-cash",
+            "acf": {
+              "artistorigin": "EST",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19911118",
+              "artistjpname": "トミー・キャッシュ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Käärijä, Tommy Cash",
+        "ytvideoid": "NtOlguB6lg0",
+        "spotify_track_id": "1FtibWDIm2kxf7zOlUcXvx"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Electronicore",
+          "slug": "electronicore",
+          "term_id": 500,
+          "post_count": 21
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "its-crazy-its-party"
+    },
+    {
+      "id": 52806,
+      "date": "2023-05-22T12:56:40",
+      "date_gmt": "2023-05-22T03:56:40",
+      "title": {
+        "rendered": "Cha Cha Cha"
+      },
+      "content": {
+        "rendered": "<p>Käärijä - Cha Cha Cha</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3322
+      ],
+      "tags": [],
+      "genre": [
+        500,
+        531
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5RX8T3EoTuXcybAxe6oPAw",
+        "spotify_release_date": "2023-01-17",
+        "spotify_name": "Cha Cha Cha",
+        "spotify_artists": "Käärijä",
+        "spotify_album": "Cha Cha Cha",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e9973a2290bd5d88c6aad387",
+        "spotify_duration_ms": "175161",
+        "spotify_popularity": "75",
+        "spotify_danceability": "0.718",
+        "spotify_energy": "0.791",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.572",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0447",
+        "spotify_tempo": "155.082",
+        "spotify_valence": "0.743",
+        "spotify_acousticness": "0.00207",
+        "spotify_instrumentalness": "0.00292",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.111",
+        "spotify_artists01": "Käärijä",
+        "spotify_artists01_id": "6LkMGN0t3HDNL8hIvma70r",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2b9e1d7fb3af9f51efddfbeb",
+        "spotify_artists01_genres": "finnish pop",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "U-b5gDWVnps",
+        "ytreleasedate": "2023/05/22"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kaarija-Cha-Cha-Cha.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3322,
+            "name": "Käärijä",
+            "slug": "kaarija",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "2016",
+              "artistborn": "19931021",
+              "artistjpname": "カーリヤ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Käärijä",
+        "ytvideoid": "U-b5gDWVnps",
+        "spotify_track_id": "5RX8T3EoTuXcybAxe6oPAw"
+      },
+      "genre_data": [
+        {
+          "name": "Electronicore",
+          "slug": "electronicore",
+          "term_id": 500,
+          "post_count": 21
+        },
+        {
+          "name": "Futurepop",
+          "slug": "futurepop",
+          "term_id": 531,
+          "post_count": 10
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cha-cha-cha"
+    },
+    {
+      "id": 52809,
+      "date": "2022-09-23T12:58:48",
+      "date_gmt": "2022-09-23T03:58:48",
+      "title": {
+        "rendered": "Välikuolema"
+      },
+      "content": {
+        "rendered": "<p>Käärijä - Välikuolema</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3322
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        487
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1v4jBEOmyYluJSBk6WUELN",
+        "spotify_release_date": "2022-09-23",
+        "spotify_name": "Välikuolema",
+        "spotify_artists": "Käärijä",
+        "spotify_album": "Välikuolema",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b713974a59f751ec57785c52",
+        "spotify_duration_ms": "192716",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.484",
+        "spotify_energy": "0.668",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.194",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.306",
+        "spotify_tempo": "177.581",
+        "spotify_valence": "0.293",
+        "spotify_acousticness": "0.00752",
+        "spotify_instrumentalness": "0.000646",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.104",
+        "spotify_artists01": "Käärijä",
+        "spotify_artists01_id": "6LkMGN0t3HDNL8hIvma70r",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2b9e1d7fb3af9f51efddfbeb",
+        "spotify_artists01_genres": "finnish pop",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "A-5Q1MtXWAo",
+        "ytreleasedate": "2022/09/23"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kaarija-Valikuolema.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3322,
+            "name": "Käärijä",
+            "slug": "kaarija",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "2016",
+              "artistborn": "19931021",
+              "artistjpname": "カーリヤ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Käärijä",
+        "ytvideoid": "A-5Q1MtXWAo",
+        "spotify_track_id": "1v4jBEOmyYluJSBk6WUELN"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Drum and bass",
+          "slug": "drum-and-bass",
+          "term_id": 487,
+          "post_count": 159
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "valikuolema"
+    },
+    {
+      "id": 52812,
+      "date": "2019-12-20T13:01:27",
+      "date_gmt": "2019-12-20T04:01:27",
+      "title": {
+        "rendered": "Mic Mac"
+      },
+      "content": {
+        "rendered": "<p>Käärijä - Mic Mac</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3322
+      ],
+      "tags": [],
+      "genre": [
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6pPWnfAzUL1tpCpyeKtgqr",
+        "spotify_release_date": "2020-02-07",
+        "spotify_name": "Mic Mac",
+        "spotify_artists": "Käärijä",
+        "spotify_album": "Fantastista",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732cdfbb822c2794f82ad6f693",
+        "spotify_duration_ms": "197419",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.85",
+        "spotify_energy": "0.548",
+        "spotify_key": "2",
+        "spotify_loudness": "-12.543",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.112",
+        "spotify_tempo": "123.967",
+        "spotify_valence": "0.853",
+        "spotify_acousticness": "0.156",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.359",
+        "spotify_artists01": "Käärijä",
+        "spotify_artists01_id": "6LkMGN0t3HDNL8hIvma70r",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2b9e1d7fb3af9f51efddfbeb",
+        "spotify_artists01_genres": "finnish pop",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "3JI_adBJ9R0",
+        "ytreleasedate": "2019/12/20"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Kaarija-Mic-Mac.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3322,
+            "name": "Käärijä",
+            "slug": "kaarija",
+            "acf": {
+              "artistorigin": "FIN",
+              "artistactiveyearstart": "2016",
+              "artistborn": "19931021",
+              "artistjpname": "カーリヤ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Käärijä",
+        "ytvideoid": "3JI_adBJ9R0",
+        "spotify_track_id": "6pPWnfAzUL1tpCpyeKtgqr"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "mic-mac"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

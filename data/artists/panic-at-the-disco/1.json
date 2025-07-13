@@ -1,0 +1,602 @@
+{
+  "artist": {
+    "id": 1692,
+    "count": 4,
+    "description": "Panic! At The Disco was an American pop rock band",
+    "link": "https://sub.music8.jp/category/panic-at-the-disco/",
+    "name": "Panic! At The Disco",
+    "slug": "panic-at-the-disco",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2004",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "パニック!アット・ザ・ディスコ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1692",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1692"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1692"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39038,
+      "date": "2022-08-05T11:13:00",
+      "date_gmt": "2022-08-05T02:13:00",
+      "title": {
+        "rendered": "Local God"
+      },
+      "content": {
+        "rendered": "\n<p>Panic!AtTheDisco-LocalGod</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1692
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658,
+        669
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2RQ0D9N823H0WT1vSy74RM",
+        "spotify_release_date": "2022/8/19",
+        "spotify_name": "LocalGod",
+        "spotify_artists": "Panic!AtTheDisco",
+        "spotify_album": "VivaLasVengeance",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739e4e71f09bb7902fd182bbc1",
+        "spotify_duration_ms": "180797",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.379",
+        "spotify_energy": "0.849",
+        "spotify_key": "0",
+        "spotify_loudness": "-5.747",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0747",
+        "spotify_tempo": "146.841",
+        "spotify_valence": "0.584",
+        "spotify_acousticness": "3.44E-05",
+        "spotify_instrumentalness": "0.00224",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.298",
+        "spotify_artists01": "Panic!AtTheDisco",
+        "spotify_artists01_id": "20JZFwl6HVl6yg8a4H3ZqK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb256ae9a4b82bfff97776ae2",
+        "spotify_artists01_genres": "pop",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "dZpuFQ8H3os",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Panic-At-The-Disco-Local-God.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1692,
+            "name": "Panic! At The Disco",
+            "slug": "panic-at-the-disco",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "パニック!アット・ザ・ディスコ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Panic!AtTheDisco",
+        "ytvideoid": "dZpuFQ8H3os",
+        "spotify_track_id": "2RQ0D9N823H0WT1vSy74RM"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "local-god"
+    },
+    {
+      "id": 39127,
+      "date": "2022-07-20T10:54:00",
+      "date_gmt": "2022-07-20T01:54:00",
+      "title": {
+        "rendered": "Middle Of A Breakup"
+      },
+      "content": {
+        "rendered": "\n<p>Panic!AtTheDisco-MiddleOfABreakup</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1692
+      ],
+      "tags": [],
+      "genre": [
+        575,
+        669
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "18Lvxsm4l6noRNjQW8nS4b",
+        "spotify_release_date": "2022/8/19",
+        "spotify_name": "MiddleOfABreakup",
+        "spotify_artists": "Panic!AtTheDisco",
+        "spotify_album": "VivaLasVengeance",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739e4e71f09bb7902fd182bbc1",
+        "spotify_duration_ms": "200037",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.437",
+        "spotify_energy": "0.803",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.791",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.04",
+        "spotify_tempo": "147.507",
+        "spotify_valence": "0.735",
+        "spotify_acousticness": "4.46E-05",
+        "spotify_instrumentalness": "0.0164",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "Panic!AtTheDisco",
+        "spotify_artists01_id": "20JZFwl6HVl6yg8a4H3ZqK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb256ae9a4b82bfff97776ae2",
+        "spotify_artists01_genres": "pop",
+        "spotify_artists01_popularity": "77",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Q3Fg9MiSXBs",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Panic-At-The-Disco-Middle-Of-A-Breakup.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1692,
+            "name": "Panic! At The Disco",
+            "slug": "panic-at-the-disco",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "パニック!アット・ザ・ディスコ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Panic!AtTheDisco",
+        "ytvideoid": "Q3Fg9MiSXBs",
+        "spotify_track_id": "18Lvxsm4l6noRNjQW8nS4b"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "middle-of-a-breakup"
+    },
+    {
+      "id": 42285,
+      "date": "2019-02-26T19:43:00",
+      "date_gmt": "2019-02-26T10:43:00",
+      "title": {
+        "rendered": "Hey Look Ma, I Made It"
+      },
+      "content": {
+        "rendered": "\n<p>Panic!AtTheDisco-HeyLookMa,IMadeIt</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1692
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        501
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "22oEJW6r2rMb9z4IntfyEa",
+        "spotify_release_date": "2018/6/22",
+        "spotify_name": "Hey Look Ma, I Made It",
+        "spotify_artists": "Panic! At The Disco",
+        "spotify_album": "Pray for the Wicked",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c5148520a59be191eea16989",
+        "spotify_duration_ms": "169666",
+        "spotify_popularity": "70",
+        "spotify_danceability": "0.577",
+        "spotify_energy": "0.833",
+        "spotify_key": "5",
+        "spotify_loudness": "-3.337",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0695",
+        "spotify_tempo": "107.936",
+        "spotify_valence": "0.58",
+        "spotify_acousticness": "0.0137",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.121",
+        "spotify_artists01": "Panic! At The Disco",
+        "spotify_artists01_id": "20JZFwl6HVl6yg8a4H3ZqK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb256ae9a4b82bfff97776ae2",
+        "spotify_artists01_genres": "pop",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "BzbxacRr5Gk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Panic-At-The-Disco-Hey-Look-Ma-I-Made-It.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1692,
+            "name": "Panic! At The Disco",
+            "slug": "panic-at-the-disco",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "パニック!アット・ザ・ディスコ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Panic! At The Disco",
+        "ytvideoid": "BzbxacRr5Gk",
+        "spotify_track_id": "22oEJW6r2rMb9z4IntfyEa"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hey-look-ma-i-made-it"
+    },
+    {
+      "id": 42686,
+      "date": "2018-05-23T09:33:00",
+      "date_gmt": "2018-05-23T00:33:00",
+      "title": {
+        "rendered": "High Hopes"
+      },
+      "content": {
+        "rendered": "\n<p>Panic!AtTheDisco-HighHopes</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1692
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1rqqCSm0Qe4I9rUvWncaom",
+        "spotify_release_date": "2018/6/22",
+        "spotify_name": "High Hopes",
+        "spotify_artists": "Panic! At The Disco",
+        "spotify_album": "Pray for the Wicked",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c5148520a59be191eea16989",
+        "spotify_duration_ms": "190946",
+        "spotify_popularity": "83",
+        "spotify_danceability": "0.579",
+        "spotify_energy": "0.904",
+        "spotify_key": "5",
+        "spotify_loudness": "-2.729",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0618",
+        "spotify_tempo": "82.014",
+        "spotify_valence": "0.681",
+        "spotify_acousticness": "0.193",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.064",
+        "spotify_artists01": "Panic! At The Disco",
+        "spotify_artists01_id": "20JZFwl6HVl6yg8a4H3ZqK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb256ae9a4b82bfff97776ae2",
+        "spotify_artists01_genres": "pop",
+        "spotify_artists01_popularity": "75",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "IPXIgEAGe4U",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Panic-At-The-Disco-High-Hopes.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1692,
+            "name": "Panic! At The Disco",
+            "slug": "panic-at-the-disco",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "パニック!アット・ザ・ディスコ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Panic! At The Disco",
+        "ytvideoid": "IPXIgEAGe4U",
+        "spotify_track_id": "1rqqCSm0Qe4I9rUvWncaom"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "high-hopes-2"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

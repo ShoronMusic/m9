@@ -1,0 +1,200 @@
+{
+  "artist": {
+    "id": 3074,
+    "count": 1,
+    "description": "Shallow Side is an american rock band.",
+    "link": "https://sub.music8.jp/category/shallow-side/",
+    "name": "Shallow Side",
+    "slug": "shallow-side",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2010",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "シャロー・サイド",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3074",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3074"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3074"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50949,
+      "date": "2023-04-15T21:12:05",
+      "date_gmt": "2023-04-15T12:12:05",
+      "title": {
+        "rendered": "You're The Reason"
+      },
+      "content": {
+        "rendered": "<p>Shallow Side - You're The Reason</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3074
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        663
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2kOewV2xbuUMveQDhp0ku0",
+        "spotify_release_date": "2023-04-14",
+        "spotify_name": "You're the Reason",
+        "spotify_artists": "Shallow Side",
+        "spotify_album": "You're the Reason",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b53b212d77b0f6a0af02e57a",
+        "spotify_duration_ms": "224733",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.213",
+        "spotify_energy": "0.962",
+        "spotify_key": "11",
+        "spotify_loudness": "-2.831",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.179",
+        "spotify_tempo": "165.04",
+        "spotify_valence": "0.295",
+        "spotify_acousticness": "0.000226",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.331",
+        "spotify_artists01": "Shallow Side",
+        "spotify_artists01_id": "4i4Ra7cGv6zxiRtRSrhm1I",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4466cf67c9bbeaf7917b0c03",
+        "spotify_artists01_genres": "gymcore",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "parqErDaGac",
+        "ytreleasedate": "2023/04/15"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Shallow-Side-Youre-The-Reason.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3074,
+            "name": "Shallow Side",
+            "slug": "shallow-side",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2010",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "シャロー・サイド",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Shallow Side",
+        "ytvideoid": "parqErDaGac",
+        "spotify_track_id": "2kOewV2xbuUMveQDhp0ku0"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Post-grunge",
+          "slug": "post-grunge",
+          "term_id": 663,
+          "post_count": 99
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "youre-the-reason"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

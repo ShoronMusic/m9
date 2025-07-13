@@ -1,0 +1,307 @@
+{
+  "artist": {
+    "id": 1563,
+    "count": 2,
+    "description": "Gabby Barret is an American country music singer.",
+    "link": "https://sub.music8.jp/category/gabby-barrett/",
+    "name": "Gabby Barrett",
+    "slug": "gabby-barrett",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2018",
+      "artistborn": "20000305",
+      "artistdied": "",
+      "artistjpname": "ギャビー・バレット",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1563",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1563"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1563"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41540,
+      "date": "2020-06-08T09:34:00",
+      "date_gmt": "2020-06-08T00:34:00",
+      "title": {
+        "rendered": "The Good Ones"
+      },
+      "content": {
+        "rendered": "\n<p>GabbyBarrett-TheGoodOnes</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1563
+      ],
+      "tags": [],
+      "genre": [
+        465
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "3hLuHKzG1cmlRpq53ZVWd8",
+        "spotify_release_date": "2020/6/19",
+        "spotify_name": "The Good Ones",
+        "spotify_artists": "Gabby Barrett",
+        "spotify_album": "Goldmine",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27366ffb23d13b04824e04f30d2",
+        "spotify_duration_ms": "215140",
+        "spotify_popularity": "76",
+        "spotify_danceability": "0.519",
+        "spotify_energy": "0.552",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.023",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0259",
+        "spotify_tempo": "89.957",
+        "spotify_valence": "0.331",
+        "spotify_acousticness": "0.18",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.149",
+        "spotify_artists01": "Gabby Barrett",
+        "spotify_artists01_id": "6Iz3eq2aQGFf7TbGT2iahL",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb12daeeffaef628e66be736d9",
+        "spotify_artists01_genres": "contemporary country",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "CV7GVjg3TV4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Gabby-Barrett-The-Good-Ones.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1563,
+            "name": "Gabby Barrett",
+            "slug": "gabby-barrett",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2018",
+              "artistborn": "20000305",
+              "artistdied": "",
+              "artistjpname": "ギャビー・バレット",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Gabby Barrett",
+        "ytvideoid": "CV7GVjg3TV4",
+        "spotify_track_id": "3hLuHKzG1cmlRpq53ZVWd8"
+      },
+      "genre_data": [
+        {
+          "name": "Country",
+          "slug": "country",
+          "term_id": 465,
+          "post_count": 123
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "the-good-ones"
+    },
+    {
+      "id": 42041,
+      "date": "2019-07-29T22:09:00",
+      "date_gmt": "2019-07-29T13:09:00",
+      "title": {
+        "rendered": "I Hope"
+      },
+      "content": {
+        "rendered": "\n<p>GabbyBarrett-IHope</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1563
+      ],
+      "tags": [],
+      "genre": [
+        466,
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "qcCH6JpcK5w",
+        "likecount": "0",
+        "spotify_track_id": "23T0OX7QOiIUFShSzbJ5Uo",
+        "spotify_release_date": "2020/6/19",
+        "spotify_name": "I Hope",
+        "spotify_artists": "Gabby Barrett",
+        "spotify_album": "Goldmine",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27366ffb23d13b04824e04f30d2",
+        "spotify_duration_ms": "210772",
+        "spotify_popularity": "76",
+        "spotify_danceability": "0.466",
+        "spotify_energy": "0.536",
+        "spotify_key": "6",
+        "spotify_loudness": "-6.227",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0429",
+        "spotify_tempo": "75.998",
+        "spotify_valence": "0.377",
+        "spotify_acousticness": "0.0951",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.114",
+        "spotify_artists01": "Gabby Barrett",
+        "spotify_artists01_id": "6Iz3eq2aQGFf7TbGT2iahL",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb12daeeffaef628e66be736d9",
+        "spotify_artists01_genres": "contemporary country",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Gabby-Barrett-I-Hope-1.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1563,
+            "name": "Gabby Barrett",
+            "slug": "gabby-barrett",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2018",
+              "artistborn": "20000305",
+              "artistdied": "",
+              "artistjpname": "ギャビー・バレット",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Gabby Barrett",
+        "ytvideoid": "qcCH6JpcK5w",
+        "spotify_track_id": "23T0OX7QOiIUFShSzbJ5Uo"
+      },
+      "genre_data": [
+        {
+          "name": "Country pop",
+          "slug": "country-pop",
+          "term_id": 466,
+          "post_count": 142
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "i-hope-2"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

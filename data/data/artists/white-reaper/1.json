@@ -1,0 +1,202 @@
+{
+  "artist": {
+    "id": 2474,
+    "count": 1,
+    "description": "White Reaper is an American garage punk band.",
+    "link": "https://sub.music8.jp/category/white-reaper/",
+    "name": "White Reaper",
+    "slug": "white-reaper",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2012",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ホワイトーリーパー",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2474",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2474"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2474"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38456,
+      "date": "2022-10-26T11:06:00",
+      "date_gmt": "2022-10-26T02:06:00",
+      "title": {
+        "rendered": "Pages"
+      },
+      "content": {
+        "rendered": "\n<p>WhiteReaper-Pages</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2474
+      ],
+      "tags": [],
+      "genre": [
+        535,
+        669
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2B9sTgrTUR2Cg9o8e1GT9w",
+        "spotify_release_date": "2023/1/27",
+        "spotify_name": "Pages",
+        "spotify_artists": "WhiteReaper",
+        "spotify_album": "AskingForARide",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27314a24b46da707b11655c9431",
+        "spotify_duration_ms": "154098",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.531",
+        "spotify_energy": "0.735",
+        "spotify_key": "1",
+        "spotify_loudness": "-5.405",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0305",
+        "spotify_tempo": "117.005",
+        "spotify_valence": "0.439",
+        "spotify_acousticness": "0.00021",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0578",
+        "spotify_artists01": "WhiteReaper",
+        "spotify_artists01_id": "75klPfIVnyYcyEGaicRUSF",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0b9e56face673e872ccdf2d9",
+        "spotify_artists01_genres": "louisvilleindie,modernpowerpop",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "xBamd4RPvPE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/White-Reaper-Pages.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2474,
+            "name": "White Reaper",
+            "slug": "white-reaper",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ホワイトーリーパー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "WhiteReaper",
+        "ytvideoid": "xBamd4RPvPE",
+        "spotify_track_id": "2B9sTgrTUR2Cg9o8e1GT9w"
+      },
+      "genre_data": [
+        {
+          "name": "Garage punk",
+          "slug": "garage-punk",
+          "term_id": 535,
+          "post_count": 63
+        },
+        {
+          "name": "Power pop",
+          "slug": "power-pop",
+          "term_id": 669,
+          "post_count": 364
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "pages"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

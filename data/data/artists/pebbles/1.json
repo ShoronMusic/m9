@@ -1,0 +1,244 @@
+{
+  "artist": {
+    "id": 1168,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/pebbles/",
+    "name": "Pebbles",
+    "slug": "pebbles",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1168",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1168"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1168"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47197,
+      "date": "1990-11-06T17:09:00",
+      "date_gmt": "1990-11-06T08:09:00",
+      "title": {
+        "rendered": "Love Makes Things Happen"
+      },
+      "content": {
+        "rendered": "<p>Pebbles, Babyface - Love Makes Things Happen</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1155,
+        1168
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "5egURt6AKPk",
+        "likecount": "0",
+        "spotify_track_id": "5J8FSmpybnVziZhErdhZlT",
+        "spotify_release_date": "1990/1/1",
+        "spotify_name": "Love Makes Things Happen",
+        "spotify_artists": "Pebbles",
+        "spotify_album": "Always",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734b57e22593e77a4578d12e19",
+        "spotify_duration_ms": "311133",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.664",
+        "spotify_energy": "0.497",
+        "spotify_key": "8",
+        "spotify_loudness": "-11.975",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0344",
+        "spotify_tempo": "149.996",
+        "spotify_valence": "0.645",
+        "spotify_acousticness": "0.302",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0631",
+        "spotify_artists01": "Pebbles",
+        "spotify_artists01_id": "702AvACMk5mieXIYlC2Gxx",
+        "spotify_artists01_images": "https://i.scdn.co/image/5cd09b1f3bac8a69b4d98de86f57dbb1a9aaff9d",
+        "spotify_artists01_genres": "contemporary r&b, new jack swing",
+        "spotify_artists01_popularity": "36",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "Pebbles, Babyface",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pebbles-Babyface-Love-Makes-Things-Happen.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1155,
+            "name": "Babyface",
+            "slug": "babyface",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1974",
+              "artistborn": "19590410",
+              "artistdied": "",
+              "artistjpname": "ベイビーフェイス",
+              "member": false,
+              "artistimage1": {
+                "ID": 67694,
+                "id": 67694,
+                "title": "babyface",
+                "filename": "babyface.webp",
+                "filesize": 7928,
+                "url": "https://sub.music8.jp/wp-content/uploads/babyface.webp",
+                "link": "https://sub.music8.jp/babyface/",
+                "alt": "",
+                "author": "1",
+                "description": "",
+                "caption": "",
+                "name": "babyface",
+                "status": "inherit",
+                "uploaded_to": 0,
+                "date": "2024-05-29 07:44:22",
+                "modified": "2024-05-29 07:44:22",
+                "menu_order": 0,
+                "mime_type": "image/webp",
+                "type": "image",
+                "subtype": "webp",
+                "icon": "https://sub.music8.jp/wp-includes/images/media/default.png",
+                "width": 350,
+                "height": 350,
+                "sizes": {
+                  "thumbnail": "https://sub.music8.jp/wp-content/uploads/babyface.webp",
+                  "thumbnail-width": 50,
+                  "thumbnail-height": 50,
+                  "medium": "https://sub.music8.jp/wp-content/uploads/babyface-50x50.webp",
+                  "medium-width": 50,
+                  "medium-height": 50,
+                  "medium_large": "https://sub.music8.jp/wp-content/uploads/babyface.webp",
+                  "medium_large-width": 350,
+                  "medium_large-height": 350,
+                  "large": "https://sub.music8.jp/wp-content/uploads/babyface-100x100.webp",
+                  "large-width": 100,
+                  "large-height": 100,
+                  "1536x1536": "https://sub.music8.jp/wp-content/uploads/babyface.webp",
+                  "1536x1536-width": 350,
+                  "1536x1536-height": 350,
+                  "2048x2048": "https://sub.music8.jp/wp-content/uploads/babyface.webp",
+                  "2048x2048-width": 350,
+                  "2048x2048-height": 350
+                }
+              },
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "3aVoqlJOYx31lH1gibGDt3",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749926d5cdd11ceb280a73a583"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1168,
+            "name": "Pebbles",
+            "slug": "pebbles",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Pebbles, Babyface",
+        "spotify_artists": "Pebbles",
+        "ytvideoid": "5egURt6AKPk",
+        "spotify_track_id": "5J8FSmpybnVziZhErdhZlT"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "love-makes-things-happen"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

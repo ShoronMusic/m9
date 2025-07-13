@@ -1,0 +1,76 @@
+{
+  "id": 2636,
+  "count": 3,
+  "description": "",
+  "link": "https://sub.music8.jp/category/ali-gatie/",
+  "name": "Ali Gatie",
+  "slug": "ali-gatie",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "2017",
+    "artistborn": "19970531",
+    "artistdied": "",
+    "artistjpname": "アリ・ガティ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4rTv3Ejc7hKMtmoBOK1B4T",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174528642fef307039a5358e3c0"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2636",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2636"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2636"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アリ・ガティ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174528642fef307039a5358e3c0",
+  "artistActiveYearStart": "2017",
+  "occupation": "singer, songwriter"
+}

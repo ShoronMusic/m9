@@ -1,0 +1,74 @@
+{
+  "id": 2341,
+  "count": 4,
+  "description": "Röyksopp are a Norwegian electronic music duo",
+  "link": "https://sub.music8.jp/category/royksopp/",
+  "name": "Röyksopp",
+  "slug": "royksopp",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NOL",
+    "artistactiveyearstart": "1998",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ロイクソップ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5nPOO9iTcrs9k6yFffPxjH",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051746bc3053447db6b61f3fe444c",
+    "youtube_channel": "UC9lmMDVtBa6Hppy8Ehfpwpg",
+    "wikipedia_page": "Röyksopp"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2341",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2341"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2341"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ロイクソップ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051746bc3053447db6b61f3fe444c",
+  "artistActiveYearStart": "1998",
+  "occupation": "duo"
+}

@@ -1,0 +1,315 @@
+{
+  "artist": {
+    "id": 2800,
+    "count": 2,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/lewis-fitzgerald/",
+    "name": "Lewis Fitzgerald",
+    "slug": "lewis-fitzgerald",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2800",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2800"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2800"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 69447,
+      "date": "2024-06-07T21:19:32",
+      "date_gmt": "2024-06-07T12:19:32",
+      "title": {
+        "rendered": "Darling"
+      },
+      "content": {
+        "rendered": "<p>Lewis Fitzgerald, Libianca - Darling</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2800,
+        3342
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "GR-OkUC96WQ",
+        "ytreleasedate": "",
+        "spotify_track_id": "4GFft8EPqOryJwqBdILFh0",
+        "spotify_release_date": "2024-06-07",
+        "spotify_name": "Darling - feat. Libianca",
+        "spotify_artists": "Lewis Fitzgerald, Libianca",
+        "spotify_album": "Darling (feat. Libianca)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c47b4a331d8bbe22166a6c48",
+        "spotify_duration_ms": "141564",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.615",
+        "spotify_energy": "0.762",
+        "spotify_key": "6",
+        "spotify_loudness": "-5.293",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0583",
+        "spotify_tempo": "86.752",
+        "spotify_valence": "0.672",
+        "spotify_acousticness": "0.525",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.456",
+        "spotify_artists01": "Lewis Fitzgerald",
+        "spotify_artists01_id": "6ovKHvbGzE1fZaLY0S4cOf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb9d16fa91c57520149849c46",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "41",
+        "spotify_artists02": "Libianca",
+        "spotify_artists02_id": "7kjSuFGKhLm8b5qXoMhRkJ",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb578a4132b6d4cd7c86de89f6",
+        "spotify_artists02_genres": "afrobeats",
+        "spotify_artists02_popularity": "64",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273c47b4a331d8bbe22166a6c48.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2800,
+            "name": "Lewis Fitzgerald",
+            "slug": "lewis-fitzgerald",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3342,
+            "name": "Libianca",
+            "slug": "libianca",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2019",
+              "artistborn": "",
+              "artistjpname": "リビアンカ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Lewis Fitzgerald, Libianca",
+        "ytvideoid": "GR-OkUC96WQ",
+        "spotify_track_id": "4GFft8EPqOryJwqBdILFh0"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "darling-2"
+    },
+    {
+      "id": 38154,
+      "date": "2022-12-16T19:28:00",
+      "date_gmt": "2022-12-16T10:28:00",
+      "title": {
+        "rendered": "Love Me"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2801,
+        2800
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0TjxbknaS3PzWKZrFfrcZA",
+        "spotify_release_date": "2022/12/9",
+        "spotify_name": "LoveMe(feat.Bizzy.)",
+        "spotify_artists": "LewisFitzgerald,Bizzy.",
+        "spotify_album": "LoveMe(feat.Bizzy.)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736e696d0bf3511761d4811574",
+        "spotify_duration_ms": "168150",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.736",
+        "spotify_energy": "0.664",
+        "spotify_key": "10",
+        "spotify_loudness": "-6.571",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0922",
+        "spotify_tempo": "99.967",
+        "spotify_valence": "0.239",
+        "spotify_acousticness": "0.459",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0829",
+        "spotify_artists01": "LewisFitzgerald",
+        "spotify_artists01_id": "6ovKHvbGzE1fZaLY0S4cOf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb791ce36957484baeee108474",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "29",
+        "spotify_artists02": "Bizzy.",
+        "spotify_artists02_id": "1ahz1YFM2OmbNmyMXLFLw6",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb4ad4bf54869487838f374b07",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "21",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "J0fS_6cqYTQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lewis-Fitzgerald-Love-Me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2801,
+            "name": "Bizzy.",
+            "slug": "bizzy",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2800,
+            "name": "Lewis Fitzgerald",
+            "slug": "lewis-fitzgerald",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LewisFitzgerald,Bizzy.",
+        "ytvideoid": "J0fS_6cqYTQ",
+        "spotify_track_id": "0TjxbknaS3PzWKZrFfrcZA"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "love-me-2"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

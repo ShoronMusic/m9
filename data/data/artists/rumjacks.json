@@ -1,0 +1,74 @@
+{
+  "id": 1818,
+  "count": 5,
+  "description": "The Rumjacks are an Australian celtic punk band.",
+  "link": "https://sub.music8.jp/category/rumjacks/",
+  "name": "Rumjacks",
+  "slug": "rumjacks",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2008",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ラムジャックス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "0w2KUuMj7dvP8dV4tzoltd",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517413693eb26970ccbafac171a2",
+    "youtube_channel": "UCSqSV3RRN0EFWM7Lxcjs6mA",
+    "wikipedia_page": "The_Rumjacks"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1818",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1818"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1818"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ラムジャックス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517413693eb26970ccbafac171a2",
+  "artistActiveYearStart": "2008",
+  "occupation": "band"
+}

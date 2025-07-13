@@ -1,0 +1,84 @@
+{
+  "id": 1382,
+  "count": 3,
+  "description": "Enrique Iglesias is a Spanish singer and songwriter.",
+  "link": "https://sub.music8.jp/category/enrique-iglesias/",
+  "name": "Enrique Iglesias",
+  "slug": "enrique-iglesias",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "ESP",
+    "artistactiveyearstart": "1995",
+    "artistborn": "19750508",
+    "artistdied": "",
+    "artistjpname": "エンリケ・イグレシアス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      },
+      {
+        "value": "composer",
+        "label": "Composer"
+      }
+    ],
+    "related_artists": "Ricky Martin | Luis Fonsi (luis-fonsi) | Juanes | Chayanne | Pitbull (pitbull) | Thalia | Jennifer Lopez (jennifer-lopez) | Paulina Rubio | Shakira (shakira) | David Bisbal | Gente De Zona | Camila | Carlos Baute | Prince Royce | Alejandro Sanz | Chino & Nacho | Christina Aguilera (christina-aguilera) | Carlos Vives | La Oreja de Van Gogh | Reik",
+    "spotify_artist_id": "7qG3b048QCHVRO5Pv1T5lw",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517495bd4e059ac547c2c6eb1da7"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1382",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1382"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1382"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エンリケ・イグレシアス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517495bd4e059ac547c2c6eb1da7",
+  "artistActiveYearStart": "1995",
+  "occupation": "singer, songwriter, producer, composer"
+}

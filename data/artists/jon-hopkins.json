@@ -1,0 +1,63 @@
+{
+  "id": 2735,
+  "count": 5,
+  "description": "Jon Hopkins is an English musician and producer",
+  "link": "https://sub.music8.jp/category/jon-hopkins/",
+  "name": "Jon Hopkins",
+  "slug": "jon-hopkins",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2001",
+    "artistborn": "19790815",
+    "artistdied": "",
+    "artistjpname": "ジョン・ホプキンス",
+    "member": false,
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2735",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2735"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2735"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジョン・ホプキンス",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2001",
+  "occupation": ""
+}

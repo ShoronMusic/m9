@@ -1,0 +1,72 @@
+{
+  "id": 3059,
+  "count": 5,
+  "description": "The Beaches are a Canadian rock band.",
+  "link": "https://sub.music8.jp/category/beaches/",
+  "name": "Beaches",
+  "slug": "beaches",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "2013",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・ビーチズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Dear Rouge | Last Dinner Party (last-dinner-party) | Arkells (arkells) | July Talk | Aces (aces) | MUNA | Hollerado | Said The Whale | Glorious Sons | Sam Roberts Band | Del Water Gap (del-water-gap) | Yukon Blonde | Royel Otis (royel-otis) | Towa Bird (towa-bird) | MONOWHALES | boygenius (boygenius) | Remi Wolf (remi-wolf) | Blondshell (blondshell) | Wet Leg (wet-leg) | Regrettes (regrettes)",
+    "spotify_artist_id": "6ws5XBA70XgeBpnLZhQBoy",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174c7c0ae97950dc81c8e0c2a3c"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3059",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3059"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3059"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ザ・ビーチズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174c7c0ae97950dc81c8e0c2a3c",
+  "artistActiveYearStart": "2013",
+  "occupation": "band"
+}

@@ -1,0 +1,193 @@
+{
+  "artist": {
+    "id": 3945,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/elle-the-pocket-belles/",
+    "name": "Elle &amp; The Pocket Belles",
+    "slug": "elle-the-pocket-belles",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "group",
+          "label": "Group"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3945",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3945"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3945"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 59167,
+      "date": "2023-04-26T13:24:06",
+      "date_gmt": "2023-04-26T04:24:06",
+      "title": {
+        "rendered": "See You Later"
+      },
+      "content": {
+        "rendered": "<p>Elle & The Pocket Belles - See You Later</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3945
+      ],
+      "tags": [],
+      "genre": [
+        493
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4j2OB7zz0CgzwS8mOO1Kws",
+        "spotify_release_date": "2023-04-28",
+        "spotify_name": "See You Later",
+        "spotify_artists": "Elle & The Pocket Belles",
+        "spotify_album": "See You Later",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735219c845ad6ba9f187901dc9",
+        "spotify_duration_ms": "166648",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.792",
+        "spotify_energy": "0.942",
+        "spotify_key": "8",
+        "spotify_loudness": "-4.082",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.1",
+        "spotify_tempo": "109.94",
+        "spotify_valence": "0.704",
+        "spotify_acousticness": "0.0536",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.333",
+        "spotify_artists01": "Elle & The Pocket Belles",
+        "spotify_artists01_id": "0MbDNDhsDB35CyvApzybJt",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb939dfe64ab4845adee2774d4",
+        "spotify_artists01_genres": "electro swing",
+        "spotify_artists01_popularity": "28",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ng6x_zjOaAg",
+        "ytreleasedate": "2023/04/26"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Elle-The-Pocket-Belles-See-You-Later.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3945,
+            "name": "Elle &amp; The Pocket Belles",
+            "slug": "elle-the-pocket-belles",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Elle & The Pocket Belles",
+        "ytvideoid": "ng6x_zjOaAg",
+        "spotify_track_id": "4j2OB7zz0CgzwS8mOO1Kws"
+      },
+      "genre_data": [
+        {
+          "name": "Electro swing",
+          "slug": "electro-swing",
+          "term_id": 493,
+          "post_count": 18
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "see-you-later"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

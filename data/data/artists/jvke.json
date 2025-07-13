@@ -1,0 +1,83 @@
+{
+  "id": 2600,
+  "count": 17,
+  "description": "Jvke is an American singer-songwriter, producer.",
+  "link": "https://sub.music8.jp/category/jvke/",
+  "name": "JVKE",
+  "slug": "jvke",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2020",
+    "artistborn": "20010303",
+    "artistdied": "",
+    "artistjpname": "ジェイク",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "164Uj4eKjl6zTBKfJLFKKK",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749028079005146db88f6133d0",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "UCSOfUqPoqpp5aWDDnAyv94g",
+    "wikipedia_page": "Jvke"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2600",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2600"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2600"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェイク",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051749028079005146db88f6133d0",
+  "artistActiveYearStart": "2020",
+  "occupation": "singer, songwriter, producer"
+}

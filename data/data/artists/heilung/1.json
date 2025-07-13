@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2541,
+    "count": 1,
+    "description": "GER/DEN/NOR",
+    "link": "https://sub.music8.jp/category/heilung/",
+    "name": "Heilung",
+    "slug": "heilung",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2541",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2541"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2541"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39334,
+      "date": "2022-06-23T17:41:00",
+      "date_gmt": "2022-06-23T08:41:00",
+      "title": {
+        "rendered": "Anoana"
+      },
+      "content": {
+        "rendered": "\n<p>Heilung-Anoana</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2541
+      ],
+      "tags": [],
+      "genre": [
+        506,
+        631
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4wF6lIxhTibOo5yeeYChUf",
+        "spotify_release_date": "2022/8/19",
+        "spotify_name": "Anoana",
+        "spotify_artists": "Heilung",
+        "spotify_album": "Drif",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ce75c5b0e87b2a489dd0423b",
+        "spotify_duration_ms": "296506",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.569",
+        "spotify_energy": "0.491",
+        "spotify_key": "7",
+        "spotify_loudness": "-14.397",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.038",
+        "spotify_tempo": "135.97",
+        "spotify_valence": "0.427",
+        "spotify_acousticness": "0.206",
+        "spotify_instrumentalness": "0.496",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.0945",
+        "spotify_artists01": "Heilung",
+        "spotify_artists01_id": "7sTKZr30LqC928DZ5P9mNQ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdcbf7f3ea842bfcb04315054",
+        "spotify_artists01_genres": "darkfolk,runefolk,vikingfolk",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "SVbc_Fwbt50",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Heilung-Anoana.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2541,
+            "name": "Heilung",
+            "slug": "heilung",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Heilung",
+        "ytvideoid": "SVbc_Fwbt50",
+        "spotify_track_id": "4wF6lIxhTibOo5yeeYChUf"
+      },
+      "genre_data": [
+        {
+          "name": "Ethnic music",
+          "slug": "ethnic-music",
+          "term_id": 506,
+          "post_count": 1
+        },
+        {
+          "name": "Neofolk",
+          "slug": "neofolk",
+          "term_id": 631,
+          "post_count": 1
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "anoana"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

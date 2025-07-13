@@ -1,0 +1,290 @@
+{
+  "artist": {
+    "id": 3332,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/mau-p/",
+    "name": "Mau P",
+    "slug": "mau-p",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "NED",
+      "artistactiveyearstart": "",
+      "artistborn": "19961026",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3332",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3332"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3332"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 67326,
+      "date": "2024-05-03T21:18:54",
+      "date_gmt": "2024-05-03T12:18:54",
+      "title": {
+        "rendered": "On Again"
+      },
+      "content": {
+        "rendered": "<p>Mau P - On Again</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3332
+      ],
+      "tags": [],
+      "genre": [
+        740
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "OsYwX5WSj0w",
+        "ytreleasedate": "2024/05/03",
+        "spotify_track_id": "5vASuVQkngtFoCOczem52V",
+        "spotify_release_date": "2024-04-30",
+        "spotify_name": "On Again",
+        "spotify_artists": "Mau P",
+        "spotify_album": "On Again",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27365196ad375037658c9b2637a",
+        "spotify_duration_ms": "228000",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.61",
+        "spotify_energy": "0.951",
+        "spotify_key": "0",
+        "spotify_loudness": "-4.659",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0665",
+        "spotify_tempo": "129.976",
+        "spotify_valence": "0.304",
+        "spotify_acousticness": "0.00482",
+        "spotify_instrumentalness": "0.0109",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.149",
+        "spotify_artists01": "Mau P",
+        "spotify_artists01_id": "0w1sbtZVQoK6GzV4A4OkCv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb12baa0b37fe138e1bc53547d",
+        "spotify_artists01_genres": "tech house",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27365196ad375037658c9b2637a.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3332,
+            "name": "Mau P",
+            "slug": "mau-p",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "",
+              "artistborn": "19961026",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Mau P",
+        "ytvideoid": "OsYwX5WSj0w",
+        "spotify_track_id": "5vASuVQkngtFoCOczem52V"
+      },
+      "genre_data": [
+        {
+          "name": "Tech house",
+          "slug": "tech-house",
+          "term_id": 740,
+          "post_count": 91
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "on-again"
+    },
+    {
+      "id": 52870,
+      "date": "2023-01-27T16:18:53",
+      "date_gmt": "2023-01-27T07:18:53",
+      "title": {
+        "rendered": "Gimme That Bounce"
+      },
+      "content": {
+        "rendered": "<p>Mau P - Gimme That Bounce</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3332
+      ],
+      "tags": [],
+      "genre": [
+        740
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "7jURkEKDVEm9sHueqUX0ko",
+        "spotify_release_date": "2023-01-27",
+        "spotify_name": "Gimme That Bounce",
+        "spotify_artists": "Mau P",
+        "spotify_album": "Gimme That Bounce",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737b6eebd0073f658b4d8dcd9e",
+        "spotify_duration_ms": "217410",
+        "spotify_popularity": "67",
+        "spotify_danceability": "0.801",
+        "spotify_energy": "0.96",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.534",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.264",
+        "spotify_tempo": "126.045",
+        "spotify_valence": "0.101",
+        "spotify_acousticness": "0.0284",
+        "spotify_instrumentalness": "0.877",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0985",
+        "spotify_artists01": "Mau P",
+        "spotify_artists01_id": "0w1sbtZVQoK6GzV4A4OkCv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe4b29494b1cacf5ac9d745e9",
+        "spotify_artists01_genres": "tech house",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Y-iVeTyn7n0",
+        "ytreleasedate": "2023/01/27"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Mau-P-Gimme-That-Bounce.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3332,
+            "name": "Mau P",
+            "slug": "mau-p",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "",
+              "artistborn": "19961026",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Mau P",
+        "ytvideoid": "Y-iVeTyn7n0",
+        "spotify_track_id": "7jURkEKDVEm9sHueqUX0ko"
+      },
+      "genre_data": [
+        {
+          "name": "Tech house",
+          "slug": "tech-house",
+          "term_id": 740,
+          "post_count": 91
+        }
+      ],
+      "vocal_data": [],
+      "slug": "gimme-that-bounce"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

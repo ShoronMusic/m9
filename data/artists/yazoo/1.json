@@ -1,0 +1,592 @@
+{
+  "artist": {
+    "id": 816,
+    "count": 4,
+    "description": "Yazoo were an English synth-pop duo.",
+    "link": "https://sub.music8.jp/category/yazoo/",
+    "name": "Yazoo",
+    "slug": "yazoo",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1981-2011",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ヤズー",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "duo",
+          "label": "Duo"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/816",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=816"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=816"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 48800,
+      "date": "1983-05-09T11:41:00",
+      "date_gmt": "1983-05-09T02:41:00",
+      "title": {
+        "rendered": "Nobody's Diary"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        816
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "1qq7jTPkjVg",
+        "likecount": "",
+        "spotify_track_id": "1qQKLpOEtUJYMSOzxOIfkS",
+        "spotify_release_date": "1983/7/20",
+        "spotify_name": "Nobody's Diary",
+        "spotify_artists": "Yazoo",
+        "spotify_album": "You And Me Both",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d947c7e4dd17ce49738e4bf6",
+        "spotify_duration_ms": "269453",
+        "spotify_popularity": "43",
+        "spotify_danceability": "1.572332078858468",
+        "spotify_energy": "-0.1549984632359615",
+        "spotify_key": "1.0122662180732396",
+        "spotify_loudness": "0.33118586765313496",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.4138048356834539",
+        "spotify_tempo": "0.18861144314825096",
+        "spotify_valence": "0.4846868822402768",
+        "spotify_acousticness": "1.0060242810996447",
+        "spotify_instrumentalness": "-0.40460513069388276",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.16637668773846429",
+        "spotify_artists01": "Yazoo",
+        "spotify_artists01_id": "1G1mX30GpUJqOr1QU2eBSs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc948e0ba1e0c16f8c8ab6ad6",
+        "spotify_artists01_genres": "new romantic, new wave, new wave pop, synthpop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "artist_order": "",
+        "ytreleasedate": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Yazoo-Nobodys-Diary.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 816,
+            "name": "Yazoo",
+            "slug": "yazoo",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1981-2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヤズー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Yazoo",
+        "ytvideoid": "1qq7jTPkjVg",
+        "spotify_track_id": "1qQKLpOEtUJYMSOzxOIfkS"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "nobodys-diary"
+    },
+    {
+      "id": 48964,
+      "date": "1982-07-05T11:23:00",
+      "date_gmt": "1982-07-05T02:23:00",
+      "title": {
+        "rendered": "Don't Go"
+      },
+      "content": {
+        "rendered": "<p>Yazoo - Don't Go</p>\n",
+        "protected": false
+      },
+      "categories": [
+        816
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "_sQGwDeambg",
+        "likecount": "",
+        "spotify_track_id": "5JOVSWohrjXW0BFTboh8XO",
+        "spotify_release_date": "1982/7/1",
+        "spotify_name": "Don't Go",
+        "spotify_artists": "Yazoo",
+        "spotify_album": "Upstairs at Eric's",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e0c3e555afcd70597d605b8e",
+        "spotify_duration_ms": "188466",
+        "spotify_popularity": "68",
+        "spotify_danceability": "1.4403214774446833",
+        "spotify_energy": "-2.308123929518154",
+        "spotify_key": "0.20222916697534005",
+        "spotify_loudness": "-2.3503094773092528",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.00975983044659271",
+        "spotify_tempo": "0.064515495679096",
+        "spotify_valence": "-0.11752721059326826",
+        "spotify_acousticness": "1.6275823232451285",
+        "spotify_instrumentalness": "-0.3908371118691012",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.9092662149106957",
+        "spotify_artists01": "Yazoo",
+        "spotify_artists01_id": "1G1mX30GpUJqOr1QU2eBSs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc948e0ba1e0c16f8c8ab6ad6",
+        "spotify_artists01_genres": "new romantic, new wave, new wave pop, synthpop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "_sQGwDeambg",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Yazoo-Dont-Go.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 816,
+            "name": "Yazoo",
+            "slug": "yazoo",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1981-2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヤズー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Yazoo",
+        "ytvideoid": "_sQGwDeambg",
+        "spotify_track_id": "5JOVSWohrjXW0BFTboh8XO"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "dont-go"
+    },
+    {
+      "id": 48970,
+      "date": "1982-07-01T11:38:00",
+      "date_gmt": "1982-07-01T02:38:00",
+      "title": {
+        "rendered": "Situation"
+      },
+      "content": {
+        "rendered": "<p>Yazoo - Situation</p>\n",
+        "protected": false
+      },
+      "categories": [
+        816
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "ysmVlaw36L0",
+        "likecount": "",
+        "spotify_track_id": "1QlogZxaAT35c3HqjJt1JH",
+        "spotify_release_date": "1982",
+        "spotify_name": "Situation",
+        "spotify_artists": "Yazoo",
+        "spotify_album": "Upstairs At Eric's",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27357274f85fc166c07cf73eecf",
+        "spotify_duration_ms": "346800",
+        "spotify_popularity": "55",
+        "spotify_danceability": "1.0706917934860836",
+        "spotify_energy": "-2.294142595321517",
+        "spotify_key": "0.20222916697534005",
+        "spotify_loudness": "-2.3875235239530075",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "0.15452220464971342",
+        "spotify_tempo": "-0.283704410728185",
+        "spotify_valence": "-1.1808114682524964",
+        "spotify_acousticness": "-0.7133606529853005",
+        "spotify_instrumentalness": "2.468341504861517",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.8886857186262103",
+        "spotify_artists01": "Yazoo",
+        "spotify_artists01_id": "1G1mX30GpUJqOr1QU2eBSs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc948e0ba1e0c16f8c8ab6ad6",
+        "spotify_artists01_genres": "new romantic, new wave, new wave pop, synthpop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Yazoo-Situation.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 816,
+            "name": "Yazoo",
+            "slug": "yazoo",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1981-2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヤズー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Yazoo",
+        "ytvideoid": "ysmVlaw36L0",
+        "spotify_track_id": "1QlogZxaAT35c3HqjJt1JH"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "situation"
+    },
+    {
+      "id": 49012,
+      "date": "1982-03-15T11:31:00",
+      "date_gmt": "1982-03-15T02:31:00",
+      "title": {
+        "rendered": "Only you"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        816
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3mGwufkovVPrzsJaXWg8PU",
+        "spotify_release_date": "1982",
+        "spotify_name": "Only You",
+        "spotify_artists": "Yazoo",
+        "spotify_album": "Upstairs At Eric's",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27357274f85fc166c07cf73eecf",
+        "spotify_duration_ms": "195506",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.8066705906585122",
+        "spotify_energy": "-2.755526623810558",
+        "spotify_key": "1.0122662180732396",
+        "spotify_loudness": "-2.5521584663049772",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.2828232131066692",
+        "spotify_tempo": "-0.8835942375073286",
+        "spotify_valence": "0.8281371070594078",
+        "spotify_acousticness": "1.6120433721914915",
+        "spotify_instrumentalness": "-0.4114416434474457",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.5540866822590926",
+        "spotify_artists01": "Yazoo",
+        "spotify_artists01_id": "1G1mX30GpUJqOr1QU2eBSs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc948e0ba1e0c16f8c8ab6ad6",
+        "spotify_artists01_genres": "new romantic, new wave, new wave pop, synthpop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "a4g5MeonGYM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Yazoo-Only-you.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 816,
+            "name": "Yazoo",
+            "slug": "yazoo",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1981-2011",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヤズー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Yazoo",
+        "ytvideoid": "a4g5MeonGYM",
+        "spotify_track_id": "3mGwufkovVPrzsJaXWg8PU"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "yazz-only-you"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

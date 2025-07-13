@@ -1,0 +1,83 @@
+{
+  "id": 6758,
+  "count": 0,
+  "description": "",
+  "link": "https://sub.music8.jp/category/zayn-malik/",
+  "name": "Zayn Malik",
+  "slug": "zayn-malik",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "",
+    "artistborn": "19930112",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 4699,
+        "name": "One Direction",
+        "slug": "one-direction",
+        "term_group": 0,
+        "term_taxonomy_id": 4699,
+        "taxonomy": "category",
+        "description": "One Direction (1D) were an English-Irish pop boy band.",
+        "parent": 0,
+        "count": 30,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [],
+    "related_artists": "",
+    "spotify_artist_id": "5ZsFI1h6hIdQRw2ti0hz81",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051747a1fba1bb3618ef71355f82a",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "",
+    "wikipedia_page": "Zayn_Malik"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6758",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6758"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6758"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051747a1fba1bb3618ef71355f82a",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

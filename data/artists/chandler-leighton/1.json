@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 3814,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/chandler-leighton/",
+    "name": "Chandler Leighton",
+    "slug": "chandler-leighton",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3814",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3814"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3814"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57938,
+      "date": "2023-04-13T20:33:36",
+      "date_gmt": "2023-04-13T11:33:36",
+      "title": {
+        "rendered": "MONSTER"
+      },
+      "content": {
+        "rendered": "<p>Chandler Leighton - MONSTER</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3814
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        547
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7kci5BIV3lQntWLztgsPdf",
+        "spotify_release_date": "2023-03-31",
+        "spotify_name": "MONSTER",
+        "spotify_artists": "Chandler Leighton",
+        "spotify_album": "MONSTER",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f2410a7f086d57a4cfb83681",
+        "spotify_duration_ms": "158197",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.56",
+        "spotify_energy": "0.424",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.721",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.033",
+        "spotify_tempo": "138.07",
+        "spotify_valence": "0.17",
+        "spotify_acousticness": "0.0862",
+        "spotify_instrumentalness": "0.00000214",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.236",
+        "spotify_artists01": "Chandler Leighton",
+        "spotify_artists01_id": "5zUeHMatct7zGjyIji9T4C",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3d27a539d91fbf495937e277",
+        "spotify_artists01_genres": "alt z, la pop, singer-songwriter pop",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "QTF9o-gJACs",
+        "ytreleasedate": "2023/04/13"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Chandler-Leighton-MONSTER.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3814,
+            "name": "Chandler Leighton",
+            "slug": "chandler-leighton",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Chandler Leighton",
+        "ytvideoid": "QTF9o-gJACs",
+        "spotify_track_id": "7kci5BIV3lQntWLztgsPdf"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Gothic rock",
+          "slug": "gothic-rock",
+          "term_id": 547,
+          "post_count": 79
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "monster-4"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

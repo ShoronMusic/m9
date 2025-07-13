@@ -1,0 +1,332 @@
+{
+  "artist": {
+    "id": 5820,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/jae-stephens/",
+    "name": "Jae Stephens",
+    "slug": "jae-stephens",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "19970718",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "",
+      "spotify_artist_images": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5820",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5820"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5820"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 80571,
+      "date": "2024-08-23T21:20:24",
+      "date_gmt": "2024-08-23T12:20:24",
+      "title": {
+        "rendered": "Body Favors"
+      },
+      "content": {
+        "rendered": "<p>Jae Stephens - Body Favors</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5820
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        657,
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "VcmUSrzo0K8",
+        "ytreleasedate": "2024/08/23",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3HXJprUl96Zl86ejtvVbLu",
+        "spotify_release_date": "2024-08-09",
+        "spotify_name": "Body Favors",
+        "spotify_artists": "Jae Stephens",
+        "spotify_album": "Body Favors",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273abbce3facb95c2564ca93865",
+        "spotify_duration_ms": "176300",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.944",
+        "spotify_energy": "0.48",
+        "spotify_key": "0",
+        "spotify_loudness": "-5.635",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0502",
+        "spotify_tempo": "120.034",
+        "spotify_valence": "0.712",
+        "spotify_acousticness": "0.108",
+        "spotify_instrumentalness": "0.00244",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.122",
+        "spotify_artists01": "Jae Stephens",
+        "spotify_artists01_id": "4HiLipaDjOwRkhJlk5s1uT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0a54d0f4f434c2409085590e",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "38",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273abbce3facb95c2564ca93865.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5820,
+            "name": "Jae Stephens",
+            "slug": "jae-stephens",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19970718",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jae Stephens",
+        "ytvideoid": "VcmUSrzo0K8",
+        "spotify_track_id": "3HXJprUl96Zl86ejtvVbLu"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "body-favors"
+    },
+    {
+      "id": 80575,
+      "date": "2024-05-09T21:23:46",
+      "date_gmt": "2024-05-09T12:23:46",
+      "title": {
+        "rendered": "WET"
+      },
+      "content": {
+        "rendered": "<p>Jae Stephens - WET</p>\n",
+        "protected": false
+      },
+      "categories": [
+        5820
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "KxmD5QSbMNc",
+        "ytreleasedate": "2024/05/09",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "5SmQuqYnVs4dLEJ0jDi4Fk",
+        "spotify_release_date": "2024-04-24",
+        "spotify_name": "WET",
+        "spotify_artists": "Jae Stephens",
+        "spotify_album": "WET",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a8c4a4743b9b508eba6e83a0",
+        "spotify_duration_ms": "189395",
+        "spotify_popularity": "30",
+        "spotify_danceability": "0.788",
+        "spotify_energy": "0.639",
+        "spotify_key": "9",
+        "spotify_loudness": "-4.462",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.266",
+        "spotify_tempo": "126.976",
+        "spotify_valence": "0.437",
+        "spotify_acousticness": "0.257",
+        "spotify_instrumentalness": "0.00000397",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.152",
+        "spotify_artists01": "Jae Stephens",
+        "spotify_artists01_id": "4HiLipaDjOwRkhJlk5s1uT",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0a54d0f4f434c2409085590e",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "38",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273a8c4a4743b9b508eba6e83a0.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 5820,
+            "name": "Jae Stephens",
+            "slug": "jae-stephens",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "19970718",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Jae Stephens",
+        "ytvideoid": "KxmD5QSbMNc",
+        "spotify_track_id": "5SmQuqYnVs4dLEJ0jDi4Fk"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "wet"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

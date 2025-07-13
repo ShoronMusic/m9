@@ -1,0 +1,201 @@
+{
+  "artist": {
+    "id": 4158,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/velveteen-queen/",
+    "name": "Velveteen Queen",
+    "slug": "velveteen-queen",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4158",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4158"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4158"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 61701,
+      "date": "2024-02-01T00:35:22",
+      "date_gmt": "2024-01-31T15:35:22",
+      "title": {
+        "rendered": "Dreamer"
+      },
+      "content": {
+        "rendered": "<p>Velveteen Queen - Dreamer</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4158
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "a5QT1wJRdz8",
+        "ytreleasedate": "2024/02/01",
+        "likecount": "１",
+        "artist_order": "",
+        "spotify_track_id": "6DJ0IAjltcE1XOXiwJgYXB",
+        "spotify_release_date": "2024-02-01",
+        "spotify_name": "Dreamer",
+        "spotify_artists": "Velveteen Queen",
+        "spotify_album": "Dreamer",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733d28c1d2ea52c0a3b1faa166",
+        "spotify_duration_ms": "322344",
+        "spotify_popularity": "19",
+        "spotify_danceability": "0.444",
+        "spotify_energy": "0.747",
+        "spotify_key": "11",
+        "spotify_loudness": "-3.054",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0321",
+        "spotify_tempo": "130.035",
+        "spotify_valence": "0.228",
+        "spotify_acousticness": "0.0402",
+        "spotify_instrumentalness": "0.00000552",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.118",
+        "spotify_artists01": "Velveteen Queen",
+        "spotify_artists01_id": "6kbpkEoKjzTFJQkS3gpF9D",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0ee0d8ad06282b0a894fcb1f",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "11",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Velveteen-Queen-Dreamer.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4158,
+            "name": "Velveteen Queen",
+            "slug": "velveteen-queen",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Velveteen Queen",
+        "ytvideoid": "a5QT1wJRdz8",
+        "spotify_track_id": "6DJ0IAjltcE1XOXiwJgYXB"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "dreamer-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

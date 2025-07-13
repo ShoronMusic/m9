@@ -1,0 +1,717 @@
+{
+  "artist": {
+    "id": 3319,
+    "count": 5,
+    "description": "Bad Wolves is an American heavy metal band",
+    "link": "https://sub.music8.jp/category/bad-wolves/",
+    "name": "Bad Wolves",
+    "slug": "bad-wolves",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2017",
+      "artistborn": "",
+      "artistjpname": "バッド・ウルヴス",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3319",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3319"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3319"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 77484,
+      "date": "2024-06-28T13:12:22",
+      "date_gmt": "2024-06-28T04:12:22",
+      "title": {
+        "rendered": "Guilty"
+      },
+      "content": {
+        "rendered": "<p>Cory Marks ft DL of Bad Wolves - Guilty</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3319,
+        5628
+      ],
+      "tags": [],
+      "genre": [
+        468,
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "YpiPsBI2EDY",
+        "ytreleasedate": "2024/06/28",
+        "spotify_track_id": "62mvaUT0iKDX8s4UyvUQ63",
+        "spotify_release_date": "2024-07-26",
+        "spotify_name": "Guilty (feat. DL of Bad Wolves)",
+        "spotify_artists": "Cory Marks, Bad Wolves",
+        "spotify_album": "(Make My) Country Rock (feat. Sully Erna of Godsmack, Travis Tritt and Mick Mars)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734f2bc31ab8b38b9f90515446",
+        "spotify_duration_ms": "179876",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.48",
+        "spotify_energy": "0.933",
+        "spotify_key": "5",
+        "spotify_loudness": "-2.558",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0881",
+        "spotify_tempo": "104.479",
+        "spotify_valence": "0.321",
+        "spotify_acousticness": "0.0227",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.148",
+        "spotify_artists01": "Cory Marks",
+        "spotify_artists01_id": "17pJAHDfdLvGuUwl2DkEgv",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb964e15ab860ebb80a532b66a",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "バッド・ウルヴズ",
+        "spotify_artists02_id": "0eI3X5rAzHRZVe5FPk4MN1",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb620e9911e10064bcbf2d7481",
+        "spotify_artists02_genres": "alternative metal, metal, post-grunge",
+        "spotify_artists02_popularity": "65",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2734f2bc31ab8b38b9f90515446-1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3319,
+            "name": "Bad Wolves",
+            "slug": "bad-wolves",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistjpname": "バッド・ウルヴス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 5628,
+            "name": "Cory Marks",
+            "slug": "cory-marks",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2011",
+              "artistborn": "19891011",
+              "artistjpname": "コーリー・マークス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                },
+                {
+                  "value": "drummer",
+                  "label": "Drummer"
+                }
+              ],
+              "related_artists": "Cory Marquardt | Tim Montana | Jacob Bryant | Black Mountain Whiskey Rebellion | Daniel Lee | Eva Under Fire | Lansdowne | Sam Grow | State of Mine | Blacktop Mojo | Black Smoke Trigger | Them Dirty Roses | Lakeview | Dusty Black | Bad Wolves (bad-wolves) | Shaman's Harvest | Black Stone Cherry | Cody Parks and The Dirty South | Matt Mason | Pop Evil",
+              "spotify_artist_id": "17pJAHDfdLvGuUwl2DkEgv",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174964e15ab860ebb80a532b66a"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Cory Marks, Bad Wolves",
+        "ytvideoid": "YpiPsBI2EDY",
+        "spotify_track_id": "62mvaUT0iKDX8s4UyvUQ63"
+      },
+      "genre_data": [
+        {
+          "name": "Country rock",
+          "slug": "country-rock",
+          "term_id": 468,
+          "post_count": 89
+        },
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "guilty-4"
+    },
+    {
+      "id": 66946,
+      "date": "2024-05-10T22:27:21",
+      "date_gmt": "2024-05-10T13:27:21",
+      "title": {
+        "rendered": "Hungry For Life"
+      },
+      "content": {
+        "rendered": "<p>Bad Wolves, Daughtry - Hungry For Life</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3319,
+        2389
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        411
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "vDORJr7Dl6M",
+        "ytreleasedate": "2024/05/10",
+        "spotify_track_id": "4ddvYUYsefYyjGoajARAJm",
+        "spotify_release_date": "2024-05-10",
+        "spotify_name": "Hungry For Life (feat. Chris Daughtry of Daughtry)",
+        "spotify_artists": "Bad Wolves, Daughtry",
+        "spotify_album": "Hungry For Life (feat. Chris Daughtry of Daughtry)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b3ba0f22b28afd0ad35fbed1",
+        "spotify_duration_ms": "210600",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.526",
+        "spotify_energy": "0.846",
+        "spotify_key": "1",
+        "spotify_loudness": "-5.41",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.12",
+        "spotify_tempo": "93.765",
+        "spotify_valence": "0.232",
+        "spotify_acousticness": "0.00124",
+        "spotify_instrumentalness": "0.000232",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.117",
+        "spotify_artists01": "バッド・ウルヴズ",
+        "spotify_artists01_id": "0eI3X5rAzHRZVe5FPk4MN1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaea7af79e09a90e00aa5952a",
+        "spotify_artists01_genres": "alternative metal, metal, post-grunge",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "ドートリー",
+        "spotify_artists02_id": "5P5FTygHyx2G57oszR3Wot",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb8d77449249782b0163f351a2",
+        "spotify_artists02_genres": "alternative metal, neo mellow, pop rock, post-grunge",
+        "spotify_artists02_popularity": "62",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273b3ba0f22b28afd0ad35fbed1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3319,
+            "name": "Bad Wolves",
+            "slug": "bad-wolves",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistjpname": "バッド・ウルヴス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2389,
+            "name": "Daughtry",
+            "slug": "daughtry",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ドートリー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": "Hinder | Lifehouse | Saving Abel | 3 Doors Down | Theory of a Deadman (theory-of-a-deadman) | Creed | David Cook | Puddle Of Mudd | Calling | Staind | Hoobastank | Matchbox Twenty (matchbox-twenty) | Trapt | Finger Eleven | Rob Thomas | Nickelback (nickelback) | Shinedown (shinedown) | Seether | Five For Fighting | Crossfade",
+              "spotify_artist_id": "5P5FTygHyx2G57oszR3Wot",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051748d77449249782b0163f351a2"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Bad Wolves, Daughtry",
+        "ytvideoid": "vDORJr7Dl6M",
+        "spotify_track_id": "4ddvYUYsefYyjGoajARAJm"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hungry-for-life"
+    },
+    {
+      "id": 53177,
+      "date": "2023-09-29T20:09:34",
+      "date_gmt": "2023-09-29T11:09:34",
+      "title": {
+        "rendered": "Die About It"
+      },
+      "content": {
+        "rendered": "<p>Bad Wolves - Die About It</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3319
+      ],
+      "tags": [],
+      "genre": [
+        409
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1ieoDxFtEJjYoLskQTHF7s",
+        "spotify_release_date": "2023-09-29",
+        "spotify_name": "Die About It",
+        "spotify_artists": "Bad Wolves",
+        "spotify_album": "Die About It",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e597132b2d5e80cd592e6dce",
+        "spotify_duration_ms": "211153",
+        "spotify_popularity": "45",
+        "spotify_danceability": "0.51",
+        "spotify_energy": "0.928",
+        "spotify_key": "8",
+        "spotify_loudness": "-4.204",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.195",
+        "spotify_tempo": "130.037",
+        "spotify_valence": "0.251",
+        "spotify_acousticness": "0.00842",
+        "spotify_instrumentalness": "0.023",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0712",
+        "spotify_artists01": "バッド・ウルヴズ",
+        "spotify_artists01_id": "0eI3X5rAzHRZVe5FPk4MN1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaea7af79e09a90e00aa5952a",
+        "spotify_artists01_genres": "alternative metal, metal, post-grunge",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "nguJezI6Dos",
+        "ytreleasedate": "2023/09/29"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Bad-Wolves-Die-About-It.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3319,
+            "name": "Bad Wolves",
+            "slug": "bad-wolves",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistjpname": "バッド・ウルヴス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Bad Wolves",
+        "ytvideoid": "nguJezI6Dos",
+        "spotify_track_id": "1ieoDxFtEJjYoLskQTHF7s"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "die-about-it"
+    },
+    {
+      "id": 52773,
+      "date": "2023-08-18T11:45:12",
+      "date_gmt": "2023-08-18T02:45:12",
+      "title": {
+        "rendered": "Legends Never Die"
+      },
+      "content": {
+        "rendered": "<p>Bad Wolves - Legends Never Die</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3319
+      ],
+      "tags": [],
+      "genre": [
+        409
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6jvrbttMyyBQuauXB6b7zy",
+        "spotify_release_date": "2023-08-18",
+        "spotify_name": "Legends Never Die",
+        "spotify_artists": "バッド・ウルヴズ",
+        "spotify_album": "Legends Never Die",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27340bbe67993ca4d5975102a3b",
+        "spotify_duration_ms": "177656",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.371",
+        "spotify_energy": "0.916",
+        "spotify_key": "5",
+        "spotify_loudness": "-4.554",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.15",
+        "spotify_tempo": "160.023",
+        "spotify_valence": "0.319",
+        "spotify_acousticness": "0.00139",
+        "spotify_instrumentalness": "0.0000246",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.134",
+        "spotify_artists01": "バッド・ウルヴズ",
+        "spotify_artists01_id": "0eI3X5rAzHRZVe5FPk4MN1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaea7af79e09a90e00aa5952a",
+        "spotify_artists01_genres": "alternative metal, metal, post-grunge",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5Pc7rTZejF4",
+        "ytreleasedate": "2023/08/18"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Bad-Wolves-Legends-Never-Die.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3319,
+            "name": "Bad Wolves",
+            "slug": "bad-wolves",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistjpname": "バッド・ウルヴス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "バッド・ウルヴズ",
+        "ytvideoid": "5Pc7rTZejF4",
+        "spotify_track_id": "6jvrbttMyyBQuauXB6b7zy"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "legends-never-die-2"
+    },
+    {
+      "id": 52776,
+      "date": "2022-10-15T11:49:59",
+      "date_gmt": "2022-10-15T02:49:59",
+      "title": {
+        "rendered": "Mama I’m Coming Home"
+      },
+      "content": {
+        "rendered": "<p>Bad Wolves – Mama I’m Coming Home</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3319
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1MKea3qAeUgkpoHYAMcDhK",
+        "spotify_release_date": "2022-10-28",
+        "spotify_name": "Mama I'm Coming Home",
+        "spotify_artists": "バッド・ウルヴズ",
+        "spotify_album": "Dear Monsters (Deluxe)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27320b6e54e72653c2bf6bdddc6",
+        "spotify_duration_ms": "230326",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.449",
+        "spotify_energy": "0.866",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.27",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0546",
+        "spotify_tempo": "144.113",
+        "spotify_valence": "0.193",
+        "spotify_acousticness": "0.00536",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0938",
+        "spotify_artists01": "バッド・ウルヴズ",
+        "spotify_artists01_id": "0eI3X5rAzHRZVe5FPk4MN1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebaea7af79e09a90e00aa5952a",
+        "spotify_artists01_genres": "alternative metal, metal, post-grunge",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "0iKEZ0CXcZQ",
+        "ytreleasedate": "2022/10/15"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Bad-Wolves-–-Mama-Im-Coming-Home.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3319,
+            "name": "Bad Wolves",
+            "slug": "bad-wolves",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistjpname": "バッド・ウルヴス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "バッド・ウルヴズ",
+        "ytvideoid": "0iKEZ0CXcZQ",
+        "spotify_track_id": "1MKea3qAeUgkpoHYAMcDhK"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "mama-im-coming-home"
+    }
+  ],
+  "totalSongs": 5,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,960 @@
+{
+  "artist": {
+    "id": 1204,
+    "count": 25,
+    "description": "Tiesto is a Dutch DJ and record producer.",
+    "link": "https://sub.music8.jp/category/tiesto/",
+    "name": "Tiësto",
+    "slug": "tiesto",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "NED",
+      "artistactiveyearstart": "1994",
+      "artistborn": "19690117",
+      "artistdied": "",
+      "artistjpname": "ティエスト",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "dj",
+          "label": "DJ"
+        },
+        {
+          "value": "producer",
+          "label": "Producer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1204",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1204"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1204"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38262,
+      "date": "2022-11-25T10:27:00",
+      "date_gmt": "2022-11-25T01:27:00",
+      "title": {
+        "rendered": "10:35"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1560,
+        1204
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        713
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "EXIWlRrkjKE",
+        "likecount": "1",
+        "spotify_track_id": "6BePGk3eCan4FqaW2X8Qy3",
+        "spotify_release_date": "2022/11/3",
+        "spotify_name": "10:35",
+        "spotify_artists": "Tiësto, Tate McRae",
+        "spotify_album": "10:35",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273999565cd8bea3f8f0985bb31",
+        "spotify_duration_ms": "172252",
+        "spotify_popularity": "87",
+        "spotify_danceability": "0.696",
+        "spotify_energy": "0.793",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.733",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.097",
+        "spotify_tempo": "120.003",
+        "spotify_valence": "0.698",
+        "spotify_acousticness": "0.0683",
+        "spotify_instrumentalness": "3.78E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.18",
+        "spotify_artists01": "Ti?sto",
+        "spotify_artists01_id": "2o5jDhtHVPhrJdv3cEQ99Z",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb27c55a5e9ed2a41c01589fae",
+        "spotify_artists01_genres": "bigroom,brostep,dutchedm,edm,house,popdance,slaphouse,trance",
+        "spotify_artists01_popularity": "83",
+        "spotify_artists02": "TateMcRae",
+        "spotify_artists02_id": "45dkTj5sMRSjrmBSBeiHym",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb13fa6afec2879d124e82fbfb",
+        "spotify_artists02_genres": "altz,pop",
+        "spotify_artists02_popularity": "77",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tiesto-1035-feat.-Tate-McRae.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1560,
+            "name": "Tate McRae",
+            "slug": "tate-mcrae",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2013",
+              "artistborn": "20030701",
+              "artistdied": "",
+              "artistjpname": "テイト・マクレー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1204,
+            "name": "Tiësto",
+            "slug": "tiesto",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "1994",
+              "artistborn": "19690117",
+              "artistdied": "",
+              "artistjpname": "ティエスト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Tiësto, Tate McRae",
+        "ytvideoid": "EXIWlRrkjKE",
+        "spotify_track_id": "6BePGk3eCan4FqaW2X8Qy3"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Slap House",
+          "slug": "slap-house",
+          "term_id": 713,
+          "post_count": 105
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "1035"
+    },
+    {
+      "id": 38954,
+      "date": "2022-08-13T23:25:00",
+      "date_gmt": "2022-08-13T14:25:00",
+      "title": {
+        "rendered": "Hot In It"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1471,
+        1204
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        740
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "r0bhF7SJLYQ",
+        "likecount": "0",
+        "spotify_track_id": "3Z7CaxQkqbIs1rewKi6v4W",
+        "spotify_release_date": "2022/6/30",
+        "spotify_name": "HotInIt",
+        "spotify_artists": "Tiësto, Charli XCX",
+        "spotify_album": "HotInIt",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731e8798f25a1997f0679b2382",
+        "spotify_duration_ms": "129817",
+        "spotify_popularity": "78",
+        "spotify_danceability": "0.748",
+        "spotify_energy": "0.841",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.08",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.177",
+        "spotify_tempo": "123.045",
+        "spotify_valence": "0.717",
+        "spotify_acousticness": "0.00445",
+        "spotify_instrumentalness": "1.33E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0413",
+        "spotify_artists01": "Ti?sto",
+        "spotify_artists01_id": "2o5jDhtHVPhrJdv3cEQ99Z",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb27c55a5e9ed2a41c01589fae",
+        "spotify_artists01_genres": "bigroom,brostep,dutchedm,edm,house,popdance,slaphouse,trance",
+        "spotify_artists01_popularity": "83",
+        "spotify_artists02": "CharliXCX",
+        "spotify_artists02_id": "25uiPmTg16RbhZWAqwLBy5",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb576cb43281160e345f728b71",
+        "spotify_artists02_genres": "artpop,candypop,metropopolis,pop,ukpop",
+        "spotify_artists02_popularity": "74",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tiesto-Charli-XCX-Hot-In-It.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1471,
+            "name": "Charli XCX",
+            "slug": "charli-xcx",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19920802",
+              "artistdied": "",
+              "artistjpname": "チャーリー・エックス・シー・エックス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "SOPHIE (sophie) | Caroline Polachek (caroline-polachek) | Kim Petras (kim-petras) | Rina Sawayama (rina-sawayama) | Slayyyter (slayyyter) | Tove Lo (tove-lo) | Shygirl (shygirl) | A. G. Cook | FKA twigs (fka-twigs) | Sky Ferreira (sky-ferreira) | Azealia Banks | MØ (mo) | Arca | Allie X (allie-x) | Iggy Azalea (iggy-azalea) | Grimes (grimes) | Lorde (lorde) | Carly Rae Jepsen (carly-rae-jepsen) | Tinashe (tinashe) | Dorian Electra (dorian-electra)",
+              "spotify_artist_id": "25uiPmTg16RbhZWAqwLBy5",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174936885667ef44c306483c838"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1204,
+            "name": "Tiësto",
+            "slug": "tiesto",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "1994",
+              "artistborn": "19690117",
+              "artistdied": "",
+              "artistjpname": "ティエスト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Tiësto, Charli XCX",
+        "ytvideoid": "r0bhF7SJLYQ",
+        "spotify_track_id": "3Z7CaxQkqbIs1rewKi6v4W"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Tech house",
+          "slug": "tech-house",
+          "term_id": 740,
+          "post_count": 91
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "hot-in-it"
+    },
+    {
+      "id": 41373,
+      "date": "2020-09-25T14:23:00",
+      "date_gmt": "2020-09-25T05:23:00",
+      "title": {
+        "rendered": "The Business"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1204
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        479,
+        713
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "nCg3ufihKyU",
+        "likecount": "0",
+        "spotify_track_id": "6f3Slt0GbA2bPZlz0aIFXN",
+        "spotify_release_date": "2020/9/16",
+        "spotify_name": "The Business",
+        "spotify_artists": "Ti?sto",
+        "spotify_album": "The Business",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f461bbc21a9bcec43a926973",
+        "spotify_duration_ms": "164000",
+        "spotify_popularity": "80",
+        "spotify_danceability": "0.798",
+        "spotify_energy": "0.62",
+        "spotify_key": "8",
+        "spotify_loudness": "-7.079",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.232",
+        "spotify_tempo": "120.031",
+        "spotify_valence": "0.235",
+        "spotify_acousticness": "0.414",
+        "spotify_instrumentalness": "0.0192",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.112",
+        "spotify_artists01": "Ti?sto",
+        "spotify_artists01_id": "2o5jDhtHVPhrJdv3cEQ99Z",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb27c55a5e9ed2a41c01589fae",
+        "spotify_artists01_genres": "big room, brostep, dutch edm, edm, house, pop dance, slap house, trance",
+        "spotify_artists01_popularity": "82",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tiesto-The-Business.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1204,
+            "name": "Tiësto",
+            "slug": "tiesto",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "1994",
+              "artistborn": "19690117",
+              "artistdied": "",
+              "artistjpname": "ティエスト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Ti?sto",
+        "ytvideoid": "nCg3ufihKyU",
+        "spotify_track_id": "6f3Slt0GbA2bPZlz0aIFXN"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Deep house",
+          "slug": "deep-house",
+          "term_id": 479,
+          "post_count": 90
+        },
+        {
+          "name": "Slap House",
+          "slug": "slap-house",
+          "term_id": 713,
+          "post_count": 105
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-business"
+    },
+    {
+      "id": 42229,
+      "date": "2019-03-31T13:51:00",
+      "date_gmt": "2019-03-31T04:51:00",
+      "title": {
+        "rendered": "Ritual"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        779,
+        1080,
+        1204
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        492
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4vWKWFPlasvqewViOyX0LA",
+        "spotify_release_date": "2023/8/4",
+        "spotify_name": "Ritual",
+        "spotify_artists": "Ti?sto, Jonas Blue, Rita Ora",
+        "spotify_album": "40 ?xitos: Para Bailar",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273684c98e93e32fb914f5c23c4",
+        "spotify_duration_ms": "199960",
+        "spotify_popularity": "5",
+        "spotify_danceability": "0.648",
+        "spotify_energy": "0.722",
+        "spotify_key": "6",
+        "spotify_loudness": "-4.401",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.05",
+        "spotify_tempo": "114.967",
+        "spotify_valence": "0.744",
+        "spotify_acousticness": "0.143",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0795",
+        "spotify_artists01": "Ti?sto",
+        "spotify_artists01_id": "2o5jDhtHVPhrJdv3cEQ99Z",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb27c55a5e9ed2a41c01589fae",
+        "spotify_artists01_genres": "big room, brostep, dutch edm, edm, house, pop dance, slap house, trance",
+        "spotify_artists01_popularity": "82",
+        "spotify_artists02": "Jonas Blue",
+        "spotify_artists02_id": "1HBjj22wzbscIZ9sEb5dyf",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb4f5914db88341591a13ba9c0",
+        "spotify_artists02_genres": "pop, pop dance, tropical house, uk dance",
+        "spotify_artists02_popularity": "74",
+        "spotify_artists03": "Rita Ora",
+        "spotify_artists03_id": "5CCwRZC6euC8Odo6y9X8jr",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb40aa25269cc326b0f97c8ae2",
+        "spotify_artists03_genres": "dance pop, pop, uk pop",
+        "spotify_artists03_popularity": "71",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ontU9cOg354",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tiesto-Jonas-Blue-Rita-Ora-Ritual.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 779,
+            "name": "Jonas Blue",
+            "slug": "jonas-blue",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19890802",
+              "artistdied": "",
+              "artistjpname": "ジョナス・ブルー",
+              "member": false,
+              "artistimage1": {
+                "ID": 68056,
+                "id": 68056,
+                "title": "jonas-blue",
+                "filename": "jonas-blue.webp",
+                "filesize": 11720,
+                "url": "https://sub.music8.jp/wp-content/uploads/jonas-blue.webp",
+                "link": "https://sub.music8.jp/jonas-blue/",
+                "alt": "",
+                "author": "1",
+                "description": "",
+                "caption": "",
+                "name": "jonas-blue",
+                "status": "inherit",
+                "uploaded_to": 0,
+                "date": "2024-06-02 01:11:56",
+                "modified": "2024-06-02 01:11:56",
+                "menu_order": 0,
+                "mime_type": "image/webp",
+                "type": "image",
+                "subtype": "webp",
+                "icon": "https://sub.music8.jp/wp-includes/images/media/default.png",
+                "width": 350,
+                "height": 350,
+                "sizes": {
+                  "thumbnail": "https://sub.music8.jp/wp-content/uploads/jonas-blue.webp",
+                  "thumbnail-width": 50,
+                  "thumbnail-height": 50,
+                  "medium": "https://sub.music8.jp/wp-content/uploads/jonas-blue-50x50.webp",
+                  "medium-width": 50,
+                  "medium-height": 50,
+                  "medium_large": "https://sub.music8.jp/wp-content/uploads/jonas-blue.webp",
+                  "medium_large-width": 350,
+                  "medium_large-height": 350,
+                  "large": "https://sub.music8.jp/wp-content/uploads/jonas-blue-100x100.webp",
+                  "large-width": 100,
+                  "large-height": 100,
+                  "1536x1536": "https://sub.music8.jp/wp-content/uploads/jonas-blue.webp",
+                  "1536x1536-width": 350,
+                  "1536x1536-height": 350,
+                  "2048x2048": "https://sub.music8.jp/wp-content/uploads/jonas-blue.webp",
+                  "2048x2048-width": 350,
+                  "2048x2048-height": 350
+                }
+              },
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Sigala (sigala) | Cheat Codes (cheat-codes) | Jax Jones (jax-jones) | Sam Feldt (sam-feldt) | Mike Perry | Galantis (galantis) | Zedd (zedd) | Clean Bandit (clean-bandit) | Felix Jaehn (felix-jaehn) | Alesso (alesso) | Kygo (kygo) | Axwell /\\ Ingrosso | Martin Jensen | Lost Frequencies (lost-frequencies) | Robin Schulz (robin-schulz) | Gryffin (gryffin) | R3HAB (r3hab) | Cash Cash | Zara Larsson (zara-larsson) | OMI",
+              "spotify_artist_id": "1HBjj22wzbscIZ9sEb5dyf",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174dc7a79e8289eef8f8778b88f"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1080,
+            "name": "Rita Ora",
+            "slug": "rita-ora",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2008",
+              "artistborn": "19901126",
+              "artistdied": "",
+              "artistjpname": "リタ・オラ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1204,
+            "name": "Tiësto",
+            "slug": "tiesto",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "1994",
+              "artistborn": "19690117",
+              "artistdied": "",
+              "artistjpname": "ティエスト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Ti?sto, Jonas Blue, Rita Ora",
+        "ytvideoid": "ontU9cOg354",
+        "spotify_track_id": "4vWKWFPlasvqewViOyX0LA"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Electro house",
+          "slug": "electro-house",
+          "term_id": 492,
+          "post_count": 105
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "ritual"
+    },
+    {
+      "id": 43486,
+      "date": "2015-08-31T10:44:00",
+      "date_gmt": "2015-08-31T01:44:00",
+      "title": {
+        "rendered": "Split (Only U)"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        1084,
+        1204
+      ],
+      "tags": [],
+      "genre": [
+        429,
+        492,
+        613
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "klIF0nhsxxM",
+        "likecount": "0",
+        "spotify_track_id": "1Q4jb2UjtWUDUojHsB8mLY",
+        "spotify_release_date": "2015/9/14",
+        "spotify_name": "Split (Only U)",
+        "spotify_artists": "Tiësto, The Chainsmokers",
+        "spotify_album": "Split (Only U)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d7ffe027c4a00022faaf2958",
+        "spotify_duration_ms": "256640",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.634",
+        "spotify_energy": "0.927",
+        "spotify_key": "1",
+        "spotify_loudness": "-3.282",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.136",
+        "spotify_tempo": "128.016",
+        "spotify_valence": "0.35",
+        "spotify_acousticness": "0.048",
+        "spotify_instrumentalness": "0.687",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0864",
+        "spotify_artists01": "Ti?sto",
+        "spotify_artists01_id": "2o5jDhtHVPhrJdv3cEQ99Z",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb27c55a5e9ed2a41c01589fae",
+        "spotify_artists01_genres": "big room, brostep, dutch edm, edm, house, pop dance, slap house, trance",
+        "spotify_artists01_popularity": "82",
+        "spotify_artists02": "The Chainsmokers",
+        "spotify_artists02_id": "69GGBxA162lTqCwzJG5jLp",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebdb68d678df6d89bf8a55d052",
+        "spotify_artists02_genres": "electropop, pop",
+        "spotify_artists02_popularity": "78",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "Tiësto,  Chainsmokers",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tiesto-The-Chainsmokers-Split-Only-U.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1084,
+            "name": "Chainsmokers",
+            "slug": "chainsmokers",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・チェインスモーカーズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Zedd (zedd) | Jonas Blue (jonas-blue) | Kygo (kygo) | Martin Garrix (martin-garrix) | Galantis (galantis) | Clean Bandit (clean-bandit) | DJ Snake (dj-snake) | Cheat Codes (cheat-codes) | Alesso (alesso) | Major Lazer (major-lazer) | Marshmello (marshmello) | OneRepublic (onerepublic) | Bebe Rexha (bebe-rexha) | Calvin Harris (calvin-harris) | Axwell /\\ Ingrosso | Avicii (avicii) | Ellie Goulding (ellie-goulding) | Zara Larsson (zara-larsson) | Halsey (halsey) | Afrojack (afrojack)",
+              "spotify_artist_id": "69GGBxA162lTqCwzJG5jLp",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749c0f09a8247c54ecba74819d"
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          },
+          {
+            "id": 1204,
+            "name": "Tiësto",
+            "slug": "tiesto",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "1994",
+              "artistborn": "19690117",
+              "artistdied": "",
+              "artistjpname": "ティエスト",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Tiësto,  Chainsmokers",
+        "spotify_artists": "Tiësto, The Chainsmokers",
+        "ytvideoid": "klIF0nhsxxM",
+        "spotify_track_id": "1Q4jb2UjtWUDUojHsB8mLY"
+      },
+      "genre_data": [
+        {
+          "name": "Big room house",
+          "slug": "big-room-house",
+          "term_id": 429,
+          "post_count": 19
+        },
+        {
+          "name": "Electro house",
+          "slug": "electro-house",
+          "term_id": 492,
+          "post_count": 105
+        },
+        {
+          "name": "Melbourne Bounce",
+          "slug": "melbourne-bounce",
+          "term_id": 613,
+          "post_count": 4
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "split-only-u"
+    }
+  ],
+  "totalSongs": 25,
+  "totalPages": 2,
+  "currentPage": 2
+}

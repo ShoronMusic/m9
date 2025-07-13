@@ -1,0 +1,398 @@
+{
+  "artist": {
+    "id": 1743,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/zafrir/",
+    "name": "Zafrir",
+    "slug": "zafrir",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1743",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1743"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1743"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 59521,
+      "date": "2023-09-06T11:45:34",
+      "date_gmt": "2023-09-06T02:45:34",
+      "title": {
+        "rendered": "Fuego"
+      },
+      "content": {
+        "rendered": "<p>Timmy Trumpet, Blasterjaxx, Zafrir - Fuego</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3989,
+        1120,
+        1743
+      ],
+      "tags": [],
+      "genre": [
+        681,
+        747
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "42jqtDBoV2YGTRbFI02p6H",
+        "spotify_release_date": "2023-09-15",
+        "spotify_name": "Fuego",
+        "spotify_artists": "Timmy Trumpet, Blasterjaxx, Zafrir",
+        "spotify_album": "Fuego",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27387925046bbaf692f3878972d",
+        "spotify_duration_ms": "152727",
+        "spotify_popularity": "62",
+        "spotify_danceability": "0.436",
+        "spotify_energy": "0.989",
+        "spotify_key": "8",
+        "spotify_loudness": "-2.432",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.259",
+        "spotify_tempo": "132.036",
+        "spotify_valence": "0.537",
+        "spotify_acousticness": "0.091",
+        "spotify_instrumentalness": "0.00246",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.136",
+        "spotify_artists01": "ティミー・トランペット",
+        "spotify_artists01_id": "0CbeG1224FS58EUx4tPevZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb82ac9eee4c8a5f57412b4821",
+        "spotify_artists01_genres": "australian dance, big room, melbourne bounce, melbourne bounce international",
+        "spotify_artists01_popularity": "69",
+        "spotify_artists02": "Blasterjaxx",
+        "spotify_artists02_id": "37awA8DFCAnCCL7aqYbDnD",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba16d2c3ac2d3fe98413cb9c5",
+        "spotify_artists02_genres": "big room, dutch house, edm, electro house, pop dance, progressive electro house, slap house",
+        "spotify_artists02_popularity": "59",
+        "spotify_artists03": "Zafrir",
+        "spotify_artists03_id": "3DJVDo0kd19fZXpTabasOX",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb0a909a4b4f1e9953092553ac",
+        "spotify_artists03_genres": "big room, slap house",
+        "spotify_artists03_popularity": "51",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "DAmUezjx34I",
+        "ytreleasedate": "2023/09/16"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Timmy-Trumpet-x-Blasterjaxx-x-Zafrir-Fuego.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3989,
+            "name": "Blasterjaxx",
+            "slug": "blasterjaxx",
+            "acf": {
+              "artistorigin": "NED",
+              "artistactiveyearstart": "2010",
+              "artistborn": "",
+              "artistjpname": "ブラスタージャックス",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1120,
+            "name": "Timmy Trumpet",
+            "slug": "timmy-trumpet",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2005",
+              "artistborn": "19820609",
+              "artistdied": "",
+              "artistjpname": "ティミー・トランペット",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1743,
+            "name": "Zafrir",
+            "slug": "zafrir",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Timmy Trumpet, Blasterjaxx, Zafrir",
+        "ytvideoid": "DAmUezjx34I",
+        "spotify_track_id": "42jqtDBoV2YGTRbFI02p6H"
+      },
+      "genre_data": [
+        {
+          "name": "Psytrance",
+          "slug": "psytrance",
+          "term_id": 681,
+          "post_count": 5
+        },
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "fuego"
+    },
+    {
+      "id": 40852,
+      "date": "2021-07-09T22:14:00",
+      "date_gmt": "2021-07-09T13:14:00",
+      "title": {
+        "rendered": "Siliwa Hay"
+      },
+      "content": {
+        "rendered": "\n<p>SteveAoki,ChemicalSurf,Zafrir-SiliwaHayft.MaxAfricana</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1742,
+        1744,
+        1026,
+        1743
+      ],
+      "tags": [],
+      "genre": [
+        492
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "2BxNmiURRvrvQutWGrUizS",
+        "spotify_release_date": "2021/7/9",
+        "spotify_name": "Siliwa Hay (feat. Max-Africana)",
+        "spotify_artists": "Steve Aoki, Chemical Surf, Zafrir, Max-Africana",
+        "spotify_album": "Siliwa Hay (feat. Max-Africana)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ab776c213ac578c67dd1c15e",
+        "spotify_duration_ms": "227142",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.766",
+        "spotify_energy": "0.978",
+        "spotify_key": "9",
+        "spotify_loudness": "-2.083",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0732",
+        "spotify_tempo": "126.02",
+        "spotify_valence": "0.202",
+        "spotify_acousticness": "0.00519",
+        "spotify_instrumentalness": "0.0207",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.375",
+        "spotify_artists01": "Steve Aoki",
+        "spotify_artists01_id": "77AiFEVeAVj2ORpC85QVJs",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5fb007a707c0ec3a7c1726af",
+        "spotify_artists01_genres": "edm, electro house, pop dance",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "Chemical Surf",
+        "spotify_artists02_id": "7LgAW1ZiEd8f3HtCMGFaGx",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb95937743bc43f4408033e7c6",
+        "spotify_artists02_genres": "brazilian edm",
+        "spotify_artists02_popularity": "50",
+        "spotify_artists03": "Zafrir",
+        "spotify_artists03_id": "3DJVDo0kd19fZXpTabasOX",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb0a909a4b4f1e9953092553ac",
+        "spotify_artists03_genres": "big room, slap house",
+        "spotify_artists03_popularity": "49",
+        "spotify_artists04": "Max-Africana",
+        "spotify_artists04_id": "56t1JMFLdAwMU8z1BO4JF0",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "xEySdVEssDU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Steve-Aoki-Chemical-Surf-Zafrir-Siliwa-Hay-ft.-Max-Africana.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1742,
+            "name": "Chemical Surf",
+            "slug": "chemical-surf",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1744,
+            "name": "Max Africana",
+            "slug": "max-africana",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1026,
+            "name": "Steve Aoki",
+            "slug": "steve-aoki",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1996",
+              "artistborn": "19771130",
+              "artistdied": "",
+              "artistjpname": "スティーブ・アオキ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "77AiFEVeAVj2ORpC85QVJs",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174cf85b39d94c486218a687248",
+              "youtube_channel": "UCALvGYb5h_MZCzW_vG8d8eQ",
+              "wikipedia_page": "Steve_Aoki"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1743,
+            "name": "Zafrir",
+            "slug": "zafrir",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Steve Aoki, Chemical Surf, Zafrir, Max-Africana",
+        "ytvideoid": "xEySdVEssDU",
+        "spotify_track_id": "2BxNmiURRvrvQutWGrUizS"
+      },
+      "genre_data": [
+        {
+          "name": "Electro house",
+          "slug": "electro-house",
+          "term_id": 492,
+          "post_count": 105
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "siliwa-hay"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

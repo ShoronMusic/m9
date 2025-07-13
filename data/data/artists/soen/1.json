@@ -1,0 +1,193 @@
+{
+  "artist": {
+    "id": 3302,
+    "count": 1,
+    "description": "Soen is a Swedish progressive metal group.",
+    "link": "https://sub.music8.jp/category/soen/",
+    "name": "SOEN",
+    "slug": "soen",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "2010",
+      "artistborn": "",
+      "artistjpname": "ソーエン",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3302",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3302"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3302"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52687,
+      "date": "2023-07-11T20:57:06",
+      "date_gmt": "2023-07-11T11:57:06",
+      "title": {
+        "rendered": "Memorial"
+      },
+      "content": {
+        "rendered": "<p>SOEN - Memorial</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3302
+      ],
+      "tags": [],
+      "genre": [
+        671
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4M2fSEcYoPxaOgL5v77ZpP",
+        "spotify_release_date": "2023-07-11",
+        "spotify_name": "Memorial",
+        "spotify_artists": "Soen",
+        "spotify_album": "Memorial",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273683f15d74189dc9fdb6d5460",
+        "spotify_duration_ms": "278186",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.473",
+        "spotify_energy": "0.917",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.3",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0588",
+        "spotify_tempo": "143.887",
+        "spotify_valence": "0.29",
+        "spotify_acousticness": "0.000413",
+        "spotify_instrumentalness": "0.0398",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.156",
+        "spotify_artists01": "Soen",
+        "spotify_artists01_id": "38uWD5h115pdz278q4rwZW",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd6471cca8c296101e8fa2520",
+        "spotify_artists01_genres": "progressive metal, swedish progressive metal",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "wNkeYB80MXk",
+        "ytreleasedate": "2023/07/11"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/SOEN-Memorial.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3302,
+            "name": "SOEN",
+            "slug": "soen",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2010",
+              "artistborn": "",
+              "artistjpname": "ソーエン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Soen",
+        "ytvideoid": "wNkeYB80MXk",
+        "spotify_track_id": "4M2fSEcYoPxaOgL5v77ZpP"
+      },
+      "genre_data": [
+        {
+          "name": "Progressive metal",
+          "slug": "progressive-metal",
+          "term_id": 671,
+          "post_count": 43
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "memorial"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

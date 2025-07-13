@@ -1,0 +1,203 @@
+{
+  "artist": {
+    "id": 4646,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/malena-narvay/",
+    "name": "Malena Narvay",
+    "slug": "malena-narvay",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4646",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4646"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4646"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 67407,
+      "date": "2024-04-19T22:42:36",
+      "date_gmt": "2024-04-19T13:42:36",
+      "title": {
+        "rendered": "Vienna"
+      },
+      "content": {
+        "rendered": "<p>Boris Brejcha, Malena Narvay - Vienna</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2348,
+        4646
+      ],
+      "tags": [],
+      "genre": [
+        622,
+        740
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "i3tfCXGuLhk",
+        "ytreleasedate": "2024/04/19",
+        "spotify_track_id": "6QVv6TgSDadag6ftb7BEmM",
+        "spotify_release_date": "2024-04-19",
+        "spotify_name": "Vienna - Edit",
+        "spotify_artists": "Boris Brejcha, Malena Narvay",
+        "spotify_album": "Level One",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733daeffe961c08e9377c822cc",
+        "spotify_duration_ms": "188160",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.76",
+        "spotify_energy": "0.726",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.115",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0352",
+        "spotify_tempo": "125.002",
+        "spotify_valence": "0.457",
+        "spotify_acousticness": "0.00121",
+        "spotify_instrumentalness": "0.706",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.114",
+        "spotify_artists01": "Boris Brejcha",
+        "spotify_artists01_id": "6caPJFLv1wesmM7gwK1ACy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb33c9b5dcc05194199aa68410",
+        "spotify_artists01_genres": "german house, german techno, high-tech minimal, minimal techno",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "Malena Narvay",
+        "spotify_artists02_id": "6mL3mccPFjmWrHUTC2Cm3i",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc359cd86a1637fcc52c66fc1",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "36",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2733daeffe961c08e9377c822cc.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2348,
+            "name": "Boris Brejcha",
+            "slug": "boris-brejcha",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "",
+              "artistborn": "19811126",
+              "artistdied": "",
+              "artistjpname": "ボリス・ブレッチャ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "6caPJFLv1wesmM7gwK1ACy",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517433c9b5dcc05194199aa68410"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4646,
+            "name": "Malena Narvay",
+            "slug": "malena-narvay",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Boris Brejcha, Malena Narvay",
+        "ytvideoid": "i3tfCXGuLhk",
+        "spotify_track_id": "6QVv6TgSDadag6ftb7BEmM"
+      },
+      "genre_data": [
+        {
+          "name": "Minimal",
+          "slug": "minimal",
+          "term_id": 622,
+          "post_count": 8
+        },
+        {
+          "name": "Tech house",
+          "slug": "tech-house",
+          "term_id": 740,
+          "post_count": 91
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "vienna-3"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

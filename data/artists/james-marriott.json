@@ -1,0 +1,82 @@
+{
+  "id": 6464,
+  "count": 8,
+  "description": "James Marriott is an English musician.",
+  "link": "https://sub.music8.jp/category/james-marriott/",
+  "name": "James Marriott",
+  "slug": "james-marriott",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2012",
+    "artistborn": "19970707",
+    "artistjpname": "ジェームス・マリオット",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "14apS9tKI3K30GK92BNQUL",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a55d7f2be5b26c4ee2c73566",
+    "youtube_channel": "UCx1KP78RnPligNhMTr1ymCw",
+    "wikipedia_page": "James_Marriott_(musician)"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6464",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6464"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6464"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ジェームス・マリオット",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a55d7f2be5b26c4ee2c73566",
+  "artistActiveYearStart": "2012",
+  "occupation": "singer, songwriter, musician"
+}

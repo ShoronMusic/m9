@@ -1,0 +1,222 @@
+{
+  "artist": {
+    "id": 4096,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/paula-hartmann/",
+    "name": "Paula Hartmann",
+    "slug": "paula-hartmann",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "",
+      "artistborn": "20010502",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4096",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4096"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4096"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 60676,
+      "date": "2024-01-19T22:06:09",
+      "date_gmt": "2024-01-19T13:06:09",
+      "title": {
+        "rendered": "sag was"
+      },
+      "content": {
+        "rendered": "<p>Paula Hartmann, t-low - sag was</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4096,
+        4097
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        657,
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "Paula Hartmann, t-low",
+        "spotify_track_id": "1phFx4XBj9VOSV5c8s4PQr",
+        "spotify_release_date": "2024-01-19",
+        "spotify_name": "sag was",
+        "spotify_artists": "Paula Hartmann, t-low",
+        "spotify_album": "sag was",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273fce0fbafbb3248ebc3b1353e",
+        "spotify_duration_ms": "202657",
+        "spotify_popularity": "71",
+        "spotify_danceability": "0.711",
+        "spotify_energy": "0.473",
+        "spotify_key": "0",
+        "spotify_loudness": "-9.194",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0962",
+        "spotify_tempo": "148.01",
+        "spotify_valence": "0.223",
+        "spotify_acousticness": "0.34",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.103",
+        "spotify_artists01": "Paula Hartmann",
+        "spotify_artists01_id": "3Fl31gc0mEUC2H0JWL1vic",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6db6bdfd82c3394a6af3399e",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "t-low",
+        "spotify_artists02_id": "3tQzzidoPfVifoURnDfgmD",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb70a0a42293053de2fcdb402f",
+        "spotify_artists02_genres": "german hip hop, german trap",
+        "spotify_artists02_popularity": "64",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "RmzdueiL2gA",
+        "ytreleasedate": "2024/01/19"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Paula-Hartmann-sag-was-feat.-t-low.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4096,
+            "name": "Paula Hartmann",
+            "slug": "paula-hartmann",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "",
+              "artistborn": "20010502",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4097,
+            "name": "t-low",
+            "slug": "t-low",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "",
+              "artistborn": "20010616",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Paula Hartmann, t-low",
+        "spotify_artists": "Paula Hartmann, t-low",
+        "ytvideoid": "RmzdueiL2gA",
+        "spotify_track_id": "1phFx4XBj9VOSV5c8s4PQr"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "sag-was"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

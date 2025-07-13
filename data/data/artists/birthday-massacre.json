@@ -1,0 +1,62 @@
+{
+  "id": 3011,
+  "count": 1,
+  "description": "The Birthday Massacre (TBM) is a Canadian rock band.",
+  "link": "https://sub.music8.jp/category/birthday-massacre/",
+  "name": "Birthday Massacre",
+  "slug": "birthday-massacre",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "1999",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・バースデイ・マッサカー",
+    "member": false
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3011",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3011"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3011"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ザ・バースデイ・マッサカー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1999",
+  "occupation": ""
+}

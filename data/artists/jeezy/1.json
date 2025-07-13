@@ -1,0 +1,269 @@
+{
+  "artist": {
+    "id": 5688,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/jeezy/",
+    "name": "Jeezy",
+    "slug": "jeezy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5688",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5688"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5688"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 78874,
+      "date": "2024-08-04T21:12:49",
+      "date_gmt": "2024-08-04T12:12:49",
+      "title": {
+        "rendered": "Gangsta Olympics"
+      },
+      "content": {
+        "rendered": "<p>Snoop Dogg, Ice Cube, Jeezy, T.I. - Gangsta Olympics</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4738,
+        5688,
+        1730,
+        3397
+      ],
+      "tags": [],
+      "genre": [
+        763
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "ytvideoid": "DOHAkMFYDG4",
+        "ytreleasedate": "2024/08/04",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "",
+        "spotify_release_date": "",
+        "spotify_name": "undefined",
+        "spotify_artists": "",
+        "spotify_album": "",
+        "spotify_images": "",
+        "spotify_duration_ms": "",
+        "spotify_popularity": "",
+        "spotify_danceability": "",
+        "spotify_energy": "",
+        "spotify_key": "",
+        "spotify_loudness": "",
+        "spotify_mode": "",
+        "spotify_speechiness": "",
+        "spotify_tempo": "",
+        "spotify_valence": "",
+        "spotify_acousticness": "",
+        "spotify_instrumentalness": "",
+        "spotify_time_signature": "",
+        "spotify_liveness": "",
+        "spotify_artists01": "",
+        "spotify_artists01_id": "",
+        "spotify_artists01_images": "",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Snoop-Dogg-Gangsta-Olympics.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4738,
+            "name": "Ice Cube",
+            "slug": "ice-cube",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1986",
+              "artistborn": "19690615",
+              "artistjpname": "アイス・キューブ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 5688,
+            "name": "Jeezy",
+            "slug": "jeezy",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1730,
+            "name": "Snoop Dogg",
+            "slug": "snoop-dogg",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1992",
+              "artistborn": "19711020",
+              "artistdied": "",
+              "artistjpname": "スヌープ・ドッグ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3397,
+            "name": "T.I.",
+            "slug": "t-i",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1999",
+              "artistborn": "19800925",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Ludacris (ludacris) | Jeezy | Juvenile (juvenile) | Twista (twista) | Trick Daddy | Lil Jon & The East Side Boyz | Plies | Bow Wow | Ying Yang Twins | Chamillionaire (chamillionaire) | Chingy (chingy) | David Banner | Fat Joe (fat-joe) | Birdman | Lil Jon (lil-jon) | Fabolous (fabolous) | T-Pain (t-pain) | Ja Rule (ja-rule) | Diddy (diddy) | Jadakiss",
+              "spotify_artist_id": "4OBJLual30L7gRl5UkeRcT",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517412057d342f33c61b3768f2bc"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "",
+        "ytvideoid": "DOHAkMFYDG4",
+        "spotify_track_id": ""
+      },
+      "genre_data": [
+        {
+          "name": "West Coast hip hop",
+          "slug": "west-coast-hip-hop",
+          "term_id": 763,
+          "post_count": 49
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "gangsta-olympics"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

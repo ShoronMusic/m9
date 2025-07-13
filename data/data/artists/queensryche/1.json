@@ -1,0 +1,193 @@
+{
+  "artist": {
+    "id": 3304,
+    "count": 1,
+    "description": "QUEENSRŸCHE is an American heavy metal band.",
+    "link": "https://sub.music8.jp/category/queensryche/",
+    "name": "QUEENSRŸCHE",
+    "slug": "queensryche",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1982",
+      "artistborn": "",
+      "artistjpname": "クイーンズライク",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3304",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3304"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3304"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52717,
+      "date": "2023-09-21T22:51:02",
+      "date_gmt": "2023-09-21T13:51:02",
+      "title": {
+        "rendered": "Rebel Yell"
+      },
+      "content": {
+        "rendered": "<p>QUEENSRŸCHE - Rebel Yell</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3304
+      ],
+      "tags": [],
+      "genre": [
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3UgRs0u3y4GnmYyazbPG8c",
+        "spotify_release_date": "2022-10-07",
+        "spotify_name": "Rebel Yell",
+        "spotify_artists": "Queensrÿche",
+        "spotify_album": "Digital Noise Alliance",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737e2fcf9d455c4ee0d153884f",
+        "spotify_duration_ms": "288226",
+        "spotify_popularity": "28",
+        "spotify_danceability": "0.466",
+        "spotify_energy": "0.916",
+        "spotify_key": "11",
+        "spotify_loudness": "-4.461",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0499",
+        "spotify_tempo": "166.06",
+        "spotify_valence": "0.8",
+        "spotify_acousticness": "0.00243",
+        "spotify_instrumentalness": "0.0621",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.359",
+        "spotify_artists01": "Queensrÿche",
+        "spotify_artists01_id": "2OgUPVlWYgGBGMefZgGvCO",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6cdde60b6c8838aeb82dfb41",
+        "spotify_artists01_genres": "album rock, glam metal, hard rock, metal, progressive metal, speed metal, us power metal",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "egNisxVj1LA",
+        "ytreleasedate": "2023/09/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/QUEENSRYCHE-Rebel-Yell.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3304,
+            "name": "QUEENSRŸCHE",
+            "slug": "queensryche",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1982",
+              "artistborn": "",
+              "artistjpname": "クイーンズライク",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Queensrÿche",
+        "ytvideoid": "egNisxVj1LA",
+        "spotify_track_id": "3UgRs0u3y4GnmYyazbPG8c"
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rebel-yell-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

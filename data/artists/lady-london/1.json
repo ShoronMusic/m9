@@ -1,0 +1,344 @@
+{
+  "artist": {
+    "id": 3393,
+    "count": 2,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/lady-london/",
+    "name": "Lady London",
+    "slug": "lady-london",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3393",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3393"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3393"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 54886,
+      "date": "2023-11-04T22:14:07",
+      "date_gmt": "2023-11-04T13:14:07",
+      "title": {
+        "rendered": "Do Something"
+      },
+      "content": {
+        "rendered": "<p>Lady London, Jeremih - Do Something</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2794,
+        3393
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3WaojRhCnye5o9CPS618wn",
+        "spotify_release_date": "2023-10-20",
+        "spotify_name": "Do Something (with Jeremih)",
+        "spotify_artists": "Lady London, Jeremih",
+        "spotify_album": "Do Something",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b2f4d96a96e189fa2904b324",
+        "spotify_duration_ms": "165637",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.589",
+        "spotify_energy": "0.638",
+        "spotify_key": "6",
+        "spotify_loudness": "-6.42",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.31",
+        "spotify_tempo": "127.91",
+        "spotify_valence": "0.537",
+        "spotify_acousticness": "0.12",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "5",
+        "spotify_liveness": "0.177",
+        "spotify_artists01": "Lady London",
+        "spotify_artists01_id": "44qqbgojo0P8r68CuRbSN4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbfef07cb2d86ab467774cd91",
+        "spotify_artists01_genres": "new jersey underground rap, trap queen",
+        "spotify_artists01_popularity": "42",
+        "spotify_artists02": "Jeremih",
+        "spotify_artists02_id": "3KV3p5EY4AvKxOlhGHORLg",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb7a5ad304c840e1e3ff1536c7",
+        "spotify_artists02_genres": "chicago rap, pop rap, r&b, trap, urban contemporary",
+        "spotify_artists02_popularity": "71",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "f3RsAt21mTQ",
+        "ytreleasedate": "2023/11/04"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lady-London-Jeremih-Do-Something.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2794,
+            "name": "Jeremih",
+            "slug": "jeremih",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2008",
+              "artistborn": "19870717",
+              "artistdied": "",
+              "artistjpname": "ジェレマイ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3393,
+            "name": "Lady London",
+            "slug": "lady-london",
+            "acf": {
+              "artistorigin": "",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Lady London, Jeremih",
+        "ytvideoid": "f3RsAt21mTQ",
+        "spotify_track_id": "3WaojRhCnye5o9CPS618wn"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "do-something"
+    },
+    {
+      "id": 53501,
+      "date": "2023-09-30T21:04:30",
+      "date_gmt": "2023-09-30T12:04:30",
+      "title": {
+        "rendered": "Yea Yea"
+      },
+      "content": {
+        "rendered": "<p>Lady London - Yea Yea with Dreezy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3394,
+        3393
+      ],
+      "tags": [],
+      "genre": [
+        564
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "5vDaxi6wSFM79RSI8AWJFS",
+        "spotify_release_date": "2023-09-29",
+        "spotify_name": "Yea Yea (with Dreezy)",
+        "spotify_artists": "Lady London, Dreezy",
+        "spotify_album": "Yea Yea",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a778e4729491a3cf97db4e61",
+        "spotify_duration_ms": "183834",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.815",
+        "spotify_energy": "0.503",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.687",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.252",
+        "spotify_tempo": "91.016",
+        "spotify_valence": "0.444",
+        "spotify_acousticness": "0.258",
+        "spotify_instrumentalness": "0.000697",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.19",
+        "spotify_artists01": "Lady London",
+        "spotify_artists01_id": "44qqbgojo0P8r68CuRbSN4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbfef07cb2d86ab467774cd91",
+        "spotify_artists01_genres": "new jersey underground rap, trap queen",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "ドリージー",
+        "spotify_artists02_id": "7gWumE1wMALHXANLSIt054",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb7e4ce6fbd012d0b1260ea5fa",
+        "spotify_artists02_genres": "chicago rap, drill, trap queen",
+        "spotify_artists02_popularity": "49",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "-cvjtjRerMw",
+        "ytreleasedate": "2023/09/30"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lady-London-Yea-Yea-with-Dreezy.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3394,
+            "name": "Dreezy",
+            "slug": "dreezy",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19940328",
+              "artistjpname": "ドリージー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3393,
+            "name": "Lady London",
+            "slug": "lady-london",
+            "acf": {
+              "artistorigin": "",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Lady London, Dreezy",
+        "ytvideoid": "-cvjtjRerMw",
+        "spotify_track_id": "5vDaxi6wSFM79RSI8AWJFS"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "yea-yea"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

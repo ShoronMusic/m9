@@ -1,0 +1,207 @@
+{
+  "artist": {
+    "id": 2433,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/fear-factory/",
+    "name": "Fear Factory",
+    "slug": "fear-factory",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2433",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2433"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2433"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38814,
+      "date": "2022-09-22T00:02:00",
+      "date_gmt": "2022-09-21T15:02:00",
+      "title": {
+        "rendered": "Disobey - Disruptor Remix"
+      },
+      "content": {
+        "rendered": "\n<p>FEARFACTORYxZARDONIC-Disobey-DisruptorRemix</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2433,
+        2434
+      ],
+      "tags": [],
+      "genre": [
+        577
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3kIVTsHvqn2CahqDWcDObq",
+        "spotify_release_date": "2022/10/28",
+        "spotify_name": "Disobey-DisruptorRemix",
+        "spotify_artists": "FearFactory,Zardonic",
+        "spotify_album": "Recoded",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c64bd25dec059fe50e397616",
+        "spotify_duration_ms": "208250",
+        "spotify_popularity": "45",
+        "spotify_danceability": "0.576",
+        "spotify_energy": "0.906",
+        "spotify_key": "2",
+        "spotify_loudness": "-4.338",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0475",
+        "spotify_tempo": "133.045",
+        "spotify_valence": "0.393",
+        "spotify_acousticness": "1.54E-05",
+        "spotify_instrumentalness": "0.000833",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.328",
+        "spotify_artists01": "FearFactory",
+        "spotify_artists01_id": "74Hj7BmnUXyx2udrIEIKwX",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb972d48538fd59d9d8dd4484",
+        "spotify_artists01_genres": "alternativemetal,groovemetal,industrialmetal,metal,numetal,rapmetal",
+        "spotify_artists01_popularity": "54",
+        "spotify_artists02": "Zardonic",
+        "spotify_artists02_id": "7BqEidErPMNiUXCRE0dV2n",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb8d3a4c0612ef14df8c8bff86",
+        "spotify_artists02_genres": "darkstep,futurerock",
+        "spotify_artists02_popularity": "48",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "EKb5tDJZKfg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/FEAR-FACTORY-x-ZARDONIC-Disobey-Disruptor-Remix.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2433,
+            "name": "Fear Factory",
+            "slug": "fear-factory",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2434,
+            "name": "Zardonic",
+            "slug": "zardonic",
+            "acf": {
+              "artistorigin": "VEN",
+              "artistactiveyearstart": "2001",
+              "artistborn": "19851022",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": [
+                {
+                  "term_id": 906,
+                  "name": "Prince",
+                  "slug": "prince",
+                  "term_group": 0,
+                  "term_taxonomy_id": 906,
+                  "taxonomy": "category",
+                  "description": "Prince was an American singer, songwriter, musician, record producer, and actor.",
+                  "parent": 0,
+                  "count": 66,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "FearFactory,Zardonic",
+        "ytvideoid": "EKb5tDJZKfg",
+        "spotify_track_id": "3kIVTsHvqn2CahqDWcDObq"
+      },
+      "genre_data": [
+        {
+          "name": "Industrial metal",
+          "slug": "industrial-metal",
+          "term_id": 577,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "disobey-disruptor-remix"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

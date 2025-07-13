@@ -1,0 +1,214 @@
+{
+  "artist": {
+    "id": 2556,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/parachute/",
+    "name": "Parachute",
+    "slug": "parachute",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2556",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2556"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2556"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40251,
+      "date": "2022-02-17T23:39:00",
+      "date_gmt": "2022-02-17T14:39:00",
+      "title": {
+        "rendered": "Emotion Sickness"
+      },
+      "content": {
+        "rendered": "\n<p>SaidTheSky,WillAnderson,Parachute-EmotionSickness</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2556,
+        2554,
+        2555
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5NWyhQjPTh37ygOq4UHYZk",
+        "spotify_release_date": "2022/2/18",
+        "spotify_name": "EmotionSickness",
+        "spotify_artists": "SaidTheSky,Parachute,WillAnderson",
+        "spotify_album": "Sentiment",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731da2e316376d4701ace02c53",
+        "spotify_duration_ms": "202493",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.465",
+        "spotify_energy": "0.7",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.888",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0378",
+        "spotify_tempo": "168.044",
+        "spotify_valence": "0.235",
+        "spotify_acousticness": "0.0214",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.112",
+        "spotify_artists01": "SaidTheSky",
+        "spotify_artists01_id": "4LZ4De2MoO3lP6QaNCfvcu",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcd9e2b8f901285164a7fde6c",
+        "spotify_artists01_genres": "melodicdubstep,popedm",
+        "spotify_artists01_popularity": "58",
+        "spotify_artists02": "Parachute",
+        "spotify_artists02_id": "2PCUhxD40qlMqsKHjTZD2e",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb16b0f08dff5ee0de681b08b7",
+        "spotify_artists02_genres": "acousticpop,charlottesvilleindie,neomellow,neonpoppunk,poprock,viralpop",
+        "spotify_artists02_popularity": "52",
+        "spotify_artists03": "WillAnderson",
+        "spotify_artists03_id": "3jASw3YQHarl90fZWNyCdn",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb3341452e660e3a841a8afb0e",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "36",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "jspfON3QiiU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Said-The-Sky-Will-Anderson-Parachute-Emotion-Sickness.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2556,
+            "name": "Parachute",
+            "slug": "parachute",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2554,
+            "name": "Said The Sky",
+            "slug": "said-the-sky",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "19930512",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2555,
+            "name": "Will Anderson",
+            "slug": "will-anderson",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SaidTheSky,Parachute,WillAnderson",
+        "ytvideoid": "jspfON3QiiU",
+        "spotify_track_id": "5NWyhQjPTh37ygOq4UHYZk"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "emotion-sickness"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,76 @@
+{
+  "id": 1950,
+  "count": 1,
+  "description": "K's Choice is a Belgian rock band",
+  "link": "https://sub.music8.jp/category/ks-choice/",
+  "name": "K's Choice",
+  "slug": "ks-choice",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "BEL",
+    "artistactiveyearstart": "1994",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ケーズチョイス",
+    "member": [
+      {
+        "term_id": 941,
+        "name": "Deacon Blue",
+        "slug": "deacon-blue",
+        "term_group": 0,
+        "term_taxonomy_id": 941,
+        "taxonomy": "category",
+        "description": "Deacon Blue is a Scottish pop band.",
+        "parent": 0,
+        "count": 17,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1950",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1950"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1950"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ケーズチョイス",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1994",
+  "occupation": ""
+}

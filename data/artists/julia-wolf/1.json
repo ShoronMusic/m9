@@ -1,0 +1,370 @@
+{
+  "artist": {
+    "id": 2360,
+    "count": 2,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/julia-wolf/",
+    "name": "Julia Wolf",
+    "slug": "julia-wolf",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2360",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2360"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2360"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 99168,
+      "date": "2025-05-14T22:23:27",
+      "date_gmt": "2025-05-14T13:23:27",
+      "title": {
+        "rendered": "iris"
+      },
+      "content": {
+        "rendered": "<p>mgk, Julia Wolf - iris</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2360,
+        1425
+      ],
+      "tags": [
+        6163
+      ],
+      "genre": [
+        411,
+        663
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "JrrOTZlqK7A",
+        "ytreleasedate": "2025/05/14",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5NnHfx430GU4gpG7Q285hZ",
+        "spotify_release_date": "2025-05-13",
+        "spotify_name": "iris",
+        "spotify_artists": "mgk, Julia Wolf",
+        "spotify_album": "iris",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27362722de2e3c30411d9201587",
+        "spotify_duration_ms": "196875",
+        "spotify_popularity": "61",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "mgk",
+        "spotify_artists01_id": "6TIYQ3jFPwQSRmorSezPxX",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6659c0c409fee150c1f7c879",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "78",
+        "spotify_artists02": "Julia Wolf",
+        "spotify_artists02_id": "5yvGiZLSWJTPBlZpVbPnEZ",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb738567b2e435de2e4df64e6c",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "61",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/mgk-julia-wolf-iris.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2360,
+            "name": "Julia Wolf",
+            "slug": "julia-wolf",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1425,
+            "name": "Machine Gun Kelly",
+            "slug": "machine-gun-kelly",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "19900422",
+              "artistdied": "",
+              "artistjpname": "マシン・ガン・ケリー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                },
+                {
+                  "value": "guitaristr",
+                  "label": "Guitarist"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "6TIYQ3jFPwQSRmorSezPxX",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051746659c0c409fee150c1f7c879",
+              "youtube_channel": "UCUs8sGiP4avNaYNVO22INhQ",
+              "wikipedia_page": "Machine_Gun_Kelly_(musician)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "mgk, Julia Wolf",
+        "ytvideoid": "JrrOTZlqK7A",
+        "spotify_track_id": "5NnHfx430GU4gpG7Q285hZ"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Post-grunge",
+          "slug": "post-grunge",
+          "term_id": 663,
+          "post_count": 99
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "iris-3"
+    },
+    {
+      "id": 38222,
+      "date": "2022-12-22T01:33:00",
+      "date_gmt": "2022-12-21T16:33:00",
+      "title": {
+        "rendered": "Gothic Babe Tendencies"
+      },
+      "content": {
+        "rendered": "\n<p>JuliaWolf-GothicBabeTendencies(ft.blackbear)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1285,
+        2360
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0SGeEJ5gbYEZQMj3kFUzwR",
+        "spotify_release_date": "2023/1/13",
+        "spotify_name": "GothicBabeTendencies(feat.blackbear)",
+        "spotify_artists": "JuliaWolf,blackbear",
+        "spotify_album": "GoodThingWeStayed",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736d4b7f6c321a2451a92053e4",
+        "spotify_duration_ms": "303544",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.699",
+        "spotify_energy": "0.554",
+        "spotify_key": "0",
+        "spotify_loudness": "-8.492",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0308",
+        "spotify_tempo": "135.923",
+        "spotify_valence": "0.407",
+        "spotify_acousticness": "0.387",
+        "spotify_instrumentalness": "1.74E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.184",
+        "spotify_artists01": "JuliaWolf",
+        "spotify_artists01_id": "5yvGiZLSWJTPBlZpVbPnEZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0e89219994a9f28e58d0e2e6",
+        "spotify_artists01_genres": "altz",
+        "spotify_artists01_popularity": "47",
+        "spotify_artists02": "blackbear",
+        "spotify_artists02_id": "2cFrymmkijnjDg9SS92EPM",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb4f7d049994ac00ed885bfbf2",
+        "spotify_artists02_genres": "pop",
+        "spotify_artists02_popularity": "76",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ilCI8A0Bm8U",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Julia-Wolf-Gothic-Babe-Tendencies-ft.-blackbear.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1285,
+            "name": "blackbear",
+            "slug": "blackbear",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2006",
+              "artistborn": "19901127",
+              "artistdied": "",
+              "artistjpname": "ブラックベア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "mansionz (mansionz) | Gnash (gnash) | EDEN | mgk (machine-gun-kelly) | yungblud (yungblud) | Jeremy Zucker (jeremy-zucker) | Bazzi (bazzi) | Jon Bellion (jon-bellion) | G-Eazy (g-eazy) | Quinn XCII (quinn-xcll) | Arizona Zervas (arizona-zervas) | Bryce Vine (bryce-vine) | iann dior (iann-dior) | Trevor Daniel (trevor-daniel) | Alec Benjamin (alec-benjamin) | NF (nf) | jxdn (jxdn) | KYLE (kyle) | Russ (russ) | Olivia O'Brien (olivia-obrien)",
+              "spotify_artist_id": "2cFrymmkijnjDg9SS92EPM",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051744f7d049994ac00ed885bfbf2"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2360,
+            "name": "Julia Wolf",
+            "slug": "julia-wolf",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "JuliaWolf,blackbear",
+        "ytvideoid": "ilCI8A0Bm8U",
+        "spotify_track_id": "0SGeEJ5gbYEZQMj3kFUzwR"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "gothic-babe-tendencies"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

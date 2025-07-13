@@ -1,0 +1,76 @@
+{
+  "id": 4581,
+  "count": 7,
+  "description": "Tom Misch is an English musician and producer.",
+  "link": "https://sub.music8.jp/category/tom-misch/",
+  "name": "Tom Misch",
+  "slug": "tom-misch",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2012",
+    "artistborn": "19950625",
+    "artistjpname": "トム・ミッシュ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1uiEZYehlNivdK3iQyAbye",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174516a63a0cb7adbfff5a61d7f"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4581",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4581"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4581"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "トム・ミッシュ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174516a63a0cb7adbfff5a61d7f",
+  "artistActiveYearStart": "2012",
+  "occupation": "musician, producer"
+}

@@ -1,0 +1,217 @@
+{
+  "artist": {
+    "id": 2350,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/jimmy-chou/",
+    "name": "Jimmy Chou",
+    "slug": "jimmy-chou",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2350",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2350"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2350"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38210,
+      "date": "2022-12-31T09:54:00",
+      "date_gmt": "2022-12-31T00:54:00",
+      "title": {
+        "rendered": "I Wish"
+      },
+      "content": {
+        "rendered": "\n<p>AndrewRayel&amp;RobbieSeed&amp;JimmyChoufeat.ThatGirl-IWish</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2349,
+        2350,
+        2351,
+        2352
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        747
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "10dDX4YFPmw",
+        "likecount": "1",
+        "spotify_track_id": "4AifoTYNwGoMgHsF9ulTiP",
+        "spotify_release_date": "2022/11/25",
+        "spotify_name": "IWish",
+        "spotify_artists": "Andrew Rayel, Robbie Seed, Jimmy Chou, That Girl",
+        "spotify_album": "IWish",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a567c9b350137b87be94e856",
+        "spotify_duration_ms": "215000",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.449",
+        "spotify_energy": "0.954",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.732",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0601",
+        "spotify_tempo": "138.027",
+        "spotify_valence": "0.344",
+        "spotify_acousticness": "0.00167",
+        "spotify_instrumentalness": "0.00765",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0663",
+        "spotify_artists01": "AndrewRayel",
+        "spotify_artists01_id": "1UtBjqMZBAmqIPlDrKu7Tr",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf8278998aebdcf25a8149746",
+        "spotify_artists01_genres": "edm,moldovanpop,popdance,progressivehouse,trance",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "RobbieSeed",
+        "spotify_artists02_id": "6jbM9dszTY66L2Q7E1U0ll",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb7b6cc1741b981c938c349acd",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "36",
+        "spotify_artists03": "JimmyChou",
+        "spotify_artists03_id": "6btaXnQC9Dn7HpqVderpBh",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb2fa1f4bc7f744d0b0e88e5bc",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "32",
+        "spotify_artists04": "ThatGirl",
+        "spotify_artists04_id": "7AF04fxdnfv9qKODrd0poh",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5ebe2d8bdabe1171c2c077dfb64",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Andrew-Rayel-Robbie-Seed-Jimmy-Chou-feat.-That-Girl-I-Wish.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2349,
+            "name": "Andrew Rayel",
+            "slug": "andrew-rayel",
+            "acf": {
+              "artistorigin": "MDA",
+              "artistactiveyearstart": "2009",
+              "artistborn": "19920721",
+              "artistdied": "",
+              "artistjpname": "アンドリュー・ライエル",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2350,
+            "name": "Jimmy Chou",
+            "slug": "jimmy-chou",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2351,
+            "name": "Robbie Seed",
+            "slug": "robbie-seed",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2352,
+            "name": "That Girl",
+            "slug": "that-girl",
+            "acf": {
+              "artistorigin": "",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Andrew Rayel, Robbie Seed, Jimmy Chou, That Girl",
+        "ytvideoid": "10dDX4YFPmw",
+        "spotify_track_id": "4AifoTYNwGoMgHsF9ulTiP"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "i-wish-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,184 @@
+{
+  "artist": {
+    "id": 4644,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/cris-mj/",
+    "name": "Cris MJ",
+    "slug": "cris-mj",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "CHI",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4644",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4644"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4644"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 67400,
+      "date": "2024-05-24T22:24:12",
+      "date_gmt": "2024-05-24T13:24:12",
+      "title": {
+        "rendered": "SI NO ES CONTIGO"
+      },
+      "content": {
+        "rendered": "<p>Cris MJ - SI NO ES CONTIGO</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4644
+      ],
+      "tags": [],
+      "genre": [
+        693
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "vX1fgqKXSsk",
+        "ytreleasedate": "2024/05/25",
+        "spotify_track_id": "5Uptvz6j1sjDKxidAcnH2L",
+        "spotify_release_date": "2024-05-23",
+        "spotify_name": "SI NO ES CONTIGO",
+        "spotify_artists": "Cris Mj",
+        "spotify_album": "SI NO ES CONTIGO",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27327cef9ad8cfccf2c535d4c7a",
+        "spotify_duration_ms": "156020",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.763",
+        "spotify_energy": "0.626",
+        "spotify_key": "5",
+        "spotify_loudness": "-5.637",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0433",
+        "spotify_tempo": "100.02",
+        "spotify_valence": "0.78",
+        "spotify_acousticness": "0.0859",
+        "spotify_instrumentalness": "0.225",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.205",
+        "spotify_artists01": "Cris Mj",
+        "spotify_artists01_id": "1Yj5Xey7kTwvZla8sqdsdE",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb8ec5f4d4241631f8593f52c1",
+        "spotify_artists01_genres": "mambo chileno, trap latino, urbano chileno, urbano latino",
+        "spotify_artists01_popularity": "83",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27327cef9ad8cfccf2c535d4c7a.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4644,
+            "name": "Cris MJ",
+            "slug": "cris-mj",
+            "acf": {
+              "artistorigin": "CHI",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Cris Mj",
+        "ytvideoid": "vX1fgqKXSsk",
+        "spotify_track_id": "5Uptvz6j1sjDKxidAcnH2L"
+      },
+      "genre_data": [
+        {
+          "name": "Reggaeton",
+          "slug": "reggaeton",
+          "term_id": 693,
+          "post_count": 41
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "si-no-es-contigo"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

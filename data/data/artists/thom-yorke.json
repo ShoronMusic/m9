@@ -1,0 +1,94 @@
+{
+  "id": 3420,
+  "count": 6,
+  "description": "Thom Yorke is an English musician , the main vocalist and songwriter of the rock band Radiohead.",
+  "link": "https://sub.music8.jp/category/thom-yorke/",
+  "name": "Thom Yorke",
+  "slug": "thom-yorke",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1985",
+    "artistborn": "19661007",
+    "artistjpname": "トム・ヨーク",
+    "member": [
+      {
+        "term_id": 1373,
+        "name": "Radiohead",
+        "slug": "radiohead",
+        "term_group": 0,
+        "term_taxonomy_id": 1373,
+        "taxonomy": "category",
+        "description": "Radiohead are an English rock band",
+        "parent": 0,
+        "count": 38,
+        "filter": "raw"
+      },
+      {
+        "term_id": 3209,
+        "name": "Smile",
+        "slug": "smile",
+        "term_group": 0,
+        "term_taxonomy_id": 3209,
+        "taxonomy": "category",
+        "description": "The Smile are an English rock band.",
+        "parent": 0,
+        "count": 8,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3420",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3420"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3420"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "トム・ヨーク",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1985",
+  "occupation": "ssw"
+}

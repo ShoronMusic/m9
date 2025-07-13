@@ -1,0 +1,72 @@
+{
+  "id": 1113,
+  "count": 4,
+  "description": "Backstreet Boys (BSB) are an American vocal group.",
+  "link": "https://sub.music8.jp/category/backstreet-boys/",
+  "name": "Backstreet Boys",
+  "slug": "backstreet-boys",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1993",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "バックストリート・ボーイズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "group",
+        "label": "Group"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5rSXSAkZ67PYJSvpUpkOr7",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d792783a725a0ed42866204c"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1113",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1113"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1113"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "バックストリート・ボーイズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174d792783a725a0ed42866204c",
+  "artistActiveYearStart": "1993",
+  "occupation": "group"
+}

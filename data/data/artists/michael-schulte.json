@@ -1,0 +1,76 @@
+{
+  "id": 3048,
+  "count": 5,
+  "description": "Michael Schulte is a German singer and songwriter.",
+  "link": "https://sub.music8.jp/category/michael-schulte/",
+  "name": "Michael Schulte",
+  "slug": "michael-schulte",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "2008",
+    "artistborn": "19900430",
+    "artistdied": "",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 768,
+        "name": "Sting",
+        "slug": "sting",
+        "term_group": 0,
+        "term_taxonomy_id": 768,
+        "taxonomy": "category",
+        "description": "Sting, is an English musician and actor. He was the frontman, songwriter and bassist for new wave band the Police.",
+        "parent": 0,
+        "count": 50,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3048",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3048"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3048"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2008",
+  "occupation": ""
+}

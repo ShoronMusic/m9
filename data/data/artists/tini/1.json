@@ -1,0 +1,427 @@
+{
+  "artist": {
+    "id": 1200,
+    "count": 2,
+    "description": "ARG",
+    "link": "https://sub.music8.jp/category/tini/",
+    "name": "TINI",
+    "slug": "tini",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1200",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1200"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1200"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 99480,
+      "date": "2025-05-16T12:07:03",
+      "date_gmt": "2025-05-16T03:07:03",
+      "title": {
+        "rendered": "STRANGERS"
+      },
+      "content": {
+        "rendered": "<p>JP Saxe, TINI - STRANGERS</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1653,
+        1200
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "IHMQbxdLJWA",
+        "ytreleasedate": "2025/05/16",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "682vct7cxeNq8i3RHKg61a",
+        "spotify_release_date": "2025-05-16",
+        "spotify_name": "STRANGERS (feat. TINI)",
+        "spotify_artists": "JP Saxe, TINI",
+        "spotify_album": "STRANGERS (feat. TINI)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ca02bd6205b02426fd3db1a8",
+        "spotify_duration_ms": "201706",
+        "spotify_popularity": "25",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "JP Saxe",
+        "spotify_artists01_id": "66W9LaWS0DPdL7Sz8iYGYe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf1b69cfc6644a19595de37be",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "TINI",
+        "spotify_artists02_id": "7vXDAI8JwjW531ouMGbfcp",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb43f8f52ac55da2d54fc8fdca",
+        "spotify_artists02_genres": "latin pop",
+        "spotify_artists02_popularity": "79",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/jp-saxe-tini-strangers.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1653,
+            "name": "JP Saxe",
+            "slug": "jp-saxe",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19930323",
+              "artistdied": "",
+              "artistjpname": "JPサックス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1200,
+            "name": "TINI",
+            "slug": "tini",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "JP Saxe, TINI",
+        "ytvideoid": "IHMQbxdLJWA",
+        "spotify_track_id": "682vct7cxeNq8i3RHKg61a"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "strangers-8"
+    },
+    {
+      "id": 42283,
+      "date": "2019-02-27T13:26:00",
+      "date_gmt": "2019-02-27T04:26:00",
+      "title": {
+        "rendered": "Wild"
+      },
+      "content": {
+        "rendered": "\n<p>JonasBlue-Wildft.ChelceeGrimes,TINI,JhayCortez</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1201,
+        1202,
+        779,
+        1200
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        693,
+        752
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "1kEc9ep3rFqhwG4OlqbjLH",
+        "spotify_release_date": "2018/11/9",
+        "spotify_name": "Wild",
+        "spotify_artists": "Jonas Blue, Chelcee Grimes, TINI, Jhayco",
+        "spotify_album": "Blue",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735b6bcc59c3562a6f362344c6",
+        "spotify_duration_ms": "212640",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.73",
+        "spotify_energy": "0.8",
+        "spotify_key": "8",
+        "spotify_loudness": "-3.956",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0847",
+        "spotify_tempo": "104.857",
+        "spotify_valence": "0.642",
+        "spotify_acousticness": "0.0859",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.112",
+        "spotify_artists01": "Jonas Blue",
+        "spotify_artists01_id": "1HBjj22wzbscIZ9sEb5dyf",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4f5914db88341591a13ba9c0",
+        "spotify_artists01_genres": "pop, pop dance, tropical house, uk dance",
+        "spotify_artists01_popularity": "74",
+        "spotify_artists02": "Chelcee Grimes",
+        "spotify_artists02_id": "1YQf1satVqyqSOp5FUvDKx",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb3fa0017163ecb72255f1961f",
+        "spotify_artists02_genres": "liverpool indie",
+        "spotify_artists02_popularity": "31",
+        "spotify_artists03": "TINI",
+        "spotify_artists03_id": "7vXDAI8JwjW531ouMGbfcp",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebd1ee0c41d3c79e916b910696",
+        "spotify_artists03_genres": "latin pop, pop argentino",
+        "spotify_artists03_popularity": "77",
+        "spotify_artists04": "Jhayco",
+        "spotify_artists04_id": "6nVcHLIgY5pE2YCl8ubca1",
+        "spotify_artists04_images": "https://i.scdn.co/image/ab6761610000e5ebd8ff1e5648c9a11c7025b2e3",
+        "spotify_artists04_genres": "reggaeton, trap latino, urbano latino",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "BQogzYUoQWU",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Jonas-Blue-Wild-ft.-Chelcee-Grimes-TINI-Jhay-Cortez.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1201,
+            "name": "Chelcee Grimes",
+            "slug": "chelcee-grimes",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1202,
+            "name": "Jhay Cortez",
+            "slug": "jhay-cortez",
+            "acf": {
+              "artistorigin": "PUR",
+              "artistactiveyearstart": "2013",
+              "artistborn": "19930409",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 779,
+            "name": "Jonas Blue",
+            "slug": "jonas-blue",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19890802",
+              "artistdied": "",
+              "artistjpname": "ジョナス・ブルー",
+              "member": false,
+              "artistimage1": {
+                "ID": 68056,
+                "id": 68056,
+                "title": "jonas-blue",
+                "filename": "jonas-blue.webp",
+                "filesize": 11720,
+                "url": "https://sub.music8.jp/wp-content/uploads/jonas-blue.webp",
+                "link": "https://sub.music8.jp/jonas-blue/",
+                "alt": "",
+                "author": "1",
+                "description": "",
+                "caption": "",
+                "name": "jonas-blue",
+                "status": "inherit",
+                "uploaded_to": 0,
+                "date": "2024-06-02 01:11:56",
+                "modified": "2024-06-02 01:11:56",
+                "menu_order": 0,
+                "mime_type": "image/webp",
+                "type": "image",
+                "subtype": "webp",
+                "icon": "https://sub.music8.jp/wp-includes/images/media/default.png",
+                "width": 350,
+                "height": 350,
+                "sizes": {
+                  "thumbnail": "https://sub.music8.jp/wp-content/uploads/jonas-blue.webp",
+                  "thumbnail-width": 50,
+                  "thumbnail-height": 50,
+                  "medium": "https://sub.music8.jp/wp-content/uploads/jonas-blue-50x50.webp",
+                  "medium-width": 50,
+                  "medium-height": 50,
+                  "medium_large": "https://sub.music8.jp/wp-content/uploads/jonas-blue.webp",
+                  "medium_large-width": 350,
+                  "medium_large-height": 350,
+                  "large": "https://sub.music8.jp/wp-content/uploads/jonas-blue-100x100.webp",
+                  "large-width": 100,
+                  "large-height": 100,
+                  "1536x1536": "https://sub.music8.jp/wp-content/uploads/jonas-blue.webp",
+                  "1536x1536-width": 350,
+                  "1536x1536-height": 350,
+                  "2048x2048": "https://sub.music8.jp/wp-content/uploads/jonas-blue.webp",
+                  "2048x2048-width": 350,
+                  "2048x2048-height": 350
+                }
+              },
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Sigala (sigala) | Cheat Codes (cheat-codes) | Jax Jones (jax-jones) | Sam Feldt (sam-feldt) | Mike Perry | Galantis (galantis) | Zedd (zedd) | Clean Bandit (clean-bandit) | Felix Jaehn (felix-jaehn) | Alesso (alesso) | Kygo (kygo) | Axwell /\\ Ingrosso | Martin Jensen | Lost Frequencies (lost-frequencies) | Robin Schulz (robin-schulz) | Gryffin (gryffin) | R3HAB (r3hab) | Cash Cash | Zara Larsson (zara-larsson) | OMI",
+              "spotify_artist_id": "1HBjj22wzbscIZ9sEb5dyf",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174dc7a79e8289eef8f8778b88f"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1200,
+            "name": "TINI",
+            "slug": "tini",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Jonas Blue, Chelcee Grimes, TINI, Jhayco",
+        "ytvideoid": "BQogzYUoQWU",
+        "spotify_track_id": "1kEc9ep3rFqhwG4OlqbjLH"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Reggaeton",
+          "slug": "reggaeton",
+          "term_id": 693,
+          "post_count": 41
+        },
+        {
+          "name": "Tropical house",
+          "slug": "tropical-house",
+          "term_id": 752,
+          "post_count": 101
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "jonas-blue-wild"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

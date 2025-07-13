@@ -1,0 +1,69 @@
+{
+  "id": 1276,
+  "count": 25,
+  "description": "The Veronicas is an Australian pop duo",
+  "link": "https://sub.music8.jp/category/veronicas/",
+  "name": "Veronicas",
+  "slug": "veronicas",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "2001",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・ヴェロニカズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      }
+    ]
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1276",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1276"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1276"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ザ・ヴェロニカズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2001",
+  "occupation": "duo"
+}

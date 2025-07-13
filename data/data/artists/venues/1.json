@@ -1,0 +1,453 @@
+{
+  "artist": {
+    "id": 3403,
+    "count": 3,
+    "description": "VENUES is a German post-hardcore band.",
+    "link": "https://sub.music8.jp/category/venues/",
+    "name": "VENUES",
+    "slug": "venues",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "2015",
+      "artistborn": "",
+      "artistjpname": "ヴェニューズ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3403",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3403"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3403"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 62824,
+      "date": "2024-03-01T10:27:37",
+      "date_gmt": "2024-03-01T01:27:37",
+      "title": {
+        "rendered": "Godspeed, Goodbye"
+      },
+      "content": {
+        "rendered": "<p>VENUES - Godspeed, Goodbye</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3403
+      ],
+      "tags": [],
+      "genre": [
+        664
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "U9v3C1oU6A0",
+        "ytreleasedate": "2024/03/01",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0aLbVL9lAeXmvEJKMuWp2t",
+        "spotify_release_date": "2024-03-01",
+        "spotify_name": "Godspeed, Goodbye",
+        "spotify_artists": "VENUES",
+        "spotify_album": "Godspeed, Goodbye",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a7e559c4dd1a3cb673f06f9c",
+        "spotify_duration_ms": "266000",
+        "spotify_popularity": "8",
+        "spotify_danceability": "0.496",
+        "spotify_energy": "0.909",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.716",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0551",
+        "spotify_tempo": "139.969",
+        "spotify_valence": "0.461",
+        "spotify_acousticness": "0.0000539",
+        "spotify_instrumentalness": "0.000867",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0838",
+        "spotify_artists01": "VENUES",
+        "spotify_artists01_id": "21LZjxwncsHeKlwA2XPKEd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5e903532a1d414f17319ad8e",
+        "spotify_artists01_genres": "german metalcore, german post-hardcore, slayer",
+        "spotify_artists01_popularity": "34",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/VENUES-Godspeed-Goodbye.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3403,
+            "name": "VENUES",
+            "slug": "venues",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "ヴェニューズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "VENUES",
+        "ytvideoid": "U9v3C1oU6A0",
+        "spotify_track_id": "0aLbVL9lAeXmvEJKMuWp2t"
+      },
+      "genre_data": [
+        {
+          "name": "Post-hardcore",
+          "slug": "post-hardcore",
+          "term_id": 664,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "godspeed-goodbye"
+    },
+    {
+      "id": 64504,
+      "date": "2024-02-02T21:08:20",
+      "date_gmt": "2024-02-02T12:08:20",
+      "title": {
+        "rendered": "Unspoken Words"
+      },
+      "content": {
+        "rendered": "<p>VENUES - Unspoken Words</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3403
+      ],
+      "tags": [],
+      "genre": [
+        664
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "ytvideoid": "fHEoOe3x1rI",
+        "ytreleasedate": "2024/02/02",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "23tplbHhk2a7B2oW7VrLgh",
+        "spotify_release_date": "2024-02-02",
+        "spotify_name": "Unspoken Words",
+        "spotify_artists": "VENUES",
+        "spotify_album": "Unspoken Words",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27334b2aee6eb5d892cffb55269",
+        "spotify_duration_ms": "240490",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.488",
+        "spotify_energy": "0.916",
+        "spotify_key": "11",
+        "spotify_loudness": "-3.64",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0394",
+        "spotify_tempo": "135.026",
+        "spotify_valence": "0.372",
+        "spotify_acousticness": "0.0000256",
+        "spotify_instrumentalness": "0.00318",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.158",
+        "spotify_artists01": "VENUES",
+        "spotify_artists01_id": "21LZjxwncsHeKlwA2XPKEd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5e903532a1d414f17319ad8e",
+        "spotify_artists01_genres": "german metalcore, german post-hardcore, slayer",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27334b2aee6eb5d892cffb55269.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3403,
+            "name": "VENUES",
+            "slug": "venues",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "ヴェニューズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "VENUES",
+        "ytvideoid": "fHEoOe3x1rI",
+        "spotify_track_id": "23tplbHhk2a7B2oW7VrLgh"
+      },
+      "genre_data": [
+        {
+          "name": "Post-hardcore",
+          "slug": "post-hardcore",
+          "term_id": 664,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "unspoken-words"
+    },
+    {
+      "id": 53686,
+      "date": "2023-10-05T23:37:31",
+      "date_gmt": "2023-10-05T14:37:31",
+      "title": {
+        "rendered": "Oblivion"
+      },
+      "content": {
+        "rendered": "<p>VENUES - Oblivion</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3403
+      ],
+      "tags": [
+        3404
+      ],
+      "genre": [
+        664
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "20kRR64NHtlOK0lpPMGRr4",
+        "spotify_release_date": "2023-10-05",
+        "spotify_name": "Oblivion",
+        "spotify_artists": "VENUES",
+        "spotify_album": "Oblivion",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27355826974a0a9885107d254f7",
+        "spotify_duration_ms": "222680",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.49",
+        "spotify_energy": "0.935",
+        "spotify_key": "5",
+        "spotify_loudness": "-3.59",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0484",
+        "spotify_tempo": "96.998",
+        "spotify_valence": "0.44",
+        "spotify_acousticness": "0.0000174",
+        "spotify_instrumentalness": "0.117",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.49",
+        "spotify_artists01": "VENUES",
+        "spotify_artists01_id": "21LZjxwncsHeKlwA2XPKEd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcc106c90589da29036c93ad2",
+        "spotify_artists01_genres": "german metalcore, german post-hardcore, slayer",
+        "spotify_artists01_popularity": "33",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "DllLhNGS7ro",
+        "ytreleasedate": "2023/10/05"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/VENUES-Oblivion.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3403,
+            "name": "VENUES",
+            "slug": "venues",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "ヴェニューズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "VENUES",
+        "ytvideoid": "DllLhNGS7ro",
+        "spotify_track_id": "20kRR64NHtlOK0lpPMGRr4"
+      },
+      "genre_data": [
+        {
+          "name": "Post-hardcore",
+          "slug": "post-hardcore",
+          "term_id": 664,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "oblivion"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 3315,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/chai/",
+    "name": "CHAI",
+    "slug": "chai",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "JPN",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3315",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3315"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3315"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 52754,
+      "date": "2023-09-20T11:14:26",
+      "date_gmt": "2023-09-20T02:14:26",
+      "title": {
+        "rendered": "GAME"
+      },
+      "content": {
+        "rendered": "<p>CHAI - GAME</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3315
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        3116
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2VtkTGHzX6otFrgjB37PNn",
+        "spotify_release_date": "2023-09-20",
+        "spotify_name": "GAME",
+        "spotify_artists": "CHAI",
+        "spotify_album": "GAME",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737fe752ce87c78e0ffc60554d",
+        "spotify_duration_ms": "165757",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.972",
+        "spotify_energy": "0.542",
+        "spotify_key": "0",
+        "spotify_loudness": "-7.151",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0902",
+        "spotify_tempo": "120.013",
+        "spotify_valence": "0.529",
+        "spotify_acousticness": "0.116",
+        "spotify_instrumentalness": "0.0000153",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.341",
+        "spotify_artists01": "CHAI",
+        "spotify_artists01_id": "0NZsNnETGPWLKJj2Y0vpBx",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9dbbc836f53e4db22a62b934",
+        "spotify_artists01_genres": "japanese alternative rock",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "42 Dugg",
+        "spotify_artists02_id": "45gHcnDnMC15sgx3VL7ROG",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb40c29d16a1bc236c8c67bb14",
+        "spotify_artists02_genres": "detroit trap, southern hip hop, trap",
+        "spotify_artists02_popularity": "69",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "i1U0o0cuIkE",
+        "ytreleasedate": "2023/09/20"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/CHAI-GAME.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3315,
+            "name": "CHAI",
+            "slug": "chai",
+            "acf": {
+              "artistorigin": "JPN",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "CHAI",
+        "ytvideoid": "i1U0o0cuIkE",
+        "spotify_track_id": "2VtkTGHzX6otFrgjB37PNn"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "J-pop",
+          "slug": "j-pop",
+          "term_id": 3116,
+          "post_count": 14
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "game"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

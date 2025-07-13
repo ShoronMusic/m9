@@ -1,0 +1,220 @@
+{
+  "artist": {
+    "id": 4620,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/alex-henry-foster/",
+    "name": "Alex Henry Foster",
+    "slug": "alex-henry-foster",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "CAN",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "musician",
+          "label": "Musician"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4620",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4620"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4620"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 67217,
+      "date": "2024-04-26T10:59:01",
+      "date_gmt": "2024-04-26T01:59:01",
+      "title": {
+        "rendered": "Under a Luxuriant Sky"
+      },
+      "content": {
+        "rendered": "<p>Alex Henry Foster - Under a Luxuriant Sky</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4620,
+        4621
+      ],
+      "tags": [],
+      "genre": [
+        415
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "",
+        "artist_order": "",
+        "ytvideoid": "4F3orgfjgFU",
+        "ytreleasedate": "2024/04/26",
+        "spotify_track_id": "2eUVy5N6gJkjlq3C2u27JA",
+        "spotify_release_date": "2024-04-26",
+        "spotify_name": "Under a Luxuriant Sky",
+        "spotify_artists": "Alex Henry Foster, Momoka Tobari",
+        "spotify_album": "Kimiyo",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738f7511cb22df382556c3bb90",
+        "spotify_duration_ms": "489813",
+        "spotify_popularity": "18",
+        "spotify_danceability": "0.366",
+        "spotify_energy": "0.453",
+        "spotify_key": "9",
+        "spotify_loudness": "-9.909",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0293",
+        "spotify_tempo": "140.021",
+        "spotify_valence": "0.096",
+        "spotify_acousticness": "0.696",
+        "spotify_instrumentalness": "0.82",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "Alex Henry Foster",
+        "spotify_artists01_id": "3xxV7Humr8VBXGhNNbyWoY",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebca2344f71144a26d928fb993",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "27",
+        "spotify_artists02": "Momoka Tobari",
+        "spotify_artists02_id": "216G5ormIzVgF92CXohkU1",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebbeb0d91263a343b8a105b7bc",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "22",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2738f7511cb22df382556c3bb90.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4620,
+            "name": "Alex Henry Foster",
+            "slug": "alex-henry-foster",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4621,
+            "name": "Momoka Tobari",
+            "slug": "momoka-tobari",
+            "acf": {
+              "artistorigin": "JPN",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Alex Henry Foster, Momoka Tobari",
+        "ytvideoid": "4F3orgfjgFU",
+        "spotify_track_id": "2eUVy5N6gJkjlq3C2u27JA"
+      },
+      "genre_data": [
+        {
+          "name": "Ambient pop",
+          "slug": "ambient-pop",
+          "term_id": 415,
+          "post_count": 61
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "under-a-luxuriant-sky"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

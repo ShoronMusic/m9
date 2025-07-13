@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 1873,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/pianos-become-the-teeth/",
+    "name": "Pianos Become The Teeth",
+    "slug": "pianos-become-the-teeth",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1873",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1873"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1873"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39462,
+      "date": "2022-06-08T20:54:00",
+      "date_gmt": "2022-06-08T11:54:00",
+      "title": {
+        "rendered": "Genevieve"
+      },
+      "content": {
+        "rendered": "\n<p>PianosBecomeTheTeeth-Genevieve</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1873
+      ],
+      "tags": [],
+      "genre": [
+        503,
+        575,
+        627
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0CtQMil54kzybZVGAFAZ0S",
+        "spotify_release_date": "2022/5/20",
+        "spotify_name": "Jennifer",
+        "spotify_artists": "EverythingEverything",
+        "spotify_album": "RawDataFeel",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273319985d0968916cb82f55df5",
+        "spotify_duration_ms": "257853",
+        "spotify_popularity": "45",
+        "spotify_danceability": "0.568",
+        "spotify_energy": "0.791",
+        "spotify_key": "9",
+        "spotify_loudness": "-6.998",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0602",
+        "spotify_tempo": "158.009",
+        "spotify_valence": "0.72",
+        "spotify_acousticness": "0.109",
+        "spotify_instrumentalness": "0.000129",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.32",
+        "spotify_artists01": "EverythingEverything",
+        "spotify_artists01_id": "1HOeqtP7tHkKNJNLzQ2tnr",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd8138829dd459f4a4e1b2681",
+        "spotify_artists01_genres": "britishindierock,experimentalpop,modernrock,newrave",
+        "spotify_artists01_popularity": "49",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "JCuxkDlqavA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Pianos-Become-The-Teeth-Genevieve.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1873,
+            "name": "Pianos Become The Teeth",
+            "slug": "pianos-become-the-teeth",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "EverythingEverything",
+        "ytvideoid": "JCuxkDlqavA",
+        "spotify_track_id": "0CtQMil54kzybZVGAFAZ0S"
+      },
+      "genre_data": [
+        {
+          "name": "Emo",
+          "slug": "emo",
+          "term_id": 503,
+          "post_count": 163
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Neo acoustic",
+          "slug": "neo-acoustic",
+          "term_id": 627,
+          "post_count": 6
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "genevieve"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

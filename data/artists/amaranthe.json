@@ -1,0 +1,85 @@
+{
+  "id": 3368,
+  "count": 5,
+  "description": "Amaranthe is a Swedish heavy metal band",
+  "link": "https://sub.music8.jp/category/amaranthe/",
+  "name": "AMARANTHE",
+  "slug": "amaranthe",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2008",
+    "artistborn": "",
+    "artistjpname": "アマランス",
+    "member": [
+      {
+        "term_id": 6729,
+        "name": "Elize Ryd",
+        "slug": "elize-ryd",
+        "term_group": 0,
+        "term_taxonomy_id": 6729,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2KaW48xlLnXC2v8tvyhWsa",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174293f7f4aebb31292f607bf3b"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3368",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3368"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3368"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アマランス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174293f7f4aebb31292f607bf3b",
+  "artistActiveYearStart": "2008",
+  "occupation": "band"
+}

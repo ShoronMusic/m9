@@ -1,0 +1,61 @@
+{
+  "id": 1982,
+  "count": 4,
+  "description": "Sigrid is a Norwegian singer-songwriter.",
+  "link": "https://sub.music8.jp/category/sigrid/",
+  "name": "Sigrid",
+  "slug": "sigrid",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NOR",
+    "artistactiveyearstart": "2013",
+    "artistborn": "19960905",
+    "artistdied": "",
+    "artistjpname": "シグリッド"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1982",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1982"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1982"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "シグリッド",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2013",
+  "occupation": ""
+}

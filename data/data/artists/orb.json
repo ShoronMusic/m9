@@ -1,0 +1,86 @@
+{
+  "id": 2381,
+  "count": 1,
+  "description": "The Orb are an English electronic music group",
+  "link": "https://sub.music8.jp/category/orb/",
+  "name": "Orb",
+  "slug": "orb",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1988",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ジ・オーブ",
+    "member": [
+      {
+        "term_id": 906,
+        "name": "Prince",
+        "slug": "prince",
+        "term_group": 0,
+        "term_taxonomy_id": 906,
+        "taxonomy": "category",
+        "description": "Prince was an American singer, songwriter, musician, record producer, and actor.",
+        "parent": 0,
+        "count": 66,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "group",
+        "label": "Group"
+      }
+    ]
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2381",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2381"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2381"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ジ・オーブ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1988",
+  "occupation": "dj, group"
+}

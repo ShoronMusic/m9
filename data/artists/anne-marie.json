@@ -1,0 +1,76 @@
+{
+  "id": 1231,
+  "count": 12,
+  "description": "Anne-Marie is an English singer-songwriter.",
+  "link": "https://sub.music8.jp/category/anne-marie/",
+  "name": "Anne-Marie",
+  "slug": "anne-marie",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2013",
+    "artistborn": "19910407",
+    "artistdied": "",
+    "artistjpname": "アン・マリー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "Bebe Rexha (bebe-rexha) | Zara Larsson (zara-larsson) | Clean Bandit (clean-bandit) | Rita Ora (rita-ora) | Mabel (mabel) | Ava Max (ava-max) | Little Mix (little-mix) | Hailee Steinfeld (hailee-steinfeld) | Ellie Goulding (ellie-goulding) | Alessia Cara (alessia-cara) | Fifth Harmony (fifth-harmony) | Camila Cabello (camila-cabello) | Julia Michaels (julia-michaels) | Halsey (halsey) | Meghan Trainor (meghan-trainor) | Jess Glynne (jess-glynne) | Jessie J (Jessie-j) | Jonas Blue (jonas-blue) | Vamps (vamps) | Daya (daya)",
+    "spotify_artist_id": "1zNqDE7qDGCsyzJwohVaoX",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174679c995b0d4a641ba32aa5f0"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1231",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1231"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1231"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アン・マリー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174679c995b0d4a641ba32aa5f0",
+  "artistActiveYearStart": "2013",
+  "occupation": "singer, songwriter"
+}

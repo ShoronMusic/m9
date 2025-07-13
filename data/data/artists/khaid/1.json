@@ -1,0 +1,216 @@
+{
+  "artist": {
+    "id": 3596,
+    "count": 1,
+    "description": "Khaid is a Nigerian singer, rapper, and songwriter.",
+    "link": "https://sub.music8.jp/category/khaid/",
+    "name": "Khaid",
+    "slug": "khaid",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "NIG",
+      "artistactiveyearstart": "2022",
+      "artistborn": "20041210",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "songwriter",
+          "label": "Songwriter"
+        },
+        {
+          "value": "rapper",
+          "label": "Rapper"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3596",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3596"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3596"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 55724,
+      "date": "2023-02-21T19:58:01",
+      "date_gmt": "2023-02-21T10:58:01",
+      "title": {
+        "rendered": "Jolie"
+      },
+      "content": {
+        "rendered": "<p>Khaid - Jolie</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3596
+      ],
+      "tags": [],
+      "genre": [
+        402,
+        3597
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7wMYtt3SEquaep8sWCdQqp",
+        "spotify_release_date": "2023-01-25",
+        "spotify_name": "Jolie",
+        "spotify_artists": "Khaid",
+        "spotify_album": "Jolie",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733f468c9c1aa2a3d8df0b87e7",
+        "spotify_duration_ms": "209235",
+        "spotify_popularity": "61",
+        "spotify_danceability": "0.815",
+        "spotify_energy": "0.534",
+        "spotify_key": "1",
+        "spotify_loudness": "-5.513",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0947",
+        "spotify_tempo": "102.099",
+        "spotify_valence": "0.365",
+        "spotify_acousticness": "0.171",
+        "spotify_instrumentalness": "0.035",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.137",
+        "spotify_artists01": "Khaid",
+        "spotify_artists01_id": "2mM6BxFQCd6BHzW4W7VhQP",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5441db380cea9f7e4c5ab293",
+        "spotify_artists01_genres": "afrobeats, nigerian pop",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "nHUGKIChwTI",
+        "ytreleasedate": "2023/02/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Khaid-Jolie.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3596,
+            "name": "Khaid",
+            "slug": "khaid",
+            "acf": {
+              "artistorigin": "NIG",
+              "artistactiveyearstart": "2022",
+              "artistborn": "20041210",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "rapper",
+                  "label": "Rapper"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Khaid",
+        "ytvideoid": "nHUGKIChwTI",
+        "spotify_track_id": "7wMYtt3SEquaep8sWCdQqp"
+      },
+      "genre_data": [
+        {
+          "name": "Afrobeats",
+          "slug": "afrobeats",
+          "term_id": 402,
+          "post_count": 135
+        },
+        {
+          "name": "Afropop",
+          "slug": "afropop",
+          "term_id": 3597,
+          "post_count": 3
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "jolie"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

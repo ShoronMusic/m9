@@ -1,0 +1,72 @@
+{
+  "id": 2363,
+  "count": 1,
+  "description": "Belle and Sebastian is a Scottish indie pop band.",
+  "link": "https://sub.music8.jp/category/belle-and-sebastian/",
+  "name": "Belle and Sebastian",
+  "slug": "belle-and-sebastian",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1996",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ベル・アンド・セバスチャン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "4I2BJf80C0skQpp1sQmA0h",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051746a456088b3e6c53b6501502c"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2363",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2363"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2363"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ベル・アンド・セバスチャン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051746a456088b3e6c53b6501502c",
+  "artistActiveYearStart": "1996",
+  "occupation": "band"
+}

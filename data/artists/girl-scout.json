@@ -1,0 +1,72 @@
+{
+  "id": 6067,
+  "count": 2,
+  "description": "",
+  "link": "https://sub.music8.jp/category/girl-scout/",
+  "name": "Girl Scout",
+  "slug": "girl-scout",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Chloe Slater | Ok Cowgirl | Slow Fiction | Francis of Delirium | jasmine.4.t | She's In Parties | better joy | Peach Fuzz | total tommy | Kynsy (kynsy) | smol fish | Divorce | Cardinals | Been Stellar (been-stellar) | Bartees Strange | THUS LOVE (thus-love) | Man/Woman/Chainsaw | Honeyglaze | Sex Week | Flat Party",
+    "spotify_artist_id": "4CbghtwTo6bvxk5QacvRrE",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051748869f66f0270d9055cd44127"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6067",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6067"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6067"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051748869f66f0270d9055cd44127",
+  "artistActiveYearStart": "",
+  "occupation": "band"
+}

@@ -1,0 +1,236 @@
+{
+  "artist": {
+    "id": 1830,
+    "count": 1,
+    "description": "Tom Meighan is an English singer.  former lead vocalist for the rock band Kasabian.",
+    "link": "https://sub.music8.jp/category/tom-meighan/",
+    "name": "Tom Meighan",
+    "slug": "tom-meighan",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1997",
+      "artistborn": "19810111",
+      "artistdied": "",
+      "artistjpname": "トム・ミーガン",
+      "member": [
+        {
+          "term_id": 1446,
+          "name": "Kasabian",
+          "slug": "kasabian",
+          "term_group": 0,
+          "term_taxonomy_id": 1446,
+          "taxonomy": "category",
+          "description": "Kasabian are an English rock band.",
+          "parent": 0,
+          "count": 34,
+          "filter": "raw"
+        }
+      ],
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        },
+        {
+          "value": "musician",
+          "label": "Musician"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1830",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1830"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1830"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40176,
+      "date": "2022-02-28T13:20:00",
+      "date_gmt": "2022-02-28T04:20:00",
+      "title": {
+        "rendered": "Movin' On"
+      },
+      "content": {
+        "rendered": "\n<p>TomMeighan-Movin'On</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1830
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        630
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "6scWOW1SMvvb284LsLYUvI",
+        "spotify_release_date": "2022/3/4",
+        "spotify_name": "",
+        "spotify_artists": "TomMeighan",
+        "spotify_album": "",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739b48b1212b2a8031f5079312",
+        "spotify_duration_ms": "209417",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.664",
+        "spotify_energy": "0.762",
+        "spotify_key": "11",
+        "spotify_loudness": "-4.858",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0412",
+        "spotify_tempo": "119.974",
+        "spotify_valence": "0.391",
+        "spotify_acousticness": "0.000295",
+        "spotify_instrumentalness": "0.000896",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.204",
+        "spotify_artists01": "TomMeighan",
+        "spotify_artists01_id": "3EgsCrH1gSJmJqfWAcvZRn",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd2a912c90b3828850ad32db7",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "32",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "pNDkWoJHj4Q",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tom-Meighan-Movin-On.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1830,
+            "name": "Tom Meighan",
+            "slug": "tom-meighan",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1997",
+              "artistborn": "19810111",
+              "artistdied": "",
+              "artistjpname": "トム・ミーガン",
+              "member": [
+                {
+                  "term_id": 1446,
+                  "name": "Kasabian",
+                  "slug": "kasabian",
+                  "term_group": 0,
+                  "term_taxonomy_id": 1446,
+                  "taxonomy": "category",
+                  "description": "Kasabian are an English rock band.",
+                  "parent": 0,
+                  "count": 34,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "TomMeighan",
+        "ytvideoid": "pNDkWoJHj4Q",
+        "spotify_track_id": "6scWOW1SMvvb284LsLYUvI"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "movin-on"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,82 @@
+{
+  "id": 1802,
+  "count": 10,
+  "description": "Magnolia Park is an American rock.",
+  "link": "https://sub.music8.jp/category/magnolia-park/",
+  "name": "Magnolia Park",
+  "slug": "magnolia-park",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2019",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "マグノリア・パーク",
+    "member": [
+      {
+        "term_id": 3032,
+        "name": "Joshua Roberts",
+        "slug": "joshua-roberts",
+        "term_group": 0,
+        "term_taxonomy_id": 3032,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1802",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1802"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1802"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マグノリア・パーク",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2019",
+  "occupation": "band"
+}

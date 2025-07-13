@@ -1,0 +1,183 @@
+{
+  "artist": {
+    "id": 2723,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/klassy-project/",
+    "name": "Klassy Project",
+    "slug": "klassy-project",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2723",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2723"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2723"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38238,
+      "date": "2022-12-01T00:00:00",
+      "date_gmt": "2022-11-30T15:00:00",
+      "title": {
+        "rendered": "You're All I Want"
+      },
+      "content": {
+        "rendered": "\n<p>ChristinaNovelliftKlassyProject-You'reAllIWant</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2722,
+        2723
+      ],
+      "tags": [],
+      "genre": [
+        747
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "ft7cNQfzlPA",
+        "likecount": "1",
+        "spotify_track_id": "58vWCkOvsAPXsAhOW9OQhE",
+        "spotify_release_date": "2022/11/25",
+        "spotify_name": "You'reAllIWant",
+        "spotify_artists": "Christina Novelli, Klassy Project",
+        "spotify_album": "",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cc6b0393640ea706ccd97f9f",
+        "spotify_duration_ms": "181904",
+        "spotify_popularity": "44",
+        "spotify_danceability": "0.5",
+        "spotify_energy": "0.931",
+        "spotify_key": "8",
+        "spotify_loudness": "-5.008",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0445",
+        "spotify_tempo": "126.042",
+        "spotify_valence": "0.0383",
+        "spotify_acousticness": "0.0746",
+        "spotify_instrumentalness": "0.259",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.211",
+        "spotify_artists01": "ChristinaNovelli",
+        "spotify_artists01_id": "1dbzT291PCwwYJK0l3Tr1n",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbeb92d95ce5ef23e59f987f6",
+        "spotify_artists01_genres": "trance,vocaltrance",
+        "spotify_artists01_popularity": "52",
+        "spotify_artists02": "KlassyProject",
+        "spotify_artists02_id": "2r1CRqPCo5kYuR7PvuLkEf",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb9b36376125b6d2cfa64a5808",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "23",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "Christina Novelli, Klassy Project",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Christina-Novelli-ft-Klassy-Project-Youre-All-I-Want.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2722,
+            "name": "Christina Novelli",
+            "slug": "christina-novelli",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19861127",
+              "artistdied": "",
+              "artistjpname": "クリスティーナ・ノヴェリ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2723,
+            "name": "Klassy Project",
+            "slug": "klassy-project",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Christina Novelli, Klassy Project",
+        "spotify_artists": "Christina Novelli, Klassy Project",
+        "ytvideoid": "ft7cNQfzlPA",
+        "spotify_track_id": "58vWCkOvsAPXsAhOW9OQhE"
+      },
+      "genre_data": [
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "youre-all-i-want"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

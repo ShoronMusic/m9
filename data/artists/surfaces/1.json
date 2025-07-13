@@ -1,0 +1,202 @@
+{
+  "artist": {
+    "id": 1656,
+    "count": 1,
+    "description": "Surfaces is an American music group.",
+    "link": "https://sub.music8.jp/category/surfaces/",
+    "name": "Surfaces",
+    "slug": "surfaces",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2017",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "サーフェシズ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "group",
+          "label": "Group"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1656",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1656"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1656"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 42373,
+      "date": "2019-01-06T14:06:00",
+      "date_gmt": "2019-01-06T05:06:00",
+      "title": {
+        "rendered": "Sunday Best"
+      },
+      "content": {
+        "rendered": "\n<p>Surfaces-SundayBest</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1656
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        657
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "1Cv1YLb4q0RzL6pybtaMLo",
+        "spotify_release_date": "2019/1/6",
+        "spotify_name": "Sunday Best",
+        "spotify_artists": "Surfaces",
+        "spotify_album": "Where the Light Is",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733667dc27da7b24360d6050d0",
+        "spotify_duration_ms": "158571",
+        "spotify_popularity": "78",
+        "spotify_danceability": "0.878",
+        "spotify_energy": "0.525",
+        "spotify_key": "5",
+        "spotify_loudness": "-6.832",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0578",
+        "spotify_tempo": "112.022",
+        "spotify_valence": "0.694",
+        "spotify_acousticness": "0.183",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0714",
+        "spotify_artists01": "Surfaces",
+        "spotify_artists01_id": "4ETSs924pXMzjIeD6E9b4u",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcfdf34f73285254900911485",
+        "spotify_artists01_genres": "bedroom soul",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "83KqwEEGw4",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Surfaces-Sunday-Best.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1656,
+            "name": "Surfaces",
+            "slug": "surfaces",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "サーフェシズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Surfaces",
+        "ytvideoid": "83KqwEEGw4",
+        "spotify_track_id": "1Cv1YLb4q0RzL6pybtaMLo"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "sunday-best"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

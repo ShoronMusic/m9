@@ -1,0 +1,202 @@
+{
+  "artist": {
+    "id": 2966,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/karan-kanchan/",
+    "name": "Karan Kanchan",
+    "slug": "karan-kanchan",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2966",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2966"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2966"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50261,
+      "date": "2023-06-30T20:46:22",
+      "date_gmt": "2023-06-30T11:46:22",
+      "title": {
+        "rendered": "Bhussi"
+      },
+      "content": {
+        "rendered": "<p>KSHMR, Seedhe Maut, Karan Kanchan - Bhussi</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2966,
+        2962,
+        2965
+      ],
+      "tags": [],
+      "genre": [
+        564,
+        748
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4jwC6DDNc7zhe6f6g4yqAd",
+        "spotify_release_date": "2023-06-30",
+        "spotify_name": "Bhussi",
+        "spotify_artists": "KSHMR, Seedhe Maut, Karan Kanchan",
+        "spotify_album": "Bhussi",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27386abc5022ec7189915e01f96",
+        "spotify_duration_ms": "184000",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.893",
+        "spotify_energy": "0.824",
+        "spotify_key": "2",
+        "spotify_loudness": "-4.741",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.164",
+        "spotify_tempo": "120.001",
+        "spotify_valence": "0.694",
+        "spotify_acousticness": "0.165",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.39",
+        "spotify_artists01": "KSHMR",
+        "spotify_artists01_id": "2wX6xSig4Rig5kZU6ePlWe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebd1db941d6e307ab229651fae",
+        "spotify_artists01_genres": "big room, dutch house, edm, electro house, indian edm, pop dance, progressive electro house, slap house",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "Seedhe Maut",
+        "spotify_artists02_id": "2oBG74gAocPMFv6Ij9ykdo",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb2ff3b81c16a59f19b0f6e2d2",
+        "spotify_artists02_genres": "desi hip hop, hindi hip hop",
+        "spotify_artists02_popularity": "62",
+        "spotify_artists03": "Karan Kanchan",
+        "spotify_artists03_id": "5mZ0Ee8OG1U9c4Wv2FKqvs",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb029fd3134cf71be584984810",
+        "spotify_artists03_genres": "desi hip hop, samurai trap",
+        "spotify_artists03_popularity": "41",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "_fwc6d7-F4o",
+        "ytreleasedate": "2023/07/06"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/KSHMR-Seedhe-Maut-Karan-Kanchan-Bhussi.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2966,
+            "name": "Karan Kanchan",
+            "slug": "karan-kanchan",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2962,
+            "name": "KSHMR",
+            "slug": "kshmr",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2003",
+              "artistborn": "19881006",
+              "artistdied": "",
+              "artistjpname": "カシミア"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2965,
+            "name": "Seedhe Maut",
+            "slug": "seedhe-maut",
+            "acf": {
+              "artistorigin": "IND",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "KSHMR, Seedhe Maut, Karan Kanchan",
+        "ytvideoid": "_fwc6d7-F4o",
+        "spotify_track_id": "4jwC6DDNc7zhe6f6g4yqAd"
+      },
+      "genre_data": [
+        {
+          "name": "Hip-Hop/Rap",
+          "slug": "hip-hop-rap",
+          "term_id": 564,
+          "post_count": 753
+        },
+        {
+          "name": "Trap",
+          "slug": "trap",
+          "term_id": 748,
+          "post_count": 282
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "bhussi"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

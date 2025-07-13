@@ -1,0 +1,235 @@
+{
+  "artist": {
+    "id": 1183,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/i_o/",
+    "name": "i_o",
+    "slug": "i_o",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1183",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1183"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1183"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41997,
+      "date": "2019-09-05T08:52:00",
+      "date_gmt": "2019-09-04T23:52:00",
+      "title": {
+        "rendered": "Violence"
+      },
+      "content": {
+        "rendered": "\n<p>Grimes&amp;i_o-Violence</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1179,
+        1183
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        670,
+        689,
+        736,
+        747
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "3KeOFns3LGJuh1lapMm9eA",
+        "spotify_release_date": "2020/2/21",
+        "spotify_name": "Violence - Original Mix",
+        "spotify_artists": "Grimes, i_o",
+        "spotify_album": "Miss Anthropocene (Deluxe Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731a302aafa2ea587960e27951",
+        "spotify_duration_ms": "220616",
+        "spotify_popularity": "59",
+        "spotify_danceability": "0.533",
+        "spotify_energy": "0.9",
+        "spotify_key": "5",
+        "spotify_loudness": "-4.973",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0495",
+        "spotify_tempo": "99.983",
+        "spotify_valence": "0.0795",
+        "spotify_acousticness": "0.00143",
+        "spotify_instrumentalness": "0.101",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.129",
+        "spotify_artists01": "Grimes",
+        "spotify_artists01_id": "053q0ukIDRgzwTr4vNSwab",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb34771f759ca81a422f5f2b57",
+        "spotify_artists01_genres": "art pop, canadian electropop, grave wave, indietronica, metropopolis, neo-synthpop",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "i_o",
+        "spotify_artists02_id": "0y42IQBDFigO5mmEd1bGQG",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebc7ccd9db1885211ebc3a0239",
+        "spotify_artists02_genres": "electro house",
+        "spotify_artists02_popularity": "46",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "M9SGYBHY0qs",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Grimes-i_o-Violence.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1179,
+            "name": "Grimes",
+            "slug": "grimes",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2007",
+              "artistborn": "19880317",
+              "artistdied": "",
+              "artistjpname": "グライムス",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "053q0ukIDRgzwTr4vNSwab",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517434771f759ca81a422f5f2b57",
+              "youtube_channel": "UCRXaOr2-9CJTMqQH5A5GYZQ",
+              "wikipedia_page": "Grimes"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1183,
+            "name": "i_o",
+            "slug": "i_o",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Grimes, i_o",
+        "ytvideoid": "M9SGYBHY0qs",
+        "spotify_track_id": "3KeOFns3LGJuh1lapMm9eA"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Progressive house",
+          "slug": "progressive-house",
+          "term_id": 670,
+          "post_count": 244
+        },
+        {
+          "name": "Rave",
+          "slug": "rave",
+          "term_id": 689,
+          "post_count": 1
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        },
+        {
+          "name": "Trance",
+          "slug": "trance",
+          "term_id": 747,
+          "post_count": 107
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "grimes-violence"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

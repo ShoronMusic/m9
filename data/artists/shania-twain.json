@@ -1,0 +1,64 @@
+{
+  "id": 2276,
+  "count": 2,
+  "description": "Shania Twain is a Canadian singer-songwriter.",
+  "link": "https://sub.music8.jp/category/shania-twain/",
+  "name": "Shania Twain",
+  "slug": "shania-twain",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "1983",
+    "artistborn": "19650828",
+    "artistdied": "",
+    "artistjpname": "シャナイア・トゥエイン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": []
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2276",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2276"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2276"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "シャナイア・トゥエイン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1983",
+  "occupation": ""
+}

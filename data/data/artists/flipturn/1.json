@@ -1,0 +1,460 @@
+{
+  "artist": {
+    "id": 3883,
+    "count": 3,
+    "description": "Flipturn is an American indie rock band.",
+    "link": "https://sub.music8.jp/category/flipturn/",
+    "name": "Flipturn",
+    "slug": "flipturn",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2015",
+      "artistborn": "",
+      "artistjpname": "フリップターン",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3883",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3883"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3883"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 83995,
+      "date": "2024-10-25T20:31:34",
+      "date_gmt": "2024-10-25T11:31:34",
+      "title": {
+        "rendered": "Juno"
+      },
+      "content": {
+        "rendered": "<p>flipturn - Juno</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3883
+      ],
+      "tags": [],
+      "genre": [
+        575,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "RHayQOl9zzg",
+        "ytreleasedate": "2024/10/25",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7F35nM1uBD2AzkXSYgLenE",
+        "spotify_release_date": "2024-10-24",
+        "spotify_name": "Juno",
+        "spotify_artists": "flipturn",
+        "spotify_album": "Juno",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273429da54060e673390131a7b7",
+        "spotify_duration_ms": "183318",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.615",
+        "spotify_energy": "0.731",
+        "spotify_key": "4",
+        "spotify_loudness": "-6.893",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0353",
+        "spotify_tempo": "136.956",
+        "spotify_valence": "0.708",
+        "spotify_acousticness": "0.00208",
+        "spotify_instrumentalness": "0.408",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.105",
+        "spotify_artists01": "flipturn",
+        "spotify_artists01_id": "7FKTg75ADVMZgY3P9ZMRtH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb56ee44d9f689f359f0ccd0dd",
+        "spotify_artists01_genres": "jacksonville indie, pov: indie",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273429da54060e673390131a7b7.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3883,
+            "name": "Flipturn",
+            "slug": "flipturn",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "フリップターン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "flipturn",
+        "ytvideoid": "RHayQOl9zzg",
+        "spotify_track_id": "7F35nM1uBD2AzkXSYgLenE"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "juno"
+    },
+    {
+      "id": 83208,
+      "date": "2024-09-26T16:42:20",
+      "date_gmt": "2024-09-26T07:42:20",
+      "title": {
+        "rendered": "Rodeo Clown"
+      },
+      "content": {
+        "rendered": "<p>flipturn - Rodeo Clown</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3883
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "E8RmsQ0Jd2A",
+        "ytreleasedate": "2024/09/26",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "1x1z2qHf13S4nD4ozEEH02",
+        "spotify_release_date": "2024-09-26",
+        "spotify_name": "Rodeo Clown",
+        "spotify_artists": "flipturn",
+        "spotify_album": "Rodeo Clown",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273824965cf75baa0fe4611f23a",
+        "spotify_duration_ms": "201255",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.652",
+        "spotify_energy": "0.831",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.192",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0314",
+        "spotify_tempo": "111.989",
+        "spotify_valence": "0.601",
+        "spotify_acousticness": "0.0214",
+        "spotify_instrumentalness": "0.0445",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.107",
+        "spotify_artists01": "flipturn",
+        "spotify_artists01_id": "7FKTg75ADVMZgY3P9ZMRtH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb56ee44d9f689f359f0ccd0dd",
+        "spotify_artists01_genres": "jacksonville indie, pov: indie",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273824965cf75baa0fe4611f23a.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3883,
+            "name": "Flipturn",
+            "slug": "flipturn",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "フリップターン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "flipturn",
+        "ytvideoid": "E8RmsQ0Jd2A",
+        "spotify_track_id": "1x1z2qHf13S4nD4ozEEH02"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "rodeo-clown"
+    },
+    {
+      "id": 58519,
+      "date": "2023-04-21T18:43:42",
+      "date_gmt": "2023-04-21T09:43:42",
+      "title": {
+        "rendered": "Space Cowboy"
+      },
+      "content": {
+        "rendered": "<p>flipturn - Space Cowboy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3883
+      ],
+      "tags": [],
+      "genre": [
+        421,
+        575,
+        724
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3hFB5ei33hmEbbiWWo40EZ",
+        "spotify_release_date": "2022-08-19",
+        "spotify_name": "Space Cowboy",
+        "spotify_artists": "flipturn",
+        "spotify_album": "Shadowglow",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27375bd963206d2c22841553e38",
+        "spotify_duration_ms": "246773",
+        "spotify_popularity": "53",
+        "spotify_danceability": "0.479",
+        "spotify_energy": "0.497",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.725",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0282",
+        "spotify_tempo": "139.035",
+        "spotify_valence": "0.14",
+        "spotify_acousticness": "0.0557",
+        "spotify_instrumentalness": "0.544",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.262",
+        "spotify_artists01": "flipturn",
+        "spotify_artists01_id": "7FKTg75ADVMZgY3P9ZMRtH",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc69c6db2ad57529c8686d266",
+        "spotify_artists01_genres": "jacksonville indie, pov: indie",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "3kNPEOqCBEE",
+        "ytreleasedate": "2023/04/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/flipturn-Space-Cowboy.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3883,
+            "name": "Flipturn",
+            "slug": "flipturn",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "フリップターン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "flipturn",
+        "ytvideoid": "3kNPEOqCBEE",
+        "spotify_track_id": "3hFB5ei33hmEbbiWWo40EZ"
+      },
+      "genre_data": [
+        {
+          "name": "Art rock",
+          "slug": "art-rock",
+          "term_id": 421,
+          "post_count": 118
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Space rock",
+          "slug": "space-rock",
+          "term_id": 724,
+          "post_count": 20
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "space-cowboy-3"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

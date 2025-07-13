@@ -1,0 +1,448 @@
+{
+  "artist": {
+    "id": 3025,
+    "count": 3,
+    "description": "Only The Poets are an English band.",
+    "link": "https://sub.music8.jp/category/only-the-poets/",
+    "name": "Only The Poets",
+    "slug": "only-the-poets",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2017",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "オンリー・ザ・ポエッツ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3025",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3025"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3025"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 102009,
+      "date": "2025-06-28T11:50:40",
+      "date_gmt": "2025-06-28T02:50:40",
+      "title": {
+        "rendered": "Emotionally Hungover"
+      },
+      "content": {
+        "rendered": "<p>Only The Poets - Emotionally Hungover</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3025
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "CgQSS4aTAZY",
+        "ytreleasedate": "2025/06/28",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "03E1DdIOTOgWGJ82OqoaJq",
+        "spotify_release_date": "2025-06-27",
+        "spotify_name": "Emotionally Hungover",
+        "spotify_artists": "Only The Poets",
+        "spotify_album": "Emotionally Hungover",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c89166dea6ad94375bd9969c",
+        "spotify_duration_ms": "161100",
+        "spotify_popularity": "25",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Only The Poets",
+        "spotify_artists01_id": "3Z40kLBFU7C8532e2YLE9t",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3d6980bc1b43a691ede417a2",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/only-the-poets-emotionally-hungover.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3025,
+            "name": "Only The Poets",
+            "slug": "only-the-poets",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オンリー・ザ・ポエッツ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Only The Poets",
+        "ytvideoid": "CgQSS4aTAZY",
+        "spotify_track_id": "03E1DdIOTOgWGJ82OqoaJq"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "emotionally-hungover"
+    },
+    {
+      "id": 57103,
+      "date": "2023-04-07T18:37:44",
+      "date_gmt": "2023-04-07T09:37:44",
+      "title": {
+        "rendered": "JUMP!"
+      },
+      "content": {
+        "rendered": "<p>Only The Poets - JUMP!</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3025
+      ],
+      "tags": [],
+      "genre": [
+        575,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3XfqHrrVnG4BI2XAOaYiim",
+        "spotify_release_date": "2023-04-07",
+        "spotify_name": "JUMP!",
+        "spotify_artists": "Only The Poets",
+        "spotify_album": "JUMP!",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273caa46059fb0eb17474c30ff6",
+        "spotify_duration_ms": "194928",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.526",
+        "spotify_energy": "0.932",
+        "spotify_key": "9",
+        "spotify_loudness": "-3.238",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0383",
+        "spotify_tempo": "155.993",
+        "spotify_valence": "0.869",
+        "spotify_acousticness": "0.00588",
+        "spotify_instrumentalness": "0.00000156",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.286",
+        "spotify_artists01": "Only The Poets",
+        "spotify_artists01_id": "3Z40kLBFU7C8532e2YLE9t",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb51c2b48fa318eedea577a985",
+        "spotify_artists01_genres": "english indie rock",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "TmulVgqTD-4",
+        "ytreleasedate": "2023/04/07"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Only-The-Poets-JUMP.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3025,
+            "name": "Only The Poets",
+            "slug": "only-the-poets",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オンリー・ザ・ポエッツ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Only The Poets",
+        "ytvideoid": "TmulVgqTD-4",
+        "spotify_track_id": "3XfqHrrVnG4BI2XAOaYiim"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "jump-2"
+    },
+    {
+      "id": 50617,
+      "date": "2023-02-21T15:11:48",
+      "date_gmt": "2023-02-21T06:11:48",
+      "title": {
+        "rendered": "Even Hell"
+      },
+      "content": {
+        "rendered": "<p>Only The Poets - Even Hell</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3025
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "6lmLUZjY9lCjSirQyUPJse",
+        "spotify_release_date": "2021-06-08",
+        "spotify_name": "even hell - demo",
+        "spotify_artists": "Only The Poets",
+        "spotify_album": "demos.",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a0154ae161ada47106f64bd7",
+        "spotify_duration_ms": "218015",
+        "spotify_popularity": "32",
+        "spotify_danceability": "0.565",
+        "spotify_energy": "0.896",
+        "spotify_key": "9",
+        "spotify_loudness": "-6.317",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0342",
+        "spotify_tempo": "108.973",
+        "spotify_valence": "0.82",
+        "spotify_acousticness": "0.0357",
+        "spotify_instrumentalness": "0.0000217",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0583",
+        "spotify_artists01": "Only The Poets",
+        "spotify_artists01_id": "3Z40kLBFU7C8532e2YLE9t",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb12005563ba9162014ad50c2d",
+        "spotify_artists01_genres": "english indie rock",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "-UPTSwJNVlU",
+        "ytreleasedate": "2023/02/21"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Only-The-Poets-Even-Hell.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3025,
+            "name": "Only The Poets",
+            "slug": "only-the-poets",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オンリー・ザ・ポエッツ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Only The Poets",
+        "ytvideoid": "-UPTSwJNVlU",
+        "spotify_track_id": "6lmLUZjY9lCjSirQyUPJse"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "even-hell"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

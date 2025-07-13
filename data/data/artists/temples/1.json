@@ -1,0 +1,587 @@
+{
+  "artist": {
+    "id": 3180,
+    "count": 4,
+    "description": "Temples are an English rock band.",
+    "link": "https://sub.music8.jp/category/temples/",
+    "name": "Temples",
+    "slug": "temples",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2012",
+      "artistborn": "",
+      "artistjpname": "テンプルズ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3180",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3180"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3180"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51879,
+      "date": "2023-04-14T13:13:18",
+      "date_gmt": "2023-04-14T04:13:18",
+      "title": {
+        "rendered": "Oval Stones"
+      },
+      "content": {
+        "rendered": "<p>Temples - Oval Stones</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3180
+      ],
+      "tags": [],
+      "genre": [
+        449,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "7JSsitRmA1k7vJv6kbdHRg",
+        "spotify_release_date": "2023-04-14",
+        "spotify_name": "Oval Stones",
+        "spotify_artists": "Temples",
+        "spotify_album": "Exotico",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e119cb85a9b0d5a7e08b7c31",
+        "spotify_duration_ms": "213053",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.54",
+        "spotify_energy": "0.811",
+        "spotify_key": "6",
+        "spotify_loudness": "-3.962",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0289",
+        "spotify_tempo": "97.017",
+        "spotify_valence": "0.774",
+        "spotify_acousticness": "0.00492",
+        "spotify_instrumentalness": "0.349",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.127",
+        "spotify_artists01": "Temples",
+        "spotify_artists01_id": "4ogwGU9VPWrnVBs1GEwZVV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbce0ff5b72ee8dd5d4626728",
+        "spotify_artists01_genres": "garage rock, neo-psychedelic",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "7wJ0jt4xHjo",
+        "ytreleasedate": "2023/04/14"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Temples-Oval-Stones.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3180,
+            "name": "Temples",
+            "slug": "temples",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistjpname": "テンプルズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Temples",
+        "ytvideoid": "7wJ0jt4xHjo",
+        "spotify_track_id": "7JSsitRmA1k7vJv6kbdHRg"
+      },
+      "genre_data": [
+        {
+          "name": "Chamber pop",
+          "slug": "chamber-pop",
+          "term_id": 449,
+          "post_count": 100
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "oval-stones"
+    },
+    {
+      "id": 51870,
+      "date": "2023-03-14T13:02:25",
+      "date_gmt": "2023-03-14T04:02:25",
+      "title": {
+        "rendered": "Afterlife"
+      },
+      "content": {
+        "rendered": "<p>Temples - Afterlife</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3180
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        678
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "5tMru9bSwO2zXhuoNI4GCZ",
+        "spotify_release_date": "2023-04-14",
+        "spotify_name": "Afterlife",
+        "spotify_artists": "Temples",
+        "spotify_album": "Exotico",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e119cb85a9b0d5a7e08b7c31",
+        "spotify_duration_ms": "226373",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.522",
+        "spotify_energy": "0.938",
+        "spotify_key": "7",
+        "spotify_loudness": "-5.054",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.107",
+        "spotify_tempo": "120.993",
+        "spotify_valence": "0.547",
+        "spotify_acousticness": "0.00018",
+        "spotify_instrumentalness": "0.000931",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.198",
+        "spotify_artists01": "Temples",
+        "spotify_artists01_id": "4ogwGU9VPWrnVBs1GEwZVV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbce0ff5b72ee8dd5d4626728",
+        "spotify_artists01_genres": "garage rock, neo-psychedelic",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "uxHZiYjSAfg",
+        "ytreleasedate": "2023/03/14"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Temples-Afterlife.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3180,
+            "name": "Temples",
+            "slug": "temples",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistjpname": "テンプルズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Temples",
+        "ytvideoid": "uxHZiYjSAfg",
+        "spotify_track_id": "5tMru9bSwO2zXhuoNI4GCZ"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Psychedelic rock",
+          "slug": "psychedelic-rock",
+          "term_id": 678,
+          "post_count": 111
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "afterlife-2"
+    },
+    {
+      "id": 51876,
+      "date": "2023-02-16T13:10:45",
+      "date_gmt": "2023-02-16T04:10:45",
+      "title": {
+        "rendered": "Cicada"
+      },
+      "content": {
+        "rendered": "<p>Temples - Cicada</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3180
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        678
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1C5fyn3A3WbmsdBaj5OhZu",
+        "spotify_release_date": "2023-04-14",
+        "spotify_name": "Cicada",
+        "spotify_artists": "Temples",
+        "spotify_album": "Exotico",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e119cb85a9b0d5a7e08b7c31",
+        "spotify_duration_ms": "263653",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.448",
+        "spotify_energy": "0.911",
+        "spotify_key": "10",
+        "spotify_loudness": "-4.703",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0554",
+        "spotify_tempo": "136.914",
+        "spotify_valence": "0.381",
+        "spotify_acousticness": "0.000122",
+        "spotify_instrumentalness": "0.0161",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.399",
+        "spotify_artists01": "Temples",
+        "spotify_artists01_id": "4ogwGU9VPWrnVBs1GEwZVV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbce0ff5b72ee8dd5d4626728",
+        "spotify_artists01_genres": "garage rock, neo-psychedelic",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "HTc4Zl7qtmA",
+        "ytreleasedate": "2023/02/16"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Temples-Cicada.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3180,
+            "name": "Temples",
+            "slug": "temples",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistjpname": "テンプルズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Temples",
+        "ytvideoid": "HTc4Zl7qtmA",
+        "spotify_track_id": "1C5fyn3A3WbmsdBaj5OhZu"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Psychedelic rock",
+          "slug": "psychedelic-rock",
+          "term_id": 678,
+          "post_count": 111
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "cicada"
+    },
+    {
+      "id": 51873,
+      "date": "2023-01-11T13:07:04",
+      "date_gmt": "2023-01-11T04:07:04",
+      "title": {
+        "rendered": "Gamma Rays"
+      },
+      "content": {
+        "rendered": "<p>Temples - Gamma Rays</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3180
+      ],
+      "tags": [],
+      "genre": [
+        2926,
+        630
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1ZHqcbJiQuiv6UQZDDqBqB",
+        "spotify_release_date": "2023-04-14",
+        "spotify_name": "Gamma Rays",
+        "spotify_artists": "Temples",
+        "spotify_album": "Exotico",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e119cb85a9b0d5a7e08b7c31",
+        "spotify_duration_ms": "260346",
+        "spotify_popularity": "40",
+        "spotify_danceability": "0.472",
+        "spotify_energy": "0.813",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.583",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0358",
+        "spotify_tempo": "122.941",
+        "spotify_valence": "0.48",
+        "spotify_acousticness": "0.0000155",
+        "spotify_instrumentalness": "0.0589",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.336",
+        "spotify_artists01": "Temples",
+        "spotify_artists01_id": "4ogwGU9VPWrnVBs1GEwZVV",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbce0ff5b72ee8dd5d4626728",
+        "spotify_artists01_genres": "garage rock, neo-psychedelic",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Z0PrB0mvOGU",
+        "ytreleasedate": "2023/01/11"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Temples-Gamma-Rays.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3180,
+            "name": "Temples",
+            "slug": "temples",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistjpname": "テンプルズ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Temples",
+        "ytvideoid": "Z0PrB0mvOGU",
+        "spotify_track_id": "1ZHqcbJiQuiv6UQZDDqBqB"
+      },
+      "genre_data": [
+        {
+          "name": "Anatolian rock",
+          "slug": "anatolian-rock",
+          "term_id": 2926,
+          "post_count": 5
+        },
+        {
+          "name": "Neo-psychedelia",
+          "slug": "neo-psychedelia",
+          "term_id": 630,
+          "post_count": 192
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "gamma-rays"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

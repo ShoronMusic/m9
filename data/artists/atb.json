@@ -1,0 +1,80 @@
+{
+  "id": 1624,
+  "count": 1,
+  "description": "ATB is a German DJ, musician, and producer.",
+  "link": "https://sub.music8.jp/category/atb/",
+  "name": "ATB",
+  "slug": "atb",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "1998",
+    "artistborn": "19730226",
+    "artistdied": "",
+    "artistjpname": "エーティービー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7jZM5w05mGhw6wTB1okhD9",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517444d7cffab76f55289e92914d"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1624",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1624"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1624"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "エーティービー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517444d7cffab76f55289e92914d",
+  "artistActiveYearStart": "1998",
+  "occupation": "musician, dj, producer"
+}

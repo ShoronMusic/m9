@@ -1,0 +1,77 @@
+{
+  "id": 3644,
+  "count": 2,
+  "description": "Robert Miles was an Italian record producer, composer, musician and DJ.",
+  "link": "https://sub.music8.jp/category/robert-miles/",
+  "name": "Robert Miles",
+  "slug": "robert-miles",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "ITA",
+    "artistactiveyearstart": "1984–2017",
+    "artistborn": "19691103",
+    "artistjpname": "ロバート・マイルズ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "2017.05.09",
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3644",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3644"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3644"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ロバート・マイルズ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1984–2017",
+  "occupation": "musician, dj, producer"
+}

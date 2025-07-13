@@ -1,0 +1,72 @@
+{
+  "id": 5699,
+  "count": 8,
+  "description": "Starset is an American rock band.",
+  "link": "https://sub.music8.jp/category/starset/",
+  "name": "STARSET",
+  "slug": "starset",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2013",
+    "artistborn": "",
+    "artistjpname": "スターセット",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Nine Lashes | Thousand Foot Krutch | Ashes Remain | Cult To Follow | Downplay | Red | From Ashes To New (from-ashes-to-new) | Nothing More (nothing-more) | Egypt Central | Saint Asonia (saint-asonia) | MNQN | All Good Things (all-good-things) | Solence (solence) | Adelitas Way | My Darkest Days | Gemini Syndrome | Skillet (skillet) | Like A Storm (like-a-storm) | Icon for Hire (icon-for-hire) | I Prevail (i-prevail)",
+    "spotify_artist_id": "0kD8IT1CzF7js2XKM9lLLa",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517485df9b6d2737a27354409852"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5699",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5699"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5699"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "スターセット",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517485df9b6d2737a27354409852",
+  "artistActiveYearStart": "2013",
+  "occupation": "band"
+}

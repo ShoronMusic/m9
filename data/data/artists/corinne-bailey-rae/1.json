@@ -1,0 +1,189 @@
+{
+  "artist": {
+    "id": 3247,
+    "count": 1,
+    "description": "Corinne Bailey Rae is an English singer and songwriter. ",
+    "link": "https://sub.music8.jp/category/corinne-bailey-rae/",
+    "name": "Corinne Bailey Rae",
+    "slug": "corinne-bailey-rae",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1998",
+      "artistborn": "19790226",
+      "artistjpname": "コリーヌ・ベイリー・レイ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3247",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3247"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3247"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65858,
+      "date": "2024-04-10T17:28:33",
+      "date_gmt": "2024-04-10T08:28:33",
+      "title": {
+        "rendered": "He Will Follow You With His Eyes"
+      },
+      "content": {
+        "rendered": "<p>Corinne Bailey Rae - He Will Follow You With His Eyes</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3247
+      ],
+      "tags": [],
+      "genre": [
+        628,
+        679
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "4TffiAO-E_4",
+        "ytreleasedate": "2024/04/10",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "4kP5P9xl4iu191ZvPzGuZW",
+        "spotify_release_date": "2023-09-15",
+        "spotify_name": "He Will Follow You With His Eyes",
+        "spotify_artists": "コリーヌ・ベイリー・レイ",
+        "spotify_album": "Black Rainbows",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738159f8d272a0a7e623418d79",
+        "spotify_duration_ms": "225298",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.356",
+        "spotify_energy": "0.439",
+        "spotify_key": "5",
+        "spotify_loudness": "-10.879",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0709",
+        "spotify_tempo": "155.811",
+        "spotify_valence": "0.392",
+        "spotify_acousticness": "0.518",
+        "spotify_instrumentalness": "0.00000156",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0961",
+        "spotify_artists01": "コリーヌ・ベイリー・レイ",
+        "spotify_artists01_id": "29WzbAQtDnBJF09es0uddn",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdcb57d08016c41fca3e221ab",
+        "spotify_artists01_genres": "british soul, neo soul, pop soul, soul",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2738159f8d272a0a7e623418d79.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3247,
+            "name": "Corinne Bailey Rae",
+            "slug": "corinne-bailey-rae",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1998",
+              "artistborn": "19790226",
+              "artistjpname": "コリーヌ・ベイリー・レイ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "コリーヌ・ベイリー・レイ",
+        "ytvideoid": "4TffiAO-E_4",
+        "spotify_track_id": "4kP5P9xl4iu191ZvPzGuZW"
+      },
+      "genre_data": [
+        {
+          "name": "Neo soul",
+          "slug": "neo-soul",
+          "term_id": 628,
+          "post_count": 176
+        },
+        {
+          "name": "Psychedelic soul",
+          "slug": "psychedelic-soul",
+          "term_id": 679,
+          "post_count": 56
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "he-will-follow-you-with-his-eyes"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,810 @@
+{
+  "artist": {
+    "id": 2247,
+    "count": 6,
+    "description": "H.E.A.T is a Swedish hard rock group.",
+    "link": "https://sub.music8.jp/category/heat/",
+    "name": "H.E.A.T.",
+    "slug": "heat",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "SWE",
+      "artistactiveyearstart": "2007",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ヒート",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2247",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2247"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2247"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 98060,
+      "date": "2025-04-25T21:04:16",
+      "date_gmt": "2025-04-25T12:04:16",
+      "title": {
+        "rendered": "CALL MY NAME"
+      },
+      "content": {
+        "rendered": "<p>H.E.A.T - CALL MY NAME</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2247
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "5ueS4MEprlY",
+        "ytreleasedate": "2025/04/25",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1Nrh116aLOS165TthTly1W",
+        "spotify_release_date": "2025-04-23",
+        "spotify_name": "Call My Name",
+        "spotify_artists": "H.E.A.T",
+        "spotify_album": "Welcome To The Future",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a530ec82ba87f922db4a7db4",
+        "spotify_duration_ms": "255773",
+        "spotify_popularity": "9",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "H.E.A.T",
+        "spotify_artists01_id": "7M4PCSo5DDasGginrPHSDd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb4332b6093691e9b306961aa4",
+        "spotify_artists01_genres": "album rock, arena rock, hard rock, glam metal, glam rock, melodic metal",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "新堂彼方 (CV.広瀬裕也)",
+        "spotify_artists02_id": "0KcGVnKt07udA3xIeiTyo5",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "3",
+        "spotify_artists03": "雨宮修一 (CV.榎木淳弥)",
+        "spotify_artists03_id": "4cABzYOLYr7PDNviRd7stM",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "3",
+        "spotify_artists04": "綾瀬和音 (CV.堀江瞬)",
+        "spotify_artists04_id": "1PMcF7v5BwAOwCXvc0loLq",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "3",
+        "potify_artists05": "桐ヶ谷怜 (CV.坂田将吾)",
+        "spotify_artists05_id": "4LnkroKh3NkPrasCuJyKji",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "3"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/h-e-a-t-call-my-name.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2247,
+            "name": "H.E.A.T.",
+            "slug": "heat",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヒート",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "H.E.A.T",
+        "ytvideoid": "5ueS4MEprlY",
+        "spotify_track_id": "1Nrh116aLOS165TthTly1W"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "call-my-name-4"
+    },
+    {
+      "id": 92409,
+      "date": "2025-03-05T22:05:56",
+      "date_gmt": "2025-03-05T13:05:56",
+      "title": {
+        "rendered": "Bad Time For Love"
+      },
+      "content": {
+        "rendered": "<p>H.E.A.T - Bad Time For Love</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2247
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "P0jBn8vZ-e4",
+        "ytreleasedate": "2025/03/05",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "",
+        "spotify_release_date": "",
+        "spotify_name": "",
+        "spotify_artists": "",
+        "spotify_album": "",
+        "spotify_images": "",
+        "spotify_duration_ms": "",
+        "spotify_popularity": "",
+        "spotify_danceability": "",
+        "spotify_energy": "",
+        "spotify_key": "",
+        "spotify_loudness": "",
+        "spotify_mode": "",
+        "spotify_speechiness": "",
+        "spotify_tempo": "",
+        "spotify_valence": "",
+        "spotify_acousticness": "",
+        "spotify_instrumentalness": "",
+        "spotify_time_signature": "",
+        "spotify_liveness": "",
+        "spotify_artists01": "",
+        "spotify_artists01_id": "",
+        "spotify_artists01_images": "",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/H.E.A.T-Bad-Time-For-Love.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2247,
+            "name": "H.E.A.T.",
+            "slug": "heat",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヒート",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "",
+        "ytvideoid": "P0jBn8vZ-e4",
+        "spotify_track_id": ""
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "bad-time-for-love"
+    },
+    {
+      "id": 52662,
+      "date": "2023-05-05T20:00:41",
+      "date_gmt": "2023-05-05T11:00:41",
+      "title": {
+        "rendered": "Will You Be"
+      },
+      "content": {
+        "rendered": "<p>H.E.A.T - Will You Be</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2247
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1lNyJYOggcPGGDCd2vOkAP",
+        "spotify_release_date": "2023-05-05",
+        "spotify_name": "Will You Be",
+        "spotify_artists": "H.E.A.T",
+        "spotify_album": "Will You Be",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734048527bda42a255076a36ee",
+        "spotify_duration_ms": "258293",
+        "spotify_popularity": "36",
+        "spotify_danceability": "0.343",
+        "spotify_energy": "0.814",
+        "spotify_key": "4",
+        "spotify_loudness": "-3.585",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0419",
+        "spotify_tempo": "183.963",
+        "spotify_valence": "0.378",
+        "spotify_acousticness": "0.000182",
+        "spotify_instrumentalness": "0.000102",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.119",
+        "spotify_artists01": "H.E.A.T",
+        "spotify_artists01_id": "7M4PCSo5DDasGginrPHSDd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcc567845ead47d800f122572",
+        "spotify_artists01_genres": "nightrun, swedish melodic rock",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "5AJZbzB-grw",
+        "ytreleasedate": "2023/05/05"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/H.E.A.T-Will-You-Be.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2247,
+            "name": "H.E.A.T.",
+            "slug": "heat",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヒート",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "H.E.A.T",
+        "ytvideoid": "5AJZbzB-grw",
+        "spotify_track_id": "1lNyJYOggcPGGDCd2vOkAP"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "will-you-be"
+    },
+    {
+      "id": 39428,
+      "date": "2022-06-11T11:50:00",
+      "date_gmt": "2022-06-11T02:50:00",
+      "title": {
+        "rendered": "Hollywood"
+      },
+      "content": {
+        "rendered": "\n<p>H.E.A.T-Hollywood</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2247
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2tBzh60WC8A2ECpK48E76s",
+        "spotify_release_date": "2022/8/5",
+        "spotify_name": "Hollywood",
+        "spotify_artists": "H.E.A.T",
+        "spotify_album": "ForceMajeure",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27363a8a019d28439149c0ecd58",
+        "spotify_duration_ms": "212413",
+        "spotify_popularity": "15",
+        "spotify_danceability": "0.491",
+        "spotify_energy": "0.954",
+        "spotify_key": "4",
+        "spotify_loudness": "-2.455",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0816",
+        "spotify_tempo": "132.987",
+        "spotify_valence": "0.383",
+        "spotify_acousticness": "8.39E-06",
+        "spotify_instrumentalness": "6.14E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.251",
+        "spotify_artists01": "H.E.A.T",
+        "spotify_artists01_id": "7M4PCSo5DDasGginrPHSDd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcc567845ead47d800f122572",
+        "spotify_artists01_genres": "nightrun,swedishmelodicrock",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "4tu-HLpwUmM",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/H.E.A.T-Hollywood.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2247,
+            "name": "H.E.A.T.",
+            "slug": "heat",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヒート",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "H.E.A.T",
+        "ytvideoid": "4tu-HLpwUmM",
+        "spotify_track_id": "2tBzh60WC8A2ECpK48E76s"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hollywood"
+    },
+    {
+      "id": 39812,
+      "date": "2022-04-09T00:39:00",
+      "date_gmt": "2022-04-08T15:39:00",
+      "title": {
+        "rendered": "Back To The Rhythm"
+      },
+      "content": {
+        "rendered": "\n<p>H.E.A.T.-BackToTheRhythm</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2247
+      ],
+      "tags": [],
+      "genre": [
+        553,
+        614
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4BCo0qhxkpxegjS4daRL32",
+        "spotify_release_date": "2022/8/5",
+        "spotify_name": "BacktotheRhythm",
+        "spotify_artists": "H.E.A.T",
+        "spotify_album": "ForceMajeure",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27363a8a019d28439149c0ecd58",
+        "spotify_duration_ms": "251053",
+        "spotify_popularity": "23",
+        "spotify_danceability": "0.511",
+        "spotify_energy": "0.947",
+        "spotify_key": "2",
+        "spotify_loudness": "-2.531",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0493",
+        "spotify_tempo": "102.987",
+        "spotify_valence": "0.345",
+        "spotify_acousticness": "0.000147",
+        "spotify_instrumentalness": "7.82E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0706",
+        "spotify_artists01": "H.E.A.T",
+        "spotify_artists01_id": "7M4PCSo5DDasGginrPHSDd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcc567845ead47d800f122572",
+        "spotify_artists01_genres": "nightrun,swedishmelodicrock",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "e4bj3LM3G5A",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/H.E.A.T.-Back-To-The-Rhythm.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2247,
+            "name": "H.E.A.T.",
+            "slug": "heat",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヒート",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "H.E.A.T",
+        "ytvideoid": "e4bj3LM3G5A",
+        "spotify_track_id": "4BCo0qhxkpxegjS4daRL32"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        },
+        {
+          "name": "Melodic Hard",
+          "slug": "melodic-hard",
+          "term_id": 614,
+          "post_count": 150
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "back-to-the-rhythm"
+    },
+    {
+      "id": 39947,
+      "date": "2022-03-25T12:41:00",
+      "date_gmt": "2022-03-25T03:41:00",
+      "title": {
+        "rendered": "Nationwide"
+      },
+      "content": {
+        "rendered": "\n<p>H.E.A.T-Nationwide</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2247
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5kZiKl9VyKCKEeloh9hced",
+        "spotify_release_date": "2022/8/5",
+        "spotify_name": "Nationwide",
+        "spotify_artists": "H.E.A.T",
+        "spotify_album": "ForceMajeure",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27363a8a019d28439149c0ecd58",
+        "spotify_duration_ms": "221840",
+        "spotify_popularity": "17",
+        "spotify_danceability": "0.461",
+        "spotify_energy": "0.978",
+        "spotify_key": "0",
+        "spotify_loudness": "-2.783",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.074",
+        "spotify_tempo": "95.012",
+        "spotify_valence": "0.288",
+        "spotify_acousticness": "5.74E-05",
+        "spotify_instrumentalness": "2.01E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.304",
+        "spotify_artists01": "H.E.A.T",
+        "spotify_artists01_id": "7M4PCSo5DDasGginrPHSDd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebcc567845ead47d800f122572",
+        "spotify_artists01_genres": "nightrun,swedishmelodicrock",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "6efkTmhOVXQ",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/H.E.A.T-Nationwide.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2247,
+            "name": "H.E.A.T.",
+            "slug": "heat",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "2007",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ヒート",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "H.E.A.T",
+        "ytvideoid": "6efkTmhOVXQ",
+        "spotify_track_id": "5kZiKl9VyKCKEeloh9hced"
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "nationwide"
+    }
+  ],
+  "totalSongs": 6,
+  "totalPages": 1,
+  "currentPage": 1
+}

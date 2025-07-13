@@ -1,0 +1,76 @@
+{
+  "id": 3133,
+  "count": 1,
+  "description": "Gavin Rossdale is an English musician, lead singer and rhythm guitarist of the rock band Bush.",
+  "link": "https://sub.music8.jp/category/gavin-rossdale/",
+  "name": "Gavin Rossdale",
+  "slug": "gavin-rossdale",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1983",
+    "artistborn": "19651030",
+    "artistjpname": "ギャヴィン・ロスデイル",
+    "member": [
+      {
+        "term_id": 2273,
+        "name": "Bush",
+        "slug": "bush",
+        "term_group": 0,
+        "term_taxonomy_id": 2273,
+        "taxonomy": "category",
+        "description": "Bush are an English rock band formed in London in 1992.",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3133",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3133"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3133"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ギャヴィン・ロスデイル",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1983",
+  "occupation": ""
+}

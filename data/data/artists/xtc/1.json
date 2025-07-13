@@ -1,0 +1,475 @@
+{
+  "artist": {
+    "id": 932,
+    "count": 3,
+    "description": "XTC were an English rock band.",
+    "link": "https://sub.music8.jp/category/xtc/",
+    "name": "XTC",
+    "slug": "xtc",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1972",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "エックス・ティー・シー",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/932",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=932"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=932"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47533,
+      "date": "1989-01-01T15:04:00",
+      "date_gmt": "1989-01-01T06:04:00",
+      "title": {
+        "rendered": "Mayor of Simpleton"
+      },
+      "content": {
+        "rendered": "<p>XTC - Mayor of Simpleton</p>\n",
+        "protected": false
+      },
+      "categories": [
+        932
+      ],
+      "tags": [],
+      "genre": [
+        584,
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "Ciq0wlhwUVw",
+        "likecount": "",
+        "spotify_track_id": "39eEVHdCHNTmfg1KzEDxvK",
+        "spotify_release_date": "1989",
+        "spotify_name": "Mayor Of Simpleton - 2001 Remaster",
+        "spotify_artists": "XTC",
+        "spotify_album": "Oranges & Lemons",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27320705e53681ce2ba6ae030c4",
+        "spotify_duration_ms": "238050",
+        "spotify_popularity": "45",
+        "spotify_danceability": "0.56",
+        "spotify_energy": "0.966",
+        "spotify_key": "7",
+        "spotify_loudness": "-4.675",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0309",
+        "spotify_tempo": "139.265",
+        "spotify_valence": "0.928",
+        "spotify_acousticness": "0.0208",
+        "spotify_instrumentalness": "0.000117",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.292",
+        "spotify_artists01": "XTC",
+        "spotify_artists01_id": "2qT62DYO8Ajb276vUJmvhz",
+        "spotify_artists01_images": "https://i.scdn.co/image/e6540622c946b42edd4c461f86fac6c3ca0ac61d",
+        "spotify_artists01_genres": "art punk, art rock, beatlesque, new romantic, new wave, new wave pop, post-punk, power pop, zolo",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/XTC-Mayor-of-Simpleton.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 932,
+            "name": "XTC",
+            "slug": "xtc",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1972",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "エックス・ティー・シー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "XTC",
+        "ytvideoid": "Ciq0wlhwUVw",
+        "spotify_track_id": "39eEVHdCHNTmfg1KzEDxvK"
+      },
+      "genre_data": [
+        {
+          "name": "Jangle pop",
+          "slug": "jangle-pop",
+          "term_id": 584,
+          "post_count": 112
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "mayor-of-simpleton"
+    },
+    {
+      "id": 49040,
+      "date": "1982-01-01T15:09:00",
+      "date_gmt": "1982-01-01T06:09:00",
+      "title": {
+        "rendered": "Senses Working Overtime"
+      },
+      "content": {
+        "rendered": "<p>XTC - Senses Working Overtime</p>\n",
+        "protected": false
+      },
+      "categories": [
+        932
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        672
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "NrcemZpOmpI",
+        "likecount": "",
+        "spotify_track_id": "0XDv7SLyMkGcAnb12fMHa1",
+        "spotify_release_date": "1982/2/12",
+        "spotify_name": "Senses Working Overtime - Remastered 2001",
+        "spotify_artists": "XTC",
+        "spotify_album": "English Settlement",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273eaa71fe9c71d643584107f0f",
+        "spotify_duration_ms": "290667",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.35783454585164187",
+        "spotify_energy": "-0.5324944865451767",
+        "spotify_key": "-1.417844935220459",
+        "spotify_loudness": "-1.1216505133190475",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.378284395662631",
+        "spotify_tempo": "0.2343822578538022",
+        "spotify_valence": "0.8610706902612423",
+        "spotify_acousticness": "-0.5719561983972029",
+        "spotify_instrumentalness": "-0.23776560126694474",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "3.19289141547109",
+        "spotify_artists01": "XTC",
+        "spotify_artists01_id": "2qT62DYO8Ajb276vUJmvhz",
+        "spotify_artists01_images": "https://i.scdn.co/image/e6540622c946b42edd4c461f86fac6c3ca0ac61d",
+        "spotify_artists01_genres": "art punk, art rock, beatlesque, new romantic, new wave, new wave pop, post-punk, power pop, zolo",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/XTC-Senses-Working-Overtime.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 932,
+            "name": "XTC",
+            "slug": "xtc",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1972",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "エックス・ティー・シー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "XTC",
+        "ytvideoid": "NrcemZpOmpI",
+        "spotify_track_id": "0XDv7SLyMkGcAnb12fMHa1"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Progressive pop",
+          "slug": "progressive-pop",
+          "term_id": 672,
+          "post_count": 23
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "senses-working-overtime"
+    },
+    {
+      "id": 49286,
+      "date": "1979-09-14T14:56:00",
+      "date_gmt": "1979-09-14T05:56:00",
+      "title": {
+        "rendered": "Making Plans For Nigel"
+      },
+      "content": {
+        "rendered": "<p>XTC - Making Plans For Nigel</p>\n",
+        "protected": false
+      },
+      "categories": [
+        932
+      ],
+      "tags": [],
+      "genre": [
+        419,
+        421,
+        638,
+        665
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "n-X3Wy-svIY",
+        "likecount": "0",
+        "spotify_track_id": "1XT5kxg6Tk0ukCO2vBQN4v",
+        "spotify_release_date": "1979/8/17",
+        "spotify_name": "Making Plans For Nigel",
+        "spotify_artists": "XTC",
+        "spotify_album": "Drums And Wires",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27324110c456fe319f691e1a320",
+        "spotify_duration_ms": "253800",
+        "spotify_popularity": "60",
+        "spotify_danceability": "-0.06459937867247222",
+        "spotify_energy": "1.0613776118715113",
+        "spotify_key": "0.47224151734130654",
+        "spotify_loudness": "0.6187760201160711",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.15628164553248744",
+        "spotify_tempo": "1.165148237544911",
+        "spotify_valence": "0.44234370383791816",
+        "spotify_acousticness": "-0.6853905410887536",
+        "spotify_instrumentalness": "-0.41148769716980277",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.6901835125274639",
+        "spotify_artists01": "XTC",
+        "spotify_artists01_id": "2qT62DYO8Ajb276vUJmvhz",
+        "spotify_artists01_images": "https://i.scdn.co/image/e6540622c946b42edd4c461f86fac6c3ca0ac61d",
+        "spotify_artists01_genres": "art punk, art rock, beatlesque, new romantic, new wave, new wave pop, post-punk, power pop, zolo",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/XTC-Making-Plans-For-Nigel.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 932,
+            "name": "XTC",
+            "slug": "xtc",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1972",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "エックス・ティー・シー",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "XTC",
+        "ytvideoid": "n-X3Wy-svIY",
+        "spotify_track_id": "1XT5kxg6Tk0ukCO2vBQN4v"
+      },
+      "genre_data": [
+        {
+          "name": "Art pop",
+          "slug": "art-pop",
+          "term_id": 419,
+          "post_count": 124
+        },
+        {
+          "name": "Art rock",
+          "slug": "art-rock",
+          "term_id": 421,
+          "post_count": 118
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "making-plans-for-nigel"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

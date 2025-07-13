@@ -1,0 +1,203 @@
+{
+  "artist": {
+    "id": 4673,
+    "count": 1,
+    "description": "Whitesnake are an English hard rock band.",
+    "link": "https://sub.music8.jp/category/whitesnake/",
+    "name": "Whitesnake",
+    "slug": "whitesnake",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1978",
+      "artistborn": "",
+      "artistjpname": "ホワイトスネイク",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ],
+      "related_artists": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4673",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4673"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4673"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 67637,
+      "date": "1982-10-01T10:17:40",
+      "date_gmt": "1982-10-01T01:17:40",
+      "title": {
+        "rendered": "Here I Go Again"
+      },
+      "content": {
+        "rendered": "<p>Whitesnake - Here I Go Again</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4673
+      ],
+      "tags": [],
+      "genre": [
+        433,
+        538
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "WyF8RHM1OCg",
+        "ytreleasedate": "2009/02/28",
+        "spotify_track_id": "1qOU8KzFifXE9YrgjVwYvc",
+        "spotify_release_date": "1987-04-07",
+        "spotify_name": "Here I Go Again - 2018 Remaster",
+        "spotify_artists": "ホワイトスネイク",
+        "spotify_album": "Whitesnake (2018 Remaster)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732d0b092b97341c9f7f388d62",
+        "spotify_duration_ms": "275395",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.292",
+        "spotify_energy": "0.823",
+        "spotify_key": "7",
+        "spotify_loudness": "-6.763",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0407",
+        "spotify_tempo": "89.939",
+        "spotify_valence": "0.244",
+        "spotify_acousticness": "0.0117",
+        "spotify_instrumentalness": "0.0000779",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.155",
+        "spotify_artists01": "ホワイトスネイク",
+        "spotify_artists01_id": "3UbyYnvNIT5DFXU4WgiGpP",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1cc545458190efc44f48035f",
+        "spotify_artists01_genres": "album rock, british blues, classic rock, glam metal, hard rock, metal, rock",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2732d0b092b97341c9f7f388d62.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4673,
+            "name": "Whitesnake",
+            "slug": "whitesnake",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "",
+              "artistjpname": "ホワイトスネイク",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ],
+              "related_artists": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "ホワイトスネイク",
+        "ytvideoid": "WyF8RHM1OCg",
+        "spotify_track_id": "1qOU8KzFifXE9YrgjVwYvc"
+      },
+      "genre_data": [
+        {
+          "name": "Blues rock",
+          "slug": "blues-rock",
+          "term_id": 433,
+          "post_count": 133
+        },
+        {
+          "name": "Glam metal",
+          "slug": "glam-metal",
+          "term_id": 538,
+          "post_count": 112
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "here-i-go-again"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

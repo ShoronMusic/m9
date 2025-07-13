@@ -1,0 +1,626 @@
+{
+  "artist": {
+    "id": 921,
+    "count": 4,
+    "description": "Paul Young is an English musician, singer and songwriter.",
+    "link": "https://sub.music8.jp/category/paul-young/",
+    "name": "Paul Young",
+    "slug": "paul-young",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1978",
+      "artistborn": "19560117",
+      "artistdied": "",
+      "artistjpname": "ポール・ヤング",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "ssw",
+          "label": "SSW"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/921",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=921"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=921"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 1591,
+      "date": "1991-03-18T01:47:00",
+      "date_gmt": "1991-03-17T16:47:00",
+      "title": {
+        "rendered": "Senza Una Donna"
+      },
+      "content": {
+        "rendered": "<p>Zucchero, Paul Young - Senza Una Donna (Without a woman)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        921,
+        771
+      ],
+      "tags": [],
+      "genre": [
+        432,
+        698,
+        6
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "V69vs8JmXYM",
+        "likecount": "",
+        "spotify_track_id": "0qWzPsuYQwwLoamiIuAUf4",
+        "spotify_release_date": "2023/8/18",
+        "spotify_name": "Senza Una Donna - Original Italian Version",
+        "spotify_artists": "Zucchero",
+        "spotify_album": "Pasaporte a los 80s",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27341a03328f20ef51473f1b25f",
+        "spotify_duration_ms": "267333",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.604",
+        "spotify_energy": "0.344",
+        "spotify_key": "11",
+        "spotify_loudness": "-14.944",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0299",
+        "spotify_tempo": "156.898",
+        "spotify_valence": "0.488",
+        "spotify_acousticness": "0.313",
+        "spotify_instrumentalness": "4.30E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0815",
+        "spotify_artists01": "Zucchero",
+        "spotify_artists01_id": "2KftmGt9sk1yLjsAoloC3M",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb7ee57b2437148c8ca45ffe2d",
+        "spotify_artists01_genres": "italian adult pop, italian pop rock",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "ytreleasedate": "",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Zucchero-Paul-Young-Senza-Una-Donna.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 921,
+            "name": "Paul Young",
+            "slug": "paul-young",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "19560117",
+              "artistdied": "",
+              "artistjpname": "ポール・ヤング",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 771,
+            "name": "Zucchero",
+            "slug": "zucchero",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "1970",
+              "artistborn": "19550925",
+              "artistjpname": "ズッケロ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Zucchero",
+        "ytvideoid": "V69vs8JmXYM",
+        "spotify_track_id": "0qWzPsuYQwwLoamiIuAUf4"
+      },
+      "genre_data": [
+        {
+          "name": "Blues",
+          "slug": "blues",
+          "term_id": 432,
+          "post_count": 21
+        },
+        {
+          "name": "Rock",
+          "slug": "rock",
+          "term_id": 698,
+          "post_count": 81
+        },
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "senza-una-donna"
+    },
+    {
+      "id": 48344,
+      "date": "1985-02-25T01:33:00",
+      "date_gmt": "1985-02-24T16:33:00",
+      "title": {
+        "rendered": "Everytime You Go Away"
+      },
+      "content": {
+        "rendered": "<p>Paul Young - Everytime You Go Away</p>\n",
+        "protected": false
+      },
+      "categories": [
+        921
+      ],
+      "tags": [],
+      "genre": [
+        430,
+        6
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "nfk6sCzRTbM",
+        "likecount": "",
+        "spotify_track_id": "0IpfTMKENGLJcULkMnU8Rb",
+        "spotify_release_date": "2002",
+        "spotify_name": "Everytime You Go Away",
+        "spotify_artists": "Paul Young",
+        "spotify_album": "Love Songs",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734d0bfb582ba4e9e604f4e919",
+        "spotify_duration_ms": "321573",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.607",
+        "spotify_energy": "0.643",
+        "spotify_key": "5",
+        "spotify_loudness": "-11.493",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0435",
+        "spotify_tempo": "164.256",
+        "spotify_valence": "0.715",
+        "spotify_acousticness": "0.177",
+        "spotify_instrumentalness": "0.000153",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.118",
+        "spotify_artists01": "Paul Young",
+        "spotify_artists01_id": "6rqU9HQ57NYGBnBzbrY3a4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb240f1dd467e6bbad1a0e5acd",
+        "spotify_artists01_genres": "mellow gold, new romantic, new wave, new wave pop, soft rock",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Paul-Young-Everytime-You-Go-Away.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 921,
+            "name": "Paul Young",
+            "slug": "paul-young",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "19560117",
+              "artistdied": "",
+              "artistjpname": "ポール・ヤング",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Paul Young",
+        "ytvideoid": "nfk6sCzRTbM",
+        "spotify_track_id": "0IpfTMKENGLJcULkMnU8Rb"
+      },
+      "genre_data": [
+        {
+          "name": "Blue-eyed soul",
+          "slug": "blue-eyed-soul",
+          "term_id": 430,
+          "post_count": 59
+        },
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "everytime-you-go-away"
+    },
+    {
+      "id": 48744,
+      "date": "1983-07-28T01:54:00",
+      "date_gmt": "1983-07-27T16:54:00",
+      "title": {
+        "rendered": "Love of the Common People"
+      },
+      "content": {
+        "rendered": "<p>Paul Young - Love of the Common People</p>\n",
+        "protected": false
+      },
+      "categories": [
+        921
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "SVmjKHkgxis",
+        "likecount": "",
+        "spotify_track_id": "6cARFkZxx2JR3JlvDzeLZc",
+        "spotify_release_date": "1991/9/7",
+        "spotify_name": "Love of the Common People",
+        "spotify_artists": "Paul Young",
+        "spotify_album": "From Time To Time - The Singles Collection",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e0126da84b670e4f81afc75e",
+        "spotify_duration_ms": "220733",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.744",
+        "spotify_energy": "0.609",
+        "spotify_key": "9",
+        "spotify_loudness": "-11.202",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0758",
+        "spotify_tempo": "90.723",
+        "spotify_valence": "0.893",
+        "spotify_acousticness": "0.0883",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0599",
+        "spotify_artists01": "Paul Young",
+        "spotify_artists01_id": "6rqU9HQ57NYGBnBzbrY3a4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb240f1dd467e6bbad1a0e5acd",
+        "spotify_artists01_genres": "mellow gold, new romantic, new wave, new wave pop, soft rock",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Paul-Young-Love-of-the-Common-People.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 921,
+            "name": "Paul Young",
+            "slug": "paul-young",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "19560117",
+              "artistdied": "",
+              "artistjpname": "ポール・ヤング",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Paul Young",
+        "ytvideoid": "SVmjKHkgxis",
+        "spotify_track_id": "6cARFkZxx2JR3JlvDzeLZc"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "love-of-the-common-people"
+    },
+    {
+      "id": 48838,
+      "date": "1983-03-11T01:39:00",
+      "date_gmt": "1983-03-10T16:39:00",
+      "title": {
+        "rendered": "Come Back and Stay"
+      },
+      "content": {
+        "rendered": "<p>Paul Young - Come Back and Stay</p>\n",
+        "protected": false
+      },
+      "categories": [
+        921
+      ],
+      "tags": [],
+      "genre": [
+        430,
+        638
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "aeeJhEpeUfc",
+        "likecount": "",
+        "spotify_track_id": "1r3YUTAwY0Y7tyV9Xcgps8",
+        "spotify_release_date": "1983",
+        "spotify_name": "Come Back and Stay - 2008 Remastered",
+        "spotify_artists": "Paul Young",
+        "spotify_album": "No Parlez",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c79d8dc24ad4cecc246eedd3",
+        "spotify_duration_ms": "264853",
+        "spotify_popularity": "58",
+        "spotify_danceability": "-0.13500503275982456",
+        "spotify_energy": "0.4322175730228189",
+        "spotify_key": "0.20222916697534005",
+        "spotify_loudness": "0.039725454339248276",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "0.4520058898241059",
+        "spotify_tempo": "0.27774164159209075",
+        "spotify_valence": "0.5693732390449942",
+        "spotify_acousticness": "0.10476511998869285",
+        "spotify_instrumentalness": "-0.41145006057685823",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "0.7630650799479735",
+        "spotify_artists01": "Paul Young",
+        "spotify_artists01_id": "6rqU9HQ57NYGBnBzbrY3a4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb240f1dd467e6bbad1a0e5acd",
+        "spotify_artists01_genres": "mellow gold, new romantic, new wave, new wave pop, soft rock",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Paul-Young-Come-Back-and-Stay.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 921,
+            "name": "Paul Young",
+            "slug": "paul-young",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1978",
+              "artistborn": "19560117",
+              "artistdied": "",
+              "artistjpname": "ポール・ヤング",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Paul Young",
+        "ytvideoid": "aeeJhEpeUfc",
+        "spotify_track_id": "1r3YUTAwY0Y7tyV9Xcgps8"
+      },
+      "genre_data": [
+        {
+          "name": "Blue-eyed soul",
+          "slug": "blue-eyed-soul",
+          "term_id": 430,
+          "post_count": 59
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "come-back-and-stay"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

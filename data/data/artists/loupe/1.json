@@ -1,0 +1,202 @@
+{
+  "artist": {
+    "id": 5975,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/loupe/",
+    "name": "Loupe",
+    "slug": "loupe",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5975",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5975"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5975"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 82825,
+      "date": "2024-09-27T16:47:38",
+      "date_gmt": "2024-09-27T07:47:38",
+      "title": {
+        "rendered": "Madeleine"
+      },
+      "content": {
+        "rendered": "<p>Good Kid, Loupe - Madeleine</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4404,
+        5975
+      ],
+      "tags": [],
+      "genre": [
+        573,
+        574
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "n28opoCLU_4",
+        "ytreleasedate": "2024/09/27",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "4FSIlfg8BEZuGlsJMoLY1U",
+        "spotify_release_date": "2024-09-27",
+        "spotify_name": "Madeleine (ft. Loupe)",
+        "spotify_artists": "Good Kid, Loupe",
+        "spotify_album": "Acoustic Kid",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735a2cf49ee395fe6aa5bb7478",
+        "spotify_duration_ms": "171524",
+        "spotify_popularity": "17",
+        "spotify_danceability": "0.566",
+        "spotify_energy": "0.215",
+        "spotify_key": "9",
+        "spotify_loudness": "-6.829",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0288",
+        "spotify_tempo": "136.639",
+        "spotify_valence": "0.353",
+        "spotify_acousticness": "0.879",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.109",
+        "spotify_artists01": "Good Kid",
+        "spotify_artists01_id": "38SKxCyfrmNWqWunb9wGHP",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb62b311a0a9ecf97a2f80ddb8",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "Loupe",
+        "spotify_artists02_id": "23n2oObsIrvqtcOVwhyT3o",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebfa6c7205ee443f785be47da3",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "21",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2735a2cf49ee395fe6aa5bb7478.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4404,
+            "name": "Good Kid",
+            "slug": "good-kid",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2015",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 5975,
+            "name": "Loupe",
+            "slug": "loupe",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Good Kid, Loupe",
+        "ytvideoid": "n28opoCLU_4",
+        "spotify_track_id": "4FSIlfg8BEZuGlsJMoLY1U"
+      },
+      "genre_data": [
+        {
+          "name": "Indie folk",
+          "slug": "indie-folk",
+          "term_id": 573,
+          "post_count": 125
+        },
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "madeleine"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

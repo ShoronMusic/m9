@@ -1,0 +1,182 @@
+{
+  "artist": {
+    "id": 2602,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/jo-hill/",
+    "name": "Jo Hill",
+    "slug": "jo-hill",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2602",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2602"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2602"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38310,
+      "date": "2022-11-18T01:34:00",
+      "date_gmt": "2022-11-17T16:34:00",
+      "title": {
+        "rendered": "COASTIN"
+      },
+      "content": {
+        "rendered": "\n<p>JoHill-COASTINfeat.Havelock</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2603,
+        2602
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "7whecxx0Agvolkah43pXFk",
+        "spotify_release_date": "2022/11/18",
+        "spotify_name": "",
+        "spotify_artists": "JoHill,Havelock",
+        "spotify_album": "DownatTheRes",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273520f98aa60224536e41da819",
+        "spotify_duration_ms": "219466",
+        "spotify_popularity": "22",
+        "spotify_danceability": "0.61",
+        "spotify_energy": "0.534",
+        "spotify_key": "9",
+        "spotify_loudness": "-7.578",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0282",
+        "spotify_tempo": "93.97",
+        "spotify_valence": "0.638",
+        "spotify_acousticness": "0.0543",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.4",
+        "spotify_artists01": "JoHill",
+        "spotify_artists01_id": "1AbLfK2cwcwDcmiqyHQVF8",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb41fecd0e3b8088ec8ec2aa77",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "32",
+        "spotify_artists02": "Havelock",
+        "spotify_artists02_id": "3AIAml2wCQUDhWt0BffVbA",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb148cf6a3204ad2c871fff934",
+        "spotify_artists02_genres": "modernindiepop",
+        "spotify_artists02_popularity": "30",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "uhFDA4htcdo",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Jo-Hill-COASTIN.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2603,
+            "name": "Havelock",
+            "slug": "havelock",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2602,
+            "name": "Jo Hill",
+            "slug": "jo-hill",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "JoHill,Havelock",
+        "ytvideoid": "uhFDA4htcdo",
+        "spotify_track_id": "7whecxx0Agvolkah43pXFk"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "coastin"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

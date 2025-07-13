@@ -1,0 +1,74 @@
+{
+  "id": 4751,
+  "count": 1,
+  "description": "Led Zeppelin were an English rock band.",
+  "link": "https://sub.music8.jp/category/led-zeppelin/",
+  "name": "Led Zeppelin",
+  "slug": "led-zeppelin",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1968-1980",
+    "artistborn": "",
+    "artistjpname": "レッド・ツェッペリン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "36QJpDe2go2KgaRleHCDTp",
+    "spotify_artist_images": "https://i.scdn.co/image/b0248a44865493e6a03832aa89854ada16ff07a8",
+    "youtube_channel": "UCaKZA66vM_TUpetUNohmR0A",
+    "wikipedia_page": "Led_Zeppelin"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4751",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4751"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4751"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "レッド・ツェッペリン",
+  "spotifyArtistImages": "https://i.scdn.co/image/b0248a44865493e6a03832aa89854ada16ff07a8",
+  "artistActiveYearStart": "1968-1980",
+  "occupation": "band"
+}

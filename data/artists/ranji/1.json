@@ -1,0 +1,222 @@
+{
+  "artist": {
+    "id": 1424,
+    "count": 1,
+    "description": "ISR",
+    "link": "https://sub.music8.jp/category/ranji/",
+    "name": "Ranji",
+    "slug": "ranji",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1424",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1424"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1424"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41060,
+      "date": "2021-03-25T22:06:00",
+      "date_gmt": "2021-03-25T13:06:00",
+      "title": {
+        "rendered": "Everyday Rockstars"
+      },
+      "content": {
+        "rendered": "\n<p>ViniVicivs.Ranjift.Halflives-EverydayRockstars</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1421,
+        1424,
+        1423
+      ],
+      "tags": [],
+      "genre": [
+        501,
+        680
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "01j1DsBs6KBsl30wnQ9vCB",
+        "spotify_release_date": "2021/3/26",
+        "spotify_name": "Everyday Rockstars",
+        "spotify_artists": "Vini Vici, Ranji, Halflives",
+        "spotify_album": "Everyday Rockstars",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730d24e59117f5b799d464b92f",
+        "spotify_duration_ms": "209375",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.411",
+        "spotify_energy": "0.882",
+        "spotify_key": "0",
+        "spotify_loudness": "-6.809",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0485",
+        "spotify_tempo": "127.547",
+        "spotify_valence": "0.213",
+        "spotify_acousticness": "0.0264",
+        "spotify_instrumentalness": "0.00365",
+        "spotify_time_signature": "5",
+        "spotify_liveness": "0.263",
+        "spotify_artists01": "Vini Vici",
+        "spotify_artists01_id": "29zsVzEH33dD5QqxeL8dvy",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb16c3d0508b78984977eef4cf",
+        "spotify_artists01_genres": "progressive uplifting trance",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "Ranji",
+        "spotify_artists02_id": "6Tu0luJL7EoFv1RsHZP30p",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb2bb473da8b42b12ccad56bc1",
+        "spotify_artists02_genres": "psychedelic trance",
+        "spotify_artists02_popularity": "50",
+        "spotify_artists03": "Halflives",
+        "spotify_artists03_id": "4er5NZNuc83Cev96LA28ID",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebcd396948baf6718c4f518680",
+        "spotify_artists03_genres": "pixie",
+        "spotify_artists03_popularity": "43",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "UYTZIkE6sUc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Vini-Vici-vs.-Ranji-ft.-Halflives-Everyday-Rockstars.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1421,
+            "name": "Halflives",
+            "slug": "halflives",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ハーフライブズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1424,
+            "name": "Ranji",
+            "slug": "ranji",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1423,
+            "name": "Vini Vici",
+            "slug": "vini-vici",
+            "acf": {
+              "artistorigin": "ISR",
+              "artistactiveyearstart": "2001",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                },
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Vini Vici, Ranji, Halflives",
+        "ytvideoid": "UYTZIkE6sUc",
+        "spotify_track_id": "01j1DsBs6KBsl30wnQ9vCB"
+      },
+      "genre_data": [
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Psychedelic trance",
+          "slug": "psychedelic-trance",
+          "term_id": 680,
+          "post_count": 27
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "everyday-rockstars"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

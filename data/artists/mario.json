@@ -1,0 +1,76 @@
+{
+  "id": 2907,
+  "count": 3,
+  "description": "Mario is an American R&amp;B singer and songwriter.",
+  "link": "https://sub.music8.jp/category/mario/",
+  "name": "Mario",
+  "slug": "mario",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2001",
+    "artistborn": "19860827",
+    "artistdied": "",
+    "artistjpname": "マリオ",
+    "member": [
+      {
+        "term_id": 1014,
+        "name": "Beth Nielsen Chapman",
+        "slug": "beth-nielsen-chapman",
+        "term_group": 0,
+        "term_taxonomy_id": 1014,
+        "taxonomy": "category",
+        "description": "Beth Nielsen Chapman is an American singer-songwriter and musician.",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2907",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2907"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2907"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マリオ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2001",
+  "occupation": ""
+}

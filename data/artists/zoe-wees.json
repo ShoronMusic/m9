@@ -1,0 +1,78 @@
+{
+  "id": 772,
+  "count": 9,
+  "description": "Zoe Wees is a German singer.",
+  "link": "https://sub.music8.jp/category/zoe-wees/",
+  "name": "Zoe Wees",
+  "slug": "zoe-wees",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "2019",
+    "artistborn": "20020513",
+    "artistdied": "",
+    "artistjpname": "ゾーイ・ウィーズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "03d2mJXSMtuPI0nIvLnhoS",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517455503d7a59287670fba618b6",
+    "youtube_channel": "UCQam2rlpwMx1YlvBN8PSS2A",
+    "wikipedia_page": "Zoe_Wees"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/772",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=772"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=772"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ゾーイ・ウィーズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517455503d7a59287670fba618b6",
+  "artistActiveYearStart": "2019",
+  "occupation": "singer, songwriter"
+}

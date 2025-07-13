@@ -1,0 +1,72 @@
+{
+  "id": 5145,
+  "count": 1,
+  "description": "BlackByrd is a South Africa pop trio.",
+  "link": "https://sub.music8.jp/category/blackbyrd/",
+  "name": "BlackByrd",
+  "slug": "blackbyrd",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "RSA",
+    "artistactiveyearstart": "2012",
+    "artistborn": "",
+    "artistjpname": "ブラックバード",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "group",
+        "label": "Group"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "2EcQCsx4TPZ4VXmK8FbTbm",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174f2d331b0cfaeebca84a66adb"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5145",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5145"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5145"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ブラックバード",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174f2d331b0cfaeebca84a66adb",
+  "artistActiveYearStart": "2012",
+  "occupation": "group"
+}

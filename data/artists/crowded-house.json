@@ -1,0 +1,72 @@
+{
+  "id": 880,
+  "count": 4,
+  "description": "Crowded House is a New Zealand-Australian rock band.",
+  "link": "https://sub.music8.jp/category/crowded-house/",
+  "name": "Crowded House",
+  "slug": "crowded-house",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "AUS",
+    "artistactiveyearstart": "1985",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "クラウデッド・ハウス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Split Enz | Neil Finn | Hunters & Collectors | Icehouse (icehouse) | Mental As Anything | Australian Crawl | Paul Kelly | Divinyls | Noiseworks | Midnight Oil (midnight-oil) | Finn Brothers | Tim Finn | Powderfinger | Hoodoo Gurus | Black Sorrows | Choirboys | Cold Chisel | Dragon | Mondo Rock | Daryl Braithwaite",
+    "spotify_artist_id": "7ohlPA8dRBtCf92zaZCaaB",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517444cb4815148bd49c0a600b89"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/880",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=880"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=880"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "クラウデッド・ハウス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517444cb4815148bd49c0a600b89",
+  "artistActiveYearStart": "1985",
+  "occupation": "band"
+}

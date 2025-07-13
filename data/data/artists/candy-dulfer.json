@@ -1,0 +1,76 @@
+{
+  "id": 1035,
+  "count": 1,
+  "description": "Candy Dulfer is a Dutch saxophonist and musician.",
+  "link": "https://sub.music8.jp/category/candy-dulfer/",
+  "name": "Candy Dulfer",
+  "slug": "candy-dulfer",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NED",
+    "artistactiveyearstart": "1981",
+    "artistborn": "19690919",
+    "artistdied": "",
+    "artistjpname": "キャンディ・ダルファー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "saxophone",
+        "label": "Saxophone"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "287jMoxHzjERgHI6ja8TKa",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a0ecd9724a1accdcd7a91af6"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1035",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1035"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1035"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "キャンディ・ダルファー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174a0ecd9724a1accdcd7a91af6",
+  "artistActiveYearStart": "1981",
+  "occupation": "musician, saxophone"
+}

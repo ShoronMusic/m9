@@ -1,0 +1,803 @@
+{
+  "artist": {
+    "id": 1020,
+    "count": 5,
+    "description": "Eric Clapton is an English rock and blues guitarist, singer, and songwriter.",
+    "link": "https://sub.music8.jp/category/eric-clapton/",
+    "name": "Eric Clapton",
+    "slug": "eric-clapton",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "1962",
+      "artistborn": "19450330",
+      "artistdied": "",
+      "artistjpname": "エリック・クラプトン",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [],
+      "related_artists": "B.B. King (b-b-king) | Joe Cocker (joe-cocker) | Stevie Ray Vaughan (stevie-ray-vaughan) | Cream (cream) | Derek & The Dominos | Jeff Beck (jeff-beck) | Peter Frampton | Buddy Guy | Muddy Waters | Allman Brothers Band | Bob Dylan (bob-dylan) | George Harrison (george-harrison) | Jimi Hendrix (jimi-hendrix) | Santana (santana) | Mark Knopfler (mark-knopfler) | Who (who) | Crosby, Stills, Nash & Young | Genesis (genesis) | Neil Young (neil-young) | Deep Purple (deep-purple)",
+      "spotify_artist_id": "6PAt558ZEZl0DmdXlnjMgD",
+      "spotify_artist_images": "https://i.scdn.co/image/ab6772690000dd22a60e8f215103f6841d8a83f0"
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1020",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1020"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1020"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 83109,
+      "date": "2024-10-04T16:39:01",
+      "date_gmt": "2024-10-04T07:39:01",
+      "title": {
+        "rendered": "Stand and Deliver"
+      },
+      "content": {
+        "rendered": "<p>Eric Clapton, Van Morrison - Stand and Deliver</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1020,
+        5074
+      ],
+      "tags": [],
+      "genre": [
+        433
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "l1rqXC2mM7g",
+        "ytreleasedate": "2024/10/04",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "5VpyvnVHgnTomvhn9rSjbW",
+        "spotify_release_date": "2024-10-04",
+        "spotify_name": "Stand and Deliver",
+        "spotify_artists": "Eric Clapton, Van Morrison",
+        "spotify_album": "Meanwhile",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736d75e3005987cb74ba518428",
+        "spotify_duration_ms": "270000",
+        "spotify_popularity": "37",
+        "spotify_danceability": "0.635",
+        "spotify_energy": "0.603",
+        "spotify_key": "7",
+        "spotify_loudness": "-8.662",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0302",
+        "spotify_tempo": "109.801",
+        "spotify_valence": "0.509",
+        "spotify_acousticness": "0.723",
+        "spotify_instrumentalness": "0.0000213",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.101",
+        "spotify_artists01": "エリック・クラプトン",
+        "spotify_artists01_id": "6PAt558ZEZl0DmdXlnjMgD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46ca60e8f215103f6841d8a83f0",
+        "spotify_artists01_genres": "album rock, blues rock, classic rock, electric blues, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "ヴァン・モリソン",
+        "spotify_artists02_id": "44NX2ffIYHr6D4n7RaZF7A",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb5885f6c2d3ecf8e08bdfa472",
+        "spotify_artists02_genres": "classic rock, folk, folk rock, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists02_popularity": "75",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2736d75e3005987cb74ba518428-2.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1020,
+            "name": "Eric Clapton",
+            "slug": "eric-clapton",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1962",
+              "artistborn": "19450330",
+              "artistdied": "",
+              "artistjpname": "エリック・クラプトン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "B.B. King (b-b-king) | Joe Cocker (joe-cocker) | Stevie Ray Vaughan (stevie-ray-vaughan) | Cream (cream) | Derek & The Dominos | Jeff Beck (jeff-beck) | Peter Frampton | Buddy Guy | Muddy Waters | Allman Brothers Band | Bob Dylan (bob-dylan) | George Harrison (george-harrison) | Jimi Hendrix (jimi-hendrix) | Santana (santana) | Mark Knopfler (mark-knopfler) | Who (who) | Crosby, Stills, Nash & Young | Genesis (genesis) | Neil Young (neil-young) | Deep Purple (deep-purple)",
+              "spotify_artist_id": "6PAt558ZEZl0DmdXlnjMgD",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6772690000dd22a60e8f215103f6841d8a83f0"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 5074,
+            "name": "Van Morrison",
+            "slug": "van-morrison",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1985",
+              "artistborn": "19450831",
+              "artistjpname": "ヴァン・モリソン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "ssw",
+                  "label": "SSW"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "",
+              "spotify_artist_images": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Eric Clapton, Van Morrison",
+        "ytvideoid": "l1rqXC2mM7g",
+        "spotify_track_id": "5VpyvnVHgnTomvhn9rSjbW"
+      },
+      "genre_data": [
+        {
+          "name": "Blues rock",
+          "slug": "blues-rock",
+          "term_id": 433,
+          "post_count": 133
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "stand-and-deliver-2"
+    },
+    {
+      "id": 83105,
+      "date": "2024-10-04T16:37:31",
+      "date_gmt": "2024-10-04T07:37:31",
+      "title": {
+        "rendered": "Smile"
+      },
+      "content": {
+        "rendered": "<p>Eric Clapton - Smile</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1020
+      ],
+      "tags": [],
+      "genre": [
+        399
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "dATZzP0n0QE",
+        "ytreleasedate": "2024/10/04",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "6w4jdJ64RE8wDEGtZYAeiS",
+        "spotify_release_date": "2024-10-04",
+        "spotify_name": "Smile",
+        "spotify_artists": "エリック・クラプトン",
+        "spotify_album": "Meanwhile",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736d75e3005987cb74ba518428",
+        "spotify_duration_ms": "226000",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.514",
+        "spotify_energy": "0.497",
+        "spotify_key": "9",
+        "spotify_loudness": "-10.315",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0339",
+        "spotify_tempo": "180.357",
+        "spotify_valence": "0.361",
+        "spotify_acousticness": "0.81",
+        "spotify_instrumentalness": "0.000403",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.12",
+        "spotify_artists01": "エリック・クラプトン",
+        "spotify_artists01_id": "6PAt558ZEZl0DmdXlnjMgD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46ca60e8f215103f6841d8a83f0",
+        "spotify_artists01_genres": "album rock, blues rock, classic rock, electric blues, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2736d75e3005987cb74ba518428-1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1020,
+            "name": "Eric Clapton",
+            "slug": "eric-clapton",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1962",
+              "artistborn": "19450330",
+              "artistdied": "",
+              "artistjpname": "エリック・クラプトン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "B.B. King (b-b-king) | Joe Cocker (joe-cocker) | Stevie Ray Vaughan (stevie-ray-vaughan) | Cream (cream) | Derek & The Dominos | Jeff Beck (jeff-beck) | Peter Frampton | Buddy Guy | Muddy Waters | Allman Brothers Band | Bob Dylan (bob-dylan) | George Harrison (george-harrison) | Jimi Hendrix (jimi-hendrix) | Santana (santana) | Mark Knopfler (mark-knopfler) | Who (who) | Crosby, Stills, Nash & Young | Genesis (genesis) | Neil Young (neil-young) | Deep Purple (deep-purple)",
+              "spotify_artist_id": "6PAt558ZEZl0DmdXlnjMgD",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6772690000dd22a60e8f215103f6841d8a83f0"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "エリック・クラプトン",
+        "ytvideoid": "dATZzP0n0QE",
+        "spotify_track_id": "6w4jdJ64RE8wDEGtZYAeiS"
+      },
+      "genre_data": [
+        {
+          "name": "Acoustic rock",
+          "slug": "acoustic-rock",
+          "term_id": 399,
+          "post_count": 94
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "smile-4"
+    },
+    {
+      "id": 83101,
+      "date": "2024-09-25T16:35:01",
+      "date_gmt": "2024-09-25T07:35:01",
+      "title": {
+        "rendered": "One Woman"
+      },
+      "content": {
+        "rendered": "<p>Eric Clapton - One Woman</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1020
+      ],
+      "tags": [],
+      "genre": [
+        433,
+        690
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "pJCx57kp0dE",
+        "ytreleasedate": "2024/09/25",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0crkWyCSj6u2NHPeGbH4ph",
+        "spotify_release_date": "2024-10-04",
+        "spotify_name": "One Woman",
+        "spotify_artists": "エリック・クラプトン",
+        "spotify_album": "Meanwhile",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736d75e3005987cb74ba518428",
+        "spotify_duration_ms": "290000",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.723",
+        "spotify_energy": "0.708",
+        "spotify_key": "9",
+        "spotify_loudness": "-7.002",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0452",
+        "spotify_tempo": "80.998",
+        "spotify_valence": "0.787",
+        "spotify_acousticness": "0.545",
+        "spotify_instrumentalness": "0.00182",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.117",
+        "spotify_artists01": "エリック・クラプトン",
+        "spotify_artists01_id": "6PAt558ZEZl0DmdXlnjMgD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6772690000c46ca60e8f215103f6841d8a83f0",
+        "spotify_artists01_genres": "album rock, blues rock, classic rock, electric blues, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists01_popularity": "73",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2736d75e3005987cb74ba518428.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1020,
+            "name": "Eric Clapton",
+            "slug": "eric-clapton",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1962",
+              "artistborn": "19450330",
+              "artistdied": "",
+              "artistjpname": "エリック・クラプトン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "B.B. King (b-b-king) | Joe Cocker (joe-cocker) | Stevie Ray Vaughan (stevie-ray-vaughan) | Cream (cream) | Derek & The Dominos | Jeff Beck (jeff-beck) | Peter Frampton | Buddy Guy | Muddy Waters | Allman Brothers Band | Bob Dylan (bob-dylan) | George Harrison (george-harrison) | Jimi Hendrix (jimi-hendrix) | Santana (santana) | Mark Knopfler (mark-knopfler) | Who (who) | Crosby, Stills, Nash & Young | Genesis (genesis) | Neil Young (neil-young) | Deep Purple (deep-purple)",
+              "spotify_artist_id": "6PAt558ZEZl0DmdXlnjMgD",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6772690000dd22a60e8f215103f6841d8a83f0"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "エリック・クラプトン",
+        "ytvideoid": "pJCx57kp0dE",
+        "spotify_track_id": "0crkWyCSj6u2NHPeGbH4ph"
+      },
+      "genre_data": [
+        {
+          "name": "Blues rock",
+          "slug": "blues-rock",
+          "term_id": 433,
+          "post_count": 133
+        },
+        {
+          "name": "Reggae",
+          "slug": "reggae",
+          "term_id": 690,
+          "post_count": 83
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "one-woman"
+    },
+    {
+      "id": 5257,
+      "date": "1992-07-20T16:35:00",
+      "date_gmt": "1992-07-20T07:35:00",
+      "title": {
+        "rendered": "Runaway Train"
+      },
+      "content": {
+        "rendered": "<p>Elton John &amp; Eric Clapton - Runaway Train</p>\n",
+        "protected": false
+      },
+      "categories": [
+        992,
+        1020
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "1relIAfP5Dn2cihAHv1efL",
+        "spotify_release_date": "1992/6/22",
+        "spotify_name": "Runaway Train",
+        "spotify_artists": "Elton John, Eric Clapton",
+        "spotify_album": "The One",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27362f43939c7691a2a18da0520",
+        "spotify_duration_ms": "322960",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.546",
+        "spotify_energy": "0.88",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.645",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0437",
+        "spotify_tempo": "109.08",
+        "spotify_valence": "0.716",
+        "spotify_acousticness": "0.0221",
+        "spotify_instrumentalness": "0.0497",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.049",
+        "spotify_artists01": "Elton John",
+        "spotify_artists01_id": "3PhoLpVuITZKcymswpck5b",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb0a7388b95df960b5c0da8970",
+        "spotify_artists01_genres": "glam rock, mellow gold, piano rock, rock",
+        "spotify_artists01_popularity": "81",
+        "spotify_artists02": "Eric Clapton",
+        "spotify_artists02_id": "6PAt558ZEZl0DmdXlnjMgD",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6772690000c46ca60e8f215103f6841d8a83f0",
+        "spotify_artists02_genres": "album rock, blues rock, classic rock, electric blues, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists02_popularity": "69",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "RHcF8UbU2to",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Elton-John-Eric-Clapton-Runaway-Train.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 992,
+            "name": "Elton John",
+            "slug": "elton-john",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1962",
+              "artistborn": "19470325",
+              "artistdied": "",
+              "artistjpname": "エルトン・ジョン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "pianist",
+                  "label": "Pianist"
+                },
+                {
+                  "value": "composer",
+                  "label": "Composer"
+                }
+              ],
+              "related_artists": "Billy Joel (billy-joel) | Chicago (chicago) | Daryl Hall & John Oates (daryl-hall-john-oates) | Paul McCartney (paul-mccartney) | Eagles (eagles) | Rod Stewart (rod-stewart) | John Lennon (john-lennon) | Electric Light Orchestra (electric-light-orchestra) | David Bowie (david-bowie) | Bee Gees (bee-gees) | Phil Collins (phil-collins) | Fleetwood Mac (fleetwood-mac) | Simon & Garfunkel (simon-garfunkel) | Beach Boys (beach-boys) | Neil Diamond (neil-diamond) | Toto (toto) | Doobie Brothers (doobie-brothers) | Who (who) | Foreigner (foreigner) | Police (police)",
+              "spotify_artist_id": "3PhoLpVuITZKcymswpck5b",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051740a7388b95df960b5c0da8970"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1020,
+            "name": "Eric Clapton",
+            "slug": "eric-clapton",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1962",
+              "artistborn": "19450330",
+              "artistdied": "",
+              "artistjpname": "エリック・クラプトン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "B.B. King (b-b-king) | Joe Cocker (joe-cocker) | Stevie Ray Vaughan (stevie-ray-vaughan) | Cream (cream) | Derek & The Dominos | Jeff Beck (jeff-beck) | Peter Frampton | Buddy Guy | Muddy Waters | Allman Brothers Band | Bob Dylan (bob-dylan) | George Harrison (george-harrison) | Jimi Hendrix (jimi-hendrix) | Santana (santana) | Mark Knopfler (mark-knopfler) | Who (who) | Crosby, Stills, Nash & Young | Genesis (genesis) | Neil Young (neil-young) | Deep Purple (deep-purple)",
+              "spotify_artist_id": "6PAt558ZEZl0DmdXlnjMgD",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6772690000dd22a60e8f215103f6841d8a83f0"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Elton John, Eric Clapton",
+        "ytvideoid": "RHcF8UbU2to",
+        "spotify_track_id": "1relIAfP5Dn2cihAHv1efL"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "runaway-train"
+    },
+    {
+      "id": 3009,
+      "date": "1992-06-23T18:33:00",
+      "date_gmt": "1992-06-23T09:33:00",
+      "title": {
+        "rendered": "It's Probably Me"
+      },
+      "content": {
+        "rendered": "<p>Sting - It's Probably Me ft. Eric Clapton</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1020,
+        768
+      ],
+      "tags": [],
+      "genre": [
+        590
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "SUYI7kIR0S4",
+        "likecount": "0",
+        "spotify_track_id": "5k635yMb6DuMIRT5v2NUen",
+        "spotify_release_date": "2023-02-24",
+        "spotify_name": "It's Probably Me - Alternate Version",
+        "spotify_artists": "スティング, エリック・クラプトン",
+        "spotify_album": "Ten Summoner's Tales (Expanded Edition)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730bdc5457d8dd444902c2db36",
+        "spotify_duration_ms": "382032",
+        "spotify_popularity": "29",
+        "spotify_danceability": "0.769",
+        "spotify_energy": "0.372",
+        "spotify_key": "4",
+        "spotify_loudness": "-12.333",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0699",
+        "spotify_tempo": "91.018",
+        "spotify_valence": "0.353",
+        "spotify_acousticness": "0.23",
+        "spotify_instrumentalness": "0.0000543",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.069",
+        "spotify_artists01": "スティング",
+        "spotify_artists01_id": "0Ty63ceoRnnJKVEYP0VQpk",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9fdb4dab484a9f12e347c216",
+        "spotify_artists01_genres": "permanent wave, soft rock, sophisti-pop",
+        "spotify_artists01_popularity": "71",
+        "spotify_artists02": "エリック・クラプトン",
+        "spotify_artists02_id": "6PAt558ZEZl0DmdXlnjMgD",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6772690000c46ca60e8f215103f6841d8a83f0",
+        "spotify_artists02_genres": "album rock, blues rock, classic rock, electric blues, mellow gold, rock, singer-songwriter, soft rock",
+        "spotify_artists02_popularity": "70",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "ytreleasedate": "",
+        "artist_order": "Sting, Eric Clapton"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Sting-Its-Probably-Me.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1020,
+            "name": "Eric Clapton",
+            "slug": "eric-clapton",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1962",
+              "artistborn": "19450330",
+              "artistdied": "",
+              "artistjpname": "エリック・クラプトン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [],
+              "related_artists": "B.B. King (b-b-king) | Joe Cocker (joe-cocker) | Stevie Ray Vaughan (stevie-ray-vaughan) | Cream (cream) | Derek & The Dominos | Jeff Beck (jeff-beck) | Peter Frampton | Buddy Guy | Muddy Waters | Allman Brothers Band | Bob Dylan (bob-dylan) | George Harrison (george-harrison) | Jimi Hendrix (jimi-hendrix) | Santana (santana) | Mark Knopfler (mark-knopfler) | Who (who) | Crosby, Stills, Nash & Young | Genesis (genesis) | Neil Young (neil-young) | Deep Purple (deep-purple)",
+              "spotify_artist_id": "6PAt558ZEZl0DmdXlnjMgD",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6772690000dd22a60e8f215103f6841d8a83f0"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 768,
+            "name": "Sting",
+            "slug": "sting",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1971",
+              "artistborn": "19511002",
+              "artistdied": "",
+              "artistjpname": "スティング",
+              "member": [
+                {
+                  "term_id": 2,
+                  "name": "Police",
+                  "slug": "police",
+                  "term_group": 0,
+                  "term_taxonomy_id": 2,
+                  "taxonomy": "category",
+                  "description": "The Police were an English rock band formed in London in 1977.",
+                  "parent": 0,
+                  "count": 22,
+                  "filter": "raw"
+                }
+              ],
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "bassist",
+                  "label": "Bassist"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "0Ty63ceoRnnJKVEYP0VQpk",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051749fdb4dab484a9f12e347c216",
+              "youtube_channel": "UCwERP8ZAI10RtZIAPsZQDDw",
+              "wikipedia_page": "Sting_(musician)"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Sting, Eric Clapton",
+        "spotify_artists": "スティング, エリック・クラプトン",
+        "ytvideoid": "SUYI7kIR0S4",
+        "spotify_track_id": "5k635yMb6DuMIRT5v2NUen"
+      },
+      "genre_data": [
+        {
+          "name": "Jazz-rock",
+          "slug": "jazz-rock",
+          "term_id": 590,
+          "post_count": 20
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "its-probably-me"
+    }
+  ],
+  "totalSongs": 5,
+  "totalPages": 1,
+  "currentPage": 1
+}

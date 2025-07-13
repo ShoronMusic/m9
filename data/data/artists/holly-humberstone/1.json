@@ -1,0 +1,188 @@
+{
+  "artist": {
+    "id": 3268,
+    "count": 1,
+    "description": "Holly Humberstone is an English singer-songwriter",
+    "link": "https://sub.music8.jp/category/holly-humberstone/",
+    "name": "Holly Humberstone",
+    "slug": "holly-humberstone",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2018",
+      "artistborn": "19991217",
+      "artistjpname": "ホリー・ハンバーストーン",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3268",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3268"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3268"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 54151,
+      "date": "2023-10-13T09:34:02",
+      "date_gmt": "2023-10-13T00:34:02",
+      "title": {
+        "rendered": "Into Your Room"
+      },
+      "content": {
+        "rendered": "<p>Holly Humberstone - Into Your Room</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3268
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        736
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3necmcKMz1nk4r5pPbMufR",
+        "spotify_release_date": "2023-09-21",
+        "spotify_name": "Into Your Room",
+        "spotify_artists": "Holly Humberstone",
+        "spotify_album": "Into Your Room",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738747bfe14fe1c02eca138f73",
+        "spotify_duration_ms": "209787",
+        "spotify_popularity": "64",
+        "spotify_danceability": "0.51",
+        "spotify_energy": "0.648",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.325",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0952",
+        "spotify_tempo": "93.989",
+        "spotify_valence": "0.432",
+        "spotify_acousticness": "0.0534",
+        "spotify_instrumentalness": "0.00000314",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0807",
+        "spotify_artists01": "Holly Humberstone",
+        "spotify_artists01_id": "0nnYdIpahs41QiZ9MWp5Wx",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb856adfa2862765a64a79e190",
+        "spotify_artists01_genres": "alt z, indie pop, modern alternative pop, uk pop",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "JVsRbGTDtPw",
+        "ytreleasedate": "2023/10/13"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Holly-Humberstone-Into-Your-Room.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3268,
+            "name": "Holly Humberstone",
+            "slug": "holly-humberstone",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2018",
+              "artistborn": "19991217",
+              "artistjpname": "ホリー・ハンバーストーン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Holly Humberstone",
+        "ytvideoid": "JVsRbGTDtPw",
+        "spotify_track_id": "3necmcKMz1nk4r5pPbMufR"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "into-your-room"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

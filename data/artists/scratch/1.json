@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 1819,
+    "count": 1,
+    "description": "IRL",
+    "link": "https://sub.music8.jp/category/scratch/",
+    "name": "Scratch",
+    "slug": "scratch",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1819",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1819"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1819"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 40015,
+      "date": "2022-03-17T03:24:00",
+      "date_gmt": "2022-03-16T18:24:00",
+      "title": {
+        "rendered": "Another Round"
+      },
+      "content": {
+        "rendered": "\n<p>TheScratch-AnotherRound</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1819
+      ],
+      "tags": [],
+      "genre": [
+        446,
+        447,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "0ansLolwMuxl8ubtrFCfFe",
+        "spotify_release_date": "2022/3/11",
+        "spotify_name": "AnotherRound",
+        "spotify_artists": "TheScratch",
+        "spotify_album": "AnotherRound",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27362b5f94cda61e63815d0c73b",
+        "spotify_duration_ms": "307527",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.508",
+        "spotify_energy": "0.915",
+        "spotify_key": "9",
+        "spotify_loudness": "-6.814",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0856",
+        "spotify_tempo": "120.848",
+        "spotify_valence": "0.2",
+        "spotify_acousticness": "0.00334",
+        "spotify_instrumentalness": "0.000709",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.16",
+        "spotify_artists01": "TheScratch",
+        "spotify_artists01_id": "6BCpGC485tSshwjemmeAmd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb49578ab0c2fbe3e6da4c0cb2",
+        "spotify_artists01_genres": "irishindierock",
+        "spotify_artists01_popularity": "31",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "rhjZCJbIIRk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Scratch-Another-Round.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1819,
+            "name": "Scratch",
+            "slug": "scratch",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "TheScratch",
+        "ytvideoid": "rhjZCJbIIRk",
+        "spotify_track_id": "0ansLolwMuxl8ubtrFCfFe"
+      },
+      "genre_data": [
+        {
+          "name": "Celtic punk",
+          "slug": "celtic-punk",
+          "term_id": 446,
+          "post_count": 10
+        },
+        {
+          "name": "Celtic rock",
+          "slug": "celtic-rock",
+          "term_id": 447,
+          "post_count": 9
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "another-round"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

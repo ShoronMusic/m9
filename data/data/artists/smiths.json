@@ -1,0 +1,74 @@
+{
+  "id": 972,
+  "count": 22,
+  "description": "The Smiths were an English rock band formed in Manchester in 1982.",
+  "link": "https://sub.music8.jp/category/smiths/",
+  "name": "Smiths",
+  "slug": "smiths",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1982–1987",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ザ・スミス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3yY2gUcIsjMr8hjo51PoJ8",
+    "spotify_artist_images": "https://i.scdn.co/image/4bf08a9e6eea088b20d4092d1322bbd3f39ff9af",
+    "youtube_channel": "UC-sdfo_ho6Nq3OH8RUHBrNg",
+    "wikipedia_page": "The_Smiths"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/972",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=972"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=972"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ザ・スミス",
+  "spotifyArtistImages": "https://i.scdn.co/image/4bf08a9e6eea088b20d4092d1322bbd3f39ff9af",
+  "artistActiveYearStart": "1982–1987",
+  "occupation": "band"
+}

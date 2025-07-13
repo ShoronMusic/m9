@@ -1,0 +1,485 @@
+{
+  "artist": {
+    "id": 1653,
+    "count": 3,
+    "description": "JP Saxe is a Canadian musician and singer.",
+    "link": "https://sub.music8.jp/category/jp-saxe/",
+    "name": "JP Saxe",
+    "slug": "jp-saxe",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "CAN",
+      "artistactiveyearstart": "2012",
+      "artistborn": "19930323",
+      "artistdied": "",
+      "artistjpname": "JPサックス",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1653",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1653"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1653"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 99480,
+      "date": "2025-05-16T12:07:03",
+      "date_gmt": "2025-05-16T03:07:03",
+      "title": {
+        "rendered": "STRANGERS"
+      },
+      "content": {
+        "rendered": "<p>JP Saxe, TINI - STRANGERS</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1653,
+        1200
+      ],
+      "tags": [],
+      "genre": [
+        655,
+        685
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "IHMQbxdLJWA",
+        "ytreleasedate": "2025/05/16",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "682vct7cxeNq8i3RHKg61a",
+        "spotify_release_date": "2025-05-16",
+        "spotify_name": "STRANGERS (feat. TINI)",
+        "spotify_artists": "JP Saxe, TINI",
+        "spotify_album": "STRANGERS (feat. TINI)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273ca02bd6205b02426fd3db1a8",
+        "spotify_duration_ms": "201706",
+        "spotify_popularity": "25",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "JP Saxe",
+        "spotify_artists01_id": "66W9LaWS0DPdL7Sz8iYGYe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf1b69cfc6644a19595de37be",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "65",
+        "spotify_artists02": "TINI",
+        "spotify_artists02_id": "7vXDAI8JwjW531ouMGbfcp",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb43f8f52ac55da2d54fc8fdca",
+        "spotify_artists02_genres": "latin pop",
+        "spotify_artists02_popularity": "79",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/jp-saxe-tini-strangers.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1653,
+            "name": "JP Saxe",
+            "slug": "jp-saxe",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19930323",
+              "artistdied": "",
+              "artistjpname": "JPサックス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1200,
+            "name": "TINI",
+            "slug": "tini",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "JP Saxe, TINI",
+        "ytvideoid": "IHMQbxdLJWA",
+        "spotify_track_id": "682vct7cxeNq8i3RHKg61a"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "strangers-8"
+    },
+    {
+      "id": 91074,
+      "date": "2025-01-24T14:18:54",
+      "date_gmt": "2025-01-24T05:18:54",
+      "title": {
+        "rendered": "Safe"
+      },
+      "content": {
+        "rendered": "<p>JP Saxe - Safe</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1653
+      ],
+      "tags": [],
+      "genre": [
+        655
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "4VA-_3QJAD0",
+        "ytreleasedate": "2025/01/24",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0Bd3qt36q8Je7W6jGYYITL",
+        "spotify_release_date": "2025-01-24",
+        "spotify_name": "Safe",
+        "spotify_artists": "JP Saxe",
+        "spotify_album": "Safe",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273453f4fdc65e32dc897fdae55",
+        "spotify_duration_ms": "179697",
+        "spotify_popularity": "55",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "JP Saxe",
+        "spotify_artists01_id": "66W9LaWS0DPdL7Sz8iYGYe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2763a481ed5941869b019ad3",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/jp-saxe-safe.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1653,
+            "name": "JP Saxe",
+            "slug": "jp-saxe",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19930323",
+              "artistdied": "",
+              "artistjpname": "JPサックス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "JP Saxe",
+        "ytvideoid": "4VA-_3QJAD0",
+        "spotify_track_id": "0Bd3qt36q8Je7W6jGYYITL"
+      },
+      "genre_data": [
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "safe"
+    },
+    {
+      "id": 41921,
+      "date": "2019-10-17T13:37:00",
+      "date_gmt": "2019-10-17T04:37:00",
+      "title": {
+        "rendered": "If the World Was Ending"
+      },
+      "content": {
+        "rendered": "\n<p>JPSaxe-IftheWorldWasEndingft.JuliaMichaels</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1653,
+        1063
+      ],
+      "tags": [],
+      "genre": [
+        400,
+        655
+      ],
+      "vocal": [
+        2855
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "2kJwzbxV2ppxnQoYw4GLBZ",
+        "spotify_release_date": "2019/10/17",
+        "spotify_name": "If the World Was Ending (feat. Julia Michaels)",
+        "spotify_artists": "JP Saxe, Julia Michaels",
+        "spotify_album": "If the World Was Ending (feat. Julia Michaels)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273dedbec8cca43642f06533476",
+        "spotify_duration_ms": "208687",
+        "spotify_popularity": "79",
+        "spotify_danceability": "0.464",
+        "spotify_energy": "0.473",
+        "spotify_key": "1",
+        "spotify_loudness": "-10.086",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.129",
+        "spotify_tempo": "75.801",
+        "spotify_valence": "0.604",
+        "spotify_acousticness": "0.866",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.109",
+        "spotify_artists01": "JP Saxe",
+        "spotify_artists01_id": "66W9LaWS0DPdL7Sz8iYGYe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebe5ad2bb4e1b1795a1a4bc713",
+        "spotify_artists01_genres": "alt z, canadian contemporary r&b, singer-songwriter pop",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "Julia Michaels",
+        "spotify_artists02_id": "0ZED1XzwlLHW4ZaG4lOT6m",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb2c17882893491af059fb867e",
+        "spotify_artists02_genres": "pop",
+        "spotify_artists02_popularity": "72",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "1jO2wSpAoxA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/JP-Saxe-If-the-World-Was-Ending-ft.-Julia-Michaels.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1653,
+            "name": "JP Saxe",
+            "slug": "jp-saxe",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "2012",
+              "artistborn": "19930323",
+              "artistdied": "",
+              "artistjpname": "JPサックス",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1063,
+            "name": "Julia Michaels",
+            "slug": "julia-michaels",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2010",
+              "artistborn": "19931113",
+              "artistdied": "",
+              "artistjpname": "ジュリア・マイケルズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "0ZED1XzwlLHW4ZaG4lOT6m",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051741b098899f1cc5be055471b4d",
+              "youtube_channel": "UCCDEgbQWtDiAAKY83IwFfRQ",
+              "wikipedia_page": "Julia_Michaels",
+              "spotify_artist_images_s": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "JP Saxe, Julia Michaels",
+        "ytvideoid": "1jO2wSpAoxA",
+        "spotify_track_id": "2kJwzbxV2ppxnQoYw4GLBZ"
+      },
+      "genre_data": [
+        {
+          "name": "Adult contemporary",
+          "slug": "adult-contemporary",
+          "term_id": 400,
+          "post_count": 32
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "duet",
+          "slug": "duet",
+          "term_id": 2855
+        }
+      ],
+      "slug": "if-the-world-was-ending"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

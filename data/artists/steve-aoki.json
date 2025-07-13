@@ -1,0 +1,78 @@
+{
+  "id": 1026,
+  "count": 66,
+  "description": "Steve Aoki is an American DJ and music producer.",
+  "link": "https://sub.music8.jp/category/steve-aoki/",
+  "name": "Steve Aoki",
+  "slug": "steve-aoki",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1996",
+    "artistborn": "19771130",
+    "artistdied": "",
+    "artistjpname": "スティーブ・アオキ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "77AiFEVeAVj2ORpC85QVJs",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174cf85b39d94c486218a687248",
+    "youtube_channel": "UCALvGYb5h_MZCzW_vG8d8eQ",
+    "wikipedia_page": "Steve_Aoki"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1026",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1026"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1026"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "スティーブ・アオキ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174cf85b39d94c486218a687248",
+  "artistActiveYearStart": "1996",
+  "occupation": "dj, producer"
+}

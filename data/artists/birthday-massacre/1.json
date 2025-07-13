@@ -1,0 +1,193 @@
+{
+  "artist": {
+    "id": 3011,
+    "count": 1,
+    "description": "The Birthday Massacre (TBM) is a Canadian rock band.",
+    "link": "https://sub.music8.jp/category/birthday-massacre/",
+    "name": "Birthday Massacre",
+    "slug": "birthday-massacre",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "CAN",
+      "artistactiveyearstart": "1999",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ザ・バースデイ・マッサカー",
+      "member": false
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3011",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3011"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3011"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50555,
+      "date": "2023-02-17T23:25:16",
+      "date_gmt": "2023-02-17T14:25:16",
+      "title": {
+        "rendered": "Precious Hearts"
+      },
+      "content": {
+        "rendered": "<p>The Birthday Massacre - Precious Hearts</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3011
+      ],
+      "tags": [],
+      "genre": [
+        476,
+        579,
+        736
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2PvTXWzPyyNUs33gAuUqJM",
+        "spotify_release_date": "2022-02-18",
+        "spotify_name": "Precious Hearts",
+        "spotify_artists": "The Birthday Massacre",
+        "spotify_album": "Fascination",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c7b77e1a34cbc5ee42f5a492",
+        "spotify_duration_ms": "264509",
+        "spotify_popularity": "33",
+        "spotify_danceability": "0.467",
+        "spotify_energy": "0.914",
+        "spotify_key": "11",
+        "spotify_loudness": "-6.601",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0333",
+        "spotify_tempo": "95.043",
+        "spotify_valence": "0.405",
+        "spotify_acousticness": "0.0000567",
+        "spotify_instrumentalness": "0.824",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.367",
+        "spotify_artists01": "The Birthday Massacre",
+        "spotify_artists01_id": "16AVsBqzmIZTNHd0eX8VbK",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb916d2275e3b91d069e6e7683",
+        "spotify_artists01_genres": "canadian rock, dark cabaret, industrial metal, pixie, steampunk",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Wr4j5lWGass",
+        "ytreleasedate": "2022/02/17"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Birthday-Massacre-Precious-Hearts.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3011,
+            "name": "Birthday Massacre",
+            "slug": "birthday-massacre",
+            "acf": {
+              "artistorigin": "CAN",
+              "artistactiveyearstart": "1999",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・バースデイ・マッサカー",
+              "member": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Birthday Massacre",
+        "ytvideoid": "Wr4j5lWGass",
+        "spotify_track_id": "2PvTXWzPyyNUs33gAuUqJM"
+      },
+      "genre_data": [
+        {
+          "name": "Dark wave",
+          "slug": "dark-wave",
+          "term_id": 476,
+          "post_count": 57
+        },
+        {
+          "name": "Industrial rock",
+          "slug": "industrial-rock",
+          "term_id": 579,
+          "post_count": 99
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "precious-hearts"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

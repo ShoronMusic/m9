@@ -1,0 +1,325 @@
+{
+  "artist": {
+    "id": 2946,
+    "count": 2,
+    "description": "",
+    "link": "https://sub.music8.jp/category/claud/",
+    "name": "Claud",
+    "slug": "claud",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2018",
+      "artistborn": "19990423",
+      "artistdied": "",
+      "artistjpname": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2946",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2946"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2946"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50180,
+      "date": "2023-07-14T22:24:00",
+      "date_gmt": "2023-07-14T13:24:00",
+      "title": {
+        "rendered": "A Good Thing"
+      },
+      "content": {
+        "rendered": "<p>Claud - A Good Thing</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2946
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "520Ri2FiyuSI9qw1XP0CA3",
+        "spotify_release_date": "2023-07-14",
+        "spotify_name": "A Good Thing",
+        "spotify_artists": "Claud",
+        "spotify_album": "Supermodels",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b8e5378983a2f44ccdb38db0",
+        "spotify_duration_ms": "165916",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.586",
+        "spotify_energy": "0.754",
+        "spotify_key": "11",
+        "spotify_loudness": "-6.487",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0339",
+        "spotify_tempo": "124.012",
+        "spotify_valence": "0.603",
+        "spotify_acousticness": "0.0569",
+        "spotify_instrumentalness": "0.0027",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0794",
+        "spotify_artists01": "Claud",
+        "spotify_artists01_id": "5MaQlvNGOaTj39apHsXVq1",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebce5934a6c3bb0190e7bd3116",
+        "spotify_artists01_genres": "bedroom pop, indie pop",
+        "spotify_artists01_popularity": "49",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Oyz4Aodr8T4",
+        "ytreleasedate": "2023/07/14"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Claud-A-Good-Thing.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2946,
+            "name": "Claud",
+            "slug": "claud",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2018",
+              "artistborn": "19990423",
+              "artistdied": "",
+              "artistjpname": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Claud",
+        "ytvideoid": "Oyz4Aodr8T4",
+        "spotify_track_id": "520Ri2FiyuSI9qw1XP0CA3"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "a-good-thing"
+    },
+    {
+      "id": 59272,
+      "date": "2023-03-15T15:08:37",
+      "date_gmt": "2023-03-15T06:08:37",
+      "title": {
+        "rendered": "To Be Yours"
+      },
+      "content": {
+        "rendered": "<p>ODESZA - To Be Yours (feat. Claud)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2946,
+        2115
+      ],
+      "tags": [],
+      "genre": [
+        452,
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3lNBpsW30g2xSngVw2l1U7",
+        "spotify_release_date": "2023-03-15",
+        "spotify_name": "To Be Yours",
+        "spotify_artists": "ODESZA, Claud",
+        "spotify_album": "To Be Yours",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730865d33c874c39b4dffec65d",
+        "spotify_duration_ms": "211782",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.595",
+        "spotify_energy": "0.891",
+        "spotify_key": "0",
+        "spotify_loudness": "-3.928",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0353",
+        "spotify_tempo": "95.013",
+        "spotify_valence": "0.539",
+        "spotify_acousticness": "0.319",
+        "spotify_instrumentalness": "0.0987",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.327",
+        "spotify_artists01": "ODESZA",
+        "spotify_artists01_id": "21mKp7DqtSNHhCAU2ugvUw",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9f4a0cbfcc9b274344681ccb",
+        "spotify_artists01_genres": "chillwave, edm, indietronica",
+        "spotify_artists01_popularity": "67",
+        "spotify_artists02": "Claud",
+        "spotify_artists02_id": "5MaQlvNGOaTj39apHsXVq1",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebce5934a6c3bb0190e7bd3116",
+        "spotify_artists02_genres": "bedroom pop, indie pop",
+        "spotify_artists02_popularity": "47",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "vtryH80rUnE",
+        "ytreleasedate": "2023/03/15"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ODESZA-To-Be-Yours-feat.-Claud.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2946,
+            "name": "Claud",
+            "slug": "claud",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2018",
+              "artistborn": "19990423",
+              "artistdied": "",
+              "artistjpname": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2115,
+            "name": "ODESZA",
+            "slug": "odesza",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2012",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "オデッサ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "ODESZA, Claud",
+        "ytvideoid": "vtryH80rUnE",
+        "spotify_track_id": "3lNBpsW30g2xSngVw2l1U7"
+      },
+      "genre_data": [
+        {
+          "name": "Chillwave",
+          "slug": "chillwave",
+          "term_id": 452,
+          "post_count": 24
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "to-be-yours"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

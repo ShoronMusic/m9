@@ -1,0 +1,76 @@
+{
+  "id": 900,
+  "count": 3,
+  "description": "Kim Appleby is an English singer, songwriter, and actress.  She participated in the duo Mel and Kim, with her sister Melanie Appleby.",
+  "link": "https://sub.music8.jp/category/kim-appleby/",
+  "name": "Kim Appleby",
+  "slug": "kim-appleby",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1986",
+    "artistborn": "19610828",
+    "artistdied": "",
+    "artistjpname": "キム・アップルビー",
+    "member": [
+      {
+        "term_id": 899,
+        "name": "Mel &amp; Kim",
+        "slug": "mel-kim",
+        "term_group": 0,
+        "term_taxonomy_id": 899,
+        "taxonomy": "category",
+        "description": "Mel &amp; Kim were an English pop duo, consisting of sisters Melanie and Kim Appleby.",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/900",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=900"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=900"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "キム・アップルビー",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1986",
+  "occupation": ""
+}

@@ -1,0 +1,84 @@
+{
+  "id": 5040,
+  "count": 5,
+  "description": "WIM (Karn Kasidej Hongladaromp) is a Thai musician, actor, and songwriter.",
+  "link": "https://sub.music8.jp/category/wim/",
+  "name": "WIM",
+  "slug": "wim",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "THA",
+    "artistactiveyearstart": "2021",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "Rocco (rocco) | James Alyn (james-alyn) | HYBS (hybs)",
+    "spotify_artist_id": "5KOmVrCheNYiqcB974SI3Z",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174f73475f136a803f8991c2ca8"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5040",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5040"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5040"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174f73475f136a803f8991c2ca8",
+  "artistActiveYearStart": "2021",
+  "occupation": "singer, songwriter, musician, producer"
+}

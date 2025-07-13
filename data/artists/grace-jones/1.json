@@ -1,0 +1,837 @@
+{
+  "artist": {
+    "id": 929,
+    "count": 6,
+    "description": "Grace Jones is a Jamaican-American model, singer and actress.",
+    "link": "https://sub.music8.jp/category/grace-jones/",
+    "name": "Grace Jones",
+    "slug": "grace-jones",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "JAM",
+      "artistactiveyearstart": "1973",
+      "artistborn": "19480519",
+      "artistdied": "",
+      "artistjpname": "グレイス・ジョーンズ",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/929",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=929"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=929"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 47974,
+      "date": "1986-10-01T14:24:00",
+      "date_gmt": "1986-10-01T05:24:00",
+      "title": {
+        "rendered": "I'm Not Perfect But I'm Perfect For You"
+      },
+      "content": {
+        "rendered": "<p>Grace Jones - I'm Not Perfect But I'm Perfect For You</p>\n",
+        "protected": false
+      },
+      "categories": [
+        929
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        655
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "EMypXV1YJfw",
+        "likecount": "",
+        "spotify_track_id": "1NN9UaLVAKq4ADId81JgUK",
+        "spotify_release_date": "1986",
+        "spotify_name": "I'm Not Perfect (But I'm Perfect For You) - Remastered",
+        "spotify_artists": "Grace Jones",
+        "spotify_album": "Inside Story",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e30412e5a105f557452132b9",
+        "spotify_duration_ms": "238373",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.771467763614836",
+        "spotify_energy": "0.6838815885622954",
+        "spotify_key": "1.282278568439206",
+        "spotify_loudness": "-0.007908525364757493",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "-0.41824489068605675",
+        "spotify_tempo": "-0.7364505748318321",
+        "spotify_valence": "0.2729709902284834",
+        "spotify_acousticness": "-0.2572924395610516",
+        "spotify_instrumentalness": "-0.39540641069304616",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.4452092180443956",
+        "spotify_artists01": "Grace Jones",
+        "spotify_artists01_id": "2f9ZiYA2ic1r1voObUimdd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc1c97da9c6326675e8c493cd",
+        "spotify_artists01_genres": "art pop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Grace-Jones-Im-Not-Perfect-But-Im-Perfect-For-You.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 929,
+            "name": "Grace Jones",
+            "slug": "grace-jones",
+            "acf": {
+              "artistorigin": "JAM",
+              "artistactiveyearstart": "1973",
+              "artistborn": "19480519",
+              "artistdied": "",
+              "artistjpname": "グレイス・ジョーンズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Grace Jones",
+        "ytvideoid": "EMypXV1YJfw",
+        "spotify_track_id": "1NN9UaLVAKq4ADId81JgUK"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Pop",
+          "slug": "pop",
+          "term_id": 655,
+          "post_count": 1415
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "im-not-perfect-but-im-perfect-for-you"
+    },
+    {
+      "id": 48180,
+      "date": "1985-10-10T14:18:00",
+      "date_gmt": "1985-10-10T05:18:00",
+      "title": {
+        "rendered": "Slave to the rhythm"
+      },
+      "content": {
+        "rendered": "<p>Grace Jones - Slave to the rhythm</p>\n",
+        "protected": false
+      },
+      "categories": [
+        929
+      ],
+      "tags": [],
+      "genre": [
+        524,
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "Z0XLzIswI2s",
+        "likecount": "",
+        "spotify_track_id": "3di2SUB3jU1v5HPQCkc84L",
+        "spotify_release_date": "1998/1/1",
+        "spotify_name": "Slave To The Rhythm - Hot Blooded Version",
+        "spotify_artists": "Grace Jones",
+        "spotify_album": "Private Life: The Compass Point Sessions",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27342076f3afa79624ace2cb9d4",
+        "spotify_duration_ms": "498840",
+        "spotify_popularity": "48",
+        "spotify_danceability": "0.595",
+        "spotify_energy": "0.836",
+        "spotify_key": "1",
+        "spotify_loudness": "-6.917",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0358",
+        "spotify_tempo": "97.095",
+        "spotify_valence": "0.628",
+        "spotify_acousticness": "0.0603",
+        "spotify_instrumentalness": "0.0477",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.326",
+        "spotify_artists01": "Grace Jones",
+        "spotify_artists01_id": "2f9ZiYA2ic1r1voObUimdd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc1c97da9c6326675e8c493cd",
+        "spotify_artists01_genres": "art pop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Grace-Jones-Slave-To-The-Rhythm.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 929,
+            "name": "Grace Jones",
+            "slug": "grace-jones",
+            "acf": {
+              "artistorigin": "JAM",
+              "artistactiveyearstart": "1973",
+              "artistborn": "19480519",
+              "artistdied": "",
+              "artistjpname": "グレイス・ジョーンズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Grace Jones",
+        "ytvideoid": "Z0XLzIswI2s",
+        "spotify_track_id": "3di2SUB3jU1v5HPQCkc84L"
+      },
+      "genre_data": [
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "slave-to-the-rhythm"
+    },
+    {
+      "id": 49110,
+      "date": "1981-06-01T14:05:00",
+      "date_gmt": "1981-06-01T05:05:00",
+      "title": {
+        "rendered": "Pull Up To The Bumper"
+      },
+      "content": {
+        "rendered": "<p>Grace Jones - Pull Up To The Bumper</p>\n",
+        "protected": false
+      },
+      "categories": [
+        929
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        524,
+        662,
+        735
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "ytvideoid": "Tc1IphRx1pk",
+        "likecount": "",
+        "spotify_track_id": "653Fi3bqMxQQQmjw72ur6G",
+        "spotify_release_date": "1981",
+        "spotify_name": "Pull Up To The Bumper",
+        "spotify_artists": "Grace Jones",
+        "spotify_album": "Nightclubbing",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27375a8b4d86fb3a88401b38282",
+        "spotify_duration_ms": "281693",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.848",
+        "spotify_energy": "0.868",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.599",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0858",
+        "spotify_tempo": "108.623",
+        "spotify_valence": "0.871",
+        "spotify_acousticness": "0.142",
+        "spotify_instrumentalness": "0.013",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.134",
+        "spotify_artists01": "Grace Jones",
+        "spotify_artists01_id": "2f9ZiYA2ic1r1voObUimdd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc1c97da9c6326675e8c493cd",
+        "spotify_artists01_genres": "art pop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "artist_order": "",
+        "ytreleasedate": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Grace-Jones-Pull-Up-To-The-Bumper.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 929,
+            "name": "Grace Jones",
+            "slug": "grace-jones",
+            "acf": {
+              "artistorigin": "JAM",
+              "artistactiveyearstart": "1973",
+              "artistborn": "19480519",
+              "artistdied": "",
+              "artistjpname": "グレイス・ジョーンズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Grace Jones",
+        "ytvideoid": "Tc1IphRx1pk",
+        "spotify_track_id": "653Fi3bqMxQQQmjw72ur6G"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        },
+        {
+          "name": "Post-disco",
+          "slug": "post-disco",
+          "term_id": 662,
+          "post_count": 32
+        },
+        {
+          "name": "Synth-funk",
+          "slug": "synth-funk",
+          "term_id": 735,
+          "post_count": 262
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "pull-up-to-the-bumper"
+    },
+    {
+      "id": 49114,
+      "date": "1981-05-01T13:51:00",
+      "date_gmt": "1981-05-01T04:51:00",
+      "title": {
+        "rendered": "I've Seen That Face Before (Libertango)"
+      },
+      "content": {
+        "rendered": "<p>Grace Jones - I've Seen That Face Before (Libertango)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        929
+      ],
+      "tags": [],
+      "genre": [
+        450,
+        690,
+        739
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "nIN3IE3DHqc",
+        "likecount": "",
+        "spotify_track_id": "4QHfFzsVXbLewUmI2UMel5",
+        "spotify_release_date": "1981",
+        "spotify_name": "I've Seen That Face Before (Libertango)",
+        "spotify_artists": "Grace Jones",
+        "spotify_album": "Nightclubbing",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27375a8b4d86fb3a88401b38282",
+        "spotify_duration_ms": "270466",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.813",
+        "spotify_energy": "0.625",
+        "spotify_key": "9",
+        "spotify_loudness": "-9.382",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0409",
+        "spotify_tempo": "133.018",
+        "spotify_valence": "0.961",
+        "spotify_acousticness": "0.000713",
+        "spotify_instrumentalness": "0.182",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0613",
+        "spotify_artists01": "Grace Jones",
+        "spotify_artists01_id": "2f9ZiYA2ic1r1voObUimdd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc1c97da9c6326675e8c493cd",
+        "spotify_artists01_genres": "art pop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Grace-Jones-Ive-Seen-That-Face-Before-Libertango.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 929,
+            "name": "Grace Jones",
+            "slug": "grace-jones",
+            "acf": {
+              "artistorigin": "JAM",
+              "artistactiveyearstart": "1973",
+              "artistborn": "19480519",
+              "artistdied": "",
+              "artistjpname": "グレイス・ジョーンズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Grace Jones",
+        "ytvideoid": "nIN3IE3DHqc",
+        "spotify_track_id": "4QHfFzsVXbLewUmI2UMel5"
+      },
+      "genre_data": [
+        {
+          "name": "Chanson",
+          "slug": "chanson",
+          "term_id": 450,
+          "post_count": 6
+        },
+        {
+          "name": "Reggae",
+          "slug": "reggae",
+          "term_id": 690,
+          "post_count": 83
+        },
+        {
+          "name": "Tango",
+          "slug": "tango",
+          "term_id": 739,
+          "post_count": 1
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "ive-seen-that-face-before-libertango"
+    },
+    {
+      "id": 49419,
+      "date": "1977-10-01T14:01:00",
+      "date_gmt": "1977-10-01T05:01:00",
+      "title": {
+        "rendered": "La Vie En Rose"
+      },
+      "content": {
+        "rendered": "<p>Grace Jones - La Vie En Rose</p>\n",
+        "protected": false
+      },
+      "categories": [
+        929
+      ],
+      "tags": [],
+      "genre": [
+        436,
+        482
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "YEM8TspcCBY",
+        "likecount": "1",
+        "spotify_track_id": "5yJrl2r0vr6u9BXqQXZE3V",
+        "spotify_release_date": "1977/1/1",
+        "spotify_name": "La vie en rose",
+        "spotify_artists": "Grace Jones",
+        "spotify_album": "Portfolio",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273065b99c2688ccc61113e9fb7",
+        "spotify_duration_ms": "448000",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.65",
+        "spotify_energy": "0.477",
+        "spotify_key": "0",
+        "spotify_loudness": "-16.007",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0624",
+        "spotify_tempo": "176.708",
+        "spotify_valence": "0.798",
+        "spotify_acousticness": "0.225",
+        "spotify_instrumentalness": "0.016",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0642",
+        "spotify_artists01": "Grace Jones",
+        "spotify_artists01_id": "2f9ZiYA2ic1r1voObUimdd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc1c97da9c6326675e8c493cd",
+        "spotify_artists01_genres": "art pop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Grace-Jones-La-Vie-en-Rose.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 929,
+            "name": "Grace Jones",
+            "slug": "grace-jones",
+            "acf": {
+              "artistorigin": "JAM",
+              "artistactiveyearstart": "1973",
+              "artistborn": "19480519",
+              "artistdied": "",
+              "artistjpname": "グレイス・ジョーンズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Grace Jones",
+        "ytvideoid": "YEM8TspcCBY",
+        "spotify_track_id": "5yJrl2r0vr6u9BXqQXZE3V"
+      },
+      "genre_data": [
+        {
+          "name": "Bossa nova",
+          "slug": "bossa-nova",
+          "term_id": 436,
+          "post_count": 22
+        },
+        {
+          "name": "Disco",
+          "slug": "disco",
+          "term_id": 482,
+          "post_count": 265
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "la-vie-en-rose"
+    },
+    {
+      "id": 49501,
+      "date": "1975-09-01T14:12:00",
+      "date_gmt": "1975-09-01T05:12:00",
+      "title": {
+        "rendered": "Love Is The Drug"
+      },
+      "content": {
+        "rendered": "<p>Grace Jones - Love Is The Drug</p>\n",
+        "protected": false
+      },
+      "categories": [
+        929
+      ],
+      "tags": [],
+      "genre": [
+        524,
+        540,
+        672
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "CdJiIP3KQfo",
+        "likecount": "0",
+        "spotify_track_id": "1QmIe9ocVeIv74JSz1LKSl",
+        "spotify_release_date": "1985",
+        "spotify_name": "Love Is The Drug",
+        "spotify_artists": "Grace Jones",
+        "spotify_album": "Island Life",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731f87d28f015af5d7cca3255e",
+        "spotify_duration_ms": "362960",
+        "spotify_popularity": "34",
+        "spotify_danceability": "0.636",
+        "spotify_energy": "0.699",
+        "spotify_key": "11",
+        "spotify_loudness": "-14.249",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0354",
+        "spotify_tempo": "142.993",
+        "spotify_valence": "0.932",
+        "spotify_acousticness": "0.179",
+        "spotify_instrumentalness": "0.000391",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.119",
+        "spotify_artists01": "Grace Jones",
+        "spotify_artists01_id": "2f9ZiYA2ic1r1voObUimdd",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc1c97da9c6326675e8c493cd",
+        "spotify_artists01_genres": "art pop",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "artist_order": "",
+        "ytreleasedate": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Grace-Jones-Love-Is-The-Drug.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 929,
+            "name": "Grace Jones",
+            "slug": "grace-jones",
+            "acf": {
+              "artistorigin": "JAM",
+              "artistactiveyearstart": "1973",
+              "artistborn": "19480519",
+              "artistdied": "",
+              "artistjpname": "グレイス・ジョーンズ",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Grace Jones",
+        "ytvideoid": "CdJiIP3KQfo",
+        "spotify_track_id": "1QmIe9ocVeIv74JSz1LKSl"
+      },
+      "genre_data": [
+        {
+          "name": "Funk",
+          "slug": "funk",
+          "term_id": 524,
+          "post_count": 512
+        },
+        {
+          "name": "Glam rock",
+          "slug": "glam-rock",
+          "term_id": 540,
+          "post_count": 120
+        },
+        {
+          "name": "Progressive pop",
+          "slug": "progressive-pop",
+          "term_id": 672,
+          "post_count": 23
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "love-is-the-drug"
+    }
+  ],
+  "totalSongs": 6,
+  "totalPages": 1,
+  "currentPage": 1
+}

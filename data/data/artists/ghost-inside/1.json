@@ -1,0 +1,216 @@
+{
+  "artist": {
+    "id": 3027,
+    "count": 1,
+    "description": "The Ghost Inside is an American metalcore band.",
+    "link": "https://sub.music8.jp/category/ghost-inside/",
+    "name": "Ghost Inside",
+    "slug": "ghost-inside",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2004",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3027",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3027"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3027"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 50624,
+      "date": "2023-02-25T15:32:08",
+      "date_gmt": "2023-02-25T06:32:08",
+      "title": {
+        "rendered": "Safe And Sound"
+      },
+      "content": {
+        "rendered": "<p>Point North, Ghost Inside - Safe And Sound</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3027,
+        1918
+      ],
+      "tags": [],
+      "genre": [
+        409,
+        411,
+        664
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1LtXoOrqBYS8kcheVUt5Pr",
+        "spotify_release_date": "2023-02-24",
+        "spotify_name": "Safe And Sound",
+        "spotify_artists": "Point North, The Ghost Inside",
+        "spotify_album": "Safe And Sound",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27302e76460590f7379afd089cb",
+        "spotify_duration_ms": "201402",
+        "spotify_popularity": "63",
+        "spotify_danceability": "0.472",
+        "spotify_energy": "0.948",
+        "spotify_key": "2",
+        "spotify_loudness": "-3.124",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.209",
+        "spotify_tempo": "161.095",
+        "spotify_valence": "0.439",
+        "spotify_acousticness": "0.000334",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0709",
+        "spotify_artists01": "Point North",
+        "spotify_artists01_id": "5Vp7LqcfAtx2U1RfIX8i7r",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebb9043f1266d159ef5f4bd1fb",
+        "spotify_artists01_genres": "pop punk",
+        "spotify_artists01_popularity": "56",
+        "spotify_artists02": "The Ghost Inside",
+        "spotify_artists02_id": "6kQB2RN7WwryMdJ1MoQh1E",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebb6898457afbfc27d3d367d33",
+        "spotify_artists02_genres": "melodic metalcore, metalcore",
+        "spotify_artists02_popularity": "54",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "dIGP8hMMDGc",
+        "ytreleasedate": "2023/02/25"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Point-North-ft.-The-Ghost-Inside-Safe-And-Sound.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3027,
+            "name": "Ghost Inside",
+            "slug": "ghost-inside",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2004",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          },
+          {
+            "id": 1918,
+            "name": "Point North",
+            "slug": "point-north",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2008",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ポイント・ノース",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Point North, The Ghost Inside",
+        "ytvideoid": "dIGP8hMMDGc",
+        "spotify_track_id": "1LtXoOrqBYS8kcheVUt5Pr"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative metal",
+          "slug": "alternative-metal",
+          "term_id": 409,
+          "post_count": 340
+        },
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Post-hardcore",
+          "slug": "post-hardcore",
+          "term_id": 664,
+          "post_count": 67
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "safe-and-sound"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

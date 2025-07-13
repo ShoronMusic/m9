@@ -1,0 +1,167 @@
+{
+  "artist": {
+    "id": 2788,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/mk-xyz/",
+    "name": "MK xyz",
+    "slug": "mk-xyz",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2788",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2788"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2788"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38536,
+      "date": "2022-10-08T23:13:00",
+      "date_gmt": "2022-10-08T14:13:00",
+      "title": {
+        "rendered": "90 Proof"
+      },
+      "content": {
+        "rendered": "\n<p>Baddie</p>\n<p>MKxyz-Baddie</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2788
+      ],
+      "tags": [],
+      "genre": [
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "64cHs4MX20D7ExGWQyZHLd",
+        "spotify_release_date": "2022/9/2",
+        "spotify_name": "Baddie",
+        "spotify_artists": "MKxyz",
+        "spotify_album": "Baddie",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732e00b3e135129023d16d95f8",
+        "spotify_duration_ms": "158314",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.888",
+        "spotify_energy": "0.59",
+        "spotify_key": "5",
+        "spotify_loudness": "-6.069",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0753",
+        "spotify_tempo": "102.974",
+        "spotify_valence": "0.783",
+        "spotify_acousticness": "0.288",
+        "spotify_instrumentalness": "0.000632",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0765",
+        "spotify_artists01": "MKxyz",
+        "spotify_artists01_id": "3vwC5qKVfZGqWAXzwrqCe0",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb47f2541e6366ca701f7752df",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "32",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "66UhT7mV9Xg",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/MK-xyz-Baddie.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2788,
+            "name": "MK xyz",
+            "slug": "mk-xyz",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "MKxyz",
+        "ytvideoid": "66UhT7mV9Xg",
+        "spotify_track_id": "64cHs4MX20D7ExGWQyZHLd"
+      },
+      "genre_data": [
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "90-proof"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

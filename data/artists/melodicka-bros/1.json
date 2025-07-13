@@ -1,0 +1,191 @@
+{
+  "artist": {
+    "id": 2256,
+    "count": 1,
+    "description": "Melodicka Bros are an Italian YouTuber and musician duo.",
+    "link": "https://sub.music8.jp/category/melodicka-bros/",
+    "name": "Melodicka Bros",
+    "slug": "melodicka-bros",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "ITA",
+      "artistactiveyearstart": "2016",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2256",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2256"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2256"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 86842,
+      "date": "2023-12-22T01:34:31",
+      "date_gmt": "2023-12-21T16:34:31",
+      "title": {
+        "rendered": "Last Christmas"
+      },
+      "content": {
+        "rendered": "<p>Melodicka Bros - Last Christmas [Post-Apocalyptic / Prog Metal Cover]</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2256
+      ],
+      "tags": [
+        6250
+      ],
+      "genre": [
+        455,
+        671
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "27R2OCQulKWlVBTxDhfMWg",
+        "spotify_release_date": "2023-12-28",
+        "spotify_name": "Last Christmas (Post-Apocalyptic Prog Metal)",
+        "spotify_artists": "Melodicka Bros",
+        "spotify_album": "Last Christmas (Post-Apocalyptic Prog Metal)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2739a73462605b263e3ea963f7b",
+        "spotify_duration_ms": "296287",
+        "spotify_popularity": "7",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Melodicka Bros",
+        "spotify_artists01_id": "7emGv8Z2rl2VteK12FRyTe",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebbc5169679e8a56d18ffd7939",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "8Jr1FW4dHCs",
+        "ytreleasedate": "2023/12/22"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/melodicka-bros-last-christmas-post-apocalyptic-prog-metal-cover.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2256,
+            "name": "Melodicka Bros",
+            "slug": "melodicka-bros",
+            "acf": {
+              "artistorigin": "ITA",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Melodicka Bros",
+        "ytvideoid": "8Jr1FW4dHCs",
+        "spotify_track_id": "27R2OCQulKWlVBTxDhfMWg"
+      },
+      "genre_data": [
+        {
+          "name": "Christmas",
+          "slug": "christmas",
+          "term_id": 455,
+          "post_count": 111
+        },
+        {
+          "name": "Progressive metal",
+          "slug": "progressive-metal",
+          "term_id": 671,
+          "post_count": 43
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "last-christmas-21"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

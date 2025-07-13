@@ -1,0 +1,189 @@
+{
+  "artist": {
+    "id": 1277,
+    "count": 1,
+    "description": "AUS",
+    "link": "https://sub.music8.jp/category/allday/",
+    "name": "Allday",
+    "slug": "allday",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1277",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1277"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1277"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 41004,
+      "date": "2021-04-22T19:47:00",
+      "date_gmt": "2021-04-22T10:47:00",
+      "title": {
+        "rendered": "The Life of the Party"
+      },
+      "content": {
+        "rendered": "\n<p>TheVeronicas-TheLifeofthePartyft.Allday</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1277,
+        1276
+      ],
+      "tags": [],
+      "genre": [
+        405,
+        748
+      ],
+      "vocal": [],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "2pJxNvET6DcNROA6RoaWpj",
+        "spotify_release_date": "2021/4/22",
+        "spotify_name": "Life of the Party (feat. Allday)",
+        "spotify_artists": "The Veronicas, Allday",
+        "spotify_album": "Life of the Party (feat. Allday)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738174c9f0a53cf778524b800a",
+        "spotify_duration_ms": "203414",
+        "spotify_popularity": "31",
+        "spotify_danceability": "0.612",
+        "spotify_energy": "0.567",
+        "spotify_key": "0",
+        "spotify_loudness": "-9.103",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0855",
+        "spotify_tempo": "163.812",
+        "spotify_valence": "0.373",
+        "spotify_acousticness": "0.392",
+        "spotify_instrumentalness": "6.12E-05",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.158",
+        "spotify_artists01": "The Veronicas",
+        "spotify_artists01_id": "1dIdBZaaHRW2bDTkHNfWln",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb6b35f6afa8b8f9758ab6f14f",
+        "spotify_artists01_genres": "australian pop, candy pop, dance pop, girl group, post-teen pop",
+        "spotify_artists01_popularity": "53",
+        "spotify_artists02": "Allday",
+        "spotify_artists02_id": "2Ltr0s15RyvsjqWzSmiSRs",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebe6284b1df7eb6916c12d1cd6",
+        "spotify_artists02_genres": "australian hip hop, australian trap",
+        "spotify_artists02_popularity": "46",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "xM-NNOhzHEw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Veronicas-The-Life-of-the-Party-ft.-Allday.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1277,
+            "name": "Allday",
+            "slug": "allday",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1276,
+            "name": "Veronicas",
+            "slug": "veronicas",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2001",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ザ・ヴェロニカズ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "duo",
+                  "label": "Duo"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Veronicas, Allday",
+        "ytvideoid": "xM-NNOhzHEw",
+        "spotify_track_id": "2pJxNvET6DcNROA6RoaWpj"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative R&amp;B",
+          "slug": "alternative-rb",
+          "term_id": 405,
+          "post_count": 348
+        },
+        {
+          "name": "Trap",
+          "slug": "trap",
+          "term_id": 748,
+          "post_count": 282
+        }
+      ],
+      "vocal_data": [],
+      "slug": "the-life-of-the-party"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

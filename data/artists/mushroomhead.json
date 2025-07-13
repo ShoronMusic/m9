@@ -1,0 +1,72 @@
+{
+  "id": 5153,
+  "count": 1,
+  "description": "MUSHROOMHEAD is an American heavy metal band.",
+  "link": "https://sub.music8.jp/category/mushroomhead/",
+  "name": "MUSHROOMHEAD",
+  "slug": "mushroomhead",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1993",
+    "artistborn": "",
+    "artistjpname": "マッシュルームヘッド",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "18absyD7lQaXUDBXnyzU8M",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517448e3d9fdff3ef62439099d24"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5153",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5153"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5153"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マッシュルームヘッド",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517448e3d9fdff3ef62439099d24",
+  "artistActiveYearStart": "1993",
+  "occupation": "band"
+}

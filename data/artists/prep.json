@@ -1,0 +1,72 @@
+{
+  "id": 4653,
+  "count": 3,
+  "description": "PREP is a British band formed in London in 2015.",
+  "link": "https://sub.music8.jp/category/prep/",
+  "name": "PREP",
+  "slug": "prep",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2015",
+    "artistborn": "",
+    "artistjpname": "プレップ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "31SBgHxc8eqZUk9MdveH42",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517480855977de7fd4c56da3642f"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4653",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4653"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4653"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "プレップ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517480855977de7fd4c56da3642f",
+  "artistActiveYearStart": "2015",
+  "occupation": "band"
+}

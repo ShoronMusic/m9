@@ -1,0 +1,83 @@
+{
+  "id": 1384,
+  "count": 55,
+  "description": "Michael Jackson was an American singer, songwriter, dancer.",
+  "link": "https://sub.music8.jp/category/michael-jackson/",
+  "name": "Michael Jackson",
+  "slug": "michael-jackson",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1964–2009",
+    "artistborn": "19580829",
+    "artistdied": "2009.06.25",
+    "artistjpname": "マイケル・ジャクソン",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3fMbdgg4jU18AjLCKBhRSm",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "UC5OrDvL9DscpcAstz7JnQGA",
+    "wikipedia_page": "Michael_Jackson"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1384",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1384"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1384"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "マイケル・ジャクソン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd",
+  "artistActiveYearStart": "1964–2009",
+  "occupation": "singer, songwriter, producer"
+}

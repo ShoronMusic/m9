@@ -1,0 +1,76 @@
+{
+  "id": 1336,
+  "count": 26,
+  "description": "Goldfrapp are an English electronic music duo.",
+  "link": "https://sub.music8.jp/category/goldfrapp/",
+  "name": "Goldfrapp",
+  "slug": "goldfrapp",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1999",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ゴールドフラップ",
+    "member": [
+      {
+        "term_id": 2579,
+        "name": "Alison Goldfrapp",
+        "slug": "alison-goldfrapp",
+        "term_group": 0,
+        "term_taxonomy_id": 2579,
+        "taxonomy": "category",
+        "description": "Alison Goldfrapp is an English musician and lead vocalist of the electronic music duo Goldfrapp.",
+        "parent": 0,
+        "count": 9,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1336",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1336"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1336"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ゴールドフラップ",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1999",
+  "occupation": ""
+}

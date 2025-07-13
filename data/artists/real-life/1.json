@@ -1,0 +1,331 @@
+{
+  "artist": {
+    "id": 898,
+    "count": 2,
+    "description": "Real Life are an Australian new wave and synth-pop band",
+    "link": "https://sub.music8.jp/category/real-life/",
+    "name": "Real Life",
+    "slug": "real-life",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "1980",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "リアル・ライフ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/898",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=898"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=898"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 48378,
+      "date": "1984-12-01T21:46:00",
+      "date_gmt": "1984-12-01T12:46:00",
+      "title": {
+        "rendered": "Catch Me I'm Falling"
+      },
+      "content": {
+        "rendered": "<p>Real Life - Catch Me I’m Falling</p>\n",
+        "protected": false
+      },
+      "categories": [
+        898
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "Td9n9d9mByg",
+        "likecount": "",
+        "spotify_track_id": "3Guz2ytmxqThnnJGHwXviA",
+        "spotify_release_date": "1983/1/1",
+        "spotify_name": "Catch Me I'm Falling",
+        "spotify_artists": "Real Life",
+        "spotify_album": "Heartland",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734181c569a46437cac52a6930",
+        "spotify_duration_ms": "245466",
+        "spotify_popularity": "39",
+        "spotify_danceability": "-0.5750403708057767",
+        "spotify_energy": "0.4322175730228189",
+        "spotify_key": "1.282278568439206",
+        "spotify_loudness": "0.37286559989414036",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.011979857947894208",
+        "spotify_tempo": "-1.8574413589020415",
+        "spotify_valence": "0.43293410863739396",
+        "spotify_acousticness": "-0.7951266134295389",
+        "spotify_instrumentalness": "-0.13736127184604865",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "0.45103820079609797",
+        "spotify_artists01": "Real Life",
+        "spotify_artists01_id": "1n0pe6Cx9pCNvXYkX9TTLX",
+        "spotify_artists01_images": "https://i.scdn.co/image/7ae992abd4685ff75b4f3286a8c1313b1b0eb88f",
+        "spotify_artists01_genres": "new romantic, synthpop",
+        "spotify_artists01_popularity": "41",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Real-Life-Catch-Me-Im-Falling.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 898,
+            "name": "Real Life",
+            "slug": "real-life",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1980",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "リアル・ライフ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Real Life",
+        "ytvideoid": "Td9n9d9mByg",
+        "spotify_track_id": "3Guz2ytmxqThnnJGHwXviA"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "catch-me-im-falling"
+    },
+    {
+      "id": 48844,
+      "date": "1983-03-03T21:41:00",
+      "date_gmt": "1983-03-03T12:41:00",
+      "title": {
+        "rendered": "Send Me An Angel"
+      },
+      "content": {
+        "rendered": "<p>Real Life - Send Me An Angel</p>\n",
+        "protected": false
+      },
+      "categories": [
+        898
+      ],
+      "tags": [],
+      "genre": [
+        638,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "0R6WIbx8ysE",
+        "likecount": "",
+        "spotify_track_id": "3HCDGtLZabH3umLgwCBpDB",
+        "spotify_release_date": "1983/1/1",
+        "spotify_name": "Send Me An Angel",
+        "spotify_artists": "Real Life",
+        "spotify_album": "Heartland",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2734181c569a46437cac52a6930",
+        "spotify_duration_ms": "236546",
+        "spotify_popularity": "60",
+        "spotify_danceability": "-0.3022184612172864",
+        "spotify_energy": "1.2920696261160323",
+        "spotify_key": "0.47224151734130654",
+        "spotify_loudness": "0.9787102792544663",
+        "spotify_mode": "-1.3513918673470644",
+        "spotify_speechiness": "-0.3405439281405066",
+        "spotify_tempo": "0.23183170586919669",
+        "spotify_valence": "-0.889114017036248",
+        "spotify_acousticness": "-0.2417534885074145",
+        "spotify_instrumentalness": "-0.4113881345533231",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.5494394734206605",
+        "spotify_artists01": "Real Life",
+        "spotify_artists01_id": "1n0pe6Cx9pCNvXYkX9TTLX",
+        "spotify_artists01_images": "https://i.scdn.co/image/7ae992abd4685ff75b4f3286a8c1313b1b0eb88f",
+        "spotify_artists01_genres": "new romantic, synthpop",
+        "spotify_artists01_popularity": "41",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Real-Life-Send-Me-An-Angel.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 898,
+            "name": "Real Life",
+            "slug": "real-life",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "1980",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "リアル・ライフ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Real Life",
+        "ytvideoid": "0R6WIbx8ysE",
+        "spotify_track_id": "3HCDGtLZabH3umLgwCBpDB"
+      },
+      "genre_data": [
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "send-me-an-angel"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

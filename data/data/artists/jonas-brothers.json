@@ -1,0 +1,74 @@
+{
+  "id": 1581,
+  "count": 11,
+  "description": "The Jonas Brothers are an American pop rock band.",
+  "link": "https://sub.music8.jp/category/jonas-brothers/",
+  "name": "Jonas Brothers",
+  "slug": "jonas-brothers",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2015",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ジョナス・ブラザーズ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "7gOdHgIoIKoe4i9Tta6qdD",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051745cd01c30fed1be9b09b75514",
+    "youtube_channel": "UCFvXnyAhluG3sa6p3eOs_LA",
+    "wikipedia_page": "Jonas_Brothers"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1581",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1581"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1581"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ジョナス・ブラザーズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051745cd01c30fed1be9b09b75514",
+  "artistActiveYearStart": "2015",
+  "occupation": "band"
+}

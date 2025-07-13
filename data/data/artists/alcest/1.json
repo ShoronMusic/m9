@@ -1,0 +1,338 @@
+{
+  "artist": {
+    "id": 4535,
+    "count": 2,
+    "description": "Alcest is a French post-black metal band.",
+    "link": "https://sub.music8.jp/category/alcest/",
+    "name": "ALCEST",
+    "slug": "alcest",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "FRA",
+      "artistactiveyearstart": "2000",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4535",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4535"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4535"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 66315,
+      "date": "2024-04-19T08:11:56",
+      "date_gmt": "2024-04-18T23:11:56",
+      "title": {
+        "rendered": "Flamme Jumelle"
+      },
+      "content": {
+        "rendered": "<p>ALCEST - Flamme Jumelle</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4535
+      ],
+      "tags": [],
+      "genre": [
+        667,
+        708
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "B_fCrew2ZOQ",
+        "ytreleasedate": "2024/04/19",
+        "spotify_track_id": "6aPEzAyxqNJcRUNLFFmpe8",
+        "spotify_release_date": "2024-04-18",
+        "spotify_name": "Flamme Jumelle",
+        "spotify_artists": "Alcest",
+        "spotify_album": "Flamme Jumelle",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731cdd1f0de1b8d1d0e74c0ef6",
+        "spotify_duration_ms": "317946",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.49",
+        "spotify_energy": "0.813",
+        "spotify_key": "6",
+        "spotify_loudness": "-7.532",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0329",
+        "spotify_tempo": "110.003",
+        "spotify_valence": "0.274",
+        "spotify_acousticness": "0.000386",
+        "spotify_instrumentalness": "0.872",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.22",
+        "spotify_artists01": "Alcest",
+        "spotify_artists01_id": "0d5ZwMtCer8dQdOPAgWhe7",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf93fcb88bd2805b3cbb4490f",
+        "spotify_artists01_genres": "atmospheric black metal, blackgaze, emotional black metal, french black metal, french metal, french shoegaze, post-black metal, post-metal, shoegaze",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2731cdd1f0de1b8d1d0e74c0ef6.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4535,
+            "name": "ALCEST",
+            "slug": "alcest",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "2000",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Alcest",
+        "ytvideoid": "B_fCrew2ZOQ",
+        "spotify_track_id": "6aPEzAyxqNJcRUNLFFmpe8"
+      },
+      "genre_data": [
+        {
+          "name": "Post-rock",
+          "slug": "post-rock",
+          "term_id": 667,
+          "post_count": 27
+        },
+        {
+          "name": "Shoegaze",
+          "slug": "shoegaze",
+          "term_id": 708,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "flamme-jumelle"
+    },
+    {
+      "id": 66319,
+      "date": "2024-02-23T08:15:56",
+      "date_gmt": "2024-02-22T23:15:56",
+      "title": {
+        "rendered": "L'Envol"
+      },
+      "content": {
+        "rendered": "<p>ALCEST - L'Envol</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4535
+      ],
+      "tags": [],
+      "genre": [
+        4355,
+        667,
+        708
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "ytvideoid": "haQ_zgn9ck4",
+        "ytreleasedate": "2024/02/23",
+        "spotify_track_id": "7krNiVaNCtW5GeW6NKz1uy",
+        "spotify_release_date": "2024-04-18",
+        "spotify_name": "L'Envol",
+        "spotify_artists": "Alcest",
+        "spotify_album": "Flamme Jumelle",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731cdd1f0de1b8d1d0e74c0ef6",
+        "spotify_duration_ms": "482240",
+        "spotify_popularity": "42",
+        "spotify_danceability": "0.463",
+        "spotify_energy": "0.741",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.667",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0307",
+        "spotify_tempo": "109.968",
+        "spotify_valence": "0.118",
+        "spotify_acousticness": "0.000387",
+        "spotify_instrumentalness": "0.855",
+        "spotify_time_signature": "3",
+        "spotify_liveness": "0.0686",
+        "spotify_artists01": "Alcest",
+        "spotify_artists01_id": "0d5ZwMtCer8dQdOPAgWhe7",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf93fcb88bd2805b3cbb4490f",
+        "spotify_artists01_genres": "atmospheric black metal, blackgaze, emotional black metal, french black metal, french metal, french shoegaze, post-black metal, post-metal, shoegaze",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2731cdd1f0de1b8d1d0e74c0ef6-1.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4535,
+            "name": "ALCEST",
+            "slug": "alcest",
+            "acf": {
+              "artistorigin": "FRA",
+              "artistactiveyearstart": "2000",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Alcest",
+        "ytvideoid": "haQ_zgn9ck4",
+        "spotify_track_id": "7krNiVaNCtW5GeW6NKz1uy"
+      },
+      "genre_data": [
+        {
+          "name": "Post-Metal",
+          "slug": "post-metal",
+          "term_id": 4355,
+          "post_count": 5
+        },
+        {
+          "name": "Post-rock",
+          "slug": "post-rock",
+          "term_id": 667,
+          "post_count": 27
+        },
+        {
+          "name": "Shoegaze",
+          "slug": "shoegaze",
+          "term_id": 708,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "lenvol"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,77 @@
+{
+  "id": 4322,
+  "count": 1,
+  "description": "Graham Coxon is an English musician, singer-songwriter, multi-instrumentalist.",
+  "link": "https://sub.music8.jp/category/graham-coxon/",
+  "name": "Graham Coxon",
+  "slug": "graham-coxon",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1988",
+    "artistborn": "19690312",
+    "artistjpname": "グレアム・コクソン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      },
+      {
+        "value": "musician",
+        "label": "Musician"
+      },
+      {
+        "value": "multi-instrumentalist",
+        "label": "Multi-instrumentalist"
+      }
+    ]
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4322",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4322"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4322"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "グレアム・コクソン",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "1988",
+  "occupation": "ssw, musician, multi-instrumentalist"
+}

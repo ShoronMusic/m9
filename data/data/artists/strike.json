@@ -1,0 +1,72 @@
+{
+  "id": 4448,
+  "count": 7,
+  "description": "The Strike is an independent pop-rock band based in Los Angeles.",
+  "link": "https://sub.music8.jp/category/strike/",
+  "name": "Strike",
+  "slug": "strike",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2013",
+    "artistborn": "",
+    "artistjpname": "ザ・ストライク",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Hotel Apache | Catalina | Heart Of Gold | Drive!Drive! | Recent Rumors | VICTORS | dreamfone | Landon Conrath | Jet Black Alley Cat | Great Good Fine Ok (great-good-fine-ok) | Honest Men | PRIZM | Wild Wind | Night Game (night-game) | RYLY | A Story Told | Ivy | Saint Blonde | Wldlfe (wldlfe) | Nightly (nightly)",
+    "spotify_artist_id": "6VB4TqEl0yfaF88LYHH4wj",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ac2c2013764b117eade6c3e7"
+  },
+  "the_prefix": "1",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4448",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4448"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4448"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "The",
+  "artistjpname": "ザ・ストライク",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ac2c2013764b117eade6c3e7",
+  "artistActiveYearStart": "2013",
+  "occupation": "band"
+}

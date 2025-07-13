@@ -1,0 +1,72 @@
+{
+  "id": 6325,
+  "count": 2,
+  "description": "LORDI is a Finnish hard rock and heavy metal band.",
+  "link": "https://sub.music8.jp/category/lordi/",
+  "name": "LORDI",
+  "slug": "lordi",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "FIN",
+    "artistactiveyearstart": "1992",
+    "artistborn": "",
+    "artistjpname": "ローディ",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "14SgKNlOCKAI0PfRD1HnWh",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174ccf15374ddb07f19a38ef26f"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6325",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6325"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6325"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ローディ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174ccf15374ddb07f19a38ef26f",
+  "artistActiveYearStart": "1992",
+  "occupation": "band"
+}

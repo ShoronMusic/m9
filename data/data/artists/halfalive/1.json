@@ -1,0 +1,956 @@
+{
+  "artist": {
+    "id": 3136,
+    "count": 7,
+    "description": "half•alive is an American band.",
+    "link": "https://sub.music8.jp/category/halfalive/",
+    "name": "half•alive",
+    "slug": "halfalive",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2016",
+      "artistborn": "",
+      "artistjpname": "ハーフ・アライブ",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3136",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3136"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3136"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 94287,
+      "date": "2025-03-21T21:30:59",
+      "date_gmt": "2025-03-21T12:30:59",
+      "title": {
+        "rendered": "R.I.P."
+      },
+      "content": {
+        "rendered": "<p>half•alive, Walters - R.I.P.</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3136,
+        6644
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "xRL9-wjJGXY",
+        "ytreleasedate": "2025/03/21",
+        "pvstyle": [
+          "visual"
+        ],
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "1KSPuERBxyErKcJDhlyRJ8",
+        "spotify_release_date": "2025-03-21",
+        "spotify_name": "R.I.P.",
+        "spotify_artists": "half•alive, The Walters",
+        "spotify_album": "R.I.P.",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c2510e0d93f7ce65d1ac9e2a",
+        "spotify_duration_ms": "184259",
+        "spotify_popularity": "23",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "half•alive",
+        "spotify_artists01_id": "7sOR7gk6XUlGnxj3p9F54k",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba4f202963dd12ab6044bdb97",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "The Walters",
+        "spotify_artists02_id": "027TpXKGwdXP7iwbjUSpV8",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebb22c5d2082459db182c28d10",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "71",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/halfalive-walters-r-i-p.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3136,
+            "name": "half•alive",
+            "slug": "halfalive",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "ハーフ・アライブ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6644,
+            "name": "Walters",
+            "slug": "walters",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2014",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "027TpXKGwdXP7iwbjUSpV8",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174b22c5d2082459db182c28d10",
+              "youtube_channel": "",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "half•alive, The Walters",
+        "ytvideoid": "xRL9-wjJGXY",
+        "spotify_track_id": "1KSPuERBxyErKcJDhlyRJ8"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "r-i-p-2"
+    },
+    {
+      "id": 85221,
+      "date": "2024-11-15T10:58:32",
+      "date_gmt": "2024-11-15T01:58:32",
+      "title": {
+        "rendered": "All My Love"
+      },
+      "content": {
+        "rendered": "<p>half•alive - All My Love</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3136
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "1cFvYYW6ihk",
+        "ytreleasedate": "2024/11/15",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7prVGmvafmUBl7Kz0IxNJo",
+        "spotify_release_date": "2024-11-15",
+        "spotify_name": "All My Love (Imperative)",
+        "spotify_artists": "half•alive",
+        "spotify_album": "Persona",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27357c746bd0664cdc248f8e340",
+        "spotify_duration_ms": "128526",
+        "spotify_popularity": "16",
+        "spotify_danceability": "0.718",
+        "spotify_energy": "0.875",
+        "spotify_key": "10",
+        "spotify_loudness": "-5.078",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0367",
+        "spotify_tempo": "137.938",
+        "spotify_valence": "0.776",
+        "spotify_acousticness": "0.221",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.168",
+        "spotify_artists01": "half•alive",
+        "spotify_artists01_id": "7sOR7gk6XUlGnxj3p9F54k",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba4f202963dd12ab6044bdb97",
+        "spotify_artists01_genres": "alt z, pov: indie",
+        "spotify_artists01_popularity": "60",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/halfalive-all-my-love.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3136,
+            "name": "half•alive",
+            "slug": "halfalive",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "ハーフ・アライブ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "half•alive",
+        "ytvideoid": "1cFvYYW6ihk",
+        "spotify_track_id": "7prVGmvafmUBl7Kz0IxNJo"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "all-my-love-2"
+    },
+    {
+      "id": 84872,
+      "date": "2024-11-08T14:11:51",
+      "date_gmt": "2024-11-08T05:11:51",
+      "title": {
+        "rendered": "Songs"
+      },
+      "content": {
+        "rendered": "<p>half•alive, Jordana - Songs</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3136,
+        6098
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "ZcgSv4uMXJ8",
+        "ytreleasedate": "2024/11/08",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "39GSMevjvCjRjO4FRVjFCf",
+        "spotify_release_date": "2024-11-08",
+        "spotify_name": "Songs",
+        "spotify_artists": "half•alive, Jordana",
+        "spotify_album": "Songs",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730ab375e7793c3ba2e89fb629",
+        "spotify_duration_ms": "200487",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.653",
+        "spotify_energy": "0.471",
+        "spotify_key": "8",
+        "spotify_loudness": "-10.368",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0452",
+        "spotify_tempo": "172.082",
+        "spotify_valence": "0.442",
+        "spotify_acousticness": "0.671",
+        "spotify_instrumentalness": "0.000786",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.103",
+        "spotify_artists01": "half•alive",
+        "spotify_artists01_id": "7sOR7gk6XUlGnxj3p9F54k",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba4f202963dd12ab6044bdb97",
+        "spotify_artists01_genres": "alt z, pov: indie",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "Jordana",
+        "spotify_artists02_id": "5Bw9kFNhy019e4IBCJZlzw",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb47914004e25323f559c96560",
+        "spotify_artists02_genres": "modern indie pop",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2730ab375e7793c3ba2e89fb629.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3136,
+            "name": "half•alive",
+            "slug": "halfalive",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "ハーフ・アライブ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 6098,
+            "name": "Jordana",
+            "slug": "jordana",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "Shelly | Faye Webster (faye-webster) | TV Girl (tv-girl) | Strawberry Guy | Her's | Alex G | Current Joys | Clairo (clairo) | Big Thief (big-thief) | alex_g_offline | Men I Trust (men-i-trust) | Mac DeMarco (mac-demarco) | American Dawn | John + Jane Q. Public | Pinegrove | Blood Orange (blood-orange) | Vacations (vacations) | Adrianne Lenker | Marías (marias) | Chakra Efendi",
+              "spotify_artist_id": "5Bw9kFNhy019e4IBCJZlzw",
+              "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517447914004e25323f559c96560"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "half•alive, Jordana",
+        "ytvideoid": "ZcgSv4uMXJ8",
+        "spotify_track_id": "39GSMevjvCjRjO4FRVjFCf"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "songs"
+    },
+    {
+      "id": 83302,
+      "date": "2024-10-11T08:57:25",
+      "date_gmt": "2024-10-10T23:57:25",
+      "title": {
+        "rendered": "Automatic"
+      },
+      "content": {
+        "rendered": "<p>half alive - Automatic</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3136
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "LMknL58AAyY",
+        "ytreleasedate": "2024/10/11",
+        "likecount": "",
+        "artist_order": "",
+        "spotify_track_id": "4WDzpyln8Ac9JbElIEv2bl",
+        "spotify_release_date": "2024-10-11",
+        "spotify_name": "Automatic",
+        "spotify_artists": "half•alive",
+        "spotify_album": "Automatic",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273906f34d1d05bfb7ae314362d",
+        "spotify_duration_ms": "193887",
+        "spotify_popularity": "47",
+        "spotify_danceability": "0.511",
+        "spotify_energy": "0.856",
+        "spotify_key": "9",
+        "spotify_loudness": "-4.562",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0452",
+        "spotify_tempo": "162.128",
+        "spotify_valence": "0.499",
+        "spotify_acousticness": "0.101",
+        "spotify_instrumentalness": "0.000943",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.14",
+        "spotify_artists01": "half•alive",
+        "spotify_artists01_id": "7sOR7gk6XUlGnxj3p9F54k",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba4f202963dd12ab6044bdb97",
+        "spotify_artists01_genres": "alt z, pov: indie",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273906f34d1d05bfb7ae314362d.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3136,
+            "name": "half•alive",
+            "slug": "halfalive",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "ハーフ・アライブ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "half•alive",
+        "ytvideoid": "LMknL58AAyY",
+        "spotify_track_id": "4WDzpyln8Ac9JbElIEv2bl"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "automatic"
+    },
+    {
+      "id": 82133,
+      "date": "2024-09-20T20:00:12",
+      "date_gmt": "2024-09-20T11:00:12",
+      "title": {
+        "rendered": "Sophies House"
+      },
+      "content": {
+        "rendered": "<p>half•alive - Sophies House</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3136
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        658,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "ukcrlVnsAvM",
+        "ytreleasedate": "2024/09/20",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "3vTRzi233LUKYvhfU8g78P",
+        "spotify_release_date": "2024-09-19",
+        "spotify_name": "Sophie’s House",
+        "spotify_artists": "half•alive",
+        "spotify_album": "Sophie’s House",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27391cc60af10c5ffb8ad5ff705",
+        "spotify_duration_ms": "255497",
+        "spotify_popularity": "41",
+        "spotify_danceability": "0.742",
+        "spotify_energy": "0.733",
+        "spotify_key": "6",
+        "spotify_loudness": "-7.749",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0279",
+        "spotify_tempo": "118.993",
+        "spotify_valence": "0.85",
+        "spotify_acousticness": "0.0123",
+        "spotify_instrumentalness": "0.000207",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0946",
+        "spotify_artists01": "half•alive",
+        "spotify_artists01_id": "7sOR7gk6XUlGnxj3p9F54k",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb737d7e8b7f89d0cf58c64581",
+        "spotify_artists01_genres": "alt z, pov: indie",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b27391cc60af10c5ffb8ad5ff705.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3136,
+            "name": "half•alive",
+            "slug": "halfalive",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "ハーフ・アライブ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "half•alive",
+        "ytvideoid": "ukcrlVnsAvM",
+        "spotify_track_id": "3vTRzi233LUKYvhfU8g78P"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "sophies-house"
+    },
+    {
+      "id": 51423,
+      "date": "2023-09-13T11:27:14",
+      "date_gmt": "2023-09-13T02:27:14",
+      "title": {
+        "rendered": "Subliminal"
+      },
+      "content": {
+        "rendered": "<p>half•alive - Subliminal</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3136
+      ],
+      "tags": [],
+      "genre": [
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "2L5watN9wy4bAnBvhxYg8r",
+        "spotify_release_date": "2023-09-13",
+        "spotify_name": "Subliminal",
+        "spotify_artists": "half•alive",
+        "spotify_album": "Subliminal",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f812179ed2b99e4ae771d3d1",
+        "spotify_duration_ms": "165130",
+        "spotify_popularity": "52",
+        "spotify_danceability": "0.653",
+        "spotify_energy": "0.738",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.073",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.102",
+        "spotify_tempo": "147.134",
+        "spotify_valence": "0.741",
+        "spotify_acousticness": "0.102",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.295",
+        "spotify_artists01": "half•alive",
+        "spotify_artists01_id": "7sOR7gk6XUlGnxj3p9F54k",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebef6fc1d1e5d9e55fae0c9bad",
+        "spotify_artists01_genres": "alt z, pov: indie",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ppIap1BNV0Y",
+        "ytreleasedate": "2023/09/13"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/half•alive-Subliminal.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3136,
+            "name": "half•alive",
+            "slug": "halfalive",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "ハーフ・アライブ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "half•alive",
+        "ytvideoid": "ppIap1BNV0Y",
+        "spotify_track_id": "2L5watN9wy4bAnBvhxYg8r"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "subliminal"
+    },
+    {
+      "id": 51427,
+      "date": "2022-12-02T11:30:53",
+      "date_gmt": "2022-12-02T02:30:53",
+      "title": {
+        "rendered": "Nobody"
+      },
+      "content": {
+        "rendered": "<p>half·alive - Nobody</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3136
+      ],
+      "tags": [],
+      "genre": [
+        574,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3HSIgdZZJGHBV3F3kradtG",
+        "spotify_release_date": "2023-02-23",
+        "spotify_name": "Nobody (feat. dodie)",
+        "spotify_artists": "half•alive, dodie",
+        "spotify_album": "Nobody (feat. dodie)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2732ca58c39bb9f55f8f1d4f2df",
+        "spotify_duration_ms": "206640",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.721",
+        "spotify_energy": "0.707",
+        "spotify_key": "7",
+        "spotify_loudness": "-7.215",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.09",
+        "spotify_tempo": "99.993",
+        "spotify_valence": "0.652",
+        "spotify_acousticness": "0.309",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.23",
+        "spotify_artists01": "half•alive",
+        "spotify_artists01_id": "7sOR7gk6XUlGnxj3p9F54k",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebef6fc1d1e5d9e55fae0c9bad",
+        "spotify_artists01_genres": "alt z, pov: indie",
+        "spotify_artists01_popularity": "57",
+        "spotify_artists02": "dodie",
+        "spotify_artists02_id": "21TinSsF5ytwsfdyz5VSVS",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb716f61b47a89c749e686ce3a",
+        "spotify_artists02_genres": "alt z, indie pop, pov: indie",
+        "spotify_artists02_popularity": "58",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "CflUE6WrY3g",
+        "ytreleasedate": "2022/12/02"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/half·alive-Nobody.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3136,
+            "name": "half•alive",
+            "slug": "halfalive",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2016",
+              "artistborn": "",
+              "artistjpname": "ハーフ・アライブ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "half•alive, dodie",
+        "ytvideoid": "CflUE6WrY3g",
+        "spotify_track_id": "3HSIgdZZJGHBV3F3kradtG"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "nobody-2"
+    }
+  ],
+  "totalSongs": 7,
+  "totalPages": 1,
+  "currentPage": 1
+}

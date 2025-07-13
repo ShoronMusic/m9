@@ -1,0 +1,76 @@
+{
+  "id": 3432,
+  "count": 7,
+  "description": "Allie X is a Canadian singer, songwriter, and visual artist.",
+  "link": "https://sub.music8.jp/category/allie-x/",
+  "name": "Allie X",
+  "slug": "allie-x",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "CAN",
+    "artistactiveyearstart": "",
+    "artistborn": "19850731",
+    "artistjpname": "アリー・エックス",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "0wnYgCeP013HkKoOyC5V32",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051741da144ef9f8d38233c143242"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3432",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3432"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3432"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "アリー・エックス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051741da144ef9f8d38233c143242",
+  "artistActiveYearStart": "",
+  "occupation": "ssw, producer"
+}

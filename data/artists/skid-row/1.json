@@ -1,0 +1,456 @@
+{
+  "artist": {
+    "id": 2252,
+    "count": 3,
+    "description": "Skid Row is an American rock band.",
+    "link": "https://sub.music8.jp/category/skid-row/",
+    "name": "Skid Row",
+    "slug": "skid-row",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1986",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "スキッド・ロウ",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2252",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2252"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2252"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 57636,
+      "date": "2023-11-29T19:44:53",
+      "date_gmt": "2023-11-29T10:44:53",
+      "title": {
+        "rendered": "Resurrected"
+      },
+      "content": {
+        "rendered": "<p>SKID ROW - Resurrected</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2252
+      ],
+      "tags": [],
+      "genre": [
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "79f1PxmbfezWcgC1R3a7jW",
+        "spotify_release_date": "2023-11-29",
+        "spotify_name": "Resurrected",
+        "spotify_artists": "SKID ROW",
+        "spotify_album": "Resurrected",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2736d10710992da00a36e8ebe0f",
+        "spotify_duration_ms": "205359",
+        "spotify_popularity": "20",
+        "spotify_danceability": "0.533",
+        "spotify_energy": "0.97",
+        "spotify_key": "4",
+        "spotify_loudness": "-4.375",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0644",
+        "spotify_tempo": "108.033",
+        "spotify_valence": "0.523",
+        "spotify_acousticness": "0.000766",
+        "spotify_instrumentalness": "0.0000847",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0405",
+        "spotify_artists01": "スキッド・ロウ",
+        "spotify_artists01_id": "4opTS86dN9uO313J9CE8xg",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5e4033901c3d87289e0cbc08",
+        "spotify_artists01_genres": "album rock, glam metal, hard rock, metal, rock",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "nbecB3A0fnc",
+        "ytreleasedate": "2023/11/29",
+        "artist_order": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/SKID-ROW-Resurrected.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2252,
+            "name": "Skid Row",
+            "slug": "skid-row",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1986",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スキッド・ロウ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "SKID ROW",
+        "ytvideoid": "nbecB3A0fnc",
+        "spotify_track_id": "79f1PxmbfezWcgC1R3a7jW"
+      },
+      "genre_data": [
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "resurrected-2"
+    },
+    {
+      "id": 39135,
+      "date": "2022-07-19T11:35:00",
+      "date_gmt": "2022-07-19T02:35:00",
+      "title": {
+        "rendered": "Tear It Down"
+      },
+      "content": {
+        "rendered": "\n<p>SkidRow-TearItDown</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2252
+      ],
+      "tags": [],
+      "genre": [
+        538,
+        553
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "64donJ2nJTgqW711j5YoHl",
+        "spotify_release_date": "2022/10/14",
+        "spotify_name": "TearItDown",
+        "spotify_artists": "SkidRow",
+        "spotify_album": "TheGang'sAllHere",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2733f1a12cdab8cb4c87f51b556",
+        "spotify_duration_ms": "237291",
+        "spotify_popularity": "33",
+        "spotify_danceability": "0.506",
+        "spotify_energy": "0.947",
+        "spotify_key": "9",
+        "spotify_loudness": "-3.651",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0399",
+        "spotify_tempo": "96.949",
+        "spotify_valence": "0.493",
+        "spotify_acousticness": "0.000306",
+        "spotify_instrumentalness": "0.00987",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.171",
+        "spotify_artists01": "SkidRow",
+        "spotify_artists01_id": "4opTS86dN9uO313J9CE8xg",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5e4033901c3d87289e0cbc08",
+        "spotify_artists01_genres": "albumrock,glammetal,hardrock,metal,rock",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "SS7oj-l1HOc",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Skid-Row-Tear-It-Down.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2252,
+            "name": "Skid Row",
+            "slug": "skid-row",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1986",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スキッド・ロウ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SkidRow",
+        "ytvideoid": "SS7oj-l1HOc",
+        "spotify_track_id": "64donJ2nJTgqW711j5YoHl"
+      },
+      "genre_data": [
+        {
+          "name": "Glam metal",
+          "slug": "glam-metal",
+          "term_id": 538,
+          "post_count": 112
+        },
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 669
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "tear-it-down"
+    },
+    {
+      "id": 39539,
+      "date": "2022-05-25T01:13:00",
+      "date_gmt": "2022-05-24T16:13:00",
+      "title": {
+        "rendered": "The Gang's All Here"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2252
+      ],
+      "tags": [],
+      "genre": [
+        538,
+        560
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0INHvWIipY6HQSed61UGqu",
+        "spotify_release_date": "2022/10/14",
+        "spotify_name": "TheGang'sAllHere",
+        "spotify_artists": "SkidRow",
+        "spotify_album": "TheGang'sAllHere",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273efa7a445516b52740e5c264b",
+        "spotify_duration_ms": "217493",
+        "spotify_popularity": "21",
+        "spotify_danceability": "0.445",
+        "spotify_energy": "0.928",
+        "spotify_key": "9",
+        "spotify_loudness": "-3.829",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0411",
+        "spotify_tempo": "150.007",
+        "spotify_valence": "0.652",
+        "spotify_acousticness": "0.000199",
+        "spotify_instrumentalness": "0.0262",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.426",
+        "spotify_artists01": "SkidRow",
+        "spotify_artists01_id": "4opTS86dN9uO313J9CE8xg",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5e4033901c3d87289e0cbc08",
+        "spotify_artists01_genres": "albumrock,glammetal,hardrock,metal,rock",
+        "spotify_artists01_popularity": "61",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "37TYb0Dcln0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Skid-Row-The-Gangs-All-Here-ft.Erik-Gronwall.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2252,
+            "name": "Skid Row",
+            "slug": "skid-row",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1986",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "スキッド・ロウ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "SkidRow",
+        "ytvideoid": "37TYb0Dcln0",
+        "spotify_track_id": "0INHvWIipY6HQSed61UGqu"
+      },
+      "genre_data": [
+        {
+          "name": "Glam metal",
+          "slug": "glam-metal",
+          "term_id": 538,
+          "post_count": 112
+        },
+        {
+          "name": "Heavy metal",
+          "slug": "heavy-metal",
+          "term_id": 560,
+          "post_count": 177
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-gangs-all-here-ft-erik-gronwall"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

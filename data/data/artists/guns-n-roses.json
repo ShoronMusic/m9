@@ -1,0 +1,100 @@
+{
+  "id": 3087,
+  "count": 22,
+  "description": "Guns N' Roses is an American hard rock band formed in Los Angeles, California, in 1985.",
+  "link": "https://sub.music8.jp/category/guns-n-roses/",
+  "name": "Guns N' Roses",
+  "slug": "guns-n-roses",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1985",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ガンズ・アンド・ローゼズ",
+    "member": [
+      {
+        "term_id": 5639,
+        "name": "Axl Rose",
+        "slug": "axl-rose",
+        "term_group": 0,
+        "term_taxonomy_id": 5639,
+        "taxonomy": "category",
+        "description": "Axl Rose is an American singer and songwriter. He is the lead vocalist and lyricist of the hard rock band Guns N' Roses.",
+        "parent": 0,
+        "count": 2,
+        "filter": "raw"
+      },
+      {
+        "term_id": 4599,
+        "name": "Slash",
+        "slug": "slash",
+        "term_group": 0,
+        "term_taxonomy_id": 4599,
+        "taxonomy": "category",
+        "description": "Slash is a British-American musician who serves as the lead guitarist of the hard rock band Guns N' Roses.",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3qm84nBOXUEQ2vnTfUTTFC",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517450defaf9fc059a1efc541f4c",
+    "youtube_channel": "UCIak6JLVOjqhStxrL1Lcytw",
+    "wikipedia_page": "",
+    "playlist_category": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3087",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3087"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3087"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ガンズ・アンド・ローゼズ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517450defaf9fc059a1efc541f4c",
+  "artistActiveYearStart": "1985",
+  "occupation": "band"
+}

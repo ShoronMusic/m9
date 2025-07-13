@@ -1,0 +1,326 @@
+{
+  "artist": {
+    "id": 1959,
+    "count": 2,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/host/",
+    "name": "HOST",
+    "slug": "host",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1959",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1959"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1959"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38258,
+      "date": "2022-11-25T21:26:00",
+      "date_gmt": "2022-11-25T12:26:00",
+      "title": {
+        "rendered": "Hiding From Tomorrow"
+      },
+      "content": {
+        "rendered": "\n<p>HOST-HidingFromTomorrow</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1959
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        547,
+        638,
+        708,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3xsR5qSNKdn1tx4zAnM18N",
+        "spotify_release_date": "2023/2/24",
+        "spotify_name": "HidingFromTomorrow",
+        "spotify_artists": "HOST",
+        "spotify_album": "IX",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b613860064878487f6c1cabb",
+        "spotify_duration_ms": "225426",
+        "spotify_popularity": "34",
+        "spotify_danceability": "-0.7686559195459948",
+        "spotify_energy": "0.6069842504807884",
+        "spotify_key": "-1.1478325848544924",
+        "spotify_loudness": "-0.09126798984676832",
+        "spotify_mode": "0.7430482614673568",
+        "spotify_speechiness": "-0.34498398314310946",
+        "spotify_tempo": "-0.26969956164908043",
+        "spotify_valence": "-0.6256453514215718",
+        "spotify_acousticness": "-0.7961778234683174",
+        "spotify_instrumentalness": "3.4603603284811486",
+        "spotify_time_signature": "0.06468350438846988",
+        "spotify_liveness": "-0.36554278081412955",
+        "spotify_artists01": "HOST",
+        "spotify_artists01_id": "7pSMKyct9zQiixsNr48rr4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3eeae391af31db6fbd8392b4",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "27",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "tgTfc1Ju2X0",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/HOST-Hiding-From-Tomorrow.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1959,
+            "name": "HOST",
+            "slug": "host",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "HOST",
+        "ytvideoid": "tgTfc1Ju2X0",
+        "spotify_track_id": "3xsR5qSNKdn1tx4zAnM18N"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Gothic rock",
+          "slug": "gothic-rock",
+          "term_id": 547,
+          "post_count": 79
+        },
+        {
+          "name": "New wave",
+          "slug": "new-wave",
+          "term_id": 638,
+          "post_count": 568
+        },
+        {
+          "name": "Shoegaze",
+          "slug": "shoegaze",
+          "term_id": 708,
+          "post_count": 81
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "hiding-from-tomorrow"
+    },
+    {
+      "id": 38468,
+      "date": "2022-10-21T20:18:00",
+      "date_gmt": "2022-10-21T11:18:00",
+      "title": {
+        "rendered": "Tomorrow's Sky"
+      },
+      "content": {
+        "rendered": "\n<p>HOST-Tomorrow'sSky</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1959
+      ],
+      "tags": [],
+      "genre": [
+        476,
+        547,
+        579,
+        736
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "5T6TbEPxZx6BQYgWdYKxXO",
+        "spotify_release_date": "2023/2/24",
+        "spotify_name": "Tomorrow's Sky",
+        "spotify_artists": "HOST",
+        "spotify_album": "IX",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b613860064878487f6c1cabb",
+        "spotify_duration_ms": "270360",
+        "spotify_popularity": "37",
+        "spotify_danceability": "0.607",
+        "spotify_energy": "0.672",
+        "spotify_key": "7",
+        "spotify_loudness": "-8.411",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0297",
+        "spotify_tempo": "110.046",
+        "spotify_valence": "0.272",
+        "spotify_acousticness": "3.13E-05",
+        "spotify_instrumentalness": "0.2",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.198",
+        "spotify_artists01": "HOST",
+        "spotify_artists01_id": "7pSMKyct9zQiixsNr48rr4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3eeae391af31db6fbd8392b4",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "24",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "pActIe_Ca0k",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/HOST-Tomorrows-Sky.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1959,
+            "name": "HOST",
+            "slug": "host",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "HOST",
+        "ytvideoid": "pActIe_Ca0k",
+        "spotify_track_id": "5T6TbEPxZx6BQYgWdYKxXO"
+      },
+      "genre_data": [
+        {
+          "name": "Dark wave",
+          "slug": "dark-wave",
+          "term_id": 476,
+          "post_count": 57
+        },
+        {
+          "name": "Gothic rock",
+          "slug": "gothic-rock",
+          "term_id": 547,
+          "post_count": 79
+        },
+        {
+          "name": "Industrial rock",
+          "slug": "industrial-rock",
+          "term_id": 579,
+          "post_count": 99
+        },
+        {
+          "name": "Synth-pop",
+          "slug": "synth-pop",
+          "term_id": 736,
+          "post_count": 1143
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "tomorrows-sky"
+    }
+  ],
+  "totalSongs": 2,
+  "totalPages": 1,
+  "currentPage": 1
+}

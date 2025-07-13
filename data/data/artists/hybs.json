@@ -1,0 +1,72 @@
+{
+  "id": 2306,
+  "count": 4,
+  "description": "HYBS is a Thai indie pop duo.",
+  "link": "https://sub.music8.jp/category/hybs/",
+  "name": "HYBS",
+  "slug": "hybs",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "THA",
+    "artistactiveyearstart": "2021",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ハイブス",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      }
+    ],
+    "related_artists": " WIM (wim) | James Alyn (james-alyn) | Luke Chiang (luke-chiang) | Rocco (rocco) ",
+    "spotify_artist_id": "4mr4X9nJC8DPlNukWbgAaI",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174f078775e8d12a4b37770e220"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2306",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2306"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2306"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ハイブス",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174f078775e8d12a4b37770e220",
+  "artistActiveYearStart": "2021",
+  "occupation": "duo"
+}

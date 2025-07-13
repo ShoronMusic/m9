@@ -1,0 +1,166 @@
+{
+  "artist": {
+    "id": 4435,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/nico-vega/",
+    "name": "Nico Vega",
+    "slug": "nico-vega",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4435",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4435"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4435"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65004,
+      "date": "2024-03-28T22:29:03",
+      "date_gmt": "2024-03-28T13:29:03",
+      "title": {
+        "rendered": "$5"
+      },
+      "content": {
+        "rendered": "<p>Nico Vega - $5 Five Dollars</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4435
+      ],
+      "tags": [],
+      "genre": [
+        411
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "kYMrILExHOs",
+        "ytreleasedate": "2024/03/28",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "4JvRlEMZGq0NWgkxfu0YuX",
+        "spotify_release_date": "2024-03-22",
+        "spotify_name": "$5",
+        "spotify_artists": "Nico Vega",
+        "spotify_album": "$5",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2730c81939e52b97fa5f9e59fb8",
+        "spotify_duration_ms": "191715",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.597",
+        "spotify_energy": "0.807",
+        "spotify_key": "10",
+        "spotify_loudness": "-3.71",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0776",
+        "spotify_tempo": "123.995",
+        "spotify_valence": "0.665",
+        "spotify_acousticness": "0.00174",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.102",
+        "spotify_artists01": "Nico Vega",
+        "spotify_artists01_id": "1gUch6pcj8OKOw6kKlWAPE",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb61d2c268beea84bd1ef50224",
+        "spotify_artists01_genres": "indie rock",
+        "spotify_artists01_popularity": "37",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b2730c81939e52b97fa5f9e59fb8.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4435,
+            "name": "Nico Vega",
+            "slug": "nico-vega",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Nico Vega",
+        "ytvideoid": "kYMrILExHOs",
+        "spotify_track_id": "4JvRlEMZGq0NWgkxfu0YuX"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "5"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

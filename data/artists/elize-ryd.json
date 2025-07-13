@@ -1,0 +1,83 @@
+{
+  "id": 6729,
+  "count": 1,
+  "description": "",
+  "link": "https://sub.music8.jp/category/elize-ryd/",
+  "name": "Elize Ryd",
+  "slug": "elize-ryd",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "",
+    "artistborn": "19841015",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 3368,
+        "name": "AMARANTHE",
+        "slug": "amaranthe",
+        "term_group": 0,
+        "term_taxonomy_id": 3368,
+        "taxonomy": "category",
+        "description": "Amaranthe is a Swedish heavy metal band",
+        "parent": 0,
+        "count": 5,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [],
+    "related_artists": "",
+    "spotify_artist_id": "4aHpq3SeE9HiKNft9Bcj55",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174bad5ccaa2fc3f5c9db251c85",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "",
+    "wikipedia_page": ""
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/6729",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=6729"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=6729"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174bad5ccaa2fc3f5c9db251c85",
+  "artistActiveYearStart": "",
+  "occupation": ""
+}

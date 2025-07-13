@@ -1,0 +1,214 @@
+{
+  "artist": {
+    "id": 4214,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/electric-guest/",
+    "name": "Electric Guest",
+    "slug": "electric-guest",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2011",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": []
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4214",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4214"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4214"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 62302,
+      "date": "2024-02-23T19:26:29",
+      "date_gmt": "2024-02-23T10:26:29",
+      "title": {
+        "rendered": "Lil Tune"
+      },
+      "content": {
+        "rendered": "<p>Gus Dapperton, Electric Guest - Lil Tune</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4214,
+        1668
+      ],
+      "tags": [],
+      "genre": [
+        574
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "EsNGpxbXOcI",
+        "ytreleasedate": "2024/02/23",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "0xFKj9yBje6JakSVa2JsrO",
+        "spotify_release_date": "2024-02-23",
+        "spotify_name": "Lil Tune",
+        "spotify_artists": "Gus Dapperton, Electric Guest",
+        "spotify_album": "Lil Tune",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273680bbb1f18399c13d88d8c3b",
+        "spotify_duration_ms": "238936",
+        "spotify_popularity": "0",
+        "spotify_danceability": "0.784",
+        "spotify_energy": "0.725",
+        "spotify_key": "7",
+        "spotify_loudness": "-6.148",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0427",
+        "spotify_tempo": "124.924",
+        "spotify_valence": "0.946",
+        "spotify_acousticness": "0.0459",
+        "spotify_instrumentalness": "0.0000017",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0521",
+        "spotify_artists01": "Gus Dapperton",
+        "spotify_artists01_id": "6sHCvZe1PHrOAuYlwTLNH4",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf0618341e2ce028549d09cb1",
+        "spotify_artists01_genres": "bedroom pop, indie poptimism, pov: indie",
+        "spotify_artists01_popularity": "59",
+        "spotify_artists02": "Electric Guest",
+        "spotify_artists02_id": "7sgWBYtJpblXpJl2lU5WVs",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb44b0ae44df3ba93849932281",
+        "spotify_artists02_genres": "indietronica, la indie",
+        "spotify_artists02_popularity": "53",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Gus-Dapperton-Electric-Guest-Lil-Tune.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4214,
+            "name": "Electric Guest",
+            "slug": "electric-guest",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2011",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1668,
+            "name": "Gus Dapperton",
+            "slug": "gus-dapperton",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2015",
+              "artistborn": "19970311",
+              "artistdied": "",
+              "artistjpname": "ガス・ダパートン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "6sHCvZe1PHrOAuYlwTLNH4",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174f0618341e2ce028549d09cb1"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Gus Dapperton, Electric Guest",
+        "ytvideoid": "EsNGpxbXOcI",
+        "spotify_track_id": "0xFKj9yBje6JakSVa2JsrO"
+      },
+      "genre_data": [
+        {
+          "name": "Indie pop",
+          "slug": "indie-pop",
+          "term_id": 574,
+          "post_count": 718
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "lil-tune"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

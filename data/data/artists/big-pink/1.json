@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1871,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/big-pink/",
+    "name": "Big Pink",
+    "slug": "big-pink",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1871",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1871"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1871"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 39716,
+      "date": "2022-04-27T20:21:00",
+      "date_gmt": "2022-04-27T11:21:00",
+      "title": {
+        "rendered": "No Angels"
+      },
+      "content": {
+        "rendered": "\n<p>TheBigPink-NoAngels</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1871
+      ],
+      "tags": [],
+      "genre": [
+        575,
+        576
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "1UZ1OcxlQYd28UoCnbNYCB",
+        "spotify_release_date": "2022/3/4",
+        "spotify_name": "thedealer",
+        "spotify_artists": "Nil?ferYanya",
+        "spotify_album": "PAINLESS",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27352d941b53af15d17cf99f762",
+        "spotify_duration_ms": "218640",
+        "spotify_popularity": "39",
+        "spotify_danceability": "0.742",
+        "spotify_energy": "0.859",
+        "spotify_key": "6",
+        "spotify_loudness": "-6.495",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0417",
+        "spotify_tempo": "129.978",
+        "spotify_valence": "0.848",
+        "spotify_acousticness": "0.349",
+        "spotify_instrumentalness": "2.61E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.12",
+        "spotify_artists01": "Nil?ferYanya",
+        "spotify_artists01_id": "09kXLeOXRyfNQMXRaDO4qA",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1772815fafe2bdda56ce532d",
+        "spotify_artists01_genres": "artpop,ukalternativepop",
+        "spotify_artists01_popularity": "48",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "besjcA63N68",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/THE-BIG-PINK-NO-ANGELS.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1871,
+            "name": "Big Pink",
+            "slug": "big-pink",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Nil?ferYanya",
+        "ytvideoid": "besjcA63N68",
+        "spotify_track_id": "1UZ1OcxlQYd28UoCnbNYCB"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Indietronica",
+          "slug": "indietronica",
+          "term_id": 576,
+          "post_count": 60
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "no-angels"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

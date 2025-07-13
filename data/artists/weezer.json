@@ -1,0 +1,74 @@
+{
+  "id": 1881,
+  "count": 59,
+  "description": "Weezer is an American rock band.",
+  "link": "https://sub.music8.jp/category/weezer/",
+  "name": "Weezer",
+  "slug": "weezer",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1992",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ウィーザー",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3jOstUTkEu2JkjvRdBA5Gu",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743cd35451daa1b690cfbbb2d4",
+    "youtube_channel": "UC7JDBUzkcwRGtQGia3_mMgQ",
+    "wikipedia_page": "Weezer"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1881",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1881"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1881"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ウィーザー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051743cd35451daa1b690cfbbb2d4",
+  "artistActiveYearStart": "1992",
+  "occupation": "band"
+}

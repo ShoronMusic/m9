@@ -1,0 +1,531 @@
+{
+  "artist": {
+    "id": 2314,
+    "count": 3,
+    "description": "Polyphia is a primarily instrumental progressive rock band.",
+    "link": "https://sub.music8.jp/category/polyphia/",
+    "name": "Polyphia",
+    "slug": "polyphia",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2010",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ポリフィア",
+      "member": false,
+      "artistimage1": false,
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2314",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2314"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2314"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38614,
+      "date": "2022-09-29T12:45:00",
+      "date_gmt": "2022-09-29T03:45:00",
+      "title": {
+        "rendered": "Ego Death"
+      },
+      "content": {
+        "rendered": "\n<p>Polyphia-EgoDeathfeat.SteveVai</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2314,
+        2462
+      ],
+      "tags": [],
+      "genre": [
+        610,
+        674
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "0Qj7PB41b6XgkApKPwDy1r",
+        "spotify_release_date": "2022/9/28",
+        "spotify_name": "Ego Death (feat. Steve Vai)",
+        "spotify_artists": "Polyphia, Steve Vai",
+        "spotify_album": "Ego Death (feat. Steve Vai)",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2731b3fac357a7fb37bc706f7e9",
+        "spotify_duration_ms": "350085",
+        "spotify_popularity": "54",
+        "spotify_danceability": "0.655",
+        "spotify_energy": "0.763",
+        "spotify_key": "2",
+        "spotify_loudness": "-5.202",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0526",
+        "spotify_tempo": "128.028",
+        "spotify_valence": "0.445",
+        "spotify_acousticness": "0.0374",
+        "spotify_instrumentalness": "0.678",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0703",
+        "spotify_artists01": "Polyphia",
+        "spotify_artists01_id": "4vGrte8FDu062Ntj0RsPiZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdd353edbce04267bff979de6",
+        "spotify_artists01_genres": "instrumental rock",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "Steve Vai",
+        "spotify_artists02_id": "32Jb1X3wSmmoHj2epZReZA",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb581fd4a02d81c56a957f462a",
+        "spotify_artists02_genres": "instrumental rock, metal guitar, shred",
+        "spotify_artists02_popularity": "50",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "1JNmz17gnMw",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Polyphia-Ego-Death-feat.-Steve-Vai.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2314,
+            "name": "Polyphia",
+            "slug": "polyphia",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2010",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ポリフィア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2462,
+            "name": "Steve Vai",
+            "slug": "steve-vai",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1978",
+              "artistborn": "19600606",
+              "artistdied": "",
+              "artistjpname": "スティーヴ・ヴァイ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                },
+                {
+                  "value": "guitaristr",
+                  "label": "Guitarist"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Polyphia, Steve Vai",
+        "ytvideoid": "1JNmz17gnMw",
+        "spotify_track_id": "0Qj7PB41b6XgkApKPwDy1r"
+      },
+      "genre_data": [
+        {
+          "name": "Math rock",
+          "slug": "math-rock",
+          "term_id": 610,
+          "post_count": 12
+        },
+        {
+          "name": "Progressive rock",
+          "slug": "progressive-rock",
+          "term_id": 674,
+          "post_count": 48
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "ego-death"
+    },
+    {
+      "id": 38810,
+      "date": "2022-09-22T00:48:00",
+      "date_gmt": "2022-09-21T15:48:00",
+      "title": {
+        "rendered": "ABC"
+      },
+      "content": {
+        "rendered": "\n<p>Polyphia-ABCfeat.SophiaBlack</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2314,
+        2528
+      ],
+      "tags": [],
+      "genre": [
+        529,
+        610,
+        674
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "4c8TMfsKJIrRgCWs8LCEbQ",
+        "spotify_release_date": "2022/10/28",
+        "spotify_name": "ABC(feat.SophiaBlack)",
+        "spotify_artists": "Polyphia,SophiaBlack",
+        "spotify_album": "RememberThatYouWillDie",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273e65b2a729914445d34777d23",
+        "spotify_duration_ms": "152361",
+        "spotify_popularity": "65",
+        "spotify_danceability": "0.681",
+        "spotify_energy": "0.827",
+        "spotify_key": "6",
+        "spotify_loudness": "-4.051",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0651",
+        "spotify_tempo": "140",
+        "spotify_valence": "0.75",
+        "spotify_acousticness": "0.0553",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.299",
+        "spotify_artists01": "Polyphia",
+        "spotify_artists01_id": "4vGrte8FDu062Ntj0RsPiZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdd353edbce04267bff979de6",
+        "spotify_artists01_genres": "instrumentalrock",
+        "spotify_artists01_popularity": "64",
+        "spotify_artists02": "SophiaBlack",
+        "spotify_artists02_id": "3wdXgSpjbbU3tX9KasdxMh",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eba8c915061384bba7d80e30eb",
+        "spotify_artists02_genres": "lapop",
+        "spotify_artists02_popularity": "47",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Mtd24QIBJ5Y",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Polyphia-ABC-feat.-Sophia-Black.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2314,
+            "name": "Polyphia",
+            "slug": "polyphia",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2010",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ポリフィア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2528,
+            "name": "Sophia Black",
+            "slug": "sophia-black",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2016",
+              "artistborn": "19970414",
+              "artistdied": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": []
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Polyphia,SophiaBlack",
+        "ytvideoid": "Mtd24QIBJ5Y",
+        "spotify_track_id": "4c8TMfsKJIrRgCWs8LCEbQ"
+      },
+      "genre_data": [
+        {
+          "name": "Future bass",
+          "slug": "future-bass",
+          "term_id": 529,
+          "post_count": 49
+        },
+        {
+          "name": "Math rock",
+          "slug": "math-rock",
+          "term_id": 610,
+          "post_count": 12
+        },
+        {
+          "name": "Progressive rock",
+          "slug": "progressive-rock",
+          "term_id": 674,
+          "post_count": 48
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "abc"
+    },
+    {
+      "id": 39613,
+      "date": "2022-05-11T13:04:00",
+      "date_gmt": "2022-05-11T04:04:00",
+      "title": {
+        "rendered": "Playing God"
+      },
+      "content": {
+        "rendered": "\n<p>Polyphia-PlayingGod</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2314
+      ],
+      "tags": [],
+      "genre": [
+        610,
+        634,
+        674
+      ],
+      "vocal": [
+        2852
+      ],
+      "style": [
+        2849
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3nBGFgfRQ8ujSmu5cGlZIU",
+        "spotify_release_date": "2022/5/10",
+        "spotify_name": "Playing God",
+        "spotify_artists": "Polyphia",
+        "spotify_album": "Playing God",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273c57ca033709146845d0ffa8f",
+        "spotify_duration_ms": "205925",
+        "spotify_popularity": "62",
+        "spotify_danceability": "0.601",
+        "spotify_energy": "0.789",
+        "spotify_key": "4",
+        "spotify_loudness": "-6.822",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0328",
+        "spotify_tempo": "137.06",
+        "spotify_valence": "0.315",
+        "spotify_acousticness": "0.0395",
+        "spotify_instrumentalness": "0.812",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.114",
+        "spotify_artists01": "Polyphia",
+        "spotify_artists01_id": "4vGrte8FDu062Ntj0RsPiZ",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebdd353edbce04267bff979de6",
+        "spotify_artists01_genres": "instrumental rock",
+        "spotify_artists01_popularity": "62",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Z5NoQg8LdDk",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Polyphia-Playing-God.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2314,
+            "name": "Polyphia",
+            "slug": "polyphia",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2010",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ポリフィア",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Polyphia",
+        "ytvideoid": "Z5NoQg8LdDk",
+        "spotify_track_id": "3nBGFgfRQ8ujSmu5cGlZIU"
+      },
+      "genre_data": [
+        {
+          "name": "Math rock",
+          "slug": "math-rock",
+          "term_id": 610,
+          "post_count": 12
+        },
+        {
+          "name": "New flamenco",
+          "slug": "new-flamenco",
+          "term_id": 634,
+          "post_count": 2
+        },
+        {
+          "name": "Progressive rock",
+          "slug": "progressive-rock",
+          "term_id": 674,
+          "post_count": 48
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "Inst",
+          "slug": "inst",
+          "term_id": 2852
+        }
+      ],
+      "slug": "playing-god"
+    }
+  ],
+  "totalSongs": 3,
+  "totalPages": 1,
+  "currentPage": 1
+}

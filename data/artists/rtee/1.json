@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 2802,
+    "count": 1,
+    "description": "KOR",
+    "link": "https://sub.music8.jp/category/rtee/",
+    "name": "Rtee",
+    "slug": "rtee",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2802",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2802"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2802"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38610,
+      "date": "2022-09-29T20:07:00",
+      "date_gmt": "2022-09-29T11:07:00",
+      "title": {
+        "rendered": "Ngoi Mat An Bat Vang"
+      },
+      "content": {
+        "rendered": "",
+        "protected": false
+      },
+      "categories": [
+        2802
+      ],
+      "tags": [],
+      "genre": [
+        657,
+        685
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "74YxiwhTnaMoOIactvZMgg",
+        "spotify_release_date": "2022/9/29",
+        "spotify_name": "Ngoi Mat An Bat Vang",
+        "spotify_artists": "Rtee",
+        "spotify_album": "Ng?iM?t?nB?tV?ng",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2735fa3cc7f8728113a97454c2c",
+        "spotify_duration_ms": "237391",
+        "spotify_popularity": "20",
+        "spotify_danceability": "0.766",
+        "spotify_energy": "0.605",
+        "spotify_key": "4",
+        "spotify_loudness": "-5.979",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0311",
+        "spotify_tempo": "92.014",
+        "spotify_valence": "0.942",
+        "spotify_acousticness": "0.211",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.135",
+        "spotify_artists01": "Rtee",
+        "spotify_artists01_id": "73AUXZbgPiHjPbv66nGVq7",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb3e54d0220b3bcfdc0eb6cda4",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "HYA7-azZv7M",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Rtee-Ngoi-Mat-An-Bat-Vang.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2802,
+            "name": "Rtee",
+            "slug": "rtee",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Rtee",
+        "ytvideoid": "HYA7-azZv7M",
+        "spotify_track_id": "74YxiwhTnaMoOIactvZMgg"
+      },
+      "genre_data": [
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "ngoi-mat-an-bat-vang"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,189 @@
+{
+  "artist": {
+    "id": 3252,
+    "count": 1,
+    "description": "Die Ärzte is a German rock band.",
+    "link": "https://sub.music8.jp/category/die-arzte/",
+    "name": "Die Ärzte",
+    "slug": "die-arzte",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "GER",
+      "artistactiveyearstart": "1982",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3252",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3252"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3252"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 65766,
+      "date": "2024-04-04T15:26:43",
+      "date_gmt": "2024-04-04T06:26:43",
+      "title": {
+        "rendered": ""
+      },
+      "content": {
+        "rendered": "<p>die ärzte – DEMOKRATIE</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3252
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "ytvideoid": "n9kQLU3Q8A0",
+        "ytreleasedate": "2024/04/04",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "29YITgPEANJaCUsaMP4xGg",
+        "spotify_release_date": "2021-09-24",
+        "spotify_name": "DEMOKRATIE (OUR BASS PLAYER HATES THIS SONG)",
+        "spotify_artists": "Die Ärzte",
+        "spotify_album": "DUNKEL",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273302493b3cbc77b9804207aca",
+        "spotify_duration_ms": "240844",
+        "spotify_popularity": "38",
+        "spotify_danceability": "0.373",
+        "spotify_energy": "0.663",
+        "spotify_key": "10",
+        "spotify_loudness": "-7.628",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0422",
+        "spotify_tempo": "115.008",
+        "spotify_valence": "0.448",
+        "spotify_acousticness": "0.0363",
+        "spotify_instrumentalness": "0.0000222",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0871",
+        "spotify_artists01": "Die Ärzte",
+        "spotify_artists01_id": "0cbL6CYnRqpAxf1evwUVQD",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5a3acc2ae632c59c595b0311",
+        "spotify_artists01_genres": "german alternative rock, german pop, german punk, german rock",
+        "spotify_artists01_popularity": "63",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/ab67616d0000b273302493b3cbc77b9804207aca.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3252,
+            "name": "Die Ärzte",
+            "slug": "die-arzte",
+            "acf": {
+              "artistorigin": "GER",
+              "artistactiveyearstart": "1982",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Die Ärzte",
+        "ytvideoid": "n9kQLU3Q8A0",
+        "spotify_track_id": "29YITgPEANJaCUsaMP4xGg"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2050
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "65766"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

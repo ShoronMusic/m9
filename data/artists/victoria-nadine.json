@@ -1,0 +1,76 @@
+{
+  "id": 4008,
+  "count": 4,
+  "description": "Victoria Nadine is a Norwegian singer and songwriter.",
+  "link": "https://sub.music8.jp/category/victoria-nadine/",
+  "name": "Victoria Nadine",
+  "slug": "victoria-nadine",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "NOR",
+    "artistactiveyearstart": "2016",
+    "artistborn": "19990917",
+    "artistjpname": "ビクトリア・ネイディーン",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "59ha4Qt5jtbrFQljKZrx8K",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517487c981611bd9cee992ac0ec5"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4008",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4008"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4008"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ビクトリア・ネイディーン",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517487c981611bd9cee992ac0ec5",
+  "artistActiveYearStart": "2016",
+  "occupation": "singer, songwriter"
+}

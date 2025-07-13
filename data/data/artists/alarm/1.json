@@ -1,0 +1,166 @@
+{
+  "artist": {
+    "id": 913,
+    "count": 1,
+    "description": "UK",
+    "link": "https://sub.music8.jp/category/alarm/",
+    "name": "Alarm",
+    "slug": "alarm",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/913",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=913"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=913"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 48784,
+      "date": "1983-06-01T23:30:00",
+      "date_gmt": "1983-06-01T14:30:00",
+      "title": {
+        "rendered": "The Stand"
+      },
+      "content": {
+        "rendered": "<p>The Alarm - The Stand</p>\n",
+        "protected": false
+      },
+      "categories": [
+        913
+      ],
+      "tags": [],
+      "genre": [
+        698
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "qJA8aPrRJho",
+        "likecount": "",
+        "spotify_track_id": "689Twz3oz1NBQIsLnIvkNx",
+        "spotify_release_date": "1990/1/1",
+        "spotify_name": "The Stand - Long Version",
+        "spotify_artists": "The Alarm",
+        "spotify_album": "Standards",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27324dbb00ee0e62cf29989f5f3",
+        "spotify_duration_ms": "283600",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.56",
+        "spotify_energy": "0.869",
+        "spotify_key": "8",
+        "spotify_loudness": "-9.602",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0568",
+        "spotify_tempo": "125.56",
+        "spotify_valence": "0.52",
+        "spotify_acousticness": "0.0274",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0492",
+        "spotify_artists01": "The Alarm",
+        "spotify_artists01_id": "0oQLexIBY9SlMhtbSIPFAO",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb9851a9e6ed2e689f967ccfef",
+        "spotify_artists01_genres": "new romantic, new wave, welsh rock",
+        "spotify_artists01_popularity": "35",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Alarm-The-Stand.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 913,
+            "name": "Alarm",
+            "slug": "alarm",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "The Alarm",
+        "ytvideoid": "qJA8aPrRJho",
+        "spotify_track_id": "689Twz3oz1NBQIsLnIvkNx"
+      },
+      "genre_data": [
+        {
+          "name": "Rock",
+          "slug": "rock",
+          "term_id": 698,
+          "post_count": 81
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-stand"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

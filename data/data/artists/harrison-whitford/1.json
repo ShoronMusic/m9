@@ -1,0 +1,220 @@
+{
+  "artist": {
+    "id": 4273,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/harrison-whitford/",
+    "name": "Harrison Whitford",
+    "slug": "harrison-whitford",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4273",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4273"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4273"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 62919,
+      "date": "2024-03-02T12:08:01",
+      "date_gmt": "2024-03-02T03:08:01",
+      "title": {
+        "rendered": "Little Thunder"
+      },
+      "content": {
+        "rendered": "<p>Vulfmon, Jacob Jeffries, Harrison Whitford - Little Thunder</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4273,
+        4272,
+        3928
+      ],
+      "tags": [],
+      "genre": [
+        678,
+        6
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "ytvideoid": "1aQpedzFOHA",
+        "ytreleasedate": "2024/03/02",
+        "likecount": "1",
+        "artist_order": "Vulfmon, Jacob Jeffries, Harrison Whitford",
+        "spotify_track_id": "1bUyfiqXnoAbhxyV8qufW6",
+        "spotify_release_date": "2024-03-01",
+        "spotify_name": "Little Thunder",
+        "spotify_artists": "Vulfmon, Jacob Jeffries, Harrison Whitford",
+        "spotify_album": "Little Thunder",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2738133f9dffe7f8f70bcea08d7",
+        "spotify_duration_ms": "194429",
+        "spotify_popularity": "13",
+        "spotify_danceability": "0.62",
+        "spotify_energy": "0.447",
+        "spotify_key": "9",
+        "spotify_loudness": "-7.865",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0298",
+        "spotify_tempo": "124.485",
+        "spotify_valence": "0.548",
+        "spotify_acousticness": "0.0309",
+        "spotify_instrumentalness": "0.00382",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.356",
+        "spotify_artists01": "Vulfmon",
+        "spotify_artists01_id": "6pGuw52TrX5SZPdQSxAvgW",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb5472c8aa544fe619911b743d",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "43",
+        "spotify_artists02": "Jacob Jeffries",
+        "spotify_artists02_id": "2s4evfvMB1HbNMGak6pDUB",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebb444cd5f36c06d7ee9bd94e9",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "34",
+        "spotify_artists03": "Harrison Whitford",
+        "spotify_artists03_id": "2KAaIurA00NK4IAnbC6nB8",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5ebe219bf049b5f50d4ff8b3678",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "27",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Vulfmon-Jacob-Jeffries-Harrison-Whitford-Little-Thunder.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4273,
+            "name": "Harrison Whitford",
+            "slug": "harrison-whitford",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 4272,
+            "name": "Jacob Jeffries",
+            "slug": "jacob-jeffries",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 3928,
+            "name": "Vulfmon",
+            "slug": "vulfmon",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2022",
+              "artistborn": "19860402",
+              "artistjpname": "ヴォルフモン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "songwriter",
+                  "label": "Songwriter"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "6pGuw52TrX5SZPdQSxAvgW",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051745472c8aa544fe619911b743d"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "Vulfmon, Jacob Jeffries, Harrison Whitford",
+        "spotify_artists": "Vulfmon, Jacob Jeffries, Harrison Whitford",
+        "ytvideoid": "1aQpedzFOHA",
+        "spotify_track_id": "1bUyfiqXnoAbhxyV8qufW6"
+      },
+      "genre_data": [
+        {
+          "name": "Psychedelic rock",
+          "slug": "psychedelic-rock",
+          "term_id": 678,
+          "post_count": 111
+        },
+        {
+          "name": "Soft rock",
+          "slug": "soft-rock",
+          "term_id": 6,
+          "post_count": 223
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "little-thunder"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

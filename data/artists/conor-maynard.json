@@ -1,0 +1,61 @@
+{
+  "id": 1146,
+  "count": 5,
+  "description": "Conor Maynard is an English singer.",
+  "link": "https://sub.music8.jp/category/conor-maynard/",
+  "name": "Conor Maynard",
+  "slug": "conor-maynard",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "2006",
+    "artistborn": "19921121",
+    "artistdied": "",
+    "artistjpname": "コナー・メイナード"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1146",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1146"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1146"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "コナー・メイナード",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2006",
+  "occupation": ""
+}

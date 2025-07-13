@@ -1,0 +1,181 @@
+{
+  "artist": {
+    "id": 3109,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/michigander/",
+    "name": "Michigander",
+    "slug": "michigander",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3109",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3109"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3109"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 51219,
+      "date": "2023-01-26T16:12:12",
+      "date_gmt": "2023-01-26T07:12:12",
+      "title": {
+        "rendered": "Superglue"
+      },
+      "content": {
+        "rendered": "<p>Michig, er - Superglue</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3109
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1xppwXzb1L9dwPigcki6Tf",
+        "spotify_release_date": "2023-03-31",
+        "spotify_name": "Superglue",
+        "spotify_artists": "Michigander",
+        "spotify_album": "It Will Never Be The Same",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273cb43b69273648d90a950f508",
+        "spotify_duration_ms": "250362",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.527",
+        "spotify_energy": "0.882",
+        "spotify_key": "5",
+        "spotify_loudness": "-4.24",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0491",
+        "spotify_tempo": "139.004",
+        "spotify_valence": "0.336",
+        "spotify_acousticness": "0.00154",
+        "spotify_instrumentalness": "0.0000313",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.125",
+        "spotify_artists01": "Michigander",
+        "spotify_artists01_id": "0oL26Dn9y761yfJgNb3vfu",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb46f19133526b5baf13c054ea",
+        "spotify_artists01_genres": "michigan indie",
+        "spotify_artists01_popularity": "45",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "ZJoLFn2N9vw",
+        "ytreleasedate": "2023/01/26"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Michigander-Superglue.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3109,
+            "name": "Michigander",
+            "slug": "michigander",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Michigander",
+        "ytvideoid": "ZJoLFn2N9vw",
+        "spotify_track_id": "1xppwXzb1L9dwPigcki6Tf"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "superglue"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

@@ -1,0 +1,76 @@
+{
+  "id": 2037,
+  "count": 1,
+  "description": "Kurt Vile is an American singer, songwriter, multi-instrumentalist, and record producer.",
+  "link": "https://sub.music8.jp/category/kurt-vile/",
+  "name": "Kurt Vile",
+  "slug": "kurt-vile",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "2003",
+    "artistborn": "19800103",
+    "artistdied": "",
+    "artistjpname": "カート・ヴァイル",
+    "member": [
+      {
+        "term_id": 945,
+        "name": "Wet Wet Wet",
+        "slug": "wet-wet-wet",
+        "term_group": 0,
+        "term_taxonomy_id": 945,
+        "taxonomy": "category",
+        "description": "Wet Wet Wet are a Scottish soft rock band.",
+        "parent": 0,
+        "count": 4,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2037",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2037"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2037"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "カート・ヴァイル",
+  "spotifyArtistImages": "",
+  "artistActiveYearStart": "2003",
+  "occupation": ""
+}

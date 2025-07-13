@@ -1,0 +1,208 @@
+{
+  "artist": {
+    "id": 4100,
+    "count": 1,
+    "description": "Faydee is an Australian singer of Lebanese descent.",
+    "link": "https://sub.music8.jp/category/faydee/",
+    "name": "Faydee",
+    "slug": "faydee",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "AUS",
+      "artistactiveyearstart": "2008",
+      "artistborn": "19870203",
+      "artistjpname": "フェイディー",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "singer",
+          "label": "Singer"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4100",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4100"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4100"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 60700,
+      "date": "2024-01-19T22:28:12",
+      "date_gmt": "2024-01-19T13:28:12",
+      "title": {
+        "rendered": "Love You No More"
+      },
+      "content": {
+        "rendered": "<p>Faydee - Love You No More</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4100
+      ],
+      "tags": [],
+      "genre": [
+        470,
+        501,
+        752
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        4686
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "7DdKd6T2mVyUTvTtEEpI7v",
+        "spotify_release_date": "2024-01-19",
+        "spotify_name": "Love You No More",
+        "spotify_artists": "Faydee",
+        "spotify_album": "Love You No More",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27368ceb4a580e44103aaa109d3",
+        "spotify_duration_ms": "219395",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.693",
+        "spotify_energy": "0.567",
+        "spotify_key": "1",
+        "spotify_loudness": "-7.233",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0311",
+        "spotify_tempo": "101.997",
+        "spotify_valence": "0.683",
+        "spotify_acousticness": "0.136",
+        "spotify_instrumentalness": "0.0697",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0752",
+        "spotify_artists01": "Faydee",
+        "spotify_artists01_id": "5v7efr4mqt3RQxkT0Mmh5g",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc1df9295e360bb96d17b3158",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "51",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "X5Cw0_SF8Q0",
+        "ytreleasedate": "2024/01/19"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Faydee-Love-You-No-More.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4100,
+            "name": "Faydee",
+            "slug": "faydee",
+            "acf": {
+              "artistorigin": "AUS",
+              "artistactiveyearstart": "2008",
+              "artistborn": "19870203",
+              "artistjpname": "フェイディー",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Faydee",
+        "ytvideoid": "X5Cw0_SF8Q0",
+        "spotify_track_id": "7DdKd6T2mVyUTvTtEEpI7v"
+      },
+      "genre_data": [
+        {
+          "name": "Dance-pop",
+          "slug": "dance-pop",
+          "term_id": 470,
+          "post_count": 1384
+        },
+        {
+          "name": "Electropop",
+          "slug": "electropop",
+          "term_id": 501,
+          "post_count": 928
+        },
+        {
+          "name": "Tropical house",
+          "slug": "tropical-house",
+          "term_id": 752,
+          "post_count": 101
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "love-you-no-more"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

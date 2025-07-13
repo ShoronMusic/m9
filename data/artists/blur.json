@@ -1,0 +1,81 @@
+{
+  "id": 1361,
+  "count": 36,
+  "description": "Blur are an English rock band.",
+  "link": "https://sub.music8.jp/category/blur/",
+  "name": "Blur",
+  "slug": "blur",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1988",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "ブラー",
+    "member": [
+      {
+        "errors": {
+          "invalid_term": [
+            "空のターム。"
+          ]
+        },
+        "error_data": []
+      }
+    ],
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Pulp (pulp) | Verve (verve) | Supergrass (supergrass) | Stone Roses (stone-roses) | Suede (suede) | Damon Albarn (damon-albarn) | Manic Street Preachers (manic-street-preachers) | Primal Scream (primal-scream) | Franz Ferdinand (franz-ferdinand) | Pixies (pixies) | Libertines (libertines) | Joy Division (joy-division) | Kasabian (kasabian) | Sonic Youth (sonic-youth) | Charlatans (charlatans) | Kaiser Chiefs | Travis (travis) | Happy Mondays | Liam Gallagher (liam-gallagher) | New Order (new-order)",
+    "spotify_artist_id": "7MhMgCo0Bl0Kukl93PZbYS",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517400620d736644d2359ce99430"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1361",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1361"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1361"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ブラー",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517400620d736644d2359ce99430",
+  "artistActiveYearStart": "1988",
+  "occupation": "band"
+}

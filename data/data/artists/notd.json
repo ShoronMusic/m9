@@ -1,0 +1,72 @@
+{
+  "id": 3972,
+  "count": 8,
+  "description": "NOTD is a Swedish musical production duo.",
+  "link": "https://sub.music8.jp/category/notd/",
+  "name": "NOTD",
+  "slug": "notd",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "SWE",
+    "artistactiveyearstart": "2017",
+    "artistborn": "",
+    "artistjpname": "ノーテッド",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "duo",
+        "label": "Duo"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "5jAMCwdNHWr7JThxtMuEyy",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174efad82d14906269313783133"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3972",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3972"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3972"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "ノーテッド",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174efad82d14906269313783133",
+  "artistActiveYearStart": "2017",
+  "occupation": "duo"
+}

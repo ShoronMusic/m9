@@ -1,0 +1,72 @@
+{
+  "id": 4342,
+  "count": 1,
+  "description": "Elbow are an English rock band.",
+  "link": "https://sub.music8.jp/category/elbow/",
+  "name": "Elbow",
+  "slug": "elbow",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1997",
+    "artistborn": "",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "Guy Garvey | Doves | Badly Drawn Boy | Turin Brakes | Athlete | Gomez | Embrace (embrace) | I Am Kloot | Paul Weller (paul-weller) | Coral (coral) | Ocean Colour Scene (ocean-colour-scene) | Manic Street Preachers (manic-street-preachers) | Charlatans (charlatans) | Editors (editors) | Zutons (zutons) | Ian Brown | Starsailor | Shed Seven (shed-seven) | Feeder (feeder) | James",
+    "spotify_artist_id": "0TJB3EE2efClsYIDQ8V2Jk",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051742dee92c802411c160b1bb6d9"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4342",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4342"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4342"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051742dee92c802411c160b1bb6d9",
+  "artistActiveYearStart": "1997",
+  "occupation": "band"
+}

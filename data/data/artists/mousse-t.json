@@ -1,0 +1,76 @@
+{
+  "id": 5426,
+  "count": 1,
+  "description": "Mousse T. is a German-Turkish DJ, record producer.",
+  "link": "https://sub.music8.jp/category/mousse-t/",
+  "name": "Mousse T.",
+  "slug": "mousse-t",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "GER",
+    "artistactiveyearstart": "1989",
+    "artistborn": "19661002",
+    "artistjpname": "",
+    "member": false,
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "dj",
+        "label": "DJ"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "Phats & Small | Shapeshifters | Soulsearcher | Seamus Haji | Madison Avenue | Junior Jack | David Morales | Full Intention | Milk & Sugar | Sandy Rivera | Dave Lee | Ultra Naté | Shakedown | Spiller | Soul Central | Michael Gray | Todd Terry | Barbara Tucker | Kings Of Tomorrow | Room 5",
+    "spotify_artist_id": "5N6EzjkOoyABhNZJggeXi6",
+    "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743ec50e3fd7a8515d17bcf0e3"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/5426",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=5426"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=5426"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab676161000051743ec50e3fd7a8515d17bcf0e3",
+  "artistActiveYearStart": "1989",
+  "occupation": "dj, producer"
+}

@@ -1,0 +1,76 @@
+{
+  "id": 787,
+  "count": 1,
+  "description": "Barry Manilow is an American singer-songwriter, arranger, and producer.",
+  "link": "https://sub.music8.jp/category/barry-manilow/",
+  "name": "Barry Manilow",
+  "slug": "barry-manilow",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "US",
+    "artistactiveyearstart": "1964",
+    "artistborn": "19430617",
+    "artistdied": "",
+    "artistjpname": "バリー・マニロウ",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "ssw",
+        "label": "SSW"
+      },
+      {
+        "value": "producer",
+        "label": "Producer"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "3alW3LYQS8K29z8C8NSLIX",
+    "spotify_artist_images": "https://i.scdn.co/image/ab6761610000517401507fa881d04b98dc44ebb4"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/787",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=787"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=787"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "バリー・マニロウ",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab6761610000517401507fa881d04b98dc44ebb4",
+  "artistActiveYearStart": "1964",
+  "occupation": "ssw, producer"
+}

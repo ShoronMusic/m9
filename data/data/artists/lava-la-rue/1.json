@@ -1,0 +1,606 @@
+{
+  "artist": {
+    "id": 2496,
+    "count": 4,
+    "description": "Lava La Rue is a British rapper, singer, and songwriter.",
+    "link": "https://sub.music8.jp/category/lava-la-rue/",
+    "name": "Lava La Rue",
+    "slug": "lava-la-rue",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "UK",
+      "artistactiveyearstart": "2018",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "ラバ・ラ・ルー",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/2496",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=2496"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=2496"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 59065,
+      "date": "2023-05-03T20:48:42",
+      "date_gmt": "2023-05-03T11:48:42",
+      "title": {
+        "rendered": "Renegade"
+      },
+      "content": {
+        "rendered": "<p>Lava La Rue - Renegade</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2496
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        677
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3SqMnzlS5KPE7wFFF4wBWa",
+        "spotify_release_date": "2023-05-02",
+        "spotify_name": "Renegade",
+        "spotify_artists": "Lava La Rue",
+        "spotify_album": "Renegade",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273561dff51b83ffa65237ca7cb",
+        "spotify_duration_ms": "174666",
+        "spotify_popularity": "28",
+        "spotify_danceability": "0.439",
+        "spotify_energy": "0.837",
+        "spotify_key": "3",
+        "spotify_loudness": "-5.163",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0791",
+        "spotify_tempo": "159.945",
+        "spotify_valence": "0.649",
+        "spotify_acousticness": "0.0184",
+        "spotify_instrumentalness": "0.00000793",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.11",
+        "spotify_artists01": "Lava La Rue",
+        "spotify_artists01_id": "271bbpX3pdCi56ZJA1jQ43",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf1d9d769b451a58f5ca66502",
+        "spotify_artists01_genres": "alternative r&b, uk contemporary r&b",
+        "spotify_artists01_popularity": "40",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "h7sPbk1XQqU",
+        "ytreleasedate": "2023/05/03"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lava-La-Rue-Renegade.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2496,
+            "name": "Lava La Rue",
+            "slug": "lava-la-rue",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ラバ・ラ・ルー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Lava La Rue",
+        "ytvideoid": "h7sPbk1XQqU",
+        "spotify_track_id": "3SqMnzlS5KPE7wFFF4wBWa"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Psychedelic pop",
+          "slug": "psychedelic-pop",
+          "term_id": 677,
+          "post_count": 79
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "renegade"
+    },
+    {
+      "id": 39253,
+      "date": "2022-06-30T13:22:00",
+      "date_gmt": "2022-06-30T04:22:00",
+      "title": {
+        "rendered": "Don't Come Back"
+      },
+      "content": {
+        "rendered": "\n<p>LavaLaRue-Don'tComeBack</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2496
+      ],
+      "tags": [],
+      "genre": [
+        405,
+        628,
+        685
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "637Dhg7cBf6ODFeY2wjF5Z",
+        "spotify_release_date": "2022/6/30",
+        "spotify_name": "Don'tComeBack",
+        "spotify_artists": "LavaLaRue",
+        "spotify_album": "Don'tComeBack",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27335045c710d12b9a00344baf7",
+        "spotify_duration_ms": "217918",
+        "spotify_popularity": "43",
+        "spotify_danceability": "0.692",
+        "spotify_energy": "0.621",
+        "spotify_key": "4",
+        "spotify_loudness": "-10.337",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0807",
+        "spotify_tempo": "76.04",
+        "spotify_valence": "0.916",
+        "spotify_acousticness": "0.536",
+        "spotify_instrumentalness": "0.00176",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.129",
+        "spotify_artists01": "LavaLaRue",
+        "spotify_artists01_id": "271bbpX3pdCi56ZJA1jQ43",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf1d9d769b451a58f5ca66502",
+        "spotify_artists01_genres": "alternativer&b,ukcontemporaryr&b",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "Tl8NTrrgm3A",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lava-La-Rue-Dont-Come-Back.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2496,
+            "name": "Lava La Rue",
+            "slug": "lava-la-rue",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ラバ・ラ・ルー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LavaLaRue",
+        "ytvideoid": "Tl8NTrrgm3A",
+        "spotify_track_id": "637Dhg7cBf6ODFeY2wjF5Z"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative R&amp;B",
+          "slug": "alternative-rb",
+          "term_id": 405,
+          "post_count": 348
+        },
+        {
+          "name": "Neo soul",
+          "slug": "neo-soul",
+          "term_id": 628,
+          "post_count": 176
+        },
+        {
+          "name": "R&amp;B",
+          "slug": "rb",
+          "term_id": 685,
+          "post_count": 1518
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "dont-come-back"
+    },
+    {
+      "id": 39498,
+      "date": "2022-06-11T03:15:00",
+      "date_gmt": "2022-06-10T18:15:00",
+      "title": {
+        "rendered": "Hi-Fidelity"
+      },
+      "content": {
+        "rendered": "\n<p>LavaLaRue-Hi-FidelityFt.BiigPiig</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2760,
+        2496
+      ],
+      "tags": [],
+      "genre": [
+        452,
+        628,
+        657
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "ZUu5unXsPL8",
+        "likecount": "1",
+        "spotify_track_id": "2d9UdLMMe80RNfuQcGmuIe",
+        "spotify_release_date": "2022/5/31",
+        "spotify_name": "Hi-Fidelity",
+        "spotify_artists": "Lava La Rue, Biig Piig",
+        "spotify_album": "Hi-Fidelity",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273b888b6560213b05a1ecc58fc",
+        "spotify_duration_ms": "199088",
+        "spotify_popularity": "57",
+        "spotify_danceability": "0.761",
+        "spotify_energy": "0.668",
+        "spotify_key": "11",
+        "spotify_loudness": "-7.698",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.123",
+        "spotify_tempo": "93.195",
+        "spotify_valence": "0.611",
+        "spotify_acousticness": "0.0939",
+        "spotify_instrumentalness": "1.92E-06",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0935",
+        "spotify_artists01": "LavaLaRue",
+        "spotify_artists01_id": "271bbpX3pdCi56ZJA1jQ43",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf1d9d769b451a58f5ca66502",
+        "spotify_artists01_genres": "alternativer&b,ukcontemporaryr&b",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "BiigPiig",
+        "spotify_artists02_id": "4GoD5FJCgC0lbzde7ly44M",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb95ed88709fa074b957c43811",
+        "spotify_artists02_genres": "indiesoul,modernalternativepop",
+        "spotify_artists02_popularity": "60",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytreleasedate": "",
+        "artist_order": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lava-La-Rue-Hi-Fidelity-Ft.-Biig-Piig.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2760,
+            "name": "Biig Piig",
+            "slug": "biig-piig",
+            "acf": {
+              "artistorigin": "IRL",
+              "artistactiveyearstart": "2016",
+              "artistborn": "19980122",
+              "artistdied": "",
+              "artistjpname": "ビッグ・ピッグ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2496,
+            "name": "Lava La Rue",
+            "slug": "lava-la-rue",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ラバ・ラ・ルー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Lava La Rue, Biig Piig",
+        "ytvideoid": "ZUu5unXsPL8",
+        "spotify_track_id": "2d9UdLMMe80RNfuQcGmuIe"
+      },
+      "genre_data": [
+        {
+          "name": "Chillwave",
+          "slug": "chillwave",
+          "term_id": 452,
+          "post_count": 24
+        },
+        {
+          "name": "Neo soul",
+          "slug": "neo-soul",
+          "term_id": 628,
+          "post_count": 176
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "hi-fidelity"
+    },
+    {
+      "id": 40407,
+      "date": "2022-01-28T11:45:00",
+      "date_gmt": "2022-01-28T02:45:00",
+      "title": {
+        "rendered": "Vest &#038; Boxers"
+      },
+      "content": {
+        "rendered": "\n<p>LavaLaRue-Vest&amp;Boxers</p>\n",
+        "protected": false
+      },
+      "categories": [
+        2496
+      ],
+      "tags": [],
+      "genre": [
+        410,
+        427,
+        657
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "3uKhV3k4ywsQr5PRE5GEoa",
+        "spotify_release_date": "2022/1/28",
+        "spotify_name": "Vest&Boxers",
+        "spotify_artists": "LavaLaRue",
+        "spotify_album": "Vest&Boxers",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273d25c962aee7d1534a8825e2c",
+        "spotify_duration_ms": "177064",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.869",
+        "spotify_energy": "0.559",
+        "spotify_key": "11",
+        "spotify_loudness": "-9.203",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.112",
+        "spotify_tempo": "121.043",
+        "spotify_valence": "0.899",
+        "spotify_acousticness": "0.0465",
+        "spotify_instrumentalness": "0.00137",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.141",
+        "spotify_artists01": "LavaLaRue",
+        "spotify_artists01_id": "271bbpX3pdCi56ZJA1jQ43",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf1d9d769b451a58f5ca66502",
+        "spotify_artists01_genres": "alternativer&b,ukcontemporaryr&b",
+        "spotify_artists01_popularity": "44",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "dFv6JJf41wE",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Lava-La-Rue-Vest-Boxers.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 2496,
+            "name": "Lava La Rue",
+            "slug": "lava-la-rue",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "ラバ・ラ・ルー",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "LavaLaRue",
+        "ytvideoid": "dFv6JJf41wE",
+        "spotify_track_id": "3uKhV3k4ywsQr5PRE5GEoa"
+      },
+      "genre_data": [
+        {
+          "name": "Alt-pop",
+          "slug": "alt-pop",
+          "term_id": 410,
+          "post_count": 775
+        },
+        {
+          "name": "Bedroom pop",
+          "slug": "bedroom-pop",
+          "term_id": 427,
+          "post_count": 280
+        },
+        {
+          "name": "Pop rap",
+          "slug": "pop-rap",
+          "term_id": 657,
+          "post_count": 673
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "vest-boxers"
+    }
+  ],
+  "totalSongs": 4,
+  "totalPages": 1,
+  "currentPage": 1
+}

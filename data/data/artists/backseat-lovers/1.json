@@ -1,0 +1,831 @@
+{
+  "artist": {
+    "id": 3480,
+    "count": 6,
+    "description": "The Backseat Lovers is an American alternative rock band",
+    "link": "https://sub.music8.jp/category/backseat-lovers/",
+    "name": "Backseat Lovers",
+    "slug": "backseat-lovers",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2018",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "1",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/3480",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=3480"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=3480"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 54562,
+      "date": "2023-03-30T20:39:12",
+      "date_gmt": "2023-03-30T11:39:12",
+      "title": {
+        "rendered": "Snowbank Blues"
+      },
+      "content": {
+        "rendered": "<p>Backseat Lovers - Snowbank Blues</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3480
+      ],
+      "tags": [],
+      "genre": [
+        399,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "",
+        "spotify_track_id": "3SsGrCb1eaSpGhRDqPaTln",
+        "spotify_release_date": "2022-10-28",
+        "spotify_name": "Snowbank Blues",
+        "spotify_artists": "The Backseat Lovers",
+        "spotify_album": "Waiting to Spill",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27371bdd42995c7b1ee2951ca5d",
+        "spotify_duration_ms": "197746",
+        "spotify_popularity": "66",
+        "spotify_danceability": "0.588",
+        "spotify_energy": "0.182",
+        "spotify_key": "5",
+        "spotify_loudness": "-11.487",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0302",
+        "spotify_tempo": "95.915",
+        "spotify_valence": "0.217",
+        "spotify_acousticness": "0.738",
+        "spotify_instrumentalness": "0.000427",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.128",
+        "spotify_artists01": "The Backseat Lovers",
+        "spotify_artists01_id": "6p2HnfM955TI1bX34dkLnI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb42ba5ff4f62126b3c96803f6",
+        "spotify_artists01_genres": "pov: indie, slc indie",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "8EbQTu1TwDo",
+        "ytreleasedate": "2023/03/30"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Backseat-Lovers-Snowbank-Blues.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3480,
+            "name": "Backseat Lovers",
+            "slug": "backseat-lovers",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Backseat Lovers",
+        "ytvideoid": "8EbQTu1TwDo",
+        "spotify_track_id": "3SsGrCb1eaSpGhRDqPaTln"
+      },
+      "genre_data": [
+        {
+          "name": "Acoustic rock",
+          "slug": "acoustic-rock",
+          "term_id": 399,
+          "post_count": 94
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "snowbank-blues"
+    },
+    {
+      "id": 54573,
+      "date": "2023-02-05T20:47:53",
+      "date_gmt": "2023-02-05T11:47:53",
+      "title": {
+        "rendered": "Heavy"
+      },
+      "content": {
+        "rendered": "<p>Backseat Lovers - Heavy</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3480
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "4XMip32XS16zAngezD8bEv",
+        "spotify_release_date": "2020-07-15",
+        "spotify_name": "Heavy",
+        "spotify_artists": "The Backseat Lovers",
+        "spotify_album": "Heavy",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273f39a161122ab9815a84cb497",
+        "spotify_duration_ms": "258719",
+        "spotify_popularity": "55",
+        "spotify_danceability": "0.652",
+        "spotify_energy": "0.326",
+        "spotify_key": "11",
+        "spotify_loudness": "-10.014",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0287",
+        "spotify_tempo": "113.978",
+        "spotify_valence": "0.179",
+        "spotify_acousticness": "0.0528",
+        "spotify_instrumentalness": "0.0063",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.113",
+        "spotify_artists01": "The Backseat Lovers",
+        "spotify_artists01_id": "6p2HnfM955TI1bX34dkLnI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb42ba5ff4f62126b3c96803f6",
+        "spotify_artists01_genres": "pov: indie, slc indie",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "QrV7C2qT5xI",
+        "ytreleasedate": "2021/02/05"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Backseat-Lovers-Heavy.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3480,
+            "name": "Backseat Lovers",
+            "slug": "backseat-lovers",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Backseat Lovers",
+        "ytvideoid": "QrV7C2qT5xI",
+        "spotify_track_id": "4XMip32XS16zAngezD8bEv"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "heavy-2"
+    },
+    {
+      "id": 54577,
+      "date": "2022-10-28T20:49:48",
+      "date_gmt": "2022-10-28T11:49:48",
+      "title": {
+        "rendered": "Viciously Lonely"
+      },
+      "content": {
+        "rendered": "<p>Backseat Lovers - Viciously Lonely</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3480
+      ],
+      "tags": [],
+      "genre": [
+        519,
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "1oe6uW8Gm88UGeq4hEJsi9",
+        "spotify_release_date": "2022-10-28",
+        "spotify_name": "Viciously Lonely",
+        "spotify_artists": "The Backseat Lovers",
+        "spotify_album": "Waiting to Spill",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27371bdd42995c7b1ee2951ca5d",
+        "spotify_duration_ms": "333893",
+        "spotify_popularity": "51",
+        "spotify_danceability": "0.621",
+        "spotify_energy": "0.148",
+        "spotify_key": "7",
+        "spotify_loudness": "-19.117",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0529",
+        "spotify_tempo": "103.94",
+        "spotify_valence": "0.202",
+        "spotify_acousticness": "0.669",
+        "spotify_instrumentalness": "0.0169",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0772",
+        "spotify_artists01": "The Backseat Lovers",
+        "spotify_artists01_id": "6p2HnfM955TI1bX34dkLnI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb42ba5ff4f62126b3c96803f6",
+        "spotify_artists01_genres": "pov: indie, slc indie",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "9ectTj1cpwU",
+        "ytreleasedate": "2022/10/28"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Backseat-Lovers-Viciously-Lonely.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3480,
+            "name": "Backseat Lovers",
+            "slug": "backseat-lovers",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Backseat Lovers",
+        "ytvideoid": "9ectTj1cpwU",
+        "spotify_track_id": "1oe6uW8Gm88UGeq4hEJsi9"
+      },
+      "genre_data": [
+        {
+          "name": "Folk rock",
+          "slug": "folk-rock",
+          "term_id": 519,
+          "post_count": 97
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "viciously-lonely"
+    },
+    {
+      "id": 54569,
+      "date": "2022-10-07T20:46:04",
+      "date_gmt": "2022-10-07T11:46:04",
+      "title": {
+        "rendered": "Slowing Down"
+      },
+      "content": {
+        "rendered": "<p>Backseat Lovers - Slowing Down</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3480
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "q",
+        "spotify_track_id": "3o1ah1V2PJDtsCyDCpwXe4",
+        "spotify_release_date": "2022-10-28",
+        "spotify_name": "Slowing Down",
+        "spotify_artists": "The Backseat Lovers",
+        "spotify_album": "Waiting to Spill",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27371bdd42995c7b1ee2951ca5d",
+        "spotify_duration_ms": "320186",
+        "spotify_popularity": "56",
+        "spotify_danceability": "0.409",
+        "spotify_energy": "0.467",
+        "spotify_key": "4",
+        "spotify_loudness": "-9.865",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0339",
+        "spotify_tempo": "83.909",
+        "spotify_valence": "0.0884",
+        "spotify_acousticness": "0.167",
+        "spotify_instrumentalness": "0.861",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.112",
+        "spotify_artists01": "The Backseat Lovers",
+        "spotify_artists01_id": "6p2HnfM955TI1bX34dkLnI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb42ba5ff4f62126b3c96803f6",
+        "spotify_artists01_genres": "pov: indie, slc indie",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "1GhRZ1JOYCg",
+        "ytreleasedate": "2023/01/27"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Backseat-Lovers-Slowing-Down.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3480,
+            "name": "Backseat Lovers",
+            "slug": "backseat-lovers",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Backseat Lovers",
+        "ytvideoid": "1GhRZ1JOYCg",
+        "spotify_track_id": "3o1ah1V2PJDtsCyDCpwXe4"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "slowing-down"
+    },
+    {
+      "id": 54565,
+      "date": "2022-08-20T20:43:35",
+      "date_gmt": "2022-08-20T11:43:35",
+      "title": {
+        "rendered": "Growing/Dying"
+      },
+      "content": {
+        "rendered": "<p>Backseat Lovers - Growing/Dying</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3480
+      ],
+      "tags": [],
+      "genre": [
+        519,
+        575,
+        665
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "q",
+        "spotify_track_id": "5zMxLq47V3Gr0LlFvxiFXS",
+        "spotify_release_date": "2022-10-28",
+        "spotify_name": "Growing/Dying",
+        "spotify_artists": "The Backseat Lovers",
+        "spotify_album": "Waiting to Spill",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27371bdd42995c7b1ee2951ca5d",
+        "spotify_duration_ms": "212093",
+        "spotify_popularity": "60",
+        "spotify_danceability": "0.476",
+        "spotify_energy": "0.411",
+        "spotify_key": "11",
+        "spotify_loudness": "-7.731",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0264",
+        "spotify_tempo": "89.307",
+        "spotify_valence": "0.264",
+        "spotify_acousticness": "0.0176",
+        "spotify_instrumentalness": "0.0464",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0856",
+        "spotify_artists01": "The Backseat Lovers",
+        "spotify_artists01_id": "6p2HnfM955TI1bX34dkLnI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb42ba5ff4f62126b3c96803f6",
+        "spotify_artists01_genres": "pov: indie, slc indie",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "qLgwCQKBcP8",
+        "ytreleasedate": "2022/08/20"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Backseat-Lovers-Growing-Dying.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3480,
+            "name": "Backseat Lovers",
+            "slug": "backseat-lovers",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Backseat Lovers",
+        "ytvideoid": "qLgwCQKBcP8",
+        "spotify_track_id": "5zMxLq47V3Gr0LlFvxiFXS"
+      },
+      "genre_data": [
+        {
+          "name": "Folk rock",
+          "slug": "folk-rock",
+          "term_id": 519,
+          "post_count": 97
+        },
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        },
+        {
+          "name": "Post-punk",
+          "slug": "post-punk",
+          "term_id": 665,
+          "post_count": 194
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "growing-dying"
+    },
+    {
+      "id": 54581,
+      "date": "2020-10-24T20:52:17",
+      "date_gmt": "2020-10-24T11:52:17",
+      "title": {
+        "rendered": "Kilby Girl (Live)"
+      },
+      "content": {
+        "rendered": "<p>Backseat Lovers - Kilby Girl (Live)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        3480
+      ],
+      "tags": [],
+      "genre": [
+        575
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "spotify_track_id": "3tH748BXQjUPuyq57Jsn7B",
+        "spotify_release_date": "2021-11-12",
+        "spotify_name": "Kilby Girl (Live)",
+        "spotify_artists": "The Backseat Lovers",
+        "spotify_album": "Live from the Troubadour",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273befba225744aaf0581fe0464",
+        "spotify_duration_ms": "262360",
+        "spotify_popularity": "35",
+        "spotify_danceability": "0.224",
+        "spotify_energy": "0.665",
+        "spotify_key": "6",
+        "spotify_loudness": "-9.832",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.0558",
+        "spotify_tempo": "173.324",
+        "spotify_valence": "0.326",
+        "spotify_acousticness": "0.0047",
+        "spotify_instrumentalness": "0.0752",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.873",
+        "spotify_artists01": "The Backseat Lovers",
+        "spotify_artists01_id": "6p2HnfM955TI1bX34dkLnI",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb42ba5ff4f62126b3c96803f6",
+        "spotify_artists01_genres": "pov: indie, slc indie",
+        "spotify_artists01_popularity": "66",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "6ZZghJG0d0E",
+        "ytreleasedate": "2020/10/24"
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/The-Backseat-Lovers-Kilby-Girl.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 3480,
+            "name": "Backseat Lovers",
+            "slug": "backseat-lovers",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2018",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": "1"
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "The Backseat Lovers",
+        "ytvideoid": "6ZZghJG0d0E",
+        "spotify_track_id": "3tH748BXQjUPuyq57Jsn7B"
+      },
+      "genre_data": [
+        {
+          "name": "Indie rock",
+          "slug": "indie-rock",
+          "term_id": 575,
+          "post_count": 840
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "kilby-girl-live"
+    }
+  ],
+  "totalSongs": 6,
+  "totalPages": 1,
+  "currentPage": 1
+}

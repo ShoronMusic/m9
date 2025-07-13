@@ -1,0 +1,194 @@
+{
+  "artist": {
+    "id": 4210,
+    "count": 1,
+    "description": "Chicano Batman is an American latin soul band.",
+    "link": "https://sub.music8.jp/category/chicano-batman/",
+    "name": "Chicano Batman",
+    "slug": "chicano-batman",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "2008",
+      "artistborn": "",
+      "artistjpname": "チカーノ・バットマン",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [
+        {
+          "value": "band",
+          "label": "Band"
+        }
+      ]
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/4210",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=4210"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=4210"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 62226,
+      "date": "2024-01-24T20:44:17",
+      "date_gmt": "2024-01-24T11:44:17",
+      "title": {
+        "rendered": "Fly"
+      },
+      "content": {
+        "rendered": "<p>Chicano Batman - Fly</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4210
+      ],
+      "tags": [],
+      "genre": [
+        679
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2847
+      ],
+      "acf": {
+        "ytvideoid": "fsmwWjU_Xaw",
+        "ytreleasedate": "2024/01/24",
+        "likecount": "1",
+        "artist_order": "",
+        "spotify_track_id": "32sk0nAe4tnJxSjyGylWpj",
+        "spotify_release_date": "2024-01-23",
+        "spotify_name": "Fly",
+        "spotify_artists": "Chicano Batman",
+        "spotify_album": "Fly",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b2737574de43dc8c7d6825de82ff",
+        "spotify_duration_ms": "206533",
+        "spotify_popularity": "46",
+        "spotify_danceability": "0.561",
+        "spotify_energy": "0.868",
+        "spotify_key": "11",
+        "spotify_loudness": "-5.28",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0589",
+        "spotify_tempo": "92.02",
+        "spotify_valence": "0.724",
+        "spotify_acousticness": "0.0432",
+        "spotify_instrumentalness": "0.0000127",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.203",
+        "spotify_artists01": "Chicano Batman",
+        "spotify_artists01_id": "0LklyUMMUhpIjMgYHlV0hN",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb2141bae0e07a980b382f8904",
+        "spotify_artists01_genres": "la indie, latinx alternative, psychedelic soul, tropical alternativo",
+        "spotify_artists01_popularity": "46",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Chicano-Batman-Fly.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4210,
+            "name": "Chicano Batman",
+            "slug": "chicano-batman",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "2008",
+              "artistborn": "",
+              "artistjpname": "チカーノ・バットマン",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "band",
+                  "label": "Band"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Chicano Batman",
+        "ytvideoid": "fsmwWjU_Xaw",
+        "spotify_track_id": "32sk0nAe4tnJxSjyGylWpj"
+      },
+      "genre_data": [
+        {
+          "name": "Psychedelic soul",
+          "slug": "psychedelic-soul",
+          "term_id": 679,
+          "post_count": 56
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "fly-2"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

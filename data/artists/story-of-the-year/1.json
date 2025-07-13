@@ -1,0 +1,174 @@
+{
+  "artist": {
+    "id": 1924,
+    "count": 1,
+    "description": "US",
+    "link": "https://sub.music8.jp/category/story-of-the-year/",
+    "name": "Story Of The Year",
+    "slug": "story-of-the-year",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1924",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1924"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1924"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 38268,
+      "date": "2022-11-23T18:56:00",
+      "date_gmt": "2022-11-23T09:56:00",
+      "title": {
+        "rendered": "Take The Ride"
+      },
+      "content": {
+        "rendered": "\n<p>StoryOfTheYear-TakeTheRide</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1924
+      ],
+      "tags": [],
+      "genre": [
+        411,
+        660
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2845
+      ],
+      "acf": {
+        "likecount": "1",
+        "artist_order": null,
+        "spotify_track_id": "2jCiOgOBe4U3OCk3OQXGVC",
+        "spotify_release_date": "2023/3/10",
+        "spotify_name": "TaketheRide",
+        "spotify_artists": "StoryOfTheYear",
+        "spotify_album": "TearMetoPieces",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27368aa26c081d6c45aa6dd0332",
+        "spotify_duration_ms": "178318",
+        "spotify_popularity": "49",
+        "spotify_danceability": "0.508",
+        "spotify_energy": "0.921",
+        "spotify_key": "2",
+        "spotify_loudness": "-3.472",
+        "spotify_mode": "1",
+        "spotify_speechiness": "0.175",
+        "spotify_tempo": "161.979",
+        "spotify_valence": "0.634",
+        "spotify_acousticness": "0.00616",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.034",
+        "spotify_artists01": "StoryOfTheYear",
+        "spotify_artists01_id": "0KDuKk6YdEu3hR56HtXmxt",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb1ac582762e74510cfd6ef254",
+        "spotify_artists01_genres": "neonpoppunk,poppunk,screamo",
+        "spotify_artists01_popularity": "55",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": null,
+        "potify_artists05": null,
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "8yKHtNN7mUA",
+        "ytreleasedate": null,
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Story-Of-The-Year-Take-The-Ride.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1924,
+            "name": "Story Of The Year",
+            "slug": "story-of-the-year",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "StoryOfTheYear",
+        "ytvideoid": "8yKHtNN7mUA",
+        "spotify_track_id": "2jCiOgOBe4U3OCk3OQXGVC"
+      },
+      "genre_data": [
+        {
+          "name": "Alternative rock",
+          "slug": "alternative-rock",
+          "term_id": 411,
+          "post_count": 1921
+        },
+        {
+          "name": "Pop-punk",
+          "slug": "pop-punk",
+          "term_id": 660,
+          "post_count": 448
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "take-the-ride"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

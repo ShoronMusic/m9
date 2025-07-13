@@ -1,0 +1,72 @@
+{
+  "id": 1098,
+  "count": 7,
+  "description": "BTS (Bangtan Boys)  is a South Korean boy band.",
+  "link": "https://sub.music8.jp/category/bts/",
+  "name": "BTS",
+  "slug": "bts",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "KOR",
+    "artistactiveyearstart": "2013",
+    "artistborn": "",
+    "artistdied": "",
+    "artistjpname": "防弾少年団",
+    "member": false,
+    "artistimage1": false,
+    "Occupation": [
+      {
+        "value": "band",
+        "label": "Band"
+      }
+    ],
+    "related_artists": "j-hope (j-hope) | RM (rm) | Agust D | Jung Kook (jung-kook) | Jimin | SUGA (suga) | TOMORROW X TOGETHER | Stray Kids | BLACKPINK | SEVENTEEN | ENHYPEN | TWICE | GOT7 | MAMAMOO | MONSTA X | HWASA | Jackson Wang (jackson-wang) | ATEEZ | Red Velvet | EXO",
+    "spotify_artist_id": "3Nrfpe0tUJi4K4DXYWgMUX",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174d642648235ebf3460d2d1f6a"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1098",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1098"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1098"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "防弾少年団",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174d642648235ebf3460d2d1f6a",
+  "artistActiveYearStart": "2013",
+  "occupation": "band"
+}
