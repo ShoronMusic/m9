@@ -1,13 +1,13 @@
 // app/page.jsx
 
-import dynamic from 'next/dynamic';
+import dynamicImport from 'next/dynamic';
 import fs from "fs/promises";
 import path from "path";
 import { getServerSession } from 'next-auth';
 import { authOptions } from '@/lib/authOptions';
 
 // TopPageClientを動的にインポート
-const TopPageClient = dynamic(() => import("./TopPageClient"), {
+const TopPageClient = dynamicImport(() => import("./TopPageClient"), {
   ssr: false // クライアントサイドでのみレンダリング
 });
 
@@ -18,7 +18,7 @@ export const metadata = {
 
 // キャッシュ設定を追加
 export const revalidate = 0;
-export const dynamicConfig = 'force-dynamic';
+export const dynamic = 'force-dynamic';
 
 export default async function Page() {
   try {
