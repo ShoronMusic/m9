@@ -5,18 +5,10 @@ import ReactDOM from "react-dom";
 import styles from "./SongList.module.css";
 import MicrophoneIcon from "./MicrophoneIcon";
 import Link from "next/link";
-import {
-  getDoc,
-  doc,
-  updateDoc,
-  setDoc,
-  arrayUnion,
-  arrayRemove,
-} from "firebase/firestore";
-import { firestore, auth } from "./firebase";
 import SaveToPlaylistPopup from "./SaveToPlaylistPopup";
 import he from "he";
-import { usePlayer } from './PlayerContext'; // PlayerContext をインポート
+import { usePlayer } from './PlayerContext';
+import { useSpotifyLikes } from './SpotifyLikes';
 
 // CloudinaryのベースURL
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
@@ -240,33 +232,44 @@ function SongList({
   onPageEnd = () => {},
   autoPlayFirst = false,
   pageType = 'default',
-  likeCounts = {},
-  likedSongs = {},
-  handleLike,
+  accessToken = null,
 }) {
   const player = usePlayer();
+
+  // Spotify Track IDsを抽出（ページ内の曲のみ）
+  const trackIds = useMemo(() => {
+    return songs
+      .map(song => song.acf?.spotify_track_id || song.spotifyTrackId)
+      .filter(id => id); // null/undefinedを除外
+  }, [songs]);
+
+  // SpotifyLikesフックを使用
+  const {
+    likedTracks,
+    isLoading: likesLoading,
+    error: likesError,
+    toggleLike: spotifyToggleLike,
+  } = useSpotifyLikes(accessToken, trackIds);
 
   // ポップアップ表示用状態（ポップアップメニュー）
   const [isPopupVisible, setIsPopupVisible] = useState(false);
   const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
   const [popupSong, setPopupSong] = useState(null);
 
-  // プレイリスト追加用 state
+  // プレイリスト追加用状態
   const [showSavePopup, setShowSavePopup] = useState(false);
   const [selectedSongId, setSelectedSongId] = useState(null);
-  
-  // categoriesの型を保証する
-  const safeSongs = useMemo(() => songs.map(song => ({
-    ...song,
-    spotifyTrackId: song.acf?.spotify_track_id || song.spotifyTrackId || song.acf?.spotifyTrackId,
-    id: song.id || song.spotifyTrackId || song.acf?.spotify_track_id,
-    categories: Array.isArray(song.categories)
-      ? song.categories.filter(cat => typeof cat === 'object' && cat !== null)
-      : []
-  })), [songs]);
 
+  // 安全な曲データの生成（idを必ずセット）
+  const safeSongs = useMemo(() => {
+    return songs.map(song => ({
+      ...song,
+      id: song.id || song.spotifyTrackId || `temp_${Math.random()}`
+    }));
+  }, [songs]);
+
+  // 自動再生機能
   const prevSourceRef = useRef();
-
   useEffect(() => {
     const source = `${pageType}/${styleSlug}/${currentPage}`;
     if (autoPlayFirst && safeSongs.length > 0 && prevSourceRef.current !== source) {
@@ -278,9 +281,10 @@ function SongList({
         console.error('Error auto-playing first track:', error);
       }
     }
-  }, [autoPlayFirst, safeSongs, pageType, styleSlug, currentPage, onPageEnd]);
+  }, [autoPlayFirst, safeSongs, pageType, styleSlug, currentPage, onPageEnd, player]);
 
-  useEffect(() => { // ポップアップメニュー用 (これは残す)
+  // ポップアップメニュー用のイベントリスナー
+  useEffect(() => {
     const handleDocumentClick = (e) => {
       if (
         e.target.closest(".popup-menu") === null &&
@@ -291,40 +295,22 @@ function SongList({
     };
     document.addEventListener("click", handleDocumentClick);
     return () => document.removeEventListener("click", handleDocumentClick);
-  }, []); 
+  }, []);
 
   const handleThumbnailClick = (song, index) => {
-    const source = `${pageType}/${styleSlug}/${currentPage}`;
-    
-    try {
-        player.playTrack(song, index, safeSongs, source, onPageEnd);
-    } catch (error) {
-        console.error('Error calling playTrack:', error);
+    if (player.playTrack) {
+      const source = `${pageType}/${styleSlug}/${currentPage}`;
+      player.playTrack(song, index, safeSongs, source, onPageEnd);
     }
   };
 
   const handleThreeDotsClick = (e, song) => {
     e.stopPropagation();
-    const iconRect = e.currentTarget.getBoundingClientRect();
-    // position: fixed なのでビューポート基準
-    const menuWidth = 220;
-    const menuHeightPx = 240; // メニューの想定最大高さ（必要に応じて調整）
-    const winWidth = window.innerWidth;
-    const winHeight = window.innerHeight;
-    let top = iconRect.bottom;
-    let left = iconRect.right;
-    // 右端はみ出し対策
-    if (left + menuWidth > winWidth - 8) {
-      left = winWidth - menuWidth - 8;
-    }
-    // 下端はみ出し対策
-    if (top + menuHeightPx > winHeight - 8) {
-      top = winHeight - menuHeightPx - 8;
-    }
-    if (top < 8) {
-      top = 8;
-    }
-    setPopupPosition({ top, left });
+    const rect = e.currentTarget.getBoundingClientRect();
+    setPopupPosition({
+      top: rect.bottom + window.scrollY,
+      left: rect.left + window.scrollX,
+    });
     setPopupSong(song);
     setIsPopupVisible(true);
   };
@@ -334,35 +320,24 @@ function SongList({
     // player.togglePlay();
   };
 
-  // いいねボタン用の toggleLike 関数
-  const toggleLike = async (songId) => {
-    if (!auth.currentUser) {
-      alert("ログインしてください");
+  // Spotify APIを使用したいいねボタン用の toggleLike 関数
+  const handleLikeToggle = async (songId) => {
+    if (!accessToken) {
+      alert("Spotifyにログインしてください");
       return;
     }
-    const userId = auth.currentUser.uid;
-    const likeRef = doc(firestore, "likes", songId);
+
+    if (likesError) {
+      alert(`エラー: ${likesError}`);
+      return;
+    }
+
     try {
-      const isCurrentlyLiked = likedSongs[songId];
-      if (isCurrentlyLiked) {
-        // いいね解除
-        await updateDoc(likeRef, {
-          userIds: arrayRemove(userId),
-          likeCount: Math.max((likeCounts[songId] || 0) - 1, 0),
-        });
-      } else {
-        // いいね追加
-        const docSnapshot = await getDoc(likeRef);
-        if (!docSnapshot.exists()) {
-          await setDoc(likeRef, { userIds: [], likeCount: 0 });
-        }
-        await updateDoc(likeRef, {
-          userIds: arrayUnion(userId),
-          likeCount: (likeCounts[songId] || 0) + 1,
-        });
-      }
-      if (typeof handleLike === 'function') {
-        handleLike();
+      const isCurrentlyLiked = likedTracks.has(songId);
+      const success = await spotifyToggleLike(songId, !isCurrentlyLiked);
+      
+      if (!success) {
+        alert(isCurrentlyLiked ? "いいねの解除に失敗しました。" : "いいねの追加に失敗しました。");
       }
     } catch (error) {
       console.error("Error toggling like:", error);
@@ -433,6 +408,10 @@ function SongList({
                     : "Unknown Year";
                 const genreText = formatGenres(song.genre_data);
 
+                // Spotify Track IDを取得
+                const spotifyTrackId = song.acf?.spotify_track_id || song.spotifyTrackId;
+                const isLiked = spotifyTrackId ? likedTracks.has(spotifyTrackId) : false;
+
                 return (
                   <li key={song.id + '-' + index} id={`song-${song.id}`} className={styles.songItem}>
                     <div className="ranking-thumbnail-container">
@@ -461,31 +440,50 @@ function SongList({
                         <span style={{ marginRight: "auto" }}>
                           {artistElements} - {title}
                         </span>
-                        <span
-                          className={styles.likeContainer}
-                          style={{
-                            display: "inline-flex",
-                            alignItems: "center",
-                            gap: "2px",
-                            cursor: "pointer",
-                          }}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            toggleLike(String(song.id));
-                          }}
-                        >
-                          <img
-                            src={likedSongs[String(song.id)] ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
-                            alt="Like"
-                            className={styles.likeIcon}
-                            style={{ width: "14px", height: "14px" }}
-                          />
-                          {likeCounts[String(song.id)] > 0 && (
-                            <span className={styles.likeCount} style={{ fontSize: "10px", marginLeft: "2px" }}>
-                              {likeCounts[String(song.id)]}
-                            </span>
-                          )}
-                        </span>
+                        {spotifyTrackId && (
+                          <span
+                            className={styles.likeContainer}
+                            style={{
+                              display: "inline-flex",
+                              alignItems: "center",
+                              gap: "2px",
+                              cursor: likesLoading ? "not-allowed" : "pointer",
+                              opacity: likesLoading ? 0.5 : 1,
+                              position: "relative",
+                            }}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              if (!likesLoading && !likesError) {
+                                handleLikeToggle(spotifyTrackId);
+                              }
+                            }}
+                            title={likesError ? `エラー: ${likesError}` : (isLiked ? "いいねを解除" : "いいねを追加")}
+                          >
+                            <img
+                              src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
+                              alt="Like"
+                              className={styles.likeIcon}
+                              style={{ 
+                                width: "14px", 
+                                height: "14px",
+                                filter: likesError ? "grayscale(100%)" : "none"
+                              }}
+                            />
+                            {likesLoading && (
+                              <div style={{
+                                position: "absolute",
+                                top: "-2px",
+                                right: "-2px",
+                                width: "8px",
+                                height: "8px",
+                                borderRadius: "50%",
+                                border: "1px solid #ccc",
+                                borderTop: "1px solid #007bff",
+                                animation: "spin 1s linear infinite"
+                              }} />
+                            )}
+                          </span>
+                        )}
                       </div>
                       <div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
                         <span>{releaseDate}</span>
@@ -632,75 +630,5 @@ function SongList({
     </div>
   );
 }
-
-/*
-  songs: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      date: PropTypes.string,
-      title: PropTypes.shape({
-        rendered: PropTypes.string,
-      }),
-      content: PropTypes.shape({
-        rendered: PropTypes.string,
-      }),
-      featured_media_url: PropTypes.string,
-      acf: PropTypes.shape({
-        ytvideoid: PropTypes.string,
-        spotify_track_id: PropTypes.string,
-        artist_order: PropTypes.oneOfType([
-          PropTypes.string,
-          PropTypes.array
-        ]),
-        spotify_artists: PropTypes.oneOfType([
-          PropTypes.string,
-          PropTypes.array
-        ]),
-        style_slug: PropTypes.string,
-        style_name: PropTypes.string,
-      }),
-      categories: PropTypes.arrayOf(
-        PropTypes.shape({
-          name: PropTypes.string,
-          artistorigin: PropTypes.string,
-          the_prefix: PropTypes.string,
-          slug: PropTypes.string,
-          type: PropTypes.string,
-        })
-      ),
-      genre: PropTypes.arrayOf(
-        PropTypes.shape({
-          name: PropTypes.string,
-          slug: PropTypes.string,
-        })
-      ),
-      vocal_data: PropTypes.arrayOf(
-        PropTypes.shape({
-          name: PropTypes.string,
-          slug: PropTypes.string,
-        })
-      ),
-      style: PropTypes.arrayOf(
-        PropTypes.oneOfType([
-          PropTypes.shape({
-            term_id: PropTypes.number,
-            name: PropTypes.string,
-            slug: PropTypes.string,
-          }),
-          PropTypes.number
-        ])
-      ),
-    })
-  ).isRequired,
-  currentPage: PropTypes.number,
-  styleSlug: PropTypes.string,
-  styleName: PropTypes.string,
-  onPageEnd: PropTypes.func,
-  autoPlayFirst: PropTypes.bool,
-  pageType: PropTypes.string,
-  likeCounts: PropTypes.object,
-  likedSongs: PropTypes.object,
-  handleLike: PropTypes.func,
-};*/
 
 export default SongList;

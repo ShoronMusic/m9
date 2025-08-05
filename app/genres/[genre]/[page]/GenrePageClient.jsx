@@ -7,7 +7,15 @@ import Pagination from '@/components/Pagination';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 import styles from './GenrePageClient.module.css';
 
-export default function GenrePageClient({ genreSlug, pageNumber, genreSonglist, genreName, genreDescription, autoPlayFirst }) {
+export default function GenrePageClient({ 
+  genreSlug, 
+  pageNumber, 
+  genreSonglist, 
+  genreName, 
+  genreDescription, 
+  autoPlayFirst,
+  accessToken = null 
+}) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const autoplay = searchParams.get('autoplay') === '1';
@@ -120,6 +128,7 @@ export default function GenrePageClient({ genreSlug, pageNumber, genreSonglist, 
         autoPlayFirst={autoPlayFirst}
         total={total}
         pageType="genre"
+        accessToken={accessToken}
       />
       {totalPages > 1 && (
         <Pagination

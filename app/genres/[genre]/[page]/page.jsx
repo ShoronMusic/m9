@@ -6,6 +6,8 @@ import fs from 'fs/promises';
 import path from 'path';
 import GenrePageClient from './GenrePageClient';
 import { config } from '@/config/config';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/authOptions';
 
 export const revalidate = 43200; // 12時間ごとに再生成
 
@@ -88,6 +90,10 @@ export default async function Page({ params, searchParams }) {
   // URLパラメータからautoplayを読み取り
   const autoPlayFirst = searchParams?.autoplay === '1';
 
+  // セッションからaccessTokenを取得
+  const session = await getServerSession(authOptions);
+  const accessToken = session?.accessToken || null;
+
   const genreData = await getGenreData(genre);
   console.log('page.jsx genreData:', genreData);
 
@@ -124,6 +130,7 @@ export default async function Page({ params, searchParams }) {
         genreName={genreData.name}
         genreDescription={genreData.description}
         autoPlayFirst={autoPlayFirst}
+        accessToken={accessToken}
       />
     </Suspense>
   );

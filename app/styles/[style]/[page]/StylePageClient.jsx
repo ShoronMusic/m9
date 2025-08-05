@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useSession } from "next-auth/react";
+import { useSpotifyLikes } from '@/components/SpotifyLikes';
 import Link from 'next/link';
 import Image from 'next/image';
 import { config } from '@/config/config';
@@ -50,15 +51,8 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
   const [userViewCounts, setUserViewCounts] = useState({});
   const [likeRefreshKey, setLikeRefreshKey] = useState(0);
   const songsPerPage = config.pagination.itemsPerPage;
-
-  if (!styleData) {
-    return <div className="text-red-500">データの取得に失敗しました。</div>;
-  }
-
+  const accessToken = session?.accessToken;
   const songs = Array.isArray(styleData?.songs) ? styleData.songs : [];
-  const totalSongs = styleData?.total;
-  const totalPages = styleData?.totalPages;
-
   // --- ここから追加: アーティスト配列生成ロジック ---
   const wpStylePosts = songs.map(song => {
     let artists = [];
@@ -81,13 +75,8 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
         slug: song.artist_slug || undefined,
       }];
     }
-    
-    // Spotify IDを優先的に使用
     const spotify_track_id = song.spotify_track_id || song.spotifyTrackId || song.acf?.spotify_track_id || song.acf?.spotifyTrackId || '';
-    
-    // YouTube IDはフォールバックとして保持
     const ytvideoid = song.ytvideoid || song.youtube_id || song.acf?.ytvideoid || song.acf?.youtube_id || song.videoId || '';
-    
     return {
       ...song,
       title: { rendered: song.title },
@@ -109,11 +98,22 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
       content: { rendered: song.content },
     };
   }).filter(song => {
-    // Spotify IDがある楽曲のみを表示
     const hasSpotifyId = song.acf?.spotify_track_id || song.spotifyTrackId;
     return hasSpotifyId;
   });
   // --- ここまで追加 ---
+
+  // trackIdsはwpStylePostsの後で定義
+  const trackIds = wpStylePosts.map(song => song.acf?.spotify_track_id || song.spotifyTrackId).filter(Boolean).sort();
+  const trackIdsString = trackIds.join(',');
+  const { likedTracks, toggleLike } = useSpotifyLikes(accessToken, trackIds);
+
+  if (!styleData) {
+    return <div className="text-red-500">データの取得に失敗しました。</div>;
+  }
+
+  const totalSongs = styleData?.total;
+  const totalPages = styleData?.totalPages;
 
   // 表示範囲の計算
   const startIndex = Math.min((currentPage - 1) * songsPerPage + 1, totalSongs);
@@ -180,53 +180,6 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     }
   };
 
-  // いいねを取得する関数
-  const fetchLikes = async (userId = null) => {
-    try {
-      if (!songs || songs.length === 0) return;
-      const songIds = songs.map(song => String(song.id)).filter(Boolean);
-      if (songIds.length === 0) return;
-
-      const likeCountsData = {};
-      const likedSongsData = {};
-      
-      const chunkedIds = [];
-      for (let i = 0; i < songIds.length; i += 30) {
-          chunkedIds.push(songIds.slice(i, i + 30));
-      }
-
-      const promises = chunkedIds.map((chunk) => {
-        const q = query(collection(firestore, "likes"), where("__name__", "in", chunk));
-        return getDocs(q);
-      });
-
-      const snapshots = await Promise.all(promises);
-      snapshots.forEach((snapshot) => {
-        snapshot.forEach((docSnap) => {
-          if (docSnap.exists()) {
-            const data = docSnap.data();
-            likeCountsData[docSnap.id] = data.likeCount || 0;
-            if (userId && data.userIds && data.userIds.includes(userId)) {
-              likedSongsData[docSnap.id] = true;
-            }
-          }
-        });
-      });
-
-      setLikeCounts(likeCountsData);
-      setLikedSongs(likedSongsData);
-    } catch (error) {
-      console.error("Error fetching likes:", error);
-      setLikeCounts({});
-      setLikedSongs({});
-    }
-  };
-
-  // いいね・視聴数の再取得トリガー
-  const handleLike = () => {
-    setLikeRefreshKey(prev => prev + 1);
-  };
-
   // いいねと視聴回数を取得
   useEffect(() => {
     let isMounted = true;
@@ -281,11 +234,9 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
         onPageEnd={handlePageEnd}
         pageType={'style'}
         autoPlayFirst={autoPlayFirst}
-        likedSongs={likedSongs}
-        likeCounts={likeCounts}
-        viewCounts={viewCounts}
-        userViewCounts={userViewCounts}
-        handleLike={handleLike}
+        accessToken={accessToken}
+        likedTracks={likedTracks}
+        onLikeToggle={toggleLike}
       />
 
       {totalPages > 1 && (

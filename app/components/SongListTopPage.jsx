@@ -1,28 +1,17 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 import ThreeDotsMenu from "./ThreeDotsMenu";
 import styles from "./SongListTopPage.module.css";
 import MicrophoneIcon from "./MicrophoneIcon";
-import { firestore, auth } from "./firebase";
-import { getThumbnailPath } from '@/lib/utils';
-import {
-	collection,
-	getDocs,
-	getDoc,
-	doc,
-	updateDoc,
-	setDoc,
-	arrayUnion,
-	arrayRemove,
-	query,
-	where,
-} from "firebase/firestore";
 import SaveToPlaylistPopup from "./SaveToPlaylistPopup";
 import Link from "next/link";
 import { usePlayer } from './PlayerContext';
+import { useSession } from "next-auth/react";
+import { useSpotifyLikes } from './SpotifyLikes';
+import he from "he";
 
 // 先頭の "The " を取り除く
 function removeLeadingThe(str = "") {
@@ -184,61 +173,6 @@ function extractStyleInfo(song, parentGenreSlug) {
 // CloudinaryのベースURL
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
 
-// Firestore から視聴回数を取得する関数
-async function fetchViewCounts(songs) {
-	const cachedViewCounts = typeof window !== "undefined" ? localStorage.getItem("viewCounts") : null;
-	const cachedUserViewCounts =
-		typeof window !== "undefined" ? localStorage.getItem("userViewCounts") : null;
-	const viewCountsData = {};
-	const userViewCountsData = {};
-	if (cachedViewCounts) {
-		Object.assign(viewCountsData, JSON.parse(cachedViewCounts));
-	}
-	if (cachedUserViewCounts) {
-		Object.assign(userViewCountsData, JSON.parse(cachedUserViewCounts));
-	}
-	const songIds = songs.map((song) => String(song.id)).filter(Boolean);
-	if (songIds.length > 0) {
-		const chunkedIds = [];
-		for (let i = 0; i < songIds.length; i += 30) {
-			chunkedIds.push(songIds.slice(i, i + 30));
-		}
-		const promises = chunkedIds.map((chunk) => {
-			const songViewsQuery = query(
-				collection(firestore, "songViews"),
-				where("__name__", "in", chunk)
-			);
-			return getDocs(songViewsQuery);
-		});
-		const snapshots = await Promise.all(promises);
-		snapshots.forEach((snapshot) => {
-			snapshot.forEach((docSnap) => {
-				const data = docSnap.data();
-				viewCountsData[docSnap.id] = data.totalViewCount || 0;
-			});
-		});
-		if (auth.currentUser) {
-			const userId = auth.currentUser.uid;
-			const userViewPromises = songIds.map(async (songId) => {
-				const userViewsRef = doc(firestore, `usersongViews/${songId}/userViews/${userId}`);
-				const userViewDoc = await getDoc(userViewsRef);
-				if (userViewDoc.exists()) {
-					const userData = userViewDoc.data();
-					userViewCountsData[songId] = userData.viewCount2 || 0;
-				} else {
-					userViewCountsData[songId] = 0;
-				}
-			});
-			await Promise.all(userViewPromises);
-		}
-		if (typeof window !== "undefined") {
-			localStorage.setItem("viewCounts", JSON.stringify(viewCountsData));
-			localStorage.setItem("userViewCounts", JSON.stringify(userViewCountsData));
-		}
-	}
-	return { viewCountsData, userViewCountsData };
-}
-
 export default function SongListTopPage({
 	songs = [],
 	styleSlug,
@@ -248,15 +182,30 @@ export default function SongListTopPage({
 	onNext,
 	onPrevious,
 	showTitle = true,
+	accessToken = null,
 }) {
 	const { currentTrack, isPlaying: isPlayerPlaying } = usePlayer();
+	const { data: session } = useSession();
+	const spotifyAccessToken = accessToken || session?.accessToken;
+
+	// Spotify Track IDsを抽出（ページ内の曲のみ）
+	const trackIds = React.useMemo(() => {
+		return songs
+			.map(song => song.acf?.spotify_track_id || song.spotifyTrackId)
+			.filter(id => id); // null/undefinedを除外
+	}, [songs]);
+
+	// SpotifyLikesフックを使用
+	const {
+		likedTracks,
+		isLoading: likesLoading,
+		error: likesError,
+		toggleLike: spotifyToggleLike,
+	} = useSpotifyLikes(spotifyAccessToken, trackIds);
+
 	const [menuVisible, setMenuVisible] = useState(false);
 	const [menuTriggerRect, setMenuTriggerRect] = useState(null);
 	const [selectedSong, setSelectedSong] = useState(null);
-	const [likedSongs, setLikedSongs] = useState({});
-	const [likeCounts, setLikeCounts] = useState({});
-	const [viewCounts, setViewCounts] = useState({});
-	const [userViewCounts, setUserViewCounts] = useState({});
 	const [showSavePopup, setShowSavePopup] = useState(false);
 	const [selectedSongId, setSelectedSongId] = useState(null);
 	const [menuHeight, setMenuHeight] = useState(0);
@@ -266,82 +215,29 @@ export default function SongListTopPage({
 	const [popupSong, setPopupSong] = useState(null);
 
 	useEffect(() => {
-		const unsubscribe = auth.onAuthStateChanged(async (user) => {
-			await fetchLikes(user ? user.uid : null);
-		});
-		return () => unsubscribe();
-	}, [songs]);
-
-	useEffect(() => {
-		(async () => {
-			const { viewCountsData, userViewCountsData } = await fetchViewCounts(songs);
-			setViewCounts(viewCountsData);
-			setUserViewCounts(userViewCountsData);
-		})();
-	}, [songs]);
-    
-    useEffect(() => {
 		if (menuVisible && menuRef.current) {
 			setMenuHeight(menuRef.current.offsetHeight);
 		}
 	}, [menuVisible]);
 
-	const fetchLikes = async (userId = null) => {
-		const likeCountsData = {};
-		const likedSongsData = {};
-		try {
-			const querySnapshot = await getDocs(collection(firestore, "likes"));
-			querySnapshot.forEach((docSnap) => {
-				const data = docSnap.data();
-				likeCountsData[docSnap.id] = data.likeCount || 0;
-				if (userId && data.userIds && data.userIds.includes(userId)) {
-					likedSongsData[docSnap.id] = true;
-				}
-			});
-			setLikeCounts(likeCountsData);
-			setLikedSongs(likedSongsData);
-		} catch (error) {
-			console.error("Error fetching likes:", error);
-			setLikeCounts({});
-			setLikedSongs({});
-		}
-	};
-
-	const toggleLike = async (songId) => {
-		if (!auth.currentUser) {
-			alert("ログインしてください");
+	// Spotify APIを使用したいいねボタン用の toggleLike 関数
+	const handleSpotifyLikeToggle = async (songId) => {
+		if (!spotifyAccessToken) {
+			alert("Spotifyにログインしてください");
 			return;
 		}
-		const userId = auth.currentUser.uid;
-		const likeRef = doc(firestore, "likes", songId);
+
+		if (likesError) {
+			alert(`エラー: ${likesError}`);
+			return;
+		}
+
 		try {
-			if (likedSongs[songId]) {
-				// いいね解除
-				await updateDoc(likeRef, {
-					userIds: arrayRemove(userId),
-					likeCount: Math.max((likeCounts[songId] || 0) - 1, 0),
-				});
-				setLikedSongs((prev) => ({ ...prev, [songId]: false }));
-				setLikeCounts((prev) => ({
-					...prev,
-					[songId]: Math.max((prev[songId] || 0) - 1, 0),
-				}));
-			} else {
-				// 初回の場合、ドキュメントがなければ作成
-				const docSnapshot = await getDoc(likeRef);
-				if (!docSnapshot.exists()) {
-					await setDoc(likeRef, { userIds: [], likeCount: 0 });
-				}
-				// いいね追加
-				await updateDoc(likeRef, {
-					userIds: arrayUnion(userId),
-					likeCount: (likeCounts[songId] || 0) + 1,
-				});
-				setLikedSongs((prev) => ({ ...prev, [songId]: true }));
-				setLikeCounts((prev) => ({
-					...prev,
-					[songId]: (prev[songId] || 0) + 1,
-				}));
+			const isCurrentlyLiked = likedTracks.has(songId);
+			const success = await spotifyToggleLike(songId, !isCurrentlyLiked);
+			
+			if (!success) {
+				alert(isCurrentlyLiked ? "いいねの解除に失敗しました。" : "いいねの追加に失敗しました。");
 			}
 		} catch (error) {
 			console.error("Error toggling like:", error);
@@ -466,10 +362,8 @@ export default function SongListTopPage({
 					const genreText = formatGenres(song.genre_data);
 					const vocalIcons = renderVocalIcons(song.vocal_data);
 					const songId = String(song.id);
-					const likeCount = likeCounts[songId] || 0;
-					const isLiked = likedSongs[songId] || false;
-					const viewCount = viewCounts[songId] || 0;
-					const userViewCount = userViewCounts[songId] || 0;
+					const spotifyTrackId = song.acf?.spotify_track_id || song.spotifyTrackId;
+					const isLiked = spotifyTrackId ? likedTracks.has(spotifyTrackId) : false;
 					const isPlaying = currentTrack && currentTrack.id === song.id && isPlayerPlaying;
 
 					return (
@@ -522,21 +416,50 @@ export default function SongListTopPage({
 										</div>
 									</div>
 									<div className={styles.icons}>
-										<button
-											onClick={(e) => { e.stopPropagation(); toggleLike(songId); }}
-											className={styles.likeButton}
-										>
-											<img
-												src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
-												alt="Like"
-												style={{ width: "14px", height: "14px" }}
-											/>
-										</button>
-										<span className={styles.count}>{likeCount}</span>
-										<span className={styles.count}>({viewCount})</span>
+										{spotifyTrackId && (
+											<button
+												onClick={(e) => { 
+													e.stopPropagation(); 
+													if (!likesLoading && !likesError) {
+														handleSpotifyLikeToggle(spotifyTrackId);
+													}
+												}}
+												className={styles.likeButton}
+												style={{
+													cursor: likesLoading ? "not-allowed" : "pointer",
+													opacity: likesLoading ? 0.5 : 1,
+													position: "relative",
+												}}
+												title={likesError ? `エラー: ${likesError}` : (isLiked ? "いいねを解除" : "いいねを追加")}
+											>
+												<img
+													src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
+													alt="Like"
+													style={{ 
+														width: "14px", 
+														height: "14px",
+														filter: likesError ? "grayscale(100%)" : "none"
+													}}
+												/>
+												{likesLoading && (
+													<div style={{
+														position: "absolute",
+														top: "-2px",
+														right: "-2px",
+														width: "8px",
+														height: "8px",
+														borderRadius: "50%",
+														border: "1px solid #ccc",
+														borderTop: "1px solid #007bff",
+														animation: "spin 1s linear infinite"
+													}} />
+												)}
+											</button>
+										)}
+										<span className={styles.count}>({likedTracks.size})</span>
 										<button
 											className={styles.threeDotsButton}
-											onClick={(e) => handleThreeDotsClick(e, song, categories)}
+											onClick={(e) => handleThreeDotsClick(e, song, song.categories || [])}
 										>
 											<img src="/svg/three-dots-line.svg" alt="メニュー" width="16" />
 										</button>
@@ -643,4 +566,5 @@ SongListTopPage.propTypes = {
 	onNext: PropTypes.func,
 	onPrevious: PropTypes.func,
 	showTitle: PropTypes.bool,
+	accessToken: PropTypes.string,
 };

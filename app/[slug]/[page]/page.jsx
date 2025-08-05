@@ -4,6 +4,8 @@ import ArtistPageClient from './ArtistPageClient';
 import Layout from '@/components/Layout'; // This can be removed if Layout is handled globally
 import fs from 'fs/promises';
 import path from 'path';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/authOptions';
 
 // --- Consolidated Data Fetching Logic ---
 const dataDir = path.join(process.cwd(), 'public', 'data');
@@ -66,6 +68,10 @@ export default async function ArtistPageWithPagination({ params }) {
     notFound();
   }
 
+  // セッションからaccessTokenを取得
+  const session = await getServerSession(authOptions);
+  const accessToken = session?.accessToken || null;
+
   const artistData = await getArtistDetails(slug);
 
   if (!artistData) {
@@ -91,6 +97,7 @@ export default async function ArtistPageWithPagination({ params }) {
         startSongNumber={startSongNumber}
         endSongNumber={endSongNumber}
         allSongs={allSongs}
+        accessToken={accessToken}
         />
       </Suspense>
   );

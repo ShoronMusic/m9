@@ -8,7 +8,14 @@ import styles from './GenrePageClient.module.css'; // Adjusted path and filename
 
 const ITEMS_PER_PAGE = 20;
 
-export default function GenrePageClient({ genreName, pageNumber, genreSonglist, genreSlug, genreDescription }) {
+export default function GenrePageClient({ 
+  genreName, 
+  pageNumber, 
+  genreSonglist, 
+  genreSlug, 
+  genreDescription,
+  accessToken = null 
+}) {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -56,6 +63,7 @@ export default function GenrePageClient({ genreName, pageNumber, genreSonglist, 
         autoPlayFirst={false}
         total={total}
         pageType="genre"
+        accessToken={accessToken}
       />
 
       {totalPages > 1 && (

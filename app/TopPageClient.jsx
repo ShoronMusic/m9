@@ -123,7 +123,7 @@ function extractStyleInfo(song, parentGenreSlug) {
 
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
 
-export default function TopPageClient({ topSongsData = [] }) {
+export default function TopPageClient({ topSongsData = [], accessToken = null }) {
 	const [songsByStyle, setSongsByStyle] = useState({});
 	const { playTrack, setTrackList } = usePlayer();
 
@@ -224,6 +224,7 @@ export default function TopPageClient({ topSongsData = [] }) {
 							styleName={styleName}
 							onTrackPlay={handleTrackPlay}
 							showTitle={false}
+							accessToken={accessToken}
 						/>
 					</div>
 				);

@@ -47,7 +47,20 @@ function calculateAge(birthDate, diedDate) {
 }
 
 // Props: artistData, songs (現在のページ分), currentPage, totalPages, totalSongs, stylePercentages, topGenres, members, relatedArtists, startSongNumber, endSongNumber
-export default function ArtistPageClient({ artistData, songs, currentPage, totalPages, totalSongs, stylePercentages, topGenres, members, relatedArtists, startSongNumber, endSongNumber }) {
+export default function ArtistPageClient({ 
+  artistData, 
+  songs, 
+  currentPage, 
+  totalPages, 
+  totalSongs, 
+  stylePercentages, 
+  topGenres, 
+  members, 
+  relatedArtists, 
+  startSongNumber, 
+  endSongNumber,
+  accessToken = null 
+}) {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -497,6 +510,7 @@ export default function ArtistPageClient({ artistData, songs, currentPage, total
           onPageEnd={handlePageEnd}
           autoPlayFirst={autoPlayFirst}
           pageType="artist"
+          accessToken={accessToken}
         />
 
         {safeTotalPages > 1 && (

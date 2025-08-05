@@ -3,6 +3,8 @@
 import dynamic from 'next/dynamic';
 import fs from "fs/promises";
 import path from "path";
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/authOptions';
 
 // TopPageClientを動的にインポート
 const TopPageClient = dynamic(() => import("./TopPageClient"), {
@@ -15,6 +17,10 @@ export const metadata = {
 };
 
 export default async function Page() {
+  // セッションからaccessTokenを取得
+  const session = await getServerSession(authOptions);
+  const accessToken = session?.accessToken || null;
+
   let topSongsData = [];
   const isRemote = process.env.NODE_ENV === "production";
   const baseUrl = isRemote
@@ -40,7 +46,7 @@ export default async function Page() {
 
   return (
     <main>
-      <TopPageClient topSongsData={topSongsData} />
+      <TopPageClient topSongsData={topSongsData} accessToken={accessToken} />
     </main>
   );
 }
