@@ -11,17 +11,40 @@ import { authOptions } from '@/lib/authOptions';
 const dataDir = path.join(process.cwd(), 'public', 'data');
 const isRemote = process.env.NODE_ENV === "production" || process.env.DATA_BASE_URL?.startsWith("http");
 
-async function fetchData(url) {
+async function fetchData(url, retries = 3) {
   if (isRemote) {
     const baseUrl = process.env.DATA_BASE_URL || "https://xs867261.xsrv.jp/data/data/";
-    try {
-      const res = await fetch(`${baseUrl}${url}`);
-      if (!res.ok) return null;
-      return await res.json();
-    } catch (error) {
-      console.error(`Fetch failed for ${url}:`, error);
-      return null;
+    
+    for (let attempt = 1; attempt <= retries; attempt++) {
+      try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 15000); // 15秒タイムアウト
+        
+        const res = await fetch(`${baseUrl}${url}`, {
+          signal: controller.signal,
+          headers: {
+            'User-Agent': 'Music8-App/1.0'
+          }
+        });
+        
+        clearTimeout(timeoutId);
+        
+        if (!res.ok) {
+          console.error(`HTTP ${res.status} for ${url}`);
+          if (attempt === retries) return null;
+          continue;
+        }
+        
+        return await res.json();
+      } catch (error) {
+        console.error(`Fetch attempt ${attempt} failed for ${url}:`, error.message);
+        if (attempt === retries) return null;
+        
+        // リトライ前に少し待機
+        await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
+      }
     }
+    return null;
   } else {
     const filePath = path.join(dataDir, ...url.split('/'));
     try {
@@ -35,7 +58,22 @@ async function fetchData(url) {
 }
 
 async function getArtistDetails(slug) {
-  return await fetchData(`artists/${slug}.json`);
+  const data = await fetchData(`artists/${slug}.json`);
+  console.log(`Artist data for ${slug}:`, data);
+  
+  // データが取得できない場合のフォールバック
+  if (!data) {
+    console.error(`Failed to fetch artist data for ${slug}`);
+    return null;
+  }
+  
+  // データの構造を確認
+  if (!data.name && !data.title) {
+    console.error(`Invalid artist data structure for ${slug}:`, data);
+    return null;
+  }
+  
+  return data;
 }
 
 async function getArtistSongs(slug, page) {

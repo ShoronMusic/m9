@@ -64,6 +64,9 @@ export default function ArtistPageClient({
   const router = useRouter();
   const searchParams = useSearchParams();
 
+  // デバッグログを追加
+  console.log('ArtistPageClient received artistData:', artistData);
+
   const autoPlayParam = searchParams.get("autoplay") || "";
   const autoPlayFirst = (autoPlayParam === "1");
 
