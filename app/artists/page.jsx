@@ -11,6 +11,10 @@ export const metadata = {
   description: 'アーティスト一覧ページ'
 };
 
+// キャッシュ設定を追加
+export const revalidate = 0;
+export const dynamic = 'force-dynamic';
+
 export default async function ArtistsPage() {
   // アルファベットリスト
   const letters = [...Array(26)].map((_, i) => String.fromCharCode(65 + i)).concat('0-9');
@@ -28,7 +32,12 @@ export default async function ArtistsPage() {
         let json = null;
         if (isRemote) {
           // 外部サーバーからfetch
-          const res = await fetch(`${baseUrl}artistlist/${letter}/${page}.json`);
+          const res = await fetch(`${baseUrl}artistlist/${letter}/${page}.json`, {
+            cache: 'no-store',
+            headers: {
+              'Cache-Control': 'no-cache'
+            }
+          });
           if (!res.ok) break;
           json = await res.json();
         } else {

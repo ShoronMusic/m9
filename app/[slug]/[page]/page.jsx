@@ -18,13 +18,17 @@ async function fetchData(url, retries = 3) {
     for (let attempt = 1; attempt <= retries; attempt++) {
       try {
         const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 15000); // 15秒タイムアウト
+        const timeoutId = setTimeout(() => controller.abort(), 30000); // 30秒タイムアウトに延長
         
         const res = await fetch(`${baseUrl}${url}`, {
           signal: controller.signal,
           headers: {
-            'User-Agent': 'Music8-App/1.0'
-          }
+            'User-Agent': 'Music8-App/1.0',
+            'Accept': 'application/json',
+            'Cache-Control': 'no-cache'
+          },
+          // 大きなファイルのキャッシュを無効化
+          cache: 'no-store'
         });
         
         clearTimeout(timeoutId);
@@ -162,19 +166,33 @@ export async function generateMetadata({ params }) {
 }
 
 export async function generateStaticParams() {
-  // This can be computationally expensive if there are many artists and pages.
-  // Consider limiting this or fetching a pre-built list of all artist slugs.
-  const artists = await fetchData('artists.json');
-  if (!artists) return [];
-
-  const params = [];
-  for (const artist of artists) {
-    // This part is tricky as we don't know total pages without more requests.
-    // Let's just generate for page 1 for now.
-    params.push({ slug: artist.slug, page: '1' });
+  // 大きなファイルのキャッシュエラーを回避するため、静的生成を制限
+  // 本番環境では動的ルーティングを使用
+  if (process.env.NODE_ENV === 'production') {
+    return [];
   }
 
-  return params;
+  try {
+    const artists = await fetchData('artists.json');
+    if (!artists || !Array.isArray(artists)) return [];
+
+    // 開発環境では最初の100件のみを静的生成
+    const limitedArtists = artists.slice(0, 100);
+    const params = [];
+    
+    for (const artist of limitedArtists) {
+      if (artist.slug) {
+        params.push({ slug: artist.slug, page: '1' });
+      }
+    }
+
+    return params;
+  } catch (error) {
+    console.error('Error in generateStaticParams:', error);
+    return [];
+  }
 }
 
-export const revalidate = 43200; // 12 hours
+// キャッシュ設定を調整
+export const revalidate = 0; // 動的レンダリングを強制
+export const dynamic = 'force-dynamic';

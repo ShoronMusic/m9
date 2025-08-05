@@ -48,6 +48,10 @@ const nextConfig = {
     ],
     missingSuspenseWithCSRBailout: false,
   },
+  // キャッシュ設定を追加
+  generateBuildId: async () => {
+    return 'build-' + Date.now();
+  },
 };
 
 export default nextConfig;
