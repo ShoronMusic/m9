@@ -125,6 +125,7 @@ const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/t
 
 export default function TopPageClient({ topSongsData = [], accessToken = null }) {
 	const [songsByStyle, setSongsByStyle] = useState({});
+	const [latestUpdateDate, setLatestUpdateDate] = useState('');
 	const { playTrack, setTrackList } = usePlayer();
 
 	// propsからデータをセットし、正規化
@@ -170,6 +171,23 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 		if (allSongs.length > 0) {
 			setTrackList(allSongs);
 		}
+
+		// 最新の更新日を取得
+		const allReleaseDates = allSongs
+			.map(song => song.releaseDate)
+			.filter(date => date) // nullやundefinedを除外
+			.map(date => new Date(date))
+			.filter(date => !isNaN(date.getTime())); // 無効な日付を除外
+
+		if (allReleaseDates.length > 0) {
+			const latestDate = new Date(Math.max(...allReleaseDates));
+			const formattedDate = latestDate.toLocaleDateString('ja-JP', {
+				year: 'numeric',
+				month: '2-digit',
+				day: '2-digit'
+			}).replace(/\//g, '.');
+			setLatestUpdateDate(formattedDate);
+		}
 	}, [topSongsData]); // topSongsDataの変更時にのみ実行
 
 	// 曲再生管理（PlayerContextを使用）
@@ -181,14 +199,28 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 
 	return (
 		<div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
-			<h1 style={{
-				fontSize: '1.8rem',
-				fontWeight: 800,
-				marginBottom: '2rem',
-				textAlign: 'left'
+			<div style={{
+				display: 'flex',
+				justifyContent: 'space-between',
+				alignItems: 'center',
+				marginBottom: '2rem'
 			}}>
-				New Songs Across 8 Styles
-			</h1>
+				<h1 style={{
+					fontSize: '1.8rem',
+					fontWeight: 800,
+					textAlign: 'left',
+					margin: 0
+				}}>
+					New Songs Across 8 Styles
+				</h1>
+				<span style={{
+					fontSize: '0.9rem',
+					color: '#666',
+					fontWeight: 400
+				}}>
+					Update: {latestUpdateDate || '2025.08.nn'}
+				</span>
+			</div>
 
 			{styleOrder.map((styleSlug) => {
 				const styleSongs = songsByStyle[styleSlug] || [];
