@@ -456,12 +456,12 @@ export default function SongListTopPage({
 												)}
 											</button>
 										)}
-										<span className={styles.count}>({likedTracks.size})</span>
 										<button
 											className={styles.threeDotsButton}
-											onClick={(e) => handleThreeDotsClick(e, song, song.categories || [])}
+											onClick={(e) => handleThreeDotsClick(e, song, song.categories)}
+											aria-label="More options"
 										>
-											<img src="/svg/three-dots-line.svg" alt="メニュー" width="16" />
+											⋮
 										</button>
 									</div>
 								</div>

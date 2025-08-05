@@ -6,6 +6,7 @@ import styles from "./SongList.module.css";
 import MicrophoneIcon from "./MicrophoneIcon";
 import Link from "next/link";
 import SaveToPlaylistPopup from "./SaveToPlaylistPopup";
+import ThreeDotsMenu from "./ThreeDotsMenu";
 import he from "he";
 import { usePlayer } from './PlayerContext';
 import { useSpotifyLikes } from './SpotifyLikes';
@@ -235,6 +236,16 @@ function SongList({
   accessToken = null,
 }) {
   const player = usePlayer();
+  const [menuVisible, setMenuVisible] = useState(false);
+  const [menuTriggerRect, setMenuTriggerRect] = useState(null);
+  const [selectedSong, setSelectedSong] = useState(null);
+  const [showSavePopup, setShowSavePopup] = useState(false);
+  const [selectedSongId, setSelectedSongId] = useState(null);
+  const [menuHeight, setMenuHeight] = useState(0);
+  const menuRef = useRef(null);
+  const [isPopupVisible, setIsPopupVisible] = useState(false);
+  const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
+  const [popupSong, setPopupSong] = useState(null);
 
   // Spotify Track IDsを抽出（ページ内の曲のみ）
   const trackIds = useMemo(() => {
@@ -251,14 +262,99 @@ function SongList({
     toggleLike: spotifyToggleLike,
   } = useSpotifyLikes(accessToken, trackIds);
 
-  // ポップアップ表示用状態（ポップアップメニュー）
-  const [isPopupVisible, setIsPopupVisible] = useState(false);
-  const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
-  const [popupSong, setPopupSong] = useState(null);
+  useEffect(() => {
+    if (menuVisible && menuRef.current) {
+      setMenuHeight(menuRef.current.offsetHeight);
+    }
+  }, [menuVisible]);
 
-  // プレイリスト追加用状態
-  const [showSavePopup, setShowSavePopup] = useState(false);
-  const [selectedSongId, setSelectedSongId] = useState(null);
+  // Spotify APIを使用したいいねボタン用の toggleLike 関数
+  const handleLikeToggle = async (songId) => {
+    if (!accessToken) {
+      alert("Spotifyにログインしてください");
+      return;
+    }
+
+    if (likesError) {
+      alert(`エラー: ${likesError}`);
+      return;
+    }
+
+    try {
+      const isCurrentlyLiked = likedTracks.has(songId);
+      const success = await spotifyToggleLike(songId, !isCurrentlyLiked);
+
+      if (!success) {
+        alert(isCurrentlyLiked ? "いいねの解除に失敗しました。" : "いいねの追加に失敗しました。");
+      }
+    } catch (error) {
+      console.error("Error toggling like:", error);
+      alert("エラーが発生しました。もう一度お試しください。");
+    }
+  };
+
+  const handleThumbnailClick = (song, index) => {
+    const source = `${pageType}/${styleSlug}/${currentPage}`;
+    player.playTrack(song, index, safeSongs, source, onPageEnd);
+  };
+
+  const handleThreeDotsClick = (e, song) => {
+    e.stopPropagation();
+    const iconRect = e.currentTarget.getBoundingClientRect();
+    const menuWidth = 220;
+    const menuHeightPx = 240; // 仮の高さ
+
+    // メニューをアイコンの右上に表示するための計算
+    let top = iconRect.top - menuHeightPx;
+    let left = iconRect.right - menuWidth;
+
+    // 画面からはみ出さないように調整
+    if (left < 8) {
+      left = 8;
+    }
+    if (top < 8) {
+      top = 8;
+    }
+    setPopupPosition({ top, left });
+    setPopupSong(song);
+    setIsPopupVisible(true);
+  };
+
+  const handleExternalLinkClick = () => {
+    if (popupSong?.spotifyTrackId) {
+      window.open(`https://open.spotify.com/track/${popupSong.spotifyTrackId}`, '_blank');
+    }
+    setIsPopupVisible(false);
+  };
+
+  const handleAddToPlaylistClick = (songId) => {
+    const numericId = typeof songId === 'string' ? parseInt(songId, 10) : songId;
+    if (isNaN(numericId)) {
+      console.error('Invalid song ID:', songId);
+      return;
+    }
+    setSelectedSongId(numericId);
+    setShowSavePopup(true);
+    setIsPopupVisible(false);
+  };
+
+  const closeSavePopup = () => {
+    setShowSavePopup(false);
+    setSelectedSongId(null);
+  };
+
+  // ポップアップの外側をクリックしたら閉じる
+  useEffect(() => {
+    const handleDocumentClick = (e) => {
+      if (isPopupVisible) {
+        setIsPopupVisible(false);
+      }
+    };
+    document.addEventListener("click", handleDocumentClick);
+    return () => {
+      document.removeEventListener("click", handleDocumentClick);
+    };
+  }, [isPopupVisible]);
 
   // 安全な曲データの生成（idを必ずセット）
   const safeSongs = useMemo(() => {
@@ -283,92 +379,9 @@ function SongList({
     }
   }, [autoPlayFirst, safeSongs, pageType, styleSlug, currentPage, onPageEnd, player]);
 
-  // ポップアップメニュー用のイベントリスナー
-  useEffect(() => {
-    const handleDocumentClick = (e) => {
-      if (
-        e.target.closest(".popup-menu") === null &&
-        e.target.closest(".three-dots-icon") === null
-      ) {
-        setIsPopupVisible(false);
-      }
-    };
-    document.addEventListener("click", handleDocumentClick);
-    return () => document.removeEventListener("click", handleDocumentClick);
-  }, []);
-
-  const handleThumbnailClick = (song, index) => {
-    if (player.playTrack) {
-      const source = `${pageType}/${styleSlug}/${currentPage}`;
-      player.playTrack(song, index, safeSongs, source, onPageEnd);
-    }
-  };
-
-  const handleThreeDotsClick = (e, song) => {
-    e.stopPropagation();
-    const rect = e.currentTarget.getBoundingClientRect();
-    setPopupPosition({
-      top: rect.bottom + window.scrollY,
-      left: rect.left + window.scrollX,
-    });
-    setPopupSong(song);
-    setIsPopupVisible(true);
-  };
-
-  const handleExternalLinkClick = () => {
-    // If you need to pause playback when an external link is clicked:
-    // player.togglePlay();
-  };
-
-  // Spotify APIを使用したいいねボタン用の toggleLike 関数
-  const handleLikeToggle = async (songId) => {
-    if (!accessToken) {
-      alert("Spotifyにログインしてください");
-      return;
-    }
-
-    if (likesError) {
-      alert(`エラー: ${likesError}`);
-      return;
-    }
-
-    try {
-      const isCurrentlyLiked = likedTracks.has(songId);
-      const success = await spotifyToggleLike(songId, !isCurrentlyLiked);
-      
-      if (!success) {
-        alert(isCurrentlyLiked ? "いいねの解除に失敗しました。" : "いいねの追加に失敗しました。");
-      }
-    } catch (error) {
-      console.error("Error toggling like:", error);
-      alert("エラーが発生しました。もう一度お試しください。");
-    }
-  };
-
-  // プレイリスト追加処理用ハンドラー
-  const handleAddToPlaylistClick = (songId) => {
-    
-    // IDが数値でない場合は数値に変換
-    const numericId = typeof songId === 'string' ? parseInt(songId, 10) : songId;
-    
-    if (isNaN(numericId)) {
-      console.error('Invalid song ID:', songId);
-      return;
-    }
-    
-    setSelectedSongId(numericId);
-    setShowSavePopup(true);
-    setIsPopupVisible(false);
-  };
-
-  const closeSavePopup = () => {
-    setShowSavePopup(false);
-    setSelectedSongId(null);
-  };
-
   const groupedSongs = useMemo(() => {
     const groups = {};
-    safeSongs.forEach((song, index) => {
+    songs.forEach((song, index) => {
       const year = formatYear(song.date);
       if (!groups[year]) groups[year] = [];
       groups[year].push({ ...song, originalIndex: index });
@@ -386,7 +399,7 @@ function SongList({
       });
       return { year, songs: sortedSongs };
     });
-  }, [safeSongs]);
+  }, [songs]);
 
   return (
     <div className={styles.songlistWrapper}>
@@ -411,14 +424,15 @@ function SongList({
                 // Spotify Track IDを取得
                 const spotifyTrackId = song.acf?.spotify_track_id || song.spotifyTrackId;
                 const isLiked = spotifyTrackId ? likedTracks.has(spotifyTrackId) : false;
+                const isPlaying = player.currentTrack && player.currentTrack.id === song.id && player.isPlaying;
 
                 return (
-                  <li key={song.id + '-' + index} id={`song-${song.id}`} className={styles.songItem}>
+                  <li key={song.id + '-' + index} id={`song-${song.id}`} className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}>
                     <div className="ranking-thumbnail-container">
                       {/* ランキング表示が必要ならここに */}
                     </div>
                     <button
-                      className={`${styles.thumbnailContainer} ${player.currentTrack?.id === song.id && player.isPlaying ? styles.playingBorder : ""}`}
+                      className={styles.thumbnailContainer}
                       onClick={() => handleThumbnailClick(song, index)}
                       aria-label={`再生 ${title}`}
                     >
@@ -497,19 +511,13 @@ function SongList({
                         </span>
                       </div>
                     </div>
-                    <svg
-                      viewBox="0 0 24 24"
-                      width="20"
-                      height="20"
-                      className="three-dots-icon"
-                      style={{ cursor: "pointer" }}
+                    <button
+                      className={styles.threeDotsButton}
                       onClick={(e) => handleThreeDotsClick(e, song)}
+                      aria-label="More options"
                     >
-                      <path
-                        d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
-                        fill="currentColor"
-                      />
-                    </svg>
+                      ⋮
+                    </button>
                   </li>
                 );
               } catch (e) {
@@ -522,111 +530,87 @@ function SongList({
       ))}
       {/* ポップアップメニュー */}
       {isPopupVisible && popupSong && (
-        <div
-          className="popup-menu"
-          style={{
-            position: "fixed",
-            top: popupPosition.top,
-            left: popupPosition.left,
-            backgroundColor: "#fff",
-            border: "1px solid #ccc",
-            padding: "10px",
-            boxShadow: "0 0 10px rgba(0,0,0,0.1)",
-            zIndex: 10,
+        <ThreeDotsMenu
+          song={popupSong}
+          position={popupPosition}
+          onClose={() => setIsPopupVisible(false)}
+          onAddToPlaylist={() => handleAddToPlaylistClick(popupSong.id)}
+          onCopyUrl={() => {
+            navigator.clipboard.writeText(`${window.location.origin}/${popupSong.artists[0]?.slug}/songs/${popupSong.titleSlug}`);
+            setIsPopupVisible(false);
           }}
-        >
-          {/* アーティストリンク */}
-          <div>
-            {determineArtistOrder(popupSong).map((artist, idx) => (
-              <div key={`${artist.term_id || artist.slug || 'unknown'}-${idx}`} style={{ marginBottom: "4px" }}>
-                <Link href={`/${artist.slug}/`} style={{ display: "flex", alignItems: "flex-start", textDecoration: "none", color: "#1e6ebb" }}>
-                  <div style={{ width: "20px", flexShrink: 0, marginRight: "4px" }} onClick={handleExternalLinkClick}>
-                    <img src="/svg/musician.png" alt="Musician" style={{ width: "16px", height: "16px" }} />
-                  </div>
-                  <div style={{ flex: 1 }}>{artist.name}</div>
-                </Link>
-              </div>
-            ))}
-          </div>
-          <hr />
-          {/* タイトルリンク */}
-          <div style={{ marginBottom: "4px" }}>
-            {determineArtistOrder(popupSong)[0] && (
-              <Link href={`/${determineArtistOrder(popupSong)[0].slug}/songs/${popupSong.titleSlug || popupSong.slug || popupSong.title?.slug || popupSong.title?.rendered || popupSong.id}/`} style={{ display: "flex", alignItems: "flex-start", textDecoration: "none", color: "#1e6ebb" }}>
-                <div style={{ width: "20px", flexShrink: 0, marginRight: "4px" }} onClick={handleExternalLinkClick}>
-                  <img src="/svg/song.png" alt="Song" style={{ width: "16px", height: "16px" }} />
+          renderMenuContent={({ song, onAddToPlaylist, onCopyUrl }) => {
+            const menuButtonStlye = { display: 'flex', alignItems: 'center', width: '100%', background: 'none', border: 'none', padding: '8px 12px', textAlign: 'left', cursor: 'pointer' };
+            const menuItemStyle = { ...menuButtonStlye, textDecoration: 'none', color: 'inherit' };
+            const separatorStyle = { borderBottom: '1px solid #eee' };
+            const linkColorStyle = { color: '#007bff' };
+
+            return (
+              <>
+                <div style={separatorStyle}>
+                  {song.artists?.map(artist => (
+                    <Link href={`/${artist.slug}`} key={artist.id} legacyBehavior>
+                      <a style={{ ...menuItemStyle, ...linkColorStyle, fontWeight: 'bold' }}>
+                        <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                        {artist.name}
+                      </a>
+                    </Link>
+                  ))}
                 </div>
-                <div style={{ flex: 1 }}>{popupSong.title?.rendered || "No Title"}</div>
-              </Link>
-            )}
-          </div>
-          <hr />
-          {/* ジャンルリンク */}
-          <div>
-            {popupSong.genre_data &&
-              popupSong.genre_data.map((g) => (
-                <div key={g.term_id} style={{ marginBottom: "4px" }}>
-                  <Link href={`/genres/${g.slug}/1`} style={{ display: "flex", alignItems: "flex-start", textDecoration: "none", color: "#1e6ebb" }}>
-                    <div style={{ width: "20px", flexShrink: 0, marginRight: "4px" }} onClick={handleExternalLinkClick}>
-                      <img src="/svg/genre.png" alt="Genre" style={{ width: "16px", height: "16px" }} />
-                    </div>
-                    <div style={{ flex: 1 }}>{g.name}</div>
+
+                <div style={separatorStyle}>
+                  <Link href={`/${song.artists[0]?.slug}/songs/${song.titleSlug}`} legacyBehavior>
+                    <a style={{...menuItemStyle, ...linkColorStyle}}>
+                      <img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                      {song.title?.rendered || "No Title"}
+                    </a>
                   </Link>
                 </div>
-              ))}
-          </div>
-          <hr />
-          {/* プレイリスト追加リンク */}
-          <div style={{ marginBottom: "4px", cursor: "pointer" }} onClick={() => handleAddToPlaylistClick(popupSong.id)}>
-            <div style={{ display: "flex", alignItems: "flex-start" }}>
-              <div style={{ width: "20px", flexShrink: 0, marginRight: "4px" }}>
-                <img src="/svg/add.svg" alt="Add" style={{ width: "16px", height: "16px" }} />
-              </div>
-              <div style={{ flex: 1 }}>プレイリストに追加</div>
-            </div>
-          </div>
-          <hr />
-          {/* Spotifyリンク */}
-          <div style={{ marginBottom: "4px" }}>
-            {popupSong.acf?.spotify_track_id && (
-              <a
-                href={`https://open.spotify.com/track/${popupSong.acf.spotify_track_id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  display: "flex",
-                  alignItems: "flex-start",
-                  textDecoration: "none",
-                  color: "#1e6ebb",
-                }}
-                onClick={handleExternalLinkClick}
-              >
-                <div style={{ width: "20px", flexShrink: 0, marginRight: "4px" }}>
-                  <img src="/svg/spotify.svg" alt="Spotify" style={{ width: "20px", height: "20px" }} />
+
+                {song.genres?.map(genre => (
+                  <div key={genre.term_id} style={separatorStyle}>
+                    <Link href={`/genres/${genre.slug}/1`} legacyBehavior>
+                      <a style={{...menuItemStyle, ...linkColorStyle}}>
+                        <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                        {genre.name}
+                      </a>
+                    </Link>
+                  </div>
+                ))}
+
+                <div style={separatorStyle}>
+                  <button onClick={onAddToPlaylist} style={menuButtonStlye}>
+                    <img src="/svg/add.svg" alt="" style={{ width: 16, marginRight: 8 }} />
+                    プレイリストに追加
+                  </button>
                 </div>
-                <div style={{ flex: 1, display: "flex", alignItems: "center" }}>
-                  <span>Spotify</span>
-                  <img
-                    src="/svg/new-window.svg"
-                    alt="New Window"
-                    style={{ width: "16px", height: "16px", marginLeft: "4px", verticalAlign: "middle" }}
-                  />
+
+                {song.spotifyTrackId && (
+                  <div style={separatorStyle}>
+                    <a href={`https://open.spotify.com/track/${song.spotifyTrackId}`} target="_blank" rel="noopener noreferrer" style={{...menuItemStyle, ...linkColorStyle}}>
+                      <img src="/svg/spotify.svg" alt="" style={{ width: 16, marginRight: 8 }} />
+                      Spotifyで開く
+                    </a>
+                  </div>
+                )}
+
+                <div>
+                  <button onClick={onCopyUrl} style={menuButtonStlye}>
+                    <img src="/svg/copy.svg" alt="" style={{ width: 16, marginRight: 8 }} />
+                    曲のURLをコピー
+                  </button>
                 </div>
-              </a>
-            )}
-          </div>
-        </div>
+              </>
+            )
+          }}
+        />
       )}
-      {/* SaveToPlaylistPopup をポータル経由でレンダリング */}
-      {showSavePopup && selectedSongId &&
-        ReactDOM.createPortal(
-          <SaveToPlaylistPopup
-            songId={selectedSongId}
-            onClose={closeSavePopup}
-          />,
-          document.body
-        )
-      }
+      {showSavePopup && (
+        <SaveToPlaylistPopup
+          songId={selectedSongId}
+          onClose={closeSavePopup}
+        />
+      )}
     </div>
   );
 }
