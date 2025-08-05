@@ -18,7 +18,7 @@ export const metadata = {
 
 // キャッシュ設定を追加
 export const revalidate = 0;
-export const dynamic = 'force-dynamic';
+export const dynamicConfig = 'force-dynamic';
 
 export default async function Page() {
   try {
