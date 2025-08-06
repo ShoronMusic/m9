@@ -34,46 +34,56 @@ export default async function Page() {
 
     let topSongsData = [];
     const isRemote = process.env.NODE_ENV === "production";
-    const baseUrl = isRemote
-      ? process.env.DATA_BASE_URL || "https://xs867261.xsrv.jp/data/data/"
-      : `file://${path.join(process.cwd(), "public", "data")}`;
+    const DATA_DIR = process.env.DATA_DIR || "https://xs867261.xsrv.jp/data/data";
+
+    console.log('Page - Environment:', process.env.NODE_ENV);
+    console.log('Page - isRemote:', isRemote);
+    console.log('Page - DATA_DIR:', DATA_DIR);
 
     if (isRemote) {
-      // リモート（本番・Github）
+      // リモート（本番・Vercel）
       try {
-        console.log('Fetching data from:', `${baseUrl}/top_songs_by_style.json`);
+        const url = `${DATA_DIR}/top_songs_by_style.json`;
+        console.log('Page - Fetching from:', url);
+        
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 30000); // 30秒タイムアウト
         
-        const res = await fetch(`${baseUrl}/top_songs_by_style.json`, {
+        const res = await fetch(url, {
           signal: controller.signal,
           cache: 'no-store',
           headers: {
-            		'User-Agent': 'TuneDive-App/1.0',
+            'User-Agent': 'TuneDive-App/1.0',
             'Accept': 'application/json'
           }
         });
         
         clearTimeout(timeoutId);
         
+        console.log('Page - Response status:', res.status);
+        console.log('Page - Response ok:', res.ok);
+        
         if (res.ok) {
           topSongsData = await res.json();
-          console.log('Data fetched successfully, items:', topSongsData.length);
+          console.log('Page - Data fetched successfully, items:', topSongsData.length);
         } else {
-          console.error(`Failed to fetch data: ${res.status} ${res.statusText}`);
+          console.error(`Page - Failed to fetch data: ${res.status} ${res.statusText}`);
+          topSongsData = [];
         }
       } catch (error) {
-        console.error('Error fetching remote data:', error);
+        console.error('Page - Error fetching remote data:', error);
         topSongsData = [];
       }
     } else {
       // ローカル開発
       const filePath = path.join(process.cwd(), "public", "data", "top_songs_by_style.json");
       try {
+        console.log('Page - Reading local file:', filePath);
         const file = await fs.readFile(filePath, "utf-8");
         topSongsData = JSON.parse(file);
+        console.log('Page - Local data loaded, items:', topSongsData.length);
       } catch (e) {
-        console.error('Error reading local file:', e);
+        console.error('Page - Error reading local file:', e);
         topSongsData = [];
       }
     }

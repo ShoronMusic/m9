@@ -12,49 +12,79 @@ export async function generateStaticParams() {
     const isProduction = process.env.NODE_ENV === 'production';
     const DATA_DIR = process.env.DATA_DIR || 'https://xs867261.xsrv.jp/data/data';
 
+    console.log('generateStaticParams - Environment:', process.env.NODE_ENV);
+    console.log('generateStaticParams - isProduction:', isProduction);
+
     if (isProduction) {
+      // 本番環境では外部サーバーから取得
       try {
-        const response = await fetch(`${DATA_DIR}/styles/index.json`, {
+        const url = `${DATA_DIR}/styles/index.json`;
+        console.log('generateStaticParams - Fetching from:', url);
+        
+        const response = await fetch(url, {
           headers: {
             'Accept': 'application/json',
           },
+          next: { revalidate: 3600 } // 1時間キャッシュ
         });
+        
+        console.log('generateStaticParams - Response status:', response.status);
+        
         if (!response.ok) {
+          console.error('generateStaticParams - Fetch failed:', response.status, response.statusText);
           return [];
         }
+        
         styles = await response.json();
+        console.log('generateStaticParams - Styles loaded:', styles?.length || 0);
       } catch (error) {
+        console.error('generateStaticParams - Fetch error:', error);
         return [];
       }
     } else {
+      // ローカル開発ではローカルファイルを使用
       try {
         const stylesDir = path.join(process.cwd(), 'public', 'data', 'styles');
+        console.log('generateStaticParams - Reading from:', stylesDir);
         const styleDirs = await fs.readdir(stylesDir);
         styles = [];
         for (const styleSlug of styleDirs) {
           const stylePath = path.join(stylesDir, styleSlug);
           const stat = await fs.stat(stylePath);
           if (!stat.isDirectory()) continue;
-          const pageFiles = await fs.readdir(stylePath);
-          const pageNumbers = pageFiles
-            .map(f => parseInt(f.replace('.json', ''), 10))
-            .filter(n => !isNaN(n))
-            .sort((a, b) => a - b);
-          if (pageNumbers.length > 0) {
-            styles.push({
-              slug: styleSlug,
-              count: pageNumbers.length * 50
-            });
+          
+          // pagesディレクトリを確認
+          const pagesDir = path.join(stylePath, 'pages');
+          try {
+            const pageFiles = await fs.readdir(pagesDir);
+            const pageNumbers = pageFiles
+              .map(f => parseInt(f.replace('.json', ''), 10))
+              .filter(n => !isNaN(n))
+              .sort((a, b) => a - b);
+            if (pageNumbers.length > 0) {
+              styles.push({
+                slug: styleSlug,
+                count: pageNumbers.length * 50
+              });
+              console.log(`generateStaticParams - Found style ${styleSlug} with ${pageNumbers.length} pages`);
+            }
+          } catch (error) {
+            console.log(`generateStaticParams - No pages directory for ${styleSlug}`);
+            continue;
           }
         }
       } catch (error) {
+        console.error('generateStaticParams - Error reading local files:', error);
         return [];
       }
     }
 
     if (!Array.isArray(styles)) {
+      console.log('generateStaticParams - styles is not an array:', styles);
       return [];
     }
+
+    console.log('generateStaticParams - Found styles:', styles);
 
     const params = [];
     for (const style of styles) {
@@ -71,8 +101,11 @@ export async function generateStaticParams() {
         });
       }
     }
+    
+    console.log('generateStaticParams - Generated params:', params.length);
     return params;
   } catch (error) {
+    console.error('generateStaticParams - Critical error:', error);
     return [];
   }
 }
