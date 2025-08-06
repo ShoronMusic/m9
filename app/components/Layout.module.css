@@ -138,6 +138,26 @@
     display: none;
 }
 
+.menuIcon {
+    font-size: 1.5rem;
+    color: var(--tunedive-text-primary);
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.menuIcon:hover {
+    color: var(--tunedive-primary);
+}
+
+/* メニューの表示/非表示制御 */
+.menuOpen {
+    display: block !important;
+}
+
+.menuClosed {
+    display: none !important;
+}
+
 @media (max-width: 768px) {
     .header {
         padding: 1rem;
@@ -176,11 +196,44 @@
     }
     
     .mobileNav {
+        display: block;
         background-color: var(--tunedive-surface);
         padding: 1rem;
         border-bottom: 1px solid #e2e8f0;
         width: 100%;
         order: 4;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* モバイルナビゲーションのスタイル */
+    .mobileNav .globalMenu {
+        margin-bottom: 0;
+    }
+    
+    .mobileNav .gmenu {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .mobileNav .gmenu li {
+        border-bottom: 1px solid #e2e8f0;
+    }
+    
+    .mobileNav .gmenu li:last-child {
+        border-bottom: none;
+    }
+    
+    .mobileNav .gmenu li a {
+        display: block;
+        padding: 1rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+        transition: background-color 0.2s ease;
+    }
+    
+    .mobileNav .gmenu li a:hover {
+        background-color: var(--tunedive-primary-light);
+        color: white;
     }
     
     /* ログインボタンが確実に表示されるようにする */

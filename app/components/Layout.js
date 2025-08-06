@@ -34,8 +34,14 @@ export default function Layout({ children }) {
   }, [isMenuOpen]);
 
   const toggleMenu = () => {
+    console.log('Toggle menu clicked, current state:', isMenuOpen);
     setMenuOpen(!isMenuOpen);
   };
+
+  // デバッグ用：メニューの状態を監視
+  useEffect(() => {
+    console.log('Menu state changed:', isMenuOpen);
+  }, [isMenuOpen]);
 
   return (
     <div className={styles.pageWrapper}>
@@ -56,11 +62,10 @@ export default function Layout({ children }) {
         </div>
       </header>
 
-      {isMenuOpen && (
-        <nav className={styles.mobileNav}>
-          <GlobalMenu />
-        </nav>
-      )}
+      {/* メニューの状態に関係なく常に表示してデバッグ */}
+      <nav className={`${styles.mobileNav} ${isMenuOpen ? styles.menuOpen : styles.menuClosed}`}>
+        <GlobalMenu />
+      </nav>
 
       {/* グローバルにArtistSearchを表示する場合 - 重複のためコメントアウトまたは削除 */}
       {/* <div className={styles.searchArea}>
