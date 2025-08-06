@@ -26,28 +26,34 @@ export default function AuthError() {
       margin: '50px auto', 
       padding: '20px',
       textAlign: 'center',
-      fontFamily: 'Arial, sans-serif'
+      fontFamily: 'Arial, sans-serif',
+      backgroundColor: 'var(--tunedive-background)',
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center'
     }}>
       <h1 style={{ 
         fontSize: '2rem', 
         marginBottom: '2rem',
-        color: '#d32f2f'
+        color: 'var(--tunedive-error)'
       }}>
         認証エラー
       </h1>
       
       <div style={{ 
-        backgroundColor: '#ffebee', 
+        backgroundColor: 'var(--tunedive-surface)', 
         padding: '20px', 
-        borderRadius: '8px',
+        borderRadius: '12px',
         marginBottom: '2rem',
-        border: '1px solid #f44336'
+        border: '1px solid var(--tunedive-error)',
+        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
       }}>
-        <p style={{ marginBottom: '1rem', color: '#d32f2f' }}>
+        <p style={{ marginBottom: '1rem', color: 'var(--tunedive-error)' }}>
           {getErrorMessage(error)}
         </p>
         
-        <p style={{ fontSize: '0.9rem', color: '#666' }}>
+        <p style={{ fontSize: '0.9rem', color: 'var(--tunedive-text-secondary)' }}>
           しばらく時間をおいてから再度お試しください。
         </p>
       </div>
@@ -60,8 +66,18 @@ export default function AuthError() {
             color: 'white',
             border: 'none',
             padding: '8px 16px',
-            borderRadius: '4px',
-            cursor: 'pointer'
+            borderRadius: '8px',
+            cursor: 'pointer',
+            transition: 'all 0.2s ease-in-out',
+            boxShadow: '0 2px 4px rgba(29, 185, 84, 0.3)'
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.transform = 'translateY(-2px)';
+            e.target.style.boxShadow = '0 4px 8px rgba(29, 185, 84, 0.4)';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.transform = 'translateY(0)';
+            e.target.style.boxShadow = '0 2px 4px rgba(29, 185, 84, 0.3)';
           }}
         >
           再試行
@@ -70,12 +86,22 @@ export default function AuthError() {
         <button
           onClick={() => router.push('/')}
           style={{
-            backgroundColor: '#007bff',
+            backgroundColor: 'var(--tunedive-primary)',
             color: 'white',
             border: 'none',
             padding: '8px 16px',
-            borderRadius: '4px',
-            cursor: 'pointer'
+            borderRadius: '8px',
+            cursor: 'pointer',
+            transition: 'all 0.2s ease-in-out',
+            boxShadow: '0 2px 4px rgba(30, 58, 138, 0.3)'
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.transform = 'translateY(-2px)';
+            e.target.style.boxShadow = '0 4px 8px rgba(30, 58, 138, 0.4)';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.transform = 'translateY(0)';
+            e.target.style.boxShadow = '0 2px 4px rgba(30, 58, 138, 0.3)';
           }}
         >
           ホームに戻る

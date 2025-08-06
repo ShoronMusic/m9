@@ -33,24 +33,31 @@ export default function SignIn() {
       margin: '50px auto', 
       padding: '20px',
       textAlign: 'center',
-      fontFamily: 'Arial, sans-serif'
+      fontFamily: 'Arial, sans-serif',
+      backgroundColor: 'var(--tunedive-background)',
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center'
     }}>
       <h1 style={{ 
         fontSize: '2rem', 
         marginBottom: '2rem',
-        color: '#333'
+        color: 'var(--tunedive-text-primary)'
       }}>
-        Music8 にログイン
+        TuneDive にログイン
       </h1>
       
       <div style={{ 
-        backgroundColor: '#f5f5f5', 
+        backgroundColor: 'var(--tunedive-surface)', 
         padding: '20px', 
-        borderRadius: '8px',
-        marginBottom: '2rem'
+        borderRadius: '12px',
+        marginBottom: '2rem',
+        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+        border: '1px solid #e2e8f0'
       }}>
-        <p style={{ marginBottom: '1rem', color: '#666' }}>
-          Spotifyアカウントでログインして、音楽を楽しみましょう
+        <p style={{ marginBottom: '1rem', color: 'var(--tunedive-text-secondary)' }}>
+          Spotifyアカウントでログインして、音楽の深層に潜りましょう
         </p>
         
         <button
@@ -61,11 +68,25 @@ export default function SignIn() {
             color: 'white',
             border: 'none',
             padding: '12px 24px',
-            borderRadius: '4px',
+            borderRadius: '8px',
             fontSize: '1rem',
             cursor: isLoading ? 'not-allowed' : 'pointer',
             opacity: isLoading ? 0.7 : 1,
-            width: '100%'
+            width: '100%',
+            transition: 'all 0.2s ease-in-out',
+            boxShadow: '0 2px 4px rgba(29, 185, 84, 0.3)'
+          }}
+          onMouseEnter={(e) => {
+            if (!isLoading) {
+              e.target.style.transform = 'translateY(-2px)';
+              e.target.style.boxShadow = '0 4px 8px rgba(29, 185, 84, 0.4)';
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (!isLoading) {
+              e.target.style.transform = 'translateY(0)';
+              e.target.style.boxShadow = '0 2px 4px rgba(29, 185, 84, 0.3)';
+            }
           }}
         >
           {isLoading ? 'ログイン中...' : 'Spotifyでログイン'}
@@ -75,12 +96,22 @@ export default function SignIn() {
       <button
         onClick={() => router.push('/')}
         style={{
-          backgroundColor: '#007bff',
+          backgroundColor: 'var(--tunedive-primary)',
           color: 'white',
           border: 'none',
           padding: '8px 16px',
-          borderRadius: '4px',
-          cursor: 'pointer'
+          borderRadius: '8px',
+          cursor: 'pointer',
+          transition: 'all 0.2s ease-in-out',
+          boxShadow: '0 2px 4px rgba(30, 58, 138, 0.3)'
+        }}
+        onMouseEnter={(e) => {
+          e.target.style.transform = 'translateY(-2px)';
+          e.target.style.boxShadow = '0 4px 8px rgba(30, 58, 138, 0.4)';
+        }}
+        onMouseLeave={(e) => {
+          e.target.style.transform = 'translateY(0)';
+          e.target.style.boxShadow = '0 2px 4px rgba(30, 58, 138, 0.3)';
         }}
       >
         ホームに戻る

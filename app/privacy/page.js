@@ -5,13 +5,13 @@ import ScrollToTopButton from '../components/ScrollToTopButton';
 import styles from './PrivacyPage.module.css';
 
 export const metadata = {
-  title: 'Privacy Policy | Music8',
-  description: 'Learn how Music8 handles your personal information.',
+  title: 'Privacy Policy | TuneDive',
+  description: 'Learn how TuneDive handles your personal information.',
 };
 
 export default function PrivacyPolicy() {
   return (
-    <Layout pageTitle="Privacy Policy | Music8">
+          <Layout pageTitle="Privacy Policy | TuneDive">
       <main className={styles.privacyContainer}>
         <h1>プライバシーポリシー</h1>
         <p>最終更新日: 2025.05.01</p>
@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
         <section>
           <h3>サイト概要</h3>
           <p>
-            音楽サイト「Music8」は、幅広いジャンルとスタイルの音楽を提供しています。多数のアーチストとジャンルを網羅しています。
+            音楽サイト「TuneDive」は、幅広いジャンルとスタイルの音楽を提供しています。多数のアーチストとジャンルを網羅しています。
           </p>
         </section>
 
@@ -76,7 +76,7 @@ export default function PrivacyPolicy() {
           <h3>お問い合わせ</h3>
           <p>
             本プライバシーポリシーに関するご質問がある場合は、以下のメールアドレスまでご連絡ください。<br />
-            Email: <a href="mailto:contact@music8.jp">contact@music8.jp</a>
+            Email: <a href="mailto:contact@tunedive.com">contact@tunedive.com</a>
           </p>
         </section>
 
@@ -88,7 +88,7 @@ export default function PrivacyPolicy() {
         <section>
           <h2>Site Overview</h2>
           <p>
-            Music8 is a music site that offers a wide range of genres and styles. It covers numerous artists and genres.
+            TuneDive is a music site that offers a wide range of genres and styles. It covers numerous artists and genres.
           </p>
         </section>
 
@@ -144,7 +144,7 @@ export default function PrivacyPolicy() {
         <section>
           <h3>Contact Us</h3>
           <p>
-            If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:contact@music8.jp">contact@music8.jp</a>
+            If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:contact@tunedive.com">contact@tunedive.com</a>
           </p>
         </section>
       </main>

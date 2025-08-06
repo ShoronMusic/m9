@@ -10,9 +10,9 @@ import { authOptions } from "./lib/authOptions";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL('https://music8.jp'),
-  title: 'Music8',
-  description: 'Discover and enjoy music videos from various artists and genres on Music8.',
+  metadataBase: new URL('https://tunedive.com'),
+  title: 'TuneDive',
+  description: '音楽の深層に潜る - Spotify音源で音楽を発見し、プレイリストで繋がる',
 }
 
 export default async function RootLayout({ children }) {

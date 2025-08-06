@@ -211,13 +211,14 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 					fontSize: '1.8rem',
 					fontWeight: 800,
 					textAlign: 'left',
-					margin: 0
+					margin: 0,
+					color: 'var(--tunedive-text-primary)'
 				}}>
-					New Songs Across 8 Styles
+					Dive Deeper into Spotify Music
 				</h1>
 				<span style={{
 					fontSize: '0.9rem',
-					color: '#666',
+					color: 'var(--tunedive-text-secondary)',
 					fontWeight: 400
 				}}>
 					Lastupdate: {latestUpdateDate || '2025.08.nn'}
@@ -241,16 +242,17 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 								fontSize: '1.8em',
 								fontWeight: 700,
 								margin: 0,
-								color: '#007bff',
+								color: '#3b82f6',
 								letterSpacing: '-0.01em',
 								lineHeight: 1.1,
-								cursor: 'pointer'
+								cursor: 'pointer',
+								transition: 'all 0.2s ease-in-out'
 							}}>
 								{styleName}
 								<span style={{ fontSize: '0.8em' }}>→</span>
 							</h2>
 						</Link>
-						<div style={{ borderBottom: '1px solid #e0e0e0', marginTop: '1rem', marginBottom: '1rem' }} />
+						<div style={{ borderBottom: '1px solid #e2e8f0', marginTop: '1rem', marginBottom: '1rem' }} />
 
 						<SongListTopPage
 							songs={styleSongs}

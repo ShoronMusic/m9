@@ -17,8 +17,8 @@ export async function generateMetadata({ params }) {
     };
   }
   return {
-    title: `${letter.toUpperCase()} - Artists | Music8`,
-    description: `Artists starting with ${letter.toUpperCase()} on Music8`
+    	title: `${letter.toUpperCase()} - Artists | TuneDive`,
+	description: `Artists starting with ${letter.toUpperCase()} on TuneDive`
   };
 }
 

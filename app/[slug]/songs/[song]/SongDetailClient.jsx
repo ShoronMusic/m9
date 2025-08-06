@@ -196,7 +196,7 @@ export default function SongDetailClient({ songData, description, accessToken })
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>{pageTitleStr} | Music8</title>
+        		<title>{pageTitleStr} | TuneDive</title>
         <meta name="description" content={description} />
       </Head>
       <div

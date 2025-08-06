@@ -456,7 +456,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       }
 
       const player = new window.Spotify.Player({
-          name: 'Music8 Web Player',
+          		name: 'TuneDive Web Player',
           getOAuthToken: cb => { 
             cb(accessToken); 
           },

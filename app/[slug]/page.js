@@ -62,7 +62,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${artistData.name} | Music8`,
+    title: `${artistData.name} | TuneDive`,
     description: `Artist: ${artistData.name} | Country: ${artistData.acf?.artistorigin || 'Unknown'} | Active: ${artistData.acf?.artistactiveyearstart || 'Unknown'}`
   };
 }

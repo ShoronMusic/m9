@@ -42,7 +42,7 @@ export default function Layout({ children }) {
       <header className={styles.header}>
         <div className={styles.logoTitle}>
           <Link href="/" className={styles.logoLink}>
-            Music8
+            TuneDive
           </Link>
         </div>
         <nav className={styles.menu}>

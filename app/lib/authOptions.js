@@ -48,7 +48,7 @@ export const authOptions = {
       authorization: {
         params: {
           scope:
-            "user-read-email playlist-read-private playlist-read-collaborative user-read-currently-playing user-modify-playback-state user-read-playback-state streaming user-library-modify user-library-read",
+            "user-read-email playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private user-read-currently-playing user-modify-playback-state user-read-playback-state streaming user-library-modify user-library-read",
         },
       },
     }),

@@ -11,9 +11,9 @@ import { STYLE_CONFIG } from '../config/config'; // 追加
 import StyleLink from './StyleLink.module.css';
 
 export const metadata = {
-	title: 'Styles List | Music8',
+	title: 'Styles List | TuneDive',
 	description:
-		'Browse through our categorized list of music styles including Pop, Dance, Alternative, Electronica, R&B, Hip-hop, and Rock. By listening to your favorite style playlists on Music8, you can keep up with the latest tracks.',
+		'Browse through our categorized list of music styles including Pop, Dance, Alternative, Electronica, R&B, Hip-hop, and Rock. By listening to your favorite style playlists on TuneDive, you can keep up with the latest tracks.',
 };
 
 // スタイルサマリーデータを取得する関数 (Modified to decode names)

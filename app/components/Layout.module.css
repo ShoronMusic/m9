@@ -3,6 +3,7 @@
 .pageWrapper {
   max-width: 1200px;
   margin: 0 auto;
+  background-color: var(--tunedive-background);
 }
 
 .header {
@@ -10,8 +11,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-    border-bottom: 1px solid #eaeaea;
-    background-color: white;
+    border-bottom: 1px solid #e2e8f0;
+    background-color: var(--tunedive-surface);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
   
 .logoTitle {
@@ -22,11 +25,19 @@
   
 .logoLink {
     text-decoration: none;
-    color: #0070f3;
-    transition: color 0.2s ease-in-out;
+    background: linear-gradient(135deg, #06b6d4 0%, #1e3a8a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
 }
 .logoLink:hover {
-    color: #338dff;
+    background: linear-gradient(135deg, #22d3ee 0%, #3b82f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transform: scale(1.05);
 }
   
 .menu {
@@ -39,6 +50,7 @@
     flex: 1 0 auto;
     display: flex;
     justify-content: flex-end;
+    z-index: 10;
 }
   
 .navigationButtons {
@@ -51,27 +63,31 @@
   
 .button {
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #cbd5e1;
   border-radius: 20px;
-  background-color: #f0f0f0;
-  color: #333;
+  background-color: var(--tunedive-surface);
+  color: var(--tunedive-text-primary);
   cursor: pointer;
   transition: all 0.2s ease;
   font-size: 0.8em;
   display: inline-flex;
   align-items: center;
   gap: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .button:hover {
-  background-color: #e0e0e0;
-  border-color: #bbb;
+  background-color: var(--tunedive-primary-light);
+  border-color: var(--tunedive-primary);
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(30, 58, 138, 0.2);
 }
 
 .lockedButton {
-  background-color: #e0f2fe;
-  border-color: #0284c7;
-  color: #0369a1;
+  background-color: var(--tunedive-secondary-light);
+  border-color: var(--tunedive-secondary);
+  color: white;
 }
 
 .buttonGroup {
@@ -84,31 +100,34 @@
     margin: 0 0.5rem;
     padding: 0.6rem 1.2rem;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
   
 .backButton {
-    background-color: #0070f3;
+    background-color: var(--tunedive-primary);
     color: white;
 }
 .backButton:hover {
-    background-color: #005bb5;
+    background-color: var(--tunedive-primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(30, 58, 138, 0.3);
 }
   
 .lockButton {
-    background-color: #1a9947;
+    background-color: var(--tunedive-success);
     color: white;
 }
 .lockButton.locked {
-    background-color: #c53030;
+    background-color: var(--tunedive-error);
 }
 .lockButton:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 /* --- Mobile Styles --- */
@@ -122,31 +141,53 @@
 @media (max-width: 768px) {
     .header {
         padding: 1rem;
+        flex-wrap: wrap;
+        gap: 10px;
     }
+    
+    .logoTitle {
+        text-align: center;
+        flex: 1 1 100%;
+        order: 1;
+        margin-bottom: 10px;
+    }
+    
     .menu {
         display: none;
     }
-    .logoTitle {
-        text-align: center;
-        flex-grow: 1;
-    }
+    
     .mobileMenu {
         display: block;
         position: absolute;
         left: 1rem;
         top: 50%;
         transform: translateY(-50%);
+        order: 2;
+        z-index: 20;
     }
+    
     .loginStatusContainer {
-        position: absolute;
-        right: 1rem;
-        top: 50%;
-        transform: translateY(-50%);
+        position: static;
+        flex: 1 1 auto;
+        justify-content: center;
+        order: 3;
+        transform: none;
+        margin-top: 10px;
     }
+    
     .mobileNav {
-        background-color: white;
+        background-color: var(--tunedive-surface);
         padding: 1rem;
-        border-bottom: 1px solid #eaeaea;
+        border-bottom: 1px solid #e2e8f0;
+        width: 100%;
+        order: 4;
+    }
+    
+    /* ログインボタンが確実に表示されるようにする */
+    .loginStatusContainer button {
+        min-width: 120px;
+        font-size: 12px;
+        padding: 6px 12px;
     }
 }
   

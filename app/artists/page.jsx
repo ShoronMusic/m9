@@ -7,7 +7,7 @@ import fs from 'fs/promises';
 import path from 'path';
 
 export const metadata = {
-  title: 'アーティスト一覧 | Music Database',
+  title: 'アーティスト一覧 | TuneDive',
   description: 'アーティスト一覧ページ'
 };
 

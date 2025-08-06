@@ -17,10 +17,10 @@ const StyleBanner = ({ style, updateDate }) => {
   const { name, slug, totalSongs } = style;
   const formattedDate = formatDate(updateDate);
 
-  // 代替背景用のランダムなグラデーションを生成（例）
-  // 本来はここにサムネイルグリッドのロジックが入る
+  // TuneDiveコンセプトカラーに基づいたグラデーション
+  // スカイブルーからダークブルーのグラデーション
   const backgroundStyle = {
-    background: `linear-gradient(135deg, hsl(${(slug.charCodeAt(0) * 10) % 360}, 70%, 80%), hsl(${(slug.charCodeAt(1) * 15) % 360}, 70%, 70%))`,
+    background: `linear-gradient(135deg, #06b6d4 0%, #1e3a8a 100%)`,
   };
 
   return (

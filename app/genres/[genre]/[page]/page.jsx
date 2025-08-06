@@ -68,11 +68,11 @@ export async function generateMetadata({ params }) {
 
   return {
     title: pageNum === 1
-      ? `${genreName} | ${config?.site?.name || 'Music8'}`
-      : `${genreName} - Page ${pageNum} | ${config?.site?.name || 'Music8'}`,
+      		? `${genreName} | ${config?.site?.name || 'TuneDive'}`
+		: `${genreName} - Page ${pageNum} | ${config?.site?.name || 'TuneDive'}`,
     description: `${genreName} genre music list. Find songs in the ${genreName} genre. Page ${pageNum}.`,
     openGraph: {
-      title: `${genreName} - Page ${pageNum} | ${config?.site?.name || 'Music8'}`,
+      		title: `${genreName} - Page ${pageNum} | ${config?.site?.name || 'TuneDive'}`,
       description: `${genreName} genre music list. Page ${pageNum}.`,
       type: 'website',
     },

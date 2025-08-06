@@ -23,7 +23,7 @@ async function fetchData(url, retries = 3) {
         const res = await fetch(`${baseUrl}${url}`, {
           signal: controller.signal,
           headers: {
-            'User-Agent': 'Music8-App/1.0',
+            		'User-Agent': 'TuneDive-App/1.0',
             'Accept': 'application/json',
             'Cache-Control': 'no-cache'
           },

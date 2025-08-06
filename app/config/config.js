@@ -1,5 +1,5 @@
 /**
- * Music8 アプリケーション設定
+ * TuneDive アプリケーション設定
  */
 
 // import { DATA_PATHS, API_PATHS, CDN_PATHS } from './paths'; // 不要なインポートをコメントアウト
@@ -22,13 +22,13 @@ export const currentEnv = process.env.NODE_ENV || ENV.development;
  * サイト基本設定
  */
 export const SITE_CONFIG = {
-  name: 'Music8',
+  	name: 'TuneDive',
   description: 'Discover and enjoy music videos from various artists and genres.',
   url: {
     development: 'http://localhost:3000',
-    production: 'https://music8.jp'
+    	production: 'https://tunedive.com'
   },
-  email: 'contact@music8.jp'
+  	email: 'contact@tunedive.com'
 };
 
 /**
@@ -113,13 +113,13 @@ export const META_CONFIG = {
     template: '%s | Music8'
   },
   description: {
-    default: 'Discover and enjoy music videos from various artists and genres on Music8.',
+    	default: '音楽の深層に潜る - Spotify音源で音楽を発見し、プレイリストで繋がる',
     maxLength: 155
   },
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
-    siteName: 'Music8'
+    	siteName: 'TuneDive'
   }
 };
 

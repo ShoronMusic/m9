@@ -1,7 +1,6 @@
 // app/info/page.js
 import React from "react";
 import Link from 'next/link';
-import ScrollToTopButton from '../components/ScrollToTopButton';
 import styles from './InfoPage.module.css';
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://xs867261.xsrv.jp/data/data';
@@ -59,27 +58,36 @@ export default function Info() {
 	return (
 		<div className={styles.infoContainer}>
 			<main>
-				<h1>About Music8</h1>
+				        <h1>About TuneDive</h1>
 				<hr />
 				<div className={styles.infoPage}>
 					<section className={styles.infoSection}>
 						<h2><i className="fas fa-music" style={{color:'#1e6ebb'}}></i> サイト概要</h2>
-						<p><b>Music8</b>は、幅広いジャンルとスタイルで{songCount}曲以上の洋楽を提供しています。{artistCount}人以上のアーティストと{genreCount}のジャンルを網羅しています。</p>
+						        <p><b>TuneDive</b>は、幅広いジャンルとスタイルで{songCount}曲以上の洋楽を提供しています。{artistCount}人以上のアーティストと{genreCount}のジャンルを網羅しています。</p>
 					</section>
 					<section className={styles.infoSection}>
 						<h2><i className="fas fa-book-open" style={{color:'#1e6ebb'}}></i> サブスク時代のガイドブック</h2>
 						<p>
 							星の数ほどある楽曲から、好きなだけ聴き放題のサブスク時代。<br />
 							お得で魅力的なサービスの到来に感謝しつつも、選択肢が増えた今、本当に「お気に入りの一曲」に出会えるチャンスは増えたのでしょうか？それとも…？<br />
-							そんな音楽の楽しみ方が大きく変わった今だからこそ、<b>Music8</b>は"音楽ガイドブック"として、あなたの新しい出会いをサポートします。<br />
-							迷ったとき、もっと深く知りたいとき、ぜひ<b>Music8</b>を活用してください！
+							        そんな音楽の楽しみ方が大きく変わった今だからこそ、<b>TuneDive</b>は"音楽ガイドブック"として、あなたの新しい出会いをサポートします。<br />
+        迷ったとき、もっと深く知りたいとき、ぜひ<b>TuneDive</b>を活用してください！
+						</p>
+					</section>
+					<section className={styles.infoSection}>
+						<h2><i className="fas fa-water" style={{color:'#06b6d4'}}></i> Dive Deeper into Spotify Music</h2>
+						<p>
+							<b>TuneDive</b>は、Spotifyユーザーのための深堀音楽発見サイトです。<br />
+							既存のSpotifyプレイリストを超えた音楽体験を提供し、あなたの音楽の世界をより深く、より広く広げます。<br />
+							音楽の深層に潜り、新しいアーティスト、新しいジャンル、新しい発見を体験してください。<br />
+							「音楽の深層に潜る」というコンセプトのもと、Spotifyの豊富な楽曲ライブラリを活用しながら、より深い音楽探求の旅をお楽しみいただけます。
 						</p>
 					</section>
 					<section className={styles.infoSection}>
 						<h2><i className="fas fa-link"></i> つながりの発見</h2>
 						<p>
 							「この曲、いいな」と思ったら、アーティスト情報だけでなく、スタイルやジャンルにも注目してみてください。<br />スタイルやジャンル × 時代 を意識して聴くと、自分の好みが見えてきます。好きなジャンルが見つかると、同時代のアーチストから新たな発見に繋がり、視聴の幅が広かっていくと思います。
-							<b>Music8</b>では、デジタルだけでは難しいジャンル分けを人の手で丁寧に行っているので、ジャンルの精度が高いのが自慢です。<br />
+							        <b>TuneDive</b>では、デジタルだけでは難しいジャンル分けを人の手で丁寧に行っているので、ジャンルの精度が高いのが自慢です。<br />
 							お気に入りの1曲をきっかけに、スタイルやジャンルをたどって"数珠つなぎ"のように次の曲・次の曲へと出会いが広がります。<br />
 							ぜひ色々な曲を巡って、あなたの「好き」をどんどん増やしてください！<br />
 							サイトへのご意見・ご感想もお待ちしています。
@@ -121,14 +129,11 @@ export default function Info() {
 					</section>
 					<section className={styles.infoSection}>
 						<h2><i className="fas fa-envelope" style={{color:'#1e6ebb'}}></i> お問い合わせ</h2>
-						<p><i className="fas fa-paper-plane"></i> Email: <a href="mailto:contact@music8.jp">contact@music8.jp</a></p>
+						        <p><i className="fas fa-paper-plane"></i> Email: <a href="mailto:contact@tunedive.com">contact@tunedive.com</a></p>
 						<p><i className="fas fa-user-shield"></i> <a href="/privacy">プライバシーポリシー</a></p>
 					</section>
 				</div>
-				<hr />
 			</main>
-			<hr />
-			<ScrollToTopButton />
 		</div>
 	);
 }

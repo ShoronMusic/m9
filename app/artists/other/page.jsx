@@ -3,7 +3,7 @@
 // サーバーコンポーネントなので "use client" は不要です
 
 export const metadata = {
-  title: 'Artists Index (Other) | Music8',
+  	title: 'Artists Index (Other) | TuneDive',
   description: 'Explore artists whose names do not start with an English alphabet letter. Discover the total number of artists available.',
 };
 
@@ -58,7 +58,7 @@ const OtherArtistsPage = async () => {
   totalArtistsCount = totalCount;
 
   return (
-    <Layout pageTitle="Artists Index (Other) | Music8">
+    		<Layout pageTitle="Artists Index (Other) | TuneDive">
       <div className={styles.artistIndexContainer}>
         <OtherArtists 
           initialCategories={initialCategories} 

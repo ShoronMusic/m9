@@ -56,11 +56,11 @@ async function getAllGenresGrouped() {
 
 export async function generateMetadata() {
   return {
-    title: 'Genres List | Music8',
-    description: 'Discover our comprehensive genres list at Music8. Find your favorite music genres categorized alphabetically. Explore the diversity of music styles available on our platform.',
+    	title: 'Genres List | TuneDive',
+	description: 'Discover our comprehensive genres list at TuneDive. Find your favorite music genres categorized alphabetically. Explore the diversity of music styles available on our platform.',
     openGraph: {
-      title: 'Genres List | Music8',
-      description: 'Explore diverse music genres at Music8. Browse our comprehensive collection of music styles, from classical to contemporary.',
+      		title: 'Genres List | TuneDive',
+		description: 'Explore diverse music genres at TuneDive. Browse our comprehensive collection of music styles, from classical to contemporary.',
       type: 'website',
     },
   };

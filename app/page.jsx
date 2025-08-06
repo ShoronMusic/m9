@@ -12,8 +12,8 @@ const TopPageClient = dynamicImport(() => import("./TopPageClient"), {
 });
 
 export const metadata = {
-  title: "Music8 - TopPage",
-  description: "Music8 のトップページです",
+  	title: "TuneDive - TopPage",
+	description: "TuneDive のトップページです",
 };
 
 // キャッシュ設定を追加
@@ -49,7 +49,7 @@ export default async function Page() {
           signal: controller.signal,
           cache: 'no-store',
           headers: {
-            'User-Agent': 'Music8-App/1.0',
+            		'User-Agent': 'TuneDive-App/1.0',
             'Accept': 'application/json'
           }
         });
