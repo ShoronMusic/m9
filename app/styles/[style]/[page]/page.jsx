@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import { getStyleData } from '@/lib/api';
-import { config } from '../../../../config/config';
+import { config } from '../../../config/config';
 import StylePageClient from './StylePageClient';
 import fs from 'fs/promises';
 import path from 'path';
@@ -113,31 +113,67 @@ export default async function StylePage({ params, searchParams }) {
   const isLocal = process.env.NODE_ENV === 'development' && !process.env.VERCEL;
   const DATA_DIR = process.env.DATA_DIR || 'https://xs867261.xsrv.jp/data/data';
 
-  if (!isLocal) {
+  console.log('StylePage - Environment:', process.env.NODE_ENV);
+  console.log('StylePage - VERCEL:', process.env.VERCEL);
+  console.log('StylePage - isLocal:', isLocal);
+  console.log('StylePage - DATA_DIR:', DATA_DIR);
+  console.log('StylePage - style:', style, 'page:', pageNumber);
+
+  // Vercel環境では常にリモートデータを使用
+  const shouldUseRemote = !isLocal || process.env.VERCEL;
+
+  if (shouldUseRemote) {
     try {
-      const response = await fetch(`${DATA_DIR}/styles/pages/${style}/${pageNumber}.json`, {
+      const url = `${DATA_DIR}/styles/pages/${style}/${pageNumber}.json`;
+      console.log('StylePage - Fetching from:', url);
+      
+      const response = await fetch(url, {
         headers: {
           'Accept': 'application/json',
+          'User-Agent': 'TuneDive-App/1.0'
         },
+        next: { revalidate: 3600 } // 1時間キャッシュ
       });
+      
+      console.log('StylePage - Response status:', response.status);
+      console.log('StylePage - Response ok:', response.ok);
+      
       if (!response.ok) {
-        notFound();
+        console.error('StylePage - Fetch failed:', response.status, response.statusText);
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
-      styleData = await response.json();
+      
+      const responseText = await response.text();
+      console.log('StylePage - Response text length:', responseText.length);
+      
+      try {
+        styleData = JSON.parse(responseText);
+        console.log('StylePage - Data parsed successfully, songs count:', styleData?.songs?.length || 0);
+      } catch (parseError) {
+        console.error('StylePage - JSON parse error:', parseError);
+        console.error('StylePage - Response text preview:', responseText.substring(0, 200));
+        throw new Error('Invalid JSON response');
+      }
     } catch (error) {
+      console.error('StylePage - Fetch error:', error.message);
+      console.error('StylePage - Error stack:', error.stack);
       notFound();
     }
   } else {
     try {
       const filePath = path.join(process.cwd(), 'public', 'data', 'styles', 'pages', style, `${pageNumber}.json`);
+      console.log('StylePage - Reading local file:', filePath);
       const file = await fs.readFile(filePath, 'utf8');
       styleData = JSON.parse(file);
+      console.log('StylePage - Local data loaded, songs count:', styleData?.songs?.length || 0);
     } catch (error) {
+      console.error('StylePage - Local file error:', error);
       notFound();
     }
   }
 
   if (!styleData || !styleData.name) {
+    console.error('StylePage - Invalid styleData:', styleData);
     notFound();
   }
 
