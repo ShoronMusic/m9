@@ -5,13 +5,31 @@ import he from 'he'; // Import he for decoding HTML entities
 // データディレクトリのルートパス (例: E:\md\public\data)
 const DATA_ROOT = path.join(process.cwd(), 'public', 'data');
 const ITEMS_PER_PAGE = 20; // Define items per page for pagination calculations
+const DATA_DIR = process.env.DATA_DIR || 'https://xs867261.xsrv.jp/data/data';
 
 // スタイルデータを取得（ページネーション対応）
 export const getStyleData = async (styleSlug, pageNumber = 1) => {
 	try {
-		const filePath = path.join(DATA_ROOT, 'styles', 'pages', styleSlug, `${pageNumber}.json`);
-		const data = await fs.readFile(filePath, 'utf8');
-		const styleData = JSON.parse(data);
+		const isLocal = process.env.NODE_ENV === 'development' && !process.env.VERCEL;
+		let styleData;
+
+		if (isLocal) {
+			// ローカル開発環境
+			const filePath = path.join(DATA_ROOT, 'styles', 'pages', styleSlug, `${pageNumber}.json`);
+			const data = await fs.readFile(filePath, 'utf8');
+			styleData = JSON.parse(data);
+		} else {
+			// 本番環境
+			const response = await fetch(`${DATA_DIR}/styles/pages/${styleSlug}/${pageNumber}.json`, {
+				headers: {
+					'Accept': 'application/json',
+				},
+			});
+			if (!response.ok) {
+				return null;
+			}
+			styleData = await response.json();
+		}
 		
 		// Decode name and description
 		if (styleData.name) styleData.name = he.decode(styleData.name);
@@ -65,15 +83,36 @@ export const getStyleData = async (styleSlug, pageNumber = 1) => {
 
 // ジャンル詳細データを取得 (完全新構成)
 export async function getGenreDetailData(genreSlug, pageNumber = 1) {
-	const pagePath = path.join(DATA_ROOT, 'genres', 'pages', `${genreSlug}.json`);
-	const songsPath = path.join(DATA_ROOT, 'genres', 'songs', `${genreSlug}.json`);
+	const isLocal = process.env.NODE_ENV === 'development' && !process.env.VERCEL;
+	
 	try {
-		const [pageFile, songsFile] = await Promise.all([
-			fs.readFile(pagePath, 'utf-8'),
-			fs.readFile(songsPath, 'utf-8')
-		]);
-		const genreInfo = JSON.parse(pageFile);
-		const songsData = JSON.parse(songsFile);
+		let genreInfo, songsData;
+		
+		if (isLocal) {
+			// ローカル開発環境
+			const pagePath = path.join(DATA_ROOT, 'genres', 'pages', `${genreSlug}.json`);
+			const songsPath = path.join(DATA_ROOT, 'genres', 'songs', `${genreSlug}.json`);
+			const [pageFile, songsFile] = await Promise.all([
+				fs.readFile(pagePath, 'utf-8'),
+				fs.readFile(songsPath, 'utf-8')
+			]);
+			genreInfo = JSON.parse(pageFile);
+			songsData = JSON.parse(songsFile);
+		} else {
+			// 本番環境
+			const [pageResponse, songsResponse] = await Promise.all([
+				fetch(`${DATA_DIR}/genres/pages/${genreSlug}.json`),
+				fetch(`${DATA_DIR}/genres/songs/${genreSlug}.json`)
+			]);
+			
+			if (!pageResponse.ok || !songsResponse.ok) {
+				return null;
+			}
+			
+			genreInfo = await pageResponse.json();
+			songsData = await songsResponse.json();
+		}
+		
 		const allSongs = Array.isArray(songsData.songs) ? songsData.songs : [];
 		// ページネーション処理
 		const totalSongs = allSongs.length;

@@ -1,11 +1,10 @@
 import { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import { getStyleData } from '@/lib/api';
-import { config } from '@/config/config';
+import { config } from '../../../../config/config';
 import StylePageClient from './StylePageClient';
 import fs from 'fs/promises';
 import path from 'path';
-import fetch from 'node-fetch';
 
 export async function generateStaticParams() {
   try {
