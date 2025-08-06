@@ -17,6 +17,7 @@ export default function Layout({ children }) {
   const pathname = usePathname();
   const [isLocked, setIsLocked] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const { toggleLock } = usePlayer();
 
   useEffect(() => {
@@ -24,6 +25,18 @@ export default function Layout({ children }) {
     if (savedLockState) {
       setIsLocked(JSON.parse(savedLockState));
     }
+  }, []);
+
+  // モバイル判定
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
   useEffect(() => {
@@ -62,10 +75,12 @@ export default function Layout({ children }) {
         </div>
       </header>
 
-      {/* メニューの状態に関係なく常に表示してデバッグ */}
-      <nav className={`${styles.mobileNav} ${isMenuOpen ? styles.menuOpen : styles.menuClosed}`}>
-        <GlobalMenu />
-      </nav>
+      {/* モバイル表示でのみメニューを表示 */}
+      {isMobile && (
+        <nav className={`${styles.mobileNav} ${isMenuOpen ? styles.menuOpen : styles.menuClosed}`}>
+          <GlobalMenu />
+        </nav>
+      )}
 
       {/* グローバルにArtistSearchを表示する場合 - 重複のためコメントアウトまたは削除 */}
       {/* <div className={styles.searchArea}>
