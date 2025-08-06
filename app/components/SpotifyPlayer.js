@@ -15,11 +15,13 @@ const PLAYER_CONFIG = {
   PLAY_NEXT_DELAY: 100,
   VOLUME_DEFAULT: 0.2,
   POSITION_CHANGE_THRESHOLD: 1000,
+  BACKGROUND_CHECK_INTERVAL: 5000, // バックグラウンド時のチェック間隔
+  VISIBILITY_RESTORE_DELAY: 1000, // 可視性復元時の遅延
 };
 
 const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   const playerRef = useRef(null);
-  const { playNext, isPlaying, updatePlaybackState, currentTrack, currentTrackIndex, trackList, updateCurrentTrackState, volume } = usePlayer();
+  const { playNext, isPlaying, updatePlaybackState, currentTrack, currentTrackIndex, trackList, updateCurrentTrackState, volume, isPageVisible } = usePlayer();
   const [isReady, setIsReady] = useState(false);
   const [deviceId, setDeviceId] = useState(null);
   
@@ -31,11 +33,75 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   const isNewTrackSelectedRef = useRef(false);
   const isSeekingRef = useRef(false);
   const seekProtectionTimerRef = useRef(null);
+  const backgroundCheckIntervalRef = useRef(null);
 
   // エラーハンドリング関数
   const handleError = useCallback((error, context) => {
     console.error(`SpotifyPlayer error in ${context}:`, error);
   }, []);
+
+  // バックグラウンド時の状態チェック
+  const checkBackgroundState = useCallback(async () => {
+    if (!isReady || !playerRef.current || isPageVisible) return;
+    
+    try {
+      const state = await playerRef.current.getCurrentState();
+      if (state && state.track_window.current_track) {
+        // バックグラウンドでも状態を更新
+        updatePlaybackState(state.duration, state.position);
+        lastPositionRef.current = state.position;
+        
+        // 曲が終了したかチェック
+        if (isTrackEnded(state, currentTrackIdRef.current)) {
+          resetPlayerState();
+          triggerPlayNext();
+        }
+      }
+    } catch (error) {
+      handleError(error, 'backgroundCheck');
+    }
+  }, [isReady, isPageVisible, updatePlaybackState, handleError]);
+
+  // バックグラウンドチェックの開始/停止
+  useEffect(() => {
+    if (!isPageVisible && isReady) {
+      // ページが非表示でプレイヤーが準備完了の場合、バックグラウンドチェックを開始
+      backgroundCheckIntervalRef.current = setInterval(checkBackgroundState, PLAYER_CONFIG.BACKGROUND_CHECK_INTERVAL);
+    } else {
+      // ページが表示されている場合、バックグラウンドチェックを停止
+      if (backgroundCheckIntervalRef.current) {
+        clearInterval(backgroundCheckIntervalRef.current);
+        backgroundCheckIntervalRef.current = null;
+      }
+    }
+
+    return () => {
+      if (backgroundCheckIntervalRef.current) {
+        clearInterval(backgroundCheckIntervalRef.current);
+        backgroundCheckIntervalRef.current = null;
+      }
+    };
+  }, [isPageVisible, isReady, checkBackgroundState]);
+
+  // ページ可視性変更時の処理
+  useEffect(() => {
+    if (isPageVisible && isReady && playerRef.current) {
+      // ページが表示された時、少し遅延してから状態を確認
+      const timer = setTimeout(async () => {
+        try {
+          const state = await playerRef.current.getCurrentState();
+          if (state && state.track_window.current_track) {
+            updatePlaybackState(state.duration, state.position);
+            lastPositionRef.current = state.position;
+          }
+        } catch (error) {
+          handleError(error, 'visibilityRestore');
+        }
+      }, PLAYER_CONFIG.VISIBILITY_RESTORE_DELAY);
+
+      return () => clearTimeout(timer);
+    }
+  }, [isPageVisible, isReady, updatePlaybackState, handleError]);
 
   // デバイスリセット処理の統合
   const resetDevice = useCallback(async () => {
@@ -427,7 +493,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       }
     };
 
-    if (isPlaying) {
+    if (isPlaying && isPageVisible) {
       positionUpdateIntervalRef.current = setInterval(updatePosition, PLAYER_CONFIG.POSITION_UPDATE_INTERVAL);
       updatePosition();
     } else {
@@ -443,7 +509,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         positionUpdateIntervalRef.current = null;
       }
     };
-  }, [isPlaying, isReady, updatePlaybackState, handleError]);
+  }, [isPlaying, isReady, isPageVisible, updatePlaybackState, handleError]);
 
   useEffect(() => {
     if (!accessToken) {
@@ -513,6 +579,10 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       if (seekProtectionTimerRef.current) {
         clearTimeout(seekProtectionTimerRef.current);
         seekProtectionTimerRef.current = null;
+      }
+      if (backgroundCheckIntervalRef.current) {
+        clearInterval(backgroundCheckIntervalRef.current);
+        backgroundCheckIntervalRef.current = null;
       }
     };
   }, [accessToken, handleError]);

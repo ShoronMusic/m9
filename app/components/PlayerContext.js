@@ -1,6 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useCallback, useRef, useEffect } from 'react';
+import { updatePlayerStateInSW, getPlayerStateFromSW, getDeviceInfo, detectPowerSaveMode } from '@/lib/sw-utils';
 
 export const PlayerContext = createContext(null);
 
@@ -28,6 +29,14 @@ export const PlayerProvider = ({ children }) => {
   // 次ページ遷移用のコールバックを保持
   const onPageEndRef = useRef(null);
 
+  // ページの可視性状態を管理
+  const [isPageVisible, setIsPageVisible] = useState(true);
+  const [wasPlayingBeforeHidden, setWasPlayingBeforeHidden] = useState(false);
+  
+  // デバイス情報と省電力モード
+  const [deviceInfo, setDeviceInfo] = useState(null);
+  const [isPowerSaveMode, setIsPowerSaveMode] = useState(false);
+
   // Stale closureを避けるために最新のステートをrefで保持
   const stateRef = useRef();
   useEffect(() => {
@@ -35,9 +44,181 @@ export const PlayerProvider = ({ children }) => {
       trackList,
       currentTrack,
       currentTrackIndex,
-      isPlaying
+      isPlaying,
+      isPageVisible
     };
   });
+
+  // デバイス情報の初期化
+  useEffect(() => {
+    const info = getDeviceInfo();
+    setDeviceInfo(info);
+    
+    // 省電力モードの検出
+    detectPowerSaveMode().then(isPowerSave => {
+      setIsPowerSaveMode(isPowerSave);
+    });
+  }, []);
+
+  // ページの可視性変更を監視
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      const isVisible = !document.hidden;
+      setIsPageVisible(isVisible);
+      
+      if (!isVisible) {
+        // ページが非表示になった時
+        setWasPlayingBeforeHidden(isPlaying);
+        console.log('Page hidden, was playing:', isPlaying);
+        
+        // Service Workerに状態を送信
+        if (currentTrack) {
+          const playerState = {
+            currentTrack,
+            currentTrackIndex,
+            isPlaying,
+            position,
+            volume,
+            isMuted,
+            trackListSource: currentTrackListSource.current,
+            timestamp: Date.now()
+          };
+          updatePlayerStateInSW(playerState);
+        }
+      } else {
+        // ページが表示された時
+        console.log('Page visible, was playing before hidden:', wasPlayingBeforeHidden);
+        if (wasPlayingBeforeHidden && currentTrack) {
+          // 非表示前に再生中だった場合は再生を再開
+          setTimeout(() => {
+            setIsPlaying(true);
+          }, 500); // 少し遅延を入れて安定化
+        }
+      }
+    };
+
+    // ページの可視性変更イベントを監視
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    
+    // ページのフォーカス変更も監視
+    const handleFocus = () => {
+      if (wasPlayingBeforeHidden && currentTrack) {
+        setTimeout(() => {
+          setIsPlaying(true);
+        }, 300);
+      }
+    };
+    
+    const handleBlur = () => {
+      setWasPlayingBeforeHidden(isPlaying);
+    };
+    
+    window.addEventListener('focus', handleFocus);
+    window.addEventListener('blur', handleBlur);
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      window.removeEventListener('focus', handleFocus);
+      window.removeEventListener('blur', handleBlur);
+    };
+  }, [isPlaying, wasPlayingBeforeHidden, currentTrack]);
+
+  // バックグラウンドでの状態保持のための永続化
+  useEffect(() => {
+    const savePlayerState = () => {
+      if (currentTrack) {
+        const playerState = {
+          currentTrack,
+          currentTrackIndex,
+          isPlaying,
+          position,
+          volume,
+          isMuted,
+          trackListSource: currentTrackListSource.current,
+          timestamp: Date.now()
+        };
+        try {
+          sessionStorage.setItem('tunedive_player_state', JSON.stringify(playerState));
+          
+          // Service Workerにも送信
+          updatePlayerStateInSW(playerState);
+        } catch (error) {
+          console.error('Failed to save player state:', error);
+        }
+      }
+    };
+
+    // 状態変更時に永続化
+    savePlayerState();
+  }, [currentTrack, currentTrackIndex, isPlaying, position, volume, isMuted]);
+
+  // ページ読み込み時の状態復元
+  useEffect(() => {
+    const restorePlayerState = async () => {
+      try {
+        // まずService Workerから状態を取得
+        const swState = await getPlayerStateFromSW();
+        let playerState = null;
+        
+        if (swState) {
+          const now = Date.now();
+          const timeDiff = now - swState.timestamp;
+          
+          // 30分以内の状態のみ復元
+          if (timeDiff < 30 * 60 * 1000) {
+            playerState = swState;
+          }
+        }
+        
+        // Service Workerから取得できない場合はsessionStorageから
+        if (!playerState) {
+          const savedState = sessionStorage.getItem('tunedive_player_state');
+          if (savedState) {
+            playerState = JSON.parse(savedState);
+            const now = Date.now();
+            const timeDiff = now - playerState.timestamp;
+            
+            // 30分以内の状態のみ復元
+            if (timeDiff >= 30 * 60 * 1000) {
+              playerState = null;
+            }
+          }
+        }
+        
+        if (playerState) {
+          setCurrentTrack(playerState.currentTrack);
+          setCurrentTrackIndex(playerState.currentTrackIndex);
+          setVolume(playerState.volume);
+          setIsMuted(playerState.isMuted);
+          setPosition(playerState.position);
+          currentTrackListSource.current = playerState.trackListSource;
+          
+          // ページが表示されている場合のみ再生状態を復元
+          if (isPageVisible && playerState.isPlaying) {
+            setTimeout(() => {
+              setIsPlaying(true);
+            }, 1000);
+          }
+          
+          console.log('Player state restored:', playerState);
+        }
+      } catch (error) {
+        console.error('Failed to restore player state:', error);
+      }
+    };
+
+    // ページ読み込み時に状態を復元
+    restorePlayerState();
+  }, [isPageVisible]);
+
+  // 省電力モードでの最適化
+  useEffect(() => {
+    if (isPowerSaveMode) {
+      console.log('Power save mode detected, optimizing player');
+      // 省電力モードでは更新頻度を下げる
+      // バックグラウンド処理を最小限に
+    }
+  }, [isPowerSaveMode]);
 
   const playTrack = useCallback((track, index, songs, source, onPageEnd = null) => {
     if (source !== currentTrackListSource.current) {
@@ -170,6 +351,9 @@ export const PlayerProvider = ({ children }) => {
     seekTo,
     spotifyPlayerRef,
     updateCurrentTrackState,
+    isPageVisible,
+    deviceInfo,
+    isPowerSaveMode,
   };
 
   return (
