@@ -27,6 +27,11 @@ function GoogleLoginButton() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
+    if (!auth) {
+      console.warn('Firebase認証が利用できません');
+      return;
+    }
+    
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       // console.log("onAuthStateChanged triggered:", currentUser);
       setUser(currentUser);
@@ -36,6 +41,11 @@ function GoogleLoginButton() {
   }, []);
 
   const handleLogin = async () => {
+    if (!auth || !provider) {
+      console.error('Firebase認証が利用できません');
+      return;
+    }
+    
     try {
       // console.log("Starting sign-in process...");
       await signInWithPopup(auth, provider);

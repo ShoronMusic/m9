@@ -128,7 +128,7 @@ const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/t
 export default function TopPageClient({ topSongsData = [], accessToken = null }) {
 	const [songsByStyle, setSongsByStyle] = useState({});
 	const [latestUpdateDate, setLatestUpdateDate] = useState('');
-	// const { playTrack, setTrackList } = usePlayer(); // 一時的に無効化
+	const { playTrack, setTrackList } = usePlayer();
 
 	// propsからデータをセットし、正規化
 	const allSongs = styleOrder
@@ -170,9 +170,9 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 		setSongsByStyle(byStyle);
 
 		// PlayerContextに曲リストを設定
-		// if (allSongs.length > 0) {
-		// 	setTrackList(allSongs);
-		// }
+		if (allSongs.length > 0) {
+			setTrackList(allSongs);
+		}
 
 		// 最新の更新日を取得
 		const allReleaseDates = allSongs
@@ -193,11 +193,11 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 	}, [topSongsData]); // topSongsDataの変更時にのみ実行
 
 	// 曲再生管理（PlayerContextを使用）
-	// const handleTrackPlay = useCallback((song, index) => {
-	// 	// allSongsから正しいインデックスを探す
-	// 	const globalIndex = allSongs.findIndex(s => s.id === song.id);
-	// 	playTrack(song, globalIndex, allSongs, 'top-page');
-	// }, [playTrack, allSongs]);
+	const handleTrackPlay = useCallback((song, index) => {
+		// allSongsから正しいインデックスを探す
+		const globalIndex = allSongs.findIndex(s => s.id === song.id);
+		playTrack(song, globalIndex, allSongs, 'top-page');
+	}, [playTrack, allSongs]);
 
 	return (
 		<div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
@@ -220,7 +220,7 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 					color: '#666',
 					fontWeight: 400
 				}}>
-					Update: {latestUpdateDate || '2025.08.nn'}
+					Lastupdate: {latestUpdateDate || '2025.08.nn'}
 				</span>
 			</div>
 
@@ -252,18 +252,14 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 						</Link>
 						<div style={{ borderBottom: '1px solid #e0e0e0', marginTop: '1rem', marginBottom: '1rem' }} />
 
-						{/* <SongListTopPage
+						<SongListTopPage
 							songs={styleSongs}
 							styleSlug={styleSlug}
 							styleName={styleName}
 							onTrackPlay={handleTrackPlay}
 							showTitle={false}
 							accessToken={accessToken}
-						/> */}
-						<div style={{ padding: '10px', backgroundColor: '#f5f5f5', borderRadius: '5px' }}>
-							<p>SongListTopPageを一時的に無効化しています。</p>
-							<p>曲数: {styleSongs.length}</p>
-						</div>
+						/>
 					</div>
 				);
 			})}
