@@ -6,6 +6,12 @@
   "framework": "nextjs",
   "outputDirectory": ".next",
   
+  "functions": {
+    "app/**/*.js": {
+      "maxDuration": 30
+    }
+  },
+  
   "routes": [
     {
       "src": "/(.*)",

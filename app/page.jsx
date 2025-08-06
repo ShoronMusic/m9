@@ -3,8 +3,8 @@
 import dynamicImport from 'next/dynamic';
 import fs from "fs/promises";
 import path from "path";
-// import { getServerSession } from 'next-auth';
-// import { authOptions } from '@/lib/authOptions';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/authOptions';
 
 // TopPageClientを動的にインポート
 const TopPageClient = dynamicImport(() => import("./TopPageClient"), {
@@ -22,15 +22,15 @@ export const dynamic = 'force-dynamic';
 
 export default async function Page() {
   try {
-    // セッション取得を一時的に無効化（環境変数問題を回避）
+    // セッションからaccessTokenを取得
     let accessToken = null;
-    // try {
-    //   const session = await getServerSession(authOptions);
-    //   accessToken = session?.accessToken || null;
-    // } catch (sessionError) {
-    //   console.error('Error getting session:', sessionError);
-    //   // セッションエラーでも続行
-    // }
+    try {
+      const session = await getServerSession(authOptions);
+      accessToken = session?.accessToken || null;
+    } catch (sessionError) {
+      console.error('Error getting session:', sessionError);
+      // セッションエラーでも続行
+    }
 
     let topSongsData = [];
     const isRemote = process.env.NODE_ENV === "production";
@@ -61,8 +61,6 @@ export default async function Page() {
           console.log('Data fetched successfully, items:', topSongsData.length);
         } else {
           console.error(`Failed to fetch data: ${res.status} ${res.statusText}`);
-          // フォールバックデータを設定
-          topSongsData = [];
         }
       } catch (error) {
         console.error('Error fetching remote data:', error);
@@ -96,7 +94,8 @@ export default async function Page() {
         }}>
           <h1>エラーが発生しました</h1>
           <p>申し訳ございませんが、ページの読み込み中にエラーが発生しました。</p>
-          <p>しばらく時間をおいてから再度お試しください。</p>
+          <p>環境変数の設定を確認してください。</p>
+          <p>Error: {error.message}</p>
         </div>
       </main>
     );
