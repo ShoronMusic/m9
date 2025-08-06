@@ -18,25 +18,45 @@ export async function generateStaticParams() {
     if (isProduction) {
       // 本番環境では外部サーバーから取得
       try {
-        const url = `${DATA_DIR}/styles/index.json`;
-        console.log('generateStaticParams - Fetching from:', url);
+        // まずstyles/index.jsonを試す
+        const indexUrl = `${DATA_DIR}/styles/index.json`;
+        console.log('generateStaticParams - Fetching from:', indexUrl);
         
-        const response = await fetch(url, {
+        const indexResponse = await fetch(indexUrl, {
           headers: {
             'Accept': 'application/json',
           },
           next: { revalidate: 3600 } // 1時間キャッシュ
         });
         
-        console.log('generateStaticParams - Response status:', response.status);
+        console.log('generateStaticParams - Index response status:', indexResponse.status);
         
-        if (!response.ok) {
-          console.error('generateStaticParams - Fetch failed:', response.status, response.statusText);
-          return [];
+        if (indexResponse.ok) {
+          styles = await indexResponse.json();
+          console.log('generateStaticParams - Styles loaded from index:', styles?.length || 0);
+        } else {
+          // styles/index.jsonが存在しない場合、styles_summary.jsonを使用
+          console.log('generateStaticParams - Index not found, trying summary');
+          const summaryUrl = `${DATA_DIR}/styles_summary.json`;
+          const summaryResponse = await fetch(summaryUrl, {
+            headers: {
+              'Accept': 'application/json',
+            },
+            next: { revalidate: 3600 }
+          });
+          
+          if (summaryResponse.ok) {
+            const summaryData = await summaryResponse.json();
+            styles = summaryData.map(style => ({
+              slug: style.slug,
+              count: style.totalSongs
+            }));
+            console.log('generateStaticParams - Styles loaded from summary:', styles?.length || 0);
+          } else {
+            console.error('generateStaticParams - Both index and summary failed');
+            return [];
+          }
         }
-        
-        styles = await response.json();
-        console.log('generateStaticParams - Styles loaded:', styles?.length || 0);
       } catch (error) {
         console.error('generateStaticParams - Fetch error:', error);
         return [];
@@ -173,24 +193,42 @@ export default async function StylePage({ params, searchParams }) {
       
       if (!response.ok) {
         console.error('StylePage - Fetch failed:', response.status, response.statusText);
-        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-      }
-      
-      const responseText = await response.text();
-      console.log('StylePage - Response text length:', responseText.length);
-      
-      try {
-        styleData = JSON.parse(responseText);
-        console.log('StylePage - Data parsed successfully, songs count:', styleData?.songs?.length || 0);
-      } catch (parseError) {
-        console.error('StylePage - JSON parse error:', parseError);
-        console.error('StylePage - Response text preview:', responseText.substring(0, 200));
-        throw new Error('Invalid JSON response');
+        
+        // 外部サーバーから取得できない場合、ローカルファイルを使用
+        console.log('StylePage - Trying local file as fallback');
+        const filePath = path.join(process.cwd(), 'public', 'data', 'styles', 'pages', style, `${pageNumber}.json`);
+        console.log('StylePage - Reading local file:', filePath);
+        const file = await fs.readFile(filePath, 'utf8');
+        styleData = JSON.parse(file);
+        console.log('StylePage - Local data loaded as fallback, songs count:', styleData?.songs?.length || 0);
+      } else {
+        const responseText = await response.text();
+        console.log('StylePage - Response text length:', responseText.length);
+        
+        try {
+          styleData = JSON.parse(responseText);
+          console.log('StylePage - Data parsed successfully, songs count:', styleData?.songs?.length || 0);
+        } catch (parseError) {
+          console.error('StylePage - JSON parse error:', parseError);
+          console.error('StylePage - Response text preview:', responseText.substring(0, 200));
+          throw new Error('Invalid JSON response');
+        }
       }
     } catch (error) {
       console.error('StylePage - Fetch error:', error.message);
       console.error('StylePage - Error stack:', error.stack);
-      notFound();
+      
+      // 最終的なフォールバックとしてローカルファイルを試す
+      try {
+        const filePath = path.join(process.cwd(), 'public', 'data', 'styles', 'pages', style, `${pageNumber}.json`);
+        console.log('StylePage - Final fallback to local file:', filePath);
+        const file = await fs.readFile(filePath, 'utf8');
+        styleData = JSON.parse(file);
+        console.log('StylePage - Local data loaded as final fallback, songs count:', styleData?.songs?.length || 0);
+      } catch (localError) {
+        console.error('StylePage - Local file error:', localError);
+        notFound();
+      }
     }
   } else {
     try {
