@@ -43,8 +43,8 @@ const SpotifyProviderFunc = SpotifyProvider.default ?? SpotifyProvider;
 export const authOptions = {
   providers: [
     SpotifyProviderFunc({
-      clientId: process.env.SPOTIFY_CLIENT_ID,
-      clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
+      clientId: process.env.SPOTIFY_CLIENT_ID || "dummy-client-id",
+      clientSecret: process.env.SPOTIFY_CLIENT_SECRET || "dummy-client-secret",
       authorization: {
         params: {
           scope:
@@ -53,7 +53,12 @@ export const authOptions = {
       },
     }),
   ],
-  secret: process.env.NEXTAUTH_SECRET,
+  secret: process.env.NEXTAUTH_SECRET || "dummy-secret",
+  pages: {
+    signIn: '/auth/signin',
+    error: '/auth/error',
+  },
+  debug: process.env.NODE_ENV === 'development',
   callbacks: {
     async jwt({ token, user, account }) {
       if (account && user) {

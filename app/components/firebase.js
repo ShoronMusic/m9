@@ -5,28 +5,49 @@ import { getAnalytics } from "firebase/analytics";
 
 // クライアント用 Firebase 設定
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "dummy-key",
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "dummy-domain",
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "dummy-project",
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || "dummy-bucket",
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || "123456789",
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "dummy-app-id",
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID || "dummy-measurement",
 };
 
-const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
-
-let analytics;
-if (typeof window !== "undefined") {
-  analytics = getAnalytics(app);
+// Firebase設定が不完全な場合は初期化をスキップ
+let app;
+try {
+  app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
+} catch (error) {
+  console.warn('Firebase初期化エラー:', error);
+  // ダミーオブジェクトを作成
+  app = { name: 'dummy-app' };
 }
 
-const auth = getAuth(app);
-const provider = new GoogleAuthProvider();
-const firestore = getFirestore(app);
+let analytics;
+if (typeof window !== "undefined" && app.name !== 'dummy-app') {
+  try {
+    analytics = getAnalytics(app);
+  } catch (error) {
+    console.warn('Analytics初期化エラー:', error);
+    analytics = null;
+  }
+}
+
+let auth, provider, firestore;
+try {
+  auth = getAuth(app);
+  provider = new GoogleAuthProvider();
+  firestore = getFirestore(app);
+} catch (error) {
+  console.warn('Firebase認証/データベース初期化エラー:', error);
+  auth = null;
+  provider = null;
+  firestore = null;
+}
 
 // Firestore のオフラインサポートを有効化
-if (typeof window !== "undefined") {
+if (typeof window !== "undefined" && firestore) {
   enableIndexedDbPersistence(firestore).catch((err) => {
     if (err.code === "failed-precondition") {
       console.log("複数のタブが開いているため、オフラインサポートは一度に一つのタブでのみ有効になります。");
