@@ -6,7 +6,6 @@ const nextConfig = {
       'i.ytimg.com', // YouTube
       'yt3.ggpht.com', // YouTube
       'lh3.googleusercontent.com', // Google
-      'firebasestorage.googleapis.com', // Firebase
     ],
   },
 };

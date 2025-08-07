@@ -4,7 +4,6 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
-import GoogleLoginButton from "./GoogleLoginButton";
 import GlobalMenu from "./GlobalMenu";
 import { FaBars } from "react-icons/fa";
 import styles from "./Layout.module.css";

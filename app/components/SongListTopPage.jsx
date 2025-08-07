@@ -349,7 +349,7 @@ export default function SongListTopPage({
 							))
 							: <span style={{ fontWeight: "bold" }}>Unknown Artist</span>;
 					}
-					const title = song.title?.rendered || song.title || "No Title";
+					const title = typeof song.title?.rendered === 'string' ? song.title.rendered : (song.title || "No Title");
 					let thumbnailUrl = "/placeholder.jpg";
 					const src = song.thumbnail || song.featured_media_url;
 					if (src) {
@@ -504,7 +504,7 @@ export default function SongListTopPage({
 									<Link href={`/${song.artists[0]?.slug}/songs/${song.titleSlug}`} legacyBehavior>
 										<a style={{...menuItemStyle, ...linkColorStyle}}>
 											<img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-											{song.title?.rendered || "No Title"}
+											{typeof song.title?.rendered === 'string' ? song.title.rendered : (song.title || "No Title")}
 										</a>
 									</Link>
 								</div>

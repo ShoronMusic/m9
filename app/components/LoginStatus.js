@@ -9,7 +9,13 @@ export default function LoginStatus() {
   const { data: session, status } = useSession();
 
   if (status === 'loading') {
-    return <div className={styles.loginButton}>Loading...</div>;
+    return (
+      <div className={styles.container}>
+        <div className={styles.loginStatus}>
+          <div className={styles.loadingText}>Loading...</div>
+        </div>
+      </div>
+    );
   }
 
   if (session) {
@@ -30,16 +36,37 @@ export default function LoginStatus() {
             />
             <span className={styles.userName}>{session.user.name}</span>
         </div>
-        <button onClick={() => signOut()} className={styles.loginButton}>
-          Sign Out
-        </button>
+        <div className={styles.userActions}>
+          <Link href="/mypage" className={styles.mypageLink}>
+            マイページ
+          </Link>
+          <button onClick={() => signOut()} className={styles.loginButton}>
+            Sign Out
+          </button>
+        </div>
       </div>
     );
   }
 
+  // ログイン前の状態
   return (
-    <Link href="/api/auth/signin/spotify" passHref>
-      <button className={styles.loginButton}>Sign in with Spotify</button>
-    </Link>
+    <div className={styles.container}>
+      <div className={styles.loginStatus}>
+        <div className={styles.loginPrompt}>
+          <span className={styles.loginText}>Sign in to continue</span>
+        </div>
+        <Link href="/api/auth/signin/spotify" passHref>
+          <button className={styles.loginButton}>
+            <img 
+              src="/svg/spotify.svg"
+              alt="Spotify"
+              className={styles.spotifyIcon}
+              style={{ width: '16px', height: '16px', marginRight: '8px' }}
+            />
+            Sign in with Spotify
+          </button>
+        </Link>
+      </div>
+    </div>
   );
 } 

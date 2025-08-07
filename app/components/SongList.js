@@ -5,7 +5,6 @@ import ReactDOM from "react-dom";
 import styles from "./SongList.module.css";
 import MicrophoneIcon from "./MicrophoneIcon";
 import Link from "next/link";
-import SaveToPlaylistPopup from "./SaveToPlaylistPopup";
 import ThreeDotsMenu from "./ThreeDotsMenu";
 import he from "he";
 import { usePlayer } from './PlayerContext';
@@ -239,8 +238,6 @@ function SongList({
   const [menuVisible, setMenuVisible] = useState(false);
   const [menuTriggerRect, setMenuTriggerRect] = useState(null);
   const [selectedSong, setSelectedSong] = useState(null);
-  const [showSavePopup, setShowSavePopup] = useState(false);
-  const [selectedSongId, setSelectedSongId] = useState(null);
   const [menuHeight, setMenuHeight] = useState(0);
   const menuRef = useRef(null);
   const [isPopupVisible, setIsPopupVisible] = useState(false);
@@ -333,14 +330,8 @@ function SongList({
       console.error('Invalid song ID:', songId);
       return;
     }
-    setSelectedSongId(numericId);
-    setShowSavePopup(true);
+    setSelectedSong(numericId);
     setIsPopupVisible(false);
-  };
-
-  const closeSavePopup = () => {
-    setShowSavePopup(false);
-    setSelectedSongId(null);
   };
 
   // ポップアップの外側をクリックしたら閉じる
@@ -603,12 +594,6 @@ function SongList({
               </>
             )
           }}
-        />
-      )}
-      {showSavePopup && (
-        <SaveToPlaylistPopup
-          songId={selectedSongId}
-          onClose={closeSavePopup}
         />
       )}
     </div>

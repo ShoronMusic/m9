@@ -2,12 +2,15 @@
 
 import React, { createContext, useContext, useState, useCallback, useRef, useEffect } from 'react';
 import { updatePlayerStateInSW, getPlayerStateFromSW, getDeviceInfo, detectPowerSaveMode } from '@/lib/sw-utils';
+import { PlayTracker } from '@/lib/playTracker';
+import { useSession } from 'next-auth/react';
 
 export const PlayerContext = createContext(null);
 
 export const usePlayer = () => useContext(PlayerContext);
 
 export const PlayerProvider = ({ children }) => {
+  const { data: session } = useSession();
   const [trackList, setTrackList] = useState([]);
   const [currentTrack, setCurrentTrack] = useState(null);
   const [currentTrackIndex, setCurrentTrackIndex] = useState(-1);
@@ -37,6 +40,9 @@ export const PlayerProvider = ({ children }) => {
   const [deviceInfo, setDeviceInfo] = useState(null);
   const [isPowerSaveMode, setIsPowerSaveMode] = useState(false);
 
+  // 視聴履歴追跡
+  const [playTracker, setPlayTracker] = useState(null);
+
   // Stale closureを避けるために最新のステートをrefで保持
   const stateRef = useRef();
   useEffect(() => {
@@ -59,6 +65,14 @@ export const PlayerProvider = ({ children }) => {
       setIsPowerSaveMode(isPowerSave);
     });
   }, []);
+
+  // 視聴履歴追跡の初期化
+  useEffect(() => {
+    if (session?.user?.id) {
+      const tracker = new PlayTracker(session.user.id);
+      setPlayTracker(tracker);
+    }
+  }, [session]);
 
   // ページの可視性変更を監視
   useEffect(() => {
@@ -262,13 +276,19 @@ export const PlayerProvider = ({ children }) => {
     setCurrentTrackIndex(index);
     setIsPlaying(true);
     setPosition(0);
+    
+    // 視聴履歴追跡を開始
+    if (playTracker && session?.user?.id) {
+      playTracker.startTracking(newTrack, track.id, source);
+    }
+    
     console.log('playTrack set:', {
       newTrack,
       index,
       songsLength: songs.length,
       source
     });
-  }, []);
+  }, [playTracker, session]);
 
   const togglePlay = useCallback(() => {
     if (!stateRef.current.currentTrack) return;
@@ -331,7 +351,12 @@ export const PlayerProvider = ({ children }) => {
     setCurrentTrackIndex(nextIndex);
     setIsPlaying(true);
     setPosition(0);
-  }, []);
+    
+    // 視聴履歴追跡を開始
+    if (playTracker && session?.user?.id) {
+      playTracker.startTracking(nextTrack, nextTrack.id, currentTrackListSource.current);
+    }
+  }, [playTracker, session]);
 
   const playPrevious = useCallback(() => {
     if (trackList.length === 0) return;
@@ -340,7 +365,12 @@ export const PlayerProvider = ({ children }) => {
     setCurrentTrackIndex(prevIndex);
     setIsPlaying(true);
     setPosition(0);
-  }, [currentTrackIndex, trackList]);
+    
+    // 視聴履歴追跡を開始
+    if (playTracker && session?.user?.id) {
+      playTracker.startTracking(trackList[prevIndex], trackList[prevIndex].id, currentTrackListSource.current);
+    }
+  }, [currentTrackIndex, trackList, playTracker, session]);
 
   // 再生時間と位置を更新する関数
   const updatePlaybackState = useCallback((newDuration, newPosition) => {
@@ -362,6 +392,14 @@ export const PlayerProvider = ({ children }) => {
     setCurrentTrack(newTrack);
     setCurrentTrackIndex(newIndex);
   }, []);
+
+  // 曲が終了した時の処理
+  const handleTrackEnd = useCallback(() => {
+    if (playTracker) {
+      playTracker.stopTracking(true); // 完了として記録
+    }
+    playNext();
+  }, [playTracker, playNext]);
 
   const value = {
     trackList,
@@ -386,6 +424,7 @@ export const PlayerProvider = ({ children }) => {
     isPageVisible,
     deviceInfo,
     isPowerSaveMode,
+    handleTrackEnd,
   };
 
   return (

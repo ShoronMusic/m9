@@ -94,7 +94,7 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
       genre_data: song.genres,
       vocal_data: song.vocals,
       style: song.styles,
-      slug: song.titleSlug || song.slug || (typeof song.title === 'string' ? song.title.toLowerCase().replace(/ /g, "-") : (song.title?.rendered ? song.title.rendered.toLowerCase().replace(/ /g, "-") : song.id)),
+      slug: song.titleSlug || song.slug || (typeof song.title === 'string' ? song.title.toLowerCase().replace(/ /g, "-") : (typeof song.title?.rendered === 'string' ? song.title.rendered.toLowerCase().replace(/ /g, "-") : song.id)),
       content: { rendered: song.content },
     };
   }).filter(song => {

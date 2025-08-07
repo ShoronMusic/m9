@@ -21,7 +21,7 @@ const PLAYER_CONFIG = {
 
 const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   const playerRef = useRef(null);
-  const { playNext, isPlaying, updatePlaybackState, currentTrack, currentTrackIndex, trackList, updateCurrentTrackState, volume, isPageVisible } = usePlayer();
+  const { playNext, isPlaying, updatePlaybackState, currentTrack, currentTrackIndex, trackList, updateCurrentTrackState, volume, isPageVisible, handleTrackEnd } = usePlayer();
   const [isReady, setIsReady] = useState(false);
   const [deviceId, setDeviceId] = useState(null);
   
@@ -180,16 +180,22 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
             currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id
           });
           
-          if (currentTrack && currentTrackIndex >= 0) {
-            updateCurrentTrackState(currentTrack, currentTrackIndex);
+          // 視聴履歴を記録
+          if (handleTrackEnd) {
+            handleTrackEnd();
+          } else {
+            // フォールバック: 直接playNextを呼び出し
+            if (currentTrack && currentTrackIndex >= 0) {
+              updateCurrentTrackState(currentTrack, currentTrackIndex);
+            }
+            playNext();
           }
-          playNext();
         } catch (error) {
           handleError(error, 'playNext');
         }
       }, PLAYER_CONFIG.PLAY_NEXT_DELAY);
     }
-  }, [playNext, currentTrack, currentTrackIndex, updateCurrentTrackState, handleError]);
+  }, [playNext, currentTrack, currentTrackIndex, updateCurrentTrackState, handleError, handleTrackEnd]);
 
   useImperativeHandle(ref, () => ({
     seekTo: (position) => {

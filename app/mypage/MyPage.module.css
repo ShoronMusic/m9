@@ -1,0 +1,347 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 40px 0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.content {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* プロフィールセクション */
+.profileSection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 30px;
+}
+
+.profileImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.profileInfo h2 {
+  margin: 0 0 5px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.email {
+  margin: 0;
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+/* 現在再生中セクション */
+.currentPlaying, .noPlaying {
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.currentPlaying h3, .noPlaying h3 {
+  margin: 0 0 20px 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.trackInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.albumArt {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.trackDetails h4 {
+  margin: 0 0 5px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.trackDetails p {
+  margin: 0 0 8px 0;
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+.playStatus {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+.noPlaying p {
+  margin: 0;
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+/* 視聴履歴セクション */
+.playHistory {
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.playHistory h3 {
+  margin: 0 0 20px 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.statCard {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.statCard h4 {
+  margin: 0 0 8px 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.statValue {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1DB954;
+}
+
+.comingSoon {
+  text-align: center;
+  opacity: 0.7;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+/* 視聴履歴詳細表示 */
+.historyDetails {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.historyDetails h4 {
+  margin: 0 0 15px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.historyTable {
+  width: 100%;
+  font-size: 0.85rem;
+}
+
+.historyHeader {
+  display: grid;
+  grid-template-columns: 80px 1fr 120px 1fr 60px;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.historyRow {
+  display: grid;
+  grid-template-columns: 80px 1fr 120px 1fr 60px;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.historyRow:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.recordNumber {
+  font-weight: 600;
+  color: #1DB954;
+}
+
+.recordTime {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.recordArtist {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.recordTitle {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.recordFavorite {
+  text-align: center;
+  color: #ff6b6b;
+  font-size: 1.1rem;
+}
+
+.noHistory {
+  text-align: center;
+  padding: 40px 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.noHistory p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+/* アカウント設定セクション */
+.accountSettings {
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.accountSettings h3 {
+  margin: 0 0 20px 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.settingsList {
+  margin-bottom: 25px;
+}
+
+.settingItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.settingItem:last-child {
+  border-bottom: none;
+}
+
+.settingItem span:first-child {
+  font-weight: 500;
+}
+
+.status {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.signOutButton {
+  width: 100%;
+  padding: 12px 20px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.signOutButton:hover {
+  background: #c0392b;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+  }
+  
+  .profileSection {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .historyHeader,
+  .historyRow {
+    grid-template-columns: 60px 1fr 100px 1fr 40px;
+    gap: 8px;
+    font-size: 0.75rem;
+  }
+  
+  .recordTime {
+    font-size: 0.7rem;
+  }
+  
+  .historyDetails {
+    padding: 15px;
+  }
+}
