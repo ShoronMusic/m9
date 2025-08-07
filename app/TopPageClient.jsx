@@ -171,6 +171,10 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 
 		// PlayerContextに曲リストを設定
 		if (allSongs.length > 0) {
+			console.log('TopPage setting track list:', {
+				totalSongs: allSongs.length,
+				source: 'top-page'
+			});
 			setTrackList(allSongs);
 		}
 
@@ -190,12 +194,18 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 			}).replace(/\//g, '.');
 			setLatestUpdateDate(formattedDate);
 		}
-	}, [topSongsData]); // topSongsDataの変更時にのみ実行
+	}, [topSongsData, setTrackList]); // setTrackListを依存関係に追加
 
 	// 曲再生管理（PlayerContextを使用）
 	const handleTrackPlay = useCallback((song, index) => {
 		// allSongsから正しいインデックスを探す
 		const globalIndex = allSongs.findIndex(s => s.id === song.id);
+		console.log('TopPage handleTrackPlay:', {
+			songTitle: song.title || song.name,
+			localIndex: index,
+			globalIndex,
+			totalSongs: allSongs.length
+		});
 		playTrack(song, globalIndex, allSongs, 'top-page');
 	}, [playTrack, allSongs]);
 
