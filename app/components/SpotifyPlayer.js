@@ -169,8 +169,17 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   // 次の曲を再生する関数
   const triggerPlayNext = useCallback(() => {
     if (playNext) {
+      console.log('Triggering playNext from SpotifyPlayer');
       setTimeout(() => {
         try {
+          // 現在の状態をログ出力
+          console.log('Current state before playNext:', {
+            currentTrack: currentTrack?.title || currentTrack?.name,
+            currentTrackIndex,
+            trackListLength: trackList.length,
+            currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id
+          });
+          
           if (currentTrack && currentTrackIndex >= 0) {
             updateCurrentTrackState(currentTrack, currentTrackIndex);
           }

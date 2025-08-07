@@ -142,6 +142,13 @@ export const PlayerProvider = ({ children }) => {
           
           // Service Workerにも送信
           updatePlayerStateInSW(playerState);
+          
+          console.log('Player state saved:', {
+            track: currentTrack?.title || currentTrack?.name,
+            index: currentTrackIndex,
+            isPlaying,
+            source: currentTrackListSource.current
+          });
         } catch (error) {
           console.error('Failed to save player state:', error);
         }
@@ -186,6 +193,14 @@ export const PlayerProvider = ({ children }) => {
         }
         
         if (playerState) {
+          console.log('Restoring player state:', {
+            track: playerState.currentTrack?.title || playerState.currentTrack?.name,
+            index: playerState.currentTrackIndex,
+            isPlaying: playerState.isPlaying,
+            source: playerState.trackListSource,
+            timestamp: new Date(playerState.timestamp).toLocaleString()
+          });
+          
           setCurrentTrack(playerState.currentTrack);
           setCurrentTrackIndex(playerState.currentTrackIndex);
           setVolume(playerState.volume);
@@ -200,7 +215,7 @@ export const PlayerProvider = ({ children }) => {
             }, 1000);
           }
           
-          console.log('Player state restored:', playerState);
+          console.log('Player state restored successfully');
         }
       } catch (error) {
         console.error('Failed to restore player state:', error);
@@ -261,18 +276,32 @@ export const PlayerProvider = ({ children }) => {
   }, []);
 
   const playNext = useCallback(() => {
-    const { trackList, currentTrack } = stateRef.current;
-    console.log('playNext called', { trackListLength: trackList.length, currentTrack });
+    const { trackList, currentTrack, currentTrackIndex } = stateRef.current;
+    console.log('playNext called', { 
+      trackListLength: trackList.length, 
+      currentTrack, 
+      currentTrackIndex,
+      currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id 
+    });
+    
     if (trackList.length === 0) return;
 
-    // 現在の曲のインデックスを再計算
-    let currentIndex = trackList.findIndex(
-      track => (track.spotifyTrackId && track.spotifyTrackId === (currentTrack?.spotifyTrackId || currentTrack?.id)) ||
-               (track.id && track.id === currentTrack?.id)
-    );
+    // まず保存されたインデックスを使用
+    let currentIndex = currentTrackIndex;
+    
+    // 保存されたインデックスが無効な場合のみ再計算
+    if (currentIndex === -1 || currentIndex >= trackList.length) {
+      currentIndex = trackList.findIndex(
+        track => (track.spotifyTrackId && track.spotifyTrackId === (currentTrack?.spotifyTrackId || currentTrack?.id)) ||
+                 (track.id && track.id === currentTrack?.id)
+      );
+    }
+
+    console.log('Current index determined:', currentIndex);
 
     if (currentIndex === -1) {
       // 見つからなければ最初の曲
+      console.log('Track not found, playing first track');
       setCurrentTrack(trackList[0]);
       setCurrentTrackIndex(0);
       setIsPlaying(true);
@@ -281,20 +310,23 @@ export const PlayerProvider = ({ children }) => {
     }
 
     const nextIndex = currentIndex + 1;
+    console.log('Next index:', nextIndex, 'Track list length:', trackList.length);
 
     if (nextIndex >= trackList.length) {
       // 最後の曲ならonPageEnd
+      console.log('Reached end of track list, calling onPageEnd');
       if (onPageEndRef.current && typeof onPageEndRef.current === 'function') {
         try {
           onPageEndRef.current();
         } catch (error) {
-          // エラーハンドリング
+          console.error('Error in onPageEnd:', error);
         }
       }
       return;
     }
 
     const nextTrack = trackList[nextIndex];
+    console.log('Playing next track:', nextTrack?.title || nextTrack?.name, 'at index:', nextIndex);
     setCurrentTrack(nextTrack);
     setCurrentTrackIndex(nextIndex);
     setIsPlaying(true);
