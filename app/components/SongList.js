@@ -9,6 +9,7 @@ import ThreeDotsMenu from "./ThreeDotsMenu";
 import he from "he";
 import { usePlayer } from './PlayerContext';
 import { useSpotifyLikes } from './SpotifyLikes';
+import { useSession } from 'next-auth/react';
 
 // CloudinaryのベースURL
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
@@ -234,6 +235,7 @@ function SongList({
   pageType = 'default',
   accessToken = null,
 }) {
+  const { data: session } = useSession();
   const player = usePlayer();
   const [menuVisible, setMenuVisible] = useState(false);
   const [menuTriggerRect, setMenuTriggerRect] = useState(null);
@@ -291,6 +293,12 @@ function SongList({
   };
 
   const handleThumbnailClick = (song, index) => {
+    // ログイン前はログインを促す
+    if (!session || !accessToken) {
+      alert('曲を再生するにはSpotifyログインが必要です。\n画面右上の「Sign in with Spotify」ボタンからログインしてください。');
+      return;
+    }
+    
     const source = `${pageType}/${styleSlug}/${currentPage}`;
     player.playTrack(song, index, safeSongs, source, onPageEnd);
   };
@@ -433,8 +441,26 @@ function SongList({
                           alt={`${title} のサムネイル`}
                           loading="lazy"
                           onError={(e) => {
-                            e.target.onerror = null; 
-                            e.target.src = '/placeholder.jpg';
+                            if (!e.target.dataset.triedCloudinary) {
+                              e.target.dataset.triedCloudinary = "1";
+                              // CloudinaryのURLを試す
+                              const src = song.thumbnail || song.featured_media_url;
+                              if (src) {
+                                const fileName = src.split("/").pop();
+                                e.target.src = `${CLOUDINARY_BASE_URL}${fileName}`;
+                              }
+                            } else if (!e.target.dataset.triedOriginal) {
+                              e.target.dataset.triedOriginal = "1";
+                              // 元のURLを試す
+                              const src = song.thumbnail || song.featured_media_url;
+                              if (src) {
+                                e.target.src = src;
+                              }
+                            } else {
+                              // プレースホルダーにフォールバック
+                              e.target.onerror = null;
+                              e.target.src = '/placeholder.jpg';
+                            }
                           }}
                         />
                       </div>

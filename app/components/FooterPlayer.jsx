@@ -108,6 +108,7 @@ const getSafeTitle = (track) => {
 export default function FooterPlayer({ accessToken }) {
     const playerContext = useContext(PlayerContext); // Use context directly
     const [isVolumeVisible, setIsVolumeVisible] = useState(false); // ボリューム表示状態を管理
+    const { data: session } = useSession();
 
     if (!playerContext) return null; // Early return if context is not available
 
@@ -131,31 +132,14 @@ export default function FooterPlayer({ accessToken }) {
         currentTrackIndex
     } = playerContext; // Destructure from the context value
     
-    const { data: session } = useSession();
-
-    if (!currentTrack) {
-        return null; 
+    // ログイン前はプレイヤーを表示しない
+    if (!session || !accessToken) {
+        return null;
     }
     
-    // accessTokenがなく、曲が選択されている場合にメッセージを表示
-    if (!accessToken) {
-        return (
-            <div className={styles.playerContainer} style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center', padding: '10px 0' }}>
-                <div style={{ color: '#fff' }}>
-                    <img 
-                      src="/images/Full_Logo_Green_RGB.svg" 
-                      alt="Spotify" 
-                      style={{ height: '24px', width: 'auto', marginBottom: '10px' }} 
-                    />
-                    <p style={{ margin: '0 0 5px 0', fontSize: '0.9em' }}>
-                      曲の再生にはSpotifyアカウントでのログインが必要です。
-                    </p>
-                    <p style={{ fontSize: '0.8em', color: '#ccc', margin: 0 }}>
-                      画面右上のボタンからサインインしてください。
-                    </p>
-                </div>
-            </div>
-        );
+    // 曲が選択されていない場合もプレイヤーを表示しない
+    if (!currentTrack) {
+        return null; 
     }
     
     // A track is selected, render the full player

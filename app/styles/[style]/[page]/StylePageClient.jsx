@@ -10,8 +10,7 @@ import Pagination from '@/components/Pagination';
 import SongList from '@/components/SongList';
 import he from 'he'; // he パッケージをインポート
 import { useRouter } from 'next/navigation';
-import { firestore, auth } from '@/components/firebase';
-import { collection, getDocs, query, where, doc, getDoc } from 'firebase/firestore';
+// Firebase imports removed - Firebase functionality has been removed from the project
 import styles from './StylePageClient.module.css';
 
 // HTML エンティティをデコードするヘルパー関数
@@ -145,39 +144,10 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
 
   const decodedGenreName = decodeHtml(styleData?.name);
 
-  // 視聴回数を取得する関数
+  // 視聴回数を取得する関数 - Firebase機能は削除されました
   const fetchViewCounts = async () => {
-    try {
-      if (!songs || songs.length === 0) return;
-      const songIds = songs.map(song => String(song.id)).filter(Boolean);
-      if (songIds.length === 0) return;
-
-      const viewCountsData = {};
-      const chunkedIds = [];
-      for (let i = 0; i < songIds.length; i += 30) {
-          chunkedIds.push(songIds.slice(i, i + 30));
-      }
-
-      const promises = chunkedIds.map((chunk) => {
-        const q = query(collection(firestore, "songViews"), where("__name__", "in", chunk));
-        return getDocs(q);
-      });
-
-      const snapshots = await Promise.all(promises);
-      snapshots.forEach((snapshot) => {
-        snapshot.forEach((docSnap) => {
-          if (docSnap.exists()) {
-            const data = docSnap.data();
-            viewCountsData[docSnap.id] = data.totalViewCount || 0;
-          }
-        });
-      });
-
-      setViewCounts(viewCountsData);
-    } catch (error) {
-      console.error('Error fetching view counts:', error);
-      setViewCounts({});
-    }
+    // Firebase機能は削除されました
+    setViewCounts({});
   };
 
   // いいねと視聴回数を取得
@@ -185,9 +155,8 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     let isMounted = true;
     const fetchData = async () => {
       if (songs && songs.length > 0) {
-        const userId = auth.currentUser?.uid;
         if (isMounted) {
-          // await fetchLikes(userId); // いいね取得を一時的に無効化
+          // Firebase機能は削除されました
           await fetchViewCounts();
         }
       }

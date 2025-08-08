@@ -6,7 +6,6 @@ import PropTypes from "prop-types";
 import ThreeDotsMenu from "./ThreeDotsMenu";
 import styles from "./SongListTopPage.module.css";
 import MicrophoneIcon from "./MicrophoneIcon";
-import SaveToPlaylistPopup from "./SaveToPlaylistPopup";
 import Link from "next/link";
 import { usePlayer } from './PlayerContext';
 import { useSession } from "next-auth/react";
@@ -206,8 +205,6 @@ export default function SongListTopPage({
 	const [menuVisible, setMenuVisible] = useState(false);
 	const [menuTriggerRect, setMenuTriggerRect] = useState(null);
 	const [selectedSong, setSelectedSong] = useState(null);
-	const [showSavePopup, setShowSavePopup] = useState(false);
-	const [selectedSongId, setSelectedSongId] = useState(null);
 	const [menuHeight, setMenuHeight] = useState(0);
 	const menuRef = useRef(null);
 	const [isPopupVisible, setIsPopupVisible] = useState(false);
@@ -269,19 +266,7 @@ export default function SongListTopPage({
 	};
 
 	const handleAddToPlaylistClick = (songId) => {
-		const numericId = typeof songId === 'string' ? parseInt(songId, 10) : songId;
-		if (isNaN(numericId)) {
-			console.error('Invalid song ID:', songId);
-			return;
-		}
-		setSelectedSongId(numericId);
-		setShowSavePopup(true);
 		setIsPopupVisible(false);
-	};
-
-	const closeSavePopup = () => {
-		setShowSavePopup(false);
-		setSelectedSongId(null);
 	};
 
 	// ポップアップの外側をクリックしたら閉じる
@@ -296,6 +281,17 @@ export default function SongListTopPage({
 			document.removeEventListener("click", handleDocumentClick);
 		};
 	}, [isPopupVisible]);
+
+	// サムネイルクリック時の処理
+	const handleThumbnailClick = (song, index) => {
+		// ログイン前はログインを促す
+		if (!session || !accessToken) {
+			alert('曲を再生するにはSpotifyログインが必要です。\n画面右上の「Sign in with Spotify」ボタンからログインしてください。');
+			return;
+		}
+		
+		onTrackPlay(song, index);
+	};
 
 	return (
         <div className={styles.songlistWrapper}>
@@ -353,7 +349,7 @@ export default function SongListTopPage({
 					let thumbnailUrl = "/placeholder.jpg";
 					const src = song.thumbnail || song.featured_media_url;
 					if (src) {
-						const fileName = src.split("/").pop().replace(/\.[a-zA-Z0-9]+$/, ".webp");
+						const fileName = src.split("/").pop();
 						thumbnailUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
 					}
 					const releaseDate = formatYearMonth(song.date) !== "Unknown Year"
@@ -378,7 +374,7 @@ export default function SongListTopPage({
 										styles.thumbnailContainer +
 										((currentSongIndex !== null && currentSongIndex !== undefined && song.originalIndex === currentSongIndex) ? ' ' + styles.playingBorder : '')
 									}
-									onClick={() => onTrackPlay(song, index)}
+									onClick={() => handleThumbnailClick(song, index)}
 									aria-label={`再生 ${decodeHtmlEntities(title)}`}
 									style={{ marginRight: 16 }}
 								>
@@ -386,11 +382,23 @@ export default function SongListTopPage({
 										src={thumbnailUrl}
 										alt={`${decodeHtmlEntities(title)} のサムネイル`}
 										onError={(e) => {
-											const wpWebp = (src) => src ? src.replace(/\.[a-zA-Z0-9]+$/, ".webp") : "";
-											if (!e.currentTarget.dataset.triedWp) {
-												e.currentTarget.dataset.triedWp = "1";
-												e.currentTarget.src = wpWebp(song.thumbnail || song.featured_media_url || "");
+											if (!e.currentTarget.dataset.triedCloudinary) {
+												e.currentTarget.dataset.triedCloudinary = "1";
+												// CloudinaryのURLを試す
+												const src = song.thumbnail || song.featured_media_url;
+												if (src) {
+													const fileName = src.split("/").pop();
+													e.currentTarget.src = `${CLOUDINARY_BASE_URL}${fileName}`;
+												}
+											} else if (!e.currentTarget.dataset.triedOriginal) {
+												e.currentTarget.dataset.triedOriginal = "1";
+												// 元のURLを試す
+												const src = song.thumbnail || song.featured_media_url;
+												if (src) {
+													e.currentTarget.src = src;
+												}
 											} else {
+												// プレースホルダーにフォールバック
 												if (e.currentTarget.src !== "/placeholder.jpg") {
 													e.currentTarget.src = "/placeholder.jpg";
 												}
@@ -545,12 +553,6 @@ export default function SongListTopPage({
 							</>
 						)
 					}}
-				/>
-			)}
-			{showSavePopup && (
-				<SaveToPlaylistPopup
-					songId={selectedSongId}
-					onClose={closeSavePopup}
 				/>
 			)}
 		</div>

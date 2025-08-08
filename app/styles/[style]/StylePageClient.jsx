@@ -8,8 +8,7 @@ import Pagination from '@/components/Pagination';
 import SongList from '@/components/SongList';
 import he from 'he'; // he パッケージをインポート
 import { useRouter } from 'next/navigation';
-import { firestore, auth } from '@/components/firebase';
-import { collection, getDocs, query, where, documentId } from 'firebase/firestore';
+// Firebase imports removed - Firebase functionality has been removed from the project
 
 // HTML エンティティをデコードするヘルパー関数
 function decodeHtml(html = "") {
@@ -56,56 +55,17 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
 
   const decodedGenreName = decodeHtml(styleData?.name);
 
-  // 視聴回数を効率的に取得する関数
+  // 視聴回数を効率的に取得する関数 - Firebase機能は削除されました
   const fetchViewCounts = async (songIds) => {
-    if (!songIds || songIds.length === 0) return;
-    try {
-      const viewCountsData = {};
-      // 表示中の曲のIDのみを対象に、一度のクエリで視聴回数を取得
-      const q = query(collection(firestore, 'songViews'), where(documentId(), 'in', songIds));
-      const querySnapshot = await getDocs(q);
-      querySnapshot.forEach(docSnap => {
-        viewCountsData[docSnap.id] = docSnap.data().totalViewCount || 0;
-      });
-      // データがない曲は0で初期化
-      songIds.forEach(id => {
-        if (!viewCountsData[id]) viewCountsData[id] = 0;
-      });
-      setViewCounts(viewCountsData);
-    } catch (error) {
-      console.error('Error fetching view counts:', error);
-      setViewCounts({});
-    }
+    // Firebase機能は削除されました
+    setViewCounts({});
   };
 
-  // いいね情報を効率的に取得する関数
+  // いいね情報を効率的に取得する関数 - Firebase機能は削除されました
   const fetchLikes = async (songIds, userId = null) => {
-    if (!songIds || songIds.length === 0) return;
-    const likeCountsData = {};
-    const likedSongsData = {};
-    try {
-      // 表示中の曲のIDのみを対象に、一度のクエリでいいね情報を取得
-      const q = query(collection(firestore, "likes"), where(documentId(), 'in', songIds));
-      const querySnapshot = await getDocs(q);
-      querySnapshot.forEach(docSnap => {
-        const data = docSnap.data();
-        const songId = docSnap.id;
-        likeCountsData[songId] = data.likeCount || 0;
-        if (userId && data.userIds?.includes(userId)) {
-          likedSongsData[songId] = true;
-        }
-      });
-      // データがない曲は0で初期化
-      songIds.forEach(id => {
-        if (!likeCountsData[id]) likeCountsData[id] = 0;
-      });
-      setLikeCounts(likeCountsData);
-      setLikedSongs(likedSongsData);
-    } catch (error) {
-      console.error("Error fetching likes:", error);
-      setLikeCounts({});
-      setLikedSongs({});
-    }
+    // Firebase機能は削除されました
+    setLikeCounts({});
+    setLikedSongs({});
   };
 
   // いいね・視聴数の再取得トリガー
@@ -118,13 +78,9 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     let isMounted = true;
     const fetchData = async () => {
       if (songs && songs.length > 0) {
-        const songIds = songs.map(song => String(song.id)).filter(Boolean);
-        if (songIds.length === 0) return;
-
-        const userId = auth.currentUser?.uid;
         if (isMounted) {
-          // 2つのデータ取得を並列で実行して高速化
-          await Promise.all([fetchLikes(songIds, userId), fetchViewCounts(songIds)]);
+          // Firebase機能は削除されました
+          await Promise.all([fetchLikes([], null), fetchViewCounts([])]);
         }
       }
     };

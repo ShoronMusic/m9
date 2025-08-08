@@ -35,7 +35,7 @@ export const SITE_CONFIG = {
  * ページネーション設定
  */
 export const PAGINATION = {
-  itemsPerPage: 20,
+  itemsPerPage: 40,
   maxDisplayPages: 5
 };
 

@@ -18,11 +18,13 @@ export class PlayTracker {
     this.source = source;
     this.isTracking = true;
     
-    console.log('PlayTracker: Started tracking', {
-      track: track?.title || track?.name,
-      songId,
-      source
-    });
+    if (process.env.NODE_ENV === 'development') {
+      console.log('PlayTracker: Started tracking', {
+        track: track?.title || track?.name,
+        songId,
+        source
+      });
+    }
     
     // 定期的に再生時間を記録（30秒ごと）
     this.timer = setInterval(() => {
@@ -40,11 +42,13 @@ export class PlayTracker {
       const duration = Math.floor((Date.now() - this.startTime) / 1000);
       this.recordPlay(duration, completed);
       
-      console.log('PlayTracker: Stopped tracking', {
-        track: this.currentTrack?.title || this.currentTrack?.name,
-        duration,
-        completed
-      });
+      if (process.env.NODE_ENV === 'development') {
+        console.log('PlayTracker: Stopped tracking', {
+          track: this.currentTrack?.title || this.currentTrack?.name,
+          duration,
+          completed
+        });
+      }
     }
     
     this.currentTrack = null;
@@ -82,27 +86,45 @@ export class PlayTracker {
       });
 
       if (response.ok) {
-        console.log('PlayTracker: Recorded play history successfully', {
-          artist: artistName,
-          title: trackTitle,
-          duration,
-          completed
-        });
+        if (process.env.NODE_ENV === 'development') {
+          console.log('PlayTracker: Recorded play history successfully', {
+            artist: artistName,
+            title: trackTitle,
+            duration,
+            completed
+          });
+        }
       } else {
-        console.error('PlayTracker: Failed to record play history');
+        // Supabaseが設定されていない場合は警告のみ表示
+        if (response.status === 200 && response.headers.get('content-type')?.includes('application/json')) {
+          const data = await response.json();
+          if (data.message === 'Play history disabled') {
+            if (process.env.NODE_ENV === 'development') {
+              console.log('PlayTracker: Play history disabled (Supabase not configured)');
+            }
+            return;
+          }
+        }
+        if (process.env.NODE_ENV === 'development') {
+          console.error('PlayTracker: Failed to record play history');
+        }
       }
     } catch (error) {
-      console.error('PlayTracker: Error recording play history:', error);
+      if (process.env.NODE_ENV === 'development') {
+        console.error('PlayTracker: Error recording play history:', error);
+      }
     }
   }
 
   updatePlayDuration() {
     if (this.currentTrack && this.startTime) {
       const duration = Math.floor((Date.now() - this.startTime) / 1000);
-      console.log('PlayTracker: Updated duration', {
-        track: this.currentTrack?.title || this.currentTrack?.name,
-        duration
-      });
+      if (process.env.NODE_ENV === 'development') {
+        console.log('PlayTracker: Updated duration', {
+          track: this.currentTrack?.title || this.currentTrack?.name,
+          duration
+        });
+      }
     }
   }
 }

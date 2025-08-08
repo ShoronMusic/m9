@@ -22,6 +22,16 @@ export async function POST(request) {
       track_title
     });
     
+    // Supabaseが設定されていない場合はスキップ
+    if (!supabaseAdmin) {
+      console.warn('Supabase not configured, play history recording skipped');
+      return Response.json({ 
+        success: true, 
+        message: 'Play history disabled',
+        reason: 'Supabase not configured'
+      }, { status: 200 });
+    }
+    
     // ユーザーIDを取得または作成
     const { data: user, error: userError } = await getUserBySpotifyId(session.user.id);
     
@@ -74,6 +84,20 @@ export async function GET(request) {
     
     if (!session) {
       return Response.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
+    // Supabaseが設定されていない場合は空のデータを返す
+    if (!supabaseAdmin) {
+      console.warn('Supabase not configured, returning empty play history');
+      return Response.json({ 
+        playHistory: [], 
+        stats: {
+          totalPlayTime: 0,
+          uniqueTracks: 0,
+          completedTracks: 0,
+          totalPlays: 0
+        } 
+      }, { status: 200 });
     }
 
     // ユーザーの視聴履歴を取得
