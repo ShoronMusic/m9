@@ -14,10 +14,20 @@
   height: 20px;
 }
 
-.userInfo {
+.userStatus {
   display: flex;
   align-items: center;
   gap: 8px;
+  padding: 6px 12px;
+  background: rgba(29, 185, 84, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(29, 185, 84, 0.3);
+}
+
+.spotifyText {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #1db954;
 }
 
 .avatar {
@@ -35,11 +45,7 @@
   white-space: nowrap;
 }
 
-.userActions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
+
 
 .loginStatus {
   display: flex;
@@ -70,7 +76,7 @@
 
 .mypageLink {
   padding: 6px 12px;
-  background: rgba(29, 185, 84, 0.8);
+  background: #1db954;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -80,7 +86,7 @@
 }
 
 .mypageLink:hover {
-  background: rgba(29, 185, 84, 1);
+  background: #1ed760;
 }
 
 .loginButton {

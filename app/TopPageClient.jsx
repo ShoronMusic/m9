@@ -234,7 +234,7 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 				marginBottom: '2rem'
 			}}>
 				<h1 style={{
-					fontSize: '1.8rem',
+					fontSize: '1.4rem',
 					fontWeight: 800,
 					textAlign: 'left',
 					margin: 0,

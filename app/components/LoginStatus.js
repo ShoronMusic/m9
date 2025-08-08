@@ -21,28 +21,23 @@ export default function LoginStatus() {
   if (session) {
     return (
       <div className={styles.container}>
-        <img 
-            src="/svg/spotify.svg"
-            alt="Spotify"
-            className={styles.spotifyIcon}
-        />
-        <div className={styles.userInfo}>
-            <Image 
-                src={session.user.image} 
-                alt={session.user.name} 
-                width={30} 
-                height={30} 
-                className={styles.avatar}
-            />
-            <span className={styles.userName}>{session.user.name}</span>
-        </div>
-        <div className={styles.userActions}>
+        <div className={styles.userStatus}>
+          <img 
+              src="/svg/spotify.svg"
+              alt="Spotify"
+              className={styles.spotifyIcon}
+          />
+          <span className={styles.spotifyText}>Connected</span>
+          <Image 
+              src={session.user.image} 
+              alt={session.user.name} 
+              width={30} 
+              height={30} 
+              className={styles.avatar}
+          />
           <Link href="/mypage" className={styles.mypageLink}>
-            マイページ
+            My Page
           </Link>
-          <button onClick={() => signOut()} className={styles.loginButton}>
-            Sign Out
-          </button>
         </div>
       </div>
     );
