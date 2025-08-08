@@ -262,20 +262,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
 
     player.addListener('player_state_changed', (state) => {
       if (!state) {
-        if (process.env.NODE_ENV === 'development') {
-          console.log('Player state changed: no state');
-        }
         return;
-      }
-      
-      if (process.env.NODE_ENV === 'development') {
-        console.log('Player state changed:', {
-          currentTrack: state.track_window.current_track?.name,
-          paused: state.paused,
-          position: state.position,
-          duration: state.duration,
-          deviceId: deviceId
-        });
       }
       
       // 新しい曲が選択された直後は、前の曲の情報を完全に無視する
@@ -1051,12 +1038,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         }
         playNewTrack(trackId);
       } else {
-        if (process.env.NODE_ENV === 'development') {
-          console.log('Track ID unchanged, skipping playback:', { 
-            trackId, 
-            lastTrackId: lastTrackIdRef.current 
-          });
-        }
+        // Track ID unchanged, skipping playback silently
       }
     } else {
       if (process.env.NODE_ENV === 'development') {

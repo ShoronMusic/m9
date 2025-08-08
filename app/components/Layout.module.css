@@ -15,12 +15,17 @@
     background-color: var(--tunedive-surface);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     position: relative;
+    min-height: 60px;
 }
   
 .logoTitle {
     font-size: 1.75rem;
     font-weight: 700;
     flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    line-height: 1;
 }
   
 .logoLink {
@@ -44,12 +49,16 @@
     flex: 2 1 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100%;
 }
   
 .loginStatusContainer {
     flex: 1 0 auto;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    height: 100%;
     z-index: 10;
 }
   

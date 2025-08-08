@@ -52,6 +52,7 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
   const songsPerPage = config.pagination.itemsPerPage;
   const accessToken = session?.accessToken;
   const songs = Array.isArray(styleData?.songs) ? styleData.songs : [];
+  
   // --- ここから追加: アーティスト配列生成ロジック ---
   const wpStylePosts = songs.map(song => {
     let artists = [];
@@ -101,11 +102,10 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     return hasSpotifyId;
   });
   // --- ここまで追加 ---
-
-  // trackIdsはwpStylePostsの後で定義
-  const trackIds = wpStylePosts.map(song => song.acf?.spotify_track_id || song.spotifyTrackId).filter(Boolean).sort();
-  const trackIdsString = trackIds.join(',');
-  const { likedTracks, toggleLike } = useSpotifyLikes(accessToken, trackIds);
+  
+  // Spotify APIからお気に入り情報を取得
+  const trackIds = wpStylePosts.map(song => song.acf?.spotify_track_id || song.spotifyTrackId).filter(Boolean);
+  const { likedTracks, toggleLike, error: likesError } = useSpotifyLikes(accessToken, trackIds);
 
   if (!styleData) {
     return <div className="text-red-500">データの取得に失敗しました。</div>;

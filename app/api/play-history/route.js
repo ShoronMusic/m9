@@ -10,7 +10,7 @@ export async function POST(request) {
       return Response.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const { track_id, song_id, play_duration, completed, source, artist_name, track_title } = await request.json();
+    const { track_id, song_id, play_duration, completed, source, artist_name, track_title, is_favorite } = await request.json();
     
     console.log('Recording play history:', {
       track_id,
@@ -19,7 +19,8 @@ export async function POST(request) {
       completed,
       source,
       artist_name,
-      track_title
+      track_title,
+      is_favorite
     });
     
     // Supabaseが設定されていない場合はスキップ
@@ -63,7 +64,8 @@ export async function POST(request) {
       completed,
       source,
       artist_name,
-      track_title
+      track_title,
+      is_favorite
     });
 
     if (historyError) {

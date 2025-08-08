@@ -7,15 +7,50 @@
   "outputDirectory": ".next",
   
   "functions": {
-    "app/**/*.js": {
+    "app/**/*.{js,jsx,ts,tsx}": {
       "maxDuration": 30
     }
   },
   
   "routes": [
     {
+      "src": "/_not-found",
+      "dest": "/404"
+    },
+    {
       "src": "/(.*)",
       "dest": "/$1"
+    }
+  ],
+  
+  "rewrites": [
+    {
+      "source": "/_not-found",
+      "destination": "/404"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ],
+  
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "origin-when-cross-origin"
+        }
+      ]
     }
   ]
 } 

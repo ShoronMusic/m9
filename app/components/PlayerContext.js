@@ -133,7 +133,7 @@ export const PlayerProvider = ({ children }) => {
 
   // 視聴履歴追跡の初期化
   useEffect(() => {
-    if (session?.user?.id) {
+    if (session?.user?.id && !playTracker) {
       const tracker = new PlayTracker(session.user.id);
       setPlayTracker(tracker);
       
@@ -145,7 +145,7 @@ export const PlayerProvider = ({ children }) => {
         console.log('User logged in, cleared error flags');
       }
     }
-  }, [session]);
+  }, [session, playTracker]);
 
   // ページの可視性変更を監視
   useEffect(() => {
@@ -235,14 +235,7 @@ export const PlayerProvider = ({ children }) => {
           // Service Workerにも送信
           updatePlayerStateInSW(playerState);
           
-          if (process.env.NODE_ENV === 'development') {
-            console.log('Player state saved:', {
-              track: currentTrack?.title || currentTrack?.name,
-              index: currentTrackIndex,
-              isPlaying,
-              source: currentTrackListSource.current
-            });
-          }
+          // Player state saved silently
         } catch (error) {
           console.error('Failed to save player state:', error);
         }
@@ -671,6 +664,17 @@ export const PlayerProvider = ({ children }) => {
     
     playNext();
   }, [playTracker, playNext]);
+
+  // isPlayingの状態変更を監視して視聴履歴を記録
+  useEffect(() => {
+    if (playTracker && !isPlaying && currentTrack) {
+      // 再生が停止された時に視聴履歴を記録
+      if (process.env.NODE_ENV === 'development') {
+        console.log('Playback stopped, recording play history');
+      }
+      playTracker.stopTracking(false); // 中断として記録
+    }
+  }, [isPlaying, playTracker, currentTrack]);
 
   const value = {
     trackList,

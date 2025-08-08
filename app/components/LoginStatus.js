@@ -58,10 +58,10 @@ export default function LoginStatus() {
         <Link href="/api/auth/signin/spotify" passHref>
           <button className={styles.loginButton}>
             <img 
-              src="/svg/spotify.svg"
+              src="/icons/Spotify_Icon_RGB_White.png"
               alt="Spotify"
               className={styles.spotifyIcon}
-              style={{ width: '16px', height: '16px', marginRight: '8px' }}
+              style={{ width: '20px', height: '20px', marginRight: '8px' }}
             />
             Sign in with Spotify
           </button>

@@ -73,24 +73,56 @@ export const createUser = async (userData) => {
 };
 
 export const recordPlayHistory = async (playData) => {
+  console.log('Supabase recordPlayHistory called with data:', playData);
+  
   if (!supabase) {
     console.warn('Supabase not configured, recordPlayHistory skipped');
     return { data: null, error: new Error('Supabase not configured') };
   }
   
   try {
+    console.log('Supabase: Inserting play history data...');
+    
+    // テーブル構造に合わせてデータを整形
+    const insertData = {
+      user_id: playData.user_id,
+      track_id: playData.track_id,
+      song_id: playData.song_id,
+      play_duration: playData.play_duration,
+      completed: playData.completed,
+      source: playData.source,
+      artist_name: playData.artist_name,
+      track_title: playData.track_title,
+      is_favorite: playData.is_favorite || false
+    };
+    
+    console.log('Supabase: Inserting data with correct schema:', insertData);
+    
     const { data, error } = await supabase
       .from('play_history')
-      .insert(playData)
+      .insert(insertData)
       .select();
     
     if (error) {
       console.error('Supabase recordPlayHistory error:', error);
+      console.error('Supabase recordPlayHistory error details:', {
+        code: error.code,
+        message: error.message,
+        details: error.details,
+        hint: error.hint
+      });
+    } else {
+      console.log('Supabase recordPlayHistory success:', data);
     }
     
     return { data, error };
   } catch (error) {
     console.error('Supabase recordPlayHistory exception:', error);
+    console.error('Supabase recordPlayHistory exception details:', {
+      name: error.name,
+      message: error.message,
+      stack: error.stack
+    });
     return { data: null, error };
   }
 };
@@ -102,7 +134,8 @@ export const getPlayHistory = async (userId, limit = 50) => {
   }
   
   try {
-    const { data, error } = await supabase
+    // 視聴履歴を取得
+    const { data: playHistory, error } = await supabase
       .from('play_history')
       .select('*')
       .eq('user_id', userId)
@@ -111,9 +144,29 @@ export const getPlayHistory = async (userId, limit = 50) => {
     
     if (error) {
       console.error('Supabase getPlayHistory error:', error);
+      return { data: [], error };
     }
+
+    // 各視聴履歴に対して、Spotify APIからお気に入り情報を取得
+    const playHistoryWithFavorites = await Promise.all(
+      playHistory.map(async (record) => {
+        try {
+          // データベースのis_favoriteを優先し、フロントエンドでSpotify APIから取得した情報で上書き
+          return {
+            ...record,
+            is_favorite: record.is_favorite || false // データベースの値を優先
+          };
+        } catch (error) {
+          console.error('Error processing play history record:', error);
+          return {
+            ...record,
+            is_favorite: record.is_favorite || false
+          };
+        }
+      })
+    );
     
-    return { data, error };
+    return { data: playHistoryWithFavorites, error: null };
   } catch (error) {
     console.error('Supabase getPlayHistory exception:', error);
     return { data: [], error };
