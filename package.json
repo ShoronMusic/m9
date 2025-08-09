@@ -7,7 +7,7 @@
         "dev": "next dev -p 3001",
         "dev:spotify": "next dev -p 3001",
         "dev:youtube": "next dev -p 3000",
-        "build": "cross-env NODE_ENV=production node scripts/update-all-data.js && next build",
+        "build": "next build",
         "build:vercel": "next build",
         "start": "next start",
         "lint": "next lint",
