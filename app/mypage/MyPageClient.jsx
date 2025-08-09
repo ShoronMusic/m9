@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useSession, signOut } from 'next-auth/react';
 import { usePlayer } from '../components/PlayerContext';
 import { useSpotifyLikes } from '../components/SpotifyLikes';
+import Link from 'next/link';
 import styles from './MyPage.module.css';
 
 export default function MyPageClient({ session }) {
@@ -14,10 +15,112 @@ export default function MyPageClient({ session }) {
   const [isLoading, setIsLoading] = useState(true);
   const [debugInfo, setDebugInfo] = useState(null);
   const [supabaseTest, setSupabaseTest] = useState(null);
+  
+  // ページネーション用の状態
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 20;
 
   // Spotify APIからお気に入り情報を取得
   const trackIds = playHistory.map(record => record.track_id).filter(Boolean);
   const { likedTracks, error: likesError } = useSpotifyLikes(session?.accessToken, trackIds);
+
+  // ページネーション計算
+  const totalPages = Math.ceil(playHistory.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentPageData = playHistory.slice(startIndex, endIndex);
+
+  // ページ変更ハンドラー
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
+
+  // ページネーションコンポーネント
+  const renderPagination = () => {
+    if (totalPages <= 1) return null;
+
+    const pages = [];
+    const maxVisiblePages = 5;
+    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+    if (endPage - startPage + 1 < maxVisiblePages) {
+      startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    }
+
+    // 最初のページ
+    if (startPage > 1) {
+      pages.push(
+        <button
+          key="first"
+          onClick={() => handlePageChange(1)}
+          className={styles.pageButton}
+        >
+          1
+        </button>
+      );
+      if (startPage > 2) {
+        pages.push(<span key="dots1" className={styles.pageDots}>...</span>);
+      }
+    }
+
+    // 表示するページ
+    for (let i = startPage; i <= endPage; i++) {
+      pages.push(
+        <button
+          key={i}
+          onClick={() => handlePageChange(i)}
+          className={`${styles.pageButton} ${currentPage === i ? styles.activePage : ''}`}
+        >
+          {i}
+        </button>
+      );
+    }
+
+    // 最後のページ
+    if (endPage < totalPages) {
+      if (endPage < totalPages - 1) {
+        pages.push(<span key="dots2" className={styles.pageDots}>...</span>);
+      }
+      pages.push(
+        <button
+          key="last"
+          onClick={() => handlePageChange(totalPages)}
+          className={styles.pageButton}
+        >
+          {totalPages}
+        </button>
+      );
+    }
+
+    return (
+      <div className={styles.pagination}>
+        <button
+          onClick={() => handlePageChange(currentPage - 1)}
+          disabled={currentPage === 1}
+          className={styles.pageButton}
+        >
+          ← 前へ
+        </button>
+        
+        <div className={styles.pageNumbers}>
+          {pages}
+        </div>
+        
+        <button
+          onClick={() => handlePageChange(currentPage + 1)}
+          disabled={currentPage === totalPages}
+          className={styles.pageButton}
+        >
+          次へ →
+        </button>
+        
+        <div className={styles.pageInfo}>
+          {startIndex + 1}-{Math.min(endIndex, playHistory.length)} / {playHistory.length}件
+        </div>
+      </div>
+    );
+  };
 
   // Supabase接続テスト
   const testSupabaseConnection = async () => {
@@ -82,6 +185,11 @@ export default function MyPageClient({ session }) {
     
     return () => clearInterval(interval);
   }, [session]);
+
+  // データが更新された時にページを1ページ目に戻す
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [playHistory.length]);
 
   // 視聴履歴を手動で更新
   const refreshPlayHistory = useCallback(async () => {
@@ -181,6 +289,91 @@ export default function MyPageClient({ session }) {
     return `${minutes}分`;
   };
 
+  // タイトル表示用の関数（JSON文字列を処理）
+  const formatTrackTitle = (title) => {
+    if (!title) return 'Unknown Track';
+    
+    // 文字列の場合
+    if (typeof title === 'string') {
+      // JSON文字列の場合を処理
+      try {
+        const parsed = JSON.parse(title);
+        if (parsed && typeof parsed === 'object' && parsed.rendered) {
+          return parsed.rendered;
+        }
+      } catch (e) {
+        // JSONとして解析できない場合はそのまま返す
+        return title;
+      }
+      return title;
+    }
+    
+    // オブジェクトの場合
+    if (typeof title === 'object' && title.rendered) {
+      return title.rendered;
+    }
+    
+    return 'Unknown Track';
+  };
+
+  // スタイル表示用の関数（色分け付き）
+  const formatStyle = (styleName) => {
+    if (!styleName) return 'Unknown';
+    
+    // スタイルごとの色を定義（アーティストページのStyle Breakdownと同じ）
+    const styleColorMap = {
+      'Pop': '#f25042',
+      'Alternative': '#448aca',
+      'Dance': '#f39800',
+      'Electronica': '#ffd803',
+      'R&B': '#8c7851',
+      'Hip-Hop': '#078080',
+      'Rock': '#6246ea',
+      'Metal': '#9646ea',
+      'Others': '#BDBDBD'
+    };
+    
+    const color = styleColorMap[styleName] || '#BDBDBD';
+    
+    return (
+      <span 
+        style={{
+          backgroundColor: color,
+          color: '#fff',
+          padding: '2px 8px',
+          borderRadius: '12px',
+          fontSize: '0.8rem',
+          fontWeight: 'bold',
+          display: 'inline-block',
+          textShadow: '0 1px 2px rgba(0,0,0,0.2)'
+        }}
+      >
+        {styleName}
+      </span>
+    );
+  };
+
+  // ソース表示用の関数（リンク付き）
+  const formatSource = (source) => {
+    if (!source) return 'unknown';
+    
+    // artist/形式の場合
+    if (source.startsWith('artist/')) {
+      const artistSlug = source.replace('artist/', '');
+      // undefinedを含む場合や無効なスラッグの場合はリンクを表示しない
+      if (artistSlug && artistSlug !== 'undefined' && !artistSlug.includes('undefined')) {
+        return (
+          <Link href={`/${artistSlug}/1`} className={styles.sourceLink}>
+            {source}
+          </Link>
+        );
+      }
+    }
+    
+    // その他の場合はそのまま表示
+    return source;
+  };
+
   // デバッグ情報を表示
   const renderDebugInfo = () => {
     if (!debugInfo) return null;
@@ -214,74 +407,43 @@ export default function MyPageClient({ session }) {
     );
   };
 
-  // 視聴履歴の詳細表示
-  const renderPlayHistoryDetails = () => {
-    if (isLoading) {
-      return (
-        <div className={styles.noHistory}>
-          <p>視聴履歴を読み込み中...</p>
-        </div>
-      );
-    }
-
-    if (playHistory.length === 0) {
-      return (
-        <div className={styles.noHistory}>
-          <p>まだ視聴履歴がありません</p>
-          <p>曲を再生すると、ここに履歴が表示されます</p>
-          {debugInfo.error && (
-            <p style={{ color: 'red', fontSize: '12px' }}>
-              エラー: {debugInfo.errorMessage || `HTTP ${debugInfo.status}`}
-            </p>
-          )}
-        </div>
-      );
-    }
-
-    return (
-      <div className={styles.historyDetails}>
-        <h4>視聴履歴</h4>
-        <div className={styles.historyTable}>
-          <div className={styles.historyHeader}>
-            <span>通しNO</span>
-            <span>視聴開始タイム</span>
-            <span>アーティスト</span>
-            <span>タイトル</span>
-            <span>お気に入り</span>
-          </div>
-          {playHistory.map((record, index) => (
-            <div key={record.id} className={styles.historyRow}>
-              <span className={styles.recordNumber}>
-                {String(index + 1).padStart(3, '0')}
-              </span>
-              <span className={styles.recordTime}>
-                {formatDate(record.created_at)} [{String(new Date(record.created_at).getHours()).padStart(2, '0')}:{String(new Date(record.created_at).getMinutes()).padStart(2, '0')}]
-              </span>
-              <span className={styles.recordArtist}>
-                {record.artist_name || 'Unknown Artist'}
-              </span>
-              <span className={styles.recordTitle}>
-                {record.track_title || 'Unknown Track'}
-              </span>
-              <span className={styles.recordFavorite}>
-                {(record.is_favorite || likedTracks.has(record.track_id)) && (
-                  <img
-                    src="/svg/heart-solid.svg"
-                    alt="Favorite"
-                    style={{ 
-                      width: "14px", 
-                      height: "14px",
-                      filter: "invert(27%) sepia(51%) saturate(2878%) hue-rotate(86deg) brightness(104%) contrast(97%)"
-                    }}
-                  />
-                )}
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
-    );
+  // 日付ごとにグループ化されたデータを生成
+  const generateGroupedData = (data) => {
+    const grouped = [];
+    let currentDate = null;
+    
+    data.forEach((entry, index) => {
+      const entryDate = new Date(entry.created_at).toDateString();
+      
+      // 新しい日付の場合は日付セパレーターを追加
+      if (entryDate !== currentDate) {
+        currentDate = entryDate;
+        const dateObj = new Date(entry.created_at);
+        const formattedDate = `${dateObj.getFullYear()}.${String(dateObj.getMonth() + 1).padStart(2, '0')}.${String(dateObj.getDate()).padStart(2, '0')}`;
+        const dayOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'][dateObj.getDay()];
+        
+        grouped.push({
+          type: 'date-separator',
+          date: formattedDate,
+          dayOfWeek: dayOfWeek,
+          id: `date-${entryDate}`
+        });
+      }
+      
+      // エントリーを追加
+      grouped.push({
+        type: 'entry',
+        data: entry,
+        originalIndex: index
+      });
+    });
+    
+    return grouped;
   };
+
+  // 現在のページのグループ化されたデータ
+  const currentPageGroupedData = generateGroupedData(currentPageData);
+
 
   // Spotifyユーザー情報
   const user = session?.user || sessionData?.user;
@@ -325,29 +487,7 @@ export default function MyPageClient({ session }) {
     </div>
   );
 
-  // 視聴履歴（将来的に実装）
-  const playHistorySection = (
-    <div className={styles.playHistory}>
-      <h3>📊 視聴履歴</h3>
-      <div className={styles.statsGrid}>
-        <div className={styles.statCard}>
-          <h4>総視聴時間</h4>
-          <p className={styles.statValue}>{formatDuration(stats?.totalPlayTime || 0)}</p>
-        </div>
-        <div className={styles.statCard}>
-          <h4>視聴した曲数</h4>
-          <p className={styles.statValue}>{stats?.uniqueTracks || 0}曲</p>
-        </div>
-        <div className={styles.statCard}>
-          <h4>お気に入り</h4>
-          <p className={styles.statValue}>{stats?.completedTracks || 0}曲</p>
-        </div>
-      </div>
-      {renderPlayHistoryDetails()}
-      {renderDebugInfo()}
-      <p className={styles.comingSoon}>※ 視聴履歴機能は今後実装予定です</p>
-    </div>
-  );
+
 
   // アカウント設定セクション
   const accountSettings = (
@@ -436,39 +576,46 @@ export default function MyPageClient({ session }) {
                   <th>視聴開始タイム</th>
                   <th>アーティスト</th>
                   <th>タイトル</th>
-                  <th>再生時間</th>
-                  <th>完了</th>
+                  <th>スタイル</th>
                   <th>ソース</th>
                   <th>お気に入り</th>
                 </tr>
               </thead>
               <tbody>
-                {playHistory.map((entry, index) => (
-                  <tr key={entry.id}>
-                    <td>{(index + 1).toString().padStart(3, '0')}</td>
-                    <td>{formatDate(entry.created_at)}</td>
-                    <td>{entry.artist_name || 'Unknown Artist'}</td>
-                    <td>{entry.track_title || 'Unknown Track'}</td>
-                    <td>{entry.play_duration}秒</td>
-                    <td>{entry.completed ? '完了' : '中断'}</td>
-                    <td>{entry.source || 'unknown'}</td>
-                    <td>
-                      {(entry.is_favorite || likedTracks.has(entry.track_id)) && (
-                        <img
-                          src="/svg/heart-solid.svg"
-                          alt="Favorite"
-                          style={{ 
-                            width: "14px", 
-                            height: "14px",
-                            filter: "invert(27%) sepia(51%) saturate(2878%) hue-rotate(86deg) brightness(104%) contrast(97%)"
-                          }}
-                        />
-                      )}
-                    </td>
-                  </tr>
+                {currentPageGroupedData.map((item, index) => (
+                  item.type === 'date-separator' ? (
+                    <tr key={item.id}>
+                      <td colSpan="7" className={styles.dateSeparator}>
+                        <span>{item.date} ({item.dayOfWeek})</span>
+                      </td>
+                    </tr>
+                  ) : (
+                    <tr key={item.data.id}>
+                      <td>{(startIndex + item.originalIndex + 1).toString().padStart(3, '0')}</td>
+                      <td>{formatDate(item.data.created_at)}</td>
+                      <td>{item.data.artist_name || 'Unknown Artist'}</td>
+                      <td>{formatTrackTitle(item.data.track_title)}</td>
+                      <td>{formatStyle(item.data.style_name)}</td>
+                      <td>{formatSource(item.data.source)}</td>
+                      <td>
+                        {(item.data.is_favorite || likedTracks.has(item.data.track_id)) && (
+                          <img
+                            src="/svg/heart-solid.svg"
+                            alt="Favorite"
+                            style={{ 
+                              width: "14px", 
+                              height: "14px",
+                              filter: "invert(27%) sepia(51%) saturate(2878%) hue-rotate(86deg) brightness(104%) contrast(97%)"
+                            }}
+                          />
+                        )}
+                      </td>
+                    </tr>
+                  )
                 ))}
               </tbody>
             </table>
+            {renderPagination()}
           </div>
         ) : (
           <div className={styles.noHistory}>

@@ -234,6 +234,7 @@ function SongList({
   autoPlayFirst = false,
   pageType = 'default',
   accessToken = null,
+  source = null,
 }) {
   const { data: session } = useSession();
   const player = usePlayer();
@@ -267,6 +268,14 @@ function SongList({
     }
   }, [menuVisible]);
 
+  // 安全な曲データの生成（idを必ずセット）
+  const safeSongs = useMemo(() => {
+    return songs.map(song => ({
+      ...song,
+      id: song.id || song.spotifyTrackId || `temp_${Math.random()}`
+    }));
+  }, [songs]);
+
   // Spotify APIを使用したいいねボタン用の toggleLike 関数
   const handleLikeToggle = async (songId) => {
     if (!accessToken) {
@@ -299,8 +308,13 @@ function SongList({
       return;
     }
     
-    const source = `${pageType}/${styleSlug}/${currentPage}`;
-        player.playTrack(song, index, safeSongs, source, onPageEnd);
+    // sourceプロパティが渡されている場合はそれを使用、そうでなければ従来の方法で生成
+    const finalSource = source || `${pageType}/${styleSlug}/${currentPage}`;
+    console.log('SongList handleThumbnailClick - finalSource:', finalSource);
+    console.log('SongList handleThumbnailClick - source prop:', source);
+    console.log('SongList handleThumbnailClick - pageType:', pageType, 'styleSlug:', styleSlug, 'currentPage:', currentPage);
+    
+    player.playTrack(song, index, safeSongs, finalSource, onPageEnd);
   };
 
   const handleThreeDotsClick = (e, song) => {
@@ -355,28 +369,21 @@ function SongList({
     };
   }, [isPopupVisible]);
 
-  // 安全な曲データの生成（idを必ずセット）
-  const safeSongs = useMemo(() => {
-    return songs.map(song => ({
-      ...song,
-      id: song.id || song.spotifyTrackId || `temp_${Math.random()}`
-    }));
-  }, [songs]);
-
   // 自動再生機能
   const prevSourceRef = useRef();
   useEffect(() => {
-    const source = `${pageType}/${styleSlug}/${currentPage}`;
-    if (autoPlayFirst && safeSongs.length > 0 && prevSourceRef.current !== source) {
-      prevSourceRef.current = source;
+    const finalSource = source || `${pageType}/${styleSlug}/${currentPage}`;
+    if (autoPlayFirst && safeSongs.length > 0 && prevSourceRef.current !== finalSource) {
+      prevSourceRef.current = finalSource;
       const firstSong = safeSongs[0];
       try {
-        player.playTrack(firstSong, 0, safeSongs, source, onPageEnd);
+        console.log('SongList autoPlay - finalSource:', finalSource);
+        player.playTrack(firstSong, 0, safeSongs, finalSource, onPageEnd);
       } catch (error) {
         console.error('Error auto-playing first track:', error);
       }
     }
-  }, [autoPlayFirst, safeSongs, pageType, styleSlug, currentPage, onPageEnd, player]);
+  }, [autoPlayFirst, safeSongs, source, pageType, styleSlug, currentPage, onPageEnd, player]);
 
   const groupedSongs = useMemo(() => {
     const groups = {};

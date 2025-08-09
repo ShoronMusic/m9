@@ -58,23 +58,28 @@ export const PlayerProvider = ({ children }) => {
   // 認証エラー状態の管理
   const [authError, setAuthError] = useState(false);
 
-  // 認証エラーの監視
+  // 認証エラーの監視（一時的に無効化）
   useEffect(() => {
     const checkAuthError = () => {
       const hasAuthError = sessionStorage.getItem('spotify_auth_error');
-      setAuthError(!!hasAuthError);
+      if (hasAuthError) {
+        // エラーフラグを自動的にクリア
+        sessionStorage.removeItem('spotify_auth_error');
+        console.warn('認証エラーフラグをクリアしました');
+      }
+      setAuthError(false);
     };
 
     // 初回チェック
     checkAuthError();
 
-    // 定期的にチェック
-    const interval = setInterval(checkAuthError, 5000);
+    // 定期的にチェック（頻度を下げる）
+    const interval = setInterval(checkAuthError, 30000); // 30秒に変更
 
     return () => clearInterval(interval);
   }, []);
 
-  // 認証エラーが発生した場合の処理
+  // 認証エラーが発生した場合の処理（アラートを無効化）
   useEffect(() => {
     if (authError) {
       console.warn('認証エラーが検出されました。Spotifyログインを再実行してください。');
@@ -90,12 +95,12 @@ export const PlayerProvider = ({ children }) => {
       sessionStorage.removeItem('spotify_auth_error');
       setAuthError(false);
       
-      // ユーザーに通知を表示（オプション）
-      if (typeof window !== 'undefined' && window.alert) {
-        setTimeout(() => {
-          alert('Spotify認証エラーが発生しました。ページを再読み込みしてSpotifyログインを再実行してください。');
-        }, 1000);
-      }
+      // アラートを無効化（開発環境でも表示しない）
+      // if (process.env.NODE_ENV === 'development' && typeof window !== 'undefined' && window.alert) {
+      //   setTimeout(() => {
+      //     alert('Spotify認証エラーが発生しました。ページを再読み込みしてSpotifyログインを再実行してください。');
+      //   }, 1000);
+      // }
     }
   }, [authError]);
 
@@ -360,7 +365,11 @@ export const PlayerProvider = ({ children }) => {
         index,
         source,
         currentSource: currentTrackListSource.current,
-        songsLength: songs.length
+        songsLength: songs.length,
+        trackStyles: track.styles,
+        trackGenres: track.genres,
+        trackStyle: track.style,
+        trackGenreData: track.genre_data
       });
     }
     
@@ -403,22 +412,40 @@ export const PlayerProvider = ({ children }) => {
       title: track.title?.rendered || track.title,
       thumbnail: track.featured_media_url_thumbnail || track.featured_media_url || (track.album?.images?.[0]?.url) || track.thumbnail || '/placeholder.jpg',
       spotify_url: track.acf?.spotify_url,
+      // スタイル・ジャンル情報を保持
+      styles: track.styles,
+      genres: track.genres,
     };
+
+    if (process.env.NODE_ENV === 'development') {
+      console.log('PlayerContext: newTrack created:', {
+        trackTitle: newTrack.title,
+        trackId: newTrack.spotifyTrackId || newTrack.id,
+        newTrackStyles: newTrack.styles,
+        newTrackGenres: newTrack.genres
+      });
+    }
     
     // 現在の曲の再生を停止
     if (playTracker) {
       playTracker.stopTracking(false); // 中断として記録
     }
     
-    // 少し遅延してから新しい曲を再生
-    setTimeout(() => {
+    // 前の曲の情報を即座にクリアしてから新しい曲を設定
+    setCurrentTrack(null);
+    setCurrentTrackIndex(-1);
+    setIsPlaying(false);
+    setPosition(0);
+    
+    // 次のフレームで新しい曲を設定（状態のクリアを確実にする）
+    requestAnimationFrame(() => {
       setCurrentTrack(newTrack);
       setCurrentTrackIndex(index);
       setIsPlaying(true);
       setPosition(0);
       
       if (process.env.NODE_ENV === 'development') {
-        console.log('Setting new track:', {
+        console.log('Setting new track after clearing:', {
           newTrack: newTrack.title,
           newTrackId: newTrack.spotifyTrackId || newTrack.id,
           isPlaying: true
@@ -429,7 +456,33 @@ export const PlayerProvider = ({ children }) => {
       if (playTracker && session?.user?.id) {
         playTracker.startTracking(newTrack, track.id, source);
       }
-    }, 100);
+    });
+    
+    if (process.env.NODE_ENV === 'development') {
+      console.log('Setting new track immediately:', {
+        newTrack: newTrack.title,
+        newTrackId: newTrack.spotifyTrackId || newTrack.id,
+        isPlaying: true
+      });
+    }
+    
+    // 視聴履歴追跡を開始
+    if (playTracker && session?.user?.id) {
+      playTracker.startTracking(newTrack, track.id, source);
+    }
+    
+    if (process.env.NODE_ENV === 'development') {
+      console.log('Setting new track:', {
+        newTrack: newTrack.title,
+        newTrackId: newTrack.spotifyTrackId || newTrack.id,
+        isPlaying: true
+      });
+    }
+    
+    // 視聴履歴追跡を開始
+    if (playTracker && session?.user?.id) {
+      playTracker.startTracking(newTrack, track.id, source);
+    }
     
     if (process.env.NODE_ENV === 'development') {
       console.log('playTrack set:', {

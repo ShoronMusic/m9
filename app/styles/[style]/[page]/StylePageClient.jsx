@@ -55,6 +55,15 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
   
   // --- ここから追加: アーティスト配列生成ロジック ---
   const wpStylePosts = songs.map(song => {
+    // デバッグログを追加
+    if (process.env.NODE_ENV === 'development') {
+      console.log('StylePageClient: Processing song:', {
+        songId: song.id,
+        songTitle: song.title,
+        originalStyles: song.styles,
+        originalGenres: song.genres
+      });
+    }
     let artists = [];
     if (Array.isArray(song.artists) && song.artists.length > 0) {
       artists = song.artists.map(a => ({
@@ -92,8 +101,10 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
       youtubeId: ytvideoid,
       spotifyTrackId: spotify_track_id,
       genre_data: song.genres,
+      genres: song.genres, // PlayTrackerが期待する形式
       vocal_data: song.vocals,
       style: song.styles,
+      styles: song.styles, // PlayTrackerが期待する形式
       slug: song.titleSlug || song.slug || (typeof song.title === 'string' ? song.title.toLowerCase().replace(/ /g, "-") : (typeof song.title?.rendered === 'string' ? song.title.rendered.toLowerCase().replace(/ /g, "-") : song.id)),
       content: { rendered: song.content },
     };
@@ -101,6 +112,17 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     const hasSpotifyId = song.acf?.spotify_track_id || song.spotifyTrackId;
     return hasSpotifyId;
   });
+
+  // デバッグログを追加
+  if (process.env.NODE_ENV === 'development') {
+    console.log('StylePageClient: wpStylePosts sample:', wpStylePosts.slice(0, 3).map(song => ({
+      songId: song.id,
+      songTitle: song.title,
+      styles: song.styles,
+      genres: song.genres,
+      hasSpotifyId: !!(song.acf?.spotify_track_id || song.spotifyTrackId)
+    })));
+  }
   // --- ここまで追加 ---
   
   // Spotify APIからお気に入り情報を取得

@@ -12,6 +12,122 @@ export class PlayTracker {
     }
   }
 
+  // スタイルIDからスタイル名を取得する関数
+  getStyleName(styleId) {
+    const styleMap = {
+      2844: 'Pop',
+      2845: 'Alternative',
+      4686: 'Dance',      // 正しいDance ID
+      2846: 'Electronica', // 正しいElectronica ID
+      2847: 'R&B',         // 正しいR&B ID
+      2848: 'Hip-Hop',     // 正しいHip-Hop ID
+      6703: 'Rock',        // 正しいRock ID
+      2849: 'Metal',       // 正しいMetal ID
+      2873: 'Others'       // 正しいOthers ID
+    };
+    return styleMap[styleId] || 'Unknown';
+  }
+
+  // 楽曲データからスタイル・ジャンル情報を抽出する関数
+  extractStyleAndGenreInfo(track) {
+    let styleId = null;
+    let styleName = 'Unknown';
+    let genreId = null;
+    let genreName = 'Unknown';
+
+    if (process.env.NODE_ENV === 'development') {
+      console.log('PlayTracker: extractStyleAndGenreInfo - track data:', {
+        trackId: track.spotifyTrackId || track.id,
+        trackTitle: track.title?.rendered || track.title,
+        hasStyles: !!track.styles,
+        styles: track.styles,
+        hasStyle: !!track.style,
+        style: track.style,
+        hasGenres: !!track.genres,
+        genres: track.genres,
+        hasGenreData: !!track.genre_data,
+        genre_data: track.genre_data,
+        trackKeys: Object.keys(track),
+        fullTrack: track
+      });
+    }
+
+    // スタイル情報の取得（複数の可能性をチェック）
+    if (track.styles && Array.isArray(track.styles) && track.styles.length > 0) {
+      // スタイルページのデータ構造（数値IDの配列）
+      const styleIdFromArray = track.styles[0];
+      if (typeof styleIdFromArray === 'number') {
+        styleId = styleIdFromArray;
+        styleName = this.getStyleName(styleId);
+        if (process.env.NODE_ENV === 'development') {
+          console.log('PlayTracker: Found style from track.styles array:', { styleId, styleName });
+        }
+      } else if (typeof styleIdFromArray === 'object' && styleIdFromArray !== null) {
+        // オブジェクト形式の場合
+        styleId = styleIdFromArray.id || styleIdFromArray.term_id || null;
+        styleName = styleIdFromArray.name || this.getStyleName(styleId);
+        if (process.env.NODE_ENV === 'development') {
+          console.log('PlayTracker: Found style from track.styles object:', { styleId, styleName });
+        }
+      }
+    } else if (track.style && Array.isArray(track.style) && track.style.length > 0) {
+      const styleIdFromArray = track.style[0];
+      if (typeof styleIdFromArray === 'number') {
+        styleId = styleIdFromArray;
+        styleName = this.getStyleName(styleId);
+        if (process.env.NODE_ENV === 'development') {
+          console.log('PlayTracker: Found style from track.style array:', { styleId, styleName });
+        }
+      } else if (typeof styleIdFromArray === 'object' && styleIdFromArray !== null) {
+        styleId = styleIdFromArray.id || styleIdFromArray.term_id || null;
+        styleName = styleIdFromArray.name || this.getStyleName(styleId);
+        if (process.env.NODE_ENV === 'development') {
+          console.log('PlayTracker: Found style from track.style object:', { styleId, styleName });
+        }
+      }
+    } else if (track.acf?.style_id) {
+      styleId = track.acf.style_id;
+      styleName = this.getStyleName(styleId);
+      if (process.env.NODE_ENV === 'development') {
+        console.log('PlayTracker: Found style from track.acf.style_id:', { styleId, styleName });
+      }
+    } else {
+      if (process.env.NODE_ENV === 'development') {
+        console.log('PlayTracker: No style information found in track');
+      }
+    }
+
+    // ジャンル情報の取得（複数の可能性をチェック）
+    if (track.genre_data && Array.isArray(track.genre_data) && track.genre_data.length > 0) {
+      // アーティストページではgenre_dataに詳細情報が含まれている
+      const firstGenre = track.genre_data[0];
+      genreId = firstGenre.term_id || null;
+      genreName = firstGenre.name || 'Unknown';
+    } else if (track.genres && Array.isArray(track.genres) && track.genres.length > 0) {
+      const firstGenre = track.genres[0];
+      genreId = firstGenre.term_id || null;
+      genreName = firstGenre.name || 'Unknown';
+    } else if (track.genre && Array.isArray(track.genre) && track.genre.length > 0) {
+      // アーティストページではgenreが数値IDの配列
+      genreId = track.genre[0];
+      genreName = 'Unknown'; // ジャンル名は別途取得が必要
+    } else if (track.acf?.genre_id) {
+      genreId = track.acf.genre_id;
+      genreName = track.acf.genre_name || 'Unknown';
+    }
+
+    if (process.env.NODE_ENV === 'development') {
+      console.log('PlayTracker: extractStyleAndGenreInfo - extracted:', {
+        styleId,
+        styleName,
+        genreId,
+        genreName
+      });
+    }
+
+    return { styleId, styleName, genreId, genreName };
+  }
+
   startTracking(track, songId, source) {
     // 前の曲の記録が保留されている場合は先に処理
     if (this.pendingRecord) {
@@ -183,6 +299,9 @@ export class PlayTracker {
       }
     }
 
+    // スタイル・ジャンル情報を抽出
+    const { styleId, styleName, genreId, genreName } = this.extractStyleAndGenreInfo(trackData.track);
+
     const playData = {
       track_id: trackData.track.spotifyTrackId,
       song_id: trackData.songId,
@@ -191,7 +310,11 @@ export class PlayTracker {
       source: trackData.source,
       artist_name: artistName,
       track_title: trackTitle,
-      is_favorite: isFavorite
+      is_favorite: isFavorite,
+      style_id: styleId,
+      style_name: styleName,
+      genre_id: genreId,
+      genre_name: genreName
     };
 
     if (process.env.NODE_ENV === 'development') {

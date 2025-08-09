@@ -267,11 +267,44 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       
       // 新しい曲が選択された直後は、前の曲の情報を完全に無視する
       if (isNewTrackSelectedRef.current) {
+        if (process.env.NODE_ENV === 'development') {
+          console.log('New track selected, ignoring previous track state completely');
+        }
+        // 新しい曲の情報のみを更新し、前の曲の状態は一切処理しない
         if (state.track_window.current_track) {
-          updatePlaybackState(state.duration, state.position);
-          lastPositionRef.current = state.position;
+          const currentTrackId = state.track_window.current_track.id;
+          const expectedTrackId = currentTrackIdRef.current;
+          
+          // 期待している曲IDと一致する場合のみ状態を更新
+          if (currentTrackId === expectedTrackId) {
+            updatePlaybackState(state.duration, state.position);
+            lastPositionRef.current = state.position;
+          } else {
+            if (process.env.NODE_ENV === 'development') {
+              console.log('Track ID mismatch during new track selection:', {
+                currentTrackId,
+                expectedTrackId
+              });
+            }
+          }
         }
         return;
+      }
+      
+      // 新しい曲が選択されていない場合でも、期待している曲IDと一致しない場合は無視
+      if (state.track_window.current_track) {
+        const currentTrackId = state.track_window.current_track.id;
+        const expectedTrackId = currentTrackIdRef.current;
+        
+        if (expectedTrackId && currentTrackId !== expectedTrackId) {
+          if (process.env.NODE_ENV === 'development') {
+            console.log('Ignoring state change for unexpected track:', {
+              currentTrackId,
+              expectedTrackId
+            });
+          }
+          return;
+        }
       }
       
       // 再生時間と位置を更新
@@ -607,7 +640,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
                 
                 setTimeout(() => {
                   isNewTrackSelectedRef.current = false;
-        }, PLAYER_CONFIG.PROTECTION_TIME);
+        }, 500); // 保護時間を500msに短縮
               }
             } catch (error) {
       handleError(error, 'forcePlayExpectedTrack');
@@ -799,9 +832,13 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         resetPlayerState();
         isNewTrackSelectedRef.current = true;
         
-        await new Promise(resolve => setTimeout(resolve, 200));
+        // 即座に新しい曲IDを設定
         currentTrackIdRef.current = newTrackId;
         lastTrackIdRef.current = newTrackId;
+        
+        if (process.env.NODE_ENV === 'development') {
+          console.log('New track ID set immediately:', newTrackId);
+        }
         
         // Update PlayerContext
         const trackIndex = trackList.findIndex(track => (track?.spotifyTrackId || track?.id) === newTrackId);
@@ -811,7 +848,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
 
         setTimeout(() => {
           isNewTrackSelectedRef.current = false;
-        }, PLAYER_CONFIG.PROTECTION_TIME);
+        }, 500); // 保護時間を500msに短縮
       } else {
         // エラーレスポンスの詳細をログ
         const errorData = await resetResponse.json().catch(() => ({}));

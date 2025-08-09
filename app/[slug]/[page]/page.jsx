@@ -101,6 +101,102 @@ async function getAllArtistSongs(slug) {
     return allSongs;
 }
 
+// --- スタイル・ジャンル・関連アーティスト計算関数 ---
+function calculateStylePercentages(songs) {
+  const styleCounts = {};
+  let totalSongs = 0;
+
+  songs.forEach(song => {
+    // アーティストページのデータ構造に合わせてスタイル情報を取得
+    let styleIds = [];
+    if (song.style && Array.isArray(song.style)) {
+      styleIds = song.style;
+    } else if (song.styles && Array.isArray(song.styles)) {
+      styleIds = song.styles;
+    }
+
+    if (styleIds.length > 0) {
+      totalSongs++;
+      styleIds.forEach(styleId => {
+        styleCounts[styleId] = (styleCounts[styleId] || 0) + 1;
+      });
+    }
+  });
+
+  // スタイルIDからスタイル名へのマッピング
+  const styleNameMap = {
+    2844: 'Pop',
+    2845: 'Alternative',
+    2846: 'Dance',
+    2847: 'Electronica',
+    2848: 'R&B',
+    2849: 'Hip-Hop',
+    2850: 'Rock',
+    2851: 'Metal',
+    2852: 'Others'
+  };
+
+  return Object.entries(styleCounts)
+    .map(([styleId, count]) => ({
+      style: styleNameMap[styleId] || `Style ${styleId}`,
+      percentage: Math.round((count / totalSongs) * 100)
+    }))
+    .sort((a, b) => b.percentage - a.percentage);
+}
+
+function calculateTopGenres(songs) {
+  const genreCounts = {};
+  let totalSongs = 0;
+
+  songs.forEach(song => {
+    // アーティストページのデータ構造に合わせてジャンル情報を取得
+    let genres = [];
+    if (song.genre_data && Array.isArray(song.genre_data)) {
+      genres = song.genre_data;
+    } else if (song.genres && Array.isArray(song.genres)) {
+      genres = song.genres;
+    } else if (song.genre && Array.isArray(song.genre)) {
+      // 数値IDの場合はgenre_dataから詳細情報を取得する必要があるが、
+      // ここでは簡易的にIDをそのまま使用
+      genres = song.genre.map(id => ({ name: `Genre ${id}`, term_id: id }));
+    }
+
+    if (genres.length > 0) {
+      totalSongs++;
+      genres.forEach(genre => {
+        const genreName = genre.name || `Genre ${genre.term_id}`;
+        genreCounts[genreName] = (genreCounts[genreName] || 0) + 1;
+      });
+    }
+  });
+
+  return Object.entries(genreCounts)
+    .map(([genre, count]) => ({
+      genre,
+      percentage: Math.round((count / totalSongs) * 100)
+    }))
+    .sort((a, b) => b.percentage - a.percentage)
+    .slice(0, 10); // 上位10ジャンルのみ表示
+}
+
+function extractRelatedArtists(artistData) {
+  if (!artistData.acf?.related_artists) return [];
+  
+  const relatedArtistsStr = artistData.acf.related_artists;
+  const artists = relatedArtistsStr.split('|').map(artistStr => {
+    const match = artistStr.trim().match(/^(.+?)\s*\(([^)]+)\)$/);
+    if (match) {
+      return {
+        name: match[1].trim(),
+        slug: match[2].trim()
+      };
+    }
+    return null;
+  }).filter(artist => artist !== null);
+
+  return artists;
+}
+
 // --- Page Component ---
 export default async function ArtistPageWithPagination({ params }) {
   const { slug, page: pageStr } = params;
@@ -120,6 +216,13 @@ export default async function ArtistPageWithPagination({ params }) {
     notFound();
   }
 
+  // slugをartistDataに追加
+  artistData.slug = slug;
+  
+  // デバッグログを追加
+  console.log('Server side - artistData after setting slug:', artistData);
+  console.log('Server side - slug value:', slug);
+
   const songs = await getArtistSongs(slug, page);
   const allSongs = await getAllArtistSongs(slug);
   const totalSongs = allSongs.length;
@@ -127,6 +230,17 @@ export default async function ArtistPageWithPagination({ params }) {
   const totalPages = Math.ceil(totalSongs / songsPerPage);
   const startSongNumber = (page - 1) * songsPerPage + 1;
   const endSongNumber = Math.min(page * songsPerPage, totalSongs);
+
+  // スタイル・ジャンル・関連アーティストデータを計算
+  const stylePercentages = calculateStylePercentages(allSongs);
+  const topGenres = calculateTopGenres(allSongs);
+  const relatedArtists = extractRelatedArtists(artistData);
+
+  console.log('Calculated data:', {
+    stylePercentages,
+    topGenres,
+    relatedArtists: relatedArtists.length
+  });
 
   return (
     <Suspense fallback={<div>Loading Artist...</div>}>
@@ -139,6 +253,9 @@ export default async function ArtistPageWithPagination({ params }) {
         startSongNumber={startSongNumber}
         endSongNumber={endSongNumber}
         allSongs={allSongs}
+        stylePercentages={stylePercentages}
+        topGenres={topGenres}
+        relatedArtists={relatedArtists}
         accessToken={accessToken}
         />
       </Suspense>

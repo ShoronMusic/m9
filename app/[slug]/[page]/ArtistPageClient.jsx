@@ -64,9 +64,6 @@ export default function ArtistPageClient({
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  // デバッグログを追加
-  console.log('ArtistPageClient received artistData:', artistData);
-
   const autoPlayParam = searchParams.get("autoplay") || "";
   const autoPlayFirst = (autoPlayParam === "1");
 
@@ -75,6 +72,13 @@ export default function ArtistPageClient({
   const safeTotalPages = totalPages || 1;
   const safeTotalSongs = totalSongs || 0;
   const safeArtistData = artistData || { acf: {}, name: 'Unknown Artist', description: '', slug: '' };
+
+  // デバッグログを追加
+  console.log('ArtistPageClient received artistData:', artistData);
+  console.log('ArtistPageClient received artistData.slug:', artistData?.slug);
+  console.log('Safe artist slug:', safeArtistData.slug);
+  console.log('Source will be:', `artist/${safeArtistData.slug || 'unknown'}`);
+  console.log('Safe artist data keys:', Object.keys(safeArtistData));
 
   const artistImageUrl = safeArtistData.acf?.artist_image
     ? getThumbnailPath(safeArtistData.acf.artist_image)
@@ -170,6 +174,9 @@ export default function ArtistPageClient({
       style: song.style_data,
       slug: song.slug,
       content: song.content,
+      // スタイル・ジャンル情報を保持（アーティストページのデータ構造に合わせる）
+      styles: song.style || song.styles,
+      genres: song.genre || song.genres,
     };
   });
 
@@ -503,18 +510,25 @@ export default function ArtistPageClient({
         </>
       )}
       {/* --- End Genre Breakdown Section --- */}
-      <section className={styles.songsSection}>
-        <h2 className={styles.sectionTitle}>Songs ({startSongNumber} - {endSongNumber} / {totalSongs})</h2>
-        <SongList
-          songs={normalizedSongs}
-          source={`artist/${safeArtistData.slug}`}
-          currentPage={safeCurrentPage}
-          songsPerPage={20}
-          onPageEnd={handlePageEnd}
-          autoPlayFirst={autoPlayFirst}
-          pageType="artist"
-          accessToken={accessToken}
-        />
+             <section className={styles.songsSection}>
+         <h2 className={styles.sectionTitle}>Songs ({startSongNumber} - {endSongNumber} / {totalSongs})</h2>
+         {(() => {
+           const sourceValue = `artist/${safeArtistData.slug || 'unknown'}`;
+           console.log('SongList source value:', sourceValue);
+           console.log('Safe artist slug in SongList:', safeArtistData.slug);
+           return (
+             <SongList
+               songs={normalizedSongs}
+               source={sourceValue}
+               currentPage={safeCurrentPage}
+               songsPerPage={20}
+               onPageEnd={handlePageEnd}
+               autoPlayFirst={autoPlayFirst}
+               pageType="artist"
+               accessToken={accessToken}
+             />
+           );
+         })()}
 
         {safeTotalPages > 1 && (
           <Pagination

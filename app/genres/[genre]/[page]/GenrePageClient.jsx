@@ -51,8 +51,10 @@ export default function GenrePageClient({
       date: song.releaseDate || song.date || song.post_date || '',
       featured_media_url: song.thumbnail,
       genre_data: song.genres,
+      genres: song.genres, // PlayTrackerが期待する形式
       vocal_data: song.vocals || song.vocal_data,
       style: song.styles,
+      styles: song.styles, // PlayTrackerが期待する形式
       slug: song.slug,
       content: { rendered: song.content },
     };

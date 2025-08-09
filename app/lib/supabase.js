@@ -93,7 +93,11 @@ export const recordPlayHistory = async (playData) => {
       source: playData.source,
       artist_name: playData.artist_name,
       track_title: playData.track_title,
-      is_favorite: playData.is_favorite || false
+      is_favorite: playData.is_favorite || false,
+      style_id: playData.style_id || null,
+      style_name: playData.style_name || null,
+      genre_id: playData.genre_id || null,
+      genre_name: playData.genre_name || null
     };
     
     console.log('Supabase: Inserting data with correct schema:', insertData);

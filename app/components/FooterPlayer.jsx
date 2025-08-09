@@ -107,8 +107,8 @@ const getSafeTitle = (track) => {
 
 export default function FooterPlayer({ accessToken }) {
     const playerContext = useContext(PlayerContext); // Use context directly
-    const [isVolumeVisible, setIsVolumeVisible] = useState(false); // ボリューム表示状態を管理
     const { data: session } = useSession();
+    const previousTrackRef = useRef(null); // 前の曲の情報を保持
 
     if (!playerContext) return null; // Early return if context is not available
 
@@ -137,15 +137,22 @@ export default function FooterPlayer({ accessToken }) {
         return null;
     }
     
-    // 曲が選択されていない場合もプレイヤーを表示しない
-    if (!currentTrack) {
+    // 前の曲の情報を更新
+    if (currentTrack) {
+        previousTrackRef.current = currentTrack;
+    }
+    
+    // 曲が選択されていない場合は、前の曲の情報を使用
+    const displayTrack = currentTrack || previousTrackRef.current;
+    
+    if (!displayTrack) {
         return null; 
     }
     
     // A track is selected, render the full player
-    const imageUrl = getImageUrl(currentTrack);
-    const trackTitle = getSafeTitle(currentTrack);
-    const artistName = formatArtists(currentTrack.artists);
+    const imageUrl = getImageUrl(displayTrack);
+    const trackTitle = getSafeTitle(displayTrack);
+    const artistName = formatArtists(displayTrack.artists);
 
     const handleSeek = (newPosition) => {
         seekTo(newPosition);
@@ -188,9 +195,7 @@ export default function FooterPlayer({ accessToken }) {
         setIsMuted(newMutedState);
     };
 
-    const handleVolumeIconClick = () => {
-        setIsVolumeVisible(!isVolumeVisible);
-    };
+
 
     // trackListの先頭（index 0）のみ無効
     const isFirstOfPage = currentTrackIndex === 0;
@@ -236,77 +241,59 @@ export default function FooterPlayer({ accessToken }) {
                            <span style={{ margin: '0 0.25rem' }}>/</span>
                            <span>{formatTime(duration)}</span>
                         </div>
-                        <div className={styles.volumeContainer}>
-                            <button
-                                onClick={() => {
-                                    const newMutedState = !isMuted;
-                                    
-                                    if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
-                                        try {
-                                            if (newMutedState) {
-                                                spotifyPlayerRef.current.setVolume(0);
-                                            } else {
-                                                const newVolume = volume > 0 ? volume : 0.5;
-                                                if(volume === 0) setVolume(newVolume);
-                                                spotifyPlayerRef.current.setVolume(newVolume);
-                                            }
-                                        } catch (error) {
-                                            console.error('Mute toggle error:', error);
+                        <button
+                            onClick={() => {
+                                const newMutedState = !isMuted;
+                                
+                                if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
+                                    try {
+                                        if (newMutedState) {
+                                            spotifyPlayerRef.current.setVolume(0);
+                                        } else {
+                                            const newVolume = volume > 0 ? volume : 0.5;
+                                            if(volume === 0) setVolume(newVolume);
+                                            spotifyPlayerRef.current.setVolume(newVolume);
                                         }
+                                    } catch (error) {
+                                        console.error('Mute toggle error:', error);
                                     }
-                                    
-                                    setIsMuted(newMutedState);
-                                }}
-                                className={styles.volumeButton}
+                                }
+                                
+                                setIsMuted(newMutedState);
+                            }}
+                            className={styles.volumeButton}
+                        >
+                            <Image
+                                src={isMuted || volume === 0 ? "/svg/volume-off-solid.svg" : "/svg/volume-high-solid.svg"}
+                                alt="Volume"
+                                width={20}
+                                height={20}
+                            />
+                        </button>
+                        <input
+                            type="range"
+                            min="0"
+                            max="1"
+                            step="0.01"
+                            value={isMuted ? 0 : volume}
+                            onChange={handleVolumeChange}
+                            className={styles.volumeSlider}
+                        />
+                        {displayTrack.spotify_url && (
+                            <a
+                                href={displayTrack.spotify_url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.spotifyLink}
                             >
                                 <Image
-                                    src={isMuted || volume === 0 ? "/svg/volume-off-solid.svg" : "/svg/volume-high-solid.svg"}
-                                    alt="Volume"
-                                    width={20}
-                                    height={20}
+                                    src="/icons/Spotify_logo_without_text.svg"
+                                    alt="Listen on Spotify"
+                                    width={24}
+                                    height={24}
                                 />
-                            </button>
-                            <input
-                                type="range"
-                                min="0"
-                                max="1"
-                                step="0.01"
-                                value={volume}
-                                onChange={(e) => {
-                                    const newVolume = parseFloat(e.target.value);
-                                    
-                                    // まずSpotifyPlayerの音量を更新
-                                    if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
-                                        try {
-                                            spotifyPlayerRef.current.setVolume(newVolume);
-                                        } catch (error) {
-                                            console.error('Volume change error:', error);
-                                        }
-                                    }
-                                    
-                                    // その後で状態を更新
-                                    setVolume(newVolume);
-                                }}
-                                className={`${styles.volumeSlider} ${
-                                    isVolumeVisible ? styles.visible : ""
-                                }`}
-                            />
-                            {currentTrack.spotify_url && (
-                                <a
-                                    href={currentTrack.spotify_url}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className={styles.spotifyLink}
-                                >
-                                    <Image
-                                        src="/icons/Spotify_logo_without_text.svg"
-                                        alt="Listen on Spotify"
-                                        width={24}
-                                        height={24}
-                                    />
-                                </a>
-                            )}
-                        </div>
+                            </a>
+                        )}
                     </div>
                 </div>
             </div>
@@ -315,7 +302,7 @@ export default function FooterPlayer({ accessToken }) {
                 <SpotifyPlayer 
                     ref={spotifyPlayerRef}
                     accessToken={session.accessToken} 
-                    trackId={currentTrack?.spotifyTrackId || currentTrack?.id}
+                    trackId={displayTrack?.spotifyTrackId || displayTrack?.id}
                     autoPlay={isPlaying}
                 />
             )}
