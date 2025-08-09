@@ -4,6 +4,28 @@
   max-width: 1200px;
   margin: 0 auto;
   background-color: var(--tunedive-background);
+  /* プレイヤーの高さ分のパディングを追加 */
+  padding-bottom: var(--player-padding, 0px);
+  transition: padding-bottom 0.3s ease; /* スムーズな遷移 */
+}
+
+/* プレイヤーが表示されている場合のパディング */
+.pageWrapper.withPlayer {
+  --player-padding: 120px;
+}
+
+/* スマホ時はより大きなパディング */
+@media (max-width: 920px) {
+  .pageWrapper.withPlayer {
+    --player-padding: 140px;
+  }
+}
+
+/* さらに小さい画面用 */
+@media (max-width: 480px) {
+  .pageWrapper.withPlayer {
+    --player-padding: 150px;
+  }
 }
 
 .header {

@@ -96,7 +96,7 @@
 .volumeSlider {
     width: 100px;
 }
-.controlButton, .muteButton {
+.controlButton, .muteButton, .volumeButton {
     background: none;
     border: none;
     cursor: pointer;
@@ -114,6 +114,10 @@
 }
 .playPauseButton img {
     height: 32px; /* Set a larger height for the play/pause icon */
+}
+
+.volumeButton {
+    flex-shrink: 0; /* ボリュームボタンは縮小しない */
 }
 
 .controlButton[disabled] {
@@ -149,6 +153,11 @@
         order: 3;
         flex-basis: 100%;
         justify-content: space-between;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: nowrap; /* 改行を防ぐ */
+        overflow: hidden; /* はみ出しを隠す */
     }
     
     .artistName {
@@ -157,6 +166,41 @@
 
     .volumeSlider {
         display: block; /* Ensure volume slider is visible */
+        width: 80px; /* スマホ時は少し狭く */
+        flex-shrink: 0; /* 縮小しない */
+    }
+
+    .timeDisplay {
+        font-size: 0.75rem; /* スマホ時は少し小さく */
+        white-space: nowrap;
+        flex-shrink: 0; /* 縮小しない */
+    }
+
+    .volumeContainer {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-shrink: 0; /* 縮小しないように */
+        min-width: 0; /* 最小幅を0に */
+    }
+}
+
+/* さらに小さい画面サイズ用 */
+@media (max-width: 480px) {
+    .rightControls {
+        gap: 0.25rem; /* より狭い間隔 */
+    }
+    
+    .volumeSlider {
+        width: 60px; /* さらに狭く */
+    }
+    
+    .timeDisplay {
+        font-size: 0.7rem; /* さらに小さく */
+    }
+    
+    .volumeContainer {
+        gap: 0.25rem;
     }
 }
 
@@ -168,4 +212,18 @@
     display: flex;
     align-items: center;
     margin-left: 12px;
+    flex-shrink: 0; /* 縮小しない */
+}
+
+/* スマホ時のSpotifyリンク調整 */
+@media (max-width: 920px) {
+    .spotifyLink {
+        margin-left: 8px; /* スマホ時は少し狭く */
+    }
+}
+
+@media (max-width: 480px) {
+    .spotifyLink {
+        margin-left: 4px; /* さらに狭く */
+    }
 } 

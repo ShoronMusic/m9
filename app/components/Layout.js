@@ -10,6 +10,7 @@ import styles from "./Layout.module.css";
 import ScrollToTopButton from "./ScrollToTopButton";
 import LoginStatus from './LoginStatus';
 import { usePlayer } from "./PlayerContext";
+import { useSession } from "next-auth/react";
 
 export default function Layout({ children }) {
   const router = useRouter();
@@ -17,7 +18,11 @@ export default function Layout({ children }) {
   const [isLocked, setIsLocked] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const { toggleLock } = usePlayer();
+  const { toggleLock, currentTrack } = usePlayer();
+  const { data: session } = useSession();
+
+  // プレイヤーが表示されているかどうかを判定
+  const isPlayerVisible = session && session.accessToken && currentTrack;
 
   useEffect(() => {
     const savedLockState = localStorage.getItem("isLocked");
@@ -56,7 +61,7 @@ export default function Layout({ children }) {
   }, [isMenuOpen]);
 
   return (
-    <div className={styles.pageWrapper}>
+    <div className={`${styles.pageWrapper} ${isPlayerVisible ? styles.withPlayer : ''}`}>
       <header className={styles.header}>
         <div className={styles.logoTitle}>
           <Link href="/" className={styles.logoLink}>
