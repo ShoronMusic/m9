@@ -300,7 +300,7 @@ function SongList({
     }
     
     const source = `${pageType}/${styleSlug}/${currentPage}`;
-    player.playTrack(song, index, safeSongs, source, onPageEnd);
+        player.playTrack(song, index, safeSongs, source, onPageEnd);
   };
 
   const handleThreeDotsClick = (e, song) => {
@@ -458,8 +458,8 @@ function SongList({
                               }
                             } else {
                               // プレースホルダーにフォールバック
-                              e.target.onerror = null;
-                              e.target.src = '/placeholder.jpg';
+                            e.target.onerror = null; 
+                            e.target.src = '/placeholder.jpg';
                             }
                           }}
                         />
@@ -472,28 +472,28 @@ function SongList({
                           {artistElements} - {title}
                         </span>
                         {spotifyTrackId && (
-                          <span
-                            className={styles.likeContainer}
-                            style={{
-                              display: "inline-flex",
-                              alignItems: "center",
-                              gap: "2px",
+                        <span
+                          className={styles.likeContainer}
+                          style={{
+                            display: "inline-flex",
+                            alignItems: "center",
+                            gap: "2px",
                               cursor: likesLoading ? "not-allowed" : "pointer",
                               opacity: likesLoading ? 0.5 : 1,
                               position: "relative",
-                            }}
-                            onClick={(e) => {
-                              e.stopPropagation();
+                          }}
+                          onClick={(e) => {
+                            e.stopPropagation();
                               if (!likesLoading && !likesError) {
                                 handleLikeToggle(spotifyTrackId);
                               }
-                            }}
+                          }}
                             title={likesError ? `エラー: ${likesError}` : (isLiked ? "いいねを解除" : "いいねを追加")}
-                          >
-                            <img
+                        >
+                          <img
                               src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
-                              alt="Like"
-                              className={styles.likeIcon}
+                            alt="Like"
+                            className={styles.likeIcon}
                               style={{ 
                                 width: "14px", 
                                 height: "14px",
@@ -513,8 +513,8 @@ function SongList({
                                 animation: "spin 1s linear infinite"
                               }} />
                             )}
-                          </span>
-                        )}
+                            </span>
+                          )}
                       </div>
                       <div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
                         <span>{releaseDate}</span>
@@ -571,7 +571,7 @@ function SongList({
                         <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
                         {artist.name}
                       </a>
-                    </Link>
+                </Link>
                   ))}
                 </div>
 
@@ -591,9 +591,9 @@ function SongList({
                         <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
                         {genre.name}
                       </a>
-                    </Link>
-                  </div>
-                ))}
+                  </Link>
+                </div>
+              ))}
 
                 <div style={separatorStyle}>
                   <button onClick={onAddToPlaylist} style={menuButtonStlye}>

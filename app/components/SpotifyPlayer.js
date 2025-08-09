@@ -53,8 +53,8 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   // プレイヤー初期化関数
   const initializePlayer = useCallback(() => {
     if (!accessToken) {
-      return;
-    }
+          return;
+        }
 
     if (playerRef.current) {
       playerRef.current.disconnect();
@@ -62,7 +62,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     }
 
     window.onSpotifyWebPlaybackSDKReady = () => {
-      if (playerRef.current) {
+          if (playerRef.current) {
         return;
       }
 
@@ -322,8 +322,8 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         }
         
         // 終了検知タイマーを設定
-        if (trackEndCheckTimerRef.current) {
-          clearTimeout(trackEndCheckTimerRef.current);
+          if (trackEndCheckTimerRef.current) {
+            clearTimeout(trackEndCheckTimerRef.current);
         }
         
         trackEndCheckTimerRef.current = setTimeout(() => {
@@ -386,7 +386,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         if (process.env.NODE_ENV === 'development') {
           console.log('Authentication error resolved, reinitializing player');
         }
-        setTimeout(() => {
+            setTimeout(() => {
           initializePlayer();
         }, 1000);
       }
@@ -417,7 +417,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
           triggerPlayNext();
         }
       }
-    } catch (error) {
+              } catch (error) {
       handleError(error, 'backgroundCheck');
     }
   }, [isReady, isPageVisible, updatePlaybackState, handleError]);
@@ -454,7 +454,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
             updatePlaybackState(state.duration, state.position);
             lastPositionRef.current = state.position;
           }
-        } catch (error) {
+                } catch (error) {
           handleError(error, 'visibilityRestore');
         }
       }, PLAYER_CONFIG.VISIBILITY_RESTORE_DELAY);
@@ -471,13 +471,13 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
 
     try {
       const resetResponse = await fetch('https://api.spotify.com/v1/me/player/pause', {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${accessToken}`,
-        },
-      });
-
+                method: 'PUT',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'Authorization': `Bearer ${accessToken}`,
+                },
+              });
+              
       if (resetResponse.ok) {
         await new Promise(resolve => setTimeout(resolve, PLAYER_CONFIG.RESET_DELAY));
         return true;
@@ -588,28 +588,28 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       await resetDevice(); // 2回実行して確実にクリア
       
       // 期待している曲を再生
-      const response = await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
-        method: 'PUT',
-        body: JSON.stringify({ 
-          uris: [`spotify:track:${expectedTrackId}`],
+              const response = await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+                method: 'PUT',
+                body: JSON.stringify({ 
+                  uris: [`spotify:track:${expectedTrackId}`],
           position_ms: 0
-        }),
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${accessToken}`
-        },
-      });
+                }),
+                headers: {
+                  'Content-Type': 'application/json',
+                  'Authorization': `Bearer ${accessToken}`
+                },
+              });
 
-      if (response.ok) {
-        currentTrackIdRef.current = expectedTrackId;
-        lastPositionRef.current = 0;
-        isNewTrackSelectedRef.current = true;
-        
-        setTimeout(() => {
-          isNewTrackSelectedRef.current = false;
+              if (response.ok) {
+                currentTrackIdRef.current = expectedTrackId;
+                lastPositionRef.current = 0;
+                isNewTrackSelectedRef.current = true;
+                
+                setTimeout(() => {
+                  isNewTrackSelectedRef.current = false;
         }, PLAYER_CONFIG.PROTECTION_TIME);
-      }
-    } catch (error) {
+              }
+            } catch (error) {
       handleError(error, 'forcePlayExpectedTrack');
     }
   }, [deviceId, accessToken, resetDevice, handleError]);
@@ -660,7 +660,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
             console.log('Device ID now available, retrying playback');
           }
           playNewTrack(newTrackId);
-        } else {
+      } else {
           if (waitForDevice.attempts < 20) {
             waitForDevice.attempts = (waitForDevice.attempts || 0) + 1;
             setTimeout(waitForDevice, 500);
@@ -679,9 +679,9 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         }
       };
       setTimeout(waitForDevice, 500);
-      return;
-    }
-
+          return;
+        }
+        
     // API呼び出し制限をチェック
     if (!canMakeApiCall()) {
       if (process.env.NODE_ENV === 'development') {
