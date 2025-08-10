@@ -11,6 +11,7 @@ import { usePlayer } from './PlayerContext';
 import { useSession } from "next-auth/react";
 import { useSpotifyLikes } from './SpotifyLikes';
 import he from "he";
+import CreatePlaylistModal from './CreatePlaylistModal';
 
 // 先頭の "The " を取り除く
 function removeLeadingThe(str = "") {
@@ -210,6 +211,9 @@ export default function SongListTopPage({
 	const [isPopupVisible, setIsPopupVisible] = useState(false);
 	const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
 	const [popupSong, setPopupSong] = useState(null);
+	const [showCreateModal, setShowCreateModal] = useState(false);
+	const [trackToAdd, setTrackToAdd] = useState(null);
+	const [userPlaylists, setUserPlaylists] = useState([]);
 
 	useEffect(() => {
 		if (menuVisible && menuRef.current) {
@@ -242,30 +246,18 @@ export default function SongListTopPage({
 		}
 	};
 
-	const handleThreeDotsClick = (e, song, categories) => {
-		console.log("Three dots clicked!", song);
+	const handleThreeDotsClick = (e, song) => {
 		e.stopPropagation();
-		const iconRect = e.currentTarget.getBoundingClientRect();
-		const menuWidth = 220;
-		const menuHeightPx = 240; // 仮の高さ
-
-		// メニューをアイコンの右上に表示するための計算
-		let top = iconRect.top - menuHeightPx;
-		let left = iconRect.right - menuWidth;
-
-		// 画面からはみ出さないように調整
-		if (left < 8) {
-			left = 8;
-		}
-		if (top < 8) {
-			top = 8;
-		}
-		setPopupPosition({ top, left });
-		setPopupSong(song);
-		setIsPopupVisible(true);
+		setSelectedSong(song);
+		setIsMenuOpen(true);
 	};
 
 	const handleAddToPlaylistClick = (songId) => {
+		const song = songs.find(s => s.id === songId);
+		if (song) {
+			setTrackToAdd(song);
+			setShowCreateModal(true);
+		}
 		setIsPopupVisible(false);
 	};
 
@@ -292,6 +284,74 @@ export default function SongListTopPage({
 		
 		onTrackPlay(song, index);
 	};
+
+	// ユーザーのプレイリスト一覧を取得
+	const fetchUserPlaylists = async () => {
+		try {
+			const response = await fetch('/api/playlists');
+			if (response.ok) {
+				const data = await response.json();
+				setUserPlaylists(data.playlists || []);
+			}
+		} catch (err) {
+			console.error('プレイリスト取得エラー:', err);
+		}
+	};
+
+	// プレイリストに追加
+	const handleAddToPlaylist = (track) => {
+		setTrackToAdd(track);
+		setShowCreateModal(true);
+	};
+
+	// 既存プレイリストに追加
+	const addTrackToPlaylist = async (track, playlistId) => {
+		try {
+			const response = await fetch(`/api/playlists/${playlistId}/tracks`, {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify({
+					song_id: track.id,
+					track_id: track.id,
+					title: track.title?.rendered || track.title,
+					artists: track.artists || [],
+					thumbnail_url: track.thumbnail_url || track.acf?.thumbnail_url,
+					style_id: track.style_id,
+					style_name: track.style_name,
+					release_date: track.date
+				}),
+			});
+
+			if (!response.ok) {
+				throw new Error('曲の追加に失敗しました');
+			}
+
+			console.log('プレイリストに追加しました！');
+		} catch (err) {
+			console.error('曲の追加に失敗しました:', err.message);
+		}
+	};
+
+	// 新規プレイリスト作成モーダルを開く
+	const openCreatePlaylistModal = (track) => {
+		setTrackToAdd(track);
+		setShowCreateModal(true);
+	};
+
+	// プレイリスト作成完了
+	const handlePlaylistCreated = (newPlaylist) => {
+		console.log(`プレイリスト「${newPlaylist.name}」を作成し、曲を追加しました！`);
+		fetchUserPlaylists(); // プレイリスト一覧を更新
+	};
+
+	// コンポーネントマウント時にプレイリスト一覧を取得
+	useEffect(() => {
+		if (session) {
+			fetchUserPlaylists();
+		}
+	}, [session]);
 
 	return (
         <div className={styles.songlistWrapper}>
@@ -466,7 +526,7 @@ export default function SongListTopPage({
 										)}
 										<button
 											className={styles.threeDotsButton}
-											onClick={(e) => handleThreeDotsClick(e, song, song.categories)}
+											onClick={(e) => handleThreeDotsClick(e, song)}
 											aria-label="More options"
 										>
 											⋮
@@ -497,9 +557,9 @@ export default function SongListTopPage({
 
 						return (
 							<>
-								<div style={separatorStyle}>
-									{song.artists?.map(artist => (
-										<Link href={`/${artist.slug}`} key={artist.id} legacyBehavior>
+								<div key="artists-section" style={separatorStyle}>
+									{song.artists?.map((artist, index) => (
+										<Link href={`/${artist.slug}`} key={artist.id || `artist-${index}`} legacyBehavior>
 											<a style={{ ...menuItemStyle, ...linkColorStyle, fontWeight: 'bold' }}>
 												<img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
 												{artist.name}
@@ -508,7 +568,7 @@ export default function SongListTopPage({
 									))}
 								</div>
 
-								<div style={separatorStyle}>
+								<div key="song-section" style={separatorStyle}>
 									<Link href={`/${song.artists[0]?.slug}/songs/${song.titleSlug}`} legacyBehavior>
 										<a style={{...menuItemStyle, ...linkColorStyle}}>
 											<img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
@@ -517,56 +577,5 @@ export default function SongListTopPage({
 									</Link>
 								</div>
 
-								{song.genres?.map(genre => (
-									<div key={genre.term_id} style={separatorStyle}>
-										<Link href={`/genres/${genre.slug}/1`} legacyBehavior>
-											<a style={{...menuItemStyle, ...linkColorStyle}}>
-												<img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-												{genre.name}
-											</a>
-										</Link>
-									</div>
-								))}
-
-								<div style={separatorStyle}>
-									<button onClick={onAddToPlaylist} style={menuButtonStlye}>
-										<img src="/svg/add.svg" alt="" style={{ width: 16, marginRight: 8 }} />
-										プレイリストに追加
-									</button>
-								</div>
-
-								{song.spotifyTrackId && (
-									<div style={separatorStyle}>
-										<a href={`https://open.spotify.com/track/${song.spotifyTrackId}`} target="_blank" rel="noopener noreferrer" style={{...menuItemStyle, ...linkColorStyle}}>
-											<img src="/svg/spotify.svg" alt="" style={{ width: 16, marginRight: 8 }} />
-											Spotifyで開く
-										</a>
-									</div>
-								)}
-
-								<div>
-									<button onClick={onCopyUrl} style={menuButtonStlye}>
-										<img src="/svg/copy.svg" alt="" style={{ width: 16, marginRight: 8 }} />
-										曲のURLをコピー
-									</button>
-								</div>
-							</>
-						)
-					}}
-				/>
-			)}
-		</div>
-	);
-}
-
-SongListTopPage.propTypes = {
-	songs: PropTypes.array,
-	styleSlug: PropTypes.string,
-	styleName: PropTypes.string,
-	currentSongIndex: PropTypes.number,
-	onTrackPlay: PropTypes.func,
-	onNext: PropTypes.func,
-	onPrevious: PropTypes.func,
-	showTitle: PropTypes.bool,
-	accessToken: PropTypes.string,
-};
+								{song.genres?.map((genre, index) => (
+									<div key={`genre-${genre.term_id || index}`

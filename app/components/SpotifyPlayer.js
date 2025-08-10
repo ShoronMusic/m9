@@ -80,9 +80,6 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       player.connect().then(success => {
         if (success) {
           // 接続成功
-          if (process.env.NODE_ENV === 'development') {
-            console.log('Spotify Web Playback SDK connected successfully');
-          }
         } else {
           console.error('Spotify Web Playback SDK connection failed');
           // エラーハンドリングは後で行う
@@ -164,13 +161,12 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       
       // デバイスIDをリセットして再試行
       if (deviceId) {
-        console.log('Resetting device ID due to 403 error');
         setDeviceId(null);
       }
       
       // アクセストークンの再取得を促す
       if (context === 'play' || context === 'resetDevice') {
-        console.log('Access token may be expired or invalid');
+        // アクセストークンの問題を記録
       }
     }
     
@@ -971,9 +967,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
           lastPositionRef.current = state.position;
         } else {
           // 状態が取得できない場合は、プレイヤーが切断されている可能性
-          if (process.env.NODE_ENV === 'development') {
-            console.log('No player state available - player may be disconnected');
-          }
+          // プレイヤーの状態を確認
         }
       } catch (error) {
         if (process.env.NODE_ENV === 'development') {

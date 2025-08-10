@@ -51,13 +51,12 @@ export default function Layout({ children }) {
   }, [isMenuOpen]);
 
   const toggleMenu = () => {
-    console.log('Toggle menu clicked, current state:', isMenuOpen);
     setMenuOpen(!isMenuOpen);
   };
 
-  // デバッグ用：メニューの状態を監視
+  // デバッグ用：メニューの状態を監視（ログを削除）
   useEffect(() => {
-    console.log('Menu state changed:', isMenuOpen);
+    // メニューの状態変更を監視
   }, [isMenuOpen]);
 
   return (

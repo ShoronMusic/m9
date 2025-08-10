@@ -1,0 +1,322 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* プレイリストヘッダー */
+.playlistHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.playlistInfo h1 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.description {
+  color: #666;
+  margin: 0 0 15px 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.meta {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.trackCount {
+  font-size: 16px;
+  color: #666;
+  font-weight: 600;
+}
+
+.visibility {
+  padding: 4px 12px;
+  background: #e9ecef;
+  border-radius: 16px;
+  font-size: 14px;
+  color: #666;
+}
+
+.date {
+  font-size: 14px;
+  color: #999;
+}
+
+.playlistActions {
+  display: flex;
+  gap: 12px;
+}
+
+.editButton,
+.shareButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.editButton {
+  background: #ffc107;
+  color: #212529;
+}
+
+.editButton:hover {
+  background: #e0a800;
+}
+
+.shareButton {
+  background: #17a2b8;
+  color: white;
+}
+
+.shareButton:hover {
+  background: #138496;
+}
+
+/* トラック一覧 */
+.tracksContainer {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.tracksHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tracksHeader h2 {
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.tracksList {
+  padding: 0;
+}
+
+.trackItem {
+  display: grid;
+  grid-template-columns: 40px 50px 60px 1fr 80px 120px 60px;
+  gap: 15px;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s;
+  cursor: move;
+}
+
+.trackItem:hover {
+  background: #f8f9fa;
+}
+
+.trackItem.dragging {
+  opacity: 0.5;
+  background: #e3f2fd;
+}
+
+/* ドラッグハンドル */
+.dragHandle {
+  color: #999;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dragHandle:active {
+  cursor: grabbing;
+}
+
+/* 順番 */
+.position {
+  font-weight: 600;
+  color: #666;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* サムネール */
+.thumbnail img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* 曲情報 */
+.trackInfo {
+  min-width: 0;
+}
+
+.title {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artists {
+  color: #666;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* スタイルアイコン */
+.styleIcon img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+/* リリース日 */
+.releaseDate {
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
+
+/* トラックアクション */
+.trackActions {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.menuButton:hover {
+  background: #f0f0f0;
+}
+
+/* サブメニュー */
+.submenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  min-width: 180px;
+  z-index: 1000;
+  display: none;
+  padding: 8px 0;
+}
+
+.trackActions:hover .submenu {
+  display: block;
+}
+
+.menuItem {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.menuItem:hover {
+  background: #f8f9fa;
+}
+
+.menuItem.danger {
+  color: #dc3545;
+}
+
+.menuItem.danger:hover {
+  background: #f8d7da;
+}
+
+/* 空の状態 */
+.emptyState {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+  font-size: 16px;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .playlistHeader {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .trackItem {
+    grid-template-columns: 30px 40px 1fr 60px;
+    gap: 10px;
+    padding: 12px 15px;
+  }
+  
+  .styleIcon,
+  .releaseDate {
+    display: none;
+  }
+  
+  .meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+
+/* エラー・ローディング状態 */
+.notLoggedIn,
+.loading,
+.error,
+.notFound {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 16px;
+}
+
+.error {
+  color: #dc3545;
+}
+
+.loading {
+  color: #666;
+}
+
+.notFound {
+  color: #666;
+}

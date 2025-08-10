@@ -73,12 +73,7 @@ export default function ArtistPageClient({
   const safeTotalSongs = totalSongs || 0;
   const safeArtistData = artistData || { acf: {}, name: 'Unknown Artist', description: '', slug: '' };
 
-  // デバッグログを追加
-  console.log('ArtistPageClient received artistData:', artistData);
-  console.log('ArtistPageClient received artistData.slug:', artistData?.slug);
-  console.log('Safe artist slug:', safeArtistData.slug);
-  console.log('Source will be:', `artist/${safeArtistData.slug || 'unknown'}`);
-  console.log('Safe artist data keys:', Object.keys(safeArtistData));
+  // デバッグログを削除
 
   const artistImageUrl = safeArtistData.acf?.artist_image
     ? getThumbnailPath(safeArtistData.acf.artist_image)
@@ -512,23 +507,16 @@ export default function ArtistPageClient({
       {/* --- End Genre Breakdown Section --- */}
              <section className={styles.songsSection}>
          <h2 className={styles.sectionTitle}>Songs ({startSongNumber} - {endSongNumber} / {totalSongs})</h2>
-         {(() => {
-           const sourceValue = `artist/${safeArtistData.slug || 'unknown'}`;
-           console.log('SongList source value:', sourceValue);
-           console.log('Safe artist slug in SongList:', safeArtistData.slug);
-           return (
-             <SongList
-               songs={normalizedSongs}
-               source={sourceValue}
-               currentPage={safeCurrentPage}
-               songsPerPage={20}
-               onPageEnd={handlePageEnd}
-               autoPlayFirst={autoPlayFirst}
-               pageType="artist"
-               accessToken={accessToken}
-             />
-           );
-         })()}
+         <SongList
+           songs={normalizedSongs}
+           source={`artist/${safeArtistData.slug || 'unknown'}`}
+           currentPage={safeCurrentPage}
+           songsPerPage={20}
+           onPageEnd={handlePageEnd}
+           autoPlayFirst={autoPlayFirst}
+           pageType="artist"
+           accessToken={accessToken}
+         />
 
         {safeTotalPages > 1 && (
           <Pagination

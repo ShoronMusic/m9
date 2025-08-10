@@ -171,17 +171,6 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 
 		// PlayerContextに曲リストを設定
 		if (allSongs.length > 0) {
-			if (process.env.NODE_ENV === 'development') {
-				console.log('TopPage setting track list:', {
-					totalSongs: allSongs.length,
-					source: 'top-page',
-					songsSample: allSongs.slice(0, 3).map(s => ({
-						id: s.id,
-						spotifyTrackId: s.spotifyTrackId,
-						title: s.title || s.name
-					}))
-				});
-			}
 			setTrackList(allSongs);
 		}
 
@@ -207,21 +196,6 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 	const handleTrackPlay = useCallback((song, index) => {
 		// allSongsから正しいインデックスを探す
 		const globalIndex = allSongs.findIndex(s => s.id === song.id);
-		if (process.env.NODE_ENV === 'development') {
-			console.log('TopPage handleTrackPlay:', {
-				songTitle: song.title || song.name,
-				songId: song.id,
-				spotifyTrackId: song.spotifyTrackId,
-				localIndex: index,
-				globalIndex,
-				totalSongs: allSongs.length,
-				allSongsSample: allSongs.slice(0, 3).map(s => ({
-					id: s.id,
-					spotifyTrackId: s.spotifyTrackId,
-					title: s.title || s.name
-				}))
-			});
-		}
 		playTrack(song, globalIndex, allSongs, 'top-page');
 	}, [playTrack, allSongs]);
 

@@ -120,9 +120,7 @@ export const PlayerProvider = ({ children }) => {
     sessionStorage.removeItem('spotify_auth_error');
     sessionStorage.removeItem('spotify_device_error');
     
-    if (process.env.NODE_ENV === 'development') {
-      console.log('ページロード時にプレイヤー状態をリセットしました');
-    }
+    // 開発環境でのログを削除
   }, []); // 空の依存配列で初回のみ実行
 
   // デバイス情報の初期化
@@ -146,9 +144,7 @@ export const PlayerProvider = ({ children }) => {
       sessionStorage.removeItem('spotify_auth_error');
       sessionStorage.removeItem('spotify_device_error');
       
-      if (process.env.NODE_ENV === 'development') {
-        console.log('User logged in, cleared error flags');
-      }
+      // 開発環境でのログを削除
     }
   }, [session, playTracker]);
 
@@ -257,9 +253,7 @@ export const PlayerProvider = ({ children }) => {
       try {
         // ログイン前は状態を復元しない
         if (!session) {
-          if (process.env.NODE_ENV === 'development') {
-            console.log('User not logged in, skipping state restoration');
-          }
+                  // 開発環境でのログを削除
           return;
         }
         
@@ -268,9 +262,7 @@ export const PlayerProvider = ({ children }) => {
         const hasDeviceError = sessionStorage.getItem('spotify_device_error');
         
         if (hasAuthError || hasDeviceError) {
-          if (process.env.NODE_ENV === 'development') {
-            console.log('Clearing saved state due to authentication or device error');
-          }
+          // 開発環境でのログを削除
           // エラーフラグをクリア
           sessionStorage.removeItem('spotify_auth_error');
           sessionStorage.removeItem('spotify_device_error');
@@ -309,15 +301,7 @@ export const PlayerProvider = ({ children }) => {
         }
         
         if (playerState) {
-          if (process.env.NODE_ENV === 'development') {
-            console.log('Restoring player state:', {
-              track: playerState.currentTrack?.title || playerState.currentTrack?.name,
-              index: playerState.currentTrackIndex,
-              isPlaying: playerState.isPlaying,
-              source: playerState.trackListSource,
-              timestamp: new Date(playerState.timestamp).toLocaleString()
-            });
-          }
+          // 開発環境でのログを削除
           
           setCurrentTrack(playerState.currentTrack);
           setCurrentTrackIndex(playerState.currentTrackIndex);
@@ -333,9 +317,7 @@ export const PlayerProvider = ({ children }) => {
             }, 1000);
           }
           
-          if (process.env.NODE_ENV === 'development') {
-            console.log('Player state restored successfully');
-          }
+          // 開発環境でのログを削除
         }
       } catch (error) {
         console.error('Failed to restore player state:', error);
@@ -358,21 +340,6 @@ export const PlayerProvider = ({ children }) => {
   }, [isPowerSaveMode]);
 
   const playTrack = useCallback((track, index, songs, source, onPageEnd = null) => {
-    if (process.env.NODE_ENV === 'development') {
-      console.log('playTrack called:', {
-        trackTitle: track.title?.rendered || track.title,
-        trackId: track.spotifyTrackId || track.id,
-        index,
-        source,
-        currentSource: currentTrackListSource.current,
-        songsLength: songs.length,
-        trackStyles: track.styles,
-        trackGenres: track.genres,
-        trackStyle: track.style,
-        trackGenreData: track.genre_data
-      });
-    }
-    
     if (source !== currentTrackListSource.current) {
         // 状態を完全にリセット
         setCurrentTrack(null);
@@ -382,25 +349,15 @@ export const PlayerProvider = ({ children }) => {
         setDuration(0);
         setTrackList(songs);
         currentTrackListSource.current = source;
-        
-        if (process.env.NODE_ENV === 'development') {
-          console.log('Source changed, resetting state');
-        }
     } else {
         // すでに同じsourceで同じ曲なら何もしない
         if (currentTrack && currentTrack.id === track.id) {
-          if (process.env.NODE_ENV === 'development') {
-            console.log('Same track already playing, skipping');
-          }
           return;
         }
         
         // 同じsourceだが曲リストが変わった場合、リストを更新
         if (songs !== trackList) {
           setTrackList(songs);
-          if (process.env.NODE_ENV === 'development') {
-            console.log('Track list updated for same source');
-          }
         }
     }
     
@@ -416,15 +373,6 @@ export const PlayerProvider = ({ children }) => {
       styles: track.styles,
       genres: track.genres,
     };
-
-    if (process.env.NODE_ENV === 'development') {
-      console.log('PlayerContext: newTrack created:', {
-        trackTitle: newTrack.title,
-        trackId: newTrack.spotifyTrackId || newTrack.id,
-        newTrackStyles: newTrack.styles,
-        newTrackGenres: newTrack.genres
-      });
-    }
     
     // 現在の曲の再生を停止
     if (playTracker) {
@@ -444,44 +392,15 @@ export const PlayerProvider = ({ children }) => {
       setIsPlaying(true);
       setPosition(0);
       
-      if (process.env.NODE_ENV === 'development') {
-        console.log('Setting new track after clearing:', {
-          newTrack: newTrack.title,
-          newTrackId: newTrack.spotifyTrackId || newTrack.id,
-          isPlaying: true
-        });
-      }
-      
       // 視聴履歴追跡を開始（重複を防ぐため一度だけ呼び出し）
       if (playTracker && session?.user?.id) {
         playTracker.startTracking(newTrack, track.id, source);
       }
     });
-    
-    if (process.env.NODE_ENV === 'development') {
-      console.log('Setting new track:', {
-        newTrack,
-        index,
-        songsLength: songs.length,
-        source
-      });
-    }
-    
-    if (process.env.NODE_ENV === 'development') {
-      console.log('playTrack set:', {
-        newTrack,
-        index,
-        songsLength: songs.length,
-        source
-      });
-    }
   }, [playTracker, session, currentTrack, trackList]);
 
   const togglePlay = useCallback(() => {
     if (!stateRef.current.currentTrack) {
-      if (process.env.NODE_ENV === 'development') {
-        console.log('No current track to toggle play state');
-      }
       return;
     }
     
@@ -493,9 +412,6 @@ export const PlayerProvider = ({ children }) => {
     );
     
     if (!trackExists) {
-      if (process.env.NODE_ENV === 'development') {
-        console.log('Current track not found in track list, cannot toggle play state');
-      }
       return;
     }
     
@@ -504,20 +420,8 @@ export const PlayerProvider = ({ children }) => {
 
   const playNext = useCallback(() => {
     const { trackList, currentTrack, currentTrackIndex } = stateRef.current;
-    if (process.env.NODE_ENV === 'development') {
-      console.log('playNext called', { 
-        trackListLength: trackList.length, 
-        currentTrack, 
-        currentTrackIndex,
-        currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id,
-        currentTrackTitle: currentTrack?.title || currentTrack?.name
-      });
-    }
     
     if (trackList.length === 0) {
-      if (process.env.NODE_ENV === 'development') {
-        console.log('Track list is empty, cannot play next');
-      }
       return;
     }
 
@@ -532,22 +436,8 @@ export const PlayerProvider = ({ children }) => {
       );
     }
 
-    if (process.env.NODE_ENV === 'development') {
-      console.log('Current index determined:', currentIndex);
-      console.log('Track list sample:', trackList.slice(0, 3).map(t => ({
-        id: t.id,
-        spotifyTrackId: t.spotifyTrackId,
-        title: t.title || t.name
-      })));
-    }
-
     if (currentIndex === -1) {
       // 見つからなければ最初の曲
-      if (process.env.NODE_ENV === 'development') {
-        console.log('Track not found in current list, playing first track');
-        console.log('Current track:', currentTrack?.title || currentTrack?.name);
-        console.log('Available tracks:', trackList.map(t => t.title || t.name));
-      }
       setCurrentTrack(trackList[0]);
       setCurrentTrackIndex(0);
       setIsPlaying(true);
@@ -561,15 +451,9 @@ export const PlayerProvider = ({ children }) => {
     }
 
     const nextIndex = currentIndex + 1;
-    if (process.env.NODE_ENV === 'development') {
-      console.log('Next index:', nextIndex, 'Track list length:', trackList.length);
-    }
 
     if (nextIndex >= trackList.length) {
       // 最後の曲ならonPageEnd
-      if (process.env.NODE_ENV === 'development') {
-        console.log('Reached end of track list, calling onPageEnd');
-      }
       if (onPageEndRef.current && typeof onPageEndRef.current === 'function') {
         try {
           onPageEndRef.current();
@@ -581,14 +465,6 @@ export const PlayerProvider = ({ children }) => {
     }
 
     const nextTrack = trackList[nextIndex];
-    if (process.env.NODE_ENV === 'development') {
-      console.log('Playing next track:', nextTrack?.title || nextTrack?.name, 'at index:', nextIndex);
-      console.log('Next track details:', {
-        id: nextTrack?.id,
-        spotifyTrackId: nextTrack?.spotifyTrackId,
-        title: nextTrack?.title || nextTrack?.name
-      });
-    }
     
     // 現在の曲の再生を停止
     if (playTracker) {
@@ -597,14 +473,6 @@ export const PlayerProvider = ({ children }) => {
     
     // 少し遅延してから次の曲を再生
     setTimeout(() => {
-      if (process.env.NODE_ENV === 'development') {
-        console.log('Setting next track state:', {
-          track: nextTrack?.title || nextTrack?.name,
-          index: nextIndex,
-          isPlaying: true
-        });
-      }
-      
       setCurrentTrack(nextTrack);
       setCurrentTrackIndex(nextIndex);
       setIsPlaying(true);
@@ -614,18 +482,6 @@ export const PlayerProvider = ({ children }) => {
       if (playTracker && session?.user?.id) {
         playTracker.startTracking(nextTrack, nextTrack.id, currentTrackListSource.current);
       }
-      
-      // 状態が正しく更新されたことを確認
-      setTimeout(() => {
-        const updatedState = stateRef.current;
-        if (process.env.NODE_ENV === 'development') {
-          console.log('State after playNext:', {
-            currentTrack: updatedState.currentTrack?.title || updatedState.currentTrack?.name,
-            currentTrackIndex: updatedState.currentTrackIndex,
-            isPlaying: updatedState.isPlaying
-          });
-        }
-      }, 50);
     }, 100);
   }, [playTracker, session]);
 
@@ -666,36 +522,16 @@ export const PlayerProvider = ({ children }) => {
 
   // 曲が終了した時の処理
   const handleTrackEnd = useCallback(() => {
-    if (process.env.NODE_ENV === 'development') {
-      console.log('handleTrackEnd called');
-    }
-    
     if (playTracker) {
       playTracker.stopTracking(true); // 完了として記録
     }
     
     // 現在の状態を確認
     const { trackList, currentTrack, currentTrackIndex } = stateRef.current;
-    if (process.env.NODE_ENV === 'development') {
-      console.log('handleTrackEnd state:', {
-        trackListLength: trackList.length,
-        currentTrack: currentTrack?.title || currentTrack?.name,
-        currentTrackIndex,
-        currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id,
-        trackListSource: currentTrackListSource.current,
-        trackListSample: trackList.slice(0, 3).map(t => ({
-          id: t.id,
-          spotifyTrackId: t.spotifyTrackId,
-          title: t.title || t.name
-        }))
-      });
-    }
     
     // トップページ特有のデバッグ情報
     if (currentTrackListSource.current && currentTrackListSource.current.includes('top')) {
-      if (process.env.NODE_ENV === 'development') {
-        console.log('Top page track ended - calling playNext');
-      }
+      // トップページの場合は何もしない（ログも出力しない）
     }
     
     playNext();
@@ -705,9 +541,6 @@ export const PlayerProvider = ({ children }) => {
   useEffect(() => {
     if (playTracker && !isPlaying && currentTrack) {
       // 再生が停止された時に視聴履歴を記録
-      if (process.env.NODE_ENV === 'development') {
-        console.log('Playback stopped, recording play history');
-      }
       playTracker.stopTracking(false); // 中断として記録
     }
   }, [isPlaying, playTracker, currentTrack]);

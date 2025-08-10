@@ -219,9 +219,7 @@ export default async function ArtistPageWithPagination({ params }) {
   // slugをartistDataに追加
   artistData.slug = slug;
   
-  // デバッグログを追加
-  console.log('Server side - artistData after setting slug:', artistData);
-  console.log('Server side - slug value:', slug);
+  // デバッグログを削除
 
   const songs = await getArtistSongs(slug, page);
   const allSongs = await getAllArtistSongs(slug);
@@ -236,11 +234,7 @@ export default async function ArtistPageWithPagination({ params }) {
   const topGenres = calculateTopGenres(allSongs);
   const relatedArtists = extractRelatedArtists(artistData);
 
-  console.log('Calculated data:', {
-    stylePercentages,
-    topGenres,
-    relatedArtists: relatedArtists.length
-  });
+  // Calculated data logging removed
 
   return (
     <Suspense fallback={<div>Loading Artist...</div>}>

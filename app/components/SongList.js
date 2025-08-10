@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo, useEffect, useRef } from "react";
+import React, { useState, useMemo, useEffect, useRef, useCallback } from "react";
 import ReactDOM from "react-dom";
 import styles from "./SongList.module.css";
 import MicrophoneIcon from "./MicrophoneIcon";
@@ -10,6 +10,7 @@ import he from "he";
 import { usePlayer } from './PlayerContext';
 import { useSpotifyLikes } from './SpotifyLikes';
 import { useSession } from 'next-auth/react';
+import CreatePlaylistModal from './CreatePlaylistModal';
 
 // CloudinaryのベースURL
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
@@ -225,7 +226,7 @@ function groupPostsByYear(posts) {
 // SongList コンポーネント本体
 // ──────────────────────────────
 
-function SongList({
+export default function SongList({
   songs = [],
   currentPage = 1,
   styleSlug,
@@ -246,6 +247,9 @@ function SongList({
   const [isPopupVisible, setIsPopupVisible] = useState(false);
   const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
   const [popupSong, setPopupSong] = useState(null);
+  const [showCreateModal, setShowCreateModal] = useState(false);
+  const [trackToAdd, setTrackToAdd] = useState(null);
+  const [userPlaylists, setUserPlaylists] = useState([]);
 
   // Spotify Track IDsを抽出（ページ内の曲のみ）
   const trackIds = useMemo(() => {
@@ -301,21 +305,12 @@ function SongList({
     }
   };
 
-  const handleThumbnailClick = (song, index) => {
-    // ログイン前はログインを促す
-    if (!session || !accessToken) {
-      alert('曲を再生するにはSpotifyログインが必要です。\n画面右上の「Sign in with Spotify」ボタンからログインしてください。');
-      return;
-    }
+  const handleThumbnailClick = useCallback((song) => {
+    const finalSource = source || 'unknown';
+    const styleSlug = pageType === 'style' ? finalSource.split('/')[1] : null;
     
-    // sourceプロパティが渡されている場合はそれを使用、そうでなければ従来の方法で生成
-    const finalSource = source || `${pageType}/${styleSlug}/${currentPage}`;
-    console.log('SongList handleThumbnailClick - finalSource:', finalSource);
-    console.log('SongList handleThumbnailClick - source prop:', source);
-    console.log('SongList handleThumbnailClick - pageType:', pageType, 'styleSlug:', styleSlug, 'currentPage:', currentPage);
-    
-    player.playTrack(song, index, safeSongs, finalSource, onPageEnd);
-  };
+    player.playTrack(song, songs.findIndex(s => s.id === song.id), songs, finalSource, onPageEnd);
+  }, [source, pageType, player, songs, onPageEnd]);
 
   const handleThreeDotsClick = (e, song) => {
     e.stopPropagation();
@@ -347,12 +342,11 @@ function SongList({
   };
 
   const handleAddToPlaylistClick = (songId) => {
-    const numericId = typeof songId === 'string' ? parseInt(songId, 10) : songId;
-    if (isNaN(numericId)) {
-      console.error('Invalid song ID:', songId);
-      return;
+    const song = songs.find(s => s.id === songId);
+    if (song) {
+      setTrackToAdd(song);
+      setShowCreateModal(true);
     }
-    setSelectedSong(numericId);
     setIsPopupVisible(false);
   };
 
@@ -377,7 +371,6 @@ function SongList({
       prevSourceRef.current = finalSource;
       const firstSong = safeSongs[0];
       try {
-        console.log('SongList autoPlay - finalSource:', finalSource);
         player.playTrack(firstSong, 0, safeSongs, finalSource, onPageEnd);
       } catch (error) {
         console.error('Error auto-playing first track:', error);
@@ -406,6 +399,74 @@ function SongList({
       return { year, songs: sortedSongs };
     });
   }, [songs]);
+
+  // ユーザーのプレイリスト一覧を取得
+  const fetchUserPlaylists = async () => {
+    try {
+      const response = await fetch('/api/playlists');
+      if (response.ok) {
+        const data = await response.json();
+        setUserPlaylists(data.playlists || []);
+      }
+    } catch (err) {
+      console.error('プレイリスト取得エラー:', err);
+    }
+  };
+
+  // プレイリストに追加
+  const handleAddToPlaylist = (track) => {
+    setTrackToAdd(track);
+    setShowCreateModal(true);
+  };
+
+  // 既存プレイリストに追加
+  const addTrackToPlaylist = async (track, playlistId) => {
+    try {
+      const response = await fetch(`/api/playlists/${playlistId}/tracks`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          song_id: track.id,
+          track_id: track.id,
+          title: track.title?.rendered || track.title,
+          artists: track.artists || [],
+          thumbnail_url: getThumbnailUrl(track),
+          style_id: track.style_id,
+          style_name: track.style_name,
+          release_date: track.date
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('曲の追加に失敗しました');
+      }
+
+      console.log('プレイリストに追加しました！');
+    } catch (err) {
+      console.error('曲の追加に失敗しました:', err.message);
+    }
+  };
+
+  // 新規プレイリスト作成モーダルを開く
+  const openCreatePlaylistModal = (track) => {
+    setTrackToAdd(track);
+    setShowCreateModal(true);
+  };
+
+  // プレイリスト作成完了
+  const handlePlaylistCreated = (newPlaylist) => {
+    console.log(`プレイリスト「${newPlaylist.name}」を作成し、曲を追加しました！`);
+    fetchUserPlaylists(); // プレイリスト一覧を更新
+  };
+
+  // コンポーネントマウント時にプレイリスト一覧を取得
+  useEffect(() => {
+    if (session) {
+      fetchUserPlaylists();
+    }
+  }, [session]);
 
   return (
     <div className={styles.songlistWrapper}>
@@ -571,18 +632,18 @@ function SongList({
 
             return (
               <>
-                <div style={separatorStyle}>
-                  {song.artists?.map(artist => (
-                    <Link href={`/${artist.slug}`} key={artist.id} legacyBehavior>
+                <div key="artists-section" style={separatorStyle}>
+                  {song.artists?.map((artist, index) => (
+                    <Link href={`/${artist.slug}`} key={artist.id || `artist-${index}`} legacyBehavior>
                       <a style={{ ...menuItemStyle, ...linkColorStyle, fontWeight: 'bold' }}>
                         <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
                         {artist.name}
                       </a>
-                </Link>
+                    </Link>
                   ))}
                 </div>
 
-                <div style={separatorStyle}>
+                <div key="song-section" style={separatorStyle}>
                   <Link href={`/${song.artists[0]?.slug}/songs/${song.titleSlug}`} legacyBehavior>
                     <a style={{...menuItemStyle, ...linkColorStyle}}>
                       <img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
@@ -591,18 +652,18 @@ function SongList({
                   </Link>
                 </div>
 
-                {song.genres?.map(genre => (
-                  <div key={genre.term_id} style={separatorStyle}>
+                {song.genres?.map((genre, index) => (
+                  <div key={`genre-${genre.term_id || index}`} style={separatorStyle}>
                     <Link href={`/genres/${genre.slug}/1`} legacyBehavior>
                       <a style={{...menuItemStyle, ...linkColorStyle}}>
                         <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
                         {genre.name}
                       </a>
-                  </Link>
-                </div>
-              ))}
+                    </Link>
+                  </div>
+                ))}
 
-                <div style={separatorStyle}>
+                <div key="add-to-playlist-section" style={separatorStyle}>
                   <button onClick={onAddToPlaylist} style={menuButtonStlye}>
                     <img src="/svg/add.svg" alt="" style={{ width: 16, marginRight: 8 }} />
                     プレイリストに追加
@@ -610,7 +671,7 @@ function SongList({
                 </div>
 
                 {song.spotifyTrackId && (
-                  <div style={separatorStyle}>
+                  <div key="spotify-section" style={separatorStyle}>
                     <a href={`https://open.spotify.com/track/${song.spotifyTrackId}`} target="_blank" rel="noopener noreferrer" style={{...menuItemStyle, ...linkColorStyle}}>
                       <img src="/svg/spotify.svg" alt="" style={{ width: 16, marginRight: 8 }} />
                       Spotifyで開く
@@ -618,7 +679,7 @@ function SongList({
                   </div>
                 )}
 
-                <div>
+                <div key="copy-url-section">
                   <button onClick={onCopyUrl} style={menuButtonStlye}>
                     <img src="/svg/copy.svg" alt="" style={{ width: 16, marginRight: 8 }} />
                     曲のURLをコピー
@@ -629,8 +690,16 @@ function SongList({
           }}
         />
       )}
+      {showCreateModal && trackToAdd && (
+        <CreatePlaylistModal
+          isOpen={showCreateModal}
+          onClose={() => setShowCreateModal(false)}
+          onCreate={handlePlaylistCreated}
+          trackToAdd={trackToAdd}
+          userPlaylists={userPlaylists}
+          onAddToPlaylist={addTrackToPlaylist}
+        />
+      )}
     </div>
   );
 }
-
-export default SongList;
