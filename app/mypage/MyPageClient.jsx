@@ -150,13 +150,35 @@ export default function MyPageClient({ session }) {
       if (response.ok) {
         const data = await response.json();
         console.log('Fetched play history data:', data);
-        setPlayHistory(data.playHistory || []);
+        
+        // フロントエンドでも重複フィルタリングを実行
+        const rawHistory = data.playHistory || [];
+        const filteredHistory = [];
+        const seenTracks = new Set();
+        
+        for (const record of rawHistory) {
+          const trackKey = `${record.track_id || record.song_id}`;
+          
+          if (!seenTracks.has(trackKey)) {
+            filteredHistory.push(record);
+            seenTracks.add(trackKey);
+          }
+        }
+        
+        console.log('Filtered play history:', {
+          original: rawHistory.length,
+          filtered: filteredHistory.length
+        });
+        
+        setPlayHistory(filteredHistory);
         setStats(data.stats || {});
         setDebugInfo({
-          hasData: data.playHistory?.length > 0,
-          dataCount: data.playHistory?.length || 0,
+          hasData: filteredHistory.length > 0,
+          dataCount: filteredHistory.length,
           hasStats: !!data.stats,
-          responseStatus: response.status
+          responseStatus: response.status,
+          originalCount: rawHistory.length,
+          filteredCount: filteredHistory.length
         });
       } else {
         console.error('Failed to fetch play history:', response.status, response.statusText);
@@ -390,6 +412,9 @@ export default function MyPageClient({ session }) {
             error: debugInfo.error,
             status: debugInfo.status,
             errorMessage: debugInfo.errorMessage,
+            // 重複フィルタリング情報
+            originalCount: debugInfo.originalCount,
+            filteredCount: debugInfo.filteredCount,
             // 追加: track_idとlikedTracksの詳細
             trackIds: trackIds,
             likedTracksSize: likedTracks.size,

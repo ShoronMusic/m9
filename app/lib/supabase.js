@@ -83,6 +83,32 @@ export const recordPlayHistory = async (playData) => {
   try {
     console.log('Supabase: Inserting play history data...');
     
+    // 重複チェック: 同じ曲が短時間で連続記録されることを防ぐ
+    const duplicateCheck = await supabase
+      .from('play_history')
+      .select('id, created_at')
+      .eq('user_id', playData.user_id)
+      .eq('track_id', playData.track_id)
+      .eq('song_id', playData.song_id)
+      .order('created_at', { ascending: false })
+      .limit(1);
+    
+    if (duplicateCheck.data && duplicateCheck.data.length > 0) {
+      const lastRecord = duplicateCheck.data[0];
+      const timeDiff = Date.now() - new Date(lastRecord.created_at).getTime();
+      const minInterval = 5 * 60 * 1000; // 5分間隔
+      
+      if (timeDiff < minInterval) {
+        console.log('Supabase: Duplicate record detected, skipping. Time since last record:', timeDiff / 1000, 'seconds');
+        return { 
+          data: lastRecord, 
+          error: null, 
+          skipped: true, 
+          reason: 'Duplicate record within time limit' 
+        };
+      }
+    }
+    
     // テーブル構造に合わせてデータを整形
     const insertData = {
       user_id: playData.user_id,
@@ -144,16 +170,34 @@ export const getPlayHistory = async (userId, limit = 50) => {
       .select('*')
       .eq('user_id', userId)
       .order('created_at', { ascending: false })
-      .limit(limit);
+      .limit(limit * 2); // 重複フィルタリングのため、より多くのデータを取得
     
     if (error) {
       console.error('Supabase getPlayHistory error:', error);
       return { data: [], error };
     }
 
+    // 重複フィルタリング: 同じ曲が連続で表示されることを防ぐ
+    const filteredHistory = [];
+    const seenTracks = new Set();
+    
+    for (const record of playHistory) {
+      const trackKey = `${record.track_id || record.song_id}`;
+      
+      if (!seenTracks.has(trackKey)) {
+        filteredHistory.push(record);
+        seenTracks.add(trackKey);
+        
+        // 指定された制限に達したら停止
+        if (filteredHistory.length >= limit) {
+          break;
+        }
+      }
+    }
+
     // 各視聴履歴に対して、Spotify APIからお気に入り情報を取得
     const playHistoryWithFavorites = await Promise.all(
-      playHistory.map(async (record) => {
+      filteredHistory.map(async (record) => {
         try {
           // データベースのis_favoriteを優先し、フロントエンドでSpotify APIから取得した情報で上書き
           return {

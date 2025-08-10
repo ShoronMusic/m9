@@ -452,36 +452,19 @@ export const PlayerProvider = ({ children }) => {
         });
       }
       
-      // 視聴履歴追跡を開始
+      // 視聴履歴追跡を開始（重複を防ぐため一度だけ呼び出し）
       if (playTracker && session?.user?.id) {
         playTracker.startTracking(newTrack, track.id, source);
       }
     });
     
     if (process.env.NODE_ENV === 'development') {
-      console.log('Setting new track immediately:', {
-        newTrack: newTrack.title,
-        newTrackId: newTrack.spotifyTrackId || newTrack.id,
-        isPlaying: true
-      });
-    }
-    
-    // 視聴履歴追跡を開始
-    if (playTracker && session?.user?.id) {
-      playTracker.startTracking(newTrack, track.id, source);
-    }
-    
-    if (process.env.NODE_ENV === 'development') {
       console.log('Setting new track:', {
-        newTrack: newTrack.title,
-        newTrackId: newTrack.spotifyTrackId || newTrack.id,
-        isPlaying: true
+        newTrack,
+        index,
+        songsLength: songs.length,
+        source
       });
-    }
-    
-    // 視聴履歴追跡を開始
-    if (playTracker && session?.user?.id) {
-      playTracker.startTracking(newTrack, track.id, source);
     }
     
     if (process.env.NODE_ENV === 'development') {

@@ -6,6 +6,8 @@ export class PlayTracker {
     this.timer = null;
     this.isTracking = false;
     this.pendingRecord = null; // 保留中の記録データ
+    this.lastRecordedTrack = null; // 最後に記録した曲の情報
+    this.lastRecordedTime = 0; // 最後に記録した時刻
     
     if (process.env.NODE_ENV === 'development') {
       console.log('PlayTracker: Initialized with userId:', userId);
@@ -250,6 +252,25 @@ export class PlayTracker {
       return;
     }
 
+    // 重複チェック: 同じ曲が短時間で連続記録されることを防ぐ
+    const currentTrackId = trackData.track.spotifyTrackId || trackData.track.id;
+    const currentSongId = trackData.songId;
+    const currentTime = Date.now();
+    const minInterval = 5 * 60 * 1000; // 5分間隔
+    
+    if (this.lastRecordedTrack && 
+        this.lastRecordedTrack.trackId === currentTrackId && 
+        this.lastRecordedTrack.songId === currentSongId &&
+        (currentTime - this.lastRecordedTime) < minInterval) {
+      
+      const timeDiff = (currentTime - this.lastRecordedTime) / 1000;
+      console.log('PlayTracker: Duplicate record detected, skipping. Time since last record:', timeDiff, 'seconds');
+      
+      // 保留データをクリア
+      this.pendingRecord = null;
+      return;
+    }
+
     // アーティスト名とタイトルの取得を改善
     const artistName = trackData.track.artist || 
                       trackData.track.artistName || 
@@ -345,6 +366,14 @@ export class PlayTracker {
             responseData
           });
         }
+        
+        // 記録成功後、最後に記録した曲の情報を更新
+        this.lastRecordedTrack = {
+          trackId: currentTrackId,
+          songId: currentSongId
+        };
+        this.lastRecordedTime = currentTime;
+        
         // 記録成功後、保留データをクリア
         this.pendingRecord = null;
       } else {
