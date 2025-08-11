@@ -21,6 +21,13 @@
   font-weight: 700;
 }
 
+.playlistTitle {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .description {
   color: #666;
   margin: 0 0 15px 0;
@@ -32,12 +39,19 @@
   display: flex;
   gap: 20px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .trackCount {
   font-size: 16px;
   color: #666;
   font-weight: 600;
+}
+
+.lastUpdated {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
 }
 
 .visibility {
@@ -109,28 +123,55 @@
   font-size: 20px;
 }
 
+/* トラックヘッダーラベル */
+.trackLabels {
+  display: grid;
+  grid-template-columns: 40px 60px 1fr 120px 120px 120px 60px;
+  gap: 15px;
+  padding: 10px 20px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 600;
+  color: #666;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.labelPosition,
+.labelInfo,
+.labelReleaseDate,
+.labelStyleName,
+.labelAddedDate,
+.labelActions {
+  text-align: center;
+}
+
+.labelInfo {
+  text-align: left;
+}
+
 .tracksList {
   padding: 0;
 }
 
 .trackItem {
   display: grid;
-  grid-template-columns: 40px 50px 60px 1fr 80px 120px 60px;
+  grid-template-columns: 40px 60px 1fr 120px 120px 120px 60px;
   gap: 15px;
-  align-items: center;
   padding: 15px 20px;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #e0e0e0;
+  align-items: center;
   transition: background-color 0.2s;
-  cursor: move;
 }
 
 .trackItem:hover {
-  background: #f8f9fa;
+  background-color: #f8f9fa;
 }
 
 .trackItem.dragging {
   opacity: 0.5;
-  background: #e3f2fd;
+  background-color: #e3f2fd;
 }
 
 /* ドラッグハンドル */
@@ -152,14 +193,6 @@
   color: #666;
   text-align: center;
   font-size: 14px;
-}
-
-/* サムネール */
-.thumbnail img {
-  width: 50px;
-  height: 50px;
-  border-radius: 4px;
-  object-fit: cover;
 }
 
 /* 曲情報 */
@@ -185,18 +218,21 @@
   text-overflow: ellipsis;
 }
 
-/* スタイルアイコン */
-.styleIcon img {
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
-}
-
 /* リリース日 */
 .releaseDate {
   font-size: 13px;
   color: #666;
   text-align: center;
+}
+
+/* スタイル名 */
+.styleName {
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* トラックアクション */
@@ -282,13 +318,18 @@
   }
   
   .trackItem {
-    grid-template-columns: 30px 40px 1fr 60px;
+    grid-template-columns: 40px 60px 1fr 60px;
     gap: 10px;
-    padding: 12px 15px;
+    padding: 10px 15px;
   }
   
-  .styleIcon,
-  .releaseDate {
+  .releaseDate,
+  .styleName,
+  .addedDate {
+    display: none;
+  }
+  
+  .trackLabels {
     display: none;
   }
   
@@ -296,6 +337,11 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+  }
+
+  .songId,
+  .trackId {
+    display: none;
   }
 }
 
@@ -320,3 +366,20 @@
 .notFound {
   color: #666;
 }
+
+.songId,
+.trackId {
+  font-size: 11px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.addedDate {
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+

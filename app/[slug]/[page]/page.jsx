@@ -34,14 +34,12 @@ async function fetchData(url, retries = 3) {
         clearTimeout(timeoutId);
         
         if (!res.ok) {
-          console.error(`HTTP ${res.status} for ${url}`);
           if (attempt === retries) return null;
           continue;
         }
         
         return await res.json();
       } catch (error) {
-        console.error(`Fetch attempt ${attempt} failed for ${url}:`, error.message);
         if (attempt === retries) return null;
         
         // リトライ前に少し待機
@@ -55,29 +53,30 @@ async function fetchData(url, retries = 3) {
       const fileContent = await fs.readFile(filePath, 'utf-8');
       return JSON.parse(fileContent);
     } catch (error) {
-      // console.error(`Read file failed for ${filePath}:`, error);
       return null;
     }
   }
 }
 
 async function getArtistDetails(slug) {
-  const data = await fetchData(`artists/${slug}.json`);
-  console.log(`Artist data for ${slug}:`, data);
-  
-  // データが取得できない場合のフォールバック
-  if (!data) {
-    console.error(`Failed to fetch artist data for ${slug}`);
+  try {
+    const data = await fetchData(`artists/${slug}.json`);
+    
+    // データが取得できない場合のフォールバック
+    if (!data) {
+      return null;
+    }
+    
+    // データの構造を確認
+    if (!data.name && !data.title) {
+      return null;
+    }
+    
+    return data;
+  } catch (error) {
+    // エラーが発生した場合は静かにnullを返す
     return null;
   }
-  
-  // データの構造を確認
-  if (!data.name && !data.title) {
-    console.error(`Invalid artist data structure for ${slug}:`, data);
-    return null;
-  }
-  
-  return data;
 }
 
 async function getArtistSongs(slug, page) {
@@ -91,14 +90,16 @@ async function getArtistSongs(slug, page) {
 
 async function getAllArtistSongs(slug) {
   let allSongs = [];
-    let pageNum = 1;
-    while (true) {
-        const songs = await getArtistSongs(slug, pageNum);
-        if (songs.length === 0) break;
-        allSongs = allSongs.concat(songs);
-      pageNum++;
-    }
-    return allSongs;
+  let pageNum = 1;
+  const maxPages = 50; // セーフガード: 最大50ページまで
+  
+  while (pageNum <= maxPages) {
+    const songs = await getArtistSongs(slug, pageNum);
+    if (songs.length === 0) break;
+    allSongs = allSongs.concat(songs);
+    pageNum++;
+  }
+  return allSongs;
 }
 
 // --- スタイル・ジャンル・関連アーティスト計算関数 ---
@@ -287,8 +288,8 @@ export async function generateStaticParams() {
     const artists = await fetchData('artists.json');
     if (!artists || !Array.isArray(artists)) return [];
 
-    // 開発環境では最初の100件のみを静的生成
-    const limitedArtists = artists.slice(0, 100);
+    // 開発環境では最初の10件のみを静的生成（パフォーマンス向上のため）
+    const limitedArtists = artists.slice(0, 10);
     const params = [];
     
     for (const artist of limitedArtists) {
@@ -299,7 +300,7 @@ export async function generateStaticParams() {
 
     return params;
   } catch (error) {
-    console.error('Error in generateStaticParams:', error);
+    // エラーが発生した場合は空配列を返す
     return [];
   }
 }
