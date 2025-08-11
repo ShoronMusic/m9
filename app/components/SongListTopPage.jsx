@@ -212,7 +212,9 @@ export default function SongListTopPage({
 	const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
 	const [popupSong, setPopupSong] = useState(null);
 	const [showCreateModal, setShowCreateModal] = useState(false);
+	const [showCreatePlaylistModal, setShowCreatePlaylistModal] = useState(false);
 	const [trackToAdd, setTrackToAdd] = useState(null);
+	const [selectedTrack, setSelectedTrack] = useState(null);
 	const [userPlaylists, setUserPlaylists] = useState([]);
 
 	useEffect(() => {
@@ -256,7 +258,8 @@ export default function SongListTopPage({
 		const song = songs.find(s => s.id === songId);
 		if (song) {
 			setTrackToAdd(song);
-			setShowCreateModal(true);
+			setSelectedTrack(song);
+			setShowCreatePlaylistModal(true);
 		}
 		setIsPopupVisible(false);
 	};
@@ -578,4 +581,28 @@ export default function SongListTopPage({
 								</div>
 
 								{song.genres?.map((genre, index) => (
-									<div key={`genre-${genre.term_id || index}`
+									<div key={`genre-${genre.term_id || index}`} style={separatorStyle}>
+										<Link href={`/genres/${genre.slug}`} legacyBehavior>
+											<a style={{...menuItemStyle, ...linkColorStyle}}>
+												<img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+												{genre.name}
+											</a>
+										</Link>
+									</div>
+								))}
+							</>
+						);
+					}}
+				/>
+			)}
+
+			{showCreatePlaylistModal && (
+				<CreatePlaylistModal
+					onClose={() => setShowCreatePlaylistModal(false)}
+					onPlaylistCreated={handlePlaylistCreated}
+					initialTrack={selectedTrack}
+				/>
+			)}
+		</div>
+	);
+}
