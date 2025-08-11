@@ -43,6 +43,14 @@ export const PlayerProvider = ({ children }) => {
   // 視聴履歴追跡
   const [playTracker, setPlayTracker] = useState(null);
 
+  // プレイリスト更新の状態管理
+  const [playlistUpdateTrigger, setPlaylistUpdateTrigger] = useState(0);
+
+  // プレイリスト更新をトリガーする関数
+  const triggerPlaylistUpdate = useCallback(() => {
+    setPlaylistUpdateTrigger(prev => prev + 1);
+  }, []);
+
   // Stale closureを避けるために最新のステートをrefで保持
   const stateRef = useRef();
   useEffect(() => {
@@ -340,7 +348,17 @@ export const PlayerProvider = ({ children }) => {
   }, [isPowerSaveMode]);
 
   const playTrack = useCallback((track, index, songs, source, onPageEnd = null) => {
+    console.log('🎵 PlayerContext - playTrack called:', {
+      track,
+      index,
+      songsLength: songs?.length,
+      source,
+      currentSource: currentTrackListSource.current,
+      isNewSource: source !== currentTrackListSource.current
+    });
+    
     if (source !== currentTrackListSource.current) {
+        console.log('🔄 PlayerContext - New source detected, resetting state');
         // 状態を完全にリセット
         setCurrentTrack(null);
         setCurrentTrackIndex(-1);
@@ -350,13 +368,16 @@ export const PlayerProvider = ({ children }) => {
         setTrackList(songs);
         currentTrackListSource.current = source;
     } else {
+        console.log('🔄 PlayerContext - Same source, checking for duplicate track');
         // すでに同じsourceで同じ曲なら何もしない
         if (currentTrack && currentTrack.id === track.id) {
+          console.log('⏭️ PlayerContext - Same track, skipping');
           return;
         }
         
         // 同じsourceだが曲リストが変わった場合、リストを更新
         if (songs !== trackList) {
+          console.log('🔄 PlayerContext - Updating track list');
           setTrackList(songs);
         }
     }
@@ -379,21 +400,32 @@ export const PlayerProvider = ({ children }) => {
       playTracker.stopTracking(false); // 中断として記録
     }
     
+    console.log('🔄 PlayerContext - Clearing previous track state');
     // 前の曲の情報を即座にクリアしてから新しい曲を設定
     setCurrentTrack(null);
     setCurrentTrackIndex(-1);
     setIsPlaying(false);
     setPosition(0);
     
+    console.log('🔄 PlayerContext - Scheduling new track state update');
     // 次のフレームで新しい曲を設定（状態のクリアを確実にする）
     requestAnimationFrame(() => {
+      console.log('🎵 PlayerContext - Setting new track state:', {
+        newTrack,
+        index,
+        isPlaying: true
+      });
+      
       setCurrentTrack(newTrack);
       setCurrentTrackIndex(index);
       setIsPlaying(true);
       setPosition(0);
       
+      console.log('✅ PlayerContext - New track state set successfully');
+      
       // 視聴履歴追跡を開始（重複を防ぐため一度だけ呼び出し）
       if (playTracker && session?.user?.id) {
+        console.log('📊 PlayerContext - Starting play tracking');
         playTracker.startTracking(newTrack, track.id, source);
       }
     });
@@ -569,6 +601,9 @@ export const PlayerProvider = ({ children }) => {
     deviceInfo,
     isPowerSaveMode,
     handleTrackEnd,
+    // プレイリスト更新関連
+    playlistUpdateTrigger,
+    triggerPlaylistUpdate,
   };
 
   return (
@@ -576,4 +611,7 @@ export const PlayerProvider = ({ children }) => {
       {children}
     </PlayerContext.Provider>
   );
-}; 
+};
+
+// デフォルトエクスポートを追加
+export default PlayerProvider; 

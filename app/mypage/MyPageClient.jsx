@@ -10,7 +10,7 @@ import styles from './MyPage.module.css';
 
 export default function MyPageClient({ session }) {
   const { data: sessionData } = useSession();
-  const { currentTrack, trackList, isPlaying } = usePlayer();
+  const { currentTrack, trackList, isPlaying, playlistUpdateTrigger, triggerPlaylistUpdate } = usePlayer();
   const [playHistory, setPlayHistory] = useState([]);
   const [stats, setStats] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -54,12 +54,34 @@ export default function MyPageClient({ session }) {
     }
   }, [session?.user?.id]);
 
+  // プレイリスト追加後のコールバック関数
+  const handlePlaylistCreated = useCallback((newPlaylist) => {
+    console.log('Playlist created, updating playlist list:', newPlaylist);
+    // 新しいプレイリストをリストに追加
+    setPlaylists(prevPlaylists => [newPlaylist, ...prevPlaylists]);
+  }, []);
+
+  // プレイリストに曲が追加された後のコールバック関数
+  const handleTrackAddedToPlaylist = useCallback(async (track, playlistId) => {
+    console.log('Track added to playlist, refreshing playlist list:', { track, playlistId });
+    // プレイリスト一覧を再取得
+    await fetchPlaylists();
+  }, [fetchPlaylists]);
+
   // プレイリスト一覧を初期化時に取得
   useEffect(() => {
     if (session?.user?.id) {
       fetchPlaylists();
     }
   }, [session?.user?.id, fetchPlaylists]);
+
+  // プレイリスト更新トリガーの変更を監視
+  useEffect(() => {
+    if (playlistUpdateTrigger > 0) {
+      console.log('Playlist update triggered, refreshing playlist list');
+      fetchPlaylists();
+    }
+  }, [playlistUpdateTrigger, fetchPlaylists]);
 
   // ページ変更ハンドラー
   const handlePageChange = (page) => {

@@ -42,7 +42,9 @@ function getThumbnailUrl(song) {
 
 // HTML エンティティをデコードするヘルパー（he を使用）
 function decodeHtml(html = "") {
-  const cleanHtml = (html || "").replace(/<b>/g, '').replace(/<\/b>/g, '');
+  // htmlパラメータが文字列でない場合は空文字列に変換
+  const htmlString = typeof html === 'string' ? html : String(html || "");
+  const cleanHtml = htmlString.replace(/<b>/g, '').replace(/<\/b>/g, '');
   return he.decode(cleanHtml);
 }
 
@@ -175,7 +177,11 @@ function formatYear(dateStr) {
 // ジャンル名をデコードして連結
 function formatGenres(genreArr) {
   if (!Array.isArray(genreArr) || genreArr.length === 0) return "Unknown Genre";
-  return genreArr.map((g) => decodeHtml(g.name)).join(" / ");
+  return genreArr.map((g) => {
+    if (!g || typeof g !== 'object') return "Unknown Genre";
+    const genreName = g.name || g.genre_name || g.slug || "Unknown Genre";
+    return decodeHtml(genreName);
+  }).join(" / ");
 }
 
 // 楽曲データからスタイル情報を抽出する関数
@@ -621,35 +627,72 @@ export default function SongList({
         }
       }
 
-             // ジャンル情報を取得（複数のソースから、複数ジャンル対応）
-       let genreInfo = null;
-       let allGenres = []; // 全ジャンル情報を保存
-       
-       if (track.genre_data && Array.isArray(track.genre_data) && track.genre_data.length > 0) {
-         allGenres = track.genre_data;
-         genreInfo = track.genre_data[0]; // 主要なジャンルとして最初のものを使用
-       } else if (track.genres && Array.isArray(track.genres) && track.genres.length > 0) {
-         allGenres = track.genres;
-         genreInfo = track.genres[0];
-       } else if (track.acf?.genre_id && track.acf?.genre_name) {
-         genreInfo = { term_id: track.acf.genre_id, name: track.acf.genre_name };
-         allGenres = [genreInfo];
-       } else if (track.genre_id && track.genre_name) {
-         genreInfo = { term_id: track.genre_id, name: track.genre_name };
-         allGenres = [genreInfo];
-       }
+      // ジャンル情報を取得（複数のソースから、複数ジャンル対応）
+      let genreInfo = null;
+      let allGenres = []; // 全ジャンル情報を保存
+      
+      if (track.genre_data && Array.isArray(track.genre_data) && track.genre_data.length > 0) {
+        allGenres = track.genre_data;
+        genreInfo = track.genre_data[0]; // 主要なジャンルとして最初のものを使用
+      } else if (track.genres && Array.isArray(track.genres) && track.genres.length > 0) {
+        allGenres = track.genres;
+        genreInfo = track.genres[0];
+      } else if (track.acf?.genre_id && track.acf?.genre_name) {
+        genreInfo = { term_id: track.acf.genre_id, name: track.acf.genre_name };
+        allGenres = [genreInfo];
+      } else if (track.genre_id && track.genre_name) {
+        genreInfo = { term_id: track.genre_id, name: track.genre_name };
+        allGenres = [genreInfo];
+      }
 
-             // ボーカル情報を取得（複数のソースから）
-       let vocalInfo = null;
-       if (track.vocal_data && Array.isArray(track.vocal_data) && track.vocal_data.length > 0) {
-         vocalInfo = track.vocal_data[0];
-       } else if (track.vocals && Array.isArray(track.vocals) && track.vocals.length > 0) {
-         vocalInfo = track.vocals[0];
-       } else if (track.acf?.vocal_id && track.acf?.vocal_name) {
-         vocalInfo = { term_id: track.acf.vocal_id, name: track.acf.vocal_name };
-       } else if (track.vocal_id && track.vocal_name) {
-         vocalInfo = { term_id: track.vocal_id, name: track.vocal_name };
-       }
+      // 複数ジャンル名をカンマ区切りで作成（genre_nameフィールド用）
+      let genreNameForDisplay = null;
+      if (allGenres.length > 0) {
+        const genreNames = allGenres.map(genre => {
+          if (typeof genre === 'string') return genre;
+          if (typeof genre === 'object' && genre !== null) {
+            return genre.name || genre.genre_name || genre.slug || Object.values(genre)[0];
+          }
+          return String(genre);
+        }).filter(name => name && name !== 'null' && name !== 'undefined' && name !== 'unknown');
+        
+        if (genreNames.length > 0) {
+          genreNameForDisplay = genreNames.join(', ');
+        }
+      }
+      
+      // 単一ジャンル情報がない場合は、複数ジャンルから最初のものを使用
+      if (!genreInfo && allGenres.length > 0) {
+        const firstGenre = allGenres[0];
+        if (typeof firstGenre === 'string') {
+          genreInfo = { term_id: null, name: firstGenre };
+        } else if (typeof firstGenre === 'object' && firstGenre !== null) {
+          genreInfo = { 
+            term_id: firstGenre.term_id || firstGenre.id || null, 
+            name: firstGenre.name || firstGenre.genre_name || firstGenre.slug 
+          };
+        }
+      }
+
+      // ジャンルスラッグを取得
+      let genreSlug = null;
+      if (genreInfo && genreInfo.slug) {
+        genreSlug = genreInfo.slug;
+      } else if (allGenres.length > 0 && allGenres[0].slug) {
+        genreSlug = allGenres[0].slug;
+      }
+
+      // ボーカル情報を取得（複数のソースから）
+      let vocalInfo = null;
+      if (track.vocal_data && Array.isArray(track.vocal_data) && track.vocal_data.length > 0) {
+        vocalInfo = track.vocal_data[0];
+      } else if (track.vocals && Array.isArray(track.vocals) && track.vocals.length > 0) {
+        vocalInfo = track.vocals[0];
+      } else if (track.acf?.vocal_id && track.acf?.vocal_name) {
+        vocalInfo = { term_id: track.acf.vocal_id, name: track.acf.vocal_name };
+      } else if (track.vocal_id && track.vocal_name) {
+        vocalInfo = { term_id: track.vocal_id, name: track.vocal_name };
+      }
 
       // サムネイルURLを取得
       let thumbnailUrl = null;
@@ -697,18 +740,6 @@ export default function SongList({
         styleSlug = null; // 後で実装
       }
 
-      // ジャンルスラッグを取得
-      let genreSlug = null;
-      if (track.genres && Array.isArray(track.genres) && track.genres.length > 0) {
-        genreSlug = track.genres[0].slug || null;
-      }
-
-      // Spotifyアーティスト情報を取得
-      let spotifyArtists = null;
-      if (track.acf?.spotify_artists && Array.isArray(track.acf.spotify_artists)) {
-        spotifyArtists = JSON.stringify(track.acf.spotify_artists);
-      }
-
       // アーティスト順序を取得
       let artistOrder = null;
       if (track.acf?.artist_order && Array.isArray(track.acf.artist_order) && track.acf.artist_order.length > 0) {
@@ -730,42 +761,47 @@ export default function SongList({
       let videoId = track.videoId || track.youtubeId || null;
 
              // 送信データを準備（データベースに存在するフィールドのみ）
-       const requestData = {
-         // 基本項目（必須）
-         song_id: track.id,
-         track_id: track.id,
-         title: track.title?.rendered || track.title || 'Unknown Title',
-         artists: track.artists || [],
-         
-         // メディア情報
-         thumbnail_url: thumbnailUrl,
-         
-         // スタイル・ジャンル・ボーカル情報
-         style_id: styleInfo?.term_id || track.style_id,
-         style_name: styleInfo?.name || track.style_name,
-         genre_id: genreInfo?.term_id || track.genre_id,
-         genre_name: genreInfo?.name || track.genre_name,
-         vocal_id: vocalInfo?.term_id || track.vocal_id,
-         vocal_name: vocalInfo?.name || track.vocal_name,
-         
-         // 日付情報
-         release_date: releaseDate,
-         
-         // Spotify情報
-         spotify_track_id: track.acf?.spotify_track_id || track.spotifyTrackId,
-         spotify_images: spotifyImages,
-         spotify_artists: spotifyArtists,
-         
-         // その他の情報
-         is_favorite: false, // 新規追加時はデフォルトでfalse
-         artist_order: artistOrder,
-         content: content,
-         
-         // 追加の詳細情報（デバッグ用）
-         all_genres: allGenres.length > 0 ? JSON.stringify(allGenres) : null,
-         all_styles: track.style || track.styles || null,
-         all_vocals: track.vocal_data || track.vocals || null
-       };
+      const requestData = {
+        // 基本項目（必須）
+        song_id: track.id,
+        track_id: track.id,
+        title: track.title?.rendered || track.title || 'Unknown Title',
+        artists: track.artists || [],
+        
+        // メディア情報
+        thumbnail_url: thumbnailUrl,
+        
+        // スタイル・ジャンル・ボーカル情報（主要なもの）
+        style_id: styleInfo?.term_id || track.style_id,
+        style_name: styleInfo?.name || track.style_name,
+        genre_id: genreInfo?.term_id || track.genre_id,
+        genre_name: genreNameForDisplay || genreInfo?.name || track.genre_name,
+        vocal_id: vocalInfo?.term_id || track.vocal_id,
+        vocal_name: vocalInfo?.name || track.vocal_name,
+        
+        // 複数情報を格納する新しいフィールド
+        genre_data: allGenres.length > 0 ? allGenres : null,
+        style_data: track.style || track.styles || null,
+        vocal_data: track.vocal_data || track.vocals || null,
+        
+        // 日付情報
+        release_date: releaseDate,
+        
+        // Spotify情報
+        spotify_track_id: track.acf?.spotify_track_id || track.spotifyTrackId,
+        spotify_images: spotifyImages,
+        spotify_artists: spotifyArtists,
+        
+        // その他の情報
+        is_favorite: false, // 新規追加時はデフォルトでfalse
+        artist_order: artistOrder,
+        content: content,
+        
+        // 既存のフィールド（後方互換性のため）
+        all_genres: allGenres.length > 0 ? JSON.stringify(allGenres) : null,
+        all_styles: track.style || track.styles || null,
+        all_vocals: track.vocal_data || track.vocals || null
+      };
 
              // デバッグ用：スタイル情報の取得状況を確認
        console.log('=== スタイル情報取得デバッグ ===');
@@ -831,13 +867,24 @@ export default function SongList({
           <ul className={styles.songList}>
             {Array.isArray(group.songs) && group.songs.map((song, index) => {
               try {
-                const title = decodeHtml(song.title || song.title?.rendered || "No Title");
+                // titleの値を安全に取得
+                let titleValue = "No Title";
+                if (song.title) {
+                  if (typeof song.title === 'string') {
+                    titleValue = song.title;
+                  } else if (song.title.rendered && typeof song.title.rendered === 'string') {
+                    titleValue = song.title.rendered;
+                  }
+                }
+                
+                const title = decodeHtml(titleValue);
                 
                 // デバッグ用：タイトルの値を確認
                 if (pageType === 'style') {
                   console.log(`曲ID ${song.id} のタイトル情報:`, {
                     'song.title': song.title,
                     'song.title?.rendered': song.title?.rendered,
+                    'titleValue': titleValue,
                     '最終的なtitle': title
                   });
                 }

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { usePlayer } from './PlayerContext';
 import styles from './CreatePlaylistModal.module.css';
 
 // スタイルIDからスタイル名を取得する関数
@@ -28,6 +29,7 @@ export default function CreatePlaylistModal({
   onAddToPlaylist = null,
   onPlaylistCreated = null
 }) {
+  const { triggerPlaylistUpdate } = usePlayer();
   const [playlistData, setPlaylistData] = useState({
     name: '',
     description: '',
@@ -222,6 +224,7 @@ export default function CreatePlaylistModal({
         onPlaylistCreated(result.playlist);
       }
       onClose();
+      triggerPlaylistUpdate(); // プレイリスト作成後にトリガー
     } catch (err) {
       setError(err.message);
     } finally {
@@ -231,6 +234,34 @@ export default function CreatePlaylistModal({
 
   const addTrackToNewPlaylist = async (track, playlistId) => {
     try {
+      // 複数ジャンル名をカンマ区切りで作成（genre_nameフィールド用）
+      let genreNameForDisplay = null;
+      if (track.genres && Array.isArray(track.genres) && track.genres.length > 0) {
+        const genreNames = track.genres.map(genre => {
+          if (typeof genre === 'string') return genre;
+          if (typeof genre === 'object' && genre !== null) {
+            return genre.name || genre.genre_name || genre.slug || Object.values(genre)[0];
+          }
+          return String(genre);
+        }).filter(name => name && name !== 'null' && name !== 'undefined' && name !== 'unknown');
+        
+        if (genreNames.length > 0) {
+          genreNameForDisplay = genreNames.join(', ');
+        }
+      } else if (track.genre_data && Array.isArray(track.genre_data) && track.genre_data.length > 0) {
+        const genreNames = track.genre_data.map(genre => {
+          if (typeof genre === 'string') return genre;
+          if (typeof genre === 'object' && genre !== null) {
+            return genre.name || genre.genre_name || genre.slug || Object.values(genre)[0];
+          }
+          return String(genre);
+        }).filter(name => name && name !== 'null' && name !== 'undefined' && name !== 'unknown');
+        
+        if (genreNames.length > 0) {
+          genreNameForDisplay = genreNames.join(', ');
+        }
+      }
+      
       // データベースに存在するフィールドのみを含むデータを送信
       const trackData = {
         // 基本項目
@@ -242,13 +273,18 @@ export default function CreatePlaylistModal({
         // メディア情報
         thumbnail_url: track.thumbnail_url || track.thumbnail || null,
         
-        // スタイル・ジャンル・ボーカル情報
+        // スタイル・ジャンル・ボーカル情報（主要なもの）
         style_id: track.style_id || null,
         style_name: track.style_name || null,
         genre_id: track.genre_id || null,
-        genre_name: track.genre_name || null,
+        genre_name: genreNameForDisplay || track.genre_name || null,
         vocal_id: track.vocal_id || null,
         vocal_name: track.vocal_name || null,
+        
+        // 複数情報を格納する新しいフィールド
+        genre_data: track.genres || track.genre_data || null,
+        style_data: track.styles || track.style || null,
+        vocal_data: track.vocals || track.vocal_data || null,
         
         // 日付情報
         release_date: track.release_date || track.releaseDate || track.date || null,
@@ -335,10 +371,43 @@ export default function CreatePlaylistModal({
 
       // ジャンル情報を取得
       let genreInfo = null;
+      let allGenres = []; // 全ジャンル情報を保存
+      
       if (trackToAdd.genre_data && Array.isArray(trackToAdd.genre_data) && trackToAdd.genre_data.length > 0) {
+        allGenres = trackToAdd.genre_data;
         genreInfo = trackToAdd.genre_data[0];
       } else if (trackToAdd.genres && Array.isArray(trackToAdd.genres) && trackToAdd.genres.length > 0) {
+        allGenres = trackToAdd.genres;
         genreInfo = trackToAdd.genres[0];
+      }
+
+      // 複数ジャンル名をカンマ区切りで作成（genre_nameフィールド用）
+      let genreNameForDisplay = null;
+      if (allGenres.length > 0) {
+        const genreNames = allGenres.map(genre => {
+          if (typeof genre === 'string') return genre;
+          if (typeof genre === 'object' && genre !== null) {
+            return genre.name || genre.genre_name || genre.slug || Object.values(genre)[0];
+          }
+          return String(genre);
+        }).filter(name => name && name !== 'null' && name !== 'undefined' && name !== 'unknown');
+        
+        if (genreNames.length > 0) {
+          genreNameForDisplay = genreNames.join(', ');
+        }
+      }
+      
+      // 単一ジャンル情報がない場合は、複数ジャンルから最初のものを使用
+      if (!genreInfo && allGenres.length > 0) {
+        const firstGenre = allGenres[0];
+        if (typeof firstGenre === 'string') {
+          genreInfo = { term_id: null, name: firstGenre };
+        } else if (typeof firstGenre === 'object' && firstGenre !== null) {
+          genreInfo = { 
+            term_id: firstGenre.term_id || firstGenre.id || null, 
+            name: firstGenre.name || firstGenre.genre_name || firstGenre.slug 
+          };
+        }
       }
 
       // ボーカル情報を取得
@@ -390,13 +459,18 @@ export default function CreatePlaylistModal({
         // メディア情報
         thumbnail_url: thumbnailUrl,
         
-        // スタイル・ジャンル・ボーカル情報
+        // スタイル・ジャンル・ボーカル情報（主要なもの）
         style_id: styleInfo?.term_id || trackToAdd.style_id,
         style_name: styleInfo?.name || trackToAdd.style_name,
         genre_id: genreInfo?.term_id || trackToAdd.genre_id,
-        genre_name: genreInfo?.name || trackToAdd.genre_name,
+        genre_name: genreNameForDisplay || genreInfo?.name || trackToAdd.genre_name,
         vocal_id: vocalInfo?.term_id || trackToAdd.vocal_id,
         vocal_name: vocalInfo?.name || trackToAdd.vocal_name,
+        
+        // 複数情報を格納する新しいフィールド
+        genre_data: trackToAdd.genres || trackToAdd.genre_data || null,
+        style_data: trackToAdd.styles || trackToAdd.style || null,
+        vocal_data: trackToAdd.vocals || trackToAdd.vocal_data || null,
         
         // 日付情報
         release_date: releaseDate,
@@ -472,6 +546,7 @@ export default function CreatePlaylistModal({
           // エラーは設定しない（成功メッセージは維持）
         }
       }
+      triggerPlaylistUpdate(); // プレイリスト追加後にトリガー
       
       // 少し待ってから閉じる（成功メッセージを見せるため）
       setTimeout(() => {

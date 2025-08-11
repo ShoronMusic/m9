@@ -268,13 +268,14 @@ export async function POST(request) {
       spotify_artists,
       artist_slug,
       artist_order,
-      content
+      content,
+      // 新しい複数情報フィールド
+      genre_data,
+      style_data,
+      vocal_data
     } = await request.json();
     
-    console.log('Request data:', { 
-      name, 
-      description, 
-      is_public, 
+    console.log('Track data received:', { 
       track_id, 
       title, 
       title_slug,
@@ -297,7 +298,11 @@ export async function POST(request) {
       spotify_artists,
       artist_slug,
       artist_order,
-      content
+      content,
+      // 新しい複数情報フィールド
+      genre_data,
+      style_data,
+      vocal_data
     });
 
     // プレイリストを作成
@@ -350,13 +355,18 @@ export async function POST(request) {
           // メディア情報
           thumbnail_url: thumbnail_url || null,
           
-          // スタイル・ジャンル・ボーカル情報
+          // スタイル・ジャンル・ボーカル情報（主要なもの）
           style_id: style_id || null,
           style_name: style_name || null,
           genre_id: genre_id || null,
           genre_name: genre_name || null,
           vocal_id: vocal_id || null,
           vocal_name: vocal_name || null,
+          
+          // 複数情報を格納する新しいフィールド
+          genre_data: genre_data || null,
+          style_data: style_data || null,
+          vocal_data: vocal_data || null,
           
           // 日付情報
           release_date: release_date || null,

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useRef, useState, useContext } from 'react';
+import React, { useEffect, useRef, useState, useContext, useMemo } from 'react';
 import { PlayerContext } from './PlayerContext'; // Import context directly
 import { useSession } from 'next-auth/react';
 import SpotifyPlayer from './SpotifyPlayer'; // The non-visual player engine
@@ -110,8 +110,36 @@ export default function FooterPlayer({ accessToken }) {
     const { data: session } = useSession();
     const previousTrackRef = useRef(null); // 前の曲の情報を保持
 
-    if (!playerContext) return null; // Early return if context is not available
+    // PlayerContextの状態変化を監視
+    useEffect(() => {
+        console.log('🔍 FooterPlayer - PlayerContext state changed:', {
+            currentTrack: playerContext?.currentTrack,
+            isPlaying: playerContext?.isPlaying,
+            currentTrackIndex: playerContext?.currentTrackIndex
+        });
+    }, [playerContext?.currentTrack, playerContext?.isPlaying, playerContext?.currentTrackIndex]);
 
+    // 状態変化を強制的に監視
+    const playerState = useMemo(() => ({
+        currentTrack: playerContext?.currentTrack,
+        isPlaying: playerContext?.isPlaying,
+        currentTrackIndex: playerContext?.currentTrackIndex
+    }), [playerContext?.currentTrack, playerContext?.isPlaying, playerContext?.currentTrackIndex]);
+
+    console.log('🎵 FooterPlayer - Render attempt:', {
+        hasPlayerContext: !!playerContext,
+        hasSession: !!session,
+        hasAccessToken: !!accessToken,
+        currentTrack: playerState.currentTrack,
+        isPlaying: playerState.isPlaying
+    });
+
+    if (!playerContext) {
+        console.log('❌ FooterPlayer - No PlayerContext, returning null');
+        return null; // Early return if context is not available
+    }
+
+    // playerStateを使用して確実に再レンダリングを発生させる
     const { 
         currentTrack, 
         isPlaying, 
@@ -131,25 +159,43 @@ export default function FooterPlayer({ accessToken }) {
         toggleShuffle,
         currentTrackIndex
     } = playerContext; // Destructure from the context value
+
+    // playerStateを強制的に使用（再レンダリングのため）
+    const effectiveCurrentTrack = playerState.currentTrack || currentTrack;
+    const effectiveIsPlaying = playerState.isPlaying !== undefined ? playerState.isPlaying : isPlaying;
     
     // ログイン前はプレイヤーを表示しない
     if (!session || !accessToken) {
+        console.log('❌ FooterPlayer - No session or accessToken, returning null');
         return null;
     }
     
     // 前の曲の情報を更新
-    if (currentTrack) {
-        previousTrackRef.current = currentTrack;
+    if (effectiveCurrentTrack) {
+        previousTrackRef.current = effectiveCurrentTrack;
     }
     
     // 曲が選択されていない場合は、前の曲の情報を使用
-    const displayTrack = currentTrack || previousTrackRef.current;
+    const displayTrack = effectiveCurrentTrack || previousTrackRef.current;
+    
+    console.log('🎵 FooterPlayer - Track check:', {
+        currentTrack: !!currentTrack,
+        previousTrack: !!previousTrackRef.current,
+        displayTrack: !!displayTrack
+    });
     
     if (!displayTrack) {
+        console.log('❌ FooterPlayer - No displayTrack, returning null');
         return null; 
     }
     
     // A track is selected, render the full player
+    console.log('✅ FooterPlayer - Rendering player for track:', {
+        trackTitle: getSafeTitle(displayTrack),
+        artistName: formatArtists(displayTrack.artists),
+        imageUrl: getImageUrl(displayTrack)
+    });
+    
     const imageUrl = getImageUrl(displayTrack);
     const trackTitle = getSafeTitle(displayTrack);
     const artistName = formatArtists(displayTrack.artists);
@@ -226,9 +272,9 @@ export default function FooterPlayer({ accessToken }) {
                         <button onClick={playPrevious} className={styles.controlButton} disabled={isFirstOfPage}>
                             <img src="/svg/backward-step-solid.svg" alt="Previous" />
                         </button>
-                        <button onClick={togglePlay} className={`${styles.controlButton} ${styles.playPauseButton}`}>
-                            <img src={isPlaying ? "/svg/pause-solid.svg" : "/svg/play-solid.svg"} alt={isPlaying ? "Pause" : "Play"} />
-                        </button>
+                                                 <button onClick={togglePlay} className={`${styles.controlButton} ${styles.playPauseButton}`}>
+                             <img src={effectiveIsPlaying ? "/svg/pause-solid.svg" : "/svg/play-solid.svg"} alt={effectiveIsPlaying ? "Pause" : "Play"} />
+                         </button>
                         <button onClick={playNext} className={styles.controlButton}>
                             <img src="/svg/forward-step-solid.svg" alt="Next" />
                         </button>
@@ -299,12 +345,12 @@ export default function FooterPlayer({ accessToken }) {
             </div>
 
             {session && session.accessToken && (
-                <SpotifyPlayer 
-                    ref={spotifyPlayerRef}
-                    accessToken={session.accessToken} 
-                    trackId={displayTrack?.spotifyTrackId || displayTrack?.id}
-                    autoPlay={isPlaying}
-                />
+                                 <SpotifyPlayer 
+                     ref={spotifyPlayerRef}
+                     accessToken={session.accessToken} 
+                     trackId={displayTrack?.spotifyTrackId || displayTrack?.id}
+                     autoPlay={effectiveIsPlaying}
+                 />
             )}
         </>
     );

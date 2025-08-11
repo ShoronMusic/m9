@@ -1,7 +1,7 @@
 import { getServerSession } from 'next-auth/next';
 import { authOptions } from '@/lib/authOptions';
 import { createClient } from '@supabase/supabase-js';
-import PlaylistDetail from '@/components/PlaylistDetail';
+import PlaylistPageWrapper from '@/components/PlaylistPageWrapper';
 
 export default async function PlaylistPage({ params, searchParams }) {
   const { playlistId } = params;
@@ -161,14 +161,12 @@ export default async function PlaylistPage({ params, searchParams }) {
     }
 
     return (
-      <div className="container mx-auto px-4 py-8">
-        <PlaylistDetail 
-          playlist={playlist} 
-          tracks={tracks || []} 
-          session={session}
-          autoPlayFirst={autoPlayFirst}
-        />
-      </div>
+      <PlaylistPageWrapper 
+        playlist={playlist} 
+        tracks={tracks || []} 
+        session={session}
+        autoPlayFirst={autoPlayFirst}
+      />
     );
 
   } catch (error) {
