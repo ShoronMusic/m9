@@ -241,10 +241,64 @@ export async function POST(request) {
     console.log('=== End Foreign Key Constraint Analysis ===');
     console.log('=== End Database Integrity Check ===');
 
-    // リクエストボディからデータを取得（track_idとtitleを追加）
-    const { name, description, is_public = false, track_id, track_name, artists, song_id } = await request.json();
+    // リクエストボディからデータを取得（すべての項目を含む）
+    const { 
+      name, 
+      description, 
+      is_public = false, 
+      track_id, 
+      title, 
+      title_slug,
+      artists, 
+      song_id, 
+      spotify_track_id, 
+      thumbnail_url, 
+      video_id,
+      style_id, 
+      style_name, 
+      style_slug,
+      release_date, 
+      genre_id, 
+      genre_name, 
+      genre_slug,
+      vocal_id, 
+      vocal_name, 
+      is_favorite, 
+      spotify_images,
+      spotify_artists,
+      artist_slug,
+      artist_order,
+      content
+    } = await request.json();
     
-    console.log('Request data:', { name, description, is_public, track_id, track_name, artists, song_id });
+    console.log('Request data:', { 
+      name, 
+      description, 
+      is_public, 
+      track_id, 
+      title, 
+      title_slug,
+      artists, 
+      song_id, 
+      spotify_track_id, 
+      thumbnail_url, 
+      video_id,
+      style_id, 
+      style_name, 
+      style_slug,
+      release_date, 
+      genre_id, 
+      genre_name, 
+      genre_slug,
+      vocal_id, 
+      vocal_name, 
+      is_favorite, 
+      spotify_images,
+      spotify_artists,
+      artist_slug,
+      artist_order,
+      content
+    });
 
     // プレイリストを作成
     const { data: playlist, error } = await supabase
@@ -267,8 +321,8 @@ export async function POST(request) {
 
     // プレイリスト作成後に曲を追加
     let trackAdded = false;
-    if (track_id && track_name) {
-      console.log('Adding track to playlist:', { track_id, track_name, song_id, playlist_id: playlist.id });
+    if (track_id && title) {
+      console.log('Adding track to playlist:', { track_id, title, song_id, playlist_id: playlist.id });
       
       try {
         // 現在の最大positionを取得
@@ -282,16 +336,40 @@ export async function POST(request) {
 
         const newPosition = (maxPosition?.position || 0) + 1;
         
-        // 曲の追加データを準備
+        // 曲の追加データを準備（データベースに存在するフィールドのみ）
         const trackInsertData = {
           playlist_id: playlist.id,
           track_id: track_id,
-          title: track_name,
+          title: title,
           artists: artists || null,
           position: newPosition,
           added_at: new Date().toISOString(),
           added_by: userId,
-          song_id: song_id || track_id
+          song_id: song_id ? parseInt(song_id) : 0, // integer型に変換
+          
+          // メディア情報
+          thumbnail_url: thumbnail_url || null,
+          
+          // スタイル・ジャンル・ボーカル情報
+          style_id: style_id || null,
+          style_name: style_name || null,
+          genre_id: genre_id || null,
+          genre_name: genre_name || null,
+          vocal_id: vocal_id || null,
+          vocal_name: vocal_name || null,
+          
+          // 日付情報
+          release_date: release_date || null,
+          
+          // Spotify情報
+          spotify_track_id: spotify_track_id || null,
+          spotify_images: spotify_images || null,
+          spotify_artists: spotify_artists || null,
+          
+          // その他の情報
+          is_favorite: is_favorite || false,
+          artist_order: artist_order || null,
+          content: content || null
         };
         
         console.log('Track insert data:', trackInsertData);

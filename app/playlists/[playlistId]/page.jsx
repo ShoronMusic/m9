@@ -3,8 +3,9 @@ import { authOptions } from '@/lib/authOptions';
 import { createClient } from '@supabase/supabase-js';
 import PlaylistDetail from '@/components/PlaylistDetail';
 
-export default async function PlaylistPage({ params }) {
+export default async function PlaylistPage({ params, searchParams }) {
   const { playlistId } = params;
+  const autoPlayFirst = searchParams?.autoplay === '1';
   
   try {
     // NextAuthのセッションを取得
@@ -110,7 +111,14 @@ export default async function PlaylistPage({ params }) {
         thumbnail_url,
         style_id,
         style_name,
-        release_date
+        release_date,
+        spotify_track_id,
+        genre_id,
+        genre_name,
+        vocal_id,
+        vocal_name,
+        is_favorite,
+        spotify_images
       `)
       .eq('playlist_id', playlistId)
       .order('position', { ascending: true });
@@ -158,6 +166,7 @@ export default async function PlaylistPage({ params }) {
           playlist={playlist} 
           tracks={tracks || []} 
           session={session}
+          autoPlayFirst={autoPlayFirst}
         />
       </div>
     );

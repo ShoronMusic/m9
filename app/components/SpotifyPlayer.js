@@ -719,16 +719,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       return;
     }
 
-    if (process.env.NODE_ENV === 'development') {
-      console.log('Starting to play new track:', { 
-        newTrackId, 
-        deviceId, 
-        isReady,
-        currentTrack: currentTrack?.title || currentTrack?.name,
-        currentTrackIndex,
-        trackListLength: trackList.length
-      });
-    }
+
 
     try {
       // Step 1: Transfer playback to this device
@@ -821,9 +812,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       });
       
       if (resetResponse.ok) {
-        if (process.env.NODE_ENV === 'development') {
-          console.log('Track playback started successfully');
-        }
+
         
         resetPlayerState();
         isNewTrackSelectedRef.current = true;
@@ -832,9 +821,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         currentTrackIdRef.current = newTrackId;
         lastTrackIdRef.current = newTrackId;
         
-        if (process.env.NODE_ENV === 'development') {
-          console.log('New track ID set immediately:', newTrackId);
-        }
+
         
         // Update PlayerContext
         const trackIndex = trackList.findIndex(track => (track?.spotifyTrackId || track?.id) === newTrackId);
@@ -1028,27 +1015,12 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
 
   // Effect for starting a new track
   useEffect(() => {
-    if (process.env.NODE_ENV === 'development') {
-      console.log('Track playback effect triggered:', { 
-        isReady, 
-        deviceId, 
-        trackId, 
-        lastTrackId: lastTrackIdRef.current,
-        currentTrack: currentTrack?.title || currentTrack?.name,
-        currentTrackIndex,
-        trackListLength: trackList.length
-      });
-    }
-    
     if (isReady && deviceId && trackId) {
       // 認証エラーやデバイスエラーが発生している場合は再生しない
       const hasAuthError = sessionStorage.getItem('spotify_auth_error');
       const hasDeviceError = sessionStorage.getItem('spotify_device_error');
       
       if (hasAuthError || hasDeviceError) {
-        if (process.env.NODE_ENV === 'development') {
-          console.log('Skipping track playback due to authentication or device error');
-        }
         return;
       }
       
@@ -1057,30 +1029,9 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       sessionStorage.removeItem('spotify_device_error');
       
       if (trackId !== lastTrackIdRef.current) {
-        if (process.env.NODE_ENV === 'development') {
-          console.log('Starting new track playback:', { 
-            trackId, 
-            deviceId, 
-            isReady,
-            currentTrack: currentTrack?.title || currentTrack?.name,
-            currentTrackIndex,
-            trackListLength: trackList.length
-          });
-        }
         playNewTrack(trackId);
       } else {
         // Track ID unchanged, skipping playback silently
-      }
-    } else {
-      if (process.env.NODE_ENV === 'development') {
-        console.log('Cannot start track playback:', { 
-          isReady, 
-          deviceId, 
-          trackId,
-          currentTrack: currentTrack?.title || currentTrack?.name,
-          currentTrackIndex,
-          trackListLength: trackList.length
-        });
       }
     }
   }, [trackId, deviceId, isReady, playNewTrack, currentTrack, currentTrackIndex, trackList]);

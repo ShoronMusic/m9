@@ -1,12 +1,13 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useSession } from 'next-auth/react';
 import styles from './PlaylistDetail.module.css';
 import PlaylistSongList from './PlaylistSongList';
 
-export default function PlaylistDetail({ playlist, tracks, session }) {
+export default function PlaylistDetail({ playlist, tracks, session, autoPlayFirst = false }) {
   const { data: clientSession } = useSession();
+  const [userPlaylists, setUserPlaylists] = useState([]);
 
 
   // 日付フォーマット関数
@@ -29,6 +30,30 @@ export default function PlaylistDetail({ playlist, tracks, session }) {
       const month = (date.getMonth() + 1).toString().padStart(2, '0');
       const day = date.getDate().toString().padStart(2, '0');
       return `${date.getFullYear()}.${month}.${day}`;
+    }
+  };
+
+  // ユーザーのプレイリスト一覧を取得
+  const fetchUserPlaylists = useCallback(async () => {
+    try {
+      const response = await fetch('/api/playlists');
+      if (response.ok) {
+        const data = await response.json();
+        setUserPlaylists(data.playlists || []);
+      }
+    } catch (err) {
+      console.error('プレイリスト取得エラー:', err);
+    }
+  }, []);
+
+  // 次のプレイリストに移動する関数
+  const handlePlaylistEnd = () => {
+    const currentIndex = userPlaylists.findIndex(p => p.id === playlist.id);
+    if (currentIndex !== -1 && currentIndex < userPlaylists.length - 1) {
+      const nextPlaylist = userPlaylists[currentIndex + 1];
+      window.location.href = `/playlists/${nextPlaylist.id}?autoplay=1`;
+    } else {
+      console.log('プレイリストの最後に到達しました');
     }
   };
 
@@ -61,6 +86,13 @@ export default function PlaylistDetail({ playlist, tracks, session }) {
   };
 
 
+
+  // コンポーネントマウント時にプレイリスト一覧を取得
+  useEffect(() => {
+    if (session?.user) {
+      fetchUserPlaylists();
+    }
+  }, [session, fetchUserPlaylists]);
 
   if (!session?.user) {
     return <div className={styles.notLoggedIn}>ログインが必要です</div>;
@@ -113,6 +145,8 @@ export default function PlaylistDetail({ playlist, tracks, session }) {
             playlistId={playlist.id}
             accessToken={session?.accessToken}
             source={`playlist/${playlist.id}`}
+            onPageEnd={handlePlaylistEnd}
+            autoPlayFirst={autoPlayFirst}
           />
         )}
       </div>

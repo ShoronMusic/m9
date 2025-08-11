@@ -50,21 +50,36 @@ export async function GET(request, { params }) {
       return Response.json({ error: 'Access denied' }, { status: 403 });
     }
 
-    // トラック一覧を取得
+    // トラック一覧を取得（すべての項目を含む）
     const { data: tracks, error } = await supabase
       .from('playlist_tracks')
       .select(`
         id,
         position,
         title,
+        title_slug,
         artists,
         thumbnail_url,
+        video_id,
         style_id,
         style_name,
+        style_slug,
         release_date,
         added_at,
         song_id,
-        track_id
+        track_id,
+        spotify_track_id,
+        genre_id,
+        genre_name,
+        genre_slug,
+        vocal_id,
+        vocal_name,
+        is_favorite,
+        spotify_images,
+        spotify_artists,
+        artist_slug,
+        artist_order,
+        content
       `)
       .eq('playlist_id', playlistId)
       .order('position', { ascending: true });
@@ -156,19 +171,67 @@ export async function POST(request, { params }) {
     
     console.log('Playlist access verified:', playlist);
     
-    // リクエストボディからデータを取得
-    const { track_id, track_name, artists, song_id } = await request.json();
+    // リクエストボディからデータを取得（すべての項目を含む）
+    const { 
+      track_id, 
+      title, 
+      title_slug,
+      artists, 
+      song_id, 
+      spotify_track_id, 
+      thumbnail_url, 
+      video_id,
+      style_id, 
+      style_name, 
+      style_slug,
+      release_date, 
+      genre_id, 
+      genre_name, 
+      genre_slug,
+      vocal_id, 
+      vocal_name, 
+      is_favorite,
+      spotify_images,
+      spotify_artists,
+      artist_slug,
+      artist_order,
+      content
+    } = await request.json();
     
-    console.log('Track data:', { track_id, track_name, artists, song_id });
+    console.log('Track data received:', { 
+      track_id, 
+      title, 
+      title_slug,
+      artists, 
+      song_id, 
+      spotify_track_id, 
+      thumbnail_url, 
+      video_id,
+      style_id, 
+      style_name, 
+      style_slug,
+      release_date, 
+      genre_id, 
+      genre_name, 
+      genre_slug,
+      vocal_id, 
+      vocal_name, 
+      is_favorite,
+      spotify_images,
+      spotify_artists,
+      artist_slug,
+      artist_order,
+      content
+    });
     
-    // track_nameがundefinedの場合は、artistsから曲名を構築
-    let finalTrackName = track_name;
+    // titleがundefinedの場合は、artistsから曲名を構築
+    let finalTrackName = title;
     if (!finalTrackName && artists && Array.isArray(artists)) {
       finalTrackName = artists.map(artist => artist.name).join(', ');
     }
     
     if (!track_id || !finalTrackName) {
-      console.error('Missing required track data');
+      console.error('Missing required track data:', { track_id, finalTrackName, title, artists });
       return Response.json({ error: 'Missing required track data' }, { status: 400 });
     }
     
@@ -209,7 +272,7 @@ export async function POST(request, { params }) {
     const newPosition = (maxPosition?.position || 0) + 1;
     console.log('New position calculated:', newPosition);
     
-    // トラックの追加データを準備
+    // トラックの追加データを準備（データベースに存在するフィールドのみ）
     const trackInsertData = {
       playlist_id: playlistId,
       track_id: track_id,
@@ -218,10 +281,34 @@ export async function POST(request, { params }) {
       position: newPosition,
       added_at: new Date().toISOString(),
       added_by: userId,
-      song_id: song_id || track_id
+      song_id: song_id ? parseInt(song_id) : 0, // integer型に変換
+      
+      // メディア情報
+      thumbnail_url: thumbnail_url || null,
+      
+      // スタイル・ジャンル・ボーカル情報
+      style_id: style_id || null,
+      style_name: style_name || null,
+      genre_id: genre_id || null,
+      genre_name: genre_name || null,
+      vocal_id: vocal_id || null,
+      vocal_name: vocal_name || null,
+      
+      // 日付情報
+      release_date: release_date || null,
+      
+      // Spotify情報
+      spotify_track_id: spotify_track_id || null,
+      spotify_images: spotify_images || null,
+      spotify_artists: spotify_artists || null,
+      
+      // その他の情報
+      is_favorite: is_favorite || false,
+      artist_order: artist_order || null,
+      content: content || null
     };
     
-    console.log('Track insert data:', trackInsertData);
+    console.log('Track insert data for database:', trackInsertData);
     
     // トラックを追加
     const { data: trackResult, error: trackError } = await supabase
@@ -232,6 +319,13 @@ export async function POST(request, { params }) {
     
     if (trackError) {
       console.error('Track addition error:', trackError);
+      console.error('Track insert data that caused error:', trackInsertData);
+      console.error('Error details:', {
+        code: trackError.code,
+        message: trackError.message,
+        details: trackError.details,
+        hint: trackError.hint
+      });
       
       // 重複キーエラーの場合は特別な処理
       if (trackError.code === '23505') {
@@ -242,7 +336,44 @@ export async function POST(request, { params }) {
         }, { status: 409 });
       }
       
-      return Response.json({ error: 'Failed to add track to playlist' }, { status: 500 });
+      // 外部キー制約違反の場合は詳細情報を提供
+      if (trackError.code === '23503') {
+        return Response.json({ 
+          success: false, 
+          message: '外部キー制約違反が発生しました',
+          error: trackError.message,
+          details: '参照先のデータが存在しません',
+          hint: 'ユーザーIDまたはプレイリストIDが無効です'
+        }, { status: 500 });
+      }
+      
+      // データベーススキーマエラーの場合は詳細情報を提供
+      if (trackError.code === '42703') {
+        return Response.json({ 
+          success: false, 
+          message: 'データベーススキーマエラーが発生しました',
+          error: trackError.message,
+          details: '存在しないフィールドが指定されています'
+        }, { status: 500 });
+      }
+      
+      // データ型エラーの場合は詳細情報を提供
+      if (trackError.code === '22P02') {
+        return Response.json({ 
+          success: false, 
+          message: 'データ型エラーが発生しました',
+          error: trackError.message,
+          details: '送信されたデータの型が正しくありません',
+          hint: 'song_idは数値である必要があります'
+        }, { status: 500 });
+      }
+      
+      return Response.json({ 
+        error: 'Failed to add track to playlist',
+        details: trackError.message,
+        code: trackError.code,
+        hint: trackError.hint || '詳細なエラー情報がありません'
+      }, { status: 500 });
     }
     
     console.log('Track added successfully:', trackResult);

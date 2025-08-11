@@ -170,6 +170,22 @@ function extractStyleInfo(song, parentGenreSlug) {
 	return { styleSlug: "unknown", styleName: "Unknown Style" };
 }
 
+// スタイルIDからスタイル名を取得する関数
+function getStyleName(styleId) {
+	const styleMap = {
+		2844: 'Pop',
+		2845: 'Alternative',
+		4686: 'Dance',
+		2846: 'Electronica',
+		2847: 'R&B',
+		2848: 'Hip-Hop',
+		6703: 'Rock',
+		2849: 'Metal',
+		2873: 'Others'
+	};
+	return styleMap[styleId] || 'Unknown';
+}
+
 // CloudinaryのベースURL
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
 
@@ -310,6 +326,75 @@ export default function SongListTopPage({
 	// 既存プレイリストに追加
 	const addTrackToPlaylist = async (track, playlistId) => {
 		try {
+			// スタイル情報を取得
+			let styleInfo = null;
+			if (track.style && Array.isArray(track.style) && track.style.length > 0) {
+				const styleItem = track.style[0];
+				if (typeof styleItem === 'number' || typeof styleItem === 'string') {
+					// IDのみの場合は、IDをterm_idとして設定し、スタイル名を取得
+					const styleId = parseInt(styleItem);
+					styleInfo = { term_id: styleId, name: getStyleName(styleId) };
+				} else if (typeof styleItem === 'object' && styleItem !== null) {
+					styleInfo = styleItem;
+				}
+			} else if (track.styles && Array.isArray(track.styles) && track.styles.length > 0) {
+				const styleItem = track.styles[0];
+				if (typeof styleItem === 'number' || typeof styleItem === 'string') {
+					// IDのみの場合は、IDをterm_idとして設定し、スタイル名を取得
+					const styleId = parseInt(styleItem);
+					styleInfo = { term_id: styleId, name: getStyleName(styleId) };
+				} else if (typeof styleItem === 'object' && styleItem !== null) {
+					styleInfo = styleItem;
+				}
+			}
+
+			// ジャンル情報を取得
+			let genreInfo = null;
+			if (track.genre_data && Array.isArray(track.genre_data) && track.genre_data.length > 0) {
+				genreInfo = track.genre_data[0];
+			} else if (track.genres && Array.isArray(track.genres) && track.genres.length > 0) {
+				genreInfo = track.genres[0];
+			}
+
+			// ボーカル情報を取得
+			let vocalInfo = null;
+			if (track.vocal_data && Array.isArray(track.vocal_data) && track.vocal_data.length > 0) {
+				vocalInfo = track.vocal_data[0];
+			} else if (track.vocals && Array.isArray(track.vocals) && track.vocals.length > 0) {
+				vocalInfo = track.vocals[0];
+			}
+
+			// サムネイルURLを取得
+			let thumbnailUrl = null;
+			if (track.thumbnail) {
+				thumbnailUrl = track.thumbnail;
+			} else if (track.acf?.thumbnail_url) {
+				thumbnailUrl = track.acf.thumbnail_url;
+			} else if (track.thumbnail_url) {
+				thumbnailUrl = track.thumbnail_url;
+			}
+
+			// 公開年月を取得
+			let releaseDate = null;
+			if (track.date) {
+				releaseDate = track.date;
+			} else if (track.release_date) {
+				releaseDate = track.release_date;
+			} else if (track.acf?.release_date) {
+				releaseDate = track.acf.release_date;
+			}
+
+			// Spotify画像URLを取得
+			let spotifyImages = null;
+			if (track.artists && Array.isArray(track.artists) && track.artists.length > 0) {
+				const artistImages = track.artists
+					.map(artist => artist.acf?.spotify_images || artist.spotify_images)
+					.filter(Boolean);
+				if (artistImages.length > 0) {
+					spotifyImages = JSON.stringify(artistImages);
+				}
+			}
+
 			const response = await fetch(`/api/playlists/${playlistId}/tracks`, {
 				method: 'POST',
 				headers: {
@@ -320,10 +405,17 @@ export default function SongListTopPage({
 					track_id: track.id,
 					title: track.title?.rendered || track.title,
 					artists: track.artists || [],
-					thumbnail_url: track.thumbnail_url || track.acf?.thumbnail_url,
-					style_id: track.style_id,
-					style_name: track.style_name,
-					release_date: track.date
+					thumbnail_url: thumbnailUrl,
+					style_id: styleInfo?.term_id || track.style_id,
+					style_name: styleInfo?.name || track.style_name,
+					release_date: releaseDate,
+					spotify_track_id: track.acf?.spotify_track_id || track.spotifyTrackId,
+					genre_id: genreInfo?.term_id || track.genre_id,
+					genre_name: genreInfo?.name || track.genre_name,
+					vocal_id: vocalInfo?.term_id || track.vocal_id,
+					vocal_name: vocalInfo?.name || track.vocal_name,
+					is_favorite: false, // 新規追加時はデフォルトでfalse
+					spotify_images: spotifyImages
 				}),
 			});
 

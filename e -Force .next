@@ -1,0 +1,175 @@
+[33m029055e4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m プレイリスト01
+[1mdiff --git a/app/TopPageClient.jsx b/app/TopPageClient.jsx[m
+[1mindex 544308ef..1b897060 100644[m
+[1m--- a/app/TopPageClient.jsx[m
+[1m+++ b/app/TopPageClient.jsx[m
+[36m@@ -171,17 +171,6 @@[m [mexport default function TopPageClient({ topSongsData = [], accessToken = null })[m
+ [m
+ 		// PlayerContextに曲リストを設定[m
+ 		if (allSongs.length > 0) {[m
+[31m-			if (process.env.NODE_ENV === 'development') {[m
+[31m-				console.log('TopPage setting track list:', {[m
+[31m-					totalSongs: allSongs.length,[m
+[31m-					source: 'top-page',[m
+[31m-					songsSample: allSongs.slice(0, 3).map(s => ({[m
+[31m-						id: s.id,[m
+[31m-						spotifyTrackId: s.spotifyTrackId,[m
+[31m-						title: s.title || s.name[m
+[31m-					}))[m
+[31m-				});[m
+[31m-			}[m
+ 			setTrackList(allSongs);[m
+ 		}[m
+ [m
+[36m@@ -207,21 +196,6 @@[m [mexport default function TopPageClient({ topSongsData = [], accessToken = null })[m
+ 	const handleTrackPlay = useCallback((song, index) => {[m
+ 		// allSongsから正しいインデックスを探す[m
+ 		const globalIndex = allSongs.findIndex(s => s.id === song.id);[m
+[31m-		if (process.env.NODE_ENV === 'development') {[m
+[31m-			console.log('TopPage handleTrackPlay:', {[m
+[31m-				songTitle: song.title || song.name,[m
+[31m-				songId: song.id,[m
+[31m-				spotifyTrackId: song.spotifyTrackId,[m
+[31m-				localIndex: index,[m
+[31m-				globalIndex,[m
+[31m-				totalSongs: allSongs.length,[m
+[31m-				allSongsSample: allSongs.slice(0, 3).map(s => ({[m
+[31m-					id: s.id,[m
+[31m-					spotifyTrackId: s.spotifyTrackId,[m
+[31m-					title: s.title || s.name[m
+[31m-				}))[m
+[31m-			});[m
+[31m-		}[m
+ 		playTrack(song, globalIndex, allSongs, 'top-page');[m
+ 	}, [playTrack, allSongs]);[m
+ [m
+[1mdiff --git a/app/[slug]/[page]/ArtistPageClient.jsx b/app/[slug]/[page]/ArtistPageClient.jsx[m
+[1mindex 9bec56bf..b455a5c0 100644[m
+[1m--- a/app/[slug]/[page]/ArtistPageClient.jsx[m
+[1m+++ b/app/[slug]/[page]/ArtistPageClient.jsx[m
+[36m@@ -73,12 +73,7 @@[m [mexport default function ArtistPageClient({[m
+   const safeTotalSongs = totalSongs || 0;[m
+   const safeArtistData = artistData || { acf: {}, name: 'Unknown Artist', description: '', slug: '' };[m
+ [m
+[31m-  // デバッグログを追加[m
+[31m-  console.log('ArtistPageClient received artistData:', artistData);[m
+[31m-  console.log('ArtistPageClient received artistData.slug:', artistData?.slug);[m
+[31m-  console.log('Safe artist slug:', safeArtistData.slug);[m
+[31m-  console.log('Source will be:', `artist/${safeArtistData.slug || 'unknown'}`);[m
+[31m-  console.log('Safe artist data keys:', Object.keys(safeArtistData));[m
+[32m+[m[32m  // デバッグログを削除[m
+ [m
+   const artistImageUrl = safeArtistData.acf?.artist_image[m
+     ? getThumbnailPath(safeArtistData.acf.artist_image)[m
+[36m@@ -512,23 +507,16 @@[m [mexport default function ArtistPageClient({[m
+       {/* --- End Genre Breakdown Section --- */}[m
+              <section className={styles.songsSection}>[m
+          <h2 className={styles.sectionTitle}>Songs ({startSongNumber} - {endSongNumber} / {totalSongs})</h2>[m
+[31m-         {(() => {[m
+[31m-           const sourceValue = `artist/${safeArtistData.slug || 'unknown'}`;[m
+[31m-           console.log('SongList source value:', sourceValue);[m
+[31m-           console.log('Safe artist slug in SongList:', safeArtistData.slug);[m
+[31m-           return ([m
+[31m-             <SongList[m
+[31m-               songs={normalizedSongs}[m
+[31m-               source={sourceValue}[m
+[31m-               currentPage={safeCurrentPage}[m
+[31m-               songsPerPage={20}[m
+[31m-               onPageEnd={handlePageEnd}[m
+[31m-               autoPlayFirst={autoPlayFirst}[m
+[31m-               pageType="artist"[m
+[31m-               accessToken={accessToken}[m
+[31m-             />[m
+[31m-           );[m
+[31m-         })()}[m
+[32m+[m[32m         <SongList[m
+[32m+[m[32m           songs={normalizedSongs}[m
+[32m+[m[32m           source={`artist/${safeArtistData.slug || 'unknown'}`}[m
+[32m+[m[32m           currentPage={safeCurrentPage}[m
+[32m+[m[32m           songsPerPage={20}[m
+[32m+[m[32m           onPageEnd={handlePageEnd}[m
+[32m+[m[32m           autoPlayFirst={autoPlayFirst}[m
+[32m+[m[32m           pageType="artist"[m
+[32m+[m[32m           accessToken={accessToken}[m
+[32m+[m[32m         />[m
+ [m
+         {safeTotalPages > 1 && ([m
+           <Pagination[m
+[1mdiff --git a/app/[slug]/[page]/page.jsx b/app/[slug]/[page]/page.jsx[m
+[1mindex 69133cea..849bf4ca 100644[m
+[1m--- a/app/[slug]/[page]/page.jsx[m
+[1m+++ b/app/[slug]/[page]/page.jsx[m
+[36m@@ -219,9 +219,7 @@[m [mexport default async function ArtistPageWithPagination({ params }) {[m
+   // slugをartistDataに追加[m
+   artistData.slug = slug;[m
+   [m
+[31m-  // デバッグログを追加[m
+[31m-  console.log('Server side - artistData after setting slug:', artistData);[m
+[31m-  console.log('Server side - slug value:', slug);[m
+[32m+[m[32m  // デバッグログを削除[m
+ [m
+   const songs = await getArtistSongs(slug, page);[m
+   const allSongs = await getAllArtistSongs(slug);[m
+[36m@@ -236,11 +234,7 @@[m [mexport default async function ArtistPageWithPagination({ params }) {[m
+   const topGenres = calculateTopGenres(allSongs);[m
+   const relatedArtists = extractRelatedArtists(artistData);[m
+ [m
+[31m-  console.log('Calculated data:', {[m
+[31m-    stylePercentages,[m
+[31m-    topGenres,[m
+[31m-    relatedArtists: relatedArtists.length[m
+[31m-  });[m
+[32m+[m[32m  // Calculated data logging removed[m
+ [m
+   return ([m
+     <Suspense fallback={<div>Loading Artist...</div>}>[m
+[1mdiff --git a/app/api/playlists/[playlistId]/tracks/[trackId]/route.js b/app/api/playlists/[playlistId]/tracks/[trackId]/route.js[m
+[1mnew file mode 100644[m
+[1mindex 00000000..3bff5846[m
+[1m--- /dev/null[m
+[1m+++ b/app/api/playlists/[playlistId]/tracks/[trackId]/route.js[m
+[36m@@ -0,0 +1,101 @@[m
+[32m+[m[32mimport { createServerClient } from '@supabase/ssr';[m
+[32m+[m[32mimport { cookies } from 'next/headers';[m
+[32m+[m
+[32m+[m[32mexport async function PUT(request, { params }) {[m
+[32m+[m[32m  try {[m
+[32m+[m[32m    const supabase = createRouteHandlerClient({ cookies });[m
+[32m+[m[32m    const { playlistId, trackId } = params;[m
+[32m+[m[41m    [m
+[32m+[m[32m    // ユーザー認証チェック[m
+[32m+[m[32m    const { data: { user }, error: authError } = await supabase.auth.getUser();[m
+[32m+[m[32m    if (authError || !user) {[m
+[32m+[m[32m      return Response.json({ error: 'Unauthorized' }, { status: 401 });[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    const { position } = await request.json();[m
+[32m+[m
+[32m+[m[32m    // 曲の順番を変更[m
+[32m+[m[32m    const { data: track, error } = await supabase[m
+[32m+[m[32m      .from('playlist_tracks')[m
+[32m+[m[32m      .update({ position })[m
+[32m+[m[32m      .eq('id', trackId)[m
+[32m+[m[32m      .eq('playlist_id', playlistId)[m
+[32m+[m[32m      .select()[m
+[32m+[m[32m      .single();[m
+[32m+[m
+[32m+[m[32m    if (error) {[m
+[32m+[m[32m      console.error('Supabase error:', error);[m
+[32m+[m[32m      return Response.json({ error: 'Database error' }, { status: 500 });[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    return Response.json({ track });[m
+[32m+[m[32m  } catch (error) {[m
+[32m+[m[32m    console.error('API error:', error);[m
+[32m+[m[32m    return Response.json({ error: 'Internal server error' }, { status: 500 });[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mexport async function DELETE(request, { params }) {[m
+[32m+[m[32m  try {[m
+[32m+[m[32m    const cookieStore = cookies();[m
+[32m+[m[41m    [m
+[32m+[m[32m    const supabase = createServerClient([m
+[32m+[m[32m      process.env.NEXT_PUBLIC_SUPABASE_URL,[m
+[

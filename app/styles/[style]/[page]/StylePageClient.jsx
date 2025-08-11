@@ -8,9 +8,8 @@ import Image from 'next/image';
 import { config } from '@/config/config';
 import Pagination from '@/components/Pagination';
 import SongList from '@/components/SongList';
-import he from 'he'; // he パッケージをインポート
+import he from 'he';
 import { useRouter } from 'next/navigation';
-// Firebase imports removed - Firebase functionality has been removed from the project
 import styles from './StylePageClient.module.css';
 
 // HTML エンティティをデコードするヘルパー関数
@@ -18,7 +17,7 @@ function decodeHtml(html = "") {
   return html ? he.decode(html) : "";
 }
 
-// --- ここから追加: アーティスト名＋国籍表示用関数 ---
+// アーティスト名＋国籍表示用関数
 function formatArtistsWithOrigin(artists = []) {
   if (!Array.isArray(artists) || artists.length === 0) {
     return "Unknown Artist";
@@ -38,7 +37,6 @@ function formatArtistsWithOrigin(artists = []) {
   });
   return formattedElements;
 }
-// --- ここまで追加 ---
 
 export default function StylePageClient({ styleData, initialPage = 1, autoPlayFirst }) {
   const { data: session } = useSession();
@@ -53,17 +51,8 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
   const accessToken = session?.accessToken;
   const songs = Array.isArray(styleData?.songs) ? styleData.songs : [];
   
-  // --- ここから追加: アーティスト配列生成ロジック ---
+  // アーティスト配列生成ロジック - すべての項目を含む
   const wpStylePosts = songs.map(song => {
-    // デバッグログを追加
-    if (process.env.NODE_ENV === 'development') {
-      console.log('StylePageClient: Processing song:', {
-        songId: song.id,
-        songTitle: song.title,
-        originalStyles: song.styles,
-        originalGenres: song.genres
-      });
-    }
     let artists = [];
     if (Array.isArray(song.artists) && song.artists.length > 0) {
       artists = song.artists.map(a => ({
@@ -86,45 +75,60 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     }
     const spotify_track_id = song.spotify_track_id || song.spotifyTrackId || song.acf?.spotify_track_id || song.acf?.spotifyTrackId || '';
     const ytvideoid = song.ytvideoid || song.youtube_id || song.acf?.ytvideoid || song.acf?.youtube_id || song.videoId || '';
+    
+    // すべての項目を含む完全なデータ構造
     return {
-      ...song,
-      title: { rendered: song.title },
-      artists,
+      // 基本項目
+      id: song.id,
+      title: song.title,
+      titleSlug: song.titleSlug,
+      slug: song.slug,
+      
+      // アーティスト・ジャンル・スタイル・ボーカル情報
+      artists: artists,
+      genres: song.genres,
+      styles: song.styles,
+      vocals: song.vocals,
+      
+      // 日付・リリース情報
+      date: song.releaseDate || song.date || song.post_date || '',
+      releaseDate: song.releaseDate,
+      
+      // メディア情報
+      thumbnail: song.thumbnail,
+      youtubeId: ytvideoid,
+      videoId: song.videoId,
+      
+      // Spotify情報
+      spotifyTrackId: spotify_track_id,
+      
+      // コンテンツ情報
+      content: song.content ? { rendered: song.content } : undefined,
+      
+      // ACF情報（完全に保持）
       acf: {
         ...song.acf,
         spotify_track_id,
         ytvideoid,
         youtube_id: ytvideoid,
       },
-      date: song.releaseDate || song.date || song.post_date || '',
-      thumbnail: song.thumbnail,
-      youtubeId: ytvideoid,
-      spotifyTrackId: spotify_track_id,
+      
+      // データ構造の互換性のため
       genre_data: song.genres,
-      genres: song.genres, // PlayTrackerが期待する形式
       vocal_data: song.vocals,
       style: song.styles,
-      styles: song.styles, // PlayTrackerが期待する形式
-      slug: song.titleSlug || song.slug || (typeof song.title === 'string' ? song.title.toLowerCase().replace(/ /g, "-") : (typeof song.title?.rendered === 'string' ? song.title.rendered.toLowerCase().replace(/ /g, "-") : song.id)),
-      content: { rendered: song.content },
+      
+      // その他の項目も保持
+      custom_fields: song.custom_fields,
+      categories: song.categories,
+      category_data: song.category_data,
+      featured_media_url: song.featured_media_url,
     };
   }).filter(song => {
     const hasSpotifyId = song.acf?.spotify_track_id || song.spotifyTrackId;
     return hasSpotifyId;
   });
 
-  // デバッグログを追加
-  if (process.env.NODE_ENV === 'development') {
-    console.log('StylePageClient: wpStylePosts sample:', wpStylePosts.slice(0, 3).map(song => ({
-      songId: song.id,
-      songTitle: song.title,
-      styles: song.styles,
-      genres: song.genres,
-      hasSpotifyId: !!(song.acf?.spotify_track_id || song.spotifyTrackId)
-    })));
-  }
-  // --- ここまで追加 ---
-  
   // Spotify APIからお気に入り情報を取得
   const trackIds = wpStylePosts.map(song => song.acf?.spotify_track_id || song.spotifyTrackId).filter(Boolean);
   const { likedTracks, toggleLike, error: likesError } = useSpotifyLikes(accessToken, trackIds);
@@ -160,15 +164,14 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
   // autoPlayFirstがtrueの場合に最初の曲を自動再生する
   useEffect(() => {
     if (autoPlayFirst && wpStylePosts.length > 0) {
-      console.log('AutoPlayFirst enabled for page', currentPage);
+      // 自動再生の処理
     }
   }, [autoPlayFirst, wpStylePosts.length, currentPage, styleData.slug]);
 
   const decodedGenreName = decodeHtml(styleData?.name);
 
-  // 視聴回数を取得する関数 - Firebase機能は削除されました
+  // 視聴回数を取得する関数
   const fetchViewCounts = async () => {
-    // Firebase機能は削除されました
     setViewCounts({});
   };
 
@@ -178,7 +181,6 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     const fetchData = async () => {
       if (songs && songs.length > 0) {
         if (isMounted) {
-          // Firebase機能は削除されました
           await fetchViewCounts();
         }
       }
