@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useSession, signOut } from 'next-auth/react';
 import { usePlayer } from '../components/PlayerContext';
 import { useSpotifyLikes } from '../components/SpotifyLikes';
+import { getUserPlaylists } from '../lib/supabase';
 import Link from 'next/link';
 import styles from './MyPage.module.css';
 
@@ -15,6 +16,8 @@ export default function MyPageClient({ session }) {
   const [isLoading, setIsLoading] = useState(true);
   const [debugInfo, setDebugInfo] = useState(null);
   const [supabaseTest, setSupabaseTest] = useState(null);
+  const [playlists, setPlaylists] = useState([]);
+  const [playlistsLoading, setPlaylistsLoading] = useState(false);
   
   // ページネーション用の状態
   const [currentPage, setCurrentPage] = useState(1);
@@ -29,6 +32,34 @@ export default function MyPageClient({ session }) {
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const currentPageData = playHistory.slice(startIndex, endIndex);
+
+  // プレイリスト一覧を取得する関数
+  const fetchPlaylists = useCallback(async () => {
+    if (!session?.user?.id) return;
+    
+    setPlaylistsLoading(true);
+    try {
+      // Supabaseでユーザーを検索または作成
+      const response = await fetch('/api/playlists');
+      if (response.ok) {
+        const data = await response.json();
+        setPlaylists(data.playlists || []);
+      } else {
+        console.error('Failed to fetch playlists');
+      }
+    } catch (error) {
+      console.error('Error fetching playlists:', error);
+    } finally {
+      setPlaylistsLoading(false);
+    }
+  }, [session?.user?.id]);
+
+  // プレイリスト一覧を初期化時に取得
+  useEffect(() => {
+    if (session?.user?.id) {
+      fetchPlaylists();
+    }
+  }, [session?.user?.id, fetchPlaylists]);
 
   // ページ変更ハンドラー
   const handlePageChange = (page) => {
@@ -311,6 +342,29 @@ export default function MyPageClient({ session }) {
     return `${minutes}分`;
   };
 
+  // プレイリスト用の日付フォーマット関数（より簡潔）
+  const formatPlaylistDate = (dateString) => {
+    if (!dateString) return '不明';
+    
+    const date = new Date(dateString);
+    const now = new Date();
+    const diffTime = Math.abs(now - date);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    
+    if (diffDays === 1) {
+      return '昨日';
+    } else if (diffDays <= 7) {
+      return `${diffDays}日前`;
+    } else if (diffDays <= 30) {
+      const weeks = Math.ceil(diffDays / 7);
+      return `${weeks}週間前`;
+    } else {
+      const month = (date.getMonth() + 1).toString().padStart(2, '0');
+      const day = date.getDate().toString().padStart(2, '0');
+      return `${date.getFullYear()}.${month}.${day}`;
+    }
+  };
+
   // タイトル表示用の関数（JSON文字列を処理）
   const formatTrackTitle = (title) => {
     if (!title) return 'Unknown Track';
@@ -576,6 +630,64 @@ export default function MyPageClient({ session }) {
           </div>
         </div>
       )}
+
+      {/* プレイリストコーナー */}
+      <div className={styles.playlistsCard}>
+        <div className={styles.playlistsHeader}>
+          <h3>マイプレイリスト</h3>
+          <button 
+            onClick={fetchPlaylists}
+            className={styles.refreshButton}
+            disabled={playlistsLoading}
+          >
+            {playlistsLoading ? '更新中...' : 'プレイリスト更新'}
+          </button>
+        </div>
+        
+        {playlistsLoading ? (
+          <div className={styles.loading}>プレイリストを読み込み中...</div>
+        ) : playlists && playlists.length > 0 ? (
+          <div className={styles.playlistsGrid}>
+            {playlists.map((playlist) => (
+              <Link 
+                href={`/playlists/${playlist.id}`} 
+                key={playlist.id}
+                className={styles.playlistItem}
+              >
+                <div className={styles.playlistCover}>
+                  {playlist.cover_image_url ? (
+                    <img 
+                      src={playlist.cover_image_url} 
+                      alt={playlist.name}
+                      className={styles.playlistImage}
+                    />
+                  ) : (
+                    <div className={styles.playlistPlaceholder}>
+                      <span>🎵</span>
+                    </div>
+                  )}
+                </div>
+                <div className={styles.playlistInfo}>
+                  <h4 className={styles.playlistName}>{playlist.name}</h4>
+                  <p className={styles.playlistStats}>
+                    {playlist.track_count || 0}曲 • 
+                    最終更新: {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
+                  </p>
+                  {playlist.description && (
+                    <p className={styles.playlistDescription}>{playlist.description}</p>
+                  )}
+                </div>
+              </Link>
+            ))}
+          </div>
+        ) : (
+          <div className={styles.noPlaylists}>
+            <p>プレイリストがありません</p>
+            <p>曲の三点メニューからプレイリストを作成してみてください</p>
+            <p>または、既存のプレイリストに曲を追加することもできます</p>
+          </div>
+        )}
+      </div>
 
       {/* 視聴履歴テーブル */}
       <div className={styles.historyCard}>

@@ -171,7 +171,7 @@ export const getPlayHistory = async (userId, limit = 50) => {
       .eq('user_id', userId)
       .order('created_at', { ascending: false })
       .limit(limit * 2); // 重複フィルタリングのため、より多くのデータを取得
-    
+
     if (error) {
       console.error('Supabase getPlayHistory error:', error);
       return { data: [], error };
@@ -218,5 +218,59 @@ export const getPlayHistory = async (userId, limit = 50) => {
   } catch (error) {
     console.error('Supabase getPlayHistory exception:', error);
     return { data: [], error };
+  }
+};
+
+// プレイリスト一覧を取得する関数
+export const getUserPlaylists = async (userId) => {
+  if (!supabase) {
+    console.warn('Supabase not configured, getUserPlaylists skipped');
+    return { data: null, error: new Error('Supabase not configured') };
+  }
+  
+  try {
+    // プレイリスト一覧を取得
+    const { data: playlists, error: playlistsError } = await supabase
+      .from('playlists')
+      .select(`
+        id,
+        name,
+        description,
+        is_public,
+        cover_image_url,
+        created_at,
+        updated_at,
+        spotify_playlist_id,
+        sync_status
+      `)
+      .eq('user_id', userId)
+      .order('updated_at', { ascending: false });
+
+    if (playlistsError) {
+      console.error('Supabase getUserPlaylists playlists error:', playlistsError);
+      return { data: null, error: playlistsError };
+    }
+
+    // 各プレイリストのトラック数を個別に取得
+    const playlistsWithTrackCount = await Promise.all(
+      playlists.map(async (playlist) => {
+        const { count: trackCount, error: countError } = await supabase
+          .from('playlist_tracks')
+          .select('*', { count: 'exact', head: true })
+          .eq('playlist_id', playlist.id);
+
+        if (countError) {
+          console.error(`Error getting track count for playlist ${playlist.id}:`, countError);
+          return { ...playlist, track_count: 0 };
+        }
+
+        return { ...playlist, track_count: trackCount };
+      })
+    );
+
+    return { data: playlistsWithTrackCount, error: null };
+  } catch (error) {
+    console.error('Supabase getUserPlaylists exception:', error);
+    return { data: null, error };
   }
 };
