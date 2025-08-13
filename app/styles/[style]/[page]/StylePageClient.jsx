@@ -230,6 +230,7 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
         accessToken={accessToken}
         likedTracks={likedTracks}
         onLikeToggle={toggleLike}
+        source={`styles/${styleData.slug}/${currentPage}`}
       />
 
       {totalPages > 1 && (

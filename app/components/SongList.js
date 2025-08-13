@@ -390,6 +390,19 @@ export default function SongList({
   const handleThumbnailClick = useCallback((song) => {
     const finalSource = source || 'unknown';
     const styleSlug = pageType === 'style' ? finalSource.split('/')[1] : null;
+    const genreSlug = pageType === 'genre' ? finalSource.split('/')[1] : null;
+    
+    // スタイルページとジャンルページでのソース情報のデバッグログ
+    if (pageType === 'style' || pageType === 'genre') {
+      console.log('🎵 SongList - Page thumbnail click:', {
+        songTitle: song.title?.rendered || song.title,
+        source,
+        finalSource,
+        styleSlug,
+        genreSlug,
+        pageType
+      });
+    }
     
     player.playTrack(song, songs.findIndex(s => s.id === song.id), songs, finalSource, onPageEnd);
   }, [source, pageType, player, songs, onPageEnd]);
@@ -448,7 +461,17 @@ export default function SongList({
   // 自動再生機能
   const prevSourceRef = useRef();
   useEffect(() => {
-    const finalSource = source || `${pageType}/${styleSlug}/${currentPage}`;
+    let finalSource = source;
+    if (!finalSource) {
+      if (pageType === 'style') {
+        finalSource = `${pageType}/${styleSlug}/${currentPage}`;
+      } else if (pageType === 'genre') {
+        finalSource = `${pageType}/${styleSlug}/${currentPage}`;
+      } else {
+        finalSource = `${pageType}/${styleSlug}/${currentPage}`;
+      }
+    }
+    
     if (autoPlayFirst && safeSongs.length > 0 && prevSourceRef.current !== finalSource) {
       prevSourceRef.current = finalSource;
       const firstSong = safeSongs[0];

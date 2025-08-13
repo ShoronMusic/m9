@@ -26,6 +26,22 @@ export class PlayTracker {
     return styleMap[styleId] || 'Unknown';
   }
 
+  // ジャンルIDからジャンル名を取得する関数
+  getGenreName(genreId) {
+    const genreMap = {
+      2844: 'Pop',
+      2845: 'Alternative',
+      4686: 'Dance',
+      2846: 'Electronica',
+      2847: 'R&B',
+      2848: 'Hip-Hop',
+      6703: 'Rock',
+      2849: 'Metal',
+      2873: 'Others'
+    };
+    return genreMap[genreId] || 'Unknown';
+  }
+
   // 楽曲データからスタイル・ジャンル情報を抽出する関数
   extractStyleAndGenreInfo(track) {
     let styleId = null;
@@ -87,6 +103,14 @@ export class PlayTracker {
   }
 
   startTracking(track, songId, source) {
+    // ソース情報のデバッグログ
+    console.log('📊 PlayTracker - startTracking called:', {
+      trackId: track?.id || track?.spotifyTrackId,
+      songId,
+      source,
+      userId: this.userId
+    });
+    
     // 前の曲の記録が保留されている場合は先に処理
     if (this.pendingRecord) {
       this.processPendingRecord();
@@ -201,6 +225,14 @@ export class PlayTracker {
       isFavorite = trackData.track.is_favorite;
     }
 
+    // ソース情報のデバッグログ
+    console.log('📊 PlayTracker - Recording play data:', {
+      source: trackData.source,
+      artistName,
+      trackTitle,
+      duration: trackData.duration
+    });
+    
     const playData = {
       user_id: this.userId,
       track_id: currentTrackId,

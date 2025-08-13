@@ -131,6 +131,7 @@ export default function GenrePageClient({
         total={total}
         pageType="genre"
         accessToken={accessToken}
+        source={`genres/${genreSlug}/${pageNumber}`}
       />
       {totalPages > 1 && (
         <Pagination

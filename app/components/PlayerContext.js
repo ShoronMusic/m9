@@ -348,8 +348,9 @@ export const PlayerProvider = ({ children }) => {
   }, [isPowerSaveMode]);
 
   const playTrack = useCallback((track, index, songs, source, onPageEnd = null) => {
+    // ソース情報のデバッグログ
     console.log('🎵 PlayerContext - playTrack called:', {
-      track,
+      track: track?.id || track?.spotifyTrackId,
       index,
       songsLength: songs?.length,
       source,
@@ -357,7 +358,15 @@ export const PlayerProvider = ({ children }) => {
       isNewSource: source !== currentTrackListSource.current
     });
     
-    if (source !== currentTrackListSource.current) {
+    // ソース情報の検証と正規化
+    const normalizedSource = source || 'unknown';
+    console.log('🔍 PlayerContext - Source validation:', {
+      originalSource: source,
+      normalizedSource,
+      currentSource: currentTrackListSource.current
+    });
+    
+    if (normalizedSource !== currentTrackListSource.current) {
         console.log('🔄 PlayerContext - New source detected, resetting state');
         // 状態を完全にリセット
         setCurrentTrack(null);
@@ -366,7 +375,8 @@ export const PlayerProvider = ({ children }) => {
         setPosition(0);
         setDuration(0);
         setTrackList(songs);
-        currentTrackListSource.current = source;
+        currentTrackListSource.current = normalizedSource;
+        console.log('✅ PlayerContext - Source updated:', normalizedSource);
     } else {
         console.log('🔄 PlayerContext - Same source, checking for duplicate track');
         // すでに同じsourceで同じ曲なら何もしない
@@ -434,8 +444,8 @@ export const PlayerProvider = ({ children }) => {
       
       // 視聴履歴追跡を開始（重複を防ぐため一度だけ呼び出し）
       if (playTracker && session?.user?.id) {
-        console.log('📊 PlayerContext - Starting play tracking');
-        playTracker.startTracking(newTrack, track.id, source);
+        console.log('📊 PlayerContext - Starting play tracking with source:', normalizedSource);
+        playTracker.startTracking(newTrack, track.id, normalizedSource);
       }
     });
   }, [playTracker, session, currentTrack, trackList]);
@@ -486,7 +496,9 @@ export const PlayerProvider = ({ children }) => {
       
       // 視聴履歴追跡を開始
       if (playTracker && session?.user?.id) {
-        playTracker.startTracking(trackList[0], trackList[0].id, currentTrackListSource.current);
+        const source = currentTrackListSource.current || 'unknown';
+        console.log('📊 PlayerContext - Starting play tracking for first track with source:', source);
+        playTracker.startTracking(trackList[0], trackList[0].id, source);
       }
       return;
     }
@@ -521,7 +533,9 @@ export const PlayerProvider = ({ children }) => {
       
       // 視聴履歴追跡を開始
       if (playTracker && session?.user?.id) {
-        playTracker.startTracking(nextTrack, nextTrack.id, currentTrackListSource.current);
+        const source = currentTrackListSource.current || 'unknown';
+        console.log('📊 PlayerContext - Starting play tracking for next track with source:', source);
+        playTracker.startTracking(nextTrack, nextTrack.id, source);
       }
     }, 100);
   }, [playTracker, session]);
@@ -536,7 +550,9 @@ export const PlayerProvider = ({ children }) => {
     
     // 視聴履歴追跡を開始
     if (playTracker && session?.user?.id) {
-      playTracker.startTracking(trackList[prevIndex], trackList[prevIndex].id, currentTrackListSource.current);
+      const source = currentTrackListSource.current || 'unknown';
+      console.log('📊 PlayerContext - Starting play tracking for previous track with source:', source);
+      playTracker.startTracking(trackList[prevIndex], trackList[prevIndex].id, source);
     }
   }, [currentTrackIndex, trackList, playTracker, session]);
 
