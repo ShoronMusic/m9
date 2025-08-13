@@ -1,9 +1,9 @@
 'use client';
 
 import React, { useEffect, useRef, useState, useContext, useMemo } from 'react';
-import { PlayerContext } from './PlayerContext'; // Import context directly
+import { PlayerContext } from './PlayerContext';
 import { useSession } from 'next-auth/react';
-import SpotifyPlayer from './SpotifyPlayer'; // The non-visual player engine
+import SpotifyPlayer from './SpotifyPlayer';
 import styles from './FooterPlayer.module.css';
 import Image from "next/image";
 
@@ -20,7 +20,20 @@ const getImageUrl = (track) => {
 // Helper function to format artist names
 const formatArtists = (artists) => {
     if (!artists || artists.length === 0) return 'Unknown Artist';
-    return artists.map(artist => artist.name).join(', ');
+    if (Array.isArray(artists)) {
+        return artists.map(artist => {
+            if (typeof artist === 'string') {
+                try {
+                    const parsed = JSON.parse(artist);
+                    return parsed.name || 'Unknown Artist';
+                } catch {
+                    return artist;
+                }
+            }
+            return artist.name || 'Unknown Artist';
+        }).join(', ');
+    }
+    return 'Unknown Artist';
 };
 
 // Helper function to format time in MM:SS format
@@ -32,7 +45,7 @@ const formatTime = (milliseconds) => {
     return `${minutes}:${seconds.toString().padStart(2, '0')}`;
 };
 
-// Progress Bar Component - Now without time display
+// Progress Bar Component
 const ProgressBar = ({ position, duration, onSeek }) => {
     const progressPercentage = duration > 0 ? (position / duration) * 100 : 0;
     const seekTimeoutRef = useRef(null);
@@ -65,81 +78,68 @@ const ProgressBar = ({ position, duration, onSeek }) => {
     );
 };
 
-// Volume Control Component
-const VolumeControl = ({ volume, onVolumeChange, isMuted, onMuteToggle, isVolumeVisible, onVolumeIconClick }) => {
-    
-    // In mobile view, the volume icon toggles visibility of the slider
-    const handleVolumeIconClick = () => {
-        // The check for mobile is handled by CSS, so we just toggle state
-        onVolumeIconClick();
-    };
-    
-    return (
-        <div className={`${styles.volumeControlContainer} ${isVolumeVisible ? styles['mobile-volume-visible'] : ''}`}>
-            {/* When muted, unmutes. Otherwise, it toggles volume slider visibility. */}
-            <button onClick={isMuted ? onMuteToggle : handleVolumeIconClick} className={styles.muteButton}>
-                <img 
-                    src={isMuted ? "/svg/volume-off-solid.svg" : "/svg/volume-high-solid.svg"} 
-                    alt={isMuted ? "Unmute" : "Mute"}
-                />
-            </button>
-            <input
-                type="range"
-                min="0"
-                max="1"
-                step="0.01"
-                value={isMuted ? 0 : volume}
-                onChange={onVolumeChange}
-                className={styles.volumeSlider}
-                // The problematic inline style is removed. CSS will handle visibility.
-            />
-        </div>
-    );
-};
-
 const getSafeTitle = (track) => {
-  if (!track) return 'Untitled';
-  if (typeof track.title === 'string') return track.title;
-  if (track.title && typeof track.title === 'object' && typeof track.title.rendered === 'string') return track.title.rendered;
-  if (typeof track.name === 'string') return track.name;
-  return 'Untitled';
+    if (!track) return 'Untitled';
+    if (typeof track.title === 'string') return track.title;
+    if (track.title && typeof track.title === 'object' && typeof track.title.rendered === 'string') return track.title.rendered;
+    if (typeof track.name === 'string') return track.name;
+    return 'Untitled';
 };
 
-export default function FooterPlayer({ accessToken }) {
-    const playerContext = useContext(PlayerContext); // Use context directly
+export default function FooterPlayer() {
+    const playerContext = useContext(PlayerContext);
     const { data: session } = useSession();
-    const previousTrackRef = useRef(null); // 前の曲の情報を保持
+    const [forceUpdate, setForceUpdate] = useState(0);
+
+    // 初期化時のログ
+    useEffect(() => {
+        console.log('🚀 FooterPlayer - Component initialized:', {
+            hasPlayerContext: !!playerContext,
+            hasSession: !!session,
+            playerContextKeys: playerContext ? Object.keys(playerContext) : [],
+            currentTrack: playerContext?.currentTrack
+        });
+    }, []);
 
     // PlayerContextの状態変化を監視
     useEffect(() => {
         console.log('🔍 FooterPlayer - PlayerContext state changed:', {
             currentTrack: playerContext?.currentTrack,
             isPlaying: playerContext?.isPlaying,
-            currentTrackIndex: playerContext?.currentTrackIndex
+            currentTrackIndex: playerContext?.currentTrackIndex,
+            hasPlayerContext: !!playerContext
         });
+        
+        // 強制的に再レンダリングを発生させる
+        setForceUpdate(prev => prev + 1);
     }, [playerContext?.currentTrack, playerContext?.isPlaying, playerContext?.currentTrackIndex]);
 
-    // 状態変化を強制的に監視
-    const playerState = useMemo(() => ({
-        currentTrack: playerContext?.currentTrack,
-        isPlaying: playerContext?.isPlaying,
-        currentTrackIndex: playerContext?.currentTrackIndex
-    }), [playerContext?.currentTrack, playerContext?.isPlaying, playerContext?.currentTrackIndex]);
+    // 強制的な再レンダリングのためのタイマー
+    useEffect(() => {
+        if (playerContext?.currentTrack) {
+            const timer = setTimeout(() => {
+                console.log('🔄 FooterPlayer - Force re-render triggered');
+                setForceUpdate(prev => prev + 1);
+            }, 100);
+            return () => clearTimeout(timer);
+        }
+    }, [playerContext?.currentTrack]);
 
     console.log('🎵 FooterPlayer - Render attempt:', {
         hasPlayerContext: !!playerContext,
         hasSession: !!session,
-        hasAccessToken: !!accessToken,
-        currentTrack: playerState.currentTrack,
-        isPlaying: playerState.isPlaying
+        hasAccessToken: !!session?.accessToken,
+        currentTrack: playerContext?.currentTrack,
+        isPlaying: playerContext?.isPlaying,
+        forceUpdate
     });
 
     if (!playerContext) {
         console.log('❌ FooterPlayer - No PlayerContext, returning null');
-        return null; // Early return if context is not available
+        return null;
     }
 
-    // playerStateを使用して確実に再レンダリングを発生させる
+    // PlayerContextから必要な値を取得
     const { 
         currentTrack, 
         isPlaying, 
@@ -154,33 +154,34 @@ export default function FooterPlayer({ accessToken }) {
         playPrevious,
         seekTo,
         spotifyPlayerRef,
-        progress,
-        isShuffling,
-        toggleShuffle,
         currentTrackIndex
-    } = playerContext; // Destructure from the context value
+    } = playerContext;
 
-    // playerStateを強制的に使用（再レンダリングのため）
-    const effectiveCurrentTrack = playerState.currentTrack || currentTrack;
-    const effectiveIsPlaying = playerState.isPlaying !== undefined ? playerState.isPlaying : isPlaying;
+    // 現在の曲の状態を確認
+    const hasCurrentTrack = currentTrack && Object.keys(currentTrack).length > 0;
     
+    console.log('🎵 FooterPlayer - Track state check:', {
+        hasCurrentTrack,
+        currentTrackKeys: currentTrack ? Object.keys(currentTrack) : [],
+        currentTrackValue: currentTrack
+    });
+    
+    if (!hasCurrentTrack) {
+        console.log('❌ FooterPlayer - No currentTrack in PlayerContext, returning null');
+        return null;
+    }
+
     // ログイン前はプレイヤーを表示しない
-    if (!session || !accessToken) {
+    if (!session || !session.accessToken) {
         console.log('❌ FooterPlayer - No session or accessToken, returning null');
         return null;
     }
-    
-    // 前の曲の情報を更新
-    if (effectiveCurrentTrack) {
-        previousTrackRef.current = effectiveCurrentTrack;
-    }
-    
-    // 曲が選択されていない場合は、前の曲の情報を使用
-    const displayTrack = effectiveCurrentTrack || previousTrackRef.current;
+
+    // 現在の曲を表示用に設定
+    const displayTrack = currentTrack;
     
     console.log('🎵 FooterPlayer - Track check:', {
         currentTrack: !!currentTrack,
-        previousTrack: !!previousTrackRef.current,
         displayTrack: !!displayTrack
     });
     
@@ -241,8 +242,6 @@ export default function FooterPlayer({ accessToken }) {
         setIsMuted(newMutedState);
     };
 
-
-
     // trackListの先頭（index 0）のみ無効
     const isFirstOfPage = currentTrackIndex === 0;
 
@@ -272,9 +271,9 @@ export default function FooterPlayer({ accessToken }) {
                         <button onClick={playPrevious} className={styles.controlButton} disabled={isFirstOfPage}>
                             <img src="/svg/backward-step-solid.svg" alt="Previous" />
                         </button>
-                                                 <button onClick={togglePlay} className={`${styles.controlButton} ${styles.playPauseButton}`}>
-                             <img src={effectiveIsPlaying ? "/svg/pause-solid.svg" : "/svg/play-solid.svg"} alt={effectiveIsPlaying ? "Pause" : "Play"} />
-                         </button>
+                        <button onClick={togglePlay} className={`${styles.controlButton} ${styles.playPauseButton}`}>
+                            <img src={isPlaying ? "/svg/pause-solid.svg" : "/svg/play-solid.svg"} alt={isPlaying ? "Pause" : "Play"} />
+                        </button>
                         <button onClick={playNext} className={styles.controlButton}>
                             <img src="/svg/forward-step-solid.svg" alt="Next" />
                         </button>
@@ -288,25 +287,7 @@ export default function FooterPlayer({ accessToken }) {
                            <span>{formatTime(duration)}</span>
                         </div>
                         <button
-                            onClick={() => {
-                                const newMutedState = !isMuted;
-                                
-                                if (spotifyPlayerRef.current && spotifyPlayerRef.current.setVolume) {
-                                    try {
-                                        if (newMutedState) {
-                                            spotifyPlayerRef.current.setVolume(0);
-                                        } else {
-                                            const newVolume = volume > 0 ? volume : 0.5;
-                                            if(volume === 0) setVolume(newVolume);
-                                            spotifyPlayerRef.current.setVolume(newVolume);
-                                        }
-                                    } catch (error) {
-                                        console.error('Mute toggle error:', error);
-                                    }
-                                }
-                                
-                                setIsMuted(newMutedState);
-                            }}
+                            onClick={handleMuteToggle}
                             className={styles.volumeButton}
                         >
                             <Image
@@ -345,12 +326,32 @@ export default function FooterPlayer({ accessToken }) {
             </div>
 
             {session && session.accessToken && (
-                                 <SpotifyPlayer 
-                     ref={spotifyPlayerRef}
-                     accessToken={session.accessToken} 
-                     trackId={displayTrack?.spotifyTrackId || displayTrack?.id}
-                     autoPlay={effectiveIsPlaying}
-                 />
+                <>
+                    <SpotifyPlayer 
+                        ref={spotifyPlayerRef}
+                        accessToken={session.accessToken} 
+                        trackId={displayTrack?.spotify_track_id || displayTrack?.spotifyTrackId || displayTrack?.id}
+                        autoPlay={isPlaying}
+                    />
+                    {/* デバッグ用：SpotifyPlayerの状態を表示 */}
+                    <div style={{
+                        position: 'fixed',
+                        bottom: '100px',
+                        right: '20px',
+                        backgroundColor: 'rgba(0,0,0,0.8)',
+                        color: 'white',
+                        padding: '10px',
+                        borderRadius: '5px',
+                        fontSize: '12px',
+                        zIndex: 1000
+                    }}>
+                        <div>SpotifyPlayer Debug:</div>
+                        <div>Track ID: {displayTrack?.spotify_track_id || displayTrack?.spotifyTrackId || displayTrack?.id}</div>
+                        <div>AutoPlay: {isPlaying ? 'true' : 'false'}</div>
+                        <div>Session: {session ? 'Active' : 'None'}</div>
+                        <div>Force Update: {forceUpdate}</div>
+                    </div>
+                </>
             )}
         </>
     );

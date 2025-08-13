@@ -32,7 +32,7 @@ export default async function RootLayout({ children }) {
             <Layout>
               {children}
             </Layout>
-            <FooterPlayer accessToken={accessToken} />
+            <FooterPlayer />
           </PlayerProvider>
         </AuthProvider>
       </body>

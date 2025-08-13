@@ -418,14 +418,18 @@ export default function PlaylistSongList({
   const { data: session } = useSession();
   const { playTrack, setTrackList, updateCurrentTrackState } = usePlayer();
   
+  // PlayerContextの初期化状態をチェック
+  const isPlayerReady = playTrack && setTrackList && updateCurrentTrackState;
+  
   // デバッグ用：usePlayerから取得した関数の確認（ページ読み込み時のみ）
   useEffect(() => {
     console.log('🔧 PlaylistSongList - usePlayer functions loaded:', {
       playTrack: typeof playTrack,
       setTrackList: typeof setTrackList,
-      updateCurrentTrackState: typeof updateCurrentTrackState
+      updateCurrentTrackState: typeof updateCurrentTrackState,
+      isPlayerReady
     });
-  }, [playTrack, setTrackList, updateCurrentTrackState]);
+  }, [playTrack, setTrackList, updateCurrentTrackState, isPlayerReady]);
   
   const [menuVisible, setMenuVisible] = useState(false);
   const [menuTriggerRect, setMenuTriggerRect] = useState(null);
@@ -468,6 +472,38 @@ export default function PlaylistSongList({
       trackList: typeof setTrackList
     });
   }, [updateCurrentTrackState, setTrackList]);
+
+  // autoPlayFirst機能：最初の曲を自動再生
+  useEffect(() => {
+    if (autoPlayFirst && tracks.length > 0 && playTrack && setTrackList && updateCurrentTrackState) {
+      console.log('🎵 AutoPlayFirst triggered:', {
+        autoPlayFirst,
+        tracksCount: tracks.length,
+        firstTrack: tracks[0]
+      });
+      
+      try {
+        const firstTrack = tracks[0];
+        const finalSource = source || `playlist/${playlistId}`;
+        
+        console.log('🚀 Setting up auto-play for first track:', {
+          track: firstTrack.title || firstTrack.title?.rendered,
+          source: finalSource
+        });
+        
+        // プレイリスト全体をキューに設定
+        setTrackList(tracks);
+        updateCurrentTrackState(firstTrack, 0);
+        
+        // 最初の曲を再生
+        playTrack(firstTrack, 0, tracks, finalSource, onPageEnd);
+        
+        console.log('✅ Auto-play setup completed successfully');
+      } catch (error) {
+        console.error('❌ Auto-play setup failed:', error);
+      }
+    }
+  }, [autoPlayFirst, tracks, playTrack, setTrackList, updateCurrentTrackState, source, playlistId, onPageEnd]);
 
   // Spotify Track IDsを抽出（ページ内の曲のみ）
   const trackIds = useMemo(() => {
@@ -582,6 +618,17 @@ export default function PlaylistSongList({
     console.log('🎤 Track artists:', track.artists);
     console.log('🎧 Spotify Track ID:', track.spotify_track_id || track.spotifyTrackId || track.acf?.spotify_track_id);
     
+    // usePlayerフックから取得した関数の可用性をチェック
+    if (!playTrack || !setTrackList || !updateCurrentTrackState) {
+      console.error('❌ Player functions not available:', {
+        playTrack: typeof playTrack,
+        setTrackList: typeof setTrackList,
+        updateCurrentTrackState: typeof updateCurrentTrackState
+      });
+      alert('プレーヤーの初期化が完了していません。しばらく待ってから再度お試しください。');
+      return;
+    }
+    
     const finalSource = source || `playlist/${playlistId}`;
     const trackIndex = tracks.findIndex(t => t.id === track.id);
     
@@ -593,12 +640,12 @@ export default function PlaylistSongList({
       tracksLength: tracks.length
     });
     
-            console.log('⚙️ Function availability:', {
-          playTrack: typeof playTrack,
-          setTrackList: typeof setTrackList,
-          updateCurrentTrackState: typeof updateCurrentTrackState,
-          onPageEnd: typeof onPageEnd
-        });
+    console.log('⚙️ Function availability:', {
+      playTrack: typeof playTrack,
+      setTrackList: typeof setTrackList,
+      updateCurrentTrackState: typeof updateCurrentTrackState,
+      onPageEnd: typeof onPageEnd
+    });
     
     try {
       // 処理された曲データを使用
@@ -662,6 +709,7 @@ export default function PlaylistSongList({
     } catch (error) {
       console.error('💥 Error in handleThumbnailClick:', error);
       console.error('💥 Error stack:', error.stack);
+      alert('曲の再生中にエラーが発生しました。もう一度お試しください。');
     }
     
     console.log('🏁🏁🏁 handleThumbnailClick FUNCTION END 🏁🏁🏁');
@@ -1019,9 +1067,9 @@ export default function PlaylistSongList({
   const prevSourceRef = useRef();
   useEffect(() => {
     const finalSource = source || `playlist/${playlistId}`;
-    if (autoPlayFirst && safeTracks.length > 0 && prevSourceRef.current !== finalSource) {
+    if (autoPlayFirst && tracks.length > 0 && prevSourceRef.current !== finalSource) {
       prevSourceRef.current = finalSource;
-      const firstTrack = safeTracks[0];
+      const firstTrack = tracks[0];
       
       // デバッグ情報を出力
       console.log('PlaylistSongList - Auto-play first track:', {
@@ -1031,12 +1079,12 @@ export default function PlaylistSongList({
       });
       
       try {
-        playTrack(firstTrack, 0, safeTracks, finalSource, onPageEnd);
+        playTrack(firstTrack, 0, tracks, finalSource, onPageEnd);
       } catch (error) {
         console.error('Error auto-playing first track:', error);
       }
     }
-  }, [autoPlayFirst, safeTracks, source, playlistId, onPageEnd, playTrack]);
+  }, [autoPlayFirst, tracks, source, playlistId, onPageEnd, playTrack]);
 
   return (
     <div className={styles.songlistWrapper}>
