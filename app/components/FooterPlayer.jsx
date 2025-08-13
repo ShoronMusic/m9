@@ -333,24 +333,7 @@ export default function FooterPlayer() {
                         trackId={displayTrack?.spotify_track_id || displayTrack?.spotifyTrackId || displayTrack?.id}
                         autoPlay={isPlaying}
                     />
-                    {/* デバッグ用：SpotifyPlayerの状態を表示 */}
-                    <div style={{
-                        position: 'fixed',
-                        bottom: '100px',
-                        right: '20px',
-                        backgroundColor: 'rgba(0,0,0,0.8)',
-                        color: 'white',
-                        padding: '10px',
-                        borderRadius: '5px',
-                        fontSize: '12px',
-                        zIndex: 1000
-                    }}>
-                        <div>SpotifyPlayer Debug:</div>
-                        <div>Track ID: {displayTrack?.spotify_track_id || displayTrack?.spotifyTrackId || displayTrack?.id}</div>
-                        <div>AutoPlay: {isPlaying ? 'true' : 'false'}</div>
-                        <div>Session: {session ? 'Active' : 'None'}</div>
-                        <div>Force Update: {forceUpdate}</div>
-                    </div>
+
                 </>
             )}
         </>

@@ -1,12 +1,12 @@
 'use client';
 
-import React, { useState, useMemo, useEffect, useRef, useCallback } from "react";
-import styles from "./SongList.module.css";
+import React, { useState, useMemo, useEffect, useRef, useCallback, useContext } from "react";
+import styles from "./PlaylistSongList.module.css";
 import MicrophoneIcon from "./MicrophoneIcon";
 import Link from "next/link";
 import ThreeDotsMenu from "./ThreeDotsMenu";
 import he from "he";
-import { usePlayer } from './PlayerContext';
+import { usePlayer, PlayerContext } from './PlayerContext';
 import { useSpotifyLikes } from './SpotifyLikes';
 import { useSession } from 'next-auth/react';
 import CreatePlaylistModal from './CreatePlaylistModal';
@@ -213,12 +213,12 @@ function formatMultipleGenres(genreData, fallbackGenreName = null) {
       // console.log('Using fallbackGenreName:', fallbackGenreName);
       // カンマ区切りの場合は分割して「/」区切りに変換
       if (fallbackGenreName.includes(',')) {
-        const result = fallbackGenreName.split(',').map(g => g.trim()).join(' / ');
+        const result = fallbackGenreName.split(',').map(g => he.decode(g.trim())).join(' / ');
         // console.log('Converted comma-separated fallbackGenreName to:', result);
         return result;
       }
       // 単一ジャンルの場合はそのまま返す
-      return fallbackGenreName;
+      return he.decode(fallbackGenreName);
     }
     // console.log('No fallbackGenreName, returning null');
     return null;
@@ -234,11 +234,11 @@ function formatMultipleGenres(genreData, fallbackGenreName = null) {
         console.log('genreData array is empty, using fallbackGenreName');
         if (fallbackGenreName) {
           if (fallbackGenreName.includes(',')) {
-            const result = fallbackGenreName.split(',').map(g => g.trim()).join(' / ');
+            const result = fallbackGenreName.split(',').map(g => he.decode(g.trim())).join(' / ');
             console.log('Converted comma-separated fallbackGenreName to:', result);
             return result;
           }
-          return fallbackGenreName;
+          return he.decode(fallbackGenreName);
         }
         return null;
       }
@@ -248,16 +248,16 @@ function formatMultipleGenres(genreData, fallbackGenreName = null) {
           console.log(`Processing genre[${index}]:`, genre);
           if (typeof genre === 'string') {
             console.log(`genre[${index}] is string:`, genre);
-            return genre;
+            return he.decode(genre);
           }
           if (typeof genre === 'object' && genre !== null) {
             // JSONBの形式: {"name": "Blues", "slug": "blues", "term_id": 432}
             const name = genre.name || genre.genre_name || genre.slug;
             console.log(`genre[${index}] is object, extracted name:`, name);
-            return name;
+            return he.decode(name);
           }
           console.log(`genre[${index}] is other type:`, typeof genre, genre);
-          return String(genre);
+          return he.decode(String(genre));
         })
         .filter(name => {
           const isValid = name && name !== 'null' && name !== 'undefined' && name !== 'unknown';
@@ -275,7 +275,7 @@ function formatMultipleGenres(genreData, fallbackGenreName = null) {
       console.log('genreData is string:', genreData);
       // 既にカンマ区切りの文字列の場合
       if (genreData.includes(',') && !genreData.includes('{')) {
-        const result = genreData.split(',').map(g => g.trim()).join(' / ');
+        const result = genreData.split(',').map(g => he.decode(g.trim())).join(' / ');
         console.log('Comma-separated string result:', result);
         return result;
       }
@@ -288,14 +288,14 @@ function formatMultipleGenres(genreData, fallbackGenreName = null) {
           const genreNames = parsed
             .map((genre, index) => {
               console.log(`Processing parsed genre[${index}]:`, genre);
-              if (typeof genre === 'string') return genre;
+              if (typeof genre === 'string') return he.decode(genre);
               if (typeof genre === 'object' && genre !== null) {
                 // JSONBの形式: {"name": "Blues", "slug": "blues", "term_id": 432}
                 const name = genre.name || genre.genre_name || genre.slug;
                 console.log(`parsed genre[${index}] is object, extracted name:`, name);
-                return name;
+                return he.decode(name);
               }
-              return String(genre);
+              return he.decode(String(genre));
             })
             .filter(name => name && name !== 'null' && name !== 'undefined' && name !== 'unknown');
           
@@ -305,8 +305,8 @@ function formatMultipleGenres(genreData, fallbackGenreName = null) {
         }
       } catch (parseError) {
         console.log('JSON parsing failed, returning original string:', genreData);
-        // JSON解析に失敗した場合は、そのまま返す
-        return genreData;
+        // JSON解析に失敗した場合は、HTMLエンティティをデコードして返す
+        return he.decode(genreData);
       }
     }
     
@@ -314,7 +314,8 @@ function formatMultipleGenres(genreData, fallbackGenreName = null) {
     if (typeof genreData === 'object' && genreData !== null) {
       console.log('genreData is object:', genreData);
       const genreNames = Object.values(genreData)
-        .filter(name => name && name !== 'null' && name !== 'undefined' && name !== 'unknown');
+        .filter(name => name && name !== 'null' && name !== 'undefined' && name !== 'unknown')
+        .map(name => he.decode(name));
       const result = genreNames.length > 0 ? genreNames.join(' / ') : null;
       console.log('Final result from object processing:', result);
       return result;
@@ -417,6 +418,7 @@ export default function PlaylistSongList({
 }) {
   const { data: session } = useSession();
   const { playTrack, setTrackList, updateCurrentTrackState } = usePlayer();
+  const playerContext = useContext(PlayerContext);
   
   // PlayerContextの初期化状態をチェック
   const isPlayerReady = playTrack && setTrackList && updateCurrentTrackState;
@@ -733,35 +735,37 @@ export default function PlaylistSongList({
       top = 8;
     }
     
-    // ジャンル情報を適切に準備
-    let genres = [];
-    
-    // 1. genre_data（JSONB配列）から取得を試行
-    if (track.genre_data && Array.isArray(track.genre_data) && track.genre_data.length > 0) {
-      genres = track.genre_data.map(genre => {
-        if (typeof genre === 'object' && genre !== null) {
-          return {
-            name: genre.name || genre.genre_name || genre.slug || 'Unknown Genre',
-            slug: genre.slug || (genre.name || genre.genre_name || 'unknown').toLowerCase().replace(/\s+/g, '-'),
-            term_id: genre.term_id || genre.id || Math.random().toString(36).substr(2, 9)
-          };
-        }
-        return {
-          name: String(genre),
-          slug: String(genre).toLowerCase().replace(/\s+/g, '-'),
-          term_id: Math.random().toString(36).substr(2, 9)
-        };
-      });
-    }
-    // 2. genre_name（カンマ区切り文字列）から取得を試行
-    else if (track.genre_name && typeof track.genre_name === 'string') {
-      const genreNames = track.genre_name.split(',').map(name => name.trim()).filter(name => name);
-      genres = genreNames.map(name => ({
-        name: name,
-        slug: name.toLowerCase().replace(/\s+/g, '-'),
-        term_id: Math.random().toString(36).substr(2, 9)
-      }));
-    }
+         // ジャンル情報を適切に準備
+     let genres = [];
+     
+     // 1. genre_data（JSONB配列）から取得を試行
+     if (track.genre_data && Array.isArray(track.genre_data) && track.genre_data.length > 0) {
+       genres = track.genre_data.map(genre => {
+         if (typeof genre === 'object' && genre !== null) {
+           const genreName = he.decode(genre.name || genre.genre_name || genre.slug || 'Unknown Genre');
+           return {
+             name: genreName,
+             slug: genre.slug || genreName.toLowerCase().replace(/\s+/g, '-'),
+             term_id: genre.term_id || genre.id || Math.random().toString(36).substr(2, 9)
+           };
+         }
+         const genreName = he.decode(String(genre));
+         return {
+           name: genreName,
+           slug: genreName.toLowerCase().replace(/\s+/g, '-'),
+           term_id: Math.random().toString(36).substr(2, 9)
+         };
+       });
+     }
+     // 2. genre_name（カンマ区切り文字列）から取得を試行
+     else if (track.genre_name && typeof track.genre_name === 'string') {
+       const genreNames = track.genre_name.split(',').map(name => he.decode(name.trim())).filter(name => name);
+       genres = genreNames.map(name => ({
+         name: name,
+         slug: name.toLowerCase().replace(/\s+/g, '-'),
+         term_id: Math.random().toString(36).substr(2, 9)
+       }));
+     }
     
     // メニュー表示用のデータを準備
     const menuTrack = {
@@ -1087,7 +1091,33 @@ export default function PlaylistSongList({
   }, [autoPlayFirst, tracks, source, playlistId, onPageEnd, playTrack]);
 
   return (
-    <div className={styles.songlistWrapper}>
+    <div className={styles.playlistWrapper}>
+      {/* プレイリスト情報 */}
+      <div className={styles.playlistInfo}>
+        <div className={styles.playlistHeader}>
+          <img 
+            src={playlistInfo?.cover_image_url || '/placeholder.jpg'} 
+            alt="Playlist Cover" 
+            className={styles.playlistCover}
+          />
+          <div className={styles.playlistDetails}>
+            <h1>{playlistInfo?.name || 'Playlist'}</h1>
+            <p>{safeTracks.length} tracks • Created {playlistInfo?.created_at ? new Date(playlistInfo.created_at).toLocaleDateString() : 'Unknown date'}</p>
+            {playlistInfo?.description && <p>{playlistInfo.description}</p>}
+          </div>
+        </div>
+      </div>
+
+      {/* ヘッダー */}
+      <div className={styles.header}>
+        <div className={styles.headerLeft}>
+          <div className={styles.headerTitle}>TRACKS</div>
+          <div className={styles.headerInfo}>
+            {safeTracks.length} tracks
+          </div>
+        </div>
+      </div>
+
       <ul className={styles.songList}>
         {tracks.map((track, index) => {
           try {
@@ -1124,14 +1154,11 @@ export default function PlaylistSongList({
             // Spotify Track IDを取得
             const spotifyTrackId = track.spotify_track_id || track.track_id;
             const isLiked = spotifyTrackId ? likedTracks.has(spotifyTrackId) : false;
-            // isPlayingの判定は現在の実装では使用していないため、一時的にfalseに設定
-            const isPlaying = false;
+            // 現在再生中の曲かどうかを判定
+            const isPlaying = playerContext?.currentTrack?.id === track.id && playerContext?.isPlaying;
 
             return (
               <li key={track.id + '-' + index} id={`song-${track.id}`} className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}>
-                <div className="ranking-thumbnail-container">
-                  {/* ランキング表示が必要ならここに */}
-                </div>
                 <button
                   className={styles.thumbnailContainer}
                   onClick={(e) => {
@@ -1179,56 +1206,10 @@ export default function PlaylistSongList({
                 </button>
 
                 <div className={styles.songText}>
-                  <div className={styles.line1} style={{ display: "flex", alignItems: "baseline", flexWrap: "wrap", gap: "8px" }}>
-                    <span style={{ marginRight: "auto" }}>
-                      {artistText} - {title}
-                    </span>
-                    {spotifyTrackId && (
-                      <span
-                        className={styles.likeContainer}
-                        style={{
-                          display: "inline-flex",
-                          alignItems: "center",
-                          gap: "2px",
-                          cursor: likesLoading ? "not-allowed" : "pointer",
-                          opacity: likesLoading ? 0.5 : 1,
-                          position: "relative",
-                        }}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          if (!likesLoading && !likesError) {
-                            handleLikeToggle(spotifyTrackId);
-                          }
-                        }}
-                        title={likesError ? `エラー: ${likesError}` : (isLiked ? "いいねを解除" : "いいねを追加")}
-                      >
-                        <img
-                          src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
-                          alt="Like"
-                          className={styles.likeIcon}
-                          style={{ 
-                            width: "14px", 
-                            height: "14px",
-                            filter: likesError ? "grayscale(100%)" : "none"
-                          }}
-                        />
-                        {likesLoading && (
-                          <div style={{
-                            position: "absolute",
-                            top: "-2px",
-                            right: "-2px",
-                            width: "8px",
-                            height: "8px",
-                            borderRadius: "50%",
-                            border: "1px solid #ccc",
-                            borderTop: "1px solid #007bff",
-                            animation: "spin 1s linear infinite"
-                          }} />
-                        )}
-                      </span>
-                    )}
+                  <div className={styles.line1}>
+                    {artistText} - {title}
                   </div>
-                  <div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+                  <div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "nowrap" }}>
                     {releaseDate && (
                       <span>{releaseDate}</span>
                     )}
@@ -1240,13 +1221,60 @@ export default function PlaylistSongList({
                     {renderVocalIcons(vocalData)}
                   </div>
                 </div>
-                <button
-                  className={styles.threeDotsButton}
-                  onClick={(e) => handleThreeDotsClick(e, track)}
-                  aria-label="More options"
-                >
-                  ⋮
-                </button>
+                
+                <div className={styles.rightIcons}>
+                  {spotifyTrackId && (
+                    <span
+                      className={styles.likeContainer}
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        gap: "2px",
+                        cursor: likesLoading ? "not-allowed" : "pointer",
+                        opacity: likesLoading ? 0.5 : 1,
+                        position: "relative",
+                      }}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        if (!likesLoading && !likesError) {
+                          handleLikeToggle(spotifyTrackId);
+                        }
+                      }}
+                      title={likesError ? `エラー: ${likesError}` : (isLiked ? "いいねを解除" : "いいねを追加")}
+                    >
+                      <img
+                        src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
+                        alt="Like"
+                        className={styles.likeIcon}
+                        style={{ 
+                          width: "16px", 
+                          height: "16px",
+                          filter: likesError ? "grayscale(100%)" : "none"
+                        }}
+                      />
+                      {likesLoading && (
+                        <div style={{
+                          position: "absolute",
+                          top: "-2px",
+                          right: "-2px",
+                          width: "8px",
+                          height: "8px",
+                          borderRadius: "50%",
+                          border: "1px solid #ccc",
+                          borderTop: "1px solid #007bff",
+                          animation: "spin 1s linear infinite"
+                        }} />
+                      )}
+                    </span>
+                  )}
+                  <button
+                    className={styles.threeDotsButton}
+                    onClick={(e) => handleThreeDotsClick(e, track)}
+                    aria-label="More options"
+                  >
+                    ⋮
+                  </button>
+                </div>
               </li>
             );
           } catch (e) {
@@ -1274,46 +1302,77 @@ export default function PlaylistSongList({
 
             return (
               <>
-                <div key="artists-section" style={separatorStyle}>
-                  {song.artists?.map((artist, index) => {
-                    // アーティストデータの処理
-                    let artistName = artist.name;
-                    let artistSlug = artist.slug;
-                    
-                    // 文字列の場合はJSONとして解析を試行
-                    if (typeof artist === 'string') {
-                      try {
-                        const parsed = JSON.parse(artist);
-                        artistName = parsed.name || parsed.artistorigin || artist;
-                        artistSlug = parsed.slug || parsed.name?.toLowerCase().replace(/\s+/g, '-') || artist.toLowerCase().replace(/\s+/g, '-');
-                      } catch (e) {
-                        artistName = artist;
-                        artistSlug = artist.toLowerCase().replace(/\s+/g, '-');
-                      }
-                    } else if (typeof artist === 'object' && artist !== null) {
-                      artistName = artist.name || artist.artistorigin || Object.values(artist)[0];
-                      artistSlug = artist.slug || artist.name?.toLowerCase().replace(/\s+/g, '-') || Object.values(artist)[0]?.toLowerCase().replace(/\s+/g, '-');
-                    }
-                    
-                    return (
-                      <Link href={`/${artistSlug}`} key={`artist-${index}`} legacyBehavior>
-                        <a style={{ ...menuItemStyle, ...linkColorStyle, fontWeight: 'bold' }}>
-                          <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-                          {artistName}
-                        </a>
-                      </Link>
-                    );
-                  })}
-                </div>
+                                 <div key="artists-section" style={separatorStyle}>
+                   {song.artists?.map((artist, index) => {
+                     // アーティストデータの処理
+                     let artistName = '';
+                     let artistSlug = '';
+                     
+                     // 文字列の場合はJSONとして解析を試行
+                     if (typeof artist === 'string') {
+                       try {
+                         const parsed = JSON.parse(artist);
+                         artistName = he.decode(parsed.name || parsed.artistorigin || artist);
+                         artistSlug = parsed.slug || artistName.toLowerCase().replace(/\s+/g, '-');
+                       } catch (e) {
+                         artistName = he.decode(artist);
+                         artistSlug = artistName.toLowerCase().replace(/\s+/g, '-');
+                       }
+                     } else if (typeof artist === 'object' && artist !== null) {
+                       artistName = he.decode(artist.name || artist.artistorigin || Object.values(artist)[0] || 'Unknown Artist');
+                       artistSlug = artist.slug || artistName.toLowerCase().replace(/\s+/g, '-');
+                     } else {
+                       artistName = he.decode(String(artist || 'Unknown Artist'));
+                       artistSlug = artistName.toLowerCase().replace(/\s+/g, '-');
+                     }
+                     
+                     // アーティスト名が空の場合はスキップ
+                     if (!artistName || artistName === 'Unknown Artist') {
+                       return null;
+                     }
+                     
+                     return (
+                       <Link href={`/${artistSlug}`} key={`artist-${index}`} legacyBehavior>
+                         <a style={{ ...menuItemStyle, ...linkColorStyle, fontWeight: 'bold' }}>
+                           <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                           {artistName}
+                         </a>
+                       </Link>
+                     );
+                   }).filter(Boolean)}
+                 </div>
 
-                <div key="song-section" style={separatorStyle}>
-                  <Link href={`/${song.artists?.[0]?.slug || 'unknown'}/songs/${song.slug || song.titleSlug || 'unknown'}`} legacyBehavior>
-                    <a style={{...menuItemStyle, ...linkColorStyle}}>
-                      <img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-                      {song.title?.rendered || song.title || "No Title"}
-                    </a>
-                  </Link>
-                </div>
+                                 <div key="song-section" style={separatorStyle}>
+                   {(() => {
+                     // アーティストスラッグを適切に取得
+                     let artistSlug = 'unknown';
+                     if (song.artists && song.artists.length > 0) {
+                       const firstArtist = song.artists[0];
+                       if (typeof firstArtist === 'string') {
+                         try {
+                           const parsed = JSON.parse(firstArtist);
+                           artistSlug = parsed.slug || he.decode(parsed.name || firstArtist).toLowerCase().replace(/\s+/g, '-');
+                         } catch (e) {
+                           artistSlug = he.decode(firstArtist).toLowerCase().replace(/\s+/g, '-');
+                         }
+                       } else if (typeof firstArtist === 'object' && firstArtist !== null) {
+                         artistSlug = firstArtist.slug || he.decode(firstArtist.name || Object.values(firstArtist)[0] || 'unknown').toLowerCase().replace(/\s+/g, '-');
+                       }
+                     }
+                     
+                     // 曲のスラッグを取得
+                     const songSlug = song.slug || song.titleSlug || (song.title ? he.decode(song.title).toLowerCase().replace(/\s+/g, '-') : 'unknown');
+                     
+                     return (
+                       <Link href={`/${artistSlug}/songs/${songSlug}`} legacyBehavior>
+                         <a style={{...menuItemStyle, ...linkColorStyle}}>
+                           <img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                           {he.decode(song.title?.rendered || song.title || "No Title")}
+                         </a>
+                       </Link>
+                     );
+                   })()}
+                 </div>
 
                 {song.genres && song.genres.length > 0 && song.genres.map((genre, index) => (
                   <div key={`genre-${genre.term_id || index}`} style={separatorStyle}>
@@ -1326,17 +1385,23 @@ export default function PlaylistSongList({
                   </div>
                 ))}
                 
-                {/* フォールバック：genre_nameが存在する場合 */}
-                {(!song.genres || song.genres.length === 0) && song.genre_name && typeof song.genre_name === 'string' && (
-                  <div key="fallback-genre" style={separatorStyle}>
-                    <Link href={`/genres/${song.genre_name.toLowerCase().replace(/\s+/g, '-')}/1`} legacyBehavior>
-                      <a style={{...menuItemStyle, ...linkColorStyle}}>
-                        <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-                        {song.genre_name}
-                      </a>
-                    </Link>
-                  </div>
-                )}
+                                 {/* フォールバック：genre_nameが存在する場合 */}
+                 {(!song.genres || song.genres.length === 0) && song.genre_name && typeof song.genre_name === 'string' && (
+                   <div key="fallback-genre" style={separatorStyle}>
+                     {(() => {
+                       const decodedGenreName = he.decode(song.genre_name);
+                       const genreSlug = decodedGenreName.toLowerCase().replace(/\s+/g, '-');
+                       return (
+                         <Link href={`/genres/${genreSlug}/1`} legacyBehavior>
+                           <a style={{...menuItemStyle, ...linkColorStyle}}>
+                             <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                             {decodedGenreName}
+                           </a>
+                         </Link>
+                       );
+                     })()}
+                   </div>
+                 )}
 
                 <div key="add-to-playlist-section" style={separatorStyle}>
                   <button onClick={onAddToPlaylist} style={menuButtonStlye}>
