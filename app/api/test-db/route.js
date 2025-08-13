@@ -1,65 +1,64 @@
-import { supabase, supabaseAdmin } from '../../lib/supabase';
+import { createClient } from '@supabase/supabase-js';
 
 export async function GET() {
   try {
-    const envVars = {
-      NEXT_PUBLIC_SUPABASE_URL: !!process.env.NEXT_PUBLIC_SUPABASE_URL,
-      NEXT_PUBLIC_SUPABASE_ANON_KEY: !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
-      SUPABASE_SERVICE_ROLE_KEY: !!process.env.SUPABASE_SERVICE_ROLE_KEY
-    };
-
-    const configStatus = {
-      supabaseClient: !!supabase,
-      supabaseAdminClient: !!supabaseAdmin,
-      environmentVariables: envVars
-    };
-
-    console.log('Supabase configuration status:', configStatus);
-
-    if (!supabase || !supabaseAdmin) {
-      return Response.json({
-        status: 'error',
-        message: 'Supabase not configured',
-        details: configStatus
-      }, { status: 500 });
-    }
-
-    // テストクエリを実行
-    try {
-      const { data, error } = await supabase
-        .from('users')
-        .select('count')
-        .limit(1);
-
-      if (error) {
-        return Response.json({
-          status: 'error',
-          message: 'Database connection failed',
-          error: error.message,
-          details: configStatus
-        }, { status: 500 });
+    // Supabaseクライアントを作成
+    const supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL,
+      process.env.SUPABASE_SERVICE_ROLE_KEY,
+      {
+        auth: {
+          autoRefreshToken: false,
+          persistSession: false
+        }
       }
+    );
 
-      return Response.json({
-        status: 'success',
-        message: 'Supabase connection successful',
-        details: configStatus
-      }, { status: 200 });
+    console.log('🔍 データベース構造確認開始');
 
-    } catch (dbError) {
-      return Response.json({
-        status: 'error',
-        message: 'Database query failed',
-        error: dbError.message,
-        details: configStatus
-      }, { status: 500 });
+    // playlistsテーブルの構造を確認
+    const { data: playlistsInfo, error: playlistsError } = await supabase
+      .from('playlists')
+      .select('*')
+      .limit(1);
+
+    console.log('📋 playlistsテーブル情報:', { playlistsInfo, playlistsError });
+
+    // テーブルの列情報を取得（PostgreSQLの情報スキーマを使用）
+    let columnsInfo = null;
+    let columnsError = null;
+    
+    try {
+      const result = await supabase
+        .rpc('get_table_columns', { table_name: 'playlists' });
+      columnsInfo = result.data;
+      columnsError = result.error;
+    } catch (rpcError) {
+      columnsError = 'RPC function not available';
     }
+
+    console.log('🔍 列情報:', { columnsInfo, columnsError });
+
+    // 代替方法：実際のデータから構造を推測
+    const { data: samplePlaylist, error: sampleError } = await supabase
+      .from('playlists')
+      .select('*')
+      .limit(1);
+
+    console.log('📝 サンプルプレイリスト:', { samplePlaylist, sampleError });
+
+    return Response.json({ 
+      success: true,
+      playlistsInfo: { data: playlistsInfo, error: playlistsError },
+      columnsInfo: { data: columnsInfo, error: columnsError },
+      samplePlaylist: { data: samplePlaylist, error: sampleError }
+    });
 
   } catch (error) {
-    return Response.json({
-      status: 'error',
-      message: 'API error',
-      error: error.message
+    console.error('❌ データベース構造確認エラー:', error);
+    return Response.json({ 
+      error: 'データベース構造確認に失敗しました',
+      details: error.message
     }, { status: 500 });
   }
 }

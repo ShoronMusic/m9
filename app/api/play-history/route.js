@@ -29,13 +29,20 @@ export async function POST(request) {
     
     // Supabaseが設定されていない場合はスキップ
     if (!supabaseAdmin) {
-      console.warn('Supabase not configured, play history recording skipped');
+      console.warn('❌ Supabase not configured, play history recording skipped');
+      console.warn('❌ Supabase configuration check:', {
+        hasSupabaseUrl: !!process.env.NEXT_PUBLIC_SUPABASE_URL,
+        hasSupabaseServiceKey: !!process.env.SUPABASE_SERVICE_ROLE_KEY,
+        supabaseAdminExists: !!supabaseAdmin
+      });
       return Response.json({ 
         success: true, 
         message: 'Play history disabled',
         reason: 'Supabase not configured'
       }, { status: 200 });
     }
+    
+    console.log('✅ Supabase configuration check passed');
     
     // ユーザーIDを取得または作成
     const { data: user, error: userError } = await getUserBySpotifyId(session.user.id);
@@ -60,6 +67,22 @@ export async function POST(request) {
     }
 
     // 視聴履歴を記録
+    console.log('📊 API - Attempting to record play history with data:', {
+      user_id: userId,
+      track_id,
+      song_id,
+      play_duration,
+      completed,
+      source,
+      artist_name,
+      track_title,
+      is_favorite,
+      style_id,
+      style_name,
+      genre_id,
+      genre_name
+    });
+    
     const { error: historyError } = await recordPlayHistory({
       user_id: userId,
       track_id,
@@ -77,9 +100,36 @@ export async function POST(request) {
     });
 
     if (historyError) {
-      console.error('Error recording play history:', historyError);
-      return Response.json({ error: 'Failed to record play history' }, { status: 500 });
+      console.error('❌ API - Error recording play history:', historyError);
+      console.error('❌ API - Error details:', {
+        message: historyError.message,
+        details: historyError.details,
+        hint: historyError.hint,
+        code: historyError.code
+      });
+      
+      // より詳細なエラー情報をログ出力
+      if (historyError.code === '23505') {
+        console.error('❌ API: Unique constraint violation - duplicate record');
+      } else if (historyError.code === '42P01') {
+        console.error('❌ API: Table does not exist');
+      } else if (historyError.code === '42703') {
+        console.error('❌ API: Column does not exist');
+      } else if (historyError.code === '23502') {
+        console.error('❌ API: Not null constraint violation');
+      }
+      
+      return Response.json({ 
+        error: 'Failed to record play history',
+        details: {
+          code: historyError.code,
+          message: historyError.message,
+          hint: historyError.hint
+        }
+      }, { status: 500 });
     }
+    
+    console.log('✅ API - Play history recorded successfully');
 
     return Response.json({ success: true }, { status: 200 });
   } catch (error) {

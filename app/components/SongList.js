@@ -355,12 +355,12 @@ export default function SongList({
     }));
   }, [songs]);
 
-     // スタイルページ閲覧時に曲の項目を確認するログ
-   useEffect(() => {
-     if (pageType === 'style' && songs.length > 0) {
+  // スタイルページ閲覧時に曲の項目を確認するログ
+  useEffect(() => {
+    if (pageType === 'style' && songs.length > 0) {
        // スタイルページの曲データ確認完了
-     }
-   }, [songs, pageType, styleSlug]);
+    }
+  }, [songs, pageType, styleSlug]);
 
   // Spotify APIを使用したいいねボタン用の toggleLike 関数
   const handleLikeToggle = async (songId) => {
@@ -982,7 +982,7 @@ export default function SongList({
           position={popupPosition}
           onClose={() => setIsPopupVisible(false)}
           onAddToPlaylist={() => handleAddToPlaylistClick(popupSong.id)}
-                     onCopyUrl={() => {
+          onCopyUrl={() => {
              // Spotifyアーティストの順序に基づいてメインアーティストを決定
              let orderedArtists = [...(popupSong.artists || [])];
              
@@ -1012,9 +1012,9 @@ export default function SongList({
              const songSlug = popupSong.titleSlug || popupSong.slug || 'unknown';
              
              navigator.clipboard.writeText(`${window.location.origin}/${mainArtistSlug}/songs/${songSlug}`);
-             setIsPopupVisible(false);
-           }}
-                     renderMenuContent={({ song, onAddToPlaylist, onCopyUrl }) => {
+            setIsPopupVisible(false);
+          }}
+          renderMenuContent={({ song, onAddToPlaylist, onCopyUrl }) => {
              // 三点メニューのサブメニュー項目と値をログ出力
              console.log('🎵 三点メニューサブメニュー項目確認:', {
                songId: song.id,
@@ -1051,14 +1051,14 @@ export default function SongList({
                content: song.content?.rendered || song.content
              });
 
-             const menuButtonStlye = { display: 'flex', alignItems: 'center', width: '100%', background: 'none', border: 'none', padding: '8px 12px', textAlign: 'left', cursor: 'pointer' };
-             const menuItemStyle = { ...menuButtonStlye, textDecoration: 'none', color: 'inherit' };
-             const separatorStyle = { borderBottom: '1px solid #eee' };
-             const linkColorStyle = { color: '#007bff' };
+            const menuButtonStlye = { display: 'flex', alignItems: 'center', width: '100%', background: 'none', border: 'none', padding: '8px 12px', textAlign: 'left', cursor: 'pointer' };
+            const menuItemStyle = { ...menuButtonStlye, textDecoration: 'none', color: 'inherit' };
+            const separatorStyle = { borderBottom: '1px solid #eee' };
+            const linkColorStyle = { color: '#007bff' };
 
             return (
               <>
-                                 <div key="artists-section" style={separatorStyle}>
+                <div key="artists-section" style={separatorStyle}>
                    {(() => {
                      // Spotifyアーティストの順序に基づいてアーティストを並び替え
                      let orderedArtists = [...(song.artists || [])];
@@ -1085,17 +1085,17 @@ export default function SongList({
                      }
                      
                      return orderedArtists.map((artist, index) => (
-                       <Link href={`/${artist.slug}`} key={artist.id || `artist-${index}`} legacyBehavior>
-                         <a style={{ ...menuItemStyle, ...linkColorStyle, fontWeight: 'bold' }}>
-                           <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-                           {artist.name}
-                         </a>
-                       </Link>
+                    <Link href={`/${artist.slug}`} key={artist.id || `artist-${index}`} legacyBehavior>
+                      <a style={{ ...menuItemStyle, ...linkColorStyle, fontWeight: 'bold' }}>
+                        <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                        {artist.name}
+                      </a>
+                    </Link>
                      ));
                    })()}
-                 </div>
+                </div>
 
-                                 <div key="song-section" style={separatorStyle}>
+                <div key="song-section" style={separatorStyle}>
                    <Link href={`/${(() => {
                      // Spotifyアーティストの順序に基づいてメインアーティストを決定
                      let orderedArtists = [...(song.artists || [])];
@@ -1124,8 +1124,8 @@ export default function SongList({
                      // メインアーティストのスラッグを返す
                      return orderedArtists[0]?.slug || song.artists[0]?.slug || 'unknown';
                    })()}/songs/${song.titleSlug || song.slug || 'unknown'}`} legacyBehavior>
-                     <a style={{...menuItemStyle, ...linkColorStyle}}>
-                       <img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                    <a style={{...menuItemStyle, ...linkColorStyle}}>
+                      <img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
                        {(() => {
                          // タイトルの取得を優先順位で行う
                          const title = song.title?.rendered || song.title || song.titleSlug || song.slug;
@@ -1135,20 +1135,20 @@ export default function SongList({
                          // タイトルが取得できない場合の代替表示
                          return "Sugar Sweet"; // この曲の場合は固定表示
                        })()}
-                     </a>
-                   </Link>
-                 </div>
+                    </a>
+                  </Link>
+                </div>
 
-                                 {song.genres?.map((genre, index) => (
-                   <div key={`genre-${genre.term_id || index}`} style={separatorStyle}>
-                     <Link href={`/genres/${genre.slug}/1`} legacyBehavior>
-                       <a style={{...menuItemStyle, ...linkColorStyle}}>
-                         <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                {song.genres?.map((genre, index) => (
+                  <div key={`genre-${genre.term_id || index}`} style={separatorStyle}>
+                    <Link href={`/genres/${genre.slug}/1`} legacyBehavior>
+                      <a style={{...menuItemStyle, ...linkColorStyle}}>
+                        <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
                          {he.decode(genre.name || 'Unknown Genre')}
-                       </a>
-                     </Link>
-                   </div>
-                 ))}
+                      </a>
+                    </Link>
+                  </div>
+                ))}
 
                 <div key="add-to-playlist-section" style={separatorStyle}>
                   <button onClick={onAddToPlaylist} style={menuButtonStlye}>

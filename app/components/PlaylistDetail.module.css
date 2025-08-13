@@ -4,6 +4,55 @@
   margin: 0 auto;
 }
 
+/* マイページへ戻るボタン */
+.backToMyPage {
+  margin-bottom: 20px;
+}
+
+.myPageButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: #6c5ce7;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(108, 92, 231, 0.3);
+}
+
+.myPageButton:hover {
+  background: #5a4fcf;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(108, 92, 231, 0.4);
+}
+
+.backArrow {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.buttonText {
+  font-weight: 500;
+}
+
+.myIcon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid white;
+}
+
+.myIconImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* プレイリストヘッダー */
 .playlistHeader {
   display: flex;
@@ -21,6 +70,12 @@
   font-weight: 700;
 }
 
+.playlistInfo {
+  flex: 1;
+  min-width: 0;
+  margin-right: 60px;
+}
+
 .playlistLabel {
   font-size: 14px;
   color: #666;
@@ -28,6 +83,7 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-bottom: 8px;
+  margin-top: 0;
 }
 
 .playlistTitle {
@@ -35,6 +91,7 @@
   color: #333;
   font-size: 32px;
   font-weight: 700;
+  margin-top: 0;
 }
 
 .createdBy {
@@ -55,7 +112,14 @@
 }
 
 .meta {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.metaLeft {
+  display: flex;
   gap: 20px;
   align-items: center;
   flex-wrap: wrap;
@@ -86,38 +150,37 @@
   color: #999;
 }
 
-.playlistActions {
-  display: flex;
-  gap: 12px;
-}
-
-.editButton,
-.shareButton {
-  padding: 10px 20px;
+.playlistListButton {
+  padding: 8px 16px;
+  background: #6c5ce7;
+  color: white;
   border: none;
   border-radius: 6px;
   font-size: 14px;
+  font-weight: 500;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(108, 92, 231, 0.3);
+  text-decoration: none;
+  display: inline-block;
 }
 
-.editButton {
-  background: #ffc107;
-  color: #212529;
+.playlistListButton:hover {
+  background: #5a4fcf;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(108, 92, 231, 0.4);
 }
 
-.editButton:hover {
-  background: #e0a800;
+.playlistActions {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  margin-top: auto;
+  padding-top: 0;
 }
 
-.shareButton {
-  background: #17a2b8;
-  color: white;
-}
 
-.shareButton:hover {
-  background: #138496;
-}
 
 /* トラック一覧 */
 .tracksContainer {
@@ -400,5 +463,113 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* 編集フォームのスタイル */
+.editForm {
+  margin-bottom: 20px;
+}
+
+.editNameInput {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  background-color: white;
+  color: #1f2937;
+  transition: border-color 0.2s ease;
+}
+
+.editNameInput:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.editDescriptionInput {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background-color: white;
+  color: #1f2937;
+  resize: vertical;
+  min-height: 80px;
+  font-family: inherit;
+  transition: border-color 0.2s ease;
+}
+
+.editDescriptionInput:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.editActions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.saveButton {
+  padding: 8px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.saveButton:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.saveButton:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.cancelButton {
+  padding: 8px 20px;
+  background-color: #6b7280;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cancelButton:hover:not(:disabled) {
+  background-color: #4b5563;
+}
+
+.cancelButton:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.editButton {
+  padding: 6px 16px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-bottom: 16px;
+}
+
+.editButton:hover {
+  background-color: #059669;
 }
 

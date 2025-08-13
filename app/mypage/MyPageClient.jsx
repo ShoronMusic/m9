@@ -364,27 +364,18 @@ export default function MyPageClient({ session }) {
     return `${minutes}分`;
   };
 
-  // プレイリスト用の日付フォーマット関数（より簡潔）
+  // プレイリスト用の日付フォーマット関数（プレイリスト詳細ページと同じ形式）
   const formatPlaylistDate = (dateString) => {
     if (!dateString) return '不明';
     
     const date = new Date(dateString);
-    const now = new Date();
-    const diffTime = Math.abs(now - date);
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    if (isNaN(date.getTime())) return '不明';
     
-    if (diffDays === 1) {
-      return '昨日';
-    } else if (diffDays <= 7) {
-      return `${diffDays}日前`;
-    } else if (diffDays <= 30) {
-      const weeks = Math.ceil(diffDays / 7);
-      return `${weeks}週間前`;
-    } else {
-      const month = (date.getMonth() + 1).toString().padStart(2, '0');
-      const day = date.getDate().toString().padStart(2, '0');
-      return `${date.getFullYear()}.${month}.${day}`;
-    }
+    const year = date.getFullYear();
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const day = date.getDate().toString().padStart(2, '0');
+    
+    return `${year}.${month}.${day}`;
   };
 
   // タイトル表示用の関数（JSON文字列を処理）
@@ -463,6 +454,33 @@ export default function MyPageClient({ session }) {
         return (
           <Link href={`/${artistSlug}/1`} className={styles.sourceLink}>
             {source}
+          </Link>
+        );
+      }
+    }
+    
+    // playlist: 形式の場合（プレイリスト名|ID）
+    if (source.startsWith('playlist: ')) {
+      const parts = source.split('|');
+      if (parts.length === 2) {
+        const playlistName = parts[0].replace('playlist: ', '');
+        const playlistId = parts[1];
+        return (
+          <Link href={`/playlists/${playlistId}`} className={styles.sourceLink}>
+            {`playlist: ${playlistName}`}
+          </Link>
+        );
+      }
+    }
+    
+    // playlist/形式の場合（古い形式、UUIDのみ）
+    if (source.startsWith('playlist/')) {
+      const playlistId = source.replace('playlist/', '');
+      // UUIDの形式チェック（基本的な形式）
+      if (playlistId && playlistId.length > 20) {
+        return (
+          <Link href={`/playlists/${playlistId}`} className={styles.sourceLink}>
+            {`playlist: ${playlistId.substring(0, 8)}...`}
           </Link>
         );
       }
@@ -632,27 +650,6 @@ export default function MyPageClient({ session }) {
         </div>
       </div>
 
-      {/* 視聴履歴サマリー */}
-      {stats && (
-        <div className={styles.statsCard}>
-          <h3>視聴履歴サマリー</h3>
-          <div className={styles.statsGrid}>
-            <div className={styles.statItem}>
-              <span className={styles.statLabel}>総視聴時間</span>
-              <span className={styles.statValue}>{formatDuration(stats?.totalPlayTime || 0)}</span>
-            </div>
-            <div className={styles.statItem}>
-              <span className={styles.statLabel}>視聴した曲数</span>
-              <span className={styles.statValue}>{stats?.uniqueTracks || 0}曲</span>
-            </div>
-            <div className={styles.statItem}>
-              <span className={styles.statLabel}>お気に入り</span>
-              <span className={styles.statValue}>{stats?.completedTracks || 0}曲</span>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* プレイリストコーナー */}
       <div className={styles.playlistsCard}>
         <div className={styles.playlistsHeader}>
@@ -691,13 +688,12 @@ export default function MyPageClient({ session }) {
                 </div>
                 <div className={styles.playlistInfo}>
                   <h4 className={styles.playlistName}>{playlist.name}</h4>
-                  <p className={styles.playlistStats}>
-                    {playlist.track_count || 0}曲 • 
-                    最終更新: {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
-                  </p>
-                  {playlist.description && (
-                    <p className={styles.playlistDescription}>{playlist.description}</p>
-                  )}
+                                     <p className={styles.playlistStats}>
+                     {playlist.track_count || 0}曲
+                   </p>
+                   <p className={styles.playlistStats}>
+                     Update: {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
+                   </p>
                 </div>
               </Link>
             ))}
@@ -710,6 +706,27 @@ export default function MyPageClient({ session }) {
           </div>
         )}
       </div>
+
+      {/* 視聴履歴サマリー */}
+      {stats && (
+        <div className={styles.statsCard}>
+          <h3>視聴履歴サマリー</h3>
+          <div className={styles.statsGrid}>
+            <div className={styles.statItem}>
+              <span className={styles.statLabel}>総視聴時間</span>
+              <span className={styles.statValue}>{formatDuration(stats?.totalPlayTime || 0)}</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statLabel}>視聴した曲数</span>
+              <span className={styles.statValue}>{stats?.uniqueTracks || 0}曲</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statLabel}>お気に入り</span>
+              <span className={styles.statValue}>{stats?.completedTracks || 0}曲</span>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* 視聴履歴テーブル */}
       <div className={styles.historyCard}>

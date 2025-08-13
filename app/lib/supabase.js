@@ -25,13 +25,17 @@ export const supabaseAdmin = supabaseUrl && supabaseServiceKey
 
 // ユーティリティ関数
 export const getUserBySpotifyId = async (spotifyId) => {
-  if (!supabase) {
+  // サーバーサイドとクライアントサイドの両方に対応
+  const supabaseClient = supabaseAdmin || supabase;
+  
+  if (!supabaseClient) {
     console.warn('Supabase not configured, getUserBySpotifyId skipped');
     return { data: null, error: new Error('Supabase not configured') };
   }
   
   try {
-    const { data, error } = await supabase
+    // まず、spotify_idでユーザーを検索
+    const { data, error } = await supabaseClient
       .from('users')
       .select('*')
       .eq('spotify_id', spotifyId)
@@ -49,13 +53,16 @@ export const getUserBySpotifyId = async (spotifyId) => {
 };
 
 export const createUser = async (userData) => {
-  if (!supabase) {
+  // サーバーサイドとクライアントサイドの両方に対応
+  const supabaseClient = supabaseAdmin || supabase;
+  
+  if (!supabaseClient) {
     console.warn('Supabase not configured, createUser skipped');
     return { data: null, error: new Error('Supabase not configured') };
   }
   
   try {
-    const { data, error } = await supabase
+    const { data, error } = await supabaseClient
       .from('users')
       .insert(userData)
       .select()
@@ -75,7 +82,10 @@ export const createUser = async (userData) => {
 export const recordPlayHistory = async (playData) => {
   console.log('Supabase recordPlayHistory called with data:', playData);
   
-  if (!supabase) {
+  // サーバーサイドとクライアントサイドの両方に対応
+  const supabaseClient = supabaseAdmin || supabase;
+  
+  if (!supabaseClient) {
     console.warn('Supabase not configured, recordPlayHistory skipped');
     return { data: null, error: new Error('Supabase not configured') };
   }
@@ -83,13 +93,37 @@ export const recordPlayHistory = async (playData) => {
   try {
     console.log('Supabase: Inserting play history data...');
     
+    // user_idはUUID型なので、そのまま使用
+    const userId = playData.user_id;
+    console.log('Supabase: Using user_id as UUID:', userId);
+    
+    // song_idを数値に変換（UUIDの場合は最初の8文字を16進数として解釈）
+    let numericSongId;
+    try {
+      if (typeof playData.song_id === 'string' && playData.song_id.includes('-')) {
+        // UUIDの場合、最初の8文字を16進数として解釈
+        const hexPart = playData.song_id.replace(/-/g, '').substring(0, 8);
+        numericSongId = parseInt(hexPart, 16);
+        console.log('Supabase: Converted song_id UUID to numeric:', {
+          original: playData.song_id,
+          hexPart,
+          numericSongId
+        });
+      } else {
+        numericSongId = parseInt(playData.song_id);
+      }
+    } catch (e) {
+      console.error('Supabase: Failed to convert song_id to numeric:', e);
+      numericSongId = 1; // フォールバック値
+    }
+    
     // 重複チェック: 同じ曲が短時間で連続記録されることを防ぐ
-    const duplicateCheck = await supabase
+    const duplicateCheck = await supabaseClient
       .from('play_history')
       .select('id, created_at')
-      .eq('user_id', playData.user_id)
+      .eq('user_id', userId)
       .eq('track_id', playData.track_id)
-      .eq('song_id', playData.song_id)
+      .eq('song_id', numericSongId)
       .order('created_at', { ascending: false })
       .limit(1);
     
@@ -111,9 +145,9 @@ export const recordPlayHistory = async (playData) => {
     
     // テーブル構造に合わせてデータを整形
     const insertData = {
-      user_id: playData.user_id,
+      user_id: userId,
       track_id: playData.track_id,
-      song_id: playData.song_id,
+      song_id: numericSongId,
       play_duration: playData.play_duration,
       completed: playData.completed,
       source: playData.source,
@@ -128,7 +162,7 @@ export const recordPlayHistory = async (playData) => {
     
     console.log('Supabase: Inserting data with correct schema:', insertData);
     
-    const { data, error } = await supabase
+    const { data, error } = await supabaseClient
       .from('play_history')
       .insert(insertData)
       .select();
@@ -141,6 +175,17 @@ export const recordPlayHistory = async (playData) => {
         details: error.details,
         hint: error.hint
       });
+      
+      // より詳細なエラー情報をログ出力
+      if (error.code === '23505') {
+        console.error('❌ Supabase: Unique constraint violation - duplicate record');
+      } else if (error.code === '42P01') {
+        console.error('❌ Supabase: Table does not exist');
+      } else if (error.code === '42703') {
+        console.error('❌ Supabase: Column does not exist');
+      } else if (error.code === '23502') {
+        console.error('❌ Supabase: Not null constraint violation');
+      }
     } else {
       console.log('Supabase recordPlayHistory success:', data);
     }
@@ -158,14 +203,17 @@ export const recordPlayHistory = async (playData) => {
 };
 
 export const getPlayHistory = async (userId, limit = 50) => {
-  if (!supabase) {
+  // サーバーサイドとクライアントサイドの両方に対応
+  const supabaseClient = supabaseAdmin || supabase;
+  
+  if (!supabaseClient) {
     console.warn('Supabase not configured, getPlayHistory skipped');
     return { data: [], error: new Error('Supabase not configured') };
   }
   
   try {
     // 視聴履歴を取得
-    const { data: playHistory, error } = await supabase
+    const { data: playHistory, error } = await supabaseClient
       .from('play_history')
       .select('*')
       .eq('user_id', userId)
@@ -223,14 +271,17 @@ export const getPlayHistory = async (userId, limit = 50) => {
 
 // プレイリスト一覧を取得する関数
 export const getUserPlaylists = async (userId) => {
-  if (!supabase) {
+  // サーバーサイドとクライアントサイドの両方に対応
+  const supabaseClient = supabaseAdmin || supabase;
+  
+  if (!supabaseClient) {
     console.warn('Supabase not configured, getUserPlaylists skipped');
     return { data: null, error: new Error('Supabase not configured') };
   }
   
   try {
     // プレイリスト一覧を取得
-    const { data: playlists, error: playlistsError } = await supabase
+    const { data: playlists, error: playlistsError } = await supabaseClient
       .from('playlists')
       .select(`
         id,
@@ -254,7 +305,7 @@ export const getUserPlaylists = async (userId) => {
     // 各プレイリストのトラック数を個別に取得
     const playlistsWithTrackCount = await Promise.all(
       playlists.map(async (playlist) => {
-        const { count: trackCount, error: countError } = await supabase
+        const { count: trackCount, error: countError } = await supabaseClient
           .from('playlist_tracks')
           .select('*', { count: 'exact', head: true })
           .eq('playlist_id', playlist.id);

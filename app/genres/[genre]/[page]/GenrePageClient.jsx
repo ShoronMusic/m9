@@ -7,6 +7,8 @@ import Pagination from '@/components/Pagination';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 import styles from './GenrePageClient.module.css';
 
+import { getStyleName } from '@/lib/styleMapping';
+
 export default function GenrePageClient({ 
   genreSlug, 
   pageNumber, 
@@ -36,6 +38,30 @@ export default function GenrePageClient({
     const ytvideoid = song.ytvideoid || song.youtube_id || song.acf?.ytvideoid || song.acf?.youtube_id || song.videoId || '';
     const spotify_track_id = song.spotify_track_id || song.spotifyTrackId || song.acf?.spotify_track_id || song.acf?.spotifyTrackId || '';
     const spotify_url = song.spotify_url || song.acf?.spotify_url || '';
+    
+    // スタイル情報の抽出（compact-songs.jsonから取得した情報をそのまま使用）
+    let styleId = song.style_id || null;
+    let styleName = song.style_name || null;
+    
+    // style_idはあるがstyle_nameがない場合、getStyleNameで補完
+    if (styleId && !styleName) {
+      styleName = getStyleName(styleId);
+    }
+    
+    // スタイル情報のデバッグログ
+    if (posts.indexOf(song) === 0) {
+      console.log('🎨 GenrePageClient - Style info from compact-songs.json:', {
+        songTitle: song.title,
+        style_id: song.style_id,
+        style_name: song.style_name,
+        styles: song.styles,
+        extractedStyleId: styleId,
+        extractedStyleName: styleName
+      });
+    }
+    
+
+    
     return {
       ...song,
       title: { rendered: song.title },
@@ -55,6 +81,8 @@ export default function GenrePageClient({
       vocal_data: song.vocals || song.vocal_data,
       style: song.styles,
       styles: song.styles, // PlayTrackerが期待する形式
+      style_id: styleId,
+      style_name: styleName,
       slug: song.slug,
       content: { rendered: song.content },
     };

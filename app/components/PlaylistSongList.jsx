@@ -486,7 +486,9 @@ export default function PlaylistSongList({
       
       try {
         const firstTrack = tracks[0];
-        const finalSource = source || `playlist/${playlistId}`;
+        // プレイリスト名とIDを含むソースを作成（リンク用）
+        const playlistName = playlistInfo?.name || 'Unknown Playlist';
+        const finalSource = source || `playlist: ${playlistName}|${playlistId}`;
         
         console.log('🚀 Setting up auto-play for first track:', {
           track: firstTrack.title || firstTrack.title?.rendered,
@@ -553,7 +555,24 @@ export default function PlaylistSongList({
         id: track.id || track.track_id || `temp_${Math.random()}`,
         // 既存のSongList.jsで期待される形式に変換
         title: { rendered: track.title || "No Title" },
-        artists: track.artists || [],
+        artists: Array.isArray(track.artists) ? track.artists.map(artist => {
+          // アーティストデータが文字列の場合はパース
+          if (typeof artist === 'string') {
+            try {
+              return JSON.parse(artist);
+            } catch (e) {
+              // パースできない場合は基本的なアーティストオブジェクトを作成
+              return {
+                id: Math.random().toString(36).substr(2, 9),
+                name: artist,
+                slug: artist.toLowerCase().replace(/ /g, '-'),
+                acf: { artistorigin: 'Unknown' }
+              };
+            }
+          }
+          // 既にオブジェクトの場合はそのまま使用
+          return artist;
+        }) : [],
         acf: {
           spotify_track_id: spotifyTrackId,
           ytvideoid: track.youtube_id || track.ytvideoid || '',
@@ -563,11 +582,13 @@ export default function PlaylistSongList({
         thumbnail: track.thumbnail || track.thumbnail_url,
         youtubeId: track.youtube_id || track.ytvideoid || '',
         spotifyTrackId: spotifyTrackId,
-        genre_data: [],
-        genres: [],
-        vocal_data: [],
-        style: [],
-        styles: [],
+        genre_data: track.genre_data || track.genres || [],
+        genres: track.genres || track.genre_data || [],
+        vocal_data: track.vocal_data || [],
+        style: track.style || track.styles || [],
+        styles: track.styles || track.style || [],
+        style_id: track.style_id || (track.style && Array.isArray(track.style) && track.style.length > 0 ? track.style[0].term_id : null) || track.acf?.style_id,
+        style_name: track.style_name || (track.style && Array.isArray(track.style) && track.style.length > 0 ? track.style[0].name : null) || track.acf?.style_name || getStyleName(track.style_id || track.acf?.style_id),
         slug: track.title ? track.title.toLowerCase().replace(/ /g, "-") : track.id,
         content: { rendered: track.title || "" },
         // 元のデータにもspotify_track_idを設定
@@ -579,7 +600,17 @@ export default function PlaylistSongList({
     console.log('PlaylistSongList - safeTracks processed:', {
       originalTracks: tracks,
       processedTracks: processedTracks,
-      sampleTrack: processedTracks[0]
+      sampleTrack: processedTracks[0],
+      sampleTrackStyleInfo: processedTracks[0] ? {
+        style: processedTracks[0].style,
+        styles: processedTracks[0].styles,
+        style_id: processedTracks[0].style_id,
+        style_name: processedTracks[0].style_name,
+        originalStyle: tracks[0]?.style,
+        originalStyles: tracks[0]?.styles,
+        originalStyleId: tracks[0]?.style_id,
+        originalStyleName: tracks[0]?.style_name
+      } : null
     });
     
     return processedTracks;
@@ -631,16 +662,35 @@ export default function PlaylistSongList({
       return;
     }
     
-    const finalSource = source || `playlist/${playlistId}`;
+    // プレイリスト名とIDを含むソースを作成（リンク用）
+    const playlistName = playlistInfo?.name || 'Unknown Playlist';
+    const finalSource = source || `playlist: ${playlistName}|${playlistId}`;
     const trackIndex = tracks.findIndex(t => t.id === track.id);
     
-    console.log('📍 Playlist info:', {
-      playlistId,
+    // プレイリストでのソース情報のデバッグログ
+    console.log('🎵 PlaylistSongList - Playlist thumbnail click:', {
+      trackTitle: track.title?.rendered || track.title,
       source,
       finalSource,
+      playlistId,
+      playlistName,
       trackIndex,
-      tracksLength: tracks.length
+      styleInfo: {
+        style: track.style,
+        styles: track.styles,
+        style_id: track.style_id,
+        style_name: track.style_name
+      }
     });
+    
+            console.log('📍 Playlist info:', {
+          playlistId,
+          playlistName,
+          source,
+          finalSource,
+          trackIndex,
+          tracksLength: tracks.length
+        });
     
     console.log('⚙️ Function availability:', {
       playTrack: typeof playTrack,
@@ -652,13 +702,19 @@ export default function PlaylistSongList({
     try {
       // 処理された曲データを使用
       const processedTrack = safeTracks.find(t => t.id === track.id);
-      console.log('🔧 Processed track found:', processedTrack);
-      
-      if (processedTrack) {
-        console.log('✅ Using processed track for playback');
-        console.log('📋 Setting track list with safeTracks:', safeTracks.length, 'tracks');
-        console.log('🎯 Setting current track index:', trackIndex);
-        console.log('🎵 Setting current track:', processedTrack.title || processedTrack.title?.rendered);
+              console.log('🔧 Processed track found:', processedTrack);
+        console.log('🎨 Processed track style info:', {
+          style: processedTrack.style,
+          styles: processedTrack.styles,
+          style_id: processedTrack.style_id,
+          style_name: processedTrack.style_name
+        });
+        
+        if (processedTrack) {
+          console.log('✅ Using processed track for playback');
+          console.log('📋 Setting track list with safeTracks:', safeTracks.length, 'tracks');
+          console.log('🎯 Setting current track index:', trackIndex);
+          console.log('🎵 Setting current track:', processedTrack.title || processedTrack.title?.rendered);
         
         // PlayerContextのplayTrack関数を直接呼び出し
         // プレイリスト全体をキューに設定してから再生
@@ -1070,7 +1126,9 @@ export default function PlaylistSongList({
   // 自動再生機能
   const prevSourceRef = useRef();
   useEffect(() => {
-    const finalSource = source || `playlist/${playlistId}`;
+    // プレイリスト名とIDを含むソースを作成（リンク用）
+    const playlistName = playlistInfo?.name || 'Unknown Playlist';
+    const finalSource = source || `playlist: ${playlistName}|${playlistId}`;
     if (autoPlayFirst && tracks.length > 0 && prevSourceRef.current !== finalSource) {
       prevSourceRef.current = finalSource;
       const firstTrack = tracks[0];
@@ -1079,7 +1137,8 @@ export default function PlaylistSongList({
       console.log('PlaylistSongList - Auto-play first track:', {
         firstTrack,
         spotifyTrackId: firstTrack.spotify_track_id || firstTrack.spotifyTrackId || firstTrack.acf?.spotify_track_id,
-        finalSource
+        finalSource,
+        playlistName
       });
       
       try {
@@ -1088,7 +1147,7 @@ export default function PlaylistSongList({
         console.error('Error auto-playing first track:', error);
       }
     }
-  }, [autoPlayFirst, tracks, source, playlistId, onPageEnd, playTrack]);
+  }, [autoPlayFirst, tracks, source, playlistId, playlistInfo, onPageEnd, playTrack]);
 
   return (
     <div className={styles.playlistWrapper}>
