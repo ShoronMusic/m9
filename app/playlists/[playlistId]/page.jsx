@@ -170,6 +170,7 @@ export default async function PlaylistPage({ params, searchParams }) {
         tracks={tracks || []} 
         session={session}
         autoPlayFirst={autoPlayFirst}
+        isOwner={userId ? playlist.user_id === userId : false}
       />
     );
 

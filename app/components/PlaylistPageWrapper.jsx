@@ -2,7 +2,7 @@
 
 import PlaylistDetail from './PlaylistDetail';
 
-export default function PlaylistPageWrapper({ playlist, tracks, session, autoPlayFirst }) {
+export default function PlaylistPageWrapper({ playlist, tracks, session, autoPlayFirst, isOwner }) {
   return (
     <div className="container mx-auto px-4 py-8">
       <PlaylistDetail 
@@ -10,6 +10,7 @@ export default function PlaylistPageWrapper({ playlist, tracks, session, autoPla
         tracks={tracks || []} 
         session={session}
         autoPlayFirst={autoPlayFirst}
+        isOwner={isOwner}
       />
     </div>
   );

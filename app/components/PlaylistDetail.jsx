@@ -6,7 +6,7 @@ import Link from 'next/link';
 import styles from './PlaylistDetail.module.css';
 import PlaylistSongList from './PlaylistSongList';
 
-export default function PlaylistDetail({ playlist: initialPlaylist, tracks, session, autoPlayFirst = false }) {
+export default function PlaylistDetail({ playlist: initialPlaylist, tracks, session, autoPlayFirst = false, isOwner = false }) {
   const { data: clientSession } = useSession();
   const [userPlaylists, setUserPlaylists] = useState([]);
   const [isEditing, setIsEditing] = useState(false);
@@ -253,7 +253,7 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
               {playlist.description && (
                 <p className={styles.description}>{playlist.description}</p>
               )}
-              {session?.user && playlist.user_id === session.user.id && (
+              {session?.user && isOwner && (
                 <button
                   onClick={startEditing}
                   className={styles.editButton}
