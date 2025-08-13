@@ -10,16 +10,9 @@ export default async function PlaylistPage({ params, searchParams }) {
   try {
     // NextAuthのセッションを取得
     const session = await getServerSession(authOptions);
-    if (!session || !session.user) {
-      return (
-        <div className="container mx-auto px-4 py-8">
-          <div className="text-center">
-            <h1 className="text-2xl font-bold mb-4">ログインが必要です</h1>
-            <p>プレイリストを表示するにはログインしてください。</p>
-          </div>
-        </div>
-      );
-    }
+    
+    // セッションがない場合の処理（公開プレイリストの場合は後でチェック）
+    // セッションなしでも続行（公開プレイリストの場合は閲覧可能）
 
     // Service Role Keyを使用してSupabaseクライアントを作成（RLSバイパス）
     const supabase = createClient(
@@ -33,28 +26,31 @@ export default async function PlaylistPage({ params, searchParams }) {
       }
     );
     
-    // NextAuthのセッションからSpotifyユーザーIDを取得
-    const spotifyUserId = session.user.id;
-    
-    // Supabaseでユーザーを検索
-    const { data: supabaseUser, error: userError } = await supabase
-      .from('users')
-      .select('id')
-      .eq('spotify_id', spotifyUserId)
-      .single();
-    
-    if (userError || !supabaseUser) {
-      return (
-        <div className="container mx-auto px-4 py-8">
-          <div className="text-center">
-            <h1 className="text-2xl font-bold mb-4">ユーザーが見つかりません</h1>
-            <p>ユーザー情報の取得に失敗しました。</p>
+    // ユーザーIDの取得（セッションがある場合のみ）
+    let userId = null;
+    if (session && session.user) {
+      const spotifyUserId = session.user.id;
+      
+      // Supabaseでユーザーを検索
+      const { data: supabaseUser, error: userError } = await supabase
+        .from('users')
+        .select('id')
+        .eq('spotify_id', spotifyUserId)
+        .single();
+      
+      if (userError || !supabaseUser) {
+        return (
+          <div className="container mx-auto px-4 py-8">
+            <div className="text-center">
+              <h1 className="text-2xl font-bold mb-4">ユーザーが見つかりません</h1>
+              <p>ユーザー情報の取得に失敗しました。</p>
+            </div>
           </div>
-        </div>
-      );
+        );
+      }
+      
+      userId = supabaseUser.id;
     }
-    
-    const userId = supabaseUser.id;
 
     // プレイリスト情報を取得（ユーザー情報も含む）
     const { data: playlist, error: playlistError } = await supabase
@@ -70,7 +66,7 @@ export default async function PlaylistPage({ params, searchParams }) {
         spotify_playlist_id,
         sync_status,
         user_id,
-        users!inner(
+        users(
           id,
           spotify_display_name,
           spotify_email
@@ -90,16 +86,19 @@ export default async function PlaylistPage({ params, searchParams }) {
       );
     }
 
-    // プレイリストの所有者チェック
-    if (playlist.user_id !== userId) {
-      return (
-        <div className="container mx-auto px-4 py-8">
-          <div className="text-center">
-            <h1 className="text-2xl font-bold mb-4">アクセスが拒否されました</h1>
-            <p>このプレイリストにアクセスする権限がありません。</p>
+    // プレイリストのアクセス制御
+    // 非公開プレイリストの場合、所有者のみアクセス可能
+    if (!playlist.is_public) {
+      if (!userId || playlist.user_id !== userId) {
+        return (
+          <div className="container mx-auto px-4 py-8">
+            <div className="text-center">
+              <h1 className="text-2xl font-bold mb-4">アクセスが拒否されました</h1>
+              <p>このプレイリストは非公開設定のため、作成者のみがアクセスできます。</p>
+            </div>
           </div>
-        </div>
-      );
+        );
+      }
     }
 
     // プレイリストのトラックを取得

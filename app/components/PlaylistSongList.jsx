@@ -618,6 +618,11 @@ export default function PlaylistSongList({
 
   // Spotify APIを使用したいいねボタン用の toggleLike 関数
   const handleLikeToggle = async (trackId) => {
+    if (!session?.user) {
+      alert("この機能を使用するにはSpotifyでログインしてください");
+      return;
+    }
+    
     if (!accessToken) {
       alert("Spotifyにログインしてください");
       return;
@@ -650,6 +655,12 @@ export default function PlaylistSongList({
     console.log('🎵 Track title:', track.title);
     console.log('🎤 Track artists:', track.artists);
     console.log('🎧 Spotify Track ID:', track.spotify_track_id || track.spotifyTrackId || track.acf?.spotify_track_id);
+    
+    // ログインチェック：ログインしていない場合はSpotifyログインを促す
+    if (!session?.user) {
+      alert('この曲を再生するにはSpotifyでログインしてください。');
+      return;
+    }
     
     // usePlayerフックから取得した関数の可用性をチェック
     if (!playTrack || !setTrackList || !updateCurrentTrackState) {
@@ -775,6 +786,13 @@ export default function PlaylistSongList({
 
   const handleThreeDotsClick = (e, track) => {
     e.stopPropagation();
+    
+    // ログインチェック：ログインしていない場合はSpotifyログインを促す
+    if (!session?.user) {
+      alert('このメニューを使用するにはSpotifyでログインしてください。');
+      return;
+    }
+    
     const iconRect = e.currentTarget.getBoundingClientRect();
     const menuWidth = 220;
     const menuHeightPx = 240; // 仮の高さ
@@ -1279,6 +1297,13 @@ export default function PlaylistSongList({
                       }}
                       onClick={(e) => {
                         e.stopPropagation();
+                        
+                        // ログインチェック
+                        if (!session?.user) {
+                          alert('この機能を使用するにはSpotifyでログインしてください。');
+                          return;
+                        }
+                        
                         if (!likesLoading && !likesError) {
                           handleLikeToggle(spotifyTrackId);
                         }

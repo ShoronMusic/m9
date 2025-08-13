@@ -13,6 +13,7 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
   const [playlist, setPlaylist] = useState(initialPlaylist);
   const [editName, setEditName] = useState(initialPlaylist.name || '');
   const [editDescription, setEditDescription] = useState(initialPlaylist.description || '');
+  const [editIsPublic, setEditIsPublic] = useState(initialPlaylist.is_public || false);
   const [isSaving, setIsSaving] = useState(false);
 
   // プレイリストの最新更新日を取得（トラックの追加日から）
@@ -50,6 +51,7 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
   const startEditing = () => {
     setEditName(playlist.name || '');
     setEditDescription(playlist.description || '');
+    setEditIsPublic(playlist.is_public || false);
     setIsEditing(true);
   };
 
@@ -57,6 +59,7 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
   const cancelEditing = () => {
     setEditName(playlist.name || '');
     setEditDescription(playlist.description || '');
+    setEditIsPublic(playlist.is_public || false);
     setIsEditing(false);
   };
 
@@ -83,6 +86,7 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
         body: JSON.stringify({
           name: editName.trim(),
           description: editDescription.trim() || null,
+          is_public: editIsPublic,
         }),
       });
 
@@ -101,7 +105,7 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
         setIsEditing(false);
         
         // プレイリスト情報をローカルで更新（ページリロードなし）
-        setPlaylist(prev => ({ ...prev, name: editName.trim(), description: editDescription.trim() || null }));
+        setPlaylist(prev => ({ ...prev, name: editName.trim(), description: editDescription.trim() || null, is_public: editIsPublic }));
         
         console.log('✅ ローカル状態更新完了');
         // アラートなしで静かに保存完了
@@ -181,8 +185,10 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
     }
   }, [session, fetchUserPlaylists]);
 
-  if (!session?.user) {
-    return <div className={styles.notLoggedIn}>ログインが必要です</div>;
+  // 公開プレイリストの場合はログインなしでも閲覧可能
+  // 非公開プレイリストの場合のみログインが必要
+  if (!playlist.is_public && !session?.user) {
+    return <div className={styles.notLoggedIn}>このプレイリストを表示するにはログインが必要です</div>;
   }
 
   if (!playlist) {
@@ -214,6 +220,16 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
                 maxLength={500}
                 rows={3}
               />
+              <div className={styles.formGroup}>
+                <label className={styles.checkboxLabel}>
+                  <input
+                    type="checkbox"
+                    checked={editIsPublic}
+                    onChange={(e) => setEditIsPublic(e.target.checked)}
+                  />
+                  <span>Playlist公開</span>
+                </label>
+              </div>
               <div className={styles.editActions}>
                 <button
                   onClick={savePlaylist}
@@ -237,12 +253,14 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
               {playlist.description && (
                 <p className={styles.description}>{playlist.description}</p>
               )}
-              <button
-                onClick={startEditing}
-                className={styles.editButton}
-              >
-                編集
-              </button>
+              {session?.user && playlist.user_id === session.user.id && (
+                <button
+                  onClick={startEditing}
+                  className={styles.editButton}
+                >
+                  編集
+                </button>
+              )}
             </>
           )}
           
@@ -262,17 +280,24 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
         </div>
         
         <div className={styles.playlistActions}>
-          <Link href="/mypage" className={styles.myPageButton}>
-            <span className={styles.backArrow}>←</span>
-            <span className={styles.buttonText}>Playlist 一覧</span>
-            <div className={styles.myIcon}>
-              <img 
-                src={session?.user?.image || '/images/default-avatar.png'} 
-                alt="My Icon" 
-                className={styles.myIconImage}
-              />
-            </div>
-          </Link>
+          {session?.user ? (
+            <Link href="/mypage" className={styles.myPageButton}>
+              <span className={styles.backArrow}>←</span>
+              <span className={styles.buttonText}>Playlist 一覧</span>
+              <div className={styles.myIcon}>
+                <img 
+                  src={session?.user?.image || '/images/default-avatar.png'} 
+                  alt="My Icon" 
+                  className={styles.myIconImage}
+                />
+              </div>
+            </Link>
+          ) : (
+            <Link href="/" className={styles.myPageButton}>
+              <span className={styles.backArrow}>←</span>
+              <span className={styles.buttonText}>ホームに戻る</span>
+            </Link>
+          )}
         </div>
       </div>
 

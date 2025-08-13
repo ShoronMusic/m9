@@ -120,7 +120,7 @@ export default function PlaylistList() {
                 checked={newPlaylist.is_public}
                 onChange={(e) => setNewPlaylist({...newPlaylist, is_public: e.target.checked})}
               />
-              公開する
+              Playlist公開
             </label>
           </div>
           

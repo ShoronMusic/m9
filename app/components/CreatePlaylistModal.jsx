@@ -655,7 +655,7 @@ export default function CreatePlaylistModal({
                     is_public: e.target.checked
                   })}
                 />
-                <span>公開プレイリストにする</span>
+                <span>Playlist公開</span>
               </label>
             </div>
 
