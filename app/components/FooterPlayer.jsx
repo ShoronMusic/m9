@@ -93,23 +93,11 @@ export default function FooterPlayer() {
 
     // 初期化時のログ
     useEffect(() => {
-        console.log('🚀 FooterPlayer - Component initialized:', {
-            hasPlayerContext: !!playerContext,
-            hasSession: !!session,
-            playerContextKeys: playerContext ? Object.keys(playerContext) : [],
-            currentTrack: playerContext?.currentTrack
-        });
+        // 初期化完了
     }, []);
 
     // PlayerContextの状態変化を監視
     useEffect(() => {
-        console.log('🔍 FooterPlayer - PlayerContext state changed:', {
-            currentTrack: playerContext?.currentTrack,
-            isPlaying: playerContext?.isPlaying,
-            currentTrackIndex: playerContext?.currentTrackIndex,
-            hasPlayerContext: !!playerContext
-        });
-        
         // 強制的に再レンダリングを発生させる
         setForceUpdate(prev => prev + 1);
     }, [playerContext?.currentTrack, playerContext?.isPlaying, playerContext?.currentTrackIndex]);
@@ -118,24 +106,15 @@ export default function FooterPlayer() {
     useEffect(() => {
         if (playerContext?.currentTrack) {
             const timer = setTimeout(() => {
-                console.log('🔄 FooterPlayer - Force re-render triggered');
                 setForceUpdate(prev => prev + 1);
             }, 100);
             return () => clearTimeout(timer);
         }
     }, [playerContext?.currentTrack]);
 
-    console.log('🎵 FooterPlayer - Render attempt:', {
-        hasPlayerContext: !!playerContext,
-        hasSession: !!session,
-        hasAccessToken: !!session?.accessToken,
-        currentTrack: playerContext?.currentTrack,
-        isPlaying: playerContext?.isPlaying,
-        forceUpdate
-    });
+
 
     if (!playerContext) {
-        console.log('❌ FooterPlayer - No PlayerContext, returning null');
         return null;
     }
 
@@ -160,42 +139,23 @@ export default function FooterPlayer() {
     // 現在の曲の状態を確認
     const hasCurrentTrack = currentTrack && Object.keys(currentTrack).length > 0;
     
-    console.log('🎵 FooterPlayer - Track state check:', {
-        hasCurrentTrack,
-        currentTrackKeys: currentTrack ? Object.keys(currentTrack) : [],
-        currentTrackValue: currentTrack
-    });
-    
     if (!hasCurrentTrack) {
-        console.log('❌ FooterPlayer - No currentTrack in PlayerContext, returning null');
         return null;
     }
 
     // ログイン前はプレイヤーを表示しない
     if (!session || !session.accessToken) {
-        console.log('❌ FooterPlayer - No session or accessToken, returning null');
         return null;
     }
 
     // 現在の曲を表示用に設定
     const displayTrack = currentTrack;
     
-    console.log('🎵 FooterPlayer - Track check:', {
-        currentTrack: !!currentTrack,
-        displayTrack: !!displayTrack
-    });
-    
     if (!displayTrack) {
-        console.log('❌ FooterPlayer - No displayTrack, returning null');
         return null; 
     }
     
     // A track is selected, render the full player
-    console.log('✅ FooterPlayer - Rendering player for track:', {
-        trackTitle: getSafeTitle(displayTrack),
-        artistName: formatArtists(displayTrack.artists),
-        imageUrl: getImageUrl(displayTrack)
-    });
     
     const imageUrl = getImageUrl(displayTrack);
     const trackTitle = getSafeTitle(displayTrack);

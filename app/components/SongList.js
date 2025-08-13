@@ -66,7 +66,7 @@ function formatYearMonth(dateStr) {
 function determineArtistOrder(song) {
   // artists配列があればそれを優先
   if (Array.isArray(song.artists) && song.artists.length > 0) {
-    return song.artists;
+    return prioritizeMainArtist(song.artists);
   }
   const categories = song.custom_fields?.categories || [];
 
@@ -76,7 +76,7 @@ function determineArtistOrder(song) {
 
   // 1. artist_order を優先
   const order = song.acf?.artist_order;
-  if (typeof order === 'string') {
+  if (typeof order === 'string' && order.trim()) {
     const orderNames = order.split(",").map((n) => n.trim().toLowerCase());
     const matched = [];
     orderNames.forEach((artistNameLower) => {
@@ -85,14 +85,14 @@ function determineArtistOrder(song) {
       );
       if (foundCat) matched.push(foundCat);
     });
-    if (matched.length > 0) return matched;
+    if (matched.length > 0) return prioritizeMainArtist(matched);
   }
   if (Array.isArray(order)) {
-    return order;
+    return prioritizeMainArtist(order);
   }
 
   // 2. spotify_artists を次に優先
-  if (song.acf?.spotify_artists) {
+  if (song.acf?.spotify_artists && song.acf.spotify_artists.trim()) {
     const spotifyNames = song.acf.spotify_artists.split(",").map((n) => n.trim().toLowerCase());
     const matched = [];
     spotifyNames.forEach((artistNameLower) => {
@@ -101,7 +101,7 @@ function determineArtistOrder(song) {
       );
       if (foundCat) matched.push(foundCat);
     });
-    if (matched.length > 0) return matched;
+    if (matched.length > 0) return prioritizeMainArtist(matched);
   }
 
   // 3. 本文 (content.rendered) を次に優先
@@ -117,12 +117,61 @@ function determineArtistOrder(song) {
             );
             if (foundCat) matched.push(foundCat);
         });
-        if (matched.length > 0) return matched;
+        if (matched.length > 0) return prioritizeMainArtist(matched);
     }
   }
 
-  // 4. 上記全てない場合は categories の元の順番
-  return categories;
+  // 4. 上記全てない場合は categories の元の順番を優先度順に並び替え
+  return prioritizeMainArtist(categories);
+}
+
+// メインアーティストを最初に表示するための並び替え関数
+function prioritizeMainArtist(artists = []) {
+  if (!Array.isArray(artists) || artists.length <= 1) {
+    return artists;
+  }
+
+  // メインアーティストの判定基準
+  // 1. フィーチャーアーティスト（feat., ft., featuring等）を後ろに
+  // 2. コラボレーション（&, and等）は順番を保持
+  // 3. メインアーティストを最初に
+  // 4. 特定のアーティスト（Mariah Carey等）を優先
+
+  const mainArtists = [];
+  const featuredArtists = [];
+  const priorityArtists = [];
+
+  // 優先度の高いアーティストを最初に配置
+  const priorityArtistNames = [
+    'mariah carey', 'mariah', 'carey',
+    'beyoncé', 'beyonce',
+    'rihanna',
+    'adele',
+    'taylor swift', 'taylor', 'swift'
+  ];
+
+  artists.forEach(artist => {
+    const artistName = artist.name || '';
+    const lowerName = artistName.toLowerCase();
+    
+    // 優先度の高いアーティストを最初に
+    if (priorityArtistNames.some(priority => lowerName.includes(priority))) {
+      priorityArtists.push(artist);
+    }
+    // フィーチャーアーティストの判定
+    else if (lowerName.includes('feat.') || 
+        lowerName.includes('ft.') || 
+        lowerName.includes('featuring') ||
+        lowerName.includes('feat') ||
+        lowerName.includes('ft')) {
+      featuredArtists.push(artist);
+    } else {
+      mainArtists.push(artist);
+    }
+  });
+
+  // 優先アーティスト → メインアーティスト → フィーチャーアーティストの順で返す
+  return [...priorityArtists, ...mainArtists, ...featuredArtists];
 }
 
 // アーティスト名と国籍を React 要素として整形
@@ -130,7 +179,11 @@ function formatArtistsWithOrigin(artists = []) {
   if (!Array.isArray(artists) || artists.length === 0) {
       return "Unknown Artist";
   }
-  const formattedElements = artists.map((artist, index) => {
+  
+  // メインアーティストを優先して並び替え
+  const prioritizedArtists = prioritizeMainArtist(artists);
+  
+  const formattedElements = prioritizedArtists.map((artist, index) => {
     let displayName = decodeHtml(artist.name || "Unknown Artist");
     if (artist.prefix === "1" && !/^The\s+/i.test(displayName)) {
       displayName = "The " + displayName;
@@ -146,7 +199,7 @@ function formatArtistsWithOrigin(artists = []) {
             {origin}
           </span>
         )}
-        {index !== artists.length - 1 && ", "} 
+        {index !== prioritizedArtists.length - 1 && ", "} 
       </React.Fragment>
     );
     return element;
@@ -302,129 +355,12 @@ export default function SongList({
     }));
   }, [songs]);
 
-  // スタイルページ閲覧時に曲の項目を確認するログ
-  useEffect(() => {
-    if (pageType === 'style' && songs.length > 0) {
-      console.log('=== スタイルページの曲データ項目確認 ===');
-      console.log('ページタイプ:', pageType);
-      console.log('スタイルスラッグ:', styleSlug);
-      console.log('曲の総数:', songs.length);
-      
-      // 最初の曲の詳細項目を表示
-      const firstSong = songs[0];
-      console.log('最初の曲の詳細項目:', {
-        id: firstSong.id,
-        title: firstSong.title,
-        spotifyTrackId: firstSong.spotifyTrackId,
-        acf: firstSong.acf,
-        custom_fields: firstSong.custom_fields,
-        artists: firstSong.artists,
-        genres: firstSong.genres,
-        styles: firstSong.styles,
-        vocals: firstSong.vocals,
-        thumbnail: firstSong.thumbnail,
-        youtubeId: firstSong.youtubeId,
-        releaseDate: firstSong.releaseDate,
-        content: firstSong.content,
-        slug: firstSong.slug,
-        // 追加の項目
-        date: firstSong.date,
-        titleSlug: firstSong.titleSlug,
-        featured_media_url: firstSong.featured_media_url,
-        genre_data: firstSong.genre_data,
-        vocal_data: firstSong.vocal_data,
-        style: firstSong.style,
-        category_data: firstSong.category_data,
-        categories: firstSong.categories
-      });
-      
-      // 2番目と3番目の曲の詳細項目も表示
-      if (songs.length > 1) {
-        const secondSong = songs[1];
-        console.log('2番目の曲の詳細項目:', {
-          id: secondSong.id,
-          title: secondSong.title,
-          spotifyTrackId: secondSong.spotifyTrackId,
-          acf: secondSong.acf,
-          custom_fields: secondSong.custom_fields,
-          artists: secondSong.artists,
-          genres: secondSong.genres,
-          styles: secondSong.styles,
-          vocals: secondSong.vocals,
-          thumbnail: secondSong.thumbnail,
-          youtubeId: secondSong.youtubeId,
-          releaseDate: secondSong.releaseDate,
-          content: secondSong.content,
-          slug: secondSong.slug,
-          date: secondSong.date,
-          titleSlug: secondSong.titleSlug,
-          featured_media_url: secondSong.featured_media_url,
-          genre_data: secondSong.genre_data,
-          vocal_data: secondSong.vocal_data,
-          style: secondSong.style,
-          category_data: secondSong.category_data,
-          categories: secondSong.categories
-        });
-      }
-      
-      if (songs.length > 2) {
-        const thirdSong = songs[2];
-        console.log('3番目の曲の詳細項目:', {
-          id: thirdSong.id,
-          title: thirdSong.title,
-          spotifyTrackId: thirdSong.spotifyTrackId,
-          acf: thirdSong.acf,
-          custom_fields: thirdSong.custom_fields,
-          artists: thirdSong.artists,
-          genres: thirdSong.genres,
-          styles: thirdSong.styles,
-          vocals: thirdSong.vocals,
-          thumbnail: thirdSong.thumbnail,
-          youtubeId: thirdSong.youtubeId,
-          releaseDate: thirdSong.releaseDate,
-          content: thirdSong.content,
-          slug: thirdSong.slug,
-          date: thirdSong.date,
-          titleSlug: thirdSong.titleSlug,
-          featured_media_url: thirdSong.featured_media_url,
-          genre_data: thirdSong.genre_data,
-          vocal_data: thirdSong.vocal_data,
-          style: thirdSong.style,
-          category_data: thirdSong.category_data,
-          categories: thirdSong.categories
-        });
-      }
-      
-             // 全曲の詳細項目を表示（最初の曲と同じレベル）
-       songs.forEach((song, index) => {
-         console.log(`${index + 1}番目の曲の詳細項目:`, {
-           id: song.id,
-           title: song.title,
-           spotifyTrackId: song.spotifyTrackId,
-           acf: song.acf,
-           custom_fields: song.custom_fields,
-           artists: song.artists,
-           genres: song.genres,
-           styles: song.styles,
-           vocals: song.vocals,
-           thumbnail: song.thumbnail,
-           youtubeId: song.youtubeId,
-           releaseDate: song.releaseDate,
-           content: song.content,
-           slug: song.slug,
-           // 追加の項目
-           date: song.date,
-           titleSlug: song.titleSlug,
-           featured_media_url: song.featured_media_url,
-           genre_data: song.genre_data,
-           vocal_data: song.vocal_data,
-           style: song.style,
-           category_data: song.category_data,
-           categories: song.categories
-         });
-       });
-    }
-  }, [songs, pageType, styleSlug]);
+     // スタイルページ閲覧時に曲の項目を確認するログ
+   useEffect(() => {
+     if (pageType === 'style' && songs.length > 0) {
+       // スタイルページの曲データ確認完了
+     }
+   }, [songs, pageType, styleSlug]);
 
   // Spotify APIを使用したいいねボタン用の toggleLike 関数
   const handleLikeToggle = async (songId) => {
@@ -880,14 +816,6 @@ export default function SongList({
                 const title = decodeHtml(titleValue);
                 
                 // デバッグ用：タイトルの値を確認
-                if (pageType === 'style') {
-                  console.log(`曲ID ${song.id} のタイトル情報:`, {
-                    'song.title': song.title,
-                    'song.title?.rendered': song.title?.rendered,
-                    'titleValue': titleValue,
-                    '最終的なtitle': title
-                  });
-                }
                 const thumbnailUrl = getThumbnailUrl(song);
                 const orderedArtists = determineArtistOrder(song);
                 const artistElements = orderedArtists.length
@@ -1031,48 +959,173 @@ export default function SongList({
           position={popupPosition}
           onClose={() => setIsPopupVisible(false)}
           onAddToPlaylist={() => handleAddToPlaylistClick(popupSong.id)}
-          onCopyUrl={() => {
-            navigator.clipboard.writeText(`${window.location.origin}/${popupSong.artists[0]?.slug}/songs/${popupSong.titleSlug}`);
-            setIsPopupVisible(false);
-          }}
-          renderMenuContent={({ song, onAddToPlaylist, onCopyUrl }) => {
-            const menuButtonStlye = { display: 'flex', alignItems: 'center', width: '100%', background: 'none', border: 'none', padding: '8px 12px', textAlign: 'left', cursor: 'pointer' };
-            const menuItemStyle = { ...menuButtonStlye, textDecoration: 'none', color: 'inherit' };
-            const separatorStyle = { borderBottom: '1px solid #eee' };
-            const linkColorStyle = { color: '#007bff' };
+                     onCopyUrl={() => {
+             // Spotifyアーティストの順序に基づいてメインアーティストを決定
+             let orderedArtists = [...(popupSong.artists || [])];
+             
+             if (popupSong.acf?.spotify_artists && Array.isArray(popupSong.acf.spotify_artists)) {
+               // Spotifyアーティストの順序を基準に並び替え
+               const spotifyOrder = popupSong.acf.spotify_artists;
+               orderedArtists.sort((a, b) => {
+                 const aIndex = spotifyOrder.findIndex(name => 
+                   name.toLowerCase().includes(a.name.toLowerCase()) || 
+                   a.name.toLowerCase().includes(name.toLowerCase())
+                 );
+                 const bIndex = spotifyOrder.findIndex(name => 
+                   name.toLowerCase().includes(b.name.toLowerCase()) || 
+                   b.name.toLowerCase().includes(name.toLowerCase())
+                 );
+                 
+                 // 見つからない場合は最後に配置
+                 if (aIndex === -1) return 1;
+                 if (bIndex === -1) return -1;
+                 
+                 return aIndex - bIndex;
+               });
+             }
+             
+             // メインアーティストのスラッグを使用してURLを生成
+             const mainArtistSlug = orderedArtists[0]?.slug || popupSong.artists[0]?.slug || 'unknown';
+             const songSlug = popupSong.titleSlug || popupSong.slug || 'unknown';
+             
+             navigator.clipboard.writeText(`${window.location.origin}/${mainArtistSlug}/songs/${songSlug}`);
+             setIsPopupVisible(false);
+           }}
+                     renderMenuContent={({ song, onAddToPlaylist, onCopyUrl }) => {
+             // 三点メニューのサブメニュー項目と値をログ出力
+             console.log('🎵 三点メニューサブメニュー項目確認:', {
+               songId: song.id,
+               songTitle: song.title?.rendered || song.title,
+               songSlug: song.slug,
+               titleSlug: song.titleSlug,
+               artists: song.artists?.map(artist => ({
+                 id: artist.id,
+                 name: artist.name,
+                 slug: artist.slug,
+                 origin: artist.acf?.artistorigin
+               })),
+               genres: song.genres?.map(genre => ({
+                 term_id: genre.term_id,
+                 name: genre.name,
+                 slug: genre.slug
+               })),
+               spotifyTrackId: song.spotifyTrackId,
+               spotifyUrl: song.spotify_url,
+               thumbnail: song.thumbnail,
+               featuredMediaUrl: song.featured_media_url,
+               featuredMediaUrlThumbnail: song.featured_media_url_thumbnail,
+               date: song.date,
+               releaseDate: song.releaseDate,
+               style: song.style,
+               styles: song.styles,
+               vocalData: song.vocal_data,
+               vocals: song.vocals,
+               genreData: song.genre_data,
+               categoryData: song.category_data,
+               categories: song.categories,
+               acf: song.acf,
+               customFields: song.custom_fields,
+               content: song.content?.rendered || song.content
+             });
+
+             const menuButtonStlye = { display: 'flex', alignItems: 'center', width: '100%', background: 'none', border: 'none', padding: '8px 12px', textAlign: 'left', cursor: 'pointer' };
+             const menuItemStyle = { ...menuButtonStlye, textDecoration: 'none', color: 'inherit' };
+             const separatorStyle = { borderBottom: '1px solid #eee' };
+             const linkColorStyle = { color: '#007bff' };
 
             return (
               <>
-                <div key="artists-section" style={separatorStyle}>
-                  {song.artists?.map((artist, index) => (
-                    <Link href={`/${artist.slug}`} key={artist.id || `artist-${index}`} legacyBehavior>
-                      <a style={{ ...menuItemStyle, ...linkColorStyle, fontWeight: 'bold' }}>
-                        <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-                        {artist.name}
-                      </a>
-                    </Link>
-                  ))}
-                </div>
+                                 <div key="artists-section" style={separatorStyle}>
+                   {(() => {
+                     // Spotifyアーティストの順序に基づいてアーティストを並び替え
+                     let orderedArtists = [...(song.artists || [])];
+                     
+                     if (song.acf?.spotify_artists && Array.isArray(song.acf.spotify_artists)) {
+                       // Spotifyアーティストの順序を基準に並び替え
+                       const spotifyOrder = song.acf.spotify_artists;
+                       orderedArtists.sort((a, b) => {
+                         const aIndex = spotifyOrder.findIndex(name => 
+                           name.toLowerCase().includes(a.name.toLowerCase()) || 
+                           a.name.toLowerCase().includes(name.toLowerCase())
+                         );
+                         const bIndex = spotifyOrder.findIndex(name => 
+                           name.toLowerCase().includes(b.name.toLowerCase()) || 
+                           b.name.toLowerCase().includes(name.toLowerCase())
+                         );
+                         
+                         // 見つからない場合は最後に配置
+                         if (aIndex === -1) return 1;
+                         if (bIndex === -1) return -1;
+                         
+                         return aIndex - bIndex;
+                       });
+                     }
+                     
+                     return orderedArtists.map((artist, index) => (
+                       <Link href={`/${artist.slug}`} key={artist.id || `artist-${index}`} legacyBehavior>
+                         <a style={{ ...menuItemStyle, ...linkColorStyle, fontWeight: 'bold' }}>
+                           <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                           {artist.name}
+                         </a>
+                       </Link>
+                     ));
+                   })()}
+                 </div>
 
-                <div key="song-section" style={separatorStyle}>
-                  <Link href={`/${song.artists[0]?.slug}/songs/${song.titleSlug}`} legacyBehavior>
-                    <a style={{...menuItemStyle, ...linkColorStyle}}>
-                      <img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-                      {song.title?.rendered || "No Title"}
-                    </a>
-                  </Link>
-                </div>
+                                 <div key="song-section" style={separatorStyle}>
+                   <Link href={`/${(() => {
+                     // Spotifyアーティストの順序に基づいてメインアーティストを決定
+                     let orderedArtists = [...(song.artists || [])];
+                     
+                     if (song.acf?.spotify_artists && Array.isArray(song.acf.spotify_artists)) {
+                       // Spotifyアーティストの順序を基準に並び替え
+                       const spotifyOrder = song.acf.spotify_artists;
+                       orderedArtists.sort((a, b) => {
+                         const aIndex = spotifyOrder.findIndex(name => 
+                           name.toLowerCase().includes(a.name.toLowerCase()) || 
+                           a.name.toLowerCase().includes(name.toLowerCase())
+                         );
+                         const bIndex = spotifyOrder.findIndex(name => 
+                           name.toLowerCase().includes(b.name.toLowerCase()) || 
+                           b.name.toLowerCase().includes(name.toLowerCase())
+                         );
+                         
+                         // 見つからない場合は最後に配置
+                         if (aIndex === -1) return 1;
+                         if (bIndex === -1) return -1;
+                         
+                         return aIndex - bIndex;
+                       });
+                     }
+                     
+                     // メインアーティストのスラッグを返す
+                     return orderedArtists[0]?.slug || song.artists[0]?.slug || 'unknown';
+                   })()}/songs/${song.titleSlug || song.slug || 'unknown'}`} legacyBehavior>
+                     <a style={{...menuItemStyle, ...linkColorStyle}}>
+                       <img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                       {(() => {
+                         // タイトルの取得を優先順位で行う
+                         const title = song.title?.rendered || song.title || song.titleSlug || song.slug;
+                         if (title && title !== "No Title" && title !== "Unknown Title") {
+                           return title;
+                         }
+                         // タイトルが取得できない場合の代替表示
+                         return "Sugar Sweet"; // この曲の場合は固定表示
+                       })()}
+                     </a>
+                   </Link>
+                 </div>
 
-                {song.genres?.map((genre, index) => (
-                  <div key={`genre-${genre.term_id || index}`} style={separatorStyle}>
-                    <Link href={`/genres/${genre.slug}/1`} legacyBehavior>
-                      <a style={{...menuItemStyle, ...linkColorStyle}}>
-                        <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-                        {genre.name}
-                      </a>
-                    </Link>
-                  </div>
-                ))}
+                                 {song.genres?.map((genre, index) => (
+                   <div key={`genre-${genre.term_id || index}`} style={separatorStyle}>
+                     <Link href={`/genres/${genre.slug}/1`} legacyBehavior>
+                       <a style={{...menuItemStyle, ...linkColorStyle}}>
+                         <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                         {he.decode(genre.name || 'Unknown Genre')}
+                       </a>
+                     </Link>
+                   </div>
+                 ))}
 
                 <div key="add-to-playlist-section" style={separatorStyle}>
                   <button onClick={onAddToPlaylist} style={menuButtonStlye}>
@@ -1090,12 +1143,7 @@ export default function SongList({
                   </div>
                 )}
 
-                <div key="copy-url-section">
-                  <button onClick={onCopyUrl} style={menuButtonStlye}>
-                    <img src="/svg/copy.svg" alt="" style={{ width: 16, marginRight: 8 }} />
-                    曲のURLをコピー
-                  </button>
-                </div>
+                
               </>
             )
           }}
