@@ -56,7 +56,7 @@ export default async function PlaylistPage({ params, searchParams }) {
     
     const userId = supabaseUser.id;
 
-    // プレイリスト情報を取得
+    // プレイリスト情報を取得（ユーザー情報も含む）
     const { data: playlist, error: playlistError } = await supabase
       .from('playlists')
       .select(`
@@ -69,7 +69,12 @@ export default async function PlaylistPage({ params, searchParams }) {
         updated_at,
         spotify_playlist_id,
         sync_status,
-        user_id
+        user_id,
+        users!inner(
+          id,
+          spotify_display_name,
+          spotify_email
+        )
       `)
       .eq('id', playlistId)
       .single();

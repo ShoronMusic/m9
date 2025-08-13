@@ -21,11 +21,30 @@
   font-weight: 700;
 }
 
+.playlistLabel {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
 .playlistTitle {
-  margin: 0 0 10px 0;
+  margin: 0 0 8px 0;
   color: #333;
   font-size: 32px;
   font-weight: 700;
+}
+
+.createdBy {
+  font-size: 14px;
+  color: #666;
+  font-weight: 400;
+  margin-bottom: 12px;
+  font-style: italic;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .description {
@@ -36,7 +55,7 @@
 }
 
 .meta {
-  display: flex;
+  display: inline-flex;
   gap: 20px;
   align-items: center;
   flex-wrap: wrap;

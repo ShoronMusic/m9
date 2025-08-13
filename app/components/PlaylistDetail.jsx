@@ -15,22 +15,13 @@ export default function PlaylistDetail({ playlist, tracks, session, autoPlayFirs
     if (!dateString) return '不明';
     
     const date = new Date(dateString);
-    const now = new Date();
-    const diffTime = Math.abs(now - date);
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    if (isNaN(date.getTime())) return '不明';
     
-    if (diffDays === 1) {
-      return '昨日';
-    } else if (diffDays <= 7) {
-      return `${diffDays}日前`;
-    } else if (diffDays <= 30) {
-      const weeks = Math.ceil(diffDays / 7);
-      return `${weeks}週間前`;
-    } else {
-      const month = (date.getMonth() + 1).toString().padStart(2, '0');
-      const day = date.getDate().toString().padStart(2, '0');
-      return `${date.getFullYear()}.${month}.${day}`;
-    }
+    const year = date.getFullYear();
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const day = date.getDate().toString().padStart(2, '0');
+    
+    return `${year}.${month}.${day}`;
   };
 
   // ユーザーのプレイリスト一覧を取得
@@ -107,19 +98,22 @@ export default function PlaylistDetail({ playlist, tracks, session, autoPlayFirs
       {/* プレイリストヘッダー */}
       <div className={styles.playlistHeader}>
         <div className={styles.playlistInfo}>
+          <div className={styles.playlistLabel}>Playlist:</div>
           <h1 className={styles.playlistTitle}>{playlist.name}</h1>
-          {playlist.description && (
-            <p className={styles.description}>{playlist.description}</p>
-          )}
+          <div className={styles.createdBy}>
+            Created by {playlist.users?.spotify_display_name || playlist.created_by || 'Unknown User'}
+          </div>
           <div className={styles.meta}>
-            <span className={styles.trackCount}>{tracks.length}曲</span>
             <span className={styles.lastUpdated}>
-              最終更新: {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
+              Update: {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
             </span>
             <span className={styles.visibility}>
               {playlist.is_public ? '公開' : '非公開'}
             </span>
           </div>
+          {playlist.description && (
+            <p className={styles.description}>{playlist.description}</p>
+          )}
         </div>
         
         <div className={styles.playlistActions}>
@@ -128,28 +122,21 @@ export default function PlaylistDetail({ playlist, tracks, session, autoPlayFirs
         </div>
       </div>
 
-            {/* トラック一覧 */}
-      <div className={styles.tracksContainer}>
-        <div className={styles.tracksHeader}>
-          <h2>トラック一覧</h2>
-          <span className={styles.trackCount}>{tracks.length}曲</span>
+      {/* トラックリスト */}
+      {tracks.length === 0 ? (
+        <div className={styles.emptyState}>
+          トラックがありません。曲を追加してください。
         </div>
-        
-        {tracks.length === 0 ? (
-          <div className={styles.emptyState}>
-            トラックがありません。曲を追加してください。
-          </div>
-        ) : (
-          <PlaylistSongList
-            tracks={tracks}
-            playlistId={playlist.id}
-            accessToken={session?.accessToken}
-            source={`playlist/${playlist.id}`}
-            onPageEnd={handlePlaylistEnd}
-            autoPlayFirst={autoPlayFirst}
-          />
-        )}
-      </div>
+      ) : (
+        <PlaylistSongList
+          tracks={tracks}
+          playlistId={playlist.id}
+          accessToken={session?.accessToken}
+          source={`playlist/${playlist.id}`}
+          onPageEnd={handlePlaylistEnd}
+          autoPlayFirst={autoPlayFirst}
+        />
+      )}
       
 
     </div>

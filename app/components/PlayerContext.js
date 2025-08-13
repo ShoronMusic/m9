@@ -390,10 +390,19 @@ export const PlayerProvider = ({ children }) => {
       title: track.title?.rendered || track.title,
       thumbnail: track.featured_media_url_thumbnail || track.featured_media_url || (track.album?.images?.[0]?.url) || track.thumbnail || '/placeholder.jpg',
       spotify_url: track.acf?.spotify_url,
+      // Spotify track IDを明示的に保持
+      spotify_track_id: track.spotify_track_id || track.spotifyTrackId || track.acf?.spotify_track_id,
       // スタイル・ジャンル情報を保持
       styles: track.styles,
       genres: track.genres,
     };
+    
+    console.log('🎵 PlayerContext - Track transformation:', {
+      originalSpotifyTrackId: track.spotify_track_id,
+      originalSpotifyTrackIdAlt: track.spotifyTrackId,
+      originalAcfSpotifyTrackId: track.acf?.spotify_track_id,
+      newSpotifyTrackId: newTrack.spotify_track_id
+    });
     
     // 現在の曲の再生を停止
     if (playTracker) {

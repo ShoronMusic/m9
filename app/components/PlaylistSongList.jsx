@@ -1092,22 +1092,6 @@ export default function PlaylistSongList({
 
   return (
     <div className={styles.playlistWrapper}>
-      {/* プレイリスト情報 */}
-      <div className={styles.playlistInfo}>
-        <div className={styles.playlistHeader}>
-          <img 
-            src={playlistInfo?.cover_image_url || '/placeholder.jpg'} 
-            alt="Playlist Cover" 
-            className={styles.playlistCover}
-          />
-          <div className={styles.playlistDetails}>
-            <h1>{playlistInfo?.name || 'Playlist'}</h1>
-            <p>{safeTracks.length} tracks • Created {playlistInfo?.created_at ? new Date(playlistInfo.created_at).toLocaleDateString() : 'Unknown date'}</p>
-            {playlistInfo?.description && <p>{playlistInfo.description}</p>}
-          </div>
-        </div>
-      </div>
-
       {/* ヘッダー */}
       <div className={styles.header}>
         <div className={styles.headerLeft}>

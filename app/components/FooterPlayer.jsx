@@ -334,6 +334,8 @@ export default function FooterPlayer() {
                         autoPlay={isPlaying}
                     />
 
+
+
                 </>
             )}
         </>
