@@ -18,6 +18,7 @@ export default function MyPageClient({ session }) {
   const [supabaseTest, setSupabaseTest] = useState(null);
   const [playlists, setPlaylists] = useState([]);
   const [playlistsLoading, setPlaylistsLoading] = useState(false);
+  const [sortOrder, setSortOrder] = useState('name'); // 'name' または 'date'
   
   // ページネーション用の状態
   const [currentPage, setCurrentPage] = useState(1);
@@ -53,6 +54,36 @@ export default function MyPageClient({ session }) {
       setPlaylistsLoading(false);
     }
   }, [session?.user?.id]);
+
+  // プレイリストを並び替える関数
+  const sortPlaylists = useCallback((playlists, order) => {
+    if (!playlists || playlists.length === 0) return playlists;
+    
+    const sortedPlaylists = [...playlists];
+    
+    if (order === 'name') {
+      // 名前順（昇順）
+      sortedPlaylists.sort((a, b) => {
+        const nameA = (a.name || '').toLowerCase();
+        const nameB = (b.name || '').toLowerCase();
+        return nameA.localeCompare(nameB, 'ja');
+      });
+    } else if (order === 'date') {
+      // 更新日順（新しい順）
+      sortedPlaylists.sort((a, b) => {
+        const dateA = new Date(a.updated_at || a.created_at || 0);
+        const dateB = new Date(b.updated_at || b.created_at || 0);
+        return dateB - dateA;
+      });
+    }
+    
+    return sortedPlaylists;
+  }, []);
+
+  // 並び替え順序を変更する関数
+  const handleSortChange = useCallback((newOrder) => {
+    setSortOrder(newOrder);
+  }, []);
 
   // プレイリスト追加後のコールバック関数
   const handlePlaylistCreated = useCallback((newPlaylist) => {
@@ -654,20 +685,36 @@ export default function MyPageClient({ session }) {
       <div className={styles.playlistsCard}>
         <div className={styles.playlistsHeader}>
           <h3>マイプレイリスト</h3>
-          <button 
-            onClick={fetchPlaylists}
-            className={styles.refreshButton}
-            disabled={playlistsLoading}
-          >
-            {playlistsLoading ? '更新中...' : 'プレイリスト更新'}
-          </button>
+          <div className={styles.playlistsControls}>
+            <div className={styles.sortButtons}>
+              <button
+                onClick={() => handleSortChange('name')}
+                className={`${styles.sortButton} ${sortOrder === 'name' ? styles.sortButtonActive : ''}`}
+              >
+                名前順
+              </button>
+              <button
+                onClick={() => handleSortChange('date')}
+                className={`${styles.sortButton} ${sortOrder === 'date' ? styles.sortButtonActive : ''}`}
+              >
+                更新日順
+              </button>
+            </div>
+            <button 
+              onClick={fetchPlaylists}
+              className={styles.refreshButton}
+              disabled={playlistsLoading}
+            >
+              {playlistsLoading ? '更新中...' : 'プレイリスト更新'}
+            </button>
+          </div>
         </div>
         
         {playlistsLoading ? (
           <div className={styles.loading}>プレイリストを読み込み中...</div>
         ) : playlists && playlists.length > 0 ? (
           <div className={styles.playlistsGrid}>
-            {playlists.map((playlist) => (
+            {sortPlaylists(playlists, sortOrder).map((playlist) => (
               <Link 
                 href={`/playlists/${playlist.id}`} 
                 key={playlist.id}

@@ -428,6 +428,45 @@
   margin-bottom: 20px;
 }
 
+.playlistsControls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sortButtons {
+  display: flex;
+  gap: 8px;
+}
+
+.sortButton {
+  padding: 8px 16px;
+  border: 1px solid #dee2e6;
+  background: white;
+  color: #6c757d;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sortButton:hover {
+  background: #f8f9fa;
+  border-color: #adb5bd;
+}
+
+.sortButtonActive {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+.sortButtonActive:hover {
+  background: #5a6fd8;
+  border-color: #5a6fd8;
+}
+
 .playlistsHeader h3 {
   margin: 0;
   color: #2c3e50;
