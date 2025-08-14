@@ -99,6 +99,10 @@ export async function GET(request, { params }) {
 export async function POST(request, { params }) {
   try {
     console.log('=== Add Track to Existing Playlist API Called ===');
+    console.log('Request method:', request.method);
+    console.log('Request URL:', request.url);
+    console.log('Request headers:', Object.fromEntries(request.headers.entries()));
+    console.log('Request body available:', request.body !== null);
     
     const { playlistId } = params;
     console.log('Playlist ID:', playlistId);
@@ -171,7 +175,25 @@ export async function POST(request, { params }) {
     
     console.log('Playlist access verified:', playlist);
     
-    // リクエストボディからデータを取得（すべての項目を含む）
+    // リクエストボディからデータを取得（1回だけ）
+    console.log('=== About to parse request body ===');
+    const requestBody = await request.json();
+    console.log('=== Raw request body parsed ===');
+    console.log('Raw requestBody type:', typeof requestBody);
+    console.log('Raw requestBody:', requestBody);
+    
+    const { skipDuplicateCheck, ...trackData } = requestBody;
+    
+    console.log('=== Request Body Analysis ===');
+    console.log('Full request body:', requestBody);
+    console.log('skipDuplicateCheck flag:', skipDuplicateCheck);
+    console.log('skipDuplicateCheck type:', typeof skipDuplicateCheck);
+    console.log('skipDuplicateCheck === true:', skipDuplicateCheck === true);
+    console.log('skipDuplicateCheck === "true":', skipDuplicateCheck === "true");
+    console.log('Boolean(skipDuplicateCheck):', Boolean(skipDuplicateCheck));
+    console.log('Extracted trackData:', trackData);
+
+    // trackDataから必要なフィールドを抽出
     const { 
       track_id, 
       title, 
@@ -200,7 +222,7 @@ export async function POST(request, { params }) {
       genre_data,
       style_data,
       vocal_data
-    } = await request.json();
+    } = trackData;
     
     console.log('Track data received:', { 
       track_id, 
@@ -243,29 +265,42 @@ export async function POST(request, { params }) {
       return Response.json({ error: 'Missing required track data' }, { status: 400 });
     }
     
-    // トラックが既にプレイリストに存在するかチェック
-    const { data: existingTrack, error: checkError } = await supabase
-      .from('playlist_tracks')
-      .select('id, title')
-      .eq('playlist_id', playlistId)
-      .eq('song_id', song_id || track_id)
-      .single();
+    // トラックが既にプレイリストに存在するかチェック（スキップフラグがtrueの場合はチェックしない）
+    console.log('=== Duplicate Check Decision ===');
+    console.log('skipDuplicateCheck value:', skipDuplicateCheck);
+    console.log('Will skip duplicate check:', Boolean(skipDuplicateCheck));
     
-    if (checkError && checkError.code !== 'PGRST116') {
-      // PGRST116は「行が見つからない」エラーで、これは正常（トラックが存在しない）
-      console.error('Error checking for existing track:', checkError);
-      return Response.json({ error: 'Failed to check for existing track' }, { status: 500 });
-    }
-    
-    if (existingTrack) {
-      console.log('Track already exists in playlist:', existingTrack);
-      const responseData = { 
-        success: false, 
-        message: 'このトラックは既にプレイリストに追加されています',
-        existingTrack: existingTrack
-      };
-      console.log('Sending 409 response:', responseData);
-      return Response.json(responseData, { status: 409 }); // 409 Conflict
+    if (!Boolean(skipDuplicateCheck)) {
+      console.log('Performing duplicate check...');
+      const { data: existingTrack, error: checkError } = await supabase
+        .from('playlist_tracks')
+        .select('id, title')
+        .eq('playlist_id', playlistId)
+        .eq('song_id', song_id || track_id)
+        .single();
+      
+      if (checkError && checkError.code !== 'PGRST116') {
+        // PGRST116は「行が見つからない」エラーで、これは正常（トラックが存在しない）
+        console.error('Error checking for existing track:', checkError);
+        return Response.json({ 
+          error: '既存トラックの確認に失敗しました',
+          details: 'データベースの接続またはクエリに問題が発生しました。しばらく時間をおいて再度お試しください。'
+        }, { status: 500 });
+      }
+      
+      if (existingTrack) {
+        console.log('Track already exists in playlist:', existingTrack);
+        const responseData = { 
+          success: false, 
+          message: 'このトラックは既にプレイリストに追加されています',
+          existingTrack: existingTrack
+        };
+        console.log('Sending 409 response:', responseData);
+        return Response.json(responseData, { status: 409 }); // 409 Conflict
+      }
+      console.log('Duplicate check passed - track not found in playlist');
+    } else {
+      console.log('Skipping duplicate check for new playlist');
     }
     
     // 現在の最大positionを取得
@@ -320,7 +355,7 @@ export async function POST(request, { params }) {
       artist_order: artist_order || null,
       content: content || null
     };
-    
+   
     console.log('Track insert data for database:', trackInsertData);
     
     // トラックを追加
@@ -342,11 +377,22 @@ export async function POST(request, { params }) {
       
       // 重複キーエラーの場合は特別な処理
       if (trackError.code === '23505') {
-        return Response.json({ 
-          success: false, 
-          message: 'このトラックは既にプレイリストに追加されています',
-          error: 'Track already exists in playlist'
-        }, { status: 409 });
+        // skipDuplicateCheckがtrueの場合は、制約違反を無視して成功として扱う
+        if (Boolean(skipDuplicateCheck)) {
+          console.log('Database constraint violation (23505) but skipDuplicateCheck is true - treating as success');
+          return Response.json({ 
+            success: true, 
+            message: 'Track already exists in playlist (constraint bypassed)',
+            constraintViolation: true
+          });
+        } else {
+          // 通常の重複エラー処理
+          return Response.json({ 
+            success: false, 
+            message: 'このトラックは既にプレイリストに追加されています',
+            error: 'トラックは既にプレイリストに存在します'
+          }, { status: 409 });
+        }
       }
       
       // 外部キー制約違反の場合は詳細情報を提供

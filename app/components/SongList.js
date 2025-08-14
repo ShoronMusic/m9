@@ -11,6 +11,7 @@ import { usePlayer } from './PlayerContext';
 import { useSpotifyLikes } from './SpotifyLikes';
 import { useSession } from 'next-auth/react';
 import CreatePlaylistModal from './CreatePlaylistModal';
+import CreateNewPlaylistModal from './CreateNewPlaylistModal';
 
 // CloudinaryのベースURL
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
@@ -323,6 +324,7 @@ export default function SongList({
   const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
   const [popupSong, setPopupSong] = useState(null);
   const [showCreateModal, setShowCreateModal] = useState(false);
+  const [showCreateNewPlaylistModal, setShowCreateNewPlaylistModal] = useState(false);
   const [trackToAdd, setTrackToAdd] = useState(null);
   const [userPlaylists, setUserPlaylists] = useState([]);
 
@@ -1174,14 +1176,30 @@ export default function SongList({
       )}
       {showCreateModal && trackToAdd && (
         <CreatePlaylistModal
-          isOpen={showCreateModal}
+          isOpen={showCreateModal && !showCreateNewPlaylistModal}
           onClose={() => setShowCreateModal(false)}
-          onCreate={handlePlaylistCreated}
+          onCreate={(data) => {
+            if (data && data.action === 'create_new') {
+              // 新規作成ボタンが押された場合、新規作成モーダルを表示
+              setShowCreateNewPlaylistModal(true);
+            }
+          }}
           trackToAdd={trackToAdd}
           userPlaylists={userPlaylists}
           onAddToPlaylist={addTrackToPlaylist}
         />
       )}
+      
+      <CreateNewPlaylistModal
+        isOpen={showCreateNewPlaylistModal}
+        onClose={() => {
+          setShowCreateNewPlaylistModal(false);
+          setShowCreateModal(false); // 新規作成モーダルを閉じる時は既存モーダルも閉じる
+        }}
+        onCreate={handlePlaylistCreated}
+        onPlaylistCreated={handlePlaylistCreated}
+        trackToAdd={trackToAdd}
+      />
     </div>
   );
 }

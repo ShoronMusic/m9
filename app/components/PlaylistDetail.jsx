@@ -15,6 +15,8 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
   const [editDescription, setEditDescription] = useState(initialPlaylist.description || '');
   const [editIsPublic, setEditIsPublic] = useState(initialPlaylist.is_public || false);
   const [isSaving, setIsSaving] = useState(false);
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
+  const [showFinalDeleteConfirm, setShowFinalDeleteConfirm] = useState(false);
 
   // プレイリストの最新更新日を取得（トラックの追加日から）
   const getLatestUpdateDate = () => {
@@ -64,6 +66,42 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
   };
 
   // プレイリスト情報を保存
+  const handleDeleteClick = () => {
+    setShowDeleteConfirm(true);
+  };
+
+  const handleDeleteConfirm = () => {
+    setShowDeleteConfirm(false);
+    setShowFinalDeleteConfirm(true);
+  };
+
+  const handleDeleteCancel = () => {
+    setShowDeleteConfirm(false);
+    setShowFinalDeleteConfirm(false);
+  };
+
+  const handleFinalDelete = async () => {
+    try {
+      const response = await fetch(`/api/playlists/${playlist.id}`, {
+        method: 'DELETE',
+      });
+
+      if (response.ok) {
+        alert('プレイリストが削除されました');
+        // マイページにリダイレクト
+        window.location.href = '/mypage';
+      } else {
+        const errorData = await response.json();
+        alert(`削除に失敗しました: ${errorData.error || '不明なエラー'}`);
+      }
+    } catch (error) {
+      console.error('プレイリスト削除エラー:', error);
+      alert('削除中にエラーが発生しました');
+    } finally {
+      setShowFinalDeleteConfirm(false);
+    }
+  };
+
   const savePlaylist = async () => {
     if (!editName.trim()) {
       alert('プレイリスト名は必須です');
@@ -246,6 +284,17 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
                   キャンセル
                 </button>
               </div>
+              
+              {/* 削除ボタン */}
+              <div className={styles.deleteSection}>
+                <button
+                  onClick={handleDeleteClick}
+                  disabled={isSaving}
+                  className={styles.deleteButton}
+                >
+                  プレイリストを削除
+                </button>
+              </div>
             </div>
           ) : (
             <>
@@ -272,7 +321,7 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
               <span className={styles.lastUpdated}>
                 Update: {formatPlaylistDate(getLatestUpdateDate())}
               </span>
-              <span className={styles.visibility}>
+              <span className={`${styles.visibility} ${playlist.is_public ? styles.public : styles.private}`}>
                 {playlist.is_public ? '公開' : '非公開'}
               </span>
             </div>
@@ -315,6 +364,61 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
           onPageEnd={handlePlaylistEnd}
           autoPlayFirst={autoPlayFirst}
         />
+      )}
+      
+      {/* 削除確認モーダル */}
+      {showDeleteConfirm && (
+        <div className={styles.deleteConfirmModal}>
+          <div className={styles.deleteConfirmContent}>
+            <h3>プレイリストの削除</h3>
+            <p>このプレイリスト「{playlist.name}」を削除しますか？</p>
+            <p className={styles.deleteWarning}>
+              この操作により、プレイリスト内の全曲も削除されます。
+            </p>
+            <div className={styles.deleteConfirmActions}>
+              <button
+                onClick={handleDeleteCancel}
+                className={styles.deleteCancelButton}
+              >
+                キャンセル
+              </button>
+              <button
+                onClick={handleDeleteConfirm}
+                className={styles.deleteConfirmButton}
+              >
+                削除する
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+      
+      {/* 最終削除確認モーダル */}
+      {showFinalDeleteConfirm && (
+        <div className={styles.deleteConfirmModal}>
+          <div className={styles.deleteConfirmContent}>
+            <h3>最終確認</h3>
+            <p>本当にこのプレイリストを削除しますか？</p>
+            <p className={styles.deleteWarning}>
+              <strong>この操作は取り消せません。</strong><br/>
+              プレイリスト「{playlist.name}」とその中の全曲が完全に削除されます。
+            </p>
+            <div className={styles.deleteConfirmActions}>
+              <button
+                onClick={handleDeleteCancel}
+                className={styles.deleteCancelButton}
+              >
+                キャンセル
+              </button>
+              <button
+                onClick={handleFinalDelete}
+                className={styles.deleteFinalButton}
+              >
+                完全に削除する
+              </button>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );

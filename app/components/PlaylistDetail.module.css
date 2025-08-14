@@ -139,10 +139,155 @@
 
 .visibility {
   padding: 4px 12px;
-  background: #e9ecef;
   border-radius: 16px;
   font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+/* 非公開（現在のスタイルを維持） */
+.private {
+  background: #e9ecef;
   color: #666;
+}
+
+/* 公開（カラフルなスタイル） */
+.public {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+  border: 1px solid #667eea;
+}
+
+/* 削除セクション */
+.deleteSection {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.deleteButton {
+  padding: 10px 20px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.deleteButton:hover {
+  background: #c82333;
+  transform: translateY(-1px);
+}
+
+.deleteButton:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* 削除確認モーダル */
+.deleteConfirmModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.deleteConfirmContent {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.deleteConfirmContent h3 {
+  margin: 0 0 20px 0;
+  color: #dc3545;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.deleteConfirmContent p {
+  margin: 0 0 15px 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+.deleteWarning {
+  color: #dc3545 !important;
+  font-weight: 500;
+  background: #fff5f5;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #fed7d7;
+}
+
+.deleteConfirmActions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.deleteCancelButton {
+  padding: 12px 24px;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.deleteCancelButton:hover {
+  background: #5a6268;
+}
+
+.deleteConfirmButton {
+  padding: 12px 24px;
+  background: #ffc107;
+  color: #212529;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.deleteConfirmButton:hover {
+  background: #e0a800;
+}
+
+.deleteFinalButton {
+  padding: 12px 24px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.deleteFinalButton:hover {
+  background: #c82333;
 }
 
 .date {

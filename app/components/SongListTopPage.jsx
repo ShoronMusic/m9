@@ -12,6 +12,7 @@ import { useSession } from "next-auth/react";
 import { useSpotifyLikes } from './SpotifyLikes';
 import he from "he";
 import CreatePlaylistModal from './CreatePlaylistModal';
+import CreateNewPlaylistModal from './CreateNewPlaylistModal';
 
 // 先頭の "The " を取り除く
 function removeLeadingThe(str = "") {
@@ -342,8 +343,8 @@ export default function SongListTopPage({
 	const [isPopupVisible, setIsPopupVisible] = useState(false);
 	const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
 	const [popupSong, setPopupSong] = useState(null);
-	const [showCreateModal, setShowCreateModal] = useState(false);
 	const [showCreatePlaylistModal, setShowCreatePlaylistModal] = useState(false);
+	const [showCreateNewPlaylistModal, setShowCreateNewPlaylistModal] = useState(false);
 	const [trackToAdd, setTrackToAdd] = useState(null);
 	const [selectedTrack, setSelectedTrack] = useState(null);
 	const [userPlaylists, setUserPlaylists] = useState([]);
@@ -404,9 +405,7 @@ export default function SongListTopPage({
 	const handleAddToPlaylistClick = (songId) => {
 		const song = songs.find(s => s.id === songId);
 		if (song) {
-			setTrackToAdd(song);
-			setSelectedTrack(song);
-			setShowCreatePlaylistModal(true);
+			handleAddToPlaylist(song);
 		}
 		setIsPopupVisible(false);
 	};
@@ -450,8 +449,11 @@ export default function SongListTopPage({
 
 	// プレイリストに追加
 	const handleAddToPlaylist = (track) => {
+		console.log('🎵 handleAddToPlaylist called with track:', track);
 		setTrackToAdd(track);
-		setShowCreateModal(true);
+		setSelectedTrack(track);
+		setShowCreatePlaylistModal(true);
+		console.log('🎵 Modal state set to true');
 	};
 
 	// 既存プレイリストに追加
@@ -563,7 +565,8 @@ export default function SongListTopPage({
 	// 新規プレイリスト作成モーダルを開く
 	const openCreatePlaylistModal = (track) => {
 		setTrackToAdd(track);
-		setShowCreateModal(true);
+		setSelectedTrack(track);
+		setShowCreatePlaylistModal(true);
 	};
 
 	// プレイリスト作成完了
@@ -944,7 +947,13 @@ export default function SongListTopPage({
 								))}
 
 								<div key="add-to-playlist-section" style={separatorStyle}>
-									<button onClick={onAddToPlaylist} style={menuButtonStlye}>
+									<button 
+										onClick={() => {
+											console.log('🎵 プレイリストに追加ボタンがクリックされました:', song);
+											handleAddToPlaylist(song);
+										}} 
+										style={menuButtonStlye}
+									>
 										<img src="/svg/add.svg" alt="" style={{ width: 16, marginRight: 8 }} />
 										プレイリストに追加
 									</button>
@@ -964,13 +973,37 @@ export default function SongListTopPage({
 				/>
 			)}
 
-			{showCreatePlaylistModal && (
-				<CreatePlaylistModal
-					onClose={() => setShowCreatePlaylistModal(false)}
-					onPlaylistCreated={handlePlaylistCreated}
-					initialTrack={selectedTrack}
-				/>
-			)}
+			<CreatePlaylistModal
+				isOpen={showCreatePlaylistModal && !showCreateNewPlaylistModal}
+				onClose={() => setShowCreatePlaylistModal(false)}
+				onCreate={(data) => {
+					console.log('🎯 CreatePlaylistModal onCreate コールバック受信:', data);
+					if (data && data.action === 'create_new') {
+						console.log('🎯 新規作成アクションを検出、新規作成モーダルを開きます');
+						// 新規作成ボタンが押された場合、既存モーダルは非表示にして新規作成モーダルを表示
+						setShowCreateNewPlaylistModal(true);
+						console.log('🎯 showCreateNewPlaylistModal を true に設定完了');
+					}
+				}}
+				onPlaylistCreated={handlePlaylistCreated}
+				trackToAdd={trackToAdd}
+				userPlaylists={userPlaylists}
+			/>
+			
+			<CreateNewPlaylistModal
+				isOpen={showCreateNewPlaylistModal}
+				onClose={() => {
+					setShowCreateNewPlaylistModal(false);
+					setShowCreatePlaylistModal(false); // 新規作成モーダルを閉じる時は既存モーダルも閉じる
+				}}
+				onCreate={handlePlaylistCreated}
+				onPlaylistCreated={handlePlaylistCreated}
+				trackToAdd={trackToAdd}
+			/>
+			{/* デバッグ用: モーダルの状態を確認 */}
+			{console.log('🎵 showCreatePlaylistModal state:', showCreatePlaylistModal)}
+			{console.log('🎵 showCreateNewPlaylistModal state:', showCreateNewPlaylistModal)}
+			{console.log('🎵 trackToAdd state:', trackToAdd)}
 		</div>
 	);
 }
