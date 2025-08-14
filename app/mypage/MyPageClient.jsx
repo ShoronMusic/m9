@@ -19,6 +19,7 @@ export default function MyPageClient({ session }) {
   const [playlists, setPlaylists] = useState([]);
   const [playlistsLoading, setPlaylistsLoading] = useState(false);
   const [sortOrder, setSortOrder] = useState('name'); // 'name' または 'date'
+  const [displayMode, setDisplayMode] = useState('grid'); // 'grid' または 'list'
   
   // ページネーション用の状態
   const [currentPage, setCurrentPage] = useState(1);
@@ -83,6 +84,11 @@ export default function MyPageClient({ session }) {
   // 並び替え順序を変更する関数
   const handleSortChange = useCallback((newOrder) => {
     setSortOrder(newOrder);
+  }, []);
+
+  // 表示モードを切り替える関数
+  const handleDisplayModeChange = useCallback((newMode) => {
+    setDisplayMode(newMode);
   }, []);
 
   // プレイリスト追加後のコールバック関数
@@ -700,6 +706,22 @@ export default function MyPageClient({ session }) {
                 更新日順
               </button>
             </div>
+            <div className={styles.displayModeButtons}>
+              <button
+                onClick={() => handleDisplayModeChange('grid')}
+                className={`${styles.displayModeButton} ${displayMode === 'grid' ? styles.displayModeButtonActive : ''}`}
+                title="ボタン表示"
+              >
+                <span className={styles.displayModeIcon}>⊞</span>
+              </button>
+              <button
+                onClick={() => handleDisplayModeChange('list')}
+                className={`${styles.displayModeButton} ${displayMode === 'list' ? styles.displayModeButtonActive : ''}`}
+                title="行表示"
+              >
+                <span className={styles.displayModeIcon}>☰</span>
+              </button>
+            </div>
             <button 
               onClick={fetchPlaylists}
               className={styles.refreshButton}
@@ -713,38 +735,62 @@ export default function MyPageClient({ session }) {
         {playlistsLoading ? (
           <div className={styles.loading}>プレイリストを読み込み中...</div>
         ) : playlists && playlists.length > 0 ? (
-          <div className={styles.playlistsGrid}>
-            {sortPlaylists(playlists, sortOrder).map((playlist) => (
-              <Link 
-                href={`/playlists/${playlist.id}`} 
-                key={playlist.id}
-                className={styles.playlistItem}
-              >
-                <div className={styles.playlistCover}>
-                  {playlist.cover_image_url ? (
-                    <img 
-                      src={playlist.cover_image_url} 
-                      alt={playlist.name}
-                      className={styles.playlistImage}
-                    />
-                  ) : (
-                    <div className={styles.playlistPlaceholder}>
-                      <span>🎵</span>
+          displayMode === 'grid' ? (
+            <div className={styles.playlistsGrid}>
+              {sortPlaylists(playlists, sortOrder).map((playlist) => (
+                <Link 
+                  href={`/playlists/${playlist.id}`} 
+                  key={playlist.id}
+                  className={styles.playlistItem}
+                >
+                  <div className={styles.playlistCover}>
+                    {playlist.cover_image_url ? (
+                      <img 
+                        src={playlist.cover_image_url} 
+                        alt={playlist.name}
+                        className={styles.playlistImage}
+                      />
+                    ) : (
+                      <div className={styles.playlistPlaceholder}>
+                        <span>🎵</span>
+                      </div>
+                    )}
+                  </div>
+                  <div className={styles.playlistInfo}>
+                    <h4 className={styles.playlistName}>{playlist.name}</h4>
+                    <p className={styles.playlistStats}>
+                      {playlist.track_count || 0}曲
+                    </p>
+                    <p className={styles.playlistStats}>
+                      Update: {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <div className={styles.playlistsList}>
+              {sortPlaylists(playlists, sortOrder).map((playlist) => (
+                <Link 
+                  href={`/playlists/${playlist.id}`} 
+                  key={playlist.id}
+                  className={styles.playlistListItem}
+                >
+                  <div className={styles.playlistListInfo}>
+                    <div className={styles.playlistListTitle}>
+                      {playlist.name}
                     </div>
-                  )}
-                </div>
-                <div className={styles.playlistInfo}>
-                  <h4 className={styles.playlistName}>{playlist.name}</h4>
-                                     <p className={styles.playlistStats}>
-                     {playlist.track_count || 0}曲
-                   </p>
-                   <p className={styles.playlistStats}>
-                     Update: {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
-                   </p>
-                </div>
-              </Link>
-            ))}
-          </div>
+                    <div className={styles.playlistListTrackCount}>
+                      {playlist.track_count || 0}曲
+                    </div>
+                    <div className={styles.playlistListDate}>
+                      Update: {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          )
         ) : (
           <div className={styles.noPlaylists}>
             <p>プレイリストがありません</p>
