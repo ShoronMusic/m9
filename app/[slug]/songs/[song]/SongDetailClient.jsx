@@ -1,15 +1,17 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import MicrophoneIcon from "../../../components/MicrophoneIcon";
 import ScrollToTopButton from "../../../components/ScrollToTopButton";
 import SongDetailSpotifyPlayer from "../../../components/SongDetailSpotifyPlayer";
+import CreatePlaylistModal from "../../../components/CreatePlaylistModal";
 import Link from "next/link";
 import Head from "next/head";
 import theme from "../../../css/theme";
 import Image from "next/image";
 import artistStyles from "../../ArtistPage.module.css";
+import { useSession } from 'next-auth/react';
 
 const styleIdMap = {
   pop: 2844,
@@ -93,10 +95,68 @@ function renderVocalIcons(vocalData = []) {
 }
 
 export default function SongDetailClient({ songData, description, accessToken }) {
+  const { data: session } = useSession();
+  const [showCreateModal, setShowCreateModal] = useState(false);
+  const [trackToAdd, setTrackToAdd] = useState(null);
+  const [userPlaylists, setUserPlaylists] = useState([]);
+
   useEffect(() => {
     // デバッグ用
     // console.log("受け取った songData:", songData);
   }, [songData]);
+
+  // ユーザーのプレイリスト一覧を取得
+  const fetchUserPlaylists = async () => {
+    try {
+      const response = await fetch('/api/playlists');
+      if (response.ok) {
+        const data = await response.json();
+        setUserPlaylists(data.playlists || []);
+      }
+    } catch (err) {
+      console.error('プレイリスト取得エラー:', err);
+    }
+  };
+
+  // プレイリストに追加
+  const addTrackToPlaylist = async (track, playlistId) => {
+    try {
+      const response = await fetch(`/api/playlists/${playlistId}/tracks`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          song_id: track.id,
+          title: track.title,
+          artists: track.artists,
+          thumbnail_url: track.thumbnail,
+          spotify_track_id: track.spotify_track_id,
+          style_id: track.style_id || 2873,
+          style_name: track.style_name || 'Others',
+          release_date: track.release_date || track.releaseDate,
+          genre_id: track.genre_id || null,
+          genre_name: track.genre_name || null,
+          vocal_id: track.vocal_id || null,
+          vocal_name: track.vocal_name || null,
+          is_favorite: false
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('曲の追加に失敗しました');
+      }
+
+      console.log('プレイリストに追加しました！');
+    } catch (err) {
+      console.error('曲の追加に失敗しました:', err.message);
+    }
+  };
+
+  // コンポーネントマウント時にプレイリスト一覧を取得
+  useEffect(() => {
+    if (session) {
+      fetchUserPlaylists();
+    }
+  }, [session]);
 
   if (!songData) {
     return <div>データが取得できませんでした。</div>;
@@ -314,6 +374,55 @@ export default function SongDetailClient({ songData, description, accessToken })
                 </div>
               </div>
             </div>
+            {/* プレイリスト追加セクション */}
+            <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
+              <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>PLAYLIST:</div>
+              <div style={{ flex: 1, marginLeft: '16px' }}>
+                {session?.user ? (
+                  <button
+                    onClick={() => {
+                      setTrackToAdd({
+                        id: songData.id,
+                        title: songData.title,
+                        artists: songData.artists,
+                        thumbnail: songData.thumbnail || songData.spotify_images,
+                        spotify_track_id: songData.spotifyTrackId,
+                        style_id: songData.styles?.[0] || 2873,
+                        style_name: songData.styles?.[0] ? styleDisplayMap[songData.styles[0]] : 'Others',
+                        release_date: songData.releaseDate,
+                        genre_id: songData.genres?.[0]?.term_id || null,
+                        genre_name: songData.genres?.[0]?.name || null,
+                        vocal_id: songData.vocals?.[0]?.term_id || null,
+                        vocal_name: songData.vocals?.[0]?.name || null
+                      });
+                      setShowCreateModal(true);
+                    }}
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "8px",
+                      padding: "8px 16px",
+                      backgroundColor: "#1e6ebb",
+                      color: "white",
+                      border: "none",
+                      borderRadius: "6px",
+                      cursor: "pointer",
+                      fontSize: "0.9em",
+                      transition: "background-color 0.2s"
+                    }}
+                    onMouseEnter={(e) => e.target.style.backgroundColor = "#155a8a"}
+                    onMouseLeave={(e) => e.target.style.backgroundColor = "#1e6ebb"}
+                  >
+                    <img src="/svg/add.svg" alt="" style={{ width: 16 }} />
+                    プレイリストに追加
+                  </button>
+                ) : (
+                  <div style={{ color: '#888', fontSize: '0.9em' }}>
+                    プレイリストに追加するにはSpotifyでログインしてください
+                  </div>
+                )}
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -348,6 +457,21 @@ export default function SongDetailClient({ songData, description, accessToken })
             </p>
           </div>
         )
+      )}
+      
+      {/* プレイリスト追加モーダル */}
+      {showCreateModal && trackToAdd && (
+        <CreatePlaylistModal
+          isOpen={showCreateModal}
+          onClose={() => setShowCreateModal(false)}
+          onCreate={(newPlaylist) => {
+            console.log(`プレイリスト「${newPlaylist.name}」を作成しました！`);
+            setShowCreateModal(false);
+          }}
+          trackToAdd={trackToAdd}
+          userPlaylists={userPlaylists}
+          onAddToPlaylist={addTrackToPlaylist}
+        />
       )}
       
     </ThemeProvider>

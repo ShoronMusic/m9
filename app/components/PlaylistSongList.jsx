@@ -95,8 +95,77 @@ function formatYearMonth(dateStr) {
 }
 
 // プレイリスト用のアーティスト情報を適切に表示する関数
-function formatPlaylistArtists(artists) {
-  if (!artists) return "Unknown Artist";
+function formatPlaylistArtists(artists, spotifyArtists = null) {
+  // デバッグログ：入力値の確認
+  // spotify_artistsフィールドを最優先で使用（データベースの順番を完全保持）
+  if (spotifyArtists && Array.isArray(spotifyArtists) && spotifyArtists.length > 0) {
+    console.log('🎯 spotify_artists使用（データベース順番保持）:', spotifyArtists);
+    return spotifyArtists.join(', ');
+  }
+
+    // 1. spotify_artistsフィールドを最優先で使用
+  if (spotifyArtists && (Array.isArray(spotifyArtists) ? spotifyArtists.length > 0 : spotifyArtists)) {
+    // spotify_artists処理開始ログは削除
+    try {
+      // JSON文字列の場合
+      if (typeof spotifyArtists === 'string' && (spotifyArtists.startsWith('{') || spotifyArtists.startsWith('['))) {
+        const parsed = JSON.parse(spotifyArtists);
+        // JSONパースログは削除
+        if (Array.isArray(parsed)) {
+          const formattedSpotifyArtists = parsed.map(artist => {
+            if (typeof artist === 'string') {
+              return artist;
+            }
+            if (typeof artist === 'object' && artist !== null) {
+              const name = artist.name || artist.spotify_name || Object.values(artist)[0];
+              const nationality = artist.artistorigin || artist.acf?.artistorigin;
+              return nationality ? `${name} (${nationality})` : name;
+            }
+            return String(artist);
+          });
+          const result = formattedSpotifyArtists.join(', ');
+          // 結果ログは削除
+          return result;
+        }
+      }
+      // 配列の場合
+      if (Array.isArray(spotifyArtists)) {
+        // 配列処理ログは削除
+        // 順番を保持してそのまま処理（順番を変更しない）
+        const formattedSpotifyArtists = spotifyArtists.map(artist => {
+          if (typeof artist === 'string') {
+            return artist;
+          }
+          if (typeof artist === 'object' && artist !== null) {
+            const name = artist.name || artist.spotify_name || Object.values(artist)[0];
+            const nationality = artist.artistorigin || artist.acf?.artistorigin;
+            return nationality ? `${name} (${nationality})` : name;
+          }
+          return String(artist);
+        });
+        const result = formattedSpotifyArtists.join(', ');
+        // 結果ログは削除
+        return result;
+      }
+      // 文字列の場合（カンマ区切り）
+      if (typeof spotifyArtists === 'string') {
+        // 文字列使用ログは削除
+        return spotifyArtists;
+      }
+    } catch (e) {
+      // エラーログは削除
+    }
+  } else {
+    // フォールバックログは削除
+  }
+
+  // 2. 従来のartistsフィールドをフォールバックとして使用
+  if (!artists || (Array.isArray(artists) && artists.length === 0)) {
+    // エラーログは削除
+    return "Unknown Artist";
+  }
+  
+  // フォールバックログは削除
   
   // 配列の場合
   if (Array.isArray(artists)) {
@@ -113,7 +182,7 @@ function formatPlaylistArtists(artists) {
           // nameフィールドがない場合は最初の値を返す
           return Object.values(parsed)[0] || artist;
         } catch (e) {
-          console.log('Artist JSON parsing failed:', e);
+          // パースエラーログは削除
           return artist;
         }
       }
@@ -130,14 +199,18 @@ function formatPlaylistArtists(artists) {
       return artist;
     });
     
-    return formattedArtists.join(', ');
+    const result = formattedArtists.join(', ');
+    // 結果ログは削除
+    return result;
   }
   
   // 配列以外の場合は文字列として処理
   if (typeof artists === 'string') {
+    // 結果ログは削除
     return artists;
   }
   
+  // エラーログは削除
   return "Unknown Artist";
 }
 
@@ -573,18 +646,102 @@ export default function PlaylistSongList({
   // 安全な曲データの生成（idを必ずセット）
   const safeTracks = useMemo(() => {
     const processedTracks = sortedTracks.map(track => {
+      // 必須フィールドの確認と代替データの生成
+      console.log(`🔍 Processing track: ${track.title}`, {
+        style_id: track.style_id,
+        genre_name: track.genre_name,
+        artists: track.artists,
+        // 利用可能なフィールドを確認
+        availableFields: Object.keys(track).filter(key => track[key] !== undefined && track[key] !== null)
+      });
+
       // spotify_track_idがnullの場合は、track_idをspotify_track_idとして使用
-      // ただし、これは一時的な解決策で、本来は正しいSpotify Track IDを使用すべき
       const spotifyTrackId = track.spotify_track_id || track.track_id;
       
       // 警告：track_idがSpotify Track IDとして使用されている場合
       if (!track.spotify_track_id && track.track_id) {
         console.warn(`Warning: Using track_id (${track.track_id}) as spotify_track_id for track "${track.title}". This may cause playback issues.`);
       }
+
+      // genre_dataが存在しない場合、genre_nameから生成
+      let generatedGenreData = null;
+      if (track.genre_name && typeof track.genre_name === 'string') {
+        try {
+          // HTMLエンティティをデコード
+          const decodedGenreName = he.decode(track.genre_name);
+          // カンマ区切りの場合は分割して配列に変換
+          if (decodedGenreName.includes(',')) {
+            generatedGenreData = decodedGenreName.split(',').map(name => ({
+              name: name.trim(),
+              slug: name.trim().toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and'),
+              term_id: Math.random().toString(36).substr(2, 9)
+            }));
+          } else {
+            generatedGenreData = [{
+              name: decodedGenreName,
+              slug: decodedGenreName.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and'),
+              term_id: Math.random().toString(36).substr(2, 9)
+            }];
+          }
+          // ジャンルデータ生成ログは削除
+        } catch (e) {
+          console.warn(`Failed to generate genre_data from genre_name:`, e);
+        }
+      }
+
+      // spotify_artistsフィールドが存在する場合は、それを最優先で使用
+      let generatedSpotifyArtists = null;
+      if (track.spotify_artists && Array.isArray(track.spotify_artists) && track.spotify_artists.length > 0) {
+        // spotify_artistsフィールドが既に存在する場合はそのまま使用（順番を保持）
+        generatedSpotifyArtists = track.spotify_artists;
+        // 既存のspotify_artists使用ログは削除
+      } else if (track.artists && Array.isArray(track.artists)) {
+        // spotify_artistsが存在しない場合のみ、artistsフィールドから生成
+        try {
+          // データベースのspotify_artistsの順番に合わせて並び替え
+          // 例：データベースに["Mariah Carey", "Shenseea", "Kehlani"]が保存されている場合
+          // artistsフィールドから生成する際も、この順番に合わせる
+          
+          // まず、artistsフィールドからアーティスト名を抽出
+          const artistNames = track.artists.map(artist => {
+            if (typeof artist === 'string') {
+              try {
+                const parsed = JSON.parse(artist);
+                return parsed.name || parsed.artistorigin || artist;
+              } catch (e) {
+                return artist;
+              }
+            }
+            if (typeof artist === 'object' && artist !== null) {
+              return artist.name || artist.artistorigin || Object.values(artist)[0];
+            }
+            return String(artist);
+          });
+          
+          // データベースのspotify_artistsの順番に合わせて並び替え
+          if (track.spotify_artists && Array.isArray(track.spotify_artists)) {
+            // データベースの順番を基準として、artistsフィールドから生成された名前を並び替え
+            generatedSpotifyArtists = track.spotify_artists.filter(name => 
+              artistNames.includes(name)
+            );
+            // 順番並び替えログは削除
+          } else {
+            // データベースのspotify_artistsがない場合は、artistsフィールドの順番を保持
+            generatedSpotifyArtists = artistNames;
+            // アーティスト順番保持ログは削除
+          }
+        } catch (e) {
+          console.warn(`Failed to generate spotify_artists from artists:`, e);
+        }
+      }
       
       return {
         ...track,
         id: track.id || track.track_id || `temp_${Math.random()}`,
+        // 生成されたデータまたは元のデータを使用
+        style_id: track.style_id,
+        genre_data: generatedGenreData || track.genre_data || [],
+        spotify_artists: generatedSpotifyArtists || track.spotify_artists || [],
         // 既存のSongList.jsで期待される形式に変換
         title: { rendered: track.title || "No Title" },
         artists: Array.isArray(track.artists) ? track.artists.map(artist => {
@@ -614,8 +771,8 @@ export default function PlaylistSongList({
         thumbnail: track.thumbnail || track.thumbnail_url,
         youtubeId: track.youtube_id || track.ytvideoid || '',
         spotifyTrackId: spotifyTrackId,
-        genre_data: track.genre_data || track.genres || [],
-        genres: track.genres || track.genre_data || [],
+        genre_data: generatedGenreData || track.genre_data || track.genres || [],
+        genres: generatedGenreData || track.genres || track.genre_data || [],
         vocal_data: track.vocal_data || [],
         style: track.style || track.styles || [],
         styles: track.styles || track.style || [],
@@ -638,10 +795,14 @@ export default function PlaylistSongList({
         styles: processedTracks[0].styles,
         style_id: processedTracks[0].style_id,
         style_name: processedTracks[0].style_name,
+        genre_data: processedTracks[0].genre_data,
+        spotify_artists: processedTracks[0].spotify_artists,
         originalStyle: sortedTracks[0]?.style,
         originalStyles: sortedTracks[0]?.styles,
         originalStyleId: sortedTracks[0]?.style_id,
-        originalStyleName: sortedTracks[0]?.style_name
+        originalStyleName: sortedTracks[0]?.style_name,
+        originalGenreName: sortedTracks[0]?.genre_name,
+        originalArtists: sortedTracks[0]?.artists
       } : null
     });
     
@@ -679,14 +840,7 @@ export default function PlaylistSongList({
   };
 
   const handleThumbnailClick = useCallback((track) => {
-    console.log('🚀🚀🚀 handleThumbnailClick FUNCTION START 🚀🚀🚀');
-    console.log('🎵 Function called at:', new Date().toISOString());
-    console.log('🎵 Function call stack:', new Error().stack);
-    console.log('📁 Track data:', track);
-    console.log('🔍 Track ID:', track.id);
-    console.log('🎵 Track title:', track.title);
-    console.log('🎤 Track artists:', track.artists);
-    console.log('🎧 Spotify Track ID:', track.spotify_track_id || track.spotifyTrackId || track.acf?.spotify_track_id);
+    // デバッグログは削除
     
     // ログインチェック：ログインしていない場合はSpotifyログインを促す
     if (!session?.user) {
@@ -710,110 +864,37 @@ export default function PlaylistSongList({
     const finalSource = source || `playlist: ${playlistName}|${playlistId}`;
     const trackIndex = sortedTracks.findIndex(t => t.id === track.id);
     
-    // プレイリストでのソース情報のデバッグログ
-    console.log('🎵 PlaylistSongList - Playlist thumbnail click:', {
-      trackTitle: track.title?.rendered || track.title,
-      source,
-      finalSource,
-      playlistId,
-      playlistName,
-      trackIndex,
-      styleInfo: {
-        style: track.style,
-        styles: track.styles,
-        style_id: track.style_id,
-        style_name: track.style_name
-      }
-    });
+    // プレイリストでのソース情報のデバッグログは削除
     
-            console.log('📍 Playlist info:', {
-          playlistId,
-          playlistName,
-          source,
-          finalSource,
-          trackIndex,
-          tracksLength: sortedTracks.length
-        });
-    
-    console.log('⚙️ Function availability:', {
-      playTrack: typeof playTrack,
-      setTrackList: typeof setTrackList,
-      updateCurrentTrackState: typeof updateCurrentTrackState,
-      onPageEnd: typeof onPageEnd
-    });
+    // 関数の可用性チェックログは削除
     
     try {
       // 処理された曲データを使用
       const processedTrack = safeTracks.find(t => t.id === track.id);
-              console.log('🔧 Processed track found:', processedTrack);
-        console.log('🎨 Processed track style info:', {
-          style: processedTrack.style,
-          styles: processedTrack.styles,
-          style_id: processedTrack.style_id,
-          style_name: processedTrack.style_name
-        });
-        
-        if (processedTrack) {
-          console.log('✅ Using processed track for playback');
-          console.log('📋 Setting track list with safeTracks:', safeTracks.length, 'tracks');
-          console.log('🎯 Setting current track index:', trackIndex);
-          console.log('🎵 Setting current track:', processedTrack.title || processedTrack.title?.rendered);
+      
+      if (processedTrack) {
+        // デバッグログは削除
         
         // PlayerContextのplayTrack関数を直接呼び出し
         // プレイリスト全体をキューに設定してから再生
         setTrackList(safeTracks);
         updateCurrentTrackState(processedTrack, trackIndex);
         
-        console.log('🚀 Calling playTrack function...');
-        console.log('📤 playTrack parameters:', {
-          track: processedTrack,
-          index: trackIndex,
-          songs: safeTracks,
-          source: finalSource,
-          onPageEnd: onPageEnd
-        });
-        
         playTrack(processedTrack, trackIndex, safeTracks, finalSource, onPageEnd);
-        console.log('✅ playTrack called successfully');
-        
-        // 状態更新後の確認
-        setTimeout(() => {
-          console.log('🔄 State update verification (after 100ms):');
-          console.log('   - Track list should be updated');
-          console.log('   - Current track index should be:', trackIndex);
-          console.log('   - Current track should be set');
-        }, 100);
         
       } else {
-        console.error('❌ Processed track not found for ID:', track.id);
-        console.log('🔄 Falling back to original track');
-        console.log('📋 Setting track list with sorted tracks:', sortedTracks.length, 'tracks');
-        console.log('🎯 Setting current track index:', trackIndex);
-        console.log('🎵 Setting current track:', track.title || track.title?.rendered);
+        // デバッグログは削除
         
         // ソートされたトラックリストを使用
         setTrackList(sortedTracks);
         updateCurrentTrackState(track, trackIndex);
         
-        console.log('🚀 Calling playTrack function with sorted track...');
-        console.log('📤 playTrack parameters:', {
-          track: track,
-          index: trackIndex,
-          songs: sortedTracks,
-          source: finalSource,
-          onPageEnd: onPageEnd
-        });
-        
         playTrack(track, trackIndex, sortedTracks, finalSource, onPageEnd);
-        console.log('✅ playTrack called successfully with sorted track');
       }
     } catch (error) {
       console.error('💥 Error in handleThumbnailClick:', error);
-      console.error('💥 Error stack:', error.stack);
       alert('曲の再生中にエラーが発生しました。もう一度お試しください。');
     }
-    
-    console.log('🏁🏁🏁 handleThumbnailClick FUNCTION END 🏁🏁🏁');
   }, [source, playlistId, playTrack, safeTracks, onPageEnd, setTrackList, updateCurrentTrackState, sortedTracks]);
 
   // ドラッグ&ドロップハンドラー
@@ -1267,6 +1348,42 @@ export default function PlaylistSongList({
       isDragging
     } = useSortable({ id: track.id });
 
+    // デバッグ用：trackオブジェクトの内容を確認
+    console.log(`🎵 Track ${index + 1} data:`, {
+      id: track.id,
+      title: track.title,
+      artists: track.artists,
+      spotify_artists: track.spotify_artists, // 生成されたspotify_artistsフィールドの確認
+      spotify_artists_order: track.spotify_artists ? `[${track.spotify_artists.join(' → ')}]` : 'N/A', // 順番の確認
+      artist_slug: track.artist_slug,
+      artist_order: track.artist_order,
+      spotify_track_id: track.spotify_track_id,
+      genre_name: track.genre_name,
+      genre_data: track.genre_data, // 生成されたgenre_dataフィールドの確認
+      vocal_name: track.vocal_name,
+      style_id: track.style_id, // style_idフィールドの確認
+      style_name: track.style_name
+    });
+
+    // 必須フィールドの存在確認（生成されたデータも含む）
+    if (!track.style_id) {
+      console.warn(`⚠️ Track ${index + 1} (${track.title}) missing style_id`);
+    }
+    if (!track.genre_data || track.genre_data.length === 0) {
+      console.warn(`⚠️ Track ${index + 1} (${track.title}) missing or empty genre_data`);
+    }
+    if (!track.spotify_artists || track.spotify_artists.length === 0) {
+      console.warn(`⚠️ Track ${index + 1} (${track.title}) missing or empty spotify_artists`);
+    }
+
+    // 生成されたデータの確認
+    if (track.genre_data && track.genre_data.length > 0) {
+      console.log(`✅ Track ${index + 1} (${track.title}) has genre_data:`, track.genre_data);
+    }
+    if (track.spotify_artists && track.spotify_artists.length > 0) {
+      console.log(`✅ Track ${index + 1} (${track.title}) has spotify_artists:`, track.spotify_artists);
+    }
+
     const style = {
       transform: CSS.Transform.toString(transform),
       transition,
@@ -1275,7 +1392,7 @@ export default function PlaylistSongList({
 
     const title = decodeHtml(track.title || "No Title");
     const thumbnailUrl = getThumbnailUrl(track);
-    const artistText = formatPlaylistArtists(track.artists);
+    const artistText = formatPlaylistArtists(track.artists, track.spotify_artists);
     const releaseDate = track.release_date ? formatYearMonth(track.release_date) : null;
     const genreText = formatMultipleGenres(track.genre_data, track.genre_name);
     const vocalData = track.vocal_name ? 

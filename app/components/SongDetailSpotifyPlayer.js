@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
+import { useSession } from 'next-auth/react';
 
 const formatTime = (milliseconds) => {
   if (!milliseconds || isNaN(milliseconds)) return '0:00';
@@ -10,6 +11,7 @@ const formatTime = (milliseconds) => {
 };
 
 const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
+  const { data: session } = useSession();
   const [isReady, setIsReady] = useState(false);
   const [deviceId, setDeviceId] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -22,6 +24,103 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
   const playerRef = useRef(null);
   const hasPlaybackStartedRef = useRef(false);
   const intervalRef = useRef(null);
+  const playStartTimeRef = useRef(null);
+  const playDurationRef = useRef(0);
+  const hasRecordedRef = useRef(false); // 重複記録を防ぐフラグ
+
+  // 視聴履歴記録関数
+  const recordPlayHistory = async (completed = false) => {
+    console.log('🎯 recordPlayHistory called:', { completed, session: session?.user, songData });
+    
+    if (!session?.user?.id || !songData) {
+      console.log('❌ recordPlayHistory: Missing session or songData:', { 
+        hasSession: !!session, 
+        hasUserId: !!session?.user?.id, 
+        hasSongData: !!songData 
+      });
+      return;
+    }
+    
+    const playDuration = playDurationRef.current;
+    console.log('⏱️ Play duration:', playDuration, 'ms');
+    
+    // 30秒未満は記録しない（ミリ秒単位）
+    if (playDuration < 30000) {
+      console.log('⏭️ Skipping record: duration too short (< 30 seconds)');
+      return;
+    }
+    
+    // 重複記録を防ぐ（完了時は除く）
+    if (hasRecordedRef.current && !completed) {
+      console.log('⏭️ Skipping record: already recorded for this session');
+      return;
+    }
+    
+    try {
+      const requestBody = {
+        track_id: songData.spotifyTrackId,
+        song_id: songData.id,
+        play_duration: Math.round(playDuration / 1000), // 秒単位に変換
+        completed: completed,
+        source: 'song-detail',
+        artist_name: songData.artists?.map(a => a.name).join(', ') || 'Unknown Artist',
+        track_title: songData.title || 'Unknown Track',
+        is_favorite: false,
+        style_id: songData.styles?.[0] || null,
+        style_name: songData.styles?.[0] ? getStyleName(songData.styles[0]) : null,
+        genre_id: songData.genres?.[0]?.term_id || null,
+        genre_name: songData.genres?.[0]?.name || null
+      };
+      
+      console.log('📤 Sending play history request:', requestBody);
+      
+      const response = await fetch('/api/play-history', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(requestBody),
+      });
+
+      if (response.ok) {
+        const responseData = await response.json();
+        console.log('✅ 視聴履歴を記録しました:', {
+          track: songData.title,
+          duration: playDuration,
+          completed: completed,
+          response: responseData
+        });
+        
+        // 記録成功フラグを設定
+        if (!completed) {
+          hasRecordedRef.current = true;
+        }
+      } else {
+        const errorData = await response.text();
+        console.error('❌ 視聴履歴の記録に失敗しました:', {
+          status: response.status,
+          statusText: response.statusText,
+          error: errorData
+        });
+      }
+    } catch (error) {
+      console.error('❌ 視聴履歴記録エラー:', error);
+    }
+  };
+
+  // スタイル名を取得するヘルパー関数
+  const getStyleName = (styleId) => {
+    const styleMap = {
+      2844: 'Pop',
+      4686: 'Dance',
+      2845: 'Alternative',
+      2846: 'Electronica',
+      2847: 'R&B',
+      2848: 'Hip-Hop',
+      6703: 'Rock',
+      2849: 'Metal',
+      2873: 'Others'
+    };
+    return styleMap[styleId] || 'Unknown';
+  };
 
   useEffect(() => {
     if (!accessToken || !songData?.spotifyTrackId) {
@@ -40,26 +139,44 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
         getOAuthToken: cb => { cb(accessToken); }
       });
 
-      player.addListener('ready', ({ device_id }) => {
+      player.addListener('ready', async ({ device_id }) => {
         console.log('Song Detail Player ready with Device ID', device_id);
         setDeviceId(device_id);
         setIsReady(true);
         setError(null);
         player.setVolume(volume).catch(e => console.error("Could not set volume", e));
+        
+        // プレーヤー準備完了後、現在の状態を取得して時間を初期化
+        try {
+          const currentState = await player.getCurrentState();
+          if (currentState) {
+            console.log('🎯 Initial player state:', {
+              position: currentState.position,
+              duration: currentState.duration,
+              paused: currentState.paused
+            });
+            
+            // 現在の再生状態に基づいて時間を設定
+            setPosition(currentState.position || 0);
+            setDuration(currentState.duration || 0);
+            setIsPlaying(!currentState.paused);
+            
+            // 再生中の場合は開始時刻を設定
+            if (!currentState.paused) {
+              playStartTimeRef.current = Date.now() - (currentState.position || 0);
+              playDurationRef.current = currentState.position || 0;
+              console.log('▶️ Player was already playing, setting start time:', playStartTimeRef.current);
+            }
+          }
+        } catch (error) {
+          console.log('⚠️ Could not get initial player state:', error);
+        }
       });
 
       player.addListener('not_ready', ({ device_id }) => {
         console.log('Song Detail Player device ID has gone offline', device_id);
         setDeviceId(null);
         setIsReady(false);
-      });
-
-      player.addListener('player_state_changed', (state) => {
-        if (!state) return;
-        
-        setIsPlaying(!state.paused);
-        setPosition(state.position);
-        setDuration(state.duration);
       });
 
       player.addListener('initialization_error', ({ message }) => {
@@ -82,12 +199,107 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
         setError(`再生エラー: ${message}`);
       });
 
+      // 曲が終了した時の処理
+      player.addListener('player_state_changed', (state) => {
+        console.log('🎵 Player state changed:', { 
+          hasState: !!state, 
+          isPlaying: isPlaying,
+          state: state ? { paused: state.paused, position: state.position, duration: state.duration } : null
+        });
+        
+        if (!state) {
+          // 曲が終了した場合
+          if (playStartTimeRef.current && isPlaying) {
+            const endTime = Date.now();
+            playDurationRef.current = endTime - playStartTimeRef.current;
+            console.log('🎬 Track ended, recording completion:', { duration: playDurationRef.current });
+            recordPlayHistory(true); // 完了として記録
+            playStartTimeRef.current = null;
+            hasRecordedRef.current = false; // リセット
+          }
+          return;
+        }
+        
+        const wasPlaying = isPlaying;
+        const newIsPlaying = !state.paused;
+        
+        console.log('🔄 Playback state update:', { wasPlaying, newIsPlaying, position: state.position, duration: state.duration });
+        
+        // 再生開始時（一元化）
+        if (!wasPlaying && newIsPlaying) {
+          // 初回再生開始時のみ設定
+          if (!playStartTimeRef.current) {
+            playStartTimeRef.current = Date.now();
+            playDurationRef.current = 0;
+            hasRecordedRef.current = false; // リセット
+            console.log('▶️ Playback started, recording start time:', playStartTimeRef.current);
+          }
+        }
+        
+        // 再生停止時
+        if (wasPlaying && !newIsPlaying) {
+          if (playStartTimeRef.current) {
+            const endTime = Date.now();
+            playDurationRef.current = endTime - playStartTimeRef.current;
+            console.log('⏸️ Playback paused, recording interruption:', { duration: playDurationRef.current });
+            
+            // 30秒以上再生した場合のみ記録
+            if (playDurationRef.current >= 30000) {
+              recordPlayHistory(false);
+            } else {
+              console.log('⏭️ Skipping record: duration too short for pause:', playDurationRef.current);
+            }
+          }
+        }
+        
+        // 状態を更新（最後に実行）
+        setIsPlaying(newIsPlaying);
+        
+        // 時間の更新（Spotifyプレーヤーの状態変更時）
+        if (state.position !== undefined) {
+          // シーク操作後の位置変更を検出
+          if (playStartTimeRef.current && Math.abs(state.position - position) > 1000) {
+            // 大きな位置変更（シーク操作）を検出
+            const currentTime = Date.now();
+            const newStartTime = currentTime - state.position;
+            playStartTimeRef.current = newStartTime;
+            
+            console.log('🎯 Position change detected (likely seek):', {
+              oldPosition: position,
+              newPosition: state.position,
+              oldStartTime: playStartTimeRef.current,
+              newStartTime: newStartTime
+            });
+          }
+          
+          setPosition(state.position);
+        }
+        if (state.duration !== undefined) {
+          setDuration(state.duration);
+        }
+        
+        // デバッグ用：時間更新の詳細ログ
+        console.log('⏱️ Time update from player state:', {
+          position: state.position,
+          duration: state.duration,
+          newPosition: state.position !== undefined ? state.position : 'unchanged',
+          newDuration: state.duration !== undefined ? state.duration : 'unchanged'
+        });
+      });
+
       player.connect();
       playerRef.current = player;
     };
 
     return () => {
       if (playerRef.current) {
+        // 再生中の場合、視聴履歴を記録
+        if (playStartTimeRef.current && isPlaying) {
+          const endTime = Date.now();
+          playDurationRef.current = endTime - playStartTimeRef.current;
+          console.log('🚪 Component unmounting, recording interruption:', { duration: playDurationRef.current });
+          recordPlayHistory(false); // 中断として記録
+        }
         playerRef.current.disconnect();
       }
     };
@@ -95,15 +307,44 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
 
   useEffect(() => {
     if (isPlaying) {
+      // 時間更新と視聴履歴記録の両方を実行
       intervalRef.current = setInterval(async () => {
         if (playerRef.current) {
-          const state = await playerRef.current.getCurrentState();
-          if (state) {
-            setPosition(state.position);
-            setDuration(state.duration);
+          try {
+            // 現在のプレーヤー状態を取得して時間を更新
+            const state = await playerRef.current.getCurrentState();
+            if (state) {
+              // 時間の更新（Spotifyプレーヤーの実際の状態に基づく）
+              if (state.position !== undefined) {
+                setPosition(state.position);
+              }
+              if (state.duration !== undefined) {
+                setDuration(state.duration);
+              }
+              
+              // 視聴履歴記録のための30秒チェック
+              if (playStartTimeRef.current) {
+                const currentTime = Date.now();
+                playDurationRef.current = currentTime - playStartTimeRef.current;
+                
+                // 30秒以上再生した場合、視聴履歴を記録（重複防止のため一度だけ）
+                if (playDurationRef.current >= 30000 && !hasRecordedRef.current) {
+                  console.log('⏱️ 30秒以上再生中、視聴履歴を記録:', { duration: playDurationRef.current });
+                  recordPlayHistory(false);
+                  hasRecordedRef.current = true; // 重複記録を防ぐ
+                }
+                
+                // デバッグ用：再生時間を定期的に表示（10秒ごと）
+                if (playDurationRef.current % 10000 < 1000) {
+                  console.log('⏱️ Current play duration:', playDurationRef.current, 'ms');
+                }
+              }
+            }
+          } catch (error) {
+            console.log('⚠️ Error getting player state in interval:', error);
           }
         }
-      }, 1000);
+      }, 100); // 100ミリ秒ごとにチェック（滑らかな時間更新と視聴履歴記録）
     } else {
       if (intervalRef.current) {
         clearInterval(intervalRef.current);
@@ -132,8 +373,13 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
         throw new Error(errorBody?.error?.message || `HTTP error! status: ${response.status}`);
       }
       
+      // 再生開始時の時間初期化
+      setPosition(0);
+      setDuration(0);
       setIsPlaying(true);
       setError(null);
+      
+      console.log('🎯 Track play initiated, time reset to 0:00');
     } catch (e) {
       console.error('Failed to play track:', e);
       setError(`曲の再生に失敗しました: ${e.message}`);
@@ -145,10 +391,34 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
     
     try {
       if (hasPlaybackStartedRef.current === false) {
+        // 初回再生開始
+        console.log('🎯 First time play, starting track...');
         await playTrack(deviceId, songData.spotifyTrackId);
         hasPlaybackStartedRef.current = true;
+        
+        // 再生開始時刻は player_state_changed で設定されるため、ここでは設定しない
+        console.log('▶️ First time play initiated, start time will be set by player_state_changed');
       } else {
-        await playerRef.current.togglePlay();
+        // 再生/一時停止の切り替え
+        console.log('🔄 Toggling play/pause state');
+        
+        // 現在の状態を取得して適切な操作を実行
+        const currentState = await playerRef.current.getCurrentState();
+        if (currentState) {
+          if (currentState.paused) {
+            // 一時停止中なので再生
+            await playerRef.current.resume();
+            console.log('▶️ Resuming playback');
+          } else {
+            // 再生中なので一時停止
+            await playerRef.current.pause();
+            console.log('⏸️ Pausing playback');
+          }
+        } else {
+          // 状態が取得できない場合は togglePlay を使用
+          await playerRef.current.togglePlay();
+          console.log('🔄 Using togglePlay fallback');
+        }
       }
     } catch (e) {
       console.error('Failed to toggle play:', e);
@@ -160,8 +430,30 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
     if (!isReady || !playerRef.current) return;
     
     const newPositionMs = Math.round(newPosition);
-    playerRef.current.seek(newPositionMs).catch(e => {
-      console.error('Failed to seek:', e);
+    console.log('🎯 Seek operation requested:', { oldPosition: position, newPosition: newPositionMs });
+    
+    // シーク操作時の時間管理を改善
+    if (playStartTimeRef.current) {
+      // 新しい位置に基づいて開始時刻を調整
+      const currentTime = Date.now();
+      const newStartTime = currentTime - newPositionMs;
+      playStartTimeRef.current = newStartTime;
+      
+      console.log('🎯 Seek operation time adjustment:', {
+        oldStartTime: playStartTimeRef.current,
+        newStartTime: newStartTime
+      });
+    }
+    
+    // Spotifyプレーヤーにシーク命令を送信
+    playerRef.current.seek(newPositionMs).then(() => {
+      console.log('✅ Seek operation completed successfully');
+      
+      // シーク完了後、即座に位置を更新
+      setPosition(newPositionMs);
+    }).catch(e => {
+      console.error('❌ Failed to seek:', e);
+      setError(`シーク操作に失敗しました: ${e.message}`);
     });
   };
 

@@ -50,7 +50,7 @@ export async function GET(request, { params }) {
       return Response.json({ error: 'Access denied' }, { status: 403 });
     }
 
-    // トラック一覧を取得（すべての項目を含む）
+    // トラック一覧を取得（playlist_tracksテーブルの全フィールドを取得）
     const { data: tracks, error } = await supabase
       .from('playlist_tracks')
       .select(`
@@ -59,6 +59,7 @@ export async function GET(request, { params }) {
         title,
         title_slug,
         artists,
+        spotify_artists,
         thumbnail_url,
         video_id,
         style_id,
@@ -76,10 +77,13 @@ export async function GET(request, { params }) {
         vocal_name,
         is_favorite,
         spotify_images,
-        spotify_artists,
         artist_slug,
         artist_order,
-        content
+        content,
+        genre_data,
+        style_data,
+        vocal_data,
+        added_by
       `)
       .eq('playlist_id', playlistId)
       .order('position', { ascending: true });
@@ -89,7 +93,36 @@ export async function GET(request, { params }) {
       return Response.json({ error: 'Database error' }, { status: 500 });
     }
 
-    return Response.json({ tracks });
+    // 各トラックのsong_idを使ってsongsテーブルからspotify_artistsを取得（補完として）
+    const tracksWithSpotifyArtists = await Promise.all(
+      tracks.map(async (track) => {
+        if (track.song_id) {
+          const { data: songData, error: songError } = await supabase
+            .from('songs')
+            .select('spotify_artists, genre_data')
+            .eq('id', track.song_id)
+            .single();
+          
+          if (!songError && songData) {
+            return {
+              ...track,
+              // playlist_tracksのspotify_artistsを最優先、なければsongsテーブルのデータを使用
+              spotify_artists: track.spotify_artists || songData.spotify_artists,
+              genre_data: track.genre_data || songData.genre_data
+            };
+          }
+        }
+        return track;
+      })
+    );
+
+    console.log('Tracks with spotify_artists:', tracksWithSpotifyArtists.map(t => ({
+      title: t.title,
+      spotify_artists: t.spotify_artists,
+      genre_data: t.genre_data
+    })));
+
+    return Response.json({ tracks: tracksWithSpotifyArtists });
   } catch (error) {
     console.error('API error:', error);
     return Response.json({ error: 'Internal server error' }, { status: 500 });
