@@ -45,7 +45,7 @@ export default function CreatePlaylistModal({
   useEffect(() => {
     if (isOpen) {
       // モーダルが開かれた時の初期化
-      setError(null);
+    setError(null);
       setSuccess(null);
       setLoading(false);
       setPlaylistData({
@@ -99,7 +99,7 @@ export default function CreatePlaylistModal({
     console.log('🎯 onCreateコールバックの存在確認:', !!onCreate);
     
     // 既存モーダルは閉じずに、親コンポーネントに新規作成アクションを通知
-    if (onCreate) {
+      if (onCreate) {
       console.log('🎯 onCreateコールバックを呼び出します');
       onCreate({ action: 'create_new' });
       console.log('🎯 onCreateコールバック完了');
@@ -454,8 +454,8 @@ export default function CreatePlaylistModal({
             >
               ＋ 新規プレイリスト作成
             </button>
-          </div>
-        )}
+                      </div>
+                    )}
       </div>
     </div>
   );

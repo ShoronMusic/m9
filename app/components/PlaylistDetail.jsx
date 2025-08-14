@@ -6,7 +6,7 @@ import Link from 'next/link';
 import styles from './PlaylistDetail.module.css';
 import PlaylistSongList from './PlaylistSongList';
 
-export default function PlaylistDetail({ playlist: initialPlaylist, tracks, session, autoPlayFirst = false, isOwner = false }) {
+export default function PlaylistDetail({ playlist: initialPlaylist, tracks: initialTracks, session, autoPlayFirst = false, isOwner = false }) {
   const { data: clientSession } = useSession();
   const [userPlaylists, setUserPlaylists] = useState([]);
   const [isEditing, setIsEditing] = useState(false);
@@ -17,6 +17,7 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
   const [isSaving, setIsSaving] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const [showFinalDeleteConfirm, setShowFinalDeleteConfirm] = useState(false);
+  const [tracks, setTracks] = useState(initialTracks); // トラックの状態管理を追加
 
   // プレイリストの最新更新日を取得（トラックの追加日から）
   const getLatestUpdateDate = () => {
@@ -363,6 +364,7 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks, sess
           source={`playlist/${playlist.id}`}
           onPageEnd={handlePlaylistEnd}
           autoPlayFirst={autoPlayFirst}
+          onTrackOrderChange={setTracks} // トラックの順序が変更されたら状態を更新
         />
       )}
       

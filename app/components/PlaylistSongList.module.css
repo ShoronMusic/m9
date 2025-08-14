@@ -70,6 +70,130 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
+/* ドラッグハンドル */
+.dragHandle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  cursor: grab;
+  color: #6b7280;
+  user-select: none;
+  touch-action: none;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.dragHandle:hover {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.dragHandle:active {
+  cursor: grabbing;
+}
+
+.dragIcon {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+/* ドラッグ中のスタイル */
+.songItem[data-dragging="true"] {
+  opacity: 0.5;
+  transform: rotate(5deg);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* SortableSongItem用のスタイル */
+.thumbnailContainer {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.thumbnailContainer:hover {
+  transform: scale(1.05);
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.songInfo {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.songTitle {
+  font-weight: 600;
+  color: var(--tunedive-text-primary);
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.songArtist {
+  color: var(--tunedive-text-secondary);
+  font-size: 14px;
+}
+
+.songDetails {
+  color: var(--tunedive-text-secondary);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.vocalIcons {
+  display: flex;
+  gap: 2px;
+}
+
+.songActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.playButton,
+.likeButton,
+.removeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playButton:hover,
+.likeButton:hover,
+.removeButton:hover {
+  background-color: #f3f4f6;
+}
+
+.likeIcon {
+  width: 16px;
+  height: 16px;
+}
+
 /* スライドアニメーション用の背景擬似要素 */
 .songItem::before {
   content: '';

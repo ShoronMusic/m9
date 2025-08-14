@@ -10,6 +10,24 @@ import { usePlayer, PlayerContext } from './PlayerContext';
 import { useSpotifyLikes } from './SpotifyLikes';
 import { useSession } from 'next-auth/react';
 import CreatePlaylistModal from './CreatePlaylistModal';
+import {
+  DndContext,
+  closestCenter,
+  KeyboardSensor,
+  PointerSensor,
+  useSensor,
+  useSensors,
+} from '@dnd-kit/core';
+import {
+  arrayMove,
+  SortableContext,
+  sortableKeyboardCoordinates,
+  verticalListSortingStrategy,
+} from '@dnd-kit/sortable';
+import {
+  useSortable,
+} from '@dnd-kit/sortable';
+import { CSS } from '@dnd-kit/utilities';
 
 // CloudinaryのベースURL
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
@@ -415,6 +433,7 @@ export default function PlaylistSongList({
   source = null,
   onPageEnd = () => {},
   autoPlayFirst = false,
+  onTrackOrderChange = null, // 新しいプロパティを追加
 }) {
   const { data: session } = useSession();
   const { playTrack, setTrackList, updateCurrentTrackState } = usePlayer();
@@ -445,7 +464,15 @@ export default function PlaylistSongList({
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [trackToAdd, setTrackToAdd] = useState(null);
   const [userPlaylists, setUserPlaylists] = useState([]);
+  const [sortedTracks, setSortedTracks] = useState(tracks);
 
+  // ドラッグ&ドロップ用のセンサー
+  const sensors = useSensors(
+    useSensor(PointerSensor),
+    useSensor(KeyboardSensor, {
+      coordinateGetter: sortableKeyboardCoordinates,
+    })
+  );
 
 
   // プレイリスト情報を取得
@@ -466,6 +493,11 @@ export default function PlaylistSongList({
       fetchPlaylistInfo();
     }
   }, [playlistId]);
+
+  // tracksが変更された時にsortedTracksを更新
+  useEffect(() => {
+    setSortedTracks(tracks);
+  }, [tracks]);
 
   // PlayerContextの状態変化を監視
   useEffect(() => {
@@ -511,18 +543,18 @@ export default function PlaylistSongList({
 
   // Spotify Track IDsを抽出（ページ内の曲のみ）
   const trackIds = useMemo(() => {
-    const ids = tracks
+    const ids = sortedTracks
       .map(track => track.spotify_track_id || track.track_id)
       .filter(id => id); // null/undefinedを除外
     
     // デバッグ情報を出力
     console.log('PlaylistSongList - trackIds extracted:', {
-      tracks: tracks.map(t => ({ id: t.id, title: t.title, spotify_track_id: t.spotify_track_id, track_id: t.track_id })),
+      tracks: sortedTracks.map(t => ({ id: t.id, title: t.title, spotify_track_id: t.spotify_track_id, track_id: t.track_id })),
       extractedIds: ids
     });
     
     return ids;
-  }, [tracks]);
+  }, [sortedTracks]);
 
   // SpotifyLikesフックを使用
   const {
@@ -540,7 +572,7 @@ export default function PlaylistSongList({
 
   // 安全な曲データの生成（idを必ずセット）
   const safeTracks = useMemo(() => {
-    const processedTracks = tracks.map(track => {
+    const processedTracks = sortedTracks.map(track => {
       // spotify_track_idがnullの場合は、track_idをspotify_track_idとして使用
       // ただし、これは一時的な解決策で、本来は正しいSpotify Track IDを使用すべき
       const spotifyTrackId = track.spotify_track_id || track.track_id;
@@ -598,7 +630,7 @@ export default function PlaylistSongList({
     
     // デバッグ情報を出力
     console.log('PlaylistSongList - safeTracks processed:', {
-      originalTracks: tracks,
+      originalTracks: sortedTracks,
       processedTracks: processedTracks,
       sampleTrack: processedTracks[0],
       sampleTrackStyleInfo: processedTracks[0] ? {
@@ -606,15 +638,15 @@ export default function PlaylistSongList({
         styles: processedTracks[0].styles,
         style_id: processedTracks[0].style_id,
         style_name: processedTracks[0].style_name,
-        originalStyle: tracks[0]?.style,
-        originalStyles: tracks[0]?.styles,
-        originalStyleId: tracks[0]?.style_id,
-        originalStyleName: tracks[0]?.style_name
+        originalStyle: sortedTracks[0]?.style,
+        originalStyles: sortedTracks[0]?.styles,
+        originalStyleId: sortedTracks[0]?.style_id,
+        originalStyleName: sortedTracks[0]?.style_name
       } : null
     });
     
     return processedTracks;
-  }, [tracks]);
+  }, [sortedTracks]);
 
   // Spotify APIを使用したいいねボタン用の toggleLike 関数
   const handleLikeToggle = async (trackId) => {
@@ -676,7 +708,7 @@ export default function PlaylistSongList({
     // プレイリスト名とIDを含むソースを作成（リンク用）
     const playlistName = playlistInfo?.name || 'Unknown Playlist';
     const finalSource = source || `playlist: ${playlistName}|${playlistId}`;
-    const trackIndex = tracks.findIndex(t => t.id === track.id);
+    const trackIndex = sortedTracks.findIndex(t => t.id === track.id);
     
     // プレイリストでのソース情報のデバッグログ
     console.log('🎵 PlaylistSongList - Playlist thumbnail click:', {
@@ -700,7 +732,7 @@ export default function PlaylistSongList({
           source,
           finalSource,
           trackIndex,
-          tracksLength: tracks.length
+          tracksLength: sortedTracks.length
         });
     
     console.log('⚙️ Function availability:', {
@@ -755,25 +787,25 @@ export default function PlaylistSongList({
       } else {
         console.error('❌ Processed track not found for ID:', track.id);
         console.log('🔄 Falling back to original track');
-        console.log('📋 Setting track list with original tracks:', tracks.length, 'tracks');
+        console.log('📋 Setting track list with sorted tracks:', sortedTracks.length, 'tracks');
         console.log('🎯 Setting current track index:', trackIndex);
         console.log('🎵 Setting current track:', track.title || track.title?.rendered);
         
-        // 元のトラックリストを使用
-        setTrackList(tracks);
+        // ソートされたトラックリストを使用
+        setTrackList(sortedTracks);
         updateCurrentTrackState(track, trackIndex);
         
-        console.log('🚀 Calling playTrack function with original track...');
+        console.log('🚀 Calling playTrack function with sorted track...');
         console.log('📤 playTrack parameters:', {
           track: track,
           index: trackIndex,
-          songs: tracks,
+          songs: sortedTracks,
           source: finalSource,
           onPageEnd: onPageEnd
         });
         
-        playTrack(track, trackIndex, tracks, finalSource, onPageEnd);
-        console.log('✅ playTrack called successfully with original track');
+        playTrack(track, trackIndex, sortedTracks, finalSource, onPageEnd);
+        console.log('✅ playTrack called successfully with sorted track');
       }
     } catch (error) {
       console.error('💥 Error in handleThumbnailClick:', error);
@@ -782,7 +814,64 @@ export default function PlaylistSongList({
     }
     
     console.log('🏁🏁🏁 handleThumbnailClick FUNCTION END 🏁🏁🏁');
-  }, [source, playlistId, playTrack, tracks, safeTracks, onPageEnd, setTrackList, updateCurrentTrackState]);
+  }, [source, playlistId, playTrack, safeTracks, onPageEnd, setTrackList, updateCurrentTrackState, sortedTracks]);
+
+  // ドラッグ&ドロップハンドラー
+  const handleDragEnd = useCallback(async (event) => {
+    const { active, over } = event;
+
+    if (active.id !== over.id) {
+      setSortedTracks((items) => {
+        const oldIndex = items.findIndex(item => item.id === active.id);
+        const newIndex = items.findIndex(item => item.id === over.id);
+        
+        const newOrder = arrayMove(items, oldIndex, newIndex);
+        
+        // 新しい順序をサーバーに保存
+        saveNewOrder(newOrder);
+        
+        // 親コンポーネントに新しい順序を即座に通知
+        if (onTrackOrderChange) {
+          onTrackOrderChange(newOrder);
+        }
+        
+        return newOrder;
+      });
+    }
+  }, [onTrackOrderChange]);
+
+  // 新しい順序をサーバーに保存
+  const saveNewOrder = async (newOrder) => {
+    try {
+      const response = await fetch(`/api/playlists/${playlistId}/reorder`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          trackOrder: newOrder.map((track, index) => ({
+            id: track.id,
+            position: index
+          }))
+        }),
+      });
+
+      if (!response.ok) {
+        console.error('Failed to save new track order');
+      } else {
+        // サーバーに保存が成功したら、再生用のtracks配列も更新
+        // 親コンポーネントに新しい順序を通知する必要があります
+        console.log('Track order updated successfully:', newOrder);
+        
+        // 親コンポーネントに新しい順序を通知
+        if (onTrackOrderChange) {
+          onTrackOrderChange(newOrder);
+        }
+      }
+    } catch (error) {
+      console.error('Error saving new track order:', error);
+    }
+  };
 
   const handleThreeDotsClick = (e, track) => {
     e.stopPropagation();
@@ -1167,6 +1256,172 @@ export default function PlaylistSongList({
     }
   }, [autoPlayFirst, tracks, source, playlistId, playlistInfo, onPageEnd, playTrack]);
 
+  // ドラッグ可能な曲アイテムコンポーネント
+  const SortableSongItem = ({ track, index }) => {
+    const {
+      attributes,
+      listeners,
+      setNodeRef,
+      transform,
+      transition,
+      isDragging
+    } = useSortable({ id: track.id });
+
+    const style = {
+      transform: CSS.Transform.toString(transform),
+      transition,
+      opacity: isDragging ? 0.5 : 1,
+    };
+
+    const title = decodeHtml(track.title || "No Title");
+    const thumbnailUrl = getThumbnailUrl(track);
+    const artistText = formatPlaylistArtists(track.artists);
+    const releaseDate = track.release_date ? formatYearMonth(track.release_date) : null;
+    const genreText = formatMultipleGenres(track.genre_data, track.genre_name);
+    const vocalData = track.vocal_name ? 
+      [{ name: track.vocal_name }] : 
+      (Array.isArray(track.vocal_data) ? track.vocal_data : []);
+    const spotifyTrackId = track.spotify_track_id || track.track_id;
+    const isLiked = spotifyTrackId ? likedTracks.has(spotifyTrackId) : false;
+    const isPlaying = playerContext?.currentTrack?.id === track.id && playerContext?.isPlaying;
+
+    return (
+      <li 
+        ref={setNodeRef} 
+        style={style} 
+        key={track.id + '-' + index} 
+        id={`song-${track.id}`} 
+        className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}
+        data-dragging={isDragging}
+      >
+        {/* ドラッグハンドル */}
+        <div className={styles.dragHandle} {...attributes} {...listeners}>
+          <span className={styles.dragIcon}>⋮⋮</span>
+        </div>
+
+        <button
+          className={styles.thumbnailContainer}
+          onClick={(e) => {
+            console.log('🎯🎯🎯 THUMBNAIL CLICKED! 🎯🎯🎯');
+            console.log('🖱️ Thumbnail button clicked!', {
+              trackId: track.id,
+              trackTitle: track.title || track.title?.rendered,
+              index: index,
+              event: e
+            });
+            console.log('🎯🎯🎯 CALLING handleThumbnailClick 🎯🎯🎯');
+            handleThumbnailClick(track, index);
+          }}
+          aria-label={`再生 ${title}`}
+        >
+          <div className={styles.thumbnailWrapper}>
+            <img
+              src={thumbnailUrl}
+              alt={`${title} のサムネイル`}
+              loading="lazy"
+              onError={(e) => {
+                if (!e.target.dataset.triedCloudinary) {
+                  e.target.dataset.triedCloudinary = "1";
+                  const src = track.thumbnail || track.thumbnail_url;
+                  if (src) {
+                    const fileName = src.split("/").pop();
+                    e.target.src = `${CLOUDINARY_BASE_URL}${fileName}`;
+                  }
+                } else if (!e.target.dataset.triedOriginal) {
+                  e.target.dataset.triedOriginal = "1";
+                  const src = track.thumbnail || track.thumbnail_url;
+                  if (src) {
+                    e.target.src = src;
+                  }
+                } else {
+                  e.target.onerror = null; 
+                  e.target.src = '/placeholder.jpg';
+                }
+              }}
+            />
+          </div>
+        </button>
+
+        <div className={styles.songText}>
+          <div className={styles.line1}>
+            {artistText} - {title}
+          </div>
+          <div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "nowrap" }}>
+            {releaseDate && (
+              <span>{releaseDate}</span>
+            )}
+            {genreText && (
+              <span style={{ display: "inline-flex", alignItems: "center", gap: "4px" }}>
+                ({genreText})
+              </span>
+            )}
+            {renderVocalIcons(vocalData)}
+          </div>
+        </div>
+        
+        <div className={styles.rightIcons}>
+          {spotifyTrackId && (
+            <span
+              className={styles.likeContainer}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "2px",
+                cursor: likesLoading ? "not-allowed" : "pointer",
+                opacity: likesLoading ? 0.5 : 1,
+                position: "relative",
+              }}
+              onClick={(e) => {
+                e.stopPropagation();
+                
+                if (!session?.user) {
+                  alert('この機能を使用するにはSpotifyでログインしてください。');
+                  return;
+                }
+                
+                if (!likesLoading && !likesError) {
+                  handleLikeToggle(spotifyTrackId);
+                }
+              }}
+              title={likesError ? `エラー: ${likesError}` : (isLiked ? "いいねを解除" : "いいねを追加")}
+            >
+              <img
+                src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
+                alt="Like"
+                className={styles.likeIcon}
+                style={{ 
+                  width: "16px", 
+                  height: "16px",
+                  filter: likesError ? "grayscale(100%)" : "none"
+                }}
+              />
+              {likesLoading && (
+                <div style={{
+                  position: "absolute",
+                  top: "-2px",
+                  right: "-2px",
+                  width: "8px",
+                  height: "8px",
+                  borderRadius: "50%",
+                  border: "1px solid #ccc",
+                  borderTop: "1px solid #007bff",
+                  animation: "spin 1s linear infinite"
+                }} />
+              )}
+            </span>
+          )}
+          <button
+            className={styles.threeDotsButton}
+            onClick={(e) => handleThreeDotsClick(e, track)}
+            aria-label="More options"
+          >
+            ⋮
+          </button>
+        </div>
+      </li>
+    );
+  };
+
   return (
     <div className={styles.playlistWrapper}>
       {/* ヘッダー */}
@@ -1179,178 +1434,27 @@ export default function PlaylistSongList({
         </div>
       </div>
 
-      <ul className={styles.songList}>
-        {tracks.map((track, index) => {
-          try {
-            const title = decodeHtml(track.title || "No Title");
-            const thumbnailUrl = getThumbnailUrl(track);
-            const artistText = formatPlaylistArtists(track.artists);
-            
-            // 公開日を年月のみで表示（2025.08形式）
-            const releaseDate = track.release_date ? formatYearMonth(track.release_date) : null;
-            
-            // 複数ジャンルを表示用のテキストに変換（genre_data JSONBを最優先、genre_nameをフォールバック）
-            const genreText = formatMultipleGenres(track.genre_data, track.genre_name);
-            
-            // ボーカルデータを配列形式に変換（既存のソングリストと同じ形式）
-            const vocalData = track.vocal_name ? 
-              [{ name: track.vocal_name }] : 
-              (Array.isArray(track.vocal_data) ? track.vocal_data : []);
-            
-            // デバッグ用：データの状態を確認（サムネイルクリック時のみ表示）
-            // console.log(`Track ${index + 1} data:`, {
-            //   title,
-            //   thumbnailUrl,
-            //   genre_data: track.genre_data,
-            //   genre_name: track.genre_name,
-            //   genreText,
-            //   vocal_name: track.vocal_name,
-            //   vocal_data: track.vocal_data,
-            //   vocalData,
-            //   thumbnail: track.thumbnail,
-            //   thumbnail_url: track.thumbnail_url,
-            //   youtubeId: track.youtubeId
-            // });
-            
-            // Spotify Track IDを取得
-            const spotifyTrackId = track.spotify_track_id || track.track_id;
-            const isLiked = spotifyTrackId ? likedTracks.has(spotifyTrackId) : false;
-            // 現在再生中の曲かどうかを判定
-            const isPlaying = playerContext?.currentTrack?.id === track.id && playerContext?.isPlaying;
-
-            return (
-              <li key={track.id + '-' + index} id={`song-${track.id}`} className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}>
-                <button
-                  className={styles.thumbnailContainer}
-                  onClick={(e) => {
-                    console.log('🎯🎯🎯 THUMBNAIL CLICKED! 🎯🎯🎯');
-                    console.log('🖱️ Thumbnail button clicked!', {
-                      trackId: track.id,
-                      trackTitle: track.title || track.title?.rendered,
-                      index: index,
-                      event: e
-                    });
-                    console.log('🎯🎯🎯 CALLING handleThumbnailClick 🎯🎯🎯');
-                    handleThumbnailClick(track, index);
-                  }}
-                  aria-label={`再生 ${title}`}
-                >
-                  <div className={styles.thumbnailWrapper}>
-                    <img
-                      src={thumbnailUrl}
-                      alt={`${title} のサムネイル`}
-                      loading="lazy"
-                      onError={(e) => {
-                        if (!e.target.dataset.triedCloudinary) {
-                          e.target.dataset.triedCloudinary = "1";
-                          // CloudinaryのURLを試す
-                          const src = track.thumbnail || track.thumbnail_url;
-                          if (src) {
-                            const fileName = src.split("/").pop();
-                            e.target.src = `${CLOUDINARY_BASE_URL}${fileName}`;
-                          }
-                        } else if (!e.target.dataset.triedOriginal) {
-                          e.target.dataset.triedOriginal = "1";
-                          // 元のURLを試す
-                          const src = track.thumbnail || track.thumbnail_url;
-                          if (src) {
-                            e.target.src = src;
-                          }
-                        } else {
-                          // プレースホルダーにフォールバック
-                          e.target.onerror = null; 
-                          e.target.src = '/placeholder.jpg';
-                        }
-                      }}
-                    />
-                  </div>
-                </button>
-
-                <div className={styles.songText}>
-                  <div className={styles.line1}>
-                    {artistText} - {title}
-                  </div>
-                  <div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "nowrap" }}>
-                    {releaseDate && (
-                      <span>{releaseDate}</span>
-                    )}
-                    {genreText && (
-                      <span style={{ display: "inline-flex", alignItems: "center", gap: "4px" }}>
-                        ({genreText})
-                      </span>
-                    )}
-                    {renderVocalIcons(vocalData)}
-                  </div>
-                </div>
-                
-                <div className={styles.rightIcons}>
-                  {spotifyTrackId && (
-                    <span
-                      className={styles.likeContainer}
-                      style={{
-                        display: "inline-flex",
-                        alignItems: "center",
-                        gap: "2px",
-                        cursor: likesLoading ? "not-allowed" : "pointer",
-                        opacity: likesLoading ? 0.5 : 1,
-                        position: "relative",
-                      }}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        
-                        // ログインチェック
-                        if (!session?.user) {
-                          alert('この機能を使用するにはSpotifyでログインしてください。');
-                          return;
-                        }
-                        
-                        if (!likesLoading && !likesError) {
-                          handleLikeToggle(spotifyTrackId);
-                        }
-                      }}
-                      title={likesError ? `エラー: ${likesError}` : (isLiked ? "いいねを解除" : "いいねを追加")}
-                    >
-                      <img
-                        src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
-                        alt="Like"
-                        className={styles.likeIcon}
-                        style={{ 
-                          width: "16px", 
-                          height: "16px",
-                          filter: likesError ? "grayscale(100%)" : "none"
-                        }}
-                      />
-                      {likesLoading && (
-                        <div style={{
-                          position: "absolute",
-                          top: "-2px",
-                          right: "-2px",
-                          width: "8px",
-                          height: "8px",
-                          borderRadius: "50%",
-                          border: "1px solid #ccc",
-                          borderTop: "1px solid #007bff",
-                          animation: "spin 1s linear infinite"
-                        }} />
-                      )}
-                    </span>
-                  )}
-                  <button
-                    className={styles.threeDotsButton}
-                    onClick={(e) => handleThreeDotsClick(e, track)}
-                    aria-label="More options"
-                  >
-                    ⋮
-                  </button>
-                </div>
-              </li>
-            );
-          } catch (e) {
-            console.error(`ビルドエラー: 曲ID=${track.id}, タイトル=${track.title}`, e);
-            throw e;
-          }
-        })}
-      </ul>
+      <DndContext
+        sensors={sensors}
+        collisionDetection={closestCenter}
+        onDragEnd={handleDragEnd}
+      >
+        <SortableContext
+          items={sortedTracks.map(track => track.id)}
+          strategy={verticalListSortingStrategy}
+        >
+          <ul className={styles.songList}>
+            {sortedTracks.map((track, index) => {
+              try {
+                return <SortableSongItem key={track.id + '-' + index} track={track} index={index} />;
+              } catch (e) {
+                console.error(`ビルドエラー: 曲ID=${track.id}, タイトル=${track.title}`, e);
+                return null;
+              }
+            })}
+          </ul>
+        </SortableContext>
+      </DndContext>
       {/* ポップアップメニュー */}
       {isPopupVisible && popupSong && (
         <ThreeDotsMenu
