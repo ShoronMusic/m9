@@ -22,6 +22,9 @@ export default function GlobalMenu() {
         <li>
           <Link href="/info">About</Link>
         </li>
+        <li>
+          <Link href="/search">🔍 Search</Link>
+        </li>
       </ul>
     </nav>
   );
