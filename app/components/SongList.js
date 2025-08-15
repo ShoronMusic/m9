@@ -522,7 +522,10 @@ export default function SongList({
 
   // プレイリストに追加
   const handleAddToPlaylist = (track) => {
-    setTrackToAdd(track);
+    setTrackToAdd({
+      ...track,
+      vocal_data: Array.isArray(track.vocal_data) && track.vocal_data.length > 0 ? track.vocal_data : (Array.isArray(track.vocals) ? track.vocals : [])
+    });
     setShowCreateModal(true);
   };
 
@@ -743,7 +746,8 @@ export default function SongList({
         // 複数情報を格納する新しいフィールド
         genre_data: allGenres.length > 0 ? allGenres : null,
         style_data: track.style || track.styles || null,
-        vocal_data: track.vocal_data || track.vocals || null,
+        // vocal_data配列を必ず送信
+        vocal_data: Array.isArray(track.vocal_data) && track.vocal_data.length > 0 ? track.vocal_data : (Array.isArray(track.vocals) ? track.vocals : []),
         
         // 日付情報
         release_date: releaseDate,
@@ -761,7 +765,7 @@ export default function SongList({
         // 既存のフィールド（後方互換性のため）
         all_genres: allGenres.length > 0 ? JSON.stringify(allGenres) : null,
         all_styles: track.style || track.styles || null,
-        all_vocals: track.vocal_data || track.vocals || null
+        all_vocals: Array.isArray(track.vocal_data) && track.vocal_data.length > 0 ? track.vocal_data : (Array.isArray(track.vocals) ? track.vocals : null)
       };
 
              // デバッグ用：スタイル情報の取得状況を確認

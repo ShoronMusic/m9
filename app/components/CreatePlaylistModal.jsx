@@ -112,6 +112,11 @@ export default function CreatePlaylistModal({
       setError('追加する曲の情報がありません');
       return;
     }
+    // vocal_dataを必ずセット
+    const trackWithVocals = {
+      ...trackToAdd,
+      vocal_data: Array.isArray(trackToAdd.vocal_data) && trackToAdd.vocal_data.length > 0 ? trackToAdd.vocal_data : (Array.isArray(trackToAdd.vocals) ? trackToAdd.vocals : [])
+    };
 
     try {
       setLoading(true);
@@ -120,23 +125,23 @@ export default function CreatePlaylistModal({
 
       // トラックデータを準備
       console.log('=== FRONTEND: handleAddToExistingPlaylist called ===');
-      console.log('trackToAdd object:', trackToAdd);
-      console.log('trackToAdd.title:', trackToAdd.title);
-      console.log('trackToAdd.title?.rendered:', trackToAdd.title?.rendered);
-      console.log('trackToAdd.name:', trackToAdd.name);
-      console.log('trackToAdd.id:', trackToAdd.id);
-      console.log('trackToAdd.song_id:', trackToAdd.song_id);
+      console.log('trackToAdd object:', trackWithVocals);
+      console.log('trackToAdd.title:', trackWithVocals.title);
+      console.log('trackToAdd.title?.rendered:', trackWithVocals.title?.rendered);
+      console.log('trackToAdd.name:', trackWithVocals.name);
+      console.log('trackToAdd.id:', trackWithVocals.id);
+      console.log('trackToAdd.song_id:', trackWithVocals.song_id);
       
       // track_nameがundefinedの場合は、artistsから曲名を構築
-      let trackName = trackToAdd.title?.rendered || trackToAdd.title || trackToAdd.name;
-      if (!trackName && trackToAdd.artists && Array.isArray(trackToAdd.artists)) {
-        trackName = trackToAdd.artists.map(artist => artist.name).join(', ');
+      let trackName = trackWithVocals.title?.rendered || trackWithVocals.title || trackWithVocals.name;
+      if (!trackName && trackWithVocals.artists && Array.isArray(trackWithVocals.artists)) {
+        trackName = trackWithVocals.artists.map(artist => artist.name).join(', ');
       }
 
       // スタイル情報を取得
       let styleInfo = null;
-      if (trackToAdd.style && Array.isArray(trackToAdd.style) && trackToAdd.style.length > 0) {
-        const styleItem = trackToAdd.style[0];
+      if (trackWithVocals.style && Array.isArray(trackWithVocals.style) && trackWithVocals.style.length > 0) {
+        const styleItem = trackWithVocals.style[0];
         if (typeof styleItem === 'number' || typeof styleItem === 'string') {
           // IDのみの場合は、IDをterm_idとして設定し、スタイル名を取得
           const styleId = parseInt(styleItem);
@@ -144,8 +149,8 @@ export default function CreatePlaylistModal({
         } else if (typeof styleItem === 'object' && styleItem !== null) {
           styleInfo = styleItem;
         }
-      } else if (trackToAdd.styles && Array.isArray(trackToAdd.styles) && trackToAdd.styles.length > 0) {
-        const styleItem = trackToAdd.styles[0];
+      } else if (trackWithVocals.styles && Array.isArray(trackWithVocals.styles) && trackWithVocals.styles.length > 0) {
+        const styleItem = trackWithVocals.styles[0];
         if (typeof styleItem === 'number' || typeof styleItem === 'string') {
           // IDのみの場合は、IDをterm_idとして設定し、スタイル名を取得
           const styleId = parseInt(styleItem);
@@ -159,12 +164,12 @@ export default function CreatePlaylistModal({
       let genreInfo = null;
       let allGenres = []; // 全ジャンル情報を保存
       
-      if (trackToAdd.genre_data && Array.isArray(trackToAdd.genre_data) && trackToAdd.genre_data.length > 0) {
-        allGenres = trackToAdd.genre_data;
-        genreInfo = trackToAdd.genre_data[0];
-      } else if (trackToAdd.genres && Array.isArray(trackToAdd.genres) && trackToAdd.genres.length > 0) {
-        allGenres = trackToAdd.genres;
-        genreInfo = trackToAdd.genres[0];
+      if (trackWithVocals.genre_data && Array.isArray(trackWithVocals.genre_data) && trackWithVocals.genre_data.length > 0) {
+        allGenres = trackWithVocals.genre_data;
+        genreInfo = trackWithVocals.genre_data[0];
+      } else if (trackWithVocals.genres && Array.isArray(trackWithVocals.genres) && trackWithVocals.genres.length > 0) {
+        allGenres = trackWithVocals.genres;
+        genreInfo = trackWithVocals.genres[0];
       }
 
       // 複数ジャンル名をカンマ区切りで作成（genre_nameフィールド用）
@@ -198,36 +203,39 @@ export default function CreatePlaylistModal({
 
       // ボーカル情報を取得
       let vocalInfo = null;
-      if (trackToAdd.vocal_data && Array.isArray(trackToAdd.vocal_data) && trackToAdd.vocal_data.length > 0) {
-        vocalInfo = trackToAdd.vocal_data[0];
-      } else if (trackToAdd.vocals && Array.isArray(trackToAdd.vocals) && trackToAdd.vocals.length > 0) {
-        vocalInfo = trackToAdd.vocals[0];
+      let vocalArray = [];
+      if (trackWithVocals.vocal_data && Array.isArray(trackWithVocals.vocal_data) && trackWithVocals.vocal_data.length > 0) {
+        vocalArray = trackWithVocals.vocal_data;
+        vocalInfo = trackWithVocals.vocal_data[0];
+      } else if (trackWithVocals.vocals && Array.isArray(trackWithVocals.vocals) && trackWithVocals.vocals.length > 0) {
+        vocalArray = trackWithVocals.vocals;
+        vocalInfo = trackWithVocals.vocals[0];
       }
 
       // サムネイルURLを取得
       let thumbnailUrl = null;
-      if (trackToAdd.thumbnail) {
-        thumbnailUrl = trackToAdd.thumbnail;
-      } else if (trackToAdd.acf?.thumbnail_url) {
-        thumbnailUrl = trackToAdd.acf.thumbnail_url;
-      } else if (trackToAdd.thumbnail_url) {
-        thumbnailUrl = trackToAdd.thumbnail_url;
+      if (trackWithVocals.thumbnail) {
+        thumbnailUrl = trackWithVocals.thumbnail;
+      } else if (trackWithVocals.acf?.thumbnail_url) {
+        thumbnailUrl = trackWithVocals.acf.thumbnail_url;
+      } else if (trackWithVocals.thumbnail_url) {
+        thumbnailUrl = trackWithVocals.thumbnail_url;
       }
 
       // 公開年月を取得
       let releaseDate = null;
-      if (trackToAdd.date) {
-        releaseDate = trackToAdd.date;
-      } else if (trackToAdd.release_date) {
-        releaseDate = trackToAdd.release_date;
-      } else if (trackToAdd.acf?.release_date) {
-        releaseDate = trackToAdd.acf.release_date;
+      if (trackWithVocals.date) {
+        releaseDate = trackWithVocals.date;
+      } else if (trackWithVocals.release_date) {
+        releaseDate = trackWithVocals.release_date;
+      } else if (trackWithVocals.acf?.release_date) {
+        releaseDate = trackWithVocals.acf.release_date;
       }
 
       // Spotify画像URLを取得
       let spotifyImages = null;
-      if (trackToAdd.artists && Array.isArray(trackToAdd.artists) && trackToAdd.artists.length > 0) {
-        const artistImages = trackToAdd.artists
+      if (trackWithVocals.artists && Array.isArray(trackWithVocals.artists) && trackWithVocals.artists.length > 0) {
+        const artistImages = trackWithVocals.artists
           .map(artist => artist.acf?.spotify_images || artist.spotify_images)
           .filter(Boolean);
         if (artistImages.length > 0) {
@@ -237,39 +245,39 @@ export default function CreatePlaylistModal({
       
       const trackData = {
         // 基本項目
-        track_id: trackToAdd.id || trackToAdd.song_id,
+        track_id: trackWithVocals.id || trackWithVocals.song_id,
         title: trackName || 'Unknown Track',
-        song_id: trackToAdd.id || trackToAdd.song_id,
-        artists: trackToAdd.artists || null,
+        song_id: trackWithVocals.id || trackWithVocals.song_id,
+        artists: trackWithVocals.artists || null,
         
         // メディア情報
         thumbnail_url: thumbnailUrl,
         
         // スタイル・ジャンル・ボーカル情報（主要なもの）
-        style_id: styleInfo?.term_id || trackToAdd.style_id,
-        style_name: styleInfo?.name || trackToAdd.style_name,
-        genre_id: genreInfo?.term_id || trackToAdd.genre_id,
-        genre_name: genreNameForDisplay || genreInfo?.name || trackToAdd.genre_name,
-        vocal_id: vocalInfo?.term_id || trackToAdd.vocal_id,
-        vocal_name: vocalInfo?.name || trackToAdd.vocal_name,
+        style_id: styleInfo?.term_id || trackWithVocals.style_id,
+        style_name: styleInfo?.name || trackWithVocals.style_name,
+        genre_id: genreInfo?.term_id || trackWithVocals.genre_id,
+        genre_name: genreNameForDisplay || genreInfo?.name || trackWithVocals.genre_name,
+        vocal_id: vocalInfo?.term_id || trackWithVocals.vocal_id,
+        vocal_name: vocalInfo?.name || trackWithVocals.vocal_name,
         
         // 複数情報を格納する新しいフィールド
-        genre_data: trackToAdd.genres || trackToAdd.genre_data || null,
-        style_data: trackToAdd.styles || trackToAdd.style || null,
-        vocal_data: trackToAdd.vocals || trackToAdd.vocal_data || null,
+        genre_data: trackWithVocals.genres || trackWithVocals.genre_data || null,
+        style_data: trackWithVocals.styles || trackWithVocals.style || null,
+        vocal_data: vocalArray.length > 0 ? vocalArray : null,
         
         // 日付情報
         release_date: releaseDate,
         
         // Spotify情報
-        spotify_track_id: trackToAdd.acf?.spotify_track_id || trackToAdd.spotifyTrackId,
+        spotify_track_id: trackWithVocals.acf?.spotify_track_id || trackWithVocals.spotifyTrackId,
         spotify_images: spotifyImages,
-        spotify_artists: trackToAdd.acf?.spotify_artists ? JSON.stringify(trackToAdd.acf.spotify_artists) : null,
+        spotify_artists: trackWithVocals.acf?.spotify_artists ? JSON.stringify(trackWithVocals.acf.spotify_artists) : null,
         
         // その他の情報
         is_favorite: false, // 新規追加時はデフォルトでfalse
-        artist_order: trackToAdd.acf?.artist_order?.[0] || null,
-        content: trackToAdd.content?.rendered || trackToAdd.content || null
+        artist_order: trackWithVocals.acf?.artist_order?.[0] || null,
+        content: trackWithVocals.content?.rendered || trackWithVocals.content || null
       };
 
       console.log('Prepared trackData:', trackData);
@@ -331,13 +339,13 @@ export default function CreatePlaylistModal({
       
       // 成功メッセージを表示
       setError(null);
-      setSuccess(`「${trackToAdd.title?.rendered || trackToAdd.title || trackToAdd.name}」をプレイリストに追加しました！`);
+      setSuccess(`「${trackWithVocals.title?.rendered || trackWithVocals.title || trackWithVocals.name}」をプレイリストに追加しました！`);
       
       // 成功時の処理
       if (onAddToPlaylist) {
         console.log('Calling onAddToPlaylist callback');
         try {
-          await onAddToPlaylist(trackToAdd, playlistId);
+          await onAddToPlaylist(trackWithVocals, playlistId);
           console.log('onAddToPlaylist callback completed successfully');
         } catch (callbackError) {
           console.error('Error in onAddToPlaylist callback:', callbackError);

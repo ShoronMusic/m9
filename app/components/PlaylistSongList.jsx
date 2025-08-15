@@ -483,16 +483,19 @@ function formatMultipleVocals(vocalData) {
 // ボーカルアイコンを表示する関数（既存のソングリストと同じ方法）
 function renderVocalIcons(vocalData = []) {
   if (!Array.isArray(vocalData) || vocalData.length === 0) return null;
+  // nameがカンマ区切りや複数形でも対応
+  const names = vocalData
+    .flatMap(v => (v.name ? v.name.split(',').map(s => s.trim().toLowerCase()) : []));
+  const hasF = names.includes("f");
+  const hasM = names.includes("m");
   const icons = [];
-  const hasF = vocalData.some((v) => v.name.toLowerCase() === "f");
-  const hasM = vocalData.some((v) => v.name.toLowerCase() === "m");
   if (hasF) {
     icons.push(<MicrophoneIcon key="F" color="#fd5a5a" />);
   }
   if (hasM) {
     icons.push(<MicrophoneIcon key="M" color="#00a0e9" />);
   }
-  return <span>{icons}</span>;
+  return icons.length > 0 ? <span style={{ display: "inline-flex", gap: "4px" }}>{icons}</span> : null;
 }
 
 // ──────────────────────────────
@@ -806,6 +809,11 @@ export default function PlaylistSongList({
       } : null
     });
     
+    // safeTracks生成後にvocal_dataをデバッグ出力
+    processedTracks.forEach((track, idx) => {
+      console.log(`[DEBUG][PlaylistSongList] safeTracks[${idx}].vocal_data:`, track.vocal_data, 'typeof:', typeof track.vocal_data, 'isArray:', Array.isArray(track.vocal_data));
+    });
+    
     return processedTracks;
   }, [sortedTracks]);
 
@@ -1100,7 +1108,10 @@ export default function PlaylistSongList({
 
   // プレイリストに追加
   const handleAddToPlaylist = (track) => {
-    setTrackToAdd(track);
+    setTrackToAdd({
+      ...track,
+      vocal_data: Array.isArray(track.vocal_data) && track.vocal_data.length > 0 ? track.vocal_data : (Array.isArray(track.vocals) ? track.vocals : [])
+    });
     setShowCreateModal(true);
   };
 
@@ -1277,6 +1288,8 @@ export default function PlaylistSongList({
           genre_name: genreInfo?.name || track.genre_name,
           vocal_id: vocalInfo?.term_id || track.vocal_id,
           vocal_name: vocalInfo?.name || track.vocal_name,
+          // ボーカル配列を必ず送信
+          vocal_data: Array.isArray(track.vocal_data) && track.vocal_data.length > 0 ? track.vocal_data : (Array.isArray(track.vocals) ? track.vocals : []),
           is_favorite: false, // 新規追加時はデフォルトでfalse
           spotify_images: spotifyImages
         }),
@@ -1395,9 +1408,10 @@ export default function PlaylistSongList({
     const artistText = formatPlaylistArtists(track.artists, track.spotify_artists);
     const releaseDate = track.release_date ? formatYearMonth(track.release_date) : null;
     const genreText = formatMultipleGenres(track.genre_data, track.genre_name);
-    const vocalData = track.vocal_name ? 
-      [{ name: track.vocal_name }] : 
-      (Array.isArray(track.vocal_data) ? track.vocal_data : []);
+    // vocalData: 配列があれば必ずそれを使う
+    const vocalData = Array.isArray(track.vocal_data) && track.vocal_data.length > 0
+      ? track.vocal_data
+      : (track.vocal_name ? [{ name: track.vocal_name }] : []);
     const spotifyTrackId = track.spotify_track_id || track.track_id;
     const isLiked = spotifyTrackId ? likedTracks.has(spotifyTrackId) : false;
     const isPlaying = playerContext?.currentTrack?.id === track.id && playerContext?.isPlaying;

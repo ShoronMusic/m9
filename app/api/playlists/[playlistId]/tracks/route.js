@@ -108,7 +108,8 @@ export async function GET(request, { params }) {
               ...track,
               // playlist_tracksのspotify_artistsを最優先、なければsongsテーブルのデータを使用
               spotify_artists: track.spotify_artists || songData.spotify_artists,
-              genre_data: track.genre_data || songData.genre_data
+              genre_data: track.genre_data || songData.genre_data,
+              vocal_data: track.vocal_data // vocal_dataを必ず含める
             };
           }
         }
@@ -121,6 +122,23 @@ export async function GET(request, { params }) {
       spotify_artists: t.spotify_artists,
       genre_data: t.genre_data
     })));
+
+    // 各トラックのvocal_dataをデバッグ出力
+    if (tracks && Array.isArray(tracks)) {
+      tracks.forEach((track, idx) => {
+        console.log(`[DEBUG][GET] track[${idx}].vocal_data:`, track.vocal_data, 'typeof:', typeof track.vocal_data, 'isArray:', Array.isArray(track.vocal_data));
+      });
+    }
+
+    // tracksWithSpotifyArtists生成直後にvocal_dataをデバッグ出力
+    if (tracksWithSpotifyArtists && Array.isArray(tracksWithSpotifyArtists)) {
+      tracksWithSpotifyArtists.forEach((track, idx) => {
+        console.log(`[DEBUG][API][GET] tracksWithSpotifyArtists[${idx}].vocal_data:`, track.vocal_data, 'typeof:', typeof track.vocal_data, 'isArray:', Array.isArray(track.vocal_data));
+      });
+    }
+
+    // tracksWithSpotifyArtists生成直後に全trackの内容をデバッグ出力
+    console.log('[DEBUG][API][GET] tracksWithSpotifyArtists:', JSON.stringify(tracksWithSpotifyArtists, null, 2));
 
     return Response.json({ tracks: tracksWithSpotifyArtists });
   } catch (error) {
@@ -390,7 +408,12 @@ export async function POST(request, { params }) {
     };
    
     console.log('Track insert data for database:', trackInsertData);
-    
+
+    // [POST] DB保存直前のvocal_data
+    if (request.method === 'POST') {
+      console.log('[DEBUG][API][POST] DB保存直前 vocal_data:', trackInsertData.vocal_data, 'typeof:', typeof trackInsertData.vocal_data, 'isArray:', Array.isArray(trackInsertData.vocal_data));
+    }
+
     // トラックを追加
     const { data: trackResult, error: trackError } = await supabase
       .from('playlist_tracks')
@@ -469,6 +492,11 @@ export async function POST(request, { params }) {
     }
     
     console.log('Track added successfully:', trackResult);
+
+    // [POST] DB保存直後のvocal_data（result/insertedRowなど）
+    if (request.method === 'POST' && trackResult) {
+      console.log('[DEBUG][API][POST] DB保存直後 vocal_data:', trackResult.vocal_data, 'typeof:', typeof trackResult.vocal_data, 'isArray:', Array.isArray(trackResult.vocal_data));
+    }
     
     return Response.json({ 
       success: true, 

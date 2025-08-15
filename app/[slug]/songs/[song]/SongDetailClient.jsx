@@ -84,16 +84,19 @@ function formatYearMonth(dateStr) {
 // ボーカルアイコンの表示（SongList.jsと同じロジック）
 function renderVocalIcons(vocalData = []) {
   if (!Array.isArray(vocalData) || vocalData.length === 0) return null;
+  // nameがカンマ区切りや複数形でも対応
+  const names = vocalData
+    .flatMap(v => (v.name ? v.name.split(',').map(s => s.trim().toLowerCase()) : []));
+  const hasF = names.includes("f");
+  const hasM = names.includes("m");
   const icons = [];
-  const hasF = vocalData.some((v) => v.name && v.name.toLowerCase() === "f");
-  const hasM = vocalData.some((v) => v.name && v.name.toLowerCase() === "m");
   if (hasF) {
     icons.push(<MicrophoneIcon key="F" color="#fd5a5a" />);
   }
   if (hasM) {
     icons.push(<MicrophoneIcon key="M" color="#00a0e9" />);
   }
-  return <span style={{ display: "inline-flex", gap: "6px", verticalAlign: "middle" }}>{icons}</span>;
+  return icons.length > 0 ? <span style={{ display: "inline-flex", gap: "6px", verticalAlign: "middle" }}>{icons}</span> : null;
 }
 
 export default function SongDetailClient({ songData, description, accessToken }) {

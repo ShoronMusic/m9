@@ -450,7 +450,10 @@ export default function SongListTopPage({
 	// プレイリストに追加
 	const handleAddToPlaylist = (track) => {
 		console.log('🎵 handleAddToPlaylist called with track:', track);
-		setTrackToAdd(track);
+		setTrackToAdd({
+			...track,
+			vocal_data: Array.isArray(track.vocal_data) && track.vocal_data.length > 0 ? track.vocal_data : (Array.isArray(track.vocals) ? track.vocals : [])
+		});
 		setSelectedTrack(track);
 		setShowCreatePlaylistModal(true);
 		console.log('🎵 Modal state set to true');
@@ -547,6 +550,8 @@ export default function SongListTopPage({
 					genre_name: genreInfo?.name || track.genre_name,
 					vocal_id: vocalInfo?.term_id || track.vocal_id,
 					vocal_name: vocalInfo?.name || track.vocal_name,
+					// vocal_data配列を必ず送信
+					vocal_data: Array.isArray(track.vocal_data) && track.vocal_data.length > 0 ? track.vocal_data : (Array.isArray(track.vocals) ? track.vocals : []),
 					is_favorite: false, // 新規追加時はデフォルトでfalse
 					spotify_images: spotifyImages
 				}),

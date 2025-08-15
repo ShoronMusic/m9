@@ -121,6 +121,7 @@ export default async function PlaylistPage({ params, searchParams }) {
         genre_name,
         vocal_id,
         vocal_name,
+        vocal_data,
         is_favorite,
         spotify_images
       `)
