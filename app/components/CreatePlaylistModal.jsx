@@ -30,11 +30,6 @@ export default function CreatePlaylistModal({
   onPlaylistCreated = null
 }) {
   const { triggerPlaylistUpdate } = usePlayer();
-  const [playlistData, setPlaylistData] = useState({
-    name: '',
-    description: '',
-    is_public: false
-  });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
@@ -48,11 +43,6 @@ export default function CreatePlaylistModal({
     setError(null);
       setSuccess(null);
       setLoading(false);
-      setPlaylistData({
-        name: '',
-        description: '',
-        is_public: false
-      });
       setLocalPlaylists(userPlaylists || []);
       setSortType('updated');
     }
@@ -99,7 +89,7 @@ export default function CreatePlaylistModal({
     console.log('🎯 onCreateコールバックの存在確認:', !!onCreate);
     
     // 既存モーダルは閉じずに、親コンポーネントに新規作成アクションを通知
-      if (onCreate) {
+    if (onCreate) {
       console.log('🎯 onCreateコールバックを呼び出します');
       onCreate({ action: 'create_new' });
       console.log('🎯 onCreateコールバック完了');
@@ -113,20 +103,7 @@ export default function CreatePlaylistModal({
     setError(null);
     setSuccess(null);
     setLoading(false);
-    setPlaylistData({
-      name: '',
-      description: '',
-      is_public: false
-    });
     stableOnClose();
-  };
-
-  const handleInputChange = (e) => {
-    const { name, type, checked, value } = e.target;
-    setPlaylistData(prev => ({
-      ...prev,
-      [name]: type === 'checkbox' ? checked : value
-    }));
   };
 
   // 既存プレイリストに追加
@@ -454,8 +431,8 @@ export default function CreatePlaylistModal({
             >
               ＋ 新規プレイリスト作成
             </button>
-                      </div>
-                    )}
+          </div>
+        )}
       </div>
     </div>
   );

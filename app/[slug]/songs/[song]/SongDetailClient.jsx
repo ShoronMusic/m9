@@ -1,17 +1,19 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import { ThemeProvider } from "@mui/material/styles";
+import React, { useState, useEffect, useRef } from 'react';
+import { useSession } from 'next-auth/react';
+import { ThemeProvider } from '@mui/material/styles';
+import { createTheme } from '@mui/material/styles';
+import CreatePlaylistModal from '../../../components/CreatePlaylistModal';
+import CreateNewPlaylistModal from '../../../components/CreateNewPlaylistModal';
+import SongDetailSpotifyPlayer from '../../../components/SongDetailSpotifyPlayer';
 import MicrophoneIcon from "../../../components/MicrophoneIcon";
 import ScrollToTopButton from "../../../components/ScrollToTopButton";
-import SongDetailSpotifyPlayer from "../../../components/SongDetailSpotifyPlayer";
-import CreatePlaylistModal from "../../../components/CreatePlaylistModal";
 import Link from "next/link";
 import Head from "next/head";
 import theme from "../../../css/theme";
 import Image from "next/image";
 import artistStyles from "../../ArtistPage.module.css";
-import { useSession } from 'next-auth/react';
 
 const styleIdMap = {
   pop: 2844,
@@ -99,6 +101,12 @@ export default function SongDetailClient({ songData, description, accessToken })
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [trackToAdd, setTrackToAdd] = useState(null);
   const [userPlaylists, setUserPlaylists] = useState([]);
+  const [showCreateNewPlaylistModal, setShowCreateNewPlaylistModal] = useState(false);
+  
+  // いいね機能用の状態
+  const [isLiked, setIsLiked] = useState(false);
+  const [likesLoading, setLikesLoading] = useState(false);
+  const [likesError, setLikesError] = useState(null);
 
   useEffect(() => {
     // デバッグ用
@@ -157,6 +165,87 @@ export default function SongDetailClient({ songData, description, accessToken })
       fetchUserPlaylists();
     }
   }, [session]);
+
+  // いいね状態をチェック
+  useEffect(() => {
+    if (session?.accessToken && songData?.spotifyTrackId) {
+      checkLikeStatus();
+    }
+  }, [session?.accessToken, songData?.spotifyTrackId]);
+
+  // いいね状態をチェックする関数
+  const checkLikeStatus = async () => {
+    if (!session?.accessToken || !songData?.spotifyTrackId) return;
+    
+    try {
+      setLikesLoading(true);
+      setLikesError(null);
+      
+      const response = await fetch(`https://api.spotify.com/v1/me/tracks/contains?ids=${songData.spotifyTrackId}`, {
+        headers: {
+          'Authorization': `Bearer ${session.accessToken}`,
+        },
+      });
+      
+      if (response.ok) {
+        const likedArray = await response.json();
+        setIsLiked(likedArray[0] || false);
+      } else if (response.status === 401) {
+        setLikesError('認証エラー: Spotifyに再ログインしてください');
+      } else {
+        setLikesError('いいね情報の取得に失敗しました');
+      }
+    } catch (error) {
+      console.error('Error checking like status:', error);
+      setLikesError('ネットワークエラーが発生しました');
+    } finally {
+      setLikesLoading(false);
+    }
+  };
+
+  // いいねの切り替え
+  const handleLikeToggle = async () => {
+    if (!session?.accessToken) {
+      alert('この機能を使用するにはSpotifyでログインしてください。');
+      return;
+    }
+
+    if (likesError) {
+      alert(`エラー: ${likesError}`);
+      return;
+    }
+
+    try {
+      setLikesLoading(true);
+      setLikesError(null);
+      
+      const method = isLiked ? 'DELETE' : 'PUT';
+      const response = await fetch(`https://api.spotify.com/v1/me/tracks?ids=${songData.spotifyTrackId}`, {
+        method,
+        headers: {
+          'Authorization': `Bearer ${session.accessToken}`,
+          'Content-Type': 'application/json',
+        },
+      });
+      
+      if (response.ok) {
+        setIsLiked(!isLiked);
+        console.log(isLiked ? 'いいねを解除しました' : 'いいねを追加しました');
+      } else if (response.status === 401) {
+        setLikesError('認証エラー: Spotifyに再ログインしてください');
+        alert('認証エラーが発生しました。Spotifyに再ログインしてください。');
+      } else {
+        setLikesError('いいねの更新に失敗しました');
+        alert(isLiked ? 'いいねの解除に失敗しました。' : 'いいねの追加に失敗しました。');
+      }
+    } catch (error) {
+      console.error('Error toggling like:', error);
+      setLikesError('ネットワークエラーが発生しました');
+      alert('エラーが発生しました。もう一度お試しください。');
+    } finally {
+      setLikesLoading(false);
+    }
+  };
 
   if (!songData) {
     return <div>データが取得できませんでした。</div>;
@@ -249,6 +338,7 @@ export default function SongDetailClient({ songData, description, accessToken })
         height={20}
         width={67}
         className={artistStyles.spotifyLogo}
+        style={{ width: "auto" }}
       />
     </div>
   ) : null;
@@ -258,6 +348,12 @@ export default function SongDetailClient({ songData, description, accessToken })
       <Head>
         		<title>{pageTitleStr} | TuneDive</title>
         <meta name="description" content={description} />
+        <style jsx>{`
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+        `}</style>
       </Head>
       <div
         style={{
@@ -297,6 +393,7 @@ export default function SongDetailClient({ songData, description, accessToken })
             <span style={{ fontSize: '0.9em', color: '#888', letterSpacing: '0.15em', fontWeight: 600 }}>SONG</span>
           </div>
           <h1 style={{ fontSize: "2.4em", fontWeight: "bold", marginBottom: "0.7em", lineHeight: 1.1 }}>{songData.title}</h1>
+          
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '24px', alignItems: 'flex-start', marginBottom: '1em', marginLeft: '16px' }}>
             {orderedArtists.length > 0 ? (
               orderedArtists.map((artist, index) => {
@@ -355,6 +452,70 @@ export default function SongDetailClient({ songData, description, accessToken })
               <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>Vocal:</div>
               <div style={{ flex: 1, marginLeft: '16px' }}>{renderVocalIcons(songData.vocals)}</div>
             </div>
+            
+            {/* いいねマークセクション */}
+            {songData.spotifyTrackId && (
+              <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
+                <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>LIKE:</div>
+                <div style={{ flex: 1, marginLeft: '16px' }}>
+                  <button
+                    onClick={handleLikeToggle}
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      width: "36px",
+                      height: "36px",
+                      backgroundColor: "transparent",
+                      border: "none",
+                      borderRadius: "50%",
+                      cursor: likesLoading ? "not-allowed" : "pointer",
+                      opacity: likesLoading ? 0.5 : 1,
+                      transition: "all 0.2s ease",
+                      position: "relative"
+                    }}
+                    onMouseEnter={(e) => {
+                      if (!likesLoading) {
+                        e.target.style.backgroundColor = "#f0f0f0";
+                        e.target.style.transform = "scale(1.1)";
+                      }
+                    }}
+                    onMouseLeave={(e) => {
+                      if (!likesLoading) {
+                        e.target.style.backgroundColor = "transparent";
+                        e.target.style.transform = "scale(1)";
+                      }
+                    }}
+                    title={likesError ? `エラー: ${likesError}` : (isLiked ? "いいねを解除" : "いいねを追加")}
+                    disabled={likesLoading}
+                  >
+                    <img
+                      src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
+                      alt="Like"
+                      style={{ 
+                        width: "18px", 
+                        height: "18px",
+                        filter: likesError ? "grayscale(100%)" : "none"
+                      }}
+                    />
+                    {likesLoading && (
+                      <div style={{
+                        position: "absolute",
+                        top: "-3px",
+                        right: "-3px",
+                        width: "10px",
+                        height: "10px",
+                        borderRadius: "50%",
+                        border: "2px solid #ccc",
+                        borderTop: "2px solid #007bff",
+                        animation: "spin 1s linear infinite"
+                      }} />
+                    )}
+                  </button>
+                </div>
+              </div>
+            )}
+            
             <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
               <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>LINK:</div>
               <div style={{ flex: 1, marginLeft: '16px' }}>
@@ -390,10 +551,19 @@ export default function SongDetailClient({ songData, description, accessToken })
                         style_id: songData.styles?.[0] || 2873,
                         style_name: songData.styles?.[0] ? styleDisplayMap[songData.styles[0]] : 'Others',
                         release_date: songData.releaseDate,
+                        // ジャンル情報を正しい形式で設定
+                        genres: songData.genres || [],
                         genre_id: songData.genres?.[0]?.term_id || null,
                         genre_name: songData.genres?.[0]?.name || null,
+                        // ボーカル情報を正しい形式で設定
+                        vocals: songData.vocals || [],
                         vocal_id: songData.vocals?.[0]?.term_id || null,
-                        vocal_name: songData.vocals?.[0]?.name || null
+                        vocal_name: songData.vocals?.[0]?.name || null,
+                        // スタイル情報を正しい形式で設定
+                        styles: songData.styles || [],
+                        // その他の必要な情報
+                        spotifyTrackId: songData.spotifyTrackId,
+                        spotify_images: songData.spotify_images
                       });
                       setShowCreateModal(true);
                     }}
@@ -462,15 +632,40 @@ export default function SongDetailClient({ songData, description, accessToken })
       {/* プレイリスト追加モーダル */}
       {showCreateModal && trackToAdd && (
         <CreatePlaylistModal
-          isOpen={showCreateModal}
+          isOpen={showCreateModal && !showCreateNewPlaylistModal}
           onClose={() => setShowCreateModal(false)}
-          onCreate={(newPlaylist) => {
-            console.log(`プレイリスト「${newPlaylist.name}」を作成しました！`);
-            setShowCreateModal(false);
+          onCreate={(data) => {
+            console.log('🎯 onCreate called with:', data);
+            
+            if (data.action === 'create_new') {
+              // 新規作成モーダルを開く
+              console.log('🎯 新規プレイリスト作成モーダルを開きます');
+              setShowCreateNewPlaylistModal(true);
+              return;
+            }
           }}
           trackToAdd={trackToAdd}
           userPlaylists={userPlaylists}
           onAddToPlaylist={addTrackToPlaylist}
+        />
+      )}
+
+      {/* 新規プレイリスト作成モーダル */}
+      {showCreateNewPlaylistModal && trackToAdd && (
+        <CreateNewPlaylistModal
+          isOpen={showCreateNewPlaylistModal}
+          onClose={() => {
+            setShowCreateNewPlaylistModal(false);
+            setShowCreateModal(false);
+          }}
+          onCreate={(newPlaylist) => {
+            console.log('✅ 新規プレイリスト作成完了:', newPlaylist);
+            setShowCreateNewPlaylistModal(false);
+            setShowCreateModal(false);
+            // プレイリスト一覧を更新
+            fetchUserPlaylists();
+          }}
+          trackToAdd={trackToAdd}
         />
       )}
       
