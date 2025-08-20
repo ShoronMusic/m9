@@ -1,0 +1,187 @@
+{
+  "artist": {
+    "id": 7099,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/blazy/",
+    "name": "Blazy",
+    "slug": "blazy",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/7099",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=7099"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=7099"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 104367,
+      "date": "2025-03-13T20:24:26",
+      "date_gmt": "2025-03-13T11:24:26",
+      "title": {
+        "rendered": "Chimera"
+      },
+      "content": {
+        "rendered": "<p>Faders, Blazy - Chimera</p>\n",
+        "protected": false
+      },
+      "categories": [
+        7099,
+        7098
+      ],
+      "tags": [],
+      "genre": [
+        680
+      ],
+      "vocal": [],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "fykYrgEkK4Q",
+        "ytreleasedate": "2025/03/13",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": [
+          "1"
+        ],
+        "artist_order": "",
+        "spotify_track_id": "3lbbGCm3aGHBmf50qNMxwh",
+        "spotify_release_date": "2025-03-13",
+        "spotify_name": "Chimera",
+        "spotify_artists": "Faders, Blazy",
+        "spotify_album": "Chimera",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273bdd5b6289337af0ed4bccbfc",
+        "spotify_duration_ms": "486760",
+        "spotify_popularity": "44",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Faders",
+        "spotify_artists01_id": "1to02GbmzsvkwAWDtKNtwn",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eba35a098b5c4017113528cae2",
+        "spotify_artists01_genres": "psytrance, trance, progressive trance",
+        "spotify_artists01_popularity": "39",
+        "spotify_artists02": "Blazy",
+        "spotify_artists02_id": "0ASqieRgSFzYlNmf1VkBVC",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5eb3bc552f0cfd2f9ad78e1352d",
+        "spotify_artists02_genres": "psytrance, trance, progressive trance",
+        "spotify_artists02_popularity": "53",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/faders-blazy-chimera.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 7099,
+            "name": "Blazy",
+            "slug": "blazy",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 7098,
+            "name": "Faders",
+            "slug": "faders",
+            "acf": {
+              "artistorigin": "ISR",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "1to02GbmzsvkwAWDtKNtwn",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174a35a098b5c4017113528cae2",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Faders, Blazy",
+        "ytvideoid": "fykYrgEkK4Q",
+        "spotify_track_id": "3lbbGCm3aGHBmf50qNMxwh"
+      },
+      "genre_data": [
+        {
+          "name": "Psychedelic trance",
+          "slug": "psychedelic-trance",
+          "term_id": 680,
+          "post_count": 33
+        }
+      ],
+      "vocal_data": [],
+      "slug": "chimera"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

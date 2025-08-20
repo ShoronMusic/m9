@@ -1,0 +1,201 @@
+{
+  "artist": {
+    "id": 7005,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/mozey/",
+    "name": "MOZEY",
+    "slug": "mozey",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/7005",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=7005"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=7005"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 102792,
+      "date": "2025-07-07T14:52:08",
+      "date_gmt": "2025-07-07T05:52:08",
+      "title": {
+        "rendered": "THE RECAP"
+      },
+      "content": {
+        "rendered": "<p>KNEECAP, MOZEY - THE RECAP</p>\n",
+        "protected": false
+      },
+      "categories": [
+        4332,
+        7005
+      ],
+      "tags": [],
+      "genre": [
+        556,
+        593
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2848
+      ],
+      "acf": {
+        "ytvideoid": "nXFM81b-gBk",
+        "ytreleasedate": "2025/07/07",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": [
+          "1"
+        ],
+        "artist_order": "",
+        "spotify_track_id": "2MqtHEaoMmfVMe3gjg7rQz",
+        "spotify_release_date": "2025-06-23",
+        "spotify_name": "THE RECAP",
+        "spotify_artists": "KNEECAP, Mozey",
+        "spotify_album": "THE RECAP",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273a1e8af0eeb494dc9aa119fad",
+        "spotify_duration_ms": "149657",
+        "spotify_popularity": "69",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "KNEECAP",
+        "spotify_artists01_id": "1ZVACPeq7ccGCoUXwtafUU",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebc07b6d26c0ae6faa9a90152f",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "68",
+        "spotify_artists02": "Mozey",
+        "spotify_artists02_id": "1h8wkWuZQKyDiwbLogtoL0",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebe697bb00a57b13fb2373c94a",
+        "spotify_artists02_genres": "drum and bass, bassline, jungle",
+        "spotify_artists02_popularity": "58",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/kneecap-mozey-the-recap.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 4332,
+            "name": "KNEECAP",
+            "slug": "kneecap",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2017",
+              "artistborn": "",
+              "artistjpname": "ニーキャップ",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [
+                {
+                  "value": "group",
+                  "label": "Group"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 7005,
+            "name": "MOZEY",
+            "slug": "mozey",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "KNEECAP, Mozey",
+        "ytvideoid": "nXFM81b-gBk",
+        "spotify_track_id": "2MqtHEaoMmfVMe3gjg7rQz"
+      },
+      "genre_data": [
+        {
+          "name": "Hardcore hip hop",
+          "slug": "hardcore-hip-hop",
+          "term_id": 556,
+          "post_count": 20
+        },
+        {
+          "name": "Jump-Up",
+          "slug": "jump-up",
+          "term_id": 593,
+          "post_count": 6
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "the-recap"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

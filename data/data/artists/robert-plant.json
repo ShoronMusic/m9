@@ -1,0 +1,92 @@
+{
+  "id": 7025,
+  "count": 1,
+  "description": "Robert Plant is an English singer and songwriter.",
+  "link": "https://sub.music8.jp/category/robert-plant/",
+  "name": "Robert Plant",
+  "slug": "robert-plant",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "acf": {
+    "artistorigin": "UK",
+    "artistactiveyearstart": "1965",
+    "artistborn": "19480820",
+    "artistjpname": "",
+    "member": [
+      {
+        "term_id": 4751,
+        "name": "Led Zeppelin",
+        "slug": "led-zeppelin",
+        "term_group": 0,
+        "term_taxonomy_id": 4751,
+        "taxonomy": "category",
+        "description": "Led Zeppelin were an English rock band.",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      }
+    ],
+    "artistimage1": false,
+    "artistdied": "",
+    "Occupation": [
+      {
+        "value": "singer",
+        "label": "Singer"
+      },
+      {
+        "value": "songwriter",
+        "label": "Songwriter"
+      }
+    ],
+    "related_artists": "",
+    "spotify_artist_id": "1OwarW4LEHnoep20ixRA0y",
+    "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174fa79a501274aae1d9de3a201",
+    "spotify_artist_images_s": "",
+    "youtube_channel": "UCHf6xoVS5t0M5n79WPnHrdw",
+    "wikipedia_page": "Robert_Plant"
+  },
+  "the_prefix": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories/7025",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+      }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=7025"
+      },
+      {
+        "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=7025"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "thePrefix": "",
+  "artistjpname": "",
+  "spotifyArtistImages": "https://i.scdn.co/image/ab67616100005174fa79a501274aae1d9de3a201",
+  "artistActiveYearStart": "1965",
+  "occupation": "singer, songwriter"
+}

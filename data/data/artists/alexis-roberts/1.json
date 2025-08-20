@@ -1,0 +1,231 @@
+{
+  "artist": {
+    "id": 7037,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/alexis-roberts/",
+    "name": "Alexis Roberts",
+    "slug": "alexis-roberts",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/7037",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=7037"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=7037"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 103380,
+      "date": "2025-07-11T13:10:23",
+      "date_gmt": "2025-07-11T04:10:23",
+      "title": {
+        "rendered": "Falling"
+      },
+      "content": {
+        "rendered": "<p>Chris Lake, Bonobo, Alexis Roberts - Falling</p>\n",
+        "protected": false
+      },
+      "categories": [
+        7037,
+        2672,
+        1110
+      ],
+      "tags": [],
+      "genre": [
+        479
+      ],
+      "vocal": [
+        2851
+      ],
+      "style": [
+        2846
+      ],
+      "acf": {
+        "ytvideoid": "WT3T_L5uNMY",
+        "ytreleasedate": "2025/07/11",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": [
+          "1"
+        ],
+        "artist_order": "",
+        "spotify_track_id": "5LRyR8eIg7fSlH3GsdFqEi",
+        "spotify_release_date": "2025-07-11",
+        "spotify_name": "Falling",
+        "spotify_artists": "Chris Lake, Bonobo, Alexis Roberts",
+        "spotify_album": "Chemistry",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b273eef1231340b1f14dde4816f0",
+        "spotify_duration_ms": "250664",
+        "spotify_popularity": "66",
+        "spotify_danceability": "undefined",
+        "spotify_energy": "undefined",
+        "spotify_key": "undefined",
+        "spotify_loudness": "undefined",
+        "spotify_mode": "undefined",
+        "spotify_speechiness": "undefined",
+        "spotify_tempo": "undefined",
+        "spotify_valence": "undefined",
+        "spotify_acousticness": "undefined",
+        "spotify_instrumentalness": "undefined",
+        "spotify_time_signature": "undefined",
+        "spotify_liveness": "undefined",
+        "spotify_artists01": "Chris Lake",
+        "spotify_artists01_id": "5Igpc9iLZ3YGtKeYfSrrOE",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5eb95a592ff038e50ddfbf7df35",
+        "spotify_artists01_genres": "tech house, house, bass house",
+        "spotify_artists01_popularity": "74",
+        "spotify_artists02": "Bonobo",
+        "spotify_artists02_id": "0cmWgDlu9CwTgxPhf403hb",
+        "spotify_artists02_images": "https://i.scdn.co/image/ab6761610000e5ebb9a3462bde9f62d74aa50507",
+        "spotify_artists02_genres": "trip hop, downtempo, nu jazz, electronic",
+        "spotify_artists02_popularity": "67",
+        "spotify_artists03": "Alexis Roberts",
+        "spotify_artists03_id": "2GtBFxIWM3H6wRI2uzZvyt",
+        "spotify_artists03_images": "https://i.scdn.co/image/ab6761610000e5eb77610165908745531b51d48d",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "57",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/chris-lake-bonobo-alexis-roberts-falling.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 7037,
+            "name": "Alexis Roberts",
+            "slug": "alexis-roberts",
+            "acf": false,
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2672,
+            "name": "Bonobo",
+            "slug": "bonobo",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "1999",
+              "artistborn": "19760330",
+              "artistdied": "",
+              "artistjpname": "ボノボ",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "",
+              "spotify_artist_id": "3CA7lyKUkVtDuaZjqYb6nH",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174417385b98120737258bc1977"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 1110,
+            "name": "Chris Lake",
+            "slug": "chris-lake",
+            "acf": {
+              "artistorigin": "UK",
+              "artistactiveyearstart": "2002",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "クリス・レイク",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "dj",
+                  "label": "DJ"
+                },
+                {
+                  "value": "producer",
+                  "label": "Producer"
+                }
+              ],
+              "related_artists": "Anti Up | Noizu | Chris Lorenzo | Wax Motif | Dombresky | Matroda | Walker & Royce | SIDEPIECE | AC Slater | Biscits | Mau P (mau-p) | Aatig (aatig) | Dom Dolla (dom-dolla) | John Summit (john-summit) | Malaa | J. Worra | Odd Mob | Tchami | Aluna (aluna) | Fisher (fisher)",
+              "spotify_artist_id": "5Igpc9iLZ3YGtKeYfSrrOE",
+              "spotify_artist_images": "https://i.scdn.co/image/ab676161000051743c4c752f83e79a2f4f84341b"
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "Chris Lake, Bonobo, Alexis Roberts",
+        "ytvideoid": "WT3T_L5uNMY",
+        "spotify_track_id": "5LRyR8eIg7fSlH3GsdFqEi"
+      },
+      "genre_data": [
+        {
+          "name": "Deep house",
+          "slug": "deep-house",
+          "term_id": 479,
+          "post_count": 95
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        }
+      ],
+      "slug": "falling-3"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}

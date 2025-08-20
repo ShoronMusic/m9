@@ -1,0 +1,190 @@
+{
+  "artist": {
+    "id": 1489,
+    "count": 41,
+    "description": "Maroon 5 is an American pop rock band.",
+    "link": "https://sub.music8.jp/category/maroon-5/",
+    "name": "Maroon 5",
+    "slug": "maroon-5",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "1994",
+      "artistborn": "",
+      "artistdied": "",
+      "artistjpname": "マルーン5",
+      "member": false,
+      "artistimage1": false
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/1489",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=1489"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=1489"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 9508,
+      "date": "2002-07-01T16:14:00",
+      "date_gmt": "2002-07-01T07:14:00",
+      "title": {
+        "rendered": "Harder To Breathe"
+      },
+      "content": {
+        "rendered": "<p>Maroon 5 - Harder To Breathe</p>\n",
+        "protected": false
+      },
+      "categories": [
+        1489
+      ],
+      "tags": [],
+      "genre": [
+        527,
+        658
+      ],
+      "vocal": [
+        2866
+      ],
+      "style": [
+        2844
+      ],
+      "acf": {
+        "likecount": "0",
+        "artist_order": null,
+        "spotify_track_id": "4V9JDRqKjN8F2HWdlEDxvI",
+        "spotify_release_date": "2002",
+        "spotify_name": "Harder To Breathe",
+        "spotify_artists": "Maroon 5",
+        "spotify_album": "Songs About Jane: 10th Anniversary Edition",
+        "spotify_images": "https://i.scdn.co/image/ab67616d0000b27392f2d790c6a97b195f66d51e",
+        "spotify_duration_ms": "173693",
+        "spotify_popularity": "66",
+        "spotify_danceability": "0.662",
+        "spotify_energy": "0.908",
+        "spotify_key": "1",
+        "spotify_loudness": "-4.764",
+        "spotify_mode": "0",
+        "spotify_speechiness": "0.0449",
+        "spotify_tempo": "149.941",
+        "spotify_valence": "0.967",
+        "spotify_acousticness": "0.0506",
+        "spotify_instrumentalness": "0",
+        "spotify_time_signature": "4",
+        "spotify_liveness": "0.0508",
+        "spotify_artists01": "Maroon 5",
+        "spotify_artists01_id": "04gDigrS5kc9YWfZHwBETP",
+        "spotify_artists01_images": "https://i.scdn.co/image/ab6761610000e5ebf8349dfb619a7f842242de77",
+        "spotify_artists01_genres": "pop",
+        "spotify_artists01_popularity": "83",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": "",
+        "ytvideoid": "XPpTgCho5ZA",
+        "ytreleasedate": "",
+        "pvstyle": null
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Maroon-5-Harder-To-Breathe.webp",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 1489,
+            "name": "Maroon 5",
+            "slug": "maroon-5",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "1994",
+              "artistborn": "",
+              "artistdied": "",
+              "artistjpname": "マルーン5",
+              "member": false,
+              "artistimage1": false
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": null,
+        "spotify_artists": "Maroon 5",
+        "ytvideoid": "XPpTgCho5ZA",
+        "spotify_track_id": "4V9JDRqKjN8F2HWdlEDxvI"
+      },
+      "genre_data": [
+        {
+          "name": "Funk rock",
+          "slug": "funk-rock",
+          "term_id": 527,
+          "post_count": 154
+        },
+        {
+          "name": "Pop rock",
+          "slug": "pop-rock",
+          "term_id": 658,
+          "post_count": 2084
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "harder-to-breathe"
+    }
+  ],
+  "totalSongs": 41,
+  "totalPages": 3,
+  "currentPage": 3
+}

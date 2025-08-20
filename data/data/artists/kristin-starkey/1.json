@@ -1,0 +1,238 @@
+{
+  "artist": {
+    "id": 7156,
+    "count": 1,
+    "description": "",
+    "link": "https://sub.music8.jp/category/kristin-starkey/",
+    "name": "Kristin Starkey",
+    "slug": "kristin-starkey",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": {
+      "artistorigin": "US",
+      "artistactiveyearstart": "",
+      "artistborn": "",
+      "artistjpname": "",
+      "member": false,
+      "artistimage1": false,
+      "artistdied": "",
+      "Occupation": [],
+      "related_artists": "",
+      "spotify_artist_id": "4rtF23eX80Lfnp6Ws0a27d",
+      "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e2c77992cf2235a2d5f18908",
+      "spotify_artist_images_s": "",
+      "youtube_channel": "",
+      "wikipedia_page": ""
+    },
+    "the_prefix": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories/7156",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/posts?categories=7156"
+        },
+        {
+          "href": "https://sub.music8.jp/wp-json/wp/v2/playlist?categories=7156"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "songs": [
+    {
+      "id": 105164,
+      "date": "2025-08-08T23:15:24",
+      "date_gmt": "2025-08-08T14:15:24",
+      "title": {
+        "rendered": "MAMA I’M COMING HOME  (Ozzy Osbourne tribute)"
+      },
+      "content": {
+        "rendered": "<p>Tommy Johansson, KristinStarkey‬ - MAMA I’M COMING HOME (Ozzy Osbourne tribute)</p>\n",
+        "protected": false
+      },
+      "categories": [
+        7156,
+        2421
+      ],
+      "tags": [],
+      "genre": [
+        553
+      ],
+      "vocal": [
+        2851,
+        2866
+      ],
+      "style": [
+        6703
+      ],
+      "acf": {
+        "ytvideoid": "K-A-x-RoVJ0",
+        "ytreleasedate": "2025/08/08",
+        "pvstyle": [
+          "pv"
+        ],
+        "likecount": [
+          "1"
+        ],
+        "artist_order": "",
+        "spotify_track_id": "",
+        "spotify_release_date": "",
+        "spotify_name": "undefined",
+        "spotify_artists": "",
+        "spotify_album": "",
+        "spotify_images": "",
+        "spotify_duration_ms": "",
+        "spotify_popularity": "",
+        "spotify_danceability": "",
+        "spotify_energy": "",
+        "spotify_key": "",
+        "spotify_loudness": "",
+        "spotify_mode": "",
+        "spotify_speechiness": "",
+        "spotify_tempo": "",
+        "spotify_valence": "",
+        "spotify_acousticness": "",
+        "spotify_instrumentalness": "",
+        "spotify_time_signature": "",
+        "spotify_liveness": "",
+        "spotify_artists01": "",
+        "spotify_artists01_id": "",
+        "spotify_artists01_images": "",
+        "spotify_artists01_genres": "",
+        "spotify_artists01_popularity": "",
+        "spotify_artists02": "",
+        "spotify_artists02_id": "",
+        "spotify_artists02_images": "",
+        "spotify_artists02_genres": "",
+        "spotify_artists02_popularity": "",
+        "spotify_artists03": "",
+        "spotify_artists03_id": "",
+        "spotify_artists03_images": "",
+        "spotify_artists03_genres": "",
+        "spotify_artists03_popularity": "",
+        "spotify_artists04": "",
+        "spotify_artists04_id": "",
+        "spotify_artists04_images": "",
+        "spotify_artists04_genres": "",
+        "spotify_artists04_popularitys": "",
+        "potify_artists05": "",
+        "spotify_artists05_id": "",
+        "spotify_artists05_images": "",
+        "spotify_artists05_genres": "",
+        "spotify_artists05_popularity": ""
+      },
+      "featured_media_url": "https://sub.music8.jp/wp-content/uploads/Tommy-Johansson-KristinStarkey‬-MAMA-IM-COMING-HOME.jpg",
+      "custom_fields": {
+        "categories": [
+          {
+            "id": 7156,
+            "name": "Kristin Starkey",
+            "slug": "kristin-starkey",
+            "acf": {
+              "artistorigin": "US",
+              "artistactiveyearstart": "",
+              "artistborn": "",
+              "artistjpname": "",
+              "member": false,
+              "artistimage1": false,
+              "artistdied": "",
+              "Occupation": [],
+              "related_artists": "",
+              "spotify_artist_id": "4rtF23eX80Lfnp6Ws0a27d",
+              "spotify_artist_images": "https://i.scdn.co/image/ab67616100005174e2c77992cf2235a2d5f18908",
+              "spotify_artist_images_s": "",
+              "youtube_channel": "",
+              "wikipedia_page": ""
+            },
+            "artist_origin": null,
+            "prefix": ""
+          },
+          {
+            "id": 2421,
+            "name": "Tommy Johansson",
+            "slug": "tommy-johansson",
+            "acf": {
+              "artistorigin": "SWE",
+              "artistactiveyearstart": "",
+              "artistborn": "19871026",
+              "artistdied": "",
+              "artistjpname": "トミー・ヨハンソン",
+              "member": false,
+              "artistimage1": false,
+              "Occupation": [
+                {
+                  "value": "singer",
+                  "label": "Singer"
+                },
+                {
+                  "value": "musician",
+                  "label": "Musician"
+                },
+                {
+                  "value": "guitaristr",
+                  "label": "Guitarist"
+                }
+              ]
+            },
+            "artist_origin": null,
+            "prefix": ""
+          }
+        ],
+        "artist_order": "",
+        "spotify_artists": "",
+        "ytvideoid": "K-A-x-RoVJ0",
+        "spotify_track_id": ""
+      },
+      "genre_data": [
+        {
+          "name": "Hard rock",
+          "slug": "hard-rock",
+          "term_id": 553,
+          "post_count": 680
+        }
+      ],
+      "vocal_data": [
+        {
+          "name": "F",
+          "slug": "female",
+          "term_id": 2851
+        },
+        {
+          "name": "M",
+          "slug": "male",
+          "term_id": 2866
+        }
+      ],
+      "slug": "mama-im-coming-home-ozzy-osbourne-tribute"
+    }
+  ],
+  "totalSongs": 1,
+  "totalPages": 1,
+  "currentPage": 1
+}
