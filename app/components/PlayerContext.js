@@ -125,11 +125,45 @@ export const PlayerProvider = ({ children }) => {
     
     // 保存された状態もクリア
     sessionStorage.removeItem('tunedive_player_state');
+    localStorage.removeItem('tunedive_player_state');
     sessionStorage.removeItem('spotify_auth_error');
     sessionStorage.removeItem('spotify_device_error');
     
     // 開発環境でのログを削除
   }, []); // 空の依存配列で初回のみ実行
+
+  // ページ離脱時の状態保存
+  useEffect(() => {
+    const handleBeforeUnload = () => {
+      if (currentTrack && session) {
+        const playerState = {
+          currentTrack,
+          currentTrackIndex,
+          isPlaying,
+          position,
+          volume,
+          isMuted,
+          trackListSource: currentTrackListSource.current,
+          timestamp: Date.now()
+        };
+        
+        try {
+          // ページ離脱時に即座に保存
+          sessionStorage.setItem('tunedive_player_state', JSON.stringify(playerState));
+          localStorage.setItem('tunedive_player_state', JSON.stringify(playerState));
+        } catch (error) {
+          console.error('Failed to save player state on page unload:', error);
+        }
+      }
+    };
+
+    // ページ離脱時のイベントを監視
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+    };
+  }, [currentTrack, currentTrackIndex, isPlaying, position, volume, isMuted, session]);
 
   // デバイス情報の初期化
   useEffect(() => {
@@ -239,7 +273,9 @@ export const PlayerProvider = ({ children }) => {
           timestamp: Date.now()
         };
         try {
+          // sessionStorageとlocalStorageの両方に保存（より堅牢に）
           sessionStorage.setItem('tunedive_player_state', JSON.stringify(playerState));
+          localStorage.setItem('tunedive_player_state', JSON.stringify(playerState));
           
           // Service Workerにも送信
           updatePlayerStateInSW(playerState);
@@ -254,6 +290,61 @@ export const PlayerProvider = ({ children }) => {
     // 状態変更時に永続化
     savePlayerState();
   }, [currentTrack, currentTrackIndex, isPlaying, position, volume, isMuted]);
+
+  // ページ可視性変更時の状態保存を強化
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      const isVisible = !document.hidden;
+      setIsPageVisible(isVisible);
+      
+      if (!isVisible) {
+        // ページが非表示になった時
+        setWasPlayingBeforeHidden(isPlaying);
+        console.log('Page hidden, was playing:', isPlaying);
+        
+        // 状態を即座に保存
+        if (currentTrack) {
+          const playerState = {
+            currentTrack,
+            currentTrackIndex,
+            isPlaying,
+            position,
+            volume,
+            isMuted,
+            trackListSource: currentTrackListSource.current,
+            timestamp: Date.now()
+          };
+          
+          try {
+            // 両方のストレージに保存
+            sessionStorage.setItem('tunedive_player_state', JSON.stringify(playerState));
+            localStorage.setItem('tunedive_player_state', JSON.stringify(playerState));
+            
+            // Service Workerにも送信
+            updatePlayerStateInSW(playerState);
+          } catch (error) {
+            console.error('Failed to save player state on page hide:', error);
+          }
+        }
+      } else {
+        // ページが表示された時
+        console.log('Page visible, was playing before hidden:', wasPlayingBeforeHidden);
+        if (wasPlayingBeforeHidden && currentTrack) {
+          // 非表示前に再生中だった場合は再生を再開
+          setTimeout(() => {
+            setIsPlaying(true);
+          }, 500); // 少し遅延を入れて安定化
+        }
+      }
+    };
+
+    // ページの可視性変更イベントを監視
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, [isPlaying, wasPlayingBeforeHidden, currentTrack, currentTrackIndex, position, volume, isMuted]);
 
   // ページ読み込み時の状態復元
   useEffect(() => {
@@ -293,16 +384,28 @@ export const PlayerProvider = ({ children }) => {
           }
         }
         
-        // Service Workerから取得できない場合はsessionStorageから
+        // Service Workerから取得できない場合はストレージから
         if (!playerState) {
-          const savedState = sessionStorage.getItem('tunedive_player_state');
+          // まずsessionStorageから試行
+          let savedState = sessionStorage.getItem('tunedive_player_state');
+          
+          // sessionStorageにない場合はlocalStorageから試行
+          if (!savedState) {
+            savedState = localStorage.getItem('tunedive_player_state');
+          }
+          
           if (savedState) {
-            playerState = JSON.parse(savedState);
-            const now = Date.now();
-            const timeDiff = now - playerState.timestamp;
-            
-            // 30分以内の状態のみ復元
-            if (timeDiff >= 30 * 60 * 1000) {
+            try {
+              playerState = JSON.parse(savedState);
+              const now = Date.now();
+              const timeDiff = now - playerState.timestamp;
+              
+              // 30分以内の状態のみ復元
+              if (timeDiff >= 30 * 60 * 1000) {
+                playerState = null;
+              }
+            } catch (error) {
+              console.error('Failed to parse saved player state:', error);
               playerState = null;
             }
           }
