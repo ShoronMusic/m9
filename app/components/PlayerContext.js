@@ -545,13 +545,26 @@ export const PlayerProvider = ({ children }) => {
       
       console.log('✅ PlayerContext - New track state set successfully');
       
+      // SpotifyPlayerに再生指示を送信
+      if (spotifyPlayerRef.current && spotifyPlayerRef.current.playNewTrack) {
+        const spotifyTrackId = newTrack.spotify_track_id;
+        if (spotifyTrackId) {
+          console.log('🎵 PlayerContext - Triggering Spotify playback for track:', spotifyTrackId);
+          spotifyPlayerRef.current.playNewTrack(spotifyTrackId);
+        } else {
+          console.warn('⚠️ PlayerContext - No Spotify track ID available for playback');
+        }
+      } else {
+        console.warn('⚠️ PlayerContext - SpotifyPlayer not ready or playNewTrack method not available');
+      }
+      
       // 視聴履歴追跡を開始（重複を防ぐため一度だけ呼び出し）
       if (playTracker && session?.user?.id) {
         console.log('📊 PlayerContext - Starting play tracking with source:', normalizedSource);
         playTracker.startTracking(newTrack, track.id, normalizedSource);
       }
     });
-  }, [playTracker, session, currentTrack, trackList]);
+  }, [playTracker, session, currentTrack, trackList, spotifyPlayerRef]);
 
   const togglePlay = useCallback(() => {
     if (!stateRef.current.currentTrack) {

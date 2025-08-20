@@ -142,10 +142,10 @@
     justify-content: center;
 }
 .controlButton img, .muteButton img {
-    height: 20px;
+    height: 32px;
     transition: transform 0.2s ease-in-out;
 }
-.controlButton:hover img, .muteButton:hover img {
+.controlButton:hover img, .muteButton:hover img, .playPauseButton:hover img {
     transform: scale(1.1);
 }
 .playPauseButton img {
@@ -179,6 +179,12 @@
         row-gap: 0.5rem;
         column-gap: 1rem; /* Mobile-specific gap */
     }
+    
+    /* モバイルでの操作ボタンの配置を最適化 */
+    .centerControls {
+        gap: 1.5rem; /* ボタン間の間隔を広げる */
+        min-width: 200px; /* 最小幅を設定して中央配置を確保 */
+    }
 
     /* --- Row 1 --- */
     .trackInfo {
@@ -188,7 +194,8 @@
     .centerControls {
         order: 2;
         flex: 0 0 auto; /* Size based on content, no growing/shrinking */
-        justify-content: flex-end;
+        justify-content: center; /* 中央に配置 */
+        flex: 1; /* 利用可能なスペースを使用 */
     }
     
     /* --- Row 2 --- */
@@ -279,6 +286,12 @@
     
     .volumeContainer {
         gap: 0.25rem;
+    }
+    
+    /* 小さい画面での操作ボタンの配置調整 */
+    .centerControls {
+        min-width: 180px; /* 最小幅を調整 */
+        gap: 1.2rem; /* ボタン間の間隔を調整 */
     }
 }
 

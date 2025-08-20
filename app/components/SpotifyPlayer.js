@@ -592,6 +592,13 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       if (playerRef.current && isReady) {
         playerRef.current.setVolume(volume);
       }
+    },
+    playNewTrack: (trackId) => {
+      if (isReady && deviceId) {
+        playNewTrack(trackId);
+      } else {
+        console.warn('SpotifyPlayer not ready or device ID not available');
+      }
     }
   }));
 
