@@ -52,8 +52,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem; /* ボタン間の間隔を広げる */
     flex: 0 1 auto;
+    min-width: 200px; /* 最小幅を設定 */
 }
 .rightControls {
     display: flex;
@@ -140,16 +141,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 48px; /* ボタンの最小幅を設定 */
+    min-height: 48px; /* ボタンの最小高さを設定 */
 }
 .controlButton img, .muteButton img {
-    height: 20px;
+    height: 28px; /* ボタンサイズを大きく */
     transition: transform 0.2s ease-in-out;
 }
 .controlButton:hover img, .muteButton:hover img {
     transform: scale(1.1);
 }
 .playPauseButton img {
-    height: 32px; /* Set a larger height for the play/pause icon */
+    height: 40px; /* 再生/一時停止ボタンをさらに大きく */
 }
 
 .volumeButton {
@@ -187,8 +190,10 @@
     }
     .centerControls {
         order: 2;
-        flex: 0 0 auto; /* Size based on content, no growing/shrinking */
-        justify-content: flex-end;
+        flex: 1; /* 利用可能なスペースを取る */
+        justify-content: center; /* 中央揃え */
+        min-width: 250px; /* モバイル時の最小幅を広げる */
+        gap: 2rem; /* モバイル時はボタン間隔を広げる */
     }
     
     /* --- Row 2 --- */
@@ -244,10 +249,29 @@
     min-width: 0; /* 最小幅を0に */
     flex-direction: row; /* 横並びを明示的に指定 */
 }
+
+    /* モバイル時のボタンサイズ調整 */
+    .controlButton, .muteButton {
+        min-width: 56px; /* モバイル時はさらに大きく */
+        min-height: 56px;
+    }
+    
+    .controlButton img, .muteButton img {
+        height: 32px; /* モバイル時のボタンアイコンサイズ */
+    }
+    
+    .playPauseButton img {
+        height: 44px; /* モバイル時の再生/一時停止ボタンサイズ */
+    }
 }
 
 /* さらに小さい画面サイズ用 */
 @media (max-width: 480px) {
+    .centerControls {
+        min-width: 220px; /* 小さい画面でも十分な幅を確保 */
+        gap: 1.5rem; /* ボタン間隔を調整 */
+    }
+    
     .rightControls {
         gap: 0.25rem; /* より狭い間隔 */
     }
@@ -279,6 +303,20 @@
     
     .volumeContainer {
         gap: 0.25rem;
+    }
+    
+    /* 小さい画面でのボタンサイズ調整 */
+    .controlButton, .muteButton {
+        min-width: 52px; /* 小さい画面でも十分なサイズ */
+        min-height: 52px;
+    }
+    
+    .controlButton img, .muteButton img {
+        height: 30px; /* 小さい画面でのボタンアイコンサイズ */
+    }
+    
+    .playPauseButton img {
+        height: 40px; /* 小さい画面での再生/一時停止ボタンサイズ */
     }
 }
 
