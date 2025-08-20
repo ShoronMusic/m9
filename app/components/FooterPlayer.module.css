@@ -145,10 +145,10 @@
     min-height: 48px; /* ボタンの最小高さを設定 */
 }
 .controlButton img, .muteButton img {
-    height: 28px; /* ボタンサイズを大きく */
+    height: 32px; /* ボタンサイズを大きく */
     transition: transform 0.2s ease-in-out;
 }
-.controlButton:hover img, .muteButton:hover img {
+.controlButton:hover img, .muteButton:hover img, .playPauseButton:hover img {
     transform: scale(1.1);
 }
 .playPauseButton img {
@@ -181,6 +181,12 @@
         flex-wrap: wrap;
         row-gap: 0.5rem;
         column-gap: 1rem; /* Mobile-specific gap */
+    }
+    
+    /* モバイルでの操作ボタンの配置を最適化 */
+    .centerControls {
+        gap: 1.5rem; /* ボタン間の間隔を広げる */
+        min-width: 200px; /* 最小幅を設定して中央配置を確保 */
     }
 
     /* --- Row 1 --- */
@@ -242,13 +248,13 @@
     }
 
     .volumeContainer {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    flex-shrink: 0; /* 縮小しないように */
-    min-width: 0; /* 最小幅を0に */
-    flex-direction: row; /* 横並びを明示的に指定 */
-}
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-shrink: 0; /* 縮小しないように */
+        min-width: 0; /* 最小幅を0に */
+        flex-direction: row; /* 横並びを明示的に指定 */
+    }
 
     /* モバイル時のボタンサイズ調整 */
     .controlButton, .muteButton {
@@ -303,6 +309,12 @@
     
     .volumeContainer {
         gap: 0.25rem;
+    }
+    
+    /* 小さい画面での操作ボタンの配置調整 */
+    .centerControls {
+        min-width: 180px; /* 最小幅を調整 */
+        gap: 1.2rem; /* ボタン間の間隔を調整 */
     }
     
     /* 小さい画面でのボタンサイズ調整 */

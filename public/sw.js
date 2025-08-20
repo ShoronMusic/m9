@@ -64,6 +64,60 @@ self.addEventListener('message', (event) => {
       })
     );
   }
+  
+  // キャッシュクリアの処理
+  if (event.data && event.data.type === 'CLEAR_CACHE') {
+    event.waitUntil(
+      caches.keys().then((cacheNames) => {
+        return Promise.all(
+          cacheNames.map((cacheName) => {
+            console.log('Clearing cache:', cacheName);
+            return caches.delete(cacheName);
+          })
+        );
+      }).then(() => {
+        // 新しいキャッシュを作成
+        return caches.open(CACHE_NAME);
+      }).then((cache) => {
+        // 基本的なファイルのみキャッシュ
+        return cache.addAll([
+          '/',
+          '/offline.html',
+          '/manifest.json'
+        ]);
+      }).then(() => {
+        console.log('Cache cleared successfully');
+        // クリア完了を通知
+        event.ports[0].postMessage({ type: 'CACHE_CLEARED', success: true });
+      }).catch((error) => {
+        console.error('Cache clear failed:', error);
+        event.ports[0].postMessage({ type: 'CACHE_CLEARED', success: false, error: error.message });
+      })
+    );
+  }
+  
+  // 画像キャッシュのみクリア
+  if (event.data && event.data.type === 'CLEAR_IMAGE_CACHE') {
+    event.waitUntil(
+      caches.keys().then((cacheNames) => {
+        return Promise.all(
+          cacheNames.map((cacheName) => {
+            if (cacheName.includes('image') || cacheName.includes('thumbnail')) {
+              console.log('Clearing image cache:', cacheName);
+              return caches.delete(cacheName);
+            }
+            return Promise.resolve();
+          })
+        );
+      }).then(() => {
+        console.log('Image cache cleared successfully');
+        event.ports[0].postMessage({ type: 'IMAGE_CACHE_CLEARED', success: true });
+      }).catch((error) => {
+        console.error('Image cache clear failed:', error);
+        event.ports[0].postMessage({ type: 'IMAGE_CACHE_CLEARED', success: false, error: error.message });
+      })
+    );
+  }
 });
 
 // フェッチ時の処理
