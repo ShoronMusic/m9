@@ -18,6 +18,7 @@
     width: 100%;
     padding-bottom: 0.75rem;
     cursor: pointer;
+    margin-bottom: 0.5rem; /* プログレスバーとサムネイルの間隔を追加 */
 }
 .progressBar {
     width: 100%;
@@ -52,7 +53,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem; /* ボタン間の間隔を広げる */
+    gap: 1rem; /* ボタン間の間隔を狭く */
     flex: 0 1 auto;
     min-width: 200px; /* 最小幅を設定 */
 }
@@ -93,6 +94,10 @@
     display: flex;
     align-items: center;
     height: 24px;
+    flex-shrink: 0; /* 縮小しない */
+    min-width: 80px; /* 時間表示の最小幅を調整 */
+    text-align: right; /* 右寄せで固定 */
+    margin-left: 8px; /* ボリュームスライダーとの間隔を追加 */
 }
 
 .volumeControlContainer {
@@ -102,7 +107,11 @@
     height: 24px;
     flex-direction: row; /* 横並びを明示的に指定 */
     flex-wrap: nowrap; /* 改行を絶対に防ぐ */
+    flex-shrink: 0; /* ボリュームコントロールは縮小しない */
+    min-width: 140px; /* ボリュームコントロールの最小幅を調整 */
+    position: relative; /* 位置を固定 */
 }
+
 .volumeSlider {
     width: 100px;
     height: 4px;
@@ -113,6 +122,8 @@
     outline: none;
     cursor: pointer;
     align-self: center;
+    flex-shrink: 0; /* スライダーは縮小しない */
+    margin-left: 0; /* スピーカーアイコンとの間隔を削除 */
 }
 
 .volumeSlider::-webkit-slider-thumb {
@@ -133,6 +144,7 @@
     cursor: pointer;
     border: none;
 }
+
 .controlButton, .muteButton, .volumeButton {
     background: none;
     border: none;
@@ -144,13 +156,16 @@
     min-width: 48px; /* ボタンの最小幅を設定 */
     min-height: 48px; /* ボタンの最小高さを設定 */
 }
+
 .controlButton img, .muteButton img {
     height: 32px; /* ボタンサイズを大きく */
     transition: transform 0.2s ease-in-out;
 }
+
 .controlButton:hover img, .muteButton:hover img, .playPauseButton:hover img {
     transform: scale(1.1);
 }
+
 .playPauseButton img {
     height: 40px; /* 再生/一時停止ボタンをさらに大きく */
 }
@@ -164,6 +179,8 @@
     height: 24px;
     padding: 0;
     align-self: center;
+    position: static; /* 絶対位置を解除して通常のフローに戻す */
+    z-index: 1; /* z-indexを下げる */
 }
 
 .controlButton[disabled] {
@@ -177,6 +194,7 @@
     .playerContainer {
         padding: 0.75rem 1rem;
     }
+    
     .bottomControls {
         flex-wrap: wrap;
         row-gap: 0.5rem;
@@ -185,31 +203,30 @@
     
     /* モバイルでの操作ボタンの配置を最適化 */
     .centerControls {
-        gap: 1.5rem; /* ボタン間の間隔を広げる */
-        min-width: 200px; /* 最小幅を設定して中央配置を確保 */
+        order: 2;
+        flex: 1; /* 利用可能なスペースを取る */
+        justify-content: center; /* 中央揃え */
+        min-width: 220px; /* モバイル時の最小幅を調整 */
+        gap: 1.5rem; /* モバイル時はボタン間隔を調整 */
     }
 
     /* --- Row 1 --- */
     .trackInfo {
         order: 1;
         flex: 1 1 auto; /* Allow this to take up available space */
-    }
-    .centerControls {
-        order: 2;
-        flex: 1; /* 利用可能なスペースを取る */
-        justify-content: center; /* 中央揃え */
-        min-width: 250px; /* モバイル時の最小幅を広げる */
-        gap: 2rem; /* モバイル時はボタン間隔を広げる */
+        flex-direction: column; /* 縦並びに変更 */
+        align-items: flex-start; /* 左寄せに変更 */
+        gap: 0.5rem; /* 間隔を調整 */
     }
     
     /* --- Row 2 --- */
     .rightControls {
         order: 3;
         flex-basis: 100%;
-        justify-content: space-between;
+        justify-content: flex-end; /* 右寄せに変更 */
         display: flex;
         align-items: center;
-        gap: 0.25rem; /* 間隔を狭く */
+        gap: 0.5rem; /* 間隔を調整 */
         flex-wrap: nowrap; /* 改行を防ぐ */
         overflow: hidden; /* はみ出しを隠す */
     }
@@ -218,42 +235,29 @@
         display: block; /* Ensure artist name is visible on mobile */
     }
 
-    .volumeSlider {
-        display: block; /* Ensure volume slider is visible */
-        width: 80px; /* スマホ時は少し狭く */
-        flex-shrink: 0; /* 縮小しない */
-    }
-
     .timeDisplay {
         font-size: 0.75rem; /* スマホ時は少し小さく */
         white-space: nowrap;
         flex-shrink: 0; /* 縮小しない */
+        min-width: 70px; /* 時間表示の最小幅を調整 */
+        text-align: left; /* 左寄せに変更 */
+        margin-left: 0; /* 左マージンを削除 */
+        order: 2; /* サムネイルの下に配置 */
     }
 
-    /* スマホ時はボリュームアイコンとボリュームバーを近づける */
-    .volumeButton {
-        margin-right: 0; /* ボリュームバーとの間隔を完全に削除 */
-        padding-right: 0; /* 右側のパディングも削除 */
-    }
-    
-    /* ボリュームスライダーの左マージンを削除 */
     .volumeSlider {
-        margin-left: 0;
-        padding-left: 0; /* 左側のパディングも削除 */
-    }
-    
-    /* rightControlsのgapをさらに狭く */
-    .rightControls {
-        gap: 0.1rem; /* 間隔を最小限に */
+        display: block; /* Ensure volume slider is visible */
+        width: 80px; /* スマホ時は少し狭く */
+        flex-shrink: 0; /* 縮小しない */
+        margin-left: 0; /* スピーカーアイコンとの間隔を削除 */
     }
 
-    .volumeContainer {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        flex-shrink: 0; /* 縮小しないように */
-        min-width: 0; /* 最小幅を0に */
-        flex-direction: row; /* 横並びを明示的に指定 */
+    /* ボリュームコントロールの固定 */
+    .volumeControlContainer {
+        min-width: 120px; /* モバイル時の最小幅を調整 */
+        gap: 0.3rem; /* モバイル時は間隔を狭く */
+        position: relative; /* 位置を固定 */
+        justify-content: flex-end; /* 右寄せに変更 */
     }
 
     /* モバイル時のボタンサイズ調整 */
@@ -274,47 +278,33 @@
 /* さらに小さい画面サイズ用 */
 @media (max-width: 480px) {
     .centerControls {
-        min-width: 220px; /* 小さい画面でも十分な幅を確保 */
-        gap: 1.5rem; /* ボタン間隔を調整 */
+        min-width: 180px; /* 最小幅を調整 */
+        gap: 0.8rem; /* ボタン間の間隔をさらに狭く */
     }
     
     .rightControls {
-        gap: 0.25rem; /* より狭い間隔 */
+        gap: 0.5rem; /* 間隔を調整 */
+        justify-content: flex-end; /* 右寄せに変更 */
     }
     
     .volumeSlider {
         width: 60px; /* さらに狭く */
+        margin-left: 0; /* スピーカーアイコンとの間隔を削除 */
     }
     
     .timeDisplay {
         font-size: 0.7rem; /* さらに小さく */
+        min-width: 60px; /* 小さい画面での最小幅を調整 */
+        margin-left: 0; /* 左マージンを削除 */
+        text-align: left; /* 左寄せに変更 */
     }
     
-    /* さらに小さい画面ではボリュームアイコンとボリュームバーをさらに近づける */
-    .volumeButton {
-        margin-right: 0; /* 間隔を完全に削除 */
-        padding-right: 0; /* 右側のパディングも削除 */
-    }
-    
-    /* ボリュームスライダーの左マージンを削除 */
-    .volumeSlider {
-        margin-left: 0;
-        padding-left: 0; /* 左側のパディングも削除 */
-    }
-    
-    /* rightControlsのgapをさらに狭く */
-    .rightControls {
-        gap: 0.05rem; /* 間隔を最小限に */
-    }
-    
-    .volumeContainer {
-        gap: 0.25rem;
-    }
-    
-    /* 小さい画面での操作ボタンの配置調整 */
-    .centerControls {
-        min-width: 180px; /* 最小幅を調整 */
-        gap: 1.2rem; /* ボタン間の間隔を調整 */
+    /* ボリュームコントロールの固定（小さい画面） */
+    .volumeControlContainer {
+        min-width: 100px; /* 小さい画面での最小幅を調整 */
+        gap: 0.2rem; /* 小さい画面での間隔を調整 */
+        position: relative; /* 位置を固定 */
+        justify-content: flex-end; /* 右寄せに変更 */
     }
     
     /* 小さい画面でのボタンサイズ調整 */
