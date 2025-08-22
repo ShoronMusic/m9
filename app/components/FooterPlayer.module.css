@@ -195,130 +195,159 @@
         padding: 0.75rem 1rem;
     }
     
+    /* スマホ用の4ブロックレイアウト */
     .bottomControls {
-        flex-wrap: wrap;
-        row-gap: 0.5rem;
-        column-gap: 1rem; /* Mobile-specific gap */
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: auto auto;
+        gap: 0.5rem;
+        width: 100%;
     }
     
-    /* モバイルでの操作ボタンの配置を最適化 */
-    .centerControls {
-        order: 2;
-        flex: 1; /* 利用可能なスペースを取る */
-        justify-content: center; /* 中央揃え */
-        min-width: 220px; /* モバイル時の最小幅を調整 */
-        gap: 1.5rem; /* モバイル時はボタン間隔を調整 */
-    }
-
-    /* --- Row 1 --- */
+    /* 左上ブロック: サムネール + タイトル・アーティスト（左寄せ） */
     .trackInfo {
-        order: 1;
-        flex: 1 1 auto; /* Allow this to take up available space */
-        flex-direction: column; /* 縦並びに変更 */
-        align-items: flex-start; /* 左寄せに変更 */
-        gap: 0.5rem; /* 間隔を調整 */
+        grid-column: 1;
+        grid-row: 1;
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+        justify-content: flex-start;
     }
     
-    /* --- Row 2 --- */
-    .rightControls {
-        order: 3;
-        flex-basis: 100%;
-        justify-content: flex-end; /* 右寄せに変更 */
+    .trackDetails {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+    }
+    
+    .trackName, .artistName {
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+    }
+    
+    /* 右上ブロック: プレイヤーコントロール（中央配置） */
+    .centerControls {
+        grid-column: 2;
+        grid-row: 1;
         display: flex;
         align-items: center;
-        gap: 0.5rem; /* 間隔を調整 */
-        flex-wrap: nowrap; /* 改行を防ぐ */
-        overflow: hidden; /* はみ出しを隠す */
+        justify-content: center;
+        gap: 1rem;
+        min-width: auto;
     }
     
-    .artistName {
-        display: block; /* Ensure artist name is visible on mobile */
-    }
-
+    /* 左下ブロック: 秒数表示（左寄せ） */
     .timeDisplay {
-        font-size: 0.75rem; /* スマホ時は少し小さく */
-        white-space: nowrap;
-        flex-shrink: 0; /* 縮小しない */
-        min-width: 70px; /* 時間表示の最小幅を調整 */
-        text-align: left; /* 左寄せに変更 */
-        margin-left: 0; /* 左マージンを削除 */
-        order: 2; /* サムネイルの下に配置 */
+        grid-column: 1;
+        grid-row: 2;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 0.75rem;
+        color: #b3b3b3;
+        height: auto;
+        min-width: auto;
+        margin: 0;
+        padding-left: 0.75rem;
     }
-
-    .volumeSlider {
-        display: block; /* Ensure volume slider is visible */
-        width: 80px; /* スマホ時は少し狭く */
-        flex-shrink: 0; /* 縮小しない */
-        margin-left: 0; /* スピーカーアイコンとの間隔を削除 */
+    
+    /* 右下ブロック: スピーカーアイコン + ボリュームバー（右寄せ） */
+    .rightControls {
+        grid-column: 2;
+        grid-row: 2;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.5rem;
+        height: auto;
+        min-width: auto;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
-
-    /* ボリュームコントロールの固定 */
+    
     .volumeControlContainer {
-        min-width: 120px; /* モバイル時の最小幅を調整 */
-        gap: 0.3rem; /* モバイル時は間隔を狭く */
-        position: relative; /* 位置を固定 */
-        justify-content: flex-end; /* 右寄せに変更 */
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        min-width: auto;
+        justify-content: flex-end;
     }
-
-    /* モバイル時のボタンサイズ調整 */
+    
+    .volumeSlider {
+        width: 80px;
+        margin-left: 0;
+    }
+    
+    /* ボタンサイズ調整 */
     .controlButton, .muteButton {
-        min-width: 56px; /* モバイル時はさらに大きく */
-        min-height: 56px;
+        min-width: 48px;
+        min-height: 48px;
     }
     
     .controlButton img, .muteButton img {
-        height: 32px; /* モバイル時のボタンアイコンサイズ */
+        height: 28px;
     }
     
     .playPauseButton img {
-        height: 44px; /* モバイル時の再生/一時停止ボタンサイズ */
+        height: 36px;
+    }
+    
+    /* Spotifyリンクの調整 */
+    .spotifyLink {
+        margin-left: 0.5rem;
     }
 }
 
 /* さらに小さい画面サイズ用 */
 @media (max-width: 480px) {
-    .centerControls {
-        min-width: 180px; /* 最小幅を調整 */
-        gap: 0.8rem; /* ボタン間の間隔をさらに狭く */
+    .playerContainer {
+        padding: 0.5rem 0.75rem;
     }
     
-    .rightControls {
-        gap: 0.5rem; /* 間隔を調整 */
-        justify-content: flex-end; /* 右寄せに変更 */
+    .bottomControls {
+        gap: 0.4rem;
+    }
+    
+    .trackInfo {
+        gap: 0.5rem;
+    }
+    
+    .centerControls {
+        gap: 0.8rem;
     }
     
     .volumeSlider {
-        width: 60px; /* さらに狭く */
-        margin-left: 0; /* スピーカーアイコンとの間隔を削除 */
+        width: 60px;
     }
     
-    .timeDisplay {
-        font-size: 0.7rem; /* さらに小さく */
-        min-width: 60px; /* 小さい画面での最小幅を調整 */
-        margin-left: 0; /* 左マージンを削除 */
-        text-align: left; /* 左寄せに変更 */
-    }
-    
-    /* ボリュームコントロールの固定（小さい画面） */
-    .volumeControlContainer {
-        min-width: 100px; /* 小さい画面での最小幅を調整 */
-        gap: 0.2rem; /* 小さい画面での間隔を調整 */
-        position: relative; /* 位置を固定 */
-        justify-content: flex-end; /* 右寄せに変更 */
-    }
-    
-    /* 小さい画面でのボタンサイズ調整 */
     .controlButton, .muteButton {
-        min-width: 52px; /* 小さい画面でも十分なサイズ */
-        min-height: 52px;
+        min-width: 44px;
+        min-height: 44px;
     }
     
     .controlButton img, .muteButton img {
-        height: 30px; /* 小さい画面でのボタンアイコンサイズ */
+        height: 24px;
     }
     
     .playPauseButton img {
-        height: 40px; /* 小さい画面での再生/一時停止ボタンサイズ */
+        height: 32px;
+    }
+    
+    .timeDisplay {
+        font-size: 0.7rem;
+        padding-left: 0.5rem;
+    }
+    
+    .rightControls {
+        gap: 0.4rem;
+    }
+    
+    .volumeControlContainer {
+        gap: 0.4rem;
     }
 }
 
