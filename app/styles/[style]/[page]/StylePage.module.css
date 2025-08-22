@@ -61,4 +61,81 @@
 
 .artistLink:hover {
   color: #007bff;
+}
+
+/* ページ情報のスタイル - 改修前の見やすい装飾を復元 */
+.pageInfo {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.styleLabel {
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 2px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.styleTitle {
+  text-align: left;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin: 0;
+  color: #222;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.divider {
+  border-bottom: 2px solid #e0e0e0;
+  width: 60px;
+  margin: 12px 0 12px 0;
+}
+
+.pageDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.songCount {
+  font-size: 0.95em;
+  color: #555;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.pageNumber {
+  font-size: 0.9em;
+  color: #888;
+  display: block;
+}
+
+/* スマホ時のページ情報の左マージン */
+@media (max-width: 920px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  /* ページ情報（STYLE、Dance、全 X 曲中 Y - Z 曲を表示、ページ X / Y）に左マージンを追加 */
+  .pageInfo {
+    margin-left: 1rem;
+    padding-left: 1rem;
+  }
+  
+  .pageDetails {
+    gap: 8px;
+  }
+  
+  .songCount {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .pageNumber {
+    display: block;
+  }
 } 

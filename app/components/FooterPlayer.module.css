@@ -252,7 +252,8 @@
         height: auto;
         min-width: auto;
         margin: 0;
-        padding-left: 0.75rem;
+        padding-left: 0;
+        text-align: left;
     }
     
     /* 右下ブロック: スピーカーアイコン + ボリュームバー（右寄せ） */
@@ -337,10 +338,10 @@
         height: 32px;
     }
     
-    .timeDisplay {
-        font-size: 0.7rem;
-        padding-left: 0.5rem;
-    }
+         .timeDisplay {
+         font-size: 0.7rem;
+         padding-left: 0;
+     }
     
     .rightControls {
         gap: 0.4rem;

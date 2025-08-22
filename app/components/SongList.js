@@ -328,6 +328,55 @@ export default function SongList({
   const [trackToAdd, setTrackToAdd] = useState(null);
   const [userPlaylists, setUserPlaylists] = useState([]);
 
+  // スマホ時のアクティブ楽曲スクロール用
+  const [isMobile, setIsMobile] = useState(false);
+  const activeSongRef = useRef(null);
+
+  // モバイル判定
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 920);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  // アクティブな楽曲をプレイヤーの上100pxの位置にスクロール
+  useEffect(() => {
+    if (!isMobile || !player.currentTrack || !activeSongRef.current) return;
+
+    const scrollToActiveSong = () => {
+      const activeSongElement = activeSongRef.current;
+      if (!activeSongElement) return;
+
+      // プレイヤーの高さを取得（約140-150px）
+      const playerHeight = 150;
+      // プレイヤーの上100pxの位置を計算
+      const targetOffset = 100;
+      
+      // アクティブな楽曲の位置を取得
+      const songRect = activeSongElement.getBoundingClientRect();
+      const songTop = songRect.top + window.pageYOffset;
+      
+      // 目標位置を計算（プレイヤーの上100px）
+      const targetPosition = songTop - targetOffset;
+      
+      // スムーズにスクロール
+      window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth'
+      });
+    };
+
+    // 少し遅延を入れてスクロール実行（レンダリング完了後）
+    const timer = setTimeout(scrollToActiveSong, 100);
+    
+    return () => clearTimeout(timer);
+  }, [player.currentTrack, player.isPlaying, isMobile]);
+
   // Spotify Track IDsを抽出（ページ内の曲のみ）
   const trackIds = useMemo(() => {
     return songs
@@ -862,7 +911,12 @@ export default function SongList({
                 const isPlaying = player.currentTrack && player.currentTrack.id === song.id && player.isPlaying;
 
                 return (
-                  <li key={song.id + '-' + index} id={`song-${song.id}`} className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}>
+                  <li 
+                    key={song.id + '-' + index} 
+                    id={`song-${song.id}`} 
+                    className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}
+                    ref={isPlaying ? activeSongRef : null}
+                  >
                     <div className="ranking-thumbnail-container">
                       {/* ランキング表示が必要ならここに */}
                     </div>

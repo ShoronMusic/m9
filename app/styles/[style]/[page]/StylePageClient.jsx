@@ -192,28 +192,22 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
   }, [songs, likeRefreshKey]);
 
   return (
-    <div className={styles.container} style={{ padding: 20 }}>
-      <div style={{ textAlign: 'left', marginBottom: '24px' }}>
-        <div style={{ fontSize: '0.85em', color: '#888', marginBottom: '2px', fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+    <div className={styles.container}>
+      <div className={styles.pageInfo} style={{ marginLeft: '1rem', paddingLeft: '1rem' }}>
+        <div className={styles.styleLabel} style={{ fontSize: '0.85em', color: '#888', marginBottom: '2px', fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
           STYLE
         </div>
-        <h1 style={{
-          textAlign: 'left',
-          fontSize: '2.2em',
-          fontWeight: 800,
-          margin: 0,
-          color: '#222',
-          letterSpacing: '-0.01em',
-          lineHeight: 1.1
-        }}>{decodedGenreName || 'スタイル名不明'}</h1>
-        <div style={{ borderBottom: '2px solid #e0e0e0', width: '60px', margin: '12px 0 12px 0' }} />
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', marginBottom: '4px' }}>
-          <span style={{ fontSize: '0.95em', color: '#555' }}>
+        <h1 className={styles.styleTitle} style={{ textAlign: 'left', fontSize: '2.2em', fontWeight: 800, margin: 0, color: '#222', letterSpacing: '-0.01em', lineHeight: 1.1 }}>
+          {decodedGenreName || 'スタイル名不明'}
+        </h1>
+        <div className={styles.divider} style={{ borderBottom: '2px solid #e0e0e0', width: '60px', margin: '12px 0 12px 0' }} />
+        <div className={styles.pageDetails} style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '4px' }}>
+          <div className={styles.songCount} style={{ fontSize: '0.95em', color: '#555', display: 'block', marginBottom: '4px' }}>
             全 {totalSongs} 曲中 {startIndex} - {endIndex} 曲を表示
-          </span>
-          <span style={{ fontSize: '0.9em', color: '#888' }}>
+          </div>
+          <div className={styles.pageNumber} style={{ fontSize: '0.9em', color: '#888', display: 'block' }}>
             ページ {currentPage} / {totalPages}
-          </span>
+          </div>
         </div>
       </div>
 

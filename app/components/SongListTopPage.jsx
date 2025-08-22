@@ -320,6 +320,55 @@ export default function SongListTopPage({
 	const { data: session } = useSession();
 	const spotifyAccessToken = accessToken || session?.accessToken;
 
+	// スマホ時のアクティブ楽曲スクロール用
+	const [isMobile, setIsMobile] = useState(false);
+	const activeSongRef = useRef(null);
+
+	// モバイル判定
+	useEffect(() => {
+		const checkMobile = () => {
+			setIsMobile(window.innerWidth <= 920);
+		};
+		
+		checkMobile();
+		window.addEventListener('resize', checkMobile);
+		
+		return () => window.removeEventListener('resize', checkMobile);
+	}, []);
+
+	// アクティブな楽曲をプレイヤーの上100pxの位置にスクロール
+	useEffect(() => {
+		if (!isMobile || !currentTrack || !activeSongRef.current) return;
+
+		const scrollToActiveSong = () => {
+			const activeSongElement = activeSongRef.current;
+			if (!activeSongElement) return;
+
+			// プレイヤーの高さを取得（約140-150px）
+			const playerHeight = 150;
+			// プレイヤーの上100pxの位置を計算
+			const targetOffset = 100;
+			
+			// アクティブな楽曲の位置を取得
+			const songRect = activeSongElement.getBoundingClientRect();
+			const songTop = songRect.top + window.pageYOffset;
+			
+			// 目標位置を計算（プレイヤーの上100px）
+			const targetPosition = songTop - targetOffset;
+			
+			// スムーズにスクロール
+			window.scrollTo({
+				top: targetPosition,
+				behavior: 'smooth'
+			});
+		};
+
+		// 少し遅延を入れてスクロール実行（レンダリング完了後）
+		const timer = setTimeout(scrollToActiveSong, 100);
+		
+		return () => clearTimeout(timer);
+	}, [currentTrack, isPlayerPlaying, isMobile]);
+
 	// Spotify Track IDsを抽出（ページ内の曲のみ）
 	const trackIds = React.useMemo(() => {
 		return songs
@@ -667,6 +716,7 @@ export default function SongListTopPage({
 							key={song.id}
 							id={`song-${song.id}`} 
 							className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}
+							ref={isPlaying ? activeSongRef : null} // アクティブな楽曲にrefを設定
 						>
 							<div className={styles.songLeftContainer}>
 								<button

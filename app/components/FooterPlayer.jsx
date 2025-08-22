@@ -239,13 +239,15 @@ export default function FooterPlayer() {
                         </button>
                     </div>
                     
-                    {/* Right: Time and Volume */}
+                    {/* Time Display - Independent element for mobile grid layout */}
+                    <div className={styles.timeDisplay}>
+                       <span>{formatTime(position)}</span>
+                       <span style={{ margin: '0 0.25rem' }}>/</span>
+                       <span>{formatTime(duration)}</span>
+                    </div>
+                    
+                    {/* Right: Volume Controls */}
                     <div className={styles.rightControls}>
-                        <div className={styles.timeDisplay}>
-                           <span>{formatTime(position)}</span>
-                           <span style={{ margin: '0 0.25rem' }}>/</span>
-                           <span>{formatTime(duration)}</span>
-                        </div>
                         <button
                             onClick={handleMuteToggle}
                             className={styles.volumeButton}

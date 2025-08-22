@@ -119,26 +119,20 @@ export default function GenrePageClient({
 
   return (
     <div className={styles.container}>
-      <div className={styles.header} style={{ textAlign: 'left', marginBottom: '24px' }}>
-        <div style={{ fontSize: '0.85em', color: '#888', marginBottom: '2px', fontWeight: 500, letterSpacing: '0.04em', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+      <div className={styles.header}>
+        <div className={styles.genreLabel}>
           Genre
         </div>
-        <h1 style={{
-          textAlign: 'left',
-          fontSize: '2.2em',
-          fontWeight: 800,
-          margin: 0,
-          color: '#222',
-          letterSpacing: '-0.01em',
-          lineHeight: 1.1
-        }}>{genreName}</h1>
-        <div style={{ borderBottom: '2px solid #e0e0e0', width: '60px', margin: '12px 0 12px 0' }} />
-        {genreDescription && <p className={styles.description} style={{ textAlign: 'left', color: '#666', fontSize: '1em', margin: '0 0 8px 0' }}>{genreDescription}</p>}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', marginBottom: '4px' }}>
-          <span style={{ fontSize: '0.95em', color: '#555' }}>
+        <h1 className={styles.genreTitle}>
+          {genreName}
+        </h1>
+        <div className={styles.divider} />
+        {genreDescription && <p className={styles.description}>{genreDescription}</p>}
+        <div className={styles.pageDetails}>
+          <span className={styles.songCount}>
             全 {total} 曲中 {((pageNumber - 1) * 20) + 1} - {Math.min(pageNumber * 20, total)} 曲を表示
           </span>
-          <span style={{ fontSize: '0.9em', color: '#888' }}>
+          <span className={styles.pageNumber}>
             ページ {pageNumber} / {totalPages}
           </span>
         </div>

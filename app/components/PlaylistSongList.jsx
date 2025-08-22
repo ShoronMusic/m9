@@ -515,6 +515,55 @@ export default function PlaylistSongList({
   const { playTrack, setTrackList, updateCurrentTrackState } = usePlayer();
   const playerContext = useContext(PlayerContext);
   
+  // スマホ時のアクティブ楽曲スクロール用
+  const [isMobile, setIsMobile] = useState(false);
+  const activeSongRef = useRef(null);
+  
+  // モバイル判定
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 920);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  // アクティブな楽曲をプレイヤーの上100pxの位置にスクロール
+  useEffect(() => {
+    if (!isMobile || !playerContext?.currentTrack || !activeSongRef.current) return;
+
+    const scrollToActiveSong = () => {
+      const activeSongElement = activeSongRef.current;
+      if (!activeSongElement) return;
+
+      // プレイヤーの高さを取得（約140-150px）
+      const playerHeight = 150;
+      // プレイヤーの上100pxの位置を計算
+      const targetOffset = 100;
+      
+      // アクティブな楽曲の位置を取得
+      const songRect = activeSongElement.getBoundingClientRect();
+      const songTop = songRect.top + window.pageYOffset;
+      
+      // 目標位置を計算（プレイヤーの上100px）
+      const targetPosition = songTop - targetOffset;
+      
+      // スムーズにスクロール
+      window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth'
+      });
+    };
+
+    // 少し遅延を入れてスクロール実行（レンダリング完了後）
+    const timer = setTimeout(scrollToActiveSong, 100);
+    
+    return () => clearTimeout(timer);
+  }, [playerContext?.currentTrack, playerContext?.isPlaying, isMobile]);
+  
   // PlayerContextの初期化状態をチェック
   const isPlayerReady = playTrack && setTrackList && updateCurrentTrackState;
   
@@ -1424,6 +1473,13 @@ export default function PlaylistSongList({
         id={`song-${track.id}`} 
         className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}
         data-dragging={isDragging}
+        ref={(el) => {
+          // DnD用のrefとアクティブ楽曲用のrefを両方設定
+          setNodeRef(el);
+          if (isPlaying) {
+            activeSongRef.current = el;
+          }
+        }}
       >
         {/* ドラッグハンドル */}
         <div className={styles.dragHandle} {...attributes} {...listeners}>
