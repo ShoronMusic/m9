@@ -1467,12 +1467,6 @@ export default function PlaylistSongList({
 
     return (
       <li 
-        ref={setNodeRef} 
-        style={style} 
-        key={track.id + '-' + index} 
-        id={`song-${track.id}`} 
-        className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}
-        data-dragging={isDragging}
         ref={(el) => {
           // DnD用のrefとアクティブ楽曲用のrefを両方設定
           setNodeRef(el);
@@ -1480,6 +1474,11 @@ export default function PlaylistSongList({
             activeSongRef.current = el;
           }
         }}
+        style={style} 
+        key={track.id + '-' + index} 
+        id={`song-${track.id}`} 
+        className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}
+        data-dragging={isDragging}
       >
         {/* ドラッグハンドル */}
         <div className={styles.dragHandle} {...attributes} {...listeners}>
