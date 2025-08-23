@@ -5,11 +5,55 @@ import { authOptions } from '@/lib/authOptions';
 import fs from 'fs/promises';
 import path from 'path';
 
+// 動的レンダリングを強制
+export const dynamic = 'force-dynamic';
+
 async function getSongData(slug, song) {
   try {
-    const filePath = path.join(process.cwd(), 'public', 'data', 'songs', `${slug}_${song}.json`);
-    const fileContents = await fs.readFile(filePath, 'utf8');
-    const data = JSON.parse(fileContents);
+    let data;
+    
+    if (process.env.NODE_ENV === 'development') {
+      // ローカル環境ではローカルファイルを使用
+      const filePath = path.join(process.cwd(), 'public', 'data', 'songs', `${slug}_${song}.json`);
+      const fileContents = await fs.readFile(filePath, 'utf8');
+      data = JSON.parse(fileContents);
+    } else {
+      // 本番環境ではリモートURLを使用
+      const remoteUrl = `https://xs867261.xsrv.jp/data/data/songs/${slug}_${song}.json`;
+      console.log('🔍 Fetching from remote URL:', remoteUrl);
+      
+      try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 10000); // 10秒タイムアウト
+        
+        const response = await fetch(remoteUrl, {
+          signal: controller.signal,
+          headers: {
+            'User-Agent': 'TuneDive-Server/1.0'
+          }
+        });
+        
+        clearTimeout(timeoutId);
+        
+        if (!response.ok) {
+          console.error('❌ Remote fetch failed:', response.status, response.statusText);
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        data = await response.json();
+        console.log('✅ Remote data fetched successfully:', {
+          title: data?.title,
+          artists: data?.artists?.length,
+          hasContent: !!data?.content
+        });
+      } catch (fetchError) {
+        console.error('❌ Remote fetch error:', fetchError.message);
+        if (fetchError.name === 'AbortError') {
+          throw new Error('Remote data fetch timeout');
+        }
+        throw fetchError;
+      }
+    }
 
     // より厳密なデータ検証
     if (!data || typeof data !== 'object') {
