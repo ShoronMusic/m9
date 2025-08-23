@@ -369,51 +369,126 @@ export default function ArtistPageClient({
               <h3 className={styles.styleTitle}>Style Breakdown:</h3>
               {/* 積み上げ型プログレスバー */}
               <div className={styles.styleBreakdownBar} style={{ display: 'flex', height: 28, borderRadius: 8, overflow: 'hidden', marginBottom: 8, boxShadow: '0 1px 3px rgba(0,0,0,0.06)' }}>
-                {stylePercentages.map(({ style, percentage }, idx) => {
-                  // スタイルごとの色を定義
-                  const styleColorMap = {
-                    Rock: '#6246ea',
-                    Pop: '#f25042',
-                    Dance: '#f39800',
-                    Alternative: '#448aca',
-                    Electronica: '#ffd803',
-                    'R&B': '#8c7851',
-                    'Hip-Hop': '#078080',
-                    Metal: '#9646ea',
-                    Others: '#BDBDBD',
-                  };
-                  const defaultColorList = ['#6246ea', '#f25042', '#f39800', '#448aca', '#ffd803', '#8c7851', '#078080', '#9646ea', '#BDBDBD'];
-                  const color = styleColorMap[style] || defaultColorList[idx % defaultColorList.length];
-                  return (
-                    <div
-                      key={style}
-                      className={styles.styleBarSegment}
-                      style={{
-                        width: `${percentage}%`,
-                        backgroundColor: color,
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        color: '#fff',
-                        fontSize: '0.95em',
-                        fontWeight: 'bold',
-                        whiteSpace: 'nowrap',
-                        transition: 'width 0.3s',
-                      }}
-                      title={`${style} (${percentage}%)`}
-                    >
-                      {percentage > 10 && (
-                        <span className={styles.styleBarLabel} style={{ padding: '0 6px', textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>
-                          {style} {percentage}%
-                        </span>
-                      )}
-                    </div>
-                  );
-                })}
+                {/* 重複を除去してから表示 */}
+                {(() => {
+                  // 重複を除去（同じスタイル名の場合は最初のものを保持）
+                  const uniqueStyles = [];
+                  const seen = new Set();
+                  
+                  stylePercentages.forEach(({ style, percentage }) => {
+                    const cleanStyleId = style.replace(/^Style\s+/, '');
+                    const styleNameMap = {
+                      '6703': 'Rock',
+                      '2844': 'Pop',
+                      '4686': 'Dance',
+                      '2845': 'Alternative',
+                      '2846': 'Electronica',
+                      '2847': 'R&B',
+                      '2848': 'Hip-Hop',
+                      '2849': 'Metal',
+                      '2873': 'Others'
+                    };
+                    const styleName = styleNameMap[cleanStyleId] || cleanStyleId;
+                    
+                    if (!seen.has(styleName)) {
+                      seen.add(styleName);
+                      uniqueStyles.push({ style, percentage, styleName });
+                    } else {
+                      // 既存のスタイルのパーセンテージを合算
+                      const existingIndex = uniqueStyles.findIndex(item => item.styleName === styleName);
+                      if (existingIndex !== -1) {
+                        uniqueStyles[existingIndex].percentage += percentage;
+                      }
+                    }
+                  });
+                  
+                  return uniqueStyles.map(({ style, percentage, styleName }, idx) => {
+                    // デバッグログを追加
+                    console.log('Style ID:', style, 'Type:', typeof style);
+                    console.log('Converted style name:', styleName);
+                    
+                    // スタイルごとの色を定義
+                    const styleColorMap = {
+                      Rock: '#6246ea',
+                      Pop: '#f25042',
+                      Dance: '#f39800',
+                      Alternative: '#448aca',
+                      Electronica: '#ffd803',
+                      'R&B': '#8c7851',
+                      'Hip-Hop': '#078080',
+                      Metal: '#9646ea',
+                      Others: '#BDBDBD',
+                    };
+                    const defaultColorList = ['#6246ea', '#f25042', '#f39800', '#448aca', '#ffd803', '#8c7851', '#078080', '#9646ea', '#BDBDBD'];
+                    const color = styleColorMap[styleName] || defaultColorList[idx % defaultColorList.length];
+                    return (
+                      <div
+                        key={style}
+                        className={styles.styleBarSegment}
+                        style={{
+                          width: `${percentage}%`,
+                          backgroundColor: color,
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          color: '#fff',
+                          fontSize: '0.95em',
+                          fontWeight: 'bold',
+                          whiteSpace: 'nowrap',
+                          transition: 'width 0.3s',
+                        }}
+                        title={`${styleName} (${percentage}%)`}
+                      >
+                        {percentage > 10 && (
+                          <span className={styles.styleBarLabel} style={{ padding: '0 6px', textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}>
+                            {styleName} {percentage}%
+                          </span>
+                        )}
+                      </div>
+                    );
+                  });
+                })()}
               </div>
               {/* 凡例（ラベル） */}
               <div className={styles.styleBreakdownLegend} style={{ display: 'flex', flexWrap: 'wrap', gap: 12, marginTop: 4 }}>
-                {stylePercentages.map(({ style, percentage }, idx) => {
+                {/* 重複を除去してから表示 */}
+                {(() => {
+                  // 重複を除去（同じスタイル名の場合は最初のものを保持）
+                  const uniqueStyles = [];
+                  const seen = new Set();
+                  
+                  stylePercentages.forEach(({ style, percentage }) => {
+                    const cleanStyleId = style.replace(/^Style\s+/, '');
+                    const styleNameMap = {
+                      '6703': 'Rock',
+                      '2844': 'Pop',
+                      '4686': 'Dance',
+                      '2845': 'Alternative',
+                      '2846': 'Electronica',
+                      '2847': 'R&B',
+                      '2848': 'Hip-Hop',
+                      '2849': 'Metal',
+                      '2873': 'Others'
+                    };
+                    const styleName = styleNameMap[cleanStyleId] || cleanStyleId;
+                    
+                    if (!seen.has(styleName)) {
+                      seen.add(styleName);
+                      uniqueStyles.push({ style, percentage, styleName });
+                    } else {
+                      // 既存のスタイルのパーセンテージを合算
+                      const existingIndex = uniqueStyles.findIndex(item => item.styleName === styleName);
+                      if (existingIndex !== -1) {
+                        uniqueStyles[existingIndex].percentage += percentage;
+                      }
+                    }
+                  });
+                  
+                  return uniqueStyles.map(({ style, percentage, styleName }, idx) => {
+                    // デバッグログを追加
+                    console.log('Legend - Style ID:', style, 'Type:', typeof style);
+                    console.log('Legend - Converted style name:', styleName);
+                  
                   const styleColorMap = {
                     Rock: '#6246ea',
                     Pop: '#f25042',
@@ -426,7 +501,7 @@ export default function ArtistPageClient({
                     Others: '#BDBDBD',
                   };
                   const defaultColorList = ['#6246ea', '#f25042', '#f39800', '#448aca', '#ffd803', '#8c7851', '#078080', '#9646ea', '#BDBDBD'];
-                  const color = styleColorMap[style] || defaultColorList[idx % defaultColorList.length];
+                  const color = styleColorMap[styleName] || defaultColorList[idx % defaultColorList.length];
                   return (
                     <span key={style} className={styles.styleLegendItem} style={{ display: 'flex', alignItems: 'center', fontSize: '0.95em' }}>
                       <span
@@ -440,10 +515,11 @@ export default function ArtistPageClient({
                           backgroundColor: color,
                         }}
                       />
-                      {style} ({percentage}%)
+                      {styleName} ({percentage}%)
                     </span>
                   );
-                })}
+                });
+              })()}
               </div>
               {/* 既存のリスト表示はそのまま残す場合は下記をコメントアウト解除 */}
               {/*
