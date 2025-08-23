@@ -18,20 +18,45 @@ export async function GET(request) {
       return Response.json({ results: [], total: 0 });
     }
     
-    // compact-songs-minimal.jsonファイルを読み込み
-    const filePath = path.join(process.cwd(), 'public', 'data', 'compact-songs-minimal.json');
-    console.log('📁 Reading file from:', filePath);
+    // 環境に応じてローカルファイルまたはリモートURLを使用
+    let songsData;
     
-    if (!fs.existsSync(filePath)) {
-      console.error('❌ File not found:', filePath);
-      return Response.json(
-        { error: '検索データファイルが見つかりません' },
-        { status: 500 }
-      );
+    if (process.env.NODE_ENV === 'development') {
+      // ローカル環境ではローカルファイルを使用
+      const filePath = path.join(process.cwd(), 'public', 'data', 'compact-songs-minimal.json');
+      console.log('📁 Reading local file from:', filePath);
+      
+      if (!fs.existsSync(filePath)) {
+        console.error('❌ Local file not found:', filePath);
+        return Response.json(
+          { error: 'ローカルの検索データファイルが見つかりません' },
+          { status: 500 }
+        );
+      }
+      
+      const fileContent = fs.readFileSync(filePath, 'utf8');
+      songsData = JSON.parse(fileContent);
+      console.log('📊 Loaded songs data from local file, total songs:', songsData.length);
+    } else {
+      // 本番環境ではリモートURLを使用
+      const remoteUrl = 'https://xs867261.xsrv.jp/data/data/compact-songs-minimal.json';
+      console.log('📁 Fetching data from remote:', remoteUrl);
+      
+      try {
+        const response = await fetch(remoteUrl);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        songsData = await response.json();
+        console.log('📊 Loaded songs data from remote, total songs:', songsData.length);
+      } catch (fetchError) {
+        console.error('❌ Failed to fetch remote data:', fetchError);
+        return Response.json(
+          { error: 'リモートの検索データファイルの取得に失敗しました' },
+          { status: 500 }
+        );
+      }
     }
-    
-    const fileContent = fs.readFileSync(filePath, 'utf8');
-    const songsData = JSON.parse(fileContent);
     console.log('📊 Loaded songs data, total songs:', songsData.length);
     
     // 検索クエリを正規化（小文字化、ハイフンをスペースに変換、複数スペースを単一スペースに）
