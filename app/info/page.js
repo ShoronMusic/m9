@@ -51,8 +51,8 @@ async function getGenreCount() {
 }
 
 export default function Info() {
-	const songCount = '17,000';
-	const artistCount = '5,700';
+	const songCount = '18,000';
+	const artistCount = '6,000';
 	const genreCount = '500';
 
 	return (

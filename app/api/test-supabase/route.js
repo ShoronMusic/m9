@@ -2,6 +2,9 @@ import { getServerSession } from 'next-auth/next';
 import { authOptions } from '../../lib/authOptions';
 import { supabaseAdmin, supabase } from '../../lib/supabase';
 
+// 動的レンダリングを強制
+export const dynamic = 'force-dynamic';
+
 export async function GET(request) {
   try {
     const session = await getServerSession(authOptions);
