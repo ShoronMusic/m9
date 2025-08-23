@@ -1,6 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 
+// 動的レンダリングを強制
+export const dynamic = 'force-dynamic';
+
 export async function GET(request) {
   try {
     console.log('🔍 Search API called');
