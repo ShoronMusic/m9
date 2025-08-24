@@ -1,0 +1,350 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+}
+
+.formSection {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #e9ecef;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 8px;
+}
+
+.envInfo {
+  background: #e8f4fd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #bee5eb;
+}
+
+.envStatus {
+  margin: 0;
+  font-weight: 600;
+  color: #0c5460;
+  text-align: center;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #34495e;
+  font-size: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.form {
+  margin-top: 16px;
+}
+
+.submitButton {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.submitButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.submitButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.error {
+  background: #fee;
+  border: 1px solid #fcc;
+  color: #c33;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.results {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #e9ecef;
+}
+
+.resultsTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  border-bottom: 2px solid #27ae60;
+  padding-bottom: 8px;
+}
+
+.playlistInfo {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #27ae60;
+}
+
+.playlistName {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.playlistDescription {
+  color: #7f8c8d;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.trackCount, .extractTime {
+  color: #34495e;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.trackList {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.trackListTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #2c3e50;
+}
+
+.trackItem {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #ecf0f1;
+  gap: 12px;
+}
+
+.trackItem:last-child {
+  border-bottom: none;
+}
+
+.trackNumber {
+  font-weight: 600;
+  color: #7f8c8d;
+  min-width: 30px;
+}
+
+.trackInfo {
+  font-weight: 600;
+  color: #2c3e50;
+  flex: 1;
+}
+
+.trackAlbum {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.trackDuration {
+  color: #95a5a6;
+  font-size: 0.85rem;
+  font-family: monospace;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.copyButton {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1;
+  min-width: 200px;
+}
+
+.copyButton:hover {
+  background: #229954;
+  transform: translateY(-1px);
+}
+
+.help {
+  background: #e8f4fd;
+  border-radius: 12px;
+  padding: 24px;
+  border: 1px solid #bee5eb;
+}
+
+.helpTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #0c5460;
+}
+
+.helpList {
+  color: #0c5460;
+  line-height: 1.8;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+.helpList li {
+  margin-bottom: 8px;
+}
+
+.envSetup {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #bee5eb;
+}
+
+.envSetup h4 {
+  margin: 0 0 16px 0;
+  color: #0c5460;
+  font-size: 1.1rem;
+}
+
+.envSetup p {
+  margin: 0 0 16px 0;
+  color: #0c5460;
+  line-height: 1.6;
+}
+
+.envExample {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 16px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: #495057;
+  overflow-x: auto;
+  white-space: pre;
+  margin: 0;
+}
+
+.envHelp {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.envHelp p {
+  margin: 0 0 8px 0;
+  color: #856404;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.envHelp p:last-child {
+  margin-bottom: 0;
+}
+
+.envHelp code {
+  background: #f8f9fa;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  color: #495057;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  
+  .formSection {
+    padding: 20px;
+  }
+  
+  .actions {
+    flex-direction: column;
+  }
+  
+  .copyButton {
+    min-width: auto;
+  }
+  
+  .trackItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .trackNumber {
+    min-width: auto;
+  }
+  
+  .envExample {
+    font-size: 0.8rem;
+    padding: 12px;
+  }
+}

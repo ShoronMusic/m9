@@ -20,6 +20,7 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
   const [volume, setVolume] = useState(0.3);
   const [error, setError] = useState(null);
   const [repeatMode, setRepeatMode] = useState('off'); // 'off', 'track', 'context'
+  const [retryCount, setRetryCount] = useState(0); // リトライ回数を追加
   
   const playerRef = useRef(null);
   const hasPlaybackStartedRef = useRef(false);
@@ -27,6 +28,27 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
   const playStartTimeRef = useRef(null);
   const playDurationRef = useRef(0);
   const hasRecordedRef = useRef(false); // 重複記録を防ぐフラグ
+
+  // エラーリセット関数
+  const resetError = () => {
+    setError(null);
+    setRetryCount(0);
+  };
+
+  // リトライ関数
+  const handleRetry = () => {
+    resetError();
+    // プレイヤーを再初期化
+    if (playerRef.current) {
+      playerRef.current.disconnect();
+      playerRef.current = null;
+    }
+    setIsReady(false);
+    // 少し待ってから再初期化
+    setTimeout(() => {
+      initializePlayer();
+    }, 1000);
+  };
 
   // 視聴履歴記録関数
   const recordPlayHistory = async (completed = false) => {
@@ -422,7 +444,22 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
       }
     } catch (e) {
       console.error('Failed to toggle play:', e);
-      setError(`操作に失敗しました: ${e.message}`);
+      const errorMessage = e.message || '不明なエラーが発生しました';
+      
+      // リトライ回数を増やす
+      setRetryCount(prev => prev + 1);
+      
+      // エラーメッセージを詳細化
+      let detailedError = errorMessage;
+      if (errorMessage.includes('no list was loaded')) {
+        detailedError = 'プレイリストが読み込まれていません。Spotifyアプリで再生中の曲がある場合は停止してください。';
+      } else if (errorMessage.includes('Premium')) {
+        detailedError = 'Spotify Premiumアカウントが必要です。';
+      } else if (errorMessage.includes('device')) {
+        detailedError = 'デバイスの接続に失敗しました。ブラウザを再読み込みしてください。';
+      }
+      
+      setError(`再生エラー: ${detailedError}`);
     }
   };
 
@@ -493,10 +530,52 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
         border: '1px solid #ffcccc'
       }}>
         <div style={{ color: '#dc3545', marginBottom: '10px', fontWeight: 'bold' }}>
+          ❌ 再生エラーが発生しました
+        </div>
+        <div style={{ fontSize: '0.9em', color: '#6c757d', marginBottom: '15px' }}>
           {error}
         </div>
-        <div style={{ fontSize: '0.9em', color: '#6c757d' }}>
-          Spotify Premiumアカウントでログインしているかご確認ください。問題が解決しない場合は、ページを再読み込みしてください。
+        
+        <div style={{ fontSize: '0.9em', color: '#6c757d', marginBottom: '15px' }}>
+          <strong>考えられる原因：</strong>
+          <ul style={{ margin: '10px 0', paddingLeft: '20px' }}>
+            <li>Spotify Premiumアカウントでログインしているか確認してください</li>
+            <li>ブラウザでポップアップがブロックされていないか確認してください</li>
+            <li>Spotifyアプリで再生中の曲がある場合は停止してください</li>
+            <li>Chrome、Firefox、Safariの最新版を使用してください</li>
+          </ul>
+        </div>
+
+        <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+          <button
+            onClick={handleRetry}
+            style={{
+              padding: '8px 16px',
+              backgroundColor: '#007bff',
+              color: 'white',
+              border: 'none',
+              borderRadius: '4px',
+              cursor: 'pointer',
+              fontSize: '0.9em'
+            }}
+          >
+            🔄 再試行
+          </button>
+          
+          <button
+            onClick={() => window.location.reload()}
+            style={{
+              padding: '8px 16px',
+              backgroundColor: '#6c757d',
+              color: 'white',
+              border: 'none',
+              borderRadius: '4px',
+              cursor: 'pointer',
+              fontSize: '0.9em'
+            }}
+          >
+            📄 ページを再読み込み
+          </button>
         </div>
       </div>
     );
@@ -538,8 +617,26 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
             <path className="cls-1" d="m803.56,98.29c.82-.6,1.23-1.4,1.23-2.39s-.4-1.83-1.2-2.43c-.8-.6-1.96-.9-3.48-.9h-5.36v11.2h2.59v-4.45h1.41l3.41,4.45h3.18l-3.73-4.72c.79-.15,1.46-.4,1.96-.77Zm-3.86-.99h-2.36v-2.74h2.45c.73,0,1.29.11,1.68.34.39.23.59.58.59,1.06,0,.45-.21.79-.61,1.01-.41.23-.99.34-1.75.34Z"/>
           </svg>
           <div>
-              <div style={{ color: '#fff', fontWeight: 'bold' }}>{songData?.title || 'Track'}</div>
-              <div style={{ color: '#ccc', fontSize: '0.9em' }}>{songData?.artists?.map(a => a.name).join(', ') || 'Artist'}</div>
+              <div style={{ 
+                color: '#fff', 
+                fontWeight: 'bold',
+                whiteSpace: 'nowrap',
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                maxWidth: '300px'
+              }}>
+                {songData?.title || 'Track'}
+              </div>
+              <div style={{ 
+                color: '#ccc', 
+                fontSize: '0.9em',
+                whiteSpace: 'nowrap',
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                maxWidth: '300px'
+              }}>
+                {songData?.artists?.map(a => a.name).join(', ') || 'Artist'}
+              </div>
           </div>
         </div>
         <button 
