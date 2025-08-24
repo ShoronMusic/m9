@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { usePlayer } from './PlayerContext';
 import styles from './CreatePlaylistModal.module.css';
+import { playSuccessSound, playErrorSound } from '../lib/audioUtils';
 
 // スタイルIDからスタイル名を取得する関数
 function getStyleName(styleId) {
@@ -280,8 +281,13 @@ export default function CreateNewPlaylistModal({
       // 成功状態を設定
       setSuccess(true);
       
+      // 成功時にSE音を再生
+      playSuccessSound();
+      
     } catch (err) {
       setError(err.message);
+      // エラー時にエラー音を再生
+      playErrorSound();
     } finally {
       setLoading(false);
     }

@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { usePlayer } from './PlayerContext';
 import styles from './CreatePlaylistModal.module.css';
+import { playSuccessSound, playErrorSound } from '../lib/audioUtils';
 
 // スタイルIDからスタイル名を取得する関数
 function getStyleName(styleId) {
@@ -353,6 +354,9 @@ export default function CreatePlaylistModal({
       // 成功メッセージを表示
       setError(null);
       setSuccess(`「${trackWithVocals.title?.rendered || trackWithVocals.title || trackWithVocals.name}」をプレイリストに追加しました！`);
+      
+      // 成功時にSE音を再生
+      playSuccessSound();
       
       // 成功時の処理
       if (onAddToPlaylist) {

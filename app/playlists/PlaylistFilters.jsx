@@ -120,12 +120,6 @@ const PlaylistFilters = ({ playlists, onFilterChange }) => {
           フィルターリセット
         </button>
       </div>
-
-      <div className={styles.filterInfo}>
-        {selectedYear && <span className={styles.activeFilter}>年: {selectedYear}</span>}
-        {selectedTag && <span className={styles.activeFilter}>タグ: {selectedTag}</span>}
-        {!selectedYear && !selectedTag && <span>すべてのプレイリストを表示中</span>}
-      </div>
     </div>
   );
 };

@@ -6,51 +6,51 @@ import { createClient } from '@supabase/supabase-js';
 
 export async function GET(request, { params }) {
   try {
+    console.log('=== GET /api/playlists/[playlistId]/tracks ===');
+    console.log('Params:', params);
+    
     const cookieStore = cookies();
     
-    const supabase = createServerClient(
+    // NextAuthのセッションを取得
+    const session = await getServerSession(authOptions);
+    console.log('Session:', session ? { userId: session.user?.id, email: session.user?.email } : 'No session');
+    
+    if (!session?.user?.id) {
+      console.log('Unauthorized: No session or user ID');
+      return Response.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+    
+    // Supabaseクライアントを作成（認証なし）
+    const supabase = createClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL,
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
-      {
-        cookies: {
-          getAll() {
-            return cookieStore.getAll();
-          },
-          setAll(cookiesToSet) {
-            try {
-              cookiesToSet.forEach(({ name, value, options }) =>
-                cookieStore.set(name, value, options)
-              );
-            } catch {
-              // The `setAll` method was called from a Server Component.
-              // This can be ignored if you have middleware refreshing
-              // user sessions.
-            }
-          },
-        },
-      }
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
     );
     
     const { playlistId } = params;
+    console.log('Playlist ID:', playlistId);
     
-    // ユーザー認証チェック
-    const { data: { user }, error: authError } = await supabase.auth.getUser();
-    if (authError || !user) {
-      return Response.json({ error: 'Unauthorized' }, { status: 401 });
-    }
-
     // プレイリストの所有者チェック
+    console.log('Checking playlist access...');
     const { data: playlist, error: playlistError } = await supabase
       .from('playlists')
       .select('user_id, is_public')
       .eq('id', playlistId)
       .single();
 
-    if (playlistError || (!playlist.is_public && playlist.user_id !== user.id)) {
+    if (playlistError) {
+      console.error('Playlist access check error:', playlistError);
+      return Response.json({ error: 'Playlist not found' }, { status: 404 });
+    }
+
+    if (!playlist.is_public && playlist.user_id !== session.user.id) {
+      console.log('Access denied:', { playlistUserId: playlist.user_id, sessionUserId: session.user.id, isPublic: playlist.is_public });
       return Response.json({ error: 'Access denied' }, { status: 403 });
     }
 
+    console.log('Playlist access granted:', { playlistUserId: playlist.user_id, sessionUserId: session.user.id, isPublic: playlist.is_public });
+
     // トラック一覧を取得（playlist_tracksテーブルの全フィールドを取得）
+    console.log('Fetching tracks from playlist_tracks table...');
     const { data: tracks, error } = await supabase
       .from('playlist_tracks')
       .select(`
@@ -89,9 +89,11 @@ export async function GET(request, { params }) {
       .order('position', { ascending: true });
 
     if (error) {
-      console.error('Supabase error:', error);
+      console.error('Supabase tracks fetch error:', error);
       return Response.json({ error: 'Database error' }, { status: 500 });
     }
+
+    console.log(`Successfully fetched ${tracks?.length || 0} tracks`);
 
     // 各トラックのsong_idを使ってsongsテーブルからspotify_artistsを取得（補完として）
     const tracksWithSpotifyArtists = await Promise.all(
@@ -142,8 +144,16 @@ export async function GET(request, { params }) {
 
     return Response.json({ tracks: tracksWithSpotifyArtists });
   } catch (error) {
-    console.error('API error:', error);
-    return Response.json({ error: 'Internal server error' }, { status: 500 });
+    console.error('=== API Error Details ===');
+    console.error('Error message:', error.message);
+    console.error('Error stack:', error.stack);
+    console.error('Error name:', error.name);
+    console.error('Full error object:', error);
+    
+    return Response.json({ 
+      error: 'Internal server error',
+      details: process.env.NODE_ENV === 'development' ? error.message : 'An unexpected error occurred'
+    }, { status: 500 });
   }
 }
 

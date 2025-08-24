@@ -127,6 +127,7 @@ export default async function SongDetailPage({ params }) {
         songData={songData} 
         description={description} 
         accessToken={accessToken}
+        slug={slug}
       />
     );
   } catch (error) {

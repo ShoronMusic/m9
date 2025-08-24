@@ -64,6 +64,11 @@ export default function MyPageClient({ session }) {
   const handleFilterChange = useCallback((filteredData) => {
     setFilteredPlaylists(filteredData);
     setCurrentPage(1); // フィルタリング後は1ページ目に戻す
+    
+    // フィルタリング結果のプレイリストのスタイル背景も更新
+    if (filteredData.length > 0) {
+      // スタイル背景は削除
+    }
   }, []);
 
   // プレイリストを並び替える関数
@@ -104,19 +109,21 @@ export default function MyPageClient({ session }) {
     setDisplayMode(newMode);
   }, []);
 
-  // プレイリスト追加後のコールバック関数
+  // プレイリスト作成後の処理
   const handlePlaylistCreated = useCallback((newPlaylist) => {
-    console.log('Playlist created, updating playlist list:', newPlaylist);
-    // 新しいプレイリストをリストに追加
-    setPlaylists(prevPlaylists => [newPlaylist, ...prevPlaylists]);
-  }, []);
+    // プレイリスト一覧を更新
+    fetchPlaylists();
+    // プレイリスト更新トリガーを発火
+    triggerPlaylistUpdate();
+  }, [fetchPlaylists, triggerPlaylistUpdate]);
 
-  // プレイリストに曲が追加された後のコールバック関数
-  const handleTrackAddedToPlaylist = useCallback(async (track, playlistId) => {
-    console.log('Track added to playlist, refreshing playlist list:', { track, playlistId });
-    // プレイリスト一覧を再取得
-    await fetchPlaylists();
-  }, [fetchPlaylists]);
+  // プレイリストに曲が追加された後の処理
+  const handleTrackAdded = useCallback((track, playlistId) => {
+    // プレイリスト一覧を更新
+    fetchPlaylists();
+    // プレイリスト更新トリガーを発火
+    triggerPlaylistUpdate();
+  }, [fetchPlaylists, triggerPlaylistUpdate]);
 
   // プレイリスト一覧を初期化時に取得
   useEffect(() => {
@@ -125,10 +132,10 @@ export default function MyPageClient({ session }) {
     }
   }, [session?.user?.id, fetchPlaylists]);
 
-  // プレイリスト更新トリガーの変更を監視
+  // プレイリスト更新トリガーの監視
   useEffect(() => {
     if (playlistUpdateTrigger > 0) {
-      console.log('Playlist update triggered, refreshing playlist list');
+      // プレイリスト一覧を更新
       fetchPlaylists();
     }
   }, [playlistUpdateTrigger, fetchPlaylists]);
@@ -232,7 +239,6 @@ export default function MyPageClient({ session }) {
       if (response.ok) {
         const data = await response.json();
         setSupabaseTest(data);
-        console.log('Supabase test result:', data);
       } else {
         setSupabaseTest({ error: `HTTP ${response.status}` });
       }
@@ -246,13 +252,10 @@ export default function MyPageClient({ session }) {
     if (!session) return;
     
     try {
-      console.log('Fetching play history for user:', session.user.id);
       const response = await fetch('/api/play-history');
-      console.log('Play history response status:', response.status);
       
       if (response.ok) {
         const data = await response.json();
-        console.log('Fetched play history data:', data);
         
         // フロントエンドでも重複フィルタリングを実行
         const rawHistory = data.playHistory || [];
@@ -267,11 +270,6 @@ export default function MyPageClient({ session }) {
             seenTracks.add(trackKey);
           }
         }
-        
-        console.log('Filtered play history:', {
-          original: rawHistory.length,
-          filtered: filteredHistory.length
-        });
         
         setPlayHistory(filteredHistory);
         setStats(data.stats || {});
@@ -323,7 +321,6 @@ export default function MyPageClient({ session }) {
 
   // テスト記録機能
   const testRecordPlayHistory = async () => {
-    console.log('Testing play history recording...');
     try {
       const response = await fetch('/api/test-play-history', {
         method: 'POST',
@@ -340,7 +337,6 @@ export default function MyPageClient({ session }) {
       });
       
       const result = await response.json();
-      console.log('Test play history result:', result);
       
       if (result.success) {
         alert('テスト記録が成功しました！');
@@ -356,8 +352,6 @@ export default function MyPageClient({ session }) {
 
   // お気に入り切り替え機能
   const handleFavoriteToggle = async (entryId, newFavoriteState) => {
-    console.log('Favorite toggle clicked:', { entryId, newFavoriteState, trackId: playHistory.find(e => e.id === entryId)?.track_id });
-    
     if (!session?.accessToken) {
       alert('Spotifyにログインしてください');
       return;
@@ -371,27 +365,33 @@ export default function MyPageClient({ session }) {
       }
 
       // Spotify APIを使用してお気に入りを切り替え
-      const response = await fetch(`https://api.spotify.com/v1/me/tracks?ids=${entry.track_id}`, {
-        method: newFavoriteState ? 'PUT' : 'DELETE',
+      const response = await fetch('/api/spotify-likes', {
+        method: 'POST',
         headers: {
-          'Authorization': `Bearer ${session.accessToken}`,
           'Content-Type': 'application/json',
         },
+        body: JSON.stringify({
+          trackId: entry.track_id,
+          isLiked: newFavoriteState,
+        }),
       });
-      
-      console.log('Spotify API response status:', response.status);
-      
+
       if (response.ok) {
-        console.log('Spotify favorite status updated successfully');
-        // ローカル状態はSpotifyLikesフックが自動的に更新する
+        // お気に入り状態を更新
+        setPlayHistory(prev => 
+          prev.map(record => 
+            record.id === entryId 
+              ? { ...record, is_favorite: newFavoriteState }
+              : record
+          )
+        );
       } else {
-        const errorData = await response.json();
-        console.error('Failed to update Spotify favorite status:', errorData);
-        alert(`お気に入り更新に失敗しました: ${response.status}`);
+        console.error('Failed to update favorite status');
+        alert('お気に入りの更新に失敗しました');
       }
     } catch (error) {
       console.error('Error updating favorite status:', error);
-      alert('お気に入り更新でエラーが発生しました');
+      alert('お気に入りの更新でエラーが発生しました');
     }
   };
 
@@ -748,10 +748,25 @@ export default function MyPageClient({ session }) {
         {/* フィルタリングコンポーネント */}
         {playlists && playlists.length > 0 && (
           <PlaylistFilters 
-            playlists={playlists}
+            playlists={playlists} 
             onFilterChange={handleFilterChange}
+            sortOrder={sortOrder}
+            onSortChange={setSortOrder}
           />
         )}
+        
+        {/* プレイリスト数表示 */}
+        <div style={{ 
+          textAlign: 'center', 
+          margin: '10px 0', 
+          color: '#666',
+          fontSize: '14px'
+        }}>
+          {filteredPlaylists.length === playlists.length 
+            ? `すべてのプレイリストを表示中 (${playlists.length}件)`
+            : `フィルタリング結果: ${filteredPlaylists.length}件 / 全${playlists.length}件`
+          }
+        </div>
         
         {playlistsLoading ? (
           <div className={styles.loading}>プレイリストを読み込み中...</div>
@@ -772,7 +787,10 @@ export default function MyPageClient({ session }) {
                         className={styles.playlistImage}
                       />
                     ) : (
-                      <div className={styles.playlistPlaceholder}>
+                      <div 
+                        className={styles.playlistPlaceholder}
+                        style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}
+                      >
                         <span>🎵</span>
                       </div>
                     )}
@@ -795,10 +813,7 @@ export default function MyPageClient({ session }) {
                     </div>
                     
                     <p className={styles.playlistStats}>
-                      {playlist.track_count || 0}曲
-                    </p>
-                    <p className={styles.playlistStats}>
-                      Update: {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
+                      {playlist.track_count || 0}曲 • {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
                     </p>
                   </div>
                 </Link>
@@ -812,6 +827,22 @@ export default function MyPageClient({ session }) {
                   key={playlist.id}
                   className={styles.playlistListItem}
                 >
+                  <div className={styles.playlistCover}>
+                    {playlist.cover_image_url ? (
+                      <img 
+                        src={playlist.cover_image_url} 
+                        alt={playlist.name}
+                        className={styles.playlistImage}
+                      />
+                    ) : (
+                      <div 
+                        className={styles.playlistPlaceholder}
+                        style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}
+                      >
+                        <span>🎵</span>
+                      </div>
+                    )}
+                  </div>
                   <div className={styles.playlistListInfo}>
                     <div className={styles.playlistListTitle}>
                       {playlist.name}
@@ -834,10 +865,7 @@ export default function MyPageClient({ session }) {
                   
                   <div className={styles.playlistListRight}>
                     <div className={styles.playlistListTrackCount}>
-                      {playlist.track_count || 0}曲
-                    </div>
-                    <div className={styles.playlistListDate}>
-                      Update: {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
+                      {playlist.track_count || 0}曲 • {formatPlaylistDate(playlist.updated_at || playlist.created_at)}
                     </div>
                   </div>
                 </Link>

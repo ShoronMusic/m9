@@ -1480,6 +1480,11 @@ export default function PlaylistSongList({
         className={`${styles.songItem} ${isPlaying ? styles.playing : ''}`}
         data-dragging={isDragging}
       >
+        {/* 通しナンバー */}
+        <div className={styles.songNumber}>
+          {index + 1}
+        </div>
+
         {/* ドラッグハンドル */}
         <div className={styles.dragHandle} {...attributes} {...listeners}>
           <span className={styles.dragIcon}>⋮⋮</span>
