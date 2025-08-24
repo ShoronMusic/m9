@@ -97,7 +97,7 @@ export async function PUT(request, { params }) {
     const body = await request.json();
     console.log('📦 リクエストボディ:', body);
     
-    const { name, description, is_public } = body;
+    const { name, description, is_public, year, tags } = body;
 
     // セッションを取得
     const session = await getServerSession(authOptions);
@@ -182,6 +182,8 @@ export async function PUT(request, { params }) {
       name: name,
       description: description,
       is_public: is_public !== undefined ? is_public : false,
+      year: year !== undefined ? year : null,
+      tags: tags !== undefined ? tags : null,
       updated_at: new Date().toISOString()
     };
     

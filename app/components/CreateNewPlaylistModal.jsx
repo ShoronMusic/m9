@@ -31,7 +31,9 @@ export default function CreateNewPlaylistModal({
   const [playlistData, setPlaylistData] = useState({
     name: '',
     description: '',
-    is_public: false
+    is_public: false,
+    year: '',
+    tags: ''
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -47,7 +49,9 @@ export default function CreateNewPlaylistModal({
       setPlaylistData({
         name: '',
         description: '',
-        is_public: false
+        is_public: false,
+        year: '',
+        tags: ''
       });
     }
   }, [isOpen, trackToAdd]);
@@ -65,7 +69,9 @@ export default function CreateNewPlaylistModal({
     setPlaylistData({
       name: '',
       description: '',
-      is_public: false
+      is_public: false,
+      year: '',
+      tags: ''
     });
     stableOnClose();
   };
@@ -94,7 +100,9 @@ export default function CreateNewPlaylistModal({
       const requestData = {
         name: playlistData.name,
         description: playlistData.description,
-        is_public: playlistData.is_public
+        is_public: playlistData.is_public,
+        year: playlistData.year || null,
+        tags: playlistData.tags
       };
 
       // 曲の情報がある場合は追加
@@ -473,6 +481,43 @@ export default function CreateNewPlaylistModal({
               </div>
               
               <div className={styles.formGroup}>
+                <label htmlFor="playlistYear">年（オプション）</label>
+                <select
+                  id="playlistYear"
+                  name="year"
+                  value={playlistData.year}
+                  onChange={handleInputChange}
+                  disabled={loading}
+                >
+                  <option value="">年を選択してください</option>
+                  {Array.from({ length: 10 }, (_, i) => {
+                    const year = new Date().getFullYear() - i;
+                    return (
+                      <option key={year} value={year}>
+                        {year}
+                      </option>
+                    );
+                  })}
+                </select>
+              </div>
+              
+              <div className={styles.formGroup}>
+                <label htmlFor="playlistTags">タグ（オプション）</label>
+                <input
+                  type="text"
+                  id="playlistTags"
+                  name="tags"
+                  value={playlistData.tags}
+                  onChange={handleInputChange}
+                  disabled={loading}
+                  placeholder="例: Summer Sonic, Rock, 2025"
+                />
+                <small className={styles.helpText}>
+                  カンマ区切りで複数のタグを入力できます
+                </small>
+              </div>
+              
+              <div className={styles.formGroup}>
                 <label className={styles.checkboxLabel}>
                   <input
                     type="checkbox"
@@ -481,7 +526,7 @@ export default function CreateNewPlaylistModal({
                     onChange={handleInputChange}
                     disabled={loading}
                   />
-                  公開プレイリストにする
+                  <span>公開プレイリストにする</span>
                 </label>
               </div>
               

@@ -66,6 +66,8 @@ export default async function PlaylistPage({ params, searchParams }) {
         spotify_playlist_id,
         sync_status,
         user_id,
+        year,
+        tags,
         users(
           id,
           spotify_display_name,

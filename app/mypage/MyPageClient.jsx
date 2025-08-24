@@ -6,6 +6,7 @@ import { usePlayer } from '../components/PlayerContext';
 import { useSpotifyLikes } from '../components/SpotifyLikes';
 import { getUserPlaylists } from '../lib/supabase';
 import Link from 'next/link';
+import PlaylistFilters from '../playlists/PlaylistFilters';
 import styles from './MyPage.module.css';
 
 export default function MyPageClient({ session }) {
@@ -20,6 +21,7 @@ export default function MyPageClient({ session }) {
   const [playlistsLoading, setPlaylistsLoading] = useState(false);
   const [sortOrder, setSortOrder] = useState('name'); // 'name' または 'date'
   const [displayMode, setDisplayMode] = useState('grid'); // 'grid' または 'list'
+  const [filteredPlaylists, setFilteredPlaylists] = useState([]); // フィルタリング後のプレイリスト
   
   // ページネーション用の状態
   const [currentPage, setCurrentPage] = useState(1);
@@ -45,7 +47,9 @@ export default function MyPageClient({ session }) {
       const response = await fetch('/api/playlists');
       if (response.ok) {
         const data = await response.json();
-        setPlaylists(data.playlists || []);
+        const playlistsData = data.playlists || [];
+        setPlaylists(playlistsData);
+        setFilteredPlaylists(playlistsData); // フィルタリング結果を初期化
       } else {
         console.error('Failed to fetch playlists');
       }
@@ -55,6 +59,12 @@ export default function MyPageClient({ session }) {
       setPlaylistsLoading(false);
     }
   }, [session?.user?.id]);
+
+  // フィルタリング結果を更新する関数
+  const handleFilterChange = useCallback((filteredData) => {
+    setFilteredPlaylists(filteredData);
+    setCurrentPage(1); // フィルタリング後は1ページ目に戻す
+  }, []);
 
   // プレイリストを並び替える関数
   const sortPlaylists = useCallback((playlists, order) => {
@@ -84,7 +94,10 @@ export default function MyPageClient({ session }) {
   // 並び替え順序を変更する関数
   const handleSortChange = useCallback((newOrder) => {
     setSortOrder(newOrder);
-  }, []);
+    // フィルタリング結果を並び替え
+    const sorted = sortPlaylists(filteredPlaylists, newOrder);
+    setFilteredPlaylists(sorted);
+  }, [sortPlaylists, filteredPlaylists]);
 
   // 表示モードを切り替える関数
   const handleDisplayModeChange = useCallback((newMode) => {
@@ -732,12 +745,20 @@ export default function MyPageClient({ session }) {
           </div>
         </div>
         
+        {/* フィルタリングコンポーネント */}
+        {playlists && playlists.length > 0 && (
+          <PlaylistFilters 
+            playlists={playlists}
+            onFilterChange={handleFilterChange}
+          />
+        )}
+        
         {playlistsLoading ? (
           <div className={styles.loading}>プレイリストを読み込み中...</div>
-        ) : playlists && playlists.length > 0 ? (
+        ) : filteredPlaylists && filteredPlaylists.length > 0 ? (
           displayMode === 'grid' ? (
             <div className={styles.playlistsGrid}>
-              {sortPlaylists(playlists, sortOrder).map((playlist) => (
+              {sortPlaylists(filteredPlaylists, sortOrder).map((playlist) => (
                 <Link 
                   href={`/playlists/${playlist.id}`} 
                   key={playlist.id}
@@ -758,6 +779,21 @@ export default function MyPageClient({ session }) {
                   </div>
                   <div className={styles.playlistInfo}>
                     <h4 className={styles.playlistName}>{playlist.name}</h4>
+                    
+                    {/* 年とタグの表示 */}
+                    <div className={styles.playlistMetadata}>
+                      {playlist.year && (
+                        <span className={`${styles.metadataItem} ${styles.year}`}>
+                          {playlist.year}
+                        </span>
+                      )}
+                      {playlist.tags && (
+                        <span className={`${styles.metadataItem} ${styles.tag}`}>
+                          {playlist.tags}
+                        </span>
+                      )}
+                    </div>
+                    
                     <p className={styles.playlistStats}>
                       {playlist.track_count || 0}曲
                     </p>
@@ -770,7 +806,7 @@ export default function MyPageClient({ session }) {
             </div>
           ) : (
             <div className={styles.playlistsList}>
-              {sortPlaylists(playlists, sortOrder).map((playlist) => (
+              {sortPlaylists(filteredPlaylists, sortOrder).map((playlist) => (
                 <Link 
                   href={`/playlists/${playlist.id}`} 
                   key={playlist.id}
@@ -780,6 +816,23 @@ export default function MyPageClient({ session }) {
                     <div className={styles.playlistListTitle}>
                       {playlist.name}
                     </div>
+                    
+                    {/* 年とタグの表示 */}
+                    <div className={styles.playlistListMetadata}>
+                      {playlist.year && (
+                        <span className={`${styles.metadataItem} ${styles.year}`}>
+                          {playlist.year}
+                        </span>
+                      )}
+                      {playlist.tags && (
+                        <span className={`${styles.metadataItem} ${styles.tag}`}>
+                          {playlist.tags}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  
+                  <div className={styles.playlistListRight}>
                     <div className={styles.playlistListTrackCount}>
                       {playlist.track_count || 0}曲
                     </div>
@@ -793,9 +846,18 @@ export default function MyPageClient({ session }) {
           )
         ) : (
           <div className={styles.noPlaylists}>
-            <p>プレイリストがありません</p>
-            <p>曲の三点メニューからプレイリストを作成してみてください</p>
-            <p>または、既存のプレイリストに曲を追加することもできます</p>
+            {filteredPlaylists.length === 0 && playlists.length > 0 ? (
+              <>
+                <p>フィルター条件に一致するプレイリストがありません</p>
+                <p>フィルターを変更するか、リセットしてください</p>
+              </>
+            ) : (
+              <>
+                <p>プレイリストがありません</p>
+                <p>曲の三点メニューからプレイリストを作成してみてください</p>
+                <p>または、既存のプレイリストに曲を追加することもできます</p>
+              </>
+            )}
           </div>
         )}
       </div>

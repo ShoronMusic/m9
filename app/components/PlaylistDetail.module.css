@@ -94,6 +94,28 @@
   margin-top: 0;
 }
 
+.playlistMetadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.metadataItem {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #495057;
+}
+
+.metadataItem strong {
+  color: #007bff;
+  margin-right: 5px;
+}
+
 .createdBy {
   font-size: 14px;
   color: #666;
@@ -653,6 +675,51 @@
   outline: none;
   border-color: #3b82f6;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.editSelect {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background-color: white;
+  color: #1f2937;
+  transition: border-color 0.2s ease;
+  cursor: pointer;
+}
+
+.editSelect:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.editInput {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background-color: white;
+  color: #1f2937;
+  transition: border-color 0.2s ease;
+}
+
+.editInput:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.helpText {
+  display: block;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 4px;
+  font-style: italic;
 }
 
 .editActions {

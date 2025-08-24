@@ -14,6 +14,8 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
   const [editName, setEditName] = useState(initialPlaylist.name || '');
   const [editDescription, setEditDescription] = useState(initialPlaylist.description || '');
   const [editIsPublic, setEditIsPublic] = useState(initialPlaylist.is_public || false);
+  const [editYear, setEditYear] = useState(initialPlaylist.year || '');
+  const [editTags, setEditTags] = useState(initialPlaylist.tags || '');
   const [isSaving, setIsSaving] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const [showFinalDeleteConfirm, setShowFinalDeleteConfirm] = useState(false);
@@ -55,6 +57,8 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
     setEditName(playlist.name || '');
     setEditDescription(playlist.description || '');
     setEditIsPublic(playlist.is_public || false);
+    setEditYear(playlist.year || '');
+    setEditTags(playlist.tags || '');
     setIsEditing(true);
   };
 
@@ -63,6 +67,8 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
     setEditName(playlist.name || '');
     setEditDescription(playlist.description || '');
     setEditIsPublic(playlist.is_public || false);
+    setEditYear(playlist.year || '');
+    setEditTags(playlist.tags || '');
     setIsEditing(false);
   };
 
@@ -126,6 +132,8 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
           name: editName.trim(),
           description: editDescription.trim() || null,
           is_public: editIsPublic,
+          year: editYear || null,
+          tags: editTags.trim() || null,
         }),
       });
 
@@ -144,7 +152,14 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
         setIsEditing(false);
         
         // プレイリスト情報をローカルで更新（ページリロードなし）
-        setPlaylist(prev => ({ ...prev, name: editName.trim(), description: editDescription.trim() || null, is_public: editIsPublic }));
+        setPlaylist(prev => ({ 
+          ...prev, 
+          name: editName.trim(), 
+          description: editDescription.trim() || null, 
+          is_public: editIsPublic,
+          year: editYear || null,
+          tags: editTags.trim() || null
+        }));
         
         console.log('✅ ローカル状態更新完了');
         // アラートなしで静かに保存完了
@@ -259,6 +274,43 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
                 maxLength={500}
                 rows={3}
               />
+              
+              <div className={styles.formGroup}>
+                <label htmlFor="editYear">年（オプション）</label>
+                <select
+                  id="editYear"
+                  value={editYear}
+                  onChange={(e) => setEditYear(e.target.value)}
+                  className={styles.editSelect}
+                >
+                  <option value="">年を選択してください</option>
+                  {Array.from({ length: 10 }, (_, i) => {
+                    const year = new Date().getFullYear() - i;
+                    return (
+                      <option key={year} value={year}>
+                        {year}
+                      </option>
+                    );
+                  })}
+                </select>
+              </div>
+              
+              <div className={styles.formGroup}>
+                <label htmlFor="editTags">タグ（オプション）</label>
+                <input
+                  type="text"
+                  id="editTags"
+                  value={editTags}
+                  onChange={(e) => setEditTags(e.target.value)}
+                  className={styles.editInput}
+                  placeholder="例: Summer Sonic, Rock, 2025"
+                  maxLength={200}
+                />
+                <small className={styles.helpText}>
+                  カンマ区切りで複数のタグを入力できます
+                </small>
+              </div>
+              
               <div className={styles.formGroup}>
                 <label className={styles.checkboxLabel}>
                   <input
@@ -303,6 +355,21 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
               {playlist.description && (
                 <p className={styles.description}>{playlist.description}</p>
               )}
+              
+              {/* 年とタグの表示 */}
+              <div className={styles.playlistMetadata}>
+                {playlist.year && (
+                  <span className={`${styles.metadataItem} ${styles.year}`}>
+                    {playlist.year}
+                  </span>
+                )}
+                {playlist.tags && (
+                  <span className={`${styles.metadataItem} ${styles.tag}`}>
+                    {playlist.tags}
+                  </span>
+                )}
+              </div>
+              
               {session?.user && isOwner && (
                 <button
                   onClick={startEditing}

@@ -66,7 +66,9 @@ export async function GET(request) {
         created_at,
         updated_at,
         spotify_playlist_id,
-        sync_status
+        sync_status,
+        year,
+        tags
       `)
       .eq('user_id', userId)
       .order('created_at', { ascending: false });
@@ -246,6 +248,8 @@ export async function POST(request) {
       name, 
       description, 
       is_public = false, 
+      year,
+      tags,
       track_id, 
       title, 
       title_slug,
@@ -312,7 +316,9 @@ export async function POST(request) {
         user_id: userId,
         name,
         description,
-        is_public
+        is_public,
+        year: year || null,
+        tags: tags || null
       })
       .select()
       .single();
@@ -512,7 +518,11 @@ export async function POST(request) {
 
     // 成功レスポンス（曲の追加状況も含める）
     return Response.json({ 
-      playlist, 
+      playlist: {
+        ...playlist,
+        year: year || null,
+        tags: tags || null
+      }, 
       track_added: trackAdded,
       message: trackAdded ? 'Playlist created and track added successfully' : 'Playlist created successfully (no track added)'
     });
