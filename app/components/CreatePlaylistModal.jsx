@@ -60,10 +60,23 @@ export default function CreatePlaylistModal({
     const playlists = [...localPlaylists];
     
     if (sortType === 'updated') {
-      // 更新日順（最新が上）
+      // 最終更新日順（最後に曲を追加した日が新しい順）
       return playlists.sort((a, b) => {
-        const dateA = new Date(a.updated_at || a.created_at || 0);
-        const dateB = new Date(b.updated_at || b.created_at || 0);
+        // 新しいフィールドlast_track_added_atを使用
+        const dateA = new Date(a.last_track_added_at || a.updated_at || a.created_at || 0);
+        const dateB = new Date(b.last_track_added_at || b.updated_at || b.created_at || 0);
+        
+        // デバッグ用ログ
+        console.log('🔍 Frontend sort debug:', {
+          playlistA: a.name,
+          lastTrackAddedAtA: a.last_track_added_at,
+          dateA: dateA,
+          playlistB: b.name,
+          lastTrackAddedAtB: b.last_track_added_at,
+          dateB: dateB,
+          comparison: dateB - dateA
+        });
+        
         return dateB - dateA;
       });
     } else if (sortType === 'name') {
@@ -409,7 +422,7 @@ export default function CreatePlaylistModal({
                 className={`${styles.sortButton} ${sortType === 'updated' ? styles.active : ''}`}
                 onClick={() => handleSortChange('updated')}
               >
-                更新日順
+                最終更新日順
               </button>
               <button
                 className={`${styles.sortButton} ${sortType === 'name' ? styles.active : ''}`}

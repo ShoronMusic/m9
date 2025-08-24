@@ -439,9 +439,24 @@ export default function SongDetailClient({ songData, description, accessToken })
               <div style={{ minWidth: 80, color: '#555', fontWeight: 600, verticalAlign: 'top' }}>Genre:</div>
               <div style={{ flex: 1, marginLeft: '16px' }}>
                 {songData.genres?.length > 0 ? (
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
                     {songData.genres.map((genre, index) => (
-                      <Link key={index} href={`/genres/${genre.slug}/1`} style={{ fontSize: '1.1em', color: '#1e6ebb', display: 'block' }}>
+                      <Link 
+                        key={index} 
+                        href={`/genres/${genre.slug}/1`} 
+                        style={{ 
+                          fontSize: '1.1em', 
+                          color: '#1e6ebb', 
+                          textDecoration: 'none',
+                          padding: '2px 0',
+                          display: 'inline',
+                          width: 'fit-content',
+                          maxWidth: 'fit-content',
+                          transition: 'color 0.2s ease'
+                        }}
+                        onMouseEnter={(e) => e.target.style.color = '#155a8a'}
+                        onMouseLeave={(e) => e.target.style.color = '#1e6ebb'}
+                      >
                         {genre.name}
                       </Link>
                     ))}
@@ -522,20 +537,29 @@ export default function SongDetailClient({ songData, description, accessToken })
             <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
               <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>LINK:</div>
               <div style={{ flex: 1, marginLeft: '16px' }}>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                  {songData.spotifyTrackId && (
-                    <Link
-                      href={`https://open.spotify.com/track/${songData.spotifyTrackId}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ display: "flex", alignItems: "center", gap: "5px", textDecoration: "none", color: "#1e6ebb", fontSize: "1.08em" }}
-                    >
-                      <img src="/svg/spotify.svg" alt="Spotify" style={{ width: "20px" }} />
-                      Spotify
-                      <img src="/svg/new-window.svg" alt="Open in new window" style={{ width: "20px" }} />
-                    </Link>
-                  )}
-                </div>
+                {songData.spotifyTrackId && (
+                  <Link
+                    href={`https://open.spotify.com/track/${songData.spotifyTrackId}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ 
+                      display: "inline-flex", 
+                      alignItems: "center", 
+                      gap: "5px", 
+                      textDecoration: "none", 
+                      color: "#1e6ebb", 
+                      fontSize: "1.08em",
+                      padding: "2px 0",
+                      transition: "color 0.2s ease"
+                    }}
+                    onMouseEnter={(e) => e.target.style.color = "#155a8a"}
+                    onMouseLeave={(e) => e.target.style.color = "#1e6ebb"}
+                  >
+                    <img src="/svg/spotify.svg" alt="Spotify" style={{ width: "20px" }} />
+                    Spotify
+                    <img src="/svg/new-window.svg" alt="Open in new window" style={{ width: "20px" }} />
+                  </Link>
+                )}
               </div>
             </div>
             {/* プレイリスト追加セクション */}

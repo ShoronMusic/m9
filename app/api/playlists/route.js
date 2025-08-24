@@ -54,7 +54,7 @@ export async function GET(request) {
     
     const userId = supabaseUser.id;
 
-    // ユーザーのプレイリスト一覧を取得
+    // ユーザーのプレイリスト一覧を取得（新しいフィールドを使用）
     const { data: playlists, error } = await supabase
       .from('playlists')
       .select(`
@@ -68,17 +68,18 @@ export async function GET(request) {
         spotify_playlist_id,
         sync_status,
         year,
-        tags
+        tags,
+        last_track_added_at
       `)
       .eq('user_id', userId)
-      .order('created_at', { ascending: false });
+      .order('last_track_added_at', { ascending: false });
 
     if (error) {
       console.error('Supabase error:', error);
       return Response.json({ error: 'Database error' }, { status: 500 });
     }
 
-    // 各プレイリストのトラック数を個別に取得
+    // 各プレイリストのトラック数を取得
     const playlistsWithTrackCount = await Promise.all(
       playlists.map(async (playlist) => {
         const { count: trackCount, error: countError } = await supabase
@@ -95,10 +96,13 @@ export async function GET(request) {
       })
     );
 
-    if (error) {
-      console.error('Supabase error:', error);
-      return Response.json({ error: 'Database error' }, { status: 500 });
-    }
+    // デバッグ用ログ
+    console.log('🔍 Playlists with new field:', playlistsWithTrackCount.map(p => ({
+      name: p.name,
+      created_at: p.created_at,
+      last_track_added_at: p.last_track_added_at,
+      track_count: p.track_count
+    })));
 
     return Response.json({ playlists: playlistsWithTrackCount });
   } catch (error) {
