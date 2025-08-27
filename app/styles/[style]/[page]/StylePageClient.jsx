@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useAuthToken } from '@/components/useAuthToken';
 import { useSpotifyLikes } from '@/components/SpotifyLikes';
 import AuthErrorBanner from '@/components/AuthErrorBanner';
+import SpotifyErrorHandler from '@/components/SpotifyErrorHandler';
 import Link from 'next/link';
 import Image from 'next/image';
 import { config } from '@/config/config';
@@ -132,7 +133,16 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
 
   // Spotify APIからお気に入り情報を取得
   const trackIds = wpStylePosts.map(song => song.acf?.spotify_track_id || song.spotifyTrackId).filter(Boolean);
-  const { likedTracks, toggleLike, error: likesError } = useSpotifyLikes(accessToken, trackIds);
+  const { 
+    likedTracks, 
+    toggleLike, 
+    error: likesError, 
+    isLoading: likesLoading,
+    retryCount,
+    maxRetries,
+    refreshLikes,
+    clearError: clearLikesError
+  } = useSpotifyLikes(accessToken, trackIds);
 
   if (!styleData) {
     return <div className="text-red-500">データの取得に失敗しました。</div>;
@@ -199,6 +209,17 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
         error={tokenError}
         onReLogin={handleReLogin}
         onDismiss={() => {}}
+      />
+
+      {/* SpotifyLikesエラーハンドラー */}
+      <SpotifyErrorHandler
+        error={likesError}
+        isLoading={likesLoading}
+        retryCount={retryCount}
+        maxRetries={maxRetries}
+        onRetry={refreshLikes}
+        onClearError={clearLikesError}
+        onReLogin={handleReLogin}
       />
 
       <div className={styles.pageInfo} style={{ marginLeft: '1rem', paddingLeft: '1rem' }}>
