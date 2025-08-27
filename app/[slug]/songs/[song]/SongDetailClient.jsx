@@ -15,6 +15,17 @@ import theme from "../../../css/theme";
 import Image from "next/image";
 import artistStyles from "../../ArtistPage.module.css";
 
+// モバイル最適化対応のインポート
+import { useAuthToken } from '@/components/useAuthToken';
+import { useSpotifyLikes } from '@/components/SpotifyLikes';
+import { useErrorHandler, ERROR_TYPES, ERROR_SEVERITY, createError } from '@/components/useErrorHandler';
+import AuthErrorBanner from '@/components/AuthErrorBanner';
+import SpotifyErrorHandler from '@/components/SpotifyErrorHandler';
+import SessionRecoveryIndicator from '@/components/SessionRecoveryIndicator';
+import MobileLifecycleManager from '@/components/MobileLifecycleManager';
+import NetworkStatusIndicator from '@/components/NetworkStatusIndicator';
+import UnifiedErrorDisplay from '@/components/UnifiedErrorDisplay';
+
 const styleIdMap = {
   pop: 2844,
   dance: 4686,
@@ -106,10 +117,64 @@ export default function SongDetailClient({ songData, description, accessToken })
   const [userPlaylists, setUserPlaylists] = useState([]);
   const [showCreateNewPlaylistModal, setShowCreateNewPlaylistModal] = useState(false);
   
-  // いいね機能用の状態
+  // いいね機能用の状態（統合されたフックに置き換え）
   const [isLiked, setIsLiked] = useState(false);
-  const [likesLoading, setLikesLoading] = useState(false);
-  const [likesError, setLikesError] = useState(null);
+
+  // モバイル最適化対応の状態管理
+  const [isOnline, setIsOnline] = useState(true);
+  const [appDimensions, setAppDimensions] = useState({
+    width: typeof window !== 'undefined' ? window.innerWidth : 0,
+    height: typeof window !== 'undefined' ? window.innerHeight : 0,
+    isMobile: typeof window !== 'undefined' ? window.innerWidth <= 768 : false,
+    isTablet: typeof window !== 'undefined' ? window.innerWidth > 768 && window.innerWidth <= 1024 : false,
+    isDesktop: typeof window !== 'undefined' ? window.innerWidth > 1024 : false
+  });
+
+  // 認証トークン管理
+  const {
+    session: authSession,
+    isTokenValid,
+    tokenError,
+    isRecovering,
+    handleReLogin,
+    handleManualRecovery
+  } = useAuthToken();
+
+  // 統一されたエラーハンドリング
+  const {
+    errors,
+    addError,
+    resolveError,
+    reportError,
+    hasNetworkErrors,
+    hasAuthErrors,
+    hasCriticalErrors
+  } = useErrorHandler({
+    onError: (error) => {
+      console.log('Error occurred:', error);
+    },
+    onErrorResolved: (errorId) => {
+      console.log('Error resolved:', errorId);
+    },
+    maxErrors: 5,
+    autoResolveDelay: 8000,
+    enableLogging: true,
+    enableReporting: true
+  });
+
+  // SpotifyLikesフックの使用
+  const trackIds = songData?.spotifyTrackId ? [songData.spotifyTrackId] : [];
+
+  const {
+    likedTracks,
+    toggleLike,
+    error: spotifyLikesError,
+    isLoading: spotifyLikesLoading,
+    retryCount,
+    maxRetries,
+    refreshLikes,
+    clearError: clearSpotifyLikesError
+  } = useSpotifyLikes(session?.accessToken, trackIds);
 
   useEffect(() => {
     // デバッグ用
@@ -169,84 +234,107 @@ export default function SongDetailClient({ songData, description, accessToken })
     }
   }, [session]);
 
-  // いいね状態をチェック
   useEffect(() => {
-    if (session?.accessToken && songData?.spotifyTrackId) {
-      checkLikeStatus();
+    if (likedTracks && likedTracks instanceof Set && songData?.spotifyTrackId) {
+      // likedTracksはSetオブジェクトなので、hasメソッドを使用
+      const isTrackLiked = likedTracks.has(songData.spotifyTrackId);
+      setIsLiked(isTrackLiked);
     }
-  }, [session?.accessToken, songData?.spotifyTrackId]);
+  }, [likedTracks, songData?.spotifyTrackId]);
 
-  // いいね状態をチェックする関数
-  const checkLikeStatus = async () => {
-    if (!session?.accessToken || !songData?.spotifyTrackId) return;
-    
+  // いいねの切り替え（統合されたフックを使用）
+  const handleLikeToggle = async () => {
+    if (!session?.accessToken) {
+      addError(createError(
+        'この機能を使用するにはSpotifyでログインしてください。',
+        ERROR_TYPES.AUTHENTICATION,
+        ERROR_SEVERITY.MEDIUM
+      ));
+      return;
+    }
+
+    if (spotifyLikesError) {
+      addError(createError(
+        `エラー: ${spotifyLikesError}`,
+        ERROR_TYPES.SPOTIFY,
+        ERROR_SEVERITY.HIGH
+      ));
+      return;
+    }
+
     try {
-      setLikesLoading(true);
-      setLikesError(null);
+      const success = await toggleLike(songData.spotifyTrackId);
       
-      const response = await fetch(`https://api.spotify.com/v1/me/tracks/contains?ids=${songData.spotifyTrackId}`, {
-        headers: {
-          'Authorization': `Bearer ${session.accessToken}`,
-        },
-      });
-      
-      if (response.ok) {
-        const likedArray = await response.json();
-        setIsLiked(likedArray[0] || false);
-      } else if (response.status === 401) {
-        setLikesError('認証エラー: Spotifyに再ログインしてください');
+      if (success) {
+        // 成功した場合、ローカル状態を即座に更新
+        setIsLiked(!isLiked);
       } else {
-        setLikesError('いいね情報の取得に失敗しました');
+        addError(createError(
+          'いいねの更新に失敗しました',
+          ERROR_TYPES.SPOTIFY,
+          ERROR_SEVERITY.HIGH
+        ));
       }
     } catch (error) {
-      console.error('Error checking like status:', error);
-      setLikesError('ネットワークエラーが発生しました');
-    } finally {
-      setLikesLoading(false);
+      addError(createError(
+        'いいねの更新に失敗しました',
+        ERROR_TYPES.SPOTIFY,
+        ERROR_SEVERITY.HIGH
+      ));
     }
   };
 
-  // いいねの切り替え
-  const handleLikeToggle = async () => {
-    if (!session?.accessToken) {
-      alert('この機能を使用するにはSpotifyでログインしてください。');
-      return;
+  // モバイル最適化対応のライフサイクルイベントハンドラー
+  const handleAppActive = () => {
+    // セッション状態を確認
+    if (session && isTokenValid === false) {
+      handleManualRecovery();
     }
+  };
 
-    if (likesError) {
-      alert(`エラー: ${likesError}`);
-      return;
+  const handleAppInactive = () => {
+    // 必要に応じてデータの保存や状態のクリーンアップ
+  };
+
+  const handleNetworkChange = (online) => {
+    setIsOnline(online);
+    if (online) {
+      addError(createError(
+        'ネットワーク接続が復旧しました',
+        ERROR_TYPES.NETWORK,
+        ERROR_SEVERITY.LOW
+      ));
+    } else {
+      addError(createError(
+        'ネットワーク接続が失われました',
+        ERROR_TYPES.NETWORK,
+        ERROR_SEVERITY.HIGH
+      ));
     }
+  };
 
-    try {
-      setLikesLoading(true);
-      setLikesError(null);
-      
-      const method = isLiked ? 'DELETE' : 'PUT';
-      const response = await fetch(`https://api.spotify.com/v1/me/tracks?ids=${songData.spotifyTrackId}`, {
-        method,
-        headers: {
-          'Authorization': `Bearer ${session.accessToken}`,
-          'Content-Type': 'application/json',
-        },
-      });
-      
-      if (response.ok) {
-        setIsLiked(!isLiked);
-        console.log(isLiked ? 'いいねを解除しました' : 'いいねを追加しました');
-      } else if (response.status === 401) {
-        setLikesError('認証エラー: Spotifyに再ログインしてください');
-        alert('認証エラーが発生しました。Spotifyに再ログインしてください。');
-      } else {
-        setLikesError('いいねの更新に失敗しました');
-        alert(isLiked ? 'いいねの解除に失敗しました。' : 'いいねの追加に失敗しました。');
-      }
-    } catch (error) {
-      console.error('Error toggling like:', error);
-      setLikesError('ネットワークエラーが発生しました');
-      alert('エラーが発生しました。もう一度お試しください。');
-    } finally {
-      setLikesLoading(false);
+  const handleOrientationChange = (orientation) => {
+    // 画面の向きに応じたレイアウト調整
+  };
+
+  const handleResize = (dimensions) => {
+    setAppDimensions(dimensions);
+    // リサイズログは出力しない（頻繁に発生するため）
+  };
+
+  const handleNetworkRetry = () => {
+    // ネットワーク接続の再試行
+    window.location.reload();
+  };
+
+  const handleErrorResolve = (errorId) => {
+    resolveError(errorId);
+  };
+
+  const handleErrorReport = async (errorId) => {
+    const success = await reportError(errorId);
+    if (success) {
+      console.log('Error reported successfully');
     }
   };
 
@@ -347,26 +435,75 @@ export default function SongDetailClient({ songData, description, accessToken })
   ) : null;
 
   return (
-    <ThemeProvider theme={theme}>
-      <Head>
-        		<title>{pageTitleStr} | TuneDive</title>
-        <meta name="description" content={description} />
-        <style jsx>{`
-          @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-          }
-        `}</style>
-      </Head>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          alignItems: "flex-start",
-          padding: "20px",
-          flexWrap: "wrap",
-        }}
-      >
+    <MobileLifecycleManager
+      onAppActive={handleAppActive}
+      onAppInactive={handleAppInactive}
+      onNetworkChange={handleNetworkChange}
+      onOrientationChange={handleOrientationChange}
+      onResize={handleResize}
+    >
+      <ThemeProvider theme={theme}>
+        <Head>
+          <title>{pageTitleStr} | TuneDive</title>
+          <meta name="description" content={description} />
+          <style jsx>{`
+            @keyframes spin {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+            }
+          `}</style>
+        </Head>
+
+        {/* 統一されたエラー表示 */}
+        <UnifiedErrorDisplay
+          errors={errors}
+          onResolve={handleErrorResolve}
+          onReport={handleErrorReport}
+          maxDisplayed={3}
+          showDetails={true}
+          position="top-right"
+        />
+
+        {/* ネットワーク状態インジケーター */}
+        <NetworkStatusIndicator
+          isOnline={isOnline}
+          onRetry={handleNetworkRetry}
+        />
+
+        {/* 認証エラーバナー */}
+        <AuthErrorBanner
+          error={tokenError}
+          onReLogin={handleReLogin}
+          onDismiss={() => {}}
+        />
+
+        {/* セッション復旧インジケーター */}
+        <SessionRecoveryIndicator
+          isRecovering={isRecovering}
+          onManualRecovery={handleManualRecovery}
+          onDismiss={() => {}}
+        />
+
+        {/* SpotifyLikesエラーハンドラー */}
+        <SpotifyErrorHandler
+          error={spotifyLikesError}
+          isLoading={spotifyLikesLoading}
+          retryCount={retryCount}
+          maxRetries={maxRetries}
+          onRetry={refreshLikes}
+          onClearError={clearSpotifyLikesError}
+          onReLogin={handleReLogin}
+        />
+
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "flex-start",
+            padding: "20px",
+            flexWrap: "wrap",
+          }}
+        >
         {/* 左: 曲のサムネイル（アーティストページと同じデザイン） */}
         <div className={artistStyles.imageContainer}>
           <Image
@@ -487,25 +624,25 @@ export default function SongDetailClient({ songData, description, accessToken })
                       backgroundColor: "transparent",
                       border: "none",
                       borderRadius: "50%",
-                      cursor: likesLoading ? "not-allowed" : "pointer",
-                      opacity: likesLoading ? 0.5 : 1,
+                      cursor: spotifyLikesLoading ? "not-allowed" : "pointer",
+                      opacity: spotifyLikesLoading ? 0.5 : 1,
                       transition: "all 0.2s ease",
                       position: "relative"
                     }}
                     onMouseEnter={(e) => {
-                      if (!likesLoading) {
+                      if (!spotifyLikesLoading) {
                         e.target.style.backgroundColor = "#f0f0f0";
                         e.target.style.transform = "scale(1.1)";
                       }
                     }}
                     onMouseLeave={(e) => {
-                      if (!likesLoading) {
+                      if (!spotifyLikesLoading) {
                         e.target.style.backgroundColor = "transparent";
                         e.target.style.transform = "scale(1)";
                       }
                     }}
-                    title={likesError ? `エラー: ${likesError}` : (isLiked ? "いいねを解除" : "いいねを追加")}
-                    disabled={likesLoading}
+                    title={spotifyLikesError ? `エラー: ${spotifyLikesError}` : (isLiked ? "いいねを解除" : "いいねを追加")}
+                    disabled={spotifyLikesLoading}
                   >
                     <img
                       src={isLiked ? "/svg/heart-solid.svg" : "/svg/heart-regular.svg"}
@@ -513,10 +650,10 @@ export default function SongDetailClient({ songData, description, accessToken })
                       style={{ 
                         width: "18px", 
                         height: "18px",
-                        filter: likesError ? "grayscale(100%)" : "none"
+                        filter: spotifyLikesError ? "grayscale(100%)" : "none"
                       }}
                     />
-                    {likesLoading && (
+                    {spotifyLikesLoading && (
                       <div style={{
                         position: "absolute",
                         top: "-3px",
@@ -700,6 +837,7 @@ export default function SongDetailClient({ songData, description, accessToken })
         />
       )}
       
-    </ThemeProvider>
+      </ThemeProvider>
+    </MobileLifecycleManager>
   );
 } 

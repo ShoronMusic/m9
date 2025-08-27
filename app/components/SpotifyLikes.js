@@ -198,13 +198,15 @@ export const useSpotifyLikes = (accessToken, trackIds = []) => {
   }, [accessToken]);
 
   // いいねの切り替え
-  const toggleLike = useCallback(async (trackId, shouldLike) => {
-    if (shouldLike) {
-      return await addToLikedTracks(trackId);
-    } else {
+  const toggleLike = useCallback(async (trackId) => {
+    const isCurrentlyLiked = likedTracks.has(trackId);
+    
+    if (isCurrentlyLiked) {
       return await removeFromLikedTracks(trackId);
+    } else {
+      return await addToLikedTracks(trackId);
     }
-  }, [addToLikedTracks, removeFromLikedTracks]);
+  }, [likedTracks, addToLikedTracks, removeFromLikedTracks]);
 
   // 手動でいいね状態を更新（外部からの変更に対応）
   const updateLikedStatus = useCallback((trackId, isLiked) => {

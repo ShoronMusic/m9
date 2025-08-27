@@ -8,6 +8,15 @@ import { config } from "./config/config";
 import { usePlayer } from './components/PlayerContext';
 import Link from "next/link";
 
+// モバイル最適化対応のインポート
+import { useAuthToken } from '@/components/useAuthToken';
+import { useErrorHandler, ERROR_TYPES, ERROR_SEVERITY, createError } from '@/components/useErrorHandler';
+import AuthErrorBanner from '@/components/AuthErrorBanner';
+import SessionRecoveryIndicator from '@/components/SessionRecoveryIndicator';
+import MobileLifecycleManager from '@/components/MobileLifecycleManager';
+import NetworkStatusIndicator from '@/components/NetworkStatusIndicator';
+import UnifiedErrorDisplay from '@/components/UnifiedErrorDisplay';
+
 // --- ヘルパー関数群 (SongList.jsから移植) ---
 function removeLeadingThe(str = "") {
 	return str.replace(/^The\s+/i, "").trim();
@@ -130,6 +139,48 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 	const [latestUpdateDate, setLatestUpdateDate] = useState('');
 	const { playTrack, setTrackList } = usePlayer();
 
+	// モバイル最適化対応の状態管理
+	const [isOnline, setIsOnline] = useState(true);
+	const [appDimensions, setAppDimensions] = useState({
+		width: typeof window !== 'undefined' ? window.innerWidth : 0,
+		height: typeof window !== 'undefined' ? window.innerHeight : 0,
+		isMobile: typeof window !== 'undefined' ? window.innerWidth <= 768 : false,
+		isTablet: typeof window !== 'undefined' ? window.innerWidth > 768 && window.innerWidth <= 1024 : false,
+		isDesktop: typeof window !== 'undefined' ? window.innerWidth > 1024 : false
+	});
+
+	// 認証トークン管理
+	const {
+		session,
+		isTokenValid,
+		tokenError,
+		isRecovering,
+		handleReLogin,
+		handleManualRecovery
+	} = useAuthToken();
+
+	// 統一されたエラーハンドリング
+	const {
+		errors,
+		addError,
+		resolveError,
+		reportError,
+		hasNetworkErrors,
+		hasAuthErrors,
+		hasCriticalErrors
+	} = useErrorHandler({
+		onError: (error) => {
+			console.log('Error occurred:', error);
+		},
+		onErrorResolved: (errorId) => {
+			console.log('Error resolved:', errorId);
+		},
+		maxErrors: 5,
+		autoResolveDelay: 8000,
+		enableLogging: true,
+		enableReporting: true
+	});
+
 	// propsからデータをセットし、正規化
 	const allSongs = styleOrder
 		.flatMap((slug) => {
@@ -192,6 +243,60 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 		}
 	}, [topSongsData, setTrackList]); // setTrackListを依存関係に追加
 
+	// モバイル最適化対応のライフサイクルイベントハンドラー
+	const handleAppActive = () => {
+		// セッション状態を確認
+		if (session && isTokenValid === false) {
+			handleManualRecovery();
+		}
+	};
+
+	const handleAppInactive = () => {
+		// 必要に応じてデータの保存や状態のクリーンアップ
+	};
+
+	const handleNetworkChange = (online) => {
+		setIsOnline(online);
+		if (online) {
+			addError(createError(
+				'ネットワーク接続が復旧しました',
+				ERROR_TYPES.NETWORK,
+				ERROR_SEVERITY.LOW
+			));
+		} else {
+			addError(createError(
+				'ネットワーク接続が失われました',
+				ERROR_TYPES.NETWORK,
+				ERROR_SEVERITY.HIGH
+			));
+		}
+	};
+
+	const handleOrientationChange = (orientation) => {
+		// 画面の向きに応じたレイアウト調整
+	};
+
+	const handleResize = (dimensions) => {
+		setAppDimensions(dimensions);
+		// リサイズログは出力しない（頻繁に発生するため）
+	};
+
+	const handleNetworkRetry = () => {
+		// ネットワーク接続の再試行
+		window.location.reload();
+	};
+
+	const handleErrorResolve = (errorId) => {
+		resolveError(errorId);
+	};
+
+	const handleErrorReport = async (errorId) => {
+		const success = await reportError(errorId);
+		if (success) {
+			console.log('Error reported successfully');
+		}
+	};
+
 	// 曲再生管理（PlayerContextを使用）
 	const handleTrackPlay = useCallback((song, index) => {
 		// allSongsから正しいインデックスを探す
@@ -200,71 +305,109 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 	}, [playTrack, allSongs]);
 
 	return (
-		<div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
-			<div style={{
-				display: 'flex',
-				justifyContent: 'space-between',
-				alignItems: 'center',
-				marginBottom: '2rem'
-			}}>
-				<h1 style={{
-					fontSize: '1.4rem',
-					fontWeight: 800,
-					textAlign: 'left',
-					margin: 0,
-					color: 'var(--tunedive-text-primary)'
+		<MobileLifecycleManager
+			onAppActive={handleAppActive}
+			onAppInactive={handleAppInactive}
+			onNetworkChange={handleNetworkChange}
+			onOrientationChange={handleOrientationChange}
+			onResize={handleResize}
+		>
+			<div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
+				{/* 統一されたエラー表示 */}
+				<UnifiedErrorDisplay
+					errors={errors}
+					onResolve={handleErrorResolve}
+					onReport={handleErrorReport}
+					maxDisplayed={3}
+					showDetails={true}
+					position="top-right"
+				/>
+
+				{/* ネットワーク状態インジケーター */}
+				<NetworkStatusIndicator
+					isOnline={isOnline}
+					onRetry={handleNetworkRetry}
+				/>
+
+				{/* 認証エラーバナー */}
+				<AuthErrorBanner
+					error={tokenError}
+					onReLogin={handleReLogin}
+					onDismiss={() => {}}
+				/>
+
+				{/* セッション復旧インジケーター */}
+				<SessionRecoveryIndicator
+					isRecovering={isRecovering}
+					onManualRecovery={handleManualRecovery}
+					onDismiss={() => {}}
+				/>
+
+				<div style={{
+					display: 'flex',
+					justifyContent: 'space-between',
+					alignItems: 'center',
+					marginBottom: '2rem'
 				}}>
-					Dive Deeper into Spotify Music
-				</h1>
-				<span style={{
-					fontSize: '0.9rem',
-					color: 'var(--tunedive-text-secondary)',
-					fontWeight: 400
-				}}>
-					Lastupdate: {latestUpdateDate || '2025.08.nn'}
-				</span>
+					<h1 style={{
+						fontSize: '1.4rem',
+						fontWeight: 800,
+						textAlign: 'left',
+						margin: 0,
+						color: 'var(--tunedive-text-primary)'
+					}}>
+						Dive Deeper into Spotify Music
+					</h1>
+					<span style={{
+						fontSize: '0.9rem',
+						color: 'var(--tunedive-text-secondary)',
+						fontWeight: 400
+					}}>
+						Lastupdate: {latestUpdateDate || '2025.08.nn'}
+					</span>
+				</div>
+
+				{styleOrder.map((styleSlug) => {
+					const styleSongs = songsByStyle[styleSlug] || [];
+					const styleName = styleDisplayMap[styleSlug];
+					
+					if (styleSongs.length === 0) return null;
+
+					return (
+						<div key={styleSlug} style={{ marginBottom: '40px' }}>
+							<Link href={`/styles/${styleSlug}/1`} style={{ textDecoration: 'none' }}>
+								<h2 style={{
+									display: 'inline-flex',
+									alignItems: 'center',
+									gap: '0.5rem',
+									textAlign: 'left',
+									fontSize: '1.8em',
+									fontWeight: 700,
+									margin: 0,
+									color: '#3b82f6',
+									letterSpacing: '-0.01em',
+									lineHeight: 1.1,
+									cursor: 'pointer',
+									transition: 'all 0.2s ease-in-out'
+								}}>
+									{styleName}
+									<span style={{ fontSize: '0.8em' }}>→</span>
+								</h2>
+							</Link>
+							<div style={{ borderBottom: '1px solid #e2e8f0', marginTop: '1rem', marginBottom: '1rem' }} />
+
+							<SongListTopPage
+								songs={styleSongs}
+								styleSlug={styleSlug}
+								styleName={styleName}
+								onTrackPlay={handleTrackPlay}
+								showTitle={false}
+								accessToken={accessToken}
+							/>
+						</div>
+					);
+				})}
 			</div>
-
-			{styleOrder.map((styleSlug) => {
-				const styleSongs = songsByStyle[styleSlug] || [];
-				const styleName = styleDisplayMap[styleSlug];
-				
-				if (styleSongs.length === 0) return null;
-
-				return (
-					<div key={styleSlug} style={{ marginBottom: '40px' }}>
-						<Link href={`/styles/${styleSlug}/1`} style={{ textDecoration: 'none' }}>
-							<h2 style={{
-								display: 'inline-flex',
-								alignItems: 'center',
-								gap: '0.5rem',
-								textAlign: 'left',
-								fontSize: '1.8em',
-								fontWeight: 700,
-								margin: 0,
-								color: '#3b82f6',
-								letterSpacing: '-0.01em',
-								lineHeight: 1.1,
-								cursor: 'pointer',
-								transition: 'all 0.2s ease-in-out'
-							}}>
-								{styleName}
-								<span style={{ fontSize: '0.8em' }}>→</span>
-							</h2>
-						</Link>
-						<div style={{ borderBottom: '1px solid #e2e8f0', marginTop: '1rem', marginBottom: '1rem' }} />
-
-						<SongListTopPage
-							songs={styleSongs}
-							styleSlug={styleSlug}
-							styleName={styleName}
-							onTrackPlay={handleTrackPlay}
-							showTitle={false}
-							accessToken={accessToken}
-						/>
-					</div>
-				);
-			})}
-		</div>
+		</MobileLifecycleManager>
 	);
 }
