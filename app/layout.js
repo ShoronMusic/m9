@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import AuthProvider from "./components/AuthProvider";
 import { PlayerProvider } from "./components/PlayerContext";
 import FooterPlayer from "./components/FooterPlayer";
+import ErrorBoundary from "./components/ErrorBoundary";
 import { getServerSession } from "next-auth";
 import { authOptions } from "./lib/authOptions";
 
@@ -61,14 +62,16 @@ export default async function RootLayout({ children }) {
         <link rel="dns-prefetch" href="https://accounts.spotify.com" />
       </head>
       <body className={inter.className}>
-        <AuthProvider>
-          <PlayerProvider>
-            <Layout>
-              {children}
-            </Layout>
-            <FooterPlayer />
-          </PlayerProvider>
-        </AuthProvider>
+        <ErrorBoundary>
+          <AuthProvider>
+            <PlayerProvider>
+              <Layout>
+                {children}
+              </Layout>
+              <FooterPlayer />
+            </PlayerProvider>
+          </AuthProvider>
+        </ErrorBoundary>
       </body>
     </html>
   );

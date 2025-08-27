@@ -1,0 +1,233 @@
+.errorContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.errorContent {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.errorIcon {
+  font-size: 4em;
+  margin-bottom: 20px;
+  animation: pulse 2s infinite;
+}
+
+.errorTitle {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #dc3545;
+  margin: 0 0 16px 0;
+  line-height: 1.2;
+}
+
+.errorMessage {
+  font-size: 1.1em;
+  color: #666;
+  margin: 0 0 24px 0;
+  line-height: 1.5;
+}
+
+.errorDetails {
+  margin: 24px 0;
+  text-align: left;
+}
+
+.errorDetails summary {
+  cursor: pointer;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #495057;
+  border: 1px solid #dee2e6;
+  transition: all 0.2s ease;
+}
+
+.errorDetails summary:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.errorDetails[open] summary {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+
+.errorStack {
+  padding: 16px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  font-size: 0.9em;
+  color: #495057;
+}
+
+.errorStack p {
+  margin: 0 0 8px 0;
+}
+
+.errorStack p:last-child {
+  margin-bottom: 0;
+}
+
+.stackTrace {
+  background: #2d3748;
+  color: #e2e8f0;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 0.8em;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-top: 12px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+.errorActions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 24px 0;
+  flex-wrap: wrap;
+}
+
+.retryButton,
+.reportButton,
+.reloadButton {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 120px;
+}
+
+.retryButton {
+  background: #007bff;
+  color: white;
+}
+
+.retryButton:hover {
+  background: #0056b3;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.reportButton {
+  background: #6c757d;
+  color: white;
+}
+
+.reportButton:hover {
+  background: #545b62;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(108, 117, 125, 0.3);
+}
+
+.reloadButton {
+  background: #28a745;
+  color: white;
+}
+
+.reloadButton:hover {
+  background: #1e7e34;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+}
+
+.errorHelp {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #dee2e6;
+  text-align: left;
+}
+
+.errorHelp p {
+  font-weight: 600;
+  color: #495057;
+  margin: 0 0 12px 0;
+}
+
+.errorHelp ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #6c757d;
+}
+
+.errorHelp li {
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  .errorContainer {
+    padding: 16px;
+  }
+  
+  .errorContent {
+    padding: 24px 20px;
+  }
+  
+  .errorTitle {
+    font-size: 1.5em;
+  }
+  
+  .errorMessage {
+    font-size: 1em;
+  }
+  
+  .errorActions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .retryButton,
+  .reportButton,
+  .reloadButton {
+    width: 100%;
+    padding: 14px 20px;
+  }
+  
+  .errorDetails summary {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  
+  .errorStack {
+    padding: 12px;
+    font-size: 0.8em;
+  }
+  
+  .stackTrace {
+    padding: 12px;
+    font-size: 0.7em;
+  }
+}

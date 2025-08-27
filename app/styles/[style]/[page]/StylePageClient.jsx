@@ -3,11 +3,13 @@
 import { useState, useEffect } from 'react';
 import { useAuthToken } from '@/components/useAuthToken';
 import { useSpotifyLikes } from '@/components/SpotifyLikes';
+import { useErrorHandler, ERROR_TYPES, ERROR_SEVERITY, createError } from '@/components/useErrorHandler';
 import AuthErrorBanner from '@/components/AuthErrorBanner';
 import SpotifyErrorHandler from '@/components/SpotifyErrorHandler';
 import SessionRecoveryIndicator from '@/components/SessionRecoveryIndicator';
 import MobileLifecycleManager from '@/components/MobileLifecycleManager';
 import NetworkStatusIndicator from '@/components/NetworkStatusIndicator';
+import UnifiedErrorDisplay from '@/components/UnifiedErrorDisplay';
 import Link from 'next/link';
 import Image from 'next/image';
 import { config } from '@/config/config';
@@ -71,6 +73,28 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
   const accessToken = session?.accessToken;
   const songs = Array.isArray(styleData?.songs) ? styleData.songs : [];
   
+  // 統一されたエラーハンドリング
+  const {
+    errors,
+    addError,
+    resolveError,
+    reportError,
+    hasNetworkErrors,
+    hasAuthErrors,
+    hasCriticalErrors
+  } = useErrorHandler({
+    onError: (error) => {
+      console.log('Error occurred:', error);
+    },
+    onErrorResolved: (errorId) => {
+      console.log('Error resolved:', errorId);
+    },
+    maxErrors: 5,
+    autoResolveDelay: 8000,
+    enableLogging: true,
+    enableReporting: true
+  });
+
   // アーティスト配列生成ロジック - すべての項目を含む
   const wpStylePosts = songs.map(song => {
     let artists = [];
@@ -241,6 +265,17 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     if (online) {
       console.log('📱 Network restored, refreshing data...');
       // ネットワーク復旧時の処理
+      addError(createError(
+        'ネットワーク接続が復旧しました',
+        ERROR_TYPES.NETWORK,
+        ERROR_SEVERITY.LOW
+      ));
+    } else {
+      addError(createError(
+        'ネットワーク接続が失われました',
+        ERROR_TYPES.NETWORK,
+        ERROR_SEVERITY.HIGH
+      ));
     }
   };
 
@@ -263,6 +298,20 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     window.location.reload();
   };
 
+  // エラー解決のハンドラー
+  const handleErrorResolve = (errorId) => {
+    resolveError(errorId);
+  };
+
+  // エラー報告のハンドラー
+  const handleErrorReport = async (errorId) => {
+    const success = await reportError(errorId);
+    if (success) {
+      // エラー報告成功時の処理
+      console.log('Error reported successfully');
+    }
+  };
+
   return (
     <MobileLifecycleManager
       onAppActive={handleAppActive}
@@ -272,6 +321,16 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
       onResize={handleResize}
     >
       <div className={styles.container}>
+        {/* 統一されたエラー表示 */}
+        <UnifiedErrorDisplay
+          errors={errors}
+          onResolve={handleErrorResolve}
+          onReport={handleErrorReport}
+          maxDisplayed={3}
+          showDetails={true}
+          position="top-right"
+        />
+
         {/* ネットワーク状態インジケーター */}
         <NetworkStatusIndicator
           isOnline={isOnline}
