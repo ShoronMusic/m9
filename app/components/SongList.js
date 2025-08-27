@@ -1108,30 +1108,31 @@ export default function SongList({
             setIsPopupVisible(false);
           }}
           renderMenuContent={({ song, onAddToPlaylist, onCopyUrl }) => {
-             // 三点メニューのサブメニュー項目と値をログ出力
-             console.log('🎵 三点メニューサブメニュー項目確認:', {
-               songId: song.id,
-               songTitle: song.title?.rendered || song.title,
-               songSlug: song.slug,
-               titleSlug: song.titleSlug,
-               artists: song.artists?.map(artist => ({
-                 id: artist.id,
-                 name: artist.name,
-                 slug: artist.slug,
-                 origin: artist.acf?.artistorigin
-               })),
-               genres: song.genres?.map(genre => ({
-                 term_id: genre.term_id,
-                 name: genre.name,
-                 slug: genre.slug
-               })),
-               spotifyTrackId: song.spotifyTrackId,
-               spotifyUrl: song.spotify_url,
-               thumbnail: song.thumbnail,
-               featuredMediaUrl: song.featured_media_url,
-               featuredMediaUrlThumbnail: song.featured_media_url_thumbnail,
-               date: song.date,
-               releaseDate: song.releaseDate,
+             // 三点メニューのサブメニュー項目と値をログ出力（デバッグ時のみ）
+             if (process.env.NODE_ENV === 'development') {
+               console.log('🎵 三点メニューサブメニュー項目確認:', {
+                 songId: song.id,
+                 songTitle: song.title?.rendered || song.title,
+                 songSlug: song.slug,
+                 titleSlug: song.titleSlug,
+                 artists: song.artists?.map(artist => ({
+                   id: artist.id,
+                   name: artist.name,
+                   slug: artist.slug,
+                   origin: artist.acf?.artistorigin
+                 })),
+                 genres: song.genres?.map(genre => ({
+                   term_id: genre.term_id,
+                   name: genre.name,
+                   slug: genre.slug
+                 })),
+                 spotifyTrackId: song.spotifyTrackId,
+                 spotifyUrl: song.spotify_url,
+                 thumbnail: song.thumbnail,
+                 featuredMediaUrl: song.featured_media_url,
+                 featuredMediaUrlThumbnail: song.featured_media_url_thumbnail,
+                 date: song.date,
+                 releaseDate: song.releaseDate,
                style: song.style,
                styles: song.styles,
                vocalData: song.vocal_data,
@@ -1143,6 +1144,7 @@ export default function SongList({
                customFields: song.custom_fields,
                content: song.content?.rendered || song.content
              });
+           }
 
             const menuButtonStlye = { display: 'flex', alignItems: 'center', width: '100%', background: 'none', border: 'none', padding: '8px 12px', textAlign: 'left', cursor: 'pointer' };
             const menuItemStyle = { ...menuButtonStlye, textDecoration: 'none', color: 'inherit' };
@@ -1178,67 +1180,102 @@ export default function SongList({
                      }
                      
                      return orderedArtists.map((artist, index) => (
-                    <Link href={`/${artist.slug}`} key={artist.id || `artist-${index}`} legacyBehavior>
-                      <a style={{ ...menuItemStyle, ...linkColorStyle, fontWeight: 'bold' }}>
-                        <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-                        {artist.name}
-                      </a>
-                    </Link>
+                       <Link 
+                         href={`/${artist.slug}/1`} 
+                         key={artist.id || `artist-${index}`}
+                         style={{...menuItemStyle, ...linkColorStyle, fontWeight: 'bold'}}
+                         onClick={() => {
+                           console.log('🎵 アーティストリンククリック:', artist.name, '→', `/${artist.slug}/1`);
+                         }}
+                       >
+                         <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                         {artist.name}
+                       </Link>
                      ));
                    })()}
                 </div>
 
                 <div key="song-section" style={separatorStyle}>
-                   <Link href={`/${(() => {
-                     // Spotifyアーティストの順序に基づいてメインアーティストを決定
-                     let orderedArtists = [...(song.artists || [])];
-                     
-                     if (song.acf?.spotify_artists && Array.isArray(song.acf.spotify_artists)) {
-                       // Spotifyアーティストの順序を基準に並び替え
-                       const spotifyOrder = song.acf.spotify_artists;
-                       orderedArtists.sort((a, b) => {
-                         const aIndex = spotifyOrder.findIndex(name => 
-                           name.toLowerCase().includes(a.name.toLowerCase()) || 
-                           a.name.toLowerCase().includes(name.toLowerCase())
-                         );
-                         const bIndex = spotifyOrder.findIndex(name => 
-                           name.toLowerCase().includes(b.name.toLowerCase()) || 
-                           b.name.toLowerCase().includes(name.toLowerCase())
-                         );
-                         
-                         // 見つからない場合は最後に配置
-                         if (aIndex === -1) return 1;
-                         if (bIndex === -1) return -1;
-                         
-                         return aIndex - bIndex;
-                       });
-                     }
-                     
-                     // メインアーティストのスラッグを返す
-                     return orderedArtists[0]?.slug || song.artists[0]?.slug || 'unknown';
-                   })()}/songs/${song.titleSlug || song.slug || 'unknown'}`} legacyBehavior>
-                    <a style={{...menuItemStyle, ...linkColorStyle}}>
-                      <img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-                       {(() => {
-                         // タイトルの取得を優先順位で行う
-                         const title = song.title?.rendered || song.title || song.titleSlug || song.slug;
-                         if (title && title !== "No Title" && title !== "Unknown Title") {
-                           return title;
+                   <Link 
+                     href={`/${(() => {
+                       // Spotifyアーティストの順序に基づいてメインアーティストを決定
+                       let orderedArtists = [...(song.artists || [])];
+                       
+                       if (song.acf?.spotify_artists && Array.isArray(song.acf.spotify_artists)) {
+                         // Spotifyアーティストの順序を基準に並び替え
+                         const spotifyOrder = song.acf.spotify_artists;
+                         orderedArtists.sort((a, b) => {
+                           const aIndex = spotifyOrder.findIndex(name => 
+                             name.toLowerCase().includes(a.name.toLowerCase()) || 
+                             a.name.toLowerCase().includes(name.toLowerCase())
+                           );
+                           const bIndex = spotifyOrder.findIndex(name => 
+                             name.toLowerCase().includes(b.name.toLowerCase()) || 
+                             b.name.toLowerCase().includes(name.toLowerCase())
+                           );
+                           
+                           // 見つからない場合は最後に配置
+                           if (aIndex === -1) return 1;
+                           if (bIndex === -1) return -1;
+                           
+                           return aIndex - bIndex;
+                         });
+                       }
+                       
+                       // メインアーティストのスラッグを返す
+                       return orderedArtists[0]?.slug || song.artists[0]?.slug || 'unknown';
+                     })()}/songs/${song.titleSlug || song.slug || 'unknown'}`}
+                     style={{...menuItemStyle, ...linkColorStyle}}
+                     onClick={() => {
+                       const mainArtistSlug = (() => {
+                         let orderedArtists = [...(song.artists || [])];
+                         if (song.acf?.spotify_artists && Array.isArray(song.acf.spotify_artists)) {
+                           const spotifyOrder = song.acf.spotify_artists;
+                           orderedArtists.sort((a, b) => {
+                             const aIndex = spotifyOrder.findIndex(name => 
+                               name.toLowerCase().includes(a.name.toLowerCase()) || 
+                               a.name.toLowerCase().includes(name.toLowerCase())
+                             );
+                             const bIndex = spotifyOrder.findIndex(name => 
+                               name.toLowerCase().includes(b.name.toLowerCase()) || 
+                               b.name.toLowerCase().includes(name.toLowerCase())
+                             );
+                             if (aIndex === -1) return 1;
+                             if (bIndex === -1) return -1;
+                             return aIndex - bIndex;
+                           });
                          }
-                         // タイトルが取得できない場合の代替表示
-                         return "Sugar Sweet"; // この曲の場合は固定表示
-                       })()}
-                    </a>
-                  </Link>
+                         return orderedArtists[0]?.slug || song.artists[0]?.slug || 'unknown';
+                       })();
+                       const songSlug = song.titleSlug || song.slug || 'unknown';
+                       const href = `/${mainArtistSlug}/songs/${songSlug}`;
+                       console.log('🎵 曲のリンククリック:', song.title?.rendered || song.title, '→', href);
+                     }}
+                   >
+                     <img src="/svg/song.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                      {(() => {
+                        // タイトルの取得を優先順位で行う
+                        const title = song.title?.rendered || song.title || song.titleSlug || song.slug;
+                        if (title && title !== "No Title" && title !== "Unknown Title") {
+                          return title;
+                        }
+                        // タイトルが取得できない場合の代替表示
+                        return "Sugar Sweet"; // この曲の場合は固定表示
+                      })()}
+                   </Link>
                 </div>
 
                 {song.genres?.map((genre, index) => (
                   <div key={`genre-${genre.term_id || index}`} style={separatorStyle}>
-                    <Link href={`/genres/${genre.slug}/1`} legacyBehavior>
-                      <a style={{...menuItemStyle, ...linkColorStyle}}>
-                        <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-                         {he.decode(genre.name || 'Unknown Genre')}
-                      </a>
+                    <Link 
+                      href={`/genres/${genre.slug}/1`}
+                      style={{...menuItemStyle, ...linkColorStyle}}
+                      onClick={() => {
+                        console.log('🎵 ジャンルリンククリック:', genre.name, '→', `/genres/${genre.slug}/1`);
+                      }}
+                    >
+                      <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                       {he.decode(genre.name || 'Unknown Genre')}
                     </Link>
                   </div>
                 ))}

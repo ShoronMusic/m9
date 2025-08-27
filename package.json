@@ -14,7 +14,8 @@
         "generate:artists": "node scripts/generate-artist-data.js",
         "generate:all": "node scripts/update-all-data.js",
         "clean": "rimraf .next out build",
-        "build:static": "node scripts/build.js"
+        "build:static": "node scripts/build.js",
+        "cleanup:logs": "node scripts/cleanup-logs.js"
     },
     "dependencies": {
         "@dnd-kit/core": "^6.3.1",

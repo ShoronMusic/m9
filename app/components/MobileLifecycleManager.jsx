@@ -29,7 +29,10 @@ export default function MobileLifecycleManager({
         onAppActive();
       }
       
-      console.log('📱 App became active');
+      // デバッグ時のみログを出力
+      if (process.env.NODE_ENV === 'development') {
+        console.log('📱 App became active');
+      }
     } else if (!isVisible && isActive.current) {
       // アプリが非アクティブになった
       isActive.current = false;
@@ -38,7 +41,10 @@ export default function MobileLifecycleManager({
         onAppInactive();
       }
       
-      console.log('📱 App became inactive');
+      // デバッグ時のみログを出力
+      if (process.env.NODE_ENV === 'development') {
+        console.log('📱 App became inactive');
+      }
     }
   }, [onAppActive, onAppInactive]);
 
@@ -52,7 +58,10 @@ export default function MobileLifecycleManager({
         onAppActive();
       }
       
-      console.log('📱 Page focused');
+      // デバッグ時のみログを出力
+      if (process.env.NODE_ENV === 'development') {
+        console.log('📱 Page focused');
+      }
     }
   }, [onAppActive]);
 
@@ -64,7 +73,10 @@ export default function MobileLifecycleManager({
         onAppInactive();
       }
       
-      console.log('📱 Page blurred');
+      // デバッグ時のみログを出力
+      if (process.env.NODE_ENV === 'development') {
+        console.log('📱 Page blurred');
+      }
     }
   }, [onAppInactive]);
 
@@ -77,7 +89,10 @@ export default function MobileLifecycleManager({
       onNetworkChange(true);
     }
     
-    console.log('📱 Network: Online');
+    // デバッグ時のみログを出力
+    if (process.env.NODE_ENV === 'development') {
+      console.log('📱 Network: Online');
+    }
   }, [onNetworkChange]);
 
   const handleOffline = useCallback(() => {
@@ -88,7 +103,10 @@ export default function MobileLifecycleManager({
       onNetworkChange(false);
     }
     
-    console.log('📱 Network: Offline');
+    // デバッグ時のみログを出力
+    if (process.env.NODE_ENV === 'development') {
+      console.log('📱 Network: Offline');
+    }
   }, [onNetworkChange]);
 
   // 画面の向き変更を監視
@@ -98,22 +116,35 @@ export default function MobileLifecycleManager({
       onOrientationChange(orientation);
     }
     
-    console.log('📱 Orientation changed:', window.screen.orientation?.type);
+    // デバッグ時のみログを出力
+    if (process.env.NODE_ENV === 'development') {
+      console.log('📱 Orientation changed:', window.screen.orientation?.type);
+    }
   }, [onOrientationChange]);
 
   // ウィンドウサイズ変更を監視
   const handleResize = useCallback(() => {
     if (onResize) {
-      const dimensions = {
-        width: window.innerWidth,
-        height: window.innerHeight,
-        isMobile: window.innerWidth <= 768,
-        isTablet: window.innerWidth > 768 && window.innerWidth <= 1024,
-        isDesktop: window.innerWidth > 1024
-      };
-      onResize(dimensions);
+      // デバウンス処理を追加（100ms間隔で実行）
+      if (handleResize.timeoutId) {
+        clearTimeout(handleResize.timeoutId);
+      }
+      
+      handleResize.timeoutId = setTimeout(() => {
+        const dimensions = {
+          width: window.innerWidth,
+          height: window.innerHeight,
+          isMobile: window.innerWidth <= 768,
+          isTablet: window.innerWidth > 768 && window.innerWidth <= 1024,
+          isDesktop: window.innerWidth > 1024
+        };
+        onResize(dimensions);
+      }, 100);
     }
   }, [onResize]);
+
+  // タイムアウトIDを保存するためのプロパティを追加
+  handleResize.timeoutId = null;
 
   // タッチイベントの監視（モバイル特有）
   const handleTouchStart = useCallback(() => {
@@ -133,7 +164,10 @@ export default function MobileLifecycleManager({
           onAppInactive();
         }
         
-        console.log('📱 App inactive due to inactivity timeout');
+        // デバッグ時のみログを出力
+        if (process.env.NODE_ENV === 'development') {
+          console.log('📱 App inactive due to inactivity timeout');
+        }
       }
     }, 5 * 60 * 1000); // 5分
   }, [onAppInactive]);
@@ -167,8 +201,17 @@ export default function MobileLifecycleManager({
     document.addEventListener('scroll', handleScroll, { passive: true });
     document.addEventListener('keydown', handleKeyDown);
 
-    // 初期サイズ情報を送信
-    handleResize();
+    // 初期サイズ情報を送信（一度だけ）
+    const initialDimensions = {
+      width: window.innerWidth,
+      height: window.innerHeight,
+      isMobile: window.innerWidth <= 768,
+      isTablet: window.innerWidth > 768 && window.innerWidth <= 1024,
+      isDesktop: window.innerWidth > 1024
+    };
+    if (onResize) {
+      onResize(initialDimensions);
+    }
 
     // クリーンアップ
     return () => {
@@ -186,19 +229,13 @@ export default function MobileLifecycleManager({
       if (activityTimeoutRef.current) {
         clearTimeout(activityTimeoutRef.current);
       }
+      
+      // リサイズのタイムアウトもクリア
+      if (handleResize.timeoutId) {
+        clearTimeout(handleResize.timeoutId);
+      }
     };
-  }, [
-    handleVisibilityChange,
-    handleFocus,
-    handleBlur,
-    handleOnline,
-    handleOffline,
-    handleOrientationChange,
-    handleResize,
-    handleTouchStart,
-    handleScroll,
-    handleKeyDown
-  ]);
+  }, []); // 空の依存配列で、マウント時のみ実行
 
   // 子コンポーネントをレンダリング
   return children;

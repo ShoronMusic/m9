@@ -246,7 +246,6 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
 
   // アプリがアクティブになった時の処理
   const handleAppActive = () => {
-    console.log('📱 App became active, refreshing data...');
     // セッション状態を確認
     if (session && isTokenValid === false) {
       handleManualRecovery();
@@ -255,7 +254,6 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
 
   // アプリが非アクティブになった時の処理
   const handleAppInactive = () => {
-    console.log('📱 App became inactive');
     // 必要に応じてデータの保存や状態のクリーンアップ
   };
 
@@ -263,7 +261,6 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
   const handleNetworkChange = (online) => {
     setIsOnline(online);
     if (online) {
-      console.log('📱 Network restored, refreshing data...');
       // ネットワーク復旧時の処理
       addError(createError(
         'ネットワーク接続が復旧しました',
@@ -281,19 +278,17 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
 
   // 画面の向き変更時の処理
   const handleOrientationChange = (orientation) => {
-    console.log('📱 Orientation changed:', orientation);
     // 画面の向きに応じたレイアウト調整
   };
 
   // ウィンドウサイズ変更時の処理
   const handleResize = (dimensions) => {
     setAppDimensions(dimensions);
-    console.log('📱 Resize:', dimensions);
+    // リサイズログは出力しない（頻繁に発生するため）
   };
 
   // ネットワーク再試行時の処理
   const handleNetworkRetry = () => {
-    console.log('📱 Network retry requested');
     // ネットワーク接続の再試行
     window.location.reload();
   };
@@ -388,6 +383,11 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
           songsPerPage={songsPerPage}
           currentPage={currentPage}
           onPageEnd={handlePageEnd}
+          onPreviousPage={() => {
+            if (currentPage > 1) {
+              router.push(`/styles/${styleData.slug}/${currentPage - 1}?autoplay=last`);
+            }
+          }}
           pageType={'style'}
           autoPlayFirst={autoPlayFirst}
           accessToken={accessToken}
