@@ -36,6 +36,23 @@
 @media (max-width: 768px) {
   .bannerGrid {
     grid-template-columns: repeat(2, 1fr) !important;
+    gap: 15px; /* スマホ時はギャップを少し狭く */
+    padding: 0 10px; /* 左右のパディングを追加 */
+  }
+  
+  .styleListContainer {
+    padding: 15px 10px; /* スマホ時のパディングを調整 */
+  }
+  
+  .styleListContainer h1 {
+    margin-bottom: 15px;
+    font-size: 1.5rem; /* スマホ時のタイトルサイズを調整 */
+  }
+}
+
+@media (max-width: 480px) {
+  .bannerGrid {
+    gap: 12px; /* さらに小さい画面ではギャップを狭く */
   }
 }
 

@@ -8,9 +8,6 @@ export default function GlobalMenu() {
     <nav className={styles.globalMenu}>
       <ul className={styles.gmenu}>
         <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
           <Link href="/styles">Styles</Link>
         </li>
         <li>
@@ -23,7 +20,7 @@ export default function GlobalMenu() {
           <Link href="/info">About</Link>
         </li>
         <li>
-          <Link href="/search">🔍 Search</Link>
+          <Link href="/search">Search</Link>
         </li>
       </ul>
     </nav>

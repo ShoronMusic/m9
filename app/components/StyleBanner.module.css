@@ -24,8 +24,31 @@
   transition: all 0.3s ease-in-out;
 }
 
-.bannerContainer:hover {
-  box-shadow: 0 8px 16px rgba(30, 58, 138, 0.3);
+/* スマホ閲覧時のサイズ調整 */
+@media (max-width: 768px) {
+  .bannerContainer {
+    width: 100%;
+    height: 120px;
+    min-height: 120px;
+  }
+  
+  .styleName {
+    font-size: 1.2rem;
+  }
+  
+  .songCount {
+    font-size: 0.9rem;
+  }
+  
+  .topTextContainer {
+    font-size: 0.7rem;
+    padding: 8px 8px 0 8px;
+  }
+  
+  .centerOverlay {
+    padding: 10px 14px;
+    margin-bottom: 12px;
+  }
 }
 
 .whiteOverlay {

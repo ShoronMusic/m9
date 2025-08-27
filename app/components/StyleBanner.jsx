@@ -32,7 +32,7 @@ const StyleBanner = ({ style, updateDate }) => {
         {/* 上部テキスト */}
         <div className={styles.topTextContainer}>
           <span className={styles.topLeftText}>Style</span>
-          <span className={styles.topRightText}>update {formattedDate}</span>
+          <span className={styles.topRightText}>{formattedDate}</span>
         </div>
 
         {/* 中央の半透明黒帯 */}
