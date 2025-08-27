@@ -2,6 +2,7 @@ import SpotifyProvider from "next-auth/providers/spotify";
 
 async function refreshAccessToken(token) {
   try {
+    console.log('Refreshing access token...');
     const url = "https://accounts.spotify.com/api/token";
     const response = await fetch(url, {
       method: "POST",
@@ -20,9 +21,11 @@ async function refreshAccessToken(token) {
     const refreshedTokens = await response.json();
 
     if (!response.ok) {
-      throw refreshedTokens;
+      console.error('Token refresh failed:', refreshedTokens);
+      throw new Error(`Token refresh failed: ${refreshedTokens.error || 'Unknown error'}`);
     }
 
+    console.log('Token refreshed successfully');
     return {
       ...token,
       accessToken: refreshedTokens.access_token,
@@ -62,6 +65,7 @@ export const authOptions = {
   callbacks: {
     async jwt({ token, user, account }) {
       if (account && user) {
+        console.log('New authentication, setting initial tokens');
         return {
           accessToken: account.access_token,
           accessTokenExpires: Date.now() + account.expires_in * 1000,
@@ -69,17 +73,28 @@ export const authOptions = {
           user,
         };
       }
+      
+      // トークンの有効期限をチェック
       if (Date.now() < token.accessTokenExpires) {
         return token;
       }
+      
+      // トークンが期限切れの場合、リフレッシュを試行
+      console.log('Token expired, attempting refresh');
       return refreshAccessToken(token);
     },
     async session({ session, token }) {
       session.user = token.user;
       session.accessToken = token.accessToken;
       session.error = token.error;
+      
+      // トークンエラーがある場合、セッションに反映
+      if (token.error) {
+        session.error = token.error;
+        console.log('Session error detected:', token.error);
+      }
+      
       return session;
     },
   },
-  debug: true,
 }; 

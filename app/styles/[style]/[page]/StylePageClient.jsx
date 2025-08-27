@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useSession } from "next-auth/react";
+import { useAuthToken } from '@/components/useAuthToken';
 import { useSpotifyLikes } from '@/components/SpotifyLikes';
+import AuthErrorBanner from '@/components/AuthErrorBanner';
 import Link from 'next/link';
 import Image from 'next/image';
 import { config } from '@/config/config';
@@ -39,7 +40,7 @@ function formatArtistsWithOrigin(artists = []) {
 }
 
 export default function StylePageClient({ styleData, initialPage = 1, autoPlayFirst }) {
-  const { data: session } = useSession();
+  const { session, isTokenValid, tokenError, handleReLogin } = useAuthToken();
   const router = useRouter();
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [likedSongs, setLikedSongs] = useState({});
@@ -193,6 +194,13 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
 
   return (
     <div className={styles.container}>
+      {/* 認証エラーバナー */}
+      <AuthErrorBanner 
+        error={tokenError}
+        onReLogin={handleReLogin}
+        onDismiss={() => {}}
+      />
+
       <div className={styles.pageInfo} style={{ marginLeft: '1rem', paddingLeft: '1rem' }}>
         <div className={styles.styleLabel} style={{ fontSize: '0.85em', color: '#888', marginBottom: '2px', fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
           STYLE
