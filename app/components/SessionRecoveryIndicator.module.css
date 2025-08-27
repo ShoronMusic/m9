@@ -1,0 +1,180 @@
+.container {
+  background: #e3f2fd;
+  border: 1px solid #90caf9;
+  border-radius: 8px;
+  margin: 16px 0;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+}
+
+.icon {
+  font-size: 1.5em;
+  flex-shrink: 0;
+  margin-top: 2px;
+  animation: spin 2s linear infinite;
+}
+
+.message {
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 0.95em;
+  color: #1565c0;
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 0.9em;
+  color: #1565c0;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.manualRecoveryButton {
+  background: #1976d2;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.manualRecoveryButton:hover {
+  background: #1565c0;
+}
+
+.dismissButton {
+  background: none;
+  border: 1px solid #1565c0;
+  color: #1565c0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dismissButton:hover {
+  background: #1565c0;
+  color: white;
+}
+
+.manualOption {
+  background: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid #90caf9;
+  padding: 16px;
+}
+
+.manualMessage {
+  font-size: 0.9em;
+  color: #1565c0;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.manualActions {
+  display: flex;
+  gap: 8px;
+}
+
+.retryButton {
+  background: #ff9800;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.retryButton:hover {
+  background: #f57c00;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  .content {
+    padding: 12px;
+    gap: 8px;
+  }
+  
+  .title {
+    font-size: 0.9em;
+  }
+  
+  .description {
+    font-size: 0.85em;
+  }
+  
+  .actions {
+    gap: 6px;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .manualRecoveryButton {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 0.85em;
+  }
+  
+  .dismissButton {
+    width: 100%;
+    height: 32px;
+    font-size: 0.85em;
+  }
+  
+  .manualOption {
+    padding: 12px;
+  }
+  
+  .manualMessage {
+    font-size: 0.85em;
+  }
+  
+  .retryButton {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 0.85em;
+  }
+}

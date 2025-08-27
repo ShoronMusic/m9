@@ -5,6 +5,7 @@ import { useAuthToken } from '@/components/useAuthToken';
 import { useSpotifyLikes } from '@/components/SpotifyLikes';
 import AuthErrorBanner from '@/components/AuthErrorBanner';
 import SpotifyErrorHandler from '@/components/SpotifyErrorHandler';
+import SessionRecoveryIndicator from '@/components/SessionRecoveryIndicator';
 import Link from 'next/link';
 import Image from 'next/image';
 import { config } from '@/config/config';
@@ -41,7 +42,14 @@ function formatArtistsWithOrigin(artists = []) {
 }
 
 export default function StylePageClient({ styleData, initialPage = 1, autoPlayFirst }) {
-  const { session, isTokenValid, tokenError, handleReLogin } = useAuthToken();
+  const { 
+    session, 
+    isTokenValid, 
+    tokenError, 
+    isRecovering,
+    handleReLogin, 
+    handleManualRecovery 
+  } = useAuthToken();
   const router = useRouter();
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [likedSongs, setLikedSongs] = useState({});
@@ -208,6 +216,13 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
       <AuthErrorBanner 
         error={tokenError}
         onReLogin={handleReLogin}
+        onDismiss={() => {}}
+      />
+
+      {/* セッション復旧インジケーター */}
+      <SessionRecoveryIndicator
+        isRecovering={isRecovering}
+        onManualRecovery={handleManualRecovery}
         onDismiss={() => {}}
       />
 
