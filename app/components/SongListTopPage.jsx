@@ -13,6 +13,7 @@ import { useSpotifyLikes } from './SpotifyLikes';
 import he from "he";
 import CreatePlaylistModal from './CreatePlaylistModal';
 import CreateNewPlaylistModal from './CreateNewPlaylistModal';
+import LoginPromptModal from './LoginPromptModal';
 
 // 先頭の "The " を取り除く
 function removeLeadingThe(str = "") {
@@ -397,6 +398,8 @@ export default function SongListTopPage({
 	const [trackToAdd, setTrackToAdd] = useState(null);
 	const [selectedTrack, setSelectedTrack] = useState(null);
 	const [userPlaylists, setUserPlaylists] = useState([]);
+	const [isLoginModalVisible, setIsLoginModalVisible] = useState(false);
+	const [selectedSongForLogin, setSelectedSongForLogin] = useState(null);
 
 	useEffect(() => {
 		if (menuVisible && menuRef.current) {
@@ -476,11 +479,31 @@ export default function SongListTopPage({
 	const handleThumbnailClick = (song, index) => {
 		// ログイン前はログインを促す
 		if (!session || !accessToken) {
-			alert('曲を再生するにはSpotifyログインが必要です。\n画面右上の「Sign in with Spotify」ボタンからログインしてください。');
+			setSelectedSongForLogin(song);
+			setIsLoginModalVisible(true);
 			return;
 		}
 		
 		onTrackPlay(song, index);
+	};
+
+	// ログイン促進モーダルを表示する関数（削除 - モーダルコンポーネントを使用）
+	// const showLoginPrompt = () => { ... };
+
+	// ログインモーダルを閉じる
+	const handleCloseLoginModal = () => {
+		setIsLoginModalVisible(false);
+		setSelectedSongForLogin(null);
+	};
+
+	// ログイン成功時の処理
+	const handleLoginSuccess = () => {
+		setIsLoginModalVisible(false);
+		setSelectedSongForLogin(null);
+		// ログイン後に選択された曲を再生
+		if (selectedSongForLogin) {
+			onTrackPlay(selectedSongForLogin, songs.findIndex(s => s.id === selectedSongForLogin.id));
+		}
 	};
 
 	// ユーザーのプレイリスト一覧を取得

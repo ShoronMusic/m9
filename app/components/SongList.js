@@ -12,6 +12,7 @@ import { useSpotifyLikes } from './SpotifyLikes';
 import { useSession } from 'next-auth/react';
 import CreatePlaylistModal from './CreatePlaylistModal';
 import CreateNewPlaylistModal from './CreateNewPlaylistModal';
+import LoginPromptModal from './LoginPromptModal';
 
 // CloudinaryのベースURL
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
@@ -327,6 +328,8 @@ export default function SongList({
   const [showCreateNewPlaylistModal, setShowCreateNewPlaylistModal] = useState(false);
   const [trackToAdd, setTrackToAdd] = useState(null);
   const [userPlaylists, setUserPlaylists] = useState([]);
+  const [isLoginModalVisible, setIsLoginModalVisible] = useState(false);
+  const [selectedSongForLogin, setSelectedSongForLogin] = useState(null);
 
   // スマホ時のアクティブ楽曲スクロール用
   const [isMobile, setIsMobile] = useState(false);
@@ -439,6 +442,14 @@ export default function SongList({
   };
 
   const handleThumbnailClick = useCallback((song) => {
+    // Spotifyログイン状態をチェック
+    if (!session || !session.accessToken) {
+      // ログイン促進モーダルを表示
+      setSelectedSongForLogin(song);
+      setIsLoginModalVisible(true);
+      return;
+    }
+
     const finalSource = source || 'unknown';
     const styleSlug = pageType === 'style' ? finalSource.split('/')[1] : null;
     const genreSlug = pageType === 'genre' ? finalSource.split('/')[1] : null;
@@ -456,7 +467,29 @@ export default function SongList({
     }
     
     player.playTrack(song, songs.findIndex(s => s.id === song.id), songs, finalSource, onPageEnd);
-  }, [source, pageType, player, songs, onPageEnd]);
+  }, [source, pageType, player, songs, onPageEnd, session]);
+
+  // ログイン促進モーダルを表示する関数（削除 - モーダルコンポーネントを使用）
+  // const showLoginPrompt = () => { ... };
+
+  // ログインモーダルを閉じる
+  const handleCloseLoginModal = () => {
+    setIsLoginModalVisible(false);
+    setSelectedSongForLogin(null);
+  };
+
+  // ログイン成功時の処理
+  const handleLoginSuccess = () => {
+    setIsLoginModalVisible(false);
+    setSelectedSongForLogin(null);
+    // ログイン後に選択された曲を再生
+    if (selectedSongForLogin) {
+      const finalSource = source || 'unknown';
+      const styleSlug = pageType === 'style' ? finalSource.split('/')[1] : null;
+      const genreSlug = pageType === 'genre' ? finalSource.split('/')[1] : null;
+      player.playTrack(selectedSongForLogin, songs.findIndex(s => s.id === selectedSongForLogin.id), songs, finalSource, onPageEnd);
+    }
+  };
 
   const handleThreeDotsClick = (e, song) => {
     e.stopPropagation();
@@ -1257,6 +1290,14 @@ export default function SongList({
         onCreate={handlePlaylistCreated}
         onPlaylistCreated={handlePlaylistCreated}
         trackToAdd={trackToAdd}
+      />
+
+      {/* ログイン促進モーダル */}
+      <LoginPromptModal
+        isVisible={isLoginModalVisible}
+        onClose={handleCloseLoginModal}
+        songTitle={selectedSongForLogin?.title?.rendered || selectedSongForLogin?.title || 'この曲'}
+        onLoginSuccess={handleLoginSuccess}
       />
     </div>
   );

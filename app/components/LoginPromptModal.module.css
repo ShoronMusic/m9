@@ -1,0 +1,250 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  padding: 20px;
+  backdrop-filter: blur(4px);
+}
+
+.modalContent {
+  background: white;
+  border-radius: 16px;
+  max-width: 500px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  padding: 24px 24px 16px 24px;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.icon {
+  font-size: 2em;
+  margin-right: 16px;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+  flex: 1;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: #666;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.closeButton:hover {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.modalBody {
+  padding: 24px;
+}
+
+.message {
+  color: #333;
+  line-height: 1.6;
+}
+
+.message p {
+  margin: 0 0 16px 0;
+}
+
+.message p:last-of-type {
+  margin-bottom: 20px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.95em;
+}
+
+.features li:last-child {
+  border-bottom: none;
+}
+
+.modalFooter {
+  padding: 16px 24px 24px 24px;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.spotifyLoginButton {
+  background: #1DB954;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.spotifyLoginButton:hover:not(:disabled) {
+  background: #1ed760;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(29, 185, 84, 0.3);
+}
+
+.spotifyLoginButton:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.spotifyIcon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.cancelButton {
+  background: none;
+  border: 1px solid #ddd;
+  color: #666;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.cancelButton:hover:not(:disabled) {
+  background: #f5f5f5;
+  border-color: #ccc;
+  color: #333;
+}
+
+.cancelButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.footerNote {
+  padding: 16px 24px 24px 24px;
+  background: #f8f9fa;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footerNote p {
+  margin: 0;
+  font-size: 0.85em;
+  color: #666;
+  text-align: center;
+  line-height: 1.4;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  .modalOverlay {
+    padding: 16px;
+  }
+  
+  .modalContent {
+    border-radius: 12px;
+    max-height: 95vh;
+  }
+  
+  .modalHeader {
+    padding: 20px 20px 12px 20px;
+  }
+  
+  .title {
+    font-size: 1.3em;
+  }
+  
+  .modalBody {
+    padding: 20px;
+  }
+  
+  .modalFooter {
+    padding: 12px 20px 20px 20px;
+  }
+  
+  .spotifyLoginButton {
+    padding: 14px 20px;
+    font-size: 1em;
+  }
+  
+  .cancelButton {
+    padding: 10px 20px;
+  }
+  
+  .footerNote {
+    padding: 12px 20px 20px 20px;
+  }
+}
