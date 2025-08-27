@@ -6,6 +6,8 @@ import { useSpotifyLikes } from '@/components/SpotifyLikes';
 import AuthErrorBanner from '@/components/AuthErrorBanner';
 import SpotifyErrorHandler from '@/components/SpotifyErrorHandler';
 import SessionRecoveryIndicator from '@/components/SessionRecoveryIndicator';
+import MobileLifecycleManager from '@/components/MobileLifecycleManager';
+import NetworkStatusIndicator from '@/components/NetworkStatusIndicator';
 import Link from 'next/link';
 import Image from 'next/image';
 import { config } from '@/config/config';
@@ -57,6 +59,14 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
   const [viewCounts, setViewCounts] = useState({});
   const [userViewCounts, setUserViewCounts] = useState({});
   const [likeRefreshKey, setLikeRefreshKey] = useState(0);
+  const [isOnline, setIsOnline] = useState(true);
+  const [appDimensions, setAppDimensions] = useState({
+    width: typeof window !== 'undefined' ? window.innerWidth : 0,
+    height: typeof window !== 'undefined' ? window.innerHeight : 0,
+    isMobile: typeof window !== 'undefined' ? window.innerWidth <= 768 : false,
+    isTablet: typeof window !== 'undefined' ? window.innerWidth > 768 && window.innerWidth <= 1024 : false,
+    isDesktop: typeof window !== 'undefined' ? window.innerWidth > 1024 : false
+  });
   const songsPerPage = config.pagination.itemsPerPage;
   const accessToken = session?.accessToken;
   const songs = Array.isArray(styleData?.songs) ? styleData.songs : [];
@@ -210,76 +220,133 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     };
   }, [songs, likeRefreshKey]);
 
+  // アプリがアクティブになった時の処理
+  const handleAppActive = () => {
+    console.log('📱 App became active, refreshing data...');
+    // セッション状態を確認
+    if (session && isTokenValid === false) {
+      handleManualRecovery();
+    }
+  };
+
+  // アプリが非アクティブになった時の処理
+  const handleAppInactive = () => {
+    console.log('📱 App became inactive');
+    // 必要に応じてデータの保存や状態のクリーンアップ
+  };
+
+  // ネットワーク状態変更時の処理
+  const handleNetworkChange = (online) => {
+    setIsOnline(online);
+    if (online) {
+      console.log('📱 Network restored, refreshing data...');
+      // ネットワーク復旧時の処理
+    }
+  };
+
+  // 画面の向き変更時の処理
+  const handleOrientationChange = (orientation) => {
+    console.log('📱 Orientation changed:', orientation);
+    // 画面の向きに応じたレイアウト調整
+  };
+
+  // ウィンドウサイズ変更時の処理
+  const handleResize = (dimensions) => {
+    setAppDimensions(dimensions);
+    console.log('📱 Resize:', dimensions);
+  };
+
+  // ネットワーク再試行時の処理
+  const handleNetworkRetry = () => {
+    console.log('📱 Network retry requested');
+    // ネットワーク接続の再試行
+    window.location.reload();
+  };
+
   return (
-    <div className={styles.container}>
-      {/* 認証エラーバナー */}
-      <AuthErrorBanner 
-        error={tokenError}
-        onReLogin={handleReLogin}
-        onDismiss={() => {}}
-      />
+    <MobileLifecycleManager
+      onAppActive={handleAppActive}
+      onAppInactive={handleAppInactive}
+      onNetworkChange={handleNetworkChange}
+      onOrientationChange={handleOrientationChange}
+      onResize={handleResize}
+    >
+      <div className={styles.container}>
+        {/* ネットワーク状態インジケーター */}
+        <NetworkStatusIndicator
+          isOnline={isOnline}
+          onRetry={handleNetworkRetry}
+        />
 
-      {/* セッション復旧インジケーター */}
-      <SessionRecoveryIndicator
-        isRecovering={isRecovering}
-        onManualRecovery={handleManualRecovery}
-        onDismiss={() => {}}
-      />
+        {/* 認証エラーバナー */}
+        <AuthErrorBanner 
+          error={tokenError}
+          onReLogin={handleReLogin}
+          onDismiss={() => {}}
+        />
 
-      {/* SpotifyLikesエラーハンドラー */}
-      <SpotifyErrorHandler
-        error={likesError}
-        isLoading={likesLoading}
-        retryCount={retryCount}
-        maxRetries={maxRetries}
-        onRetry={refreshLikes}
-        onClearError={clearLikesError}
-        onReLogin={handleReLogin}
-      />
+        {/* セッション復旧インジケーター */}
+        <SessionRecoveryIndicator
+          isRecovering={isRecovering}
+          onManualRecovery={handleManualRecovery}
+          onDismiss={() => {}}
+        />
 
-      <div className={styles.pageInfo} style={{ marginLeft: '1rem', paddingLeft: '1rem' }}>
-        <div className={styles.styleLabel} style={{ fontSize: '0.85em', color: '#888', marginBottom: '2px', fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
-          STYLE
-        </div>
-        <h1 className={styles.styleTitle} style={{ textAlign: 'left', fontSize: '2.2em', fontWeight: 800, margin: 0, color: '#222', letterSpacing: '-0.01em', lineHeight: 1.1 }}>
-          {decodedGenreName || 'スタイル名不明'}
-        </h1>
-        <div className={styles.divider} style={{ borderBottom: '2px solid #e0e0e0', width: '60px', margin: '12px 0 12px 0' }} />
-        <div className={styles.pageDetails} style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '4px' }}>
-          <div className={styles.songCount} style={{ fontSize: '0.95em', color: '#555', display: 'block', marginBottom: '4px' }}>
-            全 {totalSongs} 曲中 {startIndex} - {endIndex} 曲を表示
+        {/* SpotifyLikesエラーハンドラー */}
+        <SpotifyErrorHandler
+          error={likesError}
+          isLoading={likesLoading}
+          retryCount={retryCount}
+          maxRetries={maxRetries}
+          onRetry={refreshLikes}
+          onClearError={clearLikesError}
+          onReLogin={handleReLogin}
+        />
+
+        <div className={styles.pageInfo} style={{ marginLeft: '1rem', paddingLeft: '1rem' }}>
+          <div className={styles.styleLabel} style={{ fontSize: '0.85em', color: '#888', marginBottom: '2px', fontWeight: 500, letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+            STYLE
           </div>
-          <div className={styles.pageNumber} style={{ fontSize: '0.9em', color: '#888', display: 'block' }}>
-            ページ {currentPage} / {totalPages}
+          <h1 className={styles.styleTitle} style={{ textAlign: 'left', fontSize: '2.2em', fontWeight: 800, margin: 0, color: '#222', letterSpacing: '-0.01em', lineHeight: 1.1 }}>
+            {decodedGenreName || 'スタイル名不明'}
+          </h1>
+          <div className={styles.divider} style={{ borderBottom: '2px solid #e0e0e0', width: '60px', margin: '12px 0 12px 0' }} />
+          <div className={styles.pageDetails} style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '4px' }}>
+            <div className={styles.songCount} style={{ fontSize: '0.95em', color: '#555', display: 'block', marginBottom: '4px' }}>
+              全 {totalSongs} 曲中 {startIndex} - {endIndex} 曲を表示
+            </div>
+            <div className={styles.pageNumber} style={{ fontSize: '0.9em', color: '#888', display: 'block' }}>
+              ページ {currentPage} / {totalPages}
+            </div>
           </div>
         </div>
+
+        <SongList 
+          songs={wpStylePosts} 
+          styleSlug={styleData.slug} 
+          styleName={styleData?.name} 
+          total={totalSongs}
+          songsPerPage={songsPerPage}
+          currentPage={currentPage}
+          onPageEnd={handlePageEnd}
+          pageType={'style'}
+          autoPlayFirst={autoPlayFirst}
+          accessToken={accessToken}
+          likedTracks={likedTracks}
+          onLikeToggle={toggleLike}
+          source={`styles/${styleData.slug}/${currentPage}`}
+        />
+
+        {totalPages > 1 && (
+          <div className="mt-8">
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={handlePageChange}
+            />
+          </div>
+        )}
       </div>
-
-      <SongList 
-        songs={wpStylePosts} 
-        styleSlug={styleData.slug} 
-        styleName={styleData?.name} 
-        total={totalSongs}
-        songsPerPage={songsPerPage}
-        currentPage={currentPage}
-        onPageEnd={handlePageEnd}
-        pageType={'style'}
-        autoPlayFirst={autoPlayFirst}
-        accessToken={accessToken}
-        likedTracks={likedTracks}
-        onLikeToggle={toggleLike}
-        source={`styles/${styleData.slug}/${currentPage}`}
-      />
-
-      {totalPages > 1 && (
-        <div className="mt-8">
-          <Pagination
-            currentPage={currentPage}
-            totalPages={totalPages}
-            onPageChange={handlePageChange}
-          />
-        </div>
-      )}
-    </div>
+    </MobileLifecycleManager>
   );
 } 

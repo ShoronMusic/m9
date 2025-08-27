@@ -13,6 +13,18 @@ export const metadata = {
   metadataBase: new URL('https://tunedive.com'),
   title: 'TuneDive',
   description: '音楽の深層に潜る - Spotify音源で音楽を発見し、プレイリストで繋がる',
+  viewport: 'width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover',
+  themeColor: '#1DB954',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'TuneDive'
+  },
+  formatDetection: {
+    telephone: false,
+    email: false,
+    address: false
+  }
 }
 
 export default async function RootLayout({ children }) {
@@ -23,8 +35,30 @@ export default async function RootLayout({ children }) {
     <html lang="ja">
       <head>
         <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover" />
+        <meta name="theme-color" content="#1DB954" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="TuneDive" />
+        <meta name="format-detection" content="telephone=no, email=no, address=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-TileColor" content="#1DB954" />
+        <meta name="msapplication-config" content="/browserconfig.xml" />
+        
+        {/* PWA対応 */}
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16x16.png" />
+        
+        {/* フォントとスタイルシート */}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        
+        {/* プリロード */}
+        <link rel="preconnect" href="https://api.spotify.com" />
+        <link rel="preconnect" href="https://accounts.spotify.com" />
+        <link rel="dns-prefetch" href="https://api.spotify.com" />
+        <link rel="dns-prefetch" href="https://accounts.spotify.com" />
       </head>
       <body className={inter.className}>
         <AuthProvider>
