@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useSession } from 'next-auth/react';
 
 const formatTime = (milliseconds) => {
@@ -34,6 +34,144 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
     setError(null);
     setRetryCount(0);
   };
+
+  // プレイヤー初期化関数
+  const initializePlayer = useCallback(() => {
+    if (!accessToken) {
+      console.log('❌ initializePlayer: No access token');
+      return;
+    }
+
+    if (playerRef.current) {
+      playerRef.current.disconnect();
+      playerRef.current = null;
+    }
+
+    window.onSpotifyWebPlaybackSDKReady = () => {
+      if (playerRef.current) {
+        return;
+      }
+
+      const player = new window.Spotify.Player({
+        name: 'TuneDive Song Detail Player',
+        getOAuthToken: cb => { 
+          cb(accessToken); 
+        },
+        volume: volume
+      });
+      
+      playerRef.current = player;
+      
+      // プレイヤーの状態変更を監視
+      player.addListener('ready', ({ device_id }) => {
+        console.log('🎵 Spotify player ready with device ID:', device_id);
+        setDeviceId(device_id);
+        setIsReady(true);
+        setError(null);
+      });
+
+      player.addListener('not_ready', ({ device_id }) => {
+        console.log('⚠️ Spotify player not ready:', device_id);
+        setIsReady(false);
+      });
+
+      player.addListener('initialization_error', ({ message }) => {
+        console.error('❌ Spotify player initialization error:', message);
+        setError(`初期化エラー: ${message}`);
+        setIsReady(false);
+      });
+
+      player.addListener('authentication_error', ({ message }) => {
+        console.error('❌ Spotify player authentication error:', message);
+        setError(`認証エラー: ${message}`);
+        setIsReady(false);
+      });
+
+      player.addListener('account_error', ({ message }) => {
+        console.error('❌ Spotify player account error:', message);
+        setError(`アカウントエラー: ${message}`);
+        setIsReady(false);
+      });
+
+      player.addListener('playback_error', ({ message }) => {
+        console.error('❌ Spotify player playback error:', message);
+        
+        // エラーメッセージを日本語化
+        let errorMessage = '再生エラーが発生しました';
+        if (message.includes('no list was loaded')) {
+          errorMessage = 'プレイリストが読み込まれていません。Spotifyアプリで再生中の曲を停止してください。';
+        } else if (message.includes('Premium')) {
+          errorMessage = 'Spotify Premiumアカウントが必要です。';
+        } else if (message.includes('authentication')) {
+          errorMessage = '認証エラーが発生しました。再度ログインしてください。';
+        } else {
+          errorMessage = `再生エラー: ${message}`;
+        }
+        
+        setError(errorMessage);
+        setIsReady(false);
+      });
+
+      player.addListener('player_state_changed', (state) => {
+        if (state) {
+          setIsPlaying(!state.paused);
+          setPosition(state.position);
+          setDuration(state.duration);
+        }
+      });
+      
+      player.connect().then(success => {
+        if (success) {
+          console.log('✅ Spotify Web Playback SDK connected successfully');
+        } else {
+          console.error('❌ Spotify Web Playback SDK connection failed');
+          setError('Spotifyプレイヤーの接続に失敗しました');
+        }
+      }).catch(error => {
+        console.error('❌ Spotify Web Playback SDK connection error:', error);
+        setError(`接続エラー: ${error.message}`);
+      });
+    };
+
+    const scriptId = 'spotify-sdk-script-song-detail';
+    
+    if (!document.getElementById(scriptId)) {
+      const script = document.createElement('script');
+      script.id = scriptId;
+      script.src = 'https://sdk.scdn.co/spotify-player.js';
+      script.async = true;
+      script.onload = () => {
+        if (window.Spotify) {
+          window.onSpotifyWebPlaybackSDKReady();
+        }
+      };
+      script.onerror = (error) => {
+        console.error('Script load error:', error);
+      };
+      document.body.appendChild(script);
+    } else {
+      if (window.Spotify) {
+        window.onSpotifyWebPlaybackSDKReady();
+      }
+    }
+  }, [accessToken, volume]);
+
+  // プレイヤーの状態をチェック
+  const checkPlayerState = useCallback(async () => {
+    if (!playerRef.current || !isReady) {
+      console.log('⚠️ Player not ready');
+      return false;
+    }
+
+    try {
+      const state = await playerRef.current.getCurrentState();
+      console.log('🎯 Current player state:', state);
+      return !!state;
+    } catch (error) {
+      console.error('❌ Error checking player state:', error);
+      return false;
+    }
+  }, [isReady]);
 
   // リトライ関数
   const handleRetry = () => {
@@ -144,188 +282,25 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
     return styleMap[styleId] || 'Unknown';
   };
 
+  // プレイヤーの初期化と管理
   useEffect(() => {
     if (!accessToken || !songData?.spotifyTrackId) {
-      setError('アクセストークンまたはSpotify IDがありません');
+      console.log('⚠️ useEffect: Missing accessToken or spotifyTrackId');
       return;
     }
 
-    const script = document.createElement('script');
-    script.src = 'https://sdk.scdn.co/spotify-player.js';
-    script.async = true;
-    document.body.appendChild(script);
+    console.log('🚀 Initializing Spotify player...');
+    initializePlayer();
 
-    window.onSpotifyWebPlaybackSDKReady = () => {
-      const player = new window.Spotify.Player({
-        name: 'Song Detail Player',
-        getOAuthToken: cb => { cb(accessToken); }
-      });
-
-      player.addListener('ready', async ({ device_id }) => {
-        console.log('Song Detail Player ready with Device ID', device_id);
-        setDeviceId(device_id);
-        setIsReady(true);
-        setError(null);
-        player.setVolume(volume).catch(e => console.error("Could not set volume", e));
-        
-        // プレーヤー準備完了後、現在の状態を取得して時間を初期化
-        try {
-          const currentState = await player.getCurrentState();
-          if (currentState) {
-            console.log('🎯 Initial player state:', {
-              position: currentState.position,
-              duration: currentState.duration,
-              paused: currentState.paused
-            });
-            
-            // 現在の再生状態に基づいて時間を設定
-            setPosition(currentState.position || 0);
-            setDuration(currentState.duration || 0);
-            setIsPlaying(!currentState.paused);
-            
-            // 再生中の場合は開始時刻を設定
-            if (!currentState.paused) {
-              playStartTimeRef.current = Date.now() - (currentState.position || 0);
-              playDurationRef.current = currentState.position || 0;
-              console.log('▶️ Player was already playing, setting start time:', playStartTimeRef.current);
-            }
-          }
-        } catch (error) {
-          console.log('⚠️ Could not get initial player state:', error);
-        }
-      });
-
-      player.addListener('not_ready', ({ device_id }) => {
-        console.log('Song Detail Player device ID has gone offline', device_id);
-        setDeviceId(null);
-        setIsReady(false);
-      });
-
-      player.addListener('initialization_error', ({ message }) => {
-        console.error('Song Detail Player initialization error:', message);
-        setError(`初期化エラー: ${message}`);
-      });
-
-      player.addListener('authentication_error', ({ message }) => {
-        console.error('Song Detail Player authentication error:', message);
-        setError(`認証エラー: ${message}`);
-      });
-
-      player.addListener('account_error', ({ message }) => {
-        console.error('Song Detail Player account error:', message);
-        setError(`アカウントエラー: ${message}`);
-      });
-
-      player.addListener('playback_error', ({ message }) => {
-        console.error('Song Detail Player playback error:', message);
-        setError(`再生エラー: ${message}`);
-      });
-
-      // 曲が終了した時の処理
-      player.addListener('player_state_changed', (state) => {
-        console.log('🎵 Player state changed:', { 
-          hasState: !!state, 
-          isPlaying: isPlaying,
-          state: state ? { paused: state.paused, position: state.position, duration: state.duration } : null
-        });
-        
-        if (!state) {
-          // 曲が終了した場合
-          if (playStartTimeRef.current && isPlaying) {
-            const endTime = Date.now();
-            playDurationRef.current = endTime - playStartTimeRef.current;
-            console.log('🎬 Track ended, recording completion:', { duration: playDurationRef.current });
-            recordPlayHistory(true); // 完了として記録
-            playStartTimeRef.current = null;
-            hasRecordedRef.current = false; // リセット
-          }
-          return;
-        }
-        
-        const wasPlaying = isPlaying;
-        const newIsPlaying = !state.paused;
-        
-        console.log('🔄 Playback state update:', { wasPlaying, newIsPlaying, position: state.position, duration: state.duration });
-        
-        // 再生開始時（一元化）
-        if (!wasPlaying && newIsPlaying) {
-          // 初回再生開始時のみ設定
-          if (!playStartTimeRef.current) {
-            playStartTimeRef.current = Date.now();
-            playDurationRef.current = 0;
-            hasRecordedRef.current = false; // リセット
-            console.log('▶️ Playback started, recording start time:', playStartTimeRef.current);
-          }
-        }
-        
-        // 再生停止時
-        if (wasPlaying && !newIsPlaying) {
-          if (playStartTimeRef.current) {
-            const endTime = Date.now();
-            playDurationRef.current = endTime - playStartTimeRef.current;
-            console.log('⏸️ Playback paused, recording interruption:', { duration: playDurationRef.current });
-            
-            // 30秒以上再生した場合のみ記録
-            if (playDurationRef.current >= 30000) {
-              recordPlayHistory(false);
-            } else {
-              console.log('⏭️ Skipping record: duration too short for pause:', playDurationRef.current);
-            }
-          }
-        }
-        
-        // 状態を更新（最後に実行）
-        setIsPlaying(newIsPlaying);
-        
-        // 時間の更新（Spotifyプレーヤーの状態変更時）
-        if (state.position !== undefined) {
-          // シーク操作後の位置変更を検出
-          if (playStartTimeRef.current && Math.abs(state.position - position) > 1000) {
-            // 大きな位置変更（シーク操作）を検出
-            const currentTime = Date.now();
-            const newStartTime = currentTime - state.position;
-            playStartTimeRef.current = newStartTime;
-            
-            console.log('🎯 Position change detected (likely seek):', {
-              oldPosition: position,
-              newPosition: state.position,
-              oldStartTime: playStartTimeRef.current,
-              newStartTime: newStartTime
-            });
-          }
-          
-          setPosition(state.position);
-        }
-        if (state.duration !== undefined) {
-          setDuration(state.duration);
-        }
-        
-        // デバッグ用：時間更新の詳細ログ
-        console.log('⏱️ Time update from player state:', {
-          position: state.position,
-          duration: state.duration,
-          newPosition: state.position !== undefined ? state.position : 'unchanged',
-          newDuration: state.duration !== undefined ? state.duration : 'unchanged'
-        });
-      });
-
-      player.connect();
-      playerRef.current = player;
-    };
-
+    // クリーンアップ関数
     return () => {
       if (playerRef.current) {
-        // 再生中の場合、視聴履歴を記録
-        if (playStartTimeRef.current && isPlaying) {
-          const endTime = Date.now();
-          playDurationRef.current = endTime - playStartTimeRef.current;
-          console.log('🚪 Component unmounting, recording interruption:', { duration: playDurationRef.current });
-          recordPlayHistory(false); // 中断として記録
-        }
+        console.log('🧹 Cleaning up Spotify player...');
         playerRef.current.disconnect();
+        playerRef.current = null;
       }
     };
-  }, [accessToken, songData?.spotifyTrackId]);
+  }, [accessToken, songData?.spotifyTrackId, initializePlayer]);
 
   useEffect(() => {
     if (isPlaying) {
