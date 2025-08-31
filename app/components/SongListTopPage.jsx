@@ -724,16 +724,8 @@ export default function SongListTopPage({
 						const fileName = src.split("/").pop();
 						thumbnailUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
 					}
-					// 複数の日付フィールドから日付を取得
+					// 複数の日付フィールドから日付を取得（推定日付は使用しない）
 					let songDate = song.date || song.release_date || song.acf?.release_date || song.modified || song.created || song.acf?.date;
-					
-					// 日付が取得できない場合、曲のIDから推定日付を生成（例：ID 104874 → 2024年頃）
-					if (!songDate && song.id) {
-						// IDが大きいほど新しい曲と仮定
-						const estimatedYear = 2020 + Math.floor(song.id / 10000);
-						const estimatedMonth = Math.floor((song.id % 10000) / 1000) + 1;
-						songDate = `${estimatedYear}-${String(estimatedMonth).padStart(2, '0')}-01`;
-					}
 					
 					const releaseDate = formatYearMonth(songDate);
 					
