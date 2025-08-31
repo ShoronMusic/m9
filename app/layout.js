@@ -5,7 +5,6 @@ import AuthProvider from "./components/AuthProvider";
 import { PlayerProvider } from "./components/PlayerContext";
 import FooterPlayer from "./components/FooterPlayer";
 import ErrorBoundary from "./components/ErrorBoundary";
-import { RemoteMobileLogger } from "./components/RemoteMobileLogger";
 import { getServerSession } from "next-auth";
 import { authOptions } from "./lib/authOptions";
 
@@ -72,7 +71,6 @@ export default async function RootLayout({ children }) {
         <ErrorBoundary>
           <AuthProvider>
             <PlayerProvider>
-              <RemoteMobileLogger />
               <Layout>
                 {children}
               </Layout>
