@@ -12,8 +12,12 @@ const TopPageClient = dynamicImport(() => import("./TopPageClient"), {
 });
 
 export const metadata = {
-  	title: "TuneDive - TopPage",
-	description: "TuneDive のトップページです",
+  title: "TuneDive - TopPage",
+  description: "TuneDive のトップページです",
+  openGraph: {
+    title: "TuneDive - TopPage",
+    description: "TuneDive のトップページです",
+  },
 };
 
 // キャッシュ設定を追加

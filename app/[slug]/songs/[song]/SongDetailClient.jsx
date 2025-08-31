@@ -49,6 +49,14 @@ const styleDisplayMap = {
   2873: "Others",
 };
 
+// アーティスト名をフォーマットする関数
+function formatArtistName(artist) {
+  if (artist.prefix === "1") {
+    return `The ${artist.name}`;
+  }
+  return artist.name;
+}
+
 // アーティスト順序決定関数（SongList.jsと同じロジック）
 function removeLeadingThe(str = "") {
   return str.replace(/^The\s+/i, "").trim();
@@ -442,17 +450,17 @@ export default function SongDetailClient({ songData, description, accessToken })
       onOrientationChange={handleOrientationChange}
       onResize={handleResize}
     >
-      <ThemeProvider theme={theme}>
-        <Head>
-          <title>{pageTitleStr} | TuneDive</title>
-          <meta name="description" content={description} />
-          <style jsx>{`
-            @keyframes spin {
-              0% { transform: rotate(0deg); }
-              100% { transform: rotate(360deg); }
-            }
-          `}</style>
-        </Head>
+    <ThemeProvider theme={theme}>
+      <Head>
+        		<title>{pageTitleStr} | TuneDive</title>
+        <meta name="description" content={description} />
+        <style jsx>{`
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+        `}</style>
+      </Head>
 
         {/* 統一されたエラー表示 */}
         <UnifiedErrorDisplay
@@ -495,15 +503,15 @@ export default function SongDetailClient({ songData, description, accessToken })
           onReLogin={handleReLogin}
         />
 
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "flex-start",
-            padding: "20px",
-            flexWrap: "wrap",
-          }}
-        >
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "flex-start",
+          padding: "20px",
+          flexWrap: "wrap",
+        }}
+      >
         {/* 左: 曲のサムネイル（アーティストページと同じデザイン） */}
         <div className={artistStyles.imageContainer}>
           <Image
@@ -550,7 +558,7 @@ export default function SongDetailClient({ songData, description, accessToken })
                       />
                       <div style={{ width: '100px', textAlign: 'center', marginTop: '6px' }}>
                         <Link href={`/${artist.slug}/`} style={{ fontSize: "1.08em", color: "#1e6ebb", fontWeight: "bold", textDecoration: "none" }}>
-                          {artist.name}
+                          {formatArtistName(artist)}
                         </Link>
                         <div style={{ color: "#888", fontSize: "0.95em" }}>({artistOrigin})</div>
                       </div>
@@ -674,11 +682,11 @@ export default function SongDetailClient({ songData, description, accessToken })
             <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
               <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>LINK:</div>
               <div style={{ flex: 1, marginLeft: '16px' }}>
-                {songData.spotifyTrackId && (
-                  <Link
-                    href={`https://open.spotify.com/track/${songData.spotifyTrackId}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  {songData.spotifyTrackId && (
+                    <Link
+                      href={`https://open.spotify.com/track/${songData.spotifyTrackId}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     style={{ 
                       display: "inline-flex", 
                       alignItems: "center", 
@@ -691,12 +699,12 @@ export default function SongDetailClient({ songData, description, accessToken })
                     }}
                     onMouseEnter={(e) => e.target.style.color = "#155a8a"}
                     onMouseLeave={(e) => e.target.style.color = "#1e6ebb"}
-                  >
-                    <img src="/svg/spotify.svg" alt="Spotify" style={{ width: "20px" }} />
-                    Spotify
-                    <img src="/svg/new-window.svg" alt="Open in new window" style={{ width: "20px" }} />
-                  </Link>
-                )}
+                    >
+                      <img src="/svg/spotify.svg" alt="Spotify" style={{ width: "20px" }} />
+                      Spotify
+                      <img src="/svg/new-window.svg" alt="Open in new window" style={{ width: "20px" }} />
+                    </Link>
+                  )}
               </div>
             </div>
             {/* プレイリスト追加セクション */}
@@ -837,7 +845,7 @@ export default function SongDetailClient({ songData, description, accessToken })
         />
       )}
       
-      </ThemeProvider>
+    </ThemeProvider>
     </MobileLifecycleManager>
   );
 } 

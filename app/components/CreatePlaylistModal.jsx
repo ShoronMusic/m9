@@ -67,16 +67,7 @@ export default function CreatePlaylistModal({
         const dateA = new Date(a.last_track_added_at || a.updated_at || a.created_at || 0);
         const dateB = new Date(b.last_track_added_at || b.updated_at || b.created_at || 0);
         
-        // デバッグ用ログ
-        console.log('🔍 Frontend sort debug:', {
-          playlistA: a.name,
-          lastTrackAddedAtA: a.last_track_added_at,
-          dateA: dateA,
-          playlistB: b.name,
-          lastTrackAddedAtB: b.last_track_added_at,
-          dateB: dateB,
-          comparison: dateB - dateA
-        });
+        // デバッグ用ログは削除
         
         return dateB - dateA;
       });

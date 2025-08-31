@@ -1115,10 +1115,7 @@ export default function SongListTopPage({
 				onPlaylistCreated={handlePlaylistCreated}
 				trackToAdd={trackToAdd}
 			/>
-			{/* デバッグ用: モーダルの状態を確認 */}
-			{console.log('🎵 showCreatePlaylistModal state:', showCreatePlaylistModal)}
-			{console.log('🎵 showCreateNewPlaylistModal state:', showCreateNewPlaylistModal)}
-			{console.log('🎵 trackToAdd state:', trackToAdd)}
+			{/* デバッグ用ログは削除 */}
 		</div>
 	);
 }

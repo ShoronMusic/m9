@@ -5,6 +5,7 @@ import AuthProvider from "./components/AuthProvider";
 import { PlayerProvider } from "./components/PlayerContext";
 import FooterPlayer from "./components/FooterPlayer";
 import ErrorBoundary from "./components/ErrorBoundary";
+import { RemoteMobileLogger } from "./components/RemoteMobileLogger";
 import { getServerSession } from "next-auth";
 import { authOptions } from "./lib/authOptions";
 
@@ -14,8 +15,6 @@ export const metadata = {
   metadataBase: new URL('https://tunedive.com'),
   title: 'TuneDive',
   description: '音楽の深層に潜る - Spotify音源で音楽を発見し、プレイリストで繋がる',
-  viewport: 'width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover',
-  themeColor: '#1DB954',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
@@ -26,6 +25,14 @@ export const metadata = {
     email: false,
     address: false
   }
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1.0,
+  userScalable: false,
+  viewportFit: 'cover',
+  themeColor: '#1DB954'
 }
 
 export default async function RootLayout({ children }) {
@@ -65,6 +72,7 @@ export default async function RootLayout({ children }) {
         <ErrorBoundary>
           <AuthProvider>
             <PlayerProvider>
+              <RemoteMobileLogger />
               <Layout>
                 {children}
               </Layout>

@@ -1121,7 +1121,7 @@ export default function SongList({
                    slug: artist.slug,
                    origin: artist.acf?.artistorigin
                  })),
-                 genres: song.genres?.map(genre => ({
+                 genres: song.genre_data?.map(genre => ({
                    term_id: genre.term_id,
                    name: genre.name,
                    slug: genre.slug
@@ -1265,7 +1265,7 @@ export default function SongList({
                    </Link>
                 </div>
 
-                {song.genres?.map((genre, index) => (
+                {song.genre_data?.map((genre, index) => (
                   <div key={`genre-${genre.term_id || index}`} style={separatorStyle}>
                     <Link 
                       href={`/genres/${genre.slug}/1`}
@@ -1279,6 +1279,16 @@ export default function SongList({
                     </Link>
                   </div>
                 ))}
+
+                {/* ジャンルデータがない場合のフォールバック */}
+                {(!song.genre_data || song.genre_data.length === 0) && (
+                  <div key="no-genre" style={separatorStyle}>
+                    <div style={{...menuItemStyle, color: '#888', cursor: 'default'}}>
+                      <img src="/svg/genre.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                      ジャンル情報なし
+                    </div>
+                  </div>
+                )}
 
                 <div key="add-to-playlist-section" style={separatorStyle}>
                   <button onClick={onAddToPlaylist} style={menuButtonStlye}>

@@ -96,13 +96,7 @@ export async function GET(request) {
       })
     );
 
-    // デバッグ用ログ
-    console.log('🔍 Playlists with new field:', playlistsWithTrackCount.map(p => ({
-      name: p.name,
-      created_at: p.created_at,
-      last_track_added_at: p.last_track_added_at,
-      track_count: p.track_count
-    })));
+    // デバッグ用ログは削除
 
     return Response.json({ playlists: playlistsWithTrackCount });
   } catch (error) {

@@ -12,9 +12,17 @@ export default function ArtistDetailClient({ artistData }) {
     return <div>データが取得できませんでした。</div>;
   }
 
+  // アーティスト名をフォーマットする関数
+  const formatArtistName = (artist) => {
+    if (artist.prefix === "1") {
+      return `The ${artist.name}`;
+    }
+    return artist.name;
+  };
+
   const artistOrigin = artistData.acf?.artistorigin || "Unknown";
   const artistActiveYearStart = artistData.acf?.artistactiveyearstart || "Unknown";
-  const artistJpName = artistData.acf?.artistjpname || artistData.name;
+  const artistJpName = artistData.acf?.artistjpname || formatArtistName(artistData);
 
   return (
     <ThemeProvider theme={theme}>
@@ -30,7 +38,7 @@ export default function ArtistDetailClient({ artistData }) {
           />
         </div>
         <div className={artistStyles.infoContainer}>
-          <h1 className={artistStyles.artistName}>{artistData.name}</h1>
+          <h1 className={artistStyles.artistName}>{formatArtistName(artistData)}</h1>
           <p className={artistStyles.artistJpName}>{artistJpName}</p>
           <div className={artistStyles.artistInfo}>
             <p>Country: {artistOrigin}</p>

@@ -128,13 +128,13 @@ function calculateStylePercentages(songs) {
   const styleNameMap = {
     2844: 'Pop',
     2845: 'Alternative',
-    2846: 'Dance',
-    2847: 'Electronica',
-    2848: 'R&B',
-    2849: 'Hip-Hop',
-    2850: 'Rock',
-    2851: 'Metal',
-    2852: 'Others'
+    4686: 'Dance',
+    2846: 'Electronica',
+    2847: 'R&B',
+    2848: 'Hip-Hop',
+    6703: 'Rock',
+    2849: 'Metal',
+    2873: 'Others'
   };
 
   return Object.entries(styleCounts)
