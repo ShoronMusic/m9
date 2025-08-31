@@ -77,6 +77,17 @@ const supabase = createClient(supabaseUrl, supabaseAnonKey);
   // ログの取得（GET）
   export async function GET(request) {
     try {
+      // Supabaseクライアントの確認
+      if (!supabase) {
+        return new Response(JSON.stringify({ 
+          error: 'Database service unavailable',
+          details: 'Supabase environment variables are not configured'
+        }), {
+          status: 503,
+          headers: { 'Content-Type': 'application/json' },
+        });
+      }
+
       const { searchParams } = new URL(request.url);
       const limit = parseInt(searchParams.get('limit') || '100');
       const offset = parseInt(searchParams.get('offset') || '0');
@@ -169,52 +180,69 @@ const supabase = createClient(supabaseUrl, supabaseAnonKey);
 // ログの削除（DELETE）
 export async function DELETE(request) {
   try {
+    // Supabaseクライアントの確認
+    if (!supabase) {
+      return new Response(JSON.stringify({ 
+        error: 'Database service unavailable',
+        details: 'Supabase environment variables are not configured'
+      }), {
+        status: 503,
+        headers: { 'Content-Type': 'application/json' },
+      });
+    }
+
     const { searchParams } = new URL(request.url);
     const action = searchParams.get('action');
     
     if (action === 'clear') {
       // すべてのログをクリア
-      if (writeLogs([])) {
-        return new Response(JSON.stringify({
-          success: true,
-          message: 'All remote logs cleared successfully'
-        }), {
-          status: 200,
-          headers: { 'Content-Type': 'application/json' },
-        });
-      } else {
+      const { error } = await supabase
+        .from('mobile_logs')
+        .delete()
+        .neq('id', '00000000-0000-0000-0000-000000000000'); // 全件削除
+      
+      if (error) {
+        console.error('Supabase delete error:', error);
         return new Response(JSON.stringify({ error: 'Failed to clear remote logs' }), {
           status: 500,
           headers: { 'Content-Type': 'application/json' },
         });
       }
+      
+      return new Response(JSON.stringify({
+        success: true,
+        message: 'All remote logs cleared successfully'
+      }), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' },
+      });
     } else if (action === 'cleanup') {
       // 古いログをクリーンアップ（14日以上前）
-      const logs = readLogs();
       const fourteenDaysAgo = new Date();
       fourteenDaysAgo.setDate(fourteenDaysAgo.getDate() - 14);
       
-      const filteredLogs = logs.filter(log => 
-        new Date(log.timestamp) > fourteenDaysAgo
-      );
+      const { error } = await supabase
+        .from('mobile_logs')
+        .delete()
+        .lt('timestamp', fourteenDaysAgo.toISOString());
       
-      if (writeLogs(filteredLogs)) {
-        return new Response(JSON.stringify({
-          success: true,
-          message: 'Old remote logs cleaned up successfully',
-          removedCount: logs.length - filteredLogs.length
-        }), {
-          status: 200,
-          headers: { 'Content-Type': 'application/json' },
-        });
-      } else {
-        return new Response(JSON.stringify({ error: 'Failed to cleanup remote logs' }), {
+      if (error) {
+        console.error('Supabase cleanup error:', error);
+        return new Response(JSON.stringify({ error: 'Failed to cleanup old remote logs' }), {
           status: 500,
           headers: { 'Content-Type': 'application/json' },
         });
       }
+      
+      return new Response(JSON.stringify({
+        success: true,
+        message: 'Old remote logs cleaned up successfully'
+      }), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' },
+      });
     } else {
-      return new Response(JSON.stringify({ error: 'Invalid action' }), {
+      return new Response(JSON.stringify({ error: 'Invalid action parameter' }), {
         status: 400,
         headers: { 'Content-Type': 'application/json' },
       });
