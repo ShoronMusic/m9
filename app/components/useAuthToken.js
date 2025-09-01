@@ -270,6 +270,11 @@ export const useAuthToken = () => {
     return await attemptSessionRecovery();
   }, [attemptSessionRecovery]);
 
+  // エラーをクリア
+  const clearTokenError = useCallback(() => {
+    setTokenError(null);
+  }, []);
+
   return {
     session,
     status,
@@ -281,5 +286,6 @@ export const useAuthToken = () => {
     handleReLogin,
     handleLogout,
     handleManualRecovery,
+    clearTokenError,
   };
 };

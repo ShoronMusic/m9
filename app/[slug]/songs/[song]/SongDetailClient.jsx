@@ -145,7 +145,8 @@ export default function SongDetailClient({ songData, description, accessToken })
     tokenError,
     isRecovering,
     handleReLogin,
-    handleManualRecovery
+    handleManualRecovery,
+    clearTokenError
   } = useAuthToken();
 
   // 統一されたエラーハンドリング
@@ -482,7 +483,7 @@ export default function SongDetailClient({ songData, description, accessToken })
         <AuthErrorBanner
           error={tokenError}
           onReLogin={handleReLogin}
-          onDismiss={() => {}}
+          onDismiss={clearTokenError}
         />
 
         {/* セッション復旧インジケーター */}

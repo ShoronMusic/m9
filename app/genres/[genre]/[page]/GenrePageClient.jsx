@@ -49,7 +49,8 @@ export default function GenrePageClient({
     tokenError, 
     isRecovering,
     handleReLogin, 
-    handleManualRecovery 
+    handleManualRecovery,
+    clearTokenError 
   } = useAuthToken();
 
   // 統一されたエラーハンドリング
@@ -268,7 +269,7 @@ export default function GenrePageClient({
         <AuthErrorBanner 
           error={tokenError}
           onReLogin={handleReLogin}
-          onDismiss={() => {}}
+          onDismiss={clearTokenError}
         />
 
         {/* セッション復旧インジケーター */}

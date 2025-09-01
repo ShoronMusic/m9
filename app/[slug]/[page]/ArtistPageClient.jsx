@@ -109,13 +109,14 @@ export default function ArtistPageClient({
   });
 
   // 認証トークン管理
-  const {
-    session,
-    isTokenValid,
-    tokenError,
+    const { 
+    session, 
+    isTokenValid, 
+    tokenError, 
     isRecovering,
     handleReLogin,
-    handleManualRecovery
+    handleManualRecovery,
+    clearTokenError
   } = useAuthToken();
 
   // 統一されたエラーハンドリング
@@ -370,7 +371,7 @@ export default function ArtistPageClient({
         <AuthErrorBanner
           error={tokenError}
           onReLogin={handleReLogin}
-          onDismiss={() => {}}
+          onDismiss={clearTokenError}
         />
 
         {/* セッション復旧インジケーター */}

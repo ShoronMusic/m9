@@ -52,7 +52,8 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
     tokenError, 
     isRecovering,
     handleReLogin, 
-    handleManualRecovery 
+    handleManualRecovery,
+    clearTokenError 
   } = useAuthToken();
   const router = useRouter();
   const [currentPage, setCurrentPage] = useState(initialPage);
@@ -336,7 +337,7 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
         <AuthErrorBanner 
           error={tokenError}
           onReLogin={handleReLogin}
-          onDismiss={() => {}}
+          onDismiss={clearTokenError}
         />
 
         {/* セッション復旧インジケーター */}
