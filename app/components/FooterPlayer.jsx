@@ -133,7 +133,12 @@ export default function FooterPlayer() {
         playPrevious,
         seekTo,
         spotifyPlayerRef,
-        currentTrackIndex
+        currentTrackIndex,
+        // Wake Lock関連
+        wakeLock,
+        isWakeLockSupported,
+        requestWakeLock,
+        releaseWakeLock
     } = playerContext;
 
     // 現在の曲の状態を確認
@@ -268,6 +273,19 @@ export default function FooterPlayer() {
                             onChange={handleVolumeChange}
                             className={styles.volumeSlider}
                         />
+                        {/* Wake Lock状態表示 */}
+                        {isWakeLockSupported && (
+                            <div className={styles.wakeLockIndicator}>
+                                <Image
+                                    src={wakeLock ? "/svg/lock-solid.svg" : "/svg/lock-open-solid.svg"}
+                                    alt={wakeLock ? "Wake Lock Active" : "Wake Lock Inactive"}
+                                    width={20}
+                                    height={20}
+                                    title={wakeLock ? "画面オフ時も再生継続中" : "画面オフ時は再生停止"}
+                                />
+                            </div>
+                        )}
+                        
                         {displayTrack.spotify_url && (
                             <a
                                 href={displayTrack.spotify_url}

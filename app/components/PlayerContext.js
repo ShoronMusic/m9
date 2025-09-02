@@ -46,10 +46,119 @@ export const PlayerProvider = ({ children }) => {
   // プレイリスト更新の状態管理
   const [playlistUpdateTrigger, setPlaylistUpdateTrigger] = useState(0);
 
+  // Wake Lock API
+  const [wakeLock, setWakeLock] = useState(null);
+  const [isWakeLockSupported, setIsWakeLockSupported] = useState(false);
+
   // プレイリスト更新をトリガーする関数
   const triggerPlaylistUpdate = useCallback(() => {
     setPlaylistUpdateTrigger(prev => prev + 1);
   }, []);
+
+  // Wake Lockの取得
+  const requestWakeLock = useCallback(async () => {
+    if (!isWakeLockSupported || wakeLock) {
+      return;
+    }
+
+    try {
+      const wakeLockInstance = await navigator.wakeLock.request('screen');
+      setWakeLock(wakeLockInstance);
+      
+      // Wake Lockが解放された時のイベント
+      wakeLockInstance.addEventListener('release', () => {
+        console.log('🔒 Wake Lock was released');
+        setWakeLock(null);
+      });
+
+      console.log('🔒 Wake Lock acquired successfully');
+      
+      // Axiomにログを送信
+      try {
+        await fetch('/api/mobile-logs', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            level: 'info',
+            type: 'wake_lock_acquired',
+            message: 'Wake Lockを取得しました',
+            details: {
+              isMobile: window.innerWidth <= 768,
+              platform: navigator.platform,
+              userAgent: navigator.userAgent,
+              component: 'PlayerContext'
+            }
+          })
+        });
+      } catch (logError) {
+        console.error('Failed to log wake lock acquisition:', logError);
+      }
+    } catch (error) {
+      console.error('Failed to acquire wake lock:', error);
+      
+      // Axiomにエラーログを送信
+      try {
+        await fetch('/api/mobile-logs', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            level: 'error',
+            type: 'wake_lock_error',
+            message: `Wake Lock取得エラー: ${error.message}`,
+            details: {
+              error: error.message,
+              isMobile: window.innerWidth <= 768,
+              platform: navigator.platform,
+              userAgent: navigator.userAgent,
+              component: 'PlayerContext'
+            }
+          })
+        });
+      } catch (logError) {
+        console.error('Failed to log wake lock error:', logError);
+      }
+    }
+  }, [isWakeLockSupported, wakeLock]);
+
+  // Wake Lockの解放
+  const releaseWakeLock = useCallback(async () => {
+    if (wakeLock) {
+      try {
+        await wakeLock.release();
+        setWakeLock(null);
+        console.log('🔒 Wake Lock released successfully');
+        
+        // Axiomにログを送信
+        try {
+          await fetch('/api/mobile-logs', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              level: 'info',
+              type: 'wake_lock_released',
+              message: 'Wake Lockを解放しました',
+              details: {
+                isMobile: window.innerWidth <= 768,
+                platform: navigator.platform,
+                userAgent: navigator.userAgent,
+                component: 'PlayerContext'
+              }
+            })
+          });
+        } catch (logError) {
+          console.error('Failed to log wake lock release:', logError);
+        }
+      } catch (error) {
+        console.error('Failed to release wake lock:', error);
+      }
+    }
+  }, [wakeLock]);
 
   // Stale closureを避けるために最新のステートをrefで保持
   const stateRef = useRef();
@@ -174,6 +283,14 @@ export const PlayerProvider = ({ children }) => {
     detectPowerSaveMode().then(isPowerSave => {
       setIsPowerSaveMode(isPowerSave);
     });
+
+    // Wake Lock APIのサポート確認
+    if ('wakeLock' in navigator) {
+      setIsWakeLockSupported(true);
+      console.log('🔒 Wake Lock API is supported');
+    } else {
+      console.log('⚠️ Wake Lock API is not supported');
+    }
   }, []);
 
   // 視聴履歴追跡の初期化
@@ -718,6 +835,17 @@ export const PlayerProvider = ({ children }) => {
     }
   }, [isPlaying, playTracker, currentTrack]);
 
+  // 再生状態に応じてWake Lockを管理
+  useEffect(() => {
+    if (isPlaying && currentTrack && isWakeLockSupported) {
+      // 再生開始時にWake Lockを取得
+      requestWakeLock();
+    } else if (!isPlaying && wakeLock) {
+      // 再生停止時にWake Lockを解放
+      releaseWakeLock();
+    }
+  }, [isPlaying, currentTrack, isWakeLockSupported, requestWakeLock, releaseWakeLock, wakeLock]);
+
   const value = {
     trackList,
     setTrackList,
@@ -745,6 +873,11 @@ export const PlayerProvider = ({ children }) => {
     // プレイリスト更新関連
     playlistUpdateTrigger,
     triggerPlaylistUpdate,
+    // Wake Lock関連
+    wakeLock,
+    isWakeLockSupported,
+    requestWakeLock,
+    releaseWakeLock,
   };
 
   return (

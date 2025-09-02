@@ -17,6 +17,8 @@ export default function MobilePlaybackMonitor({
     authErrorCount: 0,
     screenOffCount: 0,
     networkDisconnectCount: 0,
+    wakeLockCount: 0,
+    wakeLockReleaseCount: 0,
   });
 
   const logToAxiom = useCallback(async (level, type, message, details = {}) => {
@@ -204,6 +206,8 @@ export default function MobilePlaybackMonitor({
       totalAuthErrors: playbackStateRef.current.authErrorCount,
       totalScreenOffs: playbackStateRef.current.screenOffCount,
       totalNetworkDisconnects: playbackStateRef.current.networkDisconnectCount,
+      totalWakeLocks: playbackStateRef.current.wakeLockCount,
+      totalWakeLockReleases: playbackStateRef.current.wakeLockReleaseCount,
       isPlaying: playbackStateRef.current.isPlaying,
       component: 'MobilePlaybackMonitor'
     });
@@ -229,6 +233,43 @@ export default function MobilePlaybackMonitor({
       });
     }
     
+    // Wake Lock APIの監視
+    if ('wakeLock' in navigator) {
+      // Wake Lockの状態変化を監視
+      const originalRequest = navigator.wakeLock.request;
+      
+      // Wake Lock取得の監視
+      navigator.wakeLock.request = async function(type) {
+        try {
+          const wakeLock = await originalRequest.call(this, type);
+          playbackStateRef.current.wakeLockCount++;
+          
+          logToAxiom('info', 'wake_lock_acquired', 'Wake Lockが取得されました', {
+            component: 'MobilePlaybackMonitor',
+            wakeLockType: type,
+            wakeLockCount: playbackStateRef.current.wakeLockCount,
+          });
+
+          // Wake Lock解放イベントの監視
+          wakeLock.addEventListener('release', () => {
+            playbackStateRef.current.wakeLockReleaseCount++;
+            logToAxiom('info', 'wake_lock_released', 'Wake Lockが解放されました', {
+              component: 'MobilePlaybackMonitor',
+              wakeLockReleaseCount: playbackStateRef.current.wakeLockReleaseCount,
+            });
+          });
+
+          return wakeLock;
+        } catch (error) {
+          logToAxiom('error', 'wake_lock_error', `Wake Lock取得エラー: ${error.message}`, {
+            component: 'MobilePlaybackMonitor',
+            error: error.message,
+          });
+          throw error;
+        }
+      };
+    }
+
     // 初期状態を記録
     logToAxiom('info', 'monitor_started', 'モバイル再生監視を開始しました', {
       screenWidth: window.screen.width,
@@ -239,6 +280,7 @@ export default function MobilePlaybackMonitor({
       platform: navigator.platform,
       language: navigator.language,
       online: navigator.onLine,
+      wakeLockSupported: 'wakeLock' in navigator,
       component: 'MobilePlaybackMonitor'
     });
     
@@ -255,6 +297,12 @@ export default function MobilePlaybackMonitor({
           battery.removeEventListener('levelchange', handleBatteryChange);
           battery.removeEventListener('chargingchange', handleBatteryChange);
         });
+      }
+
+      // Wake Lock APIの復元
+      if ('wakeLock' in navigator && navigator.wakeLock.request !== navigator.wakeLock.request) {
+        // 元の関数を復元（必要に応じて）
+        console.log('Wake Lock API monitoring cleaned up');
       }
     };
   }, [monitorPlaybackState, handleVisibilityChange, handleOnline, handleOffline, handleBatteryChange, handleBeforeUnload, logToAxiom]);
