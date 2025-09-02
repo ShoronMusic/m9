@@ -1,11 +1,45 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
+import { useEffect } from "react";
 
 export default function AuthError() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const error = searchParams.get("error");
+
+  // SpotifyログインエラーをAxiomに送信
+  useEffect(() => {
+    if (error) {
+      const logSpotifyError = async () => {
+        try {
+          await fetch('/api/mobile-logs', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              level: 'error',
+              type: 'spotify_login_error',
+              message: `Spotifyログインエラー: ${getErrorMessage(error)}`,
+              details: {
+                errorType: error,
+                errorMessage: getErrorMessage(error),
+                timestamp: new Date().toISOString(),
+                url: window.location.href,
+                userAgent: navigator.userAgent,
+                referrer: document.referrer,
+              }
+            })
+          });
+        } catch (logError) {
+          console.error('Failed to log Spotify error:', logError);
+        }
+      };
+
+      logSpotifyError();
+    }
+  }, [error]);
 
   const getErrorMessage = (error) => {
     switch (error) {

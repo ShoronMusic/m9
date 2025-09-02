@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from './SpotifyErrorHandler.module.css';
 
 export default function SpotifyErrorHandler({ 
@@ -13,6 +13,41 @@ export default function SpotifyErrorHandler({
   onReLogin 
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
+
+  // SpotifyエラーをAxiomに送信
+  useEffect(() => {
+    if (error) {
+      const logSpotifyError = async () => {
+        try {
+          await fetch('/api/mobile-logs', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              level: 'error',
+              type: 'spotify_api_error',
+              message: `Spotify APIエラー: ${error}`,
+              details: {
+                errorMessage: error,
+                retryCount,
+                maxRetries,
+                timestamp: new Date().toISOString(),
+                url: window.location.href,
+                userAgent: navigator.userAgent,
+                isAuthError: error.includes('認証エラー') || error.includes('再ログイン'),
+                isRateLimitError: error.includes('レート制限'),
+              }
+            })
+          });
+        } catch (logError) {
+          console.error('Failed to log Spotify error:', logError);
+        }
+      };
+
+      logSpotifyError();
+    }
+  }, [error, retryCount, maxRetries]);
 
   if (!error) {
     return null;

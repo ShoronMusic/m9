@@ -49,27 +49,27 @@ export async function GET() {
       });
 
       if (response.ok) {
-        return Response.json({ 
+        return NextResponse.json({ 
           success: true, 
           message: 'Test log sent to Axiom successfully',
           logEntry: testLogEntry
         });
       } else {
-        return Response.json({ 
+        return NextResponse.json({ 
           success: false, 
           error: `Axiom API error: ${response.status}`,
           response: await response.text()
         }, { status: 500 });
       }
     } else {
-      return Response.json({ 
+      return NextResponse.json({ 
         success: false, 
         error: 'Axiom environment variables not configured' 
       }, { status: 500 });
     }
   } catch (error) {
     console.error('Test log error:', error);
-    return Response.json({ 
+    return NextResponse.json({ 
       success: false, 
       error: error.message 
     }, { status: 500 });

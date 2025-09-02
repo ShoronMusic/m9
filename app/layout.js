@@ -7,6 +7,7 @@ import FooterPlayer from "./components/FooterPlayer";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { getServerSession } from "next-auth";
 import { authOptions } from "./lib/authOptions";
+import MobilePlaybackMonitor from "./components/MobilePlaybackMonitor";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -71,6 +72,7 @@ export default async function RootLayout({ children }) {
         <ErrorBoundary>
           <AuthProvider>
             <PlayerProvider>
+              <MobilePlaybackMonitor />
               <Layout>
                 {children}
               </Layout>
