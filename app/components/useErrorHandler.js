@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useCallback, useRef } from 'react';
+import errorLogger from '@/lib/errorLogger';
 
 // エラーの種類を定義
 export const ERROR_TYPES = {
@@ -70,6 +71,14 @@ export const useErrorHandler = (options = {}) => {
     if (enableLogging) {
       console.error('Error occurred:', errorObj);
     }
+
+    // エラーログを送信
+    errorLogger.logError(new Error(errorObj.message), {
+      errorType: errorObj.type,
+      severity: errorObj.severity,
+      context: errorObj.context,
+      errorId: errorObj.id,
+    });
 
     // 外部のエラーハンドラーを呼び出し
     if (onError) {

@@ -5,3 +5,18 @@ cd D:\m9
 npm run dev
 
 http://localhost:3001/
+
+
+
+https://app.axiom.co/トークン
+xaat-e222d39d-49ed-48c8-b2de-781c9bb67e57
+よく使用するクエリ
+// エラータイプ別の集計
+['tunedive-errors']
+| summarize count() by errorType
+| order by count_ desc
+
+// モバイルデバイスでのエラーのみ
+['tunedive-errors']
+| where deviceInfo.isMobile == true
+| order by timestamp desc
