@@ -1,5 +1,8 @@
 import { NextResponse } from 'next/server';
 
+// このAPIルートを静的生成から除外
+export const dynamic = 'force-dynamic';
+
 export async function POST(request) {
   try {
     const errorData = await request.json();

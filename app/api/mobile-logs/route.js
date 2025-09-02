@@ -2,6 +2,9 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
+// このAPIルートを静的生成から除外
+export const dynamic = 'force-dynamic';
+
 const LOG_FILE_PATH = path.join(process.cwd(), 'logs', 'mobile-logs.json');
 
 // ブラウザ情報を取得

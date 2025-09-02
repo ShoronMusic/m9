@@ -1,5 +1,8 @@
 import { NextResponse } from 'next/server';
 
+// このAPIルートを静的生成から除外
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   try {
     // テスト用のエラーログを作成
@@ -55,10 +58,17 @@ export async function GET() {
           logEntry: testLogEntry
         });
       } else {
+        let errorText = '';
+        try {
+          errorText = await response.text();
+        } catch (textError) {
+          errorText = 'Failed to read error response';
+        }
+        
         return NextResponse.json({ 
           success: false, 
           error: `Axiom API error: ${response.status}`,
-          response: await response.text()
+          response: errorText
         }, { status: 500 });
       }
     } else {
