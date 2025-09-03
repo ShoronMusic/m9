@@ -207,6 +207,11 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 				spotifyTrackId: spotify_track_id,
 				// 他の必須プロパティもここに追加...
 				thumbnail: song.thumbnail,
+				// 公開年月の表示に必要なフィールドを追加
+				releaseDate: song.releaseDate,
+				date: song.releaseDate, // 後方互換性のため
+				genre_data: song.genres, // ジャンルデータのマッピング
+				vocal_data: song.vocals, // ボーカルデータのマッピング
 			};
 		}).filter(song => song.spotifyTrackId);
 

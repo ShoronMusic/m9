@@ -725,28 +725,9 @@ export default function SongListTopPage({
 						thumbnailUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
 					}
 					// 複数の日付フィールドから日付を取得（推定日付は使用しない）
-					let songDate = song.date || song.release_date || song.acf?.release_date || song.modified || song.created || song.acf?.date;
+					let songDate = song.releaseDate || song.date || song.release_date || song.acf?.release_date || song.modified || song.created || song.acf?.date;
 					
 					const releaseDate = formatYearMonth(songDate);
-					
-					// デバッグ用ログ
-					console.log('🔍 Song debug:', {
-						id: song.id,
-						title: song.title?.rendered || song.title,
-						originalDate: song.date,
-						usedDate: songDate,
-						formattedDate: formatYearMonth(songDate),
-						releaseDate: releaseDate,
-						// 利用可能な日付フィールドを確認
-						allDateFields: {
-							date: song.date,
-							release_date: song.release_date,
-							acf_release_date: song.acf?.release_date,
-							modified: song.modified,
-							created: song.created,
-							acf_date: song.acf?.date
-						}
-					});
 					const genreText = formatGenres(song.genre_data);
 					const vocalIcons = renderVocalIcons(song.vocal_data);
 					const songId = String(song.id);
@@ -805,18 +786,17 @@ export default function SongListTopPage({
 											{artistElements}
 											<br />
 											<span>{decodeHtmlEntities(title)}</span>
+										</div>
+										<div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "8px", marginTop: "4px" }}>
 											{releaseDate !== "Unknown Year" && (
 												<span style={{ 
-													fontSize: "0.8em", 
+													fontSize: "0.85em", 
 													color: "#666", 
-													marginLeft: "8px",
 													fontWeight: "normal"
 												}}>
 													{releaseDate}
 												</span>
 											)}
-										</div>
-										<div className={styles.line2} style={{ display: "flex", alignItems: "center", gap: "4px" }}>
 											{genreText !== "Unknown Genre" && (
 												<span style={{ display: "inline-flex", alignItems: "center", gap: "4px", fontSize: "0.85em" }}>
 													({genreText})
