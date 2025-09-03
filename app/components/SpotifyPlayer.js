@@ -971,7 +971,8 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       }
     };
 
-    if (isPlaying && isPageVisible) {
+    if (isPlaying) {
+      // 再生中は画面の可視性に関係なく位置更新を継続
       positionUpdateIntervalRef.current = setInterval(updatePosition, PLAYER_CONFIG.POSITION_UPDATE_INTERVAL);
       updatePosition();
     } else {
@@ -1133,6 +1134,27 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     togglePlayerState();
   }, [isPlaying, isReady, handleError]);
 
+  // 再ログイン処理
+  const handleReLogin = useCallback(() => {
+    // 認証エラーフラグをクリア
+    sessionStorage.removeItem('spotify_auth_error');
+    sessionStorage.removeItem('spotify_device_error');
+    
+    // プレイヤー状態をリセット
+    setShowAuthError(false);
+    setIsReady(false);
+    setDeviceId(null);
+    resetPlayerState();
+    
+    // ページをリロードしてSpotify認証を再実行
+    window.location.reload();
+  }, [resetPlayerState]);
+
+  // 認証エラーを閉じる
+  const handleDismissAuthError = useCallback(() => {
+    setShowAuthError(false);
+  }, []);
+
   return (
     <>
       {showAuthError && (
@@ -1157,11 +1179,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
           </div>
           <div style={{ display: 'flex', gap: '10px' }}>
             <button
-              onClick={() => {
-                sessionStorage.removeItem('spotify_auth_error');
-                setShowAuthError(false);
-                window.location.href = '/auth/signin';
-              }}
+              onClick={handleReLogin}
               style={{
                 backgroundColor: '#1db954',
                 color: 'white',
@@ -1172,13 +1190,10 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
                 fontSize: '12px'
               }}
             >
-              Spotifyログイン
+              再ログイン
             </button>
             <button
-              onClick={() => {
-                sessionStorage.removeItem('spotify_auth_error');
-                setShowAuthError(false);
-              }}
+              onClick={handleDismissAuthError}
               style={{
                 backgroundColor: 'transparent',
                 color: 'white',

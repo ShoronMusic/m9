@@ -208,6 +208,11 @@ export const PlayerProvider = ({ children }) => {
       setPosition(0);
       setDuration(0);
       
+      // Wake Lockを解放
+      if (wakeLock) {
+        releaseWakeLock();
+      }
+      
       // エラーフラグをクリア
       sessionStorage.removeItem('spotify_auth_error');
       setAuthError(false);
@@ -219,7 +224,7 @@ export const PlayerProvider = ({ children }) => {
       //   }, 1000);
       // }
     }
-  }, [authError]);
+  }, [authError, wakeLock, releaseWakeLock]);
 
   // ページロード時にプレイヤー状態をリセット
   useEffect(() => {
