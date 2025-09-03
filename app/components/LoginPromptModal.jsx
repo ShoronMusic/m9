@@ -36,7 +36,7 @@ export default function LoginPromptModal({
   const handleSpotifyLogin = async () => {
     setIsLoading(true);
     try {
-      await signIn('spotify', { callbackUrl: window.location.href });
+      await signIn('spotify', { callbackUrl: typeof window !== 'undefined' ? window.location.href : '/' });
       if (onLoginSuccess) {
         onLoginSuccess();
       }

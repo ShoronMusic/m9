@@ -26,9 +26,9 @@ export default function AuthError() {
                 errorType: error,
                 errorMessage: getErrorMessage(error),
                 timestamp: new Date().toISOString(),
-                url: window.location.href,
-                userAgent: navigator.userAgent,
-                referrer: document.referrer,
+                url: typeof window !== 'undefined' ? window.location.href : '',
+                userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : '',
+                referrer: typeof document !== 'undefined' ? document.referrer : '',
               }
             })
           });

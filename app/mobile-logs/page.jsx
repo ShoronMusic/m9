@@ -156,7 +156,11 @@ export default function MobileLogsPage() {
                 🔍 Axiomで確認
               </a>
               <button
-                onClick={() => window.open('https://app.axiom.co/', '_blank')}
+                onClick={() => {
+                  if (typeof window !== 'undefined') {
+                    window.open('https://app.axiom.co/', '_blank');
+                  }
+                }}
                 className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 flex items-center gap-2"
               >
                 📊 ダッシュボード

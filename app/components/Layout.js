@@ -25,14 +25,18 @@ export default function Layout({ children }) {
   const isPlayerVisible = session && session.accessToken && currentTrack;
 
   useEffect(() => {
-    const savedLockState = localStorage.getItem("isLocked");
-    if (savedLockState) {
-      setIsLocked(JSON.parse(savedLockState));
+    if (typeof window !== 'undefined') {
+      const savedLockState = localStorage.getItem("isLocked");
+      if (savedLockState) {
+        setIsLocked(JSON.parse(savedLockState));
+      }
     }
   }, []);
 
   // モバイル判定
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 768);
     };
@@ -44,10 +48,12 @@ export default function Layout({ children }) {
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = isMenuOpen ? "hidden" : "auto";
-    return () => {
-      document.body.style.overflow = "auto";
-    };
+    if (typeof document !== 'undefined') {
+      document.body.style.overflow = isMenuOpen ? "hidden" : "auto";
+      return () => {
+        document.body.style.overflow = "auto";
+      };
+    }
   }, [isMenuOpen]);
 
   const toggleMenu = () => {

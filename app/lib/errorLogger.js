@@ -5,17 +5,19 @@ class ErrorLogger {
     this.userId = null;
     this.deviceInfo = this.getDeviceInfo();
     this.errorQueue = [];
-    this.isOnline = navigator.onLine;
+    this.isOnline = typeof navigator !== 'undefined' ? navigator.onLine : true;
     
     // ネットワーク状態の監視
-    window.addEventListener('online', () => {
-      this.isOnline = true;
-      this.flushErrorQueue();
-    });
-    
-    window.addEventListener('offline', () => {
-      this.isOnline = false;
-    });
+    if (typeof window !== 'undefined') {
+      window.addEventListener('online', () => {
+        this.isOnline = true;
+        this.flushErrorQueue();
+      });
+      
+      window.addEventListener('offline', () => {
+        this.isOnline = false;
+      });
+    }
   }
 
   // セッションID生成
@@ -34,14 +36,14 @@ class ErrorLogger {
       isMobile,
       isTablet,
       isDesktop: !isMobile && !isTablet,
-      screenWidth: window.screen.width,
-      screenHeight: window.screen.height,
-      viewportWidth: window.innerWidth,
-      viewportHeight: window.innerHeight,
-      language: navigator.language,
-      platform: navigator.platform,
-      cookieEnabled: navigator.cookieEnabled,
-      onLine: navigator.onLine,
+      screenWidth: typeof window !== 'undefined' ? window.screen.width : 0,
+      screenHeight: typeof window !== 'undefined' ? window.screen.height : 0,
+      viewportWidth: typeof window !== 'undefined' ? window.innerWidth : 0,
+      viewportHeight: typeof window !== 'undefined' ? window.innerHeight : 0,
+      language: typeof navigator !== 'undefined' ? navigator.language : '',
+      platform: typeof navigator !== 'undefined' ? navigator.platform : '',
+      cookieEnabled: typeof navigator !== 'undefined' ? navigator.cookieEnabled : false,
+      onLine: typeof navigator !== 'undefined' ? navigator.onLine : true,
     };
   }
 
@@ -56,7 +58,7 @@ class ErrorLogger {
       message: error.message || 'Unknown error',
       stack: error.stack,
       name: error.name,
-      url: window.location.href,
+      url: typeof window !== 'undefined' ? window.location.href : '',
       timestamp: new Date().toISOString(),
       userId: this.userId,
       sessionId: this.sessionId,

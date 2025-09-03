@@ -17,13 +17,13 @@ export function SimpleMobileLogger() {
         details,
         timestamp: new Date().toISOString(),
         userAgent: navigator.userAgent,
-        platform: navigator.platform,
-        language: navigator.language,
-        online: navigator.onLine,
-        screenWidth: window.screen.width,
-        screenHeight: window.screen.height,
-        viewportWidth: window.innerWidth,
-        viewportHeight: window.innerHeight,
+        platform: typeof navigator !== 'undefined' ? navigator.platform : '',
+        language: typeof navigator !== 'undefined' ? navigator.language : '',
+        online: typeof navigator !== 'undefined' ? navigator.onLine : true,
+        screenWidth: typeof window !== 'undefined' ? window.screen.width : 0,
+        screenHeight: typeof window !== 'undefined' ? window.screen.height : 0,
+        viewportWidth: typeof window !== 'undefined' ? window.innerWidth : 0,
+        viewportHeight: typeof window !== 'undefined' ? window.innerHeight : 0,
       };
 
       const response = await fetch('/api/mobile-logs', {
@@ -48,7 +48,7 @@ export function SimpleMobileLogger() {
     sendLog('error', 'javascript_error', error.message || 'Unknown error', {
       stack: error.stack,
       context,
-      url: window.location.href,
+      url: typeof window !== 'undefined' ? window.location.href : '',
       timestamp: new Date().toISOString()
     });
   }, [sendLog]);
@@ -58,7 +58,7 @@ export function SimpleMobileLogger() {
     if (typeof window === 'undefined') return;
     sendLog('warning', 'warning', message, {
       ...details,
-      url: window.location.href,
+      url: typeof window !== 'undefined' ? window.location.href : '',
       timestamp: new Date().toISOString()
     });
   }, [sendLog]);
@@ -68,7 +68,7 @@ export function SimpleMobileLogger() {
     if (typeof window === 'undefined') return;
     sendLog('info', 'info', message, {
       ...details,
-      url: window.location.href,
+      url: typeof window !== 'undefined' ? window.location.href : '',
       timestamp: new Date().toISOString()
     });
   }, [sendLog]);
@@ -100,8 +100,8 @@ export function SimpleMobileLogger() {
     // ページ離脱時のログ
     const handleBeforeUnload = () => {
       logInfo('ページを離脱しました', {
-        url: window.location.href,
-        timeSpent: Date.now() - performance.timing.navigationStart
+        url: typeof window !== 'undefined' ? window.location.href : '',
+        timeSpent: typeof performance !== 'undefined' ? Date.now() - performance.timing.navigationStart : 0
       });
     };
 
@@ -115,27 +115,31 @@ export function SimpleMobileLogger() {
     };
 
     // イベントリスナーを追加
-    window.addEventListener('beforeunload', handleBeforeUnload);
-    window.addEventListener('online', handleOnline);
-    window.addEventListener('offline', handleOffline);
+    if (typeof window !== 'undefined') {
+      window.addEventListener('beforeunload', handleBeforeUnload);
+      window.addEventListener('online', handleOnline);
+      window.addEventListener('offline', handleOffline);
+    }
 
     // 初期化ログ
     logInfo('シンプルモバイルロガーが初期化されました', {
-      userAgent: navigator.userAgent,
-      platform: navigator.platform,
+      userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : '',
+      platform: typeof navigator !== 'undefined' ? navigator.platform : '',
       screen: {
-        width: window.screen.width,
-        height: window.screen.height
+        width: typeof window !== 'undefined' ? window.screen.width : 0,
+        height: typeof window !== 'undefined' ? window.screen.height : 0
       }
     });
 
     // クリーンアップ関数
     return () => {
-      window.onerror = originalOnError;
-      window.onunhandledrejection = originalOnUnhandledRejection;
-      window.removeEventListener('beforeunload', handleBeforeUnload);
-      window.removeEventListener('online', handleOnline);
-      window.removeEventListener('offline', handleOffline);
+      if (typeof window !== 'undefined') {
+        window.onerror = originalOnError;
+        window.onunhandledrejection = originalOnUnhandledRejection;
+        window.removeEventListener('beforeunload', handleBeforeUnload);
+        window.removeEventListener('online', handleOnline);
+        window.removeEventListener('offline', handleOffline);
+      }
     };
   }, [logError, logInfo, logWarning]);
 
@@ -157,13 +161,13 @@ export function useSimpleMobileLogger() {
         details,
         timestamp: new Date().toISOString(),
         userAgent: navigator.userAgent,
-        platform: navigator.platform,
-        language: navigator.language,
-        online: navigator.onLine,
-        screenWidth: window.screen.width,
-        screenHeight: window.screen.height,
-        viewportWidth: window.innerWidth,
-        viewportHeight: window.innerHeight,
+        platform: typeof navigator !== 'undefined' ? navigator.platform : '',
+        language: typeof navigator !== 'undefined' ? navigator.language : '',
+        online: typeof navigator !== 'undefined' ? navigator.onLine : true,
+        screenWidth: typeof window !== 'undefined' ? window.screen.width : 0,
+        screenHeight: typeof window !== 'undefined' ? window.screen.height : 0,
+        viewportWidth: typeof window !== 'undefined' ? window.innerWidth : 0,
+        viewportHeight: typeof window !== 'undefined' ? window.innerHeight : 0,
       };
 
       const response = await fetch('/api/mobile-logs', {
@@ -188,7 +192,7 @@ export function useSimpleMobileLogger() {
       sendLog('error', 'javascript_error', error.message || 'Unknown error', {
         stack: error.stack,
         context,
-        url: window.location.href,
+        url: typeof window !== 'undefined' ? window.location.href : '',
         timestamp: new Date().toISOString()
       });
     }, [sendLog]),
@@ -197,7 +201,7 @@ export function useSimpleMobileLogger() {
       if (typeof window === 'undefined') return;
       sendLog('warning', 'warning', message, {
         ...details,
-        url: window.location.href,
+        url: typeof window !== 'undefined' ? window.location.href : '',
         timestamp: new Date().toISOString()
       });
     }, [sendLog]),
@@ -206,7 +210,7 @@ export function useSimpleMobileLogger() {
       if (typeof window === 'undefined') return;
       sendLog('info', 'info', message, {
         ...details,
-        url: window.location.href,
+        url: typeof window !== 'undefined' ? window.location.href : '',
         timestamp: new Date().toISOString()
       });
     }, [sendLog])

@@ -521,6 +521,8 @@ export default function PlaylistSongList({
   
   // モバイル判定
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 920);
     };
@@ -533,7 +535,7 @@ export default function PlaylistSongList({
 
   // アクティブな楽曲をプレイヤーの上100pxの位置にスクロール
   useEffect(() => {
-    if (!isMobile || !playerContext?.currentTrack || !activeSongRef.current) return;
+    if (typeof window === 'undefined' || !isMobile || !playerContext?.currentTrack || !activeSongRef.current) return;
 
     const scrollToActiveSong = () => {
       const activeSongElement = activeSongRef.current;
@@ -552,10 +554,12 @@ export default function PlaylistSongList({
       const targetPosition = songTop - targetOffset;
       
       // スムーズにスクロール
-      window.scrollTo({
-        top: targetPosition,
-        behavior: 'smooth'
-      });
+      if (typeof window !== 'undefined') {
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
     };
 
     // 少し遅延を入れてスクロール実行（レンダリング完了後）
@@ -1091,7 +1095,7 @@ export default function PlaylistSongList({
   };
 
   const handleExternalLinkClick = () => {
-    if (popupSong?.spotify_track_id) {
+    if (popupSong?.spotify_track_id && typeof window !== 'undefined') {
       window.open(`https://open.spotify.com/track/${popupSong.spotify_track_id}`, '_blank');
     }
     setIsPopupVisible(false);
@@ -1237,7 +1241,9 @@ export default function PlaylistSongList({
       const result = await response.json();
       console.log('PlaylistSongList - DELETE success:', result);
       console.log('プレイリストから曲を削除しました！');
-      window.location.reload(); // 簡単な方法としてページを再読み込み
+      if (typeof window !== 'undefined') {
+        window.location.reload(); // 簡単な方法としてページを再読み込み
+      }
       setIsPopupVisible(false); // ポップアップを閉じる
     } catch (err) {
       console.error('曲の削除に失敗しました:', err.message);
@@ -1654,7 +1660,9 @@ export default function PlaylistSongList({
           onClose={() => setIsPopupVisible(false)}
           onAddToPlaylist={() => handleAddToPlaylistClick(popupSong.id)}
           onCopyUrl={() => {
-            navigator.clipboard.writeText(`${window.location.origin}/playlists/${playlistId}`);
+            if (typeof window !== 'undefined' && navigator.clipboard) {
+              navigator.clipboard.writeText(`${window.location.origin}/playlists/${playlistId}`);
+            }
             setIsPopupVisible(false);
           }}
           renderMenuContent={({ song, onAddToPlaylist, onCopyUrl }) => {

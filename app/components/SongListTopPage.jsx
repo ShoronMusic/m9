@@ -327,6 +327,8 @@ export default function SongListTopPage({
 
 	// モバイル判定
 	useEffect(() => {
+		if (typeof window === 'undefined') return;
+		
 		const checkMobile = () => {
 			setIsMobile(window.innerWidth <= 920);
 		};
@@ -339,7 +341,7 @@ export default function SongListTopPage({
 
 	// アクティブな楽曲をプレイヤーの上100pxの位置にスクロール
 	useEffect(() => {
-		if (!isMobile || !currentTrack || !activeSongRef.current) return;
+		if (typeof window === 'undefined' || !isMobile || !currentTrack || !activeSongRef.current) return;
 
 		const scrollToActiveSong = () => {
 			const activeSongElement = activeSongRef.current;
@@ -896,7 +898,9 @@ export default function SongListTopPage({
 						const mainArtistSlug = orderedArtists[0]?.slug || popupSong.artists[0]?.slug || 'unknown';
 						const songSlug = popupSong.titleSlug || popupSong.slug || 'unknown';
 						
-						navigator.clipboard.writeText(`${window.location.origin}/${mainArtistSlug}/songs/${songSlug}`);
+						if (typeof window !== 'undefined' && navigator.clipboard) {
+							navigator.clipboard.writeText(`${window.location.origin}/${mainArtistSlug}/songs/${songSlug}`);
+						}
 						setIsPopupVisible(false);
 					}}
 					renderMenuContent={({ song, onAddToPlaylist, onCopyUrl }) => {

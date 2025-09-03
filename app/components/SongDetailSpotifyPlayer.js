@@ -47,12 +47,13 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
       playerRef.current = null;
     }
 
-    window.onSpotifyWebPlaybackSDKReady = () => {
-      if (playerRef.current) {
-        return;
-      }
+    if (typeof window !== 'undefined') {
+      window.onSpotifyWebPlaybackSDKReady = () => {
+        if (playerRef.current) {
+          return;
+        }
 
-      const player = new window.Spotify.Player({
+        const player = new window.Spotify.Player({
         name: 'TuneDive Song Detail Player',
         getOAuthToken: cb => { 
           cb(accessToken); 
@@ -141,7 +142,7 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
       script.src = 'https://sdk.scdn.co/spotify-player.js';
       script.async = true;
       script.onload = () => {
-        if (window.Spotify) {
+        if (typeof window !== 'undefined' && window.Spotify) {
           window.onSpotifyWebPlaybackSDKReady();
         }
       };
@@ -150,9 +151,10 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
       };
       document.body.appendChild(script);
     } else {
-      if (window.Spotify) {
+      if (typeof window !== 'undefined' && window.Spotify) {
         window.onSpotifyWebPlaybackSDKReady();
       }
+    }
     }
   }, [accessToken, volume]);
 
@@ -538,7 +540,11 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
           </button>
           
           <button
-            onClick={() => window.location.reload()}
+            onClick={() => {
+              if (typeof window !== 'undefined') {
+                window.location.reload();
+              }
+            }}
             style={{
               padding: '8px 16px',
               backgroundColor: '#6c757d',

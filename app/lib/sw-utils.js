@@ -63,7 +63,7 @@ export const getPlayerStateFromSW = () => {
 
 // バックグラウンド同期の登録
 export const registerBackgroundSync = async () => {
-  if ('serviceWorker' in navigator && 'sync' in window.ServiceWorkerRegistration.prototype) {
+  if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator && typeof window !== 'undefined' && 'sync' in window.ServiceWorkerRegistration.prototype) {
     try {
       const registration = await navigator.serviceWorker.ready;
       await registration.sync.register('background-audio-sync');
@@ -93,13 +93,17 @@ export const onOnlineStatusChange = (callback) => {
   const handleOnline = () => callback(true);
   const handleOffline = () => callback(false);
   
-  window.addEventListener('online', handleOnline);
-  window.addEventListener('offline', handleOffline);
+  if (typeof window !== 'undefined') {
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+  }
   
   // クリーンアップ関数を返す
   return () => {
-    window.removeEventListener('online', handleOnline);
-    window.removeEventListener('offline', handleOffline);
+    if (typeof window !== 'undefined') {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    }
   };
 };
 
@@ -141,7 +145,7 @@ export const optimizeForBackground = (isBackground) => {
     console.log('Optimizing for background mode');
     
     // 更新頻度を下げる
-    if (window.performance && window.performance.memory) {
+    if (typeof window !== 'undefined' && window.performance && window.performance.memory) {
       // メモリ使用量を監視
       const memoryInfo = window.performance.memory;
       if (memoryInfo.usedJSHeapSize > memoryInfo.jsHeapSizeLimit * 0.8) {

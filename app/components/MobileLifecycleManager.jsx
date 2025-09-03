@@ -13,10 +13,11 @@ export default function MobileLifecycleManager({
   const isActive = useRef(true);
   const lastActivityTime = useRef(Date.now());
   const activityTimeoutRef = useRef(null);
-  const networkStatusRef = useRef(navigator.onLine);
+  const networkStatusRef = useRef(typeof navigator !== 'undefined' ? navigator.onLine : true);
 
   // アプリの可視性変更を監視
   const handleVisibilityChange = useCallback(() => {
+    if (typeof document === 'undefined') return;
     const isVisible = document.visibilityState === 'visible';
     const now = Date.now();
     
@@ -111,6 +112,7 @@ export default function MobileLifecycleManager({
 
   // 画面の向き変更を監視
   const handleOrientationChange = useCallback(() => {
+    if (typeof window === 'undefined') return;
     if (onOrientationChange) {
       const orientation = window.screen.orientation?.type || 'unknown';
       onOrientationChange(orientation);
@@ -124,6 +126,7 @@ export default function MobileLifecycleManager({
 
   // ウィンドウサイズ変更を監視
   const handleResize = useCallback(() => {
+    if (typeof window === 'undefined') return;
     if (onResize) {
       // デバウンス処理を追加（100ms間隔で実行）
       if (handleResize.timeoutId) {
@@ -184,6 +187,8 @@ export default function MobileLifecycleManager({
 
   // 初期化
   useEffect(() => {
+    if (typeof window === 'undefined' || typeof document === 'undefined') return;
+    
     // 初期状態を設定
     isActive.current = document.visibilityState === 'visible';
     lastActivityTime.current = Date.now();
@@ -215,16 +220,20 @@ export default function MobileLifecycleManager({
 
     // クリーンアップ
     return () => {
-      document.removeEventListener('visibilitychange', handleVisibilityChange);
-      window.removeEventListener('focus', handleFocus);
-      window.removeEventListener('blur', handleBlur);
-      window.removeEventListener('online', handleOnline);
-      window.removeEventListener('offline', handleOffline);
-      window.removeEventListener('orientationchange', handleOrientationChange);
-      window.removeEventListener('resize', handleResize);
-      document.removeEventListener('touchstart', handleTouchStart);
-      document.removeEventListener('scroll', handleScroll);
-      document.removeEventListener('keydown', handleKeyDown);
+      if (typeof document !== 'undefined') {
+        document.removeEventListener('visibilitychange', handleVisibilityChange);
+        document.removeEventListener('touchstart', handleTouchStart);
+        document.removeEventListener('scroll', handleScroll);
+        document.removeEventListener('keydown', handleKeyDown);
+      }
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('focus', handleFocus);
+        window.removeEventListener('blur', handleBlur);
+        window.removeEventListener('online', handleOnline);
+        window.removeEventListener('offline', handleOffline);
+        window.removeEventListener('orientationchange', handleOrientationChange);
+        window.removeEventListener('resize', handleResize);
+      }
       
       if (activityTimeoutRef.current) {
         clearTimeout(activityTimeoutRef.current);

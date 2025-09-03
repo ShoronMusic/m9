@@ -23,8 +23,8 @@ export default function AuthErrorBanner({ error, onReLogin, onDismiss }) {
               details: {
                 errorMessage: error,
                 timestamp: new Date().toISOString(),
-                url: window.location.href,
-                userAgent: navigator.userAgent,
+                url: typeof window !== 'undefined' ? window.location.href : '',
+                userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : '',
                 component: 'AuthErrorBanner',
               }
             })

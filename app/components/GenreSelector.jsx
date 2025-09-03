@@ -149,7 +149,9 @@ export default function GenreSelector({ artist, selectedGenres, onGenreChange, a
         categorySlug: categorySlug
       });
 
-      window.location.href = `/thumbnail-upload?${params.toString()}`;
+      if (typeof window !== 'undefined') {
+        window.location.href = `/thumbnail-upload?${params.toString()}`;
+      }
 
     } catch (error) {
       console.error('Save error:', error);

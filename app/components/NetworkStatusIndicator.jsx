@@ -44,7 +44,9 @@ export default function NetworkStatusIndicator({
       onRetry();
     } else {
       // デフォルトの再試行処理
-      window.location.reload();
+      if (typeof window !== 'undefined') {
+        window.location.reload();
+      }
     }
   };
 

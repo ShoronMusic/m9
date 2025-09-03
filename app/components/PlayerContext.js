@@ -85,9 +85,9 @@ export const PlayerProvider = ({ children }) => {
             type: 'wake_lock_acquired',
             message: 'Wake Lockを取得しました',
             details: {
-              isMobile: window.innerWidth <= 768,
-              platform: navigator.platform,
-              userAgent: navigator.userAgent,
+              isMobile: typeof window !== 'undefined' ? window.innerWidth <= 768 : false,
+              platform: typeof navigator !== 'undefined' ? navigator.platform : 'unknown',
+              userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : 'unknown',
               component: 'PlayerContext'
             }
           })
@@ -111,7 +111,7 @@ export const PlayerProvider = ({ children }) => {
             message: `Wake Lock取得エラー: ${error.message}`,
             details: {
               error: error.message,
-              isMobile: window.innerWidth <= 768,
+              isMobile: typeof window !== 'undefined' ? window.innerWidth <= 768 : false,
               platform: navigator.platform,
               userAgent: navigator.userAgent,
               component: 'PlayerContext'
@@ -144,7 +144,7 @@ export const PlayerProvider = ({ children }) => {
               type: 'wake_lock_released',
               message: 'Wake Lockを解放しました',
               details: {
-                isMobile: window.innerWidth <= 768,
+                isMobile: typeof window !== 'undefined' ? window.innerWidth <= 768 : false,
                 platform: navigator.platform,
                 userAgent: navigator.userAgent,
                 component: 'PlayerContext'
@@ -272,11 +272,13 @@ export const PlayerProvider = ({ children }) => {
     };
 
     // ページ離脱時のイベントを監視
-    window.addEventListener('beforeunload', handleBeforeUnload);
-    
-    return () => {
-      window.removeEventListener('beforeunload', handleBeforeUnload);
-    };
+    if (typeof window !== 'undefined') {
+      window.addEventListener('beforeunload', handleBeforeUnload);
+      
+      return () => {
+        window.removeEventListener('beforeunload', handleBeforeUnload);
+      };
+    }
   }, [currentTrack, currentTrackIndex, isPlaying, position, volume, isMuted, session]);
 
   // デバイス情報の初期化
@@ -365,13 +367,19 @@ export const PlayerProvider = ({ children }) => {
       setWasPlayingBeforeHidden(isPlaying);
     };
     
-    window.addEventListener('focus', handleFocus);
-    window.addEventListener('blur', handleBlur);
+    if (typeof window !== 'undefined') {
+      window.addEventListener('focus', handleFocus);
+      window.addEventListener('blur', handleBlur);
+    }
 
     return () => {
-      document.removeEventListener('visibilitychange', handleVisibilityChange);
-      window.removeEventListener('focus', handleFocus);
-      window.removeEventListener('blur', handleBlur);
+      if (typeof document !== 'undefined') {
+        document.removeEventListener('visibilitychange', handleVisibilityChange);
+      }
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('focus', handleFocus);
+        window.removeEventListener('blur', handleBlur);
+      }
     };
   }, [isPlaying, wasPlayingBeforeHidden, currentTrack]);
 

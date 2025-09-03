@@ -61,12 +61,13 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       playerRef.current = null;
     }
 
-    window.onSpotifyWebPlaybackSDKReady = () => {
-          if (playerRef.current) {
-        return;
-      }
+    if (typeof window !== 'undefined') {
+      window.onSpotifyWebPlaybackSDKReady = () => {
+        if (playerRef.current) {
+          return;
+        }
 
-      const player = new window.Spotify.Player({
+        const player = new window.Spotify.Player({
         name: 'TuneDive Web Player',
         getOAuthToken: cb => { 
           cb(accessToken); 
@@ -98,7 +99,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       script.src = 'https://sdk.scdn.co/spotify-player.js';
       script.async = true;
       script.onload = () => {
-        if (window.Spotify) {
+        if (typeof window !== 'undefined' && window.Spotify) {
           window.onSpotifyWebPlaybackSDKReady();
         }
       };
@@ -107,9 +108,10 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       };
       document.body.appendChild(script);
     } else {
-      if (window.Spotify) {
+      if (typeof window !== 'undefined' && window.Spotify) {
         window.onSpotifyWebPlaybackSDKReady();
       }
+    }
     }
   }, [accessToken]);
 
@@ -1147,7 +1149,9 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     resetPlayerState();
     
     // ページをリロードしてSpotify認証を再実行
-    window.location.reload();
+    if (typeof window !== 'undefined') {
+      window.location.reload();
+    }
   }, [resetPlayerState]);
 
   // 認証エラーを閉じる

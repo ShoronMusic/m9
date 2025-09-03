@@ -35,16 +35,16 @@ export default function MobilePlaybackMonitor({
           details: {
             ...details,
             timestamp: new Date().toISOString(),
-            url: window.location.href,
-            userAgent: navigator.userAgent,
-            screenWidth: window.screen.width,
-            screenHeight: window.screen.height,
-            viewportWidth: window.innerWidth,
-            viewportHeight: window.innerHeight,
-            isMobile: window.innerWidth <= 768,
-            platform: navigator.platform,
-            language: navigator.language,
-            online: navigator.onLine,
+            url: typeof window !== 'undefined' ? window.location.href : '',
+            userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : '',
+            screenWidth: typeof window !== 'undefined' ? window.screen.width : 0,
+            screenHeight: typeof window !== 'undefined' ? window.screen.height : 0,
+            viewportWidth: typeof window !== 'undefined' ? window.innerWidth : 0,
+            viewportHeight: typeof window !== 'undefined' ? window.innerHeight : 0,
+            isMobile: typeof window !== 'undefined' ? window.innerWidth <= 768 : false,
+            platform: typeof navigator !== 'undefined' ? navigator.platform : '',
+            language: typeof navigator !== 'undefined' ? navigator.language : '',
+            online: typeof navigator !== 'undefined' ? navigator.onLine : true,
           }
         })
       });
@@ -219,10 +219,14 @@ export default function MobilePlaybackMonitor({
     const playbackInterval = setInterval(monitorPlaybackState, 1000);
     
     // イベントリスナーの追加
-    document.addEventListener('visibilitychange', handleVisibilityChange);
-    window.addEventListener('online', handleOnline);
-    window.addEventListener('offline', handleOffline);
-    window.addEventListener('beforeunload', handleBeforeUnload);
+    if (typeof document !== 'undefined') {
+      document.addEventListener('visibilitychange', handleVisibilityChange);
+    }
+    if (typeof window !== 'undefined') {
+      window.addEventListener('online', handleOnline);
+      window.addEventListener('offline', handleOffline);
+      window.addEventListener('beforeunload', handleBeforeUnload);
+    }
     
     // バッテリー監視の開始
     if ('getBattery' in navigator) {
@@ -272,14 +276,14 @@ export default function MobilePlaybackMonitor({
 
     // 初期状態を記録
     logToAxiom('info', 'monitor_started', 'モバイル再生監視を開始しました', {
-      screenWidth: window.screen.width,
-      screenHeight: window.screen.height,
-      viewportWidth: window.innerWidth,
-      viewportHeight: window.innerHeight,
-      isMobile: window.innerWidth <= 768,
-      platform: navigator.platform,
-      language: navigator.language,
-      online: navigator.onLine,
+      screenWidth: typeof window !== 'undefined' ? window.screen.width : 0,
+      screenHeight: typeof window !== 'undefined' ? window.screen.height : 0,
+      viewportWidth: typeof window !== 'undefined' ? window.innerWidth : 0,
+      viewportHeight: typeof window !== 'undefined' ? window.innerHeight : 0,
+      isMobile: typeof window !== 'undefined' ? window.innerWidth <= 768 : false,
+      platform: typeof navigator !== 'undefined' ? navigator.platform : '',
+      language: typeof navigator !== 'undefined' ? navigator.language : '',
+      online: typeof navigator !== 'undefined' ? navigator.onLine : true,
       wakeLockSupported: 'wakeLock' in navigator,
       component: 'MobilePlaybackMonitor'
     });
@@ -287,10 +291,14 @@ export default function MobilePlaybackMonitor({
     // クリーンアップ
     return () => {
       clearInterval(playbackInterval);
-      document.removeEventListener('visibilitychange', handleVisibilityChange);
-      window.removeEventListener('online', handleOnline);
-      window.removeEventListener('offline', handleOffline);
-      window.removeEventListener('beforeunload', handleBeforeUnload);
+      if (typeof document !== 'undefined') {
+        document.removeEventListener('visibilitychange', handleVisibilityChange);
+      }
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('online', handleOnline);
+        window.removeEventListener('offline', handleOffline);
+        window.removeEventListener('beforeunload', handleBeforeUnload);
+      }
       
       if ('getBattery' in navigator) {
         navigator.getBattery().then((battery) => {
@@ -328,8 +336,8 @@ export function useAuthErrorMonitor() {
             errorMessage: error.message || error,
             errorStack: error.stack,
             timestamp: new Date().toISOString(),
-            url: window.location.href,
-            userAgent: navigator.userAgent,
+            url: typeof window !== 'undefined' ? window.location.href : '',
+            userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : '',
             component: 'useAuthErrorMonitor'
           }
         })

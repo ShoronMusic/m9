@@ -6,6 +6,8 @@ export default function Pagination({ currentPage, totalPages, onPageChange }) {
   const [windowWidth, setWindowWidth] = useState(0);
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };

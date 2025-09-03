@@ -33,8 +33,8 @@ export default function SpotifyErrorHandler({
                 retryCount,
                 maxRetries,
                 timestamp: new Date().toISOString(),
-                url: window.location.href,
-                userAgent: navigator.userAgent,
+                url: typeof window !== 'undefined' ? window.location.href : '',
+                userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : '',
                 isAuthError: error.includes('認証エラー') || error.includes('再ログイン'),
                 isRateLimitError: error.includes('レート制限'),
               }

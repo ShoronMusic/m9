@@ -14,31 +14,125 @@ import CreatePlaylistModal from './CreatePlaylistModal';
 import CreateNewPlaylistModal from './CreateNewPlaylistModal';
 import LoginPromptModal from './LoginPromptModal';
 
-// CloudinaryのベースURL
+// CloudinaryのベースURL（正しい形式）
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
 
 // ──────────────────────────────
 // ヘルパー関数群
 // ──────────────────────────────
 
+// Cloudinaryに存在しない画像のキャッシュ
+const cloudinaryNotFoundCache = new Set();
+// WebP形式も存在しない画像のキャッシュ
+const webpNotFoundCache = new Set();
+
+// JPG/PNG URLをWebP URLに変換する関数
+function convertToWebPUrl(originalUrl) {
+  if (!originalUrl) return originalUrl;
+  
+  // ファイル拡張子を取得
+  const lastDotIndex = originalUrl.lastIndexOf('.');
+  if (lastDotIndex === -1) return originalUrl;
+  
+  const extension = originalUrl.substring(lastDotIndex + 1).toLowerCase();
+  
+  // JPG/JPEG/PNGの場合はWebPに変換
+  if (['jpg', 'jpeg', 'png'].includes(extension)) {
+    const webpUrl = originalUrl.substring(0, lastDotIndex) + '.webp';
+    console.log('🖼️ SongList - Converting to WebP:', {
+      original: originalUrl,
+      webp: webpUrl
+    });
+    return webpUrl;
+  }
+  
+  // 既にWebPの場合はそのまま返す
+  return originalUrl;
+}
+
+// Cloudinary URL生成のテスト関数
+function testCloudinaryUrlGeneration() {
+  const testCases = [
+    'https://sub.music8.jp/wp-content/uploads/sarah-mclachlan-gravity.jpg',
+    'https://sub.music8.jp/wp-content/uploads/jonas-brothers-mirror-to-the-sky.jpg'
+  ];
+  
+  testCases.forEach(originalUrl => {
+    const fileName = originalUrl.split("/").pop();
+    const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
+    console.log('🧪 Cloudinary URL Test:', {
+      original: originalUrl,
+      fileName: fileName,
+      generated: cloudinaryUrl,
+      expected: `https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/${fileName}`
+    });
+  });
+}
+
 // サムネイルURLを堅牢に取得する関数
 function getThumbnailUrl(song) {
   // 1. 親コンポーネントから渡される thumbnail を最優先
   if (song.thumbnail) {
-    // CloudinaryのURLか、ローカルパスかを判断
-    if (song.thumbnail.startsWith('http')) {
-      return song.thumbnail; // すでに完全なURLの場合
+    const fileName = song.thumbnail.split("/").pop();
+    
+    // キャッシュでCloudinaryに存在しないことが確認されている場合
+    if (cloudinaryNotFoundCache.has(fileName)) {
+      // WebP形式も存在しないことが確認されている場合は、元のURLを返す
+      if (webpNotFoundCache.has(fileName)) {
+        console.log('🖼️ SongList - Using cached original URL for:', fileName);
+        return song.thumbnail;
+      }
+      // WebP形式のURLを返す（WebPは99%存在するため優先）
+      console.log('🖼️ SongList - Using cached WebP fallback for:', fileName);
+      return convertToWebPUrl(song.thumbnail);
     }
-    // CloudinaryのID (.webpなど) の場合
-    return `${CLOUDINARY_BASE_URL}${song.thumbnail}`;
+    
+    // WebPファイルが99%存在するため、Cloudinary URLを直接試す
+    const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
+    console.log('🖼️ SongList - Thumbnail URL conversion:', {
+      original: song.thumbnail,
+      fileName: fileName,
+      baseUrl: CLOUDINARY_BASE_URL,
+      cloudinary: cloudinaryUrl,
+      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
+    });
+    return cloudinaryUrl;
   }
   
-  // 2. youtubeId からローカルパスを生成
+  // 2. featured_media_url がある場合
+  if (song.featured_media_url) {
+    const fileName = song.featured_media_url.split("/").pop();
+    
+    // キャッシュでCloudinaryに存在しないことが確認されている場合
+    if (cloudinaryNotFoundCache.has(fileName)) {
+      // WebP形式も存在しないことが確認されている場合は、元のURLを返す
+      if (webpNotFoundCache.has(fileName)) {
+        console.log('🖼️ SongList - Using cached original URL for featured media:', fileName);
+        return song.featured_media_url;
+      }
+      // WebP形式のURLを返す
+      console.log('🖼️ SongList - Using cached WebP fallback for featured media:', fileName);
+      return convertToWebPUrl(song.featured_media_url);
+    }
+    
+    // WebPファイルが99%存在するため、Cloudinary URLを直接試す
+    const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
+    console.log('🖼️ SongList - Featured media URL conversion:', {
+      original: song.featured_media_url,
+      fileName: fileName,
+      baseUrl: CLOUDINARY_BASE_URL,
+      cloudinary: cloudinaryUrl,
+      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
+    });
+    return cloudinaryUrl;
+  }
+  
+  // 3. youtubeId からローカルパスを生成
   if (song.youtubeId) {
     return `/images/thum/${song.youtubeId}.webp`;
   }
 
-  // 3. 上記すべてに該当しない場合はプレースホルダー
+  // 4. 上記すべてに該当しない場合はプレースホルダー
   return '/placeholder.jpg';
 }
 
@@ -337,6 +431,8 @@ export default function SongList({
 
   // モバイル判定
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 920);
     };
@@ -349,7 +445,7 @@ export default function SongList({
 
   // アクティブな楽曲をプレイヤーの上100pxの位置にスクロール
   useEffect(() => {
-    if (!isMobile || !player.currentTrack || !activeSongRef.current) return;
+    if (typeof window === 'undefined' || !isMobile || !player.currentTrack || !activeSongRef.current) return;
 
     const scrollToActiveSong = () => {
       const activeSongElement = activeSongRef.current;
@@ -514,7 +610,7 @@ export default function SongList({
   };
 
   const handleExternalLinkClick = () => {
-    if (popupSong?.spotifyTrackId) {
+    if (typeof window !== 'undefined' && popupSong?.spotifyTrackId) {
       window.open(`https://open.spotify.com/track/${popupSong.spotifyTrackId}`, '_blank');
     }
     setIsPopupVisible(false);
@@ -963,26 +1059,60 @@ export default function SongList({
                           src={thumbnailUrl}
                           alt={`${title} のサムネイル`}
                           loading="lazy"
+                          onLoad={(e) => {
+                            console.log('🖼️ SongList - Image loaded successfully:', {
+                              loadedUrl: e.target.src,
+                              songId: song.id,
+                              songTitle: song.title?.rendered || song.title
+                            });
+                          }}
                           onError={(e) => {
-                            if (!e.target.dataset.triedCloudinary) {
-                              e.target.dataset.triedCloudinary = "1";
-                              // CloudinaryのURLを試す
-                              const src = song.thumbnail || song.featured_media_url;
-                              if (src) {
-                                const fileName = src.split("/").pop();
-                                e.target.src = `${CLOUDINARY_BASE_URL}${fileName}`;
-                              }
-                            } else if (!e.target.dataset.triedOriginal) {
+                            console.log('🖼️ SongList - Image load error:', {
+                              failedUrl: e.target.src,
+                              songId: song.id,
+                              songTitle: song.title?.rendered || song.title,
+                              hasTriedOriginal: e.target.dataset.triedOriginal,
+                              hasTriedWebP: e.target.dataset.triedWebP
+                            });
+                            
+                            if (!e.target.dataset.triedOriginal) {
                               e.target.dataset.triedOriginal = "1";
-                              // 元のURLを試す
+                              
+                              // Cloudinary URLが失敗した場合、ファイル名をキャッシュに追加
+                              if (e.target.src.includes('cloudinary.com')) {
+                                const fileName = e.target.src.split("/").pop();
+                                cloudinaryNotFoundCache.add(fileName);
+                                console.log('🖼️ SongList - Added to not found cache:', fileName);
+                              }
+                              
+                              // WebP形式のURLを試す（WebPは99%存在するため優先）
                               const src = song.thumbnail || song.featured_media_url;
                               if (src) {
+                                const webpUrl = convertToWebPUrl(src);
+                                console.log('🖼️ SongList - Trying WebP URL (99% success rate):', webpUrl);
+                                e.target.src = webpUrl;
+                              }
+                            } else if (!e.target.dataset.triedWebP) {
+                              e.target.dataset.triedWebP = "1";
+                              
+                              // WebP形式が失敗した場合、ファイル名をWebPキャッシュに追加
+                              if (e.target.src.includes('.webp')) {
+                                const fileName = e.target.src.split("/").pop();
+                                webpNotFoundCache.add(fileName);
+                                console.log('🖼️ SongList - Added to WebP not found cache (1% case):', fileName);
+                              }
+                              
+                              // WebPファイルが99%存在するため、元のJPG/PNG URLを試す（最後の手段）
+                              const src = song.thumbnail || song.featured_media_url;
+                              if (src) {
+                                console.log('🖼️ SongList - Trying original URL as last resort:', src);
                                 e.target.src = src;
                               }
                             } else {
                               // プレースホルダーにフォールバック
-                            e.target.onerror = null; 
-                            e.target.src = '/placeholder.jpg';
+                              console.log('🖼️ SongList - Falling back to placeholder');
+                              e.target.onerror = null; 
+                              e.target.src = '/placeholder.jpg';
                             }
                           }}
                         />
@@ -1104,7 +1234,9 @@ export default function SongList({
              const mainArtistSlug = orderedArtists[0]?.slug || popupSong.artists[0]?.slug || 'unknown';
              const songSlug = popupSong.titleSlug || popupSong.slug || 'unknown';
              
-             navigator.clipboard.writeText(`${window.location.origin}/${mainArtistSlug}/songs/${songSlug}`);
+             if (typeof window !== 'undefined' && navigator.clipboard) {
+               navigator.clipboard.writeText(`${window.location.origin}/${mainArtistSlug}/songs/${songSlug}`);
+             }
             setIsPopupVisible(false);
           }}
           renderMenuContent={({ song, onAddToPlaylist, onCopyUrl }) => {

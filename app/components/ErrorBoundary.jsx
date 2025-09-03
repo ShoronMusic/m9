@@ -47,8 +47,8 @@ class ErrorBoundary extends React.Component {
         stack: error.stack,
         componentStack: errorInfo.componentStack,
         timestamp: new Date().toISOString(),
-        userAgent: navigator.userAgent,
-        url: window.location.href,
+        userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : '',
+        url: typeof window !== 'undefined' ? window.location.href : '',
         // 必要に応じてユーザー情報も含める
       };
 
@@ -86,7 +86,7 @@ class ErrorBoundary extends React.Component {
         id: this.state.errorId,
         message: this.state.error.message,
         stack: this.state.error.stack,
-        url: window.location.href,
+        url: typeof window !== 'undefined' ? window.location.href : '',
         timestamp: new Date().toISOString()
       };
       
@@ -141,7 +141,11 @@ class ErrorBoundary extends React.Component {
                 エラーを報告
               </button>
               <button 
-                onClick={() => window.location.reload()}
+                onClick={() => {
+                  if (typeof window !== 'undefined') {
+                    window.location.reload();
+                  }
+                }}
                 className={styles.reloadButton}
               >
                 ページを再読み込み

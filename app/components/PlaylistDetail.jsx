@@ -96,7 +96,9 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
       if (response.ok) {
         alert('プレイリストが削除されました');
         // マイページにリダイレクト
-        window.location.href = '/mypage';
+        if (typeof window !== 'undefined') {
+          window.location.href = '/mypage';
+        }
       } else {
         const errorData = await response.json();
         alert(`削除に失敗しました: ${errorData.error || '不明なエラー'}`);
@@ -206,7 +208,9 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
     const currentIndex = userPlaylists.findIndex(p => p.id === playlist.id);
     if (currentIndex !== -1 && currentIndex < userPlaylists.length - 1) {
       const nextPlaylist = userPlaylists[currentIndex + 1];
-      window.location.href = `/playlists/${nextPlaylist.id}?autoplay=1`;
+      if (typeof window !== 'undefined') {
+        window.location.href = `/playlists/${nextPlaylist.id}?autoplay=1`;
+      }
     } else {
       console.log('プレイリストの最後に到達しました');
     }
@@ -226,7 +230,9 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
       }
 
       // ページをリロードして変更を反映
-      window.location.reload();
+      if (typeof window !== 'undefined') {
+        window.location.reload();
+      }
     } catch (err) {
       console.error('トラックの削除に失敗しました:', err.message);
     }
