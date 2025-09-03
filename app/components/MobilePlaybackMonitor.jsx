@@ -245,6 +245,12 @@ export default function MobilePlaybackMonitor({
       // Wake Lock取得の監視
       navigator.wakeLock.request = async function(type) {
         try {
+          // ページが可視状態でない場合はWake Lockを取得しない
+          if (typeof document !== 'undefined' && document.visibilityState !== 'visible') {
+            console.log('🔒 Wake Lock request skipped - page not visible');
+            throw new Error('The requesting page is not visible');
+          }
+
           const wakeLock = await originalRequest.call(this, type);
           playbackStateRef.current.wakeLockCount++;
           
@@ -265,10 +271,13 @@ export default function MobilePlaybackMonitor({
 
           return wakeLock;
         } catch (error) {
-          logToAxiom('error', 'wake_lock_error', `Wake Lock取得エラー: ${error.message}`, {
-            component: 'MobilePlaybackMonitor',
-            error: error.message,
-          });
+          // ページが非表示の場合はエラーログを送信しない（正常な動作）
+          if (error.message !== 'The requesting page is not visible') {
+            logToAxiom('error', 'wake_lock_error', `Wake Lock取得エラー: ${error.message}`, {
+              component: 'MobilePlaybackMonitor',
+              error: error.message,
+            });
+          }
           throw error;
         }
       };

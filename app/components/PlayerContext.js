@@ -61,6 +61,12 @@ export const PlayerProvider = ({ children }) => {
       return;
     }
 
+    // ページが可視状態でない場合はWake Lockを取得しない
+    if (typeof document !== 'undefined' && document.visibilityState !== 'visible') {
+      console.log('🔒 Wake Lock request skipped - page not visible');
+      return;
+    }
+
     try {
       const wakeLockInstance = await navigator.wakeLock.request('screen');
       setWakeLock(wakeLockInstance);
@@ -858,6 +864,33 @@ export const PlayerProvider = ({ children }) => {
       releaseWakeLock();
     }
   }, [isPlaying, currentTrack, isWakeLockSupported, requestWakeLock, releaseWakeLock, wakeLock]);
+
+  // ページ可視性の監視
+  useEffect(() => {
+    if (typeof document === 'undefined') return;
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        // ページが可視状態になった時、再生中ならWake Lockを取得
+        if (isPlaying && currentTrack && isWakeLockSupported && !wakeLock) {
+          console.log('🔒 Page became visible, requesting Wake Lock');
+          requestWakeLock();
+        }
+      } else {
+        // ページが非表示になった時、Wake Lockを解放
+        if (wakeLock) {
+          console.log('🔒 Page became hidden, releasing Wake Lock');
+          releaseWakeLock();
+        }
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, [isPlaying, currentTrack, isWakeLockSupported, wakeLock, requestWakeLock, releaseWakeLock]);
 
   // プレイヤーを完全に停止する機能
   const stopPlayer = useCallback(() => {
