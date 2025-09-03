@@ -230,9 +230,7 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
       }
 
       // ページをリロードして変更を反映
-      if (typeof window !== 'undefined') {
-        window.location.reload();
-      }
+      window.location.reload();
     } catch (err) {
       console.error('トラックの削除に失敗しました:', err.message);
     }

@@ -14,6 +14,7 @@ import Head from "next/head";
 import theme from "../../../css/theme";
 import Image from "next/image";
 import artistStyles from "../../ArtistPage.module.css";
+import { usePlayer } from '../../../components/PlayerContext';
 
 // モバイル最適化対応のインポート
 import { useAuthToken } from '@/components/useAuthToken';
@@ -120,6 +121,7 @@ function renderVocalIcons(vocalData = []) {
 
 export default function SongDetailClient({ songData, description, accessToken }) {
   const { data: session } = useSession();
+  const { stopPlayer } = usePlayer();
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [trackToAdd, setTrackToAdd] = useState(null);
   const [userPlaylists, setUserPlaylists] = useState([]);
@@ -189,6 +191,12 @@ export default function SongDetailClient({ songData, description, accessToken })
     // デバッグ用
     // console.log("受け取った songData:", songData);
   }, [songData]);
+
+  // 曲詳細ページに遷移した際に共通プレイヤーを停止
+  useEffect(() => {
+    console.log('🎵 SongDetailClient - Stopping common player on mount');
+    stopPlayer();
+  }, [stopPlayer]);
 
   // ユーザーのプレイリスト一覧を取得
   const fetchUserPlaylists = async () => {

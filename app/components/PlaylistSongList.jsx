@@ -29,47 +29,108 @@ import {
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 
-// CloudinaryのベースURL
+// CloudinaryのベースURL（正しい形式）
 const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
+
+// Cloudinaryに存在しない画像のキャッシュ
+const cloudinaryNotFoundCache = new Set();
+// WebP形式も存在しない画像のキャッシュ
+const webpNotFoundCache = new Set();
+
+// JPG/PNG URLをWebP URLに変換する関数
+function convertToWebPUrl(originalUrl) {
+  if (!originalUrl) return originalUrl;
+  
+  // ファイル拡張子を取得
+  const lastDotIndex = originalUrl.lastIndexOf('.');
+  if (lastDotIndex === -1) return originalUrl;
+  
+  const extension = originalUrl.substring(lastDotIndex + 1).toLowerCase();
+  
+  // JPG/JPEG/PNGの場合はWebPに変換
+  if (['jpg', 'jpeg', 'png'].includes(extension)) {
+    const webpUrl = originalUrl.substring(0, lastDotIndex) + '.webp';
+    console.log('🖼️ PlaylistSongList - Converting to WebP:', {
+      original: originalUrl,
+      webp: webpUrl
+    });
+    return webpUrl;
+  }
+  
+  // 既にWebPの場合はそのまま返す
+  return originalUrl;
+}
 
 // ──────────────────────────────
 // ヘルパー関数群
 // ──────────────────────────────
 
-// サムネイルURLを堅牢に取得する関数
+// サムネイルURLを取得する関数（SongList.jsと同じロジック）
 function getThumbnailUrl(song) {
-  // 1. 親コンポーネントから渡される thumbnail を最優先
-  if (song.thumbnail) {
-    // CloudinaryのURLか、ローカルパスかを判断
-    if (song.thumbnail.startsWith('http')) {
-      return song.thumbnail; // すでに完全なURLの場合
+  console.log('🖼️ PlaylistSongList - getThumbnailUrl called with:', {
+    songId: song.id,
+    songTitle: song.title,
+    thumbnail: song.thumbnail,
+    featured_media_url: song.featured_media_url,
+    thumbnail_url: song.thumbnail_url,
+    youtubeId: song.youtubeId,
+    allKeys: Object.keys(song)
+  });
+  
+  // thumbnail_urlを優先して処理（Supabaseからのデータ）
+  const thumbnailUrl = song.thumbnail_url || song.thumbnail;
+  if (thumbnailUrl) {
+    const fileName = thumbnailUrl.split("/").pop();
+    if (cloudinaryNotFoundCache.has(fileName)) {
+      if (webpNotFoundCache.has(fileName)) {
+        console.log('🖼️ PlaylistSongList - Using cached original URL for:', fileName);
+        return thumbnailUrl;
+      }
+      console.log('🖼️ PlaylistSongList - Using cached WebP fallback for:', fileName);
+      return convertToWebPUrl(thumbnailUrl);
     }
-    // CloudinaryのID (.webpなど) の場合
-    return `${CLOUDINARY_BASE_URL}${song.thumbnail}`;
+    const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
+    console.log('🖼️ PlaylistSongList - Thumbnail URL conversion:', {
+      original: thumbnailUrl,
+      fileName: fileName,
+      baseUrl: CLOUDINARY_BASE_URL,
+      cloudinary: cloudinaryUrl,
+      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
+    });
+    return cloudinaryUrl;
   }
   
-  // 2. thumbnail_url フィールドを確認
-  if (song.thumbnail_url) {
-    if (song.thumbnail_url.startsWith('http')) {
-      return song.thumbnail_url;
-    }
-    return `${CLOUDINARY_BASE_URL}${song.thumbnail_url}`;
-  }
-  
-  // 3. youtubeId からローカルパスを生成
-  if (song.youtubeId) {
-    return `/images/thum/${song.youtubeId}.webp`;
-  }
-  
-  // 4. featured_media_url を確認
   if (song.featured_media_url) {
-    if (song.featured_media_url.startsWith('http')) {
-      return song.featured_media_url;
+    const fileName = song.featured_media_url.split("/").pop();
+    if (cloudinaryNotFoundCache.has(fileName)) {
+      if (webpNotFoundCache.has(fileName)) {
+        console.log('🖼️ PlaylistSongList - Using cached original URL for:', fileName);
+        return song.featured_media_url;
+      }
+      console.log('🖼️ PlaylistSongList - Using cached WebP fallback for:', fileName);
+      return convertToWebPUrl(song.featured_media_url);
     }
-    return song.featured_media_url;
+    const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
+    console.log('🖼️ PlaylistSongList - Thumbnail URL conversion:', {
+      original: song.featured_media_url,
+      fileName: fileName,
+      baseUrl: CLOUDINARY_BASE_URL,
+      cloudinary: cloudinaryUrl,
+      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
+    });
+    return cloudinaryUrl;
   }
   
-  // 5. 上記すべてに該当しない場合はプレースホルダー
+  // YouTube IDからサムネイルを生成
+  if (song.youtubeId) {
+    console.log('🖼️ PlaylistSongList - Using YouTube thumbnail for:', song.youtubeId);
+    return `https://img.youtube.com/vi/${song.youtubeId}/mqdefault.jpg`;
+  }
+  
+  console.log('🖼️ PlaylistSongList - No thumbnail found, using placeholder for:', {
+    songId: song.id,
+    songTitle: song.title
+  });
   return '/placeholder.jpg';
 }
 
@@ -824,7 +885,17 @@ export default function PlaylistSongList({
           youtube_id: track.youtube_id || track.ytvideoid || '',
         },
         date: track.release_date || track.added_at || '',
-        thumbnail: track.thumbnail || track.thumbnail_url,
+        thumbnail: (() => {
+          const thumbnail = track.thumbnail_url || track.thumbnail;
+          console.log('🖼️ PlaylistSongList - Track thumbnail processing:', {
+            trackId: track.id || track.track_id,
+            trackTitle: track.title,
+            originalThumbnail: track.thumbnail,
+            originalThumbnailUrl: track.thumbnail_url,
+            finalThumbnail: thumbnail
+          });
+          return thumbnail;
+        })(),
         youtubeId: track.youtube_id || track.ytvideoid || '',
         spotifyTrackId: spotifyTrackId,
         genre_data: generatedGenreData || track.genre_data || track.genres || [],
@@ -1517,21 +1588,42 @@ export default function PlaylistSongList({
               alt={`${title} のサムネイル`}
               loading="lazy"
               onError={(e) => {
-                if (!e.target.dataset.triedCloudinary) {
-                  e.target.dataset.triedCloudinary = "1";
-                  const src = track.thumbnail || track.thumbnail_url;
-                  if (src) {
-                    const fileName = src.split("/").pop();
-                    e.target.src = `${CLOUDINARY_BASE_URL}${fileName}`;
-                  }
-                } else if (!e.target.dataset.triedOriginal) {
+                console.log('🖼️ PlaylistSongList - Image load error:', {
+                  failedUrl: e.target.src,
+                  trackId: track.id,
+                  trackTitle: title,
+                  hasTriedOriginal: e.target.dataset.triedOriginal,
+                  hasTriedWebP: e.target.dataset.triedWebP
+                });
+
+                if (!e.target.dataset.triedOriginal) { // First attempt (Cloudinary failed)
                   e.target.dataset.triedOriginal = "1";
-                  const src = track.thumbnail || track.thumbnail_url;
+                  if (e.target.src.includes('cloudinary.com')) {
+                    const fileName = e.target.src.split("/").pop();
+                    cloudinaryNotFoundCache.add(fileName);
+                    console.log('🖼️ PlaylistSongList - Added to not found cache:', fileName);
+                  }
+                  const src = track.thumbnail_url || track.thumbnail || track.featured_media_url;
                   if (src) {
+                    const webpUrl = convertToWebPUrl(src);
+                    console.log('🖼️ PlaylistSongList - Trying WebP URL (99% success rate):', webpUrl);
+                    e.target.src = webpUrl;
+                  }
+                } else if (!e.target.dataset.triedWebP) { // Second attempt (WebP failed)
+                  e.target.dataset.triedWebP = "1";
+                  if (e.target.src.includes('.webp')) {
+                    const fileName = e.target.src.split("/").pop();
+                    webpNotFoundCache.add(fileName);
+                    console.log('🖼️ PlaylistSongList - Added to WebP not found cache (1% case):', fileName);
+                  }
+                  const src = track.thumbnail_url || track.thumbnail || track.featured_media_url;
+                  if (src) {
+                    console.log('🖼️ PlaylistSongList - Trying original URL as last resort:', src);
                     e.target.src = src;
                   }
-                } else {
-                  e.target.onerror = null; 
+                } else { // All attempts failed
+                  console.log('🖼️ PlaylistSongList - Falling back to placeholder');
+                  e.target.onerror = null;
                   e.target.src = '/placeholder.jpg';
                 }
               }}

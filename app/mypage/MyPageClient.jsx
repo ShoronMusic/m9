@@ -9,6 +9,90 @@ import Link from 'next/link';
 import PlaylistFilters from '../playlists/PlaylistFilters';
 import styles from './MyPage.module.css';
 
+// CloudinaryのベースURL（正しい形式）
+const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
+
+// Cloudinaryに存在しない画像のキャッシュ
+const cloudinaryNotFoundCache = new Set();
+// WebP形式も存在しない画像のキャッシュ
+const webpNotFoundCache = new Set();
+
+// JPG/PNG URLをWebP URLに変換する関数
+function convertToWebPUrl(originalUrl) {
+  if (!originalUrl) return originalUrl;
+  
+  // ファイル拡張子を取得
+  const lastDotIndex = originalUrl.lastIndexOf('.');
+  if (lastDotIndex === -1) return originalUrl;
+  
+  const extension = originalUrl.substring(lastDotIndex + 1).toLowerCase();
+  
+  // JPG/JPEG/PNGの場合はWebPに変換
+  if (['jpg', 'jpeg', 'png'].includes(extension)) {
+    const webpUrl = originalUrl.substring(0, lastDotIndex) + '.webp';
+    console.log('🖼️ MyPageClient - Converting to WebP:', {
+      original: originalUrl,
+      webp: webpUrl
+    });
+    return webpUrl;
+  }
+  
+  // 既にWebPの場合はそのまま返す
+  return originalUrl;
+}
+
+// サムネイルURLを取得する関数（SongList.jsと同じロジック）
+function getThumbnailUrl(track) {
+  if (track.thumbnail) {
+    const fileName = track.thumbnail.split("/").pop();
+    if (cloudinaryNotFoundCache.has(fileName)) {
+      if (webpNotFoundCache.has(fileName)) {
+        console.log('🖼️ MyPageClient - Using cached original URL for:', fileName);
+        return track.thumbnail;
+      }
+      console.log('🖼️ MyPageClient - Using cached WebP fallback for:', fileName);
+      return convertToWebPUrl(track.thumbnail);
+    }
+    const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
+    console.log('🖼️ MyPageClient - Thumbnail URL conversion:', {
+      original: track.thumbnail,
+      fileName: fileName,
+      baseUrl: CLOUDINARY_BASE_URL,
+      cloudinary: cloudinaryUrl,
+      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
+    });
+    return cloudinaryUrl;
+  }
+  
+  if (track.featured_media_url) {
+    const fileName = track.featured_media_url.split("/").pop();
+    if (cloudinaryNotFoundCache.has(fileName)) {
+      if (webpNotFoundCache.has(fileName)) {
+        console.log('🖼️ MyPageClient - Using cached original URL for:', fileName);
+        return track.featured_media_url;
+      }
+      console.log('🖼️ MyPageClient - Using cached WebP fallback for:', fileName);
+      return convertToWebPUrl(track.featured_media_url);
+    }
+    const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
+    console.log('🖼️ MyPageClient - Thumbnail URL conversion:', {
+      original: track.featured_media_url,
+      fileName: fileName,
+      baseUrl: CLOUDINARY_BASE_URL,
+      cloudinary: cloudinaryUrl,
+      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
+    });
+    return cloudinaryUrl;
+  }
+  
+  // YouTube IDからサムネイルを生成
+  if (track.youtubeId) {
+    return `https://img.youtube.com/vi/${track.youtubeId}/mqdefault.jpg`;
+  }
+  
+  return '/placeholder.jpg';
+}
+
 export default function MyPageClient({ session }) {
   const { data: sessionData } = useSession();
   const { currentTrack, trackList, isPlaying, playlistUpdateTrigger, triggerPlaylistUpdate } = usePlayer();
@@ -636,9 +720,49 @@ export default function MyPageClient({ session }) {
       <h3>🎵 現在再生中</h3>
       <div className={styles.trackInfo}>
         <img 
-          src={currentTrack.thumbnail || '/placeholder.jpg'} 
+          src={getThumbnailUrl(currentTrack)} 
           alt="Album" 
           className={styles.albumArt}
+          onError={(e) => {
+            console.log('🖼️ MyPageClient - Image load error:', {
+              failedUrl: e.target.src,
+              trackId: currentTrack.id,
+              trackTitle: currentTrack.title?.rendered || currentTrack.title,
+              hasTriedOriginal: e.target.dataset.triedOriginal,
+              hasTriedWebP: e.target.dataset.triedWebP
+            });
+
+            if (!e.target.dataset.triedOriginal) { // First attempt (Cloudinary failed)
+              e.target.dataset.triedOriginal = "1";
+              if (e.target.src.includes('cloudinary.com')) {
+                const fileName = e.target.src.split("/").pop();
+                cloudinaryNotFoundCache.add(fileName);
+                console.log('🖼️ MyPageClient - Added to not found cache:', fileName);
+              }
+              const src = currentTrack.thumbnail || currentTrack.featured_media_url;
+              if (src) {
+                const webpUrl = convertToWebPUrl(src);
+                console.log('🖼️ MyPageClient - Trying WebP URL (99% success rate):', webpUrl);
+                e.target.src = webpUrl;
+              }
+            } else if (!e.target.dataset.triedWebP) { // Second attempt (WebP failed)
+              e.target.dataset.triedWebP = "1";
+              if (e.target.src.includes('.webp')) {
+                const fileName = e.target.src.split("/").pop();
+                webpNotFoundCache.add(fileName);
+                console.log('🖼️ MyPageClient - Added to WebP not found cache (1% case):', fileName);
+              }
+              const src = currentTrack.thumbnail || currentTrack.featured_media_url;
+              if (src) {
+                console.log('🖼️ MyPageClient - Trying original URL as last resort:', src);
+                e.target.src = src;
+              }
+            } else { // All attempts failed
+              console.log('🖼️ MyPageClient - Falling back to placeholder');
+              e.target.onerror = null;
+              e.target.src = '/placeholder.jpg';
+            }
+          }}
         />
         <div className={styles.trackDetails}>
           <h4>{typeof currentTrack.title === 'string' ? currentTrack.title : (typeof currentTrack.title?.rendered === 'string' ? currentTrack.title.rendered : (currentTrack.name || 'Unknown Track'))}</h4>

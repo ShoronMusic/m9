@@ -7,14 +7,94 @@ import SpotifyPlayer from './SpotifyPlayer';
 import styles from './FooterPlayer.module.css';
 import Image from "next/image";
 
+// CloudinaryのベースURL（正しい形式）
+const CLOUDINARY_BASE_URL = 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/';
+
+// Cloudinaryに存在しない画像のキャッシュ
+const cloudinaryNotFoundCache = new Set();
+// WebP形式も存在しない画像のキャッシュ
+const webpNotFoundCache = new Set();
+
+// JPG/PNG URLをWebP URLに変換する関数
+function convertToWebPUrl(originalUrl) {
+  if (!originalUrl) return originalUrl;
+  
+  // ファイル拡張子を取得
+  const lastDotIndex = originalUrl.lastIndexOf('.');
+  if (lastDotIndex === -1) return originalUrl;
+  
+  const extension = originalUrl.substring(lastDotIndex + 1).toLowerCase();
+  
+  // JPG/JPEG/PNGの場合はWebPに変換
+  if (['jpg', 'jpeg', 'png'].includes(extension)) {
+    const webpUrl = originalUrl.substring(0, lastDotIndex) + '.webp';
+    console.log('🖼️ FooterPlayer - Converting to WebP:', {
+      original: originalUrl,
+      webp: webpUrl
+    });
+    return webpUrl;
+  }
+  
+  // 既にWebPの場合はそのまま返す
+  return originalUrl;
+}
+
+// サムネイルURLを取得する関数（SongList.jsと同じロジック）
+function getThumbnailUrl(track) {
+  if (track.thumbnail) {
+    const fileName = track.thumbnail.split("/").pop();
+    if (cloudinaryNotFoundCache.has(fileName)) {
+      if (webpNotFoundCache.has(fileName)) {
+        console.log('🖼️ FooterPlayer - Using cached original URL for:', fileName);
+        return track.thumbnail;
+      }
+      console.log('🖼️ FooterPlayer - Using cached WebP fallback for:', fileName);
+      return convertToWebPUrl(track.thumbnail);
+    }
+    const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
+    console.log('🖼️ FooterPlayer - Thumbnail URL conversion:', {
+      original: track.thumbnail,
+      fileName: fileName,
+      baseUrl: CLOUDINARY_BASE_URL,
+      cloudinary: cloudinaryUrl,
+      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
+    });
+    return cloudinaryUrl;
+  }
+  
+  if (track.featured_media_url) {
+    const fileName = track.featured_media_url.split("/").pop();
+    if (cloudinaryNotFoundCache.has(fileName)) {
+      if (webpNotFoundCache.has(fileName)) {
+        console.log('🖼️ FooterPlayer - Using cached original URL for:', fileName);
+        return track.featured_media_url;
+      }
+      console.log('🖼️ FooterPlayer - Using cached WebP fallback for:', fileName);
+      return convertToWebPUrl(track.featured_media_url);
+    }
+    const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
+    console.log('🖼️ FooterPlayer - Thumbnail URL conversion:', {
+      original: track.featured_media_url,
+      fileName: fileName,
+      baseUrl: CLOUDINARY_BASE_URL,
+      cloudinary: cloudinaryUrl,
+      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
+    });
+    return cloudinaryUrl;
+  }
+  
+  // YouTube IDからサムネイルを生成
+  if (track.youtubeId) {
+    return `https://img.youtube.com/vi/${track.youtubeId}/mqdefault.jpg`;
+  }
+  
+  return '/placeholder.jpg';
+}
+
 // Helper function to get a valid image URL
 const getImageUrl = (track) => {
     if (!track) return '/placeholder.jpg';
-    if (track.featured_media_url_thumbnail) return track.featured_media_url_thumbnail;
-    if (track.featured_media_url) return track.featured_media_url;
-    if (track.album?.images?.[0]?.url) return track.album.images[0].url;
-    if (track.thumbnail) return track.thumbnail;
-    return '/placeholder.jpg';
+    return getThumbnailUrl(track);
 };
 
 // Helper function to format artist names
@@ -224,7 +304,51 @@ export default function FooterPlayer() {
                 <div className={styles.bottomControls}>
                     {/* Left: Track Info */}
                     <div className={styles.trackInfo}>
-                        <img src={imageUrl} alt={trackTitle} className={styles.albumArt} />
+                        <img 
+                            src={imageUrl} 
+                            alt={trackTitle} 
+                            className={styles.albumArt}
+                            onError={(e) => {
+                                console.log('🖼️ FooterPlayer - Image load error:', {
+                                    failedUrl: e.target.src,
+                                    trackId: displayTrack.id,
+                                    trackTitle: trackTitle,
+                                    hasTriedOriginal: e.target.dataset.triedOriginal,
+                                    hasTriedWebP: e.target.dataset.triedWebP
+                                });
+
+                                if (!e.target.dataset.triedOriginal) { // First attempt (Cloudinary failed)
+                                    e.target.dataset.triedOriginal = "1";
+                                    if (e.target.src.includes('cloudinary.com')) {
+                                        const fileName = e.target.src.split("/").pop();
+                                        cloudinaryNotFoundCache.add(fileName);
+                                        console.log('🖼️ FooterPlayer - Added to not found cache:', fileName);
+                                    }
+                                    const src = displayTrack.thumbnail || displayTrack.featured_media_url;
+                                    if (src) {
+                                        const webpUrl = convertToWebPUrl(src);
+                                        console.log('🖼️ FooterPlayer - Trying WebP URL (99% success rate):', webpUrl);
+                                        e.target.src = webpUrl;
+                                    }
+                                } else if (!e.target.dataset.triedWebP) { // Second attempt (WebP failed)
+                                    e.target.dataset.triedWebP = "1";
+                                    if (e.target.src.includes('.webp')) {
+                                        const fileName = e.target.src.split("/").pop();
+                                        webpNotFoundCache.add(fileName);
+                                        console.log('🖼️ FooterPlayer - Added to WebP not found cache (1% case):', fileName);
+                                    }
+                                    const src = displayTrack.thumbnail || displayTrack.featured_media_url;
+                                    if (src) {
+                                        console.log('🖼️ FooterPlayer - Trying original URL as last resort:', src);
+                                        e.target.src = src;
+                                    }
+                                } else { // All attempts failed
+                                    console.log('🖼️ FooterPlayer - Falling back to placeholder');
+                                    e.target.onerror = null;
+                                    e.target.src = '/placeholder.jpg';
+                                }
+                            }}
+                        />
                         <div className={styles.trackDetails}>
                             <p className={styles.trackName}>{trackTitle}</p>
                             <p className={styles.artistName}>{artistName}</p>

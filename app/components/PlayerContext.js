@@ -859,6 +859,37 @@ export const PlayerProvider = ({ children }) => {
     }
   }, [isPlaying, currentTrack, isWakeLockSupported, requestWakeLock, releaseWakeLock, wakeLock]);
 
+  // プレイヤーを完全に停止する機能
+  const stopPlayer = useCallback(() => {
+    console.log('🛑 PlayerContext - Stopping player completely');
+    
+    // 現在の曲の再生を停止
+    if (playTracker) {
+      playTracker.stopTracking(false); // 中断として記録
+    }
+    
+    // プレイヤー状態を完全にリセット
+    setCurrentTrack(null);
+    setCurrentTrackIndex(-1);
+    setIsPlaying(false);
+    setPosition(0);
+    setDuration(0);
+    setTrackList([]);
+    currentTrackListSource.current = null;
+    
+    // SpotifyPlayerに停止指示を送信
+    if (spotifyPlayerRef.current && spotifyPlayerRef.current.pause) {
+      spotifyPlayerRef.current.pause();
+    }
+    
+    // Wake Lockを解放
+    if (wakeLock) {
+      releaseWakeLock();
+    }
+    
+    console.log('✅ PlayerContext - Player stopped completely');
+  }, [playTracker, wakeLock, releaseWakeLock]);
+
   const value = {
     trackList,
     setTrackList,
@@ -891,6 +922,8 @@ export const PlayerProvider = ({ children }) => {
     isWakeLockSupported,
     requestWakeLock,
     releaseWakeLock,
+    // プレイヤー停止機能
+    stopPlayer,
   };
 
   return (
