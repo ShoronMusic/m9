@@ -117,7 +117,11 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
 
   // トークンの有効性をチェックする関数
   const checkTokenValidity = useCallback(async () => {
-    if (!accessToken) return false;
+    // トークンが存在しない場合は認証エラーを発生させない
+    if (!accessToken) {
+      console.log('No access token available, skipping validation');
+      return false;
+    }
     
     try {
       const response = await fetch('https://api.spotify.com/v1/me', {
@@ -468,6 +472,14 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       const hasAuthError = sessionStorage.getItem('spotify_auth_error');
       const wasShowingError = showAuthError;
       
+      // トークンが存在しない場合は認証エラーを発生させない
+      if (!accessToken) {
+        console.log('No access token available, clearing auth error state');
+        sessionStorage.removeItem('spotify_auth_error');
+        setShowAuthError(false);
+        return;
+      }
+      
       // トークンの有効性をチェック
       const isTokenValid = await checkTokenValidity();
       
@@ -522,6 +534,16 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   // バックグラウンド時の状態チェック
   const checkBackgroundState = useCallback(async () => {
     if (!isReady || !playerRef.current || isPageVisible) return;
+    
+    // トークンが存在しない場合はバックグラウンドチェックを停止
+    if (!accessToken) {
+      console.log('No access token available, stopping background monitoring');
+      if (backgroundCheckIntervalRef.current) {
+        clearInterval(backgroundCheckIntervalRef.current);
+        backgroundCheckIntervalRef.current = null;
+      }
+      return;
+    }
     
     try {
       // まずトークンの有効性をチェック
@@ -604,6 +626,12 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       // 画面復帰時にトークンの有効性をチェック
       const handleVisibilityRestore = async () => {
         try {
+          // トークンが存在しない場合は処理をスキップ
+          if (!accessToken) {
+            console.log('No access token available on visibility restore, skipping validation');
+            return;
+          }
+          
           // まずトークンの有効性をチェック
           const isTokenValid = await checkTokenValidity();
           
