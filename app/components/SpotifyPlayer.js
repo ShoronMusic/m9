@@ -119,6 +119,30 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   const handleError = useCallback((error, context) => {
     console.error(`SpotifyPlayer error in ${context}:`, error);
     
+    // 401 Unauthorizedエラーの処理（最優先）
+    if (error.status === 401 || error.message?.includes('401')) {
+      console.warn('Spotify API 401 Unauthorized - トークンの期限切れ');
+      sessionStorage.setItem('spotify_auth_error', 'true');
+      setShowAuthError(true);
+      
+      // プレイヤーを完全にリセット
+      if (playerRef.current) {
+        playerRef.current.disconnect();
+        playerRef.current = null;
+      }
+      setIsReady(false);
+      setDeviceId(null);
+      resetPlayerState();
+      
+      // バックグラウンドチェックも停止
+      if (backgroundCheckIntervalRef.current) {
+        clearInterval(backgroundCheckIntervalRef.current);
+        backgroundCheckIntervalRef.current = null;
+      }
+      
+      return;
+    }
+    
     // 429 Too Many Requestsエラーの処理
     if (error.status === 429 || error.message?.includes('429')) {
       console.warn('Spotify API 429 Too Many Requests - レート制限に達しました');
@@ -126,9 +150,45 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       // レート制限の場合は長時間待機
       setTimeout(() => {
         if (accessToken) {
-          initializePlayer();
+          // トークンの有効性をチェックしてから再初期化
+          checkTokenValidity().then(isValid => {
+            if (isValid) {
+              initializePlayer();
+            }
+          });
         }
       }, 60000); // 1分待機
+      
+      return;
+    }
+    
+    // 403 Forbiddenエラーの特別な処理
+    if (error.status === 403 || error.message?.includes('403')) {
+      console.warn('Spotify API 403 Forbidden - デバイスまたはトークンの問題');
+      
+      // デバイスIDをリセットして再試行
+      if (deviceId) {
+        setDeviceId(null);
+      }
+      
+      // トークンの有効性をチェック
+      checkTokenValidity().then(isValid => {
+        if (!isValid) {
+          sessionStorage.setItem('spotify_auth_error', 'true');
+          setShowAuthError(true);
+        }
+      });
+      
+      return;
+    }
+    
+    // 404 Not Foundエラーの処理
+    if (error.status === 404 || error.message?.includes('404')) {
+      console.warn('Spotify API 404 Not Found - デバイスが見つからない');
+      
+      // デバイスエラーフラグを設定
+      sessionStorage.setItem('spotify_device_error', 'true');
+      setDeviceId(null);
       
       return;
     }
@@ -147,46 +207,26 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       setDeviceId(null);
       setIsReady(false);
       
-      // 少し遅延してから再初期化を試行
+      // トークンの有効性をチェックしてから再初期化
       setTimeout(() => {
         if (accessToken) {
-          initializePlayer();
+          checkTokenValidity().then(isValid => {
+            if (isValid) {
+              initializePlayer();
+            } else {
+              sessionStorage.setItem('spotify_auth_error', 'true');
+              setShowAuthError(true);
+            }
+          });
         }
       }, 3000);
       
       return;
     }
     
-    // 403 Forbiddenエラーの特別な処理
-    if (error.status === 403 || error.message?.includes('403')) {
-      console.warn('Spotify API 403 Forbidden - デバイスまたはトークンの問題');
-      
-      // デバイスIDをリセットして再試行
-      if (deviceId) {
-        setDeviceId(null);
-      }
-      
-      // アクセストークンの再取得を促す
-      if (context === 'play' || context === 'resetDevice') {
-        // アクセストークンの問題を記録
-      }
-    }
-    
-    // 401 Unauthorizedエラーの処理
-    if (error.status === 401 || error.message?.includes('401')) {
-      console.warn('Spotify API 401 Unauthorized - トークンの期限切れ');
-    }
-    
-    // 404 Not Foundエラーの処理
-    if (error.status === 404 || error.message?.includes('404')) {
-      console.warn('Spotify API 404 Not Found - デバイスが見つからない');
-      
-      // デバイスエラーフラグを設定
-      sessionStorage.setItem('spotify_device_error', 'true');
-      
-      setDeviceId(null);
-    }
-  }, [deviceId, accessToken, initializePlayer]);
+    // その他のエラーの場合
+    console.warn(`Unhandled error in ${context}:`, error);
+  }, [deviceId, accessToken, initializePlayer, checkTokenValidity, resetPlayerState]);
 
   // 次の曲を再生する関数
   const triggerPlayNext = useCallback(() => {
@@ -394,15 +434,57 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     }
   }, [deviceId, updatePlaybackState, resetPlayerState, triggerPlayNext, handleError, volume]);
 
+  // トークンの有効性をチェックする関数
+  const checkTokenValidity = useCallback(async () => {
+    if (!accessToken) return false;
+    
+    try {
+      const response = await fetch('https://api.spotify.com/v1/me', {
+        headers: { 'Authorization': `Bearer ${accessToken}` }
+      });
+      
+      if (response.status === 401) {
+        // トークンが無効
+        console.warn('Spotify token is invalid (401)');
+        sessionStorage.setItem('spotify_auth_error', 'true');
+        return false;
+      }
+      
+      if (!response.ok) {
+        console.warn('Spotify token validation failed:', response.status);
+        return false;
+      }
+      
+      return true;
+    } catch (error) {
+      console.error('Token validation failed:', error);
+      return false;
+    }
+  }, [accessToken]);
+
   // 認証エラーの監視
   useEffect(() => {
-    const checkAuthError = () => {
+    const checkAuthError = async () => {
       const hasAuthError = sessionStorage.getItem('spotify_auth_error');
       const wasShowingError = showAuthError;
-      setShowAuthError(!!hasAuthError);
+      
+      // トークンの有効性をチェック
+      const isTokenValid = await checkTokenValidity();
+      
+      if (!isTokenValid && !hasAuthError) {
+        // トークンが無効だがエラーフラグが設定されていない場合
+        sessionStorage.setItem('spotify_auth_error', 'true');
+        setShowAuthError(true);
+      } else if (isTokenValid && hasAuthError) {
+        // トークンが有効でエラーフラグが設定されている場合
+        sessionStorage.removeItem('spotify_auth_error');
+        setShowAuthError(false);
+      } else {
+        setShowAuthError(!!hasAuthError);
+      }
       
       // 認証エラーが発生している場合はプレイヤーをリセット
-      if (hasAuthError) {
+      if (hasAuthError || !isTokenValid) {
         if (playerRef.current) {
           playerRef.current.disconnect();
           playerRef.current = null;
@@ -410,14 +492,20 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         setIsReady(false);
         setDeviceId(null);
         resetPlayerState();
+        
+        // バックグラウンドチェックも停止
+        if (backgroundCheckIntervalRef.current) {
+          clearInterval(backgroundCheckIntervalRef.current);
+          backgroundCheckIntervalRef.current = null;
+        }
       }
       
       // 認証エラーが解決された場合はプレイヤーを再初期化
-      if (wasShowingError && !hasAuthError && accessToken) {
+      if (wasShowingError && !hasAuthError && isTokenValid && accessToken) {
         if (process.env.NODE_ENV === 'development') {
           console.log('Authentication error resolved, reinitializing player');
         }
-            setTimeout(() => {
+        setTimeout(() => {
           initializePlayer();
         }, 1000);
       }
@@ -426,21 +514,42 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     // 初回チェック
     checkAuthError();
 
-    // 定期的にチェック
+    // 定期的にチェック（5秒間隔）
     const interval = setInterval(checkAuthError, 5000);
     return () => clearInterval(interval);
-  }, [resetPlayerState, showAuthError, accessToken, initializePlayer]);
+  }, [resetPlayerState, showAuthError, accessToken, initializePlayer, checkTokenValidity]);
 
   // バックグラウンド時の状態チェック
   const checkBackgroundState = useCallback(async () => {
     if (!isReady || !playerRef.current || isPageVisible) return;
     
     try {
+      // まずトークンの有効性をチェック
+      const isTokenValid = await checkTokenValidity();
+      if (!isTokenValid) {
+        // トークンが無効な場合はバックグラウンドチェックを停止
+        console.warn('Token invalid during background check, stopping background monitoring');
+        if (backgroundCheckIntervalRef.current) {
+          clearInterval(backgroundCheckIntervalRef.current);
+          backgroundCheckIntervalRef.current = null;
+        }
+        return;
+      }
+      
       const state = await playerRef.current.getCurrentState();
       if (state && state.track_window.current_track) {
         // バックグラウンドでも状態を更新
         updatePlaybackState(state.duration, state.position);
         lastPositionRef.current = state.position;
+        
+        if (process.env.NODE_ENV === 'development') {
+          console.log('Background state check:', {
+            track: state.track_window.current_track.name,
+            position: state.position,
+            duration: state.duration,
+            paused: state.paused
+          });
+        }
         
         // 曲が終了したかチェック
         if (isTrackEnded(state, currentTrackIdRef.current)) {
@@ -448,10 +557,25 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
           triggerPlayNext();
         }
       }
-              } catch (error) {
-      handleError(error, 'backgroundCheck');
+    } catch (error) {
+      console.error('Background state check error:', error);
+      
+      // エラーが401の場合は認証エラーとして処理
+      if (error.status === 401 || error.message?.includes('401')) {
+        console.warn('Authentication error during background check');
+        sessionStorage.setItem('spotify_auth_error', 'true');
+        setShowAuthError(true);
+        
+        // バックグラウンドチェックを停止
+        if (backgroundCheckIntervalRef.current) {
+          clearInterval(backgroundCheckIntervalRef.current);
+          backgroundCheckIntervalRef.current = null;
+        }
+      } else {
+        handleError(error, 'backgroundCheck');
+      }
     }
-  }, [isReady, isPageVisible, updatePlaybackState, handleError]);
+  }, [isReady, isPageVisible, updatePlaybackState, handleError, checkTokenValidity, resetPlayerState, triggerPlayNext]);
 
   // バックグラウンドチェックの開始/停止
   useEffect(() => {
@@ -477,22 +601,51 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   // ページ可視性変更時の処理
   useEffect(() => {
     if (isPageVisible && isReady && playerRef.current) {
-      // ページが表示された時、少し遅延してから状態を確認
-      const timer = setTimeout(async () => {
+      // 画面復帰時にトークンの有効性をチェック
+      const handleVisibilityRestore = async () => {
         try {
+          // まずトークンの有効性をチェック
+          const isTokenValid = await checkTokenValidity();
+          
+          if (!isTokenValid) {
+            // トークンが無効な場合は再認証を促す
+            console.warn('Token invalid on visibility restore, showing auth error');
+            setShowAuthError(true);
+            return;
+          }
+          
+          // トークンが有効な場合は状態を復元
           const state = await playerRef.current.getCurrentState();
           if (state && state.track_window.current_track) {
             updatePlaybackState(state.duration, state.position);
             lastPositionRef.current = state.position;
+            
+            if (process.env.NODE_ENV === 'development') {
+              console.log('Playback state restored on visibility change:', {
+                track: state.track_window.current_track.name,
+                position: state.position,
+                duration: state.duration
+              });
+            }
           }
-                } catch (error) {
-          handleError(error, 'visibilityRestore');
+        } catch (error) {
+          console.error('Error during visibility restore:', error);
+          
+          // エラーが401の場合は認証エラーとして処理
+          if (error.status === 401 || error.message?.includes('401')) {
+            sessionStorage.setItem('spotify_auth_error', 'true');
+            setShowAuthError(true);
+          } else {
+            handleError(error, 'visibilityRestore');
+          }
         }
-      }, PLAYER_CONFIG.VISIBILITY_RESTORE_DELAY);
-
+      };
+      
+      // 少し遅延してから状態を確認
+      const timer = setTimeout(handleVisibilityRestore, PLAYER_CONFIG.VISIBILITY_RESTORE_DELAY);
       return () => clearTimeout(timer);
     }
-  }, [isPageVisible, isReady, updatePlaybackState, handleError]);
+  }, [isPageVisible, isReady, updatePlaybackState, handleError, checkTokenValidity]);
 
   // デバイスリセット処理の統合
   const resetDevice = useCallback(async () => {

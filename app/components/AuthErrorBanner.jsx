@@ -11,6 +11,28 @@ export default function AuthErrorBanner({ error, onReLogin, onDismiss }) {
     if (error && isVisible) {
       const logAuthError = async () => {
         try {
+          // 画面の可視性状態を取得
+          const isPageVisible = typeof document !== 'undefined' ? document.visibilityState === 'visible' : true;
+          
+          // オーディオ要素の状態を取得
+          const audioElements = typeof document !== 'undefined' ? document.querySelectorAll('audio, video') : [];
+          const audioState = Array.from(audioElements).map((audio, index) => ({
+            index,
+            paused: audio.paused,
+            currentTime: audio.currentTime,
+            duration: audio.duration,
+            readyState: audio.readyState,
+            networkState: audio.networkState,
+            error: audio.error ? audio.error.message : null
+          }));
+          
+          // セッションストレージの状態を取得
+          const sessionState = {
+            hasSpotifyAuthError: typeof sessionStorage !== 'undefined' ? sessionStorage.getItem('spotify_auth_error') === 'true' : false,
+            hasSpotifyDeviceError: typeof sessionStorage !== 'undefined' ? sessionStorage.getItem('spotify_device_error') === 'true' : false,
+            hasSpotifyToken: typeof sessionStorage !== 'undefined' ? !!sessionStorage.getItem('spotify_token') : false
+          };
+          
           await fetch('/api/mobile-logs', {
             method: 'POST',
             headers: {
@@ -26,6 +48,18 @@ export default function AuthErrorBanner({ error, onReLogin, onDismiss }) {
                 url: typeof window !== 'undefined' ? window.location.href : '',
                 userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : '',
                 component: 'AuthErrorBanner',
+                // 追加の診断情報
+                isPageVisible,
+                audioElements: audioState,
+                sessionState,
+                screenWidth: typeof window !== 'undefined' ? window.screen.width : 0,
+                screenHeight: typeof window !== 'undefined' ? window.screen.height : 0,
+                viewportWidth: typeof window !== 'undefined' ? window.innerWidth : 0,
+                viewportHeight: typeof window !== 'undefined' ? window.innerHeight : 0,
+                isMobile: typeof window !== 'undefined' ? window.innerWidth <= 768 : false,
+                platform: typeof navigator !== 'undefined' ? navigator.platform : '',
+                language: typeof navigator !== 'undefined' ? navigator.language : '',
+                online: typeof navigator !== 'undefined' ? navigator.onLine : true
               }
             })
           });

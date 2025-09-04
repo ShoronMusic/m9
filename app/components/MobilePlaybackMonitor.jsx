@@ -112,21 +112,46 @@ export default function MobilePlaybackMonitor({
     if (!isVisible) {
       playbackStateRef.current.screenOffCount++;
       
+      // 画面OFF時の詳細情報を記録
+      const audioElements = document.querySelectorAll('audio, video');
+      const currentAudioState = Array.from(audioElements).map((audio, index) => ({
+        index,
+        paused: audio.paused,
+        currentTime: audio.currentTime,
+        duration: audio.duration,
+        readyState: audio.readyState,
+        networkState: audio.networkState,
+        error: audio.error ? audio.error.message : null
+      }));
+      
       logToAxiom('warning', 'screen_off', '画面がオフになりました', {
         screenOffCount: playbackStateRef.current.screenOffCount,
         isPlaying: playbackStateRef.current.isPlaying,
         lastPosition: playbackStateRef.current.lastPosition,
-        component: 'MobilePlaybackMonitor'
+        audioElements: currentAudioState,
+        timestamp: new Date().toISOString(),
+        component: 'MobilePlaybackMonitor',
+        // トークン状態の推測情報
+        hasSpotifyAuthError: sessionStorage.getItem('spotify_auth_error') === 'true',
+        hasSpotifyDeviceError: sessionStorage.getItem('spotify_device_error') === 'true'
       });
       
       if (onScreenStateChange) {
         onScreenStateChange(false);
       }
     } else {
+      // 画面復帰時の詳細情報を記録
+      const timeOffScreen = currentTime - playbackStateRef.current.lastUpdateTime;
+      
       logToAxiom('info', 'screen_on', '画面がオンになりました', {
         screenOffCount: playbackStateRef.current.screenOffCount,
         isPlaying: playbackStateRef.current.isPlaying,
-        component: 'MobilePlaybackMonitor'
+        timeOffScreen,
+        timestamp: new Date().toISOString(),
+        component: 'MobilePlaybackMonitor',
+        // トークン状態の推測情報
+        hasSpotifyAuthError: sessionStorage.getItem('spotify_auth_error') === 'true',
+        hasSpotifyDeviceError: sessionStorage.getItem('spotify_device_error') === 'true'
       });
       
       if (onScreenStateChange) {
