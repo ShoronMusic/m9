@@ -115,6 +115,34 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     }
   }, [accessToken]);
 
+  // トークンの有効性をチェックする関数
+  const checkTokenValidity = useCallback(async () => {
+    if (!accessToken) return false;
+    
+    try {
+      const response = await fetch('https://api.spotify.com/v1/me', {
+        headers: { 'Authorization': `Bearer ${accessToken}` }
+      });
+      
+      if (response.status === 401) {
+        // トークンが無効
+        console.warn('Spotify token is invalid (401)');
+        sessionStorage.setItem('spotify_auth_error', 'true');
+        return false;
+      }
+      
+      if (!response.ok) {
+        console.warn('Spotify token validation failed:', response.status);
+        return false;
+      }
+      
+      return true;
+    } catch (error) {
+      console.error('Token validation failed:', error);
+      return false;
+    }
+  }, [accessToken]);
+
   // エラーハンドリング関数
   const handleError = useCallback((error, context) => {
     console.error(`SpotifyPlayer error in ${context}:`, error);
@@ -433,34 +461,6 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       playerRef.current.setVolume(volume);
     }
   }, [deviceId, updatePlaybackState, resetPlayerState, triggerPlayNext, handleError, volume]);
-
-  // トークンの有効性をチェックする関数
-  const checkTokenValidity = useCallback(async () => {
-    if (!accessToken) return false;
-    
-    try {
-      const response = await fetch('https://api.spotify.com/v1/me', {
-        headers: { 'Authorization': `Bearer ${accessToken}` }
-      });
-      
-      if (response.status === 401) {
-        // トークンが無効
-        console.warn('Spotify token is invalid (401)');
-        sessionStorage.setItem('spotify_auth_error', 'true');
-        return false;
-      }
-      
-      if (!response.ok) {
-        console.warn('Spotify token validation failed:', response.status);
-        return false;
-      }
-      
-      return true;
-    } catch (error) {
-      console.error('Token validation failed:', error);
-      return false;
-    }
-  }, [accessToken]);
 
   // 認証エラーの監視
   useEffect(() => {
