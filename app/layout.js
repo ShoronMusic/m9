@@ -72,7 +72,7 @@ export default async function RootLayout({ children }) {
         <ErrorBoundary>
           <AuthProvider>
             <PlayerProvider>
-              <MobilePlaybackMonitor />
+              {typeof window !== 'undefined' && <MobilePlaybackMonitor />}
               <Layout>
                 {children}
               </Layout>

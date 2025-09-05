@@ -2,6 +2,10 @@
 
 import { useEffect, useRef, useCallback } from 'react';
 
+// グローバルな監視状態を管理
+let globalMonitorInstance = null;
+let globalMonitorCount = 0;
+
 export default function MobilePlaybackMonitor({ 
   onPlaybackError, 
   onAuthError, 
@@ -109,10 +113,17 @@ export default function MobilePlaybackMonitor({
     const isVisible = document.visibilityState === 'visible';
     const currentTime = Date.now();
     
+    // デバウンス処理：短時間での連続イベントを防ぐ
+    if (playbackStateRef.current.lastVisibilityChange && 
+        currentTime - playbackStateRef.current.lastVisibilityChange < 100) {
+      return;
+    }
+    playbackStateRef.current.lastVisibilityChange = currentTime;
+    
     if (!isVisible) {
       playbackStateRef.current.screenOffCount++;
       
-      // 画面OFF時の詳細情報を記録
+      // 画面OFF時の詳細情報を記録（デバッグレベルを下げる）
       const audioElements = document.querySelectorAll('audio, video');
       const currentAudioState = Array.from(audioElements).map((audio, index) => ({
         index,
@@ -124,7 +135,8 @@ export default function MobilePlaybackMonitor({
         error: audio.error ? audio.error.message : null
       }));
       
-      logToAxiom('warning', 'screen_off', '画面がオフになりました', {
+      // 画面オフは通常の動作なので、ログレベルをinfoに変更
+      logToAxiom('info', 'screen_off', '画面がオフになりました', {
         screenOffCount: playbackStateRef.current.screenOffCount,
         isPlaying: playbackStateRef.current.isPlaying,
         lastPosition: playbackStateRef.current.lastPosition,
@@ -240,8 +252,22 @@ export default function MobilePlaybackMonitor({
 
   // 初期化
   useEffect(() => {
+    // 複数インスタンスの防止
+    globalMonitorCount++;
+    
+    if (globalMonitorInstance) {
+      console.warn('MobilePlaybackMonitor: 既存の監視インスタンスが存在します。新しいインスタンスを無視します。');
+      return;
+    }
+    
+    globalMonitorInstance = {
+      playbackInterval: null,
+      cleanup: null
+    };
+    
     // 再生状態監視の開始
     const playbackInterval = setInterval(monitorPlaybackState, 1000);
+    globalMonitorInstance.playbackInterval = playbackInterval;
     
     // イベントリスナーの追加
     if (typeof document !== 'undefined') {
@@ -322,9 +348,12 @@ export default function MobilePlaybackMonitor({
       component: 'MobilePlaybackMonitor'
     });
     
-    // クリーンアップ
-    return () => {
-      clearInterval(playbackInterval);
+    // クリーンアップ関数を保存
+    const cleanup = () => {
+      if (globalMonitorInstance && globalMonitorInstance.playbackInterval) {
+        clearInterval(globalMonitorInstance.playbackInterval);
+      }
+      
       if (typeof document !== 'undefined') {
         document.removeEventListener('visibilitychange', handleVisibilityChange);
       }
@@ -346,11 +375,27 @@ export default function MobilePlaybackMonitor({
         // 元の関数を復元（必要に応じて）
         console.log('Wake Lock API monitoring cleaned up');
       }
+      
+      // グローバル状態をリセット
+      globalMonitorInstance = null;
+      globalMonitorCount = 0;
     };
+    
+    globalMonitorInstance.cleanup = cleanup;
+    
+    // クリーンアップ
+    return cleanup;
   }, [monitorPlaybackState, handleVisibilityChange, handleOnline, handleOffline, handleBatteryChange, handleBeforeUnload, logToAxiom]);
 
   // このコンポーネントはUIを表示しない
   return null;
+}
+
+// グローバルなクリーンアップ関数
+export function cleanupGlobalMonitor() {
+  if (globalMonitorInstance && globalMonitorInstance.cleanup) {
+    globalMonitorInstance.cleanup();
+  }
 }
 
 // 認証エラー監視用のフック
