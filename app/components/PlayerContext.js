@@ -49,6 +49,7 @@ export const PlayerProvider = ({ children }) => {
   // Wake Lock API
   const [wakeLock, setWakeLock] = useState(null);
   const [isWakeLockSupported, setIsWakeLockSupported] = useState(false);
+  const [wakeLockPersistenceTimer, setWakeLockPersistenceTimer] = useState(null);
 
   // プレイリスト更新をトリガーする関数
   const triggerPlaylistUpdate = useCallback(() => {
@@ -130,13 +131,19 @@ export const PlayerProvider = ({ children }) => {
     }
   }, [isWakeLockSupported, wakeLock]);
 
-  // Wake Lockの解放
+  // Wake Lockの解放（永続化対応版）
   const releaseWakeLock = useCallback(async () => {
     if (wakeLock) {
       try {
         await wakeLock.release();
         setWakeLock(null);
         console.log('🔒 Wake Lock released successfully');
+        
+        // 永続化タイマーをクリア
+        if (wakeLockPersistenceTimer) {
+          clearTimeout(wakeLockPersistenceTimer);
+          setWakeLockPersistenceTimer(null);
+        }
         
         // Axiomにログを送信
         try {
@@ -164,7 +171,7 @@ export const PlayerProvider = ({ children }) => {
         console.error('Failed to release wake lock:', error);
       }
     }
-  }, [wakeLock]);
+  }, [wakeLock, wakeLockPersistenceTimer]);
 
   // Stale closureを避けるために最新のステートをrefで保持
   const stateRef = useRef();
@@ -854,18 +861,49 @@ export const PlayerProvider = ({ children }) => {
     }
   }, [isPlaying, playTracker, currentTrack]);
 
-  // 再生状態に応じてWake Lockを管理
+  // 再生状態に応じてWake Lockを管理（最適化版）
   useEffect(() => {
     if (isPlaying && currentTrack && isWakeLockSupported) {
-      // 再生開始時にWake Lockを取得
-      requestWakeLock();
+      // 再生開始時にWake Lockを取得（既に取得済みの場合はスキップ）
+      if (!wakeLock) {
+        requestWakeLock();
+      }
     } else if (!isPlaying && wakeLock) {
-      // 再生停止時にWake Lockを解放
-      releaseWakeLock();
+      // 再生停止時にWake Lockを解放（ただし、短時間の停止の場合は維持）
+      // 連続再生の中断を防ぐため、少し遅延してから解放
+      const releaseTimer = setTimeout(() => {
+        if (!isPlaying && wakeLock) {
+          releaseWakeLock();
+        }
+      }, 2000); // 2秒の遅延
+      
+      return () => clearTimeout(releaseTimer);
     }
   }, [isPlaying, currentTrack, isWakeLockSupported, requestWakeLock, releaseWakeLock, wakeLock]);
 
-  // ページ可視性の監視
+  // Wake Lock永続化の管理
+  useEffect(() => {
+    if (wakeLock && isPlaying) {
+      // 既存の永続化タイマーをクリア
+      if (wakeLockPersistenceTimer) {
+        clearTimeout(wakeLockPersistenceTimer);
+      }
+      
+      // 新しい永続化タイマーを設定（5分間Wake Lockを維持）
+      const timer = setTimeout(() => {
+        if (wakeLock && isPlaying) {
+          console.log('🔒 Wake Lock persistence timer expired, but keeping for continuous playback');
+          // 連続再生中はWake Lockを維持
+        }
+      }, 5 * 60 * 1000); // 5分
+      
+      setWakeLockPersistenceTimer(timer);
+      
+      return () => clearTimeout(timer);
+    }
+  }, [wakeLock, isPlaying, wakeLockPersistenceTimer]);
+
+  // ページ可視性の監視（最適化版）
   useEffect(() => {
     if (typeof document === 'undefined') return;
 
@@ -877,9 +915,14 @@ export const PlayerProvider = ({ children }) => {
           requestWakeLock();
         }
       } else {
-        // ページが非表示になった時、Wake Lockを解放
-        if (wakeLock) {
-          console.log('🔒 Page became hidden, releasing Wake Lock');
+        // ページが非表示になった時、Wake Lockを即座に解放しない
+        // モバイルでの連続再生を維持するため、短時間の非表示では維持
+        if (wakeLock && isPlaying) {
+          console.log('🔒 Page became hidden, but keeping Wake Lock for continuous playback');
+          // 再生中の場合、Wake Lockを維持して連続再生を継続
+        } else if (wakeLock && !isPlaying) {
+          // 再生停止中の場合のみ解放
+          console.log('🔒 Page became hidden, releasing Wake Lock (not playing)');
           releaseWakeLock();
         }
       }
@@ -915,13 +958,19 @@ export const PlayerProvider = ({ children }) => {
       spotifyPlayerRef.current.pause();
     }
     
+    // Wake Lock永続化タイマーをクリア
+    if (wakeLockPersistenceTimer) {
+      clearTimeout(wakeLockPersistenceTimer);
+      setWakeLockPersistenceTimer(null);
+    }
+    
     // Wake Lockを解放
     if (wakeLock) {
       releaseWakeLock();
     }
     
     console.log('✅ PlayerContext - Player stopped completely');
-  }, [playTracker, wakeLock, releaseWakeLock]);
+  }, [playTracker, wakeLock, releaseWakeLock, wakeLockPersistenceTimer]);
 
   const value = {
     trackList,

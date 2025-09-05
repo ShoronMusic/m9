@@ -531,7 +531,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     return () => clearInterval(interval);
   }, [resetPlayerState, showAuthError, accessToken, initializePlayer, checkTokenValidity]);
 
-  // バックグラウンド時の状態チェック
+  // バックグラウンド時の状態チェック（モバイル最適化版）
   const checkBackgroundState = useCallback(async () => {
     if (!isReady || !playerRef.current || isPageVisible) return;
     
@@ -573,10 +573,13 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
           });
         }
         
-        // 曲が終了したかチェック
+        // 曲が終了したかチェック（モバイルでの誤検知を防ぐ）
         if (isTrackEnded(state, currentTrackIdRef.current)) {
-          resetPlayerState();
-          triggerPlayNext();
+          // モバイルでは少し遅延してから次の曲に移行
+          setTimeout(() => {
+            resetPlayerState();
+            triggerPlayNext();
+          }, 1000); // 1秒の遅延
         }
       }
     } catch (error) {
@@ -725,13 +728,15 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     }
   }, [deviceId, accessToken, handleError]);
 
-  // 曲の終了検知ロジックの簡素化
+  // 曲の終了検知ロジックの改善（モバイル対応）
   const isTrackEnded = useCallback((state, expectedTrackId) => {
     if (!expectedTrackId || !state) return false;
     
+    // モバイルでの連続再生を安定化するため、より厳密な条件を追加
     const basicConditions = (
       state.position === 0 &&
-      lastPositionRef.current > PLAYER_CONFIG.TRACK_END_THRESHOLD
+      lastPositionRef.current > PLAYER_CONFIG.TRACK_END_THRESHOLD &&
+      !isSeekingRef.current // シーク操作中は終了検知を無効化
     );
     
     if (!basicConditions) return false;
@@ -740,12 +745,17 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     const expectedTrackInPrevious = state.track_window.previous_tracks.find(t => t.id === expectedTrackId);
     if (expectedTrackInPrevious) {
       const currentPlayingTrackId = state.track_window.current_track?.id;
-      // 新しい曲が再生されているか、同じ曲のループの場合
-      return currentPlayingTrackId !== expectedTrackId || currentPlayingTrackId === expectedTrackId;
+      // 新しい曲が再生されている場合のみ終了とみなす
+      return currentPlayingTrackId !== expectedTrackId;
     }
     
-    // 一時停止状態で現在の曲がない場合
-    return state.paused && !state.track_window.current_track;
+    // 一時停止状態で現在の曲がない場合（モバイルでのバックグラウンド処理を考慮）
+    if (state.paused && !state.track_window.current_track) {
+      // モバイルでは短時間の一時停止でも終了とみなさない
+      return lastPositionRef.current > PLAYER_CONFIG.TRACK_END_THRESHOLD * 2;
+    }
+    
+    return false;
   }, []);
 
   useImperativeHandle(ref, () => ({
