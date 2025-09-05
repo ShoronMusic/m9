@@ -28,6 +28,14 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
   const playStartTimeRef = useRef(null);
   const playDurationRef = useRef(0);
   const hasRecordedRef = useRef(false); // 重複記録を防ぐフラグ
+  const volumeTimeoutRef = useRef(null); // ボリューム変更のデバウンス用
+  const playbackStateRef = useRef({ // プレイバック状態の詳細管理
+    isPlaying: false,
+    position: 0,
+    duration: 0,
+    trackId: null,
+    lastKnownPosition: 0
+  });
 
   // エラーリセット関数
   const resetError = () => {
@@ -58,7 +66,7 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
         getOAuthToken: cb => { 
           cb(accessToken); 
         },
-        volume: volume
+        volume: 0.3 // 初期ボリュームを固定値に設定
       });
       
       playerRef.current = player;
@@ -69,6 +77,13 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
         setDeviceId(device_id);
         setIsReady(true);
         setError(null);
+        
+        // プレイヤー初期化後に現在のボリューム値を設定
+        if (playerRef.current) {
+          playerRef.current.setVolume(volume).catch(error => {
+            console.log('⚠️ Could not set initial volume:', error);
+          });
+        }
       });
 
       player.addListener('not_ready', ({ device_id }) => {
@@ -115,9 +130,50 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
 
       player.addListener('player_state_changed', (state) => {
         if (state) {
-          setIsPlaying(!state.paused);
+          console.log('🎵 Player state changed:', {
+            paused: state.paused,
+            position: state.position,
+            duration: state.duration,
+            track_window: state.track_window,
+            current_track: state.track_window?.current_track
+          });
+          
+          // プレイバック状態を更新
+          const isCurrentlyPlaying = !state.paused;
+          setIsPlaying(isCurrentlyPlaying);
           setPosition(state.position);
           setDuration(state.duration);
+          
+          // プレイバック状態の詳細管理
+          playbackStateRef.current = {
+            isPlaying: isCurrentlyPlaying,
+            position: state.position || 0,
+            duration: state.duration || 0,
+            trackId: state.track_window?.current_track?.id || null,
+            lastKnownPosition: state.position || playbackStateRef.current.lastKnownPosition
+          };
+          
+          // 再生開始時刻の管理
+          if (isCurrentlyPlaying && !playStartTimeRef.current) {
+            playStartTimeRef.current = Date.now();
+            console.log('🎯 Playback started, setting start time');
+          } else if (!isCurrentlyPlaying && playStartTimeRef.current) {
+            // 一時停止時は開始時刻をリセットしない（再開時に継続）
+            console.log('⏸️ Playback paused, keeping start time for resume');
+          }
+          
+          // トラックが変更された場合の処理
+          if (state.track_window?.current_track?.id !== songData?.spotifyTrackId) {
+            console.log('🔄 Track changed, resetting playback state');
+            hasPlaybackStartedRef.current = false;
+            playStartTimeRef.current = null;
+            playDurationRef.current = 0;
+            hasRecordedRef.current = false;
+          }
+        } else {
+          console.log('⚠️ Player state is null - playback may have stopped');
+          setIsPlaying(false);
+          playbackStateRef.current.isPlaying = false;
         }
       });
       
@@ -156,7 +212,7 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
       }
     }
     }
-  }, [accessToken, volume]);
+  }, [accessToken]);
 
   // プレイヤーの状態をチェック
   const checkPlayerState = useCallback(async () => {
@@ -301,6 +357,12 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
         playerRef.current.disconnect();
         playerRef.current = null;
       }
+      
+      // ボリューム変更のタイムアウトをクリア
+      if (volumeTimeoutRef.current) {
+        clearTimeout(volumeTimeoutRef.current);
+        volumeTimeoutRef.current = null;
+      }
     };
   }, [accessToken, songData?.spotifyTrackId, initializePlayer]);
 
@@ -389,38 +451,50 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
     if (!isReady || !playerRef.current) return;
     
     try {
-      if (hasPlaybackStartedRef.current === false) {
-        // 初回再生開始
-        console.log('🎯 First time play, starting track...');
+      // 現在の状態を取得
+      const currentState = await playerRef.current.getCurrentState();
+      console.log('🎯 Current player state:', currentState);
+      
+      // プレイバック状態の詳細確認
+      const playbackState = playbackStateRef.current;
+      console.log('🎯 Playback state ref:', playbackState);
+      
+      if (hasPlaybackStartedRef.current === false || !currentState) {
+        // 初回再生開始または状態が取得できない場合
+        console.log('🎯 Starting track playback...');
         await playTrack(deviceId, songData.spotifyTrackId);
         hasPlaybackStartedRef.current = true;
         
         // 再生開始時刻は player_state_changed で設定されるため、ここでは設定しない
-        console.log('▶️ First time play initiated, start time will be set by player_state_changed');
+        console.log('▶️ Track playback initiated');
       } else {
         // 再生/一時停止の切り替え
         console.log('🔄 Toggling play/pause state');
         
-        // 現在の状態を取得して適切な操作を実行
-        const currentState = await playerRef.current.getCurrentState();
-        if (currentState) {
-          if (currentState.paused) {
-            // 一時停止中なので再生
-            await playerRef.current.resume();
-            console.log('▶️ Resuming playback');
-          } else {
-            // 再生中なので一時停止
-            await playerRef.current.pause();
-            console.log('⏸️ Pausing playback');
-          }
+        // 現在のトラックが正しいかチェック
+        const currentTrackId = currentState.track_window?.current_track?.id;
+        const expectedTrackId = songData.spotifyTrackId;
+        
+        if (currentTrackId !== expectedTrackId) {
+          console.log('🔄 Track mismatch, restarting with correct track:', {
+            current: currentTrackId,
+            expected: expectedTrackId
+          });
+          // トラックが異なる場合は再開
+          await playTrack(deviceId, songData.spotifyTrackId);
+          hasPlaybackStartedRef.current = true;
+        } else if (currentState.paused) {
+          // 一時停止中なので再生
+          console.log('▶️ Resuming playback from position:', currentState.position);
+          await playerRef.current.resume();
         } else {
-          // 状態が取得できない場合は togglePlay を使用
-          await playerRef.current.togglePlay();
-          console.log('🔄 Using togglePlay fallback');
+          // 再生中なので一時停止
+          console.log('⏸️ Pausing playback at position:', currentState.position);
+          await playerRef.current.pause();
         }
       }
     } catch (e) {
-      console.error('Failed to toggle play:', e);
+      console.error('❌ Failed to toggle play:', e);
       const errorMessage = e.message || '不明なエラーが発生しました';
       
       // リトライ回数を増やす
@@ -430,10 +504,24 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
       let detailedError = errorMessage;
       if (errorMessage.includes('no list was loaded')) {
         detailedError = 'プレイリストが読み込まれていません。Spotifyアプリで再生中の曲がある場合は停止してください。';
+        
+        // このエラーの場合は、プレイヤーを再初期化するオプションを提供
+        console.log('🔄 Attempting to reinitialize player due to "no list was loaded" error');
+        setTimeout(() => {
+          if (playerRef.current) {
+            playerRef.current.disconnect();
+            playerRef.current = null;
+          }
+          setIsReady(false);
+          hasPlaybackStartedRef.current = false;
+          initializePlayer();
+        }, 2000);
       } else if (errorMessage.includes('Premium')) {
         detailedError = 'Spotify Premiumアカウントが必要です。';
       } else if (errorMessage.includes('device')) {
         detailedError = 'デバイスの接続に失敗しました。ブラウザを再読み込みしてください。';
+      } else if (errorMessage.includes('authentication')) {
+        detailedError = '認証エラーが発生しました。再度ログインしてください。';
       }
       
       setError(`再生エラー: ${detailedError}`);
@@ -471,11 +559,64 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
     });
   };
 
-  const handleVolumeChange = (newVolume) => {
-    if (!isReady || !playerRef.current) return;
+  // シンプルなボリューム変更関数（デバウンス処理なし）
+  const handleVolumeChangeDebounced = (newVolume) => {
     const volumeValue = parseFloat(newVolume);
+    
+    // ボリューム値の検証
+    if (isNaN(volumeValue) || volumeValue < 0 || volumeValue > 1) {
+      console.error('❌ Invalid volume value:', volumeValue);
+      setError(`無効なボリューム値です: ${volumeValue}`);
+      return;
+    }
+    
+    // 既存のタイムアウトをクリア
+    if (volumeTimeoutRef.current) {
+      clearTimeout(volumeTimeoutRef.current);
+    }
+    
+    // ローカル状態を即座に更新（UIの応答性を保つ）
     setVolume(volumeValue);
-    playerRef.current.setVolume(volumeValue).catch(e => console.error("Failed to set volume", e));
+    
+    // デバウンス処理：200ms後にSpotifyプレイヤーに送信
+    volumeTimeoutRef.current = setTimeout(() => {
+      if (!isReady || !playerRef.current) {
+        console.log('⚠️ Volume change: Player not ready');
+        return;
+      }
+      
+      try {
+        console.log('🎚️ Volume change - setting volume to:', volumeValue);
+        
+        // ボリューム設定のみを実行（プレイバック状態は変更しない）
+        playerRef.current.setVolume(volumeValue)
+          .then(() => {
+            console.log('✅ Volume set successfully:', volumeValue);
+          })
+          .catch(error => {
+            console.error('❌ Failed to set volume:', error);
+            
+            // エラーメッセージを日本語化
+            let errorMessage = 'ボリュームの設定に失敗しました';
+            if (error.message && error.message.includes('authentication')) {
+              errorMessage = '認証エラー: ボリューム設定に失敗しました。再度ログインしてください。';
+            } else if (error.message && error.message.includes('device')) {
+              errorMessage = 'デバイスエラー: プレイヤーが応答しません。ページを再読み込みしてください。';
+            } else if (error.message) {
+              errorMessage = `ボリューム設定エラー: ${error.message}`;
+            }
+            
+            setError(errorMessage);
+          });
+      } catch (error) {
+        console.error('❌ Volume change error:', error);
+        setError(`ボリューム変更エラー: ${error.message || '不明なエラーが発生しました'}`);
+      }
+    }, 200);
+  };
+
+  const handleVolumeChange = (newVolume) => {
+    handleVolumeChangeDebounced(newVolume);
   }
 
   const toggleRepeat = async () => {
@@ -520,6 +661,11 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
             <li>ブラウザでポップアップがブロックされていないか確認してください</li>
             <li>Spotifyアプリで再生中の曲がある場合は停止してください</li>
             <li>Chrome、Firefox、Safariの最新版を使用してください</li>
+            {error.includes('no list was loaded') && (
+              <li style={{ color: '#dc3545', fontWeight: 'bold' }}>
+                ⚠️ プレイリストが読み込まれていません。数秒後に自動で再試行されます。
+              </li>
+            )}
           </ul>
         </div>
 
@@ -702,14 +848,28 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
             <path d="M11 5L6 9H2V15H6L11 19V5Z" stroke="#ccc" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M15.54 8.46C16.4816 9.40422 17.0099 10.6695 17.0099 11.995C17.0099 13.3205 16.4816 14.5858 15.54 15.53" stroke="#ccc" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
+          <span style={{ 
+            color: '#ccc', 
+            fontSize: '0.8em', 
+            minWidth: '35px',
+            textAlign: 'right'
+          }}>
+            {Math.round(volume * 100)}%
+          </span>
           <input 
             type="range"
             min="0"
             max="1"
             step="0.01"
             value={volume}
-            onChange={(e) => handleVolumeChange(e.target.value)}
+            onChange={(e) => {
+              // デバウンス処理付きでボリューム変更を処理
+              const newVolume = e.target.value;
+              console.log('🎚️ Volume slider changed:', newVolume);
+              handleVolumeChange(newVolume);
+            }}
             style={{ flex: 1 }}
+            title={`ボリューム: ${Math.round(volume * 100)}%`}
           />
         </div>
       </div>
