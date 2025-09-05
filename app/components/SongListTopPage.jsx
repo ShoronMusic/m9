@@ -675,7 +675,13 @@ export default function SongListTopPage({
 			)}
 
 			<ul className={styles.songList}>
-				{songs.map((song, index) => {
+				{songs
+					.filter(song => {
+						// spotifyTrackIdが存在する曲のみを表示
+						const spotifyTrackId = song.acf?.spotify_track_id || song.spotifyTrackId;
+						return spotifyTrackId && spotifyTrackId.trim() !== '';
+					})
+					.map((song, index) => {
 					const categories = song.custom_fields?.categories || song.categories || [];
 					let artistElements;
 					if (Array.isArray(song.artists) && song.artists.length > 0) {

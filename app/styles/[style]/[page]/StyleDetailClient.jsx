@@ -42,13 +42,19 @@ export default function StyleDetailClient({ styleData }) {
           <div>
             <h2>曲一覧</h2>
             <ul>
-              {styleData.songs.map((song, idx) => (
-                <li key={idx}>
-                  <a href={`/${song.artists?.[0]?.slug || 'unknown-artist'}/songs/${song.titleSlug || song.slug || song.title?.rendered || song.id}`}>
-                    {song.title?.rendered || song.title}
-                  </a>
-                </li>
-              ))}
+              {styleData.songs
+                .filter(song => {
+                  // spotifyTrackIdが存在する曲のみを表示
+                  const spotifyTrackId = song.acf?.spotify_track_id || song.spotifyTrackId;
+                  return spotifyTrackId && spotifyTrackId.trim() !== '';
+                })
+                .map((song, idx) => (
+                  <li key={idx}>
+                    <a href={`/${song.artists?.[0]?.slug || 'unknown-artist'}/songs/${song.titleSlug || song.slug || song.title?.rendered || song.id}`}>
+                      {song.title?.rendered || song.title}
+                    </a>
+                  </li>
+                ))}
             </ul>
           </div>
         )}

@@ -497,12 +497,18 @@ export default function SongList({
     }
   }, [menuVisible]);
 
-  // 安全な曲データの生成（idを必ずセット）
+  // 安全な曲データの生成（idを必ずセット）とspotifyTrackIdフィルタリング
   const safeSongs = useMemo(() => {
-    return songs.map(song => ({
-      ...song,
-      id: song.id || song.spotifyTrackId || `temp_${Math.random()}`
-    }));
+    return songs
+      .filter(song => {
+        // spotifyTrackIdが存在する曲のみを表示
+        const spotifyTrackId = song.acf?.spotify_track_id || song.spotifyTrackId;
+        return spotifyTrackId && spotifyTrackId.trim() !== '';
+      })
+      .map(song => ({
+        ...song,
+        id: song.id || song.spotifyTrackId || `temp_${Math.random()}`
+      }));
   }, [songs]);
 
   // スタイルページ閲覧時に曲の項目を確認するログ

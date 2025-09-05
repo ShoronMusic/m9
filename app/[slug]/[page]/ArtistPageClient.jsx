@@ -141,8 +141,14 @@ export default function ArtistPageClient({
     enableReporting: true
   });
 
-  // SongListが期待する形式に変換
-  const normalizedSongs = (safeSongs || []).map(song => {
+  // SongListが期待する形式に変換（spotifyTrackIdが空の曲をフィルタリング）
+  const normalizedSongs = (safeSongs || [])
+    .filter(song => {
+      // spotifyTrackIdが存在する曲のみを表示
+      const spotifyTrackId = song.acf?.spotify_track_id || song.spotifyTrackId;
+      return spotifyTrackId && spotifyTrackId.trim() !== '';
+    })
+    .map(song => {
     // アーティスト情報の正規化（StylePageClientから流用）
     // アーティストページでは、曲の `custom_fields.categories` にアーティスト情報が入っている
     let artists = [];
