@@ -47,34 +47,71 @@ export default function SessionRecoveryIndicator({
   }
 
   const handleManualRecovery = async () => {
+    console.log('🔄 SessionRecoveryIndicator: handleManualRecovery called', {
+      hasOnManualRecovery: !!onManualRecovery,
+      isRetrying,
+      retryCount
+    });
+
     if (onManualRecovery && !isRetrying) {
       setIsRetrying(true);
       setRetryCount(prev => prev + 1);
       
       try {
+        console.log('🔄 SessionRecoveryIndicator: calling onManualRecovery...');
         const success = await onManualRecovery();
+        console.log('🔄 SessionRecoveryIndicator: onManualRecovery result:', success);
+        
         if (success) {
+          console.log('✅ SessionRecoveryIndicator: Manual recovery successful, hiding banner');
           setIsVisible(false);
         } else {
+          console.log('❌ SessionRecoveryIndicator: Manual recovery failed, showing manual option');
           setShowManualOption(true);
         }
       } catch (error) {
-        console.error('Manual recovery failed:', error);
+        console.error('❌ SessionRecoveryIndicator: Manual recovery error:', {
+          message: error.message,
+          stack: error.stack,
+          name: error.name
+        });
         setShowManualOption(true);
       } finally {
         setIsRetrying(false);
       }
+    } else {
+      console.log('⏭️ SessionRecoveryIndicator: Manual recovery skipped', {
+        reason: !onManualRecovery ? 'no callback' : 'already retrying'
+      });
     }
   };
 
   const handleReLogin = () => {
-    if (onReLogin) {
-      onReLogin();
-    } else {
-      // デフォルトの再ログイン処理
-      signIn('spotify', { callbackUrl: window.location.href });
+    console.log('🔄 SessionRecoveryIndicator: handleReLogin called', {
+      hasOnReLogin: !!onReLogin,
+      currentUrl: typeof window !== 'undefined' ? window.location.href : 'unknown'
+    });
+
+    try {
+      if (onReLogin) {
+        console.log('🔄 SessionRecoveryIndicator: calling onReLogin callback...');
+        onReLogin();
+        console.log('✅ SessionRecoveryIndicator: onReLogin callback called successfully');
+      } else {
+        console.log('🔄 SessionRecoveryIndicator: using default signIn...');
+        // デフォルトの再ログイン処理
+        signIn('spotify', { callbackUrl: window.location.href });
+        console.log('✅ SessionRecoveryIndicator: signIn called successfully');
+      }
+      console.log('🔄 SessionRecoveryIndicator: hiding banner after re-login');
+      setIsVisible(false);
+    } catch (error) {
+      console.error('❌ SessionRecoveryIndicator: handleReLogin error:', {
+        message: error.message,
+        stack: error.stack,
+        name: error.name
+      });
     }
-    setIsVisible(false);
   };
 
   const handleDismiss = () => {
