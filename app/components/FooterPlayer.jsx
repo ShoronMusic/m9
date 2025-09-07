@@ -45,20 +45,11 @@ function getThumbnailUrl(track) {
     const fileName = track.thumbnail.split("/").pop();
     if (cloudinaryNotFoundCache.has(fileName)) {
       if (webpNotFoundCache.has(fileName)) {
-        console.log('🖼️ FooterPlayer - Using cached original URL for:', fileName);
         return track.thumbnail;
       }
-      console.log('🖼️ FooterPlayer - Using cached WebP fallback for:', fileName);
       return convertToWebPUrl(track.thumbnail);
     }
     const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
-    console.log('🖼️ FooterPlayer - Thumbnail URL conversion:', {
-      original: track.thumbnail,
-      fileName: fileName,
-      baseUrl: CLOUDINARY_BASE_URL,
-      cloudinary: cloudinaryUrl,
-      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
-    });
     return cloudinaryUrl;
   }
   
@@ -66,20 +57,11 @@ function getThumbnailUrl(track) {
     const fileName = track.featured_media_url.split("/").pop();
     if (cloudinaryNotFoundCache.has(fileName)) {
       if (webpNotFoundCache.has(fileName)) {
-        console.log('🖼️ FooterPlayer - Using cached original URL for:', fileName);
         return track.featured_media_url;
       }
-      console.log('🖼️ FooterPlayer - Using cached WebP fallback for:', fileName);
       return convertToWebPUrl(track.featured_media_url);
     }
     const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
-    console.log('🖼️ FooterPlayer - Thumbnail URL conversion:', {
-      original: track.featured_media_url,
-      fileName: fileName,
-      baseUrl: CLOUDINARY_BASE_URL,
-      cloudinary: cloudinaryUrl,
-      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
-    });
     return cloudinaryUrl;
   }
   

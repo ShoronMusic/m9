@@ -64,21 +64,21 @@ export const PlayerProvider = ({ children }) => {
 
     // ページが可視状態でない場合はWake Lockを取得しない
     if (typeof document !== 'undefined' && document.visibilityState !== 'visible') {
-      console.log('🔒 Wake Lock request skipped - page not visible');
       return;
     }
 
     try {
+      if (typeof navigator === 'undefined' || !navigator.wakeLock) {
+        return;
+      }
       const wakeLockInstance = await navigator.wakeLock.request('screen');
       setWakeLock(wakeLockInstance);
       
       // Wake Lockが解放された時のイベント
       wakeLockInstance.addEventListener('release', () => {
-        console.log('🔒 Wake Lock was released');
         setWakeLock(null);
       });
 
-      console.log('🔒 Wake Lock acquired successfully');
       
       // Axiomにログを送信
       try {
@@ -119,8 +119,8 @@ export const PlayerProvider = ({ children }) => {
             details: {
               error: error.message,
               isMobile: typeof window !== 'undefined' ? window.innerWidth <= 768 : false,
-              platform: navigator.platform,
-              userAgent: navigator.userAgent,
+              platform: typeof navigator !== 'undefined' ? navigator.platform : 'unknown',
+              userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : 'unknown',
               component: 'PlayerContext'
             }
           })
@@ -158,8 +158,8 @@ export const PlayerProvider = ({ children }) => {
               message: 'Wake Lockを解放しました',
               details: {
                 isMobile: typeof window !== 'undefined' ? window.innerWidth <= 768 : false,
-                platform: navigator.platform,
-                userAgent: navigator.userAgent,
+                platform: typeof navigator !== 'undefined' ? navigator.platform : 'unknown',
+                userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : 'unknown',
                 component: 'PlayerContext'
               }
             })
@@ -305,9 +305,8 @@ export const PlayerProvider = ({ children }) => {
     });
 
     // Wake Lock APIのサポート確認
-    if ('wakeLock' in navigator) {
+    if (typeof navigator !== 'undefined' && 'wakeLock' in navigator) {
       setIsWakeLockSupported(true);
-      console.log('🔒 Wake Lock API is supported');
     } else {
       console.log('⚠️ Wake Lock API is not supported');
     }

@@ -67,15 +67,6 @@ function convertToWebPUrl(originalUrl) {
 
 // サムネイルURLを取得する関数（SongList.jsと同じロジック）
 function getThumbnailUrl(song) {
-  console.log('🖼️ PlaylistSongList - getThumbnailUrl called with:', {
-    songId: song.id,
-    songTitle: song.title,
-    thumbnail: song.thumbnail,
-    featured_media_url: song.featured_media_url,
-    thumbnail_url: song.thumbnail_url,
-    youtubeId: song.youtubeId,
-    allKeys: Object.keys(song)
-  });
   
   // thumbnail_urlを優先して処理（Supabaseからのデータ）
   const thumbnailUrl = song.thumbnail_url || song.thumbnail;
@@ -83,20 +74,11 @@ function getThumbnailUrl(song) {
     const fileName = thumbnailUrl.split("/").pop();
     if (cloudinaryNotFoundCache.has(fileName)) {
       if (webpNotFoundCache.has(fileName)) {
-        console.log('🖼️ PlaylistSongList - Using cached original URL for:', fileName);
         return thumbnailUrl;
       }
-      console.log('🖼️ PlaylistSongList - Using cached WebP fallback for:', fileName);
       return convertToWebPUrl(thumbnailUrl);
     }
     const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
-    console.log('🖼️ PlaylistSongList - Thumbnail URL conversion:', {
-      original: thumbnailUrl,
-      fileName: fileName,
-      baseUrl: CLOUDINARY_BASE_URL,
-      cloudinary: cloudinaryUrl,
-      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
-    });
     return cloudinaryUrl;
   }
   
@@ -104,33 +86,19 @@ function getThumbnailUrl(song) {
     const fileName = song.featured_media_url.split("/").pop();
     if (cloudinaryNotFoundCache.has(fileName)) {
       if (webpNotFoundCache.has(fileName)) {
-        console.log('🖼️ PlaylistSongList - Using cached original URL for:', fileName);
         return song.featured_media_url;
       }
-      console.log('🖼️ PlaylistSongList - Using cached WebP fallback for:', fileName);
       return convertToWebPUrl(song.featured_media_url);
     }
     const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
-    console.log('🖼️ PlaylistSongList - Thumbnail URL conversion:', {
-      original: song.featured_media_url,
-      fileName: fileName,
-      baseUrl: CLOUDINARY_BASE_URL,
-      cloudinary: cloudinaryUrl,
-      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
-    });
     return cloudinaryUrl;
   }
   
   // YouTube IDからサムネイルを生成
   if (song.youtubeId) {
-    console.log('🖼️ PlaylistSongList - Using YouTube thumbnail for:', song.youtubeId);
     return `https://img.youtube.com/vi/${song.youtubeId}/mqdefault.jpg`;
   }
   
-  console.log('🖼️ PlaylistSongList - No thumbnail found, using placeholder for:', {
-    songId: song.id,
-    songTitle: song.title
-  });
   return '/placeholder.jpg';
 }
 

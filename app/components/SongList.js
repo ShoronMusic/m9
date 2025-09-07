@@ -39,10 +39,6 @@ function convertToWebPUrl(originalUrl) {
   // JPG/JPEG/PNGの場合はWebPに変換
   if (['jpg', 'jpeg', 'png'].includes(extension)) {
     const webpUrl = originalUrl.substring(0, lastDotIndex) + '.webp';
-    console.log('🖼️ SongList - Converting to WebP:', {
-      original: originalUrl,
-      webp: webpUrl
-    });
     return webpUrl;
   }
   
@@ -79,23 +75,14 @@ function getThumbnailUrl(song) {
     if (cloudinaryNotFoundCache.has(fileName)) {
       // WebP形式も存在しないことが確認されている場合は、元のURLを返す
       if (webpNotFoundCache.has(fileName)) {
-        console.log('🖼️ SongList - Using cached original URL for:', fileName);
         return song.thumbnail;
       }
       // WebP形式のURLを返す（WebPは99%存在するため優先）
-      console.log('🖼️ SongList - Using cached WebP fallback for:', fileName);
       return convertToWebPUrl(song.thumbnail);
     }
     
     // WebPファイルが99%存在するため、Cloudinary URLを直接試す
     const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
-    console.log('🖼️ SongList - Thumbnail URL conversion:', {
-      original: song.thumbnail,
-      fileName: fileName,
-      baseUrl: CLOUDINARY_BASE_URL,
-      cloudinary: cloudinaryUrl,
-      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
-    });
     return cloudinaryUrl;
   }
   
@@ -107,23 +94,14 @@ function getThumbnailUrl(song) {
     if (cloudinaryNotFoundCache.has(fileName)) {
       // WebP形式も存在しないことが確認されている場合は、元のURLを返す
       if (webpNotFoundCache.has(fileName)) {
-        console.log('🖼️ SongList - Using cached original URL for featured media:', fileName);
         return song.featured_media_url;
       }
       // WebP形式のURLを返す
-      console.log('🖼️ SongList - Using cached WebP fallback for featured media:', fileName);
       return convertToWebPUrl(song.featured_media_url);
     }
     
     // WebPファイルが99%存在するため、Cloudinary URLを直接試す
     const cloudinaryUrl = `${CLOUDINARY_BASE_URL}${fileName}`;
-    console.log('🖼️ SongList - Featured media URL conversion:', {
-      original: song.featured_media_url,
-      fileName: fileName,
-      baseUrl: CLOUDINARY_BASE_URL,
-      cloudinary: cloudinaryUrl,
-      expectedFormat: 'https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/[filename]'
-    });
     return cloudinaryUrl;
   }
   

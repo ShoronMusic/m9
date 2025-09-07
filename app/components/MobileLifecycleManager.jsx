@@ -192,7 +192,9 @@ export default function MobileLifecycleManager({
     // 初期状態を設定
     isActive.current = document.visibilityState === 'visible';
     lastActivityTime.current = Date.now();
-    networkStatusRef.current = navigator.onLine;
+    if (typeof navigator !== 'undefined') {
+      networkStatusRef.current = navigator.onLine;
+    }
 
     // イベントリスナーを追加
     document.addEventListener('visibilitychange', handleVisibilityChange);

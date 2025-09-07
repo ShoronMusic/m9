@@ -2,7 +2,7 @@
 
 // Service Worker の登録
 export const registerServiceWorker = async () => {
-  if ('serviceWorker' in navigator) {
+  if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator) {
     try {
       const registration = await navigator.serviceWorker.register('/sw.js', {
         scope: '/'
@@ -14,7 +14,7 @@ export const registerServiceWorker = async () => {
       registration.addEventListener('updatefound', () => {
         const newWorker = registration.installing;
         newWorker.addEventListener('statechange', () => {
-          if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+          if (newWorker.state === 'installed' && typeof navigator !== 'undefined' && navigator.serviceWorker.controller) {
             // 新しいService Workerが利用可能
             console.log('New Service Worker available');
           }
@@ -32,7 +32,7 @@ export const registerServiceWorker = async () => {
 
 // プレイヤー状態をService Workerに送信
 export const updatePlayerStateInSW = (state) => {
-  if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+  if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator && navigator.serviceWorker.controller) {
     navigator.serviceWorker.controller.postMessage({
       type: 'UPDATE_PLAYER_STATE',
       state
@@ -43,7 +43,7 @@ export const updatePlayerStateInSW = (state) => {
 // Service Workerからプレイヤー状態を取得
 export const getPlayerStateFromSW = () => {
   return new Promise((resolve) => {
-    if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+    if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator && navigator.serviceWorker.controller) {
       const channel = new MessageChannel();
       
       channel.port1.onmessage = (event) => {
@@ -85,7 +85,7 @@ export const requestNotificationPermission = async () => {
 
 // オフライン状態の検出
 export const isOnline = () => {
-  return navigator.onLine;
+  return typeof navigator !== 'undefined' ? navigator.onLine : true;
 };
 
 // オンライン/オフライン状態の監視
@@ -109,7 +109,7 @@ export const onOnlineStatusChange = (callback) => {
 
 // バッテリー状態の監視（対応ブラウザのみ）
 export const getBatteryInfo = async () => {
-  if ('getBattery' in navigator) {
+  if (typeof navigator !== 'undefined' && 'getBattery' in navigator) {
     try {
       const battery = await navigator.getBattery();
       return {
@@ -157,6 +157,19 @@ export const optimizeForBackground = (isBackground) => {
 
 // デバイス情報の取得
 export const getDeviceInfo = () => {
+  if (typeof navigator === 'undefined') {
+    return {
+      isMobile: false,
+      isIOS: false,
+      isAndroid: false,
+      userAgent: '',
+      platform: '',
+      language: '',
+      cookieEnabled: false,
+      onLine: true
+    };
+  }
+  
   const userAgent = navigator.userAgent;
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
   const isIOS = /iPad|iPhone|iPod/.test(userAgent);

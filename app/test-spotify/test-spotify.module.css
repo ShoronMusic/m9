@@ -1,0 +1,342 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1db954;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.trackInfo {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 2rem;
+  border: 2px solid #e9ecef;
+}
+
+.trackInfo h2 {
+  color: #333;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+}
+
+.trackCard {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.thumbnail {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trackDetails h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 0 0 8px 0;
+  font-weight: 600;
+}
+
+.artists {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0 0 8px 0;
+  font-weight: 500;
+}
+
+.album {
+  font-size: 1rem;
+  color: #888;
+  margin: 0 0 8px 0;
+}
+
+.duration {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 0 8px 0;
+}
+
+.trackId {
+  font-size: 0.8rem;
+  color: #999;
+  font-family: monospace;
+  background: #f1f3f4;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0 0 12px 0;
+}
+
+.spotifyLink {
+  display: inline-block;
+  background: #1db954;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.spotifyLink:hover {
+  background: #1ed760;
+}
+
+.controls {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.testButton {
+  background: #1db954;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.testButton:hover:not(:disabled) {
+  background: #1ed760;
+  transform: translateY(-1px);
+}
+
+.testButton:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.clearButton {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.clearButton:hover {
+  background: #5a6268;
+  transform: translateY(-1px);
+}
+
+.results {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 2rem;
+}
+
+.results h2 {
+  color: #333;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+}
+
+.noResults {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  padding: 40px;
+}
+
+.resultsList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.resultItem {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  border-left: 4px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resultItem.success {
+  border-left-color: #28a745;
+}
+
+.resultItem.error {
+  border-left-color: #dc3545;
+}
+
+.resultItem.warning {
+  border-left-color: #ffc107;
+}
+
+.resultItem.info {
+  border-left-color: #17a2b8;
+}
+
+.resultHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.testName {
+  font-weight: 600;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.resultItem.success .status {
+  background: #d4edda;
+  color: #155724;
+}
+
+.resultItem.error .status {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.resultItem.warning .status {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.resultItem.info .status {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  color: #666;
+  font-family: monospace;
+}
+
+.resultMessage {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.resultDetails {
+  margin-top: 8px;
+}
+
+.resultDetails summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.resultDetails pre {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  overflow-x: auto;
+  border: 1px solid #e9ecef;
+}
+
+.currentStatus {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.currentStatus h2 {
+  color: #333;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+}
+
+.statusGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.statusItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statusLabel {
+  font-weight: 500;
+  color: #333;
+}
+
+.statusSuccess {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.statusError {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.statusInfo {
+  color: #17a2b8;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .trackCard {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .thumbnail {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .controls {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .statusGrid {
+    grid-template-columns: 1fr;
+  }
+}
+

@@ -91,13 +91,15 @@ class ErrorBoundary extends React.Component {
       };
       
       // エラー報告をクリップボードにコピー
-      navigator.clipboard.writeText(JSON.stringify(errorReport, null, 2))
-        .then(() => {
-          alert('エラー情報がクリップボードにコピーされました。サポートチームにお送りください。');
-        })
-        .catch(() => {
-          alert('エラー情報のコピーに失敗しました。');
-        });
+      if (typeof navigator !== 'undefined' && navigator.clipboard) {
+        navigator.clipboard.writeText(JSON.stringify(errorReport, null, 2))
+          .then(() => {
+            alert('エラー情報がクリップボードにコピーされました。サポートチームにお送りください。');
+          })
+          .catch(() => {
+            alert('エラー情報のコピーに失敗しました。');
+          });
+      }
     }
   };
 

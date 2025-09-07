@@ -280,7 +280,7 @@ export default function MobilePlaybackMonitor({
     }
     
     // バッテリー監視の開始
-    if ('getBattery' in navigator) {
+    if (typeof navigator !== 'undefined' && 'getBattery' in navigator) {
       navigator.getBattery().then((battery) => {
         battery.addEventListener('levelchange', handleBatteryChange);
         battery.addEventListener('chargingchange', handleBatteryChange);
@@ -289,7 +289,7 @@ export default function MobilePlaybackMonitor({
     }
     
     // Wake Lock APIの監視
-    if ('wakeLock' in navigator) {
+    if (typeof navigator !== 'undefined' && 'wakeLock' in navigator) {
       // Wake Lockの状態変化を監視
       const originalRequest = navigator.wakeLock.request;
       
@@ -298,7 +298,6 @@ export default function MobilePlaybackMonitor({
         try {
           // ページが可視状態でない場合はWake Lockを取得しない
           if (typeof document !== 'undefined' && document.visibilityState !== 'visible') {
-            console.log('🔒 Wake Lock request skipped - page not visible');
             throw new Error('The requesting page is not visible');
           }
 
@@ -363,7 +362,7 @@ export default function MobilePlaybackMonitor({
         window.removeEventListener('beforeunload', handleBeforeUnload);
       }
       
-      if ('getBattery' in navigator) {
+      if (typeof navigator !== 'undefined' && 'getBattery' in navigator) {
         navigator.getBattery().then((battery) => {
           battery.removeEventListener('levelchange', handleBatteryChange);
           battery.removeEventListener('chargingchange', handleBatteryChange);
@@ -371,9 +370,8 @@ export default function MobilePlaybackMonitor({
       }
 
       // Wake Lock APIの復元
-      if ('wakeLock' in navigator && navigator.wakeLock.request !== navigator.wakeLock.request) {
+      if (typeof navigator !== 'undefined' && 'wakeLock' in navigator && navigator.wakeLock.request !== navigator.wakeLock.request) {
         // 元の関数を復元（必要に応じて）
-        console.log('Wake Lock API monitoring cleaned up');
       }
       
       // グローバル状態をリセット
