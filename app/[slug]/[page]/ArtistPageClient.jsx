@@ -384,6 +384,7 @@ export default function ArtistPageClient({
         <SessionRecoveryIndicator
           isRecovering={isRecovering}
           onManualRecovery={handleManualRecovery}
+          onReLogin={handleReLogin}
           onDismiss={() => {}}
         />
 

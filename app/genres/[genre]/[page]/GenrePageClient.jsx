@@ -276,6 +276,7 @@ export default function GenrePageClient({
         <SessionRecoveryIndicator
           isRecovering={isRecovering}
           onManualRecovery={handleManualRecovery}
+          onReLogin={handleReLogin}
           onDismiss={() => {}}
         />
 

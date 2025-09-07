@@ -344,6 +344,7 @@ export default function StylePageClient({ styleData, initialPage = 1, autoPlayFi
         <SessionRecoveryIndicator
           isRecovering={isRecovering}
           onManualRecovery={handleManualRecovery}
+          onReLogin={handleReLogin}
           onDismiss={() => {}}
         />
 
