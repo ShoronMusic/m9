@@ -498,6 +498,7 @@ export default function SongDetailClient({ songData, description, accessToken })
         <SessionRecoveryIndicator
           isRecovering={isRecovering}
           onManualRecovery={handleManualRecovery}
+          onReLogin={handleReLogin}
           onDismiss={() => {}}
         />
 

@@ -346,6 +346,7 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 				<SessionRecoveryIndicator
 					isRecovering={isRecovering}
 					onManualRecovery={handleManualRecovery}
+					onReLogin={handleReLogin}
 					onDismiss={() => {}}
 				/>
 

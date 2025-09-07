@@ -120,6 +120,36 @@
   background: #f57c00;
 }
 
+.retryButton:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.reLoginButton {
+  background: #1db954;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.reLoginButton:hover {
+  background: #1ed760;
+}
+
+.retryInfo {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 4px;
+  font-style: italic;
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -176,5 +206,16 @@
     width: 100%;
     padding: 8px 12px;
     font-size: 0.85em;
+  }
+  
+  .reLoginButton {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 0.85em;
+  }
+  
+  .manualActions {
+    flex-direction: column;
+    gap: 8px;
   }
 }
