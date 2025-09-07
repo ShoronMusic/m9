@@ -222,13 +222,13 @@ export default function IsolatedSpotifyTest() {
 
   return (
     <div className={styles.container}>
-      <h1>Spotify ストリーム再生テスト</h1>
+      <h1 className={styles.title}>Spotify ストリーム再生テスト</h1>
       
       <div className={styles.trackInfo}>
-        <h2>テスト対象トラック</h2>
+        <h2 className={styles.subtitle}>テスト対象トラック</h2>
         <div className={styles.trackDetails}>
           <div className={styles.albumArt}>
-            <img src="https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69" alt="Album Art" />
+            <img src="https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69" alt="Album Art" className={styles.albumArtImage} />
           </div>
           <div className={styles.trackInfoText}>
             <p><strong>Every Breath You Take</strong></p>
@@ -263,7 +263,7 @@ export default function IsolatedSpotifyTest() {
 
       {/* 現在の状態表示 */}
       <div className={styles.currentStatus}>
-        <h3>現在の状態</h3>
+        <h3 className={styles.subtitle}>現在の状態</h3>
         <div className={styles.statusItems}>
           <div className={styles.statusItem}>
             <span className={styles.statusLabel}>ログイン状態:</span>
@@ -289,7 +289,7 @@ export default function IsolatedSpotifyTest() {
       {/* 現在再生中のトラック情報 */}
       {currentTrack && (
         <div className={styles.currentTrack}>
-          <h3>現在再生中のトラック</h3>
+          <h3 className={styles.subtitle}>現在再生中のトラック</h3>
           <div className={styles.trackDisplay}>
             <img 
               src={currentTrack.album.images[0]?.url} 
@@ -307,7 +307,7 @@ export default function IsolatedSpotifyTest() {
       {/* シンプルなコントロール */}
       {accessToken && (
         <div className={styles.simpleControls}>
-          <h3>再生コントロール</h3>
+          <h3 className={styles.subtitle}>再生コントロール</h3>
           <div className={styles.controlButtons}>
             <button 
               onClick={() => playTrack(accessToken, deviceId)} 
@@ -327,7 +327,7 @@ export default function IsolatedSpotifyTest() {
       )}
 
       <div className={styles.results}>
-        <h3>テスト結果</h3>
+        <h3 className={styles.resultsTitle}>テスト結果</h3>
         {testResults.map((result) => (
           <div key={result.id} className={`${styles.resultCard} ${styles[result.type]}`}>
             <div className={styles.resultHeader}>
@@ -336,8 +336,8 @@ export default function IsolatedSpotifyTest() {
             </div>
             {result.details && (
               <details className={styles.resultDetails}>
-                <summary>▶ 詳細情報</summary>
-                <pre>{JSON.stringify(result.details, null, 2)}</pre>
+                <summary className={styles.resultDetailsSummary}>▶ 詳細情報</summary>
+                <pre className={styles.resultDetailsPre}>{JSON.stringify(result.details, null, 2)}</pre>
               </details>
             )}
           </div>
