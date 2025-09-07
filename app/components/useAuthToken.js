@@ -118,6 +118,7 @@ export const useAuthToken = () => {
         });
         setIsTokenValid(true);
         setTokenError(null);
+        setIsRecovering(false); // トークン有効時は復旧状態をリセット
         lastCheckTime.current = now;
         return true;
       } else if (response.status === 401) {
@@ -242,6 +243,8 @@ export const useAuthToken = () => {
 
     if (status === 'authenticated' && session?.accessToken) {
       console.log('🔄 Authenticated with access token, checking validity...');
+      // 認証成功時は復旧状態をリセット
+      setIsRecovering(false);
       checkTokenValidity();
     } else if (status === 'unauthenticated') {
       console.log('🔄 Unauthenticated, clearing session state...');

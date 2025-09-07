@@ -15,6 +15,9 @@ export const metadata = {
   metadataBase: new URL('https://tunedive.com'),
   title: 'TuneDive',
   description: '音楽の深層に潜る - Spotify音源で音楽を発見し、プレイリストで繋がる',
+  verification: {
+    google: 'GmreCiEJIg15heGWVxBurcHROOLPUXhI',
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
