@@ -52,9 +52,11 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
 
   // プレイヤー初期化関数
   const initializePlayer = useCallback(() => {
+    console.log('🎵 SpotifyPlayer - initializePlayer called', { accessToken: !!accessToken });
     if (!accessToken) {
-          return;
-        }
+      console.log('❌ SpotifyPlayer - No access token, skipping initialization');
+      return;
+    }
 
     if (playerRef.current) {
       playerRef.current.disconnect();
@@ -62,8 +64,11 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     }
 
     if (typeof window !== 'undefined') {
+      console.log('🎵 SpotifyPlayer - Setting up onSpotifyWebPlaybackSDKReady callback');
       window.onSpotifyWebPlaybackSDKReady = () => {
+        console.log('🎵 SpotifyPlayer - onSpotifyWebPlaybackSDKReady called');
         if (playerRef.current) {
+          console.log('⚠️ SpotifyPlayer - Player already exists, skipping');
           return;
         }
 
@@ -80,36 +85,43 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       
       player.connect().then(success => {
         if (success) {
-          // 接続成功
+          console.log('✅ SpotifyPlayer - Connection successful');
         } else {
-          console.error('Spotify Web Playback SDK connection failed');
-          // エラーハンドリングは後で行う
+          console.error('❌ SpotifyPlayer - Connection failed');
         }
       }).catch(error => {
-        console.error('Spotify Web Playback SDK connection error:', error);
-        // エラーハンドリングは後で行う
+        console.error('❌ SpotifyPlayer - Connection error:', error);
       });
     };
 
     const scriptId = 'spotify-sdk-script';
     
     if (!document.getElementById(scriptId)) {
+      console.log('🎵 SpotifyPlayer - Loading Spotify SDK script');
       const script = document.createElement('script');
       script.id = scriptId;
       script.src = 'https://sdk.scdn.co/spotify-player.js';
       script.async = true;
       script.onload = () => {
+        console.log('✅ SpotifyPlayer - SDK script loaded successfully');
         if (typeof window !== 'undefined' && window.Spotify) {
+          console.log('🎵 SpotifyPlayer - Calling onSpotifyWebPlaybackSDKReady');
           window.onSpotifyWebPlaybackSDKReady();
+        } else {
+          console.warn('⚠️ SpotifyPlayer - window.Spotify not available after script load');
         }
       };
       script.onerror = (error) => {
-        console.error('Script load error:', error);
+        console.error('❌ SpotifyPlayer - Script load error:', error);
       };
       document.body.appendChild(script);
     } else {
+      console.log('🎵 SpotifyPlayer - SDK script already exists');
       if (typeof window !== 'undefined' && window.Spotify) {
+        console.log('🎵 SpotifyPlayer - Calling onSpotifyWebPlaybackSDKReady (existing script)');
         window.onSpotifyWebPlaybackSDKReady();
+      } else {
+        console.warn('⚠️ SpotifyPlayer - window.Spotify not available with existing script');
       }
     }
     }

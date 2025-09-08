@@ -100,7 +100,7 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://accounts.spotify.com https://open.spotify.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: blob:; font-src 'self' data:; connect-src 'self' https://api.spotify.com https://accounts.spotify.com; frame-src https://accounts.spotify.com;"
+            value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://accounts.spotify.com https://open.spotify.com https://sdk.scdn.co https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' data: https: https://fonts.gstatic.com; connect-src 'self' https://api.spotify.com https://accounts.spotify.com https://www.google-analytics.com https://analytics.google.com; frame-src https://accounts.spotify.com https://sdk.scdn.co;"
           },
           {
             key: 'Permissions-Policy',

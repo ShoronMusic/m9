@@ -1,4 +1,3 @@
-import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
@@ -94,7 +93,7 @@ export async function POST(request) {
     
     // ログエントリの検証
     if (!logEntry || !logEntry.message) {
-      return NextResponse.json({ error: 'Invalid log entry' }, { status: 400 });
+      return Response.json({ error: 'Invalid log entry' }, { status: 400 });
     }
 
     // ログエントリにIDとタイムスタンプを追加
@@ -179,14 +178,14 @@ export async function POST(request) {
       timestamp: newLogEntry.timestamp
     });
 
-    return NextResponse.json({ 
+    return Response.json({ 
       success: true, 
       id: newLogEntry.id,
       message: 'Log entry added successfully' 
     });
   } catch (error) {
     console.error('Error adding log entry:', error);
-    return NextResponse.json({ error: 'Failed to add log entry' }, { status: 500 });
+    return Response.json({ error: 'Failed to add log entry' }, { status: 500 });
   }
 }
 
@@ -204,7 +203,7 @@ export async function GET(request) {
     // ログをクリア
     if (action === 'clear') {
       saveLogs([]);
-      return NextResponse.json({ 
+      return Response.json({ 
         success: true, 
         message: 'All logs cleared' 
       });
@@ -222,7 +221,7 @@ export async function GET(request) {
       });
       
       saveLogs(filteredLogs);
-      return NextResponse.json({ 
+      return Response.json({ 
         success: true, 
         message: `Cleaned up ${logs.length - filteredLogs.length} old log entries` 
       });
@@ -265,7 +264,7 @@ export async function GET(request) {
       desktop: logs.filter(log => log.deviceInfo?.isDesktop).length,
     };
 
-    return NextResponse.json({
+    return Response.json({
       success: true,
       logs: paginatedLogs,
       stats,
@@ -278,7 +277,7 @@ export async function GET(request) {
     });
   } catch (error) {
     console.error('Error fetching logs:', error);
-    return NextResponse.json({ error: 'Failed to fetch logs' }, { status: 500 });
+    return Response.json({ error: 'Failed to fetch logs' }, { status: 500 });
   }
 }
 
@@ -291,7 +290,7 @@ export async function DELETE(request) {
 
     if (action === 'clear') {
       saveLogs([]);
-      return NextResponse.json({ 
+      return Response.json({ 
         success: true, 
         message: 'All logs cleared' 
       });
@@ -301,15 +300,15 @@ export async function DELETE(request) {
       const logs = readLogs();
       const filteredLogs = logs.filter(log => log.id !== id);
       saveLogs(filteredLogs);
-      return NextResponse.json({ 
+      return Response.json({ 
         success: true, 
         message: 'Log entry deleted' 
       });
     }
 
-    return NextResponse.json({ error: 'Invalid delete action' }, { status: 400 });
+    return Response.json({ error: 'Invalid delete action' }, { status: 400 });
   } catch (error) {
     console.error('Error deleting logs:', error);
-    return NextResponse.json({ error: 'Failed to delete logs' }, { status: 500 });
+    return Response.json({ error: 'Failed to delete logs' }, { status: 500 });
   }
 }
