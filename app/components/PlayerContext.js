@@ -171,7 +171,7 @@ export const PlayerProvider = ({ children }) => {
         console.error('Failed to release wake lock:', error);
       }
     }
-  }, [wakeLock, wakeLockPersistenceTimer]);
+  }, [wakeLock]);
 
   // Stale closureを避けるために最新のステートをrefで保持
   const stateRef = useRef();
@@ -183,7 +183,7 @@ export const PlayerProvider = ({ children }) => {
       isPlaying,
       isPageVisible
     };
-  });
+  }, [trackList, currentTrack, currentTrackIndex, isPlaying, isPageVisible]);
 
   // 認証エラー状態の管理
   const [authError, setAuthError] = useState(false);
@@ -730,7 +730,14 @@ export const PlayerProvider = ({ children }) => {
   const playNext = useCallback(() => {
     const { trackList, currentTrack, currentTrackIndex } = stateRef.current;
     
+    console.log('🔄 CONTINUOUS PLAY - playNext called', {
+      trackListLength: trackList.length,
+      currentTrackIndex,
+      currentTrack: currentTrack?.title || currentTrack?.name
+    });
+    
     if (trackList.length === 0) {
+      console.log('🔄 CONTINUOUS PLAY - No tracks available, returning');
       return;
     }
 
@@ -747,6 +754,7 @@ export const PlayerProvider = ({ children }) => {
 
     if (currentIndex === -1) {
       // 見つからなければ最初の曲
+      console.log('🔄 CONTINUOUS PLAY - Playing first track (index not found)');
       setCurrentTrack(trackList[0]);
       setCurrentTrackIndex(0);
       setIsPlaying(true);
@@ -755,7 +763,6 @@ export const PlayerProvider = ({ children }) => {
       // 視聴履歴追跡を開始
       if (playTracker && session?.user?.id) {
         const source = currentTrackListSource.current || 'unknown';
-        console.log('📊 PlayerContext - Starting play tracking for first track with source:', source);
         playTracker.startTracking(trackList[0], trackList[0].id, source);
       }
       return;
@@ -765,6 +772,7 @@ export const PlayerProvider = ({ children }) => {
 
     if (nextIndex >= trackList.length) {
       // 最後の曲ならonPageEnd
+      console.log('🔄 CONTINUOUS PLAY - Reached end of track list, calling onPageEnd');
       if (onPageEndRef.current && typeof onPageEndRef.current === 'function') {
         try {
           onPageEndRef.current();
@@ -776,11 +784,11 @@ export const PlayerProvider = ({ children }) => {
     }
 
     const nextTrack = trackList[nextIndex];
-    
-    // 現在の曲の再生を停止
-    if (playTracker) {
-      playTracker.stopTracking(true); // 完了として記録
-    }
+    console.log('🔄 CONTINUOUS PLAY - Playing next track:', {
+      nextIndex,
+      nextTrack: nextTrack?.title || nextTrack?.name,
+      currentIndex
+    });
     
     // 少し遅延してから次の曲を再生
     setTimeout(() => {
@@ -789,10 +797,19 @@ export const PlayerProvider = ({ children }) => {
       setIsPlaying(true);
       setPosition(0);
       
+      // SpotifyPlayerに次の曲の情報を確実に伝達
+      if (spotifyPlayerRef.current && spotifyPlayerRef.current.updateCurrentTrackState) {
+        spotifyPlayerRef.current.updateCurrentTrackState(nextTrack, nextIndex);
+        console.log('🔄 CONTINUOUS PLAY - Updated SpotifyPlayer with next track:', {
+          nextTrackName: nextTrack?.title || nextTrack?.name,
+          nextIndex,
+          nextTrackId: nextTrack?.spotifyTrackId || nextTrack?.id
+        });
+      }
+      
       // 視聴履歴追跡を開始
       if (playTracker && session?.user?.id) {
         const source = currentTrackListSource.current || 'unknown';
-        console.log('📊 PlayerContext - Starting play tracking for next track with source:', source);
         playTracker.startTracking(nextTrack, nextTrack.id, source);
       }
     }, 100);
@@ -837,9 +854,7 @@ export const PlayerProvider = ({ children }) => {
 
   // 曲が終了した時の処理
   const handleTrackEnd = useCallback(() => {
-    if (playTracker) {
-      playTracker.stopTracking(true); // 完了として記録
-    }
+    console.log('🎵 PlayerContext - handleTrackEnd called');
     
     // 現在の状態を確認
     const { trackList, currentTrack, currentTrackIndex } = stateRef.current;
@@ -847,8 +862,16 @@ export const PlayerProvider = ({ children }) => {
     // トップページ特有のデバッグ情報
     if (currentTrackListSource.current && currentTrackListSource.current.includes('top')) {
       // トップページの場合は何もしない（ログも出力しない）
+      console.log('🎵 PlayerContext - Top page detected, skipping track end handling');
+      return;
     }
     
+    // 視聴履歴を記録（playNext内でも記録されるが、ここで先に記録）
+    if (playTracker) {
+      playTracker.stopTracking(true); // 完了として記録
+    }
+    
+    // 次の曲を再生
     playNext();
   }, [playTracker, playNext]);
 
@@ -900,7 +923,7 @@ export const PlayerProvider = ({ children }) => {
       
       return () => clearTimeout(timer);
     }
-  }, [wakeLock, isPlaying, wakeLockPersistenceTimer]);
+  }, [wakeLock, isPlaying]); // wakeLockPersistenceTimerを依存関係から削除
 
   // ページ可視性の監視（最適化版）
   useEffect(() => {
@@ -969,7 +992,7 @@ export const PlayerProvider = ({ children }) => {
     }
     
     console.log('✅ PlayerContext - Player stopped completely');
-  }, [playTracker, wakeLock, releaseWakeLock, wakeLockPersistenceTimer]);
+  }, [playTracker, wakeLock, releaseWakeLock]);
 
   const value = {
     trackList,

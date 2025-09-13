@@ -37,6 +37,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   const backgroundCheckIntervalRef = useRef(null);
   const lastApiCallRef = useRef(0);
   const apiCallCountRef = useRef(0);
+  const lastTrackEndCheckRef = useRef(0);
 
   // 状態リセット関数
   const resetPlayerState = useCallback(() => {
@@ -52,9 +53,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
 
   // プレイヤー初期化関数
   const initializePlayer = useCallback(() => {
-    console.log('🎵 SpotifyPlayer - initializePlayer called', { accessToken: !!accessToken });
     if (!accessToken) {
-      console.log('❌ SpotifyPlayer - No access token, skipping initialization');
       return;
     }
 
@@ -64,11 +63,8 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     }
 
     if (typeof window !== 'undefined') {
-      console.log('🎵 SpotifyPlayer - Setting up onSpotifyWebPlaybackSDKReady callback');
       window.onSpotifyWebPlaybackSDKReady = () => {
-        console.log('🎵 SpotifyPlayer - onSpotifyWebPlaybackSDKReady called');
         if (playerRef.current) {
-          console.log('⚠️ SpotifyPlayer - Player already exists, skipping');
           return;
         }
 
@@ -84,9 +80,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       setPlayerStateListeners(player);
       
       player.connect().then(success => {
-        if (success) {
-          console.log('✅ SpotifyPlayer - Connection successful');
-        } else {
+        if (!success) {
           console.error('❌ SpotifyPlayer - Connection failed');
         }
       }).catch(error => {
@@ -97,18 +91,13 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     const scriptId = 'spotify-sdk-script';
     
     if (!document.getElementById(scriptId)) {
-      console.log('🎵 SpotifyPlayer - Loading Spotify SDK script');
       const script = document.createElement('script');
       script.id = scriptId;
       script.src = 'https://sdk.scdn.co/spotify-player.js';
       script.async = true;
       script.onload = () => {
-        console.log('✅ SpotifyPlayer - SDK script loaded successfully');
         if (typeof window !== 'undefined' && window.Spotify) {
-          console.log('🎵 SpotifyPlayer - Calling onSpotifyWebPlaybackSDKReady');
           window.onSpotifyWebPlaybackSDKReady();
-        } else {
-          console.warn('⚠️ SpotifyPlayer - window.Spotify not available after script load');
         }
       };
       script.onerror = (error) => {
@@ -116,12 +105,8 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       };
       document.body.appendChild(script);
     } else {
-      console.log('🎵 SpotifyPlayer - SDK script already exists');
       if (typeof window !== 'undefined' && window.Spotify) {
-        console.log('🎵 SpotifyPlayer - Calling onSpotifyWebPlaybackSDKReady (existing script)');
         window.onSpotifyWebPlaybackSDKReady();
-      } else {
-        console.warn('⚠️ SpotifyPlayer - window.Spotify not available with existing script');
       }
     }
     }
@@ -131,7 +116,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   const checkTokenValidity = useCallback(async () => {
     // トークンが存在しない場合は認証エラーを発生させない
     if (!accessToken) {
-      console.log('No access token available, skipping validation');
+      console.log('🔄 CONTINUOUS PLAY - No access token available, skipping validation');
       return false;
     }
     
@@ -275,39 +260,52 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   // 次の曲を再生する関数
   const triggerPlayNext = useCallback(() => {
     if (playNext) {
-      console.log('Triggering playNext from SpotifyPlayer');
+      console.log('🔄 CONTINUOUS PLAY - Triggering playNext from SpotifyPlayer');
       setTimeout(() => {
         try {
           // 現在の状態をログ出力
-          console.log('Current state before playNext:', {
+          console.log('🔄 CONTINUOUS PLAY - Current state before playNext:', {
             currentTrack: currentTrack?.title || currentTrack?.name,
             currentTrackIndex,
             trackListLength: trackList.length,
-            currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id,
-            currentTrackTitle: currentTrack?.title || currentTrack?.name
+            currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id
           });
           
-          // 視聴履歴を記録
-          if (handleTrackEnd) {
-            console.log('Calling handleTrackEnd');
-            handleTrackEnd();
-          } else {
-            // フォールバック: 直接playNextを呼び出し
-            console.log('handleTrackEnd not available, calling playNext directly');
-            if (currentTrack && currentTrackIndex >= 0) {
-              updateCurrentTrackState(currentTrack, currentTrackIndex);
-            }
-            playNext();
+          // 直接playNextを呼び出し（handleTrackEndは重複を避けるため呼び出さない）
+          console.log('🔄 CONTINUOUS PLAY - Calling playNext directly from SpotifyPlayer');
+          if (currentTrack && currentTrackIndex >= 0) {
+            updateCurrentTrackState(currentTrack, currentTrackIndex);
           }
+          
+          // playNextを呼び出し
+          playNext();
+          
+          // playNext後に次の曲のIDを更新（非同期で実行）
+          setTimeout(() => {
+            if (currentTrack && currentTrackIndex >= 0) {
+              const nextIndex = (currentTrackIndex + 1) % trackList.length;
+              const nextTrack = trackList[nextIndex];
+              if (nextTrack) {
+                const nextTrackId = nextTrack?.spotifyTrackId || nextTrack?.id;
+                if (nextTrackId) {
+                  currentTrackIdRef.current = nextTrackId;
+                  lastTrackIdRef.current = nextTrackId;
+                  console.log('🔄 CONTINUOUS PLAY - Updated currentTrackIdRef for next track:', {
+                    nextTrackId,
+                    nextTrackName: nextTrack?.title || nextTrack?.name,
+                    nextIndex
+                  });
+                }
+              }
+            }
+          }, 200); // タイミングを200msに延長
         } catch (error) {
-          console.error('Error in triggerPlayNext:', error);
+          console.error('❌ CONTINUOUS PLAY - Error in triggerPlayNext:', error);
           handleError(error, 'playNext');
         }
       }, PLAYER_CONFIG.PLAY_NEXT_DELAY);
     } else {
-      if (process.env.NODE_ENV === 'development') {
-        console.log('playNext function not available');
-      }
+      console.log('❌ CONTINUOUS PLAY - playNext function not available');
     }
   }, [playNext, currentTrack, currentTrackIndex, updateCurrentTrackState, handleError, handleTrackEnd]);
 
@@ -430,23 +428,24 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         }
       }
 
-      // 曲の終了検知
-      if (isTrackEnded(state, expectedTrackId)) {
-        if (process.env.NODE_ENV === 'development') {
-          console.log('Track ended, triggering next track');
-        }
+      // 曲の終了検知（頻度制限付き）
+      const now = Date.now();
+      if (now - lastTrackEndCheckRef.current > 1000) { // 1秒間隔でチェック
+        lastTrackEndCheckRef.current = now;
         
-        // 終了検知タイマーを設定
+        if (isTrackEnded(state, currentTrackIdRef.current)) {
+          console.log('🔄 CONTINUOUS PLAY - Track ended, triggering next track');
+          
+          // 終了検知タイマーを設定
           if (trackEndCheckTimerRef.current) {
             clearTimeout(trackEndCheckTimerRef.current);
-        }
-        
-        trackEndCheckTimerRef.current = setTimeout(() => {
-          if (process.env.NODE_ENV === 'development') {
-            console.log('Track end timer triggered');
           }
-          triggerPlayNext();
-        }, PLAYER_CONFIG.TRACK_END_CHECK_DELAY);
+          
+          trackEndCheckTimerRef.current = setTimeout(() => {
+            console.log('🔄 CONTINUOUS PLAY - Track end timer triggered, calling triggerPlayNext');
+            triggerPlayNext();
+          }, PLAYER_CONFIG.TRACK_END_CHECK_DELAY);
+        }
       }
     });
 
@@ -744,27 +743,59 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
   const isTrackEnded = useCallback((state, expectedTrackId) => {
     if (!expectedTrackId || !state) return false;
     
-    // モバイルでの連続再生を安定化するため、より厳密な条件を追加
+    // 曲終了検出の条件を適切に設定（誤検知を防ぐため）
     const basicConditions = (
-      state.position === 0 &&
-      lastPositionRef.current > PLAYER_CONFIG.TRACK_END_THRESHOLD &&
-      !isSeekingRef.current // シーク操作中は終了検知を無効化
+      !isSeekingRef.current && // シーク操作中は終了検知を無効化
+      !isNewTrackSelectedRef.current && // 新しい曲選択中は終了検知を無効化
+      lastPositionRef.current > 5000 // 5秒以上再生していた場合のみ
+    );
+    
+    console.log('🔄 CONTINUOUS PLAY - isTrackEnded check:', 
+      'expectedTrackId:', expectedTrackId,
+      'position:', state.position,
+      'lastPosition:', lastPositionRef.current,
+      'threshold:', PLAYER_CONFIG.TRACK_END_THRESHOLD,
+      'isSeeking:', isSeekingRef.current,
+      'basicConditions:', basicConditions
     );
     
     if (!basicConditions) return false;
     
-    // 前の曲リストに期待している曲がある場合
-    const expectedTrackInPrevious = state.track_window.previous_tracks.find(t => t.id === expectedTrackId);
-    if (expectedTrackInPrevious) {
-      const currentPlayingTrackId = state.track_window.current_track?.id;
-      // 新しい曲が再生されている場合のみ終了とみなす
-      return currentPlayingTrackId !== expectedTrackId;
+    // 改善された曲終了検出ロジック
+    const currentPlayingTrackId = state.track_window.current_track?.id;
+    
+    // 現在の曲が期待している曲と異なる場合、前の曲が終了したとみなす
+    if (currentPlayingTrackId && currentPlayingTrackId !== expectedTrackId) {
+      console.log('🔄 CONTINUOUS PLAY - Track changed, previous track ended:', {
+        expectedTrackId,
+        currentPlayingTrackId
+      });
+      
+      // 期待されるトラックが実際に再生されていない場合、トラック切り替えが失敗している可能性
+      if (isNewTrackSelectedRef.current) {
+        console.warn('⚠️ CONTINUOUS PLAY - Track switch may have failed during protection period');
+        return false; // 保護期間中は曲終了検出を無効化
+      }
+      
+      return true;
     }
     
-    // 一時停止状態で現在の曲がない場合（モバイルでのバックグラウンド処理を考慮）
-    if (state.paused && !state.track_window.current_track) {
-      // モバイルでは短時間の一時停止でも終了とみなさない
-      return lastPositionRef.current > PLAYER_CONFIG.TRACK_END_THRESHOLD * 2;
+    // 位置が0に戻った場合（曲が終了した）- より厳密な条件
+    if (state.position === 0 && lastPositionRef.current > 10000) {
+      console.log('🔄 CONTINUOUS PLAY - Track position reset to 0, track ended');
+      return true;
+    }
+    
+    // 位置が大幅に戻った場合（曲が終了した）- より厳密な条件
+    if (state.position < lastPositionRef.current - 10000 && lastPositionRef.current > 10000) {
+      console.log('🔄 CONTINUOUS PLAY - Track position jumped back, track ended');
+      return true;
+    }
+    
+    // 一時停止状態で現在の曲がない場合
+    if (state.paused && !currentPlayingTrackId) {
+      console.log('🔄 CONTINUOUS PLAY - Track paused with no current track');
+      return true;
     }
     
     return false;
@@ -1033,17 +1064,84 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         currentTrackIdRef.current = newTrackId;
         lastTrackIdRef.current = newTrackId;
         
-
+        console.log('🔄 CONTINUOUS PLAY - Track switched successfully:', {
+          newTrackId,
+          trackName: trackList.find(track => (track?.spotifyTrackId || track?.id) === newTrackId)?.title || 'Unknown'
+        });
         
-        // Update PlayerContext
+        // Update PlayerContext - 確実に状態を更新
         const trackIndex = trackList.findIndex(track => (track?.spotifyTrackId || track?.id) === newTrackId);
         if (trackIndex !== -1) {
           updateCurrentTrackState(trackList[trackIndex], trackIndex);
+          console.log('🔄 CONTINUOUS PLAY - PlayerContext state updated:', {
+            trackIndex,
+            trackName: trackList[trackIndex]?.title || 'Unknown',
+            newTrackId
+          });
+        } else {
+          console.warn('⚠️ CONTINUOUS PLAY - Track not found in trackList:', {
+            newTrackId,
+            trackListLength: trackList.length
+          });
         }
 
-        setTimeout(() => {
+        // トラック切り替えの検証を追加
+        setTimeout(async () => {
+          try {
+            const verifyResponse = await fetch('https://api.spotify.com/v1/me/player', {
+              headers: {
+                'Authorization': `Bearer ${accessToken}`,
+              },
+            });
+            
+            if (verifyResponse.ok) {
+              const playerState = await verifyResponse.json();
+              const actualTrackId = playerState?.item?.id;
+              
+              if (actualTrackId === newTrackId) {
+                console.log('✅ CONTINUOUS PLAY - Track switch verified successfully:', {
+                  expectedTrackId: newTrackId,
+                  actualTrackId: actualTrackId
+                });
+              } else {
+                console.warn('⚠️ CONTINUOUS PLAY - Track switch verification failed:', {
+                  expectedTrackId: newTrackId,
+                  actualTrackId: actualTrackId,
+                  trackName: trackList.find(track => (track?.spotifyTrackId || track?.id) === newTrackId)?.title || 'Unknown'
+                });
+                
+                // トラック切り替えが失敗した場合、リトライを実行
+                console.log('🔄 CONTINUOUS PLAY - Retrying track switch...');
+                
+                // リトライ前にPlayerContextの状態を更新
+                const trackIndex = trackList.findIndex(track => (track?.spotifyTrackId || track?.id) === newTrackId);
+                if (trackIndex !== -1) {
+                  updateCurrentTrackState(trackList[trackIndex], trackIndex);
+                  console.log('🔄 CONTINUOUS PLAY - Updated PlayerContext state for retry:', {
+                    trackIndex,
+                    trackName: trackList[trackIndex]?.title || 'Unknown'
+                  });
+                }
+                
+                // リトライ前にcurrentTrackIdRefを更新
+                currentTrackIdRef.current = newTrackId;
+                lastTrackIdRef.current = newTrackId;
+                console.log('🔄 CONTINUOUS PLAY - Updated currentTrackIdRef for retry:', {
+                  newTrackId,
+                  trackName: trackList[trackIndex]?.title || 'Unknown'
+                });
+                
+                await playNewTrack(newTrackId, trackList);
+                return;
+              }
+            }
+          } catch (error) {
+            console.error('❌ CONTINUOUS PLAY - Track switch verification error:', error);
+          }
+          
           isNewTrackSelectedRef.current = false;
-        }, 500); // 保護時間を500msに短縮
+          console.log('🔄 CONTINUOUS PLAY - Track switch protection lifted');
+        }, 3000); // 検証時間を3秒に延長
       } else {
         // エラーレスポンスの詳細をログ
         const errorData = await resetResponse.json().catch(() => ({}));
@@ -1341,6 +1439,8 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
 
   // 再ログイン処理
   const handleReLogin = useCallback(() => {
+    console.log('🔄 CONTINUOUS PLAY - Re-login initiated');
+    
     // 認証エラーフラグをクリア
     sessionStorage.removeItem('spotify_auth_error');
     sessionStorage.removeItem('spotify_device_error');
@@ -1353,6 +1453,7 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
     
     // ページをリロードしてSpotify認証を再実行
     if (typeof window !== 'undefined') {
+      console.log('🔄 CONTINUOUS PLAY - Reloading page for re-authentication');
       window.location.reload();
     }
   }, [resetPlayerState]);
@@ -1379,10 +1480,10 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
           fontSize: '14px'
         }}>
           <div style={{ marginBottom: '10px', fontWeight: 'bold' }}>
-            Spotify認証エラー
+            🔄 Spotify再ログインが必要
           </div>
           <div style={{ marginBottom: '15px' }}>
-            Spotifyログインが必要です。音楽を再生するには、Spotifyアカウントにログインしてください。
+            連続再生中にSpotifyの認証が期限切れになりました。再ログインボタンを押してページをリロードしてください。
           </div>
           <div style={{ display: 'flex', gap: '10px' }}>
             <button

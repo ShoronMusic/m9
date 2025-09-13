@@ -28,10 +28,7 @@ function convertToWebPUrl(originalUrl) {
   // JPG/JPEG/PNGの場合はWebPに変換
   if (['jpg', 'jpeg', 'png'].includes(extension)) {
     const webpUrl = originalUrl.substring(0, lastDotIndex) + '.webp';
-    console.log('🖼️ FooterPlayer - Converting to WebP:', {
-      original: originalUrl,
-      webp: webpUrl
-    });
+        // WebP変換ログを削除（不要なログのため）
     return webpUrl;
   }
   
