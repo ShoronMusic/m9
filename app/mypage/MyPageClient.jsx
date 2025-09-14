@@ -952,7 +952,17 @@ export default function MyPageClient({ session }) {
                     )}
                   </div>
                   <div className={styles.playlistInfo}>
-                    <h4 className={styles.playlistName}>{playlist.name}</h4>
+                    <div className={styles.playlistTitleRow}>
+                      <h4 className={styles.playlistName}>{playlist.name}</h4>
+                      {playlist.sync_status === 'synced' && (
+                        <img 
+                          src="/icons/spotify.svg" 
+                          alt="Spotify同期済み" 
+                          className={styles.spotifyIcon}
+                          title="Spotifyプレイリストと同期済み"
+                        />
+                      )}
+                    </div>
                     
                     {/* 年とタグの表示 */}
                     <div className={styles.playlistMetadata}>
@@ -1000,8 +1010,18 @@ export default function MyPageClient({ session }) {
                     )}
                   </div>
                   <div className={styles.playlistListInfo}>
-                    <div className={styles.playlistListTitle}>
-                      {playlist.name}
+                    <div className={styles.playlistListTitleRow}>
+                      <div className={styles.playlistListTitle}>
+                        {playlist.name}
+                      </div>
+                      {playlist.sync_status === 'synced' && (
+                        <img 
+                          src="/icons/spotify.svg" 
+                          alt="Spotify同期済み" 
+                          className={styles.spotifyIcon}
+                          title="Spotifyプレイリストと同期済み"
+                        />
+                      )}
                     </div>
                     
                     {/* 年とタグの表示 */}

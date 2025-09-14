@@ -575,12 +575,32 @@
   min-width: 0;
 }
 
+.playlistTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
 .playlistName {
-  margin: 0 0 8px 0;
+  margin: 0;
   font-size: 1.1rem;
   font-weight: 600;
   color: #333;
   line-height: 1.3;
+  flex: 1;
+}
+
+.spotifyIcon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.spotifyIcon:hover {
+  opacity: 1;
 }
 
 .playlistMetadata {
@@ -684,12 +704,19 @@
   color: #2e7d32;
 }
 
+.playlistListTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 120px;
+}
+
 .playlistListTitle {
   font-weight: 600;
   color: #333;
   margin: 0;
   font-size: 0.95rem;
-  min-width: 120px;
+  flex: 1;
 }
 
 .playlistListTrackCount {
