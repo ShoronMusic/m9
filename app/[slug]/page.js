@@ -5,6 +5,12 @@ const API_BASE_URL = 'https://xs867261.xsrv.jp/data/data';
 
 async function getArtistData(slug) {
   try {
+    // 無効なslugの場合は早期リターン
+    if (!slug || slug.includes('.') || slug.includes('/') || slug.length < 2) {
+      console.log('Invalid slug detected:', slug);
+      return null;
+    }
+
     const filePath = `${API_BASE_URL}/artists/${slug}/1.json`;
     console.log('Fetching artist data from:', filePath);
 

@@ -22,26 +22,41 @@ export async function GET(request) {
       }
     );
     
-    // NextAuthのセッションからSpotifyユーザーIDを取得
-    const spotifyUserId = session.user.id;
+    // 認証プロバイダーの判定とユーザーIDの取得
+    const userId = session.user.id;
+    const userEmail = session.user.email;
+    const userName = session.user.name;
     
-    // Supabaseでユーザーを検索または作成
+    // 認証プロバイダーの判定（SpotifyまたはGoogle）
+    const authProvider = session.user.provider || 'spotify'; // デフォルトはspotify
+    
+    console.log('Auth info:', { userId, userEmail, userName, authProvider });
+    
+    // Supabaseでユーザーを検索または作成（認証プロバイダー別）
     let { data: supabaseUser, error: userError } = await supabase
       .from('users')
-      .select('id')
-      .eq('spotify_id', spotifyUserId)
+      .select('*')
+      .or(`spotify_id.eq.${userId},google_id.eq.${userId}`)
       .single();
     
     if (userError || !supabaseUser) {
       // ユーザーが存在しない場合は作成
+      const userData = authProvider === 'google' ? {
+        google_id: userId,
+        google_email: userEmail,
+        google_display_name: userName,
+        auth_provider: 'google'
+      } : {
+        spotify_id: userId,
+        spotify_email: userEmail,
+        spotify_display_name: userName,
+        auth_provider: 'spotify'
+      };
+      
       const { data: newUser, error: createError } = await supabase
         .from('users')
-        .insert({
-          spotify_id: spotifyUserId,
-          spotify_email: session.user.email || null,
-          spotify_display_name: session.user.name || null
-        })
-        .select('id')
+        .insert(userData)
+        .select('*')
         .single();
       
       if (createError) {
@@ -50,9 +65,33 @@ export async function GET(request) {
       }
       
       supabaseUser = newUser;
+    } else {
+      // 既存ユーザーの場合、認証情報を更新
+      const updateData = authProvider === 'google' ? {
+        google_id: userId,
+        google_email: userEmail,
+        google_display_name: userName,
+        auth_provider: 'google'
+      } : {
+        spotify_id: userId,
+        spotify_email: userEmail,
+        spotify_display_name: userName,
+        auth_provider: 'spotify'
+      };
+      
+      const { data: updatedUser, error: updateError } = await supabase
+        .from('users')
+        .update(updateData)
+        .eq('id', supabaseUser.id)
+        .select('*')
+        .single();
+      
+      if (!updateError && updatedUser) {
+        supabaseUser = updatedUser;
+      }
     }
     
-    const userId = supabaseUser.id;
+    const supabaseUserId = supabaseUser.id;
 
     // ユーザーのプレイリスト一覧を取得（新しいフィールドを使用）
     const { data: playlists, error } = await supabase
@@ -71,7 +110,7 @@ export async function GET(request) {
         tags,
         last_track_added_at
       `)
-      .eq('user_id', userId)
+      .eq('user_id', supabaseUserId)
       .order('last_track_added_at', { ascending: false });
 
     if (error) {
@@ -135,15 +174,19 @@ export async function POST(request) {
       }
     );
     
-    // NextAuthのセッションからSpotifyユーザーIDを取得
-    const spotifyUserId = session.user.id;
-    console.log('Spotify User ID:', spotifyUserId);
+    // 認証プロバイダーの判定とユーザーIDの取得
+    const authUserId = session.user.id;
+    const userEmail = session.user.email;
+    const userName = session.user.name;
+    const authProvider = session.user.provider || 'spotify';
     
-    // Supabaseでユーザーを検索または作成
+    console.log('Auth info:', { userId: authUserId, userEmail, userName, authProvider });
+    
+    // Supabaseでユーザーを検索または作成（認証プロバイダー別）
     let { data: supabaseUser, error: userError } = await supabase
       .from('users')
-      .select('*') // 全フィールドを取得して詳細を確認
-      .eq('spotify_id', spotifyUserId)
+      .select('*')
+      .or(`spotify_id.eq.${authUserId},google_id.eq.${authUserId}`)
       .single();
     
     console.log('User search result:', { supabaseUser, userError });
@@ -156,15 +199,25 @@ export async function POST(request) {
       const newUserId = crypto.randomUUID();
       console.log('Generated new user ID:', newUserId);
       
+      // 認証プロバイダー別のユーザーデータ
+      const userData = authProvider === 'google' ? {
+        id: newUserId,
+        google_id: authUserId,
+        google_email: userEmail,
+        google_display_name: userName,
+        auth_provider: 'google'
+      } : {
+        id: newUserId,
+        spotify_id: authUserId,
+        spotify_email: userEmail,
+        spotify_display_name: userName,
+        auth_provider: 'spotify'
+      };
+      
       const { data: newUser, error: createError } = await supabase
         .from('users')
-        .insert({
-          id: newUserId, // 明示的にUUIDを指定
-          spotify_id: spotifyUserId,
-          spotify_email: session.user.email || null,
-          spotify_display_name: session.user.name || null
-        })
-        .select('*') // 全フィールドを取得
+        .insert(userData)
+        .select('*')
         .single();
       
       console.log('User creation result:', { newUser, createError });
@@ -181,7 +234,7 @@ export async function POST(request) {
     const userId = supabaseUser.id;
     console.log('Final user ID:', userId);
     console.log('User details:', { 
-      spotifyUserId, 
+      spotifyUserId: authUserId, 
       supabaseUserId: userId, 
       supabaseUserData: supabaseUser 
     });

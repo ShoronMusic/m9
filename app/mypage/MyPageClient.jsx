@@ -103,28 +103,65 @@ export default function MyPageClient({ session }) {
   const endIndex = startIndex + itemsPerPage;
   const currentPageData = playHistory.slice(startIndex, endIndex);
 
-  // プレイリスト一覧を取得する関数
+  // プレイリスト一覧を取得する関数（TuneDive Supabase仕様）
   const fetchPlaylists = useCallback(async () => {
-    if (!session?.user?.id) return;
+    if (!session?.user?.id) {
+      console.log('🔍 MyPageClient - No session user ID, skipping playlist fetch');
+      return;
+    }
+    
+    console.log('🔍 MyPageClient - Fetching playlists from TuneDive Supabase API');
+    console.log('🔍 MyPageClient - Session info:', {
+      userId: session.user.id,
+      userEmail: session.user.email,
+      userName: session.user.name,
+      provider: session.user.provider
+    });
     
     setPlaylistsLoading(true);
     try {
-      // Supabaseでユーザーを検索または作成
-      const response = await fetch('/api/playlists');
+      // TuneDiveのSupabase APIエンドポイントを使用
+      const response = await fetch('/api/playlists', {
+        headers: {
+          'Authorization': `Bearer ${session.accessToken || session.id}`,
+          'Content-Type': 'application/json'
+        }
+      });
+      
+      console.log('🔍 MyPageClient - API Response:', {
+        ok: response.ok,
+        status: response.status,
+        statusText: response.statusText
+      });
+      
       if (response.ok) {
         const data = await response.json();
         const playlistsData = data.playlists || [];
+        
+        console.log('🔍 MyPageClient - Playlists data:', {
+          count: playlistsData.length,
+          playlists: playlistsData.map(p => ({
+            id: p.id,
+            name: p.name,
+            track_count: p.track_count,
+            updated_at: p.updated_at,
+            is_public: p.is_public
+          }))
+        });
+        
         setPlaylists(playlistsData);
         setFilteredPlaylists(playlistsData); // フィルタリング結果を初期化
       } else {
-        console.error('Failed to fetch playlists');
+        console.error('🔍 MyPageClient - Failed to fetch playlists:', response.status, response.statusText);
+        const errorData = await response.text();
+        console.error('🔍 MyPageClient - Error details:', errorData);
       }
     } catch (error) {
-      console.error('Error fetching playlists:', error);
+      console.error('🔍 MyPageClient - Error fetching playlists:', error);
     } finally {
       setPlaylistsLoading(false);
     }
-  }, [session?.user?.id]);
+  }, [session?.user?.id, session?.accessToken, session?.id]);
 
   // フィルタリング結果を更新する関数
   const handleFilterChange = useCallback((filteredData) => {
@@ -764,13 +801,21 @@ export default function MyPageClient({ session }) {
 
 
 
-  // アカウント設定セクション
+  // アカウント設定セクション（統合認証対応）
   const accountSettings = (
     <div className={styles.settingsCard}>
       <h3>アカウント設定</h3>
       <div className={styles.settingItem}>
-        <span>Spotify連携</span>
+        <span>
+          {session?.user?.provider === 'google' ? 'Google連携' : 'Spotify連携'}
+        </span>
         <span className={styles.settingValue}>連携済み</span>
+      </div>
+      <div className={styles.settingItem}>
+        <span>認証プロバイダー</span>
+        <span className={styles.settingValue}>
+          {session?.user?.provider === 'google' ? 'Google' : 'Spotify'}
+        </span>
       </div>
       <div className={styles.settingItem}>
         <span>通知設定</span>
@@ -790,7 +835,12 @@ export default function MyPageClient({ session }) {
     <div className={styles.container}>
       <div className={styles.header}>
         <h1>マイページ</h1>
-        <p>Spotifyアカウントでログイン中</p>
+        <p>
+          {session?.user?.provider === 'google' 
+            ? 'Googleアカウントでログイン中' 
+            : 'Spotifyアカウントでログイン中'
+          }
+        </p>
       </div>
 
       {/* ユーザープロフィール */}

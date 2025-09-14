@@ -279,6 +279,9 @@ export default function CreatePlaylistModal({
         spotify_images: spotifyImages,
         spotify_artists: trackWithVocals.acf?.spotify_artists ? JSON.stringify(trackWithVocals.acf.spotify_artists) : null,
         
+        // YouTube情報（M8用）
+        ytvideoid: trackWithVocals.ytvideoid || null,
+        
         // その他の情報
         is_favorite: false, // 新規追加時はデフォルトでfalse
         artist_order: trackWithVocals.acf?.artist_order?.[0] || null,

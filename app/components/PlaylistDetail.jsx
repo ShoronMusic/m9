@@ -5,6 +5,8 @@ import { useSession } from 'next-auth/react';
 import Link from 'next/link';
 import styles from './PlaylistDetail.module.css';
 import PlaylistSongList from './PlaylistSongList';
+import YouTubePlaylistPlayer from './YouTubePlaylistPlayer';
+import SpotifySyncButton from './SpotifySyncButton';
 
 export default function PlaylistDetail({ playlist: initialPlaylist, tracks: initialTracks, session, autoPlayFirst = false, isOwner = false }) {
   const { data: clientSession } = useSession();
@@ -20,6 +22,30 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const [showFinalDeleteConfirm, setShowFinalDeleteConfirm] = useState(false);
   const [tracks, setTracks] = useState(initialTracks); // トラックの状態管理を追加
+  
+  // YouTube再生機能の状態管理
+  const [showYouTubePlayer, setShowYouTubePlayer] = useState(false);
+  const [isYouTubePlaying, setIsYouTubePlaying] = useState(false);
+  const [youtubeTracks, setYoutubeTracks] = useState([]);
+
+  // YouTube動画IDを持つトラックをフィルタリング
+  useEffect(() => {
+    const tracksWithYouTube = tracks.filter(track => track.ytvideoid && track.ytvideoid.trim() !== '');
+    setYoutubeTracks(tracksWithYouTube);
+  }, [tracks]);
+
+  // YouTube再生機能のコールバック
+  const handleYouTubePlayStateChange = useCallback((isPlaying) => {
+    setIsYouTubePlaying(isPlaying);
+  }, []);
+
+  // YouTube再生機能の開始/停止
+  const toggleYouTubePlayer = useCallback(() => {
+    setShowYouTubePlayer(prev => !prev);
+    if (showYouTubePlayer) {
+      setIsYouTubePlaying(false);
+    }
+  }, [showYouTubePlayer]);
 
   // プレイリストの最新更新日を取得（トラックの追加日から）
   const getLatestUpdateDate = () => {
@@ -401,24 +427,50 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
         </div>
         
         <div className={styles.playlistActions}>
-          {session?.user ? (
-            <Link href="/mypage" className={styles.myPageButton}>
-              <span className={styles.backArrow}>←</span>
-              <span className={styles.buttonText}>Playlist 一覧</span>
-              <div className={styles.myIcon}>
-                <img 
-                  src={session?.user?.image || '/images/default-avatar.png'} 
-                  alt="My Icon" 
-                  className={styles.myIconImage}
-                />
-              </div>
-            </Link>
-          ) : (
-            <Link href="/" className={styles.myPageButton}>
-              <span className={styles.backArrow}>←</span>
-              <span className={styles.buttonText}>ホームに戻る</span>
-            </Link>
-          )}
+          <div className={styles.playlistActionsLeft}>
+            {/* Spotify同期ボタン - ログインユーザーかつプレイリスト所有者のみ表示 */}
+            {session?.user && isOwner && (
+              <SpotifySyncButton 
+                playlist={playlist}
+                onSyncComplete={(result) => {
+                  console.log('Spotify同期完了:', result);
+                  // 同期完了後の処理（必要に応じてプレイリスト情報を更新）
+                  if (result.success) {
+                    // プレイリスト情報を更新
+                    setPlaylist(prev => ({
+                      ...prev,
+                      spotify_playlist_id: result.result?.spotify_playlist_id,
+                      sync_status: 'synced',
+                      last_synced_at: result.result?.sync_timestamp
+                    }));
+                  }
+                }}
+                className={styles.spotifySyncButton}
+                size="medium"
+              />
+            )}
+          </div>
+          
+          <div className={styles.playlistActionsRight}>
+            {session?.user ? (
+              <Link href="/mypage" className={styles.myPageButton}>
+                <span className={styles.backArrow}>←</span>
+                <span className={styles.buttonText}>Playlist 一覧</span>
+                <div className={styles.myIcon}>
+                  <img 
+                    src={session?.user?.image || '/images/default-avatar.png'} 
+                    alt="My Icon" 
+                    className={styles.myIconImage}
+                  />
+                </div>
+              </Link>
+            ) : (
+              <Link href="/" className={styles.myPageButton}>
+                <span className={styles.backArrow}>←</span>
+                <span className={styles.buttonText}>ホームに戻る</span>
+              </Link>
+            )}
+          </div>
         </div>
       </div>
 
@@ -491,6 +543,33 @@ export default function PlaylistDetail({ playlist: initialPlaylist, tracks: init
               </button>
             </div>
           </div>
+        </div>
+      )}
+      
+      {/* YouTube再生機能 */}
+      {youtubeTracks.length > 0 && (
+        <div className={styles.youtubeSection}>
+          <div className={styles.youtubeControls}>
+            <button
+              onClick={toggleYouTubePlayer}
+              className={styles.youtubeToggleButton}
+            >
+              {showYouTubePlayer ? 'YouTube再生を停止' : 'YouTube再生を開始'}
+            </button>
+            <span className={styles.youtubeTrackCount}>
+              {youtubeTracks.length}曲がYouTube再生可能
+            </span>
+          </div>
+          
+          {showYouTubePlayer && (
+            <div className={styles.youtubePlayerContainer}>
+              <YouTubePlaylistPlayer
+                playlistTracks={youtubeTracks}
+                isPlaying={isYouTubePlaying}
+                onPlayStateChange={handleYouTubePlayStateChange}
+              />
+            </div>
+          )}
         </div>
       )}
     </div>

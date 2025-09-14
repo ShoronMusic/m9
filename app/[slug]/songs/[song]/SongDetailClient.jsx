@@ -198,25 +198,43 @@ export default function SongDetailClient({ songData, description, accessToken })
     stopPlayer();
   }, [stopPlayer]);
 
-  // ユーザーのプレイリスト一覧を取得
+  // ユーザーのプレイリスト一覧を取得（Google認証対応）
   const fetchUserPlaylists = async () => {
     try {
-      const response = await fetch('/api/playlists');
+      // セッション情報を確認
+      if (!session?.user) {
+        console.log('セッションがありません');
+        return;
+      }
+
+      // Google認証またはSpotify認証の両方に対応
+      const response = await fetch('/api/playlists', {
+        headers: {
+          'Authorization': `Bearer ${session.accessToken || session.id}`,
+          'Content-Type': 'application/json'
+        }
+      });
+      
       if (response.ok) {
         const data = await response.json();
         setUserPlaylists(data.playlists || []);
+      } else {
+        console.error('プレイリスト取得エラー:', response.status, response.statusText);
       }
     } catch (err) {
       console.error('プレイリスト取得エラー:', err);
     }
   };
 
-  // プレイリストに追加
+  // プレイリストに追加（統合認証対応）
   const addTrackToPlaylist = async (track, playlistId) => {
     try {
       const response = await fetch(`/api/playlists/${playlistId}/tracks`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${session?.accessToken || session?.id}`
+        },
         body: JSON.stringify({
           song_id: track.id,
           title: track.title,
@@ -230,6 +248,7 @@ export default function SongDetailClient({ songData, description, accessToken })
           genre_name: track.genre_name || null,
           vocal_id: track.vocal_id || null,
           vocal_name: track.vocal_name || null,
+          ytvideoid: track.ytvideoid || null, // YouTube動画IDを追加
           is_favorite: false
         }),
       });
@@ -745,7 +764,9 @@ export default function SongDetailClient({ songData, description, accessToken })
                         styles: songData.styles || [],
                         // その他の必要な情報
                         spotifyTrackId: songData.spotifyTrackId,
-                        spotify_images: songData.spotify_images
+                        spotify_images: songData.spotify_images,
+                        // YouTube動画IDを追加（M8用）
+                        ytvideoid: songData.ytvideoid || null
                       });
                       setShowCreateModal(true);
                     }}
@@ -770,7 +791,7 @@ export default function SongDetailClient({ songData, description, accessToken })
                   </button>
                 ) : (
                   <div style={{ color: '#888', fontSize: '0.9em' }}>
-                    プレイリストに追加するにはSpotifyでログインしてください
+                    プレイリストに追加するにはログインしてください
                   </div>
                 )}
               </div>

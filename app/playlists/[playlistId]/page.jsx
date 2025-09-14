@@ -104,31 +104,42 @@ export default async function PlaylistPage({ params, searchParams }) {
     }
 
     // プレイリストのトラックを取得
-    const { data: tracks, error: tracksError } = await supabase
-      .from('playlist_tracks')
-      .select(`
-        id,
-        track_id,
-        song_id,
-        title,
-        artists,
-        position,
-        added_at,
-        thumbnail_url,
-        style_id,
-        style_name,
-        release_date,
-        spotify_track_id,
-        genre_id,
-        genre_name,
-        vocal_id,
-        vocal_name,
-        vocal_data,
-        is_favorite,
-        spotify_images
-      `)
+    console.log('=== プレイリスト詳細ページ: トラック取得開始 ===');
+    console.log('プレイリストID:', playlistId);
+    console.log('ユーザーID:', userId);
+    
+            const { data: tracks, error: tracksError } = await supabase
+              .from('playlist_tracks')
+              .select(`
+                id,
+                track_id,
+                song_id,
+                title,
+                artists,
+                spotify_artists,
+                position,
+                added_at,
+                thumbnail_url,
+                style_id,
+                style_name,
+                release_date,
+                spotify_track_id,
+                genre_id,
+                genre_name,
+                vocal_id,
+                vocal_name,
+                vocal_data,
+                is_favorite,
+                spotify_images
+              `)
       .eq('playlist_id', playlistId)
       .order('position', { ascending: true });
+
+    console.log('=== プレイリスト詳細ページ: トラック取得結果 ===');
+    console.log('取得したトラック数:', tracks?.length || 0);
+    console.log('エラー:', tracksError);
+    console.log('トラック例:', tracks?.slice(0, 2));
+    console.log('=== デバッグ情報終了 ===');
 
     if (tracksError) {
       console.error('Error fetching playlist tracks:', tracksError);

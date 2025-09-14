@@ -125,11 +125,95 @@ function formatYearMonth(dateStr) {
 
 // プレイリスト用のアーティスト情報を適切に表示する関数
 function formatPlaylistArtists(artists, spotifyArtists = null) {
-  // デバッグログ：入力値の確認
+  
   // spotify_artistsフィールドを最優先で使用（データベースの順番を完全保持）
-  if (spotifyArtists && Array.isArray(spotifyArtists) && spotifyArtists.length > 0) {
-    console.log('🎯 spotify_artists使用（データベース順番保持）:', spotifyArtists);
-    return spotifyArtists.join(', ');
+  if (spotifyArtists) {
+    try {
+      // JSON文字列の場合はパース
+      if (typeof spotifyArtists === 'string') {
+        const parsed = JSON.parse(spotifyArtists);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          return parsed.join(', ');
+        }
+      }
+      // 配列の場合はそのまま使用
+      if (Array.isArray(spotifyArtists) && spotifyArtists.length > 0) {
+        return spotifyArtists.join(', ');
+      }
+    } catch (e) {
+      // パースエラーは無視
+    }
+  }
+  
+  // artistsフィールドからアーティスト名を抽出
+  if (artists) {
+    try {
+      let artistData;
+      if (typeof artists === 'string') {
+        // 不正な形式のデータに対応（多重エンコードされたJSON）
+        if (artists.startsWith('{"{"')) {
+          // 不正な形式の場合は、文字列からアーティスト名を抽出
+          const nameMatch = artists.match(/"name":"([^"]+)"/);
+          if (nameMatch) {
+            return nameMatch[1];
+          }
+        }
+        
+        // さらに複雑な形式の場合は、より強力な抽出を試行
+        if (artists.includes('"name":"') && artists.includes('"id":')) {
+          // エスケープされた文字列からアーティスト名を抽出
+          const nameMatch = artists.match(/"name":"([^"]+)"/);
+          if (nameMatch) {
+            return nameMatch[1];
+          }
+        }
+        
+        // 四重エンコードされたデータに対応
+        if (artists.includes('\\\\"name\\\\":\\\\"')) {
+          const nameMatch = artists.match(/\\\\"name\\\\":\\\\"([^"]+)\\\\/);
+          if (nameMatch) {
+            return nameMatch[1];
+          }
+        }
+        artistData = JSON.parse(artists);
+      } else {
+        artistData = artists;
+      }
+      
+      if (Array.isArray(artistData) && artistData.length > 0) {
+        const artistNames = artistData.map(artist => {
+          if (typeof artist === 'object' && artist.name) {
+            return artist.name;
+          }
+          return artist;
+        }).filter(name => name && name.trim());
+        
+        if (artistNames.length > 0) {
+          return artistNames.join(', ');
+        }
+      }
+    } catch (e) {
+      // パースエラーの場合、文字列からアーティスト名を抽出
+      try {
+        // 複数のパターンでアーティスト名を抽出
+        const patterns = [
+          /"name":"([^"]+)"/,  // 標準的なパターン
+          /"name":"([^"]+)"/g, // グローバルマッチ
+          /name":"([^"]+)"/,   // エスケープされたパターン
+          /\\"name\\":\\"([^"]+)\\"/, // 三重エンコードパターン
+        ];
+        
+        for (const pattern of patterns) {
+          const match = artists.match(pattern);
+          if (match) {
+            return match[1];
+          }
+        }
+        
+      } catch (e2) {
+        // 最終的な抽出エラーは無視
+      }
+    }
   }
 
     // 1. spotify_artistsフィールドを最優先で使用
@@ -512,11 +596,11 @@ function formatMultipleVocals(vocalData) {
 // ボーカルアイコンを表示する関数（既存のソングリストと同じ方法）
 function renderVocalIcons(vocalData = []) {
   if (!Array.isArray(vocalData) || vocalData.length === 0) return null;
-  // nameがカンマ区切りや複数形でも対応
-  const names = vocalData
-    .flatMap(v => (v.name ? v.name.split(',').map(s => s.trim().toLowerCase()) : []));
-  const hasF = names.includes("f");
-  const hasM = names.includes("m");
+  
+  // 各ボーカルオブジェクトのnameフィールドを直接チェック
+  const hasF = vocalData.some(v => v.name && v.name.toLowerCase() === "f");
+  const hasM = vocalData.some(v => v.name && v.name.toLowerCase() === "m");
+  
   const icons = [];
   if (hasF) {
     icons.push(<MicrophoneIcon key="F" color="#fd5a5a" />);
@@ -542,7 +626,13 @@ export default function PlaylistSongList({
 }) {
   const { data: session } = useSession();
   const { playTrack, setTrackList, updateCurrentTrackState } = usePlayer();
+  const [isClient, setIsClient] = useState(false);
   const playerContext = useContext(PlayerContext);
+  
+  // クライアントサイドでのみDnDライブラリを初期化
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
   
   // スマホ時のアクティブ楽曲スクロール用
   const [isMobile, setIsMobile] = useState(false);
@@ -1446,6 +1536,19 @@ export default function PlaylistSongList({
 
   // ドラッグ可能な曲アイテムコンポーネント
   const SortableSongItem = ({ track, index }) => {
+    // クライアントサイドでのみDnD機能を有効化
+    const sortableResult = isClient ? useSortable({ 
+      id: track.id || `track-${index}`,
+      disabled: false
+    }) : {
+      attributes: {},
+      listeners: {},
+      setNodeRef: () => {},
+      transform: null,
+      transition: null,
+      isDragging: false
+    };
+
     const {
       attributes,
       listeners,
@@ -1453,7 +1556,7 @@ export default function PlaylistSongList({
       transform,
       transition,
       isDragging
-    } = useSortable({ id: track.id });
+    } = sortableResult;
 
     // デバッグ用：trackオブジェクトの内容を確認
     console.log(`🎵 Track ${index + 1} data:`, {
@@ -1461,7 +1564,16 @@ export default function PlaylistSongList({
       title: track.title,
       artists: track.artists,
       spotify_artists: track.spotify_artists, // 生成されたspotify_artistsフィールドの確認
-      spotify_artists_order: track.spotify_artists ? `[${track.spotify_artists.join(' → ')}]` : 'N/A', // 順番の確認
+        spotify_artists_order: track.spotify_artists ? (() => {
+          try {
+            const artists = typeof track.spotify_artists === 'string' 
+              ? JSON.parse(track.spotify_artists) 
+              : track.spotify_artists;
+            return Array.isArray(artists) ? `[${artists.join(' → ')}]` : 'N/A';
+          } catch (e) {
+            return 'N/A';
+          }
+        })() : 'N/A', // 順番の確認
       artist_slug: track.artist_slug,
       artist_order: track.artist_order,
       spotify_track_id: track.spotify_track_id,
@@ -1499,13 +1611,23 @@ export default function PlaylistSongList({
 
     const title = decodeHtml(track.title || "No Title");
     const thumbnailUrl = getThumbnailUrl(track);
-    const artistText = formatPlaylistArtists(track.artists, track.spotify_artists);
+        const artistText = formatPlaylistArtists(track.artists, track.spotify_artists);
     const releaseDate = track.release_date ? formatYearMonth(track.release_date) : null;
     const genreText = formatMultipleGenres(track.genre_data, track.genre_name);
-    // vocalData: 配列があれば必ずそれを使う
-    const vocalData = Array.isArray(track.vocal_data) && track.vocal_data.length > 0
-      ? track.vocal_data
-      : (track.vocal_name ? [{ name: track.vocal_name }] : []);
+    // vocalData: 配列があれば必ずそれを使う（JSON文字列の場合は解析）
+    let vocalData = [];
+    if (Array.isArray(track.vocal_data) && track.vocal_data.length > 0) {
+      vocalData = track.vocal_data;
+    } else if (typeof track.vocal_data === 'string' && track.vocal_data.trim()) {
+      try {
+        vocalData = JSON.parse(track.vocal_data);
+      } catch (e) {
+        console.error('vocal_data JSON解析エラー:', e);
+        vocalData = track.vocal_name ? [{ name: track.vocal_name }] : [];
+      }
+    } else if (track.vocal_name) {
+      vocalData = [{ name: track.vocal_name }];
+    }
     const spotifyTrackId = track.spotify_track_id || track.track_id;
     const isLiked = spotifyTrackId ? likedTracks.has(spotifyTrackId) : false;
     const isPlaying = playerContext?.currentTrack?.id === track.id && playerContext?.isPlaying;
@@ -1691,27 +1813,40 @@ export default function PlaylistSongList({
         </div>
       </div>
 
-      <DndContext
-        sensors={sensors}
-        collisionDetection={closestCenter}
-        onDragEnd={handleDragEnd}
-      >
-        <SortableContext
-          items={sortedTracks.map(track => track.id)}
-          strategy={verticalListSortingStrategy}
+      {isClient ? (
+        <DndContext
+          sensors={sensors}
+          collisionDetection={closestCenter}
+          onDragEnd={handleDragEnd}
         >
-          <ul className={styles.songList}>
-            {sortedTracks.map((track, index) => {
-              try {
-                return <SortableSongItem key={track.id + '-' + index} track={track} index={index} />;
-              } catch (e) {
-                console.error(`ビルドエラー: 曲ID=${track.id}, タイトル=${track.title}`, e);
-                return null;
-              }
-            })}
-          </ul>
-        </SortableContext>
-      </DndContext>
+          <SortableContext
+            items={sortedTracks.map((track, index) => track.id || `track-${index}`)}
+            strategy={verticalListSortingStrategy}
+          >
+            <ul className={styles.songList}>
+              {sortedTracks.map((track, index) => {
+                try {
+                  return <SortableSongItem key={track.id + '-' + index} track={track} index={index} />;
+                } catch (e) {
+                  console.error(`ビルドエラー: 曲ID=${track.id}, タイトル=${track.title}`, e);
+                  return null;
+                }
+              })}
+            </ul>
+          </SortableContext>
+        </DndContext>
+      ) : (
+        <ul className={styles.songList}>
+          {sortedTracks.map((track, index) => {
+            try {
+              return <SortableSongItem key={track.id + '-' + index} track={track} index={index} />;
+            } catch (e) {
+              console.error(`ビルドエラー: 曲ID=${track.id}, タイトル=${track.title}`, e);
+              return null;
+            }
+          })}
+        </ul>
+      )}
       {/* ポップアップメニュー */}
       {isPopupVisible && popupSong && (
         <ThreeDotsMenu
@@ -1733,8 +1868,22 @@ export default function PlaylistSongList({
 
             return (
               <>
-                                 <div key="artists-section" style={separatorStyle}>
-                   {song.artists?.map((artist, index) => {
+                <div key="artists-section" style={separatorStyle}>
+                  {(() => {
+                    // artistsフィールドを配列に変換
+                    let artistsArray = [];
+                    if (Array.isArray(song.artists)) {
+                      artistsArray = song.artists;
+                    } else if (typeof song.artists === 'string' && song.artists.trim()) {
+                      try {
+                        artistsArray = JSON.parse(song.artists);
+                      } catch (e) {
+                        console.error('artists JSON解析エラー:', e);
+                        artistsArray = [];
+                      }
+                    }
+                    
+                    return artistsArray.map((artist, index) => {
                      // アーティストデータの処理
                      let artistName = '';
                      let artistSlug = '';
@@ -1770,15 +1919,30 @@ export default function PlaylistSongList({
                          </a>
                        </Link>
                      );
-                   }).filter(Boolean)}
-                 </div>
+                   }).filter(Boolean);
+                  })()}
+                </div>
 
-                                 <div key="song-section" style={separatorStyle}>
-                   {(() => {
-                     // アーティストスラッグを適切に取得
-                     let artistSlug = 'unknown';
-                     if (song.artists && song.artists.length > 0) {
-                       const firstArtist = song.artists[0];
+                <div key="song-section" style={separatorStyle}>
+                  {(() => {
+                    // アーティストスラッグを適切に取得
+                    let artistSlug = 'unknown';
+                    
+                    // artistsフィールドを配列に変換
+                    let artistsArray = [];
+                    if (Array.isArray(song.artists)) {
+                      artistsArray = song.artists;
+                    } else if (typeof song.artists === 'string' && song.artists.trim()) {
+                      try {
+                        artistsArray = JSON.parse(song.artists);
+                      } catch (e) {
+                        console.error('artists JSON解析エラー:', e);
+                        artistsArray = [];
+                      }
+                    }
+                    
+                    if (artistsArray.length > 0) {
+                      const firstArtist = artistsArray[0];
                        if (typeof firstArtist === 'string') {
                          try {
                            const parsed = JSON.parse(firstArtist);
