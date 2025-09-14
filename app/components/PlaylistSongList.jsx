@@ -690,15 +690,6 @@ export default function PlaylistSongList({
   // PlayerContextの初期化状態をチェック
   const isPlayerReady = playTrack && setTrackList && updateCurrentTrackState;
   
-  // デバッグ用：usePlayerから取得した関数の確認（ページ読み込み時のみ）
-  useEffect(() => {
-    console.log('🔧 PlaylistSongList - usePlayer functions loaded:', {
-      playTrack: typeof playTrack,
-      setTrackList: typeof setTrackList,
-      updateCurrentTrackState: typeof updateCurrentTrackState,
-      isPlayerReady
-    });
-  }, [playTrack, setTrackList, updateCurrentTrackState, isPlayerReady]);
   
   const [menuVisible, setMenuVisible] = useState(false);
   const [menuTriggerRect, setMenuTriggerRect] = useState(null);
@@ -732,7 +723,6 @@ export default function PlaylistSongList({
           if (response.ok) {
             const data = await response.json();
             setPlaylistInfo(data);
-            console.log('PlaylistSongList - Playlist info fetched:', data);
           }
         } catch (error) {
           console.error('Failed to fetch playlist info:', error);
@@ -747,22 +737,10 @@ export default function PlaylistSongList({
     setSortedTracks(tracks);
   }, [tracks]);
 
-  // PlayerContextの状態変化を監視
-  useEffect(() => {
-    console.log('🔍 PlaylistSongList - PlayerContext state changed:', {
-      updateCurrentTrackState: typeof updateCurrentTrackState,
-      trackList: typeof setTrackList
-    });
-  }, [updateCurrentTrackState, setTrackList]);
 
   // autoPlayFirst機能：最初の曲を自動再生
   useEffect(() => {
     if (autoPlayFirst && tracks.length > 0 && playTrack && setTrackList && updateCurrentTrackState) {
-      console.log('🎵 AutoPlayFirst triggered:', {
-        autoPlayFirst,
-        tracksCount: tracks.length,
-        firstTrack: tracks[0]
-      });
       
       try {
         const firstTrack = tracks[0];
@@ -770,19 +748,12 @@ export default function PlaylistSongList({
         const playlistName = playlistInfo?.name || 'Unknown Playlist';
         const finalSource = source || `playlist: ${playlistName}|${playlistId}`;
         
-        console.log('🚀 Setting up auto-play for first track:', {
-          track: firstTrack.title || firstTrack.title?.rendered,
-          source: finalSource
-        });
-        
         // プレイリスト全体をキューに設定
         setTrackList(tracks);
         updateCurrentTrackState(firstTrack, 0);
         
         // 最初の曲を再生
         playTrack(firstTrack, 0, tracks, finalSource, onPageEnd);
-        
-        console.log('✅ Auto-play setup completed successfully');
       } catch (error) {
         console.error('❌ Auto-play setup failed:', error);
       }
@@ -795,11 +766,6 @@ export default function PlaylistSongList({
       .map(track => track.spotify_track_id || track.track_id)
       .filter(id => id); // null/undefinedを除外
     
-    // デバッグ情報を出力
-    console.log('PlaylistSongList - trackIds extracted:', {
-      tracks: sortedTracks.map(t => ({ id: t.id, title: t.title, spotify_track_id: t.spotify_track_id, track_id: t.track_id })),
-      extractedIds: ids
-    });
     
     return ids;
   }, [sortedTracks]);
@@ -821,22 +787,10 @@ export default function PlaylistSongList({
   // 安全な曲データの生成（idを必ずセット）
   const safeTracks = useMemo(() => {
     const processedTracks = sortedTracks.map(track => {
-      // 必須フィールドの確認と代替データの生成
-      console.log(`🔍 Processing track: ${track.title}`, {
-        style_id: track.style_id,
-        genre_name: track.genre_name,
-        artists: track.artists,
-        // 利用可能なフィールドを確認
-        availableFields: Object.keys(track).filter(key => track[key] !== undefined && track[key] !== null)
-      });
 
       // spotify_track_idがnullの場合は、track_idをspotify_track_idとして使用
       const spotifyTrackId = track.spotify_track_id || track.track_id;
       
-      // 警告：track_idがSpotify Track IDとして使用されている場合
-      if (!track.spotify_track_id && track.track_id) {
-        console.warn(`Warning: Using track_id (${track.track_id}) as spotify_track_id for track "${track.title}". This may cause playback issues.`);
-      }
 
       // genre_dataが存在しない場合、genre_nameから生成
       let generatedGenreData = null;
@@ -945,13 +899,6 @@ export default function PlaylistSongList({
         date: track.release_date || track.added_at || '',
         thumbnail: (() => {
           const thumbnail = track.thumbnail_url || track.thumbnail;
-          console.log('🖼️ PlaylistSongList - Track thumbnail processing:', {
-            trackId: track.id || track.track_id,
-            trackTitle: track.title,
-            originalThumbnail: track.thumbnail,
-            originalThumbnailUrl: track.thumbnail_url,
-            finalThumbnail: thumbnail
-          });
           return thumbnail;
         })(),
         youtubeId: track.youtube_id || track.ytvideoid || '',
@@ -970,31 +917,7 @@ export default function PlaylistSongList({
       };
     });
     
-    // デバッグ情報を出力
-    console.log('PlaylistSongList - safeTracks processed:', {
-      originalTracks: sortedTracks,
-      processedTracks: processedTracks,
-      sampleTrack: processedTracks[0],
-      sampleTrackStyleInfo: processedTracks[0] ? {
-        style: processedTracks[0].style,
-        styles: processedTracks[0].styles,
-        style_id: processedTracks[0].style_id,
-        style_name: processedTracks[0].style_name,
-        genre_data: processedTracks[0].genre_data,
-        spotify_artists: processedTracks[0].spotify_artists,
-        originalStyle: sortedTracks[0]?.style,
-        originalStyles: sortedTracks[0]?.styles,
-        originalStyleId: sortedTracks[0]?.style_id,
-        originalStyleName: sortedTracks[0]?.style_name,
-        originalGenreName: sortedTracks[0]?.genre_name,
-        originalArtists: sortedTracks[0]?.artists
-      } : null
-    });
     
-    // safeTracks生成後にvocal_dataをデバッグ出力
-    processedTracks.forEach((track, idx) => {
-      console.log(`[DEBUG][PlaylistSongList] safeTracks[${idx}].vocal_data:`, track.vocal_data, 'typeof:', typeof track.vocal_data, 'isArray:', Array.isArray(track.vocal_data));
-    });
     
     return processedTracks;
   }, [sortedTracks]);
@@ -1558,50 +1481,7 @@ export default function PlaylistSongList({
       isDragging
     } = sortableResult;
 
-    // デバッグ用：trackオブジェクトの内容を確認
-    console.log(`🎵 Track ${index + 1} data:`, {
-      id: track.id,
-      title: track.title,
-      artists: track.artists,
-      spotify_artists: track.spotify_artists, // 生成されたspotify_artistsフィールドの確認
-        spotify_artists_order: track.spotify_artists ? (() => {
-          try {
-            const artists = typeof track.spotify_artists === 'string' 
-              ? JSON.parse(track.spotify_artists) 
-              : track.spotify_artists;
-            return Array.isArray(artists) ? `[${artists.join(' → ')}]` : 'N/A';
-          } catch (e) {
-            return 'N/A';
-          }
-        })() : 'N/A', // 順番の確認
-      artist_slug: track.artist_slug,
-      artist_order: track.artist_order,
-      spotify_track_id: track.spotify_track_id,
-      genre_name: track.genre_name,
-      genre_data: track.genre_data, // 生成されたgenre_dataフィールドの確認
-      vocal_name: track.vocal_name,
-      style_id: track.style_id, // style_idフィールドの確認
-      style_name: track.style_name
-    });
 
-    // 必須フィールドの存在確認（生成されたデータも含む）
-    if (!track.style_id) {
-      console.warn(`⚠️ Track ${index + 1} (${track.title}) missing style_id`);
-    }
-    if (!track.genre_data || track.genre_data.length === 0) {
-      console.warn(`⚠️ Track ${index + 1} (${track.title}) missing or empty genre_data`);
-    }
-    if (!track.spotify_artists || track.spotify_artists.length === 0) {
-      console.warn(`⚠️ Track ${index + 1} (${track.title}) missing or empty spotify_artists`);
-    }
-
-    // 生成されたデータの確認
-    if (track.genre_data && track.genre_data.length > 0) {
-      console.log(`✅ Track ${index + 1} (${track.title}) has genre_data:`, track.genre_data);
-    }
-    if (track.spotify_artists && track.spotify_artists.length > 0) {
-      console.log(`✅ Track ${index + 1} (${track.title}) has spotify_artists:`, track.spotify_artists);
-    }
 
     const style = {
       transform: CSS.Transform.toString(transform),

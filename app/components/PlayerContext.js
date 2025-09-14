@@ -593,26 +593,10 @@ export const PlayerProvider = ({ children }) => {
   }, [isPowerSaveMode]);
 
   const playTrack = useCallback((track, index, songs, source, onPageEnd = null) => {
-    // ソース情報のデバッグログ
-    console.log('🎵 PlayerContext - playTrack called:', {
-      track: track?.id || track?.spotifyTrackId,
-      index,
-      songsLength: songs?.length,
-      source,
-      currentSource: currentTrackListSource.current,
-      isNewSource: source !== currentTrackListSource.current
-    });
-    
     // ソース情報の検証と正規化
     const normalizedSource = source || 'unknown';
-    console.log('🔍 PlayerContext - Source validation:', {
-      originalSource: source,
-      normalizedSource,
-      currentSource: currentTrackListSource.current
-    });
     
     if (normalizedSource !== currentTrackListSource.current) {
-        console.log('🔄 PlayerContext - New source detected, resetting state');
         // 状態を完全にリセット
         setCurrentTrack(null);
         setCurrentTrackIndex(-1);

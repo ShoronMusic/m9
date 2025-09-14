@@ -62,10 +62,7 @@ export default function SpotifySyncButton({
   const checkSpotifyChanges = async () => {
     try {
       setIsChecking(true);
-      setHasCheckedChanges(true); // チェック実行済みフラグを設定
-      console.log('=== SpotifySyncButton: 変更検知開始 ===');
-      console.log('プレイリストID:', playlist?.id);
-      console.log('セッション状態:', !!session?.accessToken);
+      setHasCheckedChanges(true);
 
       const response = await fetch(
         `/api/spotify/sync?action=check_spotify_changes&playlistId=${playlist.id}`,
@@ -78,13 +75,9 @@ export default function SpotifySyncButton({
 
       if (response.ok) {
         const data = await response.json();
-        console.log('=== SpotifySyncButton: 変更検知結果 ===');
-        console.log('検知結果:', data);
-        
         setHasSpotifyChanges(data.hasChanges);
         
         if (data.hasChanges) {
-          console.log('🔄 変更検知: 通知を表示');
           setChangeNotification({
             message: data.message,
             playlistName: data.playlistName,
@@ -92,7 +85,6 @@ export default function SpotifySyncButton({
             lastSnapshotId: data.lastSnapshotId
           });
         } else {
-          console.log('✅ 変更なし: 通知を非表示');
           setChangeNotification(null);
         }
       } else {

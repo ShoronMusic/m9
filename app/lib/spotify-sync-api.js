@@ -373,7 +373,6 @@ async function searchTuneDiveTrackBySpotifyId(spotifyTrackId) {
  */
 export async function importSpotifyPlaylistToTuneDive(accessToken, spotifyPlaylistId) {
   try {
-    console.log('SpotifyプレイリストをTuneDiveにインポート開始:', spotifyPlaylistId);
 
     // Spotifyプレイリスト情報を取得
     const playlistResponse = await fetch(`${SPOTIFY_API_BASE_URL}/playlists/${spotifyPlaylistId}`, {
@@ -401,10 +400,6 @@ export async function importSpotifyPlaylistToTuneDive(accessToken, spotifyPlayli
 
     const tracksData = await tracksResponse.json();
 
-    console.log('=== Spotifyトラック取得デバッグ ===');
-    console.log('SpotifyプレイリストID:', spotifyPlaylistId);
-    console.log('取得したトラック数:', tracksData.items?.length || 0);
-    console.log('tracksData.items:', tracksData.items?.slice(0, 2)); // 最初の2件をログ出力
 
     // TuneDive形式に変換（メタデータ補完付き）
     let metadataEnrichedCount = 0;
@@ -451,22 +446,14 @@ export async function importSpotifyPlaylistToTuneDive(accessToken, spotifyPlayli
           });
           metadataEnrichedCount++;
           return enrichedTrack;
-        } else {
-          console.log('❌ TuneDiveデータが見つかりませんでした');
         }
       } catch (error) {
-        console.log(`❌ TuneDiveデータ検索エラー (${item.track.name}):`, error);
+        // メタデータ検索エラーは無視して続行
       }
 
       return baseTrack;
     }));
 
-    console.log('=== 変換後のトラックデータ ===');
-    console.log('変換されたトラック数:', importedTracks.length);
-    console.log('メタデータ補完成功数:', metadataEnrichedCount);
-    console.log('メタデータ補完成功率:', `${Math.round((metadataEnrichedCount / totalTracksCount) * 100)}%`);
-    console.log('変換されたトラック例:', importedTracks.slice(0, 2));
-    console.log('=== デバッグ情報終了 ===');
 
     return {
       playlist: {
@@ -496,7 +483,6 @@ export async function importSpotifyPlaylistToTuneDive(accessToken, spotifyPlayli
  */
 export async function detectSpotifyPlaylistChanges(accessToken, spotifyPlaylistId, lastSnapshotId) {
   try {
-    console.log('Spotifyプレイリストの変更検知開始:', spotifyPlaylistId);
 
     // Spotifyプレイリストの現在の情報を取得
     const playlistResponse = await fetch(`${SPOTIFY_API_BASE_URL}/playlists/${spotifyPlaylistId}`, {
@@ -519,30 +505,8 @@ export async function detectSpotifyPlaylistChanges(accessToken, spotifyPlaylistI
                                lastSnapshotId !== null && 
                                lastSnapshotId !== undefined;
     
-    // 変更検知ロジックを修正：実際にSpotifyで変更があった場合のみtrue
-    // 現在は常にfalseを返すようにして、誤検知を防ぐ
-    const hasChanges = false; // 一時的に変更検知を無効化
-
-    console.log('=== Spotify変更検知デバッグ情報 ===');
-    console.log('SpotifyプレイリストID:', spotifyPlaylistId);
-    console.log('現在のスナップショットID:', currentSnapshotId, '(Type:', typeof currentSnapshotId, ')');
-    console.log('保存されているスナップショットID:', lastSnapshotId, '(Type:', typeof lastSnapshotId, ')');
-    console.log('有効なlastSnapshotIdか:', isValidLastSnapshot);
-    console.log('スナップショットID比較結果:', hasChanges);
-    console.log('プレイリスト名:', playlistData.name);
-    console.log('🔍 デバッグ: 比較の詳細');
-    console.log('  - currentSnapshotId !== lastSnapshotId:', currentSnapshotId !== lastSnapshotId);
-    console.log('  - isValidLastSnapshot:', isValidLastSnapshot);
-    console.log('  - 最終的なhasChanges:', hasChanges);
-    console.log('比較詳細:', {
-      currentType: typeof currentSnapshotId,
-      lastType: typeof lastSnapshotId,
-      currentValue: JSON.stringify(currentSnapshotId),
-      lastValue: JSON.stringify(lastSnapshotId),
-      strictEqual: currentSnapshotId === lastSnapshotId,
-      looseEqual: currentSnapshotId == lastSnapshotId
-    });
-    console.log('=== デバッグ情報終了 ===');
+    // 変更検知ロジック：現在は変更検知を無効化
+    const hasChanges = false;
 
     return {
       hasChanges,
