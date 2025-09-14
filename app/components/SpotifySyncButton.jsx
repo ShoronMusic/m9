@@ -569,7 +569,7 @@ ${result.spotify_playlist_url ? `\nSpotifyで確認: ${result.spotify_playlist_u
             }}
           >
             <img 
-              src="/icons/spotify_wh.svg" 
+              src="/svg/spotify_wh.svg" 
               alt="Spotify" 
               style={{ width: '16px', height: '16px' }}
               onError={(e) => {

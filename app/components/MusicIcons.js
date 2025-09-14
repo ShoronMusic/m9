@@ -14,7 +14,7 @@ const MusicIcons = ({ ytVideoId, spotifyTrackId, openExternalLink }) => {
       )}
       {spotifyTrackId && (
         <img
-          src="/icons/spotify.svg"
+          src="/svg/spotify.svg"
           alt="Spotify"
           className={styles.musicIcon}
           onClick={() => openExternalLink(`https://open.spotify.com/track/${spotifyTrackId}`)}

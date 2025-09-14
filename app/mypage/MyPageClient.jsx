@@ -956,7 +956,7 @@ export default function MyPageClient({ session }) {
                       <h4 className={styles.playlistName}>{playlist.name}</h4>
                       {playlist.sync_status === 'synced' && (
                         <img 
-                          src="/icons/spotify.svg" 
+                          src="/svg/spotify.svg" 
                           alt="Spotify同期済み" 
                           className={styles.spotifyIcon}
                           title="Spotifyプレイリストと同期済み"
@@ -1016,7 +1016,7 @@ export default function MyPageClient({ session }) {
                       </div>
                       {playlist.sync_status === 'synced' && (
                         <img 
-                          src="/icons/spotify.svg" 
+                          src="/svg/spotify.svg" 
                           alt="Spotify同期済み" 
                           className={styles.spotifyIcon}
                           title="Spotifyプレイリストと同期済み"
