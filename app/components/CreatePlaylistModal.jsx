@@ -238,6 +238,10 @@ export default function CreatePlaylistModal({
         thumbnailUrl = trackWithVocals.acf.thumbnail_url;
       } else if (trackWithVocals.thumbnail_url) {
         thumbnailUrl = trackWithVocals.thumbnail_url;
+      } else if (trackWithVocals.featured_media_url) {
+        // featured_media_urlをCloudinary URLに変換
+        const filename = trackWithVocals.featured_media_url.split('/').pop();
+        thumbnailUrl = `https://res.cloudinary.com/dniwclyhj/image/upload/thumbnails/${filename}`;
       }
 
       // 公開年月を取得
