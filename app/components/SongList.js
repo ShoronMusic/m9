@@ -902,15 +902,15 @@ export default function SongList({
         vocalInfo = { term_id: track.vocal_id, name: track.vocal_name };
       }
 
-      // サムネイルURLを取得
-      let thumbnailUrl = null;
-      if (track.thumbnail) {
-        thumbnailUrl = track.thumbnail;
-      } else if (track.acf?.thumbnail_url) {
-        thumbnailUrl = track.acf.thumbnail_url;
-      } else if (track.thumbnail_url) {
-        thumbnailUrl = track.thumbnail_url;
-      }
+      // サムネイルURLを取得（getThumbnailUrl関数を使用）
+      const thumbnailUrl = getThumbnailUrl(track);
+      console.log('🎯 SongList addTrackToPlaylist - Original track thumbnail fields:', {
+        thumbnail: track.thumbnail,
+        'acf.thumbnail_url': track.acf?.thumbnail_url,
+        thumbnail_url: track.thumbnail_url,
+        featured_media_url: track.featured_media_url
+      });
+      console.log('🎯 SongList addTrackToPlaylist - Final thumbnailUrl:', thumbnailUrl);
 
       // 公開年月を取得
       let releaseDate = null;
@@ -969,12 +969,102 @@ export default function SongList({
       let videoId = track.videoId || track.youtubeId || null;
 
              // 送信データを準備（データベースに存在するフィールドのみ）
+      
+      // アーティスト情報を正しい形式に変換
+      let formattedArtists = [];
+      
+      // 1. まずtrack.artistsをチェック
+      if (track.artists && Array.isArray(track.artists) && track.artists.length > 0) {
+        formattedArtists = track.artists.map(artist => {
+          if (typeof artist === 'object' && artist.name) {
+            return {
+              id: artist.id || null,
+              name: artist.name,
+              slug: artist.slug || null,
+              acf: artist.acf || null,
+              artist_origin: artist.artist_origin || null,
+              prefix: artist.prefix || ""
+            };
+          } else if (typeof artist === 'string') {
+            return {
+              id: null,
+              name: artist,
+              slug: null,
+              acf: null,
+              artist_origin: null,
+              prefix: ""
+            };
+          }
+          return null;
+        }).filter(Boolean);
+      }
+      
+      // 2. track.artistsが空の場合はspotify_artistsを使用
+      if (formattedArtists.length === 0) {
+        // 複数のソースからspotify_artistsを取得
+        let spotifyArtistsData = track.spotify_artists || track.acf?.spotify_artists;
+        
+        if (spotifyArtistsData) {
+          console.log('🎯 SongList addTrackToPlaylist - Using spotify_artists as fallback:', spotifyArtistsData);
+          if (typeof spotifyArtistsData === 'string') {
+            // 文字列の場合はそのまま使用
+            formattedArtists = [{
+              id: null,
+              name: spotifyArtistsData,
+              slug: null,
+              acf: null,
+              artist_origin: null,
+              prefix: ""
+            }];
+          } else if (Array.isArray(spotifyArtistsData)) {
+            // 配列の場合は各要素を処理
+            formattedArtists = spotifyArtistsData.map(artist => {
+              if (typeof artist === 'object' && artist.name) {
+                return {
+                  id: artist.id || null,
+                  name: artist.name,
+                  slug: artist.slug || null,
+                  acf: artist.acf || null,
+                  artist_origin: artist.artist_origin || null,
+                  prefix: artist.prefix || ""
+                };
+              } else if (typeof artist === 'string') {
+                return {
+                  id: null,
+                  name: artist,
+                  slug: null,
+                  acf: null,
+                  artist_origin: null,
+                  prefix: ""
+                };
+              }
+              return null;
+            }).filter(Boolean);
+          }
+        }
+      }
+      
+      // 3. それでも空の場合はデフォルト値を設定
+      if (formattedArtists.length === 0) {
+        formattedArtists = [{
+          id: null,
+          name: "Unknown Artist",
+          slug: null,
+          acf: null,
+          artist_origin: null,
+          prefix: ""
+        }];
+      }
+      
+      console.log('🎯 SongList addTrackToPlaylist - Formatted artists:', formattedArtists);
+      console.log('🎯 SongList addTrackToPlaylist - JSON.stringify(formattedArtists):', JSON.stringify(formattedArtists));
+
       const requestData = {
         // 基本項目（必須）
         song_id: track.id,
         track_id: track.id,
         title: track.title?.rendered || track.title || 'Unknown Title',
-        artists: track.artists || [],
+        artists: JSON.stringify(formattedArtists),
         
         // メディア情報
         thumbnail_url: thumbnailUrl,
@@ -1022,7 +1112,7 @@ export default function SongList({
        console.log('track.categories:', track.categories);
        console.log('最終的なstyleInfo:', styleInfo);
        console.log('全ジャンル情報:', allGenres);
-       console.log('Sending track data to API:', requestData);
+       console.log('🎯 SongList addTrackToPlaylist - Final requestData being sent:', requestData);
 
       const response = await fetch(`/api/playlists/${playlistId}/tracks`, {
         method: 'POST',

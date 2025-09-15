@@ -582,15 +582,8 @@ export default function SongListTopPage({
 				vocalInfo = track.vocals[0];
 			}
 
-			// サムネイルURLを取得
-			let thumbnailUrl = null;
-			if (track.thumbnail) {
-				thumbnailUrl = track.thumbnail;
-			} else if (track.acf?.thumbnail_url) {
-				thumbnailUrl = track.acf.thumbnail_url;
-			} else if (track.thumbnail_url) {
-				thumbnailUrl = track.thumbnail_url;
-			}
+			// サムネイルURLを取得（getThumbnailUrl関数を使用）
+			const thumbnailUrl = getThumbnailUrl(track);
 
 			// 公開年月を取得
 			let releaseDate = null;
@@ -613,6 +606,86 @@ export default function SongListTopPage({
 				}
 			}
 
+			// アーティスト情報を正しい形式に変換
+			let formattedArtists = [];
+			
+			// 1. まずtrack.artistsをチェック
+			if (track.artists && Array.isArray(track.artists) && track.artists.length > 0) {
+				formattedArtists = track.artists.map(artist => {
+					if (typeof artist === 'object' && artist.name) {
+						return {
+							id: artist.id || null,
+							name: artist.name,
+							slug: artist.slug || null,
+							acf: artist.acf || null,
+							artist_origin: artist.artist_origin || null,
+							prefix: artist.prefix || ""
+						};
+					} else if (typeof artist === 'string') {
+						return {
+							id: null,
+							name: artist,
+							slug: null,
+							acf: null,
+							artist_origin: null,
+							prefix: ""
+						};
+					}
+					return null;
+				}).filter(Boolean);
+			}
+			
+			// 2. track.artistsが空の場合はspotify_artistsを使用
+			if (formattedArtists.length === 0 && track.spotify_artists) {
+				if (typeof track.spotify_artists === 'string') {
+					// 文字列の場合はそのまま使用
+					formattedArtists = [{
+						id: null,
+						name: track.spotify_artists,
+						slug: null,
+						acf: null,
+						artist_origin: null,
+						prefix: ""
+					}];
+				} else if (Array.isArray(track.spotify_artists)) {
+					// 配列の場合は各要素を処理
+					formattedArtists = track.spotify_artists.map(artist => {
+						if (typeof artist === 'object' && artist.name) {
+							return {
+								id: artist.id || null,
+								name: artist.name,
+								slug: artist.slug || null,
+								acf: artist.acf || null,
+								artist_origin: artist.artist_origin || null,
+								prefix: artist.prefix || ""
+							};
+						} else if (typeof artist === 'string') {
+							return {
+								id: null,
+								name: artist,
+								slug: null,
+								acf: null,
+								artist_origin: null,
+								prefix: ""
+							};
+						}
+						return null;
+					}).filter(Boolean);
+				}
+			}
+			
+			// 3. それでも空の場合はデフォルト値を設定
+			if (formattedArtists.length === 0) {
+				formattedArtists = [{
+					id: null,
+					name: "Unknown Artist",
+					slug: null,
+					acf: null,
+					artist_origin: null,
+					prefix: ""
+				}];
+			}
+
 			const response = await fetch(`/api/playlists/${playlistId}/tracks`, {
 				method: 'POST',
 				headers: {
@@ -622,7 +695,7 @@ export default function SongListTopPage({
 					song_id: track.id,
 					track_id: track.id,
 					title: track.title?.rendered || track.title,
-					artists: track.artists || [],
+					artists: JSON.stringify(formattedArtists),
 					thumbnail_url: thumbnailUrl,
 					style_id: styleInfo?.term_id || track.style_id,
 					style_name: styleInfo?.name || track.style_name,

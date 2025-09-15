@@ -285,7 +285,7 @@ export async function POST(request, { params }) {
       vocal_data
     } = trackData;
     
-    console.log('Track data received:', { 
+    console.log('🎯 API - Track data received:', { 
       track_id, 
       title, 
       title_slug,
@@ -297,9 +297,9 @@ export async function POST(request, { params }) {
       style_id, 
       style_name, 
       style_slug,
-      release_date, 
+      release_date,
       genre_id, 
-      genre_name, 
+      genre_name,
       genre_slug,
       vocal_id, 
       vocal_name, 
@@ -315,10 +315,70 @@ export async function POST(request, { params }) {
       vocal_data
     });
     
+    // アーティスト情報の詳細デバッグと修正
+    console.log('🎯 API - Artists field analysis:');
+    console.log('🎯 API - artists type:', typeof artists);
+    console.log('🎯 API - artists value:', artists);
+    console.log('🎯 API - artists isArray:', Array.isArray(artists));
+    console.log('🎯 API - spotify_artists value:', spotify_artists);
+    
+    // artistsがnullまたは空の場合、spotify_artistsを使用
+    let finalArtists = artists;
+    if (!finalArtists && spotify_artists) {
+      console.log('🎯 API - Using spotify_artists as fallback for artists field');
+      try {
+        // spotify_artistsが文字列の場合、JSON配列に変換
+        if (typeof spotify_artists === 'string') {
+          // 既にJSON文字列の場合（"The Police"のような形式）
+          if (spotify_artists.startsWith('"') && spotify_artists.endsWith('"')) {
+            const artistName = JSON.parse(spotify_artists);
+            finalArtists = JSON.stringify([{
+              id: null,
+              name: artistName,
+              slug: null,
+              acf: null,
+              artist_origin: null,
+              prefix: ""
+            }]);
+          } else {
+            // 通常の文字列の場合
+            finalArtists = JSON.stringify([{
+              id: null,
+              name: spotify_artists,
+              slug: null,
+              acf: null,
+              artist_origin: null,
+              prefix: ""
+            }]);
+          }
+        }
+        console.log('🎯 API - Final artists after spotify_artists fallback:', finalArtists);
+      } catch (error) {
+        console.log('🎯 API - Error processing spotify_artists fallback:', error.message);
+      }
+    }
+    
+    if (typeof finalArtists === 'string') {
+      console.log('🎯 API - artists is string, attempting JSON.parse...');
+      try {
+        const parsedArtists = JSON.parse(finalArtists);
+        console.log('🎯 API - Parsed artists:', parsedArtists);
+      } catch (error) {
+        console.log('🎯 API - Failed to parse artists as JSON:', error.message);
+      }
+    }
+    
     // titleがundefinedの場合は、artistsから曲名を構築
     let finalTrackName = title;
-    if (!finalTrackName && artists && Array.isArray(artists)) {
-      finalTrackName = artists.map(artist => artist.name).join(', ');
+    if (!finalTrackName && finalArtists) {
+      try {
+        const parsedArtists = JSON.parse(finalArtists);
+        if (Array.isArray(parsedArtists)) {
+          finalTrackName = parsedArtists.map(artist => artist.name).join(', ');
+        }
+      } catch (error) {
+        console.log('🎯 API - Error parsing finalArtists for title construction:', error.message);
+      }
     }
     
     if (!track_id || !finalTrackName) {
@@ -397,7 +457,7 @@ export async function POST(request, { params }) {
       playlist_id: playlistId,
       track_id: track_id,
       title: finalTrackName,
-      artists: artists || null,
+      artists: finalArtists || null,
       position: newPosition,
       added_at: new Date().toISOString(),
       added_by: userId,

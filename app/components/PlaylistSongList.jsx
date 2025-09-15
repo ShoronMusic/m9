@@ -281,7 +281,6 @@ function formatYearMonth(dateStr) {
 
 // プレイリスト用のアーティスト情報を適切に表示する関数
 function formatPlaylistArtists(artists, spotifyArtists = null) {
-  console.log('🎯 formatPlaylistArtists called:', { artists, spotifyArtists });
   
   // spotify_artistsフィールドを最優先で使用
   if (spotifyArtists) {
@@ -349,10 +348,8 @@ function formatPlaylistArtists(artists, spotifyArtists = null) {
             }
             // パターン2: "}","{" で区切られた複数アーティスト（実際のデータ構造）
             else if (unescaped.includes('"}","{')) {
-              console.log('🎯 Multiple artists detected (pattern 2)');
               // 完全なJSONオブジェクトの境界で分割
               const parts = unescaped.split('"}","{');
-              console.log('🎯 Split parts:', parts);
               
               const parsedArtists = parts.map((part, index) => {
                 let cleanPart = part;
@@ -366,19 +363,14 @@ function formatPlaylistArtists(artists, spotifyArtists = null) {
                   cleanPart = '{' + cleanPart;
                 }
                 
-                console.log(`🎯 Processing part ${index}:`, cleanPart.substring(0, 100) + '...');
                 try {
                   const parsed = JSON.parse(cleanPart);
-                  console.log(`🎯 Successfully parsed part ${index}:`, parsed.name);
                   return parsed;
                 } catch (e) {
-                  console.log(`🎯 Failed to parse part ${index}:`, e.message);
-                  console.log(`🎯 Part content:`, cleanPart);
                   return null;
                 }
               }).filter(artist => artist !== null);
               
-              console.log('🎯 Final parsed artists:', parsedArtists);
               artistData = parsedArtists;
             }
             // パターン3: 単一アーティスト
@@ -433,16 +425,13 @@ function formatPlaylistArtists(artists, spotifyArtists = null) {
         }).filter(name => name && name.trim());
         
         if (artistNames.length > 0) {
-          const result = artistNames.join(', ');
-          console.log('🎯 Final result:', result);
-          return result;
+          return artistNames.join(', ');
         }
       }
       
       // オブジェクトの場合の処理
       if (typeof artistData === 'object' && artistData !== null && !Array.isArray(artistData)) {
         if (artistData.name) {
-          console.log('🎯 Single artist result:', artistData.name);
           return artistData.name;
         }
       }
@@ -1174,28 +1163,10 @@ export default function PlaylistSongList({
     // 関数の可用性チェックログは削除
     
     try {
-      // 処理された曲データを使用
-      const processedTrack = safeTracks.find(t => t.id === track.id);
-      
-      if (processedTrack) {
-        // デバッグログは削除
-        
-        // PlayerContextのplayTrack関数を直接呼び出し
-        // プレイリスト全体をキューに設定してから再生
-        setTrackList(safeTracks);
-        updateCurrentTrackState(processedTrack, trackIndex);
-        
-        playTrack(processedTrack, trackIndex, safeTracks, finalSource, onPageEnd);
-        
-      } else {
-        // デバッグログは削除
-        
-        // ソートされたトラックリストを使用
-        setTrackList(sortedTracks);
-        updateCurrentTrackState(track, trackIndex);
-        
-        playTrack(track, trackIndex, sortedTracks, finalSource, onPageEnd);
-      }
+      // 元のトラックデータを使用
+      setTrackList(sortedTracks);
+      updateCurrentTrackState(track, trackIndex);
+      playTrack(track, trackIndex, sortedTracks, finalSource, onPageEnd);
     } catch (error) {
       console.error('💥 Error in handleThumbnailClick:', error);
       alert('曲の再生中にエラーが発生しました。もう一度お試しください。');
