@@ -281,15 +281,14 @@ function formatYearMonth(dateStr) {
 
 // プレイリスト用のアーティスト情報を適切に表示する関数
 function formatPlaylistArtists(artists, spotifyArtists = null) {
-  // デバッグログ
-  console.log('🎯 formatPlaylistArtists called with:', { artists, spotifyArtists });
+  console.log('🎯 formatPlaylistArtists called:', { artists, spotifyArtists });
   
-  // spotify_artistsフィールドを最優先で使用（データベースの順番を完全保持）
+  // spotify_artistsフィールドを最優先で使用
   if (spotifyArtists) {
     try {
-      // カンマ区切りの文字列の場合はダブルクォーテーションを除去して使用
-      if (typeof spotifyArtists === 'string' && spotifyArtists.includes(',')) {
-        return spotifyArtists.replace(/"/g, '');
+      // 配列の場合はそのまま使用
+      if (Array.isArray(spotifyArtists) && spotifyArtists.length > 0) {
+        return spotifyArtists.join(', ');
       }
       
       // JSON文字列の場合はパース
@@ -299,71 +298,164 @@ function formatPlaylistArtists(artists, spotifyArtists = null) {
           return parsed.join(', ');
         }
       }
-      // 配列の場合はそのまま使用
-      if (Array.isArray(spotifyArtists) && spotifyArtists.length > 0) {
-        return spotifyArtists.join(', ');
-      }
     } catch (e) {
-      // パースエラーは無視
+      // パースエラーは無視して次の処理に進む
     }
   }
   
-  // artistsフィールドからアーティスト名を抽出（spotify_artistsの順番に従って並び替え）
+  // artistsフィールドからアーティスト名を抽出
   if (artists) {
-    console.log('🎯 Processing artists field:', { artists, type: typeof artists });
     try {
       let artistData;
+      
+      // 文字列の場合はパースを試行
       if (typeof artists === 'string') {
-        artistData = JSON.parse(artists);
-        console.log('🎯 Parsed artists string:', artistData);
+        try {
+          // まず通常のJSONとしてパースを試行
+          artistData = JSON.parse(artists);
+        } catch (parseError) {
+          // 通常のJSONパースに失敗した場合は、エスケープされたJSONを処理
+          try {
+            // エスケープされたJSONを正規化
+            let unescaped = artists;
+            
+            // 複数段階でエスケープを解除
+            unescaped = unescaped.replace(/\\\\/g, '\\');
+            unescaped = unescaped.replace(/\\"/g, '"');
+            
+            // 外側のJSONラッパーを処理
+            if (unescaped.startsWith('{"') && unescaped.endsWith('"}')) {
+              // 外側のJSONラッパーを除去
+              unescaped = unescaped.slice(2, -2);
+            }
+            
+            // 複数アーティストの検出と処理
+            // パターン1: "}{" で区切られた完全なJSONオブジェクト
+            if (unescaped.includes('"}{"')) {
+              const artistStrings = unescaped.split('"}{"');
+              const parsedArtists = artistStrings.map((artistStr, index) => {
+                if (index === 0) artistStr = artistStr + '"';
+                if (index === artistStrings.length - 1) artistStr = '"' + artistStr;
+                if (index > 0 && index < artistStrings.length - 1) artistStr = '"' + artistStr + '"';
+                
+                try {
+                  return JSON.parse(artistStr);
+                } catch (e) {
+                  return null;
+                }
+              }).filter(artist => artist !== null);
+              
+              artistData = parsedArtists;
+            }
+            // パターン2: "}","{" で区切られた複数アーティスト（実際のデータ構造）
+            else if (unescaped.includes('"}","{')) {
+              console.log('🎯 Multiple artists detected (pattern 2)');
+              // 完全なJSONオブジェクトの境界で分割
+              const parts = unescaped.split('"}","{');
+              console.log('🎯 Split parts:', parts);
+              
+              const parsedArtists = parts.map((part, index) => {
+                let cleanPart = part;
+                
+                // 各部分を正しいJSON形式に修正
+                if (index === 0) {
+                  // 最初の要素: 最後に"}を追加
+                  cleanPart = cleanPart + '"}';
+                } else {
+                  // 2番目以降の要素: 先頭に{を追加
+                  cleanPart = '{' + cleanPart;
+                }
+                
+                console.log(`🎯 Processing part ${index}:`, cleanPart.substring(0, 100) + '...');
+                try {
+                  const parsed = JSON.parse(cleanPart);
+                  console.log(`🎯 Successfully parsed part ${index}:`, parsed.name);
+                  return parsed;
+                } catch (e) {
+                  console.log(`🎯 Failed to parse part ${index}:`, e.message);
+                  console.log(`🎯 Part content:`, cleanPart);
+                  return null;
+                }
+              }).filter(artist => artist !== null);
+              
+              console.log('🎯 Final parsed artists:', parsedArtists);
+              artistData = parsedArtists;
+            }
+            // パターン3: 単一アーティスト
+            else {
+              artistData = JSON.parse(unescaped);
+            }
+          } catch (parseError2) {
+            // それでも失敗した場合は、パターンマッチングを使用
+            const patterns = [
+              /\\"name\\":\\"([^"]+)\\"\\"/g, // エスケープされたJSON形式
+              /"name":"([^"]+)"/g, // 通常のJSON形式
+            ];
+            
+            for (const pattern of patterns) {
+              const matches = [...artists.matchAll(pattern)];
+              if (matches.length > 0) {
+                const artistNames = matches.map(match => match[1]).filter(name => name && name.trim());
+                if (artistNames.length > 0) {
+                  return artistNames.join(', ');
+                }
+              }
+            }
+            
+            // 最後の手段として、より柔軟なパターンマッチング
+            const flexiblePattern = /"name":"([^"]+)"/g;
+            const flexibleMatches = [...artists.matchAll(flexiblePattern)];
+            if (flexibleMatches.length > 0) {
+              const artistNames = flexibleMatches.map(match => match[1]).filter(name => name && name.trim());
+              if (artistNames.length > 0) {
+                return artistNames.join(', ');
+              }
+            }
+            
+            // パターンマッチングも失敗した場合は、文字列をそのまま使用
+            artistData = artists;
+          }
+        }
       } else {
         artistData = artists;
-        console.log('🎯 Using artists as-is:', artistData);
       }
       
+      // 配列の場合の処理
       if (Array.isArray(artistData) && artistData.length > 0) {
-        // spotify_artistsの順番に従って並び替え
-        const sortedArtists = sortArtistsBySpotifyOrder(artistData, spotifyArtists);
-        
-        const artistNames = sortedArtists.map(artist => {
-          if (typeof artist === 'object' && artist.name) {
+        const artistNames = artistData.map(artist => {
+          if (typeof artist === 'object' && artist !== null && artist.name) {
             return artist.name;
           }
-          return artist;
+          if (typeof artist === 'string') {
+            return artist;
+          }
+          return String(artist);
         }).filter(name => name && name.trim());
         
         if (artistNames.length > 0) {
           const result = artistNames.join(', ');
-          console.log('🎯 formatPlaylistArtists result from artists:', result);
+          console.log('🎯 Final result:', result);
           return result;
         }
       }
-    } catch (e) {
-      console.log('🎯 Error processing artists:', e);
-      // パースエラーの場合、文字列からアーティスト名を抽出
-      try {
-        // 複数のパターンでアーティスト名を抽出
-        const patterns = [
-          /"name":"([^"]+)"/g, // グローバルマッチで複数アーティストを抽出
-        ];
-        
-        for (const pattern of patterns) {
-          const matches = [...artists.matchAll(pattern)];
-          if (matches.length > 0) {
-            const artistNames = matches.map(match => match[1]);
-            const result = artistNames.join(', ');
-            console.log('🎯 formatPlaylistArtists result from pattern matching:', result);
-            return result;
-          }
+      
+      // オブジェクトの場合の処理
+      if (typeof artistData === 'object' && artistData !== null && !Array.isArray(artistData)) {
+        if (artistData.name) {
+          console.log('🎯 Single artist result:', artistData.name);
+          return artistData.name;
         }
-        
-      } catch (e2) {
-        // 最終的な抽出エラーは無視
       }
+      
+      // 文字列の場合の処理（最終フォールバック）
+      if (typeof artistData === 'string' && artistData.trim()) {
+        return artistData;
+      }
+    } catch (e) {
+      // エラーは無視して次の処理に進む
     }
   }
 
-  console.log('🎯 formatPlaylistArtists fallback to Unknown Artist');
   return "Unknown Artist";
 }
 

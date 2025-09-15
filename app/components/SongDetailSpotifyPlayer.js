@@ -861,20 +861,64 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData, onError }) => {
                   if (spotifyArtists) {
                     // 文字列の場合（カンマ区切り）
                     if (typeof spotifyArtists === 'string') {
-                      return spotifyArtists.replace(/"/g, '');
+                      let cleanArtists = spotifyArtists.replace(/"/g, '');
+                      
+                      // カタカナ表記を英語名に置き換え
+                      if (songData.artists && Array.isArray(songData.artists)) {
+                        cleanArtists = cleanArtists.split(',').map(artistName => {
+                          const trimmedName = artistName.trim();
+                          // カタカナ表記かどうかを判定（ひらがな・カタカナ・漢字が含まれているか）
+                          const hasJapanese = /[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(trimmedName);
+                          
+                          if (hasJapanese) {
+                            // アーティスト名のマッピングを試行
+                            const matchedArtist = songData.artists.find(artist => {
+                              const jpName = artist.acf?.artistjpname || '';
+                              return jpName && jpName.trim() === trimmedName;
+                            });
+                            
+                            if (matchedArtist) {
+                              return matchedArtist.name;
+                            }
+                          }
+                          
+                          return trimmedName;
+                        }).join(', ');
+                      }
+                      
+                      return cleanArtists;
                     }
                     
                     // 配列の場合
                     if (Array.isArray(spotifyArtists)) {
+                      // カタカナ表記を英語名に置き換えた配列を作成
+                      const normalizedSpotifyArtists = spotifyArtists.map(artistName => {
+                        const trimmedName = artistName.trim();
+                        const hasJapanese = /[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(trimmedName);
+                        
+                        if (hasJapanese && songData.artists) {
+                          const matchedArtist = songData.artists.find(artist => {
+                            const jpName = artist.acf?.artistjpname || '';
+                            return jpName && jpName.trim() === trimmedName;
+                          });
+                          
+                          if (matchedArtist) {
+                            return matchedArtist.name;
+                          }
+                        }
+                        
+                        return trimmedName;
+                      });
+                      
                       const sortedArtists = [...songData.artists].sort((a, b) => {
                         const aName = a.name || '';
                         const bName = b.name || '';
                         
-                        const aIndex = spotifyArtists.findIndex(name => 
+                        const aIndex = normalizedSpotifyArtists.findIndex(name => 
                           name.toLowerCase().includes(aName.toLowerCase()) || 
                           aName.toLowerCase().includes(name.toLowerCase())
                         );
-                        const bIndex = spotifyArtists.findIndex(name => 
+                        const bIndex = normalizedSpotifyArtists.findIndex(name => 
                           name.toLowerCase().includes(bName.toLowerCase()) || 
                           bName.toLowerCase().includes(name.toLowerCase())
                         );
