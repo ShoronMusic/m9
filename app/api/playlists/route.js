@@ -93,7 +93,7 @@ export async function GET(request) {
     
     const supabaseUserId = supabaseUser.id;
 
-    // ユーザーのプレイリスト一覧を取得（新しいフィールドを使用）
+    // ユーザーのプレイリスト一覧を取得
     const { data: playlists, error } = await supabase
       .from('playlists')
       .select(`
@@ -107,20 +107,20 @@ export async function GET(request) {
         spotify_playlist_id,
         sync_status,
         year,
-        tags,
-        last_track_added_at
+        tags
       `)
       .eq('user_id', supabaseUserId)
-      .order('last_track_added_at', { ascending: false });
+      .order('created_at', { ascending: false });
 
     if (error) {
       console.error('Supabase error:', error);
       return Response.json({ error: 'Database error' }, { status: 500 });
     }
 
-    // 各プレイリストのトラック数を取得
+    // 各プレイリストのトラック数と最後に曲を追加した日時を取得
     const playlistsWithTrackCount = await Promise.all(
       playlists.map(async (playlist) => {
+        // トラック数を取得
         const { count: trackCount, error: countError } = await supabase
           .from('playlist_tracks')
           .select('*', { count: 'exact', head: true })
@@ -128,10 +128,25 @@ export async function GET(request) {
 
         if (countError) {
           console.error(`Error getting track count for playlist ${playlist.id}:`, countError);
-          return { ...playlist, track_count: 0 };
+          return { ...playlist, track_count: 0, last_track_added_at: playlist.created_at };
         }
 
-        return { ...playlist, track_count: trackCount };
+        // 最後に曲を追加した日時を取得
+        const { data: lastTrack, error: lastTrackError } = await supabase
+          .from('playlist_tracks')
+          .select('added_at')
+          .eq('playlist_id', playlist.id)
+          .order('added_at', { ascending: false })
+          .limit(1)
+          .single();
+
+        const lastTrackAddedAt = lastTrack?.added_at || playlist.created_at;
+
+        return { 
+          ...playlist, 
+          track_count: trackCount,
+          last_track_added_at: lastTrackAddedAt
+        };
       })
     );
 

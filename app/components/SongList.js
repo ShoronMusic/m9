@@ -138,6 +138,88 @@ function formatYearMonth(dateStr) {
 }
 
 function determineArtistOrder(song) {
+  // デバッグ用ログ
+  console.log('🎯 SongList determineArtistOrder song:', song);
+  
+  // spotify_artistsの順番を最優先
+  const spotifyArtists = song.acf?.spotify_artists || song.custom_fields?.spotify_artists;
+  
+  if (spotifyArtists) {
+    // 文字列の場合（カンマ区切り）
+    if (typeof spotifyArtists === 'string') {
+      console.log('🎯 SongList using spotify_artists string:', spotifyArtists);
+      
+      // 既存のartists配列がある場合は、spotify_artistsの順番に従って並び替え
+      if (Array.isArray(song.artists) && song.artists.length > 0) {
+        const spotifyNames = spotifyArtists.replace(/"/g, '').split(',').map(name => name.trim());
+        const sortedArtists = [...song.artists].sort((a, b) => {
+          const aName = a.name || '';
+          const bName = b.name || '';
+          
+          const aIndex = spotifyNames.findIndex(name => 
+            name.toLowerCase().includes(aName.toLowerCase()) || 
+            aName.toLowerCase().includes(name.toLowerCase())
+          );
+          const bIndex = spotifyNames.findIndex(name => 
+            name.toLowerCase().includes(bName.toLowerCase()) || 
+            bName.toLowerCase().includes(name.toLowerCase())
+          );
+          
+          // 見つからない場合は最後に配置
+          if (aIndex === -1) return 1;
+          if (bIndex === -1) return -1;
+          
+          return aIndex - bIndex;
+        });
+        
+        return sortedArtists;
+      } else {
+        // artistsがない場合のみ、spotify_artistsから直接作成
+        if (spotifyArtists.includes(',')) {
+          // 複数アーティストの場合、文字列を分割してアーティスト情報オブジェクトを作成
+          const artistNames = spotifyArtists.replace(/"/g, '').split(',').map(name => name.trim());
+          return artistNames.map(name => ({ name, slug: name.toLowerCase().replace(/\s+/g, '-') }));
+        } else {
+          // 単一アーティストの場合
+          const name = spotifyArtists.replace(/"/g, '').trim();
+          return [{ name, slug: name.toLowerCase().replace(/\s+/g, '-') }];
+        }
+      }
+    }
+    
+    // 配列の場合
+    if (Array.isArray(spotifyArtists)) {
+      console.log('🎯 SongList using spotify_artists array:', spotifyArtists);
+      if (Array.isArray(song.artists) && song.artists.length > 0) {
+        // spotify_artistsの順番に従って並び替え
+        const sortedArtists = [...song.artists].sort((a, b) => {
+          const aName = a.name || '';
+          const bName = b.name || '';
+          
+          const aIndex = spotifyArtists.findIndex(name => 
+            name.toLowerCase().includes(aName.toLowerCase()) || 
+            aName.toLowerCase().includes(name.toLowerCase())
+          );
+          const bIndex = spotifyArtists.findIndex(name => 
+            name.toLowerCase().includes(bName.toLowerCase()) || 
+            bName.toLowerCase().includes(name.toLowerCase())
+          );
+          
+          // 見つからない場合は最後に配置
+          if (aIndex === -1) return 1;
+          if (bIndex === -1) return -1;
+          
+          return aIndex - bIndex;
+        });
+        
+        return sortedArtists;
+      } else {
+        // artistsがない場合、spotify_artistsから直接作成
+        return spotifyArtists.map(name => ({ name, slug: name.toLowerCase().replace(/\s+/g, '-') }));
+      }
+    }
+  }
+  
   // artists配列があればそれを優先
   if (Array.isArray(song.artists) && song.artists.length > 0) {
     return prioritizeMainArtist(song.artists);
@@ -1271,97 +1353,58 @@ export default function SongList({
               <>
                 <div key="artists-section" style={separatorStyle}>
                    {(() => {
-                     // Spotifyアーティストの順序に基づいてアーティストを並び替え
-                     let orderedArtists = [...(song.artists || [])];
+                     // determineArtistOrder関数を使用してアーティストを取得
+                     const orderedArtists = determineArtistOrder(song);
                      
-                     if (song.acf?.spotify_artists && Array.isArray(song.acf.spotify_artists)) {
-                       // Spotifyアーティストの順序を基準に並び替え
-                       const spotifyOrder = song.acf.spotify_artists;
-                       orderedArtists.sort((a, b) => {
-                         const aIndex = spotifyOrder.findIndex(name => 
-                           name.toLowerCase().includes(a.name.toLowerCase()) || 
-                           a.name.toLowerCase().includes(name.toLowerCase())
-                         );
-                         const bIndex = spotifyOrder.findIndex(name => 
-                           name.toLowerCase().includes(b.name.toLowerCase()) || 
-                           b.name.toLowerCase().includes(name.toLowerCase())
-                         );
-                         
-                         // 見つからない場合は最後に配置
-                         if (aIndex === -1) return 1;
-                         if (bIndex === -1) return -1;
-                         
-                         return aIndex - bIndex;
-                       });
+                     if (orderedArtists && orderedArtists.length > 0) {
+                       return orderedArtists.map((artist, index) => (
+                         <Link 
+                           href={`/${artist.slug}/1`} 
+                           key={artist.id || `artist-${index}`}
+                           style={{...menuItemStyle, ...linkColorStyle, fontWeight: 'bold'}}
+                           onClick={() => {
+                             console.log('🎵 アーティストリンククリック:', artist.name, '→', `/${artist.slug}/1`);
+                           }}
+                         >
+                           <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                           {artist.name}
+                         </Link>
+                       ));
                      }
                      
-                     return orderedArtists.map((artist, index) => (
-                       <Link 
-                         href={`/${artist.slug}/1`} 
-                         key={artist.id || `artist-${index}`}
-                         style={{...menuItemStyle, ...linkColorStyle, fontWeight: 'bold'}}
-                         onClick={() => {
-                           console.log('🎵 アーティストリンククリック:', artist.name, '→', `/${artist.slug}/1`);
-                         }}
-                       >
-                         <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
-                         {artist.name}
-                       </Link>
-                     ));
+                     // フォールバック: 元のartists配列を使用
+                     if (song.artists && song.artists.length > 0) {
+                       return song.artists.map((artist, index) => (
+                         <Link 
+                           href={`/${artist.slug}/1`} 
+                           key={artist.id || `artist-${index}`}
+                           style={{...menuItemStyle, ...linkColorStyle, fontWeight: 'bold'}}
+                           onClick={() => {
+                             console.log('🎵 アーティストリンククリック:', artist.name, '→', `/${artist.slug}/1`);
+                           }}
+                         >
+                           <img src="/svg/musician.png" alt="" style={{ width: 16, height: 16, marginRight: 8, filter: 'invert(50%)' }} />
+                           {artist.name}
+                         </Link>
+                       ));
+                     }
+                     
+                     return null;
                    })()}
                 </div>
 
                 <div key="song-section" style={separatorStyle}>
                    <Link 
                      href={`/${(() => {
-                       // Spotifyアーティストの順序に基づいてメインアーティストを決定
-                       let orderedArtists = [...(song.artists || [])];
-                       
-                       if (song.acf?.spotify_artists && Array.isArray(song.acf.spotify_artists)) {
-                         // Spotifyアーティストの順序を基準に並び替え
-                         const spotifyOrder = song.acf.spotify_artists;
-                         orderedArtists.sort((a, b) => {
-                           const aIndex = spotifyOrder.findIndex(name => 
-                             name.toLowerCase().includes(a.name.toLowerCase()) || 
-                             a.name.toLowerCase().includes(name.toLowerCase())
-                           );
-                           const bIndex = spotifyOrder.findIndex(name => 
-                             name.toLowerCase().includes(b.name.toLowerCase()) || 
-                             b.name.toLowerCase().includes(name.toLowerCase())
-                           );
-                           
-                           // 見つからない場合は最後に配置
-                           if (aIndex === -1) return 1;
-                           if (bIndex === -1) return -1;
-                           
-                           return aIndex - bIndex;
-                         });
-                       }
-                       
-                       // メインアーティストのスラッグを返す
-                       return orderedArtists[0]?.slug || song.artists[0]?.slug || 'unknown';
+                       // determineArtistOrder関数を使用してメインアーティストを取得
+                       const orderedArtists = determineArtistOrder(song);
+                       return orderedArtists?.[0]?.slug || song.artists?.[0]?.slug || 'unknown';
                      })()}/songs/${song.titleSlug || song.slug || 'unknown'}`}
                      style={{...menuItemStyle, ...linkColorStyle}}
                      onClick={() => {
                        const mainArtistSlug = (() => {
-                         let orderedArtists = [...(song.artists || [])];
-                         if (song.acf?.spotify_artists && Array.isArray(song.acf.spotify_artists)) {
-                           const spotifyOrder = song.acf.spotify_artists;
-                           orderedArtists.sort((a, b) => {
-                             const aIndex = spotifyOrder.findIndex(name => 
-                               name.toLowerCase().includes(a.name.toLowerCase()) || 
-                               a.name.toLowerCase().includes(name.toLowerCase())
-                             );
-                             const bIndex = spotifyOrder.findIndex(name => 
-                               name.toLowerCase().includes(b.name.toLowerCase()) || 
-                               b.name.toLowerCase().includes(name.toLowerCase())
-                             );
-                             if (aIndex === -1) return 1;
-                             if (bIndex === -1) return -1;
-                             return aIndex - bIndex;
-                           });
-                         }
-                         return orderedArtists[0]?.slug || song.artists[0]?.slug || 'unknown';
+                         const orderedArtists = determineArtistOrder(song);
+                         return orderedArtists?.[0]?.slug || song.artists?.[0]?.slug || 'unknown';
                        })();
                        const songSlug = song.titleSlug || song.slug || 'unknown';
                        const href = `/${mainArtistSlug}/songs/${songSlug}`;
@@ -1413,9 +1456,17 @@ export default function SongList({
                   </button>
                 </div>
 
-                {song.spotifyTrackId && (
+                {(song.spotifyTrackId || song.acf?.spotify_track_id || song.spotify_track_id) && (
                   <div key="spotify-section" style={separatorStyle}>
-                    <a href={`https://open.spotify.com/track/${song.spotifyTrackId}`} target="_blank" rel="noopener noreferrer" style={{...menuItemStyle, ...linkColorStyle}}>
+                    <a 
+                      href={`https://open.spotify.com/track/${song.spotifyTrackId || song.acf?.spotify_track_id || song.spotify_track_id}`} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      style={{...menuItemStyle, ...linkColorStyle}}
+                      onClick={() => {
+                        console.log('🎵 Spotifyリンククリック:', song.title?.rendered || song.title, '→', `https://open.spotify.com/track/${song.spotifyTrackId || song.acf?.spotify_track_id || song.spotify_track_id}`);
+                      }}
+                    >
                       <img src="/svg/spotify.svg" alt="" style={{ width: 16, marginRight: 8 }} />
                       Spotifyで開く
                     </a>

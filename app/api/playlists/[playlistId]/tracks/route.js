@@ -376,6 +376,22 @@ export async function POST(request, { params }) {
     const newPosition = (maxPosition?.position || 0) + 1;
     console.log('New position calculated:', newPosition);
     
+    // songsテーブルからspotify_artistsを取得して補完
+    let finalSpotifyArtists = spotify_artists;
+    if (!finalSpotifyArtists && song_id) {
+      console.log('Fetching spotify_artists from songs table for song_id:', song_id);
+      const { data: songData, error: songError } = await supabase
+        .from('songs')
+        .select('spotify_artists')
+        .eq('id', song_id)
+        .single();
+      
+      if (!songError && songData?.spotify_artists) {
+        finalSpotifyArtists = songData.spotify_artists;
+        console.log('Retrieved spotify_artists from songs table:', finalSpotifyArtists);
+      }
+    }
+
     // トラックの追加データを準備（データベースに存在するフィールドのみ）
     const trackInsertData = {
       playlist_id: playlistId,
@@ -409,7 +425,7 @@ export async function POST(request, { params }) {
       // Spotify情報
       spotify_track_id: spotify_track_id || null,
       spotify_images: spotify_images || null,
-      spotify_artists: spotify_artists || null,
+      spotify_artists: finalSpotifyArtists || null,
       
       // その他の情報
       is_favorite: is_favorite || false,

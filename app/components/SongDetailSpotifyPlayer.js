@@ -845,7 +845,51 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData, onError }) => {
                 textOverflow: 'ellipsis',
                 maxWidth: '300px'
               }}>
-                {songData?.artists?.map(a => a.name).join(', ') || 'Artist'}
+                {(() => {
+                  if (!songData?.artists) return 'Artist';
+                  
+                  // デバッグ用ログ
+                  console.log('🎯 SongDetailSpotifyPlayer songData:', songData);
+                  console.log('🎯 SongDetailSpotifyPlayer artists:', songData.artists);
+                  console.log('🎯 SongDetailSpotifyPlayer acf:', songData.acf);
+                  console.log('🎯 SongDetailSpotifyPlayer custom_fields:', songData.custom_fields);
+                  
+                  // spotify_artistsの順番を優先（文字列の場合も対応）
+                  const spotifyArtists = songData.acf?.spotify_artists || songData.custom_fields?.spotify_artists || songData.spotify_artists;
+                  console.log('🎯 SongDetailSpotifyPlayer spotifyArtists:', spotifyArtists);
+                  
+                  if (spotifyArtists) {
+                    // 文字列の場合（カンマ区切り）
+                    if (typeof spotifyArtists === 'string') {
+                      return spotifyArtists.replace(/"/g, '');
+                    }
+                    
+                    // 配列の場合
+                    if (Array.isArray(spotifyArtists)) {
+                      const sortedArtists = [...songData.artists].sort((a, b) => {
+                        const aName = a.name || '';
+                        const bName = b.name || '';
+                        
+                        const aIndex = spotifyArtists.findIndex(name => 
+                          name.toLowerCase().includes(aName.toLowerCase()) || 
+                          aName.toLowerCase().includes(name.toLowerCase())
+                        );
+                        const bIndex = spotifyArtists.findIndex(name => 
+                          name.toLowerCase().includes(bName.toLowerCase()) || 
+                          bName.toLowerCase().includes(name.toLowerCase())
+                        );
+                        
+                        if (aIndex === -1) return 1;
+                        if (bIndex === -1) return -1;
+                        
+                        return aIndex - bIndex;
+                      });
+                      return sortedArtists.map(a => a.name).join(', ');
+                    }
+                  }
+                  
+                  return songData.artists.map(a => a.name).join(', ');
+                })()}
               </div>
           </div>
         </div>

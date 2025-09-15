@@ -62,15 +62,28 @@ export default function CreatePlaylistModal({
     
     if (sortType === 'updated') {
       // 最終更新日順（最後に曲を追加した日が新しい順）
-      return playlists.sort((a, b) => {
-        // 新しいフィールドlast_track_added_atを使用
+      const sorted = playlists.sort((a, b) => {
+        // last_track_added_atを最優先、なければupdated_at、それもなければcreated_at
         const dateA = new Date(a.last_track_added_at || a.updated_at || a.created_at || 0);
         const dateB = new Date(b.last_track_added_at || b.updated_at || b.created_at || 0);
         
-        // デバッグ用ログは削除
+        // 無効な日付の場合は最後に配置
+        if (isNaN(dateA.getTime()) && isNaN(dateB.getTime())) return 0;
+        if (isNaN(dateA.getTime())) return 1;
+        if (isNaN(dateB.getTime())) return -1;
         
         return dateB - dateA;
       });
+      
+      // デバッグ用ログ
+      console.log('🎯 プレイリスト並び替え結果 (更新順):', sorted.map(p => ({
+        name: p.name,
+        last_track_added_at: p.last_track_added_at,
+        updated_at: p.updated_at,
+        created_at: p.created_at
+      })));
+      
+      return sorted;
     } else if (sortType === 'name') {
       // 名前(昇順)
       return playlists.sort((a, b) => {

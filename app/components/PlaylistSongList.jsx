@@ -10,6 +10,166 @@ import { usePlayer, PlayerContext } from './PlayerContext';
 import { useSpotifyLikes } from './SpotifyLikes';
 import { useSession } from 'next-auth/react';
 import CreatePlaylistModal from './CreatePlaylistModal';
+
+// ヘルパー関数
+function removeLeadingThe(str = "") {
+  return str.replace(/^The\s+/i, "").trim();
+}
+
+// メインアーティストを最初に表示するための並び替え関数
+function prioritizeMainArtist(artists = []) {
+  if (!Array.isArray(artists) || artists.length <= 1) {
+    return artists;
+  }
+
+  // メインアーティストの判定基準
+  // 1. フィーチャーアーティスト（feat., ft., featuring等）を後ろに
+  // 2. コラボレーション（&, and等）は順番を保持
+  // 3. メインアーティストを最初に
+  // 4. 特定のアーティスト（Mariah Carey等）を優先
+
+  const mainArtists = [];
+  const featuredArtists = [];
+
+  artists.forEach((artist) => {
+    const name = artist.name || artist;
+    const lowerName = name.toLowerCase();
+
+    // フィーチャーアーティストの判定
+    if (
+      lowerName.includes("feat.") ||
+      lowerName.includes("ft.") ||
+      lowerName.includes("featuring") ||
+      lowerName.includes("feat ") ||
+      lowerName.includes("ft ")
+    ) {
+      featuredArtists.push(artist);
+    } else {
+      mainArtists.push(artist);
+    }
+  });
+
+  // メインアーティストを最初に、フィーチャーアーティストを後ろに
+  return [...mainArtists, ...featuredArtists];
+}
+
+// アーティストの順番を決定する関数
+function determineArtistOrder(song) {
+  // デバッグ用ログ
+  console.log('🎯 PlaylistSongList determineArtistOrder song:', song);
+  
+  // spotify_artistsの順番を最優先
+  const spotifyArtists = song.acf?.spotify_artists || song.custom_fields?.spotify_artists || song.spotify_artists;
+  
+  if (spotifyArtists) {
+    // 文字列の場合（カンマ区切り）
+    if (typeof spotifyArtists === 'string') {
+      console.log('🎯 PlaylistSongList using spotify_artists string:', spotifyArtists);
+      
+      // 既存のartists配列がある場合は、spotify_artistsの順番に従って並び替え
+      if (Array.isArray(song.artists) && song.artists.length > 0) {
+        const spotifyNames = spotifyArtists.replace(/"/g, '').split(',').map(name => name.trim());
+        const sortedArtists = [...song.artists].sort((a, b) => {
+          const aName = a.name || '';
+          const bName = b.name || '';
+          
+          const aIndex = spotifyNames.findIndex(name => 
+            name.toLowerCase().includes(aName.toLowerCase()) || 
+            aName.toLowerCase().includes(name.toLowerCase())
+          );
+          const bIndex = spotifyNames.findIndex(name => 
+            name.toLowerCase().includes(bName.toLowerCase()) || 
+            bName.toLowerCase().includes(name.toLowerCase())
+          );
+          
+          // 見つからない場合は最後に配置
+          if (aIndex === -1) return 1;
+          if (bIndex === -1) return -1;
+          
+          return aIndex - bIndex;
+        });
+        
+        return sortedArtists;
+      } else {
+        // artistsがない場合のみ、spotify_artistsから直接作成
+        if (spotifyArtists.includes(',')) {
+          // 複数アーティストの場合、文字列を分割してアーティスト情報オブジェクトを作成
+          const artistNames = spotifyArtists.replace(/"/g, '').split(',').map(name => name.trim());
+          return artistNames.map(name => ({ name, slug: name.toLowerCase().replace(/\s+/g, '-') }));
+        } else {
+          // 単一アーティストの場合
+          const name = spotifyArtists.replace(/"/g, '').trim();
+          return [{ name, slug: name.toLowerCase().replace(/\s+/g, '-') }];
+        }
+      }
+    }
+    
+    // 配列の場合
+    if (Array.isArray(spotifyArtists)) {
+      console.log('🎯 PlaylistSongList using spotify_artists array:', spotifyArtists);
+      if (Array.isArray(song.artists) && song.artists.length > 0) {
+        // spotify_artistsの順番に従って並び替え
+        const sortedArtists = [...song.artists].sort((a, b) => {
+          const aName = a.name || '';
+          const bName = b.name || '';
+          
+          const aIndex = spotifyArtists.findIndex(name => 
+            name.toLowerCase().includes(aName.toLowerCase()) || 
+            aName.toLowerCase().includes(name.toLowerCase())
+          );
+          const bIndex = spotifyArtists.findIndex(name => 
+            name.toLowerCase().includes(bName.toLowerCase()) || 
+            bName.toLowerCase().includes(name.toLowerCase())
+          );
+          
+          // 見つからない場合は最後に配置
+          if (aIndex === -1) return 1;
+          if (bIndex === -1) return -1;
+          
+          return aIndex - bIndex;
+        });
+        
+        return sortedArtists;
+      } else {
+        // artistsがない場合、spotify_artistsから直接作成
+        return spotifyArtists.map(name => ({ name, slug: name.toLowerCase().replace(/\s+/g, '-') }));
+      }
+    }
+  }
+  
+  // artists配列があればそれを優先
+  if (Array.isArray(song.artists) && song.artists.length > 0) {
+    return prioritizeMainArtist(song.artists);
+  }
+  
+  // プレイリストのトラックデータの場合、artistsが文字列の可能性がある
+  if (typeof song.artists === 'string' && song.artists.trim()) {
+    try {
+      const parsedArtists = JSON.parse(song.artists);
+      if (Array.isArray(parsedArtists) && parsedArtists.length > 0) {
+        return prioritizeMainArtist(parsedArtists);
+      }
+    } catch (e) {
+      console.log('🎯 PlaylistSongList artists JSON parse error:', e);
+      // パースできない場合は、文字列からアーティスト名を抽出
+      const patterns = [
+        /"name":"([^"]+)"/g,
+      ];
+      
+      for (const pattern of patterns) {
+        const matches = [...song.artists.matchAll(pattern)];
+        if (matches.length > 0) {
+          const artistNames = matches.map(match => match[1]);
+          return artistNames.map(name => ({ name, slug: name.toLowerCase().replace(/\s+/g, '-') }));
+        }
+      }
+    }
+  }
+  
+  // フォールバック: 空の配列を返す
+  console.log('🎯 PlaylistSongList determineArtistOrder: フォールバック - アーティストが見つかりません');
+  return [];
+}
 import {
   DndContext,
   closestCenter,
@@ -108,10 +268,6 @@ function decodeHtml(html = "") {
   return he.decode(cleanHtml);
 }
 
-function removeLeadingThe(str = "") {
-  return str.replace(/^The\s+/i, "").trim();
-}
-
 // 年月を "YYYY.MM" 形式で返す関数
 function formatYearMonth(dateStr) {
   if (!dateStr) return "Unknown Year";
@@ -125,10 +281,17 @@ function formatYearMonth(dateStr) {
 
 // プレイリスト用のアーティスト情報を適切に表示する関数
 function formatPlaylistArtists(artists, spotifyArtists = null) {
+  // デバッグログ
+  console.log('🎯 formatPlaylistArtists called with:', { artists, spotifyArtists });
   
   // spotify_artistsフィールドを最優先で使用（データベースの順番を完全保持）
   if (spotifyArtists) {
     try {
+      // カンマ区切りの文字列の場合はダブルクォーテーションを除去して使用
+      if (typeof spotifyArtists === 'string' && spotifyArtists.includes(',')) {
+        return spotifyArtists.replace(/"/g, '');
+      }
+      
       // JSON文字列の場合はパース
       if (typeof spotifyArtists === 'string') {
         const parsed = JSON.parse(spotifyArtists);
@@ -145,43 +308,24 @@ function formatPlaylistArtists(artists, spotifyArtists = null) {
     }
   }
   
-  // artistsフィールドからアーティスト名を抽出
+  // artistsフィールドからアーティスト名を抽出（spotify_artistsの順番に従って並び替え）
   if (artists) {
+    console.log('🎯 Processing artists field:', { artists, type: typeof artists });
     try {
       let artistData;
       if (typeof artists === 'string') {
-        // 不正な形式のデータに対応（多重エンコードされたJSON）
-        if (artists.startsWith('{"{"')) {
-          // 不正な形式の場合は、文字列からアーティスト名を抽出
-          const nameMatch = artists.match(/"name":"([^"]+)"/);
-          if (nameMatch) {
-            return nameMatch[1];
-          }
-        }
-        
-        // さらに複雑な形式の場合は、より強力な抽出を試行
-        if (artists.includes('"name":"') && artists.includes('"id":')) {
-          // エスケープされた文字列からアーティスト名を抽出
-          const nameMatch = artists.match(/"name":"([^"]+)"/);
-          if (nameMatch) {
-            return nameMatch[1];
-          }
-        }
-        
-        // 四重エンコードされたデータに対応
-        if (artists.includes('\\\\"name\\\\":\\\\"')) {
-          const nameMatch = artists.match(/\\\\"name\\\\":\\\\"([^"]+)\\\\/);
-          if (nameMatch) {
-            return nameMatch[1];
-          }
-        }
         artistData = JSON.parse(artists);
+        console.log('🎯 Parsed artists string:', artistData);
       } else {
         artistData = artists;
+        console.log('🎯 Using artists as-is:', artistData);
       }
       
       if (Array.isArray(artistData) && artistData.length > 0) {
-        const artistNames = artistData.map(artist => {
+        // spotify_artistsの順番に従って並び替え
+        const sortedArtists = sortArtistsBySpotifyOrder(artistData, spotifyArtists);
+        
+        const artistNames = sortedArtists.map(artist => {
           if (typeof artist === 'object' && artist.name) {
             return artist.name;
           }
@@ -189,24 +333,27 @@ function formatPlaylistArtists(artists, spotifyArtists = null) {
         }).filter(name => name && name.trim());
         
         if (artistNames.length > 0) {
-          return artistNames.join(', ');
+          const result = artistNames.join(', ');
+          console.log('🎯 formatPlaylistArtists result from artists:', result);
+          return result;
         }
       }
     } catch (e) {
+      console.log('🎯 Error processing artists:', e);
       // パースエラーの場合、文字列からアーティスト名を抽出
       try {
         // 複数のパターンでアーティスト名を抽出
         const patterns = [
-          /"name":"([^"]+)"/,  // 標準的なパターン
-          /"name":"([^"]+)"/g, // グローバルマッチ
-          /name":"([^"]+)"/,   // エスケープされたパターン
-          /\\"name\\":\\"([^"]+)\\"/, // 三重エンコードパターン
+          /"name":"([^"]+)"/g, // グローバルマッチで複数アーティストを抽出
         ];
         
         for (const pattern of patterns) {
-          const match = artists.match(pattern);
-          if (match) {
-            return match[1];
+          const matches = [...artists.matchAll(pattern)];
+          if (matches.length > 0) {
+            const artistNames = matches.map(match => match[1]);
+            const result = artistNames.join(', ');
+            console.log('🎯 formatPlaylistArtists result from pattern matching:', result);
+            return result;
           }
         }
         
@@ -216,115 +363,68 @@ function formatPlaylistArtists(artists, spotifyArtists = null) {
     }
   }
 
-    // 1. spotify_artistsフィールドを最優先で使用
-  if (spotifyArtists && (Array.isArray(spotifyArtists) ? spotifyArtists.length > 0 : spotifyArtists)) {
-    // spotify_artists処理開始ログは削除
-    try {
-      // JSON文字列の場合
-      if (typeof spotifyArtists === 'string' && (spotifyArtists.startsWith('{') || spotifyArtists.startsWith('['))) {
-        const parsed = JSON.parse(spotifyArtists);
-        // JSONパースログは削除
-        if (Array.isArray(parsed)) {
-          const formattedSpotifyArtists = parsed.map(artist => {
-            if (typeof artist === 'string') {
-              return artist;
-            }
-            if (typeof artist === 'object' && artist !== null) {
-              const name = artist.name || artist.spotify_name || Object.values(artist)[0];
-              const nationality = artist.artistorigin || artist.acf?.artistorigin;
-              return nationality ? `${name} (${nationality})` : name;
-            }
-            return String(artist);
-          });
-          const result = formattedSpotifyArtists.join(', ');
-          // 結果ログは削除
-          return result;
-        }
-      }
-      // 配列の場合
-      if (Array.isArray(spotifyArtists)) {
-        // 配列処理ログは削除
-        // 順番を保持してそのまま処理（順番を変更しない）
-        const formattedSpotifyArtists = spotifyArtists.map(artist => {
-          if (typeof artist === 'string') {
-            return artist;
-          }
-          if (typeof artist === 'object' && artist !== null) {
-            const name = artist.name || artist.spotify_name || Object.values(artist)[0];
-            const nationality = artist.artistorigin || artist.acf?.artistorigin;
-            return nationality ? `${name} (${nationality})` : name;
-          }
-          return String(artist);
-        });
-        const result = formattedSpotifyArtists.join(', ');
-        // 結果ログは削除
-        return result;
-      }
-      // 文字列の場合（カンマ区切り）
-      if (typeof spotifyArtists === 'string') {
-        // 文字列使用ログは削除
-        return spotifyArtists;
-      }
-    } catch (e) {
-      // エラーログは削除
-    }
-  } else {
-    // フォールバックログは削除
-  }
+  console.log('🎯 formatPlaylistArtists fallback to Unknown Artist');
+  return "Unknown Artist";
+}
 
-  // 2. 従来のartistsフィールドをフォールバックとして使用
-  if (!artists || (Array.isArray(artists) && artists.length === 0)) {
-    // エラーログは削除
-    return "Unknown Artist";
-  }
-  
-  // フォールバックログは削除
-  
-  // 配列の場合
-  if (Array.isArray(artists)) {
-    const formattedArtists = artists.map(artist => {
-      // 各要素がJSON文字列の場合
-      if (typeof artist === 'string' && (artist.startsWith('{') || artist.startsWith('['))) {
-        try {
-          const parsed = JSON.parse(artist);
-          // アーティストオブジェクトからnameフィールドを取得
-          if (parsed && typeof parsed === 'object' && parsed.name) {
-            const nationality = parsed.artistorigin || parsed.acf?.artistorigin;
-            return nationality ? `${parsed.name} (${nationality})` : parsed.name;
-          }
-          // nameフィールドがない場合は最初の値を返す
-          return Object.values(parsed)[0] || artist;
-        } catch (e) {
-          // パースエラーログは削除
-          return artist;
-        }
-      }
-      // 文字列の場合はそのまま返す
-      if (typeof artist === 'string') {
-        return artist;
-      }
-      // オブジェクトの場合はnameフィールドまたは最初の値を返す
-      if (typeof artist === 'object' && artist !== null) {
-        const name = artist.name || Object.values(artist)[0] || JSON.stringify(artist);
-        const nationality = artist.artistorigin || artist.acf?.artistorigin;
-        return nationality ? `${name} (${nationality})` : name;
-      }
-      return artist;
-    });
-    
-    const result = formattedArtists.join(', ');
-    // 結果ログは削除
-    return result;
-  }
-  
-  // 配列以外の場合は文字列として処理
-  if (typeof artists === 'string') {
-    // 結果ログは削除
+// spotify_artistsの順番に従ってアーティスト配列を並び替える関数
+function sortArtistsBySpotifyOrder(artists, spotifyArtists) {
+  if (!spotifyArtists || !Array.isArray(artists) || artists.length === 0) {
     return artists;
   }
   
-  // エラーログは削除
-  return "Unknown Artist";
+  try {
+    let spotifyOrder = [];
+      if (typeof spotifyArtists === 'string') {
+      // カンマ区切りの文字列の場合は分割
+      if (spotifyArtists.includes(',')) {
+        spotifyOrder = spotifyArtists.split(',').map(name => name.trim());
+  } else {
+        // JSON配列の場合はパース
+        spotifyOrder = JSON.parse(spotifyArtists);
+      }
+    } else if (Array.isArray(spotifyArtists)) {
+      spotifyOrder = spotifyArtists;
+    }
+    
+    if (!Array.isArray(spotifyOrder) || spotifyOrder.length === 0) {
+      return artists;
+    }
+    
+    // spotify_artistsの順番に従って並び替え
+    const sortedArtists = [...artists].sort((a, b) => {
+      const aName = typeof a === 'object' ? a.name : a;
+      const bName = typeof b === 'object' ? b.name : b;
+      
+      // より厳密な名前マッチング
+      const aIndex = spotifyOrder.findIndex(name => {
+        const normalizedSpotifyName = name.toLowerCase().trim();
+        const normalizedArtistName = aName.toLowerCase().trim();
+        return normalizedSpotifyName === normalizedArtistName ||
+               normalizedSpotifyName.includes(normalizedArtistName) ||
+               normalizedArtistName.includes(normalizedSpotifyName);
+      });
+      
+      const bIndex = spotifyOrder.findIndex(name => {
+        const normalizedSpotifyName = name.toLowerCase().trim();
+        const normalizedArtistName = bName.toLowerCase().trim();
+        return normalizedSpotifyName === normalizedArtistName ||
+               normalizedSpotifyName.includes(normalizedArtistName) ||
+               normalizedArtistName.includes(normalizedSpotifyName);
+      });
+      
+      // 見つからない場合は最後に配置
+      if (aIndex === -1) return 1;
+      if (bIndex === -1) return -1;
+      
+      return aIndex - bIndex;
+    });
+    
+    return sortedArtists;
+  } catch (e) {
+    // エラーの場合は元の配列を返す
+    return artists;
+  }
 }
 
 // プレイリスト用のスタイル情報を適切に表示する関数
@@ -1750,20 +1850,47 @@ export default function PlaylistSongList({
               <>
                 <div key="artists-section" style={separatorStyle}>
                   {(() => {
-                    // artistsフィールドを配列に変換
-                    let artistsArray = [];
-                    if (Array.isArray(song.artists)) {
-                      artistsArray = song.artists;
-                    } else if (typeof song.artists === 'string' && song.artists.trim()) {
-                      try {
-                        artistsArray = JSON.parse(song.artists);
+                    // determineArtistOrder関数を使用してアーティストの順番を決定
+                    let orderedArtists = determineArtistOrder(song);
+                    console.log('🎯 3点メニュー orderedArtists:', orderedArtists);
+                    
+                    if (!orderedArtists || orderedArtists.length === 0) {
+                      console.log('🎯 3点メニュー: アーティストが見つかりません、フォールバック処理を実行');
+                      
+                      // フォールバック: 直接artistsフィールドから抽出を試行
+                      let fallbackArtists = [];
+                      if (typeof song.artists === 'string' && song.artists.trim()) {
+                        try {
+                          const parsed = JSON.parse(song.artists);
+                          if (Array.isArray(parsed)) {
+                            fallbackArtists = parsed;
+                          }
                       } catch (e) {
-                        console.error('artists JSON解析エラー:', e);
-                        artistsArray = [];
+                          // パースできない場合は文字列から抽出
+                          const patterns = [/"name":"([^"]+)"/g];
+                          for (const pattern of patterns) {
+                            const matches = [...song.artists.matchAll(pattern)];
+                            if (matches.length > 0) {
+                              fallbackArtists = matches.map(match => ({ 
+                                name: match[1], 
+                                slug: match[1].toLowerCase().replace(/\s+/g, '-') 
+                              }));
+                              break;
+                            }
+                          }
+                        }
                       }
+                      
+                      if (fallbackArtists.length === 0) {
+                        console.log('🎯 3点メニュー: フォールバックでもアーティストが見つかりません');
+                        return null;
+                      }
+                      
+                      console.log('🎯 3点メニュー: フォールバックアーティスト:', fallbackArtists);
+                      orderedArtists = fallbackArtists;
                     }
                     
-                    return artistsArray.map((artist, index) => {
+                    return orderedArtists.map((artist, index) => {
                      // アーティストデータの処理
                      let artistName = '';
                      let artistSlug = '';
@@ -1805,33 +1932,16 @@ export default function PlaylistSongList({
 
                 <div key="song-section" style={separatorStyle}>
                   {(() => {
-                    // アーティストスラッグを適切に取得
+                    // determineArtistOrder関数を使用してメインアーティストを取得
+                    const orderedArtists = determineArtistOrder(song);
+                    const mainArtist = orderedArtists?.[0];
+                    
                     let artistSlug = 'unknown';
-                    
-                    // artistsフィールドを配列に変換
-                    let artistsArray = [];
-                    if (Array.isArray(song.artists)) {
-                      artistsArray = song.artists;
-                    } else if (typeof song.artists === 'string' && song.artists.trim()) {
-                      try {
-                        artistsArray = JSON.parse(song.artists);
-                      } catch (e) {
-                        console.error('artists JSON解析エラー:', e);
-                        artistsArray = [];
-                      }
-                    }
-                    
-                    if (artistsArray.length > 0) {
-                      const firstArtist = artistsArray[0];
-                       if (typeof firstArtist === 'string') {
-                         try {
-                           const parsed = JSON.parse(firstArtist);
-                           artistSlug = parsed.slug || he.decode(parsed.name || firstArtist).toLowerCase().replace(/\s+/g, '-');
-                         } catch (e) {
-                           artistSlug = he.decode(firstArtist).toLowerCase().replace(/\s+/g, '-');
-                         }
-                       } else if (typeof firstArtist === 'object' && firstArtist !== null) {
-                         artistSlug = firstArtist.slug || he.decode(firstArtist.name || Object.values(firstArtist)[0] || 'unknown').toLowerCase().replace(/\s+/g, '-');
+                    if (mainArtist) {
+                      if (typeof mainArtist === 'string') {
+                        artistSlug = he.decode(mainArtist).toLowerCase().replace(/\s+/g, '-');
+                      } else if (typeof mainArtist === 'object' && mainArtist !== null) {
+                        artistSlug = mainArtist.slug || he.decode(mainArtist.name || 'unknown').toLowerCase().replace(/\s+/g, '-');
                        }
                      }
                      

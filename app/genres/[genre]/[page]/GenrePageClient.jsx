@@ -83,6 +83,7 @@ export default function GenrePageClient({
     } else if (song.artist) {
       artists = [{ name: song.artist, acf: song.acf?.artist_acf || {}, id: song.artist_id || undefined, slug: song.artist_slug || undefined }];
     }
+    
     // 動画ID/Spotify IDを一元化
     const ytvideoid = song.ytvideoid || song.youtube_id || song.acf?.ytvideoid || song.acf?.youtube_id || song.videoId || '';
     const spotify_track_id = song.spotify_track_id || song.spotifyTrackId || song.acf?.spotify_track_id || song.acf?.spotifyTrackId || '';
@@ -120,6 +121,7 @@ export default function GenrePageClient({
         youtube_id: ytvideoid,
         spotify_track_id,
         spotify_url,
+        spotify_artists: song.spotify_artists || null,
       },
       date: song.releaseDate || song.date || song.post_date || '',
       featured_media_url: song.thumbnail,

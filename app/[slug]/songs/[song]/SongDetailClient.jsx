@@ -28,10 +28,28 @@ import NetworkStatusIndicator from '@/components/NetworkStatusIndicator';
 import UnifiedErrorDisplay from '@/components/UnifiedErrorDisplay';
 import SpotifyPlaybackErrorDisplay from '@/components/SpotifyPlaybackErrorDisplay';
 
-// HTMLエンティティをデコードする関数
+// HTMLエンティティをデコードする関数（SSR対応）
 const decodeHtmlEntities = (text) => {
   if (!text) return text;
   
+  // サーバーサイドでは基本的な文字列置換のみ実行
+  if (typeof document === 'undefined') {
+    return text
+      .replace(/&amp;/g, '&')
+      .replace(/&#038;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#039;/g, "'")
+      .replace(/&#8217;/g, "'")
+      .replace(/&#8216;/g, "'")
+      .replace(/&#8220;/g, '"')
+      .replace(/&#8221;/g, '"')
+      .replace(/&#8211;/g, '–')
+      .replace(/&#8212;/g, '—')
+      .replace(/&nbsp;/g, ' ');
+  }
+
   const textarea = document.createElement('textarea');
   textarea.innerHTML = text;
   return textarea.value;
@@ -137,14 +155,46 @@ export default function SongDetailClient({ songData, description, accessToken })
   const [userPlaylists, setUserPlaylists] = useState([]);
   const [showCreateNewPlaylistModal, setShowCreateNewPlaylistModal] = useState(false);
   
-  // 現在の曲が登録されているプレイリストを検索（既存データから）
-  const songPlaylists = useMemo(() => {
-    if (!userPlaylists || !songData?.id) return [];
-    
-    return userPlaylists.filter(playlist => 
-      playlist.tracks?.some(track => track.song_id === songData.id)
-    );
-  }, [userPlaylists, songData?.id]);
+  // 現在の曲が登録されているプレイリストを検索（ユーザー固有APIから）
+  const [songPlaylists, setSongPlaylists] = useState([]);
+  const [isLoadingSongPlaylists, setIsLoadingSongPlaylists] = useState(false);
+
+  useEffect(() => {
+    const fetchSongPlaylists = async () => {
+      if (!songData?.id || !session?.user) {
+        return;
+      }
+
+      setIsLoadingSongPlaylists(true);
+      try {
+        // ユーザー固有のプレイリスト検索APIを呼び出し
+        const response = await fetch(`/api/songs/${songData.id}/playlists`);
+        
+        if (!response.ok) {
+          const errorText = await response.text();
+          console.error('プレイリスト検索API エラー:', { 
+            status: response.status, 
+            statusText: response.statusText,
+            errorText: errorText
+          });
+          throw new Error(`API エラー: ${response.status} ${response.statusText}`);
+        }
+        
+        const data = await response.json();
+        
+        setSongPlaylists(data.playlists || []);
+      } catch (error) {
+        console.error('曲のプレイリスト検索エラー:', error);
+        setSongPlaylists([]);
+      } finally {
+        setIsLoadingSongPlaylists(false);
+      }
+    };
+
+    if (songData?.id && session?.user) {
+      fetchSongPlaylists();
+    }
+  }, [songData?.id, session?.user]);
   
   // いいね機能用の状態（統合されたフックに置き換え）
   const [isLiked, setIsLiked] = useState(false);
@@ -419,12 +469,18 @@ export default function SongDetailClient({ songData, description, accessToken })
     orderedArtists.length > 0 ? (
       orderedArtists.map((artist, index) => {
         const artistOrigin = artist.acf?.artistorigin || "Unknown";
+        // Spotify画像を取得（songData.acfから）
+        const spotifyImage = songData.acf?.[`spotify_artists${String(index + 1).padStart(2, '0')}_images`] || 
+                            songData.acf?.spotify_artists01_images;
         return (
           <div key={index} style={{ display: "flex", alignItems: "center", marginBottom: "10px" }}>
             <img
-              src={artist.acf?.spotify_artist_images || "/placeholder.jpg"}
+              src={spotifyImage || artist.acf?.spotify_artist_images || artist.acf?.artist_image || artist.featured_media_url || "/placeholder.jpg"}
               alt={decodeHtmlEntities(artist.name)}
               style={{ width: "100px", height: "100px", objectFit: "cover", borderRadius: "10px", marginRight: "10px" }}
+              onError={(e) => {
+                e.target.src = "/placeholder.jpg";
+              }}
             />
             <Link href={`/${artist.slug}/`} style={{ fontSize: "1.2em", color: "#1e6ebb", fontWeight: "bold" }}>
                 {decodeHtmlEntities(artist.name)} <span style={{ fontSize: "1em", color: "#777" }}>({artistOrigin})</span>
@@ -566,6 +622,7 @@ export default function SongDetailClient({ songData, description, accessToken })
           flexDirection: "row",
           alignItems: "flex-start",
           padding: "20px",
+          paddingBottom: "120px", // Spotifyプレイヤーの高さ分のスペースを確保
           flexWrap: "wrap",
         }}
       >
@@ -603,15 +660,21 @@ export default function SongDetailClient({ songData, description, accessToken })
             {orderedArtists.length > 0 ? (
               orderedArtists.map((artist, index) => {
                 const artistOrigin = artist.acf?.artistorigin || "Unknown";
+                // Spotify画像を取得（songData.acfから）
+                const spotifyImage = songData.acf?.[`spotify_artists${String(index + 1).padStart(2, '0')}_images`] || 
+                                    songData.acf?.spotify_artists01_images;
                 return (
                   <div key={index} style={{ display: "flex", alignItems: "center", gap: "12px" }}>
                     <div style={{ width: '100px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                       <Image
-                        src={artist.acf?.spotify_artist_images || "/placeholder.jpg"}
+                        src={spotifyImage || artist.acf?.spotify_artist_images || artist.acf?.artist_image || artist.featured_media_url || "/placeholder.jpg"}
                         alt={decodeHtmlEntities(artist.name)}
                         width={100}
                         height={100}
                         style={{ borderRadius: "12px", objectFit: "cover", background: "#aaa" }}
+                        onError={(e) => {
+                          e.target.src = "/placeholder.jpg";
+                        }}
                       />
                       <div style={{ width: '100px', textAlign: 'center', marginTop: '6px' }}>
                         <Link href={`/${artist.slug}/`} style={{ fontSize: "1.08em", color: "#1e6ebb", fontWeight: "bold", textDecoration: "none" }}>
@@ -791,29 +854,35 @@ export default function SongDetailClient({ songData, description, accessToken })
             </div>
             
             {/* 登録済みプレイリスト表示セクション */}
-            {songPlaylists.length > 0 && (
+            {(songPlaylists.length > 0 || isLoadingSongPlaylists) && (
               <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
                 <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>登録済みプレイリスト:</div>
                 <div style={{ flex: 1, marginLeft: '16px' }}>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                    {songPlaylists.map((playlist) => (
-                      <Link 
-                        key={playlist.id}
-                        href={`/mypage?playlist=${playlist.id}`}
-                        style={{ 
-                          color: '#1e6ebb', 
-                          textDecoration: 'none',
-                          fontSize: '1.08em',
-                          padding: '2px 0',
-                          transition: 'color 0.2s ease'
-                        }}
-                        onMouseEnter={(e) => e.target.style.color = '#155a8a'}
-                        onMouseLeave={(e) => e.target.style.color = '#1e6ebb'}
-                      >
-                        📁 {playlist.name}
-                      </Link>
-                    ))}
-                  </div>
+                  {isLoadingSongPlaylists ? (
+                    <div style={{ color: '#888', fontSize: '0.9em' }}>読み込み中...</div>
+                  ) : songPlaylists.length > 0 ? (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                      {songPlaylists.map((playlist) => (
+                        <Link 
+                          key={playlist.id}
+                          href={`/playlists/${playlist.id}`}
+                          style={{ 
+                            color: '#1e6ebb', 
+                            textDecoration: 'none',
+                            fontSize: '1.08em',
+                            padding: '2px 0',
+                            transition: 'color 0.2s ease'
+                          }}
+                          onMouseEnter={(e) => e.target.style.color = '#155a8a'}
+                          onMouseLeave={(e) => e.target.style.color = '#1e6ebb'}
+                        >
+                          📁 {playlist.name}
+                        </Link>
+                      ))}
+                    </div>
+                  ) : (
+                    <div style={{ color: '#888', fontSize: '0.9em' }}>登録されているプレイリストはありません</div>
+                  )}
                 </div>
               </div>
             )}
@@ -882,30 +951,36 @@ export default function SongDetailClient({ songData, description, accessToken })
         </div>
       </div>
       
-      {/* Spotifyプレーヤーまたはログイン促進メッセージ */}
+      {/* Spotifyプレーヤーまたはログイン促進メッセージ - 固定表示 */}
       {songData.spotifyTrackId && (
-        accessToken ? (
-          <SongDetailSpotifyPlayer 
-            accessToken={accessToken} 
-            songData={songData}
-            onError={(errorMessage) => {
-              addError(createError(
-                errorMessage,
-                ERROR_TYPES.SPOTIFY,
-                ERROR_SEVERITY.HIGH
-              ));
-            }}
-          />
-        ) : (
-          <div style={{
-            padding: '20px',
-            backgroundColor: '#000',
-            borderRadius: '8px',
-            margin: '20px 0',
-            border: '1px solid #333',
-            color: '#fff',
-            textAlign: 'center'
-          }}>
+        <div style={{
+          position: 'fixed',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          zIndex: 1000,
+          backgroundColor: '#000',
+          borderTop: '1px solid #333'
+        }}>
+          {accessToken ? (
+            <SongDetailSpotifyPlayer 
+              accessToken={accessToken} 
+              songData={songData}
+              onError={(errorMessage) => {
+                addError(createError(
+                  errorMessage,
+                  ERROR_TYPES.SPOTIFY,
+                  ERROR_SEVERITY.HIGH
+                ));
+              }}
+            />
+          ) : (
+            <div style={{
+              padding: '20px',
+              backgroundColor: '#000',
+              color: '#fff',
+              textAlign: 'center'
+            }}>
             <svg width="100%" height="30" viewBox="0 0 823.46 225.25" xmlns="http://www.w3.org/2000/svg" style={{ marginBottom: '15px' }}>
               <defs>
                 <style>{`.cls-1{fill:#1ed760;stroke-width:0px;}`}</style>
@@ -915,14 +990,15 @@ export default function SongDetailClient({ songData, description, accessToken })
               <path className="cls-1" d="m810.1,92.31c-1.06-1.83-2.53-3.26-4.41-4.3-1.88-1.03-3.98-1.55-6.32-1.55s-4.44.52-6.32,1.55c-1.88,1.04-3.35,2.47-4.41,4.3-1.06,1.83-1.59,3.9-1.59,6.21s.53,4.34,1.59,6.17c1.06,1.83,2.53,3.26,4.41,4.3,1.88,1.04,3.98,1.55,6.32,1.55s4.44-.52,6.32-1.55,3.35-2.47,4.41-4.3c1.06-1.83,1.59-3.88,1.59-6.17s-.53-4.38-1.59-6.21Zm-1.93,11.36c-.86,1.52-2.06,2.7-3.59,3.56-1.53.85-3.27,1.28-5.2,1.28s-3.72-.43-5.25-1.28c-1.53-.85-2.72-2.04-3.57-3.56-.85-1.51-1.27-3.23-1.27-5.15s.42-3.63,1.27-5.13c.85-1.5,2.04-2.68,3.57-3.53,1.53-.85,3.28-1.28,5.25-1.28s3.67.43,5.2,1.28c1.53.85,2.73,2.04,3.59,3.56.86,1.52,1.29,3.23,1.29,5.15s-.43,3.59-1.29,5.11Z"/>
               <path className="cls-1" d="m803.56,98.29c.82-.6,1.23-1.4,1.23-2.39s-.4-1.83-1.2-2.43c-.8-.6-1.96-.9-3.48-.9h-5.36v11.2h2.59v-4.45h1.41l3.41,4.45h3.18l-3.73-4.72c.79-.15,1.46-.4,1.96-.77Zm-3.86-.99h-2.36v-2.74h2.45c.73,0,1.29.11,1.68.34.39.23.59.58.59,1.06,0,.45-.21.79-.61,1.01-.41.23-.99.34-1.75.34Z"/>
             </svg>
-            <p style={{ margin: '0 0 10px 0' }}>
-              曲の再生にはSpotifyアカウントでのログインが必要です。
-            </p>
-            <p style={{ fontSize: '0.9em', color: '#ccc', margin: 0 }}>
-              画面右上のボタンからサインインしてください。
-            </p>
-          </div>
-        )
+              <p style={{ margin: '0 0 10px 0' }}>
+                曲の再生にはSpotifyアカウントでのログインが必要です。
+              </p>
+              <p style={{ fontSize: '0.9em', color: '#ccc', margin: 0 }}>
+                画面右上のボタンからサインインしてください。
+              </p>
+            </div>
+          )}
+        </div>
       )}
       
       {/* プレイリスト追加モーダル */}

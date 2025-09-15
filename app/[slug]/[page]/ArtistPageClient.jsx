@@ -293,6 +293,8 @@ export default function ArtistPageClient({
 
   // --- "The" 接頭辞フラグに基づき "The " を付与する処理 ---
   let displayName = safeArtistData.name;
+  
+  // アーティストページでは、そのアーティストの実際の名前を使用
   // thePrefix（propsやartistData.thePrefix）またはthe_prefixで判定
   const isThe = (safeArtistData.thePrefix === 'The') ||
     safeArtistData.the_prefix === "1" ||
@@ -799,7 +801,7 @@ export default function ArtistPageClient({
                <section className={styles.songsSection}>
            <h2 className={styles.sectionTitle}>Songs ({startSongNumber} - {endSongNumber} / {totalSongs})</h2>
            <SongList
-             songs={normalizedSongs}
+             songs={safeSongs}
              source={`artist/${safeArtistData.slug || 'unknown'}`}
              currentPage={safeCurrentPage}
              songsPerPage={20}
