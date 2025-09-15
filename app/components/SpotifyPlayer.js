@@ -914,10 +914,47 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
 
   // 新しい曲を再生する関数
   const playNewTrack = useCallback(async (newTrackId) => {
+    console.log('🎵 playNewTrack called with track ID:', {
+      newTrackId,
+      isReady,
+      deviceId,
+      currentTrackIndex,
+      trackListLength: trackList.length,
+      currentTrack: currentTrack?.title || currentTrack?.name
+    });
+    
     if (!isReady) {
-      if (process.env.NODE_ENV === 'development') {
-        console.log('Cannot play new track: player not ready');
-      }
+      console.log('❌ Cannot play new track: player not ready');
+      return;
+    }
+
+    // track_idのバリデーション
+    if (!newTrackId || typeof newTrackId !== 'string' || newTrackId.trim() === '') {
+      console.error('❌ Invalid track ID provided:', {
+        newTrackId,
+        type: typeof newTrackId,
+        isEmpty: newTrackId?.trim() === ''
+      });
+      // 無効なIDの場合は次の曲にスキップ
+      console.log('⏭️ Skipping to next track due to invalid track ID');
+      setTimeout(() => {
+        playNext();
+      }, 500);
+      return;
+    }
+
+    // Spotify track IDの形式チェック（22文字の英数字）
+    if (!/^[a-zA-Z0-9]{22}$/.test(newTrackId)) {
+      console.error('❌ Invalid Spotify track ID format:', {
+        newTrackId,
+        length: newTrackId.length,
+        pattern: /^[a-zA-Z0-9]{22}$/.test(newTrackId)
+      });
+      // 無効な形式のIDの場合は次の曲にスキップ
+      console.log('⏭️ Skipping to next track due to invalid track ID format');
+      setTimeout(() => {
+        playNext();
+      }, 500);
       return;
     }
     
@@ -1155,26 +1192,122 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
         
         // 403エラーの場合はデバイスIDをリセットし、認証エラーフラグを設定
         if (resetResponse.status === 403) {
-          console.warn('Play track failed with 403 - resetting device ID');
+          console.warn('🚨 Play track failed with 403 - resetting device ID');
           setDeviceId(null);
           sessionStorage.setItem('spotify_auth_error', 'true');
+          
+          // 403エラーの場合もスキップを試行（認証エラーまたは制限エラー）
+          console.error('🚨 Track access denied (403), skipping to next track:', newTrackId);
+          
+          // 現在のトラックインデックスを更新してから次の曲にスキップ
+          const trackIndex = trackList.findIndex(track => (track?.spotifyTrackId || track?.id) === newTrackId);
+          console.log('🔍 Track search result for 403 error:', {
+            trackIndex,
+            searchedTrackId: newTrackId,
+            foundTrack: trackIndex !== -1 ? trackList[trackIndex] : null
+          });
+          
+          if (trackIndex !== -1) {
+            // 現在のトラックインデックスを更新
+            updateCurrentTrackState(trackList[trackIndex], trackIndex);
+            console.log('🔄 Track access denied - Updated current track index:', trackIndex);
+          } else {
+            console.warn('⚠️ Track not found in trackList for 403 error, using current index:', currentTrackIndex);
+          }
+          
+          // プレイヤーを停止してから次の曲にスキップ
+          if (playerRef.current) {
+            console.log('🛑 Disconnecting player before skip (403 error)');
+            playerRef.current.disconnect();
+          }
+          
+          // 次の曲にスキップ（即座に実行）
+          console.log('⏭️ Skipping to next track immediately (403 error)');
+          console.log('🔄 Calling playNext() from 403 error handler');
+          playNext();
+          return;
         }
         
         // 401エラーの場合は認証エラーフラグを設定
         if (resetResponse.status === 401) {
-          console.warn('Play track failed with 401 - authentication error');
+          console.warn('🚨 Play track failed with 401 - authentication error');
           sessionStorage.setItem('spotify_auth_error', 'true');
+          
+          // 401エラーの場合もスキップを試行（認証エラー）
+          console.error('🚨 Authentication error (401), skipping to next track:', newTrackId);
+          
+          // 現在のトラックインデックスを更新してから次の曲にスキップ
+          const trackIndex = trackList.findIndex(track => (track?.spotifyTrackId || track?.id) === newTrackId);
+          console.log('🔍 Track search result for 401 error:', {
+            trackIndex,
+            searchedTrackId: newTrackId,
+            foundTrack: trackIndex !== -1 ? trackList[trackIndex] : null
+          });
+          
+          if (trackIndex !== -1) {
+            // 現在のトラックインデックスを更新
+            updateCurrentTrackState(trackList[trackIndex], trackIndex);
+            console.log('🔄 Authentication error - Updated current track index:', trackIndex);
+          } else {
+            console.warn('⚠️ Track not found in trackList for 401 error, using current index:', currentTrackIndex);
+          }
+          
+          // プレイヤーを停止してから次の曲にスキップ
+          if (playerRef.current) {
+            console.log('🛑 Disconnecting player before skip (401 error)');
+            playerRef.current.disconnect();
+          }
+          
+          // 次の曲にスキップ（即座に実行）
+          console.log('⏭️ Skipping to next track immediately (401 error)');
+          console.log('🔄 Calling playNext() from 401 error handler');
+          playNext();
+          return;
         }
         
-        // 404エラーの場合はプレイヤーを再初期化
+        // 404エラーの場合はトラックが存在しないか、プレイヤーを再初期化
         if (resetResponse.status === 404) {
-          console.warn('Play track failed with 404 - reinitializing player');
-          if (playerRef.current) {
-            playerRef.current.disconnect();
-            setTimeout(() => {
-              initializePlayer();
-            }, 1000);
+          console.warn('🚨 Play track failed with 404 - track may not exist or player needs reinitialization:', {
+            trackId: newTrackId,
+            error: errorData,
+            errorReason: errorData.error?.reason,
+            errorMessage: errorData.error?.message
+          });
+          
+          // 404エラーの場合は基本的にトラックが存在しないと判断してスキップ
+          console.error('🚨 Track not found on Spotify (404), skipping to next track:', {
+            trackId: newTrackId,
+            currentTrackIndex: currentTrackIndex,
+            trackListLength: trackList.length
+          });
+          
+          // 現在のトラックインデックスを更新してから次の曲にスキップ
+          const trackIndex = trackList.findIndex(track => (track?.spotifyTrackId || track?.id) === newTrackId);
+          console.log('🔍 Track search result:', {
+            trackIndex,
+            searchedTrackId: newTrackId,
+            foundTrack: trackIndex !== -1 ? trackList[trackIndex] : null
+          });
+          
+          if (trackIndex !== -1) {
+            // 現在のトラックインデックスを更新
+            updateCurrentTrackState(trackList[trackIndex], trackIndex);
+            console.log('🔄 Track not found - Updated current track index:', trackIndex);
+          } else {
+            console.warn('⚠️ Track not found in trackList, using current index:', currentTrackIndex);
           }
+          
+          // プレイヤーを停止してから次の曲にスキップ
+          if (playerRef.current) {
+            console.log('🛑 Disconnecting player before skip');
+            playerRef.current.disconnect();
+          }
+          
+          // 次の曲にスキップ（即座に実行）
+          console.log('⏭️ Skipping to next track immediately');
+          console.log('🔄 Calling playNext() from 404 error handler');
+          playNext();
+          return;
         }
       }
     } catch (error) {
@@ -1355,8 +1488,15 @@ const SpotifyPlayer = forwardRef(({ accessToken, trackId, autoPlay }, ref) => {
       const hasDeviceError = sessionStorage.getItem('spotify_device_error');
       
       if (hasAuthError || hasDeviceError) {
-        if (process.env.NODE_ENV === 'development') {
-          console.log('Skipping reconnection due to authentication or device error');
+        console.log('🔄 Skipping reconnection due to authentication or device error, but will try to play next track');
+        
+        // 認証エラーでも次の曲を再生を試行
+        if (currentTrack && currentTrack.spotifyTrackId) {
+          console.log('🎵 Attempting to play next track despite auth error:', currentTrack.spotifyTrackId);
+          // 少し遅延してから再生を試行
+          setTimeout(() => {
+            playNewTrack(currentTrack.spotifyTrackId);
+          }, 1000);
         }
         return;
       }

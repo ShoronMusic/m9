@@ -10,7 +10,7 @@ const formatTime = (milliseconds) => {
   return `${minutes}:${seconds.toString().padStart(2, '0')}`;
 };
 
-const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
+const SongDetailSpotifyPlayer = ({ accessToken, songData, onError }) => {
   const { data: session } = useSession();
   const [isReady, setIsReady] = useState(false);
   const [deviceId, setDeviceId] = useState(null);
@@ -414,12 +414,26 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
   }, [isPlaying]);
 
   const playTrack = async (deviceId, trackId) => {
+    console.log('🎯 playTrack called:', { deviceId, trackId, isReady, hasAccessToken: !!accessToken });
+    
     if (!isReady || !deviceId) {
-      console.log('Player not ready or no device ID');
+      console.log('❌ Player not ready or no device ID:', { isReady, deviceId });
+      return;
+    }
+    
+    if (!accessToken) {
+      console.log('❌ No access token available');
+      setError('Spotifyログインが必要です。ページを再読み込みしてください。');
       return;
     }
     
     try {
+      console.log('🎯 Making Spotify API request...', { 
+        url: `https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`,
+        trackId,
+        deviceId 
+      });
+      
       const response = await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
         method: 'PUT',
         body: JSON.stringify({ uris: [`spotify:track:${trackId}`] }),
@@ -428,10 +442,50 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
           'Authorization': `Bearer ${accessToken}`
         },
       });
+      
+      console.log('🎯 Spotify API response:', { 
+        status: response.status, 
+        statusText: response.statusText, 
+        ok: response.ok 
+      });
 
       if (!response.ok) {
-        const errorBody = await response.json();
-        throw new Error(errorBody?.error?.message || `HTTP error! status: ${response.status}`);
+        let errorBody = null;
+        try {
+          errorBody = await response.json();
+        } catch (jsonError) {
+          console.error('🚨 Failed to parse error response as JSON:', jsonError);
+          errorBody = { error: { message: `HTTP ${response.status}: ${response.statusText}` } };
+        }
+        
+        console.error('🚨 Spotify API error:', { 
+          status: response.status, 
+          statusText: response.statusText, 
+          errorBody 
+        });
+        
+        // エラーメッセージを設定
+        let errorMessage = '';
+        if (response.status === 404) {
+          errorMessage = 'この曲はSpotifyで利用できません。トラックが存在しないか、地域制限により再生できません。';
+        } else if (response.status === 403) {
+          errorMessage = 'Spotify Premiumアカウントでログインしているか確認してください。';
+        } else if (response.status === 401) {
+          errorMessage = 'Spotifyログインが必要です。ページを再読み込みしてください。';
+        } else {
+          errorMessage = errorBody?.error?.message || `HTTP error! status: ${response.status}`;
+        }
+        
+        console.error('🚨 Setting error message:', errorMessage);
+        const fullErrorMessage = `曲の再生に失敗しました: ${errorMessage}`;
+        setError(fullErrorMessage);
+        
+        // 親コンポーネントにエラーを通知
+        if (onError) {
+          onError(fullErrorMessage);
+        }
+        
+        throw new Error(errorMessage);
       }
       
       // 再生開始時の時間初期化
@@ -440,15 +494,34 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
       setIsPlaying(true);
       setError(null);
       
-      console.log('🎯 Track play initiated, time reset to 0:00');
+      console.log('✅ Track play initiated successfully:', { trackId, deviceId });
     } catch (e) {
-      console.error('Failed to play track:', e);
-      setError(`曲の再生に失敗しました: ${e.message}`);
+      console.error('❌ Failed to play track:', e);
+      const fullErrorMessage = `曲の再生に失敗しました: ${e.message}`;
+      setError(fullErrorMessage);
+      
+      // 親コンポーネントにエラーを通知
+      if (onError) {
+        onError(fullErrorMessage);
+      }
+      
+      // エラーを再スローして、呼び出し元でキャッチできるようにする
+      throw e;
     }
   };
 
   const togglePlay = async () => {
-    if (!isReady || !playerRef.current) return;
+    console.log('🎯 togglePlay called:', { 
+      isReady, 
+      hasPlayer: !!playerRef.current, 
+      deviceId, 
+      trackId: songData?.spotifyTrackId 
+    });
+    
+    if (!isReady || !playerRef.current) {
+      console.log('❌ Cannot toggle play: player not ready');
+      return;
+    }
     
     try {
       // 現在の状態を取得
@@ -462,11 +535,17 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
       if (hasPlaybackStartedRef.current === false || !currentState) {
         // 初回再生開始または状態が取得できない場合
         console.log('🎯 Starting track playback...');
-        await playTrack(deviceId, songData.spotifyTrackId);
-        hasPlaybackStartedRef.current = true;
-        
-        // 再生開始時刻は player_state_changed で設定されるため、ここでは設定しない
-        console.log('▶️ Track playback initiated');
+        try {
+          await playTrack(deviceId, songData.spotifyTrackId);
+          hasPlaybackStartedRef.current = true;
+          
+          // 再生開始時刻は player_state_changed で設定されるため、ここでは設定しない
+          console.log('▶️ Track playback initiated');
+        } catch (error) {
+          console.error('❌ Failed to start track playback:', error);
+          // エラーは playTrack 内で setError されるため、ここでは追加処理不要
+          hasPlaybackStartedRef.current = false; // エラー時はリセット
+        }
       } else {
         // 再生/一時停止の切り替え
         console.log('🔄 Toggling play/pause state');
@@ -481,8 +560,12 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
             expected: expectedTrackId
           });
           // トラックが異なる場合は再開
-          await playTrack(deviceId, songData.spotifyTrackId);
-          hasPlaybackStartedRef.current = true;
+          try {
+            await playTrack(deviceId, songData.spotifyTrackId);
+            hasPlaybackStartedRef.current = true;
+          } catch (error) {
+            console.error('❌ Failed to restart track playback:', error);
+          }
         } else if (currentState.paused) {
           // 一時停止中なので再生
           console.log('▶️ Resuming playback from position:', currentState.position);
@@ -734,7 +817,7 @@ const SongDetailSpotifyPlayer = ({ accessToken, songData }) => {
     }}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '15px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-          <svg width="auto" height="30" viewBox="0 0 823.46 225.25" xmlns="http://www.w3.org/2000/svg">
+          <svg width="100%" height="30" viewBox="0 0 823.46 225.25" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <style>{`.cls-1{fill:#1ed760;stroke-width:0px;}`}</style>
             </defs>

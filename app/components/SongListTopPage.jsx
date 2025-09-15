@@ -511,13 +511,21 @@ export default function SongListTopPage({
 	// ユーザーのプレイリスト一覧を取得
 	const fetchUserPlaylists = async () => {
 		try {
+			console.log('📋 Fetching user playlists...');
 			const response = await fetch('/api/playlists');
+			console.log('📋 Playlist API response:', response.status, response.statusText);
+			
 			if (response.ok) {
 				const data = await response.json();
+				console.log('📋 Playlists data received:', data);
 				setUserPlaylists(data.playlists || []);
+			} else {
+				console.error('📋 Playlist API error:', response.status, response.statusText);
 			}
 		} catch (err) {
-			console.error('プレイリスト取得エラー:', err);
+			console.error('📋 プレイリスト取得エラー:', err);
+			// エラー時は空の配列を設定
+			setUserPlaylists([]);
 		}
 	};
 

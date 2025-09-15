@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useSession } from 'next-auth/react';
 import { ThemeProvider } from '@mui/material/styles';
 import { createTheme } from '@mui/material/styles';
@@ -26,6 +26,16 @@ import SessionRecoveryIndicator from '@/components/SessionRecoveryIndicator';
 import MobileLifecycleManager from '@/components/MobileLifecycleManager';
 import NetworkStatusIndicator from '@/components/NetworkStatusIndicator';
 import UnifiedErrorDisplay from '@/components/UnifiedErrorDisplay';
+import SpotifyPlaybackErrorDisplay from '@/components/SpotifyPlaybackErrorDisplay';
+
+// HTMLエンティティをデコードする関数
+const decodeHtmlEntities = (text) => {
+  if (!text) return text;
+  
+  const textarea = document.createElement('textarea');
+  textarea.innerHTML = text;
+  return textarea.value;
+};
 
 const styleIdMap = {
   pop: 2844,
@@ -53,9 +63,9 @@ const styleDisplayMap = {
 // アーティスト名をフォーマットする関数
 function formatArtistName(artist) {
   if (artist.prefix === "1") {
-    return `The ${artist.name}`;
+    return `The ${decodeHtmlEntities(artist.name)}`;
   }
-  return artist.name;
+  return decodeHtmlEntities(artist.name);
 }
 
 // アーティスト順序決定関数（SongList.jsと同じロジック）
@@ -126,6 +136,15 @@ export default function SongDetailClient({ songData, description, accessToken })
   const [trackToAdd, setTrackToAdd] = useState(null);
   const [userPlaylists, setUserPlaylists] = useState([]);
   const [showCreateNewPlaylistModal, setShowCreateNewPlaylistModal] = useState(false);
+  
+  // 現在の曲が登録されているプレイリストを検索（既存データから）
+  const songPlaylists = useMemo(() => {
+    if (!userPlaylists || !songData?.id) return [];
+    
+    return userPlaylists.filter(playlist => 
+      playlist.tracks?.some(track => track.song_id === songData.id)
+    );
+  }, [userPlaylists, songData?.id]);
   
   // いいね機能用の状態（統合されたフックに置き換え）
   const [isLiked, setIsLiked] = useState(false);
@@ -381,8 +400,8 @@ export default function SongDetailClient({ songData, description, accessToken })
   // 優先順でアーティスト配列を取得
   const orderedArtists = determineArtistOrder(songData);
   // タイトル表示用
-  const artistNamesStr = orderedArtists.map(a => a.name).join(", ");
-  const pageTitleStr = `${artistNamesStr} - ${songData.title}`;
+  const artistNamesStr = orderedArtists.map(a => decodeHtmlEntities(a.name)).join(", ");
+  const pageTitleStr = `${artistNamesStr} - ${decodeHtmlEntities(songData.title)}`;
 
   const releaseDate = songData.releaseDate || "Unknown";
   const rawStyles = songData.styles || [];
@@ -391,7 +410,7 @@ export default function SongDetailClient({ songData, description, accessToken })
   const styleSlug = Object.keys(styleIdMap).find((key) => styleIdMap[key] === styleId) || "others";
   const styleElement = (
     <Link href={`/styles/${styleSlug}/1`} style={{ fontSize: "1.1em", color: "#1e6ebb" }}>
-      {styleName}
+      {decodeHtmlEntities(styleName)}
     </Link>
   );
 
@@ -404,11 +423,11 @@ export default function SongDetailClient({ songData, description, accessToken })
           <div key={index} style={{ display: "flex", alignItems: "center", marginBottom: "10px" }}>
             <img
               src={artist.acf?.spotify_artist_images || "/placeholder.jpg"}
-              alt={artist.name}
+              alt={decodeHtmlEntities(artist.name)}
               style={{ width: "100px", height: "100px", objectFit: "cover", borderRadius: "10px", marginRight: "10px" }}
             />
             <Link href={`/${artist.slug}/`} style={{ fontSize: "1.2em", color: "#1e6ebb", fontWeight: "bold" }}>
-                {artist.name} <span style={{ fontSize: "1em", color: "#777" }}>({artistOrigin})</span>
+                {decodeHtmlEntities(artist.name)} <span style={{ fontSize: "1em", color: "#777" }}>({artistOrigin})</span>
             </Link>
           </div>
         );
@@ -423,7 +442,7 @@ export default function SongDetailClient({ songData, description, accessToken })
       songData.genres.map((genre, index) => (
         <div key={index}>
           <Link href={`/genres/${genre.slug}/1`} style={{ fontSize: "1.1em", color: "#1e6ebb" }}>
-            {genre.name}
+            {decodeHtmlEntities(genre.name)}
           </Link>
         </div>
       ))
@@ -465,7 +484,7 @@ export default function SongDetailClient({ songData, description, accessToken })
         height={20}
         width={67}
         className={artistStyles.spotifyLogo}
-        style={{ width: "auto" }}
+        style={{ width: "100%" }}
       />
     </div>
   ) : null;
@@ -532,6 +551,15 @@ export default function SongDetailClient({ songData, description, accessToken })
           onReLogin={handleReLogin}
         />
 
+        {/* Spotify再生エラー表示 */}
+        {songData?.spotifyTrackId && (
+          <SpotifyPlaybackErrorDisplay
+            songData={songData}
+            errors={errors}
+            onResolve={handleErrorResolve}
+          />
+        )}
+
       <div
         style={{
           display: "flex",
@@ -545,7 +573,7 @@ export default function SongDetailClient({ songData, description, accessToken })
         <div className={artistStyles.imageContainer}>
           <Image
             src={coverImageUrl}
-            alt={`${songData.title}のカバー画像`}
+            alt={`${decodeHtmlEntities(songData.title)}のカバー画像`}
             width={300}
             height={300}
             className={artistStyles.artistImage}
@@ -569,7 +597,7 @@ export default function SongDetailClient({ songData, description, accessToken })
           <div style={{ marginBottom: '0.5em' }}>
             <span style={{ fontSize: '0.9em', color: '#888', letterSpacing: '0.15em', fontWeight: 600 }}>SONG</span>
           </div>
-          <h1 style={{ fontSize: "2.4em", fontWeight: "bold", marginBottom: "0.7em", lineHeight: 1.1 }}>{songData.title}</h1>
+          <h1 style={{ fontSize: "2.4em", fontWeight: "bold", marginBottom: "0.7em", lineHeight: 1.1 }}>{decodeHtmlEntities(songData.title)}</h1>
           
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '24px', alignItems: 'flex-start', marginBottom: '1em', marginLeft: '16px' }}>
             {orderedArtists.length > 0 ? (
@@ -580,7 +608,7 @@ export default function SongDetailClient({ songData, description, accessToken })
                     <div style={{ width: '100px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                       <Image
                         src={artist.acf?.spotify_artist_images || "/placeholder.jpg"}
-                        alt={artist.name}
+                        alt={decodeHtmlEntities(artist.name)}
                         width={100}
                         height={100}
                         style={{ borderRadius: "12px", objectFit: "cover", background: "#aaa" }}
@@ -631,7 +659,7 @@ export default function SongDetailClient({ songData, description, accessToken })
                         onMouseEnter={(e) => e.target.style.color = '#155a8a'}
                         onMouseLeave={(e) => e.target.style.color = '#1e6ebb'}
                       >
-                        {genre.name}
+                        {decodeHtmlEntities(genre.name)}
                       </Link>
                     ))}
                   </div>
@@ -711,31 +739,85 @@ export default function SongDetailClient({ songData, description, accessToken })
             <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
               <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>LINK:</div>
               <div style={{ flex: 1, marginLeft: '16px' }}>
-                  {songData.spotifyTrackId && (
-                    <Link
-                      href={`https://open.spotify.com/track/${songData.spotifyTrackId}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    style={{ 
-                      display: "inline-flex", 
-                      alignItems: "center", 
-                      gap: "5px", 
-                      textDecoration: "none", 
-                      color: "#1e6ebb", 
-                      fontSize: "1.08em",
-                      padding: "2px 0",
-                      transition: "color 0.2s ease"
-                    }}
-                    onMouseEnter={(e) => e.target.style.color = "#155a8a"}
-                    onMouseLeave={(e) => e.target.style.color = "#1e6ebb"}
-                    >
-                      <img src="/svg/spotify.svg" alt="Spotify" style={{ width: "20px" }} />
-                      Spotify
-                      <img src="/svg/new-window.svg" alt="Open in new window" style={{ width: "20px" }} />
-                    </Link>
-                  )}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                    {songData.spotifyTrackId && (
+                      <Link
+                        href={`https://open.spotify.com/track/${songData.spotifyTrackId}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ 
+                          display: "inline-flex", 
+                          alignItems: "center", 
+                          gap: "5px", 
+                          textDecoration: "none", 
+                          color: "#1e6ebb", 
+                          fontSize: "1.08em",
+                          padding: "2px 0",
+                          transition: "color 0.2s ease"
+                        }}
+                        onMouseEnter={(e) => e.target.style.color = "#155a8a"}
+                        onMouseLeave={(e) => e.target.style.color = "#1e6ebb"}
+                      >
+                        <img src="/svg/spotify.svg" alt="Spotify" style={{ width: "20px" }} />
+                        Spotify
+                        <img src="/svg/new-window.svg" alt="Open in new window" style={{ width: "20px" }} />
+                      </Link>
+                    )}
+                    {(songData.ytvideoid || songData.custom_fields?.ytvideoid || songData.acf?.ytvideoid) && (
+                      <Link
+                        href={`https://www.youtube.com/watch?v=${songData.ytvideoid || songData.custom_fields?.ytvideoid || songData.acf?.ytvideoid}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ 
+                          display: "inline-flex", 
+                          alignItems: "center", 
+                          gap: "5px", 
+                          textDecoration: "none", 
+                          color: "#1e6ebb", 
+                          fontSize: "1.08em",
+                          padding: "2px 0",
+                          transition: "color 0.2s ease"
+                        }}
+                        onMouseEnter={(e) => e.target.style.color = "#155a8a"}
+                        onMouseLeave={(e) => e.target.style.color = "#1e6ebb"}
+                      >
+                        <img src="/svg/youtube.svg" alt="YouTube" style={{ width: "20px" }} />
+                        YouTube
+                        <img src="/svg/new-window.svg" alt="Open in new window" style={{ width: "20px" }} />
+                      </Link>
+                    )}
+                  </div>
               </div>
             </div>
+            
+            {/* 登録済みプレイリスト表示セクション */}
+            {songPlaylists.length > 0 && (
+              <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
+                <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>登録済みプレイリスト:</div>
+                <div style={{ flex: 1, marginLeft: '16px' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                    {songPlaylists.map((playlist) => (
+                      <Link 
+                        key={playlist.id}
+                        href={`/mypage?playlist=${playlist.id}`}
+                        style={{ 
+                          color: '#1e6ebb', 
+                          textDecoration: 'none',
+                          fontSize: '1.08em',
+                          padding: '2px 0',
+                          transition: 'color 0.2s ease'
+                        }}
+                        onMouseEnter={(e) => e.target.style.color = '#155a8a'}
+                        onMouseLeave={(e) => e.target.style.color = '#1e6ebb'}
+                      >
+                        📁 {playlist.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+            
             {/* プレイリスト追加セクション */}
             <div style={{ display: 'flex', borderBottom: '1px solid #e5e7eb', padding: '8px 0', alignItems: 'flex-start' }}>
               <div style={{ minWidth: 80, color: '#555', fontWeight: 600 }}>PLAYLIST:</div>
@@ -745,7 +827,7 @@ export default function SongDetailClient({ songData, description, accessToken })
                     onClick={() => {
                       setTrackToAdd({
                         id: songData.id,
-                        title: songData.title,
+                        title: decodeHtmlEntities(songData.title),
                         artists: songData.artists,
                         thumbnail: songData.thumbnail || songData.spotify_images,
                         spotify_track_id: songData.spotifyTrackId,
@@ -805,7 +887,14 @@ export default function SongDetailClient({ songData, description, accessToken })
         accessToken ? (
           <SongDetailSpotifyPlayer 
             accessToken={accessToken} 
-            songData={songData} 
+            songData={songData}
+            onError={(errorMessage) => {
+              addError(createError(
+                errorMessage,
+                ERROR_TYPES.SPOTIFY,
+                ERROR_SEVERITY.HIGH
+              ));
+            }}
           />
         ) : (
           <div style={{
@@ -817,7 +906,7 @@ export default function SongDetailClient({ songData, description, accessToken })
             color: '#fff',
             textAlign: 'center'
           }}>
-            <svg width="auto" height="30" viewBox="0 0 823.46 225.25" xmlns="http://www.w3.org/2000/svg" style={{ marginBottom: '15px' }}>
+            <svg width="100%" height="30" viewBox="0 0 823.46 225.25" xmlns="http://www.w3.org/2000/svg" style={{ marginBottom: '15px' }}>
               <defs>
                 <style>{`.cls-1{fill:#1ed760;stroke-width:0px;}`}</style>
               </defs>

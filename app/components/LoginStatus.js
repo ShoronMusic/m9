@@ -18,6 +18,25 @@ export default function LoginStatus() {
     );
   }
 
+  // セッションエラーがある場合
+  if (session?.error) {
+    return (
+      <div className={styles.container}>
+        <div className={styles.errorStatus}>
+          <div className={styles.errorText}>
+            認証エラーが発生しました。再ログインしてください。
+          </div>
+          <button 
+            onClick={() => signOut({ callbackUrl: '/auth/signin' })}
+            className={styles.retryButton}
+          >
+            再ログイン
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   if (session) {
     return (
       <div className={styles.container}>

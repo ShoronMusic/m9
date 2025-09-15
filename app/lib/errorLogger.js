@@ -27,6 +27,24 @@ class ErrorLogger {
 
   // デバイス情報取得
   getDeviceInfo() {
+    // SSR対応: navigatorが存在するかチェック
+    if (typeof navigator === 'undefined') {
+      return {
+        userAgent: '',
+        isMobile: false,
+        isTablet: false,
+        isDesktop: true,
+        screenWidth: 0,
+        screenHeight: 0,
+        viewportWidth: 0,
+        viewportHeight: 0,
+        language: '',
+        platform: '',
+        cookieEnabled: false,
+        onLine: true,
+      };
+    }
+    
     const userAgent = navigator.userAgent;
     const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
     const isTablet = /iPad|Android(?=.*\bMobile\b)/i.test(userAgent);
@@ -67,8 +85,8 @@ class ErrorLogger {
       severity: context.severity || 'error',
       context: {
         ...context,
-        pageTitle: document.title,
-        referrer: document.referrer,
+        pageTitle: typeof document !== 'undefined' ? document.title : '',
+        referrer: typeof document !== 'undefined' ? document.referrer : '',
         timestamp: Date.now(),
       },
     };
@@ -109,6 +127,11 @@ class ErrorLogger {
 
   // エラーキューをローカルストレージに保存
   saveErrorQueue() {
+    // SSR対応: localStorageが存在するかチェック
+    if (typeof localStorage === 'undefined') {
+      return;
+    }
+    
     try {
       localStorage.setItem('tunedive_error_queue', JSON.stringify(this.errorQueue));
     } catch (error) {
@@ -118,6 +141,12 @@ class ErrorLogger {
 
   // エラーキューをローカルストレージから復元
   loadErrorQueue() {
+    // SSR対応: localStorageが存在するかチェック
+    if (typeof localStorage === 'undefined') {
+      this.errorQueue = [];
+      return;
+    }
+    
     try {
       const saved = localStorage.getItem('tunedive_error_queue');
       if (saved) {

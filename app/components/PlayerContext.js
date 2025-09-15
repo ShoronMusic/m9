@@ -717,7 +717,9 @@ export const PlayerProvider = ({ children }) => {
     console.log('🔄 CONTINUOUS PLAY - playNext called', {
       trackListLength: trackList.length,
       currentTrackIndex,
-      currentTrack: currentTrack?.title || currentTrack?.name
+      currentTrack: currentTrack?.title || currentTrack?.name,
+      currentTrackId: currentTrack?.spotifyTrackId || currentTrack?.id,
+      stackTrace: new Error().stack?.split('\n').slice(0, 5)
     });
     
     if (trackList.length === 0) {
@@ -753,6 +755,12 @@ export const PlayerProvider = ({ children }) => {
     }
 
     const nextIndex = currentIndex + 1;
+    console.log('🔍 Next track calculation:', {
+      currentIndex,
+      nextIndex,
+      trackListLength: trackList.length,
+      willReachEnd: nextIndex >= trackList.length
+    });
 
     if (nextIndex >= trackList.length) {
       // 最後の曲ならonPageEnd
@@ -771,7 +779,9 @@ export const PlayerProvider = ({ children }) => {
     console.log('🔄 CONTINUOUS PLAY - Playing next track:', {
       nextIndex,
       nextTrack: nextTrack?.title || nextTrack?.name,
-      currentIndex
+      nextTrackId: nextTrack?.spotifyTrackId || nextTrack?.id,
+      currentIndex,
+      currentTrack: currentTrack?.title || currentTrack?.name
     });
     
     // 少し遅延してから次の曲を再生
@@ -789,6 +799,20 @@ export const PlayerProvider = ({ children }) => {
           nextIndex,
           nextTrackId: nextTrack?.spotifyTrackId || nextTrack?.id
         });
+      }
+      
+      // 新しい曲をSpotifyで再生
+      if (spotifyPlayerRef.current && spotifyPlayerRef.current.playNewTrack) {
+        const spotifyTrackId = nextTrack?.spotifyTrackId || nextTrack?.id;
+        if (spotifyTrackId) {
+          console.log('🎵 CONTINUOUS PLAY - Calling playNewTrack for next track:', {
+            spotifyTrackId,
+            trackName: nextTrack?.title || nextTrack?.name
+          });
+          spotifyPlayerRef.current.playNewTrack(spotifyTrackId);
+        } else {
+          console.warn('⚠️ CONTINUOUS PLAY - No Spotify track ID found for next track:', nextTrack);
+        }
       }
       
       // 視聴履歴追跡を開始
