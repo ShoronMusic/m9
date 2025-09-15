@@ -76,12 +76,6 @@ export default function CreatePlaylistModal({
       });
       
       // デバッグ用ログ
-      console.log('🎯 プレイリスト並び替え結果 (更新順):', sorted.map(p => ({
-        name: p.name,
-        last_track_added_at: p.last_track_added_at,
-        updated_at: p.updated_at,
-        created_at: p.created_at
-      })));
       
       return sorted;
     } else if (sortType === 'name') {
@@ -142,13 +136,6 @@ export default function CreatePlaylistModal({
       setSuccess(null);
 
       // トラックデータを準備
-      console.log('=== FRONTEND: handleAddToExistingPlaylist called ===');
-      console.log('trackToAdd object:', trackWithVocals);
-      console.log('trackToAdd.title:', trackWithVocals.title);
-      console.log('trackToAdd.title?.rendered:', trackWithVocals.title?.rendered);
-      console.log('trackToAdd.name:', trackWithVocals.name);
-      console.log('trackToAdd.id:', trackWithVocals.id);
-      console.log('trackToAdd.song_id:', trackWithVocals.song_id);
       
       // track_nameがundefinedの場合は、artistsから曲名を構築
       let trackName = trackWithVocals.title?.rendered || trackWithVocals.title || trackWithVocals.name;
@@ -305,8 +292,6 @@ export default function CreatePlaylistModal({
         content: trackWithVocals.content?.rendered || trackWithVocals.content || null
       };
 
-      console.log('Prepared trackData:', trackData);
-      console.log('Adding track to existing playlist:', { playlistId, trackData });
 
       const response = await fetch(`/api/playlists/${playlistId}/tracks`, {
         method: 'POST',
@@ -316,30 +301,18 @@ export default function CreatePlaylistModal({
         body: JSON.stringify(trackData),
       });
 
-      console.log('API Response received:', {
-        ok: response.ok,
-        status: response.status,
-        statusText: response.statusText
-      });
 
       if (!response.ok) {
         const errorData = await response.json();
         
-        console.log('API Response Error Details:', {
-          status: response.status,
-          statusText: response.statusText,
-          errorData: errorData
-        });
         
         // 重複トラックの場合は特別な処理
         if (response.status === 409) {
-          console.log('Handling duplicate track error (409)');
           setError(errorData.message || 'この曲は既にプレイリストに追加されています');
           return;
         }
         
         // その他のエラーの場合
-        console.log('Handling other error');
         let errorMessage = '曲の追加に失敗しました';
         
         if (errorData.message) {
@@ -358,9 +331,7 @@ export default function CreatePlaylistModal({
       }
 
       // 成功時の処理
-      console.log('Processing successful response');
       const result = await response.json();
-      console.log('Track added successfully:', result);
       
       // 成功メッセージを表示
       setError(null);
@@ -371,10 +342,8 @@ export default function CreatePlaylistModal({
       
       // 成功時の処理
       if (onAddToPlaylist) {
-        console.log('Calling onAddToPlaylist callback');
         try {
           await onAddToPlaylist(trackWithVocals, playlistId);
-          console.log('onAddToPlaylist callback completed successfully');
         } catch (callbackError) {
           console.error('Error in onAddToPlaylist callback:', callbackError);
           // コールバックでエラーが発生しても、トラック追加自体は成功しているので
@@ -385,7 +354,6 @@ export default function CreatePlaylistModal({
       
       // 少し待ってから閉じる（成功メッセージを見せるため）
       setTimeout(() => {
-        console.log('Closing modal after success');
         handleClose();
       }, 1000);
       

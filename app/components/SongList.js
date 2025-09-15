@@ -139,7 +139,6 @@ function formatYearMonth(dateStr) {
 
 function determineArtistOrder(song) {
   // デバッグ用ログ
-  console.log('🎯 SongList determineArtistOrder song:', song);
   
   // spotify_artistsの順番を最優先
   const spotifyArtists = song.acf?.spotify_artists || song.custom_fields?.spotify_artists;
@@ -147,7 +146,6 @@ function determineArtistOrder(song) {
   if (spotifyArtists) {
     // 文字列の場合（カンマ区切り）
     if (typeof spotifyArtists === 'string') {
-      console.log('🎯 SongList using spotify_artists string:', spotifyArtists);
       
       // 既存のartists配列がある場合は、spotify_artistsの順番に従って並び替え
       if (Array.isArray(song.artists) && song.artists.length > 0) {
@@ -904,13 +902,6 @@ export default function SongList({
 
       // サムネイルURLを取得（getThumbnailUrl関数を使用）
       const thumbnailUrl = getThumbnailUrl(track);
-      console.log('🎯 SongList addTrackToPlaylist - Original track thumbnail fields:', {
-        thumbnail: track.thumbnail,
-        'acf.thumbnail_url': track.acf?.thumbnail_url,
-        thumbnail_url: track.thumbnail_url,
-        featured_media_url: track.featured_media_url
-      });
-      console.log('🎯 SongList addTrackToPlaylist - Final thumbnailUrl:', thumbnailUrl);
 
       // 公開年月を取得
       let releaseDate = null;
@@ -1005,7 +996,6 @@ export default function SongList({
         let spotifyArtistsData = track.spotify_artists || track.acf?.spotify_artists;
         
         if (spotifyArtistsData) {
-          console.log('🎯 SongList addTrackToPlaylist - Using spotify_artists as fallback:', spotifyArtistsData);
           if (typeof spotifyArtistsData === 'string') {
             // 文字列の場合はそのまま使用
             formattedArtists = [{
@@ -1056,8 +1046,6 @@ export default function SongList({
         }];
       }
       
-      console.log('🎯 SongList addTrackToPlaylist - Formatted artists:', formattedArtists);
-      console.log('🎯 SongList addTrackToPlaylist - JSON.stringify(formattedArtists):', JSON.stringify(formattedArtists));
 
       const requestData = {
         // 基本項目（必須）

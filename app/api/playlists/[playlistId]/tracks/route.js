@@ -285,47 +285,11 @@ export async function POST(request, { params }) {
       vocal_data
     } = trackData;
     
-    console.log('🎯 API - Track data received:', { 
-      track_id, 
-      title, 
-      title_slug,
-      artists, 
-      song_id, 
-      spotify_track_id, 
-      thumbnail_url, 
-      video_id,
-      style_id, 
-      style_name, 
-      style_slug,
-      release_date,
-      genre_id, 
-      genre_name,
-      genre_slug,
-      vocal_id, 
-      vocal_name, 
-      is_favorite,
-      spotify_images,
-      spotify_artists,
-      artist_slug,
-      artist_order,
-      content,
-      // 新しい複数情報フィールド
-      genre_data,
-      style_data,
-      vocal_data
-    });
     
-    // アーティスト情報の詳細デバッグと修正
-    console.log('🎯 API - Artists field analysis:');
-    console.log('🎯 API - artists type:', typeof artists);
-    console.log('🎯 API - artists value:', artists);
-    console.log('🎯 API - artists isArray:', Array.isArray(artists));
-    console.log('🎯 API - spotify_artists value:', spotify_artists);
     
     // artistsがnullまたは空の場合、spotify_artistsを使用
     let finalArtists = artists;
     if (!finalArtists && spotify_artists) {
-      console.log('🎯 API - Using spotify_artists as fallback for artists field');
       try {
         // spotify_artistsが文字列の場合、JSON配列に変換
         if (typeof spotify_artists === 'string') {
@@ -352,19 +316,14 @@ export async function POST(request, { params }) {
             }]);
           }
         }
-        console.log('🎯 API - Final artists after spotify_artists fallback:', finalArtists);
       } catch (error) {
-        console.log('🎯 API - Error processing spotify_artists fallback:', error.message);
       }
     }
     
     if (typeof finalArtists === 'string') {
-      console.log('🎯 API - artists is string, attempting JSON.parse...');
       try {
         const parsedArtists = JSON.parse(finalArtists);
-        console.log('🎯 API - Parsed artists:', parsedArtists);
       } catch (error) {
-        console.log('🎯 API - Failed to parse artists as JSON:', error.message);
       }
     }
     
@@ -377,7 +336,6 @@ export async function POST(request, { params }) {
           finalTrackName = parsedArtists.map(artist => artist.name).join(', ');
         }
       } catch (error) {
-        console.log('🎯 API - Error parsing finalArtists for title construction:', error.message);
       }
     }
     
@@ -493,11 +451,9 @@ export async function POST(request, { params }) {
       content: content || null
     };
    
-    console.log('Track insert data for database:', trackInsertData);
 
     // [POST] DB保存直前のvocal_data
     if (request.method === 'POST') {
-      console.log('[DEBUG][API][POST] DB保存直前 vocal_data:', trackInsertData.vocal_data, 'typeof:', typeof trackInsertData.vocal_data, 'isArray:', Array.isArray(trackInsertData.vocal_data));
     }
 
     // トラックを追加
@@ -577,11 +533,9 @@ export async function POST(request, { params }) {
       }, { status: 500 });
     }
     
-    console.log('Track added successfully:', trackResult);
 
     // [POST] DB保存直後のvocal_data（result/insertedRowなど）
     if (request.method === 'POST' && trackResult) {
-      console.log('[DEBUG][API][POST] DB保存直後 vocal_data:', trackResult.vocal_data, 'typeof:', typeof trackResult.vocal_data, 'isArray:', Array.isArray(trackResult.vocal_data));
     }
     
     return Response.json({ 
