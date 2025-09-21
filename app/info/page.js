@@ -77,7 +77,7 @@ export default function Info() {
 					<section className={styles.infoSection}>
 						<h2><i className="fas fa-water" style={{color:'#06b6d4'}}></i> Dive Deeper into Spotify Music</h2>
 						<p>
-							<b>TuneDive</b>は、Spotifyユーザーのための深堀音楽発見サイトです。<br />
+							<b>TuneDive</b>はSpotifyユーザーのための深堀音楽発見サイトです。<br />
 							既存のSpotifyプレイリストを超えた音楽体験を提供し、あなたの音楽の世界をより深く、より広く広げます。<br />
 							音楽の深層に潜り、新しいアーティスト、新しいジャンル、新しい発見を体験してください。<br />
 							「音楽の深層に潜る」というコンセプトのもと、Spotifyの豊富な楽曲ライブラリを活用しながら、より深い音楽探求の旅をお楽しみいただけます。
