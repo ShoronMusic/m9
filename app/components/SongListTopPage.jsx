@@ -321,6 +321,16 @@ export default function SongListTopPage({
 	const { data: session } = useSession();
 	const spotifyAccessToken = accessToken || session?.accessToken;
 
+	// プレイヤー状態のログ出力（開発時のみ、かつ楽曲変更時のみ）
+	useEffect(() => {
+		if (process.env.NODE_ENV === 'development' && currentTrack) {
+			console.log('🎵 [SongListTopPage] Track changed:', {
+				title: currentTrack.title?.rendered || currentTrack.title,
+				isPlaying: isPlayerPlaying
+			});
+		}
+	}, [currentTrack?.id, isPlayerPlaying]);
+
 	// スマホ時のアクティブ楽曲スクロール用
 	const [isMobile, setIsMobile] = useState(false);
 	const activeSongRef = useRef(null);
@@ -479,13 +489,25 @@ export default function SongListTopPage({
 
 	// サムネイルクリック時の処理
 	const handleThumbnailClick = (song, index) => {
+		console.log('🎵 [SongListTopPage] handleThumbnailClick called:', {
+			songId: song.id,
+			songTitle: song.title?.rendered || song.title,
+			spotifyTrackId: song.spotifyTrackId || song.acf?.spotify_track_id,
+			index,
+			hasSession: !!session,
+			hasAccessToken: !!accessToken,
+			timestamp: new Date().toISOString()
+		});
+		
 		// ログイン前はログインを促す
 		if (!session || !accessToken) {
+			console.log('🎵 [SongListTopPage] No session/access token, showing login modal');
 			setSelectedSongForLogin(song);
 			setIsLoginModalVisible(true);
 			return;
 		}
 		
+		console.log('🎵 [SongListTopPage] Calling onTrackPlay with song and index:', { song, index });
 		onTrackPlay(song, index);
 	};
 

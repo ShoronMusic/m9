@@ -305,8 +305,22 @@ export default function TopPageClient({ topSongsData = [], accessToken = null })
 
 	// 曲再生管理（PlayerContextを使用）
 	const handleTrackPlay = useCallback((song, index) => {
+		console.log('🎵 [TopPageClient] handleTrackPlay called:', {
+			songId: song.id,
+			songTitle: song.title?.rendered || song.title,
+			spotifyTrackId: song.spotifyTrackId || song.acf?.spotify_track_id,
+			index,
+			timestamp: new Date().toISOString()
+		});
+		
 		// allSongsから正しいインデックスを探す
 		const globalIndex = allSongs.findIndex(s => s.id === song.id);
+		console.log('🎵 [TopPageClient] Global index found:', {
+			globalIndex,
+			totalSongs: allSongs.length,
+			songFound: globalIndex !== -1
+		});
+		
 		playTrack(song, globalIndex, allSongs, 'top-page');
 	}, [playTrack, allSongs]);
 
